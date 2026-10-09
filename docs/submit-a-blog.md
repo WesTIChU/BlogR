@@ -1,42 +1,26 @@
 ---
 title: Submit a Blog
-description: Suggest an independent blog or personal website for the directory.
+description: Suggest a smaller, independent blog or personal website for BlogR.
 ---
-
-<script setup>
-const githubIssueUrl =
-  'https://github.com/WesTIChU/BlogR/issues/new?template=submit-blog.yml'
-const submissionEmail = (import.meta.env.VITE_SUBMISSION_EMAIL || '').trim()
-const emailUrl = submissionEmail
-  ? `mailto:${submissionEmail}?subject=${encodeURIComponent('Blog submission')}&body=${encodeURIComponent('Blog name:\nBlog URL:\nShort description:\nSuggested category:\nAdditional notes:\n')}`
-  : ''
-</script>
 
 # ► Submit a Blog
 
-Know an independent blog or personal website that belongs in the directory? Send it over for consideration.
+Know a brilliant little blog that deserves more attention? Send it our way.
 
-Good fits include personal blogs, niche websites, independent creators, small projects with real thought behind them, and communities that feel alive.
+BlogR is about discovering smaller, independent websites, personal writing, niche interests, and people who share things simply because they enjoy it.
 
-Please include the website URL, its name, a short description, and the category that best fits it. Every submission is reviewed manually and nothing is published automatically.
+We're especially interested in lesser-known blogs that might otherwise get overlooked. You don't need thousands of readers, a professional design, or a team behind you. Just something interesting to share.
+
+**What we don't accept:** Big commercial publishers, established media outlets, paywalled blogs, sales-focused websites, promotional content, or content farms.
+
+A few adverts, affiliate links, or a donation button are fine, provided the writing comes first.
+
+Every submission is reviewed manually. **Inclusion isn't guaranteed.**
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 
 ## Submit via GitHub
 
-<a :href="githubIssueUrl">Open the GitHub Issue Form</a>
+[Open the GitHub Issue Form](https://github.com/WesTIChU/BlogR/issues/new?template=submit-blog.yml)
 
-You’ll need a GitHub account. The form asks for the blog name and URL, with optional description, category, and notes fields.
-
-<div v-if="emailUrl">
-
-## Submit via Email
-
-<a :href="emailUrl">Open a pre-filled email</a>
-
-</div>
-
-<p v-else class="submission-email-not-configured">
-Email submissions are not currently configured. A maintainer can set
-<code>VITE_SUBMISSION_EMAIL</code> in the site build environment to enable this option.
-</p>
+You'll need a GitHub account. Include the blog's name and URL, along with any other useful details.

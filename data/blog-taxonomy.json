@@ -122,11 +122,15 @@
           "title": "Design & Creative Projects",
           "match": "creative|design|pixel|visual|retro satire|data art"
         },
-        { "title": "Music", "match": "music|song|guitar|instrument" },
         {
           "title": "Film, TV & Theatre",
           "match": "film|movie|theatre|television|tv|entertainment"
         },
+        {
+          "title": "Gaming",
+          "match": "game|gaming|rpg|mario|retro"
+        },
+        { "title": "Music", "match": "music|song|guitar|instrument" },
         {
           "title": "Photography & Street Art",
           "match": "photo|photography|street art|mural|.*"
@@ -138,10 +142,6 @@
       "title": "Lifestyle & Hobbies",
       "description": "Personal interests, hobbies, practical projects, and ways of living.",
       "subsections": [
-        {
-          "title": "Gaming & Retro Games",
-          "match": "game|gaming|rpg|mario|retro"
-        },
         { "title": "Cooking & Recipes", "match": "food|cook|recipe|baking" },
         {
           "title": "Gardening & DIY",

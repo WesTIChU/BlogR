@@ -118,6 +118,7 @@ test('search component retains modal, keyboard, navigation, excerpt, and mobile 
 test('representative generated pages retain anchors and links', async () => {
   const checks = [
     ['collections/arts-and-entertainment.html', 'comics-illustration', true],
+    ['collections/arts-and-entertainment.html', 'gaming', true],
     ['resources/blogging-platforms.html', 'hosted-platforms', true],
     ['communities/online-communities.html', 'forums', true],
     ['recently-added.html', 'Recently Added', false]

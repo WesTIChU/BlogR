@@ -42,13 +42,17 @@ Travel stories, outdoor adventures, walking, and exploration.
 
 * <BlogHealthLink name="Coastal Walker" url="https://coastalwalker.co.uk/" :favourite="true" /> - Coastal walks and routes.<BlogLastUpdated url="https://coastalwalker.co.uk/" />
 * <BlogHealthLink name="Dan Flying Solo" url="https://www.danflyingsolo.com" :favourite="false" /> - Travel and photography.<BlogLastUpdated url="https://www.danflyingsolo.com" />
+* <BlogHealthLink name="Disney Parks Blog" url="https://disneyparksblog.com/" :favourite="false" /> - Official Disney blog covering Disneyland, Walt Disney World, Disney Cruise Line, park announcements, attractions, events and behind-the-scenes stories.<BlogLastUpdated url="https://disneyparksblog.com/" />
+* <BlogHealthLink name="Disney Tourist Blog" url="https://www.disneytouristblog.com/" :favourite="false" /> - Independent Disney travel blog featuring theme park planning guides, resort and dining reviews, photography, money-saving tips and Disney news.<BlogLastUpdated url="https://www.disneytouristblog.com/" />
 * <BlogHealthLink name="Glasgow Gallivanter" url="https://glasgowgallivanter.com/" :favourite="false" /> - Exploring Glasgow.<BlogLastUpdated url="https://glasgowgallivanter.com/" />
 * <BlogHealthLink name="Legal Nomads" url="https://www.legalnomads.com/blog/" :favourite="false" /> - Travel, food, and culture.<BlogLastUpdated url="https://www.legalnomads.com/blog/" />
 * <BlogHealthLink name="Nomadic Matt" url="https://www.nomadicmatt.com/travel-blog/" :favourite="false" /> - Budget travel tips.<BlogLastUpdated url="https://www.nomadicmatt.com/travel-blog/" />
+* <BlogHealthLink name="People Mover Travel Blog" url="https://www.peoplemovertravel.com/blog" :favourite="false" /> - Travel planning blog featuring Disney destinations, theme park guides, Disney cruises, resort reviews and family holiday advice.<BlogLastUpdated url="https://www.peoplemovertravel.com/blog" />
 * <BlogHealthLink name="Randomwire" url="https://randomwire.com" :favourite="false" /> - Asia travel and culture.<BlogLastUpdated url="https://randomwire.com" />
 * <BlogHealthLink name="Retired Martin" url="https://retiredmartin.com/" :favourite="false" /> - Travels around Britain and beyond, exploring pubs, places, live music and everyday life.<BlogLastUpdated url="https://retiredmartin.com/" />
 * <BlogHealthLink name="The Blonde Abroad" url="https://www.theblondeabroad.com" :favourite="false" /> - Solo female travel.<BlogLastUpdated url="https://www.theblondeabroad.com" />
 * <BlogHealthLink name="The Culture Trip" url="https://www.theculturetrip.com" :favourite="false" /> - Global travel and culture.<BlogLastUpdated url="https://www.theculturetrip.com" />
+* <BlogHealthLink name="The Happiest Blog on Earth" url="https://thehappiestblogonearth.com/" :favourite="false" /> - Disney vacation planning blog featuring theme park tips, itineraries, attraction guides and advice for visiting Disneyland and Walt Disney World.<BlogLastUpdated url="https://thehappiestblogonearth.com/" />
 * <BlogHealthLink name="Two Wandering Soles" url="https://www.twowanderingsoles.com" :favourite="false" /> - Budget travel guides.<BlogLastUpdated url="https://www.twowanderingsoles.com" />
 
 ## Travel Diaries

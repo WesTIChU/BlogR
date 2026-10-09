@@ -104,6 +104,111 @@ export function extractSuggestedSubcategory(notes) {
   return suggestion
 }
 
+const normalizeSubcategoryTitle = (value) => value.trim().replace(/\s+/g, ' ')
+
+export function validateSuggestedSubcategory(value) {
+  const title = normalizeSubcategoryTitle(value)
+  if (
+    !title ||
+    title.length > 80 ||
+    !/^[\p{L}\p{N}][\p{L}\p{N} &'’\-]*[\p{L}\p{N}]$/u.test(title)
+  ) {
+    throw new Error('Suggested subcategory contains an invalid name')
+  }
+  return title
+}
+
+const subcategoryKey = (value) =>
+  normalizeSubcategoryTitle(value).toLocaleLowerCase()
+
+const subcategoryMatch = (title) =>
+  [...new Set(title.toLocaleLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [])]
+    .map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+    .join('|') || '.*'
+
+export function applySuggestedSubcategory(taxonomy, submission) {
+  const nextTaxonomy = structuredClone(taxonomy)
+  if (!submission.suggestedSubcategory) {
+    return {
+      taxonomy: nextTaxonomy,
+      submission: { ...submission },
+      status: 'none'
+    }
+  }
+
+  const category = nextTaxonomy.categories.find(
+    ({ slug }) => slug === submission.category
+  )
+  if (!category) throw new Error('Invalid main category')
+
+  const title = validateSuggestedSubcategory(submission.suggestedSubcategory)
+  const existing = (category.subsections ?? []).find(
+    ({ title: existingTitle }) =>
+      subcategoryKey(existingTitle) === subcategoryKey(title)
+  )
+  if (existing) {
+    return {
+      taxonomy: nextTaxonomy,
+      submission: { ...submission, subcategory: existing.title },
+      status: 'reused'
+    }
+  }
+
+  category.subsections ??= []
+  category.subsections.push({ title, match: subcategoryMatch(title) })
+  return {
+    taxonomy: nextTaxonomy,
+    submission: { ...submission, subcategory: title },
+    status: 'created',
+    subsection: { title, match: subcategoryMatch(title) }
+  }
+}
+
+function matchingBracket(text, openingIndex) {
+  let depth = 0
+  let inString = false
+  let escaped = false
+  for (let index = openingIndex; index < text.length; index += 1) {
+    const character = text[index]
+    if (inString) {
+      if (escaped) escaped = false
+      else if (character === '\\') escaped = true
+      else if (character === '"') inString = false
+      continue
+    }
+    if (character === '"') inString = true
+    else if (character === '[') depth += 1
+    else if (character === ']' && --depth === 0) return index
+  }
+  throw new Error('Could not locate taxonomy subsection list')
+}
+
+export function insertSubcategoryInTaxonomyText(
+  text,
+  categorySlug,
+  subsection
+) {
+  const slugIndex = text.indexOf(`"slug": ${JSON.stringify(categorySlug)}`)
+  if (slugIndex === -1) throw new Error('Could not locate taxonomy category')
+  const subsectionKey = text.indexOf('"subsections": [', slugIndex)
+  if (subsectionKey === -1)
+    throw new Error('Could not locate taxonomy subsections')
+  const openingIndex = text.indexOf('[', subsectionKey)
+  const closingIndex = matchingBracket(text, openingIndex)
+  const closingLineStart = text.lastIndexOf('\n', closingIndex) + 1
+  const indentation = text.slice(closingLineStart, closingIndex)
+  const itemIndentation = `${indentation}  `
+  const item = [
+    `${itemIndentation}{`,
+    `${itemIndentation}  "title": ${JSON.stringify(subsection.title)},`,
+    `${itemIndentation}  "match": ${JSON.stringify(subsection.match)}`,
+    `${itemIndentation}}`
+  ].join('\n')
+  let prefix = text.slice(0, closingIndex).replace(/[ \t\r\n]+$/, '')
+  if (!prefix.endsWith('[') && !prefix.endsWith(',')) prefix += ','
+  return `${prefix}\n${item}\n${indentation}${text.slice(closingIndex)}`
+}
+
 function isPrivateIpv4(hostname) {
   const parts = hostname.split('.').map(Number)
   if (parts.length !== 4 || parts.some((part) => !Number.isInteger(part)))
@@ -271,10 +376,11 @@ export function pullRequestDetails(
   issueNumber,
   branch,
   base,
-  suggestedSubcategory
+  suggestedSubcategory,
+  suggestedSubcategoryStatus = 'none'
 ) {
   const suggestionSection = suggestedSubcategory
-    ? `### Suggested subcategory for review\n\n**${suggestedSubcategory}**\n\nThis is a proposal only; no subcategory was added automatically.`
+    ? `### Suggested subcategory (${suggestedSubcategoryStatus})\n\n**${suggestedSubcategory}**\n\nThe subcategory was ${suggestedSubcategoryStatus === 'created' ? 'added to the official taxonomy and assigned to this blog' : 'matched to an existing taxonomy entry and assigned to this blog'}.`
     : '### Suggested subcategory for review\n\nNo suggested subcategory was provided.'
   return {
     title: `Add blog: ${entry.name}`,
@@ -338,16 +444,24 @@ async function run() {
     throw new Error('Issue is not an open approved blog submission')
   }
 
-  const taxonomy = JSON.parse(
-    await readFile(resolve('data/blog-taxonomy.json'), 'utf8')
+  const taxonomyText = await readFile(
+    resolve('data/blog-taxonomy.json'),
+    'utf8'
   )
+  const taxonomy = JSON.parse(taxonomyText)
   const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
   validateBlogs(blogs)
-  const submission = validateSubmission(
+  const parsedSubmission = validateSubmission(
     parseIssueForm(issue.body),
     blogs,
     taxonomy
   )
+  const {
+    taxonomy: nextTaxonomy,
+    submission,
+    status: suggestedSubcategoryStatus,
+    subsection
+  } = applySuggestedSubcategory(taxonomy, parsedSubmission)
   const branch = submissionBranch(issueNumber)
   const repositoryInfo = await apiRequest(token, `/repos/${owner}/${repo}`)
   const existingPrs = await apiRequest(
@@ -374,9 +488,24 @@ async function run() {
     resolve('data/blogs.json'),
     `${JSON.stringify(nextBlogs, null, 2)}\n`
   )
+  const generated = [...catalogueFiles(nextTaxonomy)]
+  if (suggestedSubcategoryStatus === 'created') {
+    await writeFile(
+      resolve('data/blog-taxonomy.json'),
+      insertSubcategoryInTaxonomyText(
+        taxonomyText,
+        submission.category,
+        subsection
+      )
+    )
+    await exec(process.execPath, ['scripts/generate-submission-form.js'])
+    generated.push(
+      'data/blog-taxonomy.json',
+      '.github/ISSUE_TEMPLATE/submit-blog.yml'
+    )
+  }
   await exec(process.execPath, ['scripts/generate-blog-pages.js'])
 
-  const generated = catalogueFiles(taxonomy)
   await exec('git', ['add', '--', ...generated])
   const { stdout: staged } = await exec('git', [
     'diff',
@@ -403,7 +532,8 @@ async function run() {
     issueNumber,
     branch,
     repositoryInfo.default_branch,
-    submission.suggestedSubcategory
+    submission.suggestedSubcategory,
+    suggestedSubcategoryStatus
   )
   const pullRequest = await apiRequest(token, `/repos/${owner}/${repo}/pulls`, {
     method: 'POST',

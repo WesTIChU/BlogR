@@ -17,7 +17,6 @@ Travel stories, outdoor adventures, walking, and exploration.
 ## Camping & Outdoor Life
 
 * <BlogHealthLink name="Road to the Sea" url="https://roadtothesea.com/" :favourite="true" /> - Stories about van life, outdoor travel and living on the road, with reflections on places and adventures.<BlogLastUpdated url="https://roadtothesea.com/" />
-* <BlogHealthLink name="Adventureite" url="https://adventureite.com/" :favourite="false" /> - Family outdoor travel.<BlogLastUpdated url="https://adventureite.com/" />
 * <BlogHealthLink name="Alastair Humphreys" url="https://www.alastairhumphreys.com/blog/" :favourite="false" /> - Adventure blog from Alastair Humphreys covering micro-adventures, running, expeditions, outdoor challenges, and accessible ways to explore nearby places.<BlogLastUpdated url="https://www.alastairhumphreys.com/blog/" />
 * <BlogHealthLink name="Alex in Wanderland" url="https://www.alexinwanderland.com" :favourite="false" /> - Personal travel stories and destination guides, sharing experiences, adventures and observations from trips around the world.<BlogLastUpdated url="https://www.alexinwanderland.com" />
 * <BlogHealthLink name="Dave’s Travel Pages" url="https://www.davestravelpages.com" :favourite="false" /> - Travel and cycling articles featuring destination guides, long-distance bicycle journeys and advice for independent travellers.<BlogLastUpdated url="https://www.davestravelpages.com" />

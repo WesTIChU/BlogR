@@ -30,6 +30,17 @@ const body = ({
 } = {}) =>
   `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Additional notes\n\n${notes}\n`
 
+const taxonomyWithoutFootball = () => {
+  const copy = structuredClone(taxonomy)
+  const category = copy.categories.find(
+    ({ slug }) => slug === 'lifestyle-and-hobbies'
+  )
+  category.subsections = category.subsections.filter(
+    ({ title }) => title !== 'Football & Sports'
+  )
+  return copy
+}
+
 test('parses a valid issue form and maps taxonomy choices', () => {
   const parsed = parseIssueForm(body())
   const submission = validateSubmission(parsed, blogs, taxonomy)
@@ -179,6 +190,7 @@ test('normal existing subcategories do not interpret additional notes as suggest
 })
 
 test('creates and assigns a new suggested subcategory without mutating the source taxonomy', () => {
+  const testTaxonomy = taxonomyWithoutFootball()
   const submission = validateSubmission(
     parseIssueForm(
       body({
@@ -188,15 +200,15 @@ test('creates and assigns a new suggested subcategory without mutating the sourc
       })
     ),
     blogs,
-    taxonomy
+    testTaxonomy
   )
-  const original = structuredClone(taxonomy)
-  const result = applySuggestedSubcategory(taxonomy, submission)
+  const original = structuredClone(testTaxonomy)
+  const result = applySuggestedSubcategory(testTaxonomy, submission)
   const category = result.taxonomy.categories.find(
     ({ slug }) => slug === 'lifestyle-and-hobbies'
   )
 
-  assert.deepEqual(taxonomy, original)
+  assert.deepEqual(testTaxonomy, original)
   assert.equal(result.status, 'created')
   assert.equal(result.submission.subcategory, 'Football & Sports')
   assert.deepEqual(category.subsections.at(-1), {
@@ -241,7 +253,7 @@ test('rejects unsafe or malformed suggested subcategory names', () => {
 })
 
 test('inserts a new taxonomy subsection without reformatting existing taxonomy text', () => {
-  const source = JSON.stringify(taxonomy, null, 2)
+  const source = JSON.stringify(taxonomyWithoutFootball(), null, 2)
   const updated = insertSubcategoryInTaxonomyText(
     source,
     'lifestyle-and-hobbies',

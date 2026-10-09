@@ -25,6 +25,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 * <BlogHealthLink name="Lab Muffin Beauty Science" url="https://labmuffin.com/" :favourite="false" /> - Chemistry-backed explanations of skincare, cosmetics, beauty products and common myths.<BlogLastUpdated url="https://labmuffin.com/" />
 * <BlogHealthLink name="Oilpressure" url="https://oilpressure.com/" :favourite="false" /> - IndyCar opinions, history, and race discussion.<BlogLastUpdated url="https://oilpressure.com/" />
 * <BlogHealthLink name="Playrface" url="https://playrface.co.uk/" :favourite="false" /> - Stories, history, and lesser-known sports from around the world.<BlogLastUpdated url="https://playrface.co.uk/" />
+* <BlogHealthLink name="The Celtic Blog" url="https://thecelticblog.com/" :favourite="false" /> - Independent Celtic FC supporters' blog covering club news, Scottish football, match analysis, transfers and opinion.<BlogLastUpdated url="https://thecelticblog.com/" />
 * <BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Living with less.<BlogLastUpdated url="https://www.theminimalists.com" />
 
 ## Gaming & Retro Games

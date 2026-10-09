@@ -313,7 +313,7 @@ export default defineConfig({
     },
     editLink: {
       pattern:
-        'https://github.com/WesTIChU/blogr.directory/edit/main/docs/:path',
+        'https://github.com/WesTIChU/BlogR/edit/main/docs/:path',
       text: '📝 Edit this page'
     },
     outline: 'deep',

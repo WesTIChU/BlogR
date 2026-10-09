@@ -36,44 +36,34 @@ import 'floating-vue/dist/style.css'
 const applySeasonalBranding = () => {
   const month = new Date().getMonth()
   const isJune = month === 5
-  const isOctober = month === 9
 
   document.documentElement.classList.toggle('june', isJune)
-  document.documentElement.classList.toggle('halloween', isOctober)
 
   const favicon = document.querySelector<HTMLLinkElement>("link[rel='icon']")
   if (favicon) {
-    favicon.href = isJune
-      ? '/june_icon.webp'
-      : isOctober
-        ? '/hall.png'
-        : '/blogr.ico'
-    favicon.type = isJune
-      ? 'image/webp'
-      : isOctober
-        ? 'image/png'
-        : 'image/x-icon'
+    favicon.href = isJune ? '/june_icon.webp' : '/blogr.ico'
+    favicon.type = isJune ? 'image/webp' : 'image/x-icon'
   }
 
   const alternateIcon = document.querySelector<HTMLLinkElement>(
     "link[rel='alternate icon']"
   )
   if (alternateIcon) {
-    alternateIcon.href = isOctober ? '/hall.png' : '/pwa_icon.png'
+    alternateIcon.href = '/pwa_icon.png'
   }
 
   const appleIcon = document.querySelector<HTMLLinkElement>(
     "link[rel='apple-touch-icon']"
   )
   if (appleIcon) {
-    appleIcon.href = isOctober ? '/hall.png' : '/pwa_icon.png'
+    appleIcon.href = '/pwa_icon.png'
   }
 
   const themeColor = document.querySelector<HTMLMetaElement>(
     "meta[name='theme-color']"
   )
   if (themeColor) {
-    themeColor.content = isOctober ? '#EA580C' : '#7bc5e4'
+    themeColor.content = '#7bc5e4'
   }
 }
 

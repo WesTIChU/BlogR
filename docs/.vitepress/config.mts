@@ -113,8 +113,7 @@ export default defineConfig({
              var mode = localStorage.getItem('vitepress-display-mode');
              var amoled = localStorage.getItem('vitepress-amoled-enabled') === 'true';
              var themeName = savedTheme || 'blogr-orange';
-             if (themeName === 'halloween') themeName = 'blogr-orange';
-            var varsJson = localStorage.getItem('vitepress-theme-vars');
+             var varsJson = localStorage.getItem('vitepress-theme-vars');
 
              if (!mode) mode = 'dark';
 

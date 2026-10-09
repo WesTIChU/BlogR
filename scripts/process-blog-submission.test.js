@@ -126,6 +126,17 @@ test('allows optional descriptions and suggestion placeholders without inventing
   assert.equal(entry.addedDate, '2026-10-09')
 })
 
+test('records the approval timestamp for Recently Added ordering', () => {
+  const submission = validateSubmission(parseIssueForm(body()), blogs, taxonomy)
+  const entry = buildBlogEntry(
+    submission,
+    '2026-10-09',
+    '2026-10-09T16:30:00.000Z'
+  )
+  assert.equal(entry.addedDate, '2026-10-09')
+  assert.equal(entry.addedAt, '2026-10-09T16:30:00.000Z')
+})
+
 test('extracts a suggested subcategory from additional notes without adding it', () => {
   const submission = validateSubmission(
     parseIssueForm(

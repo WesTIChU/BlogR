@@ -317,7 +317,7 @@ export function validateSubmission(submission, blogs, taxonomy) {
   }
 }
 
-export function buildBlogEntry(submission, addedDate) {
+export function buildBlogEntry(submission, addedDate, addedAt) {
   return {
     name: submission.name,
     url: submission.url,
@@ -328,7 +328,8 @@ export function buildBlogEntry(submission, addedDate) {
     recentlyAdded: true,
     favourite: false,
     noLongerUpdated: false,
-    addedDate
+    addedDate,
+    ...(addedAt ? { addedAt } : {})
   }
 }
 
@@ -480,8 +481,9 @@ async function run() {
     return
   }
 
-  const today = new Date().toISOString().slice(0, 10)
-  const entry = buildBlogEntry(submission, today)
+  const addedAt = new Date().toISOString()
+  const today = addedAt.slice(0, 10)
+  const entry = buildBlogEntry(submission, today, addedAt)
   const nextBlogs = appendBlogEntry(blogs, entry)
   await exec('git', ['checkout', '-b', branch])
   await writeFile(

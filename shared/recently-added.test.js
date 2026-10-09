@@ -62,6 +62,27 @@ test('sorts same-day additions by precise addedAt time and remains deterministic
   assert.deepEqual(second, first)
 })
 
+test('puts a newly approved same-day submission ahead of older same-day entries', () => {
+  const blogs = [
+    {
+      name: 'Existing same-day blog',
+      addedDate: '2026-10-09',
+      addedAt: '2026-10-09T09:49:21.549Z'
+    },
+    {
+      name: 'New submission',
+      addedDate: '2026-10-09',
+      addedAt: '2026-10-09T16:30:00.000Z'
+    }
+  ]
+  assert.deepEqual(
+    getRecentlyAddedBlogs(blogs, new Date('2026-10-09T17:00:00.000Z')).map(
+      ({ name }) => name
+    ),
+    ['New submission', 'Existing same-day blog']
+  )
+})
+
 test('keeps Recently Added independent of favourite status', () => {
   const blogs = [
     { name: 'Newer', addedDate: '2026-03-31', favourite: false },

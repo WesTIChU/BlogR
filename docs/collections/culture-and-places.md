@@ -32,6 +32,7 @@ Blogs about culture, history, places, local life, and the world around us.
 * <BlogHealthLink name="Shapers of the 80s" url="https://shapersofthe80s.com/what-the/" :favourite="false" /> - Archive exploring 1980s pop culture, music, design, media, personalities, and the stories behind the decade’s creative scene.<BlogLastUpdated url="https://shapersofthe80s.com/what-the/" />
 * <BlogHealthLink name="The Crete Fleet" url="https://thecretefleet.com/blog" :favourite="false" /> - Historical research into concrete ships and maritime heritage, exploring unusual vessels and their place in shipping history.<BlogLastUpdated url="https://thecretefleet.com/blog" />
 * <BlogHealthLink name="The Hazel Tree" url="https://thehazeltree.co.uk/" :favourite="false" /> - Personal blog by Jo Woolf about rural life, landscapes, walking, history, nature, and observations from the countryside.<BlogLastUpdated url="https://thehazeltree.co.uk/" />
+* <BlogHealthLink name="The History Blog" url="https://www.thehistoryblog.com/" :favourite="false" /> - History and archaeology blog covering discoveries, excavations, historical artefacts, cultural heritage and research from around the world.<BlogLastUpdated url="https://www.thehistoryblog.com/" />
 
 ## Language & Traditions
 

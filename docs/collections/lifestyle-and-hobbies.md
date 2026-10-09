@@ -16,6 +16,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 
 ## Collecting & Memorabilia
 
+* <BlogHealthLink name="Dinosaur Toy Blog" url="https://dinotoyblog.com/" :favourite="false" /> - Reviews of dinosaur figures, prehistoric animal models and collectable toys, with photographs, ratings and comparisons.<BlogLastUpdated url="https://dinotoyblog.com/" />
 * <BlogHealthLink name="Project Sword Toys" url="https://projectswordtoys.blogspot.com/" :favourite="false" /> - Research into Second World War toy soldiers, historical miniatures and the stories behind military-themed toys and collecting.<BlogLastUpdated url="https://projectswordtoys.blogspot.com/" />
 * <BlogHealthLink name="Super-DuperToyBox" url="https://super-dupertoybox.blogspot.com/" :favourite="false" /> - Articles about vintage toys, action figures and superhero collectibles, exploring designs, memorabilia and the history of popular playthings.<BlogLastUpdated url="https://super-dupertoybox.blogspot.com/" />
 

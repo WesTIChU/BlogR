@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import blogs from '../../../../data/blogs.json'
 import { PUBLIC_STATUS_COLORS } from '../../../../shared/blog-health-status.js'
 import InputField from './InputField.vue'
 import ToggleIndexes from './ToggleIndexes.vue'
@@ -48,6 +49,11 @@ const websiteStatuses = [
         <div class="website-status-label text-sm text-[var(--vp-c-text-2)]">
           {{ status.label }}
         </div>
+      </div>
+      <div class="sidebar-status-divider" aria-hidden="true"></div>
+      <div class="sidebar-total">
+        <span>Total Blogs</span>
+        <strong>{{ blogs.length }}</strong>
       </div>
       <!-- Keep the controls mounted and reversible, but temporarily hide them. -->
       <div class="sidebar-options" hidden>
@@ -114,6 +120,24 @@ const websiteStatuses = [
 
 .website-status-label {
   white-space: nowrap;
+}
+
+.sidebar-status-divider {
+  margin: 0.65rem 0 0.6rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.sidebar-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--vp-c-text-2);
+  font-size: 0.875rem;
+}
+
+.sidebar-total strong {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
 }
 
 .sidebar-credit {

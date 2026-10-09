@@ -13,9 +13,6 @@ const linkAttributes = computed(() => getBlogLinkAttributes(props.url))
 
 <template>
   <strong class="blog-health-link">
-    <span v-if="favourite" class="blog-favourite" aria-label="Favourite">
-      ⭐
-    </span>
     <a v-bind="linkAttributes" :href="url">{{ name }}</a>
   </strong>
 </template>
@@ -23,9 +20,5 @@ const linkAttributes = computed(() => getBlogLinkAttributes(props.url))
 <style scoped>
 .blog-health-link {
   display: inline;
-}
-
-.blog-favourite {
-  margin-right: 0.25em;
 }
 </style>

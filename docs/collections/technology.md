@@ -14,9 +14,15 @@ Independent writing about software, development, Linux, open source, and technol
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 
+## Creative Tools & Digital Projects
+
+* <BlogHealthLink name="Robin Sloan's Lab" url="https://www.robinsloan.com/lab/" :favourite="false" /> - Robin Sloan’s lab explores media, technology, creative computing, AI aesthetics, software experiments, and unusual digital projects.<BlogLastUpdated url="https://www.robinsloan.com/lab/" />
+
 ## Internet & Web Technology
 
 * <BlogHealthLink name="Geocities Institute" url="https://blog.geocities.institute/" :favourite="true" /> - Digital preservation project exploring the GeoCities archive, early personal websites, web history, and the culture of the old internet.<BlogLastUpdated url="https://blog.geocities.institute/" />
+* <BlogHealthLink name="Anderegg" url="https://anderegg.ca/" :favourite="false" /> - Gavin Anderegg writes about Apple software, technology, design frustrations, privacy, and personal observations from his independent website.<BlogLastUpdated url="https://anderegg.ca/" />
+* <BlogHealthLink name="Annoying Technology" url="https://annoying.technology/" :favourite="false" /> - A weblog where Manuel Grabowski and Philipp Defner document frustrations with software, apps, devices, and everyday technology.<BlogLastUpdated url="https://annoying.technology/" />
 * <BlogHealthLink name="Internet Archive Blog" url="https://blog.archive.org/" :favourite="false" /> - News and stories about digital preservation, online archives and efforts to keep books, websites and cultural materials accessible.<BlogLastUpdated url="https://blog.archive.org/" />
 * <BlogHealthLink name="The Overspill" url="https://theoverspill.blog/" :favourite="false" /> - Charles Arthur's commentary and curated links on technology, AI, digital media and the internet.<BlogLastUpdated url="https://theoverspill.blog/" />
 * <BlogHealthLink name="The Privacy Perspective" url="https://theprivacyperspective.wordpress.com/2026/04/04/the-privacy-perspective-to-revert-to-an-archive/" :favourite="false" /> - Commentary on digital privacy, technology and the ways online services and changing technology affect personal information.<BlogLastUpdated url="https://theprivacyperspective.wordpress.com/2026/04/04/the-privacy-perspective-to-revert-to-an-archive/" />
@@ -47,6 +53,7 @@ Independent writing about software, development, Linux, open source, and technol
 * <BlogHealthLink name="Android Essence" url="https://androidessence.com/posts/" :favourite="false" /> - Android software development tutorials covering Kotlin, application programming and practical engineering techniques for mobile developers.<BlogLastUpdated url="https://androidessence.com/posts/" />
 * <BlogHealthLink name="Bart Wronski" url="https://bartwronski.com/" :favourite="false" /> - Technical articles on computer graphics, rendering and image processing, exploring algorithms and the engineering behind visual effects.<BlogLastUpdated url="https://bartwronski.com/" />
 * <BlogHealthLink name="Better Programming" url="https://betterprogramming.pub" :favourite="false" /> - Medium dev content.<BlogLastUpdated url="https://betterprogramming.pub" />
+* <BlogHealthLink name="Chris Coyier" url="https://chriscoyier.net/" :favourite="false" /> - Chris Coyier writes about web design, development, WordPress, CodePen, CSS, creative projects, music, and everyday life.<BlogLastUpdated url="https://chriscoyier.net/" />
 * <BlogHealthLink name="CSS-Tricks" url="https://css-tricks.com" :favourite="false" /> - Web development publication covering HTML, CSS, JavaScript, frontend techniques, design, tools, and practical coding advice.<BlogLastUpdated url="https://css-tricks.com" />
 * <BlogHealthLink name="David Walsh" url="https://davidwalsh.name" :favourite="false" /> - Web development blog featuring practical tutorials and tips about JavaScript, HTML, CSS, PHP, WordPress, and related technologies.<BlogLastUpdated url="https://davidwalsh.name" />
 * <BlogHealthLink name="Davide Aversa" url="https://davideaversa.it/" :favourite="false" /> - Technical writing about game development, computer graphics and programming, exploring ideas and implementation challenges.<BlogLastUpdated url="https://davideaversa.it/" />
@@ -69,6 +76,7 @@ Independent writing about software, development, Linux, open source, and technol
 * <BlogHealthLink name="Smashing Magazine" url="https://www.smashingmagazine.com" :favourite="false" /> - Articles and tutorials on web design, frontend development, user experience and practical techniques for digital professionals.<BlogLastUpdated url="https://www.smashingmagazine.com" />
 * <BlogHealthLink name="Stuart Langridge" url="https://kryogenix.org" :favourite="false" /> - Personal essays about open-source software, programming and technology, mixing technical commentary with broader observations.<BlogLastUpdated url="https://kryogenix.org" />
 * <BlogHealthLink name="The Numb" url="https://thenumb.at/" :favourite="false" /> - Technical writing about algorithms, performance and low-level programming, exploring how software works under the hood.<BlogLastUpdated url="https://thenumb.at/" />
+* <BlogHealthLink name="Thomas Steiner's Blog" url="https://blog.tomayac.com/" :favourite="false" /> - Thomas Steiner’s blog covers web standards, Chrome, JavaScript, APIs, performance, open source, and experiments with emerging web technologies.<BlogLastUpdated url="https://blog.tomayac.com/" />
 * <BlogHealthLink name="Yuanchuan’s Blog" url="https://yuanchuan.dev/" :favourite="false" /> - Software engineering articles about backend systems, infrastructure and practical problems encountered while building applications.<BlogLastUpdated url="https://yuanchuan.dev/" />
 
 ## Self-Hosting & Homelabs

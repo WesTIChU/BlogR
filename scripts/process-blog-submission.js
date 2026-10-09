@@ -15,6 +15,21 @@ const IGNORED_SUBCATEGORIES = new Set([
   'Not sure / Let the editor decide',
   'Other / Suggest a subcategory'
 ])
+const REQUIRED_FORM_HEADINGS = [
+  '### Blog name',
+  '### Blog URL',
+  '### Main category'
+]
+
+export function isApprovedSubmissionEvent(event) {
+  const body = event?.issue?.body
+  return (
+    event?.label?.name === 'approved' &&
+    event?.issue?.state === 'open' &&
+    typeof body === 'string' &&
+    REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))
+  )
+}
 
 const cleanValue = (value, field, maxLength) => {
   if (typeof value !== 'string') throw new Error(`Missing ${field}`)
@@ -67,8 +82,26 @@ export function parseIssueForm(body) {
     description: description === '_No response_' ? '' : description,
     category: cleanValue(get('main category'), 'main category', 120),
     subcategory:
-      get('subcategory') === '_No response_' ? '' : get('subcategory')
+      get('subcategory') === '_No response_' ? '' : get('subcategory'),
+    notes: get('additional notes')
   }
+}
+
+export function extractSuggestedSubcategory(notes) {
+  if (typeof notes !== 'string') return null
+  const match = notes.match(
+    /(?:^|\r?\n)\s*(?:[-*]\s*)?Suggested subcategory\s*:\s*([^\r\n]+)/i
+  )
+  if (!match) return null
+
+  const suggestion = match[1].trim()
+  if (!suggestion || suggestion.length > 120) {
+    throw new Error('Suggested subcategory is missing or too long')
+  }
+  if (/[\u0000-\u001f\u007f<>`]/.test(suggestion)) {
+    throw new Error('Suggested subcategory contains unsupported content')
+  }
+  return suggestion
 }
 
 function isPrivateIpv4(hostname) {
@@ -148,6 +181,9 @@ export function validateSubmission(submission, blogs, taxonomy) {
 
   let subcategory
   const requestedSubcategory = (submission.subcategory ?? '').trim()
+  const suggestedSubcategory = IGNORED_SUBCATEGORIES.has(requestedSubcategory)
+    ? extractSuggestedSubcategory(submission.notes)
+    : null
   if (
     requestedSubcategory &&
     !IGNORED_SUBCATEGORIES.has(requestedSubcategory)
@@ -166,7 +202,14 @@ export function validateSubmission(submission, blogs, taxonomy) {
   if (duplicate)
     throw new Error(`Duplicate blog URL already exists: ${duplicate.name}`)
 
-  return { name, url, description, category: category.slug, subcategory }
+  return {
+    name,
+    url,
+    description,
+    category: category.slug,
+    subcategory,
+    ...(suggestedSubcategory ? { suggestedSubcategory } : {})
+  }
 }
 
 export function buildBlogEntry(submission, addedDate) {
@@ -210,12 +253,21 @@ export function catalogueFiles(taxonomy) {
   ]
 }
 
-export function pullRequestDetails(entry, issueNumber, branch, base) {
+export function pullRequestDetails(
+  entry,
+  issueNumber,
+  branch,
+  base,
+  suggestedSubcategory
+) {
+  const suggestionSection = suggestedSubcategory
+    ? `### Suggested subcategory for review\n\n**${suggestedSubcategory}**\n\nThis is a proposal only; no subcategory was added automatically.`
+    : '### Suggested subcategory for review\n\nNo suggested subcategory was provided.'
   return {
     title: `Add blog: ${entry.name}`,
     head: branch,
     base,
-    body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
+    body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}\n\n${suggestionSection}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
   }
 }
 
@@ -269,11 +321,7 @@ async function run() {
   const labels = issue.labels.map((label) =>
     typeof label === 'string' ? label : label.name
   )
-  if (
-    issue.state !== 'open' ||
-    !labels.includes('blog-submission') ||
-    !labels.includes('approved')
-  ) {
+  if (issue.state !== 'open' || !labels.includes('approved')) {
     throw new Error('Issue is not an open approved blog submission')
   }
 
@@ -341,7 +389,8 @@ async function run() {
     entry,
     issueNumber,
     branch,
-    repositoryInfo.default_branch
+    repositoryInfo.default_branch,
+    submission.suggestedSubcategory
   )
   const pullRequest = await apiRequest(token, `/repos/${owner}/${repo}/pulls`, {
     method: 'POST',

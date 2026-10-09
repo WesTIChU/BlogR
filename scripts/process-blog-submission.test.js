@@ -6,7 +6,9 @@ import {
   buildBlogEntry,
   catalogueFiles,
   existingSubmissionPullRequest,
+  extractSuggestedSubcategory,
   hasApprovalPermission,
+  isApprovedSubmissionEvent,
   parseIssueForm,
   pullRequestDetails,
   submissionBranch,
@@ -19,9 +21,10 @@ const body = ({
   url = 'https://example.com/',
   description = 'A concise independent blog.',
   category = 'Technology',
-  subcategory = 'Technology / Programming & Development'
+  subcategory = 'Technology / Programming & Development',
+  notes = ''
 } = {}) =>
-  `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n`
+  `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Additional notes\n\n${notes}\n`
 
 test('parses a valid issue form and maps taxonomy choices', () => {
   const parsed = parseIssueForm(body())
@@ -108,6 +111,68 @@ test('allows optional descriptions and suggestion placeholders without inventing
   assert.equal(entry.addedDate, '2026-10-09')
 })
 
+test('extracts a suggested subcategory from additional notes without adding it', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        subcategory: 'Other / Suggest a subcategory',
+        notes: 'Suggested subcategory: Football & Sports'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+  const entry = buildBlogEntry(submission, '2026-10-09')
+  assert.equal(submission.suggestedSubcategory, 'Football & Sports')
+  assert.equal('subcategory' in entry, false)
+  assert.equal('suggestedSubcategory' in entry, false)
+
+  const details = pullRequestDetails(
+    entry,
+    1,
+    'blog-submission/issue-1',
+    'main',
+    submission.suggestedSubcategory
+  )
+  assert.match(details.body, /Suggested subcategory for review/)
+  assert.match(details.body, /Football & Sports/)
+  assert.match(details.body, /proposal only/)
+})
+
+test('reports when Other was selected without a suggested subcategory', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({ subcategory: 'Other / Suggest a subcategory', notes: '' })
+    ),
+    blogs,
+    taxonomy
+  )
+  assert.equal(submission.suggestedSubcategory, undefined)
+  assert.equal(extractSuggestedSubcategory('Additional context only'), null)
+  const details = pullRequestDetails(
+    buildBlogEntry(submission, '2026-10-09'),
+    1,
+    'blog-submission/issue-1',
+    'main'
+  )
+  assert.match(details.body, /No suggested subcategory was provided/)
+})
+
+test('normal existing subcategories do not interpret additional notes as suggestions', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        notes: 'Suggested subcategory: Should be ignored',
+        subcategory: 'Technology / Programming & Development'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+  assert.equal(submission.subcategory, 'Programming & Development')
+  assert.equal(submission.suggestedSubcategory, undefined)
+})
+
 test('creates deterministic branches and linked pull request details', () => {
   const branch = submissionBranch(42)
   const details = pullRequestDetails(
@@ -139,6 +204,27 @@ test('only write-capable maintainers may approve submissions', () => {
   assert.equal(hasApprovalPermission({ permission: 'triage' }), false)
   assert.equal(hasApprovalPermission({ permission: 'read' }), false)
   assert.equal(hasApprovalPermission(null), false)
+})
+
+test('accepts the labeled event without requiring a missing form label', () => {
+  assert.equal(
+    isApprovedSubmissionEvent({
+      label: { name: 'approved' },
+      issue: {
+        state: 'open',
+        labels: [{ name: 'approved' }],
+        body: body()
+      }
+    }),
+    true
+  )
+  assert.equal(
+    isApprovedSubmissionEvent({
+      label: { name: 'approved' },
+      issue: { state: 'open', body: '### Blog name\n\nNot a complete form' }
+    }),
+    false
+  )
 })
 
 test('repeated approval events reuse the existing pull request', () => {

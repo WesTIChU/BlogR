@@ -17,7 +17,9 @@ jobs:
   process:
     if: >-
       github.event.label.name == 'approved' && github.event.issue.state ==
-      'open' && contains(github.event.issue.labels.*.name, 'blog-submission')
+      'open' && contains(github.event.issue.body, '### Blog name') &&
+      contains(github.event.issue.body, '### Blog URL') &&
+      contains(github.event.issue.body, '### Main category')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

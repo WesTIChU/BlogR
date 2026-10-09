@@ -17,54 +17,66 @@ const websiteStatuses = [
 </script>
 
 <template>
-  <div
-    class="bg-$vp-c-bg hover:bg-$vp-c-bg/40 border-$vp-c-default-soft hover:border-primary transition-border relative z-0 rounded-lg border-2 border-solid p-5 duration-500"
-  >
-    <div class="align-center mb-3 mt-0 flex justify-between">
-      <div class="text-$vp-c-text-1 lh-relaxed text-sm font-bold">
-        Website Status
-      </div>
-    </div>
+  <div>
     <div
-      v-for="status in websiteStatuses"
-      :key="status.label"
-      class="website-status-row"
+      class="bg-$vp-c-bg hover:bg-$vp-c-bg/40 border-$vp-c-default-soft hover:border-primary transition-border relative z-0 rounded-lg border-2 border-solid p-5 duration-500"
     >
-      <span
-        v-if="!status.starred"
-        class="website-status-dot"
-        :style="{ backgroundColor: status.color }"
-        aria-hidden="true"
-      ></span>
-      <span
-        v-else
-        class="website-status-star"
-        :style="{ color: status.color }"
-        aria-hidden="true"
-      >
-        ★
-      </span>
-      <div class="website-status-label text-sm text-[var(--vp-c-text-2)]">
-        {{ status.label }}
-      </div>
-    </div>
-    <!-- Keep the controls mounted and reversible, but temporarily hide them. -->
-    <div class="sidebar-options" hidden>
-      <div class="align-center mb-4 mt-4 flex justify-between">
+      <div class="align-center mb-3 mt-0 flex justify-between">
         <div class="text-$vp-c-text-1 lh-relaxed text-sm font-bold">
-          Options
+          Website Status
         </div>
       </div>
-      <InputField id="toggle-starred" label="Toggle Starred">
-        <template #display>
-          <ToggleStarred />
-        </template>
-      </InputField>
-      <InputField id="toggle-indexes" label="Toggle Indexes">
-        <template #display>
-          <ToggleIndexes />
-        </template>
-      </InputField>
+      <div
+        v-for="status in websiteStatuses"
+        :key="status.label"
+        class="website-status-row"
+      >
+        <span
+          v-if="!status.starred"
+          class="website-status-dot"
+          :style="{ backgroundColor: status.color }"
+          aria-hidden="true"
+        ></span>
+        <span
+          v-else
+          class="website-status-star"
+          :style="{ color: status.color }"
+          aria-hidden="true"
+        >
+          ★
+        </span>
+        <div class="website-status-label text-sm text-[var(--vp-c-text-2)]">
+          {{ status.label }}
+        </div>
+      </div>
+      <!-- Keep the controls mounted and reversible, but temporarily hide them. -->
+      <div class="sidebar-options" hidden>
+        <div class="align-center mb-4 mt-4 flex justify-between">
+          <div class="text-$vp-c-text-1 lh-relaxed text-sm font-bold">
+            Options
+          </div>
+        </div>
+        <InputField id="toggle-starred" label="Toggle Starred">
+          <template #display>
+            <ToggleStarred />
+          </template>
+        </InputField>
+        <InputField id="toggle-indexes" label="Toggle Indexes">
+          <template #display>
+            <ToggleIndexes />
+          </template>
+        </InputField>
+      </div>
+    </div>
+    <div class="sidebar-credit">
+      Powered by
+      <a
+        href="https://vitepress.dev/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        VitePress
+      </a>
     </div>
   </div>
 </template>
@@ -102,5 +114,17 @@ const websiteStatuses = [
 
 .website-status-label {
   white-space: nowrap;
+}
+
+.sidebar-credit {
+  margin-top: 0.5rem;
+  color: var(--vp-c-text-3);
+  font-size: 0.65rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.sidebar-credit a {
+  color: inherit;
 }
 </style>

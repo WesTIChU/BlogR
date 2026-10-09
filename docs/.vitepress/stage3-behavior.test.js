@@ -79,7 +79,8 @@ test('local search preserves category and subcategory results', async () => {
 test('search index retains result anchors and directory link metadata', async () => {
   const raw = await readSearchIndex()
   const metadata = raw.customMetadata
-  const entry = metadata['/collections/arts-and-creativity#comics-illustration']
+  const entry =
+    metadata['/collections/arts-and-entertainment#comics-illustration']
 
   assert.ok(entry)
   assert.ok(entry.l.includes('chaoslife'))
@@ -116,7 +117,7 @@ test('search component retains modal, keyboard, navigation, excerpt, and mobile 
 
 test('representative generated pages retain anchors and links', async () => {
   const checks = [
-    ['collections/arts-and-creativity.html', 'comics-illustration', true],
+    ['collections/arts-and-entertainment.html', 'comics-illustration', true],
     ['resources/blogging-platforms.html', 'hosted-platforms', true],
     ['communities/online-communities.html', 'forums', true],
     ['recently-added.html', 'Recently Added', false]

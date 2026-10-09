@@ -104,8 +104,8 @@ const discoverItems: DefaultTheme.NavItemWithLink[] = [
     link: '/collections/books-and-writing'
   },
   {
-    text: '<span class="i-twemoji-artist-palette"></span> Arts & Creativity',
-    link: '/collections/arts-and-creativity'
+    text: '<span class="i-twemoji-artist-palette"></span> Arts & Entertainment',
+    link: '/collections/arts-and-entertainment'
   },
   {
     text: '<span class="i-twemoji-potted-plant"></span> Lifestyle & Hobbies',

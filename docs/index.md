@@ -46,8 +46,8 @@ features:
     details: Books, literature, writing, and the craft of words.
   - title:
       '<span class="category-icon i-lucide:palette" aria-hidden="true"></span>
-      Arts & Creativity'
-    link: /collections/arts-and-creativity
+      Arts & Entertainment'
+    link: /collections/arts-and-entertainment
     details: Creative work, visual arts, music, design, and experiments.
   - title:
       '<span class="category-icon i-lucide:coffee" aria-hidden="true"></span>

@@ -30,9 +30,12 @@ Independent writing about software, development, Linux, open source, and technol
 
 ## Linux & Open Source
 
+* <BlogHealthLink name="9to5Linux" url="https://9to5linux.com/" :favourite="false" /> - Linux news publication covering distribution releases, desktop environments, open-source software, security updates, reviews and tutorials.<BlogLastUpdated url="https://9to5linux.com/" />
 * <BlogHealthLink name="DebugPoint" url="https://debugpoint.com" :favourite="false" /> - Linux guides and fixes.<BlogLastUpdated url="https://debugpoint.com" />
 * <BlogHealthLink name="It's FOSS" url="https://itsfoss.com" :favourite="false" /> - Linux tutorials.<BlogLastUpdated url="https://itsfoss.com" />
 * <BlogHealthLink name="Joost de Valk" url="https://joost.blog/" :favourite="false" /> - Web, SEO, and open source thoughts.<BlogLastUpdated url="https://joost.blog/" />
+* <BlogHealthLink name="LinuxBlog.io" url="https://linuxblog.io/" :favourite="false" /> - Linux and open-source blog featuring server administration tutorials, performance optimisation, security guides, command-line tips and homelab projects.<BlogLastUpdated url="https://linuxblog.io/" />
+* <BlogHealthLink name="LWN.net" url="https://lwn.net/" :favourite="false" /> - Independent Linux and free software publication featuring in-depth reporting on kernel development, open-source projects, security and the Linux community.<BlogLastUpdated url="https://lwn.net/" />
 * <BlogHealthLink name="OMG! Ubuntu!" url="https://www.omgubuntu.co.uk" :favourite="false" /> - Ubuntu news and tips.<BlogLastUpdated url="https://www.omgubuntu.co.uk" />
 * <BlogHealthLink name="Stuart Langridge" url="https://kryogenix.org" :favourite="false" /> - Open source and dev thoughts.<BlogLastUpdated url="https://kryogenix.org" />
 

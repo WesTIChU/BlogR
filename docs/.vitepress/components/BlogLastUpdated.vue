@@ -114,7 +114,7 @@ onMounted(() => {
 
 .blog-favourite {
   color: #facc15;
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1;
 }
 

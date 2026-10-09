@@ -35,6 +35,7 @@ Creative work, visual arts, music, design, and experimental projects.
 * <BlogHealthLink name="Cherry and Spoon" url="http://www.cherryandspoon.com/" :favourite="false" /> - Reviews of theatre productions and live performances, sharing opinions and impressions from the performing arts scene.<BlogLastUpdated url="http://www.cherryandspoon.com/" />
 * <BlogHealthLink name="Found Media Archive" url="https://found-media-archive.neocities.org/" :favourite="false" /> - Archive documenting the physical experience of forgotten media, including tapes, machines, formats, and the rituals surrounding old technology.<BlogLastUpdated url="https://found-media-archive.neocities.org/" />
 * <BlogHealthLink name="Tellyspotting" url="https://tellyspotting.kera.org/" :favourite="false" /> - News, reviews and commentary about British television, covering programmes, performers and developments in TV entertainment.<BlogLastUpdated url="https://tellyspotting.kera.org/" />
+* <BlogHealthLink name="The Film Blog" url="https://thefilm.blog/" :favourite="false" /> - Independent film reviews, cinema commentary and features covering new releases, classics and everything in between.<BlogLastUpdated url="https://thefilm.blog/" />
 
 ## Music
 

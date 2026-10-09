@@ -16,6 +16,7 @@ Blogs about books, literature, writing, and the craft of words.
 
 ## Book Reviews
 
+* <BlogHealthLink name="Anecdotal Evidence" url="https://evidenceanecdotal.blogspot.com/" :favourite="false" /> - Literary blog exploring books, authors, poetry, and wider questions about reading and culture.<BlogLastUpdated url="https://evidenceanecdotal.blogspot.com/" />
 * <BlogHealthLink name="Tony’s Reading List" url="https://tonysreadinglist.wordpress.com/" :favourite="false" /> - Book reviews and fiction.<BlogLastUpdated url="https://tonysreadinglist.wordpress.com/" />
 
 ## Creative Writing
@@ -25,7 +26,6 @@ Blogs about books, literature, writing, and the craft of words.
 
 ## Literature
 
-* <BlogHealthLink name="Anecdotal Evidence" url="https://evidenceanecdotal.blogspot.com/" :favourite="false" /> - Literary reflections.<BlogLastUpdated url="https://evidenceanecdotal.blogspot.com/" />
 * <BlogHealthLink name="Great War Fiction" url="https://greatwarfiction.wordpress.com/" :favourite="false" /> - WW1 literature, novels, and historical analysis.<BlogLastUpdated url="https://greatwarfiction.wordpress.com/" />
 * <BlogHealthLink name="The Stone and the Shell" url="https://tedunderwood.com/" :favourite="false" /> - Exploring literary history through digital libraries, computational methods, artificial intelligence and cultural analysis.<BlogLastUpdated url="https://tedunderwood.com/" />
 

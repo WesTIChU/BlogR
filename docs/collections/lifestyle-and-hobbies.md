@@ -29,9 +29,19 @@ Personal interests, hobbies, practical projects, and ways of living.
 
 ## Football & Sports
 
+* <BlogHealthLink name="Arseblog" url="https://arseblog.com/" :favourite="false" /> - Independent Arsenal FC blog covering club news, match reports, transfers, opinion, analysis and the Arsecast podcast.<BlogLastUpdated url="https://arseblog.com/" />
+* <BlogHealthLink name="Arseblog News" url="https://arseblog.news/" :favourite="false" /> - Arsenal FC news website covering match reports, player updates, transfers, club developments and Arsenal Women.<BlogLastUpdated url="https://arseblog.news/" />
+* <BlogHealthLink name="Bitter and Blue" url="https://bitterandblue.sbnation.com" :favourite="false" /> - Manchester City supporters' website covering club news, match previews, analysis, transfers and fan opinion.<BlogLastUpdated url="https://bitterandblue.sbnation.com" />
+* <BlogHealthLink name="Bluemoon" url="https://bluemoon-mcfc.co.uk/" :favourite="false" /> - Manchester City supporters' community featuring football discussion, match analysis, transfer rumours and fan commentary.<BlogLastUpdated url="https://bluemoon-mcfc.co.uk/" />
+* <BlogHealthLink name="Gunnerstown" url="https://gunnerstown.com/" :favourite="false" /> - Arsenal supporters' website featuring fan-written articles, tactical analysis, match commentary and opinion.<BlogLastUpdated url="https://gunnerstown.com/" />
+* <BlogHealthLink name="Man United Blogs" url="https://www.manunitedblogs.com/" :favourite="false" /> - Manchester United website publishing club news, player updates, transfer discussion, match coverage and opinion articles.<BlogLastUpdated url="https://www.manunitedblogs.com/" />
 * <BlogHealthLink name="Read Celtic" url="https://readceltic.com/" :favourite="false" /> - Celtic FC news and opinion covering the latest club developments, transfers, match previews, reviews and Scottish football.<BlogLastUpdated url="https://readceltic.com/" />
+* <BlogHealthLink name="The Busby Babe" url="https://thebusbybabe.sbnation.com" :favourite="false" /> - Manchester United supporters' blog featuring club news, match previews, tactical analysis, player ratings and fan opinion.<BlogLastUpdated url="https://thebusbybabe.sbnation.com" />
 * <BlogHealthLink name="The Celtic Blog" url="https://thecelticblog.com/" :favourite="false" /> - Independent Celtic FC supporters' blog covering club news, Scottish football, match analysis, transfers and opinion.<BlogLastUpdated url="https://thecelticblog.com/" />
 * <BlogHealthLink name="The Celtic Star" url="https://thecelticstar.com/" :favourite="false" /> - Celtic FC supporters' website covering club news, match reports, transfer updates, opinion and the history of Celtic Football Club.<BlogLastUpdated url="https://thecelticstar.com/" />
+* <BlogHealthLink name="The Highbury Library" url="https://thehighburylibrary.com/" :favourite="false" /> - Arsenal blog aggregator bringing together articles, commentary and opinions from independent Arsenal supporters' websites.<BlogLastUpdated url="https://thehighburylibrary.com/" />
+* <BlogHealthLink name="The Republik of Mancunia" url="https://therepublikofmancunia.com/" :favourite="false" /> - Long-running Manchester United supporters' blog covering club news, match analysis, player interviews, opinion and fan commentary.<BlogLastUpdated url="https://therepublikofmancunia.com/" />
+* <BlogHealthLink name="We Ain't Got No History" url="https://weaintgotnohistory.sbnation.com" :favourite="false" /> - Chelsea FC supporters' blog featuring club news, match previews, transfer updates, analysis and fan discussion.<BlogLastUpdated url="https://weaintgotnohistory.sbnation.com" />
 
 ## Gaming & Retro Games
 

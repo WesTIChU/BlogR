@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520" role="img" aria-labelledby="title desc">
+  <title id="title">BlogR Directory</title>
+  <desc id="desc">A BlogR monogram beside a small collection of blog cards.</desc>
+  <rect x="18" y="18" width="604" height="484" rx="56" fill="#17141a"/>
+  <path d="M80 390h480" stroke="#3a2825" stroke-width="3"/>
+  <rect x="72" y="92" width="232" height="232" rx="48" fill="#ea580c"/>
+  <path d="M132 142h70c32 0 52 16 52 41 0 16-9 28-24 34 20 6 31 20 31 40 0 30-22 48-59 48h-70V142Zm45 37v25h23c10 0 16-5 16-13s-6-12-16-12h-23Zm0 59v27h27c12 0 19-5 19-14s-7-13-19-13h-27Z" fill="#fff7ed"/>
+  <path d="M247 142h14c0 16 7 26 21 33-14 7-21 17-21 33h-14c0-16-7-26-21-33 14-7 21-17 21-33Z" fill="#fbbf24"/>
+  <g transform="translate(356 82) rotate(7 100 70)">
+    <rect width="190" height="140" rx="18" fill="#fff7ed" stroke="#fb923c" stroke-width="5"/>
+    <rect x="24" y="27" width="78" height="12" rx="6" fill="#ea580c"/>
+    <rect x="24" y="56" width="137" height="9" rx="4.5" fill="#fed7aa"/>
+    <rect x="24" y="79" width="112" height="9" rx="4.5" fill="#fed7aa"/>
+    <circle cx="151" cy="105" r="14" fill="#ea580c"/>
+  </g>
+  <g transform="translate(344 265) rotate(-8 112 75)">
+    <rect width="212" height="150" rx="18" fill="#431407" stroke="#f97316" stroke-width="5"/>
+    <rect x="28" y="28" width="94" height="12" rx="6" fill="#fdba74"/>
+    <rect x="28" y="59" width="151" height="9" rx="4.5" fill="#9a3412"/>
+    <rect x="28" y="83" width="125" height="9" rx="4.5" fill="#9a3412"/>
+    <path d="M166 113h18" stroke="#fbbf24" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <circle cx="326" cy="230" r="8" fill="#fbbf24"/>
+  <circle cx="337" cy="451" r="5" fill="#fb923c"/>
+</svg>

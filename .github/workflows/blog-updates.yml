@@ -1,0 +1,56 @@
+name: Daily blog update scan
+
+on:
+  schedule:
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: blog-updates-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out the website source
+        uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+          cache: pnpm
+
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Scan blog feeds
+        run: pnpm check:blog-updates
+
+      - name: Commit update data only when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add data/blog-updates.json
+          if git diff --cached --quiet; then
+            echo 'Blog update data did not change.'
+            exit 0
+          fi
+          staged_files="$(git diff --cached --name-only)"
+          if [[ "$staged_files" != 'data/blog-updates.json' ]]; then
+            echo 'Refusing to publish files other than data/blog-updates.json.' >&2
+            git diff --cached --name-status >&2
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update blog publication dates'
+          git push

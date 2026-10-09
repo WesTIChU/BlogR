@@ -1,0 +1,27 @@
+name: Complete merged blog submission
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  complete:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the workflow code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Close the original submission issue
+        env:
+          GITHUB_EVENT_PAYLOAD: ${{ toJSON(github.event) }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/complete-blog-submission.js

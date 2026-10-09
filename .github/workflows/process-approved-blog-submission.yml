@@ -1,0 +1,51 @@
+name: Process approved blog submission
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: blog-submission-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: >-
+      github.event.label.name == 'approved' && github.event.issue.state ==
+      'open' && contains(github.event.issue.labels.*.name, 'blog-submission')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Mint repository GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.BLOGR_APP_ID }}
+          private-key: ${{ secrets.BLOGR_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+
+      - name: Validate approval and create pull request
+        env:
+          BLOGR_TOKEN: ${{ steps.app-token.outputs.token }}
+          APPROVER_LOGIN: ${{ github.actor }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/process-blog-submission.js

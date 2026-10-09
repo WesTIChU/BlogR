@@ -1,0 +1,114 @@
+name: Submit a blog
+description: Suggest an independent blog or personal website for BlogR.
+title: 'Blog submission: '
+labels:
+  - blog-submission
+body:
+  - type: input
+    id: blog-name
+    attributes:
+      label: Blog name
+      description: The name visitors should see in the directory.
+      placeholder: Example Blog
+    validations:
+      required: true
+  - type: input
+    id: blog-url
+    attributes:
+      label: Blog URL
+      description: The public URL of the blog or personal website.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: A concise description of what the site is about.
+    validations:
+      required: false
+  # BEGIN GENERATED TAXONOMY OPTIONS
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Main category"
+      description: "Choose the directory category that best fits. This is a suggestion for editorial review."
+      options:
+        - "Personal Writing"
+        - "Culture & Places"
+        - "Travel & Outdoors"
+        - "Technology"
+        - "Books & Writing"
+        - "Arts & Creativity"
+        - "Lifestyle & Hobbies"
+        - "Money & Business"
+        - "Science & Nature"
+        - "Internet & Society"
+        - "Not sure / Let the editor decide"
+      default: 10
+    validations:
+      required: true
+  - type: dropdown
+    id: subcategory
+    attributes:
+      label: "Subcategory"
+      description: "Choose an existing subcategory if one fits. This is optional and suggestions are reviewed manually."
+      options:
+        - "Personal Writing / Journals & Diaries"
+        - "Personal Writing / Essays & Reflections"
+        - "Personal Writing / Creative & Experimental Writing"
+        - "Personal Writing / Personal Blogs & Everyday Life"
+        - "Personal Writing / Independent Voices"
+        - "Culture & Places / History & Heritage"
+        - "Culture & Places / Local Culture & Communities"
+        - "Culture & Places / Regional Life"
+        - "Culture & Places / Language & Traditions"
+        - "Travel & Outdoors / Hiking & Walking"
+        - "Travel & Outdoors / Camping & Outdoor Life"
+        - "Travel & Outdoors / Travel Diaries"
+        - "Travel & Outdoors / Places & Exploration"
+        - "Technology / Linux & Open Source"
+        - "Technology / Self-Hosting & Homelabs"
+        - "Technology / Programming & Development"
+        - "Technology / Internet & Web Technology"
+        - "Technology / Creative Tools & Digital Projects"
+        - "Technology / Privacy & Security"
+        - "Books & Writing / Book Reviews"
+        - "Books & Writing / Literature"
+        - "Books & Writing / Creative Writing"
+        - "Books & Writing / Publishing & Writing Life"
+        - "Arts & Creativity / Photography"
+        - "Arts & Creativity / Art & Illustration"
+        - "Arts & Creativity / Music"
+        - "Arts & Creativity / Film & Entertainment"
+        - "Arts & Creativity / Design & Creative Projects"
+        - "Lifestyle & Hobbies / Gaming & Retro Games"
+        - "Lifestyle & Hobbies / Cooking & Recipes"
+        - "Lifestyle & Hobbies / Gardening & DIY"
+        - "Lifestyle & Hobbies / Health & Wellness"
+        - "Lifestyle & Hobbies / Pets & Animals"
+        - "Lifestyle & Hobbies / Everyday Life"
+        - "Money & Business / Bitcoin & Cryptocurrency"
+        - "Money & Business / Business & Entrepreneurship"
+        - "Money & Business / Personal Finance"
+        - "Money & Business / Economics"
+        - "Science & Nature / Science & Research"
+        - "Science & Nature / Astronomy & Space"
+        - "Science & Nature / Wildlife & Nature"
+        - "Science & Nature / Environment & Climate"
+        - "Internet & Society / Internet Culture"
+        - "Internet & Society / Online Communities"
+        - "Internet & Society / Society & Commentary"
+        - "Internet & Society / Independent Web & Blogging"
+        - "Not sure / Let the editor decide"
+        - "Other / Suggest a subcategory"
+    validations:
+      required: false
+  # END GENERATED TAXONOMY OPTIONS
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else that would help with review.
+    validations:
+      required: false

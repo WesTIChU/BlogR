@@ -1,0 +1,164 @@
+name: Daily blog health audit
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: blog-health-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HISTORY_BRANCH: blog-health-history
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
+    steps:
+      - name: Check out the website source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+          cache: pnpm
+
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Restore private health history
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
+            git show "origin/${HISTORY_BRANCH}:reports/blog-health-history.json" > reports/blog-health-history.json
+          fi
+
+      - name: Run the daily audit
+        run: pnpm audit:blogs
+
+      - name: Validate generated public data
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import { readFile } from 'node:fs/promises'
+          import { normalizeBlogHealthUrl } from './shared/blog-health-url.js'
+
+          const blogs = JSON.parse(await readFile('data/blogs.json', 'utf8'))
+          const publicStatuses = JSON.parse(
+            await readFile('docs/public/health-status.json', 'utf8')
+          )
+          const history = JSON.parse(
+            await readFile('reports/blog-health-history.json', 'utf8')
+          )
+          const expectedUrls = new Set()
+          for (const blog of blogs) {
+            try {
+              expectedUrls.add(normalizeBlogHealthUrl(blog.url).toString())
+            } catch {
+              // Invalid catalogue entries are reported by the audit, not published.
+            }
+          }
+          if (!Array.isArray(publicStatuses) || publicStatuses.length !== expectedUrls.size) {
+            throw new Error('Public status data does not cover the catalogue')
+          }
+          for (const entry of publicStatuses) {
+            const keys = Object.keys(entry).sort().join(',')
+            if (keys !== 'checkedAt,status,url') throw new Error('Public status contains extra fields')
+            if (!expectedUrls.has(entry.url)) throw new Error('Unexpected public status URL')
+            if (!['online', 'warning', 'repeatedly-unreachable', 'unknown'].includes(entry.status)) {
+              throw new Error('Invalid public status')
+            }
+            if (!Number.isFinite(Date.parse(entry.checkedAt))) throw new Error('Invalid check timestamp')
+          }
+          if (!Array.isArray(history) || !history.length) throw new Error('Health history was not persisted')
+          const latest = history.at(-1)
+          if (!Array.isArray(latest.statusData) || latest.statusData.length !== expectedUrls.size) {
+            throw new Error('Latest health history is incomplete')
+          }
+          NODE
+
+      - name: Persist private health history
+        shell: bash
+        run: |
+          set -euo pipefail
+          history_dir="${RUNNER_TEMP}/blog-health-history"
+          hooks_dir="${RUNNER_TEMP}/blog-health-hooks"
+          mkdir -p "$hooks_dir"
+          cleanup() {
+            git worktree remove --force "$history_dir" 2>/dev/null || true
+          }
+          trap cleanup EXIT
+          git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
+            git worktree add --detach "$history_dir" "origin/${HISTORY_BRANCH}"
+          else
+            git worktree add --detach "$history_dir" HEAD
+            git -C "$history_dir" checkout --orphan "$HISTORY_BRANCH"
+            git -C "$history_dir" rm -rf .
+          fi
+          mkdir -p "$history_dir/reports"
+          node --input-type=module <<'NODE'
+          import { readFile, writeFile } from 'node:fs/promises'
+          const history = JSON.parse(await readFile('reports/blog-health-history.json', 'utf8'))
+          const compactHistory = history.map(({ checkedAt, statusData }) => ({
+            checkedAt,
+            statusData
+          }))
+          await writeFile(
+            process.env.RUNNER_TEMP + '/blog-health-history/blog-health-history.json',
+            `${JSON.stringify(compactHistory, null, 2)}\n`
+          )
+          NODE
+          mv "$history_dir/blog-health-history.json" "$history_dir/reports/blog-health-history.json"
+          git -C "$history_dir" config user.name 'github-actions[bot]'
+          git -C "$history_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$history_dir" add -f reports/blog-health-history.json
+          if git -C "$history_dir" diff --cached --quiet; then
+            echo 'Health history did not change.'
+          else
+            staged_files="$(git -C "$history_dir" diff --cached --name-only)"
+            if [[ "$staged_files" != 'reports/blog-health-history.json' ]]; then
+              echo 'Refusing to publish files other than the compact health history.' >&2
+              git -C "$history_dir" diff --cached --name-status >&2
+              exit 1
+            fi
+            git -C "$history_dir" -c "core.hooksPath=$hooks_dir" commit -m 'Update blog health history'
+            git -C "$history_dir" push origin "HEAD:refs/heads/${HISTORY_BRANCH}"
+          fi
+
+      - name: Publish public status JSON only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add docs/public/health-status.json
+          if git diff --cached --quiet; then
+            echo 'Public status JSON did not change.'
+            exit 0
+          fi
+          staged_files="$(git diff --cached --name-only)"
+          if [[ "$staged_files" != 'docs/public/health-status.json' ]]; then
+            echo 'Refusing to publish files other than the public status JSON.' >&2
+            git diff --cached --name-status >&2
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update public blog health status'
+          git push origin "HEAD:refs/heads/${DEFAULT_BRANCH}"

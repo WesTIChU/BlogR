@@ -1,0 +1,204 @@
+{
+  "categories": [
+    {
+      "slug": "personal-writing",
+      "title": "Personal Writing",
+      "description": "Personal blogs, journals, essays, and everyday writing.",
+      "subsections": [
+        {
+          "title": "Journals & Diaries",
+          "match": "daily|weeknotes?|weekly|journal|diary|life updates|personal posts|everyday thoughts|quiet observations|daily ideas|daily notes"
+        },
+        {
+          "title": "Essays & Reflections",
+          "match": "essay|reflections?|thoughts|commentary|opinions?|observations?|mindset|philosophy|writing on "
+        },
+        {
+          "title": "Creative & Experimental Writing",
+          "match": "creative|experimental|worldbuilding|abstract|webcomic|pixel art|found media|writing archive|creative projects?|stories and|fiction"
+        },
+        {
+          "title": "Personal Blogs & Everyday Life",
+          "match": "life|lifestyle|hobbies?|relationships?|living|productivity|beauty|travel|culture|music|sport|reading|guitar"
+        },
+        { "title": "Independent Voices", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "culture-and-places",
+      "title": "Culture & Places",
+      "description": "Blogs about culture, history, places, local life, and the world around us.",
+      "subsections": [
+        {
+          "title": "History & Heritage",
+          "match": "history|historical|archive|heritage|war|military|ww[12]|nostalgia|retro|reenactment|vintage"
+        },
+        {
+          "title": "Local Culture & Communities",
+          "match": "local|city|culture|community|pub|politic|public transport|rail|birmingham|glasgow|liverpool"
+        },
+        {
+          "title": "Regional Life",
+          "match": "rural|countryside|coast|coastal|landscape|place|walking|river|urban|exploration|aviation|maritime|conservation"
+        },
+        { "title": "Language & Traditions", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "travel-outdoors",
+      "title": "Travel & Outdoors",
+      "description": "Travel stories, outdoor adventures, walking, and exploration.",
+      "subsections": [
+        {
+          "title": "Hiking & Walking",
+          "match": "hiking|walking|trail|backpack"
+        },
+        {
+          "title": "Camping & Outdoor Life",
+          "match": "outdoor|adventure|van life|van builds|rv|cycling|bike|alternative living"
+        },
+        {
+          "title": "Travel Diaries",
+          "match": "travel stories|travel experiences?|travel life|nomadic|expat|travel insights?|travel photography|travel notes"
+        },
+        { "title": "Places & Exploration", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "technology",
+      "title": "Technology",
+      "description": "Independent writing about software, development, Linux, open source, and technology.",
+      "subsections": [
+        {
+          "title": "Linux & Open Source",
+          "match": "linux|ubuntu|open source|foss"
+        },
+        {
+          "title": "Self-Hosting & Homelabs",
+          "match": "self-host|home assistant|homelab|docker|automation|smart home"
+        },
+        {
+          "title": "Programming & Development",
+          "match": "programming|developer|development|dev |javascript|react|frontend|backend|systems|software|coding|algorithm|testing|go,|engineering|tutorial|graphics|rendering|gpu|game dev"
+        },
+        {
+          "title": "Internet & Web Technology",
+          "match": "web|seo|broadband|telecom|technology|tech (stories|notes)"
+        },
+        {
+          "title": "Creative Tools & Digital Projects",
+          "match": "creative tools|pixel art|game art|visuals|design"
+        },
+        { "title": "Privacy & Security", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "books-and-writing",
+      "title": "Books & Writing",
+      "description": "Blogs about books, literature, writing, and the craft of words.",
+      "subsections": [
+        { "title": "Book Reviews", "match": "book|reading|review" },
+        {
+          "title": "Literature",
+          "match": "literary|literature|fiction|poetry"
+        },
+        {
+          "title": "Creative Writing",
+          "match": "writing|author|story|creative"
+        },
+        { "title": "Publishing & Writing Life", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "arts-and-creativity",
+      "title": "Arts & Creativity",
+      "description": "Creative work, visual arts, music, design, and experimental projects.",
+      "subsections": [
+        { "title": "Photography", "match": "photo|photography" },
+        {
+          "title": "Art & Illustration",
+          "match": "art|illustrat|drawing|painting"
+        },
+        { "title": "Music", "match": "music|song|guitar|instrument" },
+        {
+          "title": "Film & Entertainment",
+          "match": "film|movie|theatre|entertainment"
+        },
+        { "title": "Design & Creative Projects", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "lifestyle-and-hobbies",
+      "title": "Lifestyle & Hobbies",
+      "description": "Personal interests, hobbies, practical projects, and ways of living.",
+      "subsections": [
+        {
+          "title": "Gaming & Retro Games",
+          "match": "game|gaming|rpg|mario|retro"
+        },
+        { "title": "Cooking & Recipes", "match": "food|cook|recipe|baking" },
+        {
+          "title": "Gardening & DIY",
+          "match": "garden|plant|diy|maker|making|craft"
+        },
+        { "title": "Health & Wellness", "match": "health|wellness|fitness" },
+        { "title": "Pets & Animals", "match": "pet|animal|dog|cat" },
+        { "title": "Everyday Life", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "money-and-business",
+      "title": "Money & Business",
+      "description": "Independent writing about money, business, economics, and finance.",
+      "subsections": [
+        {
+          "title": "Bitcoin & Cryptocurrency",
+          "match": "crypto|blockchain|web3"
+        },
+        {
+          "title": "Business & Entrepreneurship",
+          "match": "business|entrepreneur|startup"
+        },
+        { "title": "Personal Finance", "match": "finance|money|invest" },
+        { "title": "Economics", "match": ".*" }
+      ]
+    },
+    {
+      "slug": "science-and-nature",
+      "title": "Science & Nature",
+      "description": "Science, nature, the environment, and careful observation of the world.",
+      "subsections": [
+        { "title": "Science & Research", "match": "science|research" },
+        { "title": "Astronomy & Space", "match": "astronomy|space|planet" },
+        {
+          "title": "Wildlife & Nature",
+          "match": "wildlife|nature|bird|animal"
+        },
+        {
+          "title": "Environment & Climate",
+          "match": "environment|climate|conservation"
+        }
+      ]
+    },
+    {
+      "slug": "internet-and-society",
+      "title": "Internet & Society",
+      "description": "Writing about the internet, society, privacy, communities, and digital culture.",
+      "subsections": [
+        {
+          "title": "Internet Culture",
+          "match": "internet|web culture|digital culture"
+        },
+        {
+          "title": "Online Communities",
+          "match": "community|communities|moderation"
+        },
+        {
+          "title": "Society & Commentary",
+          "match": "society|commentary|politic|social"
+        },
+        { "title": "Independent Web & Blogging", "match": ".*" }
+      ]
+    }
+  ]
+}

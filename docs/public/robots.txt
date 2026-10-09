@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /*.png$
+Disallow: /*.svg$
+Disallow: /*.ico$
+Allow: /
+Sitemap: https://blogr.directory/sitemap.xml

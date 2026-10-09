@@ -1,0 +1,6 @@
+**/*.md
+!docs/index.md
+pnpm-lock.yaml
+.turbo
+.cache
+.github/ISSUE_TEMPLATE/submit-blog.yml

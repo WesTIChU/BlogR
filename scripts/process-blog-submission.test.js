@@ -69,6 +69,27 @@ test('accepts the renamed arts category and film subcategory', () => {
   assert.equal(submission.subcategory, 'Film, TV & Theatre')
 })
 
+test('accepts Arts & Entertainment gaming submissions', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        category: 'Arts & Entertainment',
+        subcategory: 'Arts & Entertainment / Gaming'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+
+  assert.deepEqual(
+    {
+      category: submission.category,
+      subcategory: submission.subcategory
+    },
+    { category: 'arts-and-entertainment', subcategory: 'Gaming' }
+  )
+})
+
 test('rejects invalid, local, credentialed, and missing URLs', () => {
   for (const url of [
     '',

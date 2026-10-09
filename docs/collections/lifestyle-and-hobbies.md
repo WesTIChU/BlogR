@@ -65,23 +65,6 @@ Personal interests, hobbies, practical projects, and ways of living.
 * <BlogHealthLink name="The Republik of Mancunia" url="https://therepublikofmancunia.com/" :favourite="false" /> - Long-running Manchester United supporters' blog covering club news, match analysis, player interviews, opinion and fan commentary.<BlogLastUpdated url="https://therepublikofmancunia.com/" />
 * <BlogHealthLink name="We Ain't Got No History" url="https://weaintgotnohistory.sbnation.com" :favourite="false" /> - Chelsea FC supporters' blog featuring club news, match previews, transfer updates, analysis and fan discussion.<BlogLastUpdated url="https://weaintgotnohistory.sbnation.com" />
 
-## Gaming & Retro Games
-
-* <BlogHealthLink name="Arcade Attack" url="https://www.arcadeattack.co.uk/" :favourite="false" /> - UK retro gaming website featuring articles, reviews, nostalgic features, interviews and podcasts about classic video games and consoles.<BlogLastUpdated url="https://www.arcadeattack.co.uk/" />
-* <BlogHealthLink name="Classic Game Zone" url="https://classicgamezone.com/blogs" :favourite="false" /> - Retro gaming website with a blog section covering classic video games, consoles, collecting and gaming nostalgia.<BlogLastUpdated url="https://classicgamezone.com/blogs" />
-* <BlogHealthLink name="Collection Chamber" url="https://collectionchamber.blogspot.com/" :favourite="false" /> - A retro PC gaming blog focused on preserving, reviewing and playing older computer games and keeping them accessible.<BlogLastUpdated url="https://collectionchamber.blogspot.com/" />
-* <BlogHealthLink name="Dyson's Dodecahedron" url="https://dysonlogos.blog/" :favourite="false" /> - Hand-drawn dungeon maps and tabletop role-playing ideas, exploring fantasy adventures, encounters and miniature gaming.<BlogLastUpdated url="https://dysonlogos.blog/" />
-* <BlogHealthLink name="Grognardia" url="https://grognardia.blogspot.com/" :favourite="false" /> - Essays about tabletop role-playing games, gaming history and the culture and traditions of the RPG hobby.<BlogLastUpdated url="https://grognardia.blogspot.com/" />
-* <BlogHealthLink name="Playrface" url="https://playrface.co.uk/" :favourite="false" /> - Stories about sport and sporting history, with particular attention to lesser-known games, traditions and competitors around the world.<BlogLastUpdated url="https://playrface.co.uk/" />
-* <BlogHealthLink name="Retro Arcadia" url="https://retroarcadia.blog/" :favourite="false" /> - Retro gaming articles covering classic consoles, arcade games and old favourites, with reviews and reflections on gaming nostalgia.<BlogLastUpdated url="https://retroarcadia.blog/" />
-* <BlogHealthLink name="Retro Game Talk" url="https://retrogametalk.com/" :favourite="false" /> - Retro gaming community covering classic video games, consoles, collecting and discussions about older gaming systems.<BlogLastUpdated url="https://retrogametalk.com/" />
-* <BlogHealthLink name="Retro Garden" url="https://www.retrogarden.co.uk/" :favourite="false" /> - UK retro gaming website featuring classic video game reviews, gaming news, nostalgic features and coverage of vintage consoles and computers.<BlogLastUpdated url="https://www.retrogarden.co.uk/" />
-* <BlogHealthLink name="Small Mario Findings" url="https://smallmariofindings.tumblr.com/" :favourite="false" /> - A collection of unusual Mario-related discoveries, artwork and media, highlighting obscure details from Nintendo's gaming history.<BlogLastUpdated url="https://smallmariofindings.tumblr.com/" />
-* <BlogHealthLink name="The Swedish Games" url="https://theswedishgames.wordpress.com/" :favourite="false" /> - Articles exploring Swedish video game history, developers and gaming culture, looking at games and the people behind them.<BlogLastUpdated url="https://theswedishgames.wordpress.com/" />
-* <BlogHealthLink name="Time Extension" url="https://www.timeextension.com/" :favourite="false" /> - Retro gaming publication featuring classic video game news, reviews, interviews, hardware coverage, historical features and guides.<BlogLastUpdated url="https://www.timeextension.com/" />
-* <BlogHealthLink name="Tower of Zenopus" url="https://towerofzenopus.blogspot.com/" :favourite="false" /> - Writing about tabletop role-playing games, miniature wargaming and hobby adventures, with an interest in classic gaming.<BlogLastUpdated url="https://towerofzenopus.blogspot.com/" />
-* <BlogHealthLink name="Where Were They Now?" url="https://whereweretheynow.blogspot.com/" :favourite="false" /> - Exploring the history and former locations of Britain's pioneering video game companies.<BlogLastUpdated url="https://whereweretheynow.blogspot.com/" />
-
 ## Gardening & DIY
 
 * <BlogHealthLink name="Adam Apples" url="https://adamapples.blogspot.com/" :favourite="false" /> - Adam's Apples reviews hundreds of apple varieties, recording their flavour, appearance, ratings, origins, and orchard-related observations.<BlogLastUpdated url="https://adamapples.blogspot.com/" />
@@ -103,3 +86,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 ## Health & Wellness
 
 * <BlogHealthLink name="Beauty Alchemist" url="https://www.beautyalchemist.com/" :favourite="false" /> - Beauty product reviews and personal opinions, exploring skincare, cosmetics and the experience of trying different products.<BlogLastUpdated url="https://www.beautyalchemist.com/" />
+
+## Pets & Animals
+
+* <BlogHealthLink name="Playrface" url="https://playrface.co.uk/" :favourite="false" /> - Stories about sport and sporting history, with particular attention to lesser-known games, traditions and competitors around the world.<BlogLastUpdated url="https://playrface.co.uk/" />

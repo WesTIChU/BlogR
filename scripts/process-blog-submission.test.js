@@ -4,17 +4,20 @@ import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
 import {
   appendBlogEntry,
+  applySuggestedSubcategory,
   buildBlogEntry,
   catalogueFiles,
   existingSubmissionPullRequest,
   extractSuggestedSubcategory,
   hasApprovalPermission,
+  insertSubcategoryInTaxonomyText,
   isApprovedSubmissionEvent,
   parseIssueForm,
   pullRequestDetails,
   submissionBranch,
   validateBlogUrl,
-  validateSubmission
+  validateSubmission,
+  validateSuggestedSubcategory
 } from './process-blog-submission.js'
 
 const body = ({
@@ -133,11 +136,12 @@ test('extracts a suggested subcategory from additional notes without adding it',
     1,
     'blog-submission/issue-1',
     'main',
-    submission.suggestedSubcategory
+    submission.suggestedSubcategory,
+    'created'
   )
-  assert.match(details.body, /Suggested subcategory for review/)
+  assert.match(details.body, /Suggested subcategory \(created\)/)
   assert.match(details.body, /Football & Sports/)
-  assert.match(details.body, /proposal only/)
+  assert.match(details.body, /added to the official taxonomy/)
 })
 
 test('reports when Other was selected without a suggested subcategory', () => {
@@ -172,6 +176,93 @@ test('normal existing subcategories do not interpret additional notes as suggest
   )
   assert.equal(submission.subcategory, 'Programming & Development')
   assert.equal(submission.suggestedSubcategory, undefined)
+})
+
+test('creates and assigns a new suggested subcategory without mutating the source taxonomy', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        category: 'Lifestyle & Hobbies',
+        subcategory: 'Other / Suggest a subcategory',
+        notes: 'Suggested subcategory: Football & Sports'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+  const original = structuredClone(taxonomy)
+  const result = applySuggestedSubcategory(taxonomy, submission)
+  const category = result.taxonomy.categories.find(
+    ({ slug }) => slug === 'lifestyle-and-hobbies'
+  )
+
+  assert.deepEqual(taxonomy, original)
+  assert.equal(result.status, 'created')
+  assert.equal(result.submission.subcategory, 'Football & Sports')
+  assert.deepEqual(category.subsections.at(-1), {
+    title: 'Football & Sports',
+    match: 'football|sports'
+  })
+})
+
+test('reuses an existing suggested subcategory without creating a duplicate', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        category: 'Lifestyle & Hobbies',
+        subcategory: 'Other / Suggest a subcategory',
+        notes: 'Suggested subcategory:  everyday   life '
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+  const result = applySuggestedSubcategory(taxonomy, submission)
+  const category = result.taxonomy.categories.find(
+    ({ slug }) => slug === 'lifestyle-and-hobbies'
+  )
+
+  assert.equal(result.status, 'reused')
+  assert.equal(result.submission.subcategory, 'Everyday Life')
+  assert.equal(
+    category.subsections.filter(({ title }) => title === 'Everyday Life')
+      .length,
+    1
+  )
+})
+
+test('rejects unsafe or malformed suggested subcategory names', () => {
+  for (const suggestion of ['', 'Bad / Path', '<script>', 'name: value']) {
+    assert.throws(
+      () => validateSuggestedSubcategory(suggestion),
+      /invalid name/
+    )
+  }
+})
+
+test('inserts a new taxonomy subsection without reformatting existing taxonomy text', () => {
+  const source = JSON.stringify(taxonomy, null, 2)
+  const updated = insertSubcategoryInTaxonomyText(
+    source,
+    'lifestyle-and-hobbies',
+    {
+      title: 'Football & Sports',
+      match: 'football|sports'
+    }
+  )
+  const parsed = JSON.parse(updated)
+  const category = parsed.categories.find(
+    ({ slug }) => slug === 'lifestyle-and-hobbies'
+  )
+  assert.deepEqual(category.subsections.at(-1), {
+    title: 'Football & Sports',
+    match: 'football|sports'
+  })
+  const restored = updated.replace(
+    /,\n        \{\n          "title": "Football & Sports",\n          "match": "football\|sports"\n        \}/,
+    ''
+  )
+  assert.equal(restored, source)
 })
 
 test('adding one blog preserves every existing entry and appends in source order', () => {

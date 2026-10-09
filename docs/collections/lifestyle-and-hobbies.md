@@ -31,6 +31,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 
 * <BlogHealthLink name="Read Celtic" url="https://readceltic.com/" :favourite="false" /> - Celtic FC news and opinion covering the latest club developments, transfers, match previews, reviews and Scottish football.<BlogLastUpdated url="https://readceltic.com/" />
 * <BlogHealthLink name="The Celtic Blog" url="https://thecelticblog.com/" :favourite="false" /> - Independent Celtic FC supporters' blog covering club news, Scottish football, match analysis, transfers and opinion.<BlogLastUpdated url="https://thecelticblog.com/" />
+* <BlogHealthLink name="The Celtic Star" url="https://thecelticstar.com/" :favourite="false" /> - Celtic FC supporters' website covering club news, match reports, transfer updates, opinion and the history of Celtic Football Club.<BlogLastUpdated url="https://thecelticstar.com/" />
 
 ## Gaming & Retro Games
 

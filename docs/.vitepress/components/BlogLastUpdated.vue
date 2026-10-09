@@ -78,10 +78,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <span
-    class="blog-last-updated"
-    :class="{ 'blog-last-updated-favourite': favourite }"
-  >
+  <span v-if="favourite || health || relativeUpdate" class="blog-last-updated">
+    <span v-if="favourite" class="blog-favourite" aria-label="Favourite">
+      ⭐
+    </span>
     <span
       class="blog-health-dot"
       :style="{ backgroundColor: statusDetails[health.status].color }"
@@ -105,15 +105,17 @@ onMounted(() => {
   display: flex;
   align-items: center;
   gap: 0.4em;
-  margin-top: 0.2em;
+  margin-top: 0.15em;
   color: var(--vp-c-text-3);
   font-size: 0.75em;
   font-weight: 400;
   white-space: nowrap;
 }
 
-.blog-last-updated-favourite {
-  padding-left: 1.25em;
+.blog-favourite {
+  color: #facc15;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .blog-health-dot {

@@ -9,7 +9,8 @@ import {
 import { normalizeBlogHealthUrl } from '../../../shared/blog-health-url.js'
 import {
   formatRelativeDate,
-  getBlogUpdate
+  getBlogUpdate,
+  getVerifiedFeedUrl
 } from '../../../shared/blog-update.js'
 import {
   healthStatuses,
@@ -28,16 +29,16 @@ const normalizedUrl = computed(() => {
   }
 })
 
-const favourite = computed(() => {
-  const blog = blogs.find((item) => {
+const blog = computed(() =>
+  blogs.find((item) => {
     try {
       return normalizeBlogHealthUrl(item.url).toString() === normalizedUrl.value
     } catch {
       return false
     }
   })
-  return Boolean(blog?.favourite)
-})
+)
+const favourite = computed(() => Boolean(blog.value?.favourite))
 
 const health = computed(() =>
   getPublicStatus(healthStatuses.get(normalizedUrl.value), new Date())
@@ -71,6 +72,8 @@ const updateTooltip = computed(() =>
     ? `Last updated: ${update.value.lastPublished}`
     : ''
 )
+const feedUrl = computed(() => getVerifiedFeedUrl(updates, props.url))
+const feedLabel = computed(() => `RSS feed for ${blog.value?.name ?? 'blog'}`)
 
 onMounted(() => {
   void loadHealthStatuses()
@@ -78,10 +81,33 @@ onMounted(() => {
 </script>
 
 <template>
-  <span v-if="favourite || health || relativeUpdate" class="blog-last-updated">
+  <span
+    v-if="favourite || health || relativeUpdate || feedUrl"
+    class="blog-last-updated"
+  >
     <span v-if="favourite" class="blog-favourite" aria-label="Favourite">
       ⭐
     </span>
+    <a
+      v-if="feedUrl"
+      class="blog-feed-link"
+      :href="feedUrl"
+      :aria-label="feedLabel"
+      :title="feedLabel"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg
+        class="blog-feed-icon"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <path d="M4 10a10 10 0 0 1 10 10" />
+      </svg>
+    </a>
     <span
       class="blog-health-dot"
       :style="{ backgroundColor: statusDetails[health.status].color }"
@@ -124,6 +150,32 @@ onMounted(() => {
   width: 7px;
   height: 7px;
   border-radius: 50%;
+}
+
+.blog-feed-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: #f97316;
+  line-height: 1;
+}
+
+.blog-feed-link:hover {
+  color: #ea580c;
+}
+
+.blog-feed-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.blog-feed-icon path:first-child {
+  fill: currentColor;
+  stroke: none;
 }
 
 .blog-health-sr-only {

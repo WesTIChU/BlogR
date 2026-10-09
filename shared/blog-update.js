@@ -41,3 +41,18 @@ export const getBlogUpdate = (updates, url) => {
     return null
   }
 }
+
+export const getVerifiedFeedUrl = (updates, url) => {
+  const update = getBlogUpdate(updates, url)
+  if (update?.status !== 'success' || typeof update.feedUrl !== 'string') {
+    return null
+  }
+
+  try {
+    const feedUrl = new globalThis.URL(update.feedUrl)
+    if (!['http:', 'https:'].includes(feedUrl.protocol)) return null
+    return feedUrl.toString()
+  } catch {
+    return null
+  }
+}

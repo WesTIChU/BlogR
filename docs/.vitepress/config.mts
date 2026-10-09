@@ -312,8 +312,7 @@ export default defineConfig({
       copyright: `© ${new Date().getFullYear()} BlogR Directory.`
     },
     editLink: {
-      pattern:
-        'https://github.com/WesTIChU/BlogR/edit/main/docs/:path',
+      pattern: 'https://github.com/WesTIChU/BlogR/edit/main/docs/:path',
       text: '📝 Edit this page'
     },
     outline: 'deep',

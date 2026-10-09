@@ -53,6 +53,22 @@ test('parses a valid issue form and maps taxonomy choices', () => {
   })
 })
 
+test('accepts the renamed arts category and film subcategory', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        category: 'Arts & Entertainment',
+        subcategory: 'Arts & Entertainment / Film, TV & Theatre'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+
+  assert.equal(submission.category, 'arts-and-entertainment')
+  assert.equal(submission.subcategory, 'Film, TV & Theatre')
+})
+
 test('rejects invalid, local, credentialed, and missing URLs', () => {
   for (const url of [
     '',

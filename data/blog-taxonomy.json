@@ -110,21 +110,27 @@
       ]
     },
     {
-      "slug": "arts-and-creativity",
-      "title": "Arts & Creativity",
+      "slug": "arts-and-entertainment",
+      "title": "Arts & Entertainment",
       "description": "Creative work, visual arts, music, design, and experimental projects.",
       "subsections": [
-        { "title": "Photography", "match": "photo|photography" },
         {
-          "title": "Art & Illustration",
-          "match": "art|illustrat|drawing|painting"
+          "title": "Comics & Illustration",
+          "match": "comic|illustrat|drawing|painting|cartoon"
+        },
+        {
+          "title": "Design & Creative Projects",
+          "match": "creative|design|pixel|visual|retro satire|data art"
         },
         { "title": "Music", "match": "music|song|guitar|instrument" },
         {
-          "title": "Film & Entertainment",
-          "match": "film|movie|theatre|entertainment"
+          "title": "Film, TV & Theatre",
+          "match": "film|movie|theatre|television|tv|entertainment"
         },
-        { "title": "Design & Creative Projects", "match": ".*" }
+        {
+          "title": "Photography & Street Art",
+          "match": "photo|photography|street art|mural|.*"
+        }
       ]
     },
     {

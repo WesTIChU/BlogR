@@ -11,23 +11,23 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  const sections = groupBySubsection('arts-and-creativity', [
+  const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
       description: '',
-      category: 'arts-and-creativity',
+      category: 'arts-and-entertainment',
       subcategory: 'Zed'
     },
     {
       name: 'Alpha',
       description: '',
-      category: 'arts-and-creativity',
+      category: 'arts-and-entertainment',
       subcategory: 'Zed'
     },
     {
       name: 'Bravo',
       description: '',
-      category: 'arts-and-creativity',
+      category: 'arts-and-entertainment',
       subcategory: 'Alpha'
     }
   ])
@@ -47,7 +47,7 @@ test('validates current blogs and groups subcategories alphabetically', () => {
 })
 
 test('trims duplicate subcategory names and rejects malformed values', () => {
-  const sections = groupBySubsection('arts-and-creativity', [
+  const sections = groupBySubsection('arts-and-entertainment', [
     { name: 'One', description: '', subcategory: '  New Topic  ' },
     { name: 'Two', description: '', subcategory: 'new   topic' }
   ])
@@ -57,7 +57,7 @@ test('trims duplicate subcategory names and rejects malformed values', () => {
   for (const subcategory of ['', [], {}]) {
     assert.throws(
       () =>
-        groupBySubsection('arts-and-creativity', [
+        groupBySubsection('arts-and-entertainment', [
           { name: 'Broken', description: '', subcategory }
         ]),
       /Invalid subcategory/
@@ -68,11 +68,11 @@ test('trims duplicate subcategory names and rejects malformed values', () => {
 test('rejects subcategories that duplicate main category names', () => {
   assert.throws(
     () =>
-      groupBySubsection('arts-and-creativity', [
+      groupBySubsection('arts-and-entertainment', [
         {
           name: 'Wrongly Nested',
           description: '',
-          category: 'arts-and-creativity',
+          category: 'arts-and-entertainment',
           subcategory: ' books   & writing '
         }
       ]),

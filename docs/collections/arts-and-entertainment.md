@@ -1,5 +1,5 @@
 ---
-title: Arts & Creativity
+title: Arts & Entertainment
 description: Creative work, visual arts, music, design, and experimental projects.
 ---
 
@@ -8,7 +8,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-# ► Arts & Creativity
+# ► Arts & Entertainment
 
 Creative work, visual arts, music, design, and experimental projects.
 
@@ -29,7 +29,7 @@ Creative work, visual arts, music, design, and experimental projects.
 * <BlogHealthLink name="Simon Schreibt" url="https://simonschreibt.de/" :favourite="false" /> - Detailed breakdowns of video game art and visual effects, explaining creative techniques used in game graphics.<BlogLastUpdated url="https://simonschreibt.de/" />
 * <BlogHealthLink name="Skaterfish" url="https://skaterfish.net/" :favourite="false" /> - A personal creative website sharing pixel art, visual projects and thoughts about life and artistic interests.<BlogLastUpdated url="https://skaterfish.net/" />
 
-## Film & Entertainment
+## Film, TV & Theatre
 
 * <BlogHealthLink name="Cult TV Lounge" url="https://cult-tv-lounge.blogspot.com/" :favourite="true" /> - Reviews and commentary on classic British and American cult television, exploring programmes, genres and overlooked series.<BlogLastUpdated url="https://cult-tv-lounge.blogspot.com/" />
 * <BlogHealthLink name="Cherry and Spoon" url="http://www.cherryandspoon.com/" :favourite="false" /> - Reviews of theatre productions and live performances, sharing opinions and impressions from the performing arts scene.<BlogLastUpdated url="http://www.cherryandspoon.com/" />

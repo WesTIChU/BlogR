@@ -16,9 +16,9 @@
  */
 
 import type { ThemeRegistry } from '../types'
+import { blogrOrangeTheme } from './blogr-orange'
 import { catppuccinTheme } from './catppuccin'
 import { colorThemes } from './colors'
-import { blogrOrangeTheme } from './halloween'
 import { monochromeTheme } from './monochrome'
 import { monolithTheme } from './monolith'
 

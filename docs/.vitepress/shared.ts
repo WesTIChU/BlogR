@@ -74,7 +74,7 @@ export const footerMessage = `<span class="site-footer-message">A directory for 
 
 export const socialLinks: DefaultTheme.SocialLink[] = []
 
-const discoverItems: DefaultTheme.NavItem[] = [
+const discoverItems: DefaultTheme.NavItemWithLink[] = [
   {
     text: '<span class="i-twemoji-books"></span> All Blogs',
     link: '/blogs'
@@ -125,8 +125,8 @@ const discoverItems: DefaultTheme.NavItem[] = [
   }
 ]
 
-const navLabel = (item: DefaultTheme.NavItem) =>
-  typeof item.text === 'string' ? item.text.replace(/<[^>]*>/g, '').trim() : ''
+const navLabel = (item: DefaultTheme.NavItemWithLink) =>
+  item.text.replace(/<[^>]*>/g, '').trim()
 
 const sortedDiscoverItems = [
   ...discoverItems.slice(0, 2),
@@ -135,7 +135,11 @@ const sortedDiscoverItems = [
     .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
 ]
 
-export const nav: DefaultTheme.NavItem[] = [
+type NavGroup = Omit<DefaultTheme.NavItemWithChildren, 'items'> & {
+  items: DefaultTheme.NavItemWithLink[]
+}
+
+export const nav: NavGroup[] = [
   {
     text: '🔎 Discover',
     items: sortedDiscoverItems
@@ -180,16 +184,12 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: '<span class="i-twemoji-open-mailbox-with-raised-flag"></span> Submit a Blog',
         link: '/submit-a-blog'
-      },
-      {
-        text: '<span class="i-twemoji-handshake"></span> Contribute',
-        link: '/contribute'
       }
     ]
   }
 ]
 
-export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = [
+export const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Discover',
     collapsed: false,

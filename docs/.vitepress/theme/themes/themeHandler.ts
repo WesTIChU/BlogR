@@ -26,7 +26,6 @@ const STORAGE_KEY_VARS = 'vitepress-theme-vars'
 const DEFAULT_THEME = 'blogr-orange'
 
 function resolveThemeName(name?: string | null): string {
-  if (name === 'halloween') return DEFAULT_THEME
   if (name && themeRegistry[name]) return name
   if (name && themeRegistry[`color-${name}`]) return `color-${name}`
   return DEFAULT_THEME

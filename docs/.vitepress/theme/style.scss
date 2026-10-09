@@ -290,12 +290,6 @@ html.june {
   }
 }
 
-html.halloween {
-  .VPNavBarTitle .logo {
-    content: url('/hall.png');
-  }
-}
-
 .VPNavBarTitle:not(.has-sidebar) .blogr-logo {
   width: min(100%, 260px);
   min-width: 260px;
@@ -309,12 +303,6 @@ html.halloween {
 
 .VPNavBarTitle.has-sidebar .blogr-logo {
   font-size: 22px;
-}
-
-.base64 {
-  min-width: 100%;
-  width: 0px;
-  white-space: pre-wrap;
 }
 
 /* Make clicks pass-through */

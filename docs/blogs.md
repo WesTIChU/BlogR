@@ -203,6 +203,7 @@ Browse every independent blog and personal website listed in the BlogR Directory
 * <BlogHealthLink name="Rachel by the Bay" url="https://rachel.blog/" :favourite="false" /> - Sharp commentary on tech, internet culture, and the modern web.<BlogLastUpdated url="https://rachel.blog/" />
 * <BlogHealthLink name="Randomwire" url="https://randomwire.com" :favourite="false" /> - Asia travel and culture.<BlogLastUpdated url="https://randomwire.com" />
 * <BlogHealthLink name="rawr.fun" url="https://rawr.fun/" :favourite="false" /> - Playful internet space.<BlogLastUpdated url="https://rawr.fun/" />
+* <BlogHealthLink name="Read Celtic" url="https://readceltic.com/" :favourite="false" /> - Celtic FC news and opinion covering the latest club developments, transfers, match previews, reviews and Scottish football.<BlogLastUpdated url="https://readceltic.com/" />
 * <BlogHealthLink name="Replicate Blog" url="https://replicate.com/blog" :favourite="false" /> - Tutorials, experiments and updates on generative AI, machine learning models and developer tools.<BlogLastUpdated url="https://replicate.com/blog" />
 * <BlogHealthLink name="Retired Martin" url="https://retiredmartin.com/" :favourite="false" /> - Travels around Britain and beyond, exploring pubs, places, live music and everyday life.<BlogLastUpdated url="https://retiredmartin.com/" />
 * <BlogHealthLink name="Retro Arcadia" url="https://retroarcadia.blog/" :favourite="false" /> - Retro gaming reviews, classic consoles, arcade games, and gaming nostalgia.<BlogLastUpdated url="https://retroarcadia.blog/" />

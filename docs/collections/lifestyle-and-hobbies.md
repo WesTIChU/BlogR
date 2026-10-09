@@ -62,7 +62,11 @@ Personal interests, hobbies, practical projects, and ways of living.
 
 ## Gardening & DIY
 
+* <BlogHealthLink name="Garden Betty" url="https://gardenbetty.com/" :favourite="false" /> - Linda Ly shares practical gardening advice, recipes, homesteading projects, and sustainable ways to grow and enjoy food.<BlogLastUpdated url="https://gardenbetty.com/" />
+* <BlogHealthLink name="GardenRant" url="https://gardenrant.com/" :favourite="false" /> - Independent multi-author gardening blog offering opinionated commentary, practical advice, garden design perspectives, horticultural news, and environmental discussion.<BlogLastUpdated url="https://gardenrant.com/" />
+* <BlogHealthLink name="Joe Gardener" url="https://joegardener.com/blog/" :favourite="false" /> - Joe Lamp'l provides practical advice on growing food, organic gardening, green living, and sustainable garden care.<BlogLastUpdated url="https://joegardener.com/blog/" />
 * <BlogHealthLink name="Marine How To" url="https://marinehowto.com/" :favourite="false" /> - Hands-on guides to boat maintenance, marine electrical systems and practical do-it-yourself repairs for boat owners.<BlogLastUpdated url="https://marinehowto.com/" />
+* <BlogHealthLink name="Savvy Gardening" url="https://savvygardening.com/" :favourite="false" /> - Horticultural writers offer practical advice on growing vegetables, flowers, houseplants, garden design, pest control, and sustainable gardening.<BlogLastUpdated url="https://savvygardening.com/" />
 
 ## Health & Wellness
 

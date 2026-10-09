@@ -4,7 +4,7 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
 import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
-import { compareBlogs, validateBlogs } from './generate-blog-pages.js'
+import { validateBlogs } from './generate-blog-pages.js'
 
 const exec = promisify(execFile)
 const API_ROOT = 'https://api.github.com'
@@ -227,6 +227,19 @@ export function buildBlogEntry(submission, addedDate) {
   }
 }
 
+export function appendBlogEntry(entries, entry) {
+  const normalizedUrl = normalizeBlogHealthUrl(entry.url).toString()
+  if (
+    entries.some(
+      (existing) =>
+        normalizeBlogHealthUrl(existing.url).toString() === normalizedUrl
+    )
+  ) {
+    return entries
+  }
+  return [...entries, entry]
+}
+
 export function submissionBranch(issueNumber) {
   if (!/^\d+$/.test(String(issueNumber)))
     throw new Error('Invalid issue number')
@@ -355,7 +368,7 @@ async function run() {
 
   const today = new Date().toISOString().slice(0, 10)
   const entry = buildBlogEntry(submission, today)
-  const nextBlogs = [...blogs, entry].sort(compareBlogs)
+  const nextBlogs = appendBlogEntry(blogs, entry)
   await exec('git', ['checkout', '-b', branch])
   await writeFile(
     resolve('data/blogs.json'),

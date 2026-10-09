@@ -143,7 +143,11 @@
         },
         { "title": "Health & Wellness", "match": "health|wellness|fitness" },
         { "title": "Pets & Animals", "match": "pet|animal|dog|cat" },
-        { "title": "Everyday Life", "match": ".*" }
+        { "title": "Everyday Life", "match": ".*" },
+        {
+          "title": "Football & Sports",
+          "match": "football|sports"
+        }
       ]
     },
     {

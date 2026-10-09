@@ -27,6 +27,10 @@ Personal interests, hobbies, practical projects, and ways of living.
 * <BlogHealthLink name="Playrface" url="https://playrface.co.uk/" :favourite="false" /> - Stories, history, and lesser-known sports from around the world.<BlogLastUpdated url="https://playrface.co.uk/" />
 * <BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Living with less.<BlogLastUpdated url="https://www.theminimalists.com" />
 
+## Football & Sports
+
+* <BlogHealthLink name="The Celtic Blog" url="https://thecelticblog.com/" :favourite="false" /> - Independent Celtic FC supporters' blog covering club news, Scottish football, match analysis, transfers and opinion.<BlogLastUpdated url="https://thecelticblog.com/" />
+
 ## Gaming & Retro Games
 
 * <BlogHealthLink name="Collection Chamber" url="https://collectionchamber.blogspot.com/" :favourite="false" /> - Preserving, reviewing, and playing retro PC games.<BlogLastUpdated url="https://collectionchamber.blogspot.com/" />

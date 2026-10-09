@@ -3,6 +3,7 @@ import test from 'node:test'
 import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
 import {
+  appendBlogEntry,
   buildBlogEntry,
   catalogueFiles,
   existingSubmissionPullRequest,
@@ -171,6 +172,55 @@ test('normal existing subcategories do not interpret additional notes as suggest
   )
   assert.equal(submission.subcategory, 'Programming & Development')
   assert.equal(submission.suggestedSubcategory, undefined)
+})
+
+test('adding one blog preserves every existing entry and appends in source order', () => {
+  const existing = [
+    {
+      name: 'Existing favourite',
+      url: 'https://existing.example/',
+      favourite: true,
+      recentlyAdded: false,
+      category: 'technology'
+    },
+    {
+      name: 'Existing older entry',
+      url: 'https://older.example/',
+      favourite: false,
+      recentlyAdded: true,
+      category: 'travel-outdoors'
+    }
+  ]
+  const snapshot = structuredClone(existing)
+  const entry = {
+    name: 'New blog',
+    url: 'https://new.example/',
+    favourite: false,
+    recentlyAdded: true,
+    category: 'lifestyle-and-hobbies'
+  }
+  const result = appendBlogEntry(existing, entry)
+
+  assert.deepEqual(existing, snapshot)
+  assert.deepEqual(result.slice(0, existing.length), snapshot)
+  assert.deepEqual(result.at(-1), entry)
+})
+
+test('repeated insertion of the same URL is idempotent', () => {
+  const existing = [
+    { name: 'Existing', url: 'https://example.com/', favourite: true }
+  ]
+  const entry = {
+    name: 'Duplicate',
+    url: 'https://EXAMPLE.com/#same-url',
+    favourite: false
+  }
+  const once = appendBlogEntry(existing, entry)
+  const twice = appendBlogEntry(once, entry)
+
+  assert.equal(once, existing)
+  assert.equal(twice, once)
+  assert.deepEqual(twice, existing)
 })
 
 test('creates deterministic branches and linked pull request details', () => {

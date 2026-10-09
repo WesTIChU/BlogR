@@ -128,7 +128,11 @@ test('public pages have unique descriptions and valid heading hierarchy', async 
 
 test('directory size and generated Open Graph images remain intact', async () => {
   const blogs = await readFile(join(DIST, 'blogs.html'), 'utf8')
-  assert.equal((blogs.match(/class="blog-health-link/g) ?? []).length, 261)
+  const catalogue = JSON.parse(await readFile('data/blogs.json', 'utf8'))
+  const renderedBlogCount = (blogs.match(/class="blog-health-link/g) ?? [])
+    .length
+  assert.ok(catalogue.length > 0)
+  assert.equal(renderedBlogCount, catalogue.length)
 
   const collections = (await readdir('docs/collections')).filter((file) =>
     file.endsWith('.md')

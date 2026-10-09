@@ -39,7 +39,7 @@ const updateTooltip = computed(() =>
   display: inline;
   margin-left: 0.35em;
   color: var(--vp-c-text-3);
-  font-size: 0.8em;
+  font-size: 0.75em;
   font-weight: 400;
   white-space: nowrap;
 }

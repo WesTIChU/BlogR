@@ -1368,10 +1368,10 @@
     "feedUrl": "https://marcschuster.com/feed/"
   },
   "https://whereweretheynow.blogspot.com/": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastPublished": "2026-09-27",
+    "lastChecked": "2026-10-09T18:55:47.805Z",
     "status": "success",
-    "feedUrl": "https://whereweretheynow.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://whereweretheynow.blogspot.com/rss.xml"
   },
   "https://smallobservations.net/": {
     "lastPublished": "2026-09-14",
@@ -1393,9 +1393,9 @@
   },
   "https://super-dupertoybox.blogspot.com/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastChecked": "2026-10-09T18:55:47.805Z",
     "status": "success",
-    "feedUrl": "https://super-dupertoybox.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://super-dupertoybox.blogspot.com/rss.xml"
   },
   "https://www.qwantz.com/": {
     "lastPublished": "2026-10-09",
@@ -1417,9 +1417,9 @@
   },
   "https://towerofzenopus.blogspot.com/": {
     "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-09T15:54:21.406Z",
+    "lastChecked": "2026-10-09T18:55:47.805Z",
     "status": "success",
-    "feedUrl": "https://towerofzenopus.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://towerofzenopus.blogspot.com/rss.xml"
   },
   "https://theswedishgames.wordpress.com/": {
     "lastPublished": "2026-09-01",
@@ -1465,9 +1465,9 @@
   },
   "https://gorillasdontblog.blogspot.com/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastChecked": "2026-10-09T18:55:47.805Z",
     "status": "success",
-    "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://gorillasdontblog.blogspot.com/rss.xml"
   },
   "https://retiredmartin.com/": {
     "lastPublished": "2026-10-09",
@@ -1548,10 +1548,10 @@
     "feedUrl": "https://mindhacks.com/feed/"
   },
   "https://fbdd-lit.blogspot.com/": {
-    "lastPublished": "2026-08-24",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-08-04",
+    "lastChecked": "2026-10-09T18:55:47.805Z",
     "status": "success",
-    "feedUrl": "https://fbdd-lit.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://fbdd-lit.blogspot.com/rss.xml"
   },
   "https://nintil.com/": {
     "lastPublished": "2026-09-17",
@@ -2026,5 +2026,11 @@
     "lastChecked": "2026-10-09T17:42:50.324Z",
     "status": "success",
     "feedUrl": "https://resolve.works/rss.xml"
+  },
+  "https://thefilm.blog/": {
+    "lastPublished": "2026-09-15",
+    "lastChecked": "2026-10-09T18:55:47.805Z",
+    "status": "success",
+    "feedUrl": "https://thefilm.blog/feed/"
   }
 }

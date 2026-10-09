@@ -21,11 +21,11 @@ Personal interests, hobbies, practical projects, and ways of living.
 
 ## Everyday Life
 
-* <BlogHealthLink name="Becoming Minimalist" url="https://www.becomingminimalist.com" :favourite="false" /> - Simple living.<BlogLastUpdated url="https://www.becomingminimalist.com" />
+* <BlogHealthLink name="Becoming Minimalist" url="https://www.becomingminimalist.com" :favourite="false" /> - Joshua Becker writes about simplifying possessions, intentional living, and finding greater meaning through a minimalist lifestyle.<BlogLastUpdated url="https://www.becomingminimalist.com" />
 * <BlogHealthLink name="Lab Muffin Beauty Science" url="https://labmuffin.com/" :favourite="false" /> - Chemistry-backed explanations of skincare, cosmetics, beauty products and common myths.<BlogLastUpdated url="https://labmuffin.com/" />
 * <BlogHealthLink name="Oilpressure" url="https://oilpressure.com/" :favourite="false" /> - IndyCar opinions, history, and race discussion.<BlogLastUpdated url="https://oilpressure.com/" />
 * <BlogHealthLink name="Playrface" url="https://playrface.co.uk/" :favourite="false" /> - Stories, history, and lesser-known sports from around the world.<BlogLastUpdated url="https://playrface.co.uk/" />
-* <BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Living with less.<BlogLastUpdated url="https://www.theminimalists.com" />
+* <BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Joshua Fields Millburn and Ryan Nicodemus write about meaningful living, minimalism, relationships, and having less without losing what matters.<BlogLastUpdated url="https://www.theminimalists.com" />
 
 ## Football & Sports
 

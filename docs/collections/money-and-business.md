@@ -19,7 +19,7 @@ Independent writing about money, business, economics, and finance.
 * <BlogHealthLink name="David Gerard" url="https://davidgerard.co.uk/blockchain/" :favourite="false" /> - Crypto and blockchain criticism.<BlogLastUpdated url="https://davidgerard.co.uk/blockchain/" />
 * <BlogHealthLink name="Molly White" url="https://blog.mollywhite.net/" :favourite="false" /> - Crypto investigations and scams.<BlogLastUpdated url="https://blog.mollywhite.net/" />
 * <BlogHealthLink name="The Blockchain Socialist" url="https://theblockchainsocialist.com/category/blog/" :favourite="false" /> - Political critique of crypto.<BlogLastUpdated url="https://theblockchainsocialist.com/category/blog/" />
-* <BlogHealthLink name="Web3 Is Going Just Great" url="https://www.web3isgoinggreat.com/" :favourite="false" /> - Tracking Web3 failures.<BlogLastUpdated url="https://www.web3isgoinggreat.com/" />
+* <BlogHealthLink name="Web3 Is Going Just Great" url="https://www.web3isgoinggreat.com/" :favourite="false" /> - Timeline documenting disasters and failures across cryptocurrency, decentralised finance, NFTs, blockchain projects, and the wider Web3 industry.<BlogLastUpdated url="https://www.web3isgoinggreat.com/" />
 
 ## Business & Entrepreneurship
 

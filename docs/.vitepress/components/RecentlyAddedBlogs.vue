@@ -40,7 +40,7 @@ onUnmounted(() => {
         :favourite="blog.favourite"
       />
       - {{ blog.description }}
-      <BlogLastUpdated :url="blog.url" />
+      <BlogLastUpdated :url="blog.url" :added-date="blog.addedDate" />
     </li>
   </ul>
   <p v-else>No blogs have been added in the last 30 days.</p>

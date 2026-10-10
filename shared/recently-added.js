@@ -23,6 +23,18 @@ export function parseUtcDateOnly(value) {
   return date
 }
 
+export function formatAddedDate(value) {
+  const date = parseUtcDateOnly(value)
+  if (!date) return null
+
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'long',
+    timeZone: 'UTC',
+    year: 'numeric'
+  }).format(date)
+}
+
 export function utcDayStart(value = new Date()) {
   const date = value instanceof Date ? value : new Date(value)
   if (Number.isNaN(date.getTime())) throw new RangeError('Invalid date')

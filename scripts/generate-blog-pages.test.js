@@ -130,6 +130,19 @@ test('renders discovered headings as normal markdown headings', () => {
   assert.match(markdown, /## New Topic/)
 })
 
+test('passes permanent addition dates to the shared metadata component', () => {
+  const markdown = page('Example', 'Description', [
+    {
+      name: 'Example Blog',
+      url: 'https://example.com',
+      description: 'Example',
+      addedDate: '2026-10-09'
+    }
+  ])
+
+  assert.match(markdown, /<BlogLastUpdated[^>]+added-date="2026-10-09"/)
+})
+
 test('keeps favourite blogs before alphabetical non-favourites', () => {
   const entries = [
     {

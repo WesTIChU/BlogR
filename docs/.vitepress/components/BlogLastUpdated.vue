@@ -12,13 +12,15 @@ import {
   getBlogUpdate,
   getVerifiedFeedUrl
 } from '../../../shared/blog-update.js'
+import { formatAddedDate } from '../../../shared/recently-added.js'
 import {
   healthStatuses,
   loadHealthStatuses
 } from './blog-health-status-client.js'
 
 const props = defineProps({
-  url: { type: String, required: true }
+  url: { type: String, required: true },
+  addedDate: { type: String, default: null }
 })
 
 const normalizedUrl = computed(() => {
@@ -74,6 +76,7 @@ const updateTooltip = computed(() =>
 )
 const feedUrl = computed(() => getVerifiedFeedUrl(updates, props.url))
 const feedLabel = computed(() => `RSS feed for ${blog.value?.name ?? 'blog'}`)
+const addedDateText = computed(() => formatAddedDate(props.addedDate))
 
 onMounted(() => {
   void loadHealthStatuses()
@@ -82,7 +85,7 @@ onMounted(() => {
 
 <template>
   <span
-    v-if="favourite || health || relativeUpdate || feedUrl"
+    v-if="favourite || health || relativeUpdate || feedUrl || addedDateText"
     class="blog-last-updated"
   >
     <span v-if="favourite" class="blog-favourite" aria-label="Favourite">
@@ -122,6 +125,16 @@ onMounted(() => {
     >
       Last updated&nbsp;{{ relativeUpdate }}
     </span>
+    <span
+      v-if="addedDateText && relativeUpdate"
+      class="blog-metadata-separator"
+      aria-hidden="true"
+    >
+      ·
+    </span>
+    <span v-if="addedDateText" class="blog-added-date">
+      Added&nbsp;{{ addedDateText }}
+    </span>
     <span class="blog-health-sr-only">{{ statusLabel }}</span>
   </span>
 </template>
@@ -135,7 +148,7 @@ onMounted(() => {
   color: var(--vp-c-text-3);
   font-size: 0.75em;
   font-weight: 400;
-  white-space: nowrap;
+  flex-wrap: wrap;
 }
 
 .blog-favourite {
@@ -176,6 +189,14 @@ onMounted(() => {
 .blog-feed-icon path:first-child {
   fill: currentColor;
   stroke: none;
+}
+
+.blog-metadata-separator {
+  color: var(--vp-c-text-3);
+}
+
+.blog-added-date {
+  display: inline-block;
 }
 
 .blog-health-sr-only {

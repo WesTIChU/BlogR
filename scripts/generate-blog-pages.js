@@ -28,7 +28,7 @@ export const compareBlogs = (a, b) =>
   Number(Boolean(b.favourite)) - Number(Boolean(a.favourite)) ||
   a.name.localeCompare(b.name)
 const line = (blog) =>
-  `* <BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}<BlogLastUpdated url="${attribute(blog.url)}" />`
+  `* <BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}<BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
 
 export function page(
   title,

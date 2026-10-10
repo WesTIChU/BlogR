@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import {
   ageInUtcDays,
+  formatAddedDate,
   getRecentlyAddedBlogs,
   isRecentlyAdded
 } from './recently-added.js'
@@ -20,6 +21,12 @@ test('excludes additions older than 30 days and missing dates', () => {
   assert.equal(isRecentlyAdded('', now), false)
   assert.equal(isRecentlyAdded('not-a-date', now), false)
   assert.equal(ageInUtcDays('2026-02-28', now), 31)
+})
+
+test('formats verified addition dates and leaves unknown dates undisplayed', () => {
+  assert.equal(formatAddedDate('2026-10-10'), '10 October 2026')
+  assert.equal(formatAddedDate(null), null)
+  assert.equal(formatAddedDate('not-a-date'), null)
 })
 
 test('uses UTC dates across month boundaries', () => {

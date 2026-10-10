@@ -135,6 +135,11 @@ const sortedDiscoverItems = [
     .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
 ]
 
+const browseItems = discoverItems.slice(0, 2)
+const sortedCategoryItems = discoverItems
+  .slice(2)
+  .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
+
 type NavGroup = Omit<DefaultTheme.NavItemWithChildren, 'items'> & {
   items: DefaultTheme.NavItemWithLink[]
 }
@@ -191,9 +196,14 @@ export const nav: NavGroup[] = [
 
 export const sidebar: DefaultTheme.Sidebar = [
   {
+    text: 'Browse',
+    collapsed: false,
+    items: browseItems
+  },
+  {
     text: 'Discover',
     collapsed: false,
-    items: nav[0].items
+    items: sortedCategoryItems
   },
   {
     text: 'Communities',

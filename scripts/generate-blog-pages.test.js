@@ -7,9 +7,11 @@ import communities from '../data/communities.json' with { type: 'json' }
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import {
   communityPage,
+  compareBlogNames,
   compareBlogs,
   compareCommunities,
   compareCommunityCategories,
+  groupByCategory,
   groupBySubsection,
   page,
   validateBlogs,
@@ -178,9 +180,173 @@ test('keeps favourite blogs before alphabetical non-favourites', () => {
   )
 })
 
+test('groups All Blogs by alphabetically ordered categories and blog names', () => {
+  const entries = [
+    {
+      name: 'Zulu Blog',
+      url: 'https://zulu.example',
+      description: '',
+      category: 'technology',
+      favourite: true
+    },
+    {
+      name: '10th Blog',
+      url: 'https://ten.example',
+      description: '',
+      category: 'technology',
+      favourite: false
+    },
+    {
+      name: '2nd Blog',
+      url: 'https://two.example',
+      description: '',
+      category: 'technology',
+      favourite: false
+    },
+    {
+      name: 'alpha blog',
+      url: 'https://alpha.example',
+      description: '',
+      category: 'technology',
+      favourite: false
+    },
+    {
+      name: 'Culture Blog',
+      url: 'https://culture.example',
+      description: '',
+      category: 'culture-and-places',
+      favourite: false
+    }
+  ]
+  const sections = groupByCategory(entries)
+  assert.deepEqual(
+    sections.map(({ title }) => title),
+    ['Culture & Places', 'Technology']
+  )
+  assert.deepEqual(
+    sections
+      .find(({ title }) => title === 'Technology')
+      .entries.map(({ name }) => name),
+    ['Zulu Blog', '2nd Blog', '10th Blog', 'alpha blog']
+  )
+  assert.equal(
+    compareBlogNames(
+      { name: '2nd Blog', url: 'https://two.example' },
+      { name: '10th Blog', url: 'https://ten.example' }
+    ) < 0,
+    true
+  )
+})
+
+test('sorts favourites first within each All Blogs subcategory', () => {
+  const entries = [
+    {
+      name: 'Zulu Favourite',
+      url: 'https://zulu.example',
+      description: '',
+      category: 'technology',
+      subcategory: 'Programming & Development',
+      favourite: true
+    },
+    {
+      name: 'Alpha Blog',
+      url: 'https://alpha.example',
+      description: '',
+      category: 'technology',
+      subcategory: 'Programming & Development',
+      favourite: false
+    },
+    {
+      name: 'Alpha Favourite',
+      url: 'https://alpha-favourite.example',
+      description: '',
+      category: 'technology',
+      subcategory: 'Programming & Development',
+      favourite: true
+    },
+    {
+      name: 'Zulu Blog',
+      url: 'https://zulu-blog.example',
+      description: '',
+      category: 'technology',
+      subcategory: 'Programming & Development',
+      favourite: false
+    }
+  ]
+
+  const subsection = groupByCategory(entries)
+    .find(({ title }) => title === 'Technology')
+    .subsections.find(({ title }) => title === 'Programming & Development')
+  assert.deepEqual(
+    subsection.entries.map(({ name }) => name),
+    ['Alpha Favourite', 'Zulu Favourite', 'Alpha Blog', 'Zulu Blog']
+  )
+  assert.deepEqual(
+    groupBySubsection('technology', entries)
+      .find(({ title }) => title === 'Programming & Development')
+      .entries.map(({ name }) => name),
+    ['Alpha Favourite', 'Zulu Favourite', 'Alpha Blog', 'Zulu Blog']
+  )
+})
+
+test('renders every blog exactly once in the grouped All Blogs page', () => {
+  const markdown = page(
+    'All Blogs',
+    'Description',
+    blogs,
+    groupByCategory(blogs)
+  )
+  const renderedCount = groupByCategory(blogs).reduce(
+    (total, section) => total + section.entries.length,
+    0
+  )
+  assert.equal(renderedCount, blogs.length)
+  assert.equal(new Set(blogs.map(({ url }) => url)).size, blogs.length)
+  for (const blog of blogs) {
+    assert.equal(markdown.split(blog.url).length - 1, 2)
+  }
+})
+
+test('renders nested category headings and preserves blog metadata', () => {
+  const markdown = page(
+    'All Blogs',
+    'Description',
+    blogs,
+    groupByCategory(blogs)
+  )
+  const mainHeadings = [...markdown.matchAll(/^## (.+)$/gm)].map(
+    ([, title]) => title
+  )
+  const subHeadings = [...markdown.matchAll(/^### (.+)$/gm)].map(
+    ([, title]) => title
+  )
+  assert.equal(mainHeadings.length, taxonomy.categories.length)
+  assert.equal(
+    subHeadings.length,
+    groupByCategory(blogs).reduce(
+      (total, section) =>
+        total +
+        section.subsections.filter((subcategory) => subcategory.entries.length)
+          .length,
+      0
+    )
+  )
+  assert.match(markdown, /<BlogHealthLink name="16bit\.com"/)
+  assert.match(markdown, /<BlogLastUpdated[^>]+added-date="2026-10-09"/)
+  assert.equal(
+    groupBySubsection(
+      'lifestyle-and-hobbies',
+      blogs.filter(({ category }) => category === 'lifestyle-and-hobbies')
+    )
+      .find(({ title }) => title === 'Collecting & Memorabilia')
+      .entries.some(({ name }) => name === 'Project Sword Toys'),
+    true
+  )
+})
+
 test('keeps the separate community catalogue complete and unique', () => {
   validateCommunities(communities)
-  assert.equal(communities.length, 36)
+  assert.equal(communities.length, 37)
   assert.deepEqual(
     [...new Set(communities.map((community) => community.section))],
     ['forums', 'independent-communities']

@@ -144,6 +144,10 @@
       "subsections": [
         { "title": "Cooking & Recipes", "match": "food|cook|recipe|baking" },
         {
+          "title": "Collecting & Memorabilia",
+          "match": "collect|memorabilia|toy|brick|stationery|knives?"
+        },
+        {
           "title": "Gardening & DIY",
           "match": "garden|plant|diy|maker|making|craft"
         },
@@ -195,6 +199,7 @@
       "title": "Internet & Society",
       "description": "Writing about the internet, society, privacy, communities, and digital culture.",
       "subsections": [
+        { "title": "Privacy & Security", "match": "privacy|security" },
         {
           "title": "Internet Culture",
           "match": "internet|web culture|digital culture"

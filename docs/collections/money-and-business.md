@@ -28,6 +28,7 @@ Independent writing about money, business, economics, and finance.
 
 ## Economics
 
+* <BlogHealthLink name="Econbrowser" url="https://econbrowser.com/" :favourite="false" /> - Economic analysis by James Hamilton and Menzie Chinn covering current conditions, data, policy, markets, and the business cycle.<BlogLastUpdated url="https://econbrowser.com/" />
 * <BlogHealthLink name="The TTABlog" url="https://thettablog.blogspot.com/" :favourite="false" /> - Commentary on trademark law, legal disputes and decisions, examining cases and developments in intellectual property.<BlogLastUpdated url="https://thettablog.blogspot.com/" />
 
 ## Personal Finance

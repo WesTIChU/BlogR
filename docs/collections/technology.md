@@ -16,6 +16,7 @@ Independent writing about software, development, Linux, open source, and technol
 
 ## Creative Tools & Digital Projects
 
+* <BlogHealthLink name="Babak Fakhamzadeh" url="https://babakfakhamzadeh.com/" :favourite="false" /> - Writing and creative projects from a technologist and media artist working with digital innovation, photography, walking, and location-based storytelling.<BlogLastUpdated url="https://babakfakhamzadeh.com/" />
 * <BlogHealthLink name="Robin Sloan's Lab" url="https://www.robinsloan.com/lab/" :favourite="false" /> - Robin Sloan’s lab explores media, technology, creative computing, AI aesthetics, software experiments, and unusual digital projects.<BlogLastUpdated url="https://www.robinsloan.com/lab/" />
 
 ## Internet & Web Technology

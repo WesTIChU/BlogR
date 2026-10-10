@@ -2416,5 +2416,23 @@
     "lastChecked": "2026-10-10T17:05:12.663Z",
     "status": "success",
     "feedUrl": "https://www.traingeek.ca/wp/feed/"
+  },
+  "https://britishlandscapesphotography.co.uk/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-10T20:12:13.833Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://www.obsidianurbexphotography.com/blog/": {
+    "lastPublished": "2026-07-15",
+    "lastChecked": "2026-10-10T20:12:13.833Z",
+    "status": "success",
+    "feedUrl": "https://www.obsidianurbexphotography.com/blog/feed/"
+  },
+  "https://www.urbex-travel.com/blog/": {
+    "lastPublished": "2026-10-06",
+    "lastChecked": "2026-10-10T20:12:13.833Z",
+    "status": "success",
+    "feedUrl": "https://www.urbex-travel.com/feed/"
   }
 }

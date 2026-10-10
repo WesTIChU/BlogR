@@ -46,6 +46,7 @@ Independent writing about software, development, Linux, open source, and technol
 ## Privacy & Security
 
 * <BlogHealthLink name="Keet Blog" url="https://keet.wordpress.com/" :favourite="false" /> - Research and commentary on computer science, ontologies, knowledge representation, artificial intelligence and language technologies.<BlogLastUpdated url="https://keet.wordpress.com/" added-date="2026-10-09" />
+* <BlogHealthLink name="The Privacy Dad's Blog" url="https://theprivacydad.com/" :favourite="false" /> - A parent’s personal journey into digital privacy, covering practical tools, open-source alternatives, family technology and everyday experiments.<BlogLastUpdated url="https://theprivacydad.com/" added-date="2026-10-10" />
 
 ## Programming & Development
 

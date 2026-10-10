@@ -103,6 +103,36 @@ test('rejects invalid main-category slugs', () => {
   )
 })
 
+test('accepts optional country codes and rejects invalid country values', () => {
+  assert.doesNotThrow(() =>
+    validateBlogs([
+      {
+        name: 'Canadian Blog',
+        url: 'https://canadian.example',
+        category: 'technology',
+        country: 'CA'
+      },
+      {
+        name: 'Legacy Blog',
+        url: 'https://legacy.example',
+        category: 'technology'
+      }
+    ])
+  )
+  assert.throws(
+    () =>
+      validateBlogs([
+        {
+          name: 'Unknown Country Blog',
+          url: 'https://unknown-country.example',
+          category: 'technology',
+          country: 'ZZ'
+        }
+      ]),
+    /Invalid country code/
+  )
+})
+
 test('places every blog in exactly one generated category section', () => {
   const groupedCount = taxonomy.categories.reduce((total, { slug }) => {
     const entries = blogs.filter((blog) => blog.category === slug)

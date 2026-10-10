@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { normalizeCountryCode } from '../shared/countries.js'
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
 const communities = JSON.parse(
@@ -211,6 +212,7 @@ export function validateBlogs(entries) {
 
     const subcategory = normalizeSubcategory(entry)
     if (subcategory !== null) validateSubcategory(entry, subcategory)
+    if (Object.hasOwn(entry, 'country')) normalizeCountryCode(entry.country)
   }
 }
 

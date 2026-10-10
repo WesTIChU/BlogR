@@ -34,7 +34,7 @@ export default defineConfig({
   lang: 'en-US',
   lastUpdated: false,
   cleanUrls: true,
-  appearance: true,
+  appearance: false,
   base: baseUrl,
   scrollOffset: { selector: '.blogr-scroll-inset', padding: 0 },
   srcExclude: ['README.md', 'public/single-page.md', 'single-page'],
@@ -100,8 +100,7 @@ export default defineConfig({
         })();
         `
     ],
-    // Apply the saved theme synchronously before the page paints, so users
-    // who picked a non-default theme don't briefly see the default one.
+    // Apply the fixed dark theme synchronously before the page paints.
     [
       'script',
       {},
@@ -109,13 +108,9 @@ export default defineConfig({
         (function() {
           try {
              var d = document.documentElement;
-             var savedTheme = localStorage.getItem('vitepress-theme-name');
-             var mode = localStorage.getItem('vitepress-display-mode');
-             var amoled = localStorage.getItem('vitepress-amoled-enabled') === 'true';
-             var themeName = savedTheme || 'blogr-orange';
-             var varsJson = localStorage.getItem('vitepress-theme-vars');
-
-             if (!mode) mode = 'dark';
+              var mode = 'dark';
+              var amoled = false;
+              var themeName = 'blogr-orange';
 
             if (mode === 'dark') {
               d.classList.add('dark');
@@ -130,16 +125,7 @@ export default defineConfig({
 
             d.dataset.theme = themeName;
 
-             if (varsJson) {
-               var vars = JSON.parse(varsJson);
-               for (var k in vars) {
-                 if (Object.prototype.hasOwnProperty.call(vars, k) && k.indexOf('--vp-') === 0) {
-                   d.style.setProperty(k, vars[k]);
-                 }
-               }
-             }
-
-             if (!savedTheme && themeName === 'blogr-orange') {
+              if (themeName === 'blogr-orange') {
                var defaults = mode === 'dark' ? {
                  '--vp-c-brand-1': '#FB923C',
                  '--vp-c-brand-2': '#FDBA74',
@@ -206,9 +192,9 @@ export default defineConfig({
     resolve: {
       alias: [
         {
-          find: /^.*VPSwitchAppearance\.vue$/,
+          find: /^.*VPNavBarExtra\.vue$/,
           replacement: fileURLToPath(
-            new URL('./theme/components/ThemeDropdown.vue', import.meta.url)
+            new URL('./theme/components/VPNavBarExtra.vue', import.meta.url)
           )
         },
         {

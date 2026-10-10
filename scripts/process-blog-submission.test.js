@@ -35,9 +35,10 @@ const body = ({
   description = 'A concise independent blog.',
   category = 'Technology',
   subcategory = 'Technology / Programming & Development',
+  country = '',
   notes = ''
 } = {}) =>
-  `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Additional notes\n\n${notes}\n`
+  `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Country\n\n${country}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Additional notes\n\n${notes}\n`
 
 const taxonomyWithoutFootball = () => {
   const copy = structuredClone(taxonomy)
@@ -71,6 +72,37 @@ test('parses a valid issue form and maps taxonomy choices', () => {
     category: 'technology',
     subcategory: 'Programming & Development'
   })
+})
+
+test('accepts optional country selections and preserves their codes', () => {
+  const selections = [
+    ['Scotland [GB-SCT]', 'GB-SCT'],
+    ['England [GB-ENG]', 'GB-ENG'],
+    ['Wales [GB-WLS]', 'GB-WLS'],
+    ['Northern Ireland [GB-NIR]', 'GB-NIR'],
+    ['United Kingdom [GB]', 'GB'],
+    ['Canada [CA]', 'CA'],
+    ['United States [US]', 'US']
+  ]
+
+  for (const [country, code] of selections) {
+    const submission = validateSubmission(
+      parseIssueForm(body({ country })),
+      blogs,
+      taxonomy
+    )
+    assert.equal(submission.country, code)
+    assert.equal(buildBlogEntry(submission, '2026-10-10').country, code)
+  }
+
+  assert.equal(
+    validateSubmission(parseIssueForm(body()), blogs, taxonomy).country,
+    undefined
+  )
+  assert.throws(
+    () => parseIssueForm(body({ country: 'Atlantis [ZZ]' })),
+    /Invalid country/
+  )
 })
 
 test('parses and validates a community submission without touching blogs', () => {

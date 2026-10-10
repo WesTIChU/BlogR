@@ -1,6 +1,11 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import {
+  COUNTRIES,
+  COUNTRY_NOT_SPECIFIED,
+  countryOption
+} from '../shared/countries.js'
 
 const FORM_PATH = resolve('.github/ISSUE_TEMPLATE/submit-blog.yml')
 const TAXONOMY_PATH = resolve('data/blog-taxonomy.json')
@@ -27,6 +32,10 @@ export function buildTaxonomyOptions(taxonomy) {
       'Not sure / Let the editor decide',
       'Other / Suggest a subcategory'
     ])
+  ]
+  const countryOptions = [
+    COUNTRY_NOT_SPECIFIED,
+    ...COUNTRIES.map(countryOption)
   ]
   if (
     new Set(categoryOptions).size !== categoryOptions.length ||
@@ -91,6 +100,13 @@ export function buildTaxonomyOptions(taxonomy) {
       'Subcategory',
       'Choose an existing subcategory if one fits. This is optional and suggestions are reviewed manually.',
       subcategoryOptions,
+      false
+    ),
+    dropdown(
+      'country',
+      'Country',
+      'Optional. Select where the blogger is based, not where the website is hosted. We do not collect IP addresses or automatically detect locations.',
+      countryOptions,
       false
     ),
     END

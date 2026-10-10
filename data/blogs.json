@@ -4726,5 +4726,44 @@
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
     "addedAt": "2026-10-10T16:24:54.000Z"
+  },
+  {
+    "name": "Susan Stepney's Blog",
+    "url": "https://susan-stepney.blogspot.com/",
+    "description": "A personal blog exploring computer science, mathematics, scientific ideas, research, books and other subjects of interest.",
+    "category": "science-and-nature",
+    "subcategory": "Science & Research",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T17:03:36.000Z"
+  },
+  {
+    "name": "News From ME",
+    "url": "https://www.newsfromme.com/",
+    "description": "Mark Evanier's long-running personal blog covering comic books, animation, television, comedy, entertainment history and observations on everyday life.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Film, TV & Theatre",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T17:03:36.000Z"
+  },
+  {
+    "name": "Confessions of a Train Geek",
+    "url": "https://www.traingeek.ca/wp/",
+    "description": "Steve Boyko's railway blog featuring train photography, railfanning adventures, Canadian railway history, locomotives and stories from trackside.",
+    "category": "lifestyle-and-hobbies",
+    "subcategory": "Everyday Life",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T17:03:36.000Z"
   }
 ]

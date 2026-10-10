@@ -27,6 +27,7 @@ Science, nature, the environment, and careful observation of the world.
 * <BlogHealthLink name="Lior Pachter" url="https://liorpachter.wordpress.com/" :favourite="false" /> - Commentary on computational biology, genomics and bioinformatics, discussing research, methods and developments in the field.<BlogLastUpdated url="https://liorpachter.wordpress.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Mind Hacks" url="https://mindhacks.com/" :favourite="false" /> - Articles exploring psychology, neuroscience and mental health research, explaining discoveries about how the human mind works.<BlogLastUpdated url="https://mindhacks.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Not Even Wrong" url="https://www.math.columbia.edu/~woit/wordpress/" :favourite="false" /> - Peter Woit's commentary on mathematics, theoretical physics, string theory and scientific research.<BlogLastUpdated url="https://www.math.columbia.edu/~woit/wordpress/" added-date="2026-10-09" />
+* <BlogHealthLink name="Susan Stepney's Blog" url="https://susan-stepney.blogspot.com/" :favourite="false" /> - A personal blog exploring computer science, mathematics, scientific ideas, research, books and other subjects of interest.<BlogLastUpdated url="https://susan-stepney.blogspot.com/" added-date="2026-10-10" />
 
 ## Wildlife & Nature
 

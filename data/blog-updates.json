@@ -30,8 +30,8 @@
     "feedUrl": null
   },
   "https://busandtrainuser.com/": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://busandtrainuser.com/feed/"
   },
@@ -127,9 +127,9 @@
   },
   "https://liberalengland.blogspot.com/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://liberalengland.blogspot.com/rss.xml"
+    "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default"
   },
   "https://literarybritain.co.uk/blog/": {
     "lastPublished": "2025-11-03",
@@ -156,8 +156,8 @@
     "feedUrl": "https://postabdn.com/rss/"
   },
   "https://projectswordtoys.blogspot.com/": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://projectswordtoys.blogspot.com/rss.xml"
   },
@@ -300,8 +300,8 @@
     "feedUrl": "https://andrewdoran.uk/blog/feed/"
   },
   "https://evidenceanecdotal.blogspot.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://evidenceanecdotal.blogspot.com/rss.xml"
   },
@@ -774,8 +774,8 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss"
   },
@@ -931,9 +931,9 @@
   },
   "https://www.digitalocean.com/community/tutorials": {
     "lastPublished": null,
-    "lastChecked": "2026-10-09T08:35:23.424Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "unknown",
-    "feedUrl": "https://www.digitalocean.com/_do-www-marketing/a5991e74/_next/static/media/favicon.91372345.svg"
+    "feedUrl": "https://www.digitalocean.com/_do-www-marketing/2f50be18/_next/static/media/favicon.91372345.svg"
   },
   "https://fgiesen.wordpress.com/": {
     "lastPublished": "2026-08-25",
@@ -948,8 +948,8 @@
     "feedUrl": "https://frankforce.com/feed/"
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/"
   },
@@ -1026,8 +1026,8 @@
     "feedUrl": "https://momentsingraphics.de/RSS.xml"
   },
   "https://www.omgubuntu.co.uk/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T16:47:30.610Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed"
   },
@@ -1056,8 +1056,8 @@
     "feedUrl": "https://simonschreibt.de/feed/"
   },
   "https://simonwillison.net/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/"
   },
@@ -1114,12 +1114,6 @@
     "lastChecked": "2026-10-09T08:39:42.126Z",
     "status": "success",
     "feedUrl": "https://yuanchuan.dev/feed.xml"
-  },
-  "https://adventureite.com/": {
-    "lastPublished": null,
-    "lastChecked": "2026-10-09T08:35:23.424Z",
-    "status": "unavailable",
-    "feedUrl": null
   },
   "https://www.adventurouskate.com/blog/": {
     "lastPublished": "2026-10-06",
@@ -1225,8 +1219,8 @@
   },
   "https://www.nomadicmatt.com/travel-blog/": {
     "lastPublished": "2026-07-28",
-    "lastChecked": "2026-10-09T15:06:14.337Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
     "feedUrl": "https://www.nomadicmatt.com/feed/"
   },
   "https://nomadicnotes.com/": {
@@ -1368,10 +1362,10 @@
     "feedUrl": "https://marcschuster.com/feed/"
   },
   "https://whereweretheynow.blogspot.com/": {
-    "lastPublished": "2026-09-27",
-    "lastChecked": "2026-10-09T18:55:47.805Z",
+    "lastPublished": "2026-10-08",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://whereweretheynow.blogspot.com/rss.xml"
+    "feedUrl": "https://whereweretheynow.blogspot.com/feeds/posts/default"
   },
   "https://smallobservations.net/": {
     "lastPublished": "2026-09-14",
@@ -1393,9 +1387,9 @@
   },
   "https://super-dupertoybox.blogspot.com/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-09T18:55:47.805Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://super-dupertoybox.blogspot.com/rss.xml"
+    "feedUrl": "https://super-dupertoybox.blogspot.com/feeds/posts/default"
   },
   "https://www.qwantz.com/": {
     "lastPublished": "2026-10-09",
@@ -1411,15 +1405,15 @@
   },
   "https://english-skills-success.blogspot.com/": {
     "lastPublished": "2026-06-29",
-    "lastChecked": "2026-10-09T17:42:50.324Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://english-skills-success.blogspot.com/rss.xml"
+    "feedUrl": "https://english-skills-success.blogspot.com/feeds/posts/default"
   },
   "https://towerofzenopus.blogspot.com/": {
     "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-09T18:55:47.805Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://towerofzenopus.blogspot.com/rss.xml"
+    "feedUrl": "https://towerofzenopus.blogspot.com/feeds/posts/default"
   },
   "https://theswedishgames.wordpress.com/": {
     "lastPublished": "2026-09-01",
@@ -1441,9 +1435,9 @@
   },
   "https://wrongquestions.blogspot.com/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-09T17:42:50.324Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://wrongquestions.blogspot.com/rss.xml"
+    "feedUrl": "https://wrongquestions.blogspot.com/feeds/posts/default"
   },
   "https://deepcuts.blog/posts/": {
     "lastPublished": "2026-10-07",
@@ -1465,9 +1459,9 @@
   },
   "https://gorillasdontblog.blogspot.com/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T18:55:47.805Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://gorillasdontblog.blogspot.com/rss.xml"
+    "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default"
   },
   "https://retiredmartin.com/": {
     "lastPublished": "2026-10-09",
@@ -1512,8 +1506,8 @@
     "feedUrl": "https://tedunderwood.com/feed/"
   },
   "https://karagila.org/blog": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-09T14:02:14.964Z",
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://karagila.org/feed.xml"
   },
@@ -1680,8 +1674,8 @@
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/"
   },
   "https://humbledollar.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T15:30:29.841Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://humbledollar.com/feed/"
   },
@@ -1794,8 +1788,8 @@
     "feedUrl": "https://blog.tomayac.com/feed/feed.xml"
   },
   "https://chriscoyier.net/": {
-    "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-09T16:47:30.610Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://chriscoyier.net/feed/"
   },
@@ -1806,8 +1800,8 @@
     "feedUrl": "https://www.zephoria.org/thoughts/feed"
   },
   "https://www.robinsloan.com/lab/": {
-    "lastPublished": "2026-10-05",
-    "lastChecked": "2026-10-09T16:47:30.610Z",
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
     "feedUrl": "https://www.robinsloan.com/lab.xml"
   },
@@ -1860,10 +1854,10 @@
     "feedUrl": "https://gregalder.com/yardposts/feed/"
   },
   "https://adamapples.blogspot.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://adamapples.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://adamapples.blogspot.com/rss.xml"
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
     "lastPublished": "2025-07-31",
@@ -1885,9 +1879,9 @@
   },
   "https://rachel-the-gardener.blogspot.com/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://rachel-the-gardener.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://rachel-the-gardener.blogspot.com/rss.xml"
   },
   "https://reclaimingparadise.wordpress.com/": {
     "lastPublished": "2026-10-07",
@@ -1896,10 +1890,10 @@
     "feedUrl": "https://reclaimingparadise.wordpress.com/feed/"
   },
   "https://www.sickveg.com/": {
-    "lastPublished": "2026-09-27",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-09-06",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://www.sickveg.com/feeds/posts/default"
+    "feedUrl": "https://www.sickveg.com/rss.xml"
   },
   "https://nodighome.com/blog-posts/": {
     "lastPublished": "2026-06-07",
@@ -1920,10 +1914,10 @@
     "feedUrl": "http://www.16bit.com/rss.xml"
   },
   "https://www.actionfigurebarbecue.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:59:02.878Z",
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
     "status": "success",
-    "feedUrl": "https://www.actionfigurebarbecue.com/feeds/posts/default"
+    "feedUrl": "https://www.actionfigurebarbecue.com/rss.xml"
   },
   "https://bricknerd.com/": {
     "lastPublished": "2026-10-08",
@@ -2032,5 +2026,101 @@
     "lastChecked": "2026-10-09T18:55:47.805Z",
     "status": "success",
     "feedUrl": "https://thefilm.blog/feed/"
+  },
+  "https://simonparrismaninchair.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://simonparrismaninchair.com/feed/"
+  },
+  "https://tracydurnell.com/mind-garden/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://tracydurnell.com/feed/"
+  },
+  "https://babakfakhamzadeh.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://babakfakhamzadeh.com/feed/"
+  },
+  "https://www.suppermariobroth.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://www.suppermariobroth.com/rss"
+  },
+  "https://www.pepysdiary.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "http://feeds.feedburner.com/PepysDiary"
+  },
+  "https://blog.atmtxphoto.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://blog.atmtxphoto.com/feed/"
+  },
+  "https://www.thenewestrant.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://www.thenewestrant.com/rss.xml"
+  },
+  "https://greg.org/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://greg.org/feed"
+  },
+  "https://wyrdbritain.blogspot.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://wyrdbritain.blogspot.com/rss.xml"
+  },
+  "https://mojobob.blogspot.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://mojobob.blogspot.com/rss.xml"
+  },
+  "https://www.web-goddess.org/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://www.web-goddess.org/feed"
+  },
+  "https://danielbowen.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://danielbowen.com/feed/"
+  },
+  "https://econbrowser.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://econbrowser.com/feed"
+  },
+  "https://thestopbutton.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://thestopbutton.com/feed/"
+  },
+  "https://vhistory.wordpress.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://vhistory.wordpress.com/feed/"
+  },
+  "https://glitternight.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "status": "success",
+    "feedUrl": "https://glitternight.com/feed/"
   }
 }

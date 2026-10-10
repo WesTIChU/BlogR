@@ -91,6 +91,8 @@ Explore independent blogs and personal websites from across the web. Browse the 
 ### Photography & Street Art
 
 * <BlogHealthLink name="atmtx photo blog" url="https://blog.atmtxphoto.com/" :favourite="false" /> - Photography stories from cities and travels, with images, observations, and occasional writing about photographic gear and technique.<BlogLastUpdated url="https://blog.atmtxphoto.com/" added-date="2026-10-10" />
+* <BlogHealthLink name="British Landscapes Photography" url="https://britishlandscapesphotography.co.uk/" :favourite="false" /> - Photography covering British landscapes, scenery and the natural environment.<BlogLastUpdated url="https://britishlandscapesphotography.co.uk/" added-date="2026-10-10" />
+* <BlogHealthLink name="Obsidian Urbex Photography" url="https://www.obsidianurbexphotography.com/blog/" :favourite="false" /> - Urban exploration photography, abandoned places, travel diaries and photographic adventures around the world.<BlogLastUpdated url="https://www.obsidianurbexphotography.com/blog/" added-date="2026-10-10" />
 * <BlogHealthLink name="Small Observations" url="https://smallobservations.net/" :favourite="false" /> - A photographic collection of street art, murals, and urban creativity from around the world.<BlogLastUpdated url="https://smallobservations.net/" added-date="2026-10-09" />
 
 ## Books & Writing
@@ -557,6 +559,7 @@ Explore independent blogs and personal websites from across the web. Browse the 
 * <BlogHealthLink name="The Happiest Blog on Earth" url="https://thehappiestblogonearth.com/" :favourite="false" /> - Disney vacation planning blog featuring theme park tips, itineraries, attraction guides and advice for visiting Disneyland and Walt Disney World.<BlogLastUpdated url="https://thehappiestblogonearth.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Turkey's For Life" url="https://www.turkeysforlife.com/" :favourite="false" /> - Independent travel and lifestyle blog sharing experiences of living in Fethiye, Turkish food, local culture, destination guides and slow travel throughout Turkey.<BlogLastUpdated url="https://www.turkeysforlife.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Undercover Tourist" url="https://www.undercovertourist.com/blog/tag-disney-world/" :favourite="false" /> - A theme park travel blog featuring Disney World planning guides, attraction reviews, ticket advice, hotel recommendations, dining tips and updates to help visitors plan their holidays.<BlogLastUpdated url="https://www.undercovertourist.com/blog/tag-disney-world/" added-date="2026-10-10" />
+* <BlogHealthLink name="Urbex Travel" url="https://www.urbex-travel.com/blog/" :favourite="false" /> - A blog about urban exploration, abandoned places and travel adventures.<BlogLastUpdated url="https://www.urbex-travel.com/blog/" added-date="2026-10-10" />
 * <BlogHealthLink name="Van Tramp" url="https://www.van-tramp.com/wp/" :favourite="false" /> - Personal stories about travelling and living in a van, sharing destinations, road experiences and everyday routines.<BlogLastUpdated url="https://www.van-tramp.com/wp/" added-date="" />
 
 ### Travel Diaries

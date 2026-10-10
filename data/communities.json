@@ -572,5 +572,33 @@
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
     "addedAt": "2026-10-10T16:24:54.000Z"
+  },
+  {
+    "id": "28dayslater",
+    "name": "28DaysLater",
+    "url": "https://www.28dayslater.co.uk/",
+    "description": "A UK urban exploration forum featuring reports, photographs and discussions about abandoned buildings, industrial sites and forgotten places.",
+    "section": "forums",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "category": "lifestyle-and-interests",
+    "addedAt": "2026-10-10T20:09:29.000Z"
+  },
+  {
+    "id": "derelict-places",
+    "name": "Derelict Places",
+    "url": "https://www.derelictplaces.co.uk/",
+    "description": "An urban exploration community sharing photographs, site reports and discussions about derelict buildings and abandoned locations.",
+    "section": "forums",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "category": "lifestyle-and-interests",
+    "addedAt": "2026-10-10T20:09:29.000Z"
   }
 ]

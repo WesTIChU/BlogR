@@ -39,6 +39,7 @@ Traditional discussion forums, smaller online communities, niche networks and in
 * <a href="https://www.followfollow.com/forum/forums/the-bear-pit/" target="_blank" rel="noopener noreferrer"><strong>Follow Follow – The Bear Pit</strong></a> - Rangers supporters’ forum for lively debate about the club, matches, players, news and issues affecting the Ibrox community.<BlogLastUpdated url="https://www.followfollow.com/forum/forums/the-bear-pit/" added-date="2026-10-10" :community="true" />
 * <a href="https://rangersmedia.uk/" target="_blank" rel="noopener noreferrer"><strong>RangersMedia</strong></a> - Rangers supporters’ community featuring forum discussion about matches, club news, players, history and life around Ibrox.<BlogLastUpdated url="https://rangersmedia.uk/" added-date="2026-10-10" :community="true" />
 * <a href="https://theblueseaofibrox.boards.net/" target="_blank" rel="noopener noreferrer"><strong>The Blue Sea of Ibrox</strong></a> - Rangers fan forum for match discussion, team news, transfer talk, club history and conversation among supporters.<BlogLastUpdated url="https://theblueseaofibrox.boards.net/" added-date="2026-10-10" :community="true" />
+* <a href="https://arsenal-mania.com/forum/" target="_blank" rel="noopener noreferrer"><strong>Arsenal Mania</strong></a> - Arsenal supporters' forum covering matchday discussion, transfers, players, club history, academy football and Arsenal Women, alongside wider football debate.<BlogLastUpdated url="https://arsenal-mania.com/forum/" added-date="2026-10-10" :community="true" />
 
 ## Gaming
 

@@ -9,6 +9,7 @@ import {
   communityPage,
   compareBlogs,
   compareCommunities,
+  compareCommunityCategories,
   groupBySubsection,
   page,
   validateBlogs,
@@ -291,6 +292,15 @@ test('places Arsenal Mania in alphabetical order among Football & Sports communi
     [...actual].sort((a, b) => a - b)
   )
   assert.match(footballSection, /<strong>Arsenal Mania<\/strong>/)
+})
+
+test('sorts community categories alphabetically by display title', () => {
+  const markdown = communityPage(communities)
+  const actual = [...markdown.matchAll(/^## (.+)$/gm)].map(([, title]) => title)
+  const expected = communityTaxonomy
+    .map(({ title }) => title)
+    .sort((a, b) => compareCommunityCategories({ title: a }, { title: b }))
+  assert.deepEqual(actual, expected)
 })
 
 test('renders every community exactly once under its subject category', () => {

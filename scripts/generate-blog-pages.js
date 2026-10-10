@@ -38,6 +38,8 @@ export const compareCommunities = (a, b) =>
     numeric: true,
     sensitivity: 'base'
   })
+export const compareCommunityCategories = (a, b) =>
+  a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
 const line = (blog) =>
   `* <BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}<BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
 
@@ -86,8 +88,11 @@ export function communityPage(
     grouped = true
   } = {}
 ) {
+  const orderedCommunityTaxonomy = [...communityTaxonomy].sort(
+    compareCommunityCategories
+  )
   const body = grouped
-    ? communityTaxonomy
+    ? orderedCommunityTaxonomy
         .map(({ slug, title }) => {
           const categoryEntries = entries.filter(
             (entry) => entry.category === slug

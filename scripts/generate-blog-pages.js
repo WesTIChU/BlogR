@@ -3,6 +3,12 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
+const communities = JSON.parse(
+  await readFile(resolve('data/communities.json'), 'utf8')
+)
+const communityTaxonomy = JSON.parse(
+  await readFile(resolve('data/community-taxonomy.json'), 'utf8')
+)
 
 const taxonomy = JSON.parse(
   await readFile(resolve('data/blog-taxonomy.json'), 'utf8')
@@ -29,6 +35,71 @@ export const compareBlogs = (a, b) =>
   a.name.localeCompare(b.name)
 const line = (blog) =>
   `* <BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}<BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
+
+const communityLine = (community) =>
+  `* <a href="${attribute(community.url)}" target="_blank" rel="noopener noreferrer"><strong>${attribute(community.name)}</strong></a> - ${community.description}<BlogLastUpdated url="${attribute(community.url)}" added-date="${attribute(community.addedDate ?? '')}" :community="true" />`
+
+export function validateCommunities(entries) {
+  const validCategories = new Set(communityTaxonomy.map(({ slug }) => slug))
+  const validSections = new Set(['forums', 'independent-communities'])
+  const seenIds = new Set()
+  const seenUrls = new Set()
+
+  for (const entry of entries) {
+    if (!entry || typeof entry !== 'object') {
+      throw new Error('Invalid community entry: expected an object')
+    }
+    if (!entry.id || typeof entry.id !== 'string') {
+      throw new Error(`Invalid community id for ${entry.name}`)
+    }
+    if (seenIds.has(entry.id)) {
+      throw new Error(`Duplicate community id "${entry.id}"`)
+    }
+    if (seenUrls.has(entry.url)) {
+      throw new Error(`Duplicate community URL "${entry.url}"`)
+    }
+    if (!validCategories.has(entry.category)) {
+      throw new Error(
+        `Invalid community category "${entry.category}" for ${entry.name}`
+      )
+    }
+    if (!validSections.has(entry.section)) {
+      throw new Error(
+        `Invalid community section "${entry.section}" for ${entry.name}`
+      )
+    }
+    seenIds.add(entry.id)
+    seenUrls.add(entry.url)
+  }
+}
+
+export function communityPage(
+  entries,
+  {
+    title = 'Online Communities',
+    description = 'Traditional discussion forums, smaller online communities, niche networks and independent discussion spaces.',
+    grouped = true
+  } = {}
+) {
+  const body = grouped
+    ? communityTaxonomy
+        .map(({ slug, title }) => {
+          const categoryEntries = entries.filter(
+            (entry) => entry.category === slug
+          )
+          if (!categoryEntries.length) return ''
+          return `## ${title}\n\n${categoryEntries.map(communityLine).join('\n')}`
+        })
+        .filter(Boolean)
+        .join('\n\n')
+    : entries.map(communityLine).join('\n')
+
+  const submissionLink =
+    grouped && title === 'Online Communities'
+      ? '\n[**► Submit a Community**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-community.yml)\n'
+      : ''
+  return `---\ntitle: ${title}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'\n</script>\n\n# ${title}\n\n${description}\n${submissionLink}\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${body}\n`
+}
 
 export function page(
   title,
@@ -155,6 +226,7 @@ export function groupBySubsection(slug, entries) {
 
 if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   validateBlogs(blogs)
+  validateCommunities(communities)
   await mkdir(resolve('docs/collections'), { recursive: true })
 
   const all = [...blogs].sort(compareBlogs)
@@ -193,6 +265,11 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
       )
     )
   }
+
+  await writeFile(
+    resolve('docs/communities/online-communities.md'),
+    communityPage(communities)
+  )
 
   console.log(
     `Generated ${all.length} blogs across ${categories.length} categories.`

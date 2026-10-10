@@ -1,4 +1,4 @@
-name: Process approved blog submission
+name: Process approved directory submission
 
 on:
   issues:
@@ -10,16 +10,20 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: blog-submission-${{ github.event.issue.number }}
+  group: directory-submission-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 jobs:
   process:
     if: >-
       github.event.label.name == 'approved' && github.event.issue.state ==
-      'open' && contains(github.event.issue.body, '### Blog name') &&
+      'open' && ((contains(github.event.issue.body, '### Blog name') &&
       contains(github.event.issue.body, '### Blog URL') &&
-      contains(github.event.issue.body, '### Main category')
+      contains(github.event.issue.body, '### Main category')) ||
+      (contains(github.event.issue.body, '### Community name') &&
+      contains(github.event.issue.body, '### Website URL') &&
+      contains(github.event.issue.body, '### Category') &&
+      contains(github.event.issue.body, '### Community type')))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

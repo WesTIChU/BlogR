@@ -7,6 +7,7 @@
   },
   "scripts": {
     "audit:blogs": "node scripts/audit-blog-health.js",
+    "audit:communities": "node scripts/audit-community-health.js",
     "check:blog-updates": "node scripts/check-blog-updates.js",
     "docs:build": "node scripts/generate-blog-pages.js && vitepress build docs/",
     "docs:dev": "node scripts/generate-blog-pages.js && vitepress dev docs/ --port 5177 --strictPort",
@@ -21,6 +22,7 @@
     "test:blog-health": "node --test shared/blog-health-*.test.js",
     "test:blog-submissions": "node --test scripts/*blog-submission.test.js",
     "test:blog-updates": "node --test scripts/check-blog-updates.test.js",
+    "test:community-health": "node --test shared/community-health.test.js",
     "test:directory-search": "node --test docs/.vitepress/directory-search.test.js",
     "test:recently-added": "node --test shared/recently-added.test.js",
     "test:seo": "node --test scripts/seo-regression.test.js",

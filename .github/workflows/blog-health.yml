@@ -1,9 +1,9 @@
-name: Daily blog health audit
+name: Blog and community health audit
 
 on:
   workflow_call:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -46,12 +46,16 @@ jobs:
           set -euo pipefail
           mkdir -p reports
           git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
-          if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
-            git show "origin/${HISTORY_BRANCH}:reports/blog-health-history.json" > reports/blog-health-history.json
-          fi
+           if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
+             git show "origin/${HISTORY_BRANCH}:reports/blog-health-history.json" > reports/blog-health-history.json
+             git show "origin/${HISTORY_BRANCH}:reports/community-health-history.json" > reports/community-health-history.json || true
+           fi
 
       - name: Run the daily audit
         run: pnpm audit:blogs
+
+      - name: Run the community availability audit
+        run: pnpm audit:communities
 
       - name: Validate generated public data
         shell: bash
@@ -62,9 +66,12 @@ jobs:
           import { normalizeBlogHealthUrl } from './shared/blog-health-url.js'
 
           const blogs = JSON.parse(await readFile('data/blogs.json', 'utf8'))
-          const publicStatuses = JSON.parse(
-            await readFile('docs/public/health-status.json', 'utf8')
-          )
+           const publicStatuses = JSON.parse(
+             await readFile('docs/public/health-status.json', 'utf8')
+           )
+           const communityStatuses = JSON.parse(
+             await readFile('docs/public/community-health-status.json', 'utf8')
+           )
           const history = JSON.parse(
             await readFile('reports/blog-health-history.json', 'utf8')
           )
@@ -88,12 +95,27 @@ jobs:
             }
             if (!Number.isFinite(Date.parse(entry.checkedAt))) throw new Error('Invalid check timestamp')
           }
-          if (!Array.isArray(history) || !history.length) throw new Error('Health history was not persisted')
+           if (!Array.isArray(history) || !history.length) throw new Error('Health history was not persisted')
           const latest = history.at(-1)
-          if (!Array.isArray(latest.statusData) || latest.statusData.length !== expectedUrls.size) {
-            throw new Error('Latest health history is incomplete')
-          }
-          NODE
+           if (!Array.isArray(latest.statusData) || latest.statusData.length !== expectedUrls.size) {
+             throw new Error('Latest health history is incomplete')
+           }
+           if (!Array.isArray(communityStatuses) || !communityStatuses.length) {
+             throw new Error('Community status data is empty')
+           }
+           for (const entry of communityStatuses) {
+             const keys = Object.keys(entry).sort().join(',')
+             if (keys !== 'checkedAt,consecutiveFailures,finalUrl,httpStatus,status,url') {
+               throw new Error('Community status contains unexpected fields')
+             }
+             if (!Number.isFinite(Date.parse(entry.checkedAt))) {
+               throw new Error('Invalid community check timestamp')
+             }
+             if (!['online', 'warning', 'repeatedly-unreachable', 'unknown'].includes(entry.status)) {
+               throw new Error('Invalid community public status')
+             }
+           }
+           NODE
 
       - name: Persist private health history
         shell: bash
@@ -127,16 +149,17 @@ jobs:
             `${JSON.stringify(compactHistory, null, 2)}\n`
           )
           NODE
-          mv "$history_dir/blog-health-history.json" "$history_dir/reports/blog-health-history.json"
+           mv "$history_dir/blog-health-history.json" "$history_dir/reports/blog-health-history.json"
+           cp reports/community-health-history.json "$history_dir/reports/community-health-history.json"
           git -C "$history_dir" config user.name 'github-actions[bot]'
           git -C "$history_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -C "$history_dir" add -f reports/blog-health-history.json
+           git -C "$history_dir" add -f reports/blog-health-history.json reports/community-health-history.json
           if git -C "$history_dir" diff --cached --quiet; then
             echo 'Health history did not change.'
           else
             staged_files="$(git -C "$history_dir" diff --cached --name-only)"
-            if [[ "$staged_files" != 'reports/blog-health-history.json' ]]; then
-              echo 'Refusing to publish files other than the compact health history.' >&2
+            if [[ "$staged_files" != $'reports/blog-health-history.json\nreports/community-health-history.json' ]]; then
+              echo 'Refusing to publish files other than the compact health histories.' >&2
               git -C "$history_dir" diff --cached --name-status >&2
               exit 1
             fi
@@ -148,14 +171,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add docs/public/health-status.json
+           git add docs/public/health-status.json docs/public/community-health-status.json
           if git diff --cached --quiet; then
             echo 'Public status JSON did not change.'
             exit 0
           fi
           staged_files="$(git diff --cached --name-only)"
-          if [[ "$staged_files" != 'docs/public/health-status.json' ]]; then
-            echo 'Refusing to publish files other than the public status JSON.' >&2
+           if [[ "$staged_files" != $'docs/public/community-health-status.json\ndocs/public/health-status.json' ]]; then
+             echo 'Refusing to publish files other than the public status JSON files.' >&2
             git diff --cached --name-status >&2
             exit 1
           fi

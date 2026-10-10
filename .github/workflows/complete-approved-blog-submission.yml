@@ -1,4 +1,4 @@
-name: Complete merged blog submission
+name: Complete merged directory submission
 
 on:
   pull_request:
@@ -12,6 +12,10 @@ permissions:
 jobs:
   complete:
     if: github.event.pull_request.merged == true
+    permissions:
+      contents: none
+      issues: write
+      pull-requests: read
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -31,8 +35,11 @@ jobs:
       github.event.pull_request.merged == true &&
       github.event.pull_request.base.ref ==
       github.event.repository.default_branch &&
-      startsWith(github.event.pull_request.head.ref, 'blog-submission/issue-')
-      && contains(github.event.pull_request.body, '<!-- blogr-submission:')
+       (startsWith(github.event.pull_request.head.ref, 'blog-submission/issue-')
+      || startsWith(github.event.pull_request.head.ref,
+      'community-submission/issue-')) &&
+      (contains(github.event.pull_request.body, '<!-- blogr-submission:') ||
+      contains(github.event.pull_request.body, '<!-- community-submission:'))
     uses: ./.github/workflows/blog-health.yml
     permissions:
       contents: write

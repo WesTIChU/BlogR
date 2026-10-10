@@ -3,6 +3,8 @@ import { readdir, readFile } from 'node:fs/promises'
 import { test } from 'node:test'
 import { URL } from 'node:url'
 import MiniSearch from 'minisearch'
+import blogs from '../../data/blogs.json' with { type: 'json' }
+import { getRecentlyAddedGroups } from '../../shared/recently-added.js'
 
 async function readSearchIndex() {
   const chunks = await readdir(
@@ -144,6 +146,22 @@ test('representative generated pages retain anchors and links', async () => {
       assert.ok(html.includes(anchor))
     }
   }
+})
+
+test('recently added sections expose stable direct-navigation anchors', async () => {
+  const html = await readFile(
+    new URL('./dist/recently-added.html', import.meta.url),
+    'utf8'
+  )
+  const sectionIds = [...html.matchAll(/<h2[^>]+id="([^"]+)"/g)].map(
+    ([, id]) => id
+  )
+
+  assert.deepEqual(
+    sectionIds,
+    getRecentlyAddedGroups(blogs, new Date()).map(({ key }) => key)
+  )
+  assert.equal(new Set(sectionIds).size, sectionIds.length)
 })
 
 test('metadata and RSS output remain generated', async () => {

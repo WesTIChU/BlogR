@@ -33,6 +33,7 @@ Traditional discussion forums, smaller online communities, niche networks and in
 * <a href="https://rangersmedia.uk/" target="_blank" rel="noopener noreferrer"><strong>RangersMedia</strong></a> - Rangers supporters’ community featuring forum discussion about matches, club news, players, history and life around Ibrox.<BlogLastUpdated url="https://rangersmedia.uk/" added-date="2026-10-10" :community="true" />
 * <a href="https://www.talkceltic.net/forums/" target="_blank" rel="noopener noreferrer"><strong>TalkCeltic</strong></a> - Celtic supporters discuss matches, team news, transfers, club history and all aspects of following the Hoops.<BlogLastUpdated url="https://www.talkceltic.net/forums/" added-date="2026-10-10" :community="true" />
 * <a href="https://theblueseaofibrox.boards.net/" target="_blank" rel="noopener noreferrer"><strong>The Blue Sea of Ibrox</strong></a> - Rangers fan forum for match discussion, team news, transfer talk, club history and conversation among supporters.<BlogLastUpdated url="https://theblueseaofibrox.boards.net/" added-date="2026-10-10" :community="true" />
+* <a href="https://www.theshedend.com/" target="_blank" rel="noopener noreferrer"><strong>The Shed End</strong></a> - Chelsea supporters' forum covering matchday discussion, transfers, club news, tickets, Chelsea Women, youth football and the club's history, alongside wider football debate.<BlogLastUpdated url="https://www.theshedend.com/" added-date="2026-10-10" :community="true" />
 
 ## Gaming
 

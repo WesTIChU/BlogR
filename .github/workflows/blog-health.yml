@@ -115,7 +115,7 @@ jobs:
                throw new Error('Invalid community public status')
              }
            }
-           NODE
+          NODE
 
       - name: Persist private health history
         shell: bash

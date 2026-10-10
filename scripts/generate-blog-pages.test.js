@@ -8,6 +8,7 @@ import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'js
 import {
   communityPage,
   compareBlogs,
+  compareCommunities,
   groupBySubsection,
   page,
   validateBlogs,
@@ -178,7 +179,7 @@ test('keeps favourite blogs before alphabetical non-favourites', () => {
 
 test('keeps the separate community catalogue complete and unique', () => {
   validateCommunities(communities)
-  assert.equal(communities.length, 35)
+  assert.equal(communities.length, 36)
   assert.deepEqual(
     [...new Set(communities.map((community) => community.section))],
     ['forums', 'independent-communities']
@@ -216,6 +217,80 @@ test('generates community sections and preserves favourite metadata', () => {
   assert.match(markdown, /BlogLastUpdated[^>]+:community="true"/)
   assert.match(markdown, /BlogLastUpdated/)
   assert.doesNotMatch(markdown, /WebsiteAvailability|rss/i)
+})
+
+test('sorts communities naturally within each category', () => {
+  const entries = [
+    {
+      id: 'beta',
+      name: 'beta community',
+      url: 'https://beta.example',
+      description: 'Beta',
+      section: 'forums',
+      category: 'technology'
+    },
+    {
+      id: 'ten',
+      name: '10th Community',
+      url: 'https://ten.example',
+      description: 'Ten',
+      section: 'forums',
+      category: 'technology'
+    },
+    {
+      id: 'two',
+      name: '2nd Community',
+      url: 'https://two.example',
+      description: 'Two',
+      section: 'forums',
+      category: 'technology'
+    },
+    {
+      id: 'alpha',
+      name: 'Alpha Community',
+      url: 'https://alpha.example',
+      description: 'Alpha',
+      section: 'forums',
+      category: 'technology'
+    }
+  ]
+  const markdown = communityPage(entries)
+  const positions = [
+    '2nd Community',
+    '10th Community',
+    'Alpha Community',
+    'beta community'
+  ].map((name) => markdown.indexOf(`<strong>${name}</strong>`))
+  assert.deepEqual(
+    positions,
+    [...positions].sort((a, b) => a - b)
+  )
+  assert.equal(
+    compareCommunities({ name: 'Arsenal Mania' }, { name: 'beta' }) < 0,
+    true
+  )
+})
+
+test('places Arsenal Mania in alphabetical order among Football & Sports communities', () => {
+  const football = communities.filter(
+    ({ category }) => category === 'football-and-sports'
+  )
+  const expected = football
+    .map(({ name }) => name)
+    .sort((a, b) => compareCommunities({ name: a }, { name: b }))
+  const markdown = communityPage(communities)
+  const footballSection = markdown.slice(
+    markdown.indexOf('## Football & Sports'),
+    markdown.indexOf('\n## ', markdown.indexOf('## Football & Sports') + 3)
+  )
+  const actual = expected.map((name) =>
+    footballSection.indexOf(`<strong>${name}</strong>`)
+  )
+  assert.deepEqual(
+    actual,
+    [...actual].sort((a, b) => a - b)
+  )
+  assert.match(footballSection, /<strong>Arsenal Mania<\/strong>/)
 })
 
 test('renders every community exactly once under its subject category', () => {

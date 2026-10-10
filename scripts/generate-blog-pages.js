@@ -33,6 +33,11 @@ const attribute = (value) =>
 export const compareBlogs = (a, b) =>
   Number(Boolean(b.favourite)) - Number(Boolean(a.favourite)) ||
   a.name.localeCompare(b.name)
+export const compareCommunities = (a, b) =>
+  a.name.localeCompare(b.name, undefined, {
+    numeric: true,
+    sensitivity: 'base'
+  })
 const line = (blog) =>
   `* <BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}<BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
 
@@ -88,7 +93,10 @@ export function communityPage(
             (entry) => entry.category === slug
           )
           if (!categoryEntries.length) return ''
-          return `## ${title}\n\n${categoryEntries.map(communityLine).join('\n')}`
+          return `## ${title}\n\n${categoryEntries
+            .sort(compareCommunities)
+            .map(communityLine)
+            .join('\n')}`
         })
         .filter(Boolean)
         .join('\n\n')

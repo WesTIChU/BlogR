@@ -9,6 +9,7 @@ import {
   catalogueFiles,
   existingSubmissionPullRequest,
   extractSuggestedSubcategory,
+  getAdditionMetadata,
   hasApprovalPermission,
   insertSubcategoryInTaxonomyText,
   isApprovedSubmissionEvent,
@@ -172,6 +173,13 @@ test('records the approval timestamp for Recently Added ordering', () => {
   )
   assert.equal(entry.addedDate, '2026-10-09')
   assert.equal(entry.addedAt, '2026-10-09T16:30:00.000Z')
+})
+
+test('uses the Europe/London calendar date for a UTC approval timestamp', () => {
+  assert.deepEqual(getAdditionMetadata(new Date('2026-10-10T23:30:00.000Z')), {
+    addedDate: '2026-10-11',
+    addedAt: '2026-10-10T23:30:00.000Z'
+  })
 })
 
 test('extracts a suggested subcategory from additional notes without adding it', () => {

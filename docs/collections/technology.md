@@ -16,6 +16,7 @@ Independent writing about software, development, Linux, open source, and technol
 
 ## Creative Tools & Digital Projects
 
+* <BlogHealthLink name="Amadeus Paulussen" url="https://amadeuspaulussen.com/blog" :favourite="false" /> - Amadeus Paulussen writes about Linux, open source, music production, digital art, creative projects and personal experiments.<BlogLastUpdated url="https://amadeuspaulussen.com/blog" added-date="2026-10-10" />
 * <BlogHealthLink name="Babak Fakhamzadeh" url="https://babakfakhamzadeh.com/" :favourite="false" /> - Writing and creative projects from a technologist and media artist working with digital innovation, photography, walking, and location-based storytelling.<BlogLastUpdated url="https://babakfakhamzadeh.com/" added-date="2026-10-10" />
 * <BlogHealthLink name="Robin Sloan's Lab" url="https://www.robinsloan.com/lab/" :favourite="false" /> - Robin Sloan’s lab explores media, technology, creative computing, AI aesthetics, software experiments, and unusual digital projects.<BlogLastUpdated url="https://www.robinsloan.com/lab/" added-date="2026-10-09" />
 
@@ -51,9 +52,11 @@ Independent writing about software, development, Linux, open source, and technol
 ## Programming & Development
 
 * <BlogHealthLink name="Josh Comeau" url="https://www.joshwcomeau.com" :favourite="true" /> - Interactive frontend development tutorials covering CSS, JavaScript, React and practical techniques for building better web interfaces.<BlogLastUpdated url="https://www.joshwcomeau.com" added-date="" />
+* <BlogHealthLink name="Alex Wilson" url="https://alexwilson.tech/" :favourite="false" /> - Alex Wilson writes about software engineering, products, technology, work and the interests that shape life outside the office.<BlogLastUpdated url="https://alexwilson.tech/" added-date="2026-10-10" />
 * <BlogHealthLink name="Alexander Obenauer" url="https://alexanderobenauer.com/" :favourite="false" /> - Independent research, essays, and experiments exploring the future of personal computing and software interfaces.<BlogLastUpdated url="https://alexanderobenauer.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Android Essence" url="https://androidessence.com/posts/" :favourite="false" /> - Android software development tutorials covering Kotlin, application programming and practical engineering techniques for mobile developers.<BlogLastUpdated url="https://androidessence.com/posts/" added-date="2026-10-09" />
 * <BlogHealthLink name="Bart Wronski" url="https://bartwronski.com/" :favourite="false" /> - Technical articles on computer graphics, rendering and image processing, exploring algorithms and the engineering behind visual effects.<BlogLastUpdated url="https://bartwronski.com/" added-date="" />
+* <BlogHealthLink name="BattlePenguin" url="https://battlepenguin.com/" :favourite="false" /> - Sumit Khanna’s independent site covering Linux, open-source technology, security, gaming, programming and thoughtful commentary on society.<BlogLastUpdated url="https://battlepenguin.com/" added-date="2026-10-10" />
 * <BlogHealthLink name="Better Programming" url="https://betterprogramming.pub" :favourite="false" /> - Medium dev content.<BlogLastUpdated url="https://betterprogramming.pub" added-date="" />
 * <BlogHealthLink name="Chris Coyier" url="https://chriscoyier.net/" :favourite="false" /> - Chris Coyier writes about web design, development, WordPress, CodePen, CSS, creative projects, music, and everyday life.<BlogLastUpdated url="https://chriscoyier.net/" added-date="2026-10-09" />
 * <BlogHealthLink name="CSS-Tricks" url="https://css-tricks.com" :favourite="false" /> - Web development publication covering HTML, CSS, JavaScript, frontend techniques, design, tools, and practical coding advice.<BlogLastUpdated url="https://css-tricks.com" added-date="" />

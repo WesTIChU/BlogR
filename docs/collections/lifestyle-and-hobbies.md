@@ -16,7 +16,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 
 ## Collecting & Memorabilia
 
-* <BlogHealthLink name="16bit.com" url="http://www.16bit.com/" :favourite="false" /> - Toy collecting site featuring action figure reviews, photographs, industry news, and commentary on modern and vintage collectibles.<BlogLastUpdated url="http://www.16bit.com/" added-date="2026-10-09" />
+* <BlogHealthLink name="16bit.com" url="http://www.16bit.com/" :favourite="true" /> - Toy collecting site featuring action figure reviews, photographs, industry news, and commentary on modern and vintage collectibles.<BlogLastUpdated url="http://www.16bit.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Action Figure Barbecue" url="https://www.actionfigurebarbecue.com/" :favourite="false" /> - Detailed action figure reviews covering sculpting, articulation, accessories, and collectability across G.I. Joe and other popular toy lines.<BlogLastUpdated url="https://www.actionfigurebarbecue.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="BrickNerd" url="https://bricknerd.com/" :favourite="false" /> - LEGO fan site featuring creative builds, interviews, building techniques, community projects, and news from the wider LEGO hobby.<BlogLastUpdated url="https://bricknerd.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Dinosaur Toy Blog" url="https://dinotoyblog.com/" :favourite="false" /> - Reviews of dinosaur figures, prehistoric animal models and collectable toys, with photographs, ratings and comparisons.<BlogLastUpdated url="https://dinotoyblog.com/" added-date="2026-10-09" />
@@ -85,6 +85,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 * <BlogHealthLink name="Savvy Gardening" url="https://savvygardening.com/" :favourite="false" /> - Horticultural writers offer practical advice on growing vegetables, flowers, houseplants, garden design, pest control, and sustainable gardening.<BlogLastUpdated url="https://savvygardening.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="Sick Veg" url="https://www.sickveg.com/" :favourite="false" /> - Sick Veg explores gardening, agriculture, self-sufficiency, organic growing, food, books, counterculture, and relationships between people and land.<BlogLastUpdated url="https://www.sickveg.com/" added-date="2026-10-09" />
 * <BlogHealthLink name="The $tingy Sailor" url="https://stingysailor.com/" :favourite="false" /> - Detailed DIY guides for restoring and improving a trailerable sailboat, covering practical projects from rigging and electrical work to hull and trailer repairs.<BlogLastUpdated url="https://stingysailor.com/" added-date="2026-10-10" />
+* <BlogHealthLink name="The Art of Doing Stuff" url="https://www.theartofdoingstuff.com/" :favourite="false" /> - Karen Bertelsen shares entertaining, practical guidance from years of gardening, cooking, home repair, renovation and hands-on DIY projects.<BlogLastUpdated url="https://www.theartofdoingstuff.com/" added-date="2026-10-10" />
 * <BlogHealthLink name="The Unconventional Gardener" url="https://theunconventionalgardener.com/blog/" :favourite="false" /> - Emma Doughty's blog combines ethnobotany, science writing, food growing, ecology, garden inspiration, and unusual plants.<BlogLastUpdated url="https://theunconventionalgardener.com/blog/" added-date="2026-10-09" />
 
 ## Health & Wellness

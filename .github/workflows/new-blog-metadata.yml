@@ -1,0 +1,146 @@
+name: Initialize new blog metadata
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/blogs.json
+  workflow_dispatch:
+
+concurrency:
+  group: blog-metadata-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BASE_SHA: ${{ github.event.before }}
+      HEAD_SHA: ${{ github.sha }}
+      HISTORY_BRANCH: blog-health-history
+
+    steps:
+      - name: Check out the catalogue history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+          cache: pnpm
+
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Detect new blogs and check their feeds
+        id: detect
+        shell: bash
+        run: |
+          set -euo pipefail
+          base_sha="$BASE_SHA"
+          if [[ -z "$base_sha" || "$base_sha" =~ ^0+$ ]]; then
+            base_sha="$(git rev-parse HEAD^ 2>/dev/null || true)"
+          fi
+          node scripts/refresh-new-blog-metadata.js --base "$base_sha" --head "$HEAD_SHA"
+          if [[ "$(node -e "console.log(JSON.parse(require('fs').readFileSync('reports/new-blog-urls.json')).length)")" -gt 0 ]]; then
+            echo 'has_new_blogs=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'has_new_blogs=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check website status for new blogs
+        if: steps.detect.outputs.has_new_blogs == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          export BLOG_HEALTH_URLS="$(cat reports/new-blog-urls.json)"
+          mkdir -p reports
+          git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
+            git show "origin/${HISTORY_BRANCH}:reports/blog-health-history.json" > reports/blog-health-history.json
+          else
+            node --input-type=module <<'NODE'
+            import { readFile, writeFile } from 'node:fs/promises'
+            const statuses = JSON.parse(await readFile('docs/public/health-status.json', 'utf8'))
+            const history = [{
+              checkedAt: new Date().toISOString(),
+              statusData: statuses.map((entry) => ({
+                ...entry,
+                consecutiveFailures: 0
+              }))
+            }]
+            await writeFile('reports/blog-health-history.json', `${JSON.stringify(history, null, 2)}\n`)
+            NODE
+          fi
+          pnpm audit:blogs
+
+      - name: Persist initial health history
+        if: steps.detect.outputs.has_new_blogs == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          history_dir="${RUNNER_TEMP}/blog-health-history"
+          hooks_dir="${RUNNER_TEMP}/blog-health-hooks"
+          cleanup() {
+            git worktree remove --force "$history_dir" 2>/dev/null || true
+          }
+          trap cleanup EXIT
+          git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
+            git worktree add --detach "$history_dir" "origin/${HISTORY_BRANCH}"
+          else
+            git worktree add --detach "$history_dir" HEAD
+            git -C "$history_dir" checkout --orphan "$HISTORY_BRANCH"
+            git -C "$history_dir" rm -rf .
+          fi
+          mkdir -p "$history_dir/reports" "$hooks_dir"
+          node --input-type=module <<'NODE'
+          import { readFile, writeFile } from 'node:fs/promises'
+          const history = JSON.parse(await readFile('reports/blog-health-history.json', 'utf8'))
+          const compactHistory = history.map(({ checkedAt, statusData }) => ({ checkedAt, statusData }))
+          await writeFile(
+            process.env.RUNNER_TEMP + '/blog-health-history/reports/blog-health-history.json',
+            `${JSON.stringify(compactHistory, null, 2)}\n`
+          )
+          NODE
+          git -C "$history_dir" config user.name 'github-actions[bot]'
+          git -C "$history_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$history_dir" add -f reports/blog-health-history.json
+          if git -C "$history_dir" diff --cached --quiet; then
+            echo 'Health history did not change.'
+          else
+            git -C "$history_dir" -c "core.hooksPath=$hooks_dir" commit -m 'Update blog health history'
+            git -C "$history_dir" push origin "HEAD:refs/heads/${HISTORY_BRANCH}"
+          fi
+
+      - name: Commit initial metadata only when changed
+        if: steps.detect.outputs.has_new_blogs == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add data/blog-updates.json docs/public/health-status.json
+          if git diff --cached --quiet; then
+            echo 'Initial blog metadata did not change.'
+            exit 0
+          fi
+          staged_files="$(git diff --cached --name-only)"
+          expected=$'data/blog-updates.json\ndocs/public/health-status.json'
+          if [[ "$staged_files" != "$expected" ]]; then
+            echo 'Refusing to publish files outside the initial metadata outputs.' >&2
+            git diff --cached --name-status >&2
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Initialize metadata for new blogs'
+          git push

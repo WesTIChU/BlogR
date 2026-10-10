@@ -91,6 +91,24 @@ const normalizeUrl = (value) => {
   }
 }
 
+const selectedBlogUrls = process.env.BLOG_HEALTH_URLS
+  ? new Set(
+      JSON.parse(process.env.BLOG_HEALTH_URLS).map((url) =>
+        normalizeUrl(url).toString()
+      )
+    )
+  : null
+
+const blogsToCheck = selectedBlogUrls
+  ? blogs.filter((blog) => {
+      try {
+        return selectedBlogUrls.has(normalizeUrl(blog.url).toString())
+      } catch {
+        return false
+      }
+    })
+  : blogs
+
 const resolvePublicHost = async (url) => {
   const hostname = stripBrackets(url.hostname)
   if (isBlockedHostname(hostname) || isNonPublicIp(hostname)) {
@@ -394,7 +412,7 @@ const checkBlog = async (blog, normalizedUrl) => {
 }
 
 const uniqueBlogs = new Map()
-for (const blog of blogs) {
+for (const blog of blogsToCheck) {
   let key
   try {
     key = normalizeUrl(blog.url).toString()
@@ -442,7 +460,7 @@ const worker = async () => {
 
 await Promise.all(Array.from({ length: CONCURRENCY }, worker))
 
-const results = blogs.map((blog) => {
+const results = blogsToCheck.map((blog) => {
   let key
   try {
     key = normalizeUrl(blog.url).toString()
@@ -480,11 +498,31 @@ try {
 const previousStatusData = new Map(
   (history.at(-1)?.statusData || []).map((entry) => [entry.url, entry])
 )
-const statusData = buildStatusData(
+const checkedStatusData = buildStatusData(
   [...checkedByUrl.values()],
   previousStatusData,
   new Date(report.generatedAt)
 )
+const checkedStatusByUrl = new Map(
+  checkedStatusData.map((entry) => [normalizeUrl(entry.url).toString(), entry])
+)
+const statusData = blogs.map((blog) => {
+  let key
+  try {
+    key = normalizeUrl(blog.url).toString()
+  } catch {
+    key = `invalid:${blog.url}`
+  }
+  return (
+    checkedStatusByUrl.get(key) ??
+    previousStatusData.get(key) ?? {
+      url: key,
+      status: 'unknown',
+      checkedAt: report.generatedAt,
+      consecutiveFailures: 0
+    }
+  )
+})
 report.statusData = statusData
 report.publicStatusLegend = [
   'online',

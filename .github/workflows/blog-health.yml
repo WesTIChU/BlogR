@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: blog-health-publish
+  group: blog-metadata-publish
   cancel-in-progress: false
 
 permissions:

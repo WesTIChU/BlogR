@@ -2320,5 +2320,59 @@
     "lastChecked": "2026-10-10T08:50:37.802Z",
     "status": "success",
     "feedUrl": "https://www.darrenvandam.com/blog?format=rss"
+  },
+  "https://www.themovieblog.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://www.themovieblog.com/feed/"
+  },
+  "https://them0vieblog.com/": {
+    "lastPublished": "2026-07-25",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://them0vieblog.com/feed/"
+  },
+  "https://www.ukfilmreview.co.uk/blog": {
+    "lastPublished": "2026-10-08",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://www.ukfilmreview.co.uk/blog-feed.xml"
+  },
+  "http://thefilmexperience.net/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "http://thefilmexperience.net/blog/atom.xml"
+  },
+  "https://moviemetropolis.net/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://moviemetropolis.net/feed/"
+  },
+  "https://www.onstageblog.com/onscreenblog": {
+    "lastPublished": "2026-02-24",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://www.onstageblog.com/onscreenblog?format=rss"
+  },
+  "https://lifeoffilms.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://1morefilmblog.com/": {
+    "lastPublished": "2026-10-02",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://1morefilmblog.com/feed/"
+  },
+  "https://jasonsmovieblog.com/": {
+    "lastPublished": "2026-09-30",
+    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "status": "success",
+    "feedUrl": "https://jasonsmovieblog.com/feed/"
   }
 }

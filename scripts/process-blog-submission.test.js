@@ -101,6 +101,8 @@ test('parses and validates a community submission without touching blogs', () =>
 test('approval detection accepts community forms alongside blog forms', () => {
   assert.equal(submissionType(body()), 'blog')
   assert.equal(submissionType(communityBody()), 'community')
+  assert.equal(submissionType(body(), ['approved']), 'blog')
+  assert.equal(submissionType(body(), ['community-submission']), null)
   assert.equal(
     submissionType(communityBody(), ['community-submission']),
     'community'
@@ -113,6 +115,11 @@ test('approval detection accepts community forms alongside blog forms', () => {
     ]),
     null
   )
+  assert.equal(
+    submissionType(`${body()}\n${communityBody()}`, ['approved']),
+    null
+  )
+  assert.equal(submissionType(communityBody(), ['approved']), 'community')
 })
 
 test('community form categories match the community taxonomy', async () => {

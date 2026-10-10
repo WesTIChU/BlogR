@@ -2398,5 +2398,23 @@
     "lastChecked": "2026-10-10T16:48:35.369Z",
     "status": "unknown",
     "feedUrl": "https://www.snitchseeker.com/forum.php"
+  },
+  "https://susan-stepney.blogspot.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T17:05:12.663Z",
+    "status": "success",
+    "feedUrl": "https://susan-stepney.blogspot.com/feeds/posts/default"
+  },
+  "https://www.newsfromme.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T17:05:12.663Z",
+    "status": "success",
+    "feedUrl": "https://www.newsfromme.com/feed/"
+  },
+  "https://www.traingeek.ca/wp/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T17:05:12.663Z",
+    "status": "success",
+    "feedUrl": "https://www.traingeek.ca/wp/feed/"
   }
 }

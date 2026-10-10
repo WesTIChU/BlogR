@@ -47,6 +47,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 * <BlogHealthLink name="Becoming Minimalist" url="https://www.becomingminimalist.com" :favourite="false" /> - Joshua Becker writes about simplifying possessions, intentional living, and finding greater meaning through a minimalist lifestyle.<BlogLastUpdated url="https://www.becomingminimalist.com" />
 * <BlogHealthLink name="Lab Muffin Beauty Science" url="https://labmuffin.com/" :favourite="false" /> - Science-based explanations of skincare and cosmetics, using chemistry to examine beauty products, ingredients and common claims.<BlogLastUpdated url="https://labmuffin.com/" />
 * <BlogHealthLink name="Oilpressure" url="https://oilpressure.com/" :favourite="false" /> - Independent commentary on IndyCar racing, exploring race weekends, motorsport history, drivers and debates within the sport.<BlogLastUpdated url="https://oilpressure.com/" />
+* <BlogHealthLink name="Shouting Into The Void" url="https://mojobob.blogspot.com/" :favourite="false" /> - Fitz's blog about roleplaying, wargaming, scale modelling, miniature painting, and related hobby projects.<BlogLastUpdated url="https://mojobob.blogspot.com/" />
 * <BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Joshua Fields Millburn and Ryan Nicodemus write about meaningful living, minimalism, relationships, and having less without losing what matters.<BlogLastUpdated url="https://www.theminimalists.com" />
 
 ## Football & Sports

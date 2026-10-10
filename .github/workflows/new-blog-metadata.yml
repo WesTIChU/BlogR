@@ -7,6 +7,13 @@ on:
     paths:
       - data/blogs.json
   workflow_dispatch:
+    inputs:
+      retry_missing:
+        description:
+          Retry catalogue entries missing initial RSS or health metadata
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: blog-metadata-publish
@@ -23,6 +30,7 @@ jobs:
       BASE_SHA: ${{ github.event.before }}
       HEAD_SHA: ${{ github.sha }}
       HISTORY_BRANCH: blog-health-history
+      RETRY_MISSING: ${{ inputs.retry_missing }}
 
     steps:
       - name: Check out the catalogue history

@@ -49,6 +49,7 @@ Traditional discussion forums, smaller online communities, niche networks and in
 ## Lifestyle & Interests
 
 * <a href="https://www.birdforum.net/" target="_blank" rel="noopener noreferrer"><strong>BirdForum</strong></a> - Birdwatching discussion covering identification, field observations, photography, equipment, habitats, regional species records and conservation.<BlogLastUpdated url="https://www.birdforum.net/" added-date="" :community="true" />
+* <a href="https://mymerrychristmas.com/forum/" target="_blank" rel="noopener noreferrer"><strong>My Merry Christmas Forums</strong></a> - A Christmas community forum where members discuss festive traditions, decorations, Christmas music and films, recipes, holiday preparations and celebrating Christmas throughout the year.<BlogLastUpdated url="https://mymerrychristmas.com/forum/" added-date="2026-10-10" :community="true" />
 * <a href="https://permies.com/forums" target="_blank" rel="noopener noreferrer"><strong>Permies</strong></a> - Discussions about homesteading, permaculture, natural building, smallholdings, gardening, food production and living with fewer inputs.<BlogLastUpdated url="https://permies.com/forums" added-date="" :community="true" />
 * <a href="https://www.ravelry.com/" target="_blank" rel="noopener noreferrer"><strong>Ravelry</strong></a> - Knitting, crochet, sewing and other craft projects, with patterns, project notes, yarn information and maker discussion.<BlogLastUpdated url="https://www.ravelry.com/" added-date="" :community="true" />
 

@@ -4,6 +4,7 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
 import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
+import { getLondonDateKey } from '../shared/recently-added.js'
 import { validateBlogs } from './generate-blog-pages.js'
 
 const exec = promisify(execFile)
@@ -333,6 +334,11 @@ export function buildBlogEntry(submission, addedDate, addedAt) {
   }
 }
 
+export function getAdditionMetadata(now = new Date()) {
+  const addedAt = now.toISOString()
+  return { addedDate: getLondonDateKey(now), addedAt }
+}
+
 export function appendBlogEntry(entries, entry) {
   const normalizedUrl = normalizeBlogHealthUrl(entry.url).toString()
   if (
@@ -481,9 +487,8 @@ async function run() {
     return
   }
 
-  const addedAt = new Date().toISOString()
-  const today = addedAt.slice(0, 10)
-  const entry = buildBlogEntry(submission, today, addedAt)
+  const { addedDate, addedAt } = getAdditionMetadata()
+  const entry = buildBlogEntry(submission, addedDate, addedAt)
   const nextBlogs = appendBlogEntry(blogs, entry)
   await exec('git', ['checkout', '-b', branch])
   await writeFile(

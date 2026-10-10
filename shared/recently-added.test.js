@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import {
   ageInUtcDays,
+  compareRecentlyAddedBlogs,
   formatAddedDate,
   getLondonDateKey,
   getRecentlyAddedBlogs,
@@ -38,7 +39,7 @@ test('uses UTC dates across month boundaries', () => {
   assert.equal(isRecentlyAdded('2026-01-30', afterMidnight), false)
 })
 
-test('sorts newest additions first and uses JSON order for old same-day entries', () => {
+test('sorts newest additions first and uses a deterministic name fallback', () => {
   const blogs = [
     { name: 'Older', addedDate: '2026-03-02' },
     { name: 'Zed', addedDate: '2026-03-31' },
@@ -47,7 +48,7 @@ test('sorts newest additions first and uses JSON order for old same-day entries'
   ]
   assert.deepEqual(
     getRecentlyAddedBlogs(blogs, now).map((blog) => blog.name),
-    ['Zed', 'Alpha', 'Older']
+    ['Alpha', 'Zed', 'Older']
   )
 })
 
@@ -69,6 +70,69 @@ test('sorts same-day additions by precise addedAt time and remains deterministic
   const second = getRecentlyAddedBlogs(blogs, now).map((blog) => blog.name)
   assert.deepEqual(first, ['Added Later', 'Added Earlier'])
   assert.deepEqual(second, first)
+})
+
+test('sorts each date group independently by precise addition time', () => {
+  const blogs = [
+    {
+      name: 'Earlier today',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T09:00:00.000Z'
+    },
+    {
+      name: 'Later today',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T18:00:00.000Z'
+    },
+    {
+      name: 'Earlier yesterday',
+      addedDate: '2026-03-30',
+      addedAt: '2026-03-30T08:00:00.000Z'
+    },
+    {
+      name: 'Later yesterday',
+      addedDate: '2026-03-30',
+      addedAt: '2026-03-30T17:00:00.000Z'
+    }
+  ]
+
+  assert.deepEqual(
+    getRecentlyAddedGroups(blogs, now).map(({ blogs: entries }) =>
+      entries.map(({ name }) => name)
+    ),
+    [
+      ['Later today', 'Earlier today'],
+      ['Later yesterday', 'Earlier yesterday']
+    ]
+  )
+})
+
+test('falls back to addedDate and sorts identical timestamps deterministically', () => {
+  const blogs = [
+    { name: 'Zulu', url: 'https://z.example/', addedDate: '2026-03-31' },
+    { name: 'Alpha', url: 'https://a.example/', addedDate: '2026-03-31' },
+    {
+      name: 'Later timestamp',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T12:00:00.000Z'
+    },
+    {
+      name: 'Same timestamp B',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T12:00:00.000Z'
+    },
+    {
+      name: 'Same timestamp A',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T12:00:00.000Z'
+    }
+  ]
+
+  assert.deepEqual(
+    getRecentlyAddedGroups(blogs, now)[0].blogs.map(({ name }) => name),
+    ['Later timestamp', 'Same timestamp A', 'Same timestamp B', 'Alpha', 'Zulu']
+  )
+  assert.equal(compareRecentlyAddedBlogs(blogs[1], blogs[0]) < 0, true)
 })
 
 test('puts a newly approved same-day submission ahead of older same-day entries', () => {

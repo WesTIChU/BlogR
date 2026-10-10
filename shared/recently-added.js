@@ -87,25 +87,38 @@ export function isRecentlyAdded(addedDate, now = new Date()) {
   return age !== null && age >= 0 && age <= RECENTLY_ADDED_MAX_AGE_DAYS
 }
 
+function additionTimestamp(blog) {
+  const precise = Date.parse(blog.addedAt ?? '')
+  if (Number.isFinite(precise)) return precise
+
+  const dateOnly = parseUtcDateOnly(blog.addedDate)
+  return dateOnly ? dateOnly.getTime() : Number.NEGATIVE_INFINITY
+}
+
+function compareBlogNames(a, b) {
+  const nameA = String(a.name ?? '')
+  const nameB = String(b.name ?? '')
+  if (nameA < nameB) return -1
+  if (nameA > nameB) return 1
+
+  const urlA = String(a.url ?? '')
+  const urlB = String(b.url ?? '')
+  if (urlA < urlB) return -1
+  if (urlA > urlB) return 1
+  return 0
+}
+
+export function compareRecentlyAddedBlogs(a, b) {
+  return additionTimestamp(b) - additionTimestamp(a) || compareBlogNames(a, b)
+}
+
 export function getRecentlyAddedBlogs(blogs, now = new Date()) {
   return blogs
-    .map((blog, index) => ({ blog, index }))
-    .filter(({ blog }) => {
+    .filter((blog) => {
       const age = ageInLondonDays(blog.addedDate, now)
       return age !== null && age >= 0 && age <= RECENTLY_ADDED_MAX_AGE_DAYS
     })
-    .sort((a, b) => {
-      const addedTimestamp = ({ blog }) => {
-        const precise = Date.parse(blog.addedAt ?? '')
-        return Number.isFinite(precise)
-          ? precise
-          : Date.parse(`${blog.addedDate}T00:00:00.000Z`)
-      }
-      const aTimestamp = addedTimestamp(a)
-      const bTimestamp = addedTimestamp(b)
-      return bTimestamp - aTimestamp || a.index - b.index
-    })
-    .map(({ blog }) => blog)
+    .sort(compareRecentlyAddedBlogs)
 }
 
 function groupKeyForAge(age) {
@@ -125,24 +138,18 @@ export function getRecentlyAddedGroups(blogs, now = new Date()) {
   )
 
   blogs
-    .map((blog, index) => ({
+    .map((blog) => ({
       blog,
-      index,
       age: ageInLondonDays(blog.addedDate, now)
     }))
     .filter(({ age }) => age !== null && age >= 0)
-    .sort((a, b) => {
-      const addedTimestamp = ({ blog }) => {
-        const precise = Date.parse(blog.addedAt ?? '')
-        return Number.isFinite(precise)
-          ? precise
-          : Date.parse(`${blog.addedDate}T00:00:00.000Z`)
-      }
-      return addedTimestamp(b) - addedTimestamp(a) || a.index - b.index
-    })
-    .forEach(({ blog, age }) =>
+    .forEach(({ blog, age }) => {
       grouped.get(groupKeyForAge(age)).blogs.push(blog)
-    )
+    })
+
+  for (const group of grouped.values()) {
+    group.blogs.sort(compareRecentlyAddedBlogs)
+  }
 
   return RECENTLY_ADDED_GROUPS.map(({ key }) => grouped.get(key)).filter(
     ({ blogs: entries }) => entries.length

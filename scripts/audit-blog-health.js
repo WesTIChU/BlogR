@@ -1,10 +1,6 @@
-/* global Buffer, URL, clearTimeout, console, process, setTimeout */
+/* global URL, clearTimeout, console, process, setTimeout */
 
-import dns from 'node:dns/promises'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
-import http from 'node:http'
-import https from 'node:https'
-import net from 'node:net'
 import { resolve } from 'node:path'
 import {
   buildStatusData,
@@ -12,72 +8,20 @@ import {
   STALE_AFTER_MS
 } from '../shared/blog-health-status.js'
 import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
+import {
+  requestOnce,
+  resolvePublicHost
+} from '../shared/public-health-request.js'
 
 const CONCURRENCY = 5
 const MAX_REDIRECTS = 5
-const REQUEST_TIMEOUT_MS = 12_000
-const DNS_TIMEOUT_MS = 5_000
 const DELAY_MS = 150
-const BODY_SAMPLE_LIMIT = 64 * 1024
-const USER_AGENT = 'BlogR-Link-Health-Audit/1.0 (+https://blogr.directory)'
 const REDIRECT_STATUSES = new Set([301, 302, 303, 307, 308])
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
 
 const sleep = (milliseconds) =>
   new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds))
-
-const stripBrackets = (value) => value.replace(/^\[|\]$/g, '')
-
-const isNonPublicIp = (value) => {
-  const normalized = stripBrackets(value).toLowerCase()
-  if (net.isIP(normalized) === 4) {
-    const [first, second, third] = normalized.split('.').map(Number)
-    return (
-      first === 0 ||
-      first === 10 ||
-      first === 127 ||
-      (first === 100 && second >= 64 && second <= 127) ||
-      (first === 169 && second === 254) ||
-      (first === 172 && second >= 16 && second <= 31) ||
-      (first === 192 && second === 0 && third === 0) ||
-      (first === 192 && second === 0 && third === 2) ||
-      (first === 192 && second === 168) ||
-      (first === 198 && (second === 18 || second === 19)) ||
-      (first === 198 && second === 51) ||
-      (first === 203 && second === 0 && third === 113) ||
-      first >= 224
-    )
-  }
-  if (net.isIP(normalized) !== 6) return false
-  const mappedIpv4 = normalized.match(/^::ffff:(\d+\.\d+\.\d+\.\d+)$/)
-  return (
-    (mappedIpv4 && isNonPublicIp(mappedIpv4[1])) ||
-    normalized === '::' ||
-    normalized === '::1' ||
-    normalized.startsWith('fc') ||
-    normalized.startsWith('fd') ||
-    normalized.startsWith('fe8') ||
-    normalized.startsWith('fe9') ||
-    normalized.startsWith('fea') ||
-    normalized.startsWith('feb') ||
-    normalized.startsWith('ff') ||
-    normalized.startsWith('2001:db8:')
-  )
-}
-
-const isBlockedHostname = (value) => {
-  const hostname = stripBrackets(value).toLowerCase().replace(/\.$/, '')
-  return (
-    hostname === 'localhost' ||
-    hostname.endsWith('.localhost') ||
-    hostname.endsWith('.local') ||
-    hostname.endsWith('.internal') ||
-    hostname.endsWith('.lan') ||
-    hostname.endsWith('.home.arpa') ||
-    hostname === 'metadata.google.internal'
-  )
-}
 
 const normalizeUrl = (value) => {
   try {
@@ -108,116 +52,6 @@ const blogsToCheck = selectedBlogUrls
       }
     })
   : blogs
-
-const resolvePublicHost = async (url) => {
-  const hostname = stripBrackets(url.hostname)
-  if (isBlockedHostname(hostname) || isNonPublicIp(hostname)) {
-    throw Object.assign(new Error('Private or internal destination blocked'), {
-      code: 'PRIVATE_DESTINATION'
-    })
-  }
-  if (net.isIP(hostname))
-    return [{ address: hostname, family: net.isIP(hostname) }]
-
-  let timer
-  try {
-    const addresses = await Promise.race([
-      dns.lookup(hostname, { all: true, verbatim: true }),
-      new Promise((_, reject) => {
-        timer = setTimeout(() => {
-          reject(
-            Object.assign(new Error('DNS lookup timed out'), {
-              code: 'DNS_TIMEOUT'
-            })
-          )
-        }, DNS_TIMEOUT_MS)
-      })
-    ])
-    if (
-      !addresses.length ||
-      addresses.some(({ address }) => isNonPublicIp(address))
-    ) {
-      throw Object.assign(
-        new Error('DNS resolved to a private or internal address'),
-        {
-          code: 'PRIVATE_DESTINATION'
-        }
-      )
-    }
-    return addresses
-  } catch (error) {
-    if (error.code === 'PRIVATE_DESTINATION') throw error
-    throw Object.assign(new Error(error.message || 'DNS lookup failed'), {
-      code: error.code === 'DNS_TIMEOUT' ? 'DNS_TIMEOUT' : 'DNS_ERROR',
-      cause: error
-    })
-  } finally {
-    if (timer) clearTimeout(timer)
-  }
-}
-
-const readResponse = (response) =>
-  new Promise((resolvePromise) => {
-    const chunks = []
-    let size = 0
-    response.on('data', (chunk) => {
-      if (size < BODY_SAMPLE_LIMIT) {
-        const remaining = BODY_SAMPLE_LIMIT - size
-        const sample = chunk.subarray(0, remaining)
-        chunks.push(sample)
-        size += sample.length
-      }
-    })
-    response.on('end', () =>
-      resolvePromise({
-        status: response.statusCode || 0,
-        headers: response.headers,
-        body: Buffer.concat(chunks).toString('utf8')
-      })
-    )
-    response.on('error', () =>
-      resolvePromise({
-        status: response.statusCode || 0,
-        headers: response.headers,
-        body: Buffer.concat(chunks).toString('utf8')
-      })
-    )
-  })
-
-const requestOnce = (url, method, addresses) =>
-  new Promise((resolvePromise, reject) => {
-    const client = url.protocol === 'https:' ? https : http
-    const hostname = stripBrackets(url.hostname)
-    const request = client.request(
-      {
-        protocol: url.protocol,
-        hostname,
-        port: url.port || undefined,
-        path: `${url.pathname || '/'}${url.search}`,
-        method,
-        headers: {
-          accept: 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.1',
-          'user-agent': USER_AGENT
-        },
-        lookup: (_host, _options, callback) => {
-          if (_options.all) {
-            callback(null, addresses)
-            return
-          }
-          const address = addresses[0]
-          callback(null, address.address, address.family)
-        }
-      },
-      async (response) => resolvePromise(await readResponse(response))
-    )
-    request.setTimeout(REQUEST_TIMEOUT_MS, () => {
-      request.destroy(
-        Object.assign(new Error('Request timed out'), { code: 'TIMEOUT' })
-      )
-    })
-    request.on('error', reject)
-    request.end()
-  })
 
 const classifyError = (error) => {
   if (error.code === 'PRIVATE_DESTINATION') {

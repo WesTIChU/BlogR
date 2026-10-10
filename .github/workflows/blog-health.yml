@@ -62,10 +62,14 @@ jobs:
         run: |
           set -euo pipefail
           node --input-type=module <<'NODE'
-          import { readFile } from 'node:fs/promises'
-          import { normalizeBlogHealthUrl } from './shared/blog-health-url.js'
+           import { readFile } from 'node:fs/promises'
+           import { normalizeCommunityCatalogue, validateCommunityStatusCoverage } from './shared/community-catalogue.js'
+           import { normalizeBlogHealthUrl } from './shared/blog-health-url.js'
 
           const blogs = JSON.parse(await readFile('data/blogs.json', 'utf8'))
+           const communities = normalizeCommunityCatalogue(
+             JSON.parse(await readFile('data/communities.json', 'utf8'))
+           )
            const publicStatuses = JSON.parse(
              await readFile('docs/public/health-status.json', 'utf8')
            )
@@ -103,6 +107,7 @@ jobs:
            if (!Array.isArray(communityStatuses) || !communityStatuses.length) {
              throw new Error('Community status data is empty')
            }
+           validateCommunityStatusCoverage(communities, communityStatuses)
            for (const entry of communityStatuses) {
              const keys = Object.keys(entry).sort().join(',')
              if (keys !== 'checkedAt,consecutiveFailures,finalUrl,httpStatus,status,url') {

@@ -3,11 +3,13 @@ import test from 'node:test'
 import {
   ageInUtcDays,
   formatAddedDate,
+  getLondonDateKey,
   getRecentlyAddedBlogs,
+  getRecentlyAddedGroups,
   isRecentlyAdded
 } from './recently-added.js'
 
-const now = new Date('2026-03-31T23:00:00.000Z')
+const now = new Date('2026-03-31T22:00:00.000Z')
 
 test('includes additions from day 0, day 29, and day 30', () => {
   assert.equal(isRecentlyAdded('2026-03-31', now), true)
@@ -98,5 +100,74 @@ test('keeps Recently Added independent of favourite status', () => {
   assert.deepEqual(
     getRecentlyAddedBlogs(blogs, now).map((blog) => blog.name),
     ['Newer', 'Older']
+  )
+})
+
+test('groups additions into mutually exclusive date sections', () => {
+  const blogs = [
+    { name: 'Today', addedDate: '2026-04-01' },
+    { name: 'Yesterday', addedDate: '2026-03-31' },
+    { name: 'Earlier this week', addedDate: '2026-03-29' },
+    { name: 'Last 30 days', addedDate: '2026-03-24' },
+    { name: 'Older', addedDate: '2026-03-01' },
+    { name: 'Future', addedDate: '2026-04-02' },
+    { name: 'Missing', addedDate: null },
+    { name: 'Invalid', addedDate: '2026-02-31' }
+  ]
+  const groups = getRecentlyAddedGroups(blogs, new Date('2026-04-01T12:00:00Z'))
+
+  assert.deepEqual(
+    groups.map(({ title, blogs: entries }) => [
+      title,
+      entries.map(({ name }) => name)
+    ]),
+    [
+      ['Today', ['Today']],
+      ['Yesterday', ['Yesterday']],
+      ['Earlier This Week', ['Earlier this week']],
+      ['Last 30 Days', ['Last 30 days']],
+      ['Older Additions', ['Older']]
+    ]
+  )
+})
+
+test('uses Europe/London dates across midnight and daylight saving changes', () => {
+  assert.equal(getLondonDateKey(new Date('2026-03-29T00:30:00Z')), '2026-03-29')
+  assert.equal(getLondonDateKey(new Date('2026-03-29T01:30:00Z')), '2026-03-29')
+  assert.equal(getLondonDateKey(new Date('2026-03-31T23:30:00Z')), '2026-04-01')
+  assert.equal(
+    isRecentlyAdded('2026-04-01', new Date('2026-03-31T23:30:00Z')),
+    true
+  )
+
+  const groups = getRecentlyAddedGroups(
+    [
+      { name: 'London today', addedDate: '2026-04-01' },
+      { name: 'London yesterday', addedDate: '2026-03-31' }
+    ],
+    new Date('2026-03-31T23:30:00Z')
+  )
+  assert.deepEqual(
+    groups.map(({ title }) => title),
+    ['Today', 'Yesterday']
+  )
+})
+
+test('hides empty sections and preserves stable same-date ordering', () => {
+  const groups = getRecentlyAddedGroups(
+    [
+      { name: 'First', addedDate: '2026-04-01' },
+      { name: 'Second', addedDate: '2026-04-01' },
+      { name: 'Third', addedDate: '2026-04-01' }
+    ],
+    new Date('2026-04-01T12:00:00Z')
+  )
+  assert.deepEqual(
+    groups.map(({ title }) => title),
+    ['Today']
+  )
+  assert.deepEqual(
+    groups[0].blogs.map(({ name }) => name),
+    ['First', 'Second', 'Third']
   )
 })

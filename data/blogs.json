@@ -4036,7 +4036,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": "GB-ENG"
   },
   {
     "name": "atmtx photo blog",
@@ -4888,5 +4889,61 @@
     "addedDate": "2026-10-10",
     "addedAt": "2026-10-10T20:09:29.000Z",
     "country": null
+  },
+  {
+    "name": "Caroline's Blog",
+    "url": "https://carolineld.blogspot.com/",
+    "description": "Caroline's Miscellany covering London, Brittany, travel, architecture, transport and miscellaneous history.",
+    "category": "culture-and-places",
+    "subcategory": "History & Heritage",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T20:16:01.000Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "CabbieBlog",
+    "url": "https://cabbieblog.com/",
+    "description": "A London cabbie's blog about London history, trivia, places, transport and life on the city's streets.",
+    "category": "culture-and-places",
+    "subcategory": "Local Culture & Communities",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T20:16:01.000Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "Diamond Geezer",
+    "url": "https://diamondgeezer.blogspot.com/",
+    "description": "A long-running London blog about public transport, walking, local history, places, events and everyday life in the capital.",
+    "category": "culture-and-places",
+    "subcategory": "Local Culture & Communities",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T20:16:01.000Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "ianVisits",
+    "url": "https://www.ianvisits.co.uk/articles/",
+    "description": "London culture, history, transport, architecture, events and exhibitions, with guides to what's on across the city.",
+    "category": "culture-and-places",
+    "subcategory": "Local Culture & Communities",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-10",
+    "addedAt": "2026-10-10T20:16:01.000Z",
+    "country": "GB-ENG"
   }
 ]

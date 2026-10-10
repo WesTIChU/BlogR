@@ -67,6 +67,32 @@ const applySeasonalBranding = () => {
   }
 }
 
+const normalizeAnalyticsPath = (value: string) => {
+  const url = new URL(value, window.location.href)
+  return `${url.pathname}${url.search}`
+}
+
+type GoatCounterWindow = Window & {
+  goatcounter?: {
+    count?: (options: { path: string }) => void
+  }
+}
+
+const getInitialAnalyticsPath = () => {
+  const canonical = document.querySelector<HTMLLinkElement>(
+    "link[rel='canonical'][href]"
+  )
+  return normalizeAnalyticsPath(canonical?.href ?? window.location.href)
+}
+
+const trackNavigation = (to: string, lastTrackedPath: { value: string }) => {
+  const path = normalizeAnalyticsPath(to)
+  if (path === lastTrackedPath.value) return
+
+  lastTrackedPath.value = path
+  ;(window as GoatCounterWindow).goatcounter?.count?.({ path })
+}
+
 export default {
   extends: DefaultTheme,
   Layout,
@@ -75,6 +101,8 @@ export default {
     loadProgress(router)
 
     if (typeof window !== 'undefined') {
+      const lastTrackedPath = { value: getInitialAnalyticsPath() }
+
       applySeasonalBranding()
       requestAnimationFrame(applySeasonalBranding)
 
@@ -131,6 +159,12 @@ export default {
           pendingScrollQuery.value = null
           const hash = window.location.hash.slice(1)
           scheduleScrollToMatch(hash, query, 16, matchContext)
+        }
+
+        if (
+          !window.location.hostname.match(/(^|\.)localhost$|^127\.|^192\.168\./)
+        ) {
+          trackNavigation(to, lastTrackedPath)
         }
       }
     }

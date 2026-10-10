@@ -172,6 +172,15 @@ export default defineConfig({
           } catch (e) {}
         })();
         `
+    ],
+    // Reuse the existing self-hosted GoatCounter installation.
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://stats.blogr.directory/count.js',
+        'data-goatcounter': 'https://stats.blogr.directory/count'
+      }
     ]
   ],
   transformHead: async (context) => generateMeta(context, meta.hostname),

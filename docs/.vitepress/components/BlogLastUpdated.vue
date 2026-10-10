@@ -17,6 +17,7 @@ import {
   healthStatuses,
   loadHealthStatuses
 } from './blog-health-status-client.js'
+import { showBlogDetails } from './blog-stats-visibility.js'
 
 const props = defineProps({
   url: { type: String, required: true },
@@ -86,6 +87,7 @@ onMounted(() => {
 <template>
   <span
     v-if="favourite || health || relativeUpdate || feedUrl || addedDateText"
+    v-show="showBlogDetails"
     class="blog-last-updated"
   >
     <span v-if="favourite" class="blog-favourite" aria-label="Favourite">

@@ -35,7 +35,20 @@ export function submissionType(body, labels = null) {
   if (Array.isArray(labels)) {
     const isBlog = labels.includes('blog-submission')
     const isCommunity = labels.includes('community-submission')
-    if (isBlog === isCommunity) return null
+    if (isBlog && isCommunity) return null
+    if (!isBlog && !isCommunity) {
+      const hasBlogHeadings = REQUIRED_FORM_HEADINGS.every((heading) =>
+        body.includes(heading)
+      )
+      const hasCommunityHeadings = REQUIRED_COMMUNITY_HEADINGS.every(
+        (heading) => body.includes(heading)
+      )
+      return hasBlogHeadings === hasCommunityHeadings
+        ? null
+        : hasBlogHeadings
+          ? 'blog'
+          : 'community'
+    }
     if (
       isBlog &&
       !REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))

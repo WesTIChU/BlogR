@@ -19,6 +19,8 @@ const trigger = workflow.split('concurrency:')[0]
 test('initial metadata refresh runs only for catalogue pushes', () => {
   assert.match(trigger, /push:/)
   assert.match(trigger, /workflow_dispatch:/)
+  assert.match(workflow, /retry_missing:/)
+  assert.match(workflow, /RETRY_MISSING:/)
   assert.match(trigger, /data\/blogs\.json/)
   assert.match(workflow, /refresh-new-blog-metadata\.js/)
   assert.match(workflow, /BLOG_HEALTH_URLS/)

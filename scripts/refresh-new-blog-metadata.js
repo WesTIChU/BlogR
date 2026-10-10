@@ -31,6 +31,7 @@ const readPreviousBlogs = (base) => {
 
 const currentBlogs = await readJson(resolve('data/blogs.json'), [])
 const previousBlogs = readPreviousBlogs(argument('--base', null))
+const retryMissing = process.env.RETRY_MISSING === 'true'
 const previousUpdates = await readJson(resolve('data/blog-updates.json'), {})
 const healthStatuses = await readJson(
   resolve('docs/public/health-status.json'),
@@ -50,7 +51,7 @@ const initializedUrls = Object.keys(previousUpdates).filter((url) =>
 )
 const newBlogs = getUninitializedNewBlogEntries(
   currentBlogs,
-  previousBlogs,
+  retryMissing ? [] : previousBlogs,
   initializedUrls
 )
 

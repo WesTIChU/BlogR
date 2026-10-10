@@ -75,3 +75,14 @@ test('skips initialized entries on a repeated workflow run', () => {
     []
   )
 })
+
+test('supports retrying only entries missing initial metadata', () => {
+  const current = [
+    { name: 'Initialized', url: 'https://ready.example/' },
+    { name: 'Missing metadata', url: 'https://missing.example/' }
+  ]
+  assert.deepEqual(
+    getUninitializedNewBlogEntries(current, [], ['https://ready.example']),
+    [{ name: 'Missing metadata', url: 'https://missing.example/' }]
+  )
+})

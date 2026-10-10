@@ -2296,5 +2296,23 @@
     "lastChecked": "2026-10-10T08:19:47.501Z",
     "status": "success",
     "feedUrl": "https://battlepenguin.com/feed.xml"
+  },
+  "https://www.andymuirhead.com/": {
+    "lastPublished": "2026-10-07",
+    "lastChecked": "2026-10-10T08:42:55.577Z",
+    "status": "success",
+    "feedUrl": "https://www.andymuirhead.com/feed"
+  },
+  "https://www.celticquicknews.co.uk/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T08:42:55.577Z",
+    "status": "success",
+    "feedUrl": "https://www.celticquicknews.co.uk/feed/"
+  },
+  "https://celtic365.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-10T08:42:55.577Z",
+    "status": "success",
+    "feedUrl": "https://celtic365.com/feed/"
   }
 }

@@ -46,7 +46,7 @@ We appreciate every suggestion, but duplicate submissions won't be considered.
 
 **Have a GitHub account?** This is the preferred way to submit a blog.
 
-[**► Open the GitHub Issue Form**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-blog.yml)
+[**► Open the GitHub Issue Form**](https://github.com/WesTIChU/BlogR/issues/new/choose)
 
 The form asks for the blog's name and URL, with optional fields for a description, category, and additional information.
 

@@ -3,87 +3,25 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { deriveStatus } from '../shared/blog-health-status.js'
-import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
-import { classifyCommunityResponse } from '../shared/community-health.js'
+import { normalizeCommunityCatalogue } from '../shared/community-catalogue.js'
+import { checkCommunity } from '../shared/community-health-check.js'
 
 const CONCURRENCY = 3
+const MAX_REDIRECTS = 5
 const REQUEST_TIMEOUT_MS = 12_000
 const RETRIES = 2
 const RETRY_DELAY_MS = 500
 const USER_AGENT = 'BlogR-Community-Availability/1.0 (+https://blogr.directory)'
-const SOURCE_PATH = resolve('docs/communities/online-communities.md')
+const CATALOGUE_PATH = resolve('data/communities.json')
 const PUBLIC_PATH = resolve('docs/public/community-health-status.json')
 const HISTORY_PATH = resolve('reports/community-health-history.json')
 
 const sleep = (milliseconds) =>
   new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds))
 
-const source = await readFile(SOURCE_PATH, 'utf8')
-const entries = Array.from(
-  source.matchAll(/<a href="([^"]+)"[^>]*><strong>(.*?)<\/strong><\/a>/g),
-  ([, url, name]) => ({
-    name,
-    url: normalizeBlogHealthUrl(url).toString()
-  })
+const catalogue = normalizeCommunityCatalogue(
+  JSON.parse(await readFile(CATALOGUE_PATH, 'utf8'))
 )
-
-const request = async (url) => {
-  const controller = new AbortController()
-  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS)
-  try {
-    const response = await fetch(url, {
-      headers: {
-        'user-agent': USER_AGENT,
-        accept: 'text/html,application/xhtml+xml'
-      },
-      redirect: 'follow',
-      signal: controller.signal
-    })
-    return {
-      status: response.status,
-      redirected: response.redirected,
-      finalUrl: response.url,
-      headers: Object.fromEntries(response.headers),
-      body: (await response.text()).slice(0, 16 * 1024)
-    }
-  } finally {
-    clearTimeout(timeout)
-  }
-}
-
-const check = async (entry) => {
-  let lastError
-  for (let attempt = 0; attempt <= RETRIES; attempt += 1) {
-    const checkedAt = new Date().toISOString()
-    try {
-      const response = await request(entry.url)
-      const classification = classifyCommunityResponse(response)
-      return {
-        ...entry,
-        checkedAt,
-        httpStatus: response.status,
-        finalUrl: response.finalUrl,
-        ...classification,
-        error: null
-      }
-    } catch (error) {
-      lastError = error
-      if (attempt < RETRIES) await sleep(RETRY_DELAY_MS)
-    }
-  }
-  return {
-    ...entry,
-    checkedAt: new Date().toISOString(),
-    httpStatus: null,
-    finalUrl: entry.url,
-    status: 'Potentially unreachable',
-    failureKind: lastError?.name === 'AbortError' ? 'timeout' : 'connection',
-    error: {
-      code: lastError?.code || lastError?.name || 'CHECK_ERROR',
-      message: lastError?.message || 'Request failed'
-    }
-  }
-}
 
 let history = []
 try {
@@ -99,9 +37,22 @@ const previous = new Map(
 const results = []
 let nextIndex = 0
 const worker = async () => {
-  while (nextIndex < entries.length) {
-    const entry = entries[nextIndex++]
-    results.push(await check(entry))
+  while (nextIndex < catalogue.length) {
+    const entry = catalogue[nextIndex++]
+    let result
+    for (let attempt = 0; attempt <= RETRIES; attempt++) {
+      result = await checkCommunity(entry, {
+        maxRedirects: MAX_REDIRECTS,
+        requestOptions: {
+          timeoutMs: REQUEST_TIMEOUT_MS,
+          bodySampleLimit: 16 * 1024,
+          userAgent: USER_AGENT
+        }
+      })
+      if (result.failureKind !== 'connection' || attempt === RETRIES) break
+      await sleep(RETRY_DELAY_MS)
+    }
+    results.push(result)
   }
 }
 await Promise.all(Array.from({ length: CONCURRENCY }, worker))

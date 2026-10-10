@@ -75,7 +75,7 @@ test('health audit keeps scheduled/manual triggers and is reusable', () => {
   assert.match(healthWorkflow, /workflow_dispatch:/)
   assert.match(healthWorkflow, /run: pnpm audit:blogs/)
   assert.match(healthWorkflow, /docs\/public\/health-status\.json/)
-  assert.match(healthWorkflow, /group: blog-health-publish/)
+  assert.match(healthWorkflow, /group: blog-metadata-publish/)
   assert.match(healthWorkflow, /contents: write/)
   assert.match(completionWorkflow, /contents: write/)
   assert.match(

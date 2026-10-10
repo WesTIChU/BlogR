@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: blog-updates-publish
+  group: blog-metadata-publish
   cancel-in-progress: false
 
 permissions:

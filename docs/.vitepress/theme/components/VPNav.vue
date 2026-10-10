@@ -178,16 +178,8 @@ watch(width, (newWidth) => {
 </style>
 
 <style>
-/* Temporarily hide the appearance control without removing its implementation.
- * Keep the surrounding navigation flow tight on desktop and mobile. */
-.VPNavBar .appearance,
-.VPNavScreen .appearance {
-  display: none !important;
-}
-
 .VPNavBar .menu + .social-links::before,
-.VPNavBar .translations + .social-links::before,
-.VPNavBar .appearance + .social-links::before {
+.VPNavBar .translations + .social-links::before {
   display: none;
 }
 

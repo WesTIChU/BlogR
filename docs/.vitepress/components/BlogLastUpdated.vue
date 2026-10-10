@@ -13,6 +13,7 @@ import {
   getBlogUpdate,
   getVerifiedFeedUrl
 } from '../../../shared/blog-update.js'
+import { getCountryInfo } from '../../../shared/countries.js'
 import { formatAddedDate } from '../../../shared/recently-added.js'
 import {
   healthStatuses,
@@ -101,6 +102,9 @@ const feedLabel = computed(
   () => `RSS feed for ${catalogueEntry.value?.name ?? 'blog'}`
 )
 const addedDateText = computed(() => formatAddedDate(props.addedDate))
+const country = computed(() =>
+  props.community ? null : getCountryInfo(catalogueEntry.value?.country)
+)
 
 onMounted(() => {
   void (props.community ? loadCommunityHealthStatuses() : loadHealthStatuses())
@@ -143,6 +147,24 @@ onMounted(() => {
       :aria-label="tooltip"
       role="img"
     ></span>
+    <span v-if="country" class="blog-metadata-separator" aria-hidden="true">
+      ·
+    </span>
+    <span
+      v-if="country"
+      class="blog-country"
+      :aria-label="`Based in ${country.name}`"
+    >
+      <span aria-hidden="true">{{ country.flag }}</span>
+      {{ country.name }}
+    </span>
+    <span
+      v-if="country && relativeUpdate"
+      class="blog-metadata-separator"
+      aria-hidden="true"
+    >
+      ·
+    </span>
     <span
       v-if="relativeUpdate"
       :title="updateTooltip"
@@ -190,6 +212,13 @@ onMounted(() => {
   width: 7px;
   height: 7px;
   border-radius: 50%;
+}
+
+.blog-country {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2em;
+  white-space: nowrap;
 }
 
 .blog-feed-link {

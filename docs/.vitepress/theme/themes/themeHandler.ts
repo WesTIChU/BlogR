@@ -54,36 +54,12 @@ export class ThemeHandler {
     if (typeof window === 'undefined' || this.initialized) return
     this.initialized = true
 
-    const savedTheme = resolveThemeName(localStorage.getItem(STORAGE_KEY_THEME))
-
-    const savedMode = localStorage.getItem(
-      STORAGE_KEY_MODE
-    ) as DisplayMode | null
-    const savedAmoled = localStorage.getItem(STORAGE_KEY_AMOLED) === 'true'
-
-    this.state.value.currentTheme = savedTheme
-    this.state.value.theme = themeRegistry[savedTheme]
-
-    // Set amoled preference
-    this.amoledEnabled.value = savedAmoled
-
-    // Set mode
-    if (savedMode) {
-      this.state.value.currentMode = savedMode
-    } else {
-      this.state.value.currentMode = 'dark'
-    }
+    this.state.value.currentTheme = DEFAULT_THEME
+    this.state.value.theme = themeRegistry[DEFAULT_THEME]
+    this.amoledEnabled.value = false
+    this.state.value.currentMode = 'dark'
 
     this.applyTheme()
-
-    // Listen for system theme changes (only if user hasn't set a preference).
-    // Remove any prior listener first so repeated init calls don't stack.
-    this.prefersDarkMql?.removeEventListener(
-      'change',
-      this.handleSystemThemeChange
-    )
-    this.prefersDarkMql = window.matchMedia('(prefers-color-scheme: dark)')
-    this.prefersDarkMql.addEventListener('change', this.handleSystemThemeChange)
   }
 
   public applyTheme() {

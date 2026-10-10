@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
+import { normalizeCountryCode } from '../shared/countries.js'
 import { getLondonDateKey } from '../shared/recently-added.js'
 import { validateBlogs, validateCommunities } from './generate-blog-pages.js'
 
@@ -134,8 +135,18 @@ export function parseIssueForm(body) {
     category: cleanValue(get('main category'), 'main category', 120),
     subcategory:
       get('subcategory') === '_No response_' ? '' : get('subcategory'),
+    country: parseCountry(get('country')),
     notes: get('additional notes')
   }
+}
+
+function parseCountry(value) {
+  if (!value || value === '_No response_' || value === 'Not specified') {
+    return undefined
+  }
+  const match = value.match(/^.+ \[([A-Z]{2}(?:-[A-Z]{3})?)\]$/)
+  if (!match) throw new Error('Invalid country selection')
+  return normalizeCountryCode(match[1])
 }
 
 export function parseCommunityIssueForm(body) {
@@ -369,6 +380,7 @@ export function validateSubmission(submission, blogs, taxonomy) {
   }
 
   const { categories, subcategories } = taxonomyMaps(taxonomy)
+  const country = normalizeCountryCode(submission.country)
   const category = categories.get(submission.category)
   if (!category) throw new Error('Invalid main category')
 
@@ -401,6 +413,7 @@ export function validateSubmission(submission, blogs, taxonomy) {
     description,
     category: category.slug,
     subcategory,
+    ...(country ? { country } : {}),
     ...(suggestedSubcategory ? { suggestedSubcategory } : {})
   }
 }
@@ -456,6 +469,7 @@ export function buildBlogEntry(submission, addedDate, addedAt) {
     description: submission.description,
     category: submission.category,
     ...(submission.subcategory ? { subcategory: submission.subcategory } : {}),
+    ...(submission.country ? { country: submission.country } : {}),
     topics: [],
     recentlyAdded: true,
     favourite: false,

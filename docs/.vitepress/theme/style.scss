@@ -510,7 +510,6 @@ html.june {
 }
 
 /* Shared popup surfaces */
-.v-popper--theme-theme-selector .v-popper__inner,
 .VPMenu,
 .VPLocalNavOutlineDropdown .items,
 .tooltip-card {
@@ -519,15 +518,6 @@ html.june {
   border-radius: 12px !important;
   box-shadow: var(--vp-shadow-3) !important;
   color: var(--vp-c-text-1);
-}
-
-.v-popper--theme-theme-selector .v-popper__inner {
-  --appearance-panel-surface: var(--vp-c-bg);
-  padding: 6px;
-}
-
-.v-popper--theme-theme-selector .v-popper__arrow {
-  display: none;
 }
 
 .VPMenu .VPMenuLink > .link {
@@ -545,48 +535,6 @@ html.june {
     color: var(--vp-c-brand-1) !important;
     font-weight: 600 !important;
     background-color: var(--blogr-c-accent-muted) !important;
-  }
-}
-
-@media (max-width: 1279px) {
-  .VPNavScreenAppearance,
-  .VPNavBarExtra .item.appearance {
-    display: block !important;
-  }
-
-  .VPNavScreenAppearance {
-    --appearance-panel-surface: var(--vp-c-bg);
-
-    background: transparent !important;
-    border-radius: 0 !important;
-    padding: 4px !important;
-  }
-
-  .VPNavScreenAppearance > .text,
-  .VPNavBarExtra .item.appearance > .label {
-    display: none;
-  }
-
-  .VPNavBarExtra .item.appearance {
-    --appearance-panel-surface: var(--vp-c-bg);
-
-    min-width: 0 !important;
-    margin-inline: 0;
-    padding: 0 !important;
-  }
-
-  .VPNavBarExtra .appearance-action {
-    margin-inline: 0;
-  }
-
-  .VPNavBarExtra .VPMenu {
-    width: 220px;
-    padding: 6px;
-  }
-
-  .VPNavBarExtra .VPMenu > .group {
-    margin-inline: -6px;
-    padding-inline: 6px;
   }
 }
 
@@ -960,7 +908,6 @@ html.monolith {
   }
 
   /* Popups & dropdowns — sharp */
-  .v-popper--theme-theme-selector .v-popper__inner,
   .VPMenu,
   .VPLocalNavOutlineDropdown .items,
   .tooltip-card {

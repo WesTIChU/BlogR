@@ -653,5 +653,681 @@
         "error": null
       }
     ]
+  },
+  {
+    "checkedAt": "2026-10-10T15:19:21.531Z",
+    "statusData": [
+      {
+        "url": "https://gearspace.com/board/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:18:42.892Z",
+        "httpStatus": 403,
+        "finalUrl": "https://gearspace.com/board/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.avforums.com/forums/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:18:42.834Z",
+        "httpStatus": 403,
+        "finalUrl": "https://www.avforums.com/forums/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forums.somethingawful.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:42.893Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forums.somethingawful.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forum.67hailhail.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:42.980Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.67hailhail.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://arsenal-mania.com/forum/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:43.021Z",
+        "httpStatus": 200,
+        "finalUrl": "https://arsenal-mania.com/forum/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.ultimate-guitar.com/forum/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:42.976Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ultimate-guitar.com/forum/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.followfollow.com/forum/forums/the-bear-pit/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:43.559Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.followfollow.com/forum/forums/the-bear-pit/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://kerrydalestreet.co.uk/celtic-football-club-discussion-forum-f5/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:18:44.183Z",
+        "httpStatus": 403,
+        "finalUrl": "https://kerrydalestreet.co.uk/celtic-football-club-discussion-forum-f5/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://celticnoise.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:43.539Z",
+        "httpStatus": 200,
+        "finalUrl": "https://celticnoise.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://rangersmedia.uk/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:18:44.238Z",
+        "httpStatus": 403,
+        "finalUrl": "https://rangersmedia.uk/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://celticfcbars.com/community/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:43.327Z",
+        "httpStatus": 200,
+        "finalUrl": "https://celticfcbars.com/community/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.theshedend.com/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:18:44.561Z",
+        "httpStatus": 403,
+        "finalUrl": "https://www.theshedend.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.neogaf.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:44.609Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.neogaf.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.talkceltic.net/forums/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:44.443Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.talkceltic.net/forums/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://resetera.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:44.827Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.resetera.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.gaiaonline.com/forum/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:45.148Z",
+        "httpStatus": 202,
+        "finalUrl": "https://www.gaiaonline.com/forum/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.rllmukforum.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:44.956Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.rllmukforum.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forum.indieweb.org/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:45.604Z",
+        "httpStatus": 200,
+        "finalUrl": "https://indieweb.org/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.birdforum.net/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:45.715Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.birdforum.net/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://permies.com/forums",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:46.062Z",
+        "httpStatus": 200,
+        "finalUrl": "https://permies.com/forums",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forums.moneysavingexpert.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:46.425Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forums.moneysavingexpert.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.ravelry.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:46.362Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ravelry.com/account/login",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forum.mrmoneymustache.com/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:18:46.645Z",
+        "httpStatus": 403,
+        "finalUrl": "https://forum.mrmoneymustache.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.city-data.com/forum/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:46.739Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.city-data.com/forum/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://boards.straightdope.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:46.769Z",
+        "httpStatus": 200,
+        "finalUrl": "https://boards.straightdope.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://arstechnica.com/civis/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.058Z",
+        "httpStatus": 200,
+        "finalUrl": "https://arstechnica.com/civis/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forum.arduino.cc/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:46.919Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.arduino.cc/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forum.freecodecamp.org/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.230Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.freecodecamp.org/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://news.ycombinator.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.446Z",
+        "httpStatus": 200,
+        "finalUrl": "https://news.ycombinator.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://www.ispreview.co.uk/talk/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.564Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ispreview.co.uk/talk/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forum.level1techs.com/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.744Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.level1techs.com/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://lobste.rs/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.836Z",
+        "httpStatus": 200,
+        "finalUrl": "https://lobste.rs/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://community.nodebb.org/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:47.971Z",
+        "httpStatus": 200,
+        "finalUrl": "https://community.nodebb.org/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://forums.overclockers.co.uk/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:48.085Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forums.overclockers.co.uk/bot-guard/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://discuss.privacyguides.net/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:48.314Z",
+        "httpStatus": 200,
+        "finalUrl": "https://discuss.privacyguides.net/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://discuss.python.org/",
+        "status": "online",
+        "checkedAt": "2026-10-10T15:18:48.418Z",
+        "httpStatus": 200,
+        "finalUrl": "https://discuss.python.org/",
+        "consecutiveFailures": 0
+      },
+      {
+        "url": "https://theblueseaofibrox.boards.net/",
+        "status": "warning",
+        "checkedAt": "2026-10-10T15:19:21.531Z",
+        "httpStatus": null,
+        "finalUrl": "https://theblueseaofibrox.boards.net/",
+        "consecutiveFailures": 0
+      }
+    ],
+    "results": [
+      {
+        "name": "Gearspace",
+        "url": "https://gearspace.com/board/",
+        "checkedAt": "2026-10-10T15:18:42.892Z",
+        "httpStatus": 403,
+        "finalUrl": "https://gearspace.com/board/",
+        "status": "Restricted or bot-blocked",
+        "failureKind": "protected",
+        "error": null
+      },
+      {
+        "name": "AVForums",
+        "url": "https://www.avforums.com/forums/",
+        "checkedAt": "2026-10-10T15:18:42.834Z",
+        "httpStatus": 403,
+        "finalUrl": "https://www.avforums.com/forums/",
+        "status": "Restricted or bot-blocked",
+        "failureKind": "protected",
+        "error": null
+      },
+      {
+        "name": "Something Awful Forums",
+        "url": "https://forums.somethingawful.com/",
+        "checkedAt": "2026-10-10T15:18:42.893Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forums.somethingawful.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "67 Hail Hail Forum",
+        "url": "https://forum.67hailhail.com/",
+        "checkedAt": "2026-10-10T15:18:42.980Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.67hailhail.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Arsenal Mania",
+        "url": "https://arsenal-mania.com/forum/",
+        "checkedAt": "2026-10-10T15:18:43.021Z",
+        "httpStatus": 200,
+        "finalUrl": "https://arsenal-mania.com/forum/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Ultimate Guitar",
+        "url": "https://www.ultimate-guitar.com/forum/",
+        "checkedAt": "2026-10-10T15:18:42.976Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ultimate-guitar.com/forum/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Follow Follow – The Bear Pit",
+        "url": "https://www.followfollow.com/forum/forums/the-bear-pit/",
+        "checkedAt": "2026-10-10T15:18:43.559Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.followfollow.com/forum/forums/the-bear-pit/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Kerrydale Street",
+        "url": "https://kerrydalestreet.co.uk/celtic-football-club-discussion-forum-f5/",
+        "checkedAt": "2026-10-10T15:18:44.183Z",
+        "httpStatus": 403,
+        "finalUrl": "https://kerrydalestreet.co.uk/celtic-football-club-discussion-forum-f5/",
+        "status": "Restricted or bot-blocked",
+        "failureKind": "protected",
+        "error": null
+      },
+      {
+        "name": "Celtic Noise",
+        "url": "https://celticnoise.com/",
+        "checkedAt": "2026-10-10T15:18:43.539Z",
+        "httpStatus": 200,
+        "finalUrl": "https://celticnoise.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "RangersMedia",
+        "url": "https://rangersmedia.uk/",
+        "checkedAt": "2026-10-10T15:18:44.238Z",
+        "httpStatus": 403,
+        "finalUrl": "https://rangersmedia.uk/",
+        "status": "Restricted or bot-blocked",
+        "failureKind": "protected",
+        "error": null
+      },
+      {
+        "name": "Celtic FC Bars Community",
+        "url": "https://celticfcbars.com/community/",
+        "checkedAt": "2026-10-10T15:18:43.327Z",
+        "httpStatus": 200,
+        "finalUrl": "https://celticfcbars.com/community/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "The Shed End",
+        "url": "https://www.theshedend.com/",
+        "checkedAt": "2026-10-10T15:18:44.561Z",
+        "httpStatus": 403,
+        "finalUrl": "https://www.theshedend.com/",
+        "status": "Restricted or bot-blocked",
+        "failureKind": "protected",
+        "error": null
+      },
+      {
+        "name": "NeoGAF",
+        "url": "https://www.neogaf.com/",
+        "checkedAt": "2026-10-10T15:18:44.609Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.neogaf.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "TalkCeltic",
+        "url": "https://www.talkceltic.net/forums/",
+        "checkedAt": "2026-10-10T15:18:44.443Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.talkceltic.net/forums/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "ResetEra",
+        "url": "https://resetera.com/",
+        "checkedAt": "2026-10-10T15:18:44.827Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.resetera.com/",
+        "status": "Redirected",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Gaia Online",
+        "url": "https://www.gaiaonline.com/forum/",
+        "checkedAt": "2026-10-10T15:18:45.148Z",
+        "httpStatus": 202,
+        "finalUrl": "https://www.gaiaonline.com/forum/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "RLLMUK",
+        "url": "https://www.rllmukforum.com/",
+        "checkedAt": "2026-10-10T15:18:44.956Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.rllmukforum.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "IndieWeb Forum",
+        "url": "https://forum.indieweb.org/",
+        "checkedAt": "2026-10-10T15:18:45.604Z",
+        "httpStatus": 200,
+        "finalUrl": "https://indieweb.org/",
+        "status": "Redirected",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "BirdForum",
+        "url": "https://www.birdforum.net/",
+        "checkedAt": "2026-10-10T15:18:45.715Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.birdforum.net/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Permies",
+        "url": "https://permies.com/forums",
+        "checkedAt": "2026-10-10T15:18:46.062Z",
+        "httpStatus": 200,
+        "finalUrl": "https://permies.com/forums",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "MoneySavingExpert Forums",
+        "url": "https://forums.moneysavingexpert.com/",
+        "checkedAt": "2026-10-10T15:18:46.425Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forums.moneysavingexpert.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Ravelry",
+        "url": "https://www.ravelry.com/",
+        "checkedAt": "2026-10-10T15:18:46.362Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ravelry.com/account/login",
+        "status": "Redirected",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Mr. Money Mustache Forum",
+        "url": "https://forum.mrmoneymustache.com/",
+        "checkedAt": "2026-10-10T15:18:46.645Z",
+        "httpStatus": 403,
+        "finalUrl": "https://forum.mrmoneymustache.com/",
+        "status": "Restricted or bot-blocked",
+        "failureKind": "protected",
+        "error": null
+      },
+      {
+        "name": "City-Data Forum",
+        "url": "https://www.city-data.com/forum/",
+        "checkedAt": "2026-10-10T15:18:46.739Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.city-data.com/forum/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Straight Dope Message Board",
+        "url": "https://boards.straightdope.com/",
+        "checkedAt": "2026-10-10T15:18:46.769Z",
+        "httpStatus": 200,
+        "finalUrl": "https://boards.straightdope.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Ars Technica Forums",
+        "url": "https://arstechnica.com/civis/",
+        "checkedAt": "2026-10-10T15:18:47.058Z",
+        "httpStatus": 200,
+        "finalUrl": "https://arstechnica.com/civis/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Arduino Forum",
+        "url": "https://forum.arduino.cc/",
+        "checkedAt": "2026-10-10T15:18:46.919Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.arduino.cc/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "freeCodeCamp Forum",
+        "url": "https://forum.freecodecamp.org/",
+        "checkedAt": "2026-10-10T15:18:47.230Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.freecodecamp.org/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/",
+        "checkedAt": "2026-10-10T15:18:47.446Z",
+        "httpStatus": 200,
+        "finalUrl": "https://news.ycombinator.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "ISPreview Forums",
+        "url": "https://www.ispreview.co.uk/talk/",
+        "checkedAt": "2026-10-10T15:18:47.564Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ispreview.co.uk/talk/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Level1Techs Forum",
+        "url": "https://forum.level1techs.com/",
+        "checkedAt": "2026-10-10T15:18:47.744Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forum.level1techs.com/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Lobsters",
+        "url": "https://lobste.rs/",
+        "checkedAt": "2026-10-10T15:18:47.836Z",
+        "httpStatus": 200,
+        "finalUrl": "https://lobste.rs/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "NodeBB Community",
+        "url": "https://community.nodebb.org/",
+        "checkedAt": "2026-10-10T15:18:47.971Z",
+        "httpStatus": 200,
+        "finalUrl": "https://community.nodebb.org/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Overclockers UK Forums",
+        "url": "https://forums.overclockers.co.uk/",
+        "checkedAt": "2026-10-10T15:18:48.085Z",
+        "httpStatus": 200,
+        "finalUrl": "https://forums.overclockers.co.uk/bot-guard/",
+        "status": "Redirected",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Privacy Guides Forum",
+        "url": "https://discuss.privacyguides.net/",
+        "checkedAt": "2026-10-10T15:18:48.314Z",
+        "httpStatus": 200,
+        "finalUrl": "https://discuss.privacyguides.net/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "Python Discussions",
+        "url": "https://discuss.python.org/",
+        "checkedAt": "2026-10-10T15:18:48.418Z",
+        "httpStatus": 200,
+        "finalUrl": "https://discuss.python.org/",
+        "status": "Healthy",
+        "failureKind": null,
+        "error": null
+      },
+      {
+        "name": "The Blue Sea of Ibrox",
+        "url": "https://theblueseaofibrox.boards.net/",
+        "checkedAt": "2026-10-10T15:19:21.531Z",
+        "httpStatus": null,
+        "finalUrl": "https://theblueseaofibrox.boards.net/",
+        "status": "Potentially unreachable",
+        "failureKind": "timeout",
+        "error": {
+          "code": 20,
+          "message": "This operation was aborted"
+        }
+      }
+    ]
   }
 ]

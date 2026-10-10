@@ -89,4 +89,6 @@ Creative work, visual arts, music, design, and experimental projects.
 ## Photography & Street Art
 
 * <BlogHealthLink name="atmtx photo blog" url="https://blog.atmtxphoto.com/" :favourite="false" /> - Photography stories from cities and travels, with images, observations, and occasional writing about photographic gear and technique.<BlogLastUpdated url="https://blog.atmtxphoto.com/" added-date="2026-10-10" />
+* <BlogHealthLink name="British Landscapes Photography" url="https://britishlandscapesphotography.co.uk/" :favourite="false" /> - Photography covering British landscapes, scenery and the natural environment.<BlogLastUpdated url="https://britishlandscapesphotography.co.uk/" added-date="2026-10-10" />
+* <BlogHealthLink name="Obsidian Urbex Photography" url="https://www.obsidianurbexphotography.com/blog/" :favourite="false" /> - Urban exploration photography, abandoned places, travel diaries and photographic adventures around the world.<BlogLastUpdated url="https://www.obsidianurbexphotography.com/blog/" added-date="2026-10-10" />
 * <BlogHealthLink name="Small Observations" url="https://smallobservations.net/" :favourite="false" /> - A photographic collection of street art, murals, and urban creativity from around the world.<BlogLastUpdated url="https://smallobservations.net/" added-date="2026-10-09" />

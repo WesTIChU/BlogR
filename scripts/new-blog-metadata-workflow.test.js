@@ -36,3 +36,18 @@ test('initial refresh does not trigger itself with metadata-only commits', () =>
   assert.doesNotMatch(trigger, /data\/blog-updates\.json/)
   assert.match(workflow, /Commit initial metadata only when changed/)
 })
+
+test('health-history heredoc delimiters are flush with the run block', () => {
+  const lines = workflow.split('\n')
+  const heredocStarts = lines
+    .map((line, index) => ({ line, index }))
+    .filter(({ line }) => line.includes("<<'NODE'"))
+
+  assert.equal(heredocStarts.length, 2)
+  for (const { index } of heredocStarts) {
+    const delimiter = lines
+      .slice(index + 1)
+      .find((line) => line.trim() === 'NODE')
+    assert.equal(delimiter, '          NODE')
+  }
+})

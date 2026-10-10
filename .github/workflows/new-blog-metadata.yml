@@ -80,7 +80,7 @@ jobs:
               }))
             }]
             await writeFile('reports/blog-health-history.json', `${JSON.stringify(history, null, 2)}\n`)
-            NODE
+          NODE
           fi
           pnpm audit:blogs
 

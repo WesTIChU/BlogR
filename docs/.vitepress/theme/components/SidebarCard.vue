@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import blogs from '../../../../data/blogs.json'
 import { PUBLIC_STATUS_COLORS } from '../../../../shared/blog-health-status.js'
+import BlogStatsToggle from './BlogStatsToggle.vue'
 import InputField from './InputField.vue'
 import ToggleIndexes from './ToggleIndexes.vue'
 import ToggleStarred from './ToggleStarred.vue'
@@ -55,6 +56,8 @@ const websiteStatuses = [
         <span>Total Blogs</span>
         <strong>{{ blogs.length }}</strong>
       </div>
+      <div class="sidebar-status-divider" aria-hidden="true"></div>
+      <BlogStatsToggle />
       <!-- Keep the controls mounted and reversible, but temporarily hide them. -->
       <div class="sidebar-options" hidden>
         <div class="align-center mb-4 mt-4 flex justify-between">

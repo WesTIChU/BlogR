@@ -50,6 +50,7 @@ Blogs about culture, history, places, local life, and the world around us.
 * <BlogHealthLink name="Mersey Tart" url="http://www.merseytart.com/" :favourite="false" /> - Liverpool culture.<BlogLastUpdated url="http://www.merseytart.com/" added-date="" />
 * <BlogHealthLink name="Post Aberdeen" url="https://postabdn.com/" :favourite="false" /> - Stories and observations about Aberdeen, its communities and everyday city life, with a focus on local places and experiences.<BlogLastUpdated url="https://postabdn.com/" added-date="" />
 * <BlogHealthLink name="Public Clock This" url="https://publicclockthis.blogspot.com/" :favourite="false" /> - A blog documenting public clocks and the places where they can be found, recording details of timepieces in public spaces.<BlogLastUpdated url="https://publicclockthis.blogspot.com/" added-date="" />
+* <BlogHealthLink name="Slugger O'Toole" url="https://sluggerotoole.com/" :favourite="false" /> - Independent Northern Ireland blog publishing political commentary, analysis, current affairs and community debate.<BlogLastUpdated url="https://sluggerotoole.com/" added-date="2026-10-10" />
 * <BlogHealthLink name="The Empty City" url="https://theemptycity.com/" :favourite="false" /> - Independent commentary on law, lore, policy, and the overlooked stories behind urban places and public life.<BlogLastUpdated url="https://theemptycity.com/" added-date="" />
 
 ## Regional Life

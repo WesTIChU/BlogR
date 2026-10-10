@@ -2,6 +2,7 @@
 import { computed, onMounted } from 'vue'
 import updates from '../../../data/blog-updates.json'
 import blogs from '../../../data/blogs.json'
+import communities from '../../../data/communities.json'
 import {
   getPublicStatus,
   PUBLIC_STATUS_COLORS
@@ -18,10 +19,15 @@ import {
   loadHealthStatuses
 } from './blog-health-status-client.js'
 import { showBlogDetails } from './blog-stats-visibility.js'
+import {
+  communityHealthStatuses,
+  loadCommunityHealthStatuses
+} from './community-health-status-client.js'
 
 const props = defineProps({
   url: { type: String, required: true },
-  addedDate: { type: String, default: null }
+  addedDate: { type: String, default: null },
+  community: { type: Boolean, default: false }
 })
 
 const normalizedUrl = computed(() => {
@@ -32,8 +38,8 @@ const normalizedUrl = computed(() => {
   }
 })
 
-const blog = computed(() =>
-  blogs.find((item) => {
+const catalogueEntry = computed(() =>
+  (props.community ? communities : blogs).find((item) => {
     try {
       return normalizeBlogHealthUrl(item.url).toString() === normalizedUrl.value
     } catch {
@@ -41,10 +47,15 @@ const blog = computed(() =>
     }
   })
 )
-const favourite = computed(() => Boolean(blog.value?.favourite))
+const favourite = computed(() => Boolean(catalogueEntry.value?.favourite))
 
 const health = computed(() =>
-  getPublicStatus(healthStatuses.get(normalizedUrl.value), new Date())
+  getPublicStatus(
+    (props.community ? communityHealthStatuses : healthStatuses).get(
+      normalizedUrl.value
+    ),
+    new Date()
+  )
 )
 
 const statusDetails = {
@@ -64,23 +75,35 @@ const tooltip = computed(() => {
     : 'not available'
   return `Health status: ${statusLabel.value}. Last checked: ${checked}.`
 })
-const update = computed(() => getBlogUpdate(updates, props.url))
+const update = computed(() =>
+  props.community ? null : getBlogUpdate(updates, props.url)
+)
 const relativeUpdate = computed(() =>
-  update.value?.status === 'success'
-    ? formatRelativeDate(update.value.lastPublished)
-    : null
+  props.community
+    ? formatRelativeDate(health.value.checkedAt?.slice(0, 10))
+    : update.value?.status === 'success'
+      ? formatRelativeDate(update.value.lastPublished)
+      : null
 )
 const updateTooltip = computed(() =>
-  update.value?.lastPublished
-    ? `Last updated: ${update.value.lastPublished}`
-    : ''
+  props.community
+    ? health.value.checkedAt
+      ? `Last checked: ${health.value.checkedAt}`
+      : ''
+    : update.value?.lastPublished
+      ? `Last updated: ${update.value.lastPublished}`
+      : ''
 )
-const feedUrl = computed(() => getVerifiedFeedUrl(updates, props.url))
-const feedLabel = computed(() => `RSS feed for ${blog.value?.name ?? 'blog'}`)
+const feedUrl = computed(() =>
+  props.community ? null : getVerifiedFeedUrl(updates, props.url)
+)
+const feedLabel = computed(
+  () => `RSS feed for ${catalogueEntry.value?.name ?? 'blog'}`
+)
 const addedDateText = computed(() => formatAddedDate(props.addedDate))
 
 onMounted(() => {
-  void loadHealthStatuses()
+  void (props.community ? loadCommunityHealthStatuses() : loadHealthStatuses())
 })
 </script>
 
@@ -125,7 +148,9 @@ onMounted(() => {
       :title="updateTooltip"
       :aria-label="updateTooltip"
     >
-      Last updated&nbsp;{{ relativeUpdate }}
+      {{ props.community ? 'Last checked' : 'Last updated' }}&nbsp;{{
+        relativeUpdate
+      }}
     </span>
     <span
       v-if="addedDateText && relativeUpdate"

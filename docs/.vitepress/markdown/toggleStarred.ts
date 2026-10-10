@@ -29,7 +29,8 @@ export function toggleStarredPlugin(md: MarkdownRenderer) {
     const content = contentToken.content
     const isStarred =
       !excluded.includes(env.frontmatter.title) &&
-      starredMarkers.some((marker) => content.includes(marker))
+      (starredMarkers.some((marker) => content.includes(marker)) ||
+        /:favourite="true"/.test(content))
     const isIndex = indexMarkers.some((marker) => content.includes(marker))
 
     if (!isStarred && !isIndex) return self.renderToken(tokens, index, options)

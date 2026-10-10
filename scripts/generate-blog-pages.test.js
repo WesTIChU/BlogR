@@ -1,12 +1,17 @@
 import assert from 'node:assert/strict'
+import { readFile } from 'node:fs/promises'
 import test from 'node:test'
 import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
+import communities from '../data/communities.json' with { type: 'json' }
+import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import {
+  communityPage,
   compareBlogs,
   groupBySubsection,
   page,
-  validateBlogs
+  validateBlogs,
+  validateCommunities
 } from './generate-blog-pages.js'
 
 test('validates current blogs and groups subcategories alphabetically', () => {
@@ -169,4 +174,73 @@ test('keeps favourite blogs before alphabetical non-favourites', () => {
     entries.map(({ name }) => name),
     ['Alpha', 'Bravo', 'Zulu']
   )
+})
+
+test('keeps the separate community catalogue complete and unique', () => {
+  validateCommunities(communities)
+  assert.equal(communities.length, 35)
+  assert.deepEqual(
+    [...new Set(communities.map((community) => community.section))],
+    ['forums', 'independent-communities']
+  )
+  assert.equal(
+    new Set(communities.map((community) => community.category)).size,
+    8
+  )
+})
+
+test('generates community sections and preserves favourite metadata', () => {
+  const markdown = communityPage([
+    {
+      id: 'example-forum',
+      name: 'Example Forum',
+      url: 'https://example.com/forum',
+      description: 'A discussion forum for a specific subject.',
+      section: 'forums',
+      category: 'technology',
+      favourite: true
+    },
+    {
+      id: 'example-community',
+      name: 'Example Community',
+      url: 'https://example.com/community',
+      description: 'An independent community for shared interests.',
+      section: 'independent-communities',
+      category: 'gaming',
+      favourite: false
+    }
+  ])
+
+  assert.match(markdown, /## Technology/)
+  assert.match(markdown, /## Gaming/)
+  assert.match(markdown, /BlogLastUpdated[^>]+:community="true"/)
+  assert.match(markdown, /BlogLastUpdated/)
+  assert.doesNotMatch(markdown, /WebsiteAvailability|rss/i)
+})
+
+test('renders every community exactly once under its subject category', () => {
+  const markdown = communityPage(communities)
+  for (const community of communities) {
+    assert.equal(markdown.split(community.url).length - 1, 2)
+  }
+  for (const { title } of communityTaxonomy) {
+    assert.match(markdown, new RegExp(`## ${title}`))
+  }
+})
+
+test('keeps one Online Communities navigation entry and the main page', async () => {
+  const shared = await readFile(
+    new URL('../docs/.vitepress/shared.ts', import.meta.url),
+    'utf8'
+  )
+  assert.match(shared, /Online Communities/)
+  assert.match(shared, /link: '\/communities\/online-communities'/)
+  assert.doesNotMatch(shared, /communityTaxonomy|communities\/\$\{path\}/)
+
+  const page = await readFile(
+    new URL('../docs/communities/online-communities.md', import.meta.url),
+    'utf8'
+  )
+  assert.match(page, /title: Online Communities/)
+  assert.match(page, /# Online Communities/)
 })

@@ -3,9 +3,10 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
+import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
 import { getLondonDateKey } from '../shared/recently-added.js'
-import { validateBlogs } from './generate-blog-pages.js'
+import { validateBlogs, validateCommunities } from './generate-blog-pages.js'
 
 const exec = promisify(execFile)
 const API_ROOT = 'https://api.github.com'
@@ -21,6 +22,42 @@ const REQUIRED_FORM_HEADINGS = [
   '### Blog URL',
   '### Main category'
 ]
+const REQUIRED_COMMUNITY_HEADINGS = [
+  '### Community name',
+  '### Website URL',
+  '### Description',
+  '### Category',
+  '### Community type'
+]
+
+export function submissionType(body, labels = null) {
+  if (typeof body !== 'string') return null
+  if (Array.isArray(labels)) {
+    const isBlog = labels.includes('blog-submission')
+    const isCommunity = labels.includes('community-submission')
+    if (isBlog === isCommunity) return null
+    if (
+      isBlog &&
+      !REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))
+    ) {
+      return null
+    }
+    if (
+      isCommunity &&
+      !REQUIRED_COMMUNITY_HEADINGS.every((heading) => body.includes(heading))
+    ) {
+      return null
+    }
+    return isBlog ? 'blog' : 'community'
+  }
+  if (REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))) {
+    return 'blog'
+  }
+  if (REQUIRED_COMMUNITY_HEADINGS.every((heading) => body.includes(heading))) {
+    return 'community'
+  }
+  return null
+}
 
 export function isApprovedSubmissionEvent(event) {
   const body = event?.issue?.body
@@ -28,7 +65,7 @@ export function isApprovedSubmissionEvent(event) {
     event?.label?.name === 'approved' &&
     event?.issue?.state === 'open' &&
     typeof body === 'string' &&
-    REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))
+    submissionType(body) !== null
   )
 }
 
@@ -84,6 +121,43 @@ export function parseIssueForm(body) {
     category: cleanValue(get('main category'), 'main category', 120),
     subcategory:
       get('subcategory') === '_No response_' ? '' : get('subcategory'),
+    notes: get('additional notes')
+  }
+}
+
+export function parseCommunityIssueForm(body) {
+  if (typeof body !== 'string' || body.length > 20_000) {
+    throw new Error('Issue form body is missing or too large')
+  }
+
+  const fields = new Map()
+  const headingPattern = /^###\s+([^\r\n]+)\r?\n/gm
+  const headings = [...body.matchAll(headingPattern)]
+  for (const [index, match] of headings.entries()) {
+    const heading = match[1].trim().toLocaleLowerCase()
+    if (fields.has(heading))
+      throw new Error(`Duplicate issue form field: ${heading}`)
+    const valueStart = match.index + match[0].length
+    const valueEnd = headings[index + 1]?.index ?? body.length
+    fields.set(heading, body.slice(valueStart, valueEnd).trim())
+  }
+
+  const get = (heading) => fields.get(heading) ?? ''
+  const description = cleanValue(
+    get('description'),
+    'description',
+    MAX_DESCRIPTION_LENGTH
+  )
+  const rssUrl = get('rss feed url (optional)') || get('rss feed url')
+  if (rssUrl && rssUrl !== '_No response_') validateBlogUrl(rssUrl)
+
+  return {
+    name: cleanValue(get('community name'), 'community name', MAX_NAME_LENGTH),
+    url: cleanValue(get('website url'), 'website URL', MAX_URL_LENGTH),
+    description,
+    category: cleanValue(get('category'), 'category', 120),
+    section: cleanValue(get('community type'), 'community type', 80),
+    rssUrl: rssUrl && rssUrl !== '_No response_' ? rssUrl.trim() : null,
     notes: get('additional notes')
   }
 }
@@ -318,6 +392,50 @@ export function validateSubmission(submission, blogs, taxonomy) {
   }
 }
 
+const communityCategories = new Map(
+  communityTaxonomy.map(({ slug, title }) => [title, { slug, title }])
+)
+
+export function validateCommunitySubmission(
+  submission,
+  communities,
+  blogs = []
+) {
+  const name = cleanValue(submission.name, 'community name', MAX_NAME_LENGTH)
+  const url = validateBlogUrl(submission.url)
+  const description = cleanValue(
+    submission.description,
+    'description',
+    MAX_DESCRIPTION_LENGTH
+  )
+  const category = communityCategories.get(submission.category)
+  if (!category) throw new Error('Invalid community category')
+  const sectionByTitle = new Map([
+    ['Forum', 'forums'],
+    ['Independent Community', 'independent-communities']
+  ])
+  const section = sectionByTitle.get(submission.section)
+  if (!section) throw new Error('Invalid community type')
+
+  const normalizedUrl = normalizeBlogHealthUrl(url).toString()
+  const duplicate = [...communities, ...blogs].find(
+    (community) =>
+      normalizeBlogHealthUrl(community.url).toString() === normalizedUrl
+  )
+  if (duplicate) {
+    throw new Error(`Duplicate community URL already exists: ${duplicate.name}`)
+  }
+
+  return {
+    name,
+    url,
+    description,
+    category: category.slug,
+    section,
+    ...(submission.rssUrl ? { rssUrl: validateBlogUrl(submission.rssUrl) } : {})
+  }
+}
+
 export function buildBlogEntry(submission, addedDate, addedAt) {
   return {
     name: submission.name,
@@ -331,6 +449,30 @@ export function buildBlogEntry(submission, addedDate, addedAt) {
     noLongerUpdated: false,
     addedDate,
     ...(addedAt ? { addedAt } : {})
+  }
+}
+
+const communityId = (name) =>
+  name
+    .toLocaleLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, '-')
+    .replace(/^-|-$/g, '')
+
+export function buildCommunityEntry(submission, addedDate, addedAt) {
+  return {
+    id: communityId(submission.name),
+    name: submission.name,
+    url: submission.url,
+    description: submission.description,
+    category: submission.category,
+    section: submission.section,
+    topics: [],
+    recentlyAdded: true,
+    favourite: false,
+    noLongerUpdated: false,
+    addedDate,
+    addedAt,
+    ...(submission.rssUrl ? { rssUrl: submission.rssUrl } : {})
   }
 }
 
@@ -352,10 +494,12 @@ export function appendBlogEntry(entries, entry) {
   return [...entries, entry]
 }
 
-export function submissionBranch(issueNumber) {
+export function submissionBranch(issueNumber, type = 'blog') {
   if (!/^\d+$/.test(String(issueNumber)))
     throw new Error('Invalid issue number')
-  return `blog-submission/issue-${issueNumber}`
+  if (!['blog', 'community'].includes(type))
+    throw new Error('Invalid submission type')
+  return `${type}-submission/issue-${issueNumber}`
 }
 
 export function hasApprovalPermission(permission) {
@@ -378,6 +522,10 @@ export function catalogueFiles(taxonomy) {
   ]
 }
 
+export function communityCatalogueFiles() {
+  return ['data/communities.json', 'docs/communities/online-communities.md']
+}
+
 export function pullRequestDetails(
   entry,
   issueNumber,
@@ -394,6 +542,15 @@ export function pullRequestDetails(
     head: branch,
     base,
     body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}\n\n${suggestionSection}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
+  }
+}
+
+export function communityPullRequestDetails(entry, issueNumber, branch, base) {
+  return {
+    title: `Add community: ${entry.name}`,
+    head: branch,
+    base,
+    body: `## Approved community submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}\n- **Type:** ${entry.section}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- community-submission:${issueNumber} -->`
   }
 }
 
@@ -447,8 +604,9 @@ async function run() {
   const labels = issue.labels.map((label) =>
     typeof label === 'string' ? label : label.name
   )
-  if (issue.state !== 'open' || !labels.includes('approved')) {
-    throw new Error('Issue is not an open approved blog submission')
+  const type = submissionType(issue.body, labels)
+  if (issue.state !== 'open' || !labels.includes('approved') || !type) {
+    throw new Error('Issue is not an open approved submission')
   }
 
   const taxonomyText = await readFile(
@@ -457,19 +615,34 @@ async function run() {
   )
   const taxonomy = JSON.parse(taxonomyText)
   const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
-  validateBlogs(blogs)
-  const parsedSubmission = validateSubmission(
-    parseIssueForm(issue.body),
-    blogs,
-    taxonomy
+  const communities = JSON.parse(
+    await readFile(resolve('data/communities.json'), 'utf8')
   )
-  const {
-    taxonomy: nextTaxonomy,
-    submission,
-    status: suggestedSubcategoryStatus,
-    subsection
-  } = applySuggestedSubcategory(taxonomy, parsedSubmission)
-  const branch = submissionBranch(issueNumber)
+  let submission
+  let nextTaxonomy = taxonomy
+  let suggestedSubcategoryStatus = 'none'
+  let subsection
+  if (type === 'blog') {
+    validateBlogs(blogs)
+    const parsedSubmission = validateSubmission(
+      parseIssueForm(issue.body),
+      blogs,
+      taxonomy
+    )
+    const result = applySuggestedSubcategory(taxonomy, parsedSubmission)
+    nextTaxonomy = result.taxonomy
+    submission = result.submission
+    suggestedSubcategoryStatus = result.status
+    subsection = result.subsection
+  } else {
+    validateCommunities(communities)
+    submission = validateCommunitySubmission(
+      parseCommunityIssueForm(issue.body),
+      communities,
+      blogs
+    )
+  }
+  const branch = submissionBranch(issueNumber, type)
   const repositoryInfo = await apiRequest(token, `/repos/${owner}/${repo}`)
   const existingPrs = await apiRequest(
     token,
@@ -488,15 +661,30 @@ async function run() {
   }
 
   const { addedDate, addedAt } = getAdditionMetadata()
-  const entry = buildBlogEntry(submission, addedDate, addedAt)
-  const nextBlogs = appendBlogEntry(blogs, entry)
+  const entry =
+    type === 'blog'
+      ? buildBlogEntry(submission, addedDate, addedAt)
+      : buildCommunityEntry(submission, addedDate, addedAt)
   await exec('git', ['checkout', '-b', branch])
-  await writeFile(
-    resolve('data/blogs.json'),
-    `${JSON.stringify(nextBlogs, null, 2)}\n`
-  )
-  const generated = [...catalogueFiles(nextTaxonomy)]
-  if (suggestedSubcategoryStatus === 'created') {
+  const generated =
+    type === 'blog'
+      ? [...catalogueFiles(nextTaxonomy)]
+      : communityCatalogueFiles()
+  if (type === 'blog') {
+    const nextBlogs = appendBlogEntry(blogs, entry)
+    await writeFile(
+      resolve('data/blogs.json'),
+      `${JSON.stringify(nextBlogs, null, 2)}\n`
+    )
+  } else {
+    const nextCommunities = [...communities, entry]
+    validateCommunities(nextCommunities)
+    await writeFile(
+      resolve('data/communities.json'),
+      `${JSON.stringify(nextCommunities, null, 2)}\n`
+    )
+  }
+  if (type === 'blog' && suggestedSubcategoryStatus === 'created') {
     await writeFile(
       resolve('data/blog-taxonomy.json'),
       insertSubcategoryInTaxonomyText(
@@ -531,17 +719,25 @@ async function run() {
     'user.email',
     '41898282+github-actions[bot]@users.noreply.github.com'
   ])
-  await exec('git', ['commit', '-m', `Add blog submission #${issueNumber}`])
+  await exec('git', ['commit', '-m', `Add ${type} submission #${issueNumber}`])
   await exec('git', ['push', '--set-upstream', 'origin', branch])
 
-  const details = pullRequestDetails(
-    entry,
-    issueNumber,
-    branch,
-    repositoryInfo.default_branch,
-    submission.suggestedSubcategory,
-    suggestedSubcategoryStatus
-  )
+  const details =
+    type === 'blog'
+      ? pullRequestDetails(
+          entry,
+          issueNumber,
+          branch,
+          repositoryInfo.default_branch,
+          submission.suggestedSubcategory,
+          suggestedSubcategoryStatus
+        )
+      : communityPullRequestDetails(
+          entry,
+          issueNumber,
+          branch,
+          repositoryInfo.default_branch
+        )
   const pullRequest = await apiRequest(token, `/repos/${owner}/${repo}/pulls`, {
     method: 'POST',
     body: JSON.stringify(details)

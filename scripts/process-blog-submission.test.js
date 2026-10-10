@@ -1,22 +1,30 @@
 import assert from 'node:assert/strict'
+import { readFile } from 'node:fs/promises'
 import test from 'node:test'
 import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
+import communities from '../data/communities.json' with { type: 'json' }
+import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import {
   appendBlogEntry,
   applySuggestedSubcategory,
   buildBlogEntry,
+  buildCommunityEntry,
   catalogueFiles,
+  communityCatalogueFiles,
   existingSubmissionPullRequest,
   extractSuggestedSubcategory,
   getAdditionMetadata,
   hasApprovalPermission,
   insertSubcategoryInTaxonomyText,
   isApprovedSubmissionEvent,
+  parseCommunityIssueForm,
   parseIssueForm,
   pullRequestDetails,
   submissionBranch,
+  submissionType,
   validateBlogUrl,
+  validateCommunitySubmission,
   validateSubmission,
   validateSuggestedSubcategory
 } from './process-blog-submission.js'
@@ -42,6 +50,17 @@ const taxonomyWithoutFootball = () => {
   return copy
 }
 
+const communityBody = ({
+  name = 'Example Community',
+  url = 'https://example.com/community',
+  description = 'A friendly community for discussion and shared interests.',
+  category = 'Technology',
+  type = 'Forum',
+  rss = '',
+  notes = ''
+} = {}) =>
+  `### Community name\n\n${name}\n\n### Website URL\n\n${url}\n\n### Description\n\n${description}\n\n### Category\n\n${category}\n\n### Community type\n\n${type}\n\n### RSS feed URL (optional)\n\n${rss}\n\n### Additional notes\n\n${notes}\n`
+
 test('parses a valid issue form and maps taxonomy choices', () => {
   const parsed = parseIssueForm(body())
   const submission = validateSubmission(parsed, blogs, taxonomy)
@@ -52,6 +71,102 @@ test('parses a valid issue form and maps taxonomy choices', () => {
     category: 'technology',
     subcategory: 'Programming & Development'
   })
+})
+
+test('parses and validates a community submission without touching blogs', () => {
+  const parsed = parseCommunityIssueForm(communityBody())
+  assert.equal(submissionType(communityBody()), 'community')
+  const submission = validateCommunitySubmission(parsed, communities)
+  assert.deepEqual(submission, {
+    name: 'Example Community',
+    url: 'https://example.com/community',
+    description: 'A friendly community for discussion and shared interests.',
+    category: 'technology',
+    section: 'forums'
+  })
+  const entry = buildCommunityEntry(
+    submission,
+    '2026-10-11',
+    '2026-10-10T23:30:00.000Z'
+  )
+  assert.equal(entry.addedDate, '2026-10-11')
+  assert.equal(entry.addedAt, '2026-10-10T23:30:00.000Z')
+  assert.equal(entry.favourite, false)
+  assert.deepEqual(communityCatalogueFiles(), [
+    'data/communities.json',
+    'docs/communities/online-communities.md'
+  ])
+})
+
+test('approval detection accepts community forms alongside blog forms', () => {
+  assert.equal(submissionType(body()), 'blog')
+  assert.equal(submissionType(communityBody()), 'community')
+  assert.equal(
+    submissionType(communityBody(), ['community-submission']),
+    'community'
+  )
+  assert.equal(submissionType(communityBody(), ['blog-submission']), null)
+  assert.equal(
+    submissionType(communityBody(), [
+      'blog-submission',
+      'community-submission'
+    ]),
+    null
+  )
+})
+
+test('community form categories match the community taxonomy', async () => {
+  const form = await readFile(
+    new URL('../.github/ISSUE_TEMPLATE/submit-community.yml', import.meta.url),
+    'utf8'
+  )
+  const options = [...form.matchAll(/^        - (.+)$/gm)]
+    .map(([, value]) => value)
+    .slice(0, communityTaxonomy.length)
+  assert.deepEqual(
+    options,
+    communityTaxonomy.map(({ title }) => title)
+  )
+})
+
+test('rejects invalid, duplicate and incomplete community submissions', () => {
+  assert.throws(
+    () =>
+      validateCommunitySubmission(
+        parseCommunityIssueForm(communityBody({ url: 'javascript:bad' })),
+        communities
+      ),
+    /URL/
+  )
+  assert.throws(
+    () =>
+      validateCommunitySubmission(
+        parseCommunityIssueForm(communityBody({ url: communities[0].url })),
+        communities
+      ),
+    /Duplicate community URL/
+  )
+  assert.throws(
+    () =>
+      validateCommunitySubmission(
+        parseCommunityIssueForm(communityBody({ url: blogs[0].url })),
+        communities,
+        blogs
+      ),
+    /Duplicate community URL/
+  )
+  assert.throws(
+    () =>
+      validateCommunitySubmission(
+        parseCommunityIssueForm(communityBody({ category: 'Unknown' })),
+        communities
+      ),
+    /community category/
+  )
+  assert.throws(
+    () => parseCommunityIssueForm(communityBody({ name: '', description: '' })),
+    /community name|description/
+  )
 })
 
 test('accepts the renamed arts category and film subcategory', () => {

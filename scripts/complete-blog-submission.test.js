@@ -69,6 +69,19 @@ test('only merged generated submission PRs qualify for the health audit', () => 
   )
 })
 
+test('recognises merged community submission pull requests', () => {
+  const event = {
+    repository: { default_branch: 'main' },
+    pull_request: {
+      merged: true,
+      body: '<!-- community-submission:42 -->',
+      base: { ref: 'main' },
+      head: { ref: 'community-submission/issue-42' }
+    }
+  }
+  assert.equal(mergedSubmissionIssue(event), 42)
+})
+
 test('health audit keeps scheduled/manual triggers and is reusable', () => {
   assert.match(healthWorkflow, /workflow_call:/)
   assert.match(healthWorkflow, /schedule:/)
@@ -82,6 +95,7 @@ test('health audit keeps scheduled/manual triggers and is reusable', () => {
     completionWorkflow,
     /GITHUB_TOKEN: \$\{\{ secrets\.GITHUB_TOKEN \}\}/
   )
+  assert.match(completionWorkflow, /contents: none/)
   assert.match(
     completionWorkflow,
     /uses: \.\/\.github\/workflows\/blog-health\.yml/
@@ -94,6 +108,7 @@ test('health audit keeps scheduled/manual triggers and is reusable', () => {
     completionWorkflow,
     /startsWith\(github\.event\.pull_request\.head\.ref, 'blog-submission\/issue-'\)/
   )
+  assert.match(completionWorkflow, /community-submission\/issue-/)
   assert.match(
     completionWorkflow,
     /contains\(github\.event\.pull_request\.body, '<!-- blogr-submission:'\)/

@@ -19,7 +19,9 @@ const apiRequest = async (token, path, options = {}) => {
 export function submissionIssueNumber(body) {
   const match =
     typeof body === 'string' &&
-    body.match(/<!--\s*blogr-submission:(\d+)\s*-->/)
+    body.match(
+      /<!--\s*(?:blogr-submission|community-submission):(?:community:)?(\d+)\s*-->/
+    )
   return match ? Number(match[1]) : null
 }
 
@@ -30,7 +32,11 @@ export function mergedSubmissionIssue(event) {
     pullRequest.base?.ref !== event.repository.default_branch
   )
     return null
-  if (!/^blog-submission\/issue-\d+$/.test(pullRequest.head?.ref ?? ''))
+  if (
+    !/^(?:blog|community)-submission\/issue-\d+$/.test(
+      pullRequest.head?.ref ?? ''
+    )
+  )
     return null
   return submissionIssueNumber(pullRequest.body)
 }
@@ -41,6 +47,9 @@ async function run() {
   if (!issueNumber) return
   const token = process.env.GITHUB_TOKEN
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/')
+  const type = event.pull_request.head.ref.startsWith('community-')
+    ? 'community'
+    : 'blog'
   const marker = `<!-- blogr-submission-merged:${event.pull_request.number} -->`
   const comments = await apiRequest(
     token,
@@ -53,7 +62,7 @@ async function run() {
       {
         method: 'POST',
         body: JSON.stringify({
-          body: `The approved blog was merged in PR #${event.pull_request.number}: ${event.pull_request.html_url}\n\n${marker}`
+          body: `The approved ${type} was merged in PR #${event.pull_request.number}: ${event.pull_request.html_url}\n\n${marker}`
         })
       }
     )

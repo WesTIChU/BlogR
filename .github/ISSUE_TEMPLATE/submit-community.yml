@@ -1,0 +1,70 @@
+name: Submit a community
+description: Suggest a forum or online community for BlogR.
+title: 'Community submission: '
+labels:
+  - community-submission
+body:
+  - type: input
+    id: community-name
+    attributes:
+      label: Community name
+      description: The name visitors should see in the directory.
+      placeholder: Example Community
+    validations:
+      required: true
+  - type: input
+    id: website-url
+    attributes:
+      label: Website URL
+      description: The public URL of the forum or online community.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A concise description of what the community covers.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Choose the subject category that best fits.
+      options:
+        - Technology
+        - Football & Sports
+        - Gaming
+        - Entertainment
+        - Money & Finance
+        - Lifestyle & Interests
+        - News & Discussion
+        - Internet Culture
+    validations:
+      required: true
+  - type: dropdown
+    id: community-type
+    attributes:
+      label: Community type
+      options:
+        - Forum
+        - Independent Community
+    validations:
+      required: true
+  - type: input
+    id: rss-feed-url
+    attributes:
+      label: RSS feed URL (optional)
+      description:
+        Add a feed only if the community has a genuine public RSS feed.
+      placeholder: https://example.com/feed.xml
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else that would help with review.
+    validations:
+      required: false

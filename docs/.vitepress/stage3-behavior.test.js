@@ -24,7 +24,9 @@ async function readSearchIndex() {
     serialized,
     'the local search index has the expected VitePress shape'
   )
-  return JSON.parse(serialized[1])
+  // The generated chunk stores JSON inside a JavaScript template literal, so
+  // decode its escaped backslashes before parsing the JSON payload.
+  return JSON.parse(serialized[1].replaceAll('\\\\', '\\'))
 }
 
 async function createSearchIndex() {
@@ -122,7 +124,7 @@ test('representative generated pages retain anchors and links', async () => {
     ['collections/arts-and-entertainment.html', 'comics-illustration', true],
     ['collections/arts-and-entertainment.html', 'gaming', true],
     ['resources/blogging-platforms.html', 'hosted-platforms', true],
-    ['communities/online-communities.html', 'forums', true],
+    ['communities/online-communities.html', 'technology', true],
     ['recently-added.html', 'Recently Added', false]
   ]
 

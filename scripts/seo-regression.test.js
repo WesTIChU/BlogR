@@ -5,6 +5,7 @@ import { test } from 'node:test'
 
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
+const expectedPublicPageCount = 20
 
 const htmlFiles = async () => {
   const files = []
@@ -43,7 +44,7 @@ const contentHeadings = (html) => {
 test('public pages use the production origin consistently', async () => {
   const files = (await htmlFiles()).filter((file) => !file.endsWith('404.html'))
 
-  assert.equal(files.length, 20)
+  assert.equal(files.length, expectedPublicPageCount)
   for (const file of files) {
     const html = await readFile(file, 'utf8')
     assert.equal(
@@ -66,7 +67,7 @@ test('sitemap and robots use the production sitemap URL', async () => {
     (match) => match[1]
   )
 
-  assert.equal(locs.length, 20)
+  assert.equal(locs.length, expectedPublicPageCount)
   assert.equal(
     locs.every((url) => url.startsWith(ORIGIN)),
     true
@@ -81,7 +82,7 @@ test('RSS uses the production origin', async () => {
   assert.equal(rss.includes('<link>https://blogr.directory/</link>'), true)
 })
 
-test('merged community routes publish redirects and the canonical destination', async () => {
+test('community routes publish redirects and the canonical destination', async () => {
   const redirects = await readFile(join(DIST, '_redirects'), 'utf8')
   assert.match(
     redirects,

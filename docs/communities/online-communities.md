@@ -39,6 +39,7 @@ Traditional discussion forums, smaller online communities, niche networks and in
 
 * <a href="https://www.neogaf.com/" target="_blank" rel="noopener noreferrer"><strong>NeoGAF</strong></a> - Gaming and culture discussions covering games, consoles, entertainment news, technology and other subjects followed by its members.<BlogLastUpdated url="https://www.neogaf.com/" added-date="" :community="true" />
 * <a href="https://resetera.com/" target="_blank" rel="noopener noreferrer"><strong>ResetEra</strong></a> - Gaming discussions covering new releases, platforms, industry news, media, technology and wider entertainment topics.<BlogLastUpdated url="https://resetera.com/" added-date="" :community="true" />
+* <a href="https://www.resetera.com/forums/gaming-forum.7/" target="_blank" rel="noopener noreferrer"><strong>ResetEra Gaming Forum</strong></a> - An active gaming discussion forum covering video game news, upcoming releases, reviews, consoles, PC gaming and industry developments, with discussions and opinions from gaming enthusiasts.<BlogLastUpdated url="https://www.resetera.com/forums/gaming-forum.7/" added-date="2026-10-10" :community="true" />
 * <a href="https://www.rllmukforum.com/" target="_blank" rel="noopener noreferrer"><strong>RLLMUK</strong></a> - UK gaming discussion covering consoles, games, releases, collecting, industry news and broader subjects of interest to members.<BlogLastUpdated url="https://www.rllmukforum.com/" added-date="" :community="true" />
 
 ## Internet Culture

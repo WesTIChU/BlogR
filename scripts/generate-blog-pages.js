@@ -32,7 +32,12 @@ const attribute = (value) =>
     .replaceAll('>', '&gt;')
 export const compareBlogs = (a, b) =>
   Number(Boolean(b.favourite)) - Number(Boolean(a.favourite)) ||
-  a.name.localeCompare(b.name)
+  compareBlogNames(a, b)
+export const compareBlogNames = (a, b) =>
+  a.name.localeCompare(b.name, undefined, {
+    numeric: true,
+    sensitivity: 'base'
+  }) || a.url.localeCompare(b.url)
 export const compareCommunities = (a, b) =>
   a.name.localeCompare(b.name, undefined, {
     numeric: true,
@@ -121,12 +126,23 @@ export function page(
   sections,
   componentPath = './.vitepress/components/BlogHealthLink.vue'
 ) {
+  const renderEntries = (entries) => entries.map(line).join('\n')
   const body = sections
     ? sections
         .filter((section) => section.entries.length)
         .map(
           (section) =>
-            `## ${section.title}\n\n${section.entries.map(line).join('\n')}`
+            `## ${section.title}\n\n${
+              section.subsections
+                ? section.subsections
+                    .filter((subcategory) => subcategory.entries.length)
+                    .map(
+                      (subcategory) =>
+                        `### ${subcategory.title}\n\n${renderEntries(subcategory.entries)}`
+                    )
+                    .join('\n\n')
+                : renderEntries(section.entries)
+            }`
         )
         .join('\n\n') || '* No blogs are currently listed in this category yet.'
     : entries.length
@@ -198,7 +214,11 @@ export function validateBlogs(entries) {
   }
 }
 
-export function groupBySubsection(slug, entries) {
+export function groupBySubsection(
+  slug,
+  entries,
+  entryComparator = compareBlogs
+) {
   const rules = subsectionRules[slug]
   if (!rules?.length) return null
 
@@ -232,9 +252,26 @@ export function groupBySubsection(slug, entries) {
     )
     .map((section) => ({
       ...section,
-      entries: [...section.entries].sort(compareBlogs)
+      entries: [...section.entries].sort(entryComparator)
     }))
     .sort((a, b) => a.title.localeCompare(b.title))
+}
+
+export function groupByCategory(entries) {
+  return [...categories]
+    .sort((a, b) =>
+      a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
+    )
+    .map(({ slug, title }) => {
+      const categoryEntries = entries.filter((entry) => entry.category === slug)
+      const sortedCategoryEntries = [...categoryEntries].sort(compareBlogs)
+      return {
+        title,
+        entries: sortedCategoryEntries,
+        subsections: groupBySubsection(slug, sortedCategoryEntries)
+      }
+    })
+    .filter((section) => section.entries.length)
 }
 
 if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
@@ -247,8 +284,9 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
     resolve('docs/blogs.md'),
     page(
       'All Blogs',
-      'Browse every independent blog and personal website listed in the BlogR Directory.',
-      all
+      'Explore independent blogs and personal websites from across the web. Browse the full directory below, or use the categories in the left sidebar to find something that interests you.',
+      all,
+      groupByCategory(blogs)
     )
   )
 

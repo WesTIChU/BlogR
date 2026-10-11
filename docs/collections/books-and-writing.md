@@ -16,7 +16,10 @@ Blogs about books, literature, writing, and the craft of words.
 
 ## Book Reviews
 
+* <BlogHealthLink name="A Just Recompense" url="https://sloopie72.wordpress.com/" :favourite="false" /> - Karen Carlson's literary blog featuring detailed reading reflections, short story analysis, fiction reviews and writing experiences.<BlogLastUpdated url="https://sloopie72.wordpress.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="Anecdotal Evidence" url="https://evidenceanecdotal.blogspot.com/" :favourite="false" /> - Literary blog exploring books, authors, poetry, and wider questions about reading and culture.<BlogLastUpdated url="https://evidenceanecdotal.blogspot.com/" added-date="" />
+* <BlogHealthLink name="Rough Ghosts" url="https://roughghosts.com/" :favourite="false" /> - A Canadian literary blog featuring thoughtful reviews of translated and contemporary fiction, poetry, essays and nonfiction, alongside reflections on literature and creative life.<BlogLastUpdated url="https://roughghosts.com/" added-date="2026-10-11" />
+* <BlogHealthLink name="Shiny New Books" url="https://shinynewbooks.co.uk/" :favourite="false" /> - A literary review website featuring book reviews, author interviews and recommendations across fiction and nonfiction.<BlogLastUpdated url="https://shinynewbooks.co.uk/" added-date="2026-10-11" />
 * <BlogHealthLink name="The Captive Reader" url="https://thecaptivereader.com/" :favourite="false" /> - A Canadian book blog featuring literary reviews, reading lists, classic fiction and reflections on books and authors.<BlogLastUpdated url="https://thecaptivereader.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="Tony’s Reading List" url="https://tonysreadinglist.wordpress.com/" :favourite="false" /> - A book-focused blog sharing reading notes, fiction reviews and reflections on authors and literary works.<BlogLastUpdated url="https://tonysreadinglist.wordpress.com/" added-date="" />
 
@@ -28,7 +31,9 @@ Blogs about books, literature, writing, and the craft of words.
 ## Literature
 
 * <BlogHealthLink name="Brian Busby" url="https://brianbusby.blogspot.com/" :favourite="false" /> - A literary blog exploring Canadian books, forgotten authors, publishing history and overlooked works of literature.<BlogLastUpdated url="https://brianbusby.blogspot.com/" added-date="2026-10-11" />
+* <BlogHealthLink name="De Sturmo Bed" url="https://desturmobed.blogspot.com/" :favourite="false" /> - Douglas A. Anderson's blog about obscure and lesser-known writers, artists and literary figures, with biographical research, bibliographic detail and book history.<BlogLastUpdated url="https://desturmobed.blogspot.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="Great War Fiction" url="https://greatwarfiction.wordpress.com/" :favourite="false" /> - Writing about First World War fiction, exploring novels, authors and the relationship between literature and wartime history.<BlogLastUpdated url="https://greatwarfiction.wordpress.com/" added-date="" />
+* <BlogHealthLink name="John Clare Blog" url="https://johnclare.blogspot.com/" :favourite="false" /> - A daily weblog sharing the poetry, prose, letters and life of English nature poet John Clare, with a focus on landscape, environment and rural life.<BlogLastUpdated url="https://johnclare.blogspot.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="The Stone and the Shell" url="https://tedunderwood.com/" :favourite="false" /> - Exploring literary history through digital libraries, computational methods, artificial intelligence and cultural analysis.<BlogLastUpdated url="https://tedunderwood.com/" added-date="2026-10-09" />
 
 ## Publishing & Writing Life

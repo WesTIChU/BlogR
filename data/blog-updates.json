@@ -2776,5 +2776,29 @@
     "lastChecked": "2026-10-11T14:55:35.786Z",
     "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
+  },
+  "https://flamingpablum.com/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-11T15:53:01.012Z",
+    "status": "success",
+    "feedUrl": "https://flamingpablum.com/feed/"
+  },
+  "https://kylekukshtel.com/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-11T15:53:01.012Z",
+    "status": "success",
+    "feedUrl": "https://kylekukshtel.com/feed.rss"
+  },
+  "https://www.breakfastandtravelupdates.com/": {
+    "lastPublished": "2026-09-23",
+    "lastChecked": "2026-10-11T15:53:01.012Z",
+    "status": "success",
+    "feedUrl": "https://www.breakfastandtravelupdates.com/blog?format=rss"
+  },
+  "https://baileysbeerblog.blogspot.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-11T15:53:01.012Z",
+    "status": "success",
+    "feedUrl": "https://baileysbeerblog.blogspot.com/rss.xml"
   }
 }

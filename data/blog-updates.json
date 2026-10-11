@@ -2770,5 +2770,11 @@
     "lastChecked": "2026-10-11T12:03:49.337Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://www.madornomad.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-11T14:50:42.878Z",
+    "status": "unknown",
+    "feedUrl": "https://www.madornomad.com/index.xml"
   }
 }

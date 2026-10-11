@@ -20,7 +20,6 @@ jobs:
     env:
       HISTORY_BRANCH: blog-health-history
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-      BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
 
     steps:
       - name: Check out the website source
@@ -43,6 +42,8 @@ jobs:
 
       - name: Restore private health history
         shell: bash
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: |
           set -euo pipefail
           mkdir -p "$BLOGR_REPORTS_DIR"
@@ -53,13 +54,19 @@ jobs:
            fi
 
       - name: Run the daily audit
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: pnpm audit:blogs
 
       - name: Run the community availability audit
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: pnpm audit:communities
 
       - name: Validate generated public data
         shell: bash
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: |
           set -euo pipefail
           node --input-type=module <<'NODE'
@@ -125,6 +132,8 @@ jobs:
 
       - name: Persist private health history
         shell: bash
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: |
           set -euo pipefail
           history_dir="${RUNNER_TEMP}/blog-health-history"

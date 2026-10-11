@@ -31,7 +31,6 @@ jobs:
       HEAD_SHA: ${{ github.sha }}
       HISTORY_BRANCH: blog-health-history
       RETRY_MISSING: ${{ inputs.retry_missing }}
-      BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
 
     steps:
       - name: Check out the catalogue history
@@ -54,6 +53,8 @@ jobs:
       - name: Detect new blogs and check their feeds
         id: detect
         shell: bash
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: |
           set -euo pipefail
           base_sha="$BASE_SHA"
@@ -70,6 +71,8 @@ jobs:
       - name: Check website status for new blogs
         if: steps.detect.outputs.has_new_blogs == 'true'
         shell: bash
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: |
           set -euo pipefail
           export BLOG_HEALTH_URLS="$(cat "$BLOGR_REPORTS_DIR/new-blog-urls.json")"
@@ -96,6 +99,8 @@ jobs:
       - name: Persist initial health history
         if: steps.detect.outputs.has_new_blogs == 'true'
         shell: bash
+        env:
+          BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
         run: |
           set -euo pipefail
           history_dir="${RUNNER_TEMP}/blog-health-history"

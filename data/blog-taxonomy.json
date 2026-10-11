@@ -58,6 +58,10 @@
           "match": "outdoor|adventure|van life|van builds|rv|cycling|bike|alternative living"
         },
         {
+          "title": "Cruises",
+          "match": "cruise|cruising|cruises|cruise ship|ship reviews|voyages?"
+        },
+        {
           "title": "Travel Diaries",
           "match": "travel stories|travel experiences?|travel life|nomadic|expat|travel insights?|travel photography|travel notes"
         },

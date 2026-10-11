@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 33 blogs listed in England.
+description: 36 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="33" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="36" />
 
 ## Arts & Entertainment
 
@@ -104,9 +104,15 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 * <span class="blog-entry"><BlogHealthLink name="Nomadic Notes" url="https://nomadicnotes.com" :favourite="false" /> - Travel observations and destination information, with an interest in cities, transport and life in different places.</span><BlogLastUpdated url="https://nomadicnotes.com" added-date="" />
 
+### Cruises
+
+* <span class="blog-entry"><BlogHealthLink name="Cruise Lifestyle" url="https://cruiselifestyle.co.uk/" :favourite="false" /> - A personal cruise and travel blog sharing cruise reviews, ship experiences, destination guides, dining discoveries and adventures at sea.</span><BlogLastUpdated url="https://cruiselifestyle.co.uk/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Shipmonk" url="https://shipmonk.co.uk/" :favourite="false" /> - Award-winning cruise journalist Dave Monk shares ship reviews, cruise news, interviews and firsthand experiences from ocean and river voyages around the world.</span><BlogLastUpdated url="https://shipmonk.co.uk/" added-date="2026-10-11" />
+
 ### Hiking & Walking
 
 * <span class="blog-entry"><BlogHealthLink name="Ian Cylkowski" url="https://www.iancylkowski.com/" :favourite="false" /> - Personal writing about walking, nature and places, sharing observations and experiences from time spent exploring outdoors.</span><BlogLastUpdated url="https://www.iancylkowski.com/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Ruth's Coastal Walk" url="https://coastalwalker.co.uk/" :favourite="true" /> - A personal walking blog following Ruth Livingstone's remarkable journey around Britain's coastline, sharing detailed route diaries, photographs, landscapes and discoveries along the way.</span><BlogLastUpdated url="https://coastalwalker.co.uk/" added-date="" />
 
 ### Travel Diaries
 

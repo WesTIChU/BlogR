@@ -66,15 +66,17 @@
     "addedDate": null
   },
   {
-    "name": "Coastal Walker",
+    "name": "Ruth's Coastal Walk",
     "url": "https://coastalwalker.co.uk/",
-    "description": "A walking blog exploring coastal paths, seaside landscapes and routes, with observations from journeys along the shore.",
+    "description": "A personal walking blog following Ruth Livingstone's remarkable journey around Britain's coastline, sharing detailed route diaries, photographs, landscapes and discoveries along the way.",
     "category": "travel-outdoors",
+    "subcategory": "Hiking & Walking",
     "topics": [],
     "recentlyAdded": true,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": null,
+    "country": "GB-ENG"
   },
   {
     "name": "ConservativeHome",
@@ -5485,5 +5487,89 @@
     "addedDate": "2026-10-11",
     "addedAt": "2026-10-11T09:06:33.822Z",
     "country": null
+  },
+  {
+    "name": "Horror Movie A Day",
+    "url": "https://horror-movie-a-day.blogspot.com/",
+    "description": "A long-running personal horror film blog featuring candid reviews of slashers, cult classics, obscure discoveries and everything in between.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Halloween & Horror",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T09:41:23.741Z",
+    "country": "US"
+  },
+  {
+    "name": "Shipmonk",
+    "url": "https://shipmonk.co.uk/",
+    "description": "Award-winning cruise journalist Dave Monk shares ship reviews, cruise news, interviews and firsthand experiences from ocean and river voyages around the world.",
+    "category": "travel-outdoors",
+    "subcategory": "Cruises",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T09:41:23.741Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "Cruise with Amber",
+    "url": "https://cruisewithamber.co.uk/",
+    "description": "A UK cruise blog sharing practical port guides, ship tours, cabin reviews, money-saving advice and firsthand tips for getting the most out of cruising.",
+    "category": "travel-outdoors",
+    "subcategory": "Cruises",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T09:41:23.741Z",
+    "country": "GB"
+  },
+  {
+    "name": "Cruise Lifestyle",
+    "url": "https://cruiselifestyle.co.uk/",
+    "description": "A personal cruise and travel blog sharing cruise reviews, ship experiences, destination guides, dining discoveries and adventures at sea.",
+    "category": "travel-outdoors",
+    "subcategory": "Cruises",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T09:41:23.741Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "Wansbrough's Cruise Blog",
+    "url": "https://www.wansbroughs-cruise-blog.me.uk/",
+    "description": "A personal cruise diary documenting voyages, ship experiences, ports of call, photographs and firsthand stories from a passionate cruise enthusiast.",
+    "category": "travel-outdoors",
+    "subcategory": "Cruises",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T09:41:23.741Z",
+    "country": null
+  },
+  {
+    "name": "Life Well Cruised",
+    "url": "https://lifewellcruised.com/",
+    "description": "A Canadian cruise blog offering practical planning advice, packing tips, ship reviews, travel recommendations and firsthand experiences for new and experienced cruisers.",
+    "category": "travel-outdoors",
+    "subcategory": "Cruises",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T09:41:23.741Z",
+    "country": "CA"
   }
 ]

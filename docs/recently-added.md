@@ -1,6 +1,6 @@
 ---
 title: Recently Added
-description: New additions to the BlogR Directory.
+description: Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.
 ---
 
 <script setup>
@@ -10,7 +10,7 @@ import RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'
 
 # ► Recently Added
 
-New additions to the BlogR Directory.
+Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 

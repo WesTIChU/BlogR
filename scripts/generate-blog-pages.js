@@ -19,6 +19,8 @@ const taxonomy = JSON.parse(
   await readFile(resolve('data/blog-taxonomy.json'), 'utf8')
 )
 const categories = taxonomy.categories
+const recentlyAddedDescription =
+  'Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.'
 const subsectionRules = Object.fromEntries(
   categories.map((category) => [
     category.slug,
@@ -345,7 +347,7 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
 
   await writeFile(
     resolve('docs/recently-added.md'),
-    `---\ntitle: Recently Added\ndescription: New additions to the BlogR Directory.\n---\n\n<script setup>\nimport RecentlyAddedStats from './.vitepress/components/RecentlyAddedStats.vue'\nimport RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'\n</script>\n\n# ► Recently Added\n\nNew additions to the BlogR Directory.\n\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n<RecentlyAddedStats />\n\n<RecentlyAddedBlogs />\n`
+    `---\ntitle: Recently Added\ndescription: ${recentlyAddedDescription}\n---\n\n<script setup>\nimport RecentlyAddedStats from './.vitepress/components/RecentlyAddedStats.vue'\nimport RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'\n</script>\n\n# ► Recently Added\n\n${recentlyAddedDescription}\n\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n<RecentlyAddedStats />\n\n<RecentlyAddedBlogs />\n`
   )
 
   for (const { slug, title, description } of categories) {

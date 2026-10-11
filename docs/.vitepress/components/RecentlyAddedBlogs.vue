@@ -76,7 +76,7 @@ onUnmounted(() => {
             :url="blog.url"
             :favourite="blog.favourite"
           />
-          - {{ blog.description }}
+          <span class="blog-description">- {{ blog.description }}</span>
           <BlogLastUpdated :url="blog.url" :added-date="blog.addedDate" />
         </li>
       </ul>

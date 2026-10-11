@@ -16,12 +16,12 @@ Writing about the internet, society, privacy, communities, and digital culture.
 
 ## Independent Web & Blogging
 
-* <BlogHealthLink name="Nintil" url="https://nintil.com/" :favourite="false" /> - Evidence-focused essays about economics, scientific progress and public policy, examining research and the reasoning behind decisions.<BlogLastUpdated url="https://nintil.com/" added-date="2026-10-09" />
+* <BlogHealthLink name="Nintil" url="https://nintil.com/" :favourite="false" /><span class="blog-description">- Evidence-focused essays about economics, scientific progress and public policy, examining research and the reasoning behind decisions.</span><BlogLastUpdated url="https://nintil.com/" added-date="2026-10-09" />
 
 ## Privacy & Security
 
-* <BlogHealthLink name="net.wars" url="https://netwars.pelicancrossing.net/" :favourite="false" /> - Wendy Grossman's long-running blog about computers, freedom, privacy, technology policy, and the social consequences of digital systems.<BlogLastUpdated url="https://netwars.pelicancrossing.net/" added-date="2026-10-10" />
+* <BlogHealthLink name="net.wars" url="https://netwars.pelicancrossing.net/" :favourite="false" /><span class="blog-description">- Wendy Grossman's long-running blog about computers, freedom, privacy, technology policy, and the social consequences of digital systems.</span><BlogLastUpdated url="https://netwars.pelicancrossing.net/" added-date="2026-10-10" />
 
 ## Society & Commentary
 
-* <BlogHealthLink name="Pants On Fire" url="https://pantsaflame.blogspot.com/" :favourite="false" /> - A Canadian blog documenting local political and legal controversies, community disputes and public accountability, with detailed commentary and evidence from Kawartha Lakes and beyond.<BlogLastUpdated url="https://pantsaflame.blogspot.com/" added-date="2026-10-11" />
+* <BlogHealthLink name="Pants On Fire" url="https://pantsaflame.blogspot.com/" :favourite="false" /><span class="blog-description">- A Canadian blog documenting local political and legal controversies, community disputes and public accountability, with detailed commentary and evidence from Kawartha Lakes and beyond.</span><BlogLastUpdated url="https://pantsaflame.blogspot.com/" added-date="2026-10-11" />

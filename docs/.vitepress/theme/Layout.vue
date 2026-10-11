@@ -298,6 +298,14 @@ onUnmounted(() => {
   z-index: 9999;
 }
 
+.blog-description {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
 /* When transitioning to light mode (not .dark), initialize the new snapshot
    as fully clipped (circle(0px)) to prevent it flashing fully visible
    before the JS animation runs. */

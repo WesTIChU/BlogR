@@ -3015,6 +3015,10 @@ function isSamePageComparison(destPath: string) {
   margin-top: 4px;
   will-change: opacity;
   transform: translateZ(0);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 @media (hover: hover) {

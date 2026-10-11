@@ -56,6 +56,21 @@ test('validates current blogs and groups subcategories alphabetically', () => {
   )
 })
 
+test('renders directory descriptions in clampable spans', async () => {
+  const generatedPage = await readFile('docs/blogs.md', 'utf8')
+  const layout = await readFile('docs/.vitepress/theme/Layout.vue', 'utf8')
+  const search = await readFile(
+    'docs/.vitepress/theme/components/VPLocalSearchBox.vue',
+    'utf8'
+  )
+
+  assert.match(generatedPage, /<span class="blog-description">-/)
+  assert.match(layout, /-webkit-line-clamp: 3/)
+  assert.match(layout, /line-clamp: 3/)
+  assert.match(search, /-webkit-line-clamp: 3/)
+  assert.match(search, /line-clamp: 3/)
+})
+
 test('trims duplicate subcategory names and rejects malformed values', () => {
   const sections = groupBySubsection('arts-and-entertainment', [
     { name: 'One', description: '', subcategory: '  New Topic  ' },

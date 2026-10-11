@@ -15,11 +15,16 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### History & Heritage
 
-* <span class="blog-entry"><BlogHealthLink name="The Hazel Tree" url="https://thehazeltree.co.uk/" :favourite="false" /> - Personal blog by Jo Woolf about rural life, landscapes, walking, history, nature, and observations from the countryside.</span><BlogLastUpdated url="https://thehazeltree.co.uk/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="The Hazel Tree" url="https://thehazeltree.co.uk/" :favourite="false" /> - Personal blog by Jo Woolf about rural life, landscapes, walking, history, nature, and observations from the countryside.</span><BlogLastUpdated url="https://thehazeltree.co.uk/" added-date="2026-05-18" />
+
+### Local Culture & Communities
+
+* <span class="blog-entry"><BlogHealthLink name="RuggedScot" url="https://ruggedscot.com" :favourite="true" /> - Personal writing about Scottish culture, food, language and everyday life, sharing observations, humour and stories from Scotland.</span><BlogLastUpdated url="https://ruggedscot.com" added-date="2026-08-23" />
+* <span class="blog-entry"><BlogHealthLink name="The Chaotic Scot" url="https://www.thechaoticscot.com" :favourite="true" /> - Personal writing about Scottish life and culture, sharing candid stories, opinions and everyday experiences with humour.</span><BlogLastUpdated url="https://www.thechaoticscot.com" added-date="2026-10-05" />
 
 ## Lifestyle & Hobbies
 
-### Football & Sports
+### Sports & Recreation
 
 * <span class="blog-entry"><BlogHealthLink name="Andy Muirhead | Celtic FC &amp; Scottish Football Blogger" url="https://www.andymuirhead.com/" :favourite="false" /> - Andy Muirhead's independent commentary and analysis on Celtic FC, Scottish football and the wider game, with a distinctly Celtic perspective.</span><BlogLastUpdated url="https://www.andymuirhead.com/" added-date="2026-10-10" />
 * <span class="blog-entry"><BlogHealthLink name="Celtic Quick News" url="https://www.celticquicknews.co.uk/" :favourite="false" /> - Independent Celtic supporters' blog featuring Paul67's match analysis, club commentary, Scottish football discussion and long-running fan conversation.</span><BlogLastUpdated url="https://www.celticquicknews.co.uk/" added-date="2026-10-10" />
@@ -32,16 +37,14 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Bitcoin & Cryptocurrency
 
-* <span class="blog-entry"><BlogHealthLink name="David Gerard" url="https://davidgerard.co.uk/blockchain/" :favourite="false" /> - Critical commentary on cryptocurrency and blockchain, examining industry claims, financial risks and the culture surrounding digital assets.</span><BlogLastUpdated url="https://davidgerard.co.uk/blockchain/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="David Gerard" url="https://davidgerard.co.uk/blockchain/" :favourite="false" /> - Critical commentary on cryptocurrency and blockchain, examining industry claims, financial risks and the culture surrounding digital assets.</span><BlogLastUpdated url="https://davidgerard.co.uk/blockchain/" added-date="2026-08-27" />
 
 ## Personal Writing
 
 ### Essays & Reflections
 
-* <span class="blog-entry"><BlogHealthLink name="James G" url="https://jamesg.blog/" :favourite="false" /> - Personal essays and reflections on interests, experiences and everyday observations, published on an independent blog.</span><BlogLastUpdated url="https://jamesg.blog/" added-date="" />
-* <span class="blog-entry"><BlogHealthLink name="Rachel by the Bay" url="https://rachel.blog/" :favourite="false" /> - Sharp commentary on tech, internet culture, and the modern web.</span><BlogLastUpdated url="https://rachel.blog/" added-date="" />
-* <span class="blog-entry"><BlogHealthLink name="RuggedScot" url="https://ruggedscot.com" :favourite="true" /> - Personal writing about Scottish culture, food, language and everyday life, sharing observations, humour and stories from Scotland.</span><BlogLastUpdated url="https://ruggedscot.com" added-date="" />
-* <span class="blog-entry"><BlogHealthLink name="The Chaotic Scot" url="https://www.thechaoticscot.com" :favourite="true" /> - Personal writing about Scottish life and culture, sharing candid stories, opinions and everyday experiences with humour.</span><BlogLastUpdated url="https://www.thechaoticscot.com" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="James G" url="https://jamesg.blog/" :favourite="false" /> - Personal essays and reflections on interests, experiences and everyday observations, published on an independent blog.</span><BlogLastUpdated url="https://jamesg.blog/" added-date="2026-09-03" />
+* <span class="blog-entry"><BlogHealthLink name="Rachel by the Bay" url="https://rachel.blog/" :favourite="false" /> - Sharp commentary on tech, internet culture, and the modern web.</span><BlogLastUpdated url="https://rachel.blog/" added-date="2026-09-06" />
 
 ## Technology
 
@@ -53,7 +56,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Camping & Outdoor Life
 
-* <span class="blog-entry"><BlogHealthLink name="Glasgow Gallivanter" url="https://glasgowgallivanter.com/" :favourite="false" /> - Travel blog sharing adventures around Glasgow and further afield, with local discoveries, destination ideas, and personal travel stories.</span><BlogLastUpdated url="https://glasgowgallivanter.com/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Glasgow Gallivanter" url="https://glasgowgallivanter.com/" :favourite="false" /> - Travel blog sharing adventures around Glasgow and further afield, with local discoveries, destination ideas, and personal travel stories.</span><BlogLastUpdated url="https://glasgowgallivanter.com/" added-date="2026-08-25" />
 
 ### Hiking & Walking
 

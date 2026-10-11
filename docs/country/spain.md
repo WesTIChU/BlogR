@@ -15,4 +15,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Programming & Development
 
-* <span class="blog-entry"><BlogHealthLink name="Jorge Sanz" url="https://jorgesanz.net/" :favourite="false" /> - Technical writing about electronics and maker projects, documenting experiments, builds and practical engineering interests.</span><BlogLastUpdated url="https://jorgesanz.net/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Jorge Sanz" url="https://jorgesanz.net/" :favourite="false" /> - Technical writing about electronics and maker projects, documenting experiments, builds and practical engineering interests.</span><BlogLastUpdated url="https://jorgesanz.net/" added-date="2026-08-30" />

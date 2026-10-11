@@ -15,4 +15,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Essays & Reflections
 
-* <span class="blog-entry"><BlogHealthLink name="Artur Piszek" url="https://piszek.com/" :favourite="false" /> - Essays about technology, remote work and personal productivity, exploring the practical and human sides of working online.</span><BlogLastUpdated url="https://piszek.com/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Artur Piszek" url="https://piszek.com/" :favourite="false" /> - Essays about technology, remote work and personal productivity, exploring the practical and human sides of working online.</span><BlogLastUpdated url="https://piszek.com/" added-date="2026-05-01" />

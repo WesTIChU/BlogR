@@ -156,15 +156,40 @@
           "match": "collect|memorabilia|toy|brick|stationery|knives?"
         },
         {
-          "title": "Gardening & DIY",
-          "match": "garden|plant|diy|maker|making|craft"
+          "title": "Gardening",
+          "match": "garden|plant|horticulture|growing|orchard|allotment",
+          "legacyAliases": ["Lifestyle & Hobbies / Gardening & DIY"]
         },
-        { "title": "Health & Wellness", "match": "health|wellness|fitness" },
+        {
+          "title": "DIY & Making",
+          "match": "diy|maker|making|craft|repair|renovation|restoration"
+        },
         { "title": "Pets & Animals", "match": "pet|animal|dog|cat" },
         { "title": "Everyday Life", "match": ".*" },
         {
-          "title": "Football & Sports",
-          "match": "football|sports"
+          "title": "Sports & Recreation",
+          "match": "football|sport|motorsport|racing|table tennis|recreation",
+          "legacyAliases": ["Lifestyle & Hobbies / Football & Sports"]
+        }
+      ]
+    },
+    {
+      "slug": "health-and-wellbeing",
+      "title": "Health & Wellbeing",
+      "description": "Health, wellbeing, disability, and neurodiversity.",
+      "legacySubcategoryAliases": ["Lifestyle & Hobbies / Health & Wellness"],
+      "subsections": [
+        {
+          "title": "Autism & Neurodiversity",
+          "match": "autis|neurodivers?|adhd"
+        },
+        {
+          "title": "Fitness & Exercise",
+          "match": "fitness|exercise|training|triath|strength|conditioning"
+        },
+        {
+          "title": "Beauty & Skincare",
+          "match": "beauty|skincare|cosmetic|makeup"
         }
       ]
     },

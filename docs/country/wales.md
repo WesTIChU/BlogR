@@ -13,6 +13,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Lifestyle & Hobbies
 
-### Gardening & DIY
+### Gardening
 
 * <span class="blog-entry"><BlogHealthLink name="No Dig Home" url="https://nodighome.com/blog-posts/" :favourite="false" /> - Stephanie Hafferty documents no-dig gardening, homesteading, kitchen gardening, seasonal growing, preserving, soil care, and sustainable food production.</span><BlogLastUpdated url="https://nodighome.com/blog-posts/" added-date="2026-10-09" />

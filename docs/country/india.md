@@ -15,4 +15,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Linux & Open Source
 
-* <span class="blog-entry"><BlogHealthLink name="DebugPoint" url="https://debugpoint.com" :favourite="false" /> - Linux tutorials, troubleshooting guides and software coverage, helping readers explore distributions, desktop environments and common technical problems.</span><BlogLastUpdated url="https://debugpoint.com" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="DebugPoint" url="https://debugpoint.com" :favourite="false" /> - Linux tutorials, troubleshooting guides and software coverage, helping readers explore distributions, desktop environments and common technical problems.</span><BlogLastUpdated url="https://debugpoint.com" added-date="2026-09-05" />

@@ -50,7 +50,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Camping & Outdoor Life
 
-* <span class="blog-entry"><BlogHealthLink name="The Planet D" url="https://www.theplanetd.com" :favourite="false" /> - Adventure travel guide featuring destination advice, practical tips, and authentic travel experiences from destinations around the world.</span><BlogLastUpdated url="https://www.theplanetd.com" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="The Planet D" url="https://www.theplanetd.com" :favourite="false" /> - Adventure travel guide featuring destination advice, practical tips, and authentic travel experiences from destinations around the world.</span><BlogLastUpdated url="https://www.theplanetd.com" added-date="2026-04-22" />
 
 ### Cruises
 

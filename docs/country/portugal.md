@@ -15,4 +15,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Travel Diaries
 
-* <span class="blog-entry"><BlogHealthLink name="Dan Flying Solo" url="https://www.danflyingsolo.com" :favourite="false" /> - Travel blog and photography site featuring destination guides, travel stories, practical tips, and journeys across Asia, Europe, and Australia.</span><BlogLastUpdated url="https://www.danflyingsolo.com" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Dan Flying Solo" url="https://www.danflyingsolo.com" :favourite="false" /> - Travel blog and photography site featuring destination guides, travel stories, practical tips, and journeys across Asia, Europe, and Australia.</span><BlogLastUpdated url="https://www.danflyingsolo.com" added-date="2026-08-30" />

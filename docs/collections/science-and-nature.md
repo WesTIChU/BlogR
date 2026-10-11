@@ -17,7 +17,6 @@ Science, nature, the environment, and careful observation of the world.
 ## Environment & Climate
 
 * <span class="blog-entry"><BlogHealthLink name="Molecular Design" url="https://fbdd-lit.blogspot.com/" :favourite="false" /> - Controlling the behavior of compounds and materials by manipulation of molecular properties.</span><BlogLastUpdated url="https://fbdd-lit.blogspot.com/" added-date="2026-10-09" />
-* <span class="blog-entry"><BlogHealthLink name="The English Miscellany" url="https://english-skills-success.blogspot.com/" :favourite="false" /> - Educational writing about English literature, language and exam preparation, with resources and ideas for students.</span><BlogLastUpdated url="https://english-skills-success.blogspot.com/" added-date="2026-10-09" />
 
 ## Science & Research
 
@@ -32,3 +31,4 @@ Science, nature, the environment, and careful observation of the world.
 ## Wildlife & Nature
 
 * <span class="blog-entry"><BlogHealthLink name="Stephen Bodio" url="https://stephenbodio.com/" :favourite="false" /> - Personal essays about wildlife, birds, hunting and books, reflecting on the natural world and the writer's interests.</span><BlogLastUpdated url="https://stephenbodio.com/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Test Valley Riverkeeper" url="https://testvalleyriverkeeper.blogspot.com/" :favourite="false" /> - Writing about chalk streams, river wildlife and conservation, with observations on protecting and caring for river habitats.</span><BlogLastUpdated url="https://testvalleyriverkeeper.blogspot.com/" added-date="2026-09-30" />

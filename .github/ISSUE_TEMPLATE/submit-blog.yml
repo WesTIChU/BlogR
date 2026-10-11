@@ -41,11 +41,12 @@ body:
         - "Books & Writing"
         - "Arts & Entertainment"
         - "Lifestyle & Hobbies"
+        - "Health & Wellbeing"
         - "Money & Business"
         - "Science & Nature"
         - "Internet & Society"
         - "Not sure / Let the editor decide"
-      default: 10
+      default: 11
     validations:
       required: true
   - type: dropdown
@@ -87,11 +88,14 @@ body:
         - "Arts & Entertainment / Photography & Street Art"
         - "Lifestyle & Hobbies / Cooking & Recipes"
         - "Lifestyle & Hobbies / Collecting & Memorabilia"
-        - "Lifestyle & Hobbies / Gardening & DIY"
-        - "Lifestyle & Hobbies / Health & Wellness"
+        - "Lifestyle & Hobbies / Gardening"
+        - "Lifestyle & Hobbies / DIY & Making"
         - "Lifestyle & Hobbies / Pets & Animals"
         - "Lifestyle & Hobbies / Everyday Life"
-        - "Lifestyle & Hobbies / Football & Sports"
+        - "Lifestyle & Hobbies / Sports & Recreation"
+        - "Health & Wellbeing / Autism & Neurodiversity"
+        - "Health & Wellbeing / Fitness & Exercise"
+        - "Health & Wellbeing / Beauty & Skincare"
         - "Money & Business / Bitcoin & Cryptocurrency"
         - "Money & Business / Business & Entrepreneurship"
         - "Money & Business / Personal Finance"

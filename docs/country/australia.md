@@ -43,4 +43,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Travel Diaries
 
-* <span class="blog-entry"><BlogHealthLink name="Never Ending Footsteps" url="https://www.neverendingfootsteps.com" :favourite="false" /> - Travel blog sharing long-term travel experiences, destination guides, practical safety advice, and lessons from visiting more than 100 countries.</span><BlogLastUpdated url="https://www.neverendingfootsteps.com" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Never Ending Footsteps" url="https://www.neverendingfootsteps.com" :favourite="false" /> - Travel blog sharing long-term travel experiences, destination guides, practical safety advice, and lessons from visiting more than 100 countries.</span><BlogLastUpdated url="https://www.neverendingfootsteps.com" added-date="2026-04-16" />

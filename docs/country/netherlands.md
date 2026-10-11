@@ -21,4 +21,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Programming & Development
 
-* <span class="blog-entry"><BlogHealthLink name="Joost de Valk" url="https://joost.blog/" :favourite="false" /> - Personal writing about web publishing, search engine optimisation and open-source software, sharing ideas and industry observations.</span><BlogLastUpdated url="https://joost.blog/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Joost de Valk" url="https://joost.blog/" :favourite="false" /> - Personal writing about web publishing, search engine optimisation and open-source software, sharing ideas and industry observations.</span><BlogLastUpdated url="https://joost.blog/" added-date="2026-04-14" />

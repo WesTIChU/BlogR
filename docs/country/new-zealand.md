@@ -15,4 +15,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Essays & Reflections
 
-* <span class="blog-entry"><BlogHealthLink name="Derek Sivers" url="https://sive.rs" :favourite="false" /> - Derek Sivers shares concise essays and ideas about philosophy, culture, self-improvement, business, and living deliberately.</span><BlogLastUpdated url="https://sive.rs" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Derek Sivers" url="https://sive.rs" :favourite="false" /> - Derek Sivers shares concise essays and ideas about philosophy, culture, self-improvement, business, and living deliberately.</span><BlogLastUpdated url="https://sive.rs" added-date="2026-04-17" />

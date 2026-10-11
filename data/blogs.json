@@ -8,7 +8,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-15",
+    "addedAt": "2026-07-15T12:11:40.000Z",
+    "country": null,
+    "subcategory": "Hiking & Walking"
   },
   {
     "name": "An Amazing Run",
@@ -19,7 +22,10 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-17",
+    "addedAt": "2026-06-17T07:20:00.000Z",
+    "country": null,
+    "subcategory": "Hiking & Walking"
   },
   {
     "name": "BlogSharer",
@@ -30,7 +36,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-07-16",
+    "addedAt": "2026-07-16T06:22:48.000Z",
+    "country": null
   },
   {
     "name": "British Coast",
@@ -41,7 +49,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-15",
+    "addedAt": "2026-06-15T15:13:37.000Z",
+    "country": null
   },
   {
     "name": "British Newspaper Archive Blog",
@@ -52,18 +62,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-04",
+    "addedAt": "2026-06-04T03:55:23.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "Bus & Train User",
     "url": "https://busandtrainuser.com/",
     "description": "Travel blog documenting journeys around Britain by bus and train, with public transport experiences, routes, and observations.",
-    "category": "culture-and-places",
+    "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-21",
+    "addedAt": "2026-04-21T15:36:56.000Z",
+    "country": null
   },
   {
     "name": "Ruth's Coastal Walk",
@@ -75,19 +90,23 @@
     "recentlyAdded": true,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-04-18",
+    "country": "GB-ENG",
+    "addedAt": "2026-04-18T18:26:13.000Z"
   },
   {
     "name": "ConservativeHome",
     "url": "https://conservativehome.com/",
     "description": "Independent UK Conservative blog publishing party news, political commentary, analysis, campaigns, and opinion from contributors and MPs.",
-    "category": "culture-and-places",
+    "category": "internet-and-society",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-19",
+    "addedAt": "2026-06-19T13:05:22.000Z",
+    "country": null,
+    "subcategory": "Society & Commentary"
   },
   {
     "name": "Corporal Frisk",
@@ -98,7 +117,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-13",
+    "addedAt": "2026-07-13T04:40:01.000Z",
+    "country": null
   },
   {
     "name": "East of Elveden",
@@ -109,8 +130,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-04-18",
+    "country": "GB-ENG",
+    "addedAt": "2026-04-18T05:17:22.000Z"
   },
   {
     "name": "Flintlock and Tomahawk",
@@ -121,7 +143,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-22",
+    "addedAt": "2026-08-22T20:56:58.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "From Balloons to Drones",
@@ -132,7 +157,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-13",
+    "addedAt": "2026-04-13T20:14:22.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "Glasgow Gallivanter",
@@ -143,19 +171,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-08-25",
+    "country": "GB-SCT",
+    "addedAt": "2026-08-25T23:23:04.000Z"
   },
   {
     "name": "Great War Fiction",
     "url": "https://greatwarfiction.wordpress.com/",
     "description": "Writing about First World War fiction, exploring novels, authors and the relationship between literature and wartime history.",
+    "subcategory": "Literature",
     "category": "books-and-writing",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-26",
+    "addedAt": "2026-09-26T00:59:18.000Z",
+    "country": null
   },
   {
     "name": "Hush-Kit",
@@ -166,7 +198,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-05",
+    "addedAt": "2026-09-05T22:04:16.000Z",
+    "country": null
   },
   {
     "name": "Ian Cylkowski",
@@ -177,8 +211,10 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-08-19",
+    "country": "GB-ENG",
+    "addedAt": "2026-08-19T08:26:12.000Z",
+    "subcategory": "Hiking & Walking"
   },
   {
     "name": "Janet Gyford",
@@ -189,7 +225,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-17",
+    "addedAt": "2026-06-17T01:08:38.000Z",
+    "country": null
   },
   {
     "name": "Kurt Evert",
@@ -200,7 +238,10 @@
     "recentlyAdded": false,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-23",
+    "addedAt": "2026-05-23T04:05:53.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "Lancashire Past",
@@ -211,7 +252,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-16",
+    "addedAt": "2026-08-16T22:12:41.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "Last Stand on Zombie Island",
@@ -222,19 +266,24 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-06",
+    "addedAt": "2026-08-06T10:52:25.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "Liberal England",
     "url": "https://liberalengland.blogspot.com/",
     "description": "Independent blog combining political commentary, English history, local stories, and observations about public life and society.",
-    "category": "culture-and-places",
+    "category": "internet-and-society",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-07-23",
+    "country": "GB-ENG",
+    "addedAt": "2026-07-23T01:03:35.000Z",
+    "subcategory": "Society & Commentary"
   },
   {
     "name": "Literary Britain",
@@ -245,7 +294,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-09-24",
+    "addedAt": "2026-09-24T20:57:42.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "Mersey Pub",
@@ -256,7 +308,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-05",
+    "addedAt": "2026-05-05T21:26:49.000Z",
+    "country": null,
+    "subcategory": "Local Culture & Communities"
   },
   {
     "name": "Mersey Tart",
@@ -267,7 +322,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-11",
+    "addedAt": "2026-07-11T16:01:29.000Z",
+    "country": null,
+    "subcategory": "Local Culture & Communities"
   },
   {
     "name": "Post Aberdeen",
@@ -278,7 +336,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-10-05",
+    "addedAt": "2026-10-05T08:46:17.000Z",
+    "country": null,
+    "subcategory": "Local Culture & Communities"
   },
   {
     "name": "Project Sword Toys",
@@ -290,7 +351,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-16",
+    "addedAt": "2026-04-16T02:39:50.000Z",
+    "country": null
   },
   {
     "name": "Scarfolk",
@@ -302,8 +365,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-04-11",
+    "country": "GB-ENG",
+    "addedAt": "2026-04-11T16:56:15.000Z"
   },
   {
     "name": "Shapers of the 80s",
@@ -314,20 +378,22 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-05-25",
+    "country": "GB-ENG",
+    "addedAt": "2026-05-25T16:48:58.000Z"
   },
   {
     "name": "Test Valley Riverkeeper",
     "url": "https://testvalleyriverkeeper.blogspot.com/",
     "description": "Writing about chalk streams, river wildlife and conservation, with observations on protecting and caring for river habitats.",
-    "category": "culture-and-places",
+    "category": "science-and-nature",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-09-30",
+    "country": "GB-ENG",
+    "addedAt": "2026-09-30T18:00:33.000Z"
   },
   {
     "name": "The Crete Fleet",
@@ -338,7 +404,10 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-28",
+    "addedAt": "2026-05-28T00:05:50.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "The Empty City",
@@ -349,7 +418,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-10",
+    "addedAt": "2026-05-10T05:02:09.000Z",
+    "country": null
   },
   {
     "name": "The Hazel Tree",
@@ -360,8 +431,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-05-18",
+    "country": "GB-SCT",
+    "addedAt": "2026-05-18T20:37:04.000Z"
   },
   {
     "name": "The New English Landscape",
@@ -372,7 +444,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-06-21",
+    "addedAt": "2026-06-21T23:54:20.000Z",
+    "country": null
   },
   {
     "name": "The Privacy Perspective",
@@ -383,7 +457,10 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-10-02",
+    "addedAt": "2026-10-02T02:30:38.000Z",
+    "country": null,
+    "subcategory": "Privacy & Security"
   },
   {
     "name": "The Strolling Bones",
@@ -395,8 +472,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-09-15",
+    "country": "GB-ENG",
+    "addedAt": "2026-09-15T17:35:40.000Z"
   },
   {
     "name": "David Gerard",
@@ -407,8 +485,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-08-27",
+    "country": "GB-SCT",
+    "addedAt": "2026-08-27T06:57:05.000Z"
   },
   {
     "name": "Molly White",
@@ -419,7 +498,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-07-08",
+    "addedAt": "2026-07-08T06:53:17.000Z",
+    "country": null
   },
   {
     "name": "The Blockchain Socialist",
@@ -430,7 +511,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-08-07",
+    "addedAt": "2026-08-07T10:43:24.000Z",
+    "country": null
   },
   {
     "name": "Web3 Is Going Just Great",
@@ -441,19 +524,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-06",
+    "addedAt": "2026-06-06T19:50:45.000Z",
+    "country": null
   },
   {
     "name": "Aaron Parecki",
     "url": "https://aaronparecki.com/",
     "description": "Writing about the independent web, open standards and building online tools that give people more control over their websites.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-04-14",
+    "country": "US",
+    "addedAt": "2026-04-14T03:22:10.000Z",
+    "subcategory": "Internet & Web Technology"
   },
   {
     "name": "Adam Keys",
@@ -464,7 +551,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-08",
+    "addedAt": "2026-05-08T06:59:21.000Z",
+    "country": null
   },
   {
     "name": "Addenda",
@@ -475,19 +564,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-30",
+    "addedAt": "2026-05-30T23:55:06.000Z",
+    "country": null
   },
   {
     "name": "Alabama Yesterdays",
     "url": "https://alabamayesterdays.blogspot.com/",
     "description": "Stories from Alabama's past, exploring local history, notable events and the people and places connected to the state.",
-    "category": "personal-writing",
+    "category": "culture-and-places",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-07-01",
+    "country": "US",
+    "addedAt": "2026-07-01T03:26:56.000Z",
+    "subcategory": "History & Heritage"
   },
   {
     "name": "alis.me",
@@ -498,7 +591,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-23",
+    "addedAt": "2026-08-23T12:20:33.000Z",
+    "country": null
   },
   {
     "name": "Alison Wilder",
@@ -510,18 +605,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-18",
+    "addedAt": "2026-06-18T01:06:43.000Z",
+    "country": null
   },
   {
     "name": "Along the Ray",
     "url": "https://alongtheray.com/",
     "description": "A personal journal about nomadic living, changing places and the experiences and reflections that come with life on the move.",
-    "category": "personal-writing",
+    "category": "travel-outdoors",
+    "subcategory": "Travel Diaries",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-09-07",
+    "addedAt": "2026-09-07T22:19:48.000Z",
+    "country": null
   },
   {
     "name": "Amy Goodchild",
@@ -532,7 +632,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-31",
+    "addedAt": "2026-08-31T09:33:57.000Z",
+    "country": null
   },
   {
     "name": "Andrew Chen",
@@ -543,7 +645,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-05-20",
+    "addedAt": "2026-05-20T04:25:52.000Z",
+    "country": null
   },
   {
     "name": "Andrew Doran",
@@ -554,19 +658,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-06-09",
+    "country": "GB-ENG",
+    "addedAt": "2026-06-09T02:44:32.000Z"
   },
   {
     "name": "Anecdotal Evidence",
     "url": "https://evidenceanecdotal.blogspot.com/",
     "description": "Literary blog exploring books, authors, poetry, and wider questions about reading and culture.",
+    "subcategory": "Literature",
     "category": "books-and-writing",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-24",
+    "addedAt": "2026-05-24T01:18:33.000Z",
+    "country": null
   },
   {
     "name": "Anil Dash",
@@ -577,8 +685,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-09-22",
+    "country": "US",
+    "addedAt": "2026-09-22T22:52:45.000Z"
   },
   {
     "name": "Ant Harris",
@@ -589,7 +698,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-19",
+    "addedAt": "2026-06-19T04:25:28.000Z",
+    "country": null
   },
   {
     "name": "Antarctica Starts Here",
@@ -600,7 +711,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-18",
+    "addedAt": "2026-07-18T20:06:41.000Z",
+    "country": null
   },
   {
     "name": "Artur Piszek",
@@ -611,8 +724,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "PL"
+    "addedDate": "2026-05-01",
+    "country": "PL",
+    "addedAt": "2026-05-01T20:55:16.000Z"
   },
   {
     "name": "Austin Kleon",
@@ -623,19 +737,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-08-22",
+    "country": "US",
+    "addedAt": "2026-08-22T15:01:16.000Z"
   },
   {
     "name": "Autistic As Fxxk",
     "url": "https://autisticasfxxk.com/",
     "description": "Personal writing about autistic identity, lived experience and everyday life, sharing reflections from the writer's own perspective.",
-    "category": "personal-writing",
+    "category": "health-and-wellbeing",
+    "subcategory": "Autism & Neurodiversity",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-12",
+    "addedAt": "2026-05-12T13:39:42.000Z",
+    "country": "SG"
   },
   {
     "name": "Bacardi55’s Web Cave",
@@ -646,19 +764,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-22",
+    "addedAt": "2026-08-22T20:02:06.000Z",
+    "country": null
   },
   {
     "name": "Beauty Alchemist",
     "url": "https://www.beautyalchemist.com/",
     "description": "Beauty product reviews and personal opinions, exploring skincare, cosmetics and the experience of trying different products.",
-    "category": "lifestyle-and-hobbies",
-    "subcategory": "Health & Wellness",
+    "category": "health-and-wellbeing",
+    "subcategory": "Beauty & Skincare",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-07",
+    "addedAt": "2026-07-07T12:36:55.000Z",
+    "country": "US"
   },
   {
     "name": "Becoming Minimalist",
@@ -670,7 +792,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-24",
+    "addedAt": "2026-04-24T07:41:16.000Z",
+    "country": null
   },
   {
     "name": "BF Oliver",
@@ -681,7 +805,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-26",
+    "addedAt": "2026-09-26T23:49:25.000Z",
+    "country": null
   },
   {
     "name": "Brain Baking",
@@ -692,7 +818,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-11",
+    "addedAt": "2026-07-11T21:40:07.000Z",
+    "country": null
   },
   {
     "name": "brr.fyi",
@@ -703,7 +831,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-06-16",
+    "addedAt": "2026-06-16T09:52:58.000Z",
+    "country": null
   },
   {
     "name": "Buttercup Festival",
@@ -714,7 +844,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-16",
+    "addedAt": "2026-06-16T05:35:09.000Z",
+    "country": null
   },
   {
     "name": "Caltrain HSR Blog",
@@ -725,7 +857,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-20",
+    "addedAt": "2026-06-20T21:37:05.000Z",
+    "country": null
   },
   {
     "name": "Calv.info",
@@ -736,18 +870,23 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-06",
+    "addedAt": "2026-06-06T00:26:35.000Z",
+    "country": null
   },
   {
     "name": "Cassidy Williams",
     "url": "https://cassidoo.co/blog/",
     "description": "Writing about software development, technology careers and life in the industry, sharing advice and personal experience.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-12",
+    "addedAt": "2026-06-12T04:35:59.000Z",
+    "country": null,
+    "subcategory": "Programming & Development"
   },
   {
     "name": "ChaosLife",
@@ -759,8 +898,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-07-09",
+    "country": "US",
+    "addedAt": "2026-07-09T23:03:31.000Z"
   },
   {
     "name": "Charles Harries",
@@ -771,7 +911,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-27",
+    "addedAt": "2026-09-27T19:39:36.000Z",
+    "country": null
   },
   {
     "name": "Cherry and Spoon",
@@ -783,19 +925,23 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-23",
+    "addedAt": "2026-05-23T22:17:55.000Z",
+    "country": null
   },
   {
     "name": "Christiano.dev",
     "url": "https://christiano.dev/",
     "description": "Personal writing about data, open-source software and learning, sharing technical interests, projects and development experiences.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "DE"
+    "addedDate": "2026-09-14",
+    "country": "DE",
+    "addedAt": "2026-09-14T22:04:14.000Z",
+    "subcategory": "Programming & Development"
   },
   {
     "name": "Collaborative Fund",
@@ -806,7 +952,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-29",
+    "addedAt": "2026-08-29T06:47:16.000Z",
+    "country": null
   },
   {
     "name": "Collection Chamber",
@@ -818,7 +966,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-23",
+    "addedAt": "2026-05-23T11:46:04.000Z",
+    "country": null
   },
   {
     "name": "commentingon.xyz",
@@ -829,18 +979,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-20",
+    "addedAt": "2026-04-20T06:08:26.000Z",
+    "country": null
   },
   {
     "name": "Cup of Jo",
     "url": "https://cupofjo.com",
     "description": "Lifestyle writing about relationships, family, personal experiences and everyday life, with stories and conversations around shared interests.",
-    "category": "personal-writing",
+    "category": "lifestyle-and-hobbies",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-03",
+    "addedAt": "2026-05-03T19:12:11.000Z",
+    "country": null,
+    "subcategory": "Everyday Life"
   },
   {
     "name": "Dan Sinker",
@@ -851,7 +1006,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-24",
+    "addedAt": "2026-07-24T22:39:06.000Z",
+    "country": null
   },
   {
     "name": "Darek Kay",
@@ -862,7 +1019,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-25",
+    "addedAt": "2026-05-25T16:39:06.000Z",
+    "country": null
   },
   {
     "name": "Derek Sivers",
@@ -873,8 +1032,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "NZ"
+    "addedDate": "2026-04-17",
+    "country": "NZ",
+    "addedAt": "2026-04-17T01:06:52.000Z"
   },
   {
     "name": "Doc Pop",
@@ -885,7 +1045,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-09",
+    "addedAt": "2026-08-09T13:22:17.000Z",
+    "country": null
   },
   {
     "name": "Dom.blog",
@@ -896,7 +1058,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-17",
+    "addedAt": "2026-07-17T07:28:40.000Z",
+    "country": null
   },
   {
     "name": "Doug Holland",
@@ -907,7 +1071,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-28",
+    "addedAt": "2026-05-28T12:08:20.000Z",
+    "country": null
   },
   {
     "name": "Erin Kissane",
@@ -918,20 +1084,22 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-06-28",
+    "country": "US",
+    "addedAt": "2026-06-28T03:20:02.000Z"
   },
   {
     "name": "Found Media Archive",
     "url": "https://found-media-archive.neocities.org/",
     "description": "Archive documenting the physical experience of forgotten media, including tapes, machines, formats, and the rituals surrounding old technology.",
-    "category": "arts-and-entertainment",
-    "subcategory": "Film, TV & Theatre",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-26",
+    "addedAt": "2026-09-26T23:37:08.000Z",
+    "country": null
   },
   {
     "name": "Frances Crossley",
@@ -942,7 +1110,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-15",
+    "addedAt": "2026-05-15T19:23:41.000Z",
+    "country": null
   },
   {
     "name": "gaze.systems",
@@ -953,7 +1123,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-18",
+    "addedAt": "2026-06-18T13:34:38.000Z",
+    "country": null
   },
   {
     "name": "Geocities Institute",
@@ -964,7 +1136,10 @@
     "recentlyAdded": false,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-24",
+    "addedAt": "2026-09-24T19:33:20.000Z",
+    "country": null,
+    "subcategory": "Internet & Web Technology"
   },
   {
     "name": "Gordon McLean",
@@ -975,7 +1150,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-08",
+    "addedAt": "2026-06-08T15:23:31.000Z",
+    "country": null
   },
   {
     "name": "Unique Guitar",
@@ -987,7 +1164,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-08"
+    "addedDate": "2026-10-08",
+    "country": null
   },
   {
     "name": "Grognardia",
@@ -999,18 +1177,23 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-05",
+    "addedAt": "2026-06-05T04:05:01.000Z",
+    "country": null
   },
   {
     "name": "Handeaux",
     "url": "https://handeaux.tumblr.com/",
     "description": "Unusual stories from local history, exploring curious places, events and overlooked details from the past.",
-    "category": "personal-writing",
+    "category": "culture-and-places",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-01",
+    "addedAt": "2026-06-01T10:41:34.000Z",
+    "country": null,
+    "subcategory": "History & Heritage"
   },
   {
     "name": "I Have Doubt",
@@ -1021,18 +1204,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-28",
+    "addedAt": "2026-07-28T17:57:58.000Z",
+    "country": null
   },
   {
     "name": "Ian Bicking",
     "url": "https://www.ianbicking.org/",
     "description": "Writing about software, technology and society, reflecting on how digital tools are developed and used by people.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-12",
+    "addedAt": "2026-06-12T19:55:54.000Z",
+    "country": null,
+    "subcategory": "Programming & Development"
   },
   {
     "name": "Impossible Songs",
@@ -1044,7 +1232,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-13",
+    "addedAt": "2026-09-13T15:29:19.000Z",
+    "country": null
   },
   {
     "name": "Internet Archive Blog",
@@ -1055,7 +1245,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-23",
+    "addedAt": "2026-05-23T00:12:47.000Z",
+    "country": null
   },
   {
     "name": "Island in the Net",
@@ -1066,18 +1258,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-13",
+    "addedAt": "2026-08-13T14:10:49.000Z",
+    "country": null
   },
   {
     "name": "Jahir.dev",
     "url": "https://jahir.dev",
     "description": "A personal developer website sharing projects, occasional articles and notes about technical work and creative interests.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-27",
+    "addedAt": "2026-06-27T09:46:33.000Z",
+    "country": null,
+    "subcategory": "Programming & Development"
   },
   {
     "name": "James G",
@@ -1088,8 +1285,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-09-03",
+    "country": "GB-SCT",
+    "addedAt": "2026-09-03T05:25:00.000Z"
   },
   {
     "name": "James Reeves",
@@ -1100,7 +1298,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-21",
+    "addedAt": "2026-06-21T05:19:15.000Z",
+    "country": null
   },
   {
     "name": "Jeff MacKinnon",
@@ -1111,18 +1311,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-01",
+    "addedAt": "2026-07-01T12:53:26.000Z",
+    "country": null
   },
   {
     "name": "Jonah Aragon",
     "url": "https://jonaharagon.com/",
     "description": "Articles and commentary on online privacy, digital rights and practical questions about protecting personal information.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-03",
+    "addedAt": "2026-08-03T19:12:46.000Z",
+    "country": null,
+    "subcategory": "Privacy & Security"
   },
   {
     "name": "Jorge Sanz",
@@ -1133,8 +1338,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "ES"
+    "addedDate": "2026-08-30",
+    "country": "ES",
+    "addedAt": "2026-08-30T05:27:35.000Z"
   },
   {
     "name": "Kai Gulliksen",
@@ -1145,7 +1351,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-10-03",
+    "addedAt": "2026-10-03T18:16:01.000Z",
+    "country": null
   },
   {
     "name": "Libre Arts",
@@ -1157,7 +1365,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-31",
+    "addedAt": "2026-05-31T21:56:28.000Z",
+    "country": null
   },
   {
     "name": "Liz Duck-Chong",
@@ -1168,7 +1378,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-30",
+    "addedAt": "2026-04-30T16:57:26.000Z",
+    "country": null
   },
   {
     "name": "Log of Spartina",
@@ -1179,7 +1391,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-25",
+    "addedAt": "2026-04-25T06:08:16.000Z",
+    "country": null
   },
   {
     "name": "Marco.org",
@@ -1190,19 +1404,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-08-09",
+    "addedAt": "2026-08-09T08:23:44.000Z",
+    "country": null
   },
   {
     "name": "Marine How To",
     "url": "https://marinehowto.com/",
     "description": "Hands-on guides to boat maintenance, marine electrical systems and practical do-it-yourself repairs for boat owners.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "DIY & Making",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-17",
+    "addedAt": "2026-06-17T10:35:31.000Z",
+    "country": null
   },
   {
     "name": "Mark Manson",
@@ -1213,18 +1431,22 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-12",
+    "addedAt": "2026-07-12T19:07:22.000Z",
+    "country": null
   },
   {
     "name": "Mat Duggan",
     "url": "https://matduggan.com/",
     "description": "Technology blog publishing long-form essays about software, infrastructure, open source, development practices, and the people who build systems.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-25",
+    "addedAt": "2026-04-25T10:37:54.000Z",
+    "country": null
   },
   {
     "name": "microgravities",
@@ -1235,18 +1457,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-21",
+    "addedAt": "2026-05-21T14:03:26.000Z",
+    "country": null
   },
   {
     "name": "Oilpressure",
     "url": "https://oilpressure.com/",
     "description": "Independent commentary on IndyCar racing, exploring race weekends, motorsport history, drivers and debates within the sport.",
     "category": "lifestyle-and-hobbies",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-06",
+    "addedAt": "2026-09-06T16:42:28.000Z",
+    "country": null
   },
   {
     "name": "OneLetterWords Weblog",
@@ -1257,7 +1484,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-29",
+    "addedAt": "2026-09-29T13:17:22.000Z",
+    "country": null
   },
   {
     "name": "Paper Pools",
@@ -1268,19 +1497,22 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "DE"
+    "addedDate": "2026-08-08",
+    "country": "DE",
+    "addedAt": "2026-08-08T06:36:27.000Z"
   },
   {
     "name": "Paul Graham",
     "url": "https://paulgraham.com/articles.html",
     "description": "Essays about startups, programming, business and life, exploring ideas through personal experience and long-form writing.",
-    "category": "personal-writing",
+    "category": "money-and-business",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-11",
+    "addedAt": "2026-06-11T00:26:25.000Z",
+    "country": null
   },
   {
     "name": "Pete Ashton",
@@ -1291,8 +1523,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-NIR"
+    "addedDate": "2026-07-21",
+    "country": "GB-ENG",
+    "addedAt": "2026-07-21T06:07:31.000Z"
   },
   {
     "name": "pilledtexts",
@@ -1303,18 +1536,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-07-19",
+    "addedAt": "2026-07-19T23:55:37.000Z",
+    "country": null
   },
   {
     "name": "Playrface",
     "url": "https://playrface.co.uk/",
     "description": "Stories about sport and sporting history, with particular attention to lesser-known games, traditions and competitors around the world.",
     "category": "lifestyle-and-hobbies",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-12",
+    "addedAt": "2026-08-12T01:02:53.000Z",
+    "country": null
   },
   {
     "name": "Public Clock This",
@@ -1325,7 +1563,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-01",
+    "addedAt": "2026-09-01T08:31:30.000Z",
+    "country": null
   },
   {
     "name": "Rachel by the Bay",
@@ -1336,8 +1576,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-09-06",
+    "country": "GB-SCT",
+    "addedAt": "2026-09-06T01:26:20.000Z"
   },
   {
     "name": "rawr.fun",
@@ -1348,7 +1589,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-29",
+    "addedAt": "2026-08-29T02:17:47.000Z",
+    "country": null
   },
   {
     "name": "rmv.fyi",
@@ -1359,8 +1602,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "DE"
+    "addedDate": "2026-07-28",
+    "country": "DE",
+    "addedAt": "2026-07-28T23:31:00.000Z"
   },
   {
     "name": "Roy Tang",
@@ -1371,19 +1615,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-02",
+    "addedAt": "2026-06-02T12:51:56.000Z",
+    "country": null
   },
   {
     "name": "RuggedScot",
     "url": "https://ruggedscot.com",
     "description": "Personal writing about Scottish culture, food, language and everyday life, sharing observations, humour and stories from Scotland.",
-    "category": "personal-writing",
+    "category": "culture-and-places",
     "topics": [],
     "recentlyAdded": false,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-08-23",
+    "country": "GB-SCT",
+    "addedAt": "2026-08-23T00:32:48.000Z",
+    "subcategory": "Local Culture & Communities"
   },
   {
     "name": "Sanlive",
@@ -1394,18 +1642,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-05-16",
+    "addedAt": "2026-05-16T02:41:12.000Z",
+    "country": null
   },
   {
     "name": "Scottish Stoater",
     "url": "https://www.scottishstoater.com/",
     "description": "Personal writing exploring Scottish life, culture and everyday experiences, with observations on places, people and local interests.",
-    "category": "personal-writing",
+    "category": "culture-and-places",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-06",
+    "addedAt": "2026-08-06T03:04:37.000Z",
+    "country": null,
+    "subcategory": "Local Culture & Communities"
   },
   {
     "name": "Sean Boots",
@@ -1416,29 +1669,36 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-08",
+    "addedAt": "2026-07-08T12:35:27.000Z",
+    "country": null
   },
   {
     "name": "Seirdy",
     "url": "https://seirdy.one/",
     "description": "Writing about web accessibility, online privacy and ethical technology, with a focus on making the internet more inclusive.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-04-29",
+    "addedAt": "2026-04-29T09:52:54.000Z",
+    "country": null,
+    "subcategory": "Privacy & Security"
   },
   {
     "name": "Seth’s Blog",
     "url": "https://seths.blog",
     "description": "Seth Godin writes short essays about marketing, leadership, tribes, respect, creative work, and how ideas spread.",
-    "category": "personal-writing",
+    "category": "money-and-business",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-10-05",
+    "addedAt": "2026-10-05T19:02:44.000Z",
+    "country": null
   },
   {
     "name": "Skaterfish",
@@ -1450,7 +1710,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-01",
+    "addedAt": "2026-09-01T19:06:48.000Z",
+    "country": null
   },
   {
     "name": "Small Mario Findings",
@@ -1462,7 +1724,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-20",
+    "addedAt": "2026-09-20T15:08:46.000Z",
+    "country": null
   },
   {
     "name": "Sparkly Trainers",
@@ -1473,8 +1737,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-08-06",
+    "country": "GB-ENG",
+    "addedAt": "2026-08-06T18:54:24.000Z"
   },
   {
     "name": "Speedbird",
@@ -1485,8 +1750,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-06-29",
+    "country": "GB-ENG",
+    "addedAt": "2026-06-29T02:45:52.000Z"
   },
   {
     "name": "Stratechery",
@@ -1497,8 +1763,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-08-08",
+    "country": "US",
+    "addedAt": "2026-08-08T18:00:41.000Z"
   },
   {
     "name": "The Bloggess",
@@ -1509,19 +1776,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-15",
+    "addedAt": "2026-06-15T16:12:09.000Z",
+    "country": null
   },
   {
     "name": "The Chaotic Scot",
     "url": "https://www.thechaoticscot.com",
     "description": "Personal writing about Scottish life and culture, sharing candid stories, opinions and everyday experiences with humour.",
-    "category": "personal-writing",
+    "category": "culture-and-places",
     "topics": [],
     "recentlyAdded": false,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-SCT"
+    "addedDate": "2026-10-05",
+    "country": "GB-SCT",
+    "addedAt": "2026-10-05T00:32:23.000Z",
+    "subcategory": "Local Culture & Communities"
   },
   {
     "name": "The Flatypus",
@@ -1532,7 +1803,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-08",
+    "addedAt": "2026-08-08T18:26:07.000Z",
+    "country": null
   },
   {
     "name": "The Goalie’s Anxiety",
@@ -1543,8 +1816,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-09-06",
+    "country": "US",
+    "addedAt": "2026-09-06T20:09:48.000Z"
   },
   {
     "name": "The Minimalists",
@@ -1556,7 +1830,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-19",
+    "addedAt": "2026-05-19T02:31:27.000Z",
+    "country": null
   },
   {
     "name": "The TTABlog",
@@ -1567,7 +1843,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-23",
+    "addedAt": "2026-07-23T12:08:55.000Z",
+    "country": null
   },
   {
     "name": "The Zvi",
@@ -1578,8 +1856,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-09-25",
+    "country": "US",
+    "addedAt": "2026-09-25T03:54:54.000Z"
   },
   {
     "name": "Tiramisu",
@@ -1590,19 +1869,23 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-15",
+    "addedAt": "2026-08-15T01:53:42.000Z",
+    "country": null
   },
   {
     "name": "Tony’s Reading List",
     "url": "https://tonysreadinglist.wordpress.com/",
     "description": "A book-focused blog sharing reading notes, fiction reviews and reflections on authors and literary works.",
     "category": "books-and-writing",
+    "subcategory": "Book Reviews",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "FR"
+    "addedDate": "2026-09-24",
+    "country": "FR",
+    "addedAt": "2026-09-24T23:15:09.000Z"
   },
   {
     "name": "Wait But Why",
@@ -1613,7 +1896,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-04-12",
+    "addedAt": "2026-04-12T11:34:44.000Z",
+    "country": null
   },
   {
     "name": "Waxy.org",
@@ -1624,40 +1909,51 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-24",
+    "addedAt": "2026-06-24T15:01:21.000Z",
+    "country": null
   },
   {
     "name": "wheresalice.info",
     "url": "https://wheresalice.info/",
     "description": "Personal technical notes and experiments, documenting ideas, software projects and explorations of digital tools.",
-    "category": "personal-writing",
+    "category": "technology",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-23",
+    "addedAt": "2026-09-23T21:51:36.000Z",
+    "country": null,
+    "subcategory": "Programming & Development"
   },
   {
     "name": "Awesome Home Assistant",
     "url": "https://www.awesome-ha.com/",
     "description": "A collection of tools, integrations and resources for Home Assistant users interested in smart home automation.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-15",
+    "addedAt": "2026-07-15T10:23:49.000Z",
+    "country": null
   },
   {
     "name": "Awesome Selfhosted",
     "url": "https://awesome-selfhosted.net",
     "description": "Curated list of open-source self-hosted software for productivity, media, infrastructure, privacy, and personal services.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-04",
+    "addedAt": "2026-05-04T04:11:43.000Z",
+    "country": null
   },
   {
     "name": "Bart Wronski",
@@ -1668,7 +1964,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-06-15",
+    "addedAt": "2026-06-15T03:43:09.000Z",
+    "country": null
   },
   {
     "name": "Better Programming",
@@ -1679,7 +1977,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-09-24",
+    "addedAt": "2026-09-24T14:53:46.000Z",
+    "country": null
   },
   {
     "name": "Brendan Dawes",
@@ -1691,30 +1991,37 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-05-10",
+    "country": "GB-ENG",
+    "addedAt": "2026-05-10T15:55:17.000Z"
   },
   {
     "name": "CSS-Tricks",
     "url": "https://css-tricks.com",
     "description": "Web development publication covering HTML, CSS, JavaScript, frontend techniques, design, tools, and practical coding advice.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-18",
+    "addedAt": "2026-09-18T13:24:18.000Z",
+    "country": null
   },
   {
     "name": "David Walsh",
     "url": "https://davidwalsh.name",
     "description": "Web development blog featuring practical tutorials and tips about JavaScript, HTML, CSS, PHP, WordPress, and related technologies.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-14",
+    "addedAt": "2026-06-14T05:26:51.000Z",
+    "country": null
   },
   {
     "name": "Davide Aversa",
@@ -1725,42 +2032,51 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "IT"
+    "addedDate": "2026-07-07",
+    "country": "IT",
+    "addedAt": "2026-07-07T14:48:34.000Z"
   },
   {
     "name": "DebugPoint",
     "url": "https://debugpoint.com",
     "description": "Linux tutorials, troubleshooting guides and software coverage, helping readers explore distributions, desktop environments and common technical problems.",
     "category": "technology",
+    "subcategory": "Linux & Open Source",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "IN"
+    "addedDate": "2026-09-05",
+    "country": "IN",
+    "addedAt": "2026-09-05T17:37:51.000Z"
   },
   {
     "name": "Derek Seaman",
     "url": "https://www.derekseaman.com/",
     "description": "Detailed tutorials on Home Assistant, homelab systems and home networking, with practical configuration and automation guidance.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-21",
+    "addedAt": "2026-06-21T23:30:48.000Z",
+    "country": null
   },
   {
     "name": "DigitalOcean Community",
     "url": "https://www.digitalocean.com/community/tutorials",
     "description": "Developer tutorials and guides covering Linux servers, cloud infrastructure, programming and deploying web applications.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-13",
+    "addedAt": "2026-04-13T03:30:27.000Z",
+    "country": null
   },
   {
     "name": "Fabian Giesen",
@@ -1771,7 +2087,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-06-27",
+    "addedAt": "2026-06-27T23:17:40.000Z",
+    "country": null
   },
   {
     "name": "Frank Force",
@@ -1782,19 +2100,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-09-02",
+    "country": "US",
+    "addedAt": "2026-09-02T03:59:22.000Z"
   },
   {
     "name": "FreeCodeCamp",
     "url": "https://www.freecodecamp.org/news/",
     "description": "Programming publication offering tutorials and career advice across web development, data science, DevOps, security, Python, and JavaScript.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-18",
+    "addedAt": "2026-05-18T17:36:15.000Z",
+    "country": null
   },
   {
     "name": "Hacker Noon",
@@ -1805,18 +2127,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-05",
+    "addedAt": "2026-07-05T22:16:11.000Z",
+    "country": null
   },
   {
     "name": "Home Automation Guy",
     "url": "https://www.homeautomationguy.io/",
     "description": "Practical tutorials for Home Assistant, smart home automation and connected devices, with setup and configuration advice.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-08",
+    "addedAt": "2026-06-08T05:44:47.000Z",
+    "country": null
   },
   {
     "name": "ISPreview",
@@ -1827,18 +2154,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-10",
+    "addedAt": "2026-06-10T08:28:12.000Z",
+    "country": null
   },
   {
     "name": "It's FOSS",
     "url": "https://itsfoss.com",
     "description": "Linux and open-source publication covering software, distributions, tutorials, applications, news, and practical help for Linux users.",
     "category": "technology",
+    "subcategory": "Linux & Open Source",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-03",
+    "addedAt": "2026-09-03T19:03:32.000Z",
+    "country": null
   },
   {
     "name": "Jamie Tanna",
@@ -1849,7 +2181,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-19",
+    "addedAt": "2026-07-19T20:45:49.000Z",
+    "country": null
   },
   {
     "name": "Joost de Valk",
@@ -1860,19 +2194,23 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "NL"
+    "addedDate": "2026-04-14",
+    "country": "NL",
+    "addedAt": "2026-04-14T00:04:07.000Z"
   },
   {
     "name": "Josh Comeau",
     "url": "https://www.joshwcomeau.com",
     "description": "Interactive frontend development tutorials covering CSS, JavaScript, React and practical techniques for building better web interfaces.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-25",
+    "addedAt": "2026-07-25T03:32:22.000Z",
+    "country": null
   },
   {
     "name": "Justin Pinkney",
@@ -1883,29 +2221,37 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-08-04",
+    "addedAt": "2026-08-04T10:32:52.000Z",
+    "country": null
   },
   {
     "name": "Kent C. Dodds",
     "url": "https://kentcdodds.com/blog",
     "description": "Software development blog covering JavaScript, TypeScript, React, testing, career development, and lessons from building reliable web applications.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-11",
+    "addedAt": "2026-09-11T03:58:11.000Z",
+    "country": null
   },
   {
     "name": "LinuxServer.io Blog",
     "url": "https://www.linuxserver.io/blog",
     "description": "Self-hosting and Linux blog covering containerised applications, server administration, Docker projects, and practical homelab guidance.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-17",
+    "addedAt": "2026-04-17T06:57:13.000Z",
+    "country": null
   },
   {
     "name": "Mediocre Gopher",
@@ -1916,7 +2262,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-08",
+    "addedAt": "2026-07-08T07:35:02.000Z",
+    "country": null
   },
   {
     "name": "Moments in Graphics",
@@ -1927,41 +2275,51 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-07-11",
+    "addedAt": "2026-07-11T21:03:35.000Z",
+    "country": null
   },
   {
     "name": "OMG! Ubuntu!",
     "url": "https://www.omgubuntu.co.uk",
     "description": "News, reviews and tips for Ubuntu users, covering Linux desktop updates, applications and open-source developments.",
     "category": "technology",
+    "subcategory": "Linux & Open Source",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-09-20",
+    "country": "GB-ENG",
+    "addedAt": "2026-09-20T06:18:04.000Z"
   },
   {
     "name": "Overreacted",
     "url": "https://overreacted.io",
     "description": "Dan Abramov’s blog exploring React, JavaScript, software development, programming concepts, and the ideas behind frontend tools.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-06",
+    "addedAt": "2026-07-06T20:49:44.000Z",
+    "country": null
   },
   {
     "name": "Perfect Media Server",
     "url": "https://perfectmediaserver.com",
     "description": "Practical guide to building and managing a home media server, including storage, networking, Docker, and self-hosted services.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-02",
+    "addedAt": "2026-08-02T08:25:38.000Z",
+    "country": null
   },
   {
     "name": "Pixelesque",
@@ -1973,7 +2331,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-16",
+    "addedAt": "2026-07-16T20:25:23.000Z",
+    "country": null
   },
   {
     "name": "Simon Schreibt",
@@ -1985,7 +2345,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-06",
+    "addedAt": "2026-09-06T00:32:52.000Z",
+    "country": null
   },
   {
     "name": "Simon Willison",
@@ -1996,51 +2358,65 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-18",
+    "addedAt": "2026-07-18T09:57:59.000Z",
+    "country": null
   },
   {
     "name": "Smart Home Junkie",
     "url": "https://www.smarthomejunkie.net/",
     "description": "Step-by-step Home Assistant tutorials, smart home setup guides and practical advice on automation and integrations.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-19",
+    "addedAt": "2026-06-19T17:17:06.000Z",
+    "country": null
   },
   {
     "name": "SmarthomeBeginner",
     "url": "https://www.smarthomebeginner.com",
     "description": "Homelab and smart-home blog covering Docker, Home Assistant, Linux, servers, media players, networking, and practical automation projects.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-14",
+    "addedAt": "2026-09-14T21:03:46.000Z",
+    "country": null
   },
   {
     "name": "SmartHomeScene",
     "url": "https://smarthomescene.com/blog/",
     "description": "Smart home product reviews, Home Assistant guides and practical tutorials for connected devices and automation setups.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-22",
+    "addedAt": "2026-05-22T09:25:04.000Z",
+    "country": null
   },
   {
     "name": "Smashing Magazine",
     "url": "https://www.smashingmagazine.com",
     "description": "Articles and tutorials on web design, frontend development, user experience and practical techniques for digital professionals.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-30",
+    "addedAt": "2026-04-30T20:51:24.000Z",
+    "country": null
   },
   {
     "name": "Stuart Langridge",
@@ -2051,29 +2427,37 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-22",
+    "addedAt": "2026-07-22T02:37:20.000Z",
+    "country": null
   },
   {
     "name": "Tania Rascia",
     "url": "https://www.taniarascia.com",
     "description": "Tania Rascia writes about web development, JavaScript, programming, open source, software engineering, and learning through practical projects.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-19",
+    "addedAt": "2026-07-19T01:10:40.000Z",
+    "country": null
   },
   {
     "name": "The Home Assistant Blog",
     "url": "https://thehomeassistantblog.com/",
     "description": "Home automation blog covering Home Assistant features, smart-home products, automations, sensors, and practical ways to connect devices.",
     "category": "technology",
+    "subcategory": "Self-Hosting & Homelabs",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-05",
+    "country": "DK",
+    "addedAt": "2026-07-05T09:07:04.000Z"
   },
   {
     "name": "The Numb",
@@ -2084,29 +2468,37 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-30",
+    "addedAt": "2026-08-30T00:07:29.000Z",
+    "country": null
   },
   {
     "name": "Yuanchuan’s Blog",
     "url": "https://yuanchuan.dev/",
     "description": "Software engineering articles about backend systems, infrastructure and practical problems encountered while building applications.",
     "category": "technology",
+    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-12",
+    "addedAt": "2026-06-12T03:59:31.000Z",
+    "country": null
   },
   {
     "name": "Adventurous Kate",
     "url": "https://www.adventurouskate.com/blog/",
     "description": "Solo travel stories, destination guides and practical advice, sharing experiences and recommendations from journeys around the world.",
+    "subcategory": "Travel Diaries",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-04",
+    "addedAt": "2026-08-04T02:46:24.000Z",
+    "country": null
   },
   {
     "name": "Alastair Humphreys",
@@ -2117,7 +2509,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-02",
+    "addedAt": "2026-06-02T09:52:04.000Z",
+    "country": null
   },
   {
     "name": "Alex in Wanderland",
@@ -2128,7 +2522,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-04-20",
+    "addedAt": "2026-04-20T05:39:51.000Z",
+    "country": null
   },
   {
     "name": "Anna Everywhere",
@@ -2139,7 +2535,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-16",
+    "addedAt": "2026-08-16T11:32:27.000Z",
+    "country": null
   },
   {
     "name": "Bearfoot Theory",
@@ -2150,7 +2548,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-08-05",
+    "addedAt": "2026-08-05T04:37:15.000Z",
+    "country": null
   },
   {
     "name": "CleverHiker",
@@ -2161,32 +2561,37 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-08-08",
+    "country": "US",
+    "addedAt": "2026-08-08T09:00:46.000Z"
   },
   {
     "name": "Dan Flying Solo",
     "url": "https://www.danflyingsolo.com",
     "description": "Travel blog and photography site featuring destination guides, travel stories, practical tips, and journeys across Asia, Europe, and Australia.",
+    "subcategory": "Travel Diaries",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "PT"
+    "addedDate": "2026-08-30",
+    "country": "PT",
+    "addedAt": "2026-08-30T09:49:15.000Z"
   },
   {
     "name": "Dave’s Travel Pages",
     "url": "https://www.davestravelpages.com",
     "description": "Travel and cycling articles featuring destination guides, long-distance bicycle journeys and advice for independent travellers.",
+    "subcategory": "Places & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GR"
+    "addedDate": "2026-05-21",
+    "country": "GR",
+    "addedAt": "2026-05-21T20:01:47.000Z"
   },
   {
     "name": "Expert Vagabond",
@@ -2197,8 +2602,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null,
-    "country": "FR"
+    "addedDate": "2026-06-10",
+    "country": "FR",
+    "addedAt": "2026-06-10T07:19:30.000Z"
   },
   {
     "name": "Gnomad Home",
@@ -2209,8 +2615,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-09-15",
+    "country": "US",
+    "addedAt": "2026-09-15T11:02:48.000Z"
   },
   {
     "name": "Halfway Anywhere",
@@ -2221,7 +2628,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-30",
+    "addedAt": "2026-08-30T21:01:59.000Z",
+    "country": null
   },
   {
     "name": "Hand Luggage Only",
@@ -2232,7 +2641,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-10-03",
+    "addedAt": "2026-10-03T18:18:54.000Z",
+    "country": null
   },
   {
     "name": "Just a Little Further",
@@ -2243,7 +2654,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-28",
+    "addedAt": "2026-09-28T14:56:14.000Z",
+    "country": null
   },
   {
     "name": "Legal Nomads",
@@ -2254,7 +2667,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-08",
+    "addedAt": "2026-06-08T07:26:58.000Z",
+    "country": null
   },
   {
     "name": "Living Rootless",
@@ -2265,7 +2680,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-12",
+    "addedAt": "2026-08-12T23:46:05.000Z",
+    "country": null
   },
   {
     "name": "Migrationology",
@@ -2276,7 +2693,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null
+    "addedDate": "2026-05-30",
+    "addedAt": "2026-05-30T14:15:03.000Z",
+    "country": null
   },
   {
     "name": "Never Ending Footsteps",
@@ -2287,19 +2706,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "AU"
+    "addedDate": "2026-04-16",
+    "country": "AU",
+    "addedAt": "2026-04-16T14:56:35.000Z"
   },
   {
     "name": "Nomadic Matt",
     "url": "https://www.nomadicmatt.com/travel-blog/",
     "description": "Travel blog offering budget travel advice, destination guides, itineraries, practical planning tips, and ways to travel more affordably.",
     "category": "travel-outdoors",
+    "subcategory": "Places & Exploration",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-05-20",
+    "addedAt": "2026-05-20T22:35:44.000Z",
+    "country": null
   },
   {
     "name": "Nomadic Notes",
@@ -2310,8 +2733,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-08-16",
+    "country": "GB-ENG",
+    "addedAt": "2026-08-16T20:47:35.000Z"
   },
   {
     "name": "Ordinary Traveler",
@@ -2322,7 +2746,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-04-13",
+    "addedAt": "2026-04-13T01:53:33.000Z",
+    "country": null
   },
   {
     "name": "Randomwire",
@@ -2333,7 +2759,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-07-15",
+    "addedAt": "2026-07-15T17:43:35.000Z",
+    "country": null
   },
   {
     "name": "Road to the Sea",
@@ -2344,7 +2772,9 @@
     "recentlyAdded": true,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-28",
+    "addedAt": "2026-09-28T05:23:39.000Z",
+    "country": null
   },
   {
     "name": "Seat 31B",
@@ -2355,7 +2785,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-21",
+    "addedAt": "2026-06-21T13:01:23.000Z",
+    "country": null
   },
   {
     "name": "Sinclair Trails",
@@ -2366,8 +2798,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-04-16",
+    "country": "US",
+    "addedAt": "2026-04-16T19:46:48.000Z"
   },
   {
     "name": "The Blonde Abroad",
@@ -2378,18 +2811,23 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-30",
+    "addedAt": "2026-08-30T16:49:30.000Z",
+    "country": null
   },
   {
     "name": "The Broke Backpacker",
     "url": "https://www.thebrokebackpacker.com",
     "description": "Budget travel guides, backpacking advice and destination tips for travellers looking to explore with limited funds.",
     "category": "travel-outdoors",
+    "subcategory": "Places & Exploration",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-10",
+    "addedAt": "2026-06-10T03:55:33.000Z",
+    "country": null
   },
   {
     "name": "The Brutally Honest Traveler",
@@ -2400,18 +2838,23 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-13",
+    "addedAt": "2026-06-13T13:14:13.000Z",
+    "country": null
   },
   {
     "name": "The Culture Trip",
     "url": "https://www.theculturetrip.com",
     "description": "Travel and culture articles exploring destinations, local traditions, food and experiences in places around the world.",
+    "subcategory": "Places & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-09-17",
+    "addedAt": "2026-09-17T23:48:15.000Z",
+    "country": null
   },
   {
     "name": "The Dirtbag Dao",
@@ -2422,7 +2865,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-06-15",
+    "addedAt": "2026-06-15T17:33:48.000Z",
+    "country": null
   },
   {
     "name": "The Planet D",
@@ -2433,8 +2878,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": true,
-    "addedDate": null,
-    "country": "CA"
+    "addedDate": "2026-04-22",
+    "country": "CA",
+    "addedAt": "2026-04-22T01:40:25.000Z"
   },
   {
     "name": "The Wayward Home",
@@ -2445,8 +2891,9 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "IT"
+    "addedDate": "2026-07-29",
+    "country": "IT",
+    "addedAt": "2026-07-29T03:15:01.000Z"
   },
   {
     "name": "Tom’s Bike Trip",
@@ -2457,20 +2904,23 @@
     "recentlyAdded": true,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "GB-ENG"
+    "addedDate": "2026-06-18",
+    "country": "GB-ENG",
+    "addedAt": "2026-06-18T15:59:17.000Z"
   },
   {
     "name": "Two Wandering Soles",
     "url": "https://www.twowanderingsoles.com",
     "description": "Responsible adventure travel blog sharing destination guides, outdoor activities, practical planning advice, and experiences from around the world.",
+    "subcategory": "Places & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null,
-    "country": "US"
+    "addedDate": "2026-09-24",
+    "country": "US",
+    "addedAt": "2026-09-24T21:30:27.000Z"
   },
   {
     "name": "Van Tramp",
@@ -2481,7 +2931,9 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": "2026-08-01",
+    "addedAt": "2026-08-01T23:20:00.000Z",
+    "country": null
   },
   {
     "name": "Rick's Blog",
@@ -2492,7 +2944,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-08"
+    "addedDate": "2026-10-08",
+    "country": null
   },
   {
     "name": "Gödel's Lost Letter and P=NP",
@@ -2503,7 +2956,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Dyson's Dodecahedron",
@@ -2515,7 +2969,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Tellyspotting",
@@ -2527,7 +2982,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Retro Arcadia",
@@ -2539,7 +2995,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Tom the Dancing Bug",
@@ -2564,7 +3021,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Where Were They Now?",
@@ -2576,7 +3034,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Small Observations",
@@ -2588,7 +3047,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Android Essence",
@@ -2599,7 +3059,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Discontinued Notes",
@@ -2610,7 +3071,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Super-DuperToyBox",
@@ -2622,7 +3084,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Dinosaur Comics",
@@ -2647,18 +3110,20 @@
     "recentlyAdded": true,
     "favourite": true,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "The English Miscellany",
     "url": "https://english-skills-success.blogspot.com/",
     "description": "Educational writing about English literature, language and exam preparation, with resources and ideas for students.",
-    "category": "science-and-nature",
+    "category": "books-and-writing",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Tower of Zenopus",
@@ -2670,7 +3135,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "The Swedish Games",
@@ -2694,7 +3160,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Alexander Obenauer",
@@ -2705,23 +3172,27 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Asking the Wrong Questions",
     "url": "https://wrongquestions.blogspot.com/",
     "description": "By Abigail Nussbaum. 🇮🇱 Started in 2005. Average 80 words.",
+    "subcategory": "Book Reviews",
     "category": "books-and-writing",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Deep Cuts in a Lovecraftian Vein",
     "url": "https://deepcuts.blog/posts/",
     "description": "“The Undiscovered Mythos.” By Bobby Derie. Started in 2018. Average 3,978 words.",
+    "subcategory": "Literature",
     "category": "books-and-writing",
     "topics": [],
     "recentlyAdded": true,
@@ -2739,7 +3210,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "The Overspill",
@@ -2750,7 +3222,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Gorillas Don't Blog",
@@ -2761,7 +3234,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Retired Martin",
@@ -2772,7 +3246,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": "2026-10-09"
+    "addedDate": "2026-10-09",
+    "country": null
   },
   {
     "name": "Dan Q",
@@ -2796,7 +3271,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:40:30.587Z"
+    "addedAt": "2026-10-09T09:40:30.587Z",
+    "country": null
   },
   {
     "name": "Keet Blog",
@@ -2808,7 +3284,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:40:30.588Z"
+    "addedAt": "2026-10-09T09:40:30.588Z",
+    "country": null
   },
   {
     "name": "Luke Salamone's Blog",
@@ -2820,7 +3297,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:40:30.589Z"
+    "addedAt": "2026-10-09T09:40:30.589Z",
+    "country": null
   },
   {
     "name": "Replicate Blog",
@@ -2832,19 +3310,22 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:40:30.590Z"
+    "addedAt": "2026-10-09T09:40:30.590Z",
+    "country": null
   },
   {
     "name": "The Stone and the Shell",
     "url": "https://tedunderwood.com/",
     "description": "Exploring literary history through digital libraries, computational methods, artificial intelligence and cultural analysis.",
+    "subcategory": "Literature",
     "category": "books-and-writing",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:40:30.591Z"
+    "addedAt": "2026-10-09T09:40:30.591Z",
+    "country": null
   },
   {
     "name": "Asaf Karagila",
@@ -2856,7 +3337,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.541Z"
+    "addedAt": "2026-10-09T09:49:21.541Z",
+    "country": null
   },
   {
     "name": "4 Gravitons",
@@ -2868,7 +3350,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.542Z"
+    "addedAt": "2026-10-09T09:49:21.542Z",
+    "country": null
   },
   {
     "name": "The Anomalist",
@@ -2880,7 +3363,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.543Z"
+    "addedAt": "2026-10-09T09:49:21.543Z",
+    "country": null
   },
   {
     "name": "Lior Pachter",
@@ -2892,19 +3376,22 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.544Z"
+    "addedAt": "2026-10-09T09:49:21.544Z",
+    "country": null
   },
   {
     "name": "Lab Muffin Beauty Science",
     "url": "https://labmuffin.com/",
     "description": "Science-based explanations of skincare and cosmetics, using chemistry to examine beauty products, ingredients and common claims.",
-    "category": "lifestyle-and-hobbies",
+    "category": "health-and-wellbeing",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.545Z"
+    "addedAt": "2026-10-09T09:49:21.545Z",
+    "country": null,
+    "subcategory": "Beauty & Skincare"
   },
   {
     "name": "Mind Hacks",
@@ -2916,7 +3403,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.546Z"
+    "addedAt": "2026-10-09T09:49:21.546Z",
+    "country": null
   },
   {
     "name": "Molecular Design",
@@ -2928,7 +3416,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.547Z"
+    "addedAt": "2026-10-09T09:49:21.547Z",
+    "country": null
   },
   {
     "name": "Nintil",
@@ -2940,7 +3429,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.548Z"
+    "addedAt": "2026-10-09T09:49:21.548Z",
+    "country": null
   },
   {
     "name": "Not Even Wrong",
@@ -2952,7 +3442,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T09:49:21.549Z"
+    "addedAt": "2026-10-09T09:49:21.549Z",
+    "country": null
   },
   {
     "name": "The Celtic Blog",
@@ -2965,7 +3456,7 @@
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
     "addedAt": "2026-10-09T13:44:06Z",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "country": "GB-SCT"
   },
   {
@@ -2973,7 +3464,7 @@
     "url": "https://readceltic.com/",
     "description": "Celtic FC news and opinion covering the latest club developments, transfers, match previews, reviews and Scottish football.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -2987,7 +3478,7 @@
     "url": "https://thecelticstar.com/",
     "description": "Celtic FC supporters' website covering club news, match reports, transfer updates, opinion and the history of Celtic Football Club.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3001,20 +3492,21 @@
     "url": "https://arseblog.com/",
     "description": "Independent Arsenal FC blog covering club news, match reports, transfers, opinion, analysis and the Arsecast podcast.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:16:07.027Z"
+    "addedAt": "2026-10-09T15:16:07.027Z",
+    "country": null
   },
   {
     "name": "The Highbury Library",
     "url": "https://thehighburylibrary.com/",
     "description": "Arsenal blog aggregator bringing together articles, commentary and opinions from independent Arsenal supporters' websites.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3028,20 +3520,21 @@
     "url": "https://arseblog.news/",
     "description": "Arsenal FC news website covering match reports, player updates, transfers, club developments and Arsenal Women.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:16:07.027Z"
+    "addedAt": "2026-10-09T15:16:07.027Z",
+    "country": null
   },
   {
     "name": "Gunnerstown",
     "url": "https://gunnerstown.com/",
     "description": "Arsenal supporters' website featuring fan-written articles, tactical analysis, match commentary and opinion.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3055,46 +3548,49 @@
     "url": "https://bluemoon-mcfc.co.uk/",
     "description": "Manchester City supporters' community featuring football discussion, match analysis, transfer rumours and fan commentary.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:16:07.027Z"
+    "addedAt": "2026-10-09T15:16:07.027Z",
+    "country": null
   },
   {
     "name": "Bitter and Blue",
     "url": "https://bitterandblue.sbnation.com",
     "description": "Manchester City supporters' website covering club news, match previews, analysis, transfers and fan opinion.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:16:07.027Z"
+    "addedAt": "2026-10-09T15:16:07.027Z",
+    "country": null
   },
   {
     "name": "The Busby Babe",
     "url": "https://thebusbybabe.sbnation.com",
     "description": "Manchester United supporters' blog featuring club news, match previews, tactical analysis, player ratings and fan opinion.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:17:46.327Z"
+    "addedAt": "2026-10-09T15:17:46.327Z",
+    "country": null
   },
   {
     "name": "Man United Blogs",
     "url": "https://www.manunitedblogs.com/",
     "description": "Manchester United website publishing club news, player updates, transfer discussion, match coverage and opinion articles.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3108,26 +3604,28 @@
     "url": "https://therepublikofmancunia.com/",
     "description": "Long-running Manchester United supporters' blog covering club news, match analysis, player interviews, opinion and fan commentary.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:17:46.327Z"
+    "addedAt": "2026-10-09T15:17:46.327Z",
+    "country": null
   },
   {
     "name": "We Ain't Got No History",
     "url": "https://weaintgotnohistory.sbnation.com",
     "description": "Chelsea FC supporters' blog featuring club news, match previews, transfer updates, analysis and fan discussion.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:17:46.327Z"
+    "addedAt": "2026-10-09T15:17:46.327Z",
+    "country": null
   },
   {
     "name": "Retro Game Talk",
@@ -3140,7 +3638,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:22:14.286Z"
+    "addedAt": "2026-10-09T15:22:14.286Z",
+    "country": null
   },
   {
     "name": "Time Extension",
@@ -3153,7 +3652,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:22:14.286Z"
+    "addedAt": "2026-10-09T15:22:14.286Z",
+    "country": null
   },
   {
     "name": "Arcade Attack",
@@ -3166,7 +3666,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:22:14.286Z"
+    "addedAt": "2026-10-09T15:22:14.286Z",
+    "country": null
   },
   {
     "name": "Retro Garden",
@@ -3179,7 +3680,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:26:16.014Z"
+    "addedAt": "2026-10-09T15:26:16.014Z",
+    "country": null
   },
   {
     "name": "Classic Game Zone",
@@ -3192,7 +3694,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:26:16.014Z"
+    "addedAt": "2026-10-09T15:26:16.014Z",
+    "country": null
   },
   {
     "name": "Mrs Mummypenny",
@@ -3205,7 +3708,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:28:20.124Z"
+    "addedAt": "2026-10-09T15:28:20.124Z",
+    "country": null
   },
   {
     "name": "HumbleDollar",
@@ -3232,7 +3736,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:28:20.124Z"
+    "addedAt": "2026-10-09T15:28:20.124Z",
+    "country": null
   },
   {
     "name": "She's on the Money",
@@ -3245,7 +3750,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:28:20.124Z"
+    "addedAt": "2026-10-09T15:28:20.124Z",
+    "country": null
   },
   {
     "name": "Mr. Money Mustache",
@@ -3258,7 +3764,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:28:20.124Z"
+    "addedAt": "2026-10-09T15:28:20.124Z",
+    "country": null
   },
   {
     "name": "LinuxBlog.io",
@@ -3271,7 +3778,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:36:39.193Z"
+    "addedAt": "2026-10-09T15:36:39.193Z",
+    "country": null
   },
   {
     "name": "9to5Linux",
@@ -3284,7 +3792,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:36:39.193Z"
+    "addedAt": "2026-10-09T15:36:39.193Z",
+    "country": null
   },
   {
     "name": "LWN.net",
@@ -3297,20 +3806,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:36:39.193Z"
-  },
-  {
-    "name": "Disney Parks Blog",
-    "url": "https://disneyparksblog.com/",
-    "description": "Official Disney blog covering Disneyland, Walt Disney World, Disney Cruise Line, park announcements, attractions, events and behind-the-scenes stories.",
-    "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
-    "topics": [],
-    "recentlyAdded": true,
-    "favourite": false,
-    "noLongerUpdated": false,
-    "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:38:49.135Z"
+    "addedAt": "2026-10-09T15:36:39.193Z",
+    "country": null
   },
   {
     "name": "Disney Tourist Blog",
@@ -3323,7 +3820,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:38:49.135Z"
+    "addedAt": "2026-10-09T15:38:49.135Z",
+    "country": null
   },
   {
     "name": "The Happiest Blog on Earth",
@@ -3336,7 +3834,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:38:49.135Z"
+    "addedAt": "2026-10-09T15:38:49.135Z",
+    "country": null
   },
   {
     "name": "People Mover Travel Blog",
@@ -3349,7 +3848,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:38:49.135Z"
+    "addedAt": "2026-10-09T15:38:49.135Z",
+    "country": null
   },
   {
     "name": "One Girl, Whole World",
@@ -3376,7 +3876,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T15:49:56.814Z"
+    "addedAt": "2026-10-09T15:49:56.814Z",
+    "country": null
   },
   {
     "name": "Dinosaur Toy Blog",
@@ -3389,7 +3890,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:42:14.028Z"
+    "addedAt": "2026-10-09T16:42:14.028Z",
+    "country": null
   },
   {
     "name": "The History Blog",
@@ -3402,7 +3904,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:42:14.028Z"
+    "addedAt": "2026-10-09T16:42:14.028Z",
+    "country": null
   },
   {
     "name": "Anderegg",
@@ -3429,7 +3932,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": null
   },
   {
     "name": "Asad Rahman",
@@ -3470,7 +3974,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": null
   },
   {
     "name": "danah boyd",
@@ -3483,7 +3988,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": null
   },
   {
     "name": "Robin Sloan's Lab",
@@ -3496,7 +4002,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": null
   },
   {
     "name": "Interconnected",
@@ -3509,27 +4016,29 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": null
   },
   {
     "name": "GardenRant",
     "url": "https://gardenrant.com/",
     "description": "Independent multi-author gardening blog offering opinionated commentary, practical advice, garden design perspectives, horticultural news, and environmental discussion.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:51:31.387Z"
+    "addedAt": "2026-10-09T16:51:31.387Z",
+    "country": null
   },
   {
     "name": "Garden Betty",
     "url": "https://gardenbetty.com/",
     "description": "Linda Ly shares practical gardening advice, recipes, homesteading projects, and sustainable ways to grow and enjoy food.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3543,26 +4052,28 @@
     "url": "https://savvygardening.com/",
     "description": "Horticultural writers offer practical advice on growing vegetables, flowers, houseplants, garden design, pest control, and sustainable gardening.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:51:31.387Z"
+    "addedAt": "2026-10-09T16:51:31.387Z",
+    "country": null
   },
   {
     "name": "Joe Gardener",
     "url": "https://joegardener.com/blog/",
     "description": "Joe Lamp'l provides practical advice on growing food, organic gardening, green living, and sustainable garden care.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:51:31.387Z"
+    "addedAt": "2026-10-09T16:51:31.387Z",
+    "country": null
   },
   {
     "name": "I Am a Food Blog",
@@ -3575,7 +4086,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Jen's Food Blog",
@@ -3588,27 +4100,29 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Greg Alder's Yard Posts",
     "url": "https://gregalder.com/yardposts/",
     "description": "Greg Alder offers Southern California food-gardening advice on avocados, fruit trees, vegetables, pests, watering, soil, and seasons.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Adam Apples",
     "url": "https://adamapples.blogspot.com/",
     "description": "Adam's Apples reviews hundreds of apple varieties, recording their flavour, appearance, ratings, origins, and orchard-related observations.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3622,85 +4136,91 @@
     "url": "https://www.adamynyrardd.cymru/en/blog-en/",
     "description": "Adam Jones shares Welsh and English gardening advice, no-dig growing, self-sufficiency, plant knowledge, and garden experiences.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Green Shade Diary",
     "url": "https://greenshadediary.blogspot.com/",
     "description": "Rupert Hughes documents back-garden botany, gardening, urban ecology, countryside rambles, conservation, and field observations through photographs and diary entries.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "My Home Farm",
     "url": "https://myhomefarm.co.uk/",
     "description": "Kirsten and Mars document sustainable country living, gardening, home renovation, food, wellbeing, and life on their rural farm.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Rachel the Gardener",
     "url": "https://rachel-the-gardener.blogspot.com/",
     "description": "Rachel the Gardener writes about professional garden work, botany, plant care, teaching, wildlife, and practical experiences from working gardens.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Reclaiming Paradise",
     "url": "https://reclaimingparadise.wordpress.com/",
     "description": "Organic gardener J Gulland shares garden and allotment experiences, growing vegetables, fruit and flowers, seasonal observations, recipes, and sustainability.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "Sick Veg",
     "url": "https://www.sickveg.com/",
     "description": "Sick Veg explores gardening, agriculture, self-sufficiency, organic growing, food, books, counterculture, and relationships between people and land.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "No Dig Home",
     "url": "https://nodighome.com/blog-posts/",
     "description": "Stephanie Hafferty documents no-dig gardening, homesteading, kitchen gardening, seasonal growing, preserving, soil care, and sustainable food production.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3714,13 +4234,14 @@
     "url": "https://theunconventionalgardener.com/blog/",
     "description": "Emma Doughty's blog combines ethnobotany, science writing, food growing, ecology, garden inspiration, and unusual plants.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "Gardening",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:56:15.436Z"
+    "addedAt": "2026-10-09T16:56:15.436Z",
+    "country": null
   },
   {
     "name": "16bit.com",
@@ -3733,7 +4254,8 @@
     "favourite": true,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "Action Figure Barbecue",
@@ -3760,7 +4282,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "The Brothers Brick",
@@ -3773,7 +4296,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "The Figure in Question",
@@ -3786,7 +4310,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "Figure of the Day",
@@ -3799,7 +4324,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "Kids Bricks",
@@ -3812,7 +4338,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "New Elementary",
@@ -3825,7 +4352,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "The Brick Blogger",
@@ -3838,7 +4366,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:58:42.356Z"
+    "addedAt": "2026-10-09T16:58:42.356Z",
+    "country": null
   },
   {
     "name": "The Brooks Review",
@@ -3851,7 +4380,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "Everyday Carry",
@@ -3864,7 +4394,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "Everyday Commentary",
@@ -3877,7 +4408,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "The Gentleman Stationer",
@@ -3890,7 +4422,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "Grizzly's Reviews",
@@ -3903,7 +4436,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "Knife Steel Nerds",
@@ -3916,7 +4450,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "The Pen Addict",
@@ -3929,7 +4464,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "Tim McMahon",
@@ -3942,7 +4478,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:01:58.886Z"
+    "addedAt": "2026-10-09T17:01:58.886Z",
+    "country": null
   },
   {
     "name": "Runbo Li",
@@ -3954,7 +4491,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:13:05.251Z"
+    "addedAt": "2026-10-09T17:13:05.251Z",
+    "country": null
   },
   {
     "name": "Resolve",
@@ -3967,7 +4505,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T17:13:58.000Z"
+    "addedAt": "2026-10-09T17:13:58.000Z",
+    "country": null
   },
   {
     "name": "The Film Blog",
@@ -3980,7 +4519,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T18:03:58.409Z"
+    "addedAt": "2026-10-09T18:03:58.409Z",
+    "country": null
   },
   {
     "name": "Man in Chair",
@@ -4007,7 +4547,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "Babak Fakhamzadeh",
@@ -4020,7 +4561,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "Supper Mario Broth",
@@ -4033,7 +4575,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "The Diary of Samuel Pepys",
@@ -4074,20 +4617,22 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "greg.org",
     "url": "https://greg.org/",
     "description": "Greg Allen's long-running writing about art, film, architecture, exhibitions, artists, and the making of creative work.",
     "category": "arts-and-entertainment",
-    "subcategory": "Comics & Illustration",
+    "subcategory": "Design & Creative Projects",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "Wyrd Britain",
@@ -4100,20 +4645,22 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "Shouting Into The Void",
     "url": "https://mojobob.blogspot.com/",
     "description": "Fitz's blog about roleplaying, wargaming, scale modelling, miniature painting, and related hobby projects.",
-    "category": "lifestyle-and-hobbies",
-    "subcategory": "Everyday Life",
+    "category": "arts-and-entertainment",
+    "subcategory": "Gaming",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "web-goddess",
@@ -4154,7 +4701,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "The Stop Button",
@@ -4167,7 +4715,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "VHiStory",
@@ -4180,7 +4729,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "Balladeer's Blog",
@@ -4193,7 +4743,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T00:00:00.000Z"
+    "addedAt": "2026-10-10T00:00:00.000Z",
+    "country": null
   },
   {
     "name": "Josh Collinsworth",
@@ -4206,7 +4757,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:21:50.015Z"
+    "addedAt": "2026-10-10T05:21:50.015Z",
+    "country": null
   },
   {
     "name": "Justin Searls",
@@ -4219,7 +4771,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:21:50.015Z"
+    "addedAt": "2026-10-10T05:21:50.015Z",
+    "country": null
   },
   {
     "name": "Justin's IT Blog",
@@ -4232,7 +4785,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:21:50.015Z"
+    "addedAt": "2026-10-10T05:21:50.015Z",
+    "country": null
   },
   {
     "name": "Max Glenister",
@@ -4252,14 +4806,16 @@
     "name": "net.wars",
     "url": "https://netwars.pelicancrossing.net/",
     "description": "Wendy Grossman's long-running blog about computers, freedom, privacy, technology policy, and the social consequences of digital systems.",
-    "category": "internet-and-society",
+    "category": "technology",
+    "subcategory": "Privacy & Security",
     "subcategory": "Privacy & Security",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:21:50.015Z"
+    "addedAt": "2026-10-10T05:21:50.015Z",
+    "country": null
   },
   {
     "name": "nyanpasu64's blog",
@@ -4272,20 +4828,21 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:21:50.015Z"
+    "addedAt": "2026-10-10T05:21:50.015Z",
+    "country": null
   },
   {
     "name": "Old Vintage Computing Research",
     "url": "https://oldvcr.blogspot.com/",
     "description": "Research and observations on vintage computers, hardware restoration, electronics, and the history of personal computing.",
     "category": "technology",
-    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:21:50.015Z"
+    "addedAt": "2026-10-10T05:21:50.015Z",
+    "country": null
   },
   {
     "name": "Rachel's Vintage & Retro",
@@ -4298,7 +4855,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T05:41:02.486Z"
+    "addedAt": "2026-10-10T05:41:02.486Z",
+    "country": null
   },
   {
     "name": "Michael's Moviepalace",
@@ -4311,7 +4869,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:09:57.213Z"
+    "addedAt": "2026-10-10T06:09:57.213Z",
+    "country": null
   },
   {
     "name": "Final Girl",
@@ -4324,7 +4883,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:09:57.213Z"
+    "addedAt": "2026-10-10T06:09:57.213Z",
+    "country": null
   },
   {
     "name": "Laura's Miscellaneous Musings",
@@ -4337,27 +4897,29 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:09:57.213Z"
+    "addedAt": "2026-10-10T06:09:57.213Z",
+    "country": null
   },
   {
     "name": "The $tingy Sailor",
     "url": "https://stingysailor.com/",
     "description": "Detailed DIY guides for restoring and improving a trailerable sailboat, covering practical projects from rigging and electrical work to hull and trailer repairs.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "DIY & Making",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:18:00.668Z"
+    "addedAt": "2026-10-10T06:18:00.668Z",
+    "country": null
   },
   {
     "name": "Given to Tri",
     "url": "https://www.giventotri.com/",
     "description": "Guillermo Esteves shares what he learns as an age-group triathlete, including training, race reports and the realities of taking up the sport later in life.",
-    "category": "lifestyle-and-hobbies",
-    "subcategory": "Health & Wellness",
+    "category": "health-and-wellbeing",
+    "subcategory": "Fitness & Exercise",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -4377,7 +4939,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:18:00.668Z"
+    "addedAt": "2026-10-10T06:18:00.668Z",
+    "country": null
   },
   {
     "name": "Jon's Place",
@@ -4390,46 +4953,50 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:18:00.668Z"
+    "addedAt": "2026-10-10T06:18:00.668Z",
+    "country": null
   },
   {
     "name": "Sitting In The Cheap Seats",
     "url": "https://inthecheapseats.co.uk/",
     "description": "Interviews, opinions and features from the world of sport and beyond, including ice hockey, rugby and theatre.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:18:00.668Z"
+    "addedAt": "2026-10-10T06:18:00.668Z",
+    "country": null
   },
   {
     "name": "Swole at Every Height",
     "url": "https://swoleateveryheight.blogspot.com/",
     "description": "Cody Lefever’s long-running writing on strength training, conditioning and the daily practice of getting stronger.",
-    "category": "lifestyle-and-hobbies",
-    "subcategory": "Health & Wellness",
+    "category": "health-and-wellbeing",
+    "subcategory": "Fitness & Exercise",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:18:00.668Z"
+    "addedAt": "2026-10-10T06:18:00.668Z",
+    "country": null
   },
   {
     "name": "TableTennisCoaching.com",
     "url": "https://www.tabletenniscoaching.com/blog",
     "description": "Larry Hodges’ extensive table-tennis coaching archive, with weekly blogs, tips, training advice and practical guidance for players.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:18:00.668Z"
+    "addedAt": "2026-10-10T06:18:00.668Z",
+    "country": null
   },
   {
     "name": "The Privacy Dad's Blog",
@@ -4442,7 +5009,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:34:26.450Z"
+    "addedAt": "2026-10-10T06:34:26.450Z",
+    "country": null
   },
   {
     "name": "The Diary of Dad",
@@ -4455,33 +5023,36 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T06:34:26.450Z"
+    "addedAt": "2026-10-10T06:34:26.450Z",
+    "country": null
   },
   {
     "name": "The Art of Doing Stuff",
     "url": "https://www.theartofdoingstuff.com/",
     "description": "Karen Bertelsen shares entertaining, practical guidance from years of gardening, cooking, home repair, renovation and hands-on DIY projects.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Gardening & DIY",
+    "subcategory": "DIY & Making",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "Galactic Hunter",
     "url": "http://www.galactichunter.com/GH/",
     "description": "Adam Pawlus’s long-running Star Wars collecting site, featuring original action-figure reviews, collecting commentary, news and specialist reference material.",
-    "category": "arts-and-entertainment",
-    "subcategory": "Gaming",
+    "category": "lifestyle-and-hobbies",
+    "subcategory": "Collecting & Memorabilia",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "Alex Wilson",
@@ -4494,7 +5065,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "rotational",
@@ -4507,7 +5079,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "Amadeus Paulussen",
@@ -4520,7 +5093,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "AndreGarzia.Com",
@@ -4547,7 +5121,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "podviaznikov.com",
@@ -4588,14 +5163,15 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:16:52.910Z"
+    "addedAt": "2026-10-10T08:16:52.910Z",
+    "country": null
   },
   {
     "name": "Andy Muirhead | Celtic FC & Scottish Football Blogger",
     "url": "https://www.andymuirhead.com/",
     "description": "Andy Muirhead's independent commentary and analysis on Celtic FC, Scottish football and the wider game, with a distinctly Celtic perspective.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -4609,7 +5185,7 @@
     "url": "https://www.celticquicknews.co.uk/",
     "description": "Independent Celtic supporters' blog featuring Paul67's match analysis, club commentary, Scottish football discussion and long-running fan conversation.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -4623,7 +5199,7 @@
     "url": "https://celtic365.com/",
     "description": "Independent Celtic supporters' site publishing original opinion, fan commentary and analysis of the club, its ownership and Scottish football.",
     "category": "lifestyle-and-hobbies",
-    "subcategory": "Football & Sports",
+    "subcategory": "Sports & Recreation",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -4637,13 +5213,14 @@
     "url": "https://www.darrenvandam.com/blog",
     "description": "Darren Van Dam shares film reviews, overlooked movie recommendations, horror favourites and personal takes on everything from cult classics to new releases.",
     "category": "arts-and-entertainment",
-    "subcategory": "Halloween & Horror",
+    "subcategory": "Film, TV & Theatre",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T08:47:34.077Z"
+    "addedAt": "2026-10-10T08:47:34.077Z",
+    "country": null
   },
   {
     "name": "The Movie Blog",
@@ -4656,7 +5233,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T09:49:00.636Z"
+    "addedAt": "2026-10-10T09:49:00.636Z",
+    "country": null
   },
   {
     "name": "the m0vie blog",
@@ -4669,7 +5247,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T09:49:00.645Z"
+    "addedAt": "2026-10-10T09:49:00.645Z",
+    "country": null
   },
   {
     "name": "UK Film Review",
@@ -4696,7 +5275,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T09:49:00.649Z"
+    "addedAt": "2026-10-10T09:49:00.649Z",
+    "country": null
   },
   {
     "name": "Movie Metropolis",
@@ -4723,7 +5303,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T09:49:00.649Z"
+    "addedAt": "2026-10-10T09:49:00.649Z",
+    "country": null
   },
   {
     "name": "Life of Films",
@@ -4750,7 +5331,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T09:49:00.649Z"
+    "addedAt": "2026-10-10T09:49:00.649Z",
+    "country": null
   },
   {
     "name": "Jason's Movie Blog",
@@ -4763,7 +5345,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T09:49:00.650Z"
+    "addedAt": "2026-10-10T09:49:00.650Z",
+    "country": null
   },
   {
     "name": "Heather Burns",
@@ -4783,8 +5366,8 @@
     "name": "Slugger O'Toole",
     "url": "https://sluggerotoole.com/",
     "description": "Independent Northern Ireland blog publishing political commentary, analysis, current affairs and community debate.",
-    "category": "culture-and-places",
-    "subcategory": "Local Culture & Communities",
+    "category": "internet-and-society",
+    "subcategory": "Society & Commentary",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -4804,7 +5387,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T16:19:24.000Z"
+    "addedAt": "2026-10-10T16:19:24.000Z",
+    "country": null
   },
   {
     "name": "SnitchSeeker",
@@ -4817,7 +5401,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T16:24:54.000Z"
+    "addedAt": "2026-10-10T16:24:54.000Z",
+    "country": null
   },
   {
     "name": "Susan Stepney's Blog",
@@ -4830,7 +5415,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T17:03:36.000Z"
+    "addedAt": "2026-10-10T17:03:36.000Z",
+    "country": null
   },
   {
     "name": "News From ME",
@@ -4843,20 +5429,21 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T17:03:36.000Z"
+    "addedAt": "2026-10-10T17:03:36.000Z",
+    "country": null
   },
   {
     "name": "Confessions of a Train Geek",
     "url": "https://www.traingeek.ca/wp/",
     "description": "Steve Boyko's railway blog featuring train photography, railfanning adventures, Canadian railway history, locomotives and stories from trackside.",
-    "category": "lifestyle-and-hobbies",
-    "subcategory": "Everyday Life",
+    "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
-    "addedAt": "2026-10-10T17:03:36.000Z"
+    "addedAt": "2026-10-10T17:03:36.000Z",
+    "country": null
   },
   {
     "name": "British Landscapes Photography",
@@ -5017,7 +5604,6 @@
     "url": "https://www.righto.com/",
     "description": "An independent technology blog exploring vintage computers, electronics restoration, microprocessors and reverse-engineering integrated circuits.",
     "category": "technology",
-    "subcategory": "Programming & Development",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -5310,8 +5896,8 @@
     "name": "BikePortland",
     "url": "https://bikeportland.org/",
     "description": "An independent Portland cycling publication covering bicycle culture, transport policy, safer streets, local advocacy and community events, with reporting and commentary on how people travel around the city.",
-    "category": "travel-outdoors",
-    "subcategory": "Camping & Outdoor Life",
+    "category": "culture-and-places",
+    "subcategory": "Local Culture & Communities",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -5655,5 +6241,47 @@
     "addedDate": "2026-10-11",
     "addedAt": "2026-10-11T11:09:53.685Z",
     "country": "GB-SCT"
+  },
+  {
+    "name": "The Autistic Advocate",
+    "url": "https://theautisticadvocate.com/blog/",
+    "description": "An independent blog by autistic advocate Kieran Rose exploring autistic identity, neurodiversity, lived experience, education and the challenges faced by autistic people.",
+    "category": "health-and-wellbeing",
+    "subcategory": "Autism & Neurodiversity",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T11:21:26.543Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "The Autism Cafe",
+    "url": "https://theautismcafe.com/",
+    "description": "A personal blog by Eileen Lamb sharing experiences of autism, parenting, family life, neurodiversity and advocacy through personal stories and practical advice.",
+    "category": "health-and-wellbeing",
+    "subcategory": "Autism & Neurodiversity",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T11:21:26.543Z",
+    "country": "US"
+  },
+  {
+    "name": "Authentically Emily",
+    "url": "https://www.authenticallyemily.uk/",
+    "description": "A personal blog by Emily Katy sharing honest reflections on autism, mental health, neurodiversity, lived experience and navigating everyday life.",
+    "category": "health-and-wellbeing",
+    "subcategory": "Autism & Neurodiversity",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T11:21:26.543Z",
+    "country": "GB-ENG"
   }
 ]

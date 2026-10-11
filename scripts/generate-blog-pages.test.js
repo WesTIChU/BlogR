@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 460)
+  assert.equal(blogs.length, 462)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -162,7 +162,7 @@ test('groups country pages by assigned country and excludes unknown countries', 
     unitedStatesPage,
     /## Lifestyle &amp; Hobbies|## Lifestyle & Hobbies/
   )
-  assert.match(unitedStatesPage, /### Gardening &amp; DIY|### Gardening & DIY/)
+  assert.match(unitedStatesPage, /### Gardening/)
 
   const englandPage = await readFile('docs/country/england.md', 'utf8')
   assert.match(englandPage, /This Is Horror/)

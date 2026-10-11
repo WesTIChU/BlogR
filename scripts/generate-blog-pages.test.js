@@ -22,7 +22,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 439)
+  assert.equal(blogs.length, 444)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -123,6 +123,9 @@ test('groups country pages by assigned country and excludes unknown countries', 
   )
   assert.match(unitedStatesPage, /Spooky Little Halloween/)
   assert.match(unitedStatesPage, /Halloween Love/)
+  assert.match(unitedStatesPage, /Pumpkinrot/)
+  assert.match(unitedStatesPage, /Justine's Halloween/)
+  assert.match(unitedStatesPage, /Spooky Little Girl Like You/)
   assert.match(
     unitedStatesPage,
     /## Arts &amp; Entertainment|## Arts & Entertainment/
@@ -136,6 +139,47 @@ test('groups country pages by assigned country and excludes unknown countries', 
     /## Lifestyle &amp; Hobbies|## Lifestyle & Hobbies/
   )
   assert.match(unitedStatesPage, /### Gardening &amp; DIY|### Gardening & DIY/)
+
+  const entertainmentPage = await readFile(
+    'docs/collections/arts-and-entertainment.md',
+    'utf8'
+  )
+  assert.match(
+    entertainmentPage,
+    /## Halloween &amp; Horror|## Halloween & Horror/
+  )
+  for (const name of [
+    'Spooky Little Halloween',
+    'Pumpkinrot',
+    "Justine's Halloween",
+    'Halloween Love',
+    'The Horrors of Halloween',
+    'Spooky Little Girl Like You',
+    'Final Girl',
+    'Darren Van Dam',
+    'Strange Little Girl'
+  ]) {
+    assert.match(
+      entertainmentPage,
+      new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+    )
+  }
+
+  const lifestylePage = await readFile(
+    'docs/collections/lifestyle-and-hobbies.md',
+    'utf8'
+  )
+  for (const name of [
+    'Spooky Little Halloween',
+    'Pumpkinrot',
+    "Justine's Halloween",
+    'Strange Little Girl'
+  ]) {
+    assert.doesNotMatch(
+      lifestylePage,
+      new RegExp(name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+    )
+  }
 
   const generated = countryPage({ flag: '🇦🇺', name: 'Australia' }, [
     {

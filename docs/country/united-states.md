@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 36 blogs listed in United States.
+description: 39 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="36" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="39" />
 
 ## Arts & Entertainment
 
@@ -24,8 +24,15 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Film, TV & Theatre
 
-* <span class="blog-entry"><BlogHealthLink name="Halloween Love" url="https://halloweenlove.com/" :favourite="false" /> - An independent Halloween and horror blog covering scary movies, spooky culture, collectibles, video games, art and everything macabre, with contributions from passionate horror fans.</span><BlogLastUpdated url="https://halloweenlove.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Hometowns to Hollywood" url="https://hometownstohollywood.com/" :favourite="false" /> - A blog exploring classic Hollywood, film history and the hometowns and personal stories of legendary actors and entertainers.</span><BlogLastUpdated url="https://hometownstohollywood.com/" added-date="2026-10-11" />
+
+### Halloween & Horror
+
+* <span class="blog-entry"><BlogHealthLink name="Halloween Love" url="https://halloweenlove.com/" :favourite="false" /> - An independent Halloween and horror blog covering scary movies, spooky culture, collectibles, video games, art and everything macabre, with contributions from passionate horror fans.</span><BlogLastUpdated url="https://halloweenlove.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Justine's Halloween" url="https://justineshalloween.blogspot.com/" :favourite="false" /> - A personal Halloween blog sharing seasonal decorations, pumpkin displays, spooky shopping discoveries, photographs, parties and the fun of celebrating Halloween year after year.</span><BlogLastUpdated url="https://justineshalloween.blogspot.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Pumpkinrot" url="https://pumpkinrot.blogspot.com/" :favourite="false" /> - A long-running Halloween blog featuring atmospheric photography, homemade Halloween decorations, eerie artwork, elaborate yard haunts and nostalgic celebrations of the spooky season.</span><BlogLastUpdated url="https://pumpkinrot.blogspot.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Spooky Little Girl Like You" url="http://spookylittlegirllikeyou.blogspot.com/" :favourite="false" /> - A Los Angeles-based Halloween and horror blog covering haunted attractions, spooky events, film and theatre reviews, haunted places, seasonal entertainment and all things haunted.</span><BlogLastUpdated url="http://spookylittlegirllikeyou.blogspot.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Spooky Little Halloween" url="https://www.spookylittlehalloween.com/blog" :favourite="false" /> - A year-round Halloween blog celebrating spooky living, decorations, DIY projects, parties, entertainment and everything that makes Halloween fun beyond October.</span><BlogLastUpdated url="https://www.spookylittlehalloween.com/blog" added-date="2026-10-11" />
 
 ### Music
 
@@ -60,7 +67,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 * <span class="blog-entry"><BlogHealthLink name="Adam Apples" url="https://adamapples.blogspot.com/" :favourite="false" /> - Adam's Apples reviews hundreds of apple varieties, recording their flavour, appearance, ratings, origins, and orchard-related observations.</span><BlogLastUpdated url="https://adamapples.blogspot.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="Garden Betty" url="https://gardenbetty.com/" :favourite="false" /> - Linda Ly shares practical gardening advice, recipes, homesteading projects, and sustainable ways to grow and enjoy food.</span><BlogLastUpdated url="https://gardenbetty.com/" added-date="2026-10-09" />
-* <span class="blog-entry"><BlogHealthLink name="Spooky Little Halloween" url="https://www.spookylittlehalloween.com/blog" :favourite="false" /> - A year-round Halloween blog celebrating spooky living, decorations, DIY projects, parties, entertainment and everything that makes Halloween fun beyond October.</span><BlogLastUpdated url="https://www.spookylittlehalloween.com/blog" added-date="2026-10-11" />
 
 ### Health & Wellness
 

@@ -21,3 +21,7 @@ Writing about the internet, society, privacy, communities, and digital culture.
 ## Privacy & Security
 
 * <BlogHealthLink name="net.wars" url="https://netwars.pelicancrossing.net/" :favourite="false" /> - Wendy Grossman's long-running blog about computers, freedom, privacy, technology policy, and the social consequences of digital systems.<BlogLastUpdated url="https://netwars.pelicancrossing.net/" added-date="2026-10-10" />
+
+## Society & Commentary
+
+* <BlogHealthLink name="Pants On Fire" url="https://pantsaflame.blogspot.com/" :favourite="false" /> - A Canadian blog documenting local political and legal controversies, community disputes and public accountability, with detailed commentary and evidence from Kawartha Lakes and beyond.<BlogLastUpdated url="https://pantsaflame.blogspot.com/" added-date="2026-10-11" />

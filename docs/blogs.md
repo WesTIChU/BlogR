@@ -184,6 +184,10 @@ Explore independent blogs and personal websites from across the web. Browse the 
 
 * <BlogHealthLink name="net.wars" url="https://netwars.pelicancrossing.net/" :favourite="false" /> - Wendy Grossman's long-running blog about computers, freedom, privacy, technology policy, and the social consequences of digital systems.<BlogLastUpdated url="https://netwars.pelicancrossing.net/" added-date="2026-10-10" />
 
+### Society & Commentary
+
+* <BlogHealthLink name="Pants On Fire" url="https://pantsaflame.blogspot.com/" :favourite="false" /> - A Canadian blog documenting local political and legal controversies, community disputes and public accountability, with detailed commentary and evidence from Kawartha Lakes and beyond.<BlogLastUpdated url="https://pantsaflame.blogspot.com/" added-date="2026-10-11" />
+
 ## Lifestyle & Hobbies
 
 ### Collecting & Memorabilia
@@ -329,7 +333,7 @@ Explore independent blogs and personal websites from across the web. Browse the 
 * <BlogHealthLink name="Brain Baking" url="https://brainbaking.com/" :favourite="false" /> - Writing at the intersection of technology, philosophy and personal interests, exploring ideas through reflective essays and notes.<BlogLastUpdated url="https://brainbaking.com/" added-date="" />
 * <BlogHealthLink name="Calv.info" url="https://calv.info/" :favourite="false" /> - Personal essays on technology, culture and everyday life, combining practical interests with observations and reflections.<BlogLastUpdated url="https://calv.info/" added-date="" />
 * <BlogHealthLink name="Charles Harries" url="https://charlesharri.es/" :favourite="false" /> - Personal blog combining travel writing, photography, reflections, and occasional observations about places, technology, and everyday life.<BlogLastUpdated url="https://charlesharri.es/" added-date="" />
-* <BlogHealthLink name="Craig Mod — Essays" url="https://craigmod.com/essays/" :favourite="false" /> - Personal essays exploring Japan, walking, photography, books, technology and the creative process.<BlogLastUpdated url="https://craigmod.com/essays/" added-date="2026-10-11" />
+* <BlogHealthLink name="Craig Mod Essays" url="https://craigmod.com/essays/" :favourite="false" /> - Personal essays exploring Japan, walking, photography, books, technology and the creative process.<BlogLastUpdated url="https://craigmod.com/essays/" added-date="2026-10-11" />
 * <BlogHealthLink name="Dan Q" url="https://danq.me/" :favourite="false" /> - Personal writing about technology, programming, geocaching and everyday life, with projects and reflections from the web.<BlogLastUpdated url="https://danq.me/" added-date="2026-10-09" />
 * <BlogHealthLink name="Dan Sinker" url="https://dansinker.com/blog/" :favourite="false" /> - Personal essays and commentary about culture, media and life, reflecting on the changing world and individual experiences.<BlogLastUpdated url="https://dansinker.com/blog/" added-date="" />
 * <BlogHealthLink name="danah boyd" url="https://www.zephoria.org/thoughts/" :favourite="false" /> - danah boyd writes about data, social media, AI, democracy, privacy, research, and the sociotechnical systems shaping society.<BlogLastUpdated url="https://www.zephoria.org/thoughts/" added-date="2026-10-09" />
@@ -367,6 +371,7 @@ Explore independent blogs and personal websites from across the web. Browse the 
 * <BlogHealthLink name="Speedbird" url="https://speedbird.wordpress.com/" :favourite="false" /> - Essays about cities, urban life and technology, exploring how places and digital systems shape everyday experiences.<BlogLastUpdated url="https://speedbird.wordpress.com/" added-date="" />
 * <BlogHealthLink name="The Bloggess" url="https://thebloggess.com" :favourite="false" /> - Humorous and candid personal writing about life, relationships and difficult moments, told through distinctive stories and observations.<BlogLastUpdated url="https://thebloggess.com" added-date="" />
 * <BlogHealthLink name="The Goalie’s Anxiety" url="https://thegoaliesanxiety.wordpress.com/" :favourite="false" /> - Reflective literary essays exploring art, culture, language, and the uncertainty of everyday experience through a personal perspective.<BlogLastUpdated url="https://thegoaliesanxiety.wordpress.com/" added-date="" />
+* <BlogHealthLink name="The Scholar's Stage" url="https://scholars-stage.org/" :favourite="false" /> - Long-form essays exploring history, international affairs, geopolitics, culture, strategy and political thought.<BlogLastUpdated url="https://scholars-stage.org/" added-date="2026-10-11" />
 * <BlogHealthLink name="The Zvi" url="https://thezvi.wordpress.com/" :favourite="false" /> - Long-form essays about economics, finance, culture and decision-making, exploring complex ideas through analysis and commentary.<BlogLastUpdated url="https://thezvi.wordpress.com/" added-date="" />
 * <BlogHealthLink name="Tracy Durnell's Mind Garden" url="https://tracydurnell.com/mind-garden/" :favourite="false" /> - Tracy Durnell's digital garden of essays, weeknotes, reading, creative practice, culture, and reflections on life and society.<BlogLastUpdated url="https://tracydurnell.com/mind-garden/" added-date="2026-10-10" />
 * <BlogHealthLink name="Wait But Why" url="https://waitbutwhy.com" :favourite="false" /> - Illustrated long-form essays exploring human behaviour, science, technology and big questions about life and the future.<BlogLastUpdated url="https://waitbutwhy.com" added-date="" />

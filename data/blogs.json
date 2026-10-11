@@ -231,7 +231,8 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": null,
+    "country": "GB-ENG"
   },
   {
     "name": "Literary Britain",
@@ -323,7 +324,8 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": null,
+    "country": "GB-ENG"
   },
   {
     "name": "The Crete Fleet",
@@ -5047,7 +5049,7 @@
     "country": "CA"
   },
   {
-    "name": "Craig Mod — Essays",
+    "name": "Craig Mod Essays",
     "url": "https://craigmod.com/essays/",
     "description": "Personal essays exploring Japan, walking, photography, books, technology and the creative process.",
     "category": "personal-writing",
@@ -5087,5 +5089,33 @@
     "addedDate": "2026-10-11",
     "addedAt": "2026-10-11T05:35:54.000Z",
     "country": "CA"
+  },
+  {
+    "name": "Pants On Fire",
+    "url": "https://pantsaflame.blogspot.com/",
+    "description": "A Canadian blog documenting local political and legal controversies, community disputes and public accountability, with detailed commentary and evidence from Kawartha Lakes and beyond.",
+    "category": "internet-and-society",
+    "subcategory": "Society & Commentary",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:40:19.000Z",
+    "country": "CA"
+  },
+  {
+    "name": "The Scholar's Stage",
+    "url": "https://scholars-stage.org/",
+    "description": "Long-form essays exploring history, international affairs, geopolitics, culture, strategy and political thought.",
+    "category": "personal-writing",
+    "subcategory": "Essays & Reflections",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:40:19.000Z",
+    "country": "US"
   }
 ]

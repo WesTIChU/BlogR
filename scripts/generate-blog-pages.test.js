@@ -22,7 +22,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 437)
+  assert.equal(blogs.length, 438)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -116,6 +116,17 @@ test('groups country pages by assigned country and excludes unknown countries', 
   assert.match(scotlandPage, /<CountryDirectoryHeader[^>]+name="Scotland"/)
   assert.doesNotMatch(scotlandPage, /^# .*Scotland$/m)
   assert.match(scotlandPage, /BlogHealthLink/)
+
+  const unitedStatesPage = await readFile(
+    'docs/country/united-states.md',
+    'utf8'
+  )
+  assert.match(unitedStatesPage, /Spooky Little Halloween/)
+  assert.match(
+    unitedStatesPage,
+    /## Lifestyle &amp; Hobbies|## Lifestyle & Hobbies/
+  )
+  assert.match(unitedStatesPage, /### Gardening &amp; DIY|### Gardening & DIY/)
 
   const generated = countryPage({ flag: '🇦🇺', name: 'Australia' }, [
     {

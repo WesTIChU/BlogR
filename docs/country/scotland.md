@@ -1,6 +1,6 @@
 ---
 title: Scotland Blogs
-description: 13 blogs listed in Scotland.
+description: 14 blogs listed in Scotland.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="13" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="14" />
 
 ## Culture & Places
 
@@ -40,6 +40,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 * <span class="blog-entry"><BlogHealthLink name="James G" url="https://jamesg.blog/" :favourite="false" /> - Personal essays and reflections on interests, experiences and everyday observations, published on an independent blog.</span><BlogLastUpdated url="https://jamesg.blog/" added-date="" />
 * <span class="blog-entry"><BlogHealthLink name="Rachel by the Bay" url="https://rachel.blog/" :favourite="false" /> - Sharp commentary on tech, internet culture, and the modern web.</span><BlogLastUpdated url="https://rachel.blog/" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="RuggedScot" url="https://ruggedscot.com" :favourite="true" /> - Personal writing about Scottish culture, food, language and everyday life, sharing observations, humour and stories from Scotland.</span><BlogLastUpdated url="https://ruggedscot.com" added-date="" />
 * <span class="blog-entry"><BlogHealthLink name="The Chaotic Scot" url="https://www.thechaoticscot.com" :favourite="true" /> - Personal writing about Scottish life and culture, sharing candid stories, opinions and everyday experiences with humour.</span><BlogLastUpdated url="https://www.thechaoticscot.com" added-date="" />
 
 ## Technology

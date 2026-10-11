@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 34 blogs listed in United States.
+description: 35 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="34" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="35" />
 
 ## Arts & Entertainment
 
@@ -59,6 +59,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 * <span class="blog-entry"><BlogHealthLink name="Adam Apples" url="https://adamapples.blogspot.com/" :favourite="false" /> - Adam's Apples reviews hundreds of apple varieties, recording their flavour, appearance, ratings, origins, and orchard-related observations.</span><BlogLastUpdated url="https://adamapples.blogspot.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="Garden Betty" url="https://gardenbetty.com/" :favourite="false" /> - Linda Ly shares practical gardening advice, recipes, homesteading projects, and sustainable ways to grow and enjoy food.</span><BlogLastUpdated url="https://gardenbetty.com/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Spooky Little Halloween" url="https://www.spookylittlehalloween.com/blog" :favourite="false" /> - A year-round Halloween blog celebrating spooky living, decorations, DIY projects, parties, entertainment and everything that makes Halloween fun beyond October.</span><BlogLastUpdated url="https://www.spookylittlehalloween.com/blog" added-date="2026-10-11" />
 
 ### Health & Wellness
 

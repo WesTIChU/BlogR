@@ -5,7 +5,7 @@ import { test } from 'node:test'
 
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
-const expectedPublicPageCount = 20
+const expectedPublicPageCount = 40
 
 const htmlFiles = async () => {
   const files = []
@@ -133,7 +133,7 @@ test('directory size and generated Open Graph images remain intact', async () =>
   const renderedBlogCount = (blogs.match(/class="blog-health-link/g) ?? [])
     .length
   assert.ok(catalogue.length > 0)
-  assert.equal(catalogue.length, 437)
+  assert.equal(catalogue.length, 438)
   assert.equal(renderedBlogCount, catalogue.length)
 
   const collections = (await readdir('docs/collections')).filter((file) =>

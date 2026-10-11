@@ -1,6 +1,6 @@
 ---
 title: Scotland Blogs
-description: 15 blogs listed in Scotland.
+description: 16 blogs listed in Scotland.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="15" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="16" />
 
 ## Culture & Places
 
@@ -58,3 +58,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Hiking & Walking
 
 * <span class="blog-entry"><BlogHealthLink name="Ben Nevis" url="https://bennevis.co.uk/blog/" :favourite="false" /> - An independent guide to Ben Nevis, Scotland's highest mountain, featuring hiking advice, route information, mountain safety, local news and practical tips for visitors.</span><BlogLastUpdated url="https://bennevis.co.uk/blog/" added-date="2026-10-11" />
+
+### Travel Diaries
+
+* <span class="blog-entry"><BlogHealthLink name="Love from Scotland" url="https://www.lovefromscotland.co.uk/" :favourite="false" /> - An independent Scottish travel blog by Kate Hopper, sharing firsthand adventures, road trips, walking routes, hidden gems and practical guides to exploring Scotland.</span><BlogLastUpdated url="https://www.lovefromscotland.co.uk/" added-date="2026-10-11" />

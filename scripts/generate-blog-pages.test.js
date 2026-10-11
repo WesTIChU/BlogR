@@ -22,7 +22,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 438)
+  assert.equal(blogs.length, 439)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -122,6 +122,15 @@ test('groups country pages by assigned country and excludes unknown countries', 
     'utf8'
   )
   assert.match(unitedStatesPage, /Spooky Little Halloween/)
+  assert.match(unitedStatesPage, /Halloween Love/)
+  assert.match(
+    unitedStatesPage,
+    /## Arts &amp; Entertainment|## Arts & Entertainment/
+  )
+  assert.match(
+    unitedStatesPage,
+    /### Film, TV &amp; Theatre|### Film, TV & Theatre/
+  )
   assert.match(
     unitedStatesPage,
     /## Lifestyle &amp; Hobbies|## Lifestyle & Hobbies/

@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 35 blogs listed in United States.
+description: 36 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="35" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="36" />
 
 ## Arts & Entertainment
 
@@ -24,6 +24,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Film, TV & Theatre
 
+* <span class="blog-entry"><BlogHealthLink name="Halloween Love" url="https://halloweenlove.com/" :favourite="false" /> - An independent Halloween and horror blog covering scary movies, spooky culture, collectibles, video games, art and everything macabre, with contributions from passionate horror fans.</span><BlogLastUpdated url="https://halloweenlove.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Hometowns to Hollywood" url="https://hometownstohollywood.com/" :favourite="false" /> - A blog exploring classic Hollywood, film history and the hometowns and personal stories of legendary actors and entertainers.</span><BlogLastUpdated url="https://hometownstohollywood.com/" added-date="2026-10-11" />
 
 ### Music

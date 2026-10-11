@@ -1537,7 +1537,8 @@
     "recentlyAdded": true,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": null,
+    "country": "US"
   },
   {
     "name": "The Minimalists",
@@ -5030,5 +5031,61 @@
     "addedDate": "2026-10-11",
     "addedAt": "2026-10-11T05:30:34.000Z",
     "country": "SE"
+  },
+  {
+    "name": "The Captive Reader",
+    "url": "https://thecaptivereader.com/",
+    "description": "A Canadian book blog featuring literary reviews, reading lists, classic fiction and reflections on books and authors.",
+    "category": "books-and-writing",
+    "subcategory": "Book Reviews",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:35:54.000Z",
+    "country": "CA"
+  },
+  {
+    "name": "Craig Mod — Essays",
+    "url": "https://craigmod.com/essays/",
+    "description": "Personal essays exploring Japan, walking, photography, books, technology and the creative process.",
+    "category": "personal-writing",
+    "subcategory": "Essays & Reflections",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:35:54.000Z",
+    "country": "JP"
+  },
+  {
+    "name": "David J. Goodwin",
+    "url": "https://davidjgoodwin.com/blog/",
+    "description": "Essays and reflections on literature, history, nature, travel, culture and the writing life.",
+    "category": "books-and-writing",
+    "subcategory": "Publishing & Writing Life",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:35:54.000Z",
+    "country": "US"
+  },
+  {
+    "name": "Brian Busby",
+    "url": "https://brianbusby.blogspot.com/",
+    "description": "A literary blog exploring Canadian books, forgotten authors, publishing history and overlooked works of literature.",
+    "category": "books-and-writing",
+    "subcategory": "Literature",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:35:54.000Z",
+    "country": "CA"
   }
 ]

@@ -103,6 +103,7 @@ Explore independent blogs and personal websites from across the web. Browse the 
 ### Book Reviews
 
 * <BlogHealthLink name="Anecdotal Evidence" url="https://evidenceanecdotal.blogspot.com/" :favourite="false" /> - Literary blog exploring books, authors, poetry, and wider questions about reading and culture.<BlogLastUpdated url="https://evidenceanecdotal.blogspot.com/" added-date="" />
+* <BlogHealthLink name="The Captive Reader" url="https://thecaptivereader.com/" :favourite="false" /> - A Canadian book blog featuring literary reviews, reading lists, classic fiction and reflections on books and authors.<BlogLastUpdated url="https://thecaptivereader.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="Tony’s Reading List" url="https://tonysreadinglist.wordpress.com/" :favourite="false" /> - A book-focused blog sharing reading notes, fiction reviews and reflections on authors and literary works.<BlogLastUpdated url="https://tonysreadinglist.wordpress.com/" added-date="" />
 
 ### Creative Writing
@@ -112,12 +113,14 @@ Explore independent blogs and personal websites from across the web. Browse the 
 
 ### Literature
 
+* <BlogHealthLink name="Brian Busby" url="https://brianbusby.blogspot.com/" :favourite="false" /> - A literary blog exploring Canadian books, forgotten authors, publishing history and overlooked works of literature.<BlogLastUpdated url="https://brianbusby.blogspot.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="Great War Fiction" url="https://greatwarfiction.wordpress.com/" :favourite="false" /> - Writing about First World War fiction, exploring novels, authors and the relationship between literature and wartime history.<BlogLastUpdated url="https://greatwarfiction.wordpress.com/" added-date="" />
 * <BlogHealthLink name="The Stone and the Shell" url="https://tedunderwood.com/" :favourite="false" /> - Exploring literary history through digital libraries, computational methods, artificial intelligence and cultural analysis.<BlogLastUpdated url="https://tedunderwood.com/" added-date="2026-10-09" />
 
 ### Publishing & Writing Life
 
 * <BlogHealthLink name="Asking the Wrong Questions" url="https://wrongquestions.blogspot.com/" :favourite="false" /> - By Abigail Nussbaum. 🇮🇱 Started in 2005. Average 80 words.<BlogLastUpdated url="https://wrongquestions.blogspot.com/" added-date="2026-10-09" />
+* <BlogHealthLink name="David J. Goodwin" url="https://davidjgoodwin.com/blog/" :favourite="false" /> - Essays and reflections on literature, history, nature, travel, culture and the writing life.<BlogLastUpdated url="https://davidjgoodwin.com/blog/" added-date="2026-10-11" />
 * <BlogHealthLink name="Deep Cuts in a Lovecraftian Vein" url="https://deepcuts.blog/posts/" :favourite="false" /> - “The Undiscovered Mythos.” By Bobby Derie. Started in 2018. Average 3,978 words.<BlogLastUpdated url="https://deepcuts.blog/posts/" added-date="2026-10-09" />
 
 ## Culture & Places
@@ -326,6 +329,7 @@ Explore independent blogs and personal websites from across the web. Browse the 
 * <BlogHealthLink name="Brain Baking" url="https://brainbaking.com/" :favourite="false" /> - Writing at the intersection of technology, philosophy and personal interests, exploring ideas through reflective essays and notes.<BlogLastUpdated url="https://brainbaking.com/" added-date="" />
 * <BlogHealthLink name="Calv.info" url="https://calv.info/" :favourite="false" /> - Personal essays on technology, culture and everyday life, combining practical interests with observations and reflections.<BlogLastUpdated url="https://calv.info/" added-date="" />
 * <BlogHealthLink name="Charles Harries" url="https://charlesharri.es/" :favourite="false" /> - Personal blog combining travel writing, photography, reflections, and occasional observations about places, technology, and everyday life.<BlogLastUpdated url="https://charlesharri.es/" added-date="" />
+* <BlogHealthLink name="Craig Mod — Essays" url="https://craigmod.com/essays/" :favourite="false" /> - Personal essays exploring Japan, walking, photography, books, technology and the creative process.<BlogLastUpdated url="https://craigmod.com/essays/" added-date="2026-10-11" />
 * <BlogHealthLink name="Dan Q" url="https://danq.me/" :favourite="false" /> - Personal writing about technology, programming, geocaching and everyday life, with projects and reflections from the web.<BlogLastUpdated url="https://danq.me/" added-date="2026-10-09" />
 * <BlogHealthLink name="Dan Sinker" url="https://dansinker.com/blog/" :favourite="false" /> - Personal essays and commentary about culture, media and life, reflecting on the changing world and individual experiences.<BlogLastUpdated url="https://dansinker.com/blog/" added-date="" />
 * <BlogHealthLink name="danah boyd" url="https://www.zephoria.org/thoughts/" :favourite="false" /> - danah boyd writes about data, social media, AI, democracy, privacy, research, and the sociotechnical systems shaping society.<BlogLastUpdated url="https://www.zephoria.org/thoughts/" added-date="2026-10-09" />

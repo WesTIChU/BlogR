@@ -6,6 +6,8 @@ description: Explore independent blogs and personal websites from across the web
 <script setup>
 import BlogHealthLink from './.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from './.vitepress/components/BlogLastUpdated.vue'
+import RecentlyAddedStats from './.vitepress/components/RecentlyAddedStats.vue'
+import { ALL_BLOG_STATS_CONFIG } from './.vitepress/components/recently-added-stats.config.js'
 </script>
 
 # ► All Blogs
@@ -13,6 +15,8 @@ import BlogLastUpdated from './.vitepress/components/BlogLastUpdated.vue'
 Explore independent blogs and personal websites from across the web. Browse the full directory below, or use the categories in the left sidebar to find something that interests you.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
+
+<RecentlyAddedStats mode="all-blogs" :config="ALL_BLOG_STATS_CONFIG" />
 
 ## Arts & Entertainment
 

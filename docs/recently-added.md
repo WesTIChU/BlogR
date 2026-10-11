@@ -4,6 +4,7 @@ description: New additions to the BlogR Directory.
 ---
 
 <script setup>
+import RecentlyAddedStats from './.vitepress/components/RecentlyAddedStats.vue'
 import RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'
 </script>
 
@@ -12,5 +13,7 @@ import RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'
 New additions to the BlogR Directory.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
+
+<RecentlyAddedStats />
 
 <RecentlyAddedBlogs />

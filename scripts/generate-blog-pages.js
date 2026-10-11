@@ -150,7 +150,12 @@ export function page(
   entries,
   sections,
   componentPath = './.vitepress/components/BlogHealthLink.vue',
-  { frontmatterTitle = title, heading = `► ${title}` } = {}
+  {
+    frontmatterTitle = title,
+    heading = `► ${title}`,
+    additionalImports = '',
+    introContent = ''
+  } = {}
 ) {
   const body = sections
     ? renderSections(sections) ||
@@ -160,7 +165,7 @@ export function page(
       : '* No blogs are currently listed in this category yet.'
   const introDivider =
     '<hr class="blogr-intro-divider" aria-hidden="true" />\n\n'
-  return `---\ntitle: ${frontmatterTitle}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogHealthLink from '${componentPath}'\nimport BlogLastUpdated from '${componentPath.replace('BlogHealthLink', 'BlogLastUpdated')}'\n</script>\n\n# ${heading}\n\n${description}\n\n${introDivider}${body}\n`
+  return `---\ntitle: ${frontmatterTitle}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogHealthLink from '${componentPath}'\nimport BlogLastUpdated from '${componentPath.replace('BlogHealthLink', 'BlogLastUpdated')}'\n${additionalImports}</script>\n\n# ${heading}\n\n${description}\n\n${introDivider}${introContent}${body}\n`
 }
 
 export function countryPage(country, entries) {
@@ -327,13 +332,20 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
       'All Blogs',
       'Explore independent blogs and personal websites from across the web. Browse the full directory below, or use the categories in the left sidebar to find something that interests you.',
       all,
-      groupByCategory(blogs)
+      groupByCategory(blogs),
+      './.vitepress/components/BlogHealthLink.vue',
+      {
+        additionalImports:
+          "import RecentlyAddedStats from './.vitepress/components/RecentlyAddedStats.vue'\nimport { ALL_BLOG_STATS_CONFIG } from './.vitepress/components/recently-added-stats.config.js'\n",
+        introContent:
+          '<RecentlyAddedStats mode="all-blogs" :config="ALL_BLOG_STATS_CONFIG" />\n\n'
+      }
     )
   )
 
   await writeFile(
     resolve('docs/recently-added.md'),
-    `---\ntitle: Recently Added\ndescription: New additions to the BlogR Directory.\n---\n\n<script setup>\nimport RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'\n</script>\n\n# ► Recently Added\n\nNew additions to the BlogR Directory.\n\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n<RecentlyAddedBlogs />\n`
+    `---\ntitle: Recently Added\ndescription: New additions to the BlogR Directory.\n---\n\n<script setup>\nimport RecentlyAddedStats from './.vitepress/components/RecentlyAddedStats.vue'\nimport RecentlyAddedBlogs from './.vitepress/components/RecentlyAddedBlogs.vue'\n</script>\n\n# ► Recently Added\n\nNew additions to the BlogR Directory.\n\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n<RecentlyAddedStats />\n\n<RecentlyAddedBlogs />\n`
   )
 
   for (const { slug, title, description } of categories) {

@@ -31,6 +31,7 @@ jobs:
       HEAD_SHA: ${{ github.sha }}
       HISTORY_BRANCH: blog-health-history
       RETRY_MISSING: ${{ inputs.retry_missing }}
+      BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
 
     steps:
       - name: Check out the catalogue history
@@ -60,7 +61,7 @@ jobs:
             base_sha="$(git rev-parse HEAD^ 2>/dev/null || true)"
           fi
           node scripts/refresh-new-blog-metadata.js --base "$base_sha" --head "$HEAD_SHA"
-          if [[ "$(node -e "console.log(JSON.parse(require('fs').readFileSync('reports/new-blog-urls.json')).length)")" -gt 0 ]]; then
+          if [[ "$(node -e "console.log(JSON.parse(require('fs').readFileSync(process.env.BLOGR_REPORTS_DIR + '/new-blog-urls.json')).length)")" -gt 0 ]]; then
             echo 'has_new_blogs=true' >> "$GITHUB_OUTPUT"
           else
             echo 'has_new_blogs=false' >> "$GITHUB_OUTPUT"
@@ -71,11 +72,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          export BLOG_HEALTH_URLS="$(cat reports/new-blog-urls.json)"
-          mkdir -p reports
+          export BLOG_HEALTH_URLS="$(cat "$BLOGR_REPORTS_DIR/new-blog-urls.json")"
+          mkdir -p "$BLOGR_REPORTS_DIR"
           git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
           if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
-            git show "origin/${HISTORY_BRANCH}:reports/blog-health-history.json" > reports/blog-health-history.json
+            git show "origin/${HISTORY_BRANCH}:blog-health-history.json" > "$BLOGR_REPORTS_DIR/blog-health-history.json"
           else
             node --input-type=module <<'NODE'
             import { readFile, writeFile } from 'node:fs/promises'
@@ -111,19 +112,19 @@ jobs:
             git -C "$history_dir" checkout --orphan "$HISTORY_BRANCH"
             git -C "$history_dir" rm -rf .
           fi
-          mkdir -p "$history_dir/reports" "$hooks_dir"
+          mkdir -p "$history_dir" "$hooks_dir"
           node --input-type=module <<'NODE'
           import { readFile, writeFile } from 'node:fs/promises'
-          const history = JSON.parse(await readFile('reports/blog-health-history.json', 'utf8'))
+          const history = JSON.parse(await readFile(process.env.BLOGR_REPORTS_DIR + '/blog-health-history.json', 'utf8'))
           const compactHistory = history.map(({ checkedAt, statusData }) => ({ checkedAt, statusData }))
           await writeFile(
-            process.env.RUNNER_TEMP + '/blog-health-history/reports/blog-health-history.json',
+            process.env.RUNNER_TEMP + '/blog-health-history/blog-health-history.json',
             `${JSON.stringify(compactHistory, null, 2)}\n`
           )
           NODE
           git -C "$history_dir" config user.name 'github-actions[bot]'
           git -C "$history_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git -C "$history_dir" add -f reports/blog-health-history.json
+          git -C "$history_dir" add -f blog-health-history.json
           if git -C "$history_dir" diff --cached --quiet; then
             echo 'Health history did not change.'
           else

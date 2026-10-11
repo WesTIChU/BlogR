@@ -29,6 +29,8 @@ const readPreviousBlogs = (base) => {
   }
 }
 
+const reportsDir = resolve(process.env.BLOGR_REPORTS_DIR ?? 'reports')
+
 const currentBlogs = await readJson(resolve('data/blogs.json'), [])
 const previousBlogs = readPreviousBlogs(argument('--base', null))
 const retryMissing = process.env.RETRY_MISSING === 'true'
@@ -55,9 +57,9 @@ const newBlogs = getUninitializedNewBlogEntries(
   initializedUrls
 )
 
-await mkdir(resolve('reports'), { recursive: true })
+await mkdir(reportsDir, { recursive: true })
 await writeFile(
-  resolve('reports/new-blog-urls.json'),
+  resolve(reportsDir, 'new-blog-urls.json'),
   `${JSON.stringify(
     newBlogs.map(({ url }) => url),
     null,

@@ -17,6 +17,7 @@ const CONCURRENCY = 5
 const MAX_REDIRECTS = 5
 const DELAY_MS = 150
 const REDIRECT_STATUSES = new Set([301, 302, 303, 307, 308])
+const reportsDir = resolve(process.env.BLOGR_REPORTS_DIR ?? 'reports')
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
 
@@ -320,7 +321,7 @@ const report = {
   summary: counts
 }
 
-const historyPath = resolve('reports/blog-health-history.json')
+const historyPath = resolve(reportsDir, 'blog-health-history.json')
 let history = []
 try {
   history = JSON.parse(await readFile(historyPath, 'utf8'))
@@ -405,12 +406,12 @@ const markdown = [
   ''
 ].join('\n')
 
-await mkdir(resolve('reports'), { recursive: true })
+await mkdir(reportsDir, { recursive: true })
 await writeFile(
-  resolve('reports/blog-health.json'),
+  resolve(reportsDir, 'blog-health.json'),
   `${JSON.stringify(report, null, 2)}\n`
 )
-await writeFile(resolve('reports/blog-health.md'), markdown)
+await writeFile(resolve(reportsDir, 'blog-health.md'), markdown)
 await writeFile(historyPath, `${JSON.stringify(history, null, 2)}\n`)
 
 const publicStatusByUrl = new Map()

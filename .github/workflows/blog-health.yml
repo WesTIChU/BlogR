@@ -20,6 +20,7 @@ jobs:
     env:
       HISTORY_BRANCH: blog-health-history
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
 
     steps:
       - name: Check out the website source
@@ -44,11 +45,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p reports
+          mkdir -p "$BLOGR_REPORTS_DIR"
           git fetch origin "refs/heads/${HISTORY_BRANCH}:refs/remotes/origin/${HISTORY_BRANCH}" || true
            if git show-ref --verify --quiet "refs/remotes/origin/${HISTORY_BRANCH}"; then
-             git show "origin/${HISTORY_BRANCH}:reports/blog-health-history.json" > reports/blog-health-history.json
-             git show "origin/${HISTORY_BRANCH}:reports/community-health-history.json" > reports/community-health-history.json || true
+             git show "origin/${HISTORY_BRANCH}:blog-health-history.json" > "$BLOGR_REPORTS_DIR/blog-health-history.json"
+             git show "origin/${HISTORY_BRANCH}:community-health-history.json" > "$BLOGR_REPORTS_DIR/community-health-history.json" || true
            fi
 
       - name: Run the daily audit
@@ -77,7 +78,7 @@ jobs:
              await readFile('docs/public/community-health-status.json', 'utf8')
            )
           const history = JSON.parse(
-            await readFile('reports/blog-health-history.json', 'utf8')
+            await readFile(process.env.BLOGR_REPORTS_DIR + '/blog-health-history.json', 'utf8')
           )
           const expectedUrls = new Set()
           for (const blog of blogs) {
@@ -141,10 +142,10 @@ jobs:
             git -C "$history_dir" checkout --orphan "$HISTORY_BRANCH"
             git -C "$history_dir" rm -rf .
           fi
-          mkdir -p "$history_dir/reports"
+          mkdir -p "$history_dir"
           node --input-type=module <<'NODE'
           import { readFile, writeFile } from 'node:fs/promises'
-          const history = JSON.parse(await readFile('reports/blog-health-history.json', 'utf8'))
+          const history = JSON.parse(await readFile(process.env.BLOGR_REPORTS_DIR + '/blog-health-history.json', 'utf8'))
           const compactHistory = history.map(({ checkedAt, statusData }) => ({
             checkedAt,
             statusData
@@ -154,16 +155,15 @@ jobs:
             `${JSON.stringify(compactHistory, null, 2)}\n`
           )
           NODE
-           mv "$history_dir/blog-health-history.json" "$history_dir/reports/blog-health-history.json"
-           cp reports/community-health-history.json "$history_dir/reports/community-health-history.json"
+          cp "$BLOGR_REPORTS_DIR/community-health-history.json" "$history_dir/community-health-history.json"
           git -C "$history_dir" config user.name 'github-actions[bot]'
           git -C "$history_dir" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-           git -C "$history_dir" add -f reports/blog-health-history.json reports/community-health-history.json
+           git -C "$history_dir" add -f blog-health-history.json community-health-history.json
           if git -C "$history_dir" diff --cached --quiet; then
             echo 'Health history did not change.'
           else
             staged_files="$(git -C "$history_dir" diff --cached --name-only)"
-            if [[ "$staged_files" != $'reports/blog-health-history.json\nreports/community-health-history.json' ]]; then
+            if [[ "$staged_files" != $'blog-health-history.json\ncommunity-health-history.json' ]]; then
               echo 'Refusing to publish files other than the compact health histories.' >&2
               git -C "$history_dir" diff --cached --name-status >&2
               exit 1

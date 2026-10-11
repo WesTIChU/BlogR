@@ -14,7 +14,11 @@ const RETRY_DELAY_MS = 500
 const USER_AGENT = 'BlogR-Community-Availability/1.0 (+https://blogr.directory)'
 const CATALOGUE_PATH = resolve('data/communities.json')
 const PUBLIC_PATH = resolve('docs/public/community-health-status.json')
-const HISTORY_PATH = resolve('reports/community-health-history.json')
+const reportsDir = resolve(process.env.BLOGR_REPORTS_DIR ?? 'reports')
+const HISTORY_PATH = resolve(
+  process.env.BLOGR_COMMUNITY_HISTORY_PATH ??
+    resolve(reportsDir, 'community-health-history.json')
+)
 
 const sleep = (milliseconds) =>
   new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds))

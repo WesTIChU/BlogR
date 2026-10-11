@@ -2518,5 +2518,17 @@
     "lastChecked": "2026-10-11T05:36:58.374Z",
     "status": "success",
     "feedUrl": "https://brianbusby.blogspot.com/rss.xml"
+  },
+  "https://pantsaflame.blogspot.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-11T05:41:18.584Z",
+    "status": "success",
+    "feedUrl": "https://pantsaflame.blogspot.com/rss.xml"
+  },
+  "https://scholars-stage.org/": {
+    "lastPublished": "2026-09-19",
+    "lastChecked": "2026-10-11T05:41:18.584Z",
+    "status": "success",
+    "feedUrl": "https://scholars-stage.org/feed/"
   }
 }

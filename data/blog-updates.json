@@ -2758,5 +2758,23 @@
     "lastChecked": "2026-10-11T11:09:53.685Z",
     "status": "success",
     "feedUrl": "https://www.lovefromscotland.co.uk/feed/"
+  },
+  "https://theautisticadvocate.com/blog/": {
+    "lastPublished": "2026-09-15",
+    "lastChecked": "2026-10-11T12:03:49.337Z",
+    "status": "success",
+    "feedUrl": "https://theautisticadvocate.com/feed/"
+  },
+  "https://theautismcafe.com/": {
+    "lastPublished": "2026-01-16",
+    "lastChecked": "2026-10-11T12:03:49.337Z",
+    "status": "success",
+    "feedUrl": "https://theautismcafe.com/feed/"
+  },
+  "https://www.authenticallyemily.uk/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-11T12:03:49.337Z",
+    "status": "unavailable",
+    "feedUrl": null
   }
 }

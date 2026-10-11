@@ -133,7 +133,7 @@ test('directory size and generated Open Graph images remain intact', async () =>
   const renderedBlogCount = (blogs.match(/class="blog-health-link/g) ?? [])
     .length
   assert.ok(catalogue.length > 0)
-  assert.equal(catalogue.length, 444)
+  assert.equal(catalogue.length, 448)
   assert.equal(renderedBlogCount, catalogue.length)
 
   const collections = (await readdir('docs/collections')).filter((file) =>
@@ -150,4 +150,28 @@ test('directory size and generated Open Graph images remain intact', async () =>
     const imagePath = new URL(image).pathname.replace(/^\//, '')
     await assert.doesNotReject(readFile(join(DIST, imagePath)))
   }
+})
+
+test('renders the newest Today additions first on Recently Added', async () => {
+  const recentlyAdded = await readFile(
+    join(DIST, 'recently-added.html'),
+    'utf8'
+  )
+  const todayStart = recentlyAdded.search(/<h2[^>]*id="today"[^>]*>/)
+  const yesterdayStart = recentlyAdded.search(/<h2[^>]*id="yesterday"[^>]*>/)
+  assert.ok(todayStart >= 0)
+  const today = recentlyAdded.slice(
+    todayStart,
+    yesterdayStart >= 0 ? yesterdayStart : undefined
+  )
+  const names = ['Horror Movie Blog', 'Horror Society', 'Oldstyle Tales']
+  const positions = names.map((name) => today.indexOf(name))
+  assert.ok(positions.every((position) => position >= 0))
+  assert.deepEqual(
+    [...positions].sort((a, b) => a - b),
+    positions
+  )
+  assert.ok(
+    today.indexOf('Horror Movie Blog') < today.indexOf('This Is Horror')
+  )
 })

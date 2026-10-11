@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 32 blogs listed in England.
+description: 33 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="32" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="33" />
 
 ## Arts & Entertainment
 
@@ -23,6 +23,10 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 * <span class="blog-entry"><BlogHealthLink name="Life of Films" url="https://lifeoffilms.com/" :favourite="false" /> - Honest movie reviews, weekly scene picks and film writing from a group of friends obsessed with cinema.</span><BlogLastUpdated url="https://lifeoffilms.com/" added-date="2026-10-10" />
 * <span class="blog-entry"><BlogHealthLink name="Movie Metropolis" url="https://moviemetropolis.net/" :favourite="false" /> - A UK movie blog publishing film reviews, interviews, Netflix coverage and opinion pieces about cinema.</span><BlogLastUpdated url="https://moviemetropolis.net/" added-date="2026-10-10" />
 * <span class="blog-entry"><BlogHealthLink name="UK Film Review" url="https://www.ukfilmreview.co.uk/blog" :favourite="false" /> - Film reviews and news covering theatrical releases, independent films, short films, interviews and trailers.</span><BlogLastUpdated url="https://www.ukfilmreview.co.uk/blog" added-date="2026-10-10" />
+
+### Halloween & Horror
+
+* <span class="blog-entry"><BlogHealthLink name="This Is Horror" url="https://www.thisishorror.co.uk/" :favourite="false" /> - An independent horror website covering dark fiction, horror books, author interviews, reviews, publishing news and podcasts exploring the craft of horror writing.</span><BlogLastUpdated url="https://www.thisishorror.co.uk/" added-date="2026-10-11" />
 
 ### Music
 

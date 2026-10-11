@@ -5,6 +5,7 @@ import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
 import communities from '../data/communities.json' with { type: 'json' }
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
+import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 import {
   communityPage,
   compareBlogNames,
@@ -22,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 444)
+  assert.equal(blogs.length, 448)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -56,6 +57,27 @@ test('validates current blogs and groups subcategories alphabetically', () => {
       .entries.map(({ name }) => name),
     ['Alpha', 'Zulu']
   )
+})
+
+test('shows the three latest horror additions in Today by precise addition time', () => {
+  const names = new Set([
+    'Horror Society',
+    'Oldstyle Tales',
+    'Horror Movie Blog'
+  ])
+  const today = getRecentlyAddedGroups(
+    blogs,
+    new Date('2026-10-11T12:00:00.000Z')
+  ).find(({ key }) => key === 'today')
+
+  assert.deepEqual(
+    today.blogs.filter(({ name }) => names.has(name)).map(({ name }) => name),
+    ['Horror Movie Blog', 'Horror Society', 'Oldstyle Tales']
+  )
+  for (const blog of blogs.filter(({ name }) => names.has(name))) {
+    assert.equal(blog.addedDate, '2026-10-11')
+    assert.equal(blog.addedAt, '2026-10-11T09:06:33.822Z')
+  }
 })
 
 test('renders directory descriptions in clampable spans', async () => {
@@ -126,6 +148,8 @@ test('groups country pages by assigned country and excludes unknown countries', 
   assert.match(unitedStatesPage, /Pumpkinrot/)
   assert.match(unitedStatesPage, /Justine's Halloween/)
   assert.match(unitedStatesPage, /Spooky Little Girl Like You/)
+  assert.match(unitedStatesPage, /Horror Society/)
+  assert.match(unitedStatesPage, /Oldstyle Tales/)
   assert.match(
     unitedStatesPage,
     /## Arts &amp; Entertainment|## Arts & Entertainment/
@@ -139,6 +163,10 @@ test('groups country pages by assigned country and excludes unknown countries', 
     /## Lifestyle &amp; Hobbies|## Lifestyle & Hobbies/
   )
   assert.match(unitedStatesPage, /### Gardening &amp; DIY|### Gardening & DIY/)
+
+  const englandPage = await readFile('docs/country/england.md', 'utf8')
+  assert.match(englandPage, /This Is Horror/)
+  assert.match(englandPage, /### Halloween &amp; Horror|### Halloween & Horror/)
 
   const entertainmentPage = await readFile(
     'docs/collections/arts-and-entertainment.md',
@@ -155,6 +183,10 @@ test('groups country pages by assigned country and excludes unknown countries', 
     'Halloween Love',
     'The Horrors of Halloween',
     'Spooky Little Girl Like You',
+    'This Is Horror',
+    'Horror Society',
+    'Oldstyle Tales',
+    'Horror Movie Blog',
     'Final Girl',
     'Darren Van Dam',
     'Strange Little Girl'

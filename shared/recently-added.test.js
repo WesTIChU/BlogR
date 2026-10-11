@@ -41,9 +41,21 @@ test('uses UTC dates across month boundaries', () => {
 
 test('sorts newest additions first and uses a deterministic name fallback', () => {
   const blogs = [
-    { name: 'Older', addedDate: '2026-03-02' },
-    { name: 'Zed', addedDate: '2026-03-31' },
-    { name: 'Alpha', addedDate: '2026-03-31' },
+    {
+      name: 'Older',
+      addedDate: '2026-03-02',
+      addedAt: '2026-03-02T10:00:00.000Z'
+    },
+    {
+      name: 'Zed',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T10:00:00.000Z'
+    },
+    {
+      name: 'Alpha',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T10:00:00.000Z'
+    },
     { name: 'Missing', addedDate: null }
   ]
   assert.deepEqual(
@@ -107,7 +119,7 @@ test('sorts each date group independently by precise addition time', () => {
   )
 })
 
-test('falls back to addedDate and sorts identical timestamps deterministically', () => {
+test('sorts missing timestamps deterministically without using addedDate', () => {
   const blogs = [
     { name: 'Zulu', url: 'https://z.example/', addedDate: '2026-03-31' },
     { name: 'Alpha', url: 'https://a.example/', addedDate: '2026-03-31' },

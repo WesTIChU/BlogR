@@ -2662,5 +2662,30 @@
     "lastChecked": "2026-10-11T08:59:10.961Z",
     "status": "success",
     "feedUrl": "http://spookylittlegirllikeyou.blogspot.com/rss.xml"
+  },
+  "https://www.thisishorror.co.uk/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-11T09:02:10.868Z",
+    "status": "success",
+    "feedUrl": "https://www.thisishorror.co.uk/feed/"
+  },
+  "https://www.horrorsociety.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-11T09:06:33.822Z",
+    "status": "success",
+    "feedUrl": "https://www.horrorsociety.com/feed/"
+  },
+  "https://www.oldstyletales.com/blog": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-11T09:06:33.822Z",
+    "status": "success",
+    "feedUrl": "https://www.oldstyletales.com/blog-feed.xml"
+  },
+  "https://horrormovieblog.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-11T09:06:33.822Z",
+    "status": "success",
+    "feedUrl": "https://horrormovieblog.com/feed/"
+  }
   }
 }

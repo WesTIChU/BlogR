@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 39 blogs listed in United States.
+description: 41 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="39" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="41" />
 
 ## Arts & Entertainment
 
@@ -29,7 +29,9 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Halloween & Horror
 
 * <span class="blog-entry"><BlogHealthLink name="Halloween Love" url="https://halloweenlove.com/" :favourite="false" /> - An independent Halloween and horror blog covering scary movies, spooky culture, collectibles, video games, art and everything macabre, with contributions from passionate horror fans.</span><BlogLastUpdated url="https://halloweenlove.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Horror Society" url="https://www.horrorsociety.com/" :favourite="false" /> - An independent horror website covering horror films, reviews, interviews, underground cinema, genre news, festivals and the wider horror community.</span><BlogLastUpdated url="https://www.horrorsociety.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Justine's Halloween" url="https://justineshalloween.blogspot.com/" :favourite="false" /> - A personal Halloween blog sharing seasonal decorations, pumpkin displays, spooky shopping discoveries, photographs, parties and the fun of celebrating Halloween year after year.</span><BlogLastUpdated url="https://justineshalloween.blogspot.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Oldstyle Tales" url="https://www.oldstyletales.com/blog" :favourite="false" /> - A literary horror blog exploring classic ghost stories, Gothic fiction and supernatural literature through detailed analysis, historical commentary and original writing.</span><BlogLastUpdated url="https://www.oldstyletales.com/blog" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Pumpkinrot" url="https://pumpkinrot.blogspot.com/" :favourite="false" /> - A long-running Halloween blog featuring atmospheric photography, homemade Halloween decorations, eerie artwork, elaborate yard haunts and nostalgic celebrations of the spooky season.</span><BlogLastUpdated url="https://pumpkinrot.blogspot.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Spooky Little Girl Like You" url="http://spookylittlegirllikeyou.blogspot.com/" :favourite="false" /> - A Los Angeles-based Halloween and horror blog covering haunted attractions, spooky events, film and theatre reviews, haunted places, seasonal entertainment and all things haunted.</span><BlogLastUpdated url="http://spookylittlegirllikeyou.blogspot.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Spooky Little Halloween" url="https://www.spookylittlehalloween.com/blog" :favourite="false" /> - A year-round Halloween blog celebrating spooky living, decorations, DIY projects, parties, entertainment and everything that makes Halloween fun beyond October.</span><BlogLastUpdated url="https://www.spookylittlehalloween.com/blog" added-date="2026-10-11" />

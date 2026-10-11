@@ -90,9 +90,7 @@ export function isRecentlyAdded(addedDate, now = new Date()) {
 function additionTimestamp(blog) {
   const precise = Date.parse(blog.addedAt ?? '')
   if (Number.isFinite(precise)) return precise
-
-  const dateOnly = parseUtcDateOnly(blog.addedDate)
-  return dateOnly ? dateOnly.getTime() : Number.NEGATIVE_INFINITY
+  return Number.NEGATIVE_INFINITY
 }
 
 function compareBlogNames(a, b) {

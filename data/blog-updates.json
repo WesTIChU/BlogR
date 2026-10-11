@@ -2458,5 +2458,23 @@
     "lastChecked": "2026-10-10T20:16:53.300Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/"
+  },
+  "https://trueadventureseeker.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-11T05:13:27.366Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://hometownstohollywood.com/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-11T05:13:27.366Z",
+    "status": "success",
+    "feedUrl": "https://hometownstohollywood.com/feed/"
+  },
+  "https://plainlyandpainfully.com/": {
+    "lastPublished": "2026-09-02",
+    "lastChecked": "2026-10-11T05:13:27.366Z",
+    "status": "success",
+    "feedUrl": "https://plainlyandpainfully.com/feed/"
   }
 }

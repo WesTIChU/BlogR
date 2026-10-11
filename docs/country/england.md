@@ -115,10 +115,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Travel & Outdoors
 
-### Camping & Outdoor Life
-
-* <span class="blog-entry"><BlogHealthLink name="Nomadic Notes" url="https://nomadicnotes.com" :favourite="false" /> - Travel observations and destination information, with an interest in cities, transport and life in different places.</span><BlogLastUpdated url="https://nomadicnotes.com" added-date="2026-08-16" />
-
 ### Cruises
 
 * <span class="blog-entry"><BlogHealthLink name="Cruise Lifestyle" url="https://cruiselifestyle.co.uk/" :favourite="false" /> - A personal cruise and travel blog sharing cruise reviews, ship experiences, destination guides, dining discoveries and adventures at sea.</span><BlogLastUpdated url="https://cruiselifestyle.co.uk/" added-date="2026-10-11" />
@@ -126,9 +122,10 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Hiking & Walking
 
-* <span class="blog-entry"><BlogHealthLink name="Ian Cylkowski" url="https://www.iancylkowski.com/" :favourite="false" /> - Personal writing about walking, nature and places, sharing observations and experiences from time spent exploring outdoors.</span><BlogLastUpdated url="https://www.iancylkowski.com/" added-date="2026-08-19" />
 * <span class="blog-entry"><BlogHealthLink name="Ruth's Coastal Walk" url="https://coastalwalker.co.uk/" :favourite="true" /> - A personal walking blog following Ruth Livingstone's remarkable journey around Britain's coastline, sharing detailed route diaries, photographs, landscapes and discoveries along the way.</span><BlogLastUpdated url="https://coastalwalker.co.uk/" added-date="2026-04-18" />
 
-### Travel Diaries
+### Travel & Exploration
 
+* <span class="blog-entry"><BlogHealthLink name="Ian Cylkowski" url="https://www.iancylkowski.com/" :favourite="false" /> - Personal writing about walking, nature and places, sharing observations and experiences from time spent exploring outdoors.</span><BlogLastUpdated url="https://www.iancylkowski.com/" added-date="2026-08-19" />
+* <span class="blog-entry"><BlogHealthLink name="Nomadic Notes" url="https://nomadicnotes.com" :favourite="false" /> - Travel observations and destination information, with an interest in cities, transport and life in different places.</span><BlogLastUpdated url="https://nomadicnotes.com" added-date="2026-08-16" />
 * <span class="blog-entry"><BlogHealthLink name="Tom’s Bike Trip" url="https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/" :favourite="true" /> - Stories and advice from bicycle journeys, exploring independent cycle touring, travel experiences and life on the road.</span><BlogLastUpdated url="https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/" added-date="2026-06-18" />

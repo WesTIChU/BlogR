@@ -25,7 +25,7 @@
     "addedDate": "2026-06-17",
     "addedAt": "2026-06-17T07:20:00.000Z",
     "country": null,
-    "subcategory": "Hiking & Walking"
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "BlogSharer",
@@ -78,7 +78,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-04-21",
     "addedAt": "2026-04-21T15:36:56.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Ruth's Coastal Walk",
@@ -173,7 +174,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-25",
     "country": "GB-SCT",
-    "addedAt": "2026-08-25T23:23:04.000Z"
+    "addedAt": "2026-08-25T23:23:04.000Z",
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Great War Fiction",
@@ -214,7 +216,7 @@
     "addedDate": "2026-08-19",
     "country": "GB-ENG",
     "addedAt": "2026-08-19T08:26:12.000Z",
-    "subcategory": "Hiking & Walking"
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Janet Gyford",
@@ -614,7 +616,7 @@
     "url": "https://alongtheray.com/",
     "description": "A personal journal about nomadic living, changing places and the experiences and reflections that come with life on the move.",
     "category": "travel-outdoors",
-    "subcategory": "Travel Diaries",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
@@ -2490,7 +2492,7 @@
     "name": "Adventurous Kate",
     "url": "https://www.adventurouskate.com/blog/",
     "description": "Solo travel stories, destination guides and practical advice, sharing experiences and recommendations from journeys around the world.",
-    "subcategory": "Travel Diaries",
+    "subcategory": "Travel & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": true,
@@ -2511,7 +2513,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-02",
     "addedAt": "2026-06-02T09:52:04.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Alex in Wanderland",
@@ -2524,7 +2527,8 @@
     "noLongerUpdated": true,
     "addedDate": "2026-04-20",
     "addedAt": "2026-04-20T05:39:51.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Anna Everywhere",
@@ -2537,7 +2541,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-16",
     "addedAt": "2026-08-16T11:32:27.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Bearfoot Theory",
@@ -2550,7 +2555,8 @@
     "noLongerUpdated": true,
     "addedDate": "2026-08-05",
     "addedAt": "2026-08-05T04:37:15.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Hiking & Walking"
   },
   {
     "name": "CleverHiker",
@@ -2563,13 +2569,14 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-08",
     "country": "US",
-    "addedAt": "2026-08-08T09:00:46.000Z"
+    "addedAt": "2026-08-08T09:00:46.000Z",
+    "subcategory": "Hiking & Walking"
   },
   {
     "name": "Dan Flying Solo",
     "url": "https://www.danflyingsolo.com",
     "description": "Travel blog and photography site featuring destination guides, travel stories, practical tips, and journeys across Asia, Europe, and Australia.",
-    "subcategory": "Travel Diaries",
+    "subcategory": "Travel & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
@@ -2583,7 +2590,7 @@
     "name": "Dave’s Travel Pages",
     "url": "https://www.davestravelpages.com",
     "description": "Travel and cycling articles featuring destination guides, long-distance bicycle journeys and advice for independent travellers.",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
@@ -2604,7 +2611,8 @@
     "noLongerUpdated": true,
     "addedDate": "2026-06-10",
     "country": "FR",
-    "addedAt": "2026-06-10T07:19:30.000Z"
+    "addedAt": "2026-06-10T07:19:30.000Z",
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Gnomad Home",
@@ -2617,7 +2625,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-09-15",
     "country": "US",
-    "addedAt": "2026-09-15T11:02:48.000Z"
+    "addedAt": "2026-09-15T11:02:48.000Z",
+    "subcategory": "Camping & Outdoor Life"
   },
   {
     "name": "Halfway Anywhere",
@@ -2630,7 +2639,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-30",
     "addedAt": "2026-08-30T21:01:59.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Hiking & Walking"
   },
   {
     "name": "Hand Luggage Only",
@@ -2643,7 +2653,8 @@
     "noLongerUpdated": true,
     "addedDate": "2026-10-03",
     "addedAt": "2026-10-03T18:18:54.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Just a Little Further",
@@ -2656,7 +2667,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-09-28",
     "addedAt": "2026-09-28T14:56:14.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Legal Nomads",
@@ -2669,7 +2681,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-08",
     "addedAt": "2026-06-08T07:26:58.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Living Rootless",
@@ -2682,7 +2695,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-12",
     "addedAt": "2026-08-12T23:46:05.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Migrationology",
@@ -2695,7 +2709,8 @@
     "noLongerUpdated": true,
     "addedDate": "2026-05-30",
     "addedAt": "2026-05-30T14:15:03.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Never Ending Footsteps",
@@ -2708,14 +2723,15 @@
     "noLongerUpdated": false,
     "addedDate": "2026-04-16",
     "country": "AU",
-    "addedAt": "2026-04-16T14:56:35.000Z"
+    "addedAt": "2026-04-16T14:56:35.000Z",
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Nomadic Matt",
     "url": "https://www.nomadicmatt.com/travel-blog/",
     "description": "Travel blog offering budget travel advice, destination guides, itineraries, practical planning tips, and ways to travel more affordably.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
@@ -2735,7 +2751,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-16",
     "country": "GB-ENG",
-    "addedAt": "2026-08-16T20:47:35.000Z"
+    "addedAt": "2026-08-16T20:47:35.000Z",
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Ordinary Traveler",
@@ -2748,7 +2765,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-04-13",
     "addedAt": "2026-04-13T01:53:33.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Randomwire",
@@ -2761,7 +2779,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-07-15",
     "addedAt": "2026-07-15T17:43:35.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Road to the Sea",
@@ -2774,7 +2793,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-09-28",
     "addedAt": "2026-09-28T05:23:39.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Camping & Outdoor Life"
   },
   {
     "name": "Seat 31B",
@@ -2787,7 +2807,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-21",
     "addedAt": "2026-06-21T13:01:23.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Sinclair Trails",
@@ -2800,7 +2821,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-04-16",
     "country": "US",
-    "addedAt": "2026-04-16T19:46:48.000Z"
+    "addedAt": "2026-04-16T19:46:48.000Z",
+    "subcategory": "Camping & Outdoor Life"
   },
   {
     "name": "The Blonde Abroad",
@@ -2813,14 +2835,15 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-30",
     "addedAt": "2026-08-30T16:49:30.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "The Broke Backpacker",
     "url": "https://www.thebrokebackpacker.com",
     "description": "Budget travel guides, backpacking advice and destination tips for travellers looking to explore with limited funds.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": false,
     "favourite": false,
@@ -2840,13 +2863,14 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-13",
     "addedAt": "2026-06-13T13:14:13.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "The Culture Trip",
     "url": "https://www.theculturetrip.com",
     "description": "Travel and culture articles exploring destinations, local traditions, food and experiences in places around the world.",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
@@ -2867,7 +2891,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-15",
     "addedAt": "2026-06-15T17:33:48.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "The Planet D",
@@ -2880,7 +2905,8 @@
     "noLongerUpdated": true,
     "addedDate": "2026-04-22",
     "country": "CA",
-    "addedAt": "2026-04-22T01:40:25.000Z"
+    "addedAt": "2026-04-22T01:40:25.000Z",
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "The Wayward Home",
@@ -2893,7 +2919,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-07-29",
     "country": "IT",
-    "addedAt": "2026-07-29T03:15:01.000Z"
+    "addedAt": "2026-07-29T03:15:01.000Z",
+    "subcategory": "Camping & Outdoor Life"
   },
   {
     "name": "Tom’s Bike Trip",
@@ -2906,13 +2933,14 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-18",
     "country": "GB-ENG",
-    "addedAt": "2026-06-18T15:59:17.000Z"
+    "addedAt": "2026-06-18T15:59:17.000Z",
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Two Wandering Soles",
     "url": "https://www.twowanderingsoles.com",
     "description": "Responsible adventure travel blog sharing destination guides, outdoor activities, practical planning advice, and experiences from around the world.",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "category": "travel-outdoors",
     "topics": [],
     "recentlyAdded": false,
@@ -2933,7 +2961,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-08-01",
     "addedAt": "2026-08-01T23:20:00.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Camping & Outdoor Life"
   },
   {
     "name": "Rick's Blog",
@@ -3247,7 +3276,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "Dan Q",
@@ -3814,7 +3844,7 @@
     "url": "https://www.disneytouristblog.com/",
     "description": "Independent Disney travel blog featuring theme park planning guides, resort and dining reviews, photography, money-saving tips and Disney news.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3828,7 +3858,7 @@
     "url": "https://thehappiestblogonearth.com/",
     "description": "Disney vacation planning blog featuring theme park tips, itineraries, attraction guides and advice for visiting Disneyland and Walt Disney World.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3842,7 +3872,7 @@
     "url": "https://www.peoplemovertravel.com/blog",
     "description": "Travel planning blog featuring Disney destinations, theme park guides, Disney cruises, resort reviews and family holiday advice.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3856,7 +3886,7 @@
     "url": "https://onegirlwholeworld.com/",
     "description": "Personal travel blog featuring destination guides, detailed itineraries, road trips, hotel reviews and practical advice for exploring the world.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -3870,7 +3900,7 @@
     "url": "https://www.turkeysforlife.com/",
     "description": "Independent travel and lifestyle blog sharing experiences of living in Fethiye, Turkish food, local culture, destination guides and slow travel throughout Turkey.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -4808,7 +4838,6 @@
     "description": "Wendy Grossman's long-running blog about computers, freedom, privacy, technology policy, and the social consequences of digital systems.",
     "category": "technology",
     "subcategory": "Privacy & Security",
-    "subcategory": "Privacy & Security",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -5381,7 +5410,7 @@
     "url": "https://www.undercovertourist.com/blog/tag-disney-world/",
     "description": "A theme park travel blog featuring Disney World planning guides, attraction reviews, ticket advice, hotel recommendations, dining tips and updates to help visitors plan their holidays.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -5443,7 +5472,8 @@
     "noLongerUpdated": false,
     "addedDate": "2026-10-10",
     "addedAt": "2026-10-10T17:03:36.000Z",
-    "country": null
+    "country": null,
+    "subcategory": "Travel & Exploration"
   },
   {
     "name": "British Landscapes Photography",
@@ -5478,7 +5508,7 @@
     "url": "https://www.urbex-travel.com/blog/",
     "description": "A blog about urban exploration, abandoned places and travel adventures.",
     "category": "travel-outdoors",
-    "subcategory": "Places & Exploration",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -5548,7 +5578,7 @@
     "url": "https://trueadventureseeker.com/",
     "description": "A Caribbean travel blog sharing adventures, destination guides, outdoor experiences and travel inspiration from Trinidad and Tobago and beyond.",
     "category": "travel-outdoors",
-    "subcategory": "Travel Diaries",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -5799,7 +5829,7 @@
     "url": "https://travelbetweenthepages.com/",
     "description": "Brian D. Butler's blog exploring the intersection of travel, books, art, photography and cultural history.",
     "category": "travel-outdoors",
-    "subcategory": "Travel Diaries",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,
@@ -6233,7 +6263,7 @@
     "url": "https://www.lovefromscotland.co.uk/",
     "description": "An independent Scottish travel blog by Kate Hopper, sharing firsthand adventures, road trips, walking routes, hidden gems and practical guides to exploring Scotland.",
     "category": "travel-outdoors",
-    "subcategory": "Travel Diaries",
+    "subcategory": "Travel & Exploration",
     "topics": [],
     "recentlyAdded": true,
     "favourite": false,

@@ -13,6 +13,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Travel & Outdoors
 
-### Travel Diaries
+### Travel & Exploration
 
 * <span class="blog-entry"><BlogHealthLink name="True Adventure Seeker" url="https://trueadventureseeker.com/" :favourite="false" /> - A Caribbean travel blog sharing adventures, destination guides, outdoor experiences and travel inspiration from Trinidad and Tobago and beyond.</span><BlogLastUpdated url="https://trueadventureseeker.com/" added-date="2026-10-11" />

@@ -48,10 +48,10 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Travel & Outdoors
 
-### Camping & Outdoor Life
-
-* <span class="blog-entry"><BlogHealthLink name="The Planet D" url="https://www.theplanetd.com" :favourite="false" /> - Adventure travel guide featuring destination advice, practical tips, and authentic travel experiences from destinations around the world.</span><BlogLastUpdated url="https://www.theplanetd.com" added-date="2026-04-22" />
-
 ### Cruises
 
 * <span class="blog-entry"><BlogHealthLink name="Life Well Cruised" url="https://lifewellcruised.com/" :favourite="false" /> - A Canadian cruise blog offering practical planning advice, packing tips, ship reviews, travel recommendations and firsthand experiences for new and experienced cruisers.</span><BlogLastUpdated url="https://lifewellcruised.com/" added-date="2026-10-11" />
+
+### Travel & Exploration
+
+* <span class="blog-entry"><BlogHealthLink name="The Planet D" url="https://www.theplanetd.com" :favourite="false" /> - Adventure travel guide featuring destination advice, practical tips, and authentic travel experiences from destinations around the world.</span><BlogLastUpdated url="https://www.theplanetd.com" added-date="2026-04-22" />

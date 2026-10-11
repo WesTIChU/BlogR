@@ -41,6 +41,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 * <span class="blog-entry"><BlogHealthLink name="The Hiking Club" url="https://www.thehiking.club/blog/" :favourite="false" /> - Hiking articles, trail guides and practical advice for planning independent multi-day walks, including Alpine routes and long-distance adventures.</span><BlogLastUpdated url="https://www.thehiking.club/blog/" added-date="2026-10-11" />
 
-### Travel Diaries
+### Travel & Exploration
 
 * <span class="blog-entry"><BlogHealthLink name="Never Ending Footsteps" url="https://www.neverendingfootsteps.com" :favourite="false" /> - Travel blog sharing long-term travel experiences, destination guides, practical safety advice, and lessons from visiting more than 100 countries.</span><BlogLastUpdated url="https://www.neverendingfootsteps.com" added-date="2026-04-16" />

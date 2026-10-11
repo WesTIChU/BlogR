@@ -13,6 +13,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Travel & Outdoors
 
-### Places & Exploration
+### Travel & Exploration
 
 * <span class="blog-entry"><BlogHealthLink name="Dave’s Travel Pages" url="https://www.davestravelpages.com" :favourite="false" /> - Travel and cycling articles featuring destination guides, long-distance bicycle journeys and advice for independent travellers.</span><BlogLastUpdated url="https://www.davestravelpages.com" added-date="2026-05-21" />

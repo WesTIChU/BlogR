@@ -19,6 +19,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Travel & Outdoors
 
-### Camping & Outdoor Life
+### Travel & Exploration
 
 * <span class="blog-entry"><BlogHealthLink name="Expert Vagabond" url="https://expertvagabond.com" :favourite="false" /> - Adventure travel stories, photography and practical tips for exploring destinations and planning independent trips.</span><BlogLastUpdated url="https://expertvagabond.com" added-date="2026-06-10" />

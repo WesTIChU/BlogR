@@ -54,14 +54,11 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Travel & Outdoors
 
-### Camping & Outdoor Life
-
-* <span class="blog-entry"><BlogHealthLink name="Glasgow Gallivanter" url="https://glasgowgallivanter.com/" :favourite="false" /> - Travel blog sharing adventures around Glasgow and further afield, with local discoveries, destination ideas, and personal travel stories.</span><BlogLastUpdated url="https://glasgowgallivanter.com/" added-date="2026-08-25" />
-
 ### Hiking & Walking
 
 * <span class="blog-entry"><BlogHealthLink name="Ben Nevis" url="https://bennevis.co.uk/blog/" :favourite="false" /> - An independent guide to Ben Nevis, Scotland's highest mountain, featuring hiking advice, route information, mountain safety, local news and practical tips for visitors.</span><BlogLastUpdated url="https://bennevis.co.uk/blog/" added-date="2026-10-11" />
 
-### Travel Diaries
+### Travel & Exploration
 
+* <span class="blog-entry"><BlogHealthLink name="Glasgow Gallivanter" url="https://glasgowgallivanter.com/" :favourite="false" /> - Travel blog sharing adventures around Glasgow and further afield, with local discoveries, destination ideas, and personal travel stories.</span><BlogLastUpdated url="https://glasgowgallivanter.com/" added-date="2026-08-25" />
 * <span class="blog-entry"><BlogHealthLink name="Love from Scotland" url="https://www.lovefromscotland.co.uk/" :favourite="false" /> - An independent Scottish travel blog by Kate Hopper, sharing firsthand adventures, road trips, walking routes, hidden gems and practical guides to exploring Scotland.</span><BlogLastUpdated url="https://www.lovefromscotland.co.uk/" added-date="2026-10-11" />

@@ -138,6 +138,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Camping & Outdoor Life
 
+* <span class="blog-entry"><BlogHealthLink name="Gnomad Home" url="https://gnomadhome.com" :favourite="false" /> - Van conversion guides, camper living advice and stories about travelling and making a home on the road.</span><BlogLastUpdated url="https://gnomadhome.com" added-date="2026-09-15" />
 * <span class="blog-entry"><BlogHealthLink name="Sinclair Trails" url="https://sinclairtrails.com" :favourite="false" /> - RV travel stories and road trip experiences, sharing observations from life on the move and places visited.</span><BlogLastUpdated url="https://sinclairtrails.com" added-date="2026-04-16" />
 
 ### Hiking & Walking
@@ -145,12 +146,8 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 * <span class="blog-entry"><BlogHealthLink name="CleverHiker" url="https://www.cleverhiker.com/blog" :favourite="false" /> - Hiking and backpacking advice, including outdoor gear reviews, trail information and practical guidance for planning trips.</span><BlogLastUpdated url="https://www.cleverhiker.com/blog" added-date="2026-08-08" />
 * <span class="blog-entry"><BlogHealthLink name="Lady on a Rock" url="https://ladyonarock.com/" :favourite="false" /> - A personal outdoor adventure blog sharing hiking experiences, long-distance trails, backpacking journeys and stories from time spent exploring the outdoors.</span><BlogLastUpdated url="https://ladyonarock.com/" added-date="2026-10-11" />
 
-### Places & Exploration
+### Travel & Exploration
 
-* <span class="blog-entry"><BlogHealthLink name="Gnomad Home" url="https://gnomadhome.com" :favourite="false" /> - Van conversion guides, camper living advice and stories about travelling and making a home on the road.</span><BlogLastUpdated url="https://gnomadhome.com" added-date="2026-09-15" />
 * <span class="blog-entry"><BlogHealthLink name="One Girl, Whole World" url="https://onegirlwholeworld.com/" :favourite="false" /> - Personal travel blog featuring destination guides, detailed itineraries, road trips, hotel reviews and practical advice for exploring the world.</span><BlogLastUpdated url="https://onegirlwholeworld.com/" added-date="2026-10-09" />
-* <span class="blog-entry"><BlogHealthLink name="Two Wandering Soles" url="https://www.twowanderingsoles.com" :favourite="false" /> - Responsible adventure travel blog sharing destination guides, outdoor activities, practical planning advice, and experiences from around the world.</span><BlogLastUpdated url="https://www.twowanderingsoles.com" added-date="2026-09-24" />
-
-### Travel Diaries
-
 * <span class="blog-entry"><BlogHealthLink name="Travel Between The Pages" url="https://travelbetweenthepages.com/" :favourite="false" /> - Brian D. Butler's blog exploring the intersection of travel, books, art, photography and cultural history.</span><BlogLastUpdated url="https://travelbetweenthepages.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Two Wandering Soles" url="https://www.twowanderingsoles.com" :favourite="false" /> - Responsible adventure travel blog sharing destination guides, outdoor activities, practical planning advice, and experiences from around the world.</span><BlogLastUpdated url="https://www.twowanderingsoles.com" added-date="2026-09-24" />

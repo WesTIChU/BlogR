@@ -4945,5 +4945,47 @@
     "addedDate": "2026-10-10",
     "addedAt": "2026-10-10T20:16:01.000Z",
     "country": "GB-ENG"
+  },
+  {
+    "name": "True Adventure Seeker",
+    "url": "https://trueadventureseeker.com/",
+    "description": "A Caribbean travel blog sharing adventures, destination guides, outdoor experiences and travel inspiration from Trinidad and Tobago and beyond.",
+    "category": "travel-outdoors",
+    "subcategory": "Travel Diaries",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:09:25.000Z",
+    "country": "TT"
+  },
+  {
+    "name": "Hometowns to Hollywood",
+    "url": "https://hometownstohollywood.com/",
+    "description": "A blog exploring classic Hollywood, film history and the hometowns and personal stories of legendary actors and entertainers.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Film, TV & Theatre",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:11:47.000Z",
+    "country": "US"
+  },
+  {
+    "name": "Plainly & Painfully",
+    "url": "https://plainlyandpainfully.com/",
+    "description": "An independent music blog reviewing lo-fi, garage rock, punk, indie and experimental music, with a focus on new releases and underground artists.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Music",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T05:12:39.000Z",
+    "country": "US"
   }
 ]

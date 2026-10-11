@@ -112,6 +112,10 @@ const discoverItems: DefaultTheme.NavItemWithLink[] = [
     link: '/collections/lifestyle-and-hobbies'
   },
   {
+    text: '<span class="i-twemoji-red-heart"></span> Health & Wellbeing',
+    link: '/collections/health-and-wellbeing'
+  },
+  {
     text: '<span class="i-twemoji-money-bag"></span> Money & Business',
     link: '/collections/money-and-business'
   },

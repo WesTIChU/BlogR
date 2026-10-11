@@ -56,6 +56,27 @@ export function getCountryInfo(code) {
   return COUNTRIES.find((country) => country.code === code) ?? null
 }
 
+export function countrySlug(countryOrCode) {
+  const country =
+    typeof countryOrCode === 'string'
+      ? getCountryInfo(countryOrCode)
+      : countryOrCode
+  if (!country) return null
+
+  return country.name
+    .normalize('NFKD')
+    .replace(/\p{Diacritic}/gu, '')
+    .toLocaleLowerCase()
+    .replaceAll('&', ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+}
+
+export function countryPath(countryOrCode) {
+  const slug = countrySlug(countryOrCode)
+  return slug ? `/country/${slug}` : null
+}
+
 export function normalizeCountryCode(value) {
   if (value === undefined || value === null || value === '') return undefined
   if (typeof value !== 'string' || !COUNTRY_CODES.has(value)) {

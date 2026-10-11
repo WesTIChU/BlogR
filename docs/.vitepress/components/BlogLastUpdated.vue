@@ -13,7 +13,7 @@ import {
   getBlogUpdate,
   getVerifiedFeedUrl
 } from '../../../shared/blog-update.js'
-import { getCountryInfo } from '../../../shared/countries.js'
+import { countryPath, getCountryInfo } from '../../../shared/countries.js'
 import { formatAddedDate } from '../../../shared/recently-added.js'
 import {
   healthStatuses,
@@ -105,6 +105,7 @@ const addedDateText = computed(() => formatAddedDate(props.addedDate))
 const country = computed(() =>
   props.community ? null : getCountryInfo(catalogueEntry.value?.country)
 )
+const countryUrl = computed(() => countryPath(country.value))
 
 onMounted(() => {
   void (props.community ? loadCommunityHealthStatuses() : loadHealthStatuses())
@@ -150,14 +151,15 @@ onMounted(() => {
     <span v-if="country" class="blog-metadata-separator" aria-hidden="true">
       ·
     </span>
-    <span
-      v-if="country"
+    <a
+      v-if="country && countryUrl"
       class="blog-country"
+      :href="countryUrl"
       :aria-label="`Based in ${country.name}`"
     >
       <span aria-hidden="true">{{ country.flag }}</span>
       {{ country.name }}
-    </span>
+    </a>
     <span
       v-if="country && relativeUpdate"
       class="blog-metadata-separator"
@@ -218,7 +220,14 @@ onMounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 0.2em;
+  color: inherit;
+  text-decoration: none;
   white-space: nowrap;
+}
+
+.blog-country:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .blog-feed-link {

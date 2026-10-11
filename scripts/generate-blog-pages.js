@@ -1,7 +1,11 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { normalizeCountryCode } from '../shared/countries.js'
+import {
+  countryPath,
+  getCountryInfo,
+  normalizeCountryCode
+} from '../shared/countries.js'
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
 const communities = JSON.parse(
@@ -48,9 +52,29 @@ export const compareCommunityCategories = (a, b) =>
   a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
 const line = (blog) =>
   `* <span class="blog-entry"><BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}</span><BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
+const renderBlogEntries = (entries) => entries.map(line).join('\n')
 
 const communityLine = (community) =>
   `* <a href="${attribute(community.url)}" target="_blank" rel="noopener noreferrer"><strong>${attribute(community.name)}</strong></a> - ${community.description}<BlogLastUpdated url="${attribute(community.url)}" added-date="${attribute(community.addedDate ?? '')}" :community="true" />`
+
+const renderSections = (sections) =>
+  sections
+    .filter((section) => section.entries.length)
+    .map(
+      (section) =>
+        `## ${section.title}\n\n${
+          section.subsections
+            ? section.subsections
+                .filter((subcategory) => subcategory.entries.length)
+                .map(
+                  (subcategory) =>
+                    `### ${subcategory.title}\n\n${renderBlogEntries(subcategory.entries)}`
+                )
+                .join('\n\n')
+            : renderBlogEntries(section.entries)
+        }`
+    )
+    .join('\n\n')
 
 export function validateCommunities(entries) {
   const validCategories = new Set(communityTaxonomy.map(({ slug }) => slug))
@@ -125,33 +149,23 @@ export function page(
   description,
   entries,
   sections,
-  componentPath = './.vitepress/components/BlogHealthLink.vue'
+  componentPath = './.vitepress/components/BlogHealthLink.vue',
+  { frontmatterTitle = title, heading = `► ${title}` } = {}
 ) {
-  const renderEntries = (entries) => entries.map(line).join('\n')
   const body = sections
-    ? sections
-        .filter((section) => section.entries.length)
-        .map(
-          (section) =>
-            `## ${section.title}\n\n${
-              section.subsections
-                ? section.subsections
-                    .filter((subcategory) => subcategory.entries.length)
-                    .map(
-                      (subcategory) =>
-                        `### ${subcategory.title}\n\n${renderEntries(subcategory.entries)}`
-                    )
-                    .join('\n\n')
-                : renderEntries(section.entries)
-            }`
-        )
-        .join('\n\n') || '* No blogs are currently listed in this category yet.'
+    ? renderSections(sections) ||
+      '* No blogs are currently listed in this category yet.'
     : entries.length
-      ? entries.map(line).join('\n')
+      ? renderBlogEntries(entries)
       : '* No blogs are currently listed in this category yet.'
   const introDivider =
     '<hr class="blogr-intro-divider" aria-hidden="true" />\n\n'
-  return `---\ntitle: ${title}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogHealthLink from '${componentPath}'\nimport BlogLastUpdated from '${componentPath.replace('BlogHealthLink', 'BlogLastUpdated')}'\n</script>\n\n# ► ${title}\n\n${description}\n\n${introDivider}${body}\n`
+  return `---\ntitle: ${frontmatterTitle}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogHealthLink from '${componentPath}'\nimport BlogLastUpdated from '${componentPath.replace('BlogHealthLink', 'BlogLastUpdated')}'\n</script>\n\n# ${heading}\n\n${description}\n\n${introDivider}${body}\n`
+}
+
+export function countryPage(country, entries) {
+  const description = `${entries.length} ${entries.length === 1 ? 'blog' : 'blogs'} listed in ${country.name}.`
+  return `---\ntitle: ${country.name} Blogs\ndescription: ${description}\n---\n\n<script setup>\nimport CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'\nimport BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'\nimport BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'\n</script>\n\n<CountryDirectoryHeader flag="${attribute(country.flag)}" name="${attribute(country.name)}" :count="${entries.length}" />\n\n${renderSections(groupByCategory(entries, compareBlogNames))}\n`
 }
 
 const normalizeSubcategory = (entry) => {
@@ -259,27 +273,52 @@ export function groupBySubsection(
     .sort((a, b) => a.title.localeCompare(b.title))
 }
 
-export function groupByCategory(entries) {
+export function groupByCategory(entries, entryComparator = compareBlogs) {
   return [...categories]
     .sort((a, b) =>
       a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
     )
     .map(({ slug, title }) => {
       const categoryEntries = entries.filter((entry) => entry.category === slug)
-      const sortedCategoryEntries = [...categoryEntries].sort(compareBlogs)
+      const sortedCategoryEntries = [...categoryEntries].sort(entryComparator)
       return {
         title,
         entries: sortedCategoryEntries,
-        subsections: groupBySubsection(slug, sortedCategoryEntries)
+        subsections: groupBySubsection(
+          slug,
+          sortedCategoryEntries,
+          entryComparator
+        )
       }
     })
     .filter((section) => section.entries.length)
+}
+
+export function groupByCountry(entries) {
+  const groups = new Map()
+
+  for (const entry of entries) {
+    if (entry.country === null || entry.country === undefined) continue
+    const country = getCountryInfo(entry.country)
+    if (!country) throw new Error(`Invalid country code for ${entry.name}`)
+    const existing = groups.get(country.code) ?? { country, entries: [] }
+    existing.entries.push(entry)
+    groups.set(country.code, existing)
+  }
+
+  return [...groups.values()]
+    .map(({ country, entries: countryEntries }) => ({
+      country,
+      entries: [...countryEntries].sort(compareBlogNames)
+    }))
+    .sort((a, b) => a.country.name.localeCompare(b.country.name))
 }
 
 if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   validateBlogs(blogs)
   validateCommunities(communities)
   await mkdir(resolve('docs/collections'), { recursive: true })
+  await mkdir(resolve('docs/country'), { recursive: true })
 
   const all = [...blogs].sort(compareBlogs)
   await writeFile(
@@ -319,12 +358,28 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
     )
   }
 
+  for (const { country, entries } of groupByCountry(blogs)) {
+    const path = countryPath(country.code)
+    await writeFile(resolve(`docs${path}.md`), countryPage(country, entries))
+  }
+
+  const countryFiles = new Set(
+    groupByCountry(blogs).map(
+      ({ country }) => `${countryPath(country.code)}.md`
+    )
+  )
+  for (const filename of await readdir(resolve('docs/country'))) {
+    if (filename.endsWith('.md') && !countryFiles.has(`/country/${filename}`)) {
+      await unlink(resolve('docs/country', filename))
+    }
+  }
+
   await writeFile(
     resolve('docs/communities/online-communities.md'),
     communityPage(communities)
   )
 
   console.log(
-    `Generated ${all.length} blogs across ${categories.length} categories.`
+    `Generated ${all.length} blogs across ${categories.length} categories and ${groupByCountry(blogs).length} countries.`
   )
 }

@@ -11,7 +11,9 @@ import {
   compareBlogs,
   compareCommunities,
   compareCommunityCategories,
+  countryPage,
   groupByCategory,
+  groupByCountry,
   groupBySubsection,
   page,
   validateBlogs,
@@ -69,6 +71,76 @@ test('renders directory descriptions in clampable spans', async () => {
   assert.match(layout, /line-clamp: 3/)
   assert.match(search, /-webkit-line-clamp: 3/)
   assert.match(search, /line-clamp: 3/)
+})
+
+test('groups country pages by assigned country and excludes unknown countries', async () => {
+  const groups = groupByCountry([
+    {
+      name: 'Scotland Blog',
+      url: 'https://scotland.example',
+      country: 'GB-SCT'
+    },
+    { name: 'UK Blog', url: 'https://uk.example', country: 'GB' },
+    { name: 'Unknown Blog', url: 'https://unknown.example', country: null },
+    { name: 'US Blog', url: 'https://us.example', country: 'US' }
+  ])
+
+  assert.deepEqual(
+    groups.map(({ country }) => country.name),
+    ['Scotland', 'United Kingdom', 'United States']
+  )
+  assert.deepEqual(
+    groups[0].entries.map(({ name }) => name),
+    ['Scotland Blog']
+  )
+  assert.deepEqual(
+    groups[1].entries.map(({ name }) => name),
+    ['UK Blog']
+  )
+  assert.equal(
+    groups.some(({ entries }) =>
+      entries.some(({ name }) => name === 'Unknown Blog')
+    ),
+    false
+  )
+
+  const scotlandPage = await readFile('docs/country/scotland.md', 'utf8')
+  const currentScotland = groupByCountry(blogs).find(
+    ({ country }) => country.code === 'GB-SCT'
+  )
+  assert.match(scotlandPage, /title: Scotland Blogs/)
+  assert.match(
+    scotlandPage,
+    new RegExp(`${currentScotland.entries.length} blogs listed in Scotland`)
+  )
+  assert.match(scotlandPage, /<CountryDirectoryHeader[^>]+name="Scotland"/)
+  assert.doesNotMatch(scotlandPage, /^# .*Scotland$/m)
+  assert.match(scotlandPage, /BlogHealthLink/)
+
+  const generated = countryPage({ flag: '🇦🇺', name: 'Australia' }, [
+    {
+      name: 'Example',
+      description: 'Example description',
+      url: 'https://example.com',
+      category: 'technology',
+      subcategory: 'Programming & Development'
+    },
+    {
+      name: 'Earlier Example',
+      description: 'Earlier description',
+      url: 'https://earlier.example',
+      category: 'technology',
+      subcategory: 'Programming & Development'
+    }
+  ])
+  assert.match(
+    generated,
+    /<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="2" \/>/
+  )
+  assert.match(generated, /title: Australia Blogs/)
+  assert.match(generated, /## Technology/)
+  assert.match(generated, /### Programming & Development/)
+  assert.ok(generated.indexOf('Earlier Example') < generated.indexOf('Example'))
 })
 
 test('trims duplicate subcategory names and rejects malformed values', () => {

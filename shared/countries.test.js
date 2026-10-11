@@ -3,7 +3,13 @@
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import test from 'node:test'
-import { COUNTRIES, getCountryInfo, normalizeCountryCode } from './countries.js'
+import {
+  COUNTRIES,
+  countryPath,
+  countrySlug,
+  getCountryInfo,
+  normalizeCountryCode
+} from './countries.js'
 
 test('supports worldwide country codes and UK nation extensions', () => {
   assert.ok(COUNTRIES.length > 200)
@@ -26,6 +32,16 @@ test('supports worldwide country codes and UK nation extensions', () => {
   assert.throws(() => normalizeCountryCode('ZZ'), /Invalid country code/)
 })
 
+test('creates clean country slugs without merging UK nations', () => {
+  assert.equal(countrySlug('GB-SCT'), 'scotland')
+  assert.equal(countrySlug('GB-ENG'), 'england')
+  assert.equal(countrySlug('GB-NIR'), 'northern-ireland')
+  assert.equal(countrySlug('GB-WLS'), 'wales')
+  assert.equal(countrySlug('GB'), 'united-kingdom')
+  assert.equal(countryPath('US'), '/country/united-states')
+  assert.equal(countryPath(null), null)
+})
+
 test('renders country names accessibly in the existing metadata component', async () => {
   const component = await readFile(
     new URL(
@@ -35,6 +51,7 @@ test('renders country names accessibly in the existing metadata component', asyn
     'utf8'
   )
   assert.match(component, /class="blog-country"/)
+  assert.match(component, /:href="countryUrl"/)
   assert.match(component, /aria-label="`Based in \$\{country\.name\}`"/)
   assert.match(component, /country\.flag/)
 })

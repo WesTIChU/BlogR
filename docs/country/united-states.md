@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 42 blogs listed in United States.
+description: 43 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="42" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="43" />
 
 ## Arts & Entertainment
 
@@ -126,6 +126,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Hiking & Walking
 
 * <span class="blog-entry"><BlogHealthLink name="CleverHiker" url="https://www.cleverhiker.com/blog" :favourite="false" /> - Hiking and backpacking advice, including outdoor gear reviews, trail information and practical guidance for planning trips.</span><BlogLastUpdated url="https://www.cleverhiker.com/blog" added-date="" />
+* <span class="blog-entry"><BlogHealthLink name="Lady on a Rock" url="https://ladyonarock.com/" :favourite="false" /> - A personal outdoor adventure blog sharing hiking experiences, long-distance trails, backpacking journeys and stories from time spent exploring the outdoors.</span><BlogLastUpdated url="https://ladyonarock.com/" added-date="2026-10-11" />
 
 ### Places & Exploration
 

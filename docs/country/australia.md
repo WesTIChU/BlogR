@@ -1,6 +1,6 @@
 ---
 title: Australia Blogs
-description: 5 blogs listed in Australia.
+description: 6 blogs listed in Australia.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="5" />
+<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="6" />
 
 ## Arts & Entertainment
 
@@ -36,6 +36,10 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 * <span class="blog-entry"><BlogHealthLink name="web-goddess" url="https://www.web-goddess.org/" :favourite="false" /> - Kris's long-running personal blog about technology, books, films, crafts, cycling, travel, and everyday life in Sydney.</span><BlogLastUpdated url="https://www.web-goddess.org/" added-date="2026-10-10" />
 
 ## Travel & Outdoors
+
+### Hiking & Walking
+
+* <span class="blog-entry"><BlogHealthLink name="The Hiking Club" url="https://www.thehiking.club/blog/" :favourite="false" /> - Hiking articles, trail guides and practical advice for planning independent multi-day walks, including Alpine routes and long-distance adventures.</span><BlogLastUpdated url="https://www.thehiking.club/blog/" added-date="2026-10-11" />
 
 ### Travel Diaries
 

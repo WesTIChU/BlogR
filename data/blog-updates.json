@@ -2722,5 +2722,35 @@
     "lastChecked": "2026-10-11T09:41:23.741Z",
     "status": "success",
     "feedUrl": "https://lifewellcruised.com/feed/"
+  },
+  "https://www.thehiking.club/blog/": {
+    "lastPublished": "2026-09-16",
+    "lastChecked": "2026-10-11T10:54:39.456Z",
+    "status": "success",
+    "feedUrl": "https://www.thehiking.club/blog?format=rss"
+  },
+  "https://www.hikersblog.co.uk/": {
+    "lastPublished": "2026-09-28",
+    "lastChecked": "2026-10-11T10:54:39.456Z",
+    "status": "success",
+    "feedUrl": "https://www.hikersblog.co.uk/feed/"
+  },
+  "https://ladyonarock.com/": {
+    "lastPublished": "2025-04-07",
+    "lastChecked": "2026-10-11T10:54:39.456Z",
+    "status": "success",
+    "feedUrl": "https://ladyonarock.com/feed/"
+  },
+  "https://walkingincirclesuk.com/blog/": {
+    "lastPublished": "2026-09-17",
+    "lastChecked": "2026-10-11T10:54:39.456Z",
+    "status": "success",
+    "feedUrl": "https://walkingincirclesuk.com/blog?format=rss"
+  },
+  "https://bennevis.co.uk/blog/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-11T11:01:13.567Z",
+    "status": "success",
+    "feedUrl": "https://bennevis.co.uk/feed/"
   }
 }

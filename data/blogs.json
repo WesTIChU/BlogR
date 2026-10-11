@@ -484,7 +484,8 @@
     "recentlyAdded": false,
     "favourite": false,
     "noLongerUpdated": false,
-    "addedDate": null
+    "addedDate": null,
+    "country": "US"
   },
   {
     "name": "alis.me",
@@ -3403,7 +3404,7 @@
   {
     "name": "Anderegg",
     "url": "https://anderegg.ca/",
-    "description": "Gavin Anderegg writes about Apple software, technology, design frustrations, privacy, and personal observations from his independent website.",
+    "description": "Gavin Anderegg's independent blog about Apple software, technology, interface design, privacy and personal computing, combining thoughtful criticism of frustrating design choices with practical observations and occasional personal notes.",
     "category": "technology",
     "subcategory": "Internet & Web Technology",
     "topics": [],
@@ -3411,7 +3412,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": "CA"
   },
   {
     "name": "Annoying Technology",
@@ -3443,7 +3445,7 @@
   {
     "name": "Thomas Steiner's Blog",
     "url": "https://blog.tomayac.com/",
-    "description": "Thomas Steiner’s blog covers web standards, Chrome, JavaScript, APIs, performance, open source, and experiments with emerging web technologies.",
+    "description": "Thomas Steiner's technical blog exploring modern web development, browser APIs, progressive web apps and emerging web technologies, with practical experiments, demonstrations and insights for developers.",
     "category": "technology",
     "subcategory": "Programming & Development",
     "topics": [],
@@ -3451,7 +3453,8 @@
     "favourite": false,
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
-    "addedAt": "2026-10-09T16:44:20.353Z"
+    "addedAt": "2026-10-09T16:44:20.353Z",
+    "country": "DE"
   },
   {
     "name": "Chris Coyier",
@@ -5229,5 +5232,103 @@
     "addedDate": "2026-10-11",
     "addedAt": "2026-10-11T05:49:49.000Z",
     "country": "NL"
+  },
+  {
+    "name": "Rare Historical Photos",
+    "url": "https://rarehistoricalphotos.com/",
+    "description": "A collection of historical photographs accompanied by the stories behind them, exploring remarkable people, forgotten events, everyday life and defining moments from the past through images that bring history to life.",
+    "category": "culture-and-places",
+    "subcategory": "History & Heritage",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:10:56.000Z",
+    "country": null
+  },
+  {
+    "name": "Londonist",
+    "url": "https://londonist.com/",
+    "description": "An independent guide to London, uncovering the capital's history, hidden corners, transport, culture, food and events, with fascinating stories, practical recommendations and unusual discoveries for Londoners and visitors alike.",
+    "category": "culture-and-places",
+    "subcategory": "Local Culture & Communities",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:10:56.000Z",
+    "country": "GB-ENG"
+  },
+  {
+    "name": "Prior Probability",
+    "url": "https://priorprobability.com/",
+    "description": "F. E. Guerra-Pujol explores law, economics, philosophy, history and academic life through essays, research commentary and personal observations, examining interesting ideas, intellectual debates and questions that don't always have straightforward answers.",
+    "category": "money-and-business",
+    "subcategory": "Economics",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:10:56.000Z",
+    "country": null
+  },
+  {
+    "name": "The Adventures of Accordion Guy in the 21st Century",
+    "url": "https://www.joeydevilla.com/",
+    "description": "Joey deVilla's long-running personal blog covering technology, programming, music, popular culture and everyday adventures, mixing useful technical insights with humour, personal stories, photographs and observations from his life.",
+    "category": "personal-writing",
+    "subcategory": "Personal Blogs & Everyday Life",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:10:56.000Z",
+    "country": null
+  },
+  {
+    "name": "John Quiggin",
+    "url": "https://johnquiggin.com/",
+    "description": "Australian economist John Quiggin shares his thoughts on economics, politics, public policy and current affairs, exploring everything from economic theory and climate change to government decisions and debates shaping Australia and the wider world.",
+    "category": "money-and-business",
+    "subcategory": "Economics",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:10:56.000Z",
+    "country": "AU"
+  },
+  {
+    "name": "BikePortland",
+    "url": "https://bikeportland.org/",
+    "description": "An independent Portland cycling publication covering bicycle culture, transport policy, safer streets, local advocacy and community events, with reporting and commentary on how people travel around the city.",
+    "category": "travel-outdoors",
+    "subcategory": "Camping & Outdoor Life",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:20:14.000Z",
+    "country": "US"
+  },
+  {
+    "name": "Global Nerdy",
+    "url": "https://www.globalnerdy.com/",
+    "description": "Joey deVilla's technology blog sharing programming tutorials, developer news, software tools, technical discoveries and observations from the technology industry, often presented with humour and a personal touch.",
+    "category": "technology",
+    "subcategory": "Programming & Development",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-11",
+    "addedAt": "2026-10-11T06:20:14.000Z",
+    "country": "US"
   }
 ]

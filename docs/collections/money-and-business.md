@@ -29,6 +29,8 @@ Independent writing about money, business, economics, and finance.
 ## Economics
 
 * <BlogHealthLink name="Econbrowser" url="https://econbrowser.com/" :favourite="false" /> - Economic analysis by James Hamilton and Menzie Chinn covering current conditions, data, policy, markets, and the business cycle.<BlogLastUpdated url="https://econbrowser.com/" added-date="2026-10-10" />
+* <BlogHealthLink name="John Quiggin" url="https://johnquiggin.com/" :favourite="false" /> - Australian economist John Quiggin shares his thoughts on economics, politics, public policy and current affairs, exploring everything from economic theory and climate change to government decisions and debates shaping Australia and the wider world.<BlogLastUpdated url="https://johnquiggin.com/" added-date="2026-10-11" />
+* <BlogHealthLink name="Prior Probability" url="https://priorprobability.com/" :favourite="false" /> - F. E. Guerra-Pujol explores law, economics, philosophy, history and academic life through essays, research commentary and personal observations, examining interesting ideas, intellectual debates and questions that don't always have straightforward answers.<BlogLastUpdated url="https://priorprobability.com/" added-date="2026-10-11" />
 * <BlogHealthLink name="The TTABlog" url="https://thettablog.blogspot.com/" :favourite="false" /> - Commentary on trademark law, legal disputes and decisions, examining cases and developments in intellectual property.<BlogLastUpdated url="https://thettablog.blogspot.com/" added-date="" />
 
 ## Personal Finance

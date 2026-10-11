@@ -71,12 +71,14 @@ onUnmounted(() => {
       <h2 :id="group.key">{{ group.title }}</h2>
       <ul>
         <li v-for="blog in group.blogs" :key="blog.url">
-          <BlogHealthLink
-            :name="blog.name"
-            :url="blog.url"
-            :favourite="blog.favourite"
-          />
-          <span class="blog-description">- {{ blog.description }}</span>
+          <span class="blog-entry">
+            <BlogHealthLink
+              :name="blog.name"
+              :url="blog.url"
+              :favourite="blog.favourite"
+            />
+            - {{ blog.description }}
+          </span>
           <BlogLastUpdated :url="blog.url" :added-date="blog.addedDate" />
         </li>
       </ul>

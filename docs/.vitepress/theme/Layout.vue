@@ -298,7 +298,7 @@ onUnmounted(() => {
   z-index: 9999;
 }
 
-.blog-description {
+.blog-entry {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;

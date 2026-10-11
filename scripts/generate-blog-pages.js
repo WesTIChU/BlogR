@@ -47,7 +47,7 @@ export const compareCommunities = (a, b) =>
 export const compareCommunityCategories = (a, b) =>
   a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
 const line = (blog) =>
-  `* <BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /><span class="blog-description">- ${blog.description}</span><BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
+  `* <span class="blog-entry"><BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}</span><BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
 
 const communityLine = (community) =>
   `* <a href="${attribute(community.url)}" target="_blank" rel="noopener noreferrer"><strong>${attribute(community.name)}</strong></a> - ${community.description}<BlogLastUpdated url="${attribute(community.url)}" added-date="${attribute(community.addedDate ?? '')}" :community="true" />`

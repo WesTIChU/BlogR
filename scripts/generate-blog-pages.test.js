@@ -64,7 +64,7 @@ test('renders directory descriptions in clampable spans', async () => {
     'utf8'
   )
 
-  assert.match(generatedPage, /<span class="blog-description">-/)
+  assert.match(generatedPage, /<span class="blog-entry"><BlogHealthLink/)
   assert.match(layout, /-webkit-line-clamp: 3/)
   assert.match(layout, /line-clamp: 3/)
   assert.match(search, /-webkit-line-clamp: 3/)

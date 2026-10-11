@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 39 blogs listed in England.
+description: 40 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="39" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="40" />
 
 ## Arts & Entertainment
 
@@ -72,6 +72,10 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 * <span class="blog-entry"><BlogHealthLink name="Liberal England" url="https://liberalengland.blogspot.com/" :favourite="false" /> - Independent blog combining political commentary, English history, local stories, and observations about public life and society.</span><BlogLastUpdated url="https://liberalengland.blogspot.com/" added-date="2026-07-23" />
 
 ## Lifestyle & Hobbies
+
+### Everyday Life
+
+* <span class="blog-entry"><BlogHealthLink name="Paul's Beer &amp; Travel Blog" url="https://baileysbeerblog.blogspot.com/" :favourite="false" /> - Long-running personal blog exploring real ale, breweries, traditional pubs, beer culture and travel experiences in Britain and abroad.</span><BlogLastUpdated url="https://baileysbeerblog.blogspot.com/" added-date="2026-10-11" />
 
 ### Sports & Recreation
 

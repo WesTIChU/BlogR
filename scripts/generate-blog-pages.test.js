@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 487)
+  assert.equal(blogs.length, 488)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',

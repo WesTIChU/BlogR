@@ -140,7 +140,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Camping & Outdoor Life
 
 * <span class="blog-entry"><BlogHealthLink name="Gnomad Home" url="https://gnomadhome.com" :favourite="false" /> - Van conversion guides, camper living advice and stories about travelling and making a home on the road.</span><BlogLastUpdated url="https://gnomadhome.com" added-date="2026-09-15" />
-* <span class="blog-entry"><BlogHealthLink name="Sinclair Trails" url="https://sinclairtrails.com" :favourite="false" /> - RV travel stories and road trip experiences, sharing observations from life on the move and places visited.</span><BlogLastUpdated url="https://sinclairtrails.com" added-date="2026-04-16" />
 
 ### Hiking & Walking
 
@@ -150,5 +149,6 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Travel & Exploration
 
 * <span class="blog-entry"><BlogHealthLink name="One Girl, Whole World" url="https://onegirlwholeworld.com/" :favourite="false" /> - Personal travel blog featuring destination guides, detailed itineraries, road trips, hotel reviews and practical advice for exploring the world.</span><BlogLastUpdated url="https://onegirlwholeworld.com/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Sinclair Trails" url="https://sinclairtrails.com" :favourite="false" /> - Follow David and Jennifer Sinclair as they explore the United States and beyond, documenting motorhome journeys, RV living, national parks, campsites and places visited along the way.</span><BlogLastUpdated url="https://sinclairtrails.com" added-date="2026-04-16" />
 * <span class="blog-entry"><BlogHealthLink name="Travel Between The Pages" url="https://travelbetweenthepages.com/" :favourite="false" /> - Brian D. Butler's blog exploring the intersection of travel, books, art, photography and cultural history.</span><BlogLastUpdated url="https://travelbetweenthepages.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="Two Wandering Soles" url="https://www.twowanderingsoles.com" :favourite="false" /> - Responsible adventure travel blog sharing destination guides, outdoor activities, practical planning advice, and experiences from around the world.</span><BlogLastUpdated url="https://www.twowanderingsoles.com" added-date="2026-09-24" />

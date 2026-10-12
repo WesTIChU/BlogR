@@ -1,6 +1,6 @@
 ---
 title: Scotland Blogs
-description: 16 blogs listed in Scotland.
+description: 18 blogs listed in Scotland.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="16" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="18" />
 
 ## Culture & Places
 
@@ -29,6 +29,8 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 * <span class="blog-entry"><BlogHealthLink name="Andy Muirhead | Celtic FC &amp; Scottish Football Blogger" url="https://www.andymuirhead.com/" :favourite="false" /> - Andy Muirhead's independent commentary and analysis on Celtic FC, Scottish football and the wider game, with a distinctly Celtic perspective.</span><BlogLastUpdated url="https://www.andymuirhead.com/" added-date="2026-10-10" />
 * <span class="blog-entry"><BlogHealthLink name="Celtic Quick News" url="https://www.celticquicknews.co.uk/" :favourite="false" /> - Independent Celtic supporters' blog featuring Paul67's match analysis, club commentary, Scottish football discussion and long-running fan conversation.</span><BlogLastUpdated url="https://www.celticquicknews.co.uk/" added-date="2026-10-10" />
 * <span class="blog-entry"><BlogHealthLink name="Celtic365" url="https://celtic365.com/" :favourite="false" /> - Independent Celtic supporters' site publishing original opinion, fan commentary and analysis of the club, its ownership and Scottish football.</span><BlogLastUpdated url="https://celtic365.com/" added-date="2026-10-10" />
+* <span class="blog-entry"><BlogHealthLink name="Ibrox Noise" url="https://www.ibroxnoise.co.uk/" :favourite="false" /> - Independent Rangers FC commentary covering transfers, performances, club decisions, supporters' views and news from Ibrox.</span><BlogLastUpdated url="https://www.ibroxnoise.co.uk/" added-date="2026-10-12" />
+* <span class="blog-entry"><BlogHealthLink name="Rangers Review" url="https://www.rangersreview.co.uk/" :favourite="false" /> - Dedicated coverage of Rangers FC, featuring breaking news, transfer reports, match analysis, interviews and opinion from journalists covering the club.</span><BlogLastUpdated url="https://www.rangersreview.co.uk/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Read Celtic" url="https://readceltic.com/" :favourite="false" /> - Celtic FC news and opinion covering the latest club developments, transfers, match previews, reviews and Scottish football.</span><BlogLastUpdated url="https://readceltic.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="The Celtic Blog" url="https://thecelticblog.com/" :favourite="false" /> - Independent Celtic FC supporters' blog covering club news, Scottish football, match analysis, transfers and opinion.</span><BlogLastUpdated url="https://thecelticblog.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="The Celtic Star" url="https://thecelticstar.com/" :favourite="false" /> - Celtic FC supporters' website covering club news, match reports, transfer updates, opinion and the history of Celtic Football Club.</span><BlogLastUpdated url="https://thecelticstar.com/" added-date="2026-10-09" />

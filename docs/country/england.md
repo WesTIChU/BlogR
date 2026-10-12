@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 43 blogs listed in England.
+description: 45 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="43" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="45" />
 
 ## Arts & Entertainment
 
@@ -85,7 +85,9 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Sports & Recreation
 
+* <span class="blog-entry"><BlogHealthLink name="City Xtra" url="https://cityxtra.co.uk/" :favourite="false" /> - Manchester City news and analysis featuring transfers, match coverage, club developments, interviews and original features.</span><BlogLastUpdated url="https://cityxtra.co.uk/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Gunnerstown" url="https://gunnerstown.com/" :favourite="false" /> - Arsenal supporters' website featuring fan-written articles, tactical analysis, match commentary and opinion.</span><BlogLastUpdated url="https://gunnerstown.com/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Man City Blog" url="https://mancityblog.com/" :favourite="false" /> - A Manchester City-focused website covering club news, match discussions, transfers and supporter perspectives.</span><BlogLastUpdated url="https://mancityblog.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Man United Blogs" url="https://www.manunitedblogs.com/" :favourite="false" /> - Manchester United website publishing club news, player updates, transfer discussion, match coverage and opinion articles.</span><BlogLastUpdated url="https://www.manunitedblogs.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="The Highbury Library" url="https://thehighburylibrary.com/" :favourite="false" /> - Arsenal blog aggregator bringing together articles, commentary and opinions from independent Arsenal supporters' websites.</span><BlogLastUpdated url="https://thehighburylibrary.com/" added-date="2026-10-09" />
 

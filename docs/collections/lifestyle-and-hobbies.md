@@ -56,6 +56,7 @@ Personal interests, hobbies, practical projects, and ways of living.
 * <span class="blog-entry"><BlogHealthLink name="Cup of Jo" url="https://cupofjo.com" :favourite="false" /> - Lifestyle writing about relationships, family, personal experiences and everyday life, with stories and conversations around shared interests.</span><BlogLastUpdated url="https://cupofjo.com" added-date="2026-05-03" />
 * <span class="blog-entry"><BlogHealthLink name="Paul's Beer &amp; Travel Blog" url="https://baileysbeerblog.blogspot.com/" :favourite="false" /> - Long-running personal blog exploring real ale, breweries, traditional pubs, beer culture and travel experiences in Britain and abroad.</span><BlogLastUpdated url="https://baileysbeerblog.blogspot.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Joshua Fields Millburn and Ryan Nicodemus write about meaningful living, minimalism, relationships, and having less without losing what matters.</span><BlogLastUpdated url="https://www.theminimalists.com" added-date="2026-05-19" />
+* <span class="blog-entry"><BlogHealthLink name="The Modern Dad" url="https://the-modern-dad.com/" :favourite="false" /> - Jason Dunnigan shares experiences of fatherhood, family life, food, product reviews and everyday parenting from a dad's perspective.</span><BlogLastUpdated url="https://the-modern-dad.com/" added-date="2026-10-12" />
 
 ## Gardening
 

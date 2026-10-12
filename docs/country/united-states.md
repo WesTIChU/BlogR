@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 46 blogs listed in United States.
+description: 48 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="46" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="48" />
 
 ## Arts & Entertainment
 
@@ -24,6 +24,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Film, TV & Theatre
 
+* <span class="blog-entry"><BlogHealthLink name="All '80s Movies Podcast" url="https://www.all80smoviespodcast.com/blog/" :favourite="false" /> - A companion blog to the All '80s Movies Podcast, celebrating the blockbusters, overlooked films, cult favourites and memorable releases of 1980s cinema.</span><BlogLastUpdated url="https://www.all80smoviespodcast.com/blog/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Hometowns to Hollywood" url="https://hometownstohollywood.com/" :favourite="false" /> - A blog exploring classic Hollywood, film history and the hometowns and personal stories of legendary actors and entertainers.</span><BlogLastUpdated url="https://hometownstohollywood.com/" added-date="2026-10-11" />
 
 ### Halloween & Horror
@@ -89,6 +90,10 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Collecting & Memorabilia
 
 * <span class="blog-entry"><BlogHealthLink name="Action Figure Barbecue" url="https://www.actionfigurebarbecue.com/" :favourite="false" /> - Detailed action figure reviews covering sculpting, articulation, accessories, and collectability across G.I. Joe and other popular toy lines.</span><BlogLastUpdated url="https://www.actionfigurebarbecue.com/" added-date="2026-10-09" />
+
+### Everyday Life
+
+* <span class="blog-entry"><BlogHealthLink name="The Modern Dad" url="https://the-modern-dad.com/" :favourite="false" /> - Jason Dunnigan shares experiences of fatherhood, family life, food, product reviews and everyday parenting from a dad's perspective.</span><BlogLastUpdated url="https://the-modern-dad.com/" added-date="2026-10-12" />
 
 ### Gardening
 

@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 49 blogs listed in United States.
+description: 51 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="49" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="51" />
 
 ## Arts & Entertainment
 
@@ -67,6 +67,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### History & Heritage
 
 * <span class="blog-entry"><BlogHealthLink name="Alabama Yesterdays" url="https://alabamayesterdays.blogspot.com/" :favourite="false" /> - Stories from Alabama's past, exploring local history, notable events and the people and places connected to the state.</span><BlogLastUpdated url="https://alabamayesterdays.blogspot.com/" added-date="2026-07-01" />
+* <span class="blog-entry"><BlogHealthLink name="Ephemeral New York" url="https://ephemeralnewyork.wordpress.com/" :favourite="false" /> - Esther Crain explores New York City's forgotten history through old photographs, vanished buildings, historic streets, neighbourhood stories and overlooked details of everyday urban life.</span><BlogLastUpdated url="https://ephemeralnewyork.wordpress.com/" added-date="2026-10-12" />
 
 ### Local Culture & Communities
 
@@ -129,6 +130,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 * <span class="blog-entry"><BlogHealthLink name="Erin Kissane" url="https://erinkissane.com/" :favourite="false" /> - Personal website from Erin Kissane covering online communities, moderation, digital culture, and the people who build internet spaces.</span><BlogLastUpdated url="https://erinkissane.com/" added-date="2026-06-28" />
 * <span class="blog-entry"><BlogHealthLink name="Flaming Pablum" url="https://flamingpablum.com/" :favourite="false" /> - Long-running New York City blog covering music, punk culture, photography, neighbourhood history and personal observations.</span><BlogLastUpdated url="https://flamingpablum.com/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Kimberly Hirsh" url="https://kimberlyhirsh.com/" :favourite="false" /> - Kimberly Hirsh writes about books, libraries, education, research, family life, hobbies, creativity and her experiences across personal and professional life.</span><BlogLastUpdated url="https://kimberlyhirsh.com/" added-date="2026-10-12" />
 
 ## Technology
 

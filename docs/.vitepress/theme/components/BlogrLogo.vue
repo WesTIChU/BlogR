@@ -1,24 +1,8 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 
-const logoTitle = 'BlogR Directory'
-const characters = [
-  'B',
-  'l',
-  'o',
-  'g',
-  'R',
-  ' ',
-  'D',
-  'i',
-  'r',
-  'e',
-  'c',
-  't',
-  'o',
-  'r',
-  'y'
-]
+const logoTitle = 'BlogR'
+const characters = ['B', 'l', 'o', 'g', 'R']
 const typedCount = ref(0)
 const fontReady = ref(false)
 let typingTimer: ReturnType<typeof setInterval> | undefined
@@ -65,7 +49,6 @@ onBeforeUnmount(() => {
     <span class="blogr-logo__reference" aria-hidden="true">
       <span>Blog</span>
       <span class="blogr-logo__r">R</span>
-      <span>Directory</span>
     </span>
     <span class="blogr-logo__visible" aria-hidden="true">
       <template v-for="(character, index) in characters" :key="index">
@@ -89,7 +72,7 @@ onBeforeUnmount(() => {
   aspect-ratio: 236 / 44;
   overflow: visible;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.45px;
   line-height: 1;

@@ -72,8 +72,8 @@
     "feedUrl": "https://balloonstodrones.com/feed/"
   },
   "https://glasgowgallivanter.com/": {
-    "lastPublished": "2026-10-04",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://glasgowgallivanter.com/feed/"
   },
@@ -114,16 +114,16 @@
     "feedUrl": "https://lancashirepast.com/feed/"
   },
   "https://laststandonzombieisland.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T14:02:14.964Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://laststandonzombieisland.com/feed/"
   },
   "https://liberalengland.blogspot.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T13:17:43.052Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://liberalengland.blogspot.com/rss.xml"
   },
   "https://literarybritain.co.uk/blog/": {
     "lastPublished": "2025-11-03",
@@ -150,8 +150,8 @@
     "feedUrl": "https://postabdn.com/rss/"
   },
   "https://projectswordtoys.blogspot.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://projectswordtoys.blogspot.com/rss.xml"
   },
@@ -205,14 +205,14 @@
   },
   "https://thestrollingbones.blogspot.com/": {
     "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-11T14:55:35.786Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://thestrollingbones.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://thestrollingbones.blogspot.com/rss.xml"
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-08-08",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
-    "status": "success",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/"
   },
   "https://blog.mollywhite.net/": {
@@ -378,10 +378,10 @@
     "feedUrl": null
   },
   "https://caltrain-hsr.blogspot.com/": {
-    "lastPublished": "2026-06-22",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-06-28",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://caltrain-hsr.blogspot.com/rss.xml"
+    "feedUrl": "https://caltrain-hsr.blogspot.com/feeds/posts/default"
   },
   "https://calv.info/": {
     "lastPublished": "2026-08-26",
@@ -409,9 +409,9 @@
   },
   "http://www.cherryandspoon.com/": {
     "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "http://www.cherryandspoon.com/rss.xml"
+    "feedUrl": "http://www.cherryandspoon.com/feeds/posts/default"
   },
   "https://christiano.dev/": {
     "lastPublished": "2026-09-26",
@@ -427,9 +427,9 @@
   },
   "https://collectionchamber.blogspot.com/": {
     "lastPublished": "2026-09-30",
-    "lastChecked": "2026-10-11T13:17:43.052Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://collectionchamber.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://collectionchamber.blogspot.com/rss.xml"
   },
   "https://commentingon.xyz/": {
     "lastPublished": "2026-04-01",
@@ -517,9 +517,9 @@
   },
   "https://uniqueguitar.blogspot.com/": {
     "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-11T14:55:35.786Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://uniqueguitar.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://uniqueguitar.blogspot.com/rss.xml"
   },
   "https://grognardia.blogspot.com/": {
     "lastPublished": "2026-10-02",
@@ -619,9 +619,9 @@
   },
   "https://logofspartina.blogspot.com/": {
     "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://logofspartina.blogspot.com/rss.xml"
+    "feedUrl": "https://logofspartina.blogspot.com/feeds/posts/default"
   },
   "https://marco.org/": {
     "lastPublished": "2026-09-04",
@@ -667,9 +667,9 @@
   },
   "https://paperpools.blogspot.com/": {
     "lastPublished": "2026-04-08",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://paperpools.blogspot.com/rss.xml"
+    "feedUrl": "https://paperpools.blogspot.com/feeds/posts/default"
   },
   "https://paulgraham.com/articles.html": {
     "lastPublished": null,
@@ -697,13 +697,13 @@
   },
   "https://publicclockthis.blogspot.com/": {
     "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://publicclockthis.blogspot.com/rss.xml"
+    "feedUrl": "https://publicclockthis.blogspot.com/feeds/posts/default"
   },
   "https://rachel.blog/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://rachel.blog/feed/"
   },
@@ -756,8 +756,8 @@
     "feedUrl": "https://seirdy.one/atom.xml"
   },
   "https://seths.blog/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://seths.blog/feed/"
   },
@@ -786,8 +786,8 @@
     "feedUrl": "https://speedbird.wordpress.com/feed/"
   },
   "https://stratechery.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://stratechery.com/feed/"
   },
@@ -816,8 +816,8 @@
     "feedUrl": "https://thegoaliesanxiety.wordpress.com/feed/"
   },
   "https://www.theminimalists.com/": {
-    "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.theminimalists.com/feed/"
   },
@@ -925,9 +925,9 @@
   },
   "https://www.digitalocean.com/community/tutorials": {
     "lastPublished": null,
-    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "unknown",
-    "feedUrl": "https://www.digitalocean.com/_do-www-marketing/2f50be18/_next/static/media/favicon.91372345.svg"
+    "feedUrl": "https://www.digitalocean.com/_do-www-marketing/8efe9b38/_next/static/media/favicon.91372345.svg"
   },
   "https://fgiesen.wordpress.com/": {
     "lastPublished": "2026-08-25",
@@ -942,14 +942,14 @@
     "feedUrl": "https://frankforce.com/feed/"
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T13:17:43.052Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/"
   },
   "https://hackernoon.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://hackernoon.com/feed"
   },
@@ -960,14 +960,14 @@
     "feedUrl": "https://www.homeautomationguy.io/blog?format=rss"
   },
   "https://www.ispreview.co.uk/": {
-    "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
-    "status": "unavailable",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
+    "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed"
   },
   "https://itsfoss.com/": {
-    "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-10T12:53:33.050Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://feed.itsfoss.com/"
   },
@@ -1068,8 +1068,8 @@
     "feedUrl": "https://www.simplehomelab.com/feed/"
   },
   "https://smarthomescene.com/blog/": {
-    "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-09T08:39:42.126Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://smarthomescene.com/feed/"
   },
@@ -1194,10 +1194,10 @@
     "feedUrl": "https://www.legalnomads.com/feed/"
   },
   "https://blog.livingrootless.com/": {
-    "lastPublished": "2026-06-02",
-    "lastChecked": "2026-10-11T14:55:35.786Z",
+    "lastPublished": "2026-06-09",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://blog.livingrootless.com/rss.xml"
+    "feedUrl": "https://blog.livingrootless.com/feeds/posts/default"
   },
   "https://migrationology.com/": {
     "lastPublished": "2021-01-15",
@@ -1248,8 +1248,8 @@
     "feedUrl": "https://www.seat31b.com/feed/"
   },
   "https://sinclairtrails.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T14:02:14.964Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://sinclairtrails.com/feed/"
   },
@@ -1357,9 +1357,9 @@
   },
   "https://whereweretheynow.blogspot.com/": {
     "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://whereweretheynow.blogspot.com/rss.xml"
+    "feedUrl": "https://whereweretheynow.blogspot.com/feeds/posts/default"
   },
   "https://smallobservations.net/": {
     "lastPublished": "2026-09-14",
@@ -1381,9 +1381,9 @@
   },
   "https://super-dupertoybox.blogspot.com/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://super-dupertoybox.blogspot.com/rss.xml"
+    "feedUrl": "https://super-dupertoybox.blogspot.com/feeds/posts/default"
   },
   "https://www.qwantz.com/": {
     "lastPublished": "2026-10-09",
@@ -1393,15 +1393,15 @@
   },
   "https://cult-tv-lounge.blogspot.com/": {
     "lastPublished": "2026-09-24",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://cult-tv-lounge.blogspot.com/rss.xml"
+    "feedUrl": "https://cult-tv-lounge.blogspot.com/feeds/posts/default"
   },
   "https://english-skills-success.blogspot.com/": {
     "lastPublished": "2026-06-29",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://english-skills-success.blogspot.com/rss.xml"
+    "feedUrl": "https://english-skills-success.blogspot.com/feeds/posts/default"
   },
   "https://towerofzenopus.blogspot.com/": {
     "lastPublished": "2026-10-07",
@@ -1429,9 +1429,9 @@
   },
   "https://wrongquestions.blogspot.com/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-11T12:45:18.218Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://wrongquestions.blogspot.com/rss.xml"
+    "feedUrl": "https://wrongquestions.blogspot.com/feeds/posts/default"
   },
   "https://deepcuts.blog/posts/": {
     "lastPublished": "2026-10-10",
@@ -1453,19 +1453,19 @@
   },
   "https://gorillasdontblog.blogspot.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://gorillasdontblog.blogspot.com/rss.xml"
+    "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default"
   },
   "https://retiredmartin.com/": {
-    "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-10T08:19:47.501Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://retiredmartin.com/feed/"
   },
   "https://danq.me/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://danq.me/feed/"
   },
@@ -1536,10 +1536,10 @@
     "feedUrl": "https://mindhacks.com/feed/"
   },
   "https://fbdd-lit.blogspot.com/": {
-    "lastPublished": "2026-08-04",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-08-24",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://fbdd-lit.blogspot.com/rss.xml"
+    "feedUrl": "https://fbdd-lit.blogspot.com/feeds/posts/default"
   },
   "https://nintil.com/": {
     "lastPublished": "2026-09-17",
@@ -1560,8 +1560,8 @@
     "feedUrl": "https://thecelticblog.com/feed/"
   },
   "https://readceltic.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://readceltic.com/feed/"
   },
@@ -1584,8 +1584,8 @@
     "feedUrl": "https://thehighburylibrary.com/feed/"
   },
   "https://arseblog.news/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://arseblog.news/feed/"
   },
@@ -1638,8 +1638,8 @@
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://www.timeextension.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest"
   },
@@ -1668,8 +1668,8 @@
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/"
   },
   "https://humbledollar.com/": {
-    "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-10T05:10:07.077Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://humbledollar.com/feed/"
   },
@@ -1698,8 +1698,8 @@
     "feedUrl": "https://linuxblog.io/feed/"
   },
   "https://9to5linux.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed"
   },
@@ -1710,8 +1710,8 @@
     "feedUrl": "https://lwn.net/headlines/rss"
   },
   "https://www.disneytouristblog.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.disneytouristblog.com/feed/"
   },
@@ -1843,9 +1843,9 @@
   },
   "https://adamapples.blogspot.com/": {
     "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-11T14:55:35.786Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://adamapples.blogspot.com/feeds/posts/default"
+    "feedUrl": "https://adamapples.blogspot.com/rss.xml"
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
     "lastPublished": "2025-07-31",
@@ -1867,9 +1867,9 @@
   },
   "https://rachel-the-gardener.blogspot.com/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://rachel-the-gardener.blogspot.com/rss.xml"
+    "feedUrl": "https://rachel-the-gardener.blogspot.com/feeds/posts/default"
   },
   "https://reclaimingparadise.wordpress.com/": {
     "lastPublished": "2026-10-07",
@@ -1879,9 +1879,9 @@
   },
   "https://www.sickveg.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://www.sickveg.com/rss.xml"
+    "feedUrl": "https://www.sickveg.com/feeds/posts/default"
   },
   "https://nodighome.com/blog-posts/": {
     "lastPublished": "2026-06-07",
@@ -1896,8 +1896,8 @@
     "feedUrl": "https://theunconventionalgardener.com/feed/"
   },
   "http://www.16bit.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "http://www.16bit.com/rss.xml"
   },
@@ -1950,8 +1950,8 @@
     "feedUrl": "http://feeds.feedburner.com/thebrickblogger"
   },
   "https://brooksreview.net/": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://brooksreview.net/feed/"
   },
@@ -1986,14 +1986,14 @@
     "feedUrl": "https://knifesteelnerds.com/feed/"
   },
   "https://www.penaddict.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.penaddict.com/blog?format=rss"
   },
   "https://timmcmahon.com.au/": {
-    "lastPublished": "2026-09-30",
-    "lastChecked": "2026-10-09T17:11:10.725Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://timmcmahon.com.au/index.xml"
   },
@@ -2053,9 +2053,9 @@
   },
   "https://www.thenewestrant.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://www.thenewestrant.com/rss.xml"
+    "feedUrl": "https://www.thenewestrant.com/feeds/posts/default"
   },
   "https://greg.org/": {
     "lastPublished": "2026-10-10",
@@ -2065,15 +2065,15 @@
   },
   "https://wyrdbritain.blogspot.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://wyrdbritain.blogspot.com/rss.xml"
+    "feedUrl": "https://wyrdbritain.blogspot.com/feeds/posts/default"
   },
   "https://mojobob.blogspot.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://mojobob.blogspot.com/rss.xml"
+    "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default"
   },
   "https://www.web-goddess.org/": {
     "lastPublished": "2026-10-12",
@@ -2124,8 +2124,8 @@
     "feedUrl": "https://www.jpaul.me/feed/"
   },
   "https://blog.omgmog.net/": {
-    "lastPublished": "2026-10-05",
-    "lastChecked": "2026-10-10T05:24:07.588Z",
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://blog.omgmog.net/feed.xml"
   },
@@ -2161,13 +2161,13 @@
   },
   "https://www.finalgirl.rocks/": {
     "lastPublished": "2026-03-26",
-    "lastChecked": "2026-10-11T14:55:35.786Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://www.finalgirl.rocks/rss.xml"
+    "feedUrl": "https://www.finalgirl.rocks/feeds/posts/default"
   },
   "https://laurasmiscmusings.blogspot.com/": {
-    "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://laurasmiscmusings.blogspot.com/feeds/posts/default"
   },
@@ -2203,13 +2203,13 @@
   },
   "https://swoleateveryheight.blogspot.com/": {
     "lastPublished": "2026-09-14",
-    "lastChecked": "2026-10-11T13:17:43.052Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://swoleateveryheight.blogspot.com/rss.xml"
+    "feedUrl": "https://swoleateveryheight.blogspot.com/feeds/posts/default"
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "lastPublished": "2026-10-03",
-    "lastChecked": "2026-10-10T06:20:22.734Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml"
   },
@@ -2310,8 +2310,8 @@
     "feedUrl": "https://www.darrenvandam.com/blog?format=rss"
   },
   "https://www.themovieblog.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/"
   },
@@ -2322,8 +2322,8 @@
     "feedUrl": "https://them0vieblog.com/feed/"
   },
   "https://www.ukfilmreview.co.uk/blog": {
-    "lastPublished": "2026-10-08",
-    "lastChecked": "2026-10-10T09:49:49.652Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.ukfilmreview.co.uk/blog-feed.xml"
   },
@@ -2388,14 +2388,14 @@
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://susan-stepney.blogspot.com/": {
-    "lastPublished": "2026-09-01",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://susan-stepney.blogspot.com/rss.xml"
+    "feedUrl": "https://susan-stepney.blogspot.com/feeds/posts/default"
   },
   "https://www.newsfromme.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.newsfromme.com/feed/"
   },
@@ -2425,19 +2425,19 @@
   },
   "https://carolineld.blogspot.com/": {
     "lastPublished": "2026-01-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://carolineld.blogspot.com/rss.xml"
+    "feedUrl": "https://carolineld.blogspot.com/feeds/posts/default"
   },
   "https://cabbieblog.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T13:17:43.052Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://cabbieblog.com/feed/"
   },
   "https://diamondgeezer.blogspot.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-11T11:04:51.226Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/blogspot/HcFb"
   },
@@ -2533,13 +2533,13 @@
   },
   "https://desturmobed.blogspot.com/": {
     "lastPublished": "2026-10-04",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://desturmobed.blogspot.com/rss.xml"
+    "feedUrl": "https://desturmobed.blogspot.com/feeds/posts/default"
   },
   "https://roughghosts.com/": {
-    "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-11T05:50:46.924Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://roughghosts.com/feed/"
   },
@@ -2610,8 +2610,8 @@
     "feedUrl": "https://www.globalnerdy.com/feed/"
   },
   "https://www.spookylittlehalloween.com/blog": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-11T08:37:42.000Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.spookylittlehalloween.com/blog?format=rss"
   },
@@ -2622,10 +2622,10 @@
     "feedUrl": "https://halloweenlove.com/feed/"
   },
   "https://pumpkinrot.blogspot.com/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://pumpkinrot.blogspot.com/rss.xml"
+    "feedUrl": "https://pumpkinrot.blogspot.com/feeds/posts/default"
   },
   "https://strangelittlegirlblog.blogspot.com/": {
     "lastPublished": "2026-03-13",
@@ -2647,9 +2647,9 @@
   },
   "http://spookylittlegirllikeyou.blogspot.com/": {
     "lastPublished": "2026-09-25",
-    "lastChecked": "2026-10-12T08:40:13.784Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "http://spookylittlegirllikeyou.blogspot.com/rss.xml"
+    "feedUrl": "http://spookylittlegirllikeyou.blogspot.com/feeds/posts/default"
   },
   "https://www.thisishorror.co.uk/": {
     "lastPublished": "2026-10-12",
@@ -2658,8 +2658,8 @@
     "feedUrl": "https://www.thisishorror.co.uk/feed/"
   },
   "https://www.horrorsociety.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-11T09:12:00.523Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.horrorsociety.com/feed/"
   },
@@ -2791,9 +2791,9 @@
   },
   "https://baileysbeerblog.blogspot.com/": {
     "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-11T15:53:01.012Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://baileysbeerblog.blogspot.com/rss.xml"
+    "feedUrl": "https://baileysbeerblog.blogspot.com/feeds/posts/default"
   },
   "https://thetoycollectorsguide.com/": {
     "lastPublished": "2026-10-01",
@@ -2827,9 +2827,9 @@
   },
   "https://paxton-road.blogspot.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T08:22:10.229Z",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
-    "feedUrl": "https://paxton-road.blogspot.com/rss.xml"
+    "feedUrl": "https://paxton-road.blogspot.com/feeds/posts/default"
   },
   "https://moviesoftheeighties.substack.com/": {
     "lastPublished": null,
@@ -2874,8 +2874,8 @@
     "feedUrl": null
   },
   "https://www.ibroxnoise.co.uk/": {
-    "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-12T08:59:59.597Z",
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:06:42.903Z",
     "status": "success",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/"
   },

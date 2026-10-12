@@ -1,13 +1,13 @@
 ---
 title: United States Blogs
-description: 53 blogs listed in United States.
+description: 54 blogs listed in United States.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="53" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="54" />
 
 ## Arts & Entertainment
 
@@ -140,6 +140,7 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Internet & Web Technology
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://aaronparecki.com/" target="_blank" rel="noopener noreferrer">Aaron Parecki</a></strong> - Writing about the independent web, open standards and building online tools that give people more control over their websites.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://aaronparecki.com/" data-blog-name="Aaron Parecki"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;14 April 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.fromjason.xyz/" target="_blank" rel="noopener noreferrer">From Jason</a></strong> - Personal blog by Jason Velazquez exploring independent websites, internet culture, technology, design and the future of the web.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.fromjason.xyz/" data-blog-name="From Jason"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;12 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Programming & Development
 

@@ -2890,5 +2890,23 @@
     "lastChecked": "2026-10-12T08:59:59.597Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full"
+  },
+  "https://www.sarasoueidan.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-12T09:07:20.126Z",
+    "status": "unknown",
+    "feedUrl": "https://www.sarasoueidan.com/icon.svg"
+  },
+  "https://ephemeralnewyork.wordpress.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T09:07:20.126Z",
+    "status": "success",
+    "feedUrl": "https://ephemeralnewyork.wordpress.com/feed/"
+  },
+  "https://kimberlyhirsh.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T09:07:20.126Z",
+    "status": "success",
+    "feedUrl": "https://kimberlyhirsh.com/feed.xml"
   }
 }

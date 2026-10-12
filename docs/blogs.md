@@ -277,7 +277,6 @@ Explore independent blogs and personal websites from across the web. Browse the 
 
 * <span class="blog-entry"><BlogHealthLink name="Becoming Minimalist" url="https://www.becomingminimalist.com" :favourite="false" /> - Joshua Becker writes about simplifying possessions, intentional living, and finding greater meaning through a minimalist lifestyle.</span><BlogLastUpdated url="https://www.becomingminimalist.com" added-date="2026-04-24" />
 * <span class="blog-entry"><BlogHealthLink name="Cup of Jo" url="https://cupofjo.com" :favourite="false" /> - Lifestyle writing about relationships, family, personal experiences and everyday life, with stories and conversations around shared interests.</span><BlogLastUpdated url="https://cupofjo.com" added-date="2026-05-03" />
-* <span class="blog-entry"><BlogHealthLink name="ESNG Blog" url="https://esngblog.com/" :favourite="false" /> - The East Surrey N Gauge railway modelling blog, featuring model railway layouts, exhibitions, club activities and railway-related interests.</span><BlogLastUpdated url="https://esngblog.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Paul's Beer &amp; Travel Blog" url="https://baileysbeerblog.blogspot.com/" :favourite="false" /> - Long-running personal blog exploring real ale, breweries, traditional pubs, beer culture and travel experiences in Britain and abroad.</span><BlogLastUpdated url="https://baileysbeerblog.blogspot.com/" added-date="2026-10-11" />
 * <span class="blog-entry"><BlogHealthLink name="The Minimalists" url="https://www.theminimalists.com" :favourite="false" /> - Joshua Fields Millburn and Ryan Nicodemus write about meaningful living, minimalism, relationships, and having less without losing what matters.</span><BlogLastUpdated url="https://www.theminimalists.com" added-date="2026-05-19" />
 
@@ -297,6 +296,10 @@ Explore independent blogs and personal websites from across the web. Browse the 
 * <span class="blog-entry"><BlogHealthLink name="Savvy Gardening" url="https://savvygardening.com/" :favourite="false" /> - Horticultural writers offer practical advice on growing vegetables, flowers, houseplants, garden design, pest control, and sustainable gardening.</span><BlogLastUpdated url="https://savvygardening.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="Sick Veg" url="https://www.sickveg.com/" :favourite="false" /> - Sick Veg explores gardening, agriculture, self-sufficiency, organic growing, food, books, counterculture, and relationships between people and land.</span><BlogLastUpdated url="https://www.sickveg.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="The Unconventional Gardener" url="https://theunconventionalgardener.com/blog/" :favourite="false" /> - Emma Doughty's blog combines ethnobotany, science writing, food growing, ecology, garden inspiration, and unusual plants.</span><BlogLastUpdated url="https://theunconventionalgardener.com/blog/" added-date="2026-10-09" />
+
+### Model Railways
+
+* <span class="blog-entry"><BlogHealthLink name="ESNG Blog" url="https://esngblog.com/" :favourite="false" /> - The East Surrey N Gauge railway modelling blog, featuring model railway layouts, exhibitions, club activities and railway-related interests.</span><BlogLastUpdated url="https://esngblog.com/" added-date="2026-10-12" />
 
 ### Sports & Recreation
 

@@ -76,8 +76,11 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Everyday Life
 
-* <span class="blog-entry"><BlogHealthLink name="ESNG Blog" url="https://esngblog.com/" :favourite="false" /> - The East Surrey N Gauge railway modelling blog, featuring model railway layouts, exhibitions, club activities and railway-related interests.</span><BlogLastUpdated url="https://esngblog.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Paul's Beer &amp; Travel Blog" url="https://baileysbeerblog.blogspot.com/" :favourite="false" /> - Long-running personal blog exploring real ale, breweries, traditional pubs, beer culture and travel experiences in Britain and abroad.</span><BlogLastUpdated url="https://baileysbeerblog.blogspot.com/" added-date="2026-10-11" />
+
+### Model Railways
+
+* <span class="blog-entry"><BlogHealthLink name="ESNG Blog" url="https://esngblog.com/" :favourite="false" /> - The East Surrey N Gauge railway modelling blog, featuring model railway layouts, exhibitions, club activities and railway-related interests.</span><BlogLastUpdated url="https://esngblog.com/" added-date="2026-10-12" />
 
 ### Sports & Recreation
 

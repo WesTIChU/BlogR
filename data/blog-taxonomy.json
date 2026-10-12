@@ -152,6 +152,10 @@
           "match": "collect|memorabilia|toy|brick|stationery|knives?"
         },
         {
+          "title": "Model Railways",
+          "match": "model rail|railway model|n gauge"
+        },
+        {
           "title": "Gardening",
           "match": "garden|plant|horticulture|growing|orchard|allotment",
           "legacyAliases": ["Lifestyle & Hobbies / Gardening & DIY"]

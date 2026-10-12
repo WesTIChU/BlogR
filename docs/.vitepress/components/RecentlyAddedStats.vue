@@ -25,7 +25,14 @@ const statistics = () =>
         currentTime.value,
         props.config.statistics
       )
-    : getRecentlyAddedStats(blogs, currentTime.value, props.config.statistics)
+    : props.mode === 'recently-updated'
+      ? getAllBlogStats(
+          blogs,
+          updates,
+          currentTime.value,
+          props.config.statistics
+        )
+      : getRecentlyAddedStats(blogs, currentTime.value, props.config.statistics)
 
 const scheduleLondonMidnight = () => {
   if (typeof window === 'undefined') return

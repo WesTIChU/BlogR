@@ -51,6 +51,24 @@ const decodeEntities = (value) =>
         : Number.parseInt(code, 10)
       return Number.isFinite(value) ? String.fromCodePoint(value) : ''
     })
+    .replace(
+      /&(nbsp|ndash|mdash|hellip|lsquo|rsquo|ldquo|rdquo|bull|copy|reg|trade);/gi,
+      (_match, name) =>
+        ({
+          nbsp: ' ',
+          ndash: '–',
+          mdash: '—',
+          hellip: '…',
+          lsquo: '‘',
+          rsquo: '’',
+          ldquo: '“',
+          rdquo: '”',
+          bull: '•',
+          copy: '©',
+          reg: '®',
+          trade: '™'
+        })[name.toLowerCase()] ?? ''
+    )
     .replace(/&amp;/gi, '&')
 
 const tagAttributes = (tag) => {
@@ -70,6 +88,48 @@ const tagValues = (xml, names) => {
       new RegExp(`<(${pattern})\\b[^>]*>([\\s\\S]*?)<\\/\\1\\s*>`, 'gi')
     )
   ].map(([, , value]) => decodeEntities(value.replace(/<[^>]+>/g, '').trim()))
+}
+
+const rawTagValues = (xml, names) => {
+  const pattern = names.join('|')
+  return [
+    ...xml.matchAll(
+      new RegExp(`<(${pattern})\\b[^>]*>([\\s\\S]*?)<\\/\\1\\s*>`, 'gi')
+    )
+  ].map(([, , value]) => value.trim())
+}
+
+const plainText = (value) => {
+  let text = value
+  for (let pass = 0; pass < 2; pass++) {
+    text = text
+      .replace(/<!\[CDATA\[|\]\]>/gi, '')
+      .replace(/<!--[\s\S]*?-->/g, ' ')
+      .replace(
+        /<(script|style|iframe|object|embed|video|audio|svg)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,
+        ' '
+      )
+      .replace(/<(img|source|track|br)\b[^>]*\/?>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+    text = decodeEntities(text)
+  }
+  return text.replace(/\s+/g, ' ').trim()
+}
+
+const articlePreview = (entry, atom) => {
+  const names = atom
+    ? ['summary', 'content']
+    : ['description', 'content:encoded']
+  for (const value of rawTagValues(entry, names)) {
+    const text = plainText(value)
+    if (text) {
+      const characters = Array.from(text)
+      return characters.length > 200
+        ? `${characters.slice(0, 199).join('')}…`
+        : text
+    }
+  }
+  return null
 }
 
 const validPostTime = (value, now) => {
@@ -92,7 +152,54 @@ const firstValidTime = (values, now) => {
   return null
 }
 
-export function parseFeed(xml, now = new Date()) {
+const firstTagValue = (xml, names) => tagValues(xml, names)[0] ?? null
+
+const isLikelyArticleUrl = (value) => {
+  try {
+    const url = new URL(value, 'https://blogr.invalid')
+    return !/(^|\/)(feeds?|comments?|rss|atom)(\/|$)/i.test(url.pathname)
+  } catch {
+    return false
+  }
+}
+
+const entryUrl = (entry, atom) => {
+  const candidates = []
+  if (atom) {
+    for (const match of entry.matchAll(/<link\b([^>]*)>/gi)) {
+      const attributes = tagAttributes(match[1])
+      if (attributes.href) {
+        candidates.push({
+          value: attributes.href,
+          preferred: attributes.rel?.toLowerCase() === 'alternate'
+        })
+      }
+    }
+  } else {
+    for (const value of tagValues(entry, ['link', 'guid'])) {
+      candidates.push({ value, preferred: true })
+    }
+  }
+  return (
+    candidates.find(
+      ({ value, preferred }) => preferred && isLikelyArticleUrl(value)
+    )?.value ??
+    candidates.find(({ value }) => isLikelyArticleUrl(value))?.value ??
+    null
+  )
+}
+
+const absoluteHttpUrl = (value, feedUrl) => {
+  if (!value) return null
+  try {
+    const url = new URL(value, feedUrl ?? undefined)
+    return ['http:', 'https:'].includes(url.protocol) ? url.toString() : null
+  } catch {
+    return null
+  }
+}
+
+export function parseFeedDetails(xml, now = new Date(), feedUrl = null) {
   if (!/<(?:rss\b|feed\b|rdf:RDF\b)/i.test(xml)) {
     throw new Error('Response is not an RSS or Atom feed')
   }
@@ -103,6 +210,7 @@ export function parseFeed(xml, now = new Date()) {
   ]
   const atom = /<feed\b/i.test(xml)
   const dates = []
+  const publications = []
   for (const [, entry] of entries) {
     // Feed-level updated timestamps are deliberately excluded. For Atom,
     // entry.published and entry.updated are both post activity timestamps.
@@ -125,14 +233,39 @@ export function parseFeed(xml, now = new Date()) {
         .map((value) => validPostTime(value, now))
         .filter((value) => value !== null)
     )
-    if (!Number.isFinite(timestamp)) continue
-    if (timestamp !== null) dates.push(timestamp)
+    if (Number.isFinite(timestamp)) dates.push(timestamp)
+
+    const publicationValues = atom
+      ? tagValues(entry, ['published'])
+      : tagValues(entry, ['pubDate', 'dc:date', 'date'])
+    const publicationTimestamp = firstValidTime(publicationValues, now)
+    if (publicationTimestamp === null) continue
+    const title = firstTagValue(entry, ['title'])
+    const url = absoluteHttpUrl(entryUrl(entry, atom), feedUrl)
+    const summary = articlePreview(entry, atom)
+    publications.push({
+      ...(title ? { title } : {}),
+      ...(url ? { url } : {}),
+      ...(summary ? { summary } : {}),
+      publishedAt: new Date(publicationTimestamp).toISOString()
+    })
   }
   if (!entries.length)
     throw new Error('Feed contains no RSS items or Atom entries')
-  return dates.length
-    ? new Date(Math.max(...dates)).toISOString().slice(0, 10)
-    : null
+  const latestPublication =
+    publications.sort(
+      (a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)
+    )[0] ?? null
+  return {
+    lastPublished: dates.length
+      ? new Date(Math.max(...dates)).toISOString().slice(0, 10)
+      : null,
+    latestArticle: latestPublication
+  }
+}
+
+export function parseFeed(xml, now = new Date()) {
+  return parseFeedDetails(xml, now).lastPublished
 }
 
 const readBody = async (response) => {
@@ -229,9 +362,16 @@ export async function scanBlog(blog, previous = null, now = new Date()) {
     if (pageResponse.status >= 200 && pageResponse.status < 300) {
       const trimmed = pageResponse.body.trim()
       if (/<(?:rss|feed|rdf:RDF)\b/i.test(trimmed)) {
-        const lastPublished = parseFeed(trimmed, now)
-        if (lastPublished) {
-          return { lastPublished, status: 'success', feedUrl: pageResponse.url }
+        const parsed = parseFeedDetails(trimmed, now, pageResponse.url)
+        if (parsed.lastPublished) {
+          return {
+            lastPublished: parsed.lastPublished,
+            ...(parsed.latestArticle
+              ? { latestArticle: parsed.latestArticle }
+              : {}),
+            status: 'success',
+            feedUrl: pageResponse.url
+          }
         }
       }
       candidates.push(...discoverFeedUrls(pageResponse.url, pageResponse.body))
@@ -253,9 +393,16 @@ export async function scanBlog(blog, previous = null, now = new Date()) {
       if (response.status < 200 || response.status >= 300) continue
       foundFeed = true
       lastFeedUrl = response.url || candidate
-      const lastPublished = parseFeed(response.body, now)
-      if (lastPublished) {
-        return { lastPublished, status: 'success', feedUrl: lastFeedUrl }
+      const parsed = parseFeedDetails(response.body, now, lastFeedUrl)
+      if (parsed.lastPublished) {
+        return {
+          lastPublished: parsed.lastPublished,
+          ...(parsed.latestArticle
+            ? { latestArticle: parsed.latestArticle }
+            : {}),
+          status: 'success',
+          feedUrl: lastFeedUrl
+        }
       }
     } catch {
       // Try the next discovered or fallback feed.
@@ -271,6 +418,7 @@ export async function scanBlog(blog, previous = null, now = new Date()) {
 const comparable = (entry) =>
   JSON.stringify({
     lastPublished: entry.lastPublished ?? null,
+    latestArticle: entry.latestArticle ?? null,
     status: entry.status,
     feedUrl: entry.feedUrl ?? null
   })
@@ -281,6 +429,11 @@ export function mergeResult(previous, result, checkedAt) {
     lastChecked: previous?.lastChecked ?? checkedAt,
     status: result.status,
     feedUrl: result.feedUrl ?? previous?.feedUrl ?? null
+  }
+  if (result.latestArticle !== undefined) {
+    merged.latestArticle = result.latestArticle
+  } else if (previous?.latestArticle !== undefined) {
+    merged.latestArticle = previous.latestArticle
   }
   if (!previous || comparable(previous) !== comparable(merged)) {
     merged.lastChecked = checkedAt

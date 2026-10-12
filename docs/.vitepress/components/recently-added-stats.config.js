@@ -63,5 +63,40 @@ export const ALL_BLOG_STATS_CONFIG = {
   statistics: allBlogStatistics
 }
 
+const recentlyUpdatedStatistics = [
+  {
+    key: 'updated-today',
+    metric: 'content-updates',
+    label: 'Updated Today',
+    enabled: true,
+    order: 1,
+    period: { type: 'calendar-day' },
+    description: 'Blogs updated during the current London calendar day.'
+  },
+  {
+    key: 'updated-last-seven-days',
+    metric: 'content-updates',
+    label: 'Last 7 Days',
+    enabled: true,
+    order: 2,
+    period: { type: 'rolling-days', days: 7 },
+    description: 'Blogs updated today or during the previous six calendar days.'
+  },
+  {
+    key: 'updated-this-month',
+    metric: 'content-updates',
+    label: 'This Month',
+    enabled: true,
+    order: 3,
+    period: { type: 'calendar-month' },
+    description: 'Blogs updated during the current London calendar month.'
+  }
+]
+
 export const RECENTLY_ADDED_STATISTICS = recentlyAddedStatistics
 export const ALL_BLOG_STATISTICS = allBlogStatistics
+export const RECENTLY_UPDATED_STATS_CONFIG = {
+  sectionHeading: '',
+  statistics: recentlyUpdatedStatistics
+}
+export const RECENTLY_UPDATED_STATISTICS = recentlyUpdatedStatistics

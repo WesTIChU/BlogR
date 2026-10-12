@@ -14,7 +14,10 @@ import {
   getVerifiedFeedUrl
 } from '../../../shared/blog-update.js'
 import { countryPath, getCountryInfo } from '../../../shared/countries.js'
-import { formatAddedDate } from '../../../shared/recently-added.js'
+import {
+  formatAddedDate,
+  LONDON_TIME_ZONE
+} from '../../../shared/recently-added.js'
 import {
   healthStatuses,
   loadHealthStatuses
@@ -28,6 +31,7 @@ import {
 const props = defineProps({
   url: { type: String, required: true },
   addedDate: { type: String, default: null },
+  publicationAt: { type: String, default: null },
   community: { type: Boolean, default: false }
 })
 
@@ -80,21 +84,44 @@ const update = computed(() =>
   props.community ? null : getBlogUpdate(updates, props.url)
 )
 const relativeUpdate = computed(() =>
-  props.community
-    ? formatRelativeDate(health.value.checkedAt?.slice(0, 10))
-    : update.value?.status === 'success'
-      ? formatRelativeDate(update.value.lastPublished)
-      : null
+  props.publicationAt
+    ? formatPublicationTime(props.publicationAt)
+    : props.community
+      ? formatRelativeDate(health.value.checkedAt?.slice(0, 10))
+      : update.value?.status === 'success'
+        ? formatRelativeDate(update.value.lastPublished)
+        : null
+)
+const relativeUpdateLabel = computed(() =>
+  props.publicationAt
+    ? 'Published'
+    : props.community
+      ? 'Last checked'
+      : 'Last updated'
 )
 const updateTooltip = computed(() =>
-  props.community
-    ? health.value.checkedAt
-      ? `Last checked: ${health.value.checkedAt}`
-      : ''
-    : update.value?.lastPublished
-      ? `Last updated: ${update.value.lastPublished}`
-      : ''
+  props.publicationAt
+    ? `Published: ${props.publicationAt}`
+    : props.community
+      ? health.value.checkedAt
+        ? `Last checked: ${health.value.checkedAt}`
+        : ''
+      : update.value?.lastPublished
+        ? `Last updated: ${update.value.lastPublished}`
+        : ''
 )
+
+function formatPublicationTime(value) {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return formatRelativeDate(value)
+  const date = new Date(value)
+  if (!Number.isFinite(date.getTime())) return null
+  return new Intl.DateTimeFormat('en-GB', {
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: LONDON_TIME_ZONE,
+    timeZoneName: 'short'
+  }).format(date)
+}
 const feedUrl = computed(() =>
   props.community ? null : getVerifiedFeedUrl(updates, props.url)
 )
@@ -172,9 +199,7 @@ onMounted(() => {
       :title="updateTooltip"
       :aria-label="updateTooltip"
     >
-      {{ props.community ? 'Last checked' : 'Last updated' }}&nbsp;{{
-        relativeUpdate
-      }}
+      {{ relativeUpdateLabel }}&nbsp;{{ relativeUpdate }}
     </span>
     <span
       v-if="addedDateText && relativeUpdate"

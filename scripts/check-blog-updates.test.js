@@ -12,6 +12,7 @@ import {
   discoverFeedUrls,
   mergeResult,
   parseFeed,
+  parseFeedDetails,
   scanBlog
 } from './check-blog-updates.js'
 
@@ -25,6 +26,56 @@ test('parses RSS and selects the latest valid post date', () => {
     <item><pubDate>2099-01-01T08:00:00Z</pubDate></item>
   </channel></rss>`
   assert.equal(parseFeed(xml, now), '2026-10-08')
+})
+
+test('captures an RSS article only from a reliable publication timestamp', () => {
+  const xml = `<rss><channel>
+    <item><title>Today</title><link>/today</link><pubDate>2026-10-10T08:00:00Z</pubDate></item>
+    <item><title>No publication date</title><link>/missing</link><updated>2026-10-10T09:00:00Z</updated></item>
+  </channel></rss>`
+  assert.deepEqual(
+    parseFeedDetails(xml, now, 'https://example.com/feed.xml').latestArticle,
+    {
+      title: 'Today',
+      url: 'https://example.com/today',
+      publishedAt: '2026-10-10T08:00:00.000Z'
+    }
+  )
+})
+
+test('stores a short plain-text preview from RSS and Atom summaries', () => {
+  const rss = `<rss><channel><item>
+    <title>RSS title &amp; news</title><link>https://example.com/rss-post</link>
+    <pubDate>2026-10-10T08:00:00Z</pubDate>
+    <description><![CDATA[<p>A <strong>short</strong> summary &amp; detail.</p><script>bad()</script><img src="tracking.gif">]]></description>
+  </item></channel></rss>`
+  assert.equal(
+    parseFeedDetails(rss, now).latestArticle.summary,
+    'A short summary & detail.'
+  )
+
+  const atom = `<feed><entry>
+    <title>Atom title</title><link href="https://example.com/atom-post" />
+    <published>2026-10-10T09:00:00Z</published>
+    <summary type="html">&lt;p&gt;An Atom summary&lt;/p&gt;</summary>
+  </entry></feed>`
+  assert.equal(
+    parseFeedDetails(atom, now).latestArticle.summary,
+    'An Atom summary'
+  )
+})
+
+test('prefers an article permalink over feed comments links', () => {
+  const xml = `<rss><channel><item>
+    <title>Permalink</title>
+    <link>https://example.com/feeds/123/comments/default</link>
+    <guid>https://example.com/posts/permalink</guid>
+    <pubDate>2026-10-10T08:00:00Z</pubDate>
+  </item></channel></rss>`
+  assert.equal(
+    parseFeedDetails(xml, now).latestArticle.url,
+    'https://example.com/posts/permalink'
+  )
 })
 
 test('parses the newest Atom publication or entry update date', () => {
@@ -109,6 +160,7 @@ test('scans a discovered feed without using HTTP Last-Modified', async () => {
     )
     assert.deepEqual(result, {
       lastPublished: '2026-10-07',
+      latestArticle: { publishedAt: '2026-10-07T00:00:00.000Z' },
       status: 'success',
       feedUrl: `http://127.0.0.1:${port}/feed.xml`
     })

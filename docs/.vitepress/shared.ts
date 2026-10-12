@@ -84,6 +84,10 @@ const discoverItems: DefaultTheme.NavItemWithLink[] = [
     link: '/recently-added'
   },
   {
+    text: '<span class="i-lucide-refresh-cw"></span> Recently Updated',
+    link: '/recently-updated'
+  },
+  {
     text: '<span class="i-twemoji-writing-hand"></span> Personal Writing',
     link: '/personal-writing'
   },
@@ -139,9 +143,9 @@ const sortedDiscoverItems = [
     .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
 ]
 
-const browseItems = discoverItems.slice(0, 2)
+const browseItems = discoverItems.slice(0, 3)
 const sortedCategoryItems = discoverItems
-  .slice(2)
+  .slice(3)
   .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
 
 type NavGroup = Omit<DefaultTheme.NavItemWithChildren, 'items'> & {

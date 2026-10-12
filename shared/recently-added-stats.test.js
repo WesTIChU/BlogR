@@ -1,6 +1,9 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { ALL_BLOG_STATS_CONFIG } from '../docs/.vitepress/components/recently-added-stats.config.js'
+import {
+  ALL_BLOG_STATS_CONFIG,
+  RECENTLY_UPDATED_STATS_CONFIG
+} from '../docs/.vitepress/components/recently-added-stats.config.js'
 import {
   getAllBlogStats,
   getRecentlyAddedStats
@@ -30,6 +33,16 @@ test('exposes the configurable All Blogs statistics in display order', () => {
       .sort((a, b) => a.order - b.order)
       .map(({ label }) => label),
     ['Total Blogs', 'Known Countries', 'Updated Today']
+  )
+})
+
+test('exposes the Recently Updated statistics in display order', () => {
+  assert.deepEqual(
+    RECENTLY_UPDATED_STATS_CONFIG.statistics
+      .filter(({ enabled }) => enabled)
+      .sort((a, b) => a.order - b.order)
+      .map(({ label }) => label),
+    ['Updated Today', 'Last 7 Days', 'This Month']
   )
 })
 

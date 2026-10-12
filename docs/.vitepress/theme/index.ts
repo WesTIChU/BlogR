@@ -17,6 +17,7 @@
 
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import { enhanceBlogDetails } from '../components/blog-details-enhancer.js'
 import { loadProgress } from './composables/nprogress'
 import {
   cancelPendingScroll,
@@ -151,6 +152,8 @@ export default {
 
         originalAfter?.(to)
 
+        enhanceBlogDetails()
+
         requestAnimationFrame(applySeasonalBranding)
 
         // Scroll to the exact matching text after a search-result navigation
@@ -171,5 +174,6 @@ export default {
 
     // Initialize theme handler
     useThemeHandler()
+    enhanceBlogDetails()
   }
 } satisfies Theme

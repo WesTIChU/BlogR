@@ -1,11 +1,19 @@
 import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import blogUpdates from '../data/blog-updates.json' with { type: 'json' }
+import { getBlogLinkAttributes } from '../shared/blog-link.js'
+import {
+  formatRelativeDate,
+  getBlogUpdate,
+  getVerifiedFeedUrl
+} from '../shared/blog-update.js'
 import {
   countryPath,
   getCountryInfo,
   normalizeCountryCode
 } from '../shared/countries.js'
+import { formatAddedDate } from '../shared/recently-added.js'
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
 const communities = JSON.parse(
@@ -52,12 +60,96 @@ export const compareCommunities = (a, b) =>
   })
 export const compareCommunityCategories = (a, b) =>
   a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
+
+const renderBlogDetails = (entry, now = new Date()) => {
+  const community = Boolean(entry.community)
+  const update = community ? null : getBlogUpdate(blogUpdates, entry.url)
+  const relativeUpdate =
+    update?.status === 'success'
+      ? formatRelativeDate(update.lastPublished, now)
+      : null
+  const feedUrl = community ? null : getVerifiedFeedUrl(blogUpdates, entry.url)
+  const country = community ? null : getCountryInfo(entry.country)
+  const countryUrl = country ? countryPath(country) : null
+  const statusTooltip =
+    'Health status: Unknown or stale. Last checked: not available.'
+  const details = []
+
+  if (entry.favourite) {
+    details.push(
+      '<span class="blog-favourite" aria-label="Favourite">⭐</span>'
+    )
+  }
+
+  if (feedUrl) {
+    const feedLabel = `RSS feed for ${entry.name}`
+    details.push(
+      `<a class="blog-feed-link" href="${attribute(feedUrl)}" aria-label="${attribute(feedLabel)}" title="${attribute(feedLabel)}" target="_blank" rel="noopener noreferrer"><svg class="blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a>`
+    )
+  }
+
+  details.push(
+    `<span class="blog-health-dot" style="background-color:#94A3B8;" title="${statusTooltip}" aria-label="${statusTooltip}" role="img"></span>`
+  )
+
+  if (country && countryUrl) {
+    details.push(
+      '<span class="blog-metadata-separator" aria-hidden="true">·</span>',
+      `<a class="blog-country" href="${attribute(countryUrl)}" aria-label="${attribute(`Based in ${country.name}`)}"><span aria-hidden="true">${country.flag}</span> ${attribute(country.name)}</a>`
+    )
+  }
+
+  if (country && relativeUpdate) {
+    details.push(
+      '<span class="blog-metadata-separator" aria-hidden="true">·</span>'
+    )
+  }
+
+  if (relativeUpdate) {
+    details.push(
+      `<span title="${attribute(`Last updated: ${update.lastPublished}`)}" aria-label="${attribute(`Last updated: ${update.lastPublished}`)}">Last updated&nbsp;${attribute(relativeUpdate)}</span>`
+    )
+  }
+
+  if (community) {
+    details.push('<span data-health-relative></span>')
+  }
+
+  const addedDate = formatAddedDate(entry.addedDate)
+  if (addedDate) {
+    if (relativeUpdate) {
+      details.push(
+        '<span class="blog-metadata-separator" aria-hidden="true">·</span>'
+      )
+    }
+    details.push(
+      `<span class="blog-added-date">Added&nbsp;${attribute(addedDate)}</span>`
+    )
+  }
+
+  details.push('<span class="blog-health-sr-only">Unknown or stale</span>')
+
+  const communityAttribute = community ? ' data-blog-community="true"' : ''
+  return `<span class="blog-last-updated" data-blog-details data-blog-url="${attribute(entry.url)}"${communityAttribute}>${details.join('')}</span>`
+}
+
+const renderBlogLink = (blog) => {
+  const linkAttributes = getBlogLinkAttributes(blog.url)
+  const target = linkAttributes.target
+    ? ` target="${attribute(linkAttributes.target)}"`
+    : ''
+  const rel = linkAttributes.rel
+    ? ` rel="${attribute(linkAttributes.rel)}"`
+    : ''
+  return `<strong class="blog-health-link"><a href="${attribute(blog.url)}"${target}${rel}>${attribute(blog.name)}</a></strong>`
+}
+
 const line = (blog) =>
-  `* <span class="blog-entry"><BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :favourite="${Boolean(blog.favourite)}" /> - ${blog.description}</span><BlogLastUpdated url="${attribute(blog.url)}" added-date="${attribute(blog.addedDate ?? '')}" />`
+  `* <span class="blog-entry">${renderBlogLink(blog)} - ${blog.description}</span>${renderBlogDetails(blog)}`
 const renderBlogEntries = (entries) => entries.map(line).join('\n')
 
 const communityLine = (community) =>
-  `* <a href="${attribute(community.url)}" target="_blank" rel="noopener noreferrer"><strong>${attribute(community.name)}</strong></a> - ${community.description}<BlogLastUpdated url="${attribute(community.url)}" added-date="${attribute(community.addedDate ?? '')}" :community="true" />`
+  `* <a href="${attribute(community.url)}" target="_blank" rel="noopener noreferrer"><strong>${attribute(community.name)}</strong></a> - ${community.description}${renderBlogDetails({ ...community, community: true })}`
 
 const renderSections = (sections) =>
   sections
@@ -143,7 +235,7 @@ export function communityPage(
     grouped && title === 'Online Communities'
       ? '\n[**► Submit a Community**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-community.yml)\n'
       : ''
-  return `---\ntitle: ${title}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'\n</script>\n\n# ${title}\n\n${description}\n${submissionLink}\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${body}\n`
+  return `---\ntitle: ${title}\ndescription: ${description}\n---\n\n<script setup>\n</script>\n\n# ${title}\n\n${description}\n${submissionLink}\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${body}\n`
 }
 
 export function page(
@@ -167,12 +259,12 @@ export function page(
       : '* No blogs are currently listed in this category yet.'
   const introDivider =
     '<hr class="blogr-intro-divider" aria-hidden="true" />\n\n'
-  return `---\ntitle: ${frontmatterTitle}\ndescription: ${description}\n---\n\n<script setup>\nimport BlogHealthLink from '${componentPath}'\nimport BlogLastUpdated from '${componentPath.replace('BlogHealthLink', 'BlogLastUpdated')}'\n${additionalImports}</script>\n\n# ${heading}\n\n${description}\n\n${introDivider}${introContent}${body}\n`
+  return `---\ntitle: ${frontmatterTitle}\ndescription: ${description}\n---\n\n<script setup>\n${additionalImports}</script>\n\n# ${heading}\n\n${description}\n\n${introDivider}${introContent}${body}\n`
 }
 
 export function countryPage(country, entries) {
   const description = `${entries.length} ${entries.length === 1 ? 'blog' : 'blogs'} listed in ${country.name}.`
-  return `---\ntitle: ${country.name} Blogs\ndescription: ${description}\n---\n\n<script setup>\nimport CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'\nimport BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'\nimport BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'\n</script>\n\n<CountryDirectoryHeader flag="${attribute(country.flag)}" name="${attribute(country.name)}" :count="${entries.length}" />\n\n${renderSections(groupByCategory(entries, compareBlogNames))}\n`
+  return `---\ntitle: ${country.name} Blogs\ndescription: ${description}\n---\n\n<script setup>\nimport CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'\n</script>\n\n<CountryDirectoryHeader flag="${attribute(country.flag)}" name="${attribute(country.name)}" :count="${entries.length}" />\n\n${renderSections(groupByCategory(entries, compareBlogNames))}\n`
 }
 
 const normalizeSubcategory = (entry) => {

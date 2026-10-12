@@ -88,7 +88,10 @@ test('renders directory descriptions in clampable spans', async () => {
     'utf8'
   )
 
-  assert.match(generatedPage, /<span class="blog-entry"><BlogHealthLink/)
+  assert.match(
+    generatedPage,
+    /<span class="blog-entry"><strong class="blog-health-link"><a/
+  )
   assert.match(layout, /-webkit-line-clamp: 3/)
   assert.match(layout, /line-clamp: 3/)
   assert.match(search, /-webkit-line-clamp: 3/)
@@ -137,7 +140,7 @@ test('groups country pages by assigned country and excludes unknown countries', 
   )
   assert.match(scotlandPage, /<CountryDirectoryHeader[^>]+name="Scotland"/)
   assert.doesNotMatch(scotlandPage, /^# .*Scotland$/m)
-  assert.match(scotlandPage, /BlogHealthLink/)
+  assert.match(scotlandPage, /class="blog-health-link"><a/)
 
   const unitedStatesPage = await readFile(
     'docs/country/united-states.md',
@@ -353,7 +356,7 @@ test('renders discovered headings as normal markdown headings', () => {
   assert.match(markdown, /## New Topic/)
 })
 
-test('passes permanent addition dates to the shared metadata component', () => {
+test('renders permanent addition dates in static metadata', () => {
   const markdown = page('Example', 'Description', [
     {
       name: 'Example Blog',
@@ -363,7 +366,10 @@ test('passes permanent addition dates to the shared metadata component', () => {
     }
   ])
 
-  assert.match(markdown, /<BlogLastUpdated[^>]+added-date="2026-10-09"/)
+  assert.match(
+    markdown,
+    /<span class="blog-added-date">Added&nbsp;9 October 2026<\/span>/
+  )
 })
 
 test('keeps favourite blogs before alphabetical non-favourites', () => {
@@ -517,7 +523,7 @@ test('renders every blog exactly once in the grouped All Blogs page', () => {
   assert.equal(renderedCount, blogs.length)
   assert.equal(new Set(blogs.map(({ url }) => url)).size, blogs.length)
   for (const blog of blogs) {
-    assert.equal(markdown.split(blog.url).length - 1, 2)
+    assert.match(markdown, new RegExp(`data-blog-url="${blog.url}"`))
   }
 })
 
@@ -545,8 +551,11 @@ test('renders nested category headings and preserves blog metadata', () => {
       0
     )
   )
-  assert.match(markdown, /<BlogHealthLink name="16bit\.com"/)
-  assert.match(markdown, /<BlogLastUpdated[^>]+added-date="2026-10-09"/)
+  assert.match(
+    markdown,
+    /<strong class="blog-health-link"><a href="http:\/\/www\.16bit\.com\/"[^>]*>16bit\.com<\/a><\/strong>/
+  )
+  assert.match(markdown, /data-blog-url="http:\/\/www\.16bit\.com\/"/)
   assert.equal(
     groupBySubsection(
       'lifestyle-and-hobbies',
@@ -595,8 +604,8 @@ test('generates community sections and preserves favourite metadata', () => {
 
   assert.match(markdown, /## Technology/)
   assert.match(markdown, /## Gaming/)
-  assert.match(markdown, /BlogLastUpdated[^>]+:community="true"/)
-  assert.match(markdown, /BlogLastUpdated/)
+  assert.match(markdown, /data-blog-community="true"/)
+  assert.match(markdown, /data-health-relative/)
   assert.doesNotMatch(markdown, /WebsiteAvailability|rss/i)
 })
 

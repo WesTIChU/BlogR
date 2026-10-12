@@ -1,6 +1,6 @@
 ---
 title: Australia Blogs
-description: 6 blogs listed in Australia.
+description: 7 blogs listed in Australia.
 ---
 
 <script setup>
@@ -9,13 +9,14 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="6" />
+<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="7" />
 
 ## Arts & Entertainment
 
 ### Film, TV & Theatre
 
 * <span class="blog-entry"><BlogHealthLink name="Man in Chair" url="https://simonparrismaninchair.com/" :favourite="false" /> - Reviews and commentary on music theatre, opera, ballet and plays, covering performances in Melbourne and beyond.</span><BlogLastUpdated url="https://simonparrismaninchair.com/" added-date="2026-10-10" />
+* <span class="blog-entry"><BlogHealthLink name="Silver Screen Classics" url="https://silverscreenclassicsblog.wordpress.com/" :favourite="false" /> - Paul Batters explores classic cinema, from silent films and Hollywood's Golden Age to film noir, with reviews, film history, essays and collaborative blogathons.</span><BlogLastUpdated url="https://silverscreenclassicsblog.wordpress.com/" added-date="2026-10-12" />
 
 ## Culture & Places
 

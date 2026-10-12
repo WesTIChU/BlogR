@@ -1,4 +1,4 @@
-name: name: Blog update scan (hourly)
+name: Blog update scan (hourly)
 
 on:
   schedule:

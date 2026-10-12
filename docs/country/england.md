@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 40 blogs listed in England.
+description: 42 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="40" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="42" />
 
 ## Arts & Entertainment
 
@@ -37,6 +37,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Book Reviews
 
 * <span class="blog-entry"><BlogHealthLink name="Shiny New Books" url="https://shinynewbooks.co.uk/" :favourite="false" /> - A literary review website featuring book reviews, author interviews and recommendations across fiction and nonfiction.</span><BlogLastUpdated url="https://shinynewbooks.co.uk/" added-date="2026-10-11" />
+* <span class="blog-entry"><BlogHealthLink name="Stuck in a Book" url="https://www.stuckinabook.com/" :favourite="false" /> - Simon Thomas writes about books and reading, particularly lesser-known twentieth-century fiction, literary discoveries and book reviews.</span><BlogLastUpdated url="https://www.stuckinabook.com/" added-date="2026-10-12" />
 
 ### Literature
 
@@ -75,6 +76,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Everyday Life
 
+* <span class="blog-entry"><BlogHealthLink name="ESNG Blog" url="https://esngblog.com/" :favourite="false" /> - The East Surrey N Gauge railway modelling blog, featuring model railway layouts, exhibitions, club activities and railway-related interests.</span><BlogLastUpdated url="https://esngblog.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Paul's Beer &amp; Travel Blog" url="https://baileysbeerblog.blogspot.com/" :favourite="false" /> - Long-running personal blog exploring real ale, breweries, traditional pubs, beer culture and travel experiences in Britain and abroad.</span><BlogLastUpdated url="https://baileysbeerblog.blogspot.com/" added-date="2026-10-11" />
 
 ### Sports & Recreation

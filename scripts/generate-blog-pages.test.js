@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 462)
+  assert.equal(blogs.length, 471)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -560,7 +560,7 @@ test('renders nested category headings and preserves blog metadata', () => {
 
 test('keeps the separate community catalogue complete and unique', () => {
   validateCommunities(communities)
-  assert.equal(communities.length, 43)
+  assert.equal(communities.length, 44)
   assert.deepEqual(
     [...new Set(communities.map((community) => community.section))],
     ['forums', 'independent-communities']

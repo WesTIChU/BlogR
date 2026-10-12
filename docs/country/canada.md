@@ -1,6 +1,6 @@
 ---
 title: Canada Blogs
-description: 9 blogs listed in Canada.
+description: 10 blogs listed in Canada.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="9" />
+<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="10" />
 
 ## Arts & Entertainment
 
@@ -45,6 +45,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 ### Internet & Web Technology
 
 * <span class="blog-entry"><BlogHealthLink name="Anderegg" url="https://anderegg.ca/" :favourite="false" /> - Gavin Anderegg's independent blog about Apple software, technology, interface design, privacy and personal computing, combining thoughtful criticism of frustrating design choices with practical observations and occasional personal notes.</span><BlogLastUpdated url="https://anderegg.ca/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Roland Tanglao" url="https://rolandtanglao.com/" :favourite="false" /> - A long-running personal blog covering technology, open-source software, photography, life in Vancouver and observations about the web.</span><BlogLastUpdated url="https://rolandtanglao.com/" added-date="2026-10-12" />
 
 ## Travel & Outdoors
 

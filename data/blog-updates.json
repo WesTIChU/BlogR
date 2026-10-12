@@ -2830,5 +2830,29 @@
     "lastChecked": "2026-10-12T08:22:10.229Z",
     "status": "success",
     "feedUrl": "https://paxton-road.blogspot.com/rss.xml"
+  },
+  "https://moviesoftheeighties.substack.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-12T08:33:08.044Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://the-modern-dad.com/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-12T08:33:08.044Z",
+    "status": "success",
+    "feedUrl": "https://the-modern-dad.com/feed/"
+  },
+  "https://www.all80smoviespodcast.com/blog/": {
+    "lastPublished": "2026-09-28",
+    "lastChecked": "2026-10-12T08:33:08.044Z",
+    "status": "success",
+    "feedUrl": "https://www.spreaker.com/show/6783936/episodes/feed"
+  },
+  "https://scopophiliamovieblog.com/": {
+    "lastPublished": "2026-10-05",
+    "lastChecked": "2026-10-12T08:33:08.044Z",
+    "status": "success",
+    "feedUrl": "https://scopophiliamovieblog.com/feed/"
   }
 }

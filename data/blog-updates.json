@@ -2794,5 +2794,29 @@
     "lastChecked": "2026-10-11T15:53:01.012Z",
     "status": "success",
     "feedUrl": "https://baileysbeerblog.blogspot.com/rss.xml"
+  },
+  "https://thetoycollectorsguide.com/": {
+    "lastPublished": "2026-10-01",
+    "lastChecked": "2026-10-12T08:15:00.128Z",
+    "status": "success",
+    "feedUrl": "https://thetoycollectorsguide.com/feed/"
+  },
+  "https://rolandtanglao.com/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-12T08:15:00.128Z",
+    "status": "success",
+    "feedUrl": "https://rolandtanglao.com/feed.xml"
+  },
+  "https://www.stuckinabook.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T08:15:00.128Z",
+    "status": "success",
+    "feedUrl": "https://www.stuckinabook.com/comments/feed/"
+  },
+  "https://esngblog.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T08:15:00.128Z",
+    "status": "success",
+    "feedUrl": "https://esngblog.com/feed/"
   }
 }

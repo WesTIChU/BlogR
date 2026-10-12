@@ -1,14 +1,14 @@
 # Blog health status publishing
 
-Run `pnpm audit:blogs` on the scheduled daily checker host. The repository's
-`.github/workflows/blog-health.yml` runs this at 06:00 UTC and on manual
-dispatch. The checker keeps
+Run `pnpm audit:blogs` on the scheduled checker host. The repository's
+`.github/workflows/blog-health.yml` runs the blog and community health audits
+every six hours (`0 */6 * * *`) and on manual dispatch. The checker keeps
 full audit reports and history in a runner-local output directory, which are not public, and
 also writes `docs/public/health-status.json` containing only normalized blog
 URLs, compact statuses, and check timestamps.
 
 The generated VitePress pages load that small JSON file in the browser. This
-means a new daily status file can be copied to the static site's public assets
+means a new status file can be copied to the static site's public assets
 without rebuilding the site. The component uses a cache-busting request and
 still treats missing or older-than-72-hour entries as unknown. It never makes
 HTTP requests to blog URLs.

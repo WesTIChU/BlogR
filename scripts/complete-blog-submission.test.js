@@ -114,3 +114,30 @@ test('health audit keeps scheduled/manual triggers and is reusable', () => {
     /contains\(github\.event\.pull_request\.body, '<!-- blogr-submission:'\)/
   )
 })
+
+test('captures targeted health URLs and passes them to the reusable audit', () => {
+  assert.match(
+    completionWorkflow,
+    /run: \|\n\s+node scripts\/health-targets\.js \\\n\s+--base "\$BASE_SHA" \\\n\s+--head "\$HEAD_SHA" >> "\$GITHUB_OUTPUT"/
+  )
+  assert.doesNotMatch(
+    completionWorkflow,
+    /run:\n\s+node scripts\/health-targets\.js[\s\S]*\n\s+>> "\$GITHUB_OUTPUT"/
+  )
+  assert.match(
+    completionWorkflow,
+    /blog_health_urls: \$\{\{ steps\.targets\.outputs\.blog_health_urls \}\}/
+  )
+  assert.match(
+    completionWorkflow,
+    /community_health_urls: \$\{\{ steps\.targets\.outputs\.community_health_urls \}\}/
+  )
+  assert.match(
+    completionWorkflow,
+    /blog_health_urls: \$\{\{ needs\.health-targets\.outputs\.blog_health_urls \}\}/
+  )
+  assert.match(
+    completionWorkflow,
+    /community_health_urls:\s+\$\{\{ needs\.health-targets\.outputs\.community_health_urls \}\}/
+  )
+})

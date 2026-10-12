@@ -59,9 +59,10 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.merge_commit_sha }}
-        run:
-          node scripts/health-targets.js --base "$BASE_SHA" --head "$HEAD_SHA"
-          >> "$GITHUB_OUTPUT"
+        run: |
+          node scripts/health-targets.js \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA" >> "$GITHUB_OUTPUT"
 
   health-check:
     needs: health-targets

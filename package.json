@@ -19,6 +19,7 @@
     "lint": "eslint --cache .",
     "lint:md": "node scripts/lint-markdown.js || true",
     "prepare": "simple-git-hooks",
+    "test": "node --test",
     "test:blog-health": "node --test shared/blog-health-*.test.js",
     "test:blog-submissions": "node --test scripts/*blog-submission.test.js",
     "test:blog-updates": "node --test scripts/check-blog-updates.test.js",

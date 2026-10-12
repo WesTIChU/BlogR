@@ -56,13 +56,13 @@
   },
   "http://www.galactichunter.com/GH/": {
     "status": "success",
-    "lastPublished": "2026-09-28",
-    "feedUrl": "http://www.galactichunter.com/gh/crss",
+    "lastPublished": "2026-10-12",
+    "feedUrl": "http://www.galactichunter.com/GH/rss.xml",
     "latestArticle": {
-      "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
-      "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
-      "publishedAt": "2026-09-28T13:18:14.000Z"
+      "title": "Q&A: Star Wars NYCC Ramblings, Alternate Futures, and Eyes on the Door",
+      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-nycc-ramblings-alternate-futures-and-eyes-door",
+      "summary": "This week in Star Wars Q&A - The future of licensing! The future will probably be very much like the present, only more so. Quit happens , or at least cutbacks. Also we are out of questions for next …",
+      "publishedAt": "2026-10-12T05:40:23.000Z"
     }
   },
   "http://www.merseytart.com/": {
@@ -175,12 +175,12 @@
   },
   "https://alexwilson.tech/": {
     "status": "success",
-    "lastPublished": "2026-10-04",
+    "lastPublished": "2026-10-11",
     "feedUrl": "https://alexwilson.tech/feed.xml",
     "latestArticle": {
-      "url": "https://alexwilson.tech/content/01a106f2-4e6d-7550-8f35-bda8127248dc?utm_source=feed",
-      "summary": "How do I describe this week? Well, I have been feeling a bit burned out from studying and fitness, as well as reckoning with other some small things over the week. So in an act of kindness to myself …",
-      "publishedAt": "2026-10-04T12:45:00.000Z"
+      "url": "https://alexwilson.tech/content/01a130cf-f5a2-718c-b07f-7389dc732464?utm_source=feed",
+      "summary": "Busy busy busy. My dentist’s uncanny mind-reading ability has struck again, and now that my teeth are fixed I have been successfully upsold on a new treatment. My dermatologist finally let me graduat…",
+      "publishedAt": "2026-10-11T14:49:00.000Z"
     }
   },
   "https://alis.me/": {
@@ -490,13 +490,13 @@
   },
   "https://blog.archive.org/": {
     "status": "success",
-    "lastPublished": "2026-10-08",
+    "lastPublished": "2026-10-12",
     "feedUrl": "https://blog.archive.org/feed/",
     "latestArticle": {
-      "title": "Internet Archive to Demo Wayback Machine at Friday’s Uniqlo Street Festival",
-      "url": "https://blog.archive.org/2026/10/08/internet-archive-to-demo-wayback-machine-at-fridays-uniqlo-street-festival/",
-      "summary": "The Internet Archive is joining other area nonprofits for the Uniqlo Street Festival on Friday, October 9, 2026, alongside the opening of Uniqlo’s new flagship store on Market Street. We’ll […] The p…",
-      "publishedAt": "2026-10-08T11:50:00.000Z"
+      "title": "The People, Counted: Browse Raw Census Records at the Internet Archive",
+      "url": "https://blog.archive.org/2026/10/12/the-people-counted-browse-raw-census-records-at-the-internet-archive/",
+      "summary": "The U.S. Census has been in the headlines lately, as proposed changes to the 2030 count have sparked debate over who gets counted and what information should be recorded as […] The post The People, C…",
+      "publishedAt": "2026-10-12T16:13:51.000Z"
     }
   },
   "https://blog.atmtxphoto.com/": {
@@ -753,13 +753,13 @@
   },
   "https://chriscoyier.net/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-12",
     "feedUrl": "https://chriscoyier.net/feed/",
     "latestArticle": {
-      "title": "Dave’s Rule of Life",
-      "url": "https://chriscoyier.net/2026/10/11/daves-rule-of-life/",
-      "summary": "Dave, from #735: Never trust an adult over 35 who can’t explain what they need from you in a bulleted list. I’m thinking like a laptop sticker or t-shirt, right? A little AI slop to help pick a direc…",
-      "publishedAt": "2026-10-11T13:45:28.000Z"
+      "title": "EPS?",
+      "url": "https://chriscoyier.net/2026/10/12/eps/",
+      "summary": "I remember working in digital prepress decades ago that .eps files were just kinda weird, and I didn’t love it when I had to deal with them. Like, what even made this? Why? I assumed it was some kind…",
+      "publishedAt": "2026-10-12T16:06:35.000Z"
     }
   },
   "https://christiano.dev/": {
@@ -923,10 +923,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://danq.me/feed/",
     "latestArticle": {
-      "title": "[Article] What Argentine Tango is like...",
-      "url": "https://danq.me/2026/10/12/tango-is-like/",
-      "summary": "A series of metaphors about what tango feels like, to me. Like improvising music. Like spinning tops. Like an flock of birds. Or something like that.",
-      "publishedAt": "2026-10-12T13:01:55.000Z"
+      "title": "[Note] Oh, Aviva",
+      "url": "https://danq.me/2026/10/12/oh-aviva/",
+      "summary": "Last time I made a dental insurance claim, Aviva insisted on sending me a cheque. So I asked them via live chat if I could claim via bank transfer. Yes, they say, although apparently I have to ask ev…",
+      "publishedAt": "2026-10-12T16:52:57.000Z"
     }
   },
   "https://dansinker.com/blog/": {
@@ -1310,7 +1310,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1441,9 +1441,9 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/agent-memory-is-an-architecture-decision-from-mcp-servers-to-stateful-agents?source=rss",
-      "summary": "Compare Hindsight, Mem0, Graphiti, Letta, and Cognee to choose an AI agent memory architecture that improves recall, preserves context, and prevents errors.",
-      "publishedAt": "2026-10-12T08:32:06.000Z"
+      "url": "https://hackernoon.com/rdma-the-reason-remote-storage-feels-like-its-plugged-into-your-motherboard?source=rss",
+      "summary": "Remote SSDs don't have to be slow. Learn how RDMA, RoCE, and NVMe-oF cut network overhead and CPU cost, and where they help AI training and inference.",
+      "publishedAt": "2026-10-12T14:10:47.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -1594,9 +1594,9 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17494578/openeuler-rebuilding-ai-developer-workflow",
-      "summary": "AI now reviews code and fixes CVEs in the community's pipelines, DevStation moves to a 2-week update cycle, and openEuler is layering an agent-native OS on top.",
-      "publishedAt": "2026-10-12T14:04:38.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17494728/linus-torvalds-claude-code-linux",
+      "summary": "His eight-patch series takes advantage of AI assistance to cut the extra work the kernel does when many threads read the same file.",
+      "publishedAt": "2026-10-12T16:50:36.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -1666,7 +1666,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -1771,7 +1771,7 @@
   },
   "https://kaigulliksen.com/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-12",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
   "https://karagila.org/blog": {
@@ -2198,13 +2198,13 @@
   },
   "https://moviepalace.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-12",
     "feedUrl": "https://moviepalace.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "THE VAMPIRE AND THE BALLERINA (1960)",
-      "url": "https://moviepalace.blogspot.com/2026/10/the-vampire-and-ballerina-1960.html",
-      "summary": "In the pre-dawn hours in a European village, a young servant named Brigitte is attacked by a caped figure, but is saved by farm workers and taken to a nearby home. This is the third attack by an assa…",
-      "publishedAt": "2026-10-11T15:07:57.370Z"
+      "title": "BEAST OF THE YELLOW NIGHT (1971)",
+      "url": "https://moviepalace.blogspot.com/2026/10/beast-of-yellow-night-1971.html",
+      "summary": "Southeast Asia, 1946. U.S. Army deserter Joseph Langdon, on the run in the jungle while leaving behind a trail of dead bodies, is confronted by a serpent who calls him evil. The serpent transforms in…",
+      "publishedAt": "2026-10-12T16:02:03.143Z"
     }
   },
   "https://moviesoftheeighties.substack.com/": {
@@ -2483,10 +2483,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Will's Mystery Badge",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/wills-mystery-badge.html",
-      "summary": "Hi Woodsy, I Found this lapel badge . I think it’s toy or comic related but really no idea. Does anyone know what it is? Will O",
-      "publishedAt": "2026-10-12T13:43:15.494Z"
+      "title": "Bodies, Bodies, Bodies",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/bodies-bodies-bodies.html",
+      "summary": "A recent search on ebay for space toys brought up something quite unusual, a small friction powered spaceship which looks very like an early Lifting Body. Ive never seen this particular toy before an…",
+      "publishedAt": "2026-10-12T16:39:03.184Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -2546,13 +2546,13 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-09-10",
-    "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=0b3b97fa6688",
+    "lastPublished": "2026-07-16",
+    "feedUrl": "https://rachelsvintageretro.co.uk/comments/feed/?v=0b3b97fa6688",
     "latestArticle": {
-      "title": "Comfort in an Orange Tin: The History of Ovaltine in Britain",
-      "url": "https://rachelsvintageretro.co.uk/comfort-in-an-orange-tin-the-history-of-ovaltine-in-britain/",
-      "summary": "Who hasn’t reached for a tin of Ovaltine at some point in their lives, and mixed the malty powder with milk into a comforting bedtime drink? Ovaltine has been around for over 120 years, and was made …",
-      "publishedAt": "2026-09-10T09:59:53.000Z"
+      "title": "Comment on Collecting Ridgway Homemaker by Rachel Toy",
+      "url": "https://rachelsvintageretro.co.uk/collecting-ridgway-homemaker/#comment-9907",
+      "summary": "In reply to Ewan Lamont . Thanks for your comments Ewan. Thats an interesting perspective!",
+      "publishedAt": "2026-07-16T08:22:40.000Z"
     }
   },
   "https://randomwire.com/": {
@@ -2592,10 +2592,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Jackson acknowledges what we all saw yesterday – but the real litmus test comes for Celtic on Thursday night",
-      "url": "https://readceltic.com/2026/10/12/jackson-acknowledges-what-we-saw-litmus-test-benfica-thursday/",
-      "summary": "Keith Jackson has written about Celtic’s win at Fir Park, and for once, I can’t argue with a The post Jackson acknowledges what we all saw yesterday – but the real litmus test comes for Celtic on Thu…",
-      "publishedAt": "2026-10-12T11:55:18.000Z"
+      "title": "Could Jota be the difference maker for Celtic in Lisbon?",
+      "url": "https://readceltic.com/2026/10/12/could-jota-be-the-difference-maker-for-celtic-in-lisbon/",
+      "summary": "Yesterday, I got to see Felipe Jota back in a Celtic jersey for the first time in 18 The post Could Jota be the difference maker for Celtic in Lisbon? appeared first on Read Celtic .",
+      "publishedAt": "2026-10-12T17:08:58.000Z"
     }
   },
   "https://reclaimingparadise.wordpress.com/": {
@@ -3233,10 +3233,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Mika Baur Is Showing Celtic Exactly What They’ve Been Missing — But What Has Happened To The Ox?",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/mika-baur-is-showing-celtic-exactly-what-theyve-been-missing-but-what-has-happened-to-the-ox/",
-      "summary": "Sometimes a performance comes along that allows you to forget, even briefly, about the problems elsewhere in a The post Mika Baur Is Showing Celtic Exactly What They’ve Been Missing — But What Has Ha…",
-      "publishedAt": "2026-10-12T15:00:35.000Z"
+      "title": "Kris Boyd is a clown and a hypocrite and Sutton was right to slap him down.",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/kris-boyd-celtic-fans-deserve-answers/",
+      "summary": "There are moments when I genuinely wonder whether Kris Boyd listens to himself before opening his mouth. Seriously, The post Kris Boyd is a clown and a hypocrite and Sutton was right to slap him down…",
+      "publishedAt": "2026-10-12T17:00:12.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -3282,13 +3282,13 @@
   },
   "https://thefigureinquestion.com/": {
     "status": "success",
-    "lastPublished": "2026-10-09",
+    "lastPublished": "2026-10-12",
     "feedUrl": "https://thefigureinquestion.com/feed/",
     "latestArticle": {
-      "title": "Flashback Friday Figure Addendum #0094: Space Glider",
-      "url": "https://thefigureinquestion.com/2026/10/09/flashback-friday-figure-addendum-0094-space-glider/",
-      "summary": "SPACE GLIDER MICRONAUTS (MEGO) Hey, ho, it’s Friday, you guys! That means it’s time for another Flashback Friday Figure Addendum! This week, we’re taking a jump back to a line I haven’t jumped back t…",
-      "publishedAt": "2026-10-09T16:00:02.000Z"
+      "title": "#4140: Jubilee",
+      "url": "https://thefigureinquestion.com/2026/10/12/4140-jubilee/",
+      "summary": "JUBILEE GENERATION X (TOY BIZ) “Jubilation Lee spent lots of time in the malls of Southern California before she first displayed her mutant powers. It was her time spent as an X-Man, however, that ma…",
+      "publishedAt": "2026-10-12T16:00:14.000Z"
     }
   },
   "https://thefilm.blog/": {
@@ -3419,7 +3419,7 @@
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 3 days ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might use the Tu…",
+      "summary": "This post was last edited 2 days, 16 hours ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might …",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -3620,7 +3620,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -3878,10 +3878,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "‘MUCH MORE LIKE US,’ INSISTS KT",
-      "url": "https://www.celticquicknews.co.uk/much-more-like-us-insists-kt/",
-      "summary": "KIERAN TIERNEY is refusing to get carried away with Celtic’s return to winning ways following a fine performance in the team’s thoroughly deserved 2-0 triumph over Motherwell at Fir Park. The encount…",
-      "publishedAt": "2026-10-12T13:39:54.000Z"
+      "title": "CELTIC GAME SWITCH",
+      "url": "https://www.celticquicknews.co.uk/celtic-game-switch-7/",
+      "summary": "CELTIC’S Premiership game against Aberdeen at Pittodrie has been rescheduled for Sunday December 20 with a midday kick-off. The match had originally been due to be played 24 hours earlier, but has be…",
+      "publishedAt": "2026-10-12T16:30:30.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -3959,10 +3959,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Cake Bake Happy Hour Brings $11 Fries to Disney World",
-      "url": "https://www.disneytouristblog.com/cake-bake-happy-hour-brings-11-fries-to-boardwalk/",
-      "summary": "The controversial Cake Bake Shop is never going to beat the allegations of being overpriced. Since the restaurant’s debut two years ago, it’s become the poster child for expensive experiences at Walt…",
-      "publishedAt": "2026-10-12T13:05:08.000Z"
+      "title": "Better Than Black Friday Sales: Disneyland Tickets at Discount Pre-Increase Prices for 2026 & 2027",
+      "url": "https://www.disneytouristblog.com/better-than-black-friday-sales-disneyland-tickets-at-discount-pre-increase-prices-for-2026-2027/",
+      "summary": "Disney just raised prices for late 2026 and 2027 on select park tickets, plus the Park Hopper and Lightning Lane add-ons at Disneyland and California Adventure. That’s the bad news. The good news is …",
+      "publishedAt": "2026-10-12T16:58:01.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -3978,13 +3978,13 @@
   },
   "https://www.everydaycommentary.com/": {
     "status": "success",
-    "lastPublished": "2026-10-04",
+    "lastPublished": "2026-10-12",
     "feedUrl": "https://www.everydaycommentary.com/www.everydaycommentary.com?format=rss",
     "latestArticle": {
-      "title": "Civivi Baby Banter 2 TG",
-      "url": "https://www.everydaycommentary.com/www.everydaycommentary.com/2026/9/28/civivi-baby-banter-2-tg",
-      "summary": "Note : This review, as with all content I write on this site, is my opinion. It does not reflect the opinion of others, including the American Knife and Tool Institute (AKTI), the cutlery trade group…",
-      "publishedAt": "2026-10-04T18:13:25.000Z"
+      "title": "The Story of a Stick",
+      "url": "https://www.everydaycommentary.com/www.everydaycommentary.com/2026/10/3/the-story-of-a-stick",
+      "summary": "The “day of the take” is the date during a taking of land by the government via eminent domain when the value of the property taken is set. If the day of the take is October 16, then the value paid t…",
+      "publishedAt": "2026-10-12T16:38:29.000Z"
     }
   },
   "https://www.finalgirl.rocks/": {
@@ -4101,10 +4101,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "Beach Bro Bloodbath (Short Review)",
-      "url": "https://www.horrorsociety.com/2026/10/12/beach-bro-bloodbath-short-review/",
-      "summary": "Director – Jeff Tarkenton Starring – Nick Alexander, Dariel Clark, and Kasim Ruffin Release Date – 2026 Rating – 3/5 Sometimes a movie poster or title will catch my eye and it makes me want to review…",
-      "publishedAt": "2026-10-12T13:39:15.000Z"
+      "title": "EVER AFTER ON DEMAND 10.27",
+      "url": "https://www.horrorsociety.com/2026/10/12/ever-after-on-demand-10-27/",
+      "summary": "DIRECTED BY Laszlo Illes (Haunting Trophies,The Shepard) WRITTEN BY Laszlo Illes, Laszlo Krisztian Gera (Haunting Trophies, The Basement) PRODUCED BY Laszlo Illes, Roy McClurg Jr, (The Black-Eyed Chi…",
+      "publishedAt": "2026-10-12T17:12:03.000Z"
     }
   },
   "https://www.ianbicking.org/": {
@@ -4134,10 +4134,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "The lifts are coming: Kings Langley station plans step-free future",
-      "url": "https://www.ianvisits.co.uk/articles/the-lifts-are-coming-kings-langley-station-plans-step-free-future-92992/",
-      "summary": "A £10.6 million project will add a new footbridge and three lifts, giving passengers step-free access to all four platforms. Read more ›",
-      "publishedAt": "2026-10-12T15:00:46.000Z"
+      "title": "The London Buzz – 12th Oct 2026",
+      "url": "https://www.ianvisits.co.uk/articles/the-london-buzz-12th-oct-2026-93231/",
+      "summary": "Today’s London news round-up: Read more ›",
+      "publishedAt": "2026-10-12T16:00:03.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -4279,7 +4279,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manunitedblogs.com/": {
@@ -4466,7 +4466,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.richardosgood.com/": {
@@ -4553,7 +4553,7 @@
   },
   "https://www.snitchseeker.com/": {
     "status": "unknown",
-    "feedUrl": "https://www.snitchseeker.com/external.php?type=rss2&forumids=71"
+    "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
     "status": "success",
@@ -4582,10 +4582,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on The Winter of Our Discontent by John Steinbeck by Anonymous",
-      "url": "https://www.stuckinabook.com/the-winter-of-our-discontent-by-john-steinbeck/#comment-173643",
-      "summary": "This and East of Eden are the only two Steinbeck books I've read since highschool. It is a shocking but beautiful difference, as you described the focus on a single narrative vs the wide cast of deep…",
-      "publishedAt": "2026-10-12T15:37:41.000Z"
+      "title": "Comment on 1949 Club: your reviews! by Kay",
+      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173645",
+      "summary": "Here's a review of The Third Man by Graham Greene: https://whatmeread.com/2026/10/12/review-2782-ripxx-1949-club-the-third-man/",
+      "publishedAt": "2026-10-12T16:08:15.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -4709,10 +4709,10 @@
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Karl-Anthony Towns and Terry Crews Headline Project Healthy Minds Festival",
-      "url": "https://www.themovieblog.com/2026/10/karl-anthony-towns-terry-crews-headline-project-healthy-minds-festival/",
-      "summary": "NBA star Karl-Anthony Towns and actor Terry Crews headlined the fifth annual Project Healthy Minds World Mental Health Day Festival in New York City. The post Karl-Anthony Towns and Terry Crews Headl…",
-      "publishedAt": "2026-10-12T15:45:00.000Z"
+      "title": "Godzilla Minus Zero Trailer Teases a New Monstrous Threat",
+      "url": "https://www.themovieblog.com/2026/10/godzilla-minus-zero-trailer-teases-a-new-monstrous-threat/",
+      "summary": "A new trailer for the highly anticipated sequel Godzilla Minus Zero has arrived, hinting at a mysterious second threat joining the King of the Monsters. The post Godzilla Minus Zero Trailer Teases a …",
+      "publishedAt": "2026-10-12T17:00:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {

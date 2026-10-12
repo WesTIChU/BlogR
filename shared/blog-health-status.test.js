@@ -16,11 +16,11 @@ const result = (overrides = {}) => ({
 })
 
 test('transitions online, warning, and repeatedly unreachable', () => {
-  assert.deepEqual(deriveStatus(result({ status: 'Healthy' })), {
+  assert.deepEqual(deriveStatus(result({ status: 'Healthy' }), {}, now), {
     status: 'online',
     consecutiveFailures: 0
   })
-  assert.deepEqual(deriveStatus(result({ failureKind: 'tls' })), {
+  assert.deepEqual(deriveStatus(result({ failureKind: 'tls' }), {}, now), {
     status: 'warning',
     consecutiveFailures: 0
   })
@@ -48,7 +48,8 @@ test('does not count multiple checks on the same day as daily failures', () => {
 test('resets consecutive failures after recovery', () => {
   const recovered = deriveStatus(
     result({ status: 'Healthy', failureKind: undefined }),
-    { consecutiveFailures: 7 }
+    { consecutiveFailures: 7 },
+    now
   )
   assert.deepEqual(recovered, { status: 'online', consecutiveFailures: 0 })
 })
@@ -64,23 +65,33 @@ test('marks results older than 72 hours unknown', () => {
 
 test('TLS, timeout, 403 and bot protection remain warnings', () => {
   for (const failureKind of ['tls', 'timeout', 'protected']) {
-    assert.equal(deriveStatus(result({ failureKind })).status, 'warning')
+    assert.equal(
+      deriveStatus(result({ failureKind }), {}, now).status,
+      'warning'
+    )
   }
   assert.equal(
-    deriveStatus(result({ httpStatus: 403, failureKind: 'protected' })).status,
+    deriveStatus(result({ httpStatus: 403, failureKind: 'protected' }), {}, now)
+      .status,
     'warning'
   )
 })
 
 test('ordinary redirects are online while unrelated redirects are warnings', () => {
   assert.equal(
-    deriveStatus(result({ status: 'Redirected', redirectType: 'ordinary' }))
-      .status,
+    deriveStatus(
+      result({ status: 'Redirected', redirectType: 'ordinary' }),
+      {},
+      now
+    ).status,
     'online'
   )
   assert.equal(
-    deriveStatus(result({ status: 'Redirected', redirectType: 'unrelated' }))
-      .status,
+    deriveStatus(
+      result({ status: 'Redirected', redirectType: 'unrelated' }),
+      {},
+      now
+    ).status,
     'warning'
   )
 })

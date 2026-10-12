@@ -356,6 +356,33 @@ const failureResult = (previous, status, feedUrl = null) => ({
 export async function scanBlog(blog, previous = null, now = new Date()) {
   const url = canonicalUrl(blog.url)
   const candidates = []
+  let foundFeed = false
+  let lastFeedUrl = null
+
+  if (previous?.feedUrl) {
+    try {
+      const storedFeedUrl = canonicalUrl(previous.feedUrl)
+      const response = await requestWithTimeout(storedFeedUrl)
+      if (response.status >= 200 && response.status < 300) {
+        foundFeed = true
+        lastFeedUrl = response.url || storedFeedUrl.toString()
+        const parsed = parseFeedDetails(response.body, now, lastFeedUrl)
+        if (parsed.lastPublished) {
+          return {
+            lastPublished: parsed.lastPublished,
+            ...(parsed.latestArticle
+              ? { latestArticle: parsed.latestArticle }
+              : {}),
+            status: 'success',
+            feedUrl: lastFeedUrl
+          }
+        }
+      }
+    } catch {
+      // Fall back to homepage discovery when the stored feed is unavailable.
+    }
+  }
+
   let pageResponse
   try {
     pageResponse = await requestWithTimeout(url)
@@ -381,8 +408,6 @@ export async function scanBlog(blog, previous = null, now = new Date()) {
   }
 
   if (!candidates.length) candidates.push(...discoverFeedUrls(url, ''))
-  let foundFeed = false
-  let lastFeedUrl = null
   for (const candidate of candidates) {
     try {
       const response = await requestWithTimeout(candidate)

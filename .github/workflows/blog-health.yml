@@ -2,6 +2,15 @@ name: Blog and community health audit
 
 on:
   workflow_call:
+    inputs:
+      blog_health_urls:
+        required: false
+        type: string
+        default: '[]'
+      community_health_urls:
+        required: false
+        type: string
+        default: '[]'
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
@@ -56,11 +65,13 @@ jobs:
       - name: Run the daily audit
         env:
           BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
+          BLOG_HEALTH_URLS: ${{ inputs.blog_health_urls }}
         run: pnpm audit:blogs
 
       - name: Run the community availability audit
         env:
           BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
+          COMMUNITY_HEALTH_URLS: ${{ inputs.community_health_urls }}
         run: pnpm audit:communities
 
       - name: Validate generated public data

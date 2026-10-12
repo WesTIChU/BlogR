@@ -36,13 +36,13 @@ const normalizeUrl = (value) => {
   }
 }
 
-const selectedBlogUrls = process.env.BLOG_HEALTH_URLS
-  ? new Set(
-      JSON.parse(process.env.BLOG_HEALTH_URLS).map((url) =>
-        normalizeUrl(url).toString()
-      )
-    )
-  : null
+const selectedBlogUrls = (() => {
+  if (!process.env.BLOG_HEALTH_URLS) return null
+  const urls = JSON.parse(process.env.BLOG_HEALTH_URLS)
+  return urls.length
+    ? new Set(urls.map((url) => normalizeUrl(url).toString()))
+    : null
+})()
 
 const blogsToCheck = selectedBlogUrls
   ? blogs.filter((blog) => {

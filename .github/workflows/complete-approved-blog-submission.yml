@@ -30,7 +30,41 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/complete-blog-submission.js
 
+  health-targets:
+    if: >-
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.base.ref ==
+      github.event.repository.default_branch &&
+       (startsWith(github.event.pull_request.head.ref, 'blog-submission/issue-')
+      || startsWith(github.event.pull_request.head.ref,
+      'community-submission/issue-')) &&
+      (contains(github.event.pull_request.body, '<!-- blogr-submission:') ||
+      contains(github.event.pull_request.body, '<!-- community-submission:'))
+    runs-on: ubuntu-latest
+    outputs:
+      blog_health_urls: ${{ steps.targets.outputs.blog_health_urls }}
+      community_health_urls: ${{ steps.targets.outputs.community_health_urls }}
+    steps:
+      - name: Check out the merged source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+      - name: Identify changed catalogue entries
+        id: targets
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+        run:
+          node scripts/health-targets.js --base "$BASE_SHA" --head "$HEAD_SHA"
+          >> "$GITHUB_OUTPUT"
+
   health-check:
+    needs: health-targets
     if: >-
       github.event.pull_request.merged == true &&
       github.event.pull_request.base.ref ==
@@ -41,5 +75,9 @@ jobs:
       (contains(github.event.pull_request.body, '<!-- blogr-submission:') ||
       contains(github.event.pull_request.body, '<!-- community-submission:'))
     uses: ./.github/workflows/blog-health.yml
+    with:
+      blog_health_urls: ${{ needs.health-targets.outputs.blog_health_urls }}
+      community_health_urls:
+        ${{ needs.health-targets.outputs.community_health_urls }}
     permissions:
       contents: write

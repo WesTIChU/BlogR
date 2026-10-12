@@ -5,6 +5,7 @@ import { resolve } from 'node:path'
 import { deriveStatus } from '../shared/blog-health-status.js'
 import { normalizeCommunityCatalogue } from '../shared/community-catalogue.js'
 import { checkCommunity } from '../shared/community-health-check.js'
+import { mergeCommunityStatusData } from '../shared/community-health.js'
 
 const CONCURRENCY = 3
 const MAX_REDIRECTS = 5
@@ -26,6 +27,14 @@ const sleep = (milliseconds) =>
 const catalogue = normalizeCommunityCatalogue(
   JSON.parse(await readFile(CATALOGUE_PATH, 'utf8'))
 )
+const selectedCommunityUrls = (() => {
+  if (!process.env.COMMUNITY_HEALTH_URLS) return null
+  const urls = JSON.parse(process.env.COMMUNITY_HEALTH_URLS)
+  return urls.length ? new Set(urls) : null
+})()
+const catalogueToCheck = selectedCommunityUrls
+  ? catalogue.filter((entry) => selectedCommunityUrls.has(entry.url))
+  : catalogue
 
 let history = []
 try {
@@ -41,8 +50,8 @@ const previous = new Map(
 const results = []
 let nextIndex = 0
 const worker = async () => {
-  while (nextIndex < catalogue.length) {
-    const entry = catalogue[nextIndex++]
+  while (nextIndex < catalogueToCheck.length) {
+    const entry = catalogueToCheck[nextIndex++]
     let result
     for (let attempt = 0; attempt <= RETRIES; attempt++) {
       result = await checkCommunity(entry, {
@@ -62,21 +71,32 @@ const worker = async () => {
 await Promise.all(Array.from({ length: CONCURRENCY }, worker))
 
 const generatedAt = new Date().toISOString()
-const statusData = results.map((result) => {
-  const derived = deriveStatus(
-    result,
-    previous.get(result.url),
-    new Date(result.checkedAt)
-  )
-  return {
-    url: result.url,
-    status: derived.status,
-    checkedAt: result.checkedAt,
-    httpStatus: result.httpStatus,
-    finalUrl: result.finalUrl,
-    consecutiveFailures: derived.consecutiveFailures
-  }
-})
+const checkedStatus = new Map(
+  results.map((result) => {
+    const derived = deriveStatus(
+      result,
+      previous.get(result.url),
+      new Date(result.checkedAt)
+    )
+    return [
+      result.url,
+      {
+        url: result.url,
+        status: derived.status,
+        checkedAt: result.checkedAt,
+        httpStatus: result.httpStatus,
+        finalUrl: result.finalUrl,
+        consecutiveFailures: derived.consecutiveFailures
+      }
+    ]
+  })
+)
+const statusData = mergeCommunityStatusData(
+  catalogue,
+  checkedStatus,
+  previous,
+  generatedAt
+)
 
 history.push({ checkedAt: generatedAt, statusData, results })
 await writeFile(HISTORY_PATH, `${JSON.stringify(history, null, 2)}\n`)

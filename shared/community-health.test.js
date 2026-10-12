@@ -5,7 +5,10 @@ import { readFile } from 'node:fs/promises'
 import test from 'node:test'
 import { getPublicStatus } from './blog-health-status.js'
 import { formatRelativeDate } from './blog-update.js'
-import { classifyCommunityResponse } from './community-health.js'
+import {
+  classifyCommunityResponse,
+  mergeCommunityStatusData
+} from './community-health.js'
 import { formatAddedDate } from './recently-added.js'
 
 const response = (overrides = {}) => ({
@@ -58,6 +61,32 @@ test('missing or stale public community data is unknown', () => {
     ).status,
     'unknown'
   )
+})
+
+test('merges targeted community results without dropping untouched statuses', () => {
+  const catalogue = [
+    { url: 'https://one.example/' },
+    { url: 'https://two.example/' }
+  ]
+  const previous = new Map([
+    ['https://one.example/', { url: 'https://one.example/', status: 'online' }],
+    ['https://two.example/', { url: 'https://two.example/', status: 'warning' }]
+  ])
+  const merged = mergeCommunityStatusData(
+    catalogue,
+    new Map([
+      [
+        'https://one.example/',
+        { url: 'https://one.example/', status: 'warning' }
+      ]
+    ]),
+    previous,
+    '2026-10-12T12:00:00.000Z'
+  )
+  assert.deepEqual(merged, [
+    { url: 'https://one.example/', status: 'warning' },
+    { url: 'https://two.example/', status: 'warning' }
+  ])
 })
 
 test('community metadata reuses blog date formatting and row behavior', async () => {

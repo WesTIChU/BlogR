@@ -29,3 +29,23 @@ export function classifyCommunityResponse(response) {
   }
   return { status: 'Unknown', failureKind: 'review' }
 }
+
+export function mergeCommunityStatusData(
+  catalogue,
+  checkedStatus,
+  previous,
+  checkedAt
+) {
+  return catalogue.map(
+    (entry) =>
+      checkedStatus.get(entry.url) ??
+      previous.get(entry.url) ?? {
+        url: entry.url,
+        status: 'unknown',
+        checkedAt,
+        httpStatus: null,
+        finalUrl: entry.url,
+        consecutiveFailures: 0
+      }
+  )
+}

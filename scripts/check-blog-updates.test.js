@@ -107,6 +107,12 @@ test('discovers HTML feed links and common fallback URLs', () => {
 test('preserves known dates after temporary failures', () => {
   const previous = {
     lastPublished: '2026-10-01',
+    latestArticle: {
+      title: 'Known article',
+      url: 'https://example.com/article',
+      summary: 'Known summary',
+      publishedAt: '2026-10-01T08:00:00.000Z'
+    },
     lastChecked: '2026-10-09T12:00:00.000Z',
     status: 'success',
     feedUrl: 'https://example.com/feed.xml'
@@ -117,6 +123,7 @@ test('preserves known dates after temporary failures', () => {
     '2026-10-10T12:00:00.000Z'
   )
   assert.equal(merged.lastPublished, '2026-10-01')
+  assert.deepEqual(merged.latestArticle, previous.latestArticle)
   assert.equal(merged.status, 'unavailable')
   assert.equal(merged.feedUrl, previous.feedUrl)
 })
@@ -164,6 +171,70 @@ test('scans a discovered feed without using HTTP Last-Modified', async () => {
       status: 'success',
       feedUrl: `http://127.0.0.1:${port}/feed.xml`
     })
+  } finally {
+    server.close()
+  }
+})
+
+test('uses a previously stored feed before requesting the homepage', async () => {
+  const requests = []
+  const server = createServer((request, response) => {
+    requests.push(request.url)
+    if (request.url !== '/stored.xml') {
+      response.statusCode = 500
+      response.end()
+      return
+    }
+    response.setHeader('content-type', 'application/rss+xml')
+    response.end(
+      '<rss><channel><item><title>Stored</title><link>https://example.com/stored</link><pubDate>2026-10-07T08:00:00Z</pubDate></item></channel></rss>'
+    )
+  })
+  await new Promise((resolve) => server.listen(0, resolve))
+  const { port } = server.address()
+  try {
+    const result = await scanBlog(
+      { name: 'Stored', url: `http://127.0.0.1:${port}/` },
+      { feedUrl: `http://127.0.0.1:${port}/stored.xml` },
+      now
+    )
+    assert.equal(result.feedUrl, `http://127.0.0.1:${port}/stored.xml`)
+    assert.deepEqual(requests, ['/stored.xml'])
+  } finally {
+    server.close()
+  }
+})
+
+test('falls back to homepage feed discovery when the stored feed fails', async () => {
+  const requests = []
+  const server = createServer((request, response) => {
+    requests.push(request.url)
+    if (request.url === '/stored.xml') {
+      response.statusCode = 404
+      response.end()
+      return
+    }
+    if (request.url === '/') {
+      response.end(
+        '<link rel="alternate" type="application/rss+xml" href="/new.xml">'
+      )
+      return
+    }
+    response.setHeader('content-type', 'application/rss+xml')
+    response.end(
+      '<rss><channel><item><title>Discovered</title><link>https://example.com/discovered</link><pubDate>2026-10-07T08:00:00Z</pubDate></item></channel></rss>'
+    )
+  })
+  await new Promise((resolve) => server.listen(0, resolve))
+  const { port } = server.address()
+  try {
+    const result = await scanBlog(
+      { name: 'Fallback', url: `http://127.0.0.1:${port}/` },
+      { feedUrl: `http://127.0.0.1:${port}/stored.xml` },
+      now
+    )
+    assert.equal(result.feedUrl, `http://127.0.0.1:${port}/new.xml`)
+    assert.deepEqual(requests.slice(0, 3), ['/stored.xml', '/', '/new.xml'])
   } finally {
     server.close()
   }

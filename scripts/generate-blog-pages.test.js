@@ -372,6 +372,22 @@ test('renders permanent addition dates in static metadata', () => {
   )
 })
 
+test('keeps volatile RSS metadata in runtime slots', () => {
+  const markdown = page('Example', 'Description', [
+    {
+      name: 'Example Blog',
+      url: 'https://example.com',
+      description: 'Example',
+      addedDate: '2026-10-09'
+    }
+  ])
+
+  assert.match(markdown, /data-blog-feed-slot/)
+  assert.match(markdown, /data-blog-update-slot/)
+  assert.doesNotMatch(markdown, /blog-feed-link/)
+  assert.doesNotMatch(markdown, /Last updated&nbsp;/)
+})
+
 test('keeps favourite blogs before alphabetical non-favourites', () => {
   const entries = [
     {

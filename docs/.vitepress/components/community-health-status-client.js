@@ -8,8 +8,8 @@ let statusRequest
 
 export function loadCommunityHealthStatuses() {
   if (!statusRequest) {
-    statusRequest = fetch(`/community-health-status.json?v=${Date.now()}`, {
-      cache: 'no-store'
+    statusRequest = fetch('/community-health-status.json', {
+      cache: 'no-cache'
     })
       .then((response) => {
         if (!response.ok) throw new Error('Community health status unavailable')

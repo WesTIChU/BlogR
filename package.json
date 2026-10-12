@@ -15,6 +15,7 @@
     "format": "lint-staged --config .lintstagedrc.format.json",
     "format:all": "prettier -w --cache .",
     "format:check": "prettier --cache --check .",
+    "generate:public-blog-metadata": "node scripts/generate-public-blog-metadata.js",
     "generate:submission-form": "node scripts/generate-submission-form.js",
     "lint": "eslint --cache .",
     "lint:md": "node scripts/lint-markdown.js || true",

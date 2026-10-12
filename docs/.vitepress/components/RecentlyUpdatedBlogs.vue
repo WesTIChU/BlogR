@@ -1,13 +1,18 @@
 <script setup>
 import { contentUpdatedCallbacks } from 'vitepress/dist/client/app/utils'
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
-import updates from '../../../data/blog-updates.json'
 import blogs from '../../../data/blogs.json'
 import { getLondonDateKey } from '../../../shared/recently-added.js'
 import {
   formatLondonHeadingDate,
   getTodayUpdatedCategoryGroups
 } from '../../../shared/recently-updated.js'
+import {
+  blogUpdates,
+  blogUpdatesError,
+  blogUpdatesLoaded,
+  loadBlogUpdates
+} from './blog-update-client.js'
 import BlogHealthLink from './BlogHealthLink.vue'
 import BlogLastUpdated from './BlogLastUpdated.vue'
 
@@ -15,7 +20,7 @@ const currentTime = ref(new Date())
 let rolloverTimer
 
 const groups = computed(() =>
-  getTodayUpdatedCategoryGroups(blogs, updates, currentTime.value)
+  getTodayUpdatedCategoryGroups(blogs, blogUpdates.value, currentTime.value)
 )
 
 const refreshNativeOutline = () => {
@@ -51,6 +56,7 @@ const scheduleLondonMidnight = () => {
 watch(groups, refreshNativeOutline, { flush: 'post' })
 
 onMounted(() => {
+  void loadBlogUpdates()
   refreshNativeOutline()
   scheduleLondonMidnight()
 })
@@ -106,6 +112,10 @@ onUnmounted(() => {
       </ul>
     </section>
   </template>
+  <p v-else-if="!blogUpdatesLoaded">Loading recent updates…</p>
+  <p v-else-if="blogUpdatesError">
+    Recent updates are temporarily unavailable. Please try again later.
+  </p>
   <p v-else>No blog updates detected today. Check back later.</p>
 </template>
 

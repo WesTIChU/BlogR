@@ -5,7 +5,7 @@ import test from 'node:test'
 
 const DIST = resolve('docs/.vitepress/dist')
 
-test('renders verified RSS links with accessible labels', async () => {
+test('renders stable RSS metadata slots in generated HTML', async () => {
   const html = await readFile(
     join(DIST, 'collections/travel-outdoors.html'),
     'utf8'
@@ -13,19 +13,26 @@ test('renders verified RSS links with accessible labels', async () => {
 
   assert.match(
     html,
-    /href="https:\/\/roadtothesea\.com\/feed\/"[^>]*aria-label="RSS feed for Road to the Sea"[^>]*target="_blank"/
+    /data-blog-url="https:\/\/roadtothesea\.com\/"[^>]*>.*?data-blog-feed-slot/s
   )
-  assert.match(html, /class="blog-feed-icon"/)
+  assert.match(
+    html,
+    /data-blog-url="https:\/\/roadtothesea\.com\/"[^>]*>.*?data-blog-update-slot/s
+  )
+  assert.doesNotMatch(html, /href="https:\/\/roadtothesea\.com\/feed\//)
 })
 
-test('does not render an RSS link when no verified feed exists', async () => {
+test('keeps the runtime RSS slot empty for blogs without metadata', async () => {
   const html = await readFile(join(DIST, 'personal-writing.html'), 'utf8')
   const nameIndex = html.indexOf('BlogSharer')
+  const metadataIndex = html.indexOf('data-blog-url="https://blogsharer.com/"')
   const blog = html.slice(
-    html.lastIndexOf('<li>', nameIndex),
+    metadataIndex,
     html.indexOf('</li>', nameIndex) + '</li>'.length
   )
 
   assert.notEqual(nameIndex, -1)
-  assert.equal(blog.includes('blog-feed-link'), false)
+  assert.notEqual(metadataIndex, -1)
+  assert.match(blog, /data-blog-feed-slot/)
+  assert.equal(blog.includes('href="https://blogsharer.com/'), false)
 })

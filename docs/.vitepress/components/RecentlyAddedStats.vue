@@ -1,12 +1,12 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue'
-import updates from '../../../data/blog-updates.json'
 import blogs from '../../../data/blogs.json'
 import {
   getAllBlogStats,
   getRecentlyAddedStats
 } from '../../../shared/recently-added-stats.js'
 import { getLondonDateKey } from '../../../shared/recently-added.js'
+import { blogUpdates, loadBlogUpdates } from './blog-update-client.js'
 import { RECENTLY_ADDED_STATS_CONFIG } from './recently-added-stats.config.js'
 
 const props = defineProps({
@@ -21,14 +21,14 @@ const statistics = () =>
   props.mode === 'all-blogs'
     ? getAllBlogStats(
         blogs,
-        updates,
+        blogUpdates.value,
         currentTime.value,
         props.config.statistics
       )
     : props.mode === 'recently-updated'
       ? getAllBlogStats(
           blogs,
-          updates,
+          blogUpdates.value,
           currentTime.value,
           props.config.statistics
         )
@@ -60,7 +60,10 @@ const scheduleLondonMidnight = () => {
   )
 }
 
-onMounted(scheduleLondonMidnight)
+onMounted(() => {
+  if (props.mode !== 'recently-added') void loadBlogUpdates()
+  scheduleLondonMidnight()
+})
 onUnmounted(() => {
   if (rolloverTimer !== undefined) window.clearTimeout(rolloverTimer)
 })

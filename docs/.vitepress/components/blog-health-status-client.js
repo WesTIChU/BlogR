@@ -7,8 +7,8 @@ let statusRequest
 
 export function loadHealthStatuses() {
   if (!statusRequest) {
-    statusRequest = fetch(`/health-status.json?v=${Date.now()}`, {
-      cache: 'no-store',
+    statusRequest = fetch('/health-status.json', {
+      cache: 'no-cache',
       headers: { accept: 'application/json' }
     })
       .then((response) => {

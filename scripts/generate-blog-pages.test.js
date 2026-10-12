@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 488)
+  assert.equal(blogs.length, 489)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -370,6 +370,22 @@ test('renders permanent addition dates in static metadata', () => {
     markdown,
     /<span class="blog-added-date">Added&nbsp;9 October 2026<\/span>/
   )
+})
+
+test('keeps volatile RSS metadata in runtime slots', () => {
+  const markdown = page('Example', 'Description', [
+    {
+      name: 'Example Blog',
+      url: 'https://example.com',
+      description: 'Example',
+      addedDate: '2026-10-09'
+    }
+  ])
+
+  assert.match(markdown, /data-blog-feed-slot/)
+  assert.match(markdown, /data-blog-update-slot/)
+  assert.doesNotMatch(markdown, /blog-feed-link/)
+  assert.doesNotMatch(markdown, /Last updated&nbsp;/)
 })
 
 test('keeps favourite blogs before alphabetical non-favourites', () => {

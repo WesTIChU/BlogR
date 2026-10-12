@@ -68,6 +68,10 @@ jobs:
             echo 'has_new_blogs=false' >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Generate public blog metadata
+        if: steps.detect.outputs.has_new_blogs == 'true'
+        run: pnpm generate:public-blog-metadata
+
       - name: Check website status for new blogs
         if: steps.detect.outputs.has_new_blogs == 'true'
         shell: bash
@@ -142,13 +146,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add data/blog-updates.json docs/public/health-status.json
+          git add data/blog-updates.json docs/public/blog-updates.json docs/public/health-status.json
           if git diff --cached --quiet; then
             echo 'Initial blog metadata did not change.'
             exit 0
           fi
           staged_files="$(git diff --cached --name-only)"
-          expected=$'data/blog-updates.json\ndocs/public/health-status.json'
+          expected=$'data/blog-updates.json\ndocs/public/blog-updates.json\ndocs/public/health-status.json'
           if [[ "$staged_files" != "$expected" ]]; then
             echo 'Refusing to publish files outside the initial metadata outputs.' >&2
             git diff --cached --name-status >&2

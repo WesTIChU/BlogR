@@ -1,6 +1,5 @@
 <script setup>
 import { computed, onMounted } from 'vue'
-import updates from '../../../data/blog-updates.json'
 import {
   getPublicStatus,
   PUBLIC_STATUS_COLORS
@@ -23,6 +22,7 @@ import {
   loadHealthStatuses
 } from './blog-health-status-client.js'
 import { showBlogDetails } from './blog-stats-visibility.js'
+import { blogUpdates, loadBlogUpdates } from './blog-update-client.js'
 import {
   communityHealthStatuses,
   loadCommunityHealthStatuses
@@ -75,7 +75,7 @@ const tooltip = computed(() => {
   return `Health status: ${statusLabel.value}. Last checked: ${checked}.`
 })
 const update = computed(() =>
-  props.community ? null : getBlogUpdate(updates, props.url)
+  props.community ? null : getBlogUpdate(blogUpdates.value, props.url)
 )
 const relativeUpdate = computed(() =>
   props.publicationAt
@@ -117,7 +117,7 @@ function formatPublicationTime(value) {
   }).format(date)
 }
 const feedUrl = computed(() =>
-  props.community ? null : getVerifiedFeedUrl(updates, props.url)
+  props.community ? null : getVerifiedFeedUrl(blogUpdates.value, props.url)
 )
 const feedLabel = computed(
   () => `RSS feed for ${catalogueEntry.value?.name ?? 'blog'}`
@@ -130,6 +130,7 @@ const countryUrl = computed(() => countryPath(country.value))
 
 onMounted(() => {
   void (props.community ? loadCommunityHealthStatuses() : loadHealthStatuses())
+  if (!props.community) void loadBlogUpdates()
 })
 </script>
 

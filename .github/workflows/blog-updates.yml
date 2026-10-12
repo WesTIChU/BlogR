@@ -35,18 +35,22 @@ jobs:
       - name: Scan blog feeds
         run: pnpm check:blog-updates
 
+      - name: Generate public blog metadata
+        run: pnpm generate:public-blog-metadata
+
       - name: Commit update data only when changed
         shell: bash
         run: |
           set -euo pipefail
-          git add data/blog-updates.json
+          git add data/blog-updates.json docs/public/blog-updates.json
           if git diff --cached --quiet; then
             echo 'Blog update data did not change.'
             exit 0
           fi
           staged_files="$(git diff --cached --name-only)"
-          if [[ "$staged_files" != 'data/blog-updates.json' ]]; then
-            echo 'Refusing to publish files other than data/blog-updates.json.' >&2
+          expected=$'data/blog-updates.json\ndocs/public/blog-updates.json'
+          if [[ "$staged_files" != "$expected" ]]; then
+            echo 'Refusing to publish files other than blog metadata outputs.' >&2
             git diff --cached --name-status >&2
             exit 1
           fi

@@ -1,13 +1,7 @@
 import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import blogUpdates from '../data/blog-updates.json' with { type: 'json' }
 import { getBlogLinkAttributes } from '../shared/blog-link.js'
-import {
-  formatRelativeDate,
-  getBlogUpdate,
-  getVerifiedFeedUrl
-} from '../shared/blog-update.js'
 import {
   countryPath,
   getCountryInfo,
@@ -61,14 +55,8 @@ export const compareCommunities = (a, b) =>
 export const compareCommunityCategories = (a, b) =>
   a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
 
-const renderBlogDetails = (entry, now = new Date()) => {
+const renderBlogDetails = (entry) => {
   const community = Boolean(entry.community)
-  const update = community ? null : getBlogUpdate(blogUpdates, entry.url)
-  const relativeUpdate =
-    update?.status === 'success'
-      ? formatRelativeDate(update.lastPublished, now)
-      : null
-  const feedUrl = community ? null : getVerifiedFeedUrl(blogUpdates, entry.url)
   const country = community ? null : getCountryInfo(entry.country)
   const countryUrl = country ? countryPath(country) : null
   const statusTooltip =
@@ -81,12 +69,7 @@ const renderBlogDetails = (entry, now = new Date()) => {
     )
   }
 
-  if (feedUrl) {
-    const feedLabel = `RSS feed for ${entry.name}`
-    details.push(
-      `<a class="blog-feed-link" href="${attribute(feedUrl)}" aria-label="${attribute(feedLabel)}" title="${attribute(feedLabel)}" target="_blank" rel="noopener noreferrer"><svg class="blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a>`
-    )
-  }
+  if (!community) details.push('<span data-blog-feed-slot></span>')
 
   details.push(
     `<span class="blog-health-dot" style="background-color:#94A3B8;" title="${statusTooltip}" aria-label="${statusTooltip}" role="img"></span>`
@@ -99,15 +82,10 @@ const renderBlogDetails = (entry, now = new Date()) => {
     )
   }
 
-  if (country && relativeUpdate) {
+  if (!community) {
     details.push(
-      '<span class="blog-metadata-separator" aria-hidden="true">·</span>'
-    )
-  }
-
-  if (relativeUpdate) {
-    details.push(
-      `<span title="${attribute(`Last updated: ${update.lastPublished}`)}" aria-label="${attribute(`Last updated: ${update.lastPublished}`)}">Last updated&nbsp;${attribute(relativeUpdate)}</span>`
+      '<span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span>',
+      '<span data-blog-update-slot></span>'
     )
   }
 
@@ -117,9 +95,9 @@ const renderBlogDetails = (entry, now = new Date()) => {
 
   const addedDate = formatAddedDate(entry.addedDate)
   if (addedDate) {
-    if (relativeUpdate) {
+    if (!community) {
       details.push(
-        '<span class="blog-metadata-separator" aria-hidden="true">·</span>'
+        '<span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span>'
       )
     }
     details.push(
@@ -130,7 +108,7 @@ const renderBlogDetails = (entry, now = new Date()) => {
   details.push('<span class="blog-health-sr-only">Unknown or stale</span>')
 
   const communityAttribute = community ? ' data-blog-community="true"' : ''
-  return `<span class="blog-last-updated" data-blog-details data-blog-url="${attribute(entry.url)}"${communityAttribute}>${details.join('')}</span>`
+  return `<span class="blog-last-updated" data-blog-details data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"${communityAttribute}>${details.join('')}</span>`
 }
 
 const renderBlogLink = (blog) => {

@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 42 blogs listed in England.
+description: 43 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="42" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="43" />
 
 ## Arts & Entertainment
 
@@ -80,6 +80,7 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Model Railways
 
+* <span class="blog-entry"><BlogHealthLink name="Chris Nevard Model Railways &amp; Photography" url="https://nevardmedia.blogspot.com/" :favourite="false" /> - Chris Nevard shares model railway layouts, detailed miniature scenes, railway photography, scenic modelling techniques and observations from his creative work.</span><BlogLastUpdated url="https://nevardmedia.blogspot.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="ESNG Blog" url="https://esngblog.com/" :favourite="false" /> - The East Surrey N Gauge railway modelling blog, featuring model railway layouts, exhibitions, club activities and railway-related interests.</span><BlogLastUpdated url="https://esngblog.com/" added-date="2026-10-12" />
 
 ### Sports & Recreation

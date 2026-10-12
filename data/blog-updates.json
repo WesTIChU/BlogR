@@ -2866,5 +2866,29 @@
     "lastChecked": "2026-10-12T08:36:52.139Z",
     "status": "success",
     "feedUrl": "https://flixchatter.net/feed/"
+  },
+  "https://www.rangersreview.co.uk/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-12T08:59:59.597Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://www.ibroxnoise.co.uk/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-12T08:59:59.597Z",
+    "status": "success",
+    "feedUrl": "https://www.ibroxnoise.co.uk/feed/"
+  },
+  "https://mancityblog.com/": {
+    "lastPublished": "2026-06-12",
+    "lastChecked": "2026-10-12T08:59:59.597Z",
+    "status": "success",
+    "feedUrl": "https://mancityblog.com/feed/"
+  },
+  "https://cityxtra.co.uk/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T08:59:59.597Z",
+    "status": "success",
+    "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full"
   }
 }

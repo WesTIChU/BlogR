@@ -18,6 +18,7 @@ const IGNORED_SUBCATEGORIES = new Set([
   'Not sure / Let the editor decide',
   'Other / Suggest a subcategory'
 ])
+const EMPTY_SUBCATEGORY_VALUES = new Set(['', '_No response_', 'None'])
 const REQUIRED_FORM_HEADINGS = [
   '### Blog name',
   '### Blog URL',
@@ -99,6 +100,11 @@ const cleanValue = (value, field, maxLength) => {
   return cleaned
 }
 
+const normalizeSubmittedSubcategory = (value) => {
+  const normalized = typeof value === 'string' ? value.trim() : ''
+  return EMPTY_SUBCATEGORY_VALUES.has(normalized) ? '' : normalized
+}
+
 export function parseIssueForm(body) {
   if (typeof body !== 'string' || body.length > 20_000) {
     throw new Error('Issue form body is missing or too large')
@@ -133,8 +139,7 @@ export function parseIssueForm(body) {
     url: cleanValue(get('blog url'), 'blog URL', MAX_URL_LENGTH),
     description: description === '_No response_' ? '' : description,
     category: cleanValue(get('main category'), 'main category', 120),
-    subcategory:
-      get('subcategory') === '_No response_' ? '' : get('subcategory'),
+    subcategory: normalizeSubmittedSubcategory(get('subcategory')),
     country: parseCountry(get('country')),
     notes: get('additional notes')
   }
@@ -385,7 +390,9 @@ export function validateSubmission(submission, blogs, taxonomy) {
   if (!category) throw new Error('Invalid main category')
 
   let subcategory
-  const requestedSubcategory = (submission.subcategory ?? '').trim()
+  const requestedSubcategory = normalizeSubmittedSubcategory(
+    submission.subcategory
+  )
   const suggestedSubcategory = IGNORED_SUBCATEGORIES.has(requestedSubcategory)
     ? extractSuggestedSubcategory(submission.notes)
     : null

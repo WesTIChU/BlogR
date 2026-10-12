@@ -74,6 +74,54 @@ test('parses a valid issue form and maps taxonomy choices', () => {
   })
 })
 
+test('accepts issue 22 with no Personal Writing subcategory', () => {
+  const parsed = parseIssueForm(`### Blog name
+
+Notebook - Thamara Kandabada
+
+### Blog URL
+
+https://thamara.co.uk/notebook
+
+### Short description
+
+My personal blog where I write about anything and everything that interests me.
+
+### Main category
+
+Personal Writing
+
+### Subcategory
+
+None
+
+### Country
+
+United Kingdom [GB]
+
+### Additional notes
+
+_No response_
+`)
+  assert.equal(parsed.subcategory, '')
+  assert.deepEqual(
+    validateSubmission(
+      parsed,
+      blogs.filter((blog) => blog.url !== 'https://thamara.co.uk/notebook'),
+      taxonomy
+    ),
+    {
+      name: 'Notebook - Thamara Kandabada',
+      url: 'https://thamara.co.uk/notebook',
+      description:
+        'My personal blog where I write about anything and everything that interests me.',
+      category: 'personal-writing',
+      subcategory: undefined,
+      country: 'GB'
+    }
+  )
+})
+
 test('accepts optional country selections and preserves their codes', () => {
   const selections = [
     ['Scotland [GB-SCT]', 'GB-SCT'],

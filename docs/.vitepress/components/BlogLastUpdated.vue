@@ -1,8 +1,6 @@
 <script setup>
 import { computed, onMounted } from 'vue'
 import updates from '../../../data/blog-updates.json'
-import blogs from '../../../data/blogs.json'
-import communities from '../../../data/communities.json'
 import {
   getPublicStatus,
   PUBLIC_STATUS_COLORS
@@ -18,6 +16,8 @@ import {
   formatAddedDate,
   LONDON_TIME_ZONE
 } from '../../../shared/recently-added.js'
+// The helper replaces per-row `props.community ? communities : blogs` scans.
+import { getCatalogueEntry } from './blog-health-catalogue.js'
 import {
   healthStatuses,
   loadHealthStatuses
@@ -44,19 +44,13 @@ const normalizedUrl = computed(() => {
 })
 
 const catalogueEntry = computed(() =>
-  (props.community ? communities : blogs).find((item) => {
-    try {
-      return normalizeBlogHealthUrl(item.url).toString() === normalizedUrl.value
-    } catch {
-      return false
-    }
-  })
+  getCatalogueEntry(props.community, normalizedUrl.value)
 )
 const favourite = computed(() => Boolean(catalogueEntry.value?.favourite))
 
 const health = computed(() =>
   getPublicStatus(
-    (props.community ? communityHealthStatuses : healthStatuses).get(
+    (props.community ? communityHealthStatuses : healthStatuses).value.get(
       normalizedUrl.value
     ),
     new Date()

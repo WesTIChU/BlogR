@@ -33,8 +33,8 @@ test('generates every main category and prefixed subcategory once', () => {
     (block.match(/Not sure \/ Let the editor decide/g) || []).length,
     2
   )
-  assert.match(block, /default: 10/)
-  assert.doesNotMatch(block, /default: 11/)
+  assert.match(block, /default: 11/)
+  assert.doesNotMatch(block, /default: 10/)
   assert.match(block, /Other \/ Suggest a subcategory/)
 })
 

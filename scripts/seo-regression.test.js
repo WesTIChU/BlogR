@@ -5,7 +5,7 @@ import { test } from 'node:test'
 
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
-const expectedPublicPageCount = 44
+const expectedPublicPageCount = 48
 
 const htmlFiles = async () => {
   const files = []
@@ -133,7 +133,7 @@ test('directory size and generated Open Graph images remain intact', async () =>
   const renderedBlogCount = (blogs.match(/class="blog-health-link/g) ?? [])
     .length
   assert.ok(catalogue.length > 0)
-  assert.equal(catalogue.length, 462)
+  assert.equal(catalogue.length, 487)
   assert.equal(renderedBlogCount, catalogue.length)
 
   const collections = (await readdir('docs/collections')).filter((file) =>
@@ -164,7 +164,11 @@ test('renders the newest Today additions first on Recently Added', async () => {
     todayStart,
     yesterdayStart >= 0 ? yesterdayStart : undefined
   )
-  const names = ['Horror Movie Blog', 'Horror Society', 'Oldstyle Tales']
+  const names = [
+    'Digital Flapjack',
+    'Google Maps Mania',
+    'The Comics Curmudgeon'
+  ]
   const positions = names.map((name) => today.indexOf(name))
   assert.ok(positions.every((position) => position >= 0))
   assert.deepEqual(
@@ -172,6 +176,6 @@ test('renders the newest Today additions first on Recently Added', async () => {
     positions
   )
   assert.ok(
-    today.indexOf('Horror Movie Blog') < today.indexOf('This Is Horror')
+    today.indexOf('Digital Flapjack') < today.indexOf('The Comics Curmudgeon')
   )
 })

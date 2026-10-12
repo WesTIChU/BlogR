@@ -38,17 +38,7 @@ export class ThemeHandler {
     theme: null
   })
   private amoledEnabled = ref(false)
-  private prefersDarkMql: MediaQueryList | null = null
   private initialized = false
-  // Arrow field gives a stable, bound reference we can later remove.
-  private handleSystemThemeChange = (e: MediaQueryListEvent) => {
-    if (!localStorage.getItem(STORAGE_KEY_MODE)) {
-      this.state.value.currentMode = e.matches ? 'dark' : 'light'
-      this.applyTheme()
-    } else {
-      this.applyTheme()
-    }
-  }
 
   public initializeTheme() {
     if (typeof window === 'undefined' || this.initialized) return

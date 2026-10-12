@@ -163,7 +163,7 @@ export default defineConfig({
     [
       'script',
       {
-        async: true,
+        async: '',
         src: 'https://stats.blogr.directory/count.js',
         'data-goatcounter': 'https://stats.blogr.directory/count'
       }

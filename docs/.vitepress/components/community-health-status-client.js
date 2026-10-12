@@ -1,8 +1,8 @@
 /* global fetch */
 
-import { reactive } from 'vue'
+import { shallowRef } from 'vue'
 
-export const communityHealthStatuses = reactive(new Map())
+export const communityHealthStatuses = shallowRef(new Map())
 
 let statusRequest
 
@@ -16,9 +16,11 @@ export function loadCommunityHealthStatuses() {
         return response.json()
       })
       .then((entries) => {
-        for (const entry of entries) {
-          communityHealthStatuses.set(entry.url, entry)
-        }
+        communityHealthStatuses.value = new Map(
+          entries
+            .filter((entry) => entry && typeof entry.url === 'string')
+            .map((entry) => [entry.url, entry])
+        )
       })
       .catch(() => undefined)
   }

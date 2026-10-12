@@ -1285,8 +1285,8 @@
   },
   "https://playrface.co.uk/": {
     "lastPublished": "2026-09-12",
-    "lastChecked": "2026-10-12T14:43:39.064Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
+    "status": "success",
     "feedUrl": "https://playrface.co.uk/feed/",
     "latestArticle": {
       "title": "That time when a Bonner SC signed the Cuban national team",
@@ -1518,13 +1518,13 @@
   },
   "https://www.theminimalists.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://www.theminimalists.com/feed/",
     "latestArticle": {
       "title": "Podcast Ep. 559 | Social Contagion",
       "url": "https://www.theminimalists.com/p559/",
-      "summary": "By The Minimalists “Someday” is clutter’s favorite day of the week. The post Podcast Ep. 559 | Social Contagion appeared first on The Minimalists .",
+      "summary": "“Someday” is clutter’s favorite day of the week. The post Podcast Ep. 559 | Social Contagion appeared first on The Minimalists .",
       "publishedAt": "2026-10-12T12:00:00.000Z"
     }
   },
@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
-    "status": "success",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Broadband ISP Virgin Media says Sunday is the busiest UK online day",
@@ -2349,8 +2349,8 @@
   },
   "https://www.theplanetd.com/": {
     "lastPublished": "2026-08-01",
-    "lastChecked": "2026-10-12T14:43:39.064Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
+    "status": "success",
     "feedUrl": "https://theplanetd.com/feed/",
     "latestArticle": {
       "title": "Don’t Scan This Abroad: The QR Code Travel Scam Tourists Miss",
@@ -2874,14 +2874,14 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Celtic’s central defensive situation is a continuing cause for concern.",
-      "url": "https://thecelticblog.com/2026/10/blogs/celtics-central-defence-continuing-concern/",
-      "summary": "Yesterday was a good day in terms of the overall result, and I think most Celtic supporters woke The post Celtic’s central defensive situation is a continuing cause for concern. appeared first on The…",
-      "publishedAt": "2026-10-12T13:00:45.000Z"
+      "title": "Mika Baur Is Showing Celtic Exactly What They’ve Been Missing — But What Has Happened To The Ox?",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/mika-baur-is-showing-celtic-exactly-what-theyve-been-missing-but-what-has-happened-to-the-ox/",
+      "summary": "Sometimes a performance comes along that allows you to forget, even briefly, about the problems elsewhere in a The post Mika Baur Is Showing Celtic Exactly What They’ve Been Missing — But What Has Ha…",
+      "publishedAt": "2026-10-12T15:00:35.000Z"
     }
   },
   "https://readceltic.com/": {
@@ -3009,14 +3009,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Super Smash Bros. For N64 Is Getting A Non-\"AI Slop\" Recomp, With 'Smash Remix' Support",
-      "url": "https://www.timeextension.com/#article-207505",
-      "summary": "Well, that's just smashing! A trailer has just dropped for a new, non-\"AI slop\" static recompilation/PC port of the N64 title Super Smash Bros. , which will feature high-frame support, low-input lag,…",
-      "publishedAt": "2026-10-12T14:00:00.000Z"
+      "title": "NQ JPN Is A New Japan-Themed Arcade Bar Opening Soon In London's Soho District",
+      "url": "https://www.timeextension.com/#article-207516",
+      "summary": "Blast Night in Soho. NQ64 Arcade Bars Ltd., the entertainment company behind a chain of popular gaming bars across the UK , has announced it will open a Japan-centric bar in London's popular Soho dis…",
+      "publishedAt": "2026-10-12T15:30:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3117,20 +3117,26 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
-    "status": "unavailable",
-    "feedUrl": "https://9to5linux.com/feed"
+    "lastChecked": "2026-10-12T15:58:46.034Z",
+    "status": "success",
+    "feedUrl": "https://9to5linux.com/feed",
+    "latestArticle": {
+      "title": "Ubuntu 27.04 “Tenacious T-Rex” Is Slated for Release on April 22nd, 2027",
+      "url": "https://9to5linux.com/ubuntu-27-04-tenacious-t-rex-is-slated-for-release-on-april-22nd-2027",
+      "summary": "Canonical's next major Ubuntu release, Ubuntu 27.04 \"Tenacious T-Rex,\" has been slated for release on April 22nd, 2027, and it’s expected to come with the GNOME 52 desktop environment and Linux kerne…",
+      "publishedAt": "2026-10-12T13:13:18.000Z"
+    }
   },
   "https://lwn.net/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "LineageOS 24 released",
-      "url": "https://lwn.net/Articles/1099950/",
-      "summary": "The LineageOS project, which produces an Android-based distribution for mobile devices, has announced the release of LineageOS 24.0. We're a bit sentimental about this release, as it precedes a reall…",
-      "publishedAt": "2026-10-12T13:13:57.000Z"
+      "title": "[$] The 2026 Maintainers Summit",
+      "url": "https://lwn.net/Articles/1099594/",
+      "summary": "The Maintainers Summit is a one-day, invitation-only gathering of about 30 kernel developers; it is held once each year to discuss policy-related issues that are not always amenable to resolution via…",
+      "publishedAt": "2026-10-12T15:27:27.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3966,9 +3972,9 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "lastPublished": "2026-09-10",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
-    "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=7885444af42e",
+    "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=0b3b97fa6688",
     "latestArticle": {
       "title": "Comfort in an Orange Tin: The History of Ovaltine in Britain",
       "url": "https://rachelsvintageretro.co.uk/comfort-in-an-orange-tin-the-history-of-ovaltine-in-britain/",
@@ -4098,13 +4104,13 @@
   },
   "https://theprivacydad.com/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-12T14:43:39.064Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://theprivacydad.com/feed/",
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 2 days, 16 hours ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might …",
+      "summary": "This post was last edited 3 days ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might use the Tu…",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -4280,14 +4286,14 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "The Social Reckoning Review: A Solid But Inferior Sequel",
-      "url": "https://www.themovieblog.com/2026/10/the-social-reckoning-review-a-solid-but-inferior-sequel/",
-      "summary": "Aaron Sorkin returns to the world of Facebook with The Social Reckoning, a biographical legal thriller that examines the social media giant’s troubling influence on society through the experiences of…",
-      "publishedAt": "2026-10-12T14:30:00.000Z"
+      "title": "Karl-Anthony Towns and Terry Crews Headline Project Healthy Minds Festival",
+      "url": "https://www.themovieblog.com/2026/10/karl-anthony-towns-terry-crews-headline-project-healthy-minds-festival/",
+      "summary": "NBA star Karl-Anthony Towns and actor Terry Crews headlined the fifth annual Project Healthy Minds World Mental Health Day Festival in New York City. The post Karl-Anthony Towns and Terry Crews Headl…",
+      "publishedAt": "2026-10-12T15:45:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4411,9 +4417,9 @@
   },
   "https://www.snitchseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-10T16:48:35.369Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "unknown",
-    "feedUrl": "https://www.snitchseeker.com/forum.php"
+    "feedUrl": "https://www.snitchseeker.com/external.php?type=rss2&forumids=71"
   },
   "https://susan-stepney.blogspot.com/": {
     "lastPublished": "2026-10-11",
@@ -4518,14 +4524,14 @@
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "HMV to close its Oxford Street store citing soaring rental costs",
-      "url": "https://www.ianvisits.co.uk/articles/hmv-to-close-its-oxford-street-store-citing-soaring-rental-costs-93228/",
-      "summary": "HMV has announced it will close its flagship Oxford Street shop in March 2027, just over three years after returning to its historic home Read more ›",
-      "publishedAt": "2026-10-12T14:30:15.000Z"
+      "title": "The lifts are coming: Kings Langley station plans step-free future",
+      "url": "https://www.ianvisits.co.uk/articles/the-lifts-are-coming-kings-langley-station-plans-step-free-future-92992/",
+      "summary": "A £10.6 million project will add a new footbridge and three lifts, giving passengers step-free access to all four platforms. Read more ›",
+      "publishedAt": "2026-10-12T15:00:46.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
@@ -5222,14 +5228,14 @@
   },
   "https://www.stuckinabook.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on 1949 Club: your reviews! by Emma @ Words And Peace",
-      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173638",
-      "summary": "Thanks for hosting! Here are 1949 titles I read before this event - with links of my reviews: https://wordsandpeace.com/2026/10/12/the-1949-club-older-reads/ I'll be back on Wednesday for a 1949 book…",
-      "publishedAt": "2026-10-12T14:05:45.000Z"
+      "title": "Comment on The Winter of Our Discontent by John Steinbeck by Anonymous",
+      "url": "https://www.stuckinabook.com/the-winter-of-our-discontent-by-john-steinbeck/#comment-173643",
+      "summary": "This and East of Eden are the only two Steinbeck books I've read since highschool. It is a shocking but beautiful difference, as you described the focus on a single narrative vs the wide cast of deep…",
+      "publishedAt": "2026-10-12T15:37:41.000Z"
     }
   },
   "https://esngblog.com/": {
@@ -5270,8 +5276,8 @@
   },
   "https://moviesoftheeighties.substack.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
-    "status": "success",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
+    "status": "unavailable",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
       "url": "https://moviesoftheeighties.substack.com/p/forgotten-movies-of-the-80s-stars",
@@ -5371,13 +5377,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastChecked": "2026-10-12T15:58:46.034Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/match-officials-sven-jablonski-to-referee-manchester-city-vs-psg-uefa-champions-league",
-      "summary": "UEFA have confirmed an all-German team of match officials to oversee matters involving Manchester City and Paris Saint-Germain in the UEFA Champions League on Wednesday night.",
-      "publishedAt": "2026-10-12T13:00:05.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/algeria-manager-discusses-rayan-ait-nouris-national-team-future-after-recent-squad-axing",
+      "summary": "Algeria boss Brahim Hemdani has stated that the fallout from the Manchester City defender Rayan Ait-Nouri's controversial international break exit will be ‘handled amicably’.",
+      "publishedAt": "2026-10-12T15:00:36.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {

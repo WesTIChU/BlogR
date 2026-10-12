@@ -2908,5 +2908,23 @@
     "lastChecked": "2026-10-12T09:07:20.126Z",
     "status": "success",
     "feedUrl": "https://kimberlyhirsh.com/feed.xml"
+  },
+  "https://digitalflapjack.com/blog/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:23:38.454Z",
+    "status": "success",
+    "feedUrl": "https://digitalflapjack.com/index.xml"
+  },
+  "https://googlemapsmania.blogspot.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:23:38.454Z",
+    "status": "success",
+    "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania"
+  },
+  "https://joshreads.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-12T14:23:38.454Z",
+    "status": "success",
+    "feedUrl": "https://joshreads.com/feed/"
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: England Blogs
-description: 45 blogs listed in England.
+description: 50 blogs listed in England.
 ---
 
 <script setup>
@@ -9,7 +9,7 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="45" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="50" />
 
 ## Arts & Entertainment
 
@@ -85,6 +85,9 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Sports & Recreation
 
+* <span class="blog-entry"><BlogHealthLink name="Arseblog" url="https://arseblog.com/" :favourite="false" /> - Independent Arsenal FC blog covering club news, match reports, transfers, opinion, analysis and the Arsecast podcast.</span><BlogLastUpdated url="https://arseblog.com/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Bitter and Blue" url="https://bitterandblue.sbnation.com" :favourite="false" /> - Manchester City supporters' website covering club news, match previews, analysis, transfers and fan opinion.</span><BlogLastUpdated url="https://bitterandblue.sbnation.com" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="Bluemoon" url="https://bluemoon-mcfc.co.uk/" :favourite="false" /> - Manchester City supporters' community featuring football discussion, match analysis, transfer rumours and fan commentary.</span><BlogLastUpdated url="https://bluemoon-mcfc.co.uk/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="City Xtra" url="https://cityxtra.co.uk/" :favourite="false" /> - Manchester City news and analysis featuring transfers, match coverage, club developments, interviews and original features.</span><BlogLastUpdated url="https://cityxtra.co.uk/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Gunnerstown" url="https://gunnerstown.com/" :favourite="false" /> - Arsenal supporters' website featuring fan-written articles, tactical analysis, match commentary and opinion.</span><BlogLastUpdated url="https://gunnerstown.com/" added-date="2026-10-09" />
 * <span class="blog-entry"><BlogHealthLink name="Man City Blog" url="https://mancityblog.com/" :favourite="false" /> - A Manchester City-focused website covering club news, match discussions, transfers and supporter perspectives.</span><BlogLastUpdated url="https://mancityblog.com/" added-date="2026-10-12" />
@@ -117,12 +120,17 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ## Technology
 
+### Internet & Web Technology
+
+* <span class="blog-entry"><BlogHealthLink name="Google Maps Mania" url="https://googlemapsmania.blogspot.com/" :favourite="false" /> - Independent blog exploring interactive maps, geographic visualisations, mapping tools and creative uses of location data.</span><BlogLastUpdated url="https://googlemapsmania.blogspot.com/" added-date="2026-10-12" />
+
 ### Linux & Open Source
 
 * <span class="blog-entry"><BlogHealthLink name="OMG! Ubuntu!" url="https://www.omgubuntu.co.uk" :favourite="false" /> - News, reviews and tips for Ubuntu users, covering Linux desktop updates, applications and open-source developments.</span><BlogLastUpdated url="https://www.omgubuntu.co.uk" added-date="2026-09-20" />
 
 ### Programming & Development
 
+* <span class="blog-entry"><BlogHealthLink name="Digital Flapjack" url="https://digitalflapjack.com/blog/" :favourite="false" /> - Personal technical writing covering software development, programming, geospatial computing, self-hosting and experimental projects.</span><BlogLastUpdated url="https://digitalflapjack.com/blog/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Max Glenister" url="https://blog.omgmog.net/" :favourite="false" /> - Max Glenister writes about web development, static sites, creative coding, software projects, and experiments on the web.</span><BlogLastUpdated url="https://blog.omgmog.net/" added-date="2026-10-10" />
 
 ## Travel & Outdoors

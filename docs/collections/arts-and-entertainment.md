@@ -18,6 +18,7 @@ Creative work, visual arts, music, design, and experimental projects.
 
 * <span class="blog-entry"><BlogHealthLink name="ChaosLife" url="https://chaoslife.findchaos.com/comic" :favourite="false" /> - Autobiographical webcomic following everyday life, relationships, family experiences, and personal observations through humour and illustrated storytelling.</span><BlogLastUpdated url="https://chaoslife.findchaos.com/comic" added-date="2026-07-09" />
 * <span class="blog-entry"><BlogHealthLink name="Dinosaur Comics" url="https://www.qwantz.com/" :favourite="false" /> - A humorous webcomic built around talking dinosaurs, absurd conversations and playful explorations of everyday ideas.</span><BlogLastUpdated url="https://www.qwantz.com/" added-date="2026-10-09" />
+* <span class="blog-entry"><BlogHealthLink name="The Comics Curmudgeon" url="https://joshreads.com/" :favourite="false" /> - Long-running humorous commentary and criticism of newspaper comic strips and their characters.</span><BlogLastUpdated url="https://joshreads.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Tom the Dancing Bug" url="https://tomthedancingbug.com/" :favourite="false" /> - Satirical comic strips using political humour and social commentary to explore public life, culture and current issues.</span><BlogLastUpdated url="https://tomthedancingbug.com/" added-date="2026-10-09" />
 
 ## Design & Creative Projects

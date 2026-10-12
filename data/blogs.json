@@ -6620,5 +6620,47 @@
     "addedDate": "2026-10-12",
     "addedAt": "2026-10-12T09:06:31.000Z",
     "country": "US"
+  },
+  {
+    "name": "Digital Flapjack",
+    "url": "https://digitalflapjack.com/blog/",
+    "description": "Personal technical writing covering software development, programming, geospatial computing, self-hosting and experimental projects.",
+    "category": "technology",
+    "subcategory": "Programming & Development",
+    "country": "GB-ENG",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-12",
+    "addedAt": "2026-10-12T14:20:43.760Z"
+  },
+  {
+    "name": "Google Maps Mania",
+    "url": "https://googlemapsmania.blogspot.com/",
+    "description": "Independent blog exploring interactive maps, geographic visualisations, mapping tools and creative uses of location data.",
+    "category": "technology",
+    "subcategory": "Internet & Web Technology",
+    "country": "GB-ENG",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-12",
+    "addedAt": "2026-10-12T14:20:43.760Z"
+  },
+  {
+    "name": "The Comics Curmudgeon",
+    "url": "https://joshreads.com/",
+    "description": "Long-running humorous commentary and criticism of newspaper comic strips and their characters.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Comics & Illustration",
+    "country": "US",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-12",
+    "addedAt": "2026-10-12T14:20:43.760Z"
   }
 ]

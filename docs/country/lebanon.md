@@ -15,4 +15,4 @@ import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 
 ### Programming & Development
 
-* <span class="blog-entry"><BlogHealthLink name="Sara Soueidan" url="https://www.sarasoueidan.com/" :favourite="false" /> - Sara Soueidan writes about accessible web design, front-end development, CSS, SVG, responsive interfaces and building inclusive experiences on the web.</span><BlogLastUpdated url="https://www.sarasoueidan.com/" added-date="2026-10-12" />
+* <span class="blog-entry"><BlogHealthLink name="Sara Soueidan" url="https://www.sarasoueidan.com/" :favourite="false" /> - Sara Soueidan writes about accessible web design, front-end development, CSS, responsive interfaces and building inclusive experiences on the web.</span><BlogLastUpdated url="https://www.sarasoueidan.com/" added-date="2026-10-12" />

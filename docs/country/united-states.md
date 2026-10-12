@@ -1,6 +1,6 @@
 ---
 title: United States Blogs
-description: 51 blogs listed in United States.
+description: 52 blogs listed in United States.
 ---
 
 <script setup>
@@ -9,13 +9,14 @@ import BlogHealthLink from '../.vitepress/components/BlogHealthLink.vue'
 import BlogLastUpdated from '../.vitepress/components/BlogLastUpdated.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="51" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="52" />
 
 ## Arts & Entertainment
 
 ### Comics & Illustration
 
 * <span class="blog-entry"><BlogHealthLink name="ChaosLife" url="https://chaoslife.findchaos.com/comic" :favourite="false" /> - Autobiographical webcomic following everyday life, relationships, family experiences, and personal observations through humour and illustrated storytelling.</span><BlogLastUpdated url="https://chaoslife.findchaos.com/comic" added-date="2026-07-09" />
+* <span class="blog-entry"><BlogHealthLink name="The Comics Curmudgeon" url="https://joshreads.com/" :favourite="false" /> - Long-running humorous commentary and criticism of newspaper comic strips and their characters.</span><BlogLastUpdated url="https://joshreads.com/" added-date="2026-10-12" />
 * <span class="blog-entry"><BlogHealthLink name="Tom the Dancing Bug" url="https://tomthedancingbug.com/" :favourite="false" /> - Satirical comic strips using political humour and social commentary to explore public life, culture and current issues.</span><BlogLastUpdated url="https://tomthedancingbug.com/" added-date="2026-10-09" />
 
 ### Design & Creative Projects

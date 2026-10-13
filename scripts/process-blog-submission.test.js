@@ -297,11 +297,11 @@ test('creates a new subcategory for the selected approved main category', () => 
   const submission = validateSubmission(
     parseIssueForm(
       body({
-        name: 'The Neveen Edit',
-        url: 'https://neveenwood.com/',
+        name: 'The Neveen Edit Test',
+        url: 'https://test-neveenwood.com/',
         description: 'Beauty and lifestyle writing.',
         category: 'Lifestyle & Hobbies',
-        subcategory: 'Beauty & Personal Care',
+        subcategory: 'Beauty & Skin Health',
         country: 'United Kingdom [GB]'
       })
     ),
@@ -310,19 +310,19 @@ test('creates a new subcategory for the selected approved main category', () => 
   )
 
   assert.deepEqual(submission, {
-    name: 'The Neveen Edit',
-    url: 'https://neveenwood.com/',
+    name: 'The Neveen Edit Test',
+    url: 'https://test-neveenwood.com/',
     description: 'Beauty and lifestyle writing.',
     category: 'lifestyle-and-hobbies',
     subcategory: undefined,
     country: 'GB',
-    suggestedSubcategory: 'Beauty & Personal Care'
+    suggestedSubcategory: 'Beauty & Skin Health'
   })
 
   const result = applySuggestedSubcategory(taxonomy, submission)
   assert.equal(result.status, 'created')
-  assert.equal(result.submission.subcategory, 'Beauty & Personal Care')
-  assert.equal(result.subsection.match, 'beauty|personal|care')
+  assert.equal(result.submission.subcategory, 'Beauty & Skin Health')
+  assert.equal(result.subsection.match, 'beauty|skin|health')
 })
 
 test('reuses an existing subcategory despite prefix, case, and punctuation differences', () => {

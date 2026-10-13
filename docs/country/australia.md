@@ -1,13 +1,13 @@
 ---
 title: Australia Blogs
-description: 7 blogs listed in Australia.
+description: 9 blogs listed in Australia.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="7" />
+<CountryDirectoryHeader flag="🇦🇺" name="Australia" :count="9" />
 
 ## Arts & Entertainment
 
@@ -30,6 +30,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 ## Personal Writing
 
+### Essays & Reflections
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://aeon.co/" target="_blank" rel="noopener noreferrer">Aeon</a></strong> - Long-form essays and original ideas exploring philosophy, psychology, science, society and culture, written by researchers, thinkers and specialist authors.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://aeon.co/" data-blog-name="Aeon"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/australia" aria-label="Based in Australia"><span aria-hidden="true">🇦🇺</span> Australia</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
 ### Personal Blogs & Everyday Life
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.web-goddess.org/" target="_blank" rel="noopener noreferrer">web-goddess</a></strong> - Kris's long-running personal blog about technology, books, films, crafts, cycling, travel, and everyday life in Sydney.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.web-goddess.org/" data-blog-name="web-goddess"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/australia" aria-label="Based in Australia"><span aria-hidden="true">🇦🇺</span> Australia</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;10 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
@@ -43,3 +47,4 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Travel & Exploration
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.neverendingfootsteps.com" target="_blank" rel="noopener noreferrer">Never Ending Footsteps</a></strong> - Travel blog sharing long-term travel experiences, destination guides, practical safety advice, and lessons from visiting more than 100 countries.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.neverendingfootsteps.com" data-blog-name="Never Ending Footsteps"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/australia" aria-label="Based in Australia"><span aria-hidden="true">🇦🇺</span> Australia</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;16 April 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://weareglobaltravellers.com/blog/" target="_blank" rel="noopener noreferrer">We Are Global Travellers</a></strong> - Travel guides, itineraries and outdoor adventure inspiration covering destinations around the world, with practical planning tips and personal experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://weareglobaltravellers.com/blog/" data-blog-name="We Are Global Travellers"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/australia" aria-label="Based in Australia"><span aria-hidden="true">🇦🇺</span> Australia</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>

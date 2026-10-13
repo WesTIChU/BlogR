@@ -1,13 +1,13 @@
 ---
 title: Scotland Blogs
-description: 18 blogs listed in Scotland.
+description: 19 blogs listed in Scotland.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="18" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="19" />
 
 ## Culture & Places
 
@@ -21,6 +21,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.thechaoticscot.com" target="_blank" rel="noopener noreferrer">The Chaotic Scot</a></strong> - Personal writing about Scottish life and culture, sharing candid stories, opinions and everyday experiences with humour.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.thechaoticscot.com" data-blog-name="The Chaotic Scot"><span class="blog-favourite" aria-label="Favourite">⭐</span><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;5 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Lifestyle & Hobbies
+
+### Everyday Life
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.thelifeofaglasgowgirl.co.uk/" target="_blank" rel="noopener noreferrer">The Life of a Glasgow Girl</a></strong> - Scottish lifestyle blogger Jordanne shares everyday experiences, family life, wellbeing, entertainment, personal reflections and practical advice.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.thelifeofaglasgowgirl.co.uk/" data-blog-name="The Life of a Glasgow Girl"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Sports & Recreation
 

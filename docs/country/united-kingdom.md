@@ -1,13 +1,26 @@
 ---
 title: United Kingdom Blogs
-description: 2 blogs listed in United Kingdom.
+description: 5 blogs listed in United Kingdom.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="2" />
+<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="5" />
+
+## Arts & Entertainment
+
+### Music
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://mccookerybook.blogspot.com/" target="_blank" rel="noopener noreferrer">Helen McCookerybook</a></strong> - Musician and writer Helen McCookerybook shares personal updates, songwriting, recording sessions, gigs, punk music history and everyday experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://mccookerybook.blogspot.com/" data-blog-name="Helen McCookerybook"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Lifestyle & Hobbies
+
+### Beauty & Personal Care
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://britishbeautyblogger.com/" target="_blank" rel="noopener noreferrer">British Beauty Blogger</a></strong> - Independent beauty commentary covering makeup, skincare, new launches, product reviews, industry trends and consumer advice.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://britishbeautyblogger.com/" data-blog-name="British Beauty Blogger"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://neveenwood.com/" target="_blank" rel="noopener noreferrer">The Neveen Edit</a></strong> - A UK beauty and lifestyle blog covering hair loss, wigs, hair toppers, skincare, makeup and fragrance. Neveen shares personal experiences, honest product reviews, beauty recommendations and money-saving discount codes.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://neveenwood.com/" data-blog-name="The Neveen Edit"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Travel & Outdoors
 

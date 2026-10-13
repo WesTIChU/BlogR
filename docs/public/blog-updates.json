@@ -45,13 +45,13 @@
   },
   "http://www.cherryandspoon.com/": {
     "status": "success",
-    "lastPublished": "2026-10-12",
+    "lastPublished": "2026-10-13",
     "feedUrl": "http://www.cherryandspoon.com/feeds/posts/default",
     "latestArticle": {
-      "title": "\"Sweet Revenge\" by Mni Giizhik Theatre Ensemble and Exposed Brick Theatre at Red Eye Theater",
-      "url": "http://www.cherryandspoon.com/2026/10/sweet-revenge-by-mni-giizhik-and.html",
-      "summary": "Billed as a \"true crime comedy,\" the new play Sweet Revenge is, on one level, an entertaining revenge fantasy. But on another level, it's an unflinching look at the generational trauma carried by the…",
-      "publishedAt": "2026-10-12T21:36:38.415Z"
+      "title": "\"Dracula (a feminist revenge fantasy)\" by Night Fire Theatre at the Historic Mounds Theatre",
+      "url": "http://www.cherryandspoon.com/2026/10/dracula-feminist-revenge-fantasy-by.html",
+      "summary": "NYC-based actor/playwright Kate Hamill is most known for her Jane Austin adaptations (including Emma , commissioned by and premiering at the Guthrie in 2022 ), and sometimes stars in the world premie…",
+      "publishedAt": "2026-10-13T22:46:58.330Z"
     }
   },
   "http://www.galactichunter.com/GH/": {
@@ -2186,10 +2186,10 @@
     "lastPublished": "2026-10-13",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Christmas 2026 In London",
-      "url": "https://londonist.com/2026/10/christmas-2026-in-london",
-      "summary": "Click for Christmas content!",
-      "publishedAt": "2026-10-13T16:05:00.000Z"
+      "title": "London's Oldest Restaurant Is Now Owned By The National Trust",
+      "url": "https://londonist.com/london/latest-news/rules-covent-garden-national-trust",
+      "summary": "Rules on Maiden Lane gets permanent protection.",
+      "publishedAt": "2026-10-13T23:03:02.000Z"
     }
   },
   "https://lwn.net/": {
@@ -2729,10 +2729,10 @@
     "lastPublished": "2026-10-13",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Hairspray Starship",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/hairspray-starship.html",
-      "summary": "Back from helping my elderly Sister I've been relaxing with an empty hairspray can, a gift ball, a cracker tray and some paint. I made a basic spaceship. Made of two parts Let the adventure begin!",
-      "publishedAt": "2026-10-13T11:00:00.000Z"
+      "title": "'Ed Surveyor",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/ed-surveyor.html",
+      "summary": "Woodsy, Here's a few of the latest snaps taken on my Moonscape. Having fun! I know the radar dish on the Pippin Surveyor is incorrect, but my sample was missing whatever was supposed to be on there, …",
+      "publishedAt": "2026-10-13T23:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -3164,10 +3164,10 @@
     "lastPublished": "2026-10-13",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for d…",
-      "publishedAt": "2026-10-13T13:32:00.000Z"
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to th…",
+      "publishedAt": "2026-10-13T23:00:06.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -3393,7 +3393,7 @@
     }
   },
   "https://the-modern-dad.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-10",
     "feedUrl": "https://the-modern-dad.com/feed/",
     "latestArticle": {
@@ -3485,9 +3485,9 @@
     "lastPublished": "2026-10-13",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36118/lisandro-martinez-calls-out-club-leadership-in-post-match-interview",
-      "summary": "Well, at least the docuseries should be good. Manchester United defender Lisandro Martinez gave the fans something to hold onto after a frustrating 2-0 defeat on the road at Atletico Madrid on Tuesda…",
-      "publishedAt": "2026-10-13T22:16:17.000Z"
+      "url": "https://thebusbybabe.sbnation.com/latest-news/36096/atletico-madrid-vs-manchester-united-live-stream-time-how-to-watch",
+      "summary": "Desperate for a positive spark to reinvigorate their season, struggling Manchester United will travel to face in-form Atletico Madrid at the Metropolitano Stadium on Tuesday for matchday two of the C…",
+      "publishedAt": "2026-10-13T15:30:00.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -4296,7 +4296,7 @@
   },
   "https://www.digitalocean.com/community/tutorials": {
     "status": "unknown",
-    "feedUrl": "https://www.digitalocean.com/_do-www-marketing/3b796178/_next/static/media/favicon.91372345.svg"
+    "feedUrl": "https://www.digitalocean.com/_do-www-marketing/ac6a48c1/_next/static/media/favicon.91372345.svg"
   },
   "https://www.disneytouristblog.com/": {
     "status": "success",
@@ -4494,10 +4494,10 @@
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "The London Buzz – 13th Oct 2026",
-      "url": "https://www.ianvisits.co.uk/articles/the-london-buzz-13th-oct-2026-93261/",
-      "summary": "Today’s London news round-up: Read more ›",
-      "publishedAt": "2026-10-13T16:00:49.000Z"
+      "title": "Fifty-five years after Betjeman saved Rules, London’s oldest restaurant is secured again",
+      "url": "https://www.ianvisits.co.uk/articles/fifty-five-years-after-betjeman-saved-rules-londons-oldest-restaurant-is-secured-again-93256/",
+      "summary": "The Covent Garden restaurant’s landlord has donated its historic building to the National Trust, safeguarding the atmosphere Betjeman fought to preserve. Read more ›",
+      "publishedAt": "2026-10-13T23:01:09.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {

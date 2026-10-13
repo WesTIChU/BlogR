@@ -321,6 +321,17 @@
       "publishedAt": "2026-09-13T12:53:12.000Z"
     }
   },
+  "https://arduinoexpert.com/blog/": {
+    "status": "success",
+    "lastPublished": "2026-10-12",
+    "feedUrl": "https://arduinoexpert.com/feed/",
+    "latestArticle": {
+      "title": "How to Use a 3D Printer for Rapid Prototyping and Faster Product Development",
+      "url": "https://arduinoexpert.com/blog/how-to-use-3d-printer-for-rapid-prototyping/",
+      "summary": "Turning an innovative product idea into a functional prototype can be challenging, especially when traditional manufacturing methods involve expensive tooling, long production times, and multiple des…",
+      "publishedAt": "2026-10-12T10:05:47.000Z"
+    }
+  },
   "https://arseblog.com/": {
     "status": "success",
     "lastPublished": "2026-10-13",
@@ -532,6 +543,17 @@
   },
   "https://blog.britishnewspaperarchive.co.uk/": {
     "status": "unavailable"
+  },
+  "https://blog.firestartoys.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-01",
+    "feedUrl": "https://blog.firestartoys.com/feed/",
+    "latestArticle": {
+      "title": "Meet Minifigured.com: Custom Minifigures Made for Your Brand",
+      "url": "https://blog.firestartoys.com/meet-minifigured-com/?utm_source=rss&utm_medium=rss&utm_campaign=meet-minifigured-com",
+      "summary": "Ever wondered what happens when you take the world of custom minifigures and give it a corporate twist? Meet Minifigured.com! Our sister company is all about creating custom minifigures for businesse…",
+      "publishedAt": "2026-10-01T12:32:08.000Z"
+    }
   },
   "https://blog.geocities.institute/": {
     "status": "success",
@@ -1226,6 +1248,16 @@
       "publishedAt": "2025-09-22T19:00:13.000Z"
     }
   },
+  "https://everythingsmarthome.co.uk/": {
+    "status": "success",
+    "lastPublished": "2023-07-11",
+    "feedUrl": "https://everythingsmarthome.co.uk/rss/",
+    "latestArticle": {
+      "url": "https://everythingsmarthome.co.uk/the-best-smart-home-prime-day-deals-2023/",
+      "summary": "Amazon Prime Day 2023 is here on the 11th and 12th of July 2023! These are all of the best Smart Home Deals I have found for you today!",
+      "publishedAt": "2023-07-11T14:54:22.000Z"
+    }
+  },
   "https://evidenceanecdotal.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-10-13",
@@ -1532,6 +1564,17 @@
       "publishedAt": "2026-10-13T07:00:00.000Z"
     }
   },
+  "https://hometechhacker.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-07",
+    "feedUrl": "https://hometechhacker.com/feed/",
+    "latestArticle": {
+      "title": "UGREEN HomeAgent HA100 Review: Powerful Local AI, Complicated Setup",
+      "url": "https://hometechhacker.com/ugreen-homeagent-ha100-review-powerful-local-ai-complicated-setup/",
+      "summary": "I like technology that gives me more control over my home and my data. I also like technology that makes life simpler. The UGREEN HomeAgent HA100 has a lot to offer on",
+      "publishedAt": "2026-10-07T19:28:43.000Z"
+    }
+  },
   "https://hometownstohollywood.com/": {
     "status": "success",
     "lastPublished": "2026-10-12",
@@ -1710,6 +1753,17 @@
       "publishedAt": "2026-09-30T11:25:28.000Z"
     }
   },
+  "https://jaysbrickblog.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-13",
+    "feedUrl": "https://jaysbrickblog.com/feed/",
+    "latestArticle": {
+      "title": "LEGO Inside Tour 2027 registrations are now open!",
+      "url": "https://jaysbrickblog.com/news/lego-inside-tour-2027-registrations-now-open/",
+      "summary": "Registrations for the 2027 LEGO Inside Tour, an incredibly exclusive, once-in-a-life-time (literally) experience is now open for the 2027 season! Express your interest via this online form! The LEGO …",
+      "publishedAt": "2026-10-13T08:08:54.000Z"
+    }
+  },
   "https://jeffmackinnon.com/": {
     "status": "success",
     "lastPublished": "2026-10-01",
@@ -1766,6 +1820,17 @@
       "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
       "summary": "I love networking, a lot. So much so that I've run my own ISP since 2024, complete with its own ASN, IPv4/6 address space, fiber optics, etc. However, do this and you quickly realize how reliant you …",
       "publishedAt": "2026-01-26T20:47:58.000Z"
+    }
+  },
+  "https://jonathanh.co.uk/": {
+    "status": "success",
+    "lastPublished": "2026-08-27",
+    "feedUrl": "https://jonathanh.co.uk/index.xml",
+    "latestArticle": {
+      "title": "The hunt for a phone",
+      "url": "https://jonathanh.co.uk/blog/phone/",
+      "summary": "My requirements for a phone are fairly different from most people’s. I don’t have, and don’t want a Google account, an Apple account, a Microsoft account or anything else similar. This is largely for…",
+      "publishedAt": "2026-08-27T00:00:00.000Z"
     }
   },
   "https://jonsmalldon.wordpress.com/": {
@@ -2451,6 +2516,17 @@
       "publishedAt": "2026-10-05T19:07:17.000Z"
     }
   },
+  "https://openpi.uk/blog/": {
+    "status": "success",
+    "lastPublished": "2026-09-11",
+    "feedUrl": "https://openpi.uk/blog/feed.xml",
+    "latestArticle": {
+      "title": "Install Vaultwarden on Raspberry Pi: Self-Hosted Password Management",
+      "url": "https://openpi.uk/blog/raspberry-pi-vaultwarden/",
+      "summary": "Run Vaultwarden on Raspberry Pi with Docker Compose. Host a lightweight Bitwarden password vault, configure HTTPS, and manage automated encrypted backups.",
+      "publishedAt": "2026-09-11T00:00:00.000Z"
+    }
+  },
   "https://overreacted.io/": {
     "status": "success",
     "lastPublished": "2026-09-18",
@@ -2506,6 +2582,16 @@
   },
   "https://perfectmediaserver.com/": {
     "status": "unavailable"
+  },
+  "https://peyanski.com/": {
+    "status": "success",
+    "lastPublished": "2021-06-16",
+    "feedUrl": "https://peyanski.com/web-stories/feed/",
+    "latestArticle": {
+      "title": "How To do Apple AirTags Automations?",
+      "url": "https://peyanski.com/web-stories/how-to-do-apple-airtags-automations/",
+      "publishedAt": "2021-06-16T17:30:00.000Z"
+    }
   },
   "https://pilledtexts.com/": {
     "status": "success",
@@ -2703,6 +2789,9 @@
       "summary": "The early 1990s brought a new look to Russian streets as the country emerged from decades of Soviet rule and entered an uncertain new era. For young women, fashion became a visible expression of chan…",
       "publishedAt": "2026-10-12T02:00:02.000Z"
     }
+  },
+  "https://raspberrypi.electromaker.io/blogs": {
+    "status": "unavailable"
   },
   "https://rawr.fun/": {
     "status": "success",
@@ -3773,6 +3862,10 @@
     "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
+  "https://tyzbit.blog/": {
+    "status": "unknown",
+    "feedUrl": "https://tyzbit.blog/rss.xml"
+  },
   "https://uniqueguitar.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-10-07",
@@ -4018,6 +4111,17 @@
       "url": "https://www.breakfastandtravelupdates.com/blog/update",
       "summary": "As you might have already surmised I have been taking a break from writing Breakfast and Travel Updates. This tour has been amazing but also extremely busy and the spare hours in the day have refused…",
       "publishedAt": "2026-10-11T16:33:15.000Z"
+    }
+  },
+  "https://www.brickfanatics.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-13",
+    "feedUrl": "https://www.brickfanatics.com/feed",
+    "latestArticle": {
+      "title": "LEGO Pokémon Rayquaza is now under £100 with limited sale",
+      "url": "https://www.brickfanatics.com/lego-pokemon-rayquaza-under-100-with-limited-sale",
+      "summary": "A draconic discount on the most affordable LEGO Pokémon minifigure set",
+      "publishedAt": "2026-10-13T10:55:58.000Z"
     }
   },
   "https://www.brothers-brick.com/": {

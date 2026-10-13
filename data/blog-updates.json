@@ -5479,5 +5479,35 @@
     "lastChecked": "2026-10-12T21:59:39.705Z",
     "status": "success",
     "feedUrl": "https://www.fromjason.xyz/feed/feed.xml"
+  },
+  "https://livelaugh.blog/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-13T02:54:14.385Z",
+    "status": "success",
+    "feedUrl": "https://livelaugh.blog/rss.xml"
+  },
+  "https://dc20011.blogspot.com/": {
+    "lastPublished": "2026-10-13",
+    "lastChecked": "2026-10-13T02:54:14.385Z",
+    "status": "success",
+    "feedUrl": "https://dc20011.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Regal Prince Oak",
+      "url": "https://dc20011.blogspot.com/2026/10/regal-prince-oak.html",
+      "summary": "Some years ago, I noticed a handsome, narrowly growing oak tree on 16th St. NW. The leaves and the acorns suggested that it might be an English oak, but the \"columnar\" shape was not at all that of th…",
+      "publishedAt": "2026-10-13T00:29:31.653Z"
+    }
+  },
+  "https://humanizingthevacuum.wordpress.com/": {
+    "lastPublished": "2026-10-13",
+    "lastChecked": "2026-10-13T02:54:14.385Z",
+    "status": "success",
+    "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
+    "latestArticle": {
+      "title": "Ranking #11 ,U.S. edition: 1973-1975",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/12/ranking-11-u-s-edition-1973-1975/",
+      "summary": "There will never be a moment when Steely Dan and Rufus don’t dominate a list: literate, sharp, poised, always funky. The weirdo song is “The Need to Be,” an example of a ’70s specialty: bearded men t…",
+      "publishedAt": "2026-10-13T00:02:58.000Z"
+    }
   }
 }

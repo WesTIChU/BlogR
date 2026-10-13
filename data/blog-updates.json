@@ -5814,5 +5814,64 @@
       "summary": "Run Vaultwarden on Raspberry Pi with Docker Compose. Host a lightweight Bitwarden password vault, configure HTTPS, and manage automated encrypted backups.",
       "publishedAt": "2026-09-11T00:00:00.000Z"
     }
+  },
+  "https://blog.bambulab.com/": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-13T13:47:20.435Z",
+    "status": "success",
+    "feedUrl": "https://blog.bambulab.com/rss/",
+    "latestArticle": {
+      "url": "https://blog.bambulab.com/our-3d-printers-just-won-two-parenting-awards/",
+      "summary": "The Bambu Lab P2S is a 2026 NAPPA winner, and Bambu Lab is a 2026 Parents’ Picks Awards winner in four categories. Here’s what parents had to say.",
+      "publishedAt": "2026-10-12T12:27:42.000Z"
+    }
+  },
+  "https://tidewater3d.co.uk/": {
+    "lastPublished": "2026-09-09",
+    "lastChecked": "2026-10-13T13:47:20.435Z",
+    "status": "success",
+    "feedUrl": "https://tidewater3d.co.uk/feed/",
+    "latestArticle": {
+      "title": "My 3D printer won’t print. What should I check?",
+      "url": "https://tidewater3d.co.uk/my-3d-printer-wont-print-what-should-i-check/",
+      "summary": "A 3D printer that won’t print can be really frustrating, especially when it was working just fine a couple of days ago. However, before panicking that something awful has happened, there are a few re…",
+      "publishedAt": "2026-09-09T16:06:15.000Z"
+    }
+  },
+  "https://www.guyhadleigh.com/blog/categories": {
+    "lastPublished": "2026-10-06",
+    "lastChecked": "2026-10-13T13:47:20.435Z",
+    "status": "success",
+    "feedUrl": "https://www.guyhadleigh.com/blog/feed/",
+    "latestArticle": {
+      "title": "The Occult: When the Unexplained Crossed Into the World of Crime",
+      "url": "https://www.guyhadleigh.com/blog/the-occult",
+      "summary": "The Occult: When the Unexplained Crossed Into the World of Crime What if a missing person could be found by someone who had never seen them? What if a murder investigation could be helped by a man wh…",
+      "publishedAt": "2026-10-06T07:59:11.000Z"
+    }
+  },
+  "https://www.ninaallan.co.uk/": {
+    "lastPublished": "2026-09-23",
+    "lastChecked": "2026-10-13T13:47:20.435Z",
+    "status": "success",
+    "feedUrl": "https://www.ninaallan.co.uk/?feed=rss2",
+    "latestArticle": {
+      "title": "Booker bonus!",
+      "url": "https://www.ninaallan.co.uk/?p=7475",
+      "summary": "Watching the livestreamed announcement of the Booker shortlist yesterday evening, I was beyond thrilled to see the selection of two of the books I care most about from this year, M. John Harrison’s T…",
+      "publishedAt": "2026-09-23T09:05:13.000Z"
+    }
+  },
+  "https://crimebookjunkie.co.uk/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-13T13:47:20.435Z",
+    "status": "success",
+    "feedUrl": "https://crimebookjunkie.co.uk/feed/",
+    "latestArticle": {
+      "title": "Trust No One… Not Even the Author! Twisty Thrillers That’ll Keep You Guessing… #bookreviews #bookrecs #crimebookjunkie",
+      "url": "https://crimebookjunkie.co.uk/twsity-thriller-book-recs/",
+      "summary": "Oh, you think you know what’s going on? ADORABLE. 😏 These 5 books are the kind of dark and twisty thrillers that will make you suspicious of absolutely EVERYONE, have you changing your theories/guess…",
+      "publishedAt": "2026-10-10T07:00:23.000Z"
+    }
   }
 }

@@ -42,6 +42,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          default_branch='${{ github.event.repository.default_branch }}'
+          remote_ref="refs/remotes/origin/${default_branch}"
+          update_files=(data/blog-updates.json docs/public/blog-updates.json)
           git add data/blog-updates.json docs/public/blog-updates.json
           if git diff --cached --quiet; then
             echo 'Blog update data did not change.'
@@ -57,4 +60,32 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Update blog publication dates'
-          git push
+
+          for attempt in 1 2 3; do
+            echo "Synchronizing with origin/${default_branch} (attempt ${attempt}/3)."
+            git fetch origin "refs/heads/${default_branch}:$remote_ref"
+
+            # Another writer may already have published the same generated data.
+            # Do not create a second commit for an identical output tree.
+            if git diff --quiet HEAD "$remote_ref" -- "${update_files[@]}"; then
+              echo 'Generated blog update data is already present upstream.'
+              git reset --hard "$remote_ref"
+              exit 0
+            fi
+
+            if ! git rebase "$remote_ref"; then
+              echo "Rebase conflict while publishing blog update data; aborting safely." >&2
+              git rebase --abort || true
+              git status --short >&2
+              exit 1
+            fi
+
+            if git push origin "HEAD:refs/heads/${default_branch}"; then
+              exit 0
+            fi
+
+            echo 'Remote advanced during push; retrying with a fresh fetch and rebase.' >&2
+          done
+
+          echo 'Unable to publish blog update data after 3 attempts; origin advanced too frequently.' >&2
+          exit 1

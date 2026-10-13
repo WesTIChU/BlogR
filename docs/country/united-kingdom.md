@@ -1,19 +1,20 @@
 ---
 title: United Kingdom Blogs
-description: 10 blogs listed in United Kingdom.
+description: 11 blogs listed in United Kingdom.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="10" />
+<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="11" />
 
 ## Arts & Entertainment
 
 ### Music
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://mccookerybook.blogspot.com/" target="_blank" rel="noopener noreferrer">Helen McCookerybook</a></strong> - Musician and writer Helen McCookerybook shares personal updates, songwriting, recording sessions, gigs, punk music history and everyday experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://mccookerybook.blogspot.com/" data-blog-name="Helen McCookerybook"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://itstartswithabirthstone.blogspot.com/" target="_blank" rel="noopener noreferrer">It Starts With a Birthstone</a></strong> - A Newcastle-based music blog sharing album reviews, vinyl discoveries, favourite songs, music history and reflections on popular culture.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://itstartswithabirthstone.blogspot.com/" data-blog-name="It Starts With a Birthstone"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Books & Writing
 

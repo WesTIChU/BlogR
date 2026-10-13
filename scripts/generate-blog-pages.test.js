@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 528)
+  assert.equal(blogs.length, 532)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -122,6 +122,61 @@ test('classifies the new horror fiction publications consistently', () => {
         name: 'The Dark Magazine',
         category: 'books-and-writing',
         subcategory: 'Horror & Scary Stories',
+        country: 'US'
+      }
+    ]
+  )
+})
+
+test('classifies the newly added lifestyle, music, technology, and spooky blogs', () => {
+  const entries = blogs
+    .filter(({ name }) =>
+      [
+        'Cake Wrecks',
+        'It Starts With a Birthstone',
+        'Manton Reece',
+        'Pretty Spooky',
+        'The Impulsive Buy'
+      ].includes(name)
+    )
+    .sort((a, b) => a.name.localeCompare(b.name))
+
+  assert.deepEqual(
+    entries.map(({ name, category, subcategory, country }) => ({
+      name,
+      category,
+      subcategory,
+      country
+    })),
+    [
+      {
+        name: 'Cake Wrecks',
+        category: 'lifestyle-and-hobbies',
+        subcategory: 'Cooking & Recipes',
+        country: 'US'
+      },
+      {
+        name: 'It Starts With a Birthstone',
+        category: 'arts-and-entertainment',
+        subcategory: 'Music',
+        country: 'GB'
+      },
+      {
+        name: 'Manton Reece',
+        category: 'technology',
+        subcategory: 'Internet & Web Technology',
+        country: 'US'
+      },
+      {
+        name: 'Pretty Spooky',
+        category: 'arts-and-entertainment',
+        subcategory: 'Halloween & Horror',
+        country: null
+      },
+      {
+        name: 'The Impulsive Buy',
+        category: 'lifestyle-and-hobbies',
+        subcategory: 'Cooking & Recipes',
         country: 'US'
       }
     ]

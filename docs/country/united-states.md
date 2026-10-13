@@ -1,13 +1,13 @@
 ---
 title: United States Blogs
-description: 61 blogs listed in United States.
+description: 64 blogs listed in United States.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="61" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="64" />
 
 ## Arts & Entertainment
 
@@ -52,6 +52,12 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Book Reviews
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://sloopie72.wordpress.com/" target="_blank" rel="noopener noreferrer">A Just Recompense</a></strong> - Karen Carlson's literary blog featuring detailed reading reflections, short story analysis, fiction reviews and writing experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://sloopie72.wordpress.com/" data-blog-name="A Just Recompense"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;11 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+### Horror & Scary Stories
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.creepypasta.com/" target="_blank" rel="noopener noreferrer">Creepypasta</a></strong> - A horror fiction website featuring original creepypasta stories, unsettling tales, supernatural encounters and scary stories submitted by writers.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.creepypasta.com/" data-blog-name="Creepypasta"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.nightmare-magazine.com/" target="_blank" rel="noopener noreferrer">Nightmare Magazine</a></strong> - An online horror and dark fantasy magazine publishing original short fiction, reprints, interviews and commentary from horror writers.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.nightmare-magazine.com/" data-blog-name="Nightmare Magazine"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.thedarkmagazine.com/" target="_blank" rel="noopener noreferrer">The Dark Magazine</a></strong> - A monthly magazine publishing original and reprinted horror and dark fantasy short stories from established and emerging writers.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.thedarkmagazine.com/" data-blog-name="The Dark Magazine"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Literature
 

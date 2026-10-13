@@ -115,6 +115,10 @@
           "match": "true crime|murder|serial killer|forensic"
         },
         {
+          "title": "Horror & Scary Stories",
+          "match": "horror|scary|creepypasta|dark fantasy|supernatural|ghost|haunted"
+        },
+        {
           "title": "Literature",
           "match": "literary|literature|fiction|poetry"
         },

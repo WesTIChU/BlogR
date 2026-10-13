@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 525)
+  assert.equal(blogs.length, 528)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -89,6 +89,43 @@ test('classifies dedicated smart-home blogs separately from self-hosting blogs',
     'SmarthomeBeginner',
     'tyzbit.blog'
   ])
+})
+
+test('classifies the new horror fiction publications consistently', () => {
+  const entries = blogs
+    .filter(({ name }) =>
+      ['Creepypasta', 'Nightmare Magazine', 'The Dark Magazine'].includes(name)
+    )
+    .sort((a, b) => a.name.localeCompare(b.name))
+
+  assert.deepEqual(
+    entries.map(({ name, category, subcategory, country }) => ({
+      name,
+      category,
+      subcategory,
+      country
+    })),
+    [
+      {
+        name: 'Creepypasta',
+        category: 'books-and-writing',
+        subcategory: 'Horror & Scary Stories',
+        country: 'US'
+      },
+      {
+        name: 'Nightmare Magazine',
+        category: 'books-and-writing',
+        subcategory: 'Horror & Scary Stories',
+        country: 'US'
+      },
+      {
+        name: 'The Dark Magazine',
+        category: 'books-and-writing',
+        subcategory: 'Horror & Scary Stories',
+        country: 'US'
+      }
+    ]
+  )
 })
 
 test('shows the three latest horror additions in Today by precise addition time', () => {

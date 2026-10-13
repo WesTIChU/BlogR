@@ -170,6 +170,10 @@
           "title": "Sports & Recreation",
           "match": "football|sport|motorsport|racing|table tennis|recreation",
           "legacyAliases": ["Lifestyle & Hobbies / Football & Sports"]
+        },
+        {
+          "title": "Beauty & Personal Care",
+          "match": "beauty|personal|care"
         }
       ]
     },

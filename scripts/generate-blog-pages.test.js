@@ -23,7 +23,7 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 509)
+  assert.equal(blogs.length, 520)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',
@@ -59,6 +59,38 @@ test('validates current blogs and groups subcategories alphabetically', () => {
   )
 })
 
+test('classifies dedicated smart-home blogs separately from self-hosting blogs', () => {
+  const sections = groupBySubsection(
+    'technology',
+    blogs.filter(({ category }) => category === 'technology')
+  )
+  const entries = (title) =>
+    sections
+      .find((section) => section.title === title)
+      .entries.map(({ name }) => name)
+
+  assert.deepEqual(entries('Smart Homes & Automation'), [
+    'Awesome Home Assistant',
+    'Derek Seaman',
+    'Everything Smart Home',
+    'Home Automation Guy',
+    'HomeTechHacker',
+    'Kiril Peyanski',
+    'Smart Home Junkie',
+    'SmartHomeScene',
+    'The Home Assistant Blog'
+  ])
+  assert.deepEqual(entries('Self-Hosting & Homelabs'), [
+    'Awesome Selfhosted',
+    "Justin's IT Blog",
+    'LinuxServer.io Blog',
+    'Open Pi',
+    'Perfect Media Server',
+    'SmarthomeBeginner',
+    'tyzbit.blog'
+  ])
+})
+
 test('shows the three latest horror additions in Today by precise addition time', () => {
   const names = new Set([
     'Horror Society',
@@ -72,7 +104,7 @@ test('shows the three latest horror additions in Today by precise addition time'
 
   assert.deepEqual(
     today.blogs.filter(({ name }) => names.has(name)).map(({ name }) => name),
-    ['Horror Movie Blog', 'Horror Society', 'Oldstyle Tales']
+    ['Horror Society', 'Oldstyle Tales', 'Horror Movie Blog']
   )
   for (const blog of blogs.filter(({ name }) => names.has(name))) {
     assert.equal(blog.addedDate, '2026-10-11')

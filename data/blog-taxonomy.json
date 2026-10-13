@@ -74,6 +74,10 @@
           "match": "linux|ubuntu|open source|foss"
         },
         {
+          "title": "Smart Homes & Automation",
+          "match": "home assistant|esphome|zigbee|z-wave|matter|smart home|home automation|smart lighting|connected home"
+        },
+        {
           "title": "Self-Hosting & Homelabs",
           "match": "self-host|home assistant|homelab|docker|automation|smart home"
         },
@@ -148,8 +152,12 @@
       "subsections": [
         { "title": "Cooking & Recipes", "match": "food|cook|recipe|baking" },
         {
+          "title": "LEGO & Brick Building",
+          "match": "lego|brick"
+        },
+        {
           "title": "Collecting & Memorabilia",
-          "match": "collect|memorabilia|toy|brick|stationery|knives?"
+          "match": "collect|memorabilia|toy|stationery|knives?"
         },
         {
           "title": "Model Railways",

@@ -87,27 +87,18 @@ export function isRecentlyAdded(addedDate, now = new Date()) {
   return age !== null && age >= 0 && age <= RECENTLY_ADDED_MAX_AGE_DAYS
 }
 
-function additionTimestamp(blog) {
+function additionTimestamp(blog, now = new Date()) {
   const precise = Date.parse(blog.addedAt ?? '')
-  if (Number.isFinite(precise)) return precise
-  return Number.NEGATIVE_INFINITY
-}
+  if (Number.isFinite(precise) && precise <= now.getTime()) return precise
 
-function compareBlogNames(a, b) {
-  const nameA = String(a.name ?? '')
-  const nameB = String(b.name ?? '')
-  if (nameA < nameB) return -1
-  if (nameA > nameB) return 1
-
-  const urlA = String(a.url ?? '')
-  const urlB = String(b.url ?? '')
-  if (urlA < urlB) return -1
-  if (urlA > urlB) return 1
-  return 0
+  const dateOnly = parseUtcDateOnly(blog.addedDate)
+  return dateOnly ? dateOnly.getTime() : Number.NEGATIVE_INFINITY
 }
 
 export function compareRecentlyAddedBlogs(a, b) {
-  return additionTimestamp(b) - additionTimestamp(a) || compareBlogNames(a, b)
+  // Array#sort is stable. Preserve the input order when timestamps are equal,
+  // since batches of approvals can legitimately share the same addedAt value.
+  return additionTimestamp(b) - additionTimestamp(a)
 }
 
 export function getRecentlyAddedBlogs(blogs, now = new Date()) {
@@ -116,7 +107,7 @@ export function getRecentlyAddedBlogs(blogs, now = new Date()) {
       const age = ageInLondonDays(blog.addedDate, now)
       return age !== null && age >= 0 && age <= RECENTLY_ADDED_MAX_AGE_DAYS
     })
-    .sort(compareRecentlyAddedBlogs)
+    .sort((a, b) => additionTimestamp(b, now) - additionTimestamp(a, now))
 }
 
 function groupKeyForAge(age) {
@@ -146,7 +137,9 @@ export function getRecentlyAddedGroups(blogs, now = new Date()) {
     })
 
   for (const group of grouped.values()) {
-    group.blogs.sort(compareRecentlyAddedBlogs)
+    group.blogs.sort(
+      (a, b) => additionTimestamp(b, now) - additionTimestamp(a, now)
+    )
   }
 
   return RECENTLY_ADDED_GROUPS.map(({ key }) => grouped.get(key)).filter(

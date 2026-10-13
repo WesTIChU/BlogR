@@ -293,6 +293,55 @@ test('accepts Arts & Entertainment gaming submissions', () => {
   )
 })
 
+test('creates a new subcategory for the selected approved main category', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        name: 'The Neveen Edit',
+        url: 'https://neveenwood.com/',
+        description: 'Beauty and lifestyle writing.',
+        category: 'Lifestyle & Hobbies',
+        subcategory: 'Beauty & Personal Care',
+        country: 'United Kingdom [GB]'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+
+  assert.deepEqual(submission, {
+    name: 'The Neveen Edit',
+    url: 'https://neveenwood.com/',
+    description: 'Beauty and lifestyle writing.',
+    category: 'lifestyle-and-hobbies',
+    subcategory: undefined,
+    country: 'GB',
+    suggestedSubcategory: 'Beauty & Personal Care'
+  })
+
+  const result = applySuggestedSubcategory(taxonomy, submission)
+  assert.equal(result.status, 'created')
+  assert.equal(result.submission.subcategory, 'Beauty & Personal Care')
+  assert.equal(result.subsection.match, 'beauty|personal|care')
+})
+
+test('reuses an existing subcategory despite prefix, case, and punctuation differences', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({
+        category: 'lifestyle & hobbies',
+        subcategory: 'lifestyle & hobbies / EVERYDAY---LIFE'
+      })
+    ),
+    blogs,
+    taxonomy
+  )
+
+  assert.equal(submission.category, 'lifestyle-and-hobbies')
+  assert.equal(submission.subcategory, 'Everyday Life')
+  assert.equal(submission.suggestedSubcategory, undefined)
+})
+
 test('rejects invalid, local, credentialed, and missing URLs', () => {
   for (const url of [
     '',

@@ -105,6 +105,11 @@ const normalizeSubmittedSubcategory = (value) => {
   return EMPTY_SUBCATEGORY_VALUES.has(normalized) ? '' : normalized
 }
 
+const isIgnoredSubcategory = (value) =>
+  [...IGNORED_SUBCATEGORIES].some(
+    (ignored) => classificationKey(ignored) === classificationKey(value)
+  )
+
 export function parseIssueForm(body) {
   if (typeof body !== 'string' || body.length > 20_000) {
     throw new Error('Issue form body is missing or too large')
@@ -208,7 +213,18 @@ export function extractSuggestedSubcategory(notes) {
   return suggestion
 }
 
-const normalizeSubcategoryTitle = (value) => value.trim().replace(/\s+/g, ' ')
+const normalizeSubcategoryTitle = (value) =>
+  typeof value === 'string' ? value.trim().replace(/\s+/g, ' ') : ''
+
+const classificationKey = (value) =>
+  normalizeSubcategoryTitle(value)
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLocaleLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim()
+    .replace(/\s+/g, ' ')
 
 export function validateSuggestedSubcategory(value) {
   const title = normalizeSubcategoryTitle(value)
@@ -222,8 +238,7 @@ export function validateSuggestedSubcategory(value) {
   return title
 }
 
-const subcategoryKey = (value) =>
-  normalizeSubcategoryTitle(value).toLocaleLowerCase()
+const subcategoryKey = (value) => classificationKey(value)
 
 const subcategoryMatch = (title) =>
   [...new Set(title.toLocaleLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [])]
@@ -356,18 +371,22 @@ export function validateBlogUrl(value) {
 
 function taxonomyMaps(taxonomy) {
   const categories = new Map(
-    taxonomy.categories.map((item) => [item.title, item])
+    taxonomy.categories.map((item) => [classificationKey(item.title), item])
   )
-  const subcategories = new Map()
-  for (const category of taxonomy.categories) {
-    for (const subsection of category.subsections ?? []) {
-      subcategories.set(`${category.title} / ${subsection.title}`, {
-        category,
-        title: subsection.title
-      })
-    }
+  return { categories }
+}
+
+function selectedSubcategory(value, category) {
+  const normalized = normalizeSubmittedSubcategory(value)
+  const separator = normalized.indexOf('/')
+  if (separator === -1) return normalized
+
+  const categoryTitle = normalized.slice(0, separator).trim()
+  const subcategoryTitle = normalized.slice(separator + 1).trim()
+  if (classificationKey(categoryTitle) !== classificationKey(category.title)) {
+    throw new Error('Invalid subcategory for the selected main category')
   }
-  return { categories, subcategories }
+  return subcategoryTitle
 }
 
 export function validateSubmission(submission, blogs, taxonomy) {
@@ -384,27 +403,29 @@ export function validateSubmission(submission, blogs, taxonomy) {
     throw new Error('Description contains unsupported content')
   }
 
-  const { categories, subcategories } = taxonomyMaps(taxonomy)
+  const { categories } = taxonomyMaps(taxonomy)
   const country = normalizeCountryCode(submission.country)
-  const category = categories.get(submission.category)
+  const category = categories.get(classificationKey(submission.category))
   if (!category) throw new Error('Invalid main category')
 
   let subcategory
   const requestedSubcategory = normalizeSubmittedSubcategory(
     submission.subcategory
   )
-  const suggestedSubcategory = IGNORED_SUBCATEGORIES.has(requestedSubcategory)
+  let suggestedSubcategory = isIgnoredSubcategory(requestedSubcategory)
     ? extractSuggestedSubcategory(submission.notes)
     : null
-  if (
-    requestedSubcategory &&
-    !IGNORED_SUBCATEGORIES.has(requestedSubcategory)
-  ) {
-    const match = subcategories.get(requestedSubcategory)
-    if (!match || match.category.slug !== category.slug) {
-      throw new Error('Invalid subcategory for the selected main category')
+  if (requestedSubcategory && !isIgnoredSubcategory(requestedSubcategory)) {
+    const requestedTitle = selectedSubcategory(requestedSubcategory, category)
+    const match = (category.subsections ?? []).find(
+      ({ title }) => subcategoryKey(title) === subcategoryKey(requestedTitle)
+    )
+    if (match) {
+      subcategory = match.title
+    } else {
+      const title = validateSuggestedSubcategory(requestedTitle)
+      suggestedSubcategory = title
     }
-    subcategory = match.title
   }
 
   const normalizedUrl = normalizeBlogHealthUrl(url).toString()

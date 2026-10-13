@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import { readdir, readFile } from 'node:fs/promises'
 import { join, relative, resolve } from 'node:path'
 import { test } from 'node:test'
+import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
@@ -133,7 +134,7 @@ test('directory size and generated Open Graph images remain intact', async () =>
   const renderedBlogCount = (blogs.match(/class="blog-health-link/g) ?? [])
     .length
   assert.ok(catalogue.length > 0)
-  assert.equal(catalogue.length, 489)
+  assert.equal(catalogue.length, 495)
   assert.equal(renderedBlogCount, catalogue.length)
 
   const collections = (await readdir('docs/collections')).filter((file) =>
@@ -152,30 +153,39 @@ test('directory size and generated Open Graph images remain intact', async () =>
   }
 })
 
-test('renders the newest Today additions first on Recently Added', async () => {
+test('renders the Recently Added page and keeps fixture ordering deterministic', async () => {
   const recentlyAdded = await readFile(
     join(DIST, 'recently-added.html'),
     'utf8'
   )
-  const todayStart = recentlyAdded.search(/<h2[^>]*id="today"[^>]*>/)
-  const yesterdayStart = recentlyAdded.search(/<h2[^>]*id="yesterday"[^>]*>/)
-  assert.ok(todayStart >= 0)
-  const today = recentlyAdded.slice(
-    todayStart,
-    yesterdayStart >= 0 ? yesterdayStart : undefined
+  assert.match(recentlyAdded, /<h1[^>]*>.*Recently Added/i)
+  assert.match(recentlyAdded, /class="recently-added-group"/)
+
+  const groups = getRecentlyAddedGroups(
+    [
+      {
+        name: 'Earlier today',
+        addedDate: '2026-10-13',
+        addedAt: '2026-10-13T09:00:00.000Z'
+      },
+      {
+        name: 'Latest today',
+        addedDate: '2026-10-13',
+        addedAt: '2026-10-13T15:00:00.000Z'
+      },
+      {
+        name: 'Yesterday',
+        addedDate: '2026-10-12',
+        addedAt: '2026-10-12T12:00:00.000Z'
+      }
+    ],
+    new Date('2026-10-13T18:00:00.000Z')
   )
-  const names = [
-    'Digital Flapjack',
-    'Google Maps Mania',
-    'The Comics Curmudgeon'
-  ]
-  const positions = names.map((name) => today.indexOf(name))
-  assert.ok(positions.every((position) => position >= 0))
   assert.deepEqual(
-    [...positions].sort((a, b) => a - b),
-    positions
-  )
-  assert.ok(
-    today.indexOf('Digital Flapjack') < today.indexOf('The Comics Curmudgeon')
+    groups.map(({ title, blogs }) => [title, blogs.map(({ name }) => name)]),
+    [
+      ['Today', ['Latest today', 'Earlier today']],
+      ['Yesterday', ['Yesterday']]
+    ]
   )
 })

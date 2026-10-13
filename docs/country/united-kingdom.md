@@ -1,19 +1,29 @@
 ---
 title: United Kingdom Blogs
-description: 7 blogs listed in United Kingdom.
+description: 10 blogs listed in United Kingdom.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="7" />
+<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="10" />
 
 ## Arts & Entertainment
 
 ### Music
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://mccookerybook.blogspot.com/" target="_blank" rel="noopener noreferrer">Helen McCookerybook</a></strong> - Musician and writer Helen McCookerybook shares personal updates, songwriting, recording sessions, gigs, punk music history and everyday experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://mccookerybook.blogspot.com/" data-blog-name="Helen McCookerybook"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Books & Writing
+
+### Crime Fiction & Thrillers
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://crimebookjunkie.co.uk/" target="_blank" rel="noopener noreferrer">CrimeBookJunkie</a></strong> - Crime fiction blog featuring book reviews, thriller recommendations, author interviews, literary events and crime writing news.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://crimebookjunkie.co.uk/" data-blog-name="CrimeBookJunkie"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+### Literature & Book Reviews
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.ninaallan.co.uk/" target="_blank" rel="noopener noreferrer">The Spider's House — Nina Allan</a></strong> - Literary blog featuring book reviews, fiction criticism, essays, reading reflections and discussions of contemporary literature.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.ninaallan.co.uk/" data-blog-name="The Spider's House — Nina Allan"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Lifestyle & Hobbies
 
@@ -26,6 +36,12 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.brickfanatics.com/" target="_blank" rel="noopener noreferrer">Brick Fanatics</a></strong> - LEGO news, set reviews, buying guides and features covering new releases, popular themes, collector interests and the wider LEGO hobby.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.brickfanatics.com/" data-blog-name="Brick Fanatics"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://blog.firestartoys.com/" target="_blank" rel="noopener noreferrer">FireStar Toys Blog</a></strong> - LEGO news, minifigure features, custom creations, reviews and interviews written by LEGO enthusiasts and contributors.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://blog.firestartoys.com/" data-blog-name="FireStar Toys Blog"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Technology
+
+### 3D Printing
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://tidewater3d.co.uk/" target="_blank" rel="noopener noreferrer">Tidewater 3D</a></strong> - UK-based 3D printing blog covering practical guides, printer advice, design projects, manufacturing insights and printing case studies.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://tidewater3d.co.uk/" data-blog-name="Tidewater 3D"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Travel & Outdoors
 

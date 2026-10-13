@@ -6,7 +6,7 @@ import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
-const expectedPublicPageCount = 50
+const expectedPublicPageCount = 52
 
 const htmlFiles = async () => {
   const files = []
@@ -134,7 +134,7 @@ test('directory size and generated Open Graph images remain intact', async () =>
   const renderedBlogCount = (blogs.match(/class="blog-health-link/g) ?? [])
     .length
   assert.ok(catalogue.length > 0)
-  assert.equal(catalogue.length, 520)
+  assert.equal(catalogue.length, 525)
   assert.equal(renderedBlogCount, catalogue.length)
 
   const collections = (await readdir('docs/collections')).filter((file) =>

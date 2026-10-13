@@ -70,6 +70,10 @@
       "description": "Independent writing about software, development, Linux, open source, and technology.",
       "subsections": [
         {
+          "title": "3D Printing",
+          "match": "3d printing|3d printer|printing|printer"
+        },
+        {
           "title": "Linux & Open Source",
           "match": "linux|ubuntu|open source|foss"
         },
@@ -103,8 +107,20 @@
       "subsections": [
         { "title": "Book Reviews", "match": "book|reading|review" },
         {
+          "title": "Crime Fiction & Thrillers",
+          "match": "crime fiction|crime writing|thriller|mystery"
+        },
+        {
+          "title": "True Crime",
+          "match": "true crime|murder|serial killer|forensic"
+        },
+        {
           "title": "Literature",
           "match": "literary|literature|fiction|poetry"
+        },
+        {
+          "title": "Literature & Book Reviews",
+          "match": "literature|book review|reading|criticism"
         },
         {
           "title": "Creative Writing",

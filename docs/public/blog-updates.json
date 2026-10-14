@@ -1965,6 +1965,9 @@
   "https://justalittlefurther.com/": {
     "status": "unavailable"
   },
+  "https://justblogged.com/blog": {
+    "status": "unavailable"
+  },
   "https://justineshalloween.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-09-23",
@@ -2384,6 +2387,16 @@
     "status": "success",
     "lastPublished": "2026-05-13",
     "feedUrl": "https://microgravities.net/feed.xml"
+  },
+  "https://miencuentrointerior.blogspot.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-02",
+    "feedUrl": "https://miencuentrointerior.blogspot.com/rss.xml",
+    "latestArticle": {
+      "title": "¿Esta mal hacer traducciones o modernizaciones de la biblia?",
+      "summary": "Imaginemos por un momento la escena de unos padres que intentan consolar a su pequeño hijo de tres años tras haberse lastimado una rodilla. Los padres no le hablan al niño con términos médicos comple…",
+      "publishedAt": "2026-10-02T16:31:10.000Z"
+    }
   },
   "https://migrationology.com/": {
     "status": "success",

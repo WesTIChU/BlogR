@@ -633,7 +633,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -1805,9 +1805,9 @@
     }
   },
   "https://jamesg.blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-14",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "Meaning",
       "url": "https://jamesg.blog/2026/10/14/meaning",
@@ -2824,10 +2824,10 @@
     "lastPublished": "2026-10-14",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Out and About in Shipley",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/out-and-about-in-shipley.html",
-      "summary": "Childminding in Shipley again, we had chance to nip round the charity shops. Besides some fabulous LP records, which I brought home ( OO7, Close Encounters, Beatles), I also saw on the vintage side o…",
-      "publishedAt": "2026-10-14T15:25:17.980Z"
+      "title": "Space Age Toys Ship Now Seen",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/space-age-toys-ship-now-seen.html",
+      "summary": "A good while back Arto and I were discussing the fabulous box art of the vintage \"Space Age Toys\" and a possible connection to the Ray Guard X-2 toy box art. https://projectswordtoys.blogspot.com/202…",
+      "publishedAt": "2026-10-14T23:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -4456,10 +4456,10 @@
     "lastPublished": "2026-10-14",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "How to Find Availability for Sold Out Candlelight Processional Dining Package Reservations",
-      "url": "https://www.disneytouristblog.com/how-to-find-availability-for-sold-out-candlelight-processional-dining-package-reservations/",
-      "summary": "Advance Dining Reservations are selling out fast for Candlelight Processional Dining Packages, with limited availability for some parties and restaurants, and other options sold out completely for la…",
-      "publishedAt": "2026-10-14T19:34:32.000Z"
+      "title": "Rose & Crown Closing for Refurbishment Until Later in 2027, Permit Suggests Summer Reopening",
+      "url": "https://www.disneytouristblog.com/rose-crown-closing-for-refurbishment-until-later-in-2027-permit-suggests-summer-reopening/",
+      "summary": "Walt Disney World has quietly added a closure warning for Rose & Crown at EPCOT, indicating the popular table service restaurant and bar will close for a lengthy refurbishment in 2027. Here are dates…",
+      "publishedAt": "2026-10-14T22:53:47.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -4999,13 +4999,13 @@
   },
   "https://www.pepysdiary.com/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-14",
     "feedUrl": "http://feeds.feedburner.com/PepysDiary",
     "latestArticle": {
-      "title": "Tuesday 13 October 1663",
-      "url": "https://www.pepysdiary.com/diary/1663/10/13/",
-      "summary": "And so rose in the morning in perfect good ease ... [but only strain I put myself to to shit, more than I needed. But – L&M] continued all the morning well, and in the afternoon had a natural easily …",
-      "publishedAt": "2026-10-13T23:00:00.000Z"
+      "title": "Wednesday 14 October 1663",
+      "url": "https://www.pepysdiary.com/diary/1663/10/14/",
+      "summary": "Up and to my office, where all the morning, and part of it Sir J. Minnes spent, as he do every thing else, like a fool, reading the Anatomy of the body to me, but so sillily as to the making of me un…",
+      "publishedAt": "2026-10-14T23:00:00.000Z"
     }
   },
   "https://www.qwantz.com/": {
@@ -5120,7 +5120,7 @@
     }
   },
   "https://www.snitchseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
@@ -5161,10 +5161,10 @@
     "lastPublished": "2026-10-14",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on The Sound of Music by Maria von Trapp – #1949Club by bookertalk",
-      "url": "https://www.stuckinabook.com/the-sound-of-music-by-maria-von-trapp-1949club/#comment-173738",
-      "summary": "The family settled in Vermont I believe, thinking that it looked very much like Austria. Apparently the lodge they built is still very popular with tourists.",
-      "publishedAt": "2026-10-14T20:52:59.000Z"
+      "title": "Comment on 1949 Club: your reviews! by Annie",
+      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173740",
+      "summary": "With nowhere to link to I’m leaving my reviews, or what passes for reviews, here. I’ve read four of five books first published in 1949 and am part way through the fifth, Winifred Peck’s ‘golden age’ …",
+      "publishedAt": "2026-10-14T23:24:40.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -5172,10 +5172,10 @@
     "lastPublished": "2026-10-14",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "In Super Mario 64 DS, Koopa the Quick is programmed to slow down whenever he runs up a slippery&hellip;",
-      "url": "https://www.suppermariobroth.com/post/830473157876056064",
-      "summary": "In Super Mario 64 DS, Koopa the Quick is programmed to slow down whenever he runs up a slippery slope (seen in his Bob-omb Battlefield race when he runs up the white slope after falling off the seesa…",
-      "publishedAt": "2026-10-14T18:02:01.000Z"
+      "title": "&ldquo;Super Donkey&rdquo; was the name of an unreleased project that was developed between 1991 and 1992 for&hellip;",
+      "url": "https://www.suppermariobroth.com/post/830484465602166784",
+      "summary": "“Super Donkey” was the name of an unreleased project that was developed between 1991 and 1992 for the SNES, and aspects of which were repurposed for the development of Yoshi’s Island later. The main …",
+      "publishedAt": "2026-10-14T21:01:44.000Z"
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
@@ -5442,7 +5442,7 @@
   "https://www.urbex-travel.com/blog/": {
     "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

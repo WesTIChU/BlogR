@@ -130,6 +130,10 @@ const discoverItems: DefaultTheme.NavItemWithLink[] = [
   {
     text: '<span class="i-twemoji-globe-with-meridians"></span> Internet & Society',
     link: '/collections/internet-and-society'
+  },
+  {
+    text: '<span class="i-twemoji-place-of-worship"></span> Religion & Spirituality',
+    link: '/collections/religion-and-spirituality'
   }
 ]
 

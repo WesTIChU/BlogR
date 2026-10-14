@@ -279,6 +279,33 @@
         },
         { "title": "Independent Web & Blogging", "match": ".*" }
       ]
+    },
+    {
+      "slug": "religion-and-spirituality",
+      "title": "Religion & Spirituality",
+      "description": "Blogs about religion, spirituality, faith, theology, and religious traditions.",
+      "subsections": [
+        {
+          "title": "Christianity",
+          "match": "christian|catholic|biblical|bible|jesus|church"
+        },
+        { "title": "Islam", "match": "islam|muslim|quran|koran|mosque" },
+        { "title": "Judaism", "match": "judaism|jewish|torah|synagogue" },
+        { "title": "Hinduism", "match": "hindu|hinduism|vedic|vedanta" },
+        { "title": "Buddhism", "match": "buddh|zen|dharma" },
+        {
+          "title": "Other Religions & Beliefs",
+          "match": "religion|religious|faith tradition|belief"
+        },
+        {
+          "title": "Spirituality & Faith",
+          "match": "spiritual|spirituality|faith|meditation|mindfulness"
+        },
+        {
+          "title": "Religious Studies & Theology",
+          "match": "theolog|religious studies|scripture|sacred text"
+        }
+      ]
     }
   ]
 }

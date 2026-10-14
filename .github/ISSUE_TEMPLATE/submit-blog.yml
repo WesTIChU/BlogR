@@ -45,8 +45,9 @@ body:
         - "Money & Business"
         - "Science & Nature"
         - "Internet & Society"
+        - "Religion & Spirituality"
         - "Not sure / Let the editor decide"
-      default: 11
+      default: 12
     validations:
       required: true
   - type: dropdown
@@ -117,6 +118,14 @@ body:
         - "Internet & Society / Online Communities"
         - "Internet & Society / Society & Commentary"
         - "Internet & Society / Independent Web & Blogging"
+        - "Religion & Spirituality / Christianity"
+        - "Religion & Spirituality / Islam"
+        - "Religion & Spirituality / Judaism"
+        - "Religion & Spirituality / Hinduism"
+        - "Religion & Spirituality / Buddhism"
+        - "Religion & Spirituality / Other Religions & Beliefs"
+        - "Religion & Spirituality / Spirituality & Faith"
+        - "Religion & Spirituality / Religious Studies & Theology"
         - "Not sure / Let the editor decide"
         - "Other / Suggest a subcategory"
     validations:

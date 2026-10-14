@@ -23,7 +23,11 @@ import {
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)
-  assert.equal(blogs.length, 549)
+  const groupedBlogCount = groupByCategory(blogs).reduce(
+    (total, section) => total + section.entries.length,
+    0
+  )
+  assert.equal(groupedBlogCount, blogs.length)
   const sections = groupBySubsection('arts-and-entertainment', [
     {
       name: 'Zulu',

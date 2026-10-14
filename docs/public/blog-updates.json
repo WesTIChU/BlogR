@@ -56,13 +56,13 @@
   },
   "http://www.galactichunter.com/GH/": {
     "status": "success",
-    "lastPublished": "2026-09-28",
-    "feedUrl": "http://www.galactichunter.com/gh/crss",
+    "lastPublished": "2014-02-17",
+    "feedUrl": "http://www.galactichunter.com/rss.xml",
     "latestArticle": {
-      "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/gh/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
-      "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
-      "publishedAt": "2026-09-28T13:18:14.000Z"
+      "title": "16bit.com Update Summary: February 17, 2014",
+      "url": "http://16bit.com/n1402.asp#0217",
+      "summary": "Toy Fair updates. Your Figure of the Day is Strong-Or.",
+      "publishedAt": "2014-02-17T12:00:00.000Z"
     }
   },
   "http://www.merseytart.com/": {
@@ -1806,9 +1806,9 @@
     }
   },
   "https://jamesg.blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-14",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "Meaning",
       "url": "https://jamesg.blog/2026/10/14/meaning",
@@ -3333,10 +3333,10 @@
     "lastPublished": "2026-10-14",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In 2014, one of the bundles in which Mario Kart 8 for Wii U was sold was called the &ldquo;Mario Kart 8&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/830465798705479680",
-      "summary": "In 2014, one of the bundles in which Mario Kart 8 for Wii U was sold was called the “Mario Kart 8 Deluxe Set”. This name aged badly, as 3 years later Mario Kart 8 Deluxe for the Nintendo Switch was r…",
-      "publishedAt": "2026-10-14T16:05:02.000Z"
+      "title": "(Caution: rapidly shaking screen in footage)",
+      "url": "https://smallmariofindings.tumblr.com/post/830458032152576000",
+      "summary": "(Caution: rapidly shaking screen in footage) In the second mission of Slipsand Galaxy in Super Mario Galaxy 2, the final part of the first, long tube-like planetoid has sand flowing towards the middl…",
+      "publishedAt": "2026-10-14T14:01:36.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -3515,9 +3515,9 @@
     }
   },
   "https://the-modern-dad.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-13",
-    "feedUrl": "https://the-modern-dad.com/feed/",
+    "feedUrl": "https://the-modern-dad.com/sitemap.rss",
     "latestArticle": {
       "title": "10 FUN FALL BREAK IDEAS TO DO WITH KIDS",
       "url": "https://the-modern-dad.com/10-fun-fall-break-ideas-to-do-with-kids/",
@@ -4677,7 +4677,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-14",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -5442,9 +5442,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

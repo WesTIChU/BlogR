@@ -1,13 +1,13 @@
 ---
 title: Germany Blogs
-description: 4 blogs listed in Germany.
+description: 5 blogs listed in Germany.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇩🇪" name="Germany" :count="4" />
+<CountryDirectoryHeader flag="🇩🇪" name="Germany" :count="5" />
 
 ## Personal Writing
 
@@ -24,4 +24,5 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Programming & Development
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://christiano.dev/" target="_blank" rel="noopener noreferrer">Christiano.dev</a></strong> - Personal writing about data, open-source software and learning, sharing technical interests, projects and development experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://christiano.dev/" data-blog-name="Christiano.dev"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/germany" aria-label="Based in Germany"><span aria-hidden="true">🇩🇪</span> Germany</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;14 September 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.splitbrain.org/" target="_blank" rel="noopener noreferrer">splitbrain.org</a></strong> - Andreas Gohr’s personal website and blog about web development, open-source projects, making, technology and life in Berlin.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.splitbrain.org/" data-blog-name="splitbrain.org"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/germany" aria-label="Based in Germany"><span aria-hidden="true">🇩🇪</span> Germany</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;14 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://blog.tomayac.com/" target="_blank" rel="noopener noreferrer">Thomas Steiner's Blog</a></strong> - Thomas Steiner's technical blog exploring modern web development, browser APIs, progressive web apps and emerging web technologies, with practical experiments, demonstrations and insights for developers.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://blog.tomayac.com/" data-blog-name="Thomas Steiner's Blog"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/germany" aria-label="Based in Germany"><span aria-hidden="true">🇩🇪</span> Germany</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;9 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>

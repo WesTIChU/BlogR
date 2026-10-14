@@ -555,11 +555,11 @@
   },
   "https://evidenceanecdotal.blogspot.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T05:44:27.961Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://evidenceanecdotal.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "'He Lessons the Gayety of Life'",
+      "title": "'He Lessens the Gayety of Life'",
       "url": "https://evidenceanecdotal.blogspot.com/2026/10/he-lessons-gayety-of-life.html",
       "summary": "I’ll spare you the joke the phlebotomist told me while drawing blood from my arm. Given the circumstance I mustered a polite titter in response. I had already diagnosed him as a member of that blight…",
       "publishedAt": "2026-10-14T05:00:00.000Z"
@@ -1755,13 +1755,13 @@
   },
   "https://hackernoon.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T10:44:27.618Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/self-host-a-local-ai-stack-and-access-it-from-anywhere?source=rss",
-      "summary": "Build a private AI lab with Proxmox, NixOS, an NVIDIA GPU, Ollama, and Open WebUI, with automated deployment and secure remote access through Tailscale.",
-      "publishedAt": "2026-10-14T08:00:06.000Z"
+      "url": "https://hackernoon.com/covers-and-all-marks-10th-anniversary-with-refreshed-brand-identity-and-global-campaign?source=rss",
+      "summary": "Covers & All celebrates its 10th anniversary with a refreshed logo and its “Uncovering Happiness” campaign, marking a decade of custom protection solutions.",
+      "publishedAt": "2026-10-14T15:22:33.000Z"
     }
   },
   "https://www.homeautomationguy.io/": {
@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T15:44:29.099Z",
-    "status": "success",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Openreach to test customer self-install ONTs on UK FTTP broadband lines",
@@ -1924,15 +1924,15 @@
     }
   },
   "https://simonwillison.net/": {
-    "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-13T23:06:33.977Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to th…",
-      "publishedAt": "2026-10-13T23:00:06.000Z"
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between exis…",
+      "publishedAt": "2026-10-14T16:26:53.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -2887,14 +2887,14 @@
   },
   "https://readceltic.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T15:44:29.099Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Celtic’s Benfica Test Could Turn on Three Names: Durán Mystery, Carter-Vickers Worry and Jota Twist",
-      "url": "https://readceltic.com/2026/10/14/celtics-benfica-test-could-turn-on-three-names-duran-mystery-carter-vickers-worry-and-jota-twist/",
-      "summary": "Celtic head to Lisbon with a welcome win behind them and three big team-selection questions hanging over Martin The post Celtic’s Benfica Test Could Turn on Three Names: Durán Mystery, Carter-Vickers…",
-      "publishedAt": "2026-10-14T15:14:51.000Z"
+      "title": "Could Hearts pose more of a threat to Celtic this season than the Ibrox side? We’re going to find out on Sunday",
+      "url": "https://readceltic.com/2026/10/14/could-hearts-pose-more-of-a-threat-to-celtic-than-the-ibrox-side/",
+      "summary": "Tony Bloom gave an interview to Sky Sports yesterday that will have gone down very well in the The post Could Hearts pose more of a threat to Celtic this season than the Ibrox side? We’re going to fi…",
+      "publishedAt": "2026-10-14T16:27:13.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -3010,14 +3010,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T14:44:34.486Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "\"Absolutely Human-Made\" - Takara's Japan-Exclusive PS1 Dungeon Crawler 'Schrödinger's Cat' Is Getting A Fan Translation",
-      "url": "https://www.timeextension.com/#article-207617",
-      "summary": "Fur real! Chapu Translations, the fan translator behind English patches for Japan-exclusive games like Tiny Bullets , Wonder Trek , and Prisoner , has announced that the next PlayStation title they w…",
-      "publishedAt": "2026-10-14T14:00:00.000Z"
+      "title": "'It's Taken 35 Years' - Moonstone Is Getting an AI-Assisted Update for the Amiga 1200",
+      "url": "https://www.timeextension.com/#article-207633",
+      "summary": "\"Our goal isn’t simply to revisit the past\". As somebody who never owned an Amiga as a kid, there were a few times when I was insanely jealous of my Commodore-blessed chums, despite the fact that I v…",
+      "publishedAt": "2026-10-14T16:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3105,15 +3105,15 @@
     }
   },
   "https://linuxblog.io/": {
-    "lastPublished": "2026-09-28",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://linuxblog.io/feed/",
     "latestArticle": {
-      "title": "Linux Bash Scripting: Writing Your First Script",
-      "url": "https://linuxblog.io/linux-bash-scripting-writing-your-first-script/",
-      "summary": "A practical Bash scripting guide for Linux users who know the command line but haven't committed to writing scripts yet. Covers variables, conditionals, loops, functions, error handling, and real-wor…",
-      "publishedAt": "2026-09-28T11:23:06.000Z"
+      "title": "Linux perf Command: CPU Profiling and Performance Analysis",
+      "url": "https://linuxblog.io/linux-perf-command/",
+      "summary": "When top and htop show high CPU but nothing obvious, perf is the next step. This guide covers practical usage of the Linux perf command for CPU profiling, syscall tracing, and finding performance bot…",
+      "publishedAt": "2026-10-14T16:22:46.000Z"
     }
   },
   "https://9to5linux.com/": {
@@ -3536,15 +3536,15 @@
     }
   },
   "https://thefigureinquestion.com/": {
-    "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-13T16:44:29.564Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://thefigureinquestion.com/feed/",
     "latestArticle": {
-      "title": "#4141: Black Adam",
-      "url": "https://thefigureinquestion.com/2026/10/13/4141-black-adam/",
-      "summary": "BLACK ADAM SUPER POWERS (McFARLANE) “One of the world’s foremost wielders of magic, Black Adam has been both hero and villain over a life that’s spanned thousands of years.” The hierarchy of Super Po…",
-      "publishedAt": "2026-10-13T16:00:58.000Z"
+      "title": "#4142: Megatron",
+      "url": "https://thefigureinquestion.com/2026/10/14/4142-megatron/",
+      "summary": "MEGATRON TRANSFORMERS: MACHINE WARS (KENNER) The success that was Transformers in the ‘80s sort of waned as they moved into the next decade, with the Generation 2 rebrand never really finding its foo…",
+      "publishedAt": "2026-10-14T16:00:27.000Z"
     }
   },
   "https://figureoftheday.blogspot.com/": {
@@ -3896,14 +3896,14 @@
   },
   "https://glitternight.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T03:44:28.060Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "OCTOBER FOURTEENTH NEWS ROUNDUP",
-      "url": "https://glitternight.com/2026/10/14/october-fourteenth-news-roundup/",
-      "summary": "Independent Voter Site Balladeer’s Blog has a current events roundup. DEMOCRATS INTRODUCE BILL TO ABOLISH ICE AND THE BORDER PATROL. HILTON ON CALIFORNIA’S DEMOCRAT GOVERNOR GAVIN NEWSOM BEING UNABLE…",
-      "publishedAt": "2026-10-14T03:11:02.000Z"
+      "title": "B-MOVIE HOST DR. SCAR (1962-1980)",
+      "url": "https://glitternight.com/2026/10/14/b-movie-host-dr-scar-1962-1980/",
+      "summary": "Halloween Month continues with this look at another horror host of the past. DR. SCAR – This Movie Host was played by Jack Jacobson and hosted TWO shows at once on KGUN-TV Channel 9 in Tucson, Arizon…",
+      "publishedAt": "2026-10-14T15:58:06.000Z"
     }
   },
   "https://joshcollinsworth.com/blog": {
@@ -4525,14 +4525,14 @@
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T15:44:29.099Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Lord’s ballot for tickets to watch international cricket now open",
-      "url": "https://www.ianvisits.co.uk/articles/lords-ballot-for-tickets-to-watch-international-cricket-now-open-93126/",
-      "summary": "If you fancy watching some international cricket at Lord's next year, then it's time to enter their ballot for tickets. Read more ›",
-      "publishedAt": "2026-10-14T15:00:20.000Z"
+      "title": "The London Buzz – 14th Oct 2026",
+      "url": "https://www.ianvisits.co.uk/articles/the-london-buzz-14th-oct-2026-93280/",
+      "summary": "Today’s London news round-up: Read more ›",
+      "publishedAt": "2026-10-14T16:00:53.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
@@ -5230,14 +5230,14 @@
   },
   "https://www.stuckinabook.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T14:00:34.605Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on The Sound of Music by Maria von Trapp – #1949Club by kaggsysbookishramblings",
-      "url": "https://www.stuckinabook.com/the-sound-of-music-by-maria-von-trapp-1949club/#comment-173720",
-      "summary": "Sounds like a really memorable read, and of course with more to it than the film. I saw the latter when I was quite young (despite hating musicals) but I must admit it's the dramatic Nazi element and…",
-      "publishedAt": "2026-10-14T14:00:39.000Z"
+      "title": "Comment on The Sound of Music by Maria von Trapp – #1949Club by Jeanne",
+      "url": "https://www.stuckinabook.com/the-sound-of-music-by-maria-von-trapp-1949club/#comment-173728",
+      "summary": "I fell in love with Austria and this story when I first saw \"The Sound of Music\" and those gorgeous mountains. Everything about it was fascinating -- I wrote a book report in school on \"The Story of …",
+      "publishedAt": "2026-10-14T16:23:02.000Z"
     }
   },
   "https://esngblog.com/": {
@@ -5379,13 +5379,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T14:44:34.486Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/manchester-city-ownership-raised-in-house-of-commons-and-prime-ministers-questions",
-      "summary": "The relationship between British Prime Minister Andy Burnham and Manchester City's ownership has now been raised in the House of Commons, looking back on the former Mayor of Greater Manchester's time…",
-      "publishedAt": "2026-10-14T13:58:56.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/marc-guehi-pays-ultimate-compliment-to-enzo-maresca-after-manchester-city-rout-of-liverpool",
+      "summary": "Marc Guehi has described Enzo Maresca as a manager who is open with the Manchester City players ahead of Wednesday's UEFA Champions League meeting with Paris Saint-Germain.",
+      "publishedAt": "2026-10-14T16:00:42.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -5712,14 +5712,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T15:44:29.099Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Free LEGO Barnes & Noble Holiday Build event confirmed",
-      "url": "https://www.brickfanatics.com/free-lego-barnes-noble-holiday-build-event-confirmed",
-      "summary": "Santa Claus is coming to town",
-      "publishedAt": "2026-10-14T15:25:57.000Z"
+      "title": "The new LEGO marketplace designed specifically for collectors",
+      "url": "https://www.brickfanatics.com/the-new-lego-marketplace-designed-for-collectors",
+      "summary": "Sell your LEGO quickly and easily with Brick Deals",
+      "publishedAt": "2026-10-14T16:41:49.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -5902,14 +5902,14 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T14:00:34.605Z",
+    "lastChecked": "2026-10-14T16:44:30.063Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "New Baked Goods Spotted — October 14, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/14/new-baked-goods-spotted-october-14-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-10-14T14:00:00.000Z"
+      "title": "REVIEW: 7 Brew Ready-to-Drink Banana Bread Espresso Breve",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/14/7-brew-banana-bread-espresso-breve-review/",
+      "summary": "My curiosity about this 7 Brew Banana Bread Espresso Breve is less about 7 Brew, a company I didn’t know existed until seeing pics of its ready-to-drink beverages, and more about BANANAS! I GO BANANA…",
+      "publishedAt": "2026-10-14T16:00:00.000Z"
     }
   },
   "https://www.cakewrecks.com/": {

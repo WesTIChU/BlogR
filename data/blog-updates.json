@@ -1031,14 +1031,14 @@
   },
   "https://blog.archive.org/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T12:44:39.400Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://blog.archive.org/feed/",
     "latestArticle": {
-      "title": "Building the Hero Award: The Story Behind Taekyeom Lee’s 3D-Printed Model of the Internet Archive",
-      "url": "https://blog.archive.org/2026/10/14/building-the-hero-award/",
-      "summary": "Taekyeom Lee is an educator, designer, maker, and researcher. The associate professor of graphic design at Indiana University Bloomington is not only committed to teaching his students, Lee believes …",
-      "publishedAt": "2026-10-14T12:00:00.000Z"
+      "title": "Celebrating 2026 Internet Archive Artist in Residence: Christopher Burch",
+      "url": "https://blog.archive.org/2026/10/14/celebrating-2026-internet-archive-artist-in-residence-christopher-burch/",
+      "summary": "Written by VITA HEWITT “Echoes of Absence and Mythos: The Un-Archivists of Shitocracy” comes straight from the hands of artist Christopher Burch and opens on October 17 at Incline Gallery. […] The po…",
+      "publishedAt": "2026-10-14T20:23:31.000Z"
     }
   },
   "https://islandinthenet.com/": {
@@ -1260,15 +1260,15 @@
     "feedUrl": "https://paulgraham.com/"
   },
   "https://notes.peteashton.com/": {
-    "lastPublished": "2026-10-10",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://notes.peteashton.com/feed.xml",
     "latestArticle": {
-      "title": "Notes and links from 10 Oct",
-      "url": "https://notes.peteashton.com/2026/10/10/notes-and-links-from-oct.html",
-      "summary": "Journal Friday we had a visit from a couple of 11 year old girls and their mum to see the rabbits. I realised I haven’t been in the company of 11 year old girls for quite a while and they’re quite od…",
-      "publishedAt": "2026-10-10T20:26:03.000Z"
+      "title": "Notes and links from 14 Oct",
+      "url": "https://notes.peteashton.com/2026/10/14/notes-and-links-from-oct.html",
+      "summary": "Journal One of the original functions of Notes & Links was to make the most of my sofa-bound internet surfing by making it into a writing exercise, and that is dependent on me doing that, hence some …",
+      "publishedAt": "2026-10-14T20:22:52.000Z"
     }
   },
   "https://pilledtexts.com/": {
@@ -1589,15 +1589,15 @@
     }
   },
   "https://waxy.org/": {
-    "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-13T18:44:39.353Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://waxy.org/feed/",
     "latestArticle": {
-      "title": "How many shots are in the average movie today?",
-      "url": "https://stephenfollows.com/p/how-many-shots-are-in-the-average",
-      "summary": "interesting analysis using shot boundary detection mapped against hand counts from the Cinemetrics project #",
-      "publishedAt": "2026-10-13T18:37:09.000Z"
+      "title": "(not) solitaire",
+      "url": "https://notsolitaire.com/",
+      "summary": "Puzzmo made a “massively passively multiplayer solitaire,” coincidental to Nolen Royalty’s similar project #",
+      "publishedAt": "2026-10-14T20:17:16.000Z"
     }
   },
   "https://wheresalice.info/": {
@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T19:44:27.442Z",
-    "status": "success",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Openreach to test customer self-install ONTs on UK FTTP broadband lines",
@@ -1790,13 +1790,13 @@
   },
   "https://itsfoss.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T17:44:27.782Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17497566/elixiroffice-euro-office-fork",
-      "summary": "ElixirOffice is a new suite based on Euro-Office components and developed using AI.",
-      "publishedAt": "2026-10-14T17:12:00.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17497690/open-productivity-opendesk-joint-venture",
+      "summary": "The vendors behind the openDesk office suite have formed a company to take it beyond public administration and into commercial use.",
+      "publishedAt": "2026-10-14T20:12:00.000Z"
     }
   },
   "https://www.jvt.me/posts/": {
@@ -3118,14 +3118,14 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T10:44:27.618Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "KDE Plasma 6.8 Desktop Environment Officially Released, Here’s What’s New",
-      "url": "https://9to5linux.com/kde-plasma-6-8-desktop-environment-officially-released-heres-whats-new",
-      "summary": "KDE Plasma 6.8 desktop environment is now available with triple buffering for NVIDIA GPUs enabled by default, a Wayland-only session, and much more. The post KDE Plasma 6.8 Desktop Environment Offici…",
-      "publishedAt": "2026-10-14T10:23:20.000Z"
+      "title": "Mesa 26.2.5 Is Out with Bug Fixes for RADV, NVK, ANV, PanVK, Freedreno, and Zink",
+      "url": "https://9to5linux.com/mesa-26-2-5-is-out-with-bug-fixes-for-radv-nvk-anv-panvk-freedreno-and-zink",
+      "summary": "Mesa 26.2.5 is now available as the fifth bugfix update to the latest Mesa 26.2 stable series, bringing various improvements to the NVK, Freedreno, RADV, RadeonSI, Zink, ANV, PVR, and PanVK drivers. …",
+      "publishedAt": "2026-10-14T20:02:54.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3440,15 +3440,15 @@
     }
   },
   "https://reclaimingparadise.wordpress.com/": {
-    "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://reclaimingparadise.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Saving seeds",
-      "url": "https://reclaimingparadise.wordpress.com/2026/10/07/saving-seeds-2/",
-      "summary": "Reposting this blog post from 2018. I did manage to save and regrow these amazing pink peas and have kept them going ever since. They’ve not been brilliant this year, what with the dry summer and suc…",
-      "publishedAt": "2026-10-07T12:44:04.000Z"
+      "title": "Apples and pears",
+      "url": "https://reclaimingparadise.wordpress.com/2026/10/14/apples-and-pears/",
+      "summary": "As the the darkness falls and we move into seriously autumnal weather, I am once again rescued by the apple, and this year, pear crop. The apples have always been amazing and are looking good for thi…",
+      "publishedAt": "2026-10-14T20:07:17.000Z"
     }
   },
   "https://www.sickveg.com/": {
@@ -3512,15 +3512,15 @@
     }
   },
   "https://bricknerd.com/": {
-    "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-14T19:44:27.442Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://bricknerd.com/home?format=rss",
     "latestArticle": {
-      "title": "The LEGO Dark Arts: Removing Prints from Official LEGO Parts",
-      "url": "https://bricknerd.com/home/how-to-remove-prints-from-official-lego-parts-10-10-25",
-      "summary": "Want to customize a minifig without fancy printers or toxic fumes? Learn how to use the dark art of reductive design to literally erase the line between official and custom LEGO parts.",
-      "publishedAt": "2026-10-13T13:00:00.000Z"
+      "title": "Old Magic, New Bricks: Comparing Borgin and Burkes and Dumbledore’s Office",
+      "url": "https://bricknerd.com/home/old-magic-new-bricks-comparing-borgin-and-burkes-and-dumbledores-office-10-14-26",
+      "summary": "Old LEGO magic still has its charms. We revisit Borgin and Burkes and Dumbledore’s office to compare how their buildings, curious objects, and magical creatures have changed across generations of Har…",
+      "publishedAt": "2026-10-14T20:00:00.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5230,14 +5230,14 @@
   },
   "https://www.stuckinabook.com/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T16:44:30.063Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on The Sound of Music by Maria von Trapp – #1949Club by Jeanne",
-      "url": "https://www.stuckinabook.com/the-sound-of-music-by-maria-von-trapp-1949club/#comment-173728",
-      "summary": "I fell in love with Austria and this story when I first saw \"The Sound of Music\" and those gorgeous mountains. Everything about it was fascinating -- I wrote a book report in school on \"The Story of …",
-      "publishedAt": "2026-10-14T16:23:02.000Z"
+      "title": "Comment on The Sound of Music by Maria von Trapp – #1949Club by Madame Bibi",
+      "url": "https://www.stuckinabook.com/the-sound-of-music-by-maria-von-trapp-1949club/#comment-173736",
+      "summary": "This sounds a fascinating story, even without the dramatic filmic escape! I wouldn't have thought to read it but I'm very tempted now.",
+      "publishedAt": "2026-10-14T20:26:54.000Z"
     }
   },
   "https://esngblog.com/": {
@@ -5379,13 +5379,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T18:44:39.955Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/confirmed-line-ups-manchester-city-vs-paris-saint-germain-uefa-champions-league",
-      "summary": "Manchester City face back-to-back European champions Paris Saint-Germain in a heavyweight encounter at the Etihad Stadium on Wednesday night.",
-      "publishedAt": "2026-10-14T17:45:13.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/pep-guardiola-in-attendance-for-manchester-city-vs-paris-saint-germain-at-the-etihad-stadium",
+      "summary": "Pep Guardiola is in attendance at the Etihad Stadium on Wednesday night as Manchester City host Paris Saint-Germain in the UEFA Champions League group-stage.",
+      "publishedAt": "2026-10-14T20:17:35.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -5902,14 +5902,14 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T18:44:39.955Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Java Monster Dubai Chocolate",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/14/spotted-java-monster-dubai-chocolate/",
-      "summary": "Still waiting for Java Monster Pumpkin Spice, but I guess a Dubai Chocolate flavor will suffice for now. (Spotted by Sage G at Harris Teeter.) If you spotted something new, send your photos to theimp…",
-      "publishedAt": "2026-10-14T18:00:00.000Z"
+      "title": "SPOTTED: Popcorners Protein Zesty Cheddar",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/14/spotted-popcorners-protein-zesty-cheddar/",
+      "summary": "Make your muscles pop with Popcorners Protein! (Spotted by Marc G at Giant.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
+      "publishedAt": "2026-10-14T20:00:00.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
@@ -5936,13 +5936,13 @@
   },
   "https://www.manton.org/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T12:44:39.400Z",
+    "lastChecked": "2026-10-14T20:45:16.580Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/14/lots-of-travel-this-week.html",
-      "summary": "Lots of travel this week. Hoping to fix some bugs and read a bunch. Packed a print book and my Kindle.",
-      "publishedAt": "2026-10-14T12:26:20.000Z"
+      "url": "https://www.manton.org/2026/10/14/tacoma-narrows-bridge.html",
+      "summary": "Tacoma Narrows Bridge.",
+      "publishedAt": "2026-10-14T20:33:46.000Z"
     }
   },
   "https://prettyspooky.life/": {

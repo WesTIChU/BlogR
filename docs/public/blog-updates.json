@@ -669,7 +669,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -959,10 +959,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "George Beglan: Washington’s Greenland outlives NATO and Britain must take the hint",
-      "url": "https://conservativehome.com/2026/10/15/george-beglan-washingtons-greenland-outlives-nato-and-britain-must-take-the-hint/",
-      "summary": "Washington secured what it wanted in Greenland by permanently securing what it would otherwise have had to keep asking allies for. Britain can no longer draft treaties on those terms. The post George…",
-      "publishedAt": "2026-10-15T12:00:37.000Z"
+      "title": "Ahmed Imtiaz: We must confront the debt crisis before it’s too late",
+      "url": "https://conservativehome.com/2026/10/15/ahmed-imtiaz-we-must-confront-the-debt-crisis-before-its-too-late/",
+      "summary": "We've just had the 50th anniversary of the IMF bailout to the UK, we should be proactive in addressing this debt crisis as a country; a serious debt crisis is brewing, which needs to be addressed by …",
+      "publishedAt": "2026-10-15T14:00:52.000Z"
     }
   },
   "https://corporalfrisk.com/": {
@@ -2079,13 +2079,13 @@
   },
   "https://keet.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-09",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://keet.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A DOLCE Decision Diagram as Web app (or: an attempt at vibe coding)",
-      "url": "https://keet.wordpress.com/2026/10/09/a-dolce-decision-diagram-as-web-app-or-an-attempt-at-vibe-coding/",
-      "summary": "I tried to fix a problem of forced obsolecence with a claimed new technology. Outcome: the DOLCE Decision Diagram D3 as a tool is operational again, yay! – but it comes with buts, grmpfs, and more, s…",
-      "publishedAt": "2026-10-09T17:26:44.000Z"
+      "title": "On the (in?)feasibility ontology-based educational question generation with an LLM",
+      "url": "https://keet.wordpress.com/2026/10/15/on-the-infeasibility-ontology-based-educational-question-generation-with-an-llm/",
+      "summary": "The idea was simple: replace the PhD student’s cumbersome NLP pipeline for the surface realisation step to generate the ontology-based educational questions, answers, and feedback with an LLM. We’d s…",
+      "publishedAt": "2026-10-15T14:15:31.000Z"
     }
   },
   "https://kentcdodds.com/blog": {
@@ -2461,12 +2461,13 @@
   },
   "https://mccookerybook.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://mccookerybook.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Smiling Policewoman, Unhappy Horse",
-      "url": "https://mccookerybook.blogspot.com/2026/10/smiling-policewoman-unhappy-horse.html",
-      "publishedAt": "2026-10-14T21:01:07.076Z"
+      "title": "A Day In Limbo",
+      "url": "https://mccookerybook.blogspot.com/2026/10/a-day-in-limbo.html",
+      "summary": "I'm on the second day of an adverse reaction to the latest vaccination. Yesterday I did practically nothing, and today has been weird- a dreamy morning with my laptop doing all sorts of music editing…",
+      "publishedAt": "2026-10-15T14:28:51.263Z"
     }
   },
   "https://mediocregopher.com/posts/": {
@@ -3044,10 +3045,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Personal connections will count for nothing once Celtic cross the line onto the turf of the Estadio da Luz tonight",
-      "url": "https://readceltic.com/2026/10/15/personal-connections-count-for-nothing-celtic-benfica/",
-      "summary": "Marco Silva has been speaking fondly about Celtic arriving at the Estadio da Luz tonight. Of course he The post Personal connections will count for nothing once Celtic cross the line onto the turf of…",
-      "publishedAt": "2026-10-15T11:06:45.000Z"
+      "title": "Celtic’s Martin O’Neill Decision Raises One Question Dermot Desmond Cannot Avoid",
+      "url": "https://readceltic.com/2026/10/15/celtic-martin-oneill-decision-desmond/",
+      "summary": "There is something increasingly troubling about the way Celtic appear to be approaching their managerial future. And once The post Celtic’s Martin O’Neill Decision Raises One Question Dermot Desmond …",
+      "publishedAt": "2026-10-15T14:17:49.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -3287,13 +3288,13 @@
   },
   "https://scopophiliamovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://scopophiliamovieblog.com/feed/",
     "latestArticle": {
-      "title": "The Funhouse (1981)",
-      "url": "https://scopophiliamovieblog.com/2026/10/13/the-funhouse-1981/",
-      "summary": "By Richrd Winters My Rating: 5 out of 10 4-Word Review: Terror at the carnival. Amy (Elizabeth Berridge) is a teen who goes out on a double date with her new boyfriend Buzz (Cooper Huckabee) along wi…",
-      "publishedAt": "2026-10-13T17:45:58.000Z"
+      "title": "The Severed Arm (1973)",
+      "url": "https://scopophiliamovieblog.com/2026/10/15/the-severed-arm-1973/",
+      "summary": "By Richard Winters My Rating: 7 out of 10 4-Word Review: A one-armed killer. Five men (David G. Cannon, John Crawford, Marvin Kaplan, Paul Carr, Ray Dannis) go cave exploring only to find themselves …",
+      "publishedAt": "2026-10-15T14:46:47.000Z"
     }
   },
   "https://seat31b.com/": {
@@ -3408,13 +3409,13 @@
   },
   "https://sinclairtrails.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://sinclairtrails.com/feed/",
     "latestArticle": {
-      "title": "Noovo rental: Noovo Plus van exterior details",
-      "url": "https://sinclairtrails.com/2026/10/14/noovo-rental-noovo-plus-van-exterior-details/",
-      "summary": "Continuing the tour of our rental Noovo Plus van, this is the third of four posts:The exterior (Monday).The interior (yesterday).Exterior details (this post).Electrical & plumbing (coming tomorrow).T…",
-      "publishedAt": "2026-10-14T14:00:06.000Z"
+      "title": "Noovo rental: Noovo Plus van electrical & plumbing",
+      "url": "https://sinclairtrails.com/2026/10/15/noovo-rental-noovo-plus-van-electrical-plumbing/",
+      "summary": "Continuing the tour of our rental Noovo Plus van, this is the last of four posts:The exterior (Monday).The interior (Tuesday).Exterior details (yesterday).Electrical & plumbing (this post).Control pa…",
+      "publishedAt": "2026-10-15T14:00:00.000Z"
     }
   },
   "https://sive.rs/": {
@@ -3458,10 +3459,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Original illustration for a 1987 Mario calendar from an issue of the Japanese Wanpakku magazine.",
-      "url": "https://smallmariofindings.tumblr.com/post/830495860949467136",
-      "summary": "Original illustration for a 1987 Mario calendar from an issue of the Japanese Wanpakku magazine. Source: its.a.me.scanio Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-10-15T00:02:52.000Z"
+      "title": "Unused level found in the files of New Super Mario Bros. It uses both early graphics and a&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/830548758590881792",
+      "summary": "Unused level found in the files of New Super Mario Bros. It uses both early graphics and a background display mode no longer supported by the finished game, leading to its corrupted appearance when l…",
+      "publishedAt": "2026-10-15T14:03:39.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -3651,13 +3652,13 @@
   },
   "https://the-modern-dad.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://the-modern-dad.com/feed/",
     "latestArticle": {
-      "title": "Easy Caramel Monkey Bread with Canned Biscuits",
-      "url": "https://the-modern-dad.com/easy-caramel-monkey-bread-with-canned-biscuits/",
-      "summary": "There are certain recipes that look like you spent WAY more time making them than you actually did, and this easy caramel monkey bread is absolutely one of them. Warm, gooey, cinnamon-y, buttery, pul…",
-      "publishedAt": "2026-10-14T18:52:28.000Z"
+      "title": "Completing the Puzzle",
+      "url": "https://the-modern-dad.com/completing-the-puzzle/",
+      "summary": "Completing the Puzzle: The Puzzle Subscription I’m Loving If you love putting together puzzles but don’t love the part where your house slowly fills up with puzzle boxes, I have found such a fun solu…",
+      "publishedAt": "2026-10-15T14:31:54.000Z"
     }
   },
   "https://theautismcafe.com/": {
@@ -4268,12 +4269,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-13",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173025/the-daily-hilario-october-15th",
-      "summary": "Ed.note: It’s actually Thursday, which is worse. Perhaps it’s Monday in TMIL’s universe, the Hilarioverse. First Unbeaten Well",
-      "publishedAt": "2026-10-15T07:00:00.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/172985/the-daily-hilario-schumacher-94",
+      "summary": "Watched the new Schumacher ‘94 documentary on Netflix. Underwhelmed. And also, a bit surprisingly, a bit whelmed bothered. Was never a big fan of Schumi, plus Benetton were massive cheats. They got c…",
+      "publishedAt": "2026-10-13T07:23:10.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -4860,7 +4861,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -5495,10 +5496,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Celsius Winter Edition Spritz Vibe Sparkling Shirley Temple Energy Drink",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/15/spotted-celsius-winter-edition-spritz-vibe-sparkling-shirley-temple-energy-drink/",
-      "summary": "I swear Celsius Energy Drink names are like sentences. (Spotted by Sage G at Target.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-10-15T12:00:00.000Z"
+      "title": "New Groceries Spotted — October 15, 2026",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/15/new-groceries-spotted-october-15-2026/",
+      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
+      "publishedAt": "2026-10-15T14:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
@@ -5528,10 +5529,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Beavis and Butt-Head Season 4 Trailer Teases More Gloriously Stupid Adventures",
-      "url": "https://www.themovieblog.com/2026/10/beavis-and-butt-head-season-4-trailer-teases-more-gloriously-stupid-adventures/",
-      "summary": "The iconic animated duo returns to Comedy Central this week with a double-episode premiere that features both teenage and middle-aged versions of the characters. The post Beavis and Butt-Head Season …",
-      "publishedAt": "2026-10-15T13:25:00.000Z"
+      "title": "Dragon Ball Super: Beerus Premieres With New Creditless Animations",
+      "url": "https://www.themovieblog.com/2026/10/dragon-ball-super-beerus-premieres-with-new-creditless-animations/",
+      "summary": "The latest expansion of the iconic franchise, Dragon Ball Super: Beerus, has officially premiered, bringing new action and creditless animations to fans. The post Dragon Ball Super: Beerus Premieres …",
+      "publishedAt": "2026-10-15T14:40:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -5596,8 +5597,8 @@
     "latestArticle": {
       "title": "'The Current Experience Is Not Where It Needs to Be' - SEGA Is Pulling Total War: Shogun 2 Complete Edition from Stores",
       "url": "https://www.timeextension.com/#article-207693",
-      "summary": "Original game reinstated (for now). Sega, in response to terrible reviews and a wealth of complaints from players, has announced that it is pulling Total War: Shogun 2 Complete Editio n from sale whi…",
-      "publishedAt": "2026-10-15T13:40:00.000Z"
+      "summary": "Original 2011 release has been reinstated (for now). Sega, in response to terrible reviews and a wealth of complaints from players, has announced it is pulling Total War: Shogun 2 Complete Editio n f…",
+      "publishedAt": "2026-10-15T13:30:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -5634,7 +5635,7 @@
     }
   },
   "https://www.ukfilmreview.co.uk/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.ukfilmreview.co.uk/blog-feed.xml",
     "latestArticle": {
@@ -5647,9 +5648,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

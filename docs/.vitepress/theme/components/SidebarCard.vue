@@ -87,6 +87,31 @@ const websiteStatuses = [
         VitePress
       </a>
     </div>
+    <a
+      class="sidebar-spider"
+      href="https://roo.blogr.directory/"
+      aria-label="Visit BlogRoo! — BlogR's secret 2006 website"
+      data-tooltip="Psst... a secret!"
+      title="Psst... a secret!"
+    >
+      <svg
+        class="sidebar-spider__art"
+        viewBox="0 0 24 30"
+        width="24"
+        height="30"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path class="sidebar-spider__thread" d="M12 0v7" />
+        <g class="sidebar-spider__legs">
+          <path d="M9 11 4 7M9 12 3 9M9 14 2 14M10 16 4 20" />
+          <path d="M15 11l5-4M15 12l6-3M15 14l7 0M14 16l6 4" />
+        </g>
+        <ellipse class="sidebar-spider__body" cx="12" cy="14" rx="4" ry="5" />
+        <circle class="sidebar-spider__eye" cx="10.5" cy="12.5" r="0.8" />
+        <circle class="sidebar-spider__eye" cx="13.5" cy="12.5" r="0.8" />
+      </svg>
+    </a>
   </div>
 </template>
 
@@ -153,5 +178,83 @@ const websiteStatuses = [
 
 .sidebar-credit a {
   color: inherit;
+}
+
+.sidebar-spider {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 30px;
+  margin: 0.3rem auto 0;
+  color: #21152d;
+  line-height: 0;
+  text-decoration: none;
+  transform-origin: top center;
+}
+
+.sidebar-spider::after {
+  position: absolute;
+  bottom: -1.35rem;
+  left: 50%;
+  z-index: 1;
+  padding: 0.2rem 0.35rem;
+  color: var(--vp-c-bg);
+  background: var(--vp-c-text-1);
+  content: attr(data-tooltip);
+  font-size: 0.65rem;
+  line-height: 1.2;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%);
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.sidebar-spider:hover,
+.sidebar-spider:focus-visible {
+  animation: sidebar-spider-sway 1.8s ease-in-out infinite;
+}
+
+.sidebar-spider:hover::after,
+.sidebar-spider:focus-visible::after {
+  opacity: 1;
+}
+
+.sidebar-spider__art {
+  overflow: visible;
+}
+
+.sidebar-spider__thread,
+.sidebar-spider__legs path {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 1;
+}
+
+.sidebar-spider__body {
+  fill: currentColor;
+}
+
+.sidebar-spider__eye {
+  fill: #f7d7ff;
+}
+
+@keyframes sidebar-spider-sway {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar-spider {
+    animation: none !important;
+    transition: none;
+  }
 }
 </style>

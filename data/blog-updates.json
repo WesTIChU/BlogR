@@ -1067,9 +1067,9 @@
   },
   "https://jamesg.blog/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T23:45:16.906Z",
-    "status": "unknown",
-    "feedUrl": "https://jamesg.blog/feed",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
+    "status": "success",
+    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
     "latestArticle": {
       "title": "Meaning",
       "url": "https://jamesg.blog/2026/10/14/meaning",
@@ -1421,15 +1421,15 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T22:35:57.821Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Title card for an episode of the Satella-Q quiz program for the Satellaview, featuring Toad in an&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/830487932077064192",
-      "summary": "Title card for an episode of the Satella-Q quiz program for the Satellaview, featuring Toad in an illustration referencing Hatsuyume, a Japanese custom that assigns meanings to the first dream one ha…",
-      "publishedAt": "2026-10-14T21:56:50.000Z"
+      "title": "Original illustration for a 1987 Mario calendar from an issue of the Japanese Wanpakku magazine.",
+      "url": "https://smallmariofindings.tumblr.com/post/830495860949467136",
+      "summary": "Original illustration for a 1987 Mario calendar from an issue of the Japanese Wanpakku magazine. Source: its.a.me.scanio Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-10-15T00:02:52.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1925,14 +1925,14 @@
   },
   "https://simonwillison.net/": {
     "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T16:44:30.063Z",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "AI is mass decompiling games. That's both awesome and scary.",
-      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
-      "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between exis…",
-      "publishedAt": "2026-10-14T16:26:53.000Z"
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js g…",
+      "publishedAt": "2026-10-14T21:23:01.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -3129,15 +3129,15 @@
     }
   },
   "https://lwn.net/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T14:00:34.605Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "[$] Collaborating with out-of-tree tracers",
-      "url": "https://lwn.net/Articles/1099300/",
-      "summary": "LTTng creator Mathieu Desnoyers seems a bit trapped in something of a catch-22 . At the 2026 Linux Plumbers Conference (LPC), he led a discussion on the problem he is having in trying to collaborate …",
-      "publishedAt": "2026-10-14T13:56:50.000Z"
+      "title": "[$] LWN.net Weekly Edition for October 15, 2026",
+      "url": "https://lwn.net/Articles/1099247/",
+      "summary": "Inside this week's LWN.net Weekly Edition: Front : 2026 Maintainers Summit; Rust goals; GCC and LLMs; GCC CFI; systemd; C types in Rust; LTTng; Swap showdown; KDE Linux. Briefs : 64-day certificates;…",
+      "publishedAt": "2026-10-15T00:04:00.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3327,15 +3327,15 @@
     }
   },
   "https://savvygardening.com/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://savvygardening.com/feed/",
     "latestArticle": {
-      "title": "How to freeze bell peppers from the garden",
-      "url": "https://savvygardening.com/how-to-freeze-bell-peppers/",
-      "summary": "When fall’s first frost is on the horizon—or the garden simply gives you more bell peppers than... READ MORE » The post How to freeze bell peppers from the garden appeared first on Savvy Gardening .",
-      "publishedAt": "2026-10-09T16:23:17.000Z"
+      "title": "Buttercrunch lettuce: How to grow, care for, and harvest it",
+      "url": "https://savvygardening.com/buttercrunch-lettuce/",
+      "summary": "Want gourmet lettuce straight from your garden? Plant Buttercrunch, a high-quality butterhead variety... READ MORE » The post Buttercrunch lettuce: How to grow, care for, and harvest it appeared firs…",
+      "publishedAt": "2026-10-14T23:48:25.000Z"
     }
   },
   "https://joegardener.com/blog/": {
@@ -3787,15 +3787,15 @@
     }
   },
   "https://www.thenewestrant.com/": {
-    "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-14T00:44:28.906Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Marvel's Midnight Universe--Early Impressions",
-      "url": "https://www.thenewestrant.com/2026/10/marvels-midnight-universe-early.html",
-      "summary": "It has been almost a week since the three initial comics set in Marvel's new Midnight Universe were released. I've had time to read them, mull over what I think, and shall now share some insights. In…",
-      "publishedAt": "2026-10-13T23:49:08.756Z"
+      "title": "\"Fantasy Online 2,\" Looks Like a Cool Retro-Styled MMORPG",
+      "url": "https://www.thenewestrant.com/2026/10/fantasy-online-2-looks-like-cool-retro.html",
+      "summary": "Jeromy Stroh, the creator behind, \" Fantasy Online 2, \" saw my posts about other indie games I found snazzy and thought I might enjoy learning about his own game. It is a pixel-art MMORPG that takes …",
+      "publishedAt": "2026-10-15T00:16:29.011Z"
     }
   },
   "https://greg.org/": {
@@ -3883,15 +3883,15 @@
     }
   },
   "https://vhistory.wordpress.com/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T00:44:28.906Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://vhistory.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Deadly 60 – What’s New Scooby-Doo? – Enemies of Reason – 01 Sept 2010",
-      "url": "https://vhistory.wordpress.com/2026/10/14/deadly-60-whats-new-scooby-doo-enemies-of-reason-01-sept-2010/",
-      "summary": "The first recording today starts with the end of Copycats. There’s a trail for Escape From Scorpion Island. Then it’s Deadly 60 – Alaska. Steve gets very close to some Arctic Foxes. After spotting on…",
-      "publishedAt": "2026-10-14T00:00:00.000Z"
+      "title": "Deadly 60 – What’s New Scooby-Doo? – 02 Sept 2010",
+      "url": "https://vhistory.wordpress.com/2026/10/15/deadly-60-whats-new-scooby-doo-02-sept-2010/",
+      "summary": "The first recording today starts with the end of Copycats. There’s a trail for Richard Hammond’s Blast Lab. Then it’s a repeat of Deadly 60 – Arizona. Media Centre Description: Steve Backshall and th…",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     }
   },
   "https://glitternight.com/": {
@@ -4105,13 +4105,13 @@
   },
   "https://theprivacydad.com/": {
     "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-14T12:44:39.400Z",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://theprivacydad.com/feed/",
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 4 days, 20 hours ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might …",
+      "summary": "This post was last edited 5 days, 8 hours ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might u…",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -4286,15 +4286,15 @@
     }
   },
   "https://www.themovieblog.com/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T14:00:34.605Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Sony Reveals Gorgeous New Midnight Black PlayStation 5 Hardware",
-      "url": "https://www.themovieblog.com/2026/10/sony-reveals-gorgeous-new-midnight-black-playstation-5-hardware/",
-      "summary": "Sony has introduced a new Midnight Black version of the PlayStation 5 Digital Edition, offering a minimalist aesthetic for gamers in Japan. The post Sony Reveals Gorgeous New Midnight Black PlayStati…",
-      "publishedAt": "2026-10-14T13:50:00.000Z"
+      "title": "Yellowjackets Season 4 Trailer is Here!",
+      "url": "https://www.themovieblog.com/2026/10/yellowjackets-season-4-trailer-is-here/",
+      "summary": "I’m writing this with tears in my eyes: the first official full-length trailer for Yellowjackets season four has finally been released. This first, truly massive look at the upcoming final season is …",
+      "publishedAt": "2026-10-15T00:40:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4794,15 +4794,15 @@
     }
   },
   "https://priorprobability.com/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T12:44:39.400Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "Pygmies and giants",
-      "url": "https://priorprobability.com/2026/10/14/against-fake-nobel-prizes/",
-      "summary": "Trigger warning: Today’s post will be deliberately provocative and inflammatory! Instead of recognizing an econ giant like Richard A. Posner or Thomas Sowell, the 2026 Nobel Prize in “economic scienc…",
-      "publishedAt": "2026-10-14T00:14:00.000Z"
+      "title": "Reductio ad absurdum: effective altruism edition",
+      "url": "https://priorprobability.com/2026/10/15/reductio-ad-absurdum-effective-altruism-edition/",
+      "summary": "I already knew that the Effective Altruism movement is the biggest scam since snake oil, i.e. a kind of secular absolution for the amoral among us. (See here or here, for example.) But check out this…",
+      "publishedAt": "2026-10-15T00:15:00.000Z"
     }
   },
   "https://www.joeydevilla.com/": {
@@ -4878,15 +4878,15 @@
     }
   },
   "https://pumpkinrot.blogspot.com/": {
-    "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-12T14:43:39.064Z",
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://pumpkinrot.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Whistling Past The Graveyard",
-      "url": "https://pumpkinrot.blogspot.com/2026/10/whistling-past-graveyard.html",
-      "summary": "Hopefully on the way to a Halloween party after trick-or-treating...",
-      "publishedAt": "2026-10-12T09:00:00.000Z"
+      "title": "The Neighborhood",
+      "url": "https://pumpkinrot.blogspot.com/2026/10/the-neighborhood.html",
+      "summary": "So much Halloween...",
+      "publishedAt": "2026-10-14T23:54:14.461Z"
     }
   },
   "https://strangelittlegirlblog.blogspot.com/": {
@@ -5056,15 +5056,15 @@
     }
   },
   "https://www.thehiking.club/blog/": {
-    "lastPublished": "2026-09-16",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://www.thehiking.club/blog?format=rss",
     "latestArticle": {
-      "title": "How much does it cost to hike the Tour du Mont Blanc?",
-      "url": "https://www.thehiking.club/blog/tour-du-mont-blanc-cost",
-      "summary": "It costs €826 to plan your own 10-day hike of the Tour du Mont Blanc. This amount comes from our new cost calculator for the Tour du Mont Blanc, which uses over 300 actual customer itineraries and 20…",
-      "publishedAt": "2026-09-16T10:00:00.000Z"
+      "title": "Four Days Hut-to-Hut in the Brenta Dolomites",
+      "url": "https://www.thehiking.club/blog/brenta-dolomites-hut-to-hut-hike",
+      "summary": "Amy shares her four-day Brenta Dolomites hut-to-hut hike, including exposed via ferratas, glacier crossings and lessons for planning the route.",
+      "publishedAt": "2026-10-15T00:20:50.000Z"
     }
   },
   "https://www.hikersblog.co.uk/": {
@@ -5502,15 +5502,15 @@
     }
   },
   "https://humanizingthevacuum.wordpress.com/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T18:44:39.955Z",
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
     "status": "success",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "If I could get you in the raw: On Prince’s ‘Controversy’",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/14/if-i-could-get-you-in-the-raw-on-princes-controversy/",
-      "summary": "After the multi-part investigation intoseveral sides of his lubriciousness he called Dirty Mind, Prince turned his attention to the world outside his fuckroom. Controversy confused critics in 1981, w…",
-      "publishedAt": "2026-10-14T18:34:48.000Z"
+      "title": "Ranking #17 singles, U.S. edition: 1978-82",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/14/ranking-17-singles-u-s-edition-1978-82/",
+      "summary": "I can praise Boz Scaggs’ pre-Avalon peak, or submit two paragraphs on Evelyn King’s “Love Come Down,” one of the sharpest of post-disco singles because it goes ALL. THE WAY. DOWN; but Steve Martin go…",
+      "publishedAt": "2026-10-15T00:03:02.000Z"
     }
   },
   "https://neveenwood.com/": {
@@ -6058,8 +6058,8 @@
   },
   "https://blog.rakkor.uk/": {
     "lastPublished": "2026-05-18",
-    "lastChecked": "2026-10-14T23:45:16.906Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-15T00:45:16.697Z",
+    "status": "success",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
       "title": "Barcelona – Embarkation – Day 1 – May 4th",

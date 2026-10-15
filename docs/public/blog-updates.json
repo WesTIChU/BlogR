@@ -1498,7 +1498,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1837,12 +1837,12 @@
   },
   "https://itsfoss.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17497690/open-productivity-opendesk-joint-venture",
-      "summary": "The vendors behind the openDesk office suite have formed a company to take it beyond public administration and into commercial use.",
-      "publishedAt": "2026-10-14T20:12:00.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17498152/epic-games-linux-anti-cheat-fortnite",
+      "summary": "The anti-cheat software is being prepared for the platform, while a native client is already available as a preview.",
+      "publishedAt": "2026-10-15T10:44:26.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -1933,7 +1933,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2729,13 +2729,13 @@
   },
   "https://onegirlwholeworld.com/": {
     "status": "success",
-    "lastPublished": "2026-10-05",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://onegirlwholeworld.com/feed/",
     "latestArticle": {
-      "title": "Driving In South Africa As A Tourist: Is It Safe? Everything I Learned Renting A Car In Cape Town",
-      "url": "https://onegirlwholeworld.com/africa/driving-in-south-africa-car-rental-tips/",
-      "summary": "South Africa is a bucket list destination, and offers some pretty amazing road trip opportunities. But given the country’s complex cultural, political, and safety environment, a first-time visitor is…",
-      "publishedAt": "2026-10-05T19:07:17.000Z"
+      "title": "How To Plan An Amazing Puglia Road Trip:  My 7-Day Itinerary",
+      "url": "https://onegirlwholeworld.com/europe/puglia-roadtrip-itinerary-italy/",
+      "summary": "Not that long ago, Puglia was the corner of Italy that Italians kept to themselves…the heel of the boot where locals headed for a beautiful summer while the rest of us elbowed our way through Positan…",
+      "publishedAt": "2026-10-15T12:29:33.000Z"
     }
   },
   "https://openpi.uk/blog/": {
@@ -3202,13 +3202,13 @@
   },
   "https://ruggedscot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-02",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://ruggedscot.com/rss.xml",
     "latestArticle": {
-      "title": "The Scottish Morning Roll Deserves Its Own Article",
-      "url": "https://ruggedscot.com/blog/scottish-morning-roll/",
-      "summary": "Crispy on the outside, soft in the middle and built for square sausage. The humble Scottish morning roll deserves far more respect than it gets.",
-      "publishedAt": "2026-10-02T00:00:00.000Z"
+      "title": "RuggedScot Has Had a Wee Makeover",
+      "url": "https://ruggedscot.pages.dev/blog/site-design-change",
+      "summary": "RuggedScot has had a proper makeover. New colours, rough edges, a bit of nostalgia and a fresh look for the same old Scottish ramblings.",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     }
   },
   "https://runboli.com/": {
@@ -4085,7 +4085,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4188,7 +4188,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4268,12 +4268,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-transfer-rumours-news/172996/afc-bournemouth-open-to-offers-in-january-for-alex-scott-report",
-      "summary": "Chelsea were heavily linked with Alex Scott in the summer as our preferred replacement for Enzo Fernández, but Bournemouth were unwilling to do business — and less and less so the later we got in the…",
-      "publishedAt": "2026-10-14T05:09:53.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173025/the-daily-hilario-october-15th",
+      "summary": "Ed.note: It’s actually Thursday, which is worse. Perhaps it’s Monday in TMIL’s universe, the Hilarioverse. First Unbeaten Well",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -4491,10 +4491,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Lumibricks’ Explorer Treehouse is a lengthy but rewarding jungle build",
-      "url": "https://www.brickfanatics.com/lumibricks-explorer-treehouse-lengthy-but-rewarding",
-      "summary": "A lush and detailed Lumibricks build is paired with an impressive multi-function lighting kit to deliver a satisfying jungle adventure scene.",
-      "publishedAt": "2026-10-15T10:10:10.000Z"
+      "title": "LEGO Venetian Water Taxi gift-with-purchase revealed",
+      "url": "https://www.brickfanatics.com/lego-venetian-water-taxi-gift-revealed",
+      "summary": "All aboard for a little Italian getaway",
+      "publishedAt": "2026-10-15T12:19:09.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -4527,10 +4527,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "£4.5m MISFIT’S BIZARRE DERBY WISH",
-      "url": "https://www.celticquicknews.co.uk/4-5m-misfits-bizarre-derby-wish/",
-      "summary": "CELTIC’S £4.5million misfit Michel-Ange Balikwisha has admitted he wanted to be taken off after TEN minutes of his debut at Ibrox. The winger was rushed into the champions’ line-up just three days af…",
-      "publishedAt": "2026-10-15T12:03:27.000Z"
+      "title": "‘AN HONOUR’: McGREGOR LOOKS FORWARD TO ‘ICONIC’ LISBON CLASH",
+      "url": "https://www.celticquicknews.co.uk/an-honour-mcgregor-looks-forward-to-iconic-lisbon-clash/",
+      "summary": "CALLUM McGREGOR is looking forward to his Lisbon debut this evening when he leads out Celtic against Benfica for their Europa League encounter. The Hoops captain has never played in the Portuguese ca…",
+      "publishedAt": "2026-10-15T12:26:43.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -4733,10 +4733,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.gordonmclean.co.uk/feed/",
     "latestArticle": {
-      "title": "Sweet Child O’ Mine by Guns N’ Roses",
-      "url": "https://www.gordonmclean.co.uk/2026/10/15/sweet-child-o-mine-by-guns-n-roses-2/",
-      "summary": "A song that reminds you of a particular friend. I’ve known this person since I was 15. I met her through a mutual friend. We are still friends today and have been through the full gamut of life exper…",
-      "publishedAt": "2026-10-15T03:17:38.000Z"
+      "title": "Happiness",
+      "url": "https://www.gordonmclean.co.uk/2026/10/15/happiness/",
+      "summary": "Tickling my son, chasing my son, generally just being silly with my son, illicits his laugh and my heart swells with joy and love. The back and forth banter between my wife and I. Pronouncing bagel B…",
+      "publishedAt": "2026-10-15T12:35:08.000Z"
     }
   },
   "https://www.guyhadleigh.com/blog/categories": {
@@ -4843,10 +4843,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Rangers receive excellent Dujon Sterling update as McInnes explains Kilmarnock withdrawal",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/dujon-sterling-rangers-boost/",
-      "summary": "Ibrox Noise, like most other Rangers fans, was delighted to hear the great Dujon Sterling Rangers fitness news. Naturally, as we all know, Rangers’ top choice right back was withdrawn at half time fo…",
-      "publishedAt": "2026-10-15T10:43:48.000Z"
+      "title": "Rangers must act quickly as Dujon Sterling contract situation becomes critical",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/dujon-sterling-rangers-contract-extension/",
+      "summary": "Rangers may or may not have an issue regarding a certain crucial player that we have been discussing of late, and that is to say that Dujon Sterling’s contract expires in barely over eight months. Ea…",
+      "publishedAt": "2026-10-15T12:24:53.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -4860,7 +4860,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -4988,7 +4988,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5129,13 +5129,13 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "KDE Plasma 6.8 released to celebrate 30 years of project",
-      "url": "https://www.omgubuntu.co.uk/2026/10/kde-plasma-6-8-released",
-      "summary": "KDE Plasma 6.8 has been released, arriving on the 30th anniversary of the free, open-source desktop environment’s founding. Changes are, as you’d expect, varied across the stack. A new backup tool, K…",
-      "publishedAt": "2026-10-14T14:32:52.000Z"
+      "title": "Ubuntu 26.10 released",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-2610-new-features",
+      "summary": "Ubuntu 26.10 is out today with a faster way to tile windows, passkey sign-in on the login screen and a full set of Rust-based core utilities. The newest interim release also brings GNOME 51, Mesa 26.…",
+      "publishedAt": "2026-10-15T12:45:45.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -5219,7 +5219,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -5327,7 +5327,7 @@
     }
   },
   "https://www.snitchseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.snitchseeker.com/external.php?type=rss2&forumids=71"
   },
   "https://www.sparklytrainers.com/": {
@@ -5433,9 +5433,9 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
+    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
     "latestArticle": {
       "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
       "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
@@ -5647,9 +5647,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

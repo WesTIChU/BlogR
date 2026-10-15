@@ -6334,5 +6334,64 @@
       "summary": "It’s been pretty quiet around here lately, hasn’t it? I’ve been spending all my free time on a new project involving… stationery! I’m making pocket accordion note cards, like a pocket notebook but fo…",
       "publishedAt": "2026-08-23T00:31:05.000Z"
     }
+  },
+  "https://tangiblelife.net/": {
+    "lastPublished": "2026-10-11",
+    "lastChecked": "2026-10-15T10:05:54.848Z",
+    "status": "success",
+    "feedUrl": "https://tangiblelife.net/feed.rss",
+    "latestArticle": {
+      "url": "https://tangiblelife.net/pages",
+      "summary": "This post is my entry for October’s IndieWeb Carnival being hosted by Marisabel . The infinity concept of a blank page is an interesting one to explore. I’ve heard it in many flavors, but the asserti…",
+      "publishedAt": "2026-10-11T04:00:00.000Z"
+    }
+  },
+  "https://www.rhyswynne.co.uk/": {
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-15T10:05:54.848Z",
+    "status": "success",
+    "feedUrl": "https://www.rhyswynne.co.uk/feed/",
+    "latestArticle": {
+      "title": "Reblog: The Search for Joy",
+      "url": "https://www.rhyswynne.co.uk/reblog-the-search-for-joy/",
+      "summary": "Sorry I’ve been quiet, life got in the way. I enjoyed Ross’ post entitled “The Search for Joy“, it’s been roughly where my head has been, trying to find a meaning. Life can feel real hectic at the mo…",
+      "publishedAt": "2026-10-15T08:42:03.000Z"
+    }
+  },
+  "https://thoughts.uncountable.uk/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-15T10:05:54.848Z",
+    "status": "unknown",
+    "feedUrl": "https://thoughts.uncountable.uk/index.xml"
+  },
+  "https://callmemanatee.neocities.org/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-15T10:05:54.848Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://bits.gobino.be/": {
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-15T10:05:54.848Z",
+    "status": "success",
+    "feedUrl": "https://bits.gobino.be/posts_feed",
+    "latestArticle": {
+      "title": "📷 270/365 - Fire hydrant",
+      "url": "https://bits.gobino.be/posts/2026-10-14-270365-fire",
+      "summary": "📷 270/365 - Fire hydrant",
+      "publishedAt": "2026-10-14T15:56:01.000Z"
+    }
+  },
+  "https://marblethoughts.bearblog.dev/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-15T10:05:54.848Z",
+    "status": "success",
+    "feedUrl": "https://marblethoughts.bearblog.dev/feed/",
+    "latestArticle": {
+      "title": "being human",
+      "url": "https://marblethoughts.bearblog.dev/being-human/",
+      "summary": "Being human means you’re in a constant state of flux.",
+      "publishedAt": "2026-10-09T19:59:02.949Z"
+    }
   }
 }

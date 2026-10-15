@@ -545,6 +545,17 @@
       "publishedAt": "2026-10-12T21:00:34.000Z"
     }
   },
+  "https://bits.gobino.be/": {
+    "status": "success",
+    "lastPublished": "2026-10-14",
+    "feedUrl": "https://bits.gobino.be/posts_feed",
+    "latestArticle": {
+      "title": "📷 270/365 - Fire hydrant",
+      "url": "https://bits.gobino.be/posts/2026-10-14-270365-fire",
+      "summary": "📷 270/365 - Fire hydrant",
+      "publishedAt": "2026-10-14T15:56:01.000Z"
+    }
+  },
   "https://bitterandblue.sbnation.com/": {
     "status": "success",
     "lastPublished": "2026-02-24",
@@ -801,6 +812,9 @@
       "summary": "Well, chaps, the news has finally filtered down to the bankside, and it’s fair to say it’s left a bitter taste in the mouth. Sharper than any hop, that's for sure. They’re shutting down Marston's. Th…",
       "publishedAt": "2026-10-14T07:37:15.000Z"
     }
+  },
+  "https://callmemanatee.neocities.org/": {
+    "status": "unavailable"
   },
   "https://caltrain-hsr.blogspot.com/": {
     "status": "success",
@@ -2379,6 +2393,17 @@
       "publishedAt": "2026-06-12T17:17:29.000Z"
     }
   },
+  "https://marblethoughts.bearblog.dev/": {
+    "status": "success",
+    "lastPublished": "2026-10-09",
+    "feedUrl": "https://marblethoughts.bearblog.dev/feed/",
+    "latestArticle": {
+      "title": "being human",
+      "url": "https://marblethoughts.bearblog.dev/being-human/",
+      "summary": "Being human means you’re in a constant state of flux.",
+      "publishedAt": "2026-10-09T19:59:02.949Z"
+    }
+  },
   "https://marco.org/": {
     "status": "success",
     "lastPublished": "2026-09-04",
@@ -3547,6 +3572,16 @@
       "publishedAt": "2026-09-14T16:02:58.222Z"
     }
   },
+  "https://tangiblelife.net/": {
+    "status": "success",
+    "lastPublished": "2026-10-11",
+    "feedUrl": "https://tangiblelife.net/feed.rss",
+    "latestArticle": {
+      "url": "https://tangiblelife.net/pages",
+      "summary": "This post is my entry for October’s IndieWeb Carnival being hosted by Marisabel . The infinity concept of a blank page is an interesting one to explore. I’ve heard it in many flavors, but the asserti…",
+      "publishedAt": "2026-10-11T04:00:00.000Z"
+    }
+  },
   "https://tedunderwood.com/": {
     "status": "success",
     "lastPublished": "2026-02-08",
@@ -4047,6 +4082,10 @@
       "summary": "Although this blog and its predecessor, Catholic Scot, contain thousands of words about prayer I have thus far written little about that most beloved and characteristic of Catholic devotions, the Ros…",
       "publishedAt": "2026-02-27T04:07:27.000Z"
     }
+  },
+  "https://thoughts.uncountable.uk/": {
+    "status": "unknown",
+    "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
     "status": "success",
@@ -5181,6 +5220,17 @@
   "https://www.retrogarden.co.uk/": {
     "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
+  },
+  "https://www.rhyswynne.co.uk/": {
+    "status": "success",
+    "lastPublished": "2026-10-15",
+    "feedUrl": "https://www.rhyswynne.co.uk/feed/",
+    "latestArticle": {
+      "title": "Reblog: The Search for Joy",
+      "url": "https://www.rhyswynne.co.uk/reblog-the-search-for-joy/",
+      "summary": "Sorry I’ve been quiet, life got in the way. I enjoyed Ross’ post entitled “The Search for Joy“, it’s been roughly where my head has been, trying to find a meaning. Life can feel real hectic at the mo…",
+      "publishedAt": "2026-10-15T08:42:03.000Z"
+    }
   },
   "https://www.richardosgood.com/": {
     "status": "success",

@@ -122,13 +122,13 @@
   },
   "https://9to5linux.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Mesa 26.2.5 Is Out with Bug Fixes for RADV, NVK, ANV, PanVK, Freedreno, and Zink",
-      "url": "https://9to5linux.com/mesa-26-2-5-is-out-with-bug-fixes-for-radv-nvk-anv-panvk-freedreno-and-zink",
-      "summary": "Mesa 26.2.5 is now available as the fifth bugfix update to the latest Mesa 26.2 stable series, bringing various improvements to the NVK, Freedreno, RADV, RadeonSI, Zink, ANV, PVR, and PanVK drivers. …",
-      "publishedAt": "2026-10-14T20:02:54.000Z"
+      "title": "Libreboot 26.10 Open-Source BIOS/UEFI Firmware Released with Full UEFI Support",
+      "url": "https://9to5linux.com/libreboot-26-10-open-source-bios-uefi-firmware-released-with-full-uefi-support",
+      "summary": "Libreboot 26.10 open-source BIOS/UEFI firmware is now available for download with full UEFI support, support for over 200 Intel/AMD Chromebooks, and other changes. The post Libreboot 26.10 Open-Sourc…",
+      "publishedAt": "2026-10-15T09:38:07.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -885,9 +885,9 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/man-city-deserved-more-from-second-half-resurgence-against-paris-saint-germain-admits-enzo-maresca",
-      "summary": "Enzo Maresca insisted his Manchester City side 'deserved more' from a breathless 4-2 UEFA Champions League defeat against Paris Saint-Germain while revealing what he changed to lead a second-half res…",
-      "publishedAt": "2026-10-15T08:00:42.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-points-to-first-half-capitulation-to-explain-manchester-city-loss-to-paris-saint-germain",
+      "summary": "Manchester City manager Enzo Maresca spoke at length after his side's 4-2 UEFA Champions League defeat to Paris Saint-Germain at the Etihad Stadium on Wednesday night.",
+      "publishedAt": "2026-10-15T09:00:06.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1152,13 +1152,13 @@
   },
   "https://diamondgeezer.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "http://feeds.feedburner.com/blogspot/HcFb",
     "latestArticle": {
-      "title": "1066 London Road",
-      "url": "http://diamondgeezer.blogspot.com/2026/10/1066-london-road.html",
-      "summary": "Today is the 960th anniversary of the Battle of Hastings. To celebrate I've been out in search of every London property numbered 1066. And I've found four, maybe two more, maybe forty-seven. You migh…",
-      "publishedAt": "2026-10-14T06:00:00.000Z"
+      "title": "Seven Rickmansworth shops",
+      "url": "http://diamondgeezer.blogspot.com/2026/10/seven-rickmansworth-shops.html",
+      "summary": "I went back to Rickmansworth yesterday and remembered several old High Street shops. Mac Fisheries I remember Mac Fisheries , it smelt of fish, all these fish laid out on slabs at the front of the st…",
+      "publishedAt": "2026-10-15T06:00:00.000Z"
     }
   },
   "https://digitalflapjack.com/blog/": {
@@ -1372,13 +1372,13 @@
   },
   "https://figureoftheday.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-15",
     "feedUrl": "http://feeds.feedburner.com/blogspot/cImJr",
     "latestArticle": {
-      "title": "Star Wars Figure of the Day: Day 3,388: Geonosian Warrior (Vested The Vintage Collection)",
-      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3388.html",
-      "summary": "GEONOSIAN WARRIOR (No wings, 2 per box) The Vintage Collection 3 3/4-Inch Hasbro Pulse Exclusive Action Figure Set Item No.: No. G3213 Manufacturer: Hasbro Number: n/a Includes: Sonic Blaster, duplic…",
-      "publishedAt": "2026-10-13T07:30:00.000Z"
+      "title": "Star Wars Figure of the Day: Day 3,389: RJ-83 (Crimson Firehawk Droid, Young Jedi Adventures)",
+      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3389-rj-83.html",
+      "summary": "RJ-83 Crimson Firehawk Pack-in Young Jedi Adventures Vehicle Pilot Item No.: No. F7878 Manufacturer: Hasbro Number: n/a Includes: Crimson Firehawk vehicle, Nash Durango pilot figue Action Feature: n/…",
+      "publishedAt": "2026-10-15T07:33:00.000Z"
     }
   },
   "https://flamingpablum.com/": {
@@ -1470,7 +1470,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1511,13 +1511,13 @@
   },
   "https://googlemapsmania.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania",
     "latestArticle": {
-      "title": "The New Age of Building Age Maps Has Begun",
-      "url": "http://googlemapsmania.blogspot.com/2026/10/the-new-age-of-building-age-maps-has.html",
-      "summary": "The new era of building age maps has begun. Block and Paper have been busy recently creating animated building-age maps of cities around the world, showing urban development unfold over time. The sty…",
-      "publishedAt": "2026-10-14T08:09:34.457Z"
+      "title": "Travel Blogging & Mapping",
+      "url": "http://googlemapsmania.blogspot.com/2026/10/travel-blogging-mapping.html",
+      "summary": "There are travel blogs and then there is Three Steps Off the Coast . For the last ten years, Sandrine and Geoffrey (now accompanied by their son Victor and pet dog) have been documenting their travel…",
+      "publishedAt": "2026-10-15T08:27:42.154Z"
     }
   },
   "https://gorillasdontblog.blogspot.com/": {
@@ -1904,7 +1904,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2675,13 +2675,13 @@
   },
   "https://oilpressure.com/": {
     "status": "success",
-    "lastPublished": "2026-10-05",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://oilpressure.com/feed/",
     "latestArticle": {
-      "title": "Can Christian Lundgaard Play Nice?",
-      "url": "https://oilpressure.com/2026/10/05/can-christian-lundgaard-play-nice/",
-      "summary": "Good morning from the Florida panhandle! This was literally a last-minute trip we just decided to take last week. Susan got her work schedule and through a quirk – they left her off for this week. Sh…",
-      "publishedAt": "2026-10-05T09:04:44.000Z"
+      "title": "A Few Little Odds and Ends",
+      "url": "https://oilpressure.com/2026/10/15/a-few-little-odds-and-ends/",
+      "summary": "It has been a while since I’ve been here. A few odds and ends have happened in the week and a half since I last posted. We will get right into it in the order of importance as I see it. Jack Harvey: …",
+      "publishedAt": "2026-10-15T09:05:48.000Z"
     }
   },
   "https://oldvcr.blogspot.com/": {
@@ -3004,10 +3004,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "“Crossing into hostile behaviour accomplishes nothing”. Ex-Celtic boss and board ally doesn’t seem to understand the definition of ‘hostile’",
-      "url": "https://readceltic.com/2026/10/15/crossing-into-hostile-behaviour-accomplishes-nothing-ex-celtic-boss-and-board-ally-doesnt-seem-to-understand-the-definition-of-hostile/",
-      "summary": "Since the Tennis Ball Massacre at St. Andrews, two trains of thought have emerged in the aftermath of The post “Crossing into hostile behaviour accomplishes nothing”. Ex-Celtic boss and board ally do…",
-      "publishedAt": "2026-10-15T05:47:05.000Z"
+      "title": "Rangers Fans Won’t Like What Their Own Chairman Has Just Admitted — And Celtic Fans Will Love It",
+      "url": "https://readceltic.com/2026/10/15/celtic-rangers-finances-liquidation-2012/",
+      "summary": "There are certain words that should send a shiver down the spine of anyone associated with Rangers Football The post Rangers Fans Won’t Like What Their Own Chairman Has Just Admitted — And Celtic Fan…",
+      "publishedAt": "2026-10-15T08:46:20.000Z"
     }
   },
   "https://reclaimingparadise.wordpress.com/": {
@@ -3203,13 +3203,13 @@
   },
   "https://scholarlykitchen.sspnet.org/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://scholarlykitchen.sspnet.org/feed/",
     "latestArticle": {
-      "title": "Guest Post – Artificial Intelligence in Scholarly Publishing: Are We Moving Faster Than the Evidence?",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/14/guest-post-artificial-intelligence-in-scholarly-publishing-are-we-moving-faster-than-the-evidence/",
-      "summary": "Today's guest blogger reflects on why the next phase of AI adoption needs more evaluation, collaboration, and human judgment. The post Guest Post – Artificial Intelligence in Scholarly Publishing: Ar…",
-      "publishedAt": "2026-10-14T09:30:19.000Z"
+      "title": "Guest Post – The Evolution of Eras: Agentic Discovery Makes Way for Agentic Consumption",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/15/guest-post-the-evolution-of-eras-agentic-discovery-makes-way-for-agentic-consumption/",
+      "summary": "Today's guest post takes a deeper view into how researchers are currently engaging with AI and scholarly research, positing that we're now seeing a shift from agentic discovery to consumption. The po…",
+      "publishedAt": "2026-10-15T09:30:44.000Z"
     }
   },
   "https://scholars-stage.org/": {
@@ -3258,13 +3258,13 @@
   },
   "https://seths.blog/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://seths.blog/feed/",
     "latestArticle": {
-      "title": "Things people don’t say",
-      "url": "https://seths.blog/2026/10/things-people-dont-say/",
-      "summary": "Marketers and politicians too. We don’t say them because it’s assumed. And because we’re afraid. “I might be wrong.” “I’m just guessing” “This might be selfishly motivated.” “It could be that I’m hal…",
-      "publishedAt": "2026-10-14T09:03:00.000Z"
+      "title": "Addressing fear",
+      "url": "https://seths.blog/2026/10/addressing-fear/",
+      "summary": "Don’t bring a spreadsheet to a fear fight. Change causes fear. And change is all around us. The fear of the unknown. The fear of failure. The fear of uncertainty. Mostly, we’d like safety. And when t…",
+      "publishedAt": "2026-10-15T09:03:00.000Z"
     }
   },
   "https://shapersofthe80s.com/what-the/": {
@@ -4112,7 +4112,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4192,12 +4192,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-14",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173025/the-daily-hilario-october-15th",
-      "summary": "Ed.note: It’s actually Thursday, which is worse. Perhaps it’s Monday in TMIL’s universe, the Hilarioverse. First Unbeaten Well",
-      "publishedAt": "2026-10-15T07:00:00.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173011/the-daily-hilario-questings-of-visions",
+      "summary": "Watching the first episode of VisionQuest and maybe about to watch the second. So far, so good. Quite liked WandaVision and James Spader is usually a fun time, so I’m on board, at least for now. Also…",
+      "publishedAt": "2026-10-14T07:12:40.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -4393,10 +4393,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Retiring LEGO X-Mansion sells out for good as prices soar to $500",
-      "url": "https://www.brickfanatics.com/retiring-lego-x-mansion-sells-out-prices-soar",
-      "summary": "Grand Piano, Willy Wonka and more lead the charge of sold out retiring sets",
-      "publishedAt": "2026-10-15T08:24:29.000Z"
+      "title": "Save £80 on LEGO Technic Koenigsegg Sadair's Spear Megacar",
+      "url": "https://www.brickfanatics.com/save-80-on-lego-technic-koenigsegg-megacar",
+      "summary": "A megadeal on a megacar",
+      "publishedAt": "2026-10-15T09:34:39.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -4734,10 +4734,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Visiting Sandys Row Synagogue, Spitalfields",
-      "url": "https://www.ianvisits.co.uk/articles/visiting-sandys-row-synagogue-spitalfields-93268/",
-      "summary": "If you walk down a narrow side street near Liverpool Street station, you might notice a plain-looking brick building, London's oldest surviving Ashkenazi synagogue. Read more ›",
-      "publishedAt": "2026-10-15T06:00:37.000Z"
+      "title": "Shoreditch Works redevelopment gets planning approval",
+      "url": "https://www.ianvisits.co.uk/articles/shoreditch-works-redevelopment-gets-planning-approval-93210/",
+      "summary": "A contentious redevelopment of a large block of land north of Liverpool Street station is set to go ahead after the Deputy Mayor for Planning approved it. Read more ›",
+      "publishedAt": "2026-10-15T09:00:15.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -4766,10 +4766,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Vodafone launch Express Capacity to speed up provision of 100G or 400G links",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/vodafone-launch-express-capacity-to-speed-up-provision-of-100g-or-400g-links.html",
-      "summary": "Mobile and broadband provider Vodafone Business has launched a new service called Express Capacity, which aims to speed up the provision times of either 100G or 400G transport (data) links across sel…",
-      "publishedAt": "2026-10-15T01:30:25.000Z"
+      "title": "ISP Connect Fibre introduce 5Gbps UK broadband plan and Black Friday sales",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/isp-connect-fibre-introduce-5gbps-uk-broadband-plan-and-black-friday-sales.html",
+      "summary": "Alternative broadband network and UK ISP Connect Fibre (Fibre Assets Ltd), which has been rolling out their full fibre ( FTTP ) network across the East of England, has added a new 5Gbps symmetric spe…",
+      "publishedAt": "2026-10-15T09:24:57.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -4857,10 +4857,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "All of Today’s European Monarchs are Descended From a Family You’ve Never Heard of: The Oldenburgs",
-      "url": "https://www.labrujulaverde.com/en/2026/10/all-of-todays-european-monarchs-are-descended-from-a-family-youve-never-heard-of-the-oldenburgs/",
-      "summary": "Most of us can rattle off Europe’s great royal houses: the Bourbons, the Habsburgs, the Plantagenets, the Stuarts, the Romanovs, the Windsors. Far fewer people have heard of the House of Oldenburg, y…",
-      "publishedAt": "2026-10-15T07:54:26.000Z"
+      "title": "This Alaskan Ice Age Camp Is 800 Years Older Than Clovis, Once Seen as America’s First Culture",
+      "url": "https://www.labrujulaverde.com/en/2026/10/this-alaskan-ice-age-camp-is-800-years-older-than-clovis-once-seen-as-americas-first-culture/",
+      "summary": "About 13,800 years ago, Magdalenian hunters in northern Spain were still visiting the cave of Altamira, famous today for its painted bison. (The cave’s entrance would collapse around 13,000 years ago…",
+      "publishedAt": "2026-10-15T09:25:18.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -4890,7 +4890,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -4959,10 +4959,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.newsfromme.com/feed/",
     "latestArticle": {
-      "title": "A Video of Some Interest, I think…",
-      "url": "https://www.newsfromme.com/2026/10/15/a-video-of-some-interest-i-think/",
-      "summary": "You're probably familiar with the work of the great writer-cartoonist James Thurber…but have you ever seen him interviewed? I'm not sure I had before I came upon this video… [...] Read More... from A…",
-      "publishedAt": "2026-10-15T08:23:52.000Z"
+      "title": "When They Used To Have a Show…",
+      "url": "https://www.newsfromme.com/2026/10/15/82929/",
+      "summary": "For many years now, Barry Manilow has appeared at the Westgate Hotel in Las Vegas, playing to sold-out houses whenever he could. Various medical problems have kept him from doing that all the time. L…",
+      "publishedAt": "2026-10-15T09:40:55.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -5121,7 +5121,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.richardosgood.com/": {
@@ -5259,10 +5259,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on The Sound of Music by Maria von Trapp – #1949Club by Chantel",
-      "url": "https://www.stuckinabook.com/the-sound-of-music-by-maria-von-trapp-1949club/#comment-173746",
-      "summary": "I love this book. It's so warm and lovely. I especially loved hearing about how they celebrate Christmas and Easter in Austria. Easter Vigil especially sounded so moving.",
-      "publishedAt": "2026-10-15T06:44:55.000Z"
+      "title": "Comment on The Poisonwood Bible – Barbara Kingsolver by Chandra Gair",
+      "url": "https://www.stuckinabook.com/poisonwood-bible-barbara-kingsolver/#comment-173748",
+      "summary": "In reply to Jason in TX . In addition, we are given hints to his psyche -- as a war veteran who was the only survivor in his troop. The man carries a lot of guilt and must, at any cost, make it up to…",
+      "publishedAt": "2026-10-15T09:24:39.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -5482,13 +5482,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'It's Taken 35 Years' - Moonstone Is Getting an AI-Assisted Update for the Amiga 1200",
-      "url": "https://www.timeextension.com/#article-207633",
-      "summary": "\"Our goal isn’t simply to revisit the past\". As somebody who never owned an Amiga as a kid, there were a few times when I was insanely jealous of my Commodore-blessed chums, despite the fact that I v…",
-      "publishedAt": "2026-10-14T16:00:00.000Z"
+      "title": "AliExpress Leaks Price and Shipping Information for Anbernic RG DDS Handheld",
+      "url": "https://www.timeextension.com/#article-207660",
+      "summary": "Pre-orders expected to open October 16. AliExpress has seemingly jumped the gun on releasing details pertaining to Anbernic's upcoming handheld emulator, the RG DDS. As reported by RetroHandhelds , t…",
+      "publishedAt": "2026-10-15T08:45:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

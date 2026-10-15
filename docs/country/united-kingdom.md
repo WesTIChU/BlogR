@@ -1,13 +1,13 @@
 ---
 title: United Kingdom Blogs
-description: 16 blogs listed in United Kingdom.
+description: 18 blogs listed in United Kingdom.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="16" />
+<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="18" />
 
 ## Arts & Entertainment
 
@@ -45,6 +45,18 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.brickfanatics.com/" target="_blank" rel="noopener noreferrer">Brick Fanatics</a></strong> - LEGO news, set reviews, buying guides and features covering new releases, popular themes, collector interests and the wider LEGO hobby.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.brickfanatics.com/" data-blog-name="Brick Fanatics"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://blog.firestartoys.com/" target="_blank" rel="noopener noreferrer">FireStar Toys Blog</a></strong> - LEGO news, minifigure features, custom creations, reviews and interviews written by LEGO enthusiasts and contributors.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://blog.firestartoys.com/" data-blog-name="FireStar Toys Blog"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;13 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Personal Writing
+
+### Journals & Diaries
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://echo-shie.blogspot.com/" target="_blank" rel="noopener noreferrer">Life of a British Teenager- Echo shie</a></strong> - A personal diary-style blog sharing funny stories, everyday experiences and reflections on life as a British teenager. Updated fortnightly with personal anecdotes and a touch of humour.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://echo-shie.blogspot.com/" data-blog-name="Life of a British Teenager- Echo shie"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;14 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Religion & Spirituality
+
+### Christianity
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://thoughtfullycatholic.wordpress.com/" target="_blank" rel="noopener noreferrer">thoughtfully catholic</a></strong> - A Catholic blog exploring prayer, Scripture, theology and devotional life through philosophical and reflective essays.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://thoughtfullycatholic.wordpress.com/" data-blog-name="thoughtfully catholic"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;15 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Technology
 

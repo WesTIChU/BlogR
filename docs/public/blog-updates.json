@@ -344,7 +344,7 @@
     }
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -669,7 +669,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -725,13 +725,13 @@
   },
   "https://bricknerd.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://bricknerd.com/home?format=rss",
     "latestArticle": {
-      "title": "Old Magic, New Bricks: Comparing Borgin and Burkes and Dumbledore’s Office",
-      "url": "https://bricknerd.com/home/old-magic-new-bricks-comparing-borgin-and-burkes-and-dumbledores-office-10-14-26",
-      "summary": "Old LEGO magic still has its charms. We revisit Borgin and Burkes and Dumbledore’s office to compare how their buildings, curious objects, and magical creatures have changed across generations of Har…",
-      "publishedAt": "2026-10-14T20:00:00.000Z"
+      "title": "LEGO Floating Islands: Take To The Skies!",
+      "url": "https://bricknerd.com/home/lego-floating-islands-take-to-the-skies-10-5-23",
+      "summary": "It is time to take to the skies to see all the LEGO floating islands that populate our imaginations. Check out these gravity-defying rocks and learn why they might be one of the best ever collab idea…",
+      "publishedAt": "2026-10-15T13:00:00.000Z"
     }
   },
   "https://britishbeautyblogger.com/": {
@@ -913,9 +913,9 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/marc-guehi-picks-out-positives-from-manchester-citys-defeat-to-paris-saint-germain",
-      "summary": "Marc Guehi insists there is plenty for Manchester City to build on despite their 4-2 UEFA Champions League defeat to Paris Saint-Germain, pointing to a much-improved second-half display and the backi…",
-      "publishedAt": "2026-10-15T13:00:37.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/manchester-city-would-have-beaten-paris-saint-germain-with-better-first-half-performance-says-iliman-ndiaye",
+      "summary": "Iliman Ndiaye believes Manchester City would have beaten Paris Saint-Germain in their phenomenal battle at the Etihad Stadium if Enzo Maresca’s side had performed in the first half as they did in the…",
+      "publishedAt": "2026-10-15T14:30:22.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1044,13 +1044,13 @@
   },
   "https://cupofjo.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://cupofjo.com/feed/",
     "latestArticle": {
-      "title": "Back to Basics: How to Make a Vinaigrette Without a Recipe",
-      "url": "https://cupofjo.com/2026/10/14/how-to-make-a-vinaigrette-without-a-recipe/",
-      "summary": "Every month, we’ll take a deep dive into a simple technique or piece of kitchen wisdom that will change the way you cook. Back to Basics isn’t about memorizing another recipe — it’s about learning so…",
-      "publishedAt": "2026-10-14T17:00:14.000Z"
+      "title": "10 Fun Questions to Ask Your Significant Other",
+      "url": "https://cupofjo.com/2026/10/15/10-fun-questions-to-ask-your-significant-other/",
+      "summary": "Last weekend, Freddie and I went upstate to visit friends, but on the first afternoon I got food poisoning… So, instead of apple picking or hiking the nearby trail, we stayed home at the rental apart…",
+      "publishedAt": "2026-10-15T15:44:59.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -1146,7 +1146,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1498,7 +1498,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1746,13 +1746,13 @@
   },
   "https://humbledollar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "Choosing a CCRC (Life PlanCommunity)",
-      "url": "https://humbledollar.com/forum/choosing-a-ccrc-life-plancommunity/",
-      "summary": "For this past year and the upcoming year I have been researching what to look for, and what questions to ask when investigating potential facilities. In 2028 we will begin the exploration and conside…",
-      "publishedAt": "2026-10-14T13:20:30.000Z"
+      "title": "Investment Adviser Performance-Based Compensation",
+      "url": "https://humbledollar.com/forum/investment-adviser-performance-based-compensation/",
+      "summary": "On Sept. 30, 2026, the Securities and Exchange Commission proposed two rule changes which would allow performance based compensation as an option on certain registered management investment companies…",
+      "publishedAt": "2026-10-15T15:34:30.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -1840,9 +1840,9 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17498175/foss-weekly-26-42",
-      "summary": "As Linus Torvalds embraces AI, it is time that we also pull our socks up and get on with local AI.",
-      "publishedAt": "2026-10-15T12:58:00.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17498285/ubuntu-26-10-release",
+      "summary": "It ships with Linux 7.3, GNOME 51, an improved App Center, and many other upgrades.",
+      "publishedAt": "2026-10-15T14:34:37.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -1933,7 +1933,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2330,7 +2330,7 @@
     }
   },
   "https://londonreconnections.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
@@ -2355,10 +2355,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "KDE releases documentary",
-      "url": "https://lwn.net/Articles/1100787/",
-      "summary": "As part of KDE's 30th anniversary celebration , the project has released The KDE Documentary — A Story of Free Software Underdogs ( YouTube video ): The story starts in 1996, when Matthias Ettrich, a…",
-      "publishedAt": "2026-10-15T13:24:31.000Z"
+      "title": "[$] Vendor hooks in the Android kernel",
+      "url": "https://lwn.net/Articles/1098493/",
+      "summary": "Since Android's inception, the kernels it has used have diverged significantly from the mainline. While many of those differences have been resolved over time, and the move to the generic kernel imag…",
+      "publishedAt": "2026-10-15T15:09:15.000Z"
     }
   },
   "https://makeupandbeautyblog.com/": {
@@ -2729,7 +2729,7 @@
     "status": "unavailable"
   },
   "https://onegirlwholeworld.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://onegirlwholeworld.com/feed/",
     "latestArticle": {
@@ -2995,7 +2995,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-16",
     "feedUrl": "https://rachelsvintageretro.co.uk/comments/feed/?v=0b3b97fa6688",
     "latestArticle": {
@@ -3045,10 +3045,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Celtic’s Martin O’Neill Decision Raises One Question Dermot Desmond Cannot Avoid",
-      "url": "https://readceltic.com/2026/10/15/celtic-martin-oneill-decision-desmond/",
-      "summary": "There is something increasingly troubling about the way Celtic appear to be approaching their managerial future. And once The post Celtic’s Martin O’Neill Decision Raises One Question Dermot Desmond …",
-      "publishedAt": "2026-10-15T14:17:49.000Z"
+      "title": "An All-Time European Performance Is Needed: Celtic Must Remember What Lisbon Means",
+      "url": "https://readceltic.com/2026/10/15/an-all-time-european-performance-is-needed-celtic-must-remember-what-lisbon-means/",
+      "summary": "There are few places in world football that carry the emotional weight Portugal and Lisbon does for Celtic The post An All-Time European Performance Is Needed: Celtic Must Remember What Lisbon Means …",
+      "publishedAt": "2026-10-15T15:05:20.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -3324,10 +3324,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://seths.blog/feed/",
     "latestArticle": {
-      "title": "Addressing fear",
-      "url": "https://seths.blog/2026/10/addressing-fear/",
-      "summary": "Don’t bring a spreadsheet to a fear fight. Change causes fear. And change is all around us. The fear of the unknown. The fear of failure. The fear of uncertainty. Mostly, we’d like safety. And when t…",
-      "publishedAt": "2026-10-15T09:03:00.000Z"
+      "title": "Purple Space problem solving",
+      "url": "https://seths.blog/2026/10/purple-space-problem-solving/",
+      "summary": "On the 19th of October, I’m doing an open Zoom call for members of purple.space and those that might be curious about how cohorts and mutual support open the door to possibility. You can reserve a sp…",
+      "publishedAt": "2026-10-15T15:03:00.000Z"
     }
   },
   "https://shapersofthe80s.com/what-the/": {
@@ -3743,9 +3743,9 @@
     "lastPublished": "2026-10-13",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36118/lisandro-martinez-calls-out-club-leadership-in-post-match-interview",
-      "summary": "Well, at least the docuseries should be good. Manchester United defender Lisandro Martinez gave the fans something to hold onto after a frustrating 2-0 defeat on the road at Atletico Madrid on Tuesda…",
-      "publishedAt": "2026-10-13T22:16:17.000Z"
+      "url": "https://thebusbybabe.sbnation.com/latest-news/36096/atletico-madrid-vs-manchester-united-live-stream-time-how-to-watch",
+      "summary": "Desperate for a positive spark to reinvigorate their season, struggling Manchester United will travel to face in-form Atletico Madrid at the Metropolitano Stadium on Tuesday for matchday two of the C…",
+      "publishedAt": "2026-10-13T15:30:00.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -3764,10 +3764,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Balikwisha burns his bridges.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/balikwisha-burns-his-bridges/",
-      "summary": "There is a famous phrase from the 1966 World Cup final: “They think it’s all over. It is The post Balikwisha burns his bridges. appeared first on The Celtic Blog .",
-      "publishedAt": "2026-10-15T13:00:50.000Z"
+      "title": "Chris Sutton knows what Kasper Høgh is going through at Celtic",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/kasper-hogh-celtic-chris-sutton-patience/",
+      "summary": "There is something I have always believed when it comes to football. Before we start writing a player The post Chris Sutton knows what Kasper Høgh is going through at Celtic appeared first on The Cel…",
+      "publishedAt": "2026-10-15T15:07:41.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -3878,7 +3878,7 @@
     }
   },
   "https://thehighburylibrary.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2016-11-27",
     "feedUrl": "https://thehighburylibrary.com/feed/",
     "latestArticle": {
@@ -4086,7 +4086,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4189,7 +4189,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4269,12 +4269,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/172985/the-daily-hilario-schumacher-94",
-      "summary": "Watched the new Schumacher ‘94 documentary on Netflix. Underwhelmed. And also, a bit surprisingly, a bit whelmed bothered. Was never a big fan of Schumi, plus Benetton were massive cheats. They got c…",
-      "publishedAt": "2026-10-13T07:23:10.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173025/the-daily-hilario-october-15th",
+      "summary": "Ed.note: It’s actually Thursday, which is worse. Perhaps it’s Monday in TMIL’s universe, the Hilarioverse. First Unbeaten Well",
+      "publishedAt": "2026-10-15T07:00:00.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -4492,10 +4492,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "New LEGO Icons set includes a 3D-printed piano that plays music",
-      "url": "https://www.brickfanatics.com/new-lego-icons-set-3d-printed-piano-plays-music",
-      "summary": "This is one LEGO piece that really strikes a chord",
-      "publishedAt": "2026-10-15T13:07:57.000Z"
+      "title": "LEGO’s huge new set perfectly captures the magic of Venice",
+      "url": "https://www.brickfanatics.com/lego-huge-new-set-perfectly-captures-venice",
+      "summary": "A LEGO love letter to the Floating City",
+      "publishedAt": "2026-10-15T14:28:19.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -4833,10 +4833,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Tickets Alert: A Christmas Carol performed at the Charles Dickens Museum",
-      "url": "https://www.ianvisits.co.uk/articles/tickets-alert-a-christmas-carol-performed-at-the-charles-dickens-museum-93170/",
-      "summary": "If you want to see A Christmas Carol performed live, the very home where Charles Dickens lived seems like a perfect setting. Read more ›",
-      "publishedAt": "2026-10-15T13:00:13.000Z"
+      "title": "City Hall calls on councils to help tackle London’s patchy mobile coverage",
+      "url": "https://www.ianvisits.co.uk/articles/city-hall-calls-on-councils-to-help-tackle-londons-patchy-mobile-coverage-93298/",
+      "summary": "Offering public buildings and land for equipment could help improve services, but funding and delivering network upgrades remains the responsibility of mobile operators. Read more ›",
+      "publishedAt": "2026-10-15T15:00:32.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -4956,10 +4956,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "This Alaskan Ice Age Camp Is 800 Years Older Than Clovis, Once Seen as America’s First Culture",
-      "url": "https://www.labrujulaverde.com/en/2026/10/this-alaskan-ice-age-camp-is-800-years-older-than-clovis-once-seen-as-americas-first-culture/",
-      "summary": "About 13,800 years ago, Magdalenian hunters in northern Spain were still visiting the cave of Altamira, famous today for its painted bison. (The cave’s entrance would collapse around 13,000 years ago…",
-      "publishedAt": "2026-10-15T09:25:18.000Z"
+      "title": "Archaeologists Find a Lost Greek Neighborhood in Sicily, Destroyed When Carthage Besieged the City 2,400 Years Ago — and Evidence of a Giant Artificial Fish Pond",
+      "url": "https://www.labrujulaverde.com/en/2026/10/archaeologists-find-a-lost-greek-neighborhood-in-sicily-destroyed-when-carthage-besieged-the-city-2400-years-ago-and-evidence-of-a-giant-artificial-fish-pond/",
+      "summary": "Tucked among the Greek temples that made Agrigento famous, on the south coast of Sicily, there is a narrow valley of orange and olive trees. An international team has been digging there for three yea…",
+      "publishedAt": "2026-10-15T15:01:34.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -4989,7 +4989,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5135,7 +5135,7 @@
     "latestArticle": {
       "title": "Ubuntu 26.10 released – here’s what’s new",
       "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-2610-new-features",
-      "summary": "Ubuntu 26.10 has been released, with a faster way to tile windows, passkey sign-in at the login screen and a full set of Rust-based core utilities. The newest interim release, supported for the next …",
+      "summary": "Ubuntu 26.10 is out with a faster window tiling widget, passkey login, PDF signing and a full set of Rust-based core utilities. Here's what’s new. You're reading Ubuntu 26.10 released – here’s what’s…",
       "publishedAt": "2026-10-15T12:45:45.000Z"
     }
   },
@@ -5220,7 +5220,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -5369,10 +5369,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on 1949 Club: your reviews! by Emma @ Words And Peace",
-      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173753",
-      "summary": "Here is my second review, a abulous scifi, the best of 1949 they say: What Mad Universe, by Fredric Brown: https://wordsandpeace.com/2026/10/15/book-review-for-the-1949-club-what-mad-universe/",
-      "publishedAt": "2026-10-15T12:48:27.000Z"
+      "title": "Comment on 1949 Club: your reviews! by Kay",
+      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173754",
+      "summary": "Here's my review of The Emigrants by Vilhelm Moberg: https://whatmeread.com/2026/10/15/review-2784-1949club-the-emigrants/",
+      "publishedAt": "2026-10-15T14:47:13.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -5529,10 +5529,10 @@
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Dragon Ball Super: Beerus Premieres With New Creditless Animations",
-      "url": "https://www.themovieblog.com/2026/10/dragon-ball-super-beerus-premieres-with-new-creditless-animations/",
-      "summary": "The latest expansion of the iconic franchise, Dragon Ball Super: Beerus, has officially premiered, bringing new action and creditless animations to fans. The post Dragon Ball Super: Beerus Premieres …",
-      "publishedAt": "2026-10-15T14:40:00.000Z"
+      "title": "Tubi Announces New R.L. Stine Adaptation The Babysitter at NYCC",
+      "url": "https://www.themovieblog.com/2026/10/tubi-announces-new-rl-stine-adaptation-the-babysitter-at-nycc/",
+      "summary": "Tubi made a surprise announcement at New York Comic Con 2026, confirming that a film adaptation of R.L. Stine's The Babysitter is currently in development. The post Tubi Announces New R.L. Stine Adap…",
+      "publishedAt": "2026-10-15T15:30:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -5635,7 +5635,7 @@
     }
   },
   "https://www.ukfilmreview.co.uk/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.ukfilmreview.co.uk/blog-feed.xml",
     "latestArticle": {

@@ -6268,5 +6268,71 @@
       "summary": "In my last post on the topic of picking a sketchbook, I was struggling to figure out what to use next, after starting and then abandoning a Bindewerk Linen journal. I eliminated quite a few candidate…",
       "publishedAt": "2026-10-13T12:48:53.000Z"
     }
+  },
+  "https://winther.sysctl.dk/": {
+    "lastPublished": "2026-10-14",
+    "lastChecked": "2026-10-15T09:57:57.322Z",
+    "status": "success",
+    "feedUrl": "https://winther.sysctl.dk/feed/",
+    "latestArticle": {
+      "title": "AI agents on the IndieWeb",
+      "url": "https://winther.sysctl.dk/ai-agents-on-the-indieweb/",
+      "summary": "Last month I did the IndieWeb Carnival and before I get to write the roundup post, I need to shortly write about this new phenomena. During the month I received about as many submissions from AI agen…",
+      "publishedAt": "2026-10-14T19:25:44.147Z"
+    }
+  },
+  "https://apiratelifefor.me/": {
+    "lastPublished": "2026-09-05",
+    "lastChecked": "2026-10-15T09:57:57.322Z",
+    "status": "success",
+    "feedUrl": "https://apiratelifefor.me/feed/",
+    "latestArticle": {
+      "title": "Reclamation at 43",
+      "url": "https://apiratelifefor.me/reclamation-at-43/",
+      "summary": "The back of my head is suddenly pondering the idea of personal reclamation as I’ve entered my 43rd year on earth. Between an unexpected job loss and subsequent job acquisition, and also working on wr…",
+      "publishedAt": "2026-09-05T16:16:53.000Z"
+    }
+  },
+  "https://ben-heil.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-15T09:57:57.322Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://scientiac.space/": {
+    "lastPublished": "2026-09-15",
+    "lastChecked": "2026-10-15T09:57:57.322Z",
+    "status": "success",
+    "feedUrl": "https://scientiac.space/rss.xml",
+    "latestArticle": {
+      "title": "Silence",
+      "url": "https://scientiac.space/syndications/posse-2026-09-15/",
+      "summary": "Ever since I have disabled all the endless scrolling feed from my laptop. I have been visiting lobste.rs , Hacker News , bubbles.town and my RSSReader more often. I do have Tuba installed but the scr…",
+      "publishedAt": "2026-09-15T00:00:00.000Z"
+    }
+  },
+  "https://realfishworld.com/": {
+    "lastPublished": "2026-10-09",
+    "lastChecked": "2026-10-15T09:57:57.322Z",
+    "status": "success",
+    "feedUrl": "https://realfishworld.com/blog/feed.xml",
+    "latestArticle": {
+      "title": "About the songs",
+      "url": "https://realfishworld.com/blog/music",
+      "summary": "The story behind the music",
+      "publishedAt": "2026-10-09T00:00:00.000Z"
+    }
+  },
+  "https://www.bagaag.com/": {
+    "lastPublished": "2026-08-23",
+    "lastChecked": "2026-10-15T09:57:57.322Z",
+    "status": "success",
+    "feedUrl": "https://www.bagaag.com/feed/",
+    "latestArticle": {
+      "title": "A new project",
+      "url": "https://www.bagaag.com/a-new-project/",
+      "summary": "It’s been pretty quiet around here lately, hasn’t it? I’ve been spending all my free time on a new project involving… stationery! I’m making pocket accordion note cards, like a pocket notebook but fo…",
+      "publishedAt": "2026-08-23T00:31:05.000Z"
+    }
   }
 }

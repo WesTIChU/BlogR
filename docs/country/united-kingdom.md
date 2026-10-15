@@ -1,13 +1,13 @@
 ---
 title: United Kingdom Blogs
-description: 18 blogs listed in United Kingdom.
+description: 20 blogs listed in United Kingdom.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="18" />
+<CountryDirectoryHeader flag="🇬🇧" name="United Kingdom" :count="20" />
 
 ## Arts & Entertainment
 
@@ -48,9 +48,17 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 ## Personal Writing
 
+### Essays & Reflections
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://thoughts.uncountable.uk/" target="_blank" rel="noopener noreferrer">uncountable thoughts</a></strong> - Personal essays and reflections on digital life, conservation, community projects, investing and life after work.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://thoughts.uncountable.uk/" data-blog-name="uncountable thoughts"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;15 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
 ### Journals & Diaries
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://echo-shie.blogspot.com/" target="_blank" rel="noopener noreferrer">Life of a British Teenager- Echo shie</a></strong> - A personal diary-style blog sharing funny stories, everyday experiences and reflections on life as a British teenager. Updated fortnightly with personal anecdotes and a touch of humour.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://echo-shie.blogspot.com/" data-blog-name="Life of a British Teenager- Echo shie"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;14 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+### Personal Blogs & Everyday Life
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.rhyswynne.co.uk/" target="_blank" rel="noopener noreferrer">Rhys Wynne</a></strong> - Personal blog by a WordPress developer covering technology, travel, games, sport, nostalgia and everyday life.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.rhyswynne.co.uk/" data-blog-name="Rhys Wynne"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-kingdom" aria-label="Based in United Kingdom"><span aria-hidden="true">🇬🇧</span> United Kingdom</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;15 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Religion & Spirituality
 

@@ -23,13 +23,13 @@
   },
   "http://thefilmexperience.net/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-16",
     "feedUrl": "http://thefilmexperience.net/blog/atom.xml",
     "latestArticle": {
-      "title": "TIFF 51: Latin American Gems, Part I – Actress-y Delights",
-      "url": "http://thefilmexperience.net/blog/2026/10/13/tiff-51-latin-american-gems-part-i-actress-y-delights.html",
-      "summary": "by Cl&aacute;udio Alves Fair warning, the fall festival coverage isn’t over yet – it will never be over! I kid, I kid. We’ll conclude the TIFF odyssey next Tuesday, exactly one month after the 51st T…",
-      "publishedAt": "2026-10-14T02:00:00.000Z"
+      "title": "TIFF 51: Latin American Gems, Part II – Queer Stories",
+      "url": "http://thefilmexperience.net/blog/2026/10/15/tiff-51-latin-american-gems-part-ii-queer-stories.html",
+      "summary": "by Cl&aacute;udio Alves Latin American storytelling at TIFF wasn’t just about great feats of actress-ing, as I explored in part one of this miniseries within the broader festival coverage. Another co…",
+      "publishedAt": "2026-10-16T02:00:00.000Z"
     }
   },
   "http://www.16bit.com/": {
@@ -844,13 +844,13 @@
   },
   "https://cassidoo.co/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-01",
+    "lastPublished": "2026-10-15",
     "feedUrl": "https://cassidoo.co/rss.xml",
     "latestArticle": {
-      "title": "Accessibility and the new model of the internet",
-      "url": "https://cassidoo.co/post/accessibility-and-the-internet/",
-      "summary": "The internet is changing! Accessibility is getting better! And it's also weird!",
-      "publishedAt": "2026-10-01T19:41:49.000Z"
+      "title": "Building a static newsletter archive",
+      "url": "https://cassidoo.co/post/static-newsletter-archive/",
+      "summary": "I decided to host my newsletter archive myself on this website!",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     }
   },
   "https://celtic365.com/": {
@@ -1497,7 +1497,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1581,13 +1581,13 @@
   },
   "https://greg.org/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://greg.org/feed",
     "latestArticle": {
-      "title": "FIND THE NOLAND! Oozewald Wanted Poster",
-      "url": "https://greg.org/archive/2026/10/14/find-the-noland-oozewald-wanted-poster.html",
-      "summary": "The important news from Cady Noland’s new exhibition at Gagosian in London is that an edition of Oozewald has been stolen, and the artist wants it back. According to the STACK OF WANTED POSTERS WHICH…",
-      "publishedAt": "2026-10-14T18:03:38.000Z"
+      "title": "Thursday Art Hour",
+      "url": "https://greg.org/archive/2026/10/15/thursday-art-hour.html",
+      "summary": "I had an hour to see some shows today, and here are some things I saw. Hiroshi Sugimoto’s Unnatural Landscapes at Lisson is his ongoing series of diorama photos in large-format prints and on folding …",
+      "publishedAt": "2026-10-16T03:47:12.000Z"
     }
   },
   "https://gregalder.com/yardposts/": {
@@ -1931,7 +1931,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -4083,7 +4083,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4176,17 +4176,17 @@
   },
   "https://travelbetweenthepages.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://travelbetweenthepages.com/feed/",
     "latestArticle": {
-      "title": "Failing Societies",
-      "url": "https://travelbetweenthepages.com/2026/10/15/failing-societies/",
-      "summary": "When Chekhov was asked what the nature of failing societies was, he replied: “In failing societies, there is a thousand fools for every enlightened mind, and a thousand crude words for every consciou…",
-      "publishedAt": "2026-10-15T04:01:47.000Z"
+      "title": "Reading Chekov as the world burns",
+      "url": "https://travelbetweenthepages.com/2026/10/16/reading-chekov-as-the-world-burns/",
+      "summary": "“Reading Chekhov was just like the angels singing to me.” — Eudora Welty, 1977 One of Russia’s greatest writers, Anton Chekhov began his career writing jokes and anecdotes for popular magazines … Con…",
+      "publishedAt": "2026-10-16T04:01:22.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4266,12 +4266,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173025/the-daily-hilario-october-15th",
-      "summary": "Ed.note: It’s actually Thursday, which is worse. Perhaps it’s Monday in TMIL’s universe, the Hilarioverse. First Unbeaten Well",
-      "publishedAt": "2026-10-15T07:00:00.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-transfer-rumours-news/173099/afc-bournemouth-now-willing-to-consider-alex-scott-offers-starting-at-80m-report",
+      "summary": "Reality may be starting to sink in a bit at AFC Bournemouth, who are now said to be ready to consider offers starting at £80m for Alex Scott in January — a fair discount on the previously reported £1…",
+      "publishedAt": "2026-10-16T04:05:27.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -4323,13 +4323,13 @@
   },
   "https://www.actionfigurebarbecue.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://www.actionfigurebarbecue.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Trick or Treat Through 31 Days of Toy Terror: Dr. Tongue from Day of the Dead by Trick or Treat Studios",
-      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_01160125896.html",
-      "summary": "We're getting closer to Halloween and I hope you're enjoying these reviews from Trick or Treat Studios' Day of the Dead toyline. Today I'm checking out Dr. Tongue, the first zombie shown in the film.…",
-      "publishedAt": "2026-10-15T04:00:00.000Z"
+      "title": "Trick or Treat Through 31 Days of Toy Terror: Dodge Charger Stock Car from Hot Wheels: Halloween Series by Mattel",
+      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_01517755888.html",
+      "summary": "How about another spooky car? Today I'm checking out yet another vehicle in the 2026 Halloween series of Hot Wheels and this time it's a Dodge Charger Stock Car that is showing off its Halloween spir…",
+      "publishedAt": "2026-10-16T04:00:00.000Z"
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
@@ -4986,7 +4986,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5138,13 +5138,13 @@
   },
   "https://www.oneletterwords.com/weblog/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://feeds.feedburner.com/oneletterwords/abecedarian",
     "latestArticle": {
       "title": "Restoring the Lost Sense",
-      "url": "https://www.oneletterwords.com/weblog/?id=117023",
-      "summary": "From Photoplay , 1935.",
-      "publishedAt": "2026-10-15T04:00:00.000Z"
+      "url": "https://www.oneletterwords.com/weblog/?id=115407",
+      "summary": "From the Daily Mirror , 1919.",
+      "publishedAt": "2026-10-16T04:00:00.000Z"
     }
   },
   "https://www.onstageblog.com/onscreenblog": {
@@ -5217,7 +5217,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

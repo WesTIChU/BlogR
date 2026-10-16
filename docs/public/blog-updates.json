@@ -1497,7 +1497,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1931,7 +1931,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2329,12 +2329,12 @@
   },
   "https://londonreconnections.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/sunshine-to-power-manchester-trams-rail-business-uk/",
-      "summary": "Transport for Greater Manchester is to enter into a power purchase agreement with AGR Power covering 42 GWh/year, broadly equivalent to the amount of power currently used to run the Metrolink light r…",
-      "publishedAt": "2026-10-15T02:59:19.000Z"
+      "url": "https://londonreconnections.com/friday-reads-16-october-2026/",
+      "summary": "London’s roads pose major challenges for driverless vehicles: Report | E+T Bristol Trams: The Saga Continues | Edward Teather The London Underground Nobody Notices: Video | Rob's London Shut up about…",
+      "publishedAt": "2026-10-16T02:45:03.000Z"
     }
   },
   "https://loureviews.blog/": {
@@ -4083,7 +4083,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4186,7 +4186,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4212,7 +4212,7 @@
     }
   },
   "https://tyzbit.blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -4986,7 +4986,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5217,7 +5217,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -5526,10 +5526,10 @@
     "lastPublished": "2026-10-16",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Stan Sakai and Soo Lee Announce TMNT: THE FIRST RONIN",
-      "url": "https://www.themovieblog.com/2026/10/stan-sakai-and-soo-lee-announce-tmnt-the-first-ronin/",
-      "summary": "IDW Publishing has announced a new five-issue comic series, TMNT: THE FIRST RONIN, from legendary creator Stan Sakai and artist Soo Lee, arriving in March 2027. The post Stan Sakai and Soo Lee Announ…",
-      "publishedAt": "2026-10-16T01:30:00.000Z"
+      "title": "New Ebenezer Featurette Showcases Johnny Depp as the Iconic Scrooge",
+      "url": "https://www.themovieblog.com/2026/10/new-ebenezer-featurette-showcases-johnny-depp-as-the-iconic-scrooge/",
+      "summary": "Paramount Pictures has released a new featurette for the upcoming film Ebenezer, offering a closer look at Johnny Depp's transformation into the iconic character. The post New Ebenezer Featurette Sho…",
+      "publishedAt": "2026-10-16T02:20:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -5645,9 +5645,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -5690,13 +5690,13 @@
   },
   "https://www.web3isgoinggreat.com/": {
     "status": "success",
-    "lastPublished": "2026-10-12",
+    "lastPublished": "2026-10-16",
     "feedUrl": "https://www.web3isgoinggreat.com/feed.xml",
     "latestArticle": {
-      "title": "At least $86 million stolen via tampered Ledger hardware wallets resold by CryptoBilis",
-      "url": "https://web3isgoinggreat.com/single/cryptobilis-hardware-wallet-tampering",
-      "summary": "The users of more than 300 Ledger cryptocurrency wallets have suffered an estimated $86 million to $93 million in losses after thieves drained assets across blockchains including bitcoin, Ethereum, a…",
-      "publishedAt": "2026-10-12T23:42:28.794Z"
+      "title": "Abracadabra proposes winding down after string of hacks years ago left each $1 \"stablecoin\" token backed by $0.04 in reserves",
+      "url": "https://web3isgoinggreat.com/single/abracadabra-proposes-winding-down",
+      "summary": "Abracadabra, the defi project behind the Magic Internet Money (MIM) stablecoin, is shutting down. It blamed its string of hacks: $6.5 million theft in January 2024 , $13 million in March 2025 , and $…",
+      "publishedAt": "2026-10-16T02:24:38.581Z"
     }
   },
   "https://www.zachleat.com/": {

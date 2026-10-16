@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-15",
-    "lastChecked": "2026-10-16T00:45:14.059Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "ISP Connect Fibre introduce 5Gbps UK broadband plan and Black Friday sales",
@@ -3034,8 +3034,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-15T16:45:14.090Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3310,8 +3310,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-15T16:45:14.090Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3340,8 +3340,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-15T16:45:14.090Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3984,8 +3984,8 @@
     }
   },
   "https://moviepalace.blogspot.com/": {
-    "lastPublished": "2026-10-15",
-    "lastChecked": "2026-10-15T16:45:14.090Z",
+    "lastPublished": "2026-10-16",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
     "status": "success",
     "feedUrl": "https://moviepalace.blogspot.com/feeds/posts/default",
     "latestArticle": {
@@ -4287,14 +4287,14 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-16T00:45:14.059Z",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "HBO Max and Paramount+ to Merge Under Skydance",
-      "url": "https://www.themovieblog.com/2026/10/hbo-max-and-paramount-plus-to-merge-under-skydance/",
-      "summary": "HBO Max and Paramount+ are set to merge into a single streaming service following Skydance's acquisition of Warner Bros. Discovery. Here is what we know. The post HBO Max and Paramount+ to Merge Unde…",
-      "publishedAt": "2026-10-16T00:40:00.000Z"
+      "title": "Stan Sakai and Soo Lee Announce TMNT: THE FIRST RONIN",
+      "url": "https://www.themovieblog.com/2026/10/stan-sakai-and-soo-lee-announce-tmnt-the-first-ronin/",
+      "summary": "IDW Publishing has announced a new five-issue comic series, TMNT: THE FIRST RONIN, from legendary creator Stan Sakai and artist Soo Lee, arriving in March 2027. The post Stan Sakai and Soo Lee Announ…",
+      "publishedAt": "2026-10-16T01:30:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4418,9 +4418,9 @@
   },
   "https://www.snitchseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-16T00:45:14.059Z",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
     "status": "unknown",
-    "feedUrl": "https://www.snitchseeker.com/external.php?type=rss2&forumids=71"
+    "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://susan-stepney.blogspot.com/": {
     "lastPublished": "2026-10-15",
@@ -4477,9 +4477,9 @@
   },
   "https://www.urbex-travel.com/blog/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-15T19:45:16.425Z",
-    "status": "success",
-    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -4537,8 +4537,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-15T16:45:14.090Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4913,15 +4913,15 @@
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
-    "lastPublished": "2026-10-14",
-    "lastChecked": "2026-10-14T01:44:29.929Z",
+    "lastPublished": "2026-10-16",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
     "status": "success",
     "feedUrl": "https://www.thehorrorsofhalloween.com/feeds/posts/default",
     "latestArticle": {
-      "title": "What's on Tonight: DEVOUR (2026) on VOD + Reviews — An Absolute Total Gorefest Heavy Metal Ride!",
-      "url": "https://www.thehorrorsofhalloween.com/2026/10/watch-devour-2026-streaming-free-plus-reviews-an-absolute-total-gorefest-heavy-metal-ride.html",
-      "summary": "Digital Thunderdome Studios' DEVOUR releases on VOD on October 13, 2026. The vampire werewolf heavy metal gory horror thriller is the 2nd part of the Bad Candy (2021) Horrorverse with more films in d…",
-      "publishedAt": "2026-10-14T01:17:45.840Z"
+      "title": "What's on Tonight: CRYSTAL LAKE (2026) Streaming on Peacock + Reviews — Before Jason... Rage Is A Mother!",
+      "url": "https://www.thehorrorsofhalloween.com/2026/10/whats-on-tonight-crystal-lake-2026-where-to-watch-streaming-plus-reviews-before-jason-rage-is-a-mother.html",
+      "summary": "Crystal Lake premiered on Peacock on October 15, 2026! The drama slasher horror thriller TV series is a re-imagining reboot prequel of Friday the 13th (1980) and other movies in the franchise. The se…",
+      "publishedAt": "2026-10-16T01:29:58.932Z"
     }
   },
   "http://spookylittlegirllikeyou.blogspot.com/": {
@@ -5153,8 +5153,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-15T16:45:14.090Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -6359,8 +6359,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-15T16:45:14.090Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-16T01:38:12.613Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {

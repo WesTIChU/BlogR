@@ -9,7 +9,7 @@
     "audit:blogs": "node scripts/audit-blog-health.js",
     "audit:communities": "node scripts/audit-community-health.js",
     "check:blog-updates": "node scripts/check-blog-updates.js",
-    "docs:build": "node scripts/generate-blog-pages.js && vitepress build docs/",
+    "docs:build": "pnpm test:submission-form && node scripts/generate-blog-pages.js && vitepress build docs/",
     "docs:dev": "node scripts/generate-blog-pages.js && vitepress dev docs/ --port 5177 --strictPort",
     "docs:preview": "vitepress preview docs/",
     "format": "lint-staged --config .lintstagedrc.format.json",

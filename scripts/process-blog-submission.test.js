@@ -92,6 +92,32 @@ test('parses the combined category and subcategory field', () => {
   })
 })
 
+test('accepts categories and subcategories added to the taxonomy', () => {
+  const changedTaxonomy = structuredClone(taxonomy)
+  changedTaxonomy.categories.push({
+    slug: 'new-category',
+    title: 'New Category',
+    subsections: [{ title: 'New Subcategory', match: '.*' }]
+  })
+  const parsed = parseIssueForm(
+    body({
+      name: 'New Category Blog',
+      url: 'https://new-category.example/'
+    }).replace(
+      '### Main category\n\nTechnology\n\n### Subcategory\n\nTechnology / Programming & Development',
+      '### Category / Subcategory\n\nNew Category / New Subcategory'
+    )
+  )
+
+  assert.deepEqual(validateSubmission(parsed, blogs, changedTaxonomy), {
+    name: 'New Category Blog',
+    url: 'https://new-category.example/',
+    description: 'A concise independent blog.',
+    category: 'new-category',
+    subcategory: 'New Subcategory'
+  })
+})
+
 test('accepts issue 22 with no Personal Writing subcategory', () => {
   const parsed = parseIssueForm(`### Blog name
 

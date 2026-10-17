@@ -13,14 +13,16 @@ const BEGIN = '  # BEGIN GENERATED TAXONOMY OPTIONS'
 const END = '  # END GENERATED TAXONOMY OPTIONS'
 
 const yamlString = (value) => JSON.stringify(value)
+const compareTitles = (left, right) =>
+  left.title.localeCompare(right.title, 'en', { sensitivity: 'base' })
 
 export function buildTaxonomyOptions(taxonomy) {
-  const categories = taxonomy.categories ?? []
+  const categories = [...(taxonomy.categories ?? [])].sort(compareTitles)
   const categorySubcategoryOptions = categories.flatMap(
     ({ title, subsections }) =>
-      (subsections ?? []).map(
-        ({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`
-      )
+      [...(subsections ?? [])]
+        .sort(compareTitles)
+        .map(({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`)
   )
   const categoryOptions = [...categorySubcategoryOptions, 'Not sure / Other']
   const countryOptions = [

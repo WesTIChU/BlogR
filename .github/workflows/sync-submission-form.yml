@@ -1,0 +1,102 @@
+name: Sync blog submission form
+
+on:
+  push:
+    paths:
+      - data/blog-taxonomy.json
+  workflow_dispatch:
+
+concurrency:
+  group: submission-form-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    if:
+      github.ref == format('refs/heads/{0}',
+      github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+          cache: pnpm
+
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Regenerate and validate the submission form
+        run: |
+          pnpm generate:submission-form
+          pnpm test:submission-form
+
+      - name: Commit and publish only the generated form
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          default_branch='${{ github.event.repository.default_branch }}'
+          remote_ref="refs/remotes/origin/${default_branch}"
+          generated_file='.github/ISSUE_TEMPLATE/submit-blog.yml'
+
+          git add "$generated_file"
+          if git diff --cached --quiet; then
+            echo 'The submission form is already synchronized.'
+            exit 0
+          fi
+
+          staged_files="$(git diff --cached --name-only)"
+          if [[ "$staged_files" != "$generated_file" ]]; then
+            echo 'Refusing to publish files other than the generated submission form.' >&2
+            git diff --cached --name-status >&2
+            exit 1
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update generated blog submission form'
+
+          published=false
+          for attempt in 1 2 3; do
+            echo "Synchronizing with origin/${default_branch} (attempt ${attempt}/3)."
+            git fetch origin "refs/heads/${default_branch}:$remote_ref"
+            if ! git rebase "$remote_ref"; then
+              echo 'Rebase conflict; leaving the change for a pull request.' >&2
+              git rebase --abort || true
+              break
+            fi
+            if git push origin "HEAD:refs/heads/${default_branch}"; then
+              published=true
+              break
+            fi
+            echo 'Default branch push was rejected; retrying safely.' >&2
+          done
+
+          if [[ "$published" == true ]]; then
+            exit 0
+          fi
+
+          branch="automation/update-submission-form-${GITHUB_RUN_ID}"
+          git switch -c "$branch"
+          git push --set-upstream origin "$branch"
+          gh pr create \
+            --base "$default_branch" \
+            --head "$branch" \
+            --title 'Update generated blog submission form' \
+            --body 'Updates .github/ISSUE_TEMPLATE/submit-blog.yml from data/blog-taxonomy.json. This pull request was created automatically because the default branch could not be updated directly.'

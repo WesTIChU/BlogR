@@ -801,3 +801,18 @@ test('catalogue generation is limited to data and known generated pages', () => 
   )
   assert.equal(files.length, taxonomy.categories.length + 3)
 })
+
+test('approval catalogue files include only the submission pages and its country page', () => {
+  const files = catalogueFiles(taxonomy, {
+    category: 'arts-and-entertainment',
+    country: 'GR'
+  })
+  assert.deepEqual(files, [
+    'data/blogs.json',
+    'docs/blogs.md',
+    'docs/recently-added.md',
+    'docs/collections/arts-and-entertainment.md',
+    'docs/country/greece.md'
+  ])
+  assert.equal(files.includes('docs/collections/travel-outdoors.md'), false)
+})

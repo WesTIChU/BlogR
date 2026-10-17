@@ -4,7 +4,7 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
-import { normalizeCountryCode } from '../shared/countries.js'
+import { countryPath, normalizeCountryCode } from '../shared/countries.js'
 import {
   comparableBlogUrl,
   normalizeBlogSubmissionUrl
@@ -612,16 +612,26 @@ export function existingSubmissionPullRequest(pullRequests) {
   return pullRequests.find((pullRequest) => pullRequest?.number) ?? null
 }
 
-export function catalogueFiles(taxonomy) {
-  return [
-    'data/blogs.json',
-    'docs/blogs.md',
-    'docs/recently-added.md',
-    'docs/personal-writing.md',
-    ...taxonomy.categories
-      .filter(({ slug }) => slug !== 'personal-writing')
-      .map(({ slug }) => `docs/collections/${slug}.md`)
-  ]
+export function catalogueFiles(taxonomy, submission = null) {
+  const files = ['data/blogs.json', 'docs/blogs.md', 'docs/recently-added.md']
+  if (!submission) {
+    return [
+      ...files,
+      'docs/personal-writing.md',
+      ...taxonomy.categories
+        .filter(({ slug }) => slug !== 'personal-writing')
+        .map(({ slug }) => `docs/collections/${slug}.md`)
+    ]
+  }
+  files.push(
+    submission.category === 'personal-writing'
+      ? 'docs/personal-writing.md'
+      : `docs/collections/${submission.category}.md`
+  )
+  if (submission.country) {
+    files.push(`docs${countryPath(submission.country)}.md`)
+  }
+  return files
 }
 
 export function communityCatalogueFiles() {
@@ -774,7 +784,7 @@ async function run() {
   await exec('git', ['checkout', '-b', branch])
   const generated =
     type === 'blog'
-      ? [...catalogueFiles(nextTaxonomy)]
+      ? [...catalogueFiles(nextTaxonomy, submission)]
       : communityCatalogueFiles()
   if (type === 'blog') {
     const nextBlogs = appendBlogEntry(blogs, entry)

@@ -671,6 +671,17 @@ test('renders every blog exactly once in the grouped All Blogs page', () => {
   }
 })
 
+test('renders the canonical catalogue deterministically without duplicate entries', () => {
+  const sections = groupByCategory(blogs)
+  const first = page('All Blogs', 'Description', blogs, sections)
+  const second = page('All Blogs', 'Description', blogs, sections)
+  assert.equal(first, second)
+  for (const blog of blogs) {
+    const occurrences = first.split(`data-blog-url="${blog.url}"`).length - 1
+    assert.equal(occurrences, 1, `Expected one rendered entry for ${blog.name}`)
+  }
+})
+
 test('renders nested category headings and preserves blog metadata', () => {
   const markdown = page(
     'All Blogs',

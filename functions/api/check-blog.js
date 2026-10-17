@@ -8,8 +8,14 @@ import { validateUrl } from './submit-blog-validation.js'
 /* global Response, URL, fetch, process */
 
 const blogs = await (async () => {
-  if (typeof process !== 'undefined' && process.getBuiltinModule) {
-    const fs = process.getBuiltinModule('fs')
+  const nodeProcess =
+    typeof process !== 'undefined' &&
+    process.release?.name === 'node' &&
+    typeof process.getBuiltinModule === 'function'
+      ? process
+      : undefined
+  if (nodeProcess) {
+    const fs = nodeProcess.getBuiltinModule('fs')
     return JSON.parse(
       fs.readFileSync(new URL('../../data/blogs.json', import.meta.url), 'utf8')
     )

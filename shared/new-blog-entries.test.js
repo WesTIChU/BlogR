@@ -34,6 +34,19 @@ test('treats equivalent trailing-slash URLs as existing', () => {
   )
 })
 
+test('normalizes protocol, www and harmless tracking variations', () => {
+  assert.equal(
+    comparableBlogUrl(
+      'http://www.example.com/articles///?utm_source=newsletter&keep=1#top'
+    ),
+    'https://example.com/articles?keep=1'
+  )
+  assert.notEqual(
+    comparableBlogUrl('https://blog.example.com/'),
+    comparableBlogUrl('https://example.com/')
+  )
+})
+
 test('does not treat edits to existing entries as new blogs', () => {
   assert.deepEqual(
     getNewBlogEntries(

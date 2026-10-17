@@ -6,6 +6,7 @@ import { promisify } from 'node:util'
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
 import { normalizeCountryCode } from '../shared/countries.js'
+import { comparableBlogUrl } from '../shared/new-blog-entries.js'
 import { getLondonDateKey } from '../shared/recently-added.js'
 import { validateBlogs, validateCommunities } from './generate-blog-pages.js'
 
@@ -467,9 +468,9 @@ export function validateSubmission(submission, blogs, taxonomy) {
     }
   }
 
-  const normalizedUrl = normalizeBlogHealthUrl(url).toString()
+  const normalizedUrl = comparableBlogUrl(url)
   const duplicate = blogs.find(
-    (blog) => normalizeBlogHealthUrl(blog.url).toString() === normalizedUrl
+    (blog) => comparableBlogUrl(blog.url) === normalizedUrl
   )
   if (duplicate)
     throw new Error(`Duplicate blog URL already exists: ${duplicate.name}`)
@@ -514,10 +515,9 @@ export function validateCommunitySubmission(
   const section = sectionByTitle.get(submission.section)
   if (!section) throw new Error('Invalid community type')
 
-  const normalizedUrl = normalizeBlogHealthUrl(url).toString()
+  const normalizedUrl = comparableBlogUrl(url)
   const duplicate = [...communities, ...blogs].find(
-    (community) =>
-      normalizeBlogHealthUrl(community.url).toString() === normalizedUrl
+    (community) => comparableBlogUrl(community.url) === normalizedUrl
   )
   if (duplicate) {
     throw new Error(`Duplicate community URL already exists: ${duplicate.name}`)
@@ -580,11 +580,10 @@ export function getAdditionMetadata(now = new Date()) {
 }
 
 export function appendBlogEntry(entries, entry) {
-  const normalizedUrl = normalizeBlogHealthUrl(entry.url).toString()
+  const normalizedUrl = comparableBlogUrl(entry.url)
   if (
     entries.some(
-      (existing) =>
-        normalizeBlogHealthUrl(existing.url).toString() === normalizedUrl
+      (existing) => comparableBlogUrl(existing.url) === normalizedUrl
     )
   ) {
     return entries

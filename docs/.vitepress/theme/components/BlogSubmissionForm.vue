@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import taxonomy from '../../../../data/blog-taxonomy.json'
 import {
   COUNTRIES,
@@ -28,10 +28,74 @@ const form = ref({
 const busy = ref(false)
 const error = ref('')
 const success = ref('')
+const duplicateStatus = ref<
+  'idle' | 'checking' | 'listed' | 'pending' | 'available' | 'unavailable'
+>('idle')
+const duplicateName = ref('')
+const duplicateCache = new Map<
+  string,
+  { status: typeof duplicateStatus.value; name?: string }
+>()
+let duplicateTimer: ReturnType<typeof setTimeout> | undefined
+let duplicateRequest = 0
 const turnstileElement = ref<HTMLElement | null>(null)
 const turnstileId = ref<string>()
 const turnstileToken = ref('')
 const siteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined
+
+const checkDuplicate = async () => {
+  const value = form.value.url.trim()
+  const requestId = ++duplicateRequest
+  if (!value) {
+    duplicateStatus.value = 'idle'
+    return
+  }
+  let parsed: URL
+  try {
+    parsed = new URL(value)
+    if (!['http:', 'https:'].includes(parsed.protocol)) throw new Error()
+  } catch {
+    duplicateStatus.value = 'idle'
+    return
+  }
+  parsed.hash = ''
+  parsed.hostname = parsed.hostname.toLowerCase()
+  if (
+    (parsed.protocol === 'http:' && parsed.port === '80') ||
+    (parsed.protocol === 'https:' && parsed.port === '443')
+  )
+    parsed.port = ''
+  const canonical = parsed.toString()
+  const cached = duplicateCache.get(canonical)
+  if (cached) {
+    duplicateStatus.value = cached.status
+    duplicateName.value = cached.name ?? ''
+    return
+  }
+  duplicateStatus.value = 'checking'
+  try {
+    const response = await fetch(
+      `/api/check-blog?url=${encodeURIComponent(value)}`
+    )
+    const result = await response.json().catch(() => ({}))
+    if (!response.ok) throw new Error()
+    if (requestId !== duplicateRequest) return
+    duplicateStatus.value = result.status
+    duplicateName.value = result.name ?? ''
+    duplicateCache.set(canonical, { status: result.status, name: result.name })
+  } catch {
+    if (requestId === duplicateRequest) duplicateStatus.value = 'unavailable'
+  }
+}
+
+const scheduleDuplicateCheck = () => {
+  if (duplicateTimer) clearTimeout(duplicateTimer)
+  duplicateStatus.value = 'idle'
+  duplicateName.value = ''
+  duplicateTimer = setTimeout(checkDuplicate, 500)
+}
+
+watch(() => form.value.url, scheduleDuplicateCheck)
 
 const categories = computed(() =>
   [...taxonomy.categories].sort((a, b) => a.title.localeCompare(b.title))
@@ -105,6 +169,8 @@ onMounted(() => {
 })
 
 onBeforeUnmount(() => {
+  if (duplicateTimer) clearTimeout(duplicateTimer)
+  duplicateRequest++
   if (turnstileId.value) window.turnstile?.reset(turnstileId.value)
 })
 
@@ -112,6 +178,15 @@ const submit = async () => {
   if (busy.value) return
   error.value = ''
   success.value = ''
+  if (duplicateStatus.value !== 'available') {
+    error.value =
+      duplicateStatus.value === 'listed'
+        ? 'This blog is already listed in BlogR Directory.'
+        : duplicateStatus.value === 'pending'
+          ? 'This blog has already been submitted and is awaiting review.'
+          : 'We could not confirm that this URL is available. Please try again.'
+    return
+  }
   if (!siteKey || !turnstileId.value) {
     error.value =
       'The submission form is not configured yet. Please try again later.'
@@ -197,7 +272,36 @@ const countryChanged = () => {
         maxlength="2048"
         placeholder="https://example.com/"
         inputmode="url"
+        @blur="checkDuplicate"
       />
+      <p
+        v-if="duplicateStatus !== 'idle'"
+        class="blog-submission-duplicate"
+        :class="{
+          'blog-submission-error':
+            duplicateStatus === 'listed' ||
+            duplicateStatus === 'pending' ||
+            duplicateStatus === 'unavailable'
+        }"
+        role="status"
+      >
+        <template v-if="duplicateStatus === 'checking'">
+          Checking BlogR for duplicates...
+        </template>
+        <template v-else-if="duplicateStatus === 'listed'">
+          This blog is already listed in BlogR!
+          <span v-if="duplicateName">({{ duplicateName }})</span>
+        </template>
+        <template v-else-if="duplicateStatus === 'pending'">
+          This blog has already been submitted and is awaiting review.
+        </template>
+        <template v-else-if="duplicateStatus === 'available'">
+          This blog isn't listed yet. You can continue!
+        </template>
+        <template v-else>
+          We couldn't check this URL right now. Please try again.
+        </template>
+      </p>
     </div>
     <div class="blog-submission-field">
       <label for="submission-description">
@@ -304,7 +408,14 @@ const countryChanged = () => {
     <button
       class="blog-submission-button"
       type="submit"
-      :disabled="busy || !!success"
+      :disabled="
+        busy ||
+        !!success ||
+        duplicateStatus === 'listed' ||
+        duplicateStatus === 'pending' ||
+        duplicateStatus === 'checking' ||
+        duplicateStatus === 'unavailable'
+      "
     >
       {{ busy ? 'Submitting…' : 'Submit blog' }}
     </button>
@@ -361,6 +472,11 @@ const countryChanged = () => {
 }
 .blog-submission-message {
   margin: 1rem 0;
+}
+.blog-submission-duplicate {
+  margin: 0.5rem 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 0.9rem;
 }
 .blog-submission-error {
   color: var(--vp-c-danger-1);

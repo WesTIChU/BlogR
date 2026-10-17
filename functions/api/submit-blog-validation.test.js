@@ -113,6 +113,93 @@ test('Pages Function verifies Turnstile and creates a review-only GitHub issue',
   }
 })
 
+test('Pages Function rejects a published duplicate before checking GitHub issues', async () => {
+  const originalFetch = globalThis.fetch
+  let githubCalls = 0
+  globalThis.fetch = async (url) => {
+    if (url.includes('siteverify')) {
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    }
+    githubCalls += 1
+    return new Response('unexpected', { status: 500 })
+  }
+  try {
+    const response = await onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          ...input({
+            url: 'http://www.johnclare.blogspot.com/?utm_source=test'
+          }),
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+    assert.equal(response.status, 409)
+    assert.deepEqual(await response.json(), {
+      error: 'This blog is already listed in BlogR Directory.'
+    })
+    assert.equal(githubCalls, 0)
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
+test('Pages Function rejects a pending duplicate using URL variations', async () => {
+  const originalFetch = globalThis.fetch
+  const calls = []
+  globalThis.fetch = async (url, options) => {
+    calls.push({ url, options })
+    if (url.includes('siteverify')) {
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    }
+    return new Response(
+      JSON.stringify([
+        {
+          body: '### Blog URL\n\nhttp://www.pending.example/blog/?utm_medium=email#top\n'
+        }
+      ]),
+      { status: 200 }
+    )
+  }
+  try {
+    const response = await onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          ...input({ url: 'https://pending.example/blog/' }),
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+    assert.equal(response.status, 409)
+    assert.deepEqual(await response.json(), {
+      error: 'This blog has already been submitted and is awaiting review.'
+    })
+    assert.equal(
+      calls.some(
+        ({ url, options }) =>
+          options?.method === 'POST' && url.endsWith('/issues')
+      ),
+      false
+    )
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
 test('Pages Function fails safely when configuration or rate limiting is unavailable', async () => {
   const request = new Request('https://blogr.directory/api/submit-blog', {
     method: 'POST'

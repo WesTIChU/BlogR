@@ -6,6 +6,7 @@ import {
   getCountryInfo,
   normalizeCountryCode
 } from '../../shared/countries.js'
+import { comparableBlogUrl } from '../../shared/new-blog-entries.js'
 
 export const MAX_NAME_LENGTH = 120
 export const MAX_DESCRIPTION_LENGTH = 500
@@ -78,8 +79,7 @@ export const validateUrl = (value) => {
   ) {
     throw new Error('Blog URL must be a public HTTP(S) URL')
   }
-  url.hash = ''
-  return url.toString()
+  return comparableBlogUrl(url.toString())
 }
 
 const categoryByTitle = (title) =>

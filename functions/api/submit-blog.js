@@ -1,5 +1,10 @@
 /* global FormData, Response, fetch */
 
+import blogs from '../../data/blogs.json' with { type: 'json' }
+import {
+  findListedBlog,
+  hasPendingSubmission
+} from '../../shared/blog-duplicate.js'
 import {
   buildIssueBody,
   validateSubmissionInput
@@ -23,6 +28,23 @@ const githubRequest = async (env, path, options = {}) => {
     }
   })
   return response
+}
+
+const getOpenSubmissionIssues = async (env, repository) => {
+  const issues = []
+  for (let page = 1; page <= 10; page += 1) {
+    const response = await githubRequest(
+      env,
+      `/repos/${repository}/issues?state=open&labels=blog-submission&per_page=100&page=${page}`
+    )
+    if (!response.ok) throw new Error('Unable to inspect open submissions')
+    const pageIssues = await response.json()
+    if (!Array.isArray(pageIssues))
+      throw new Error('Invalid open submissions response')
+    issues.push(...pageIssues)
+    if (pageIssues.length < 100) return issues
+  }
+  throw new Error('Open submission list is too large to inspect safely')
 }
 
 const verifyTurnstile = async (token, request, env) => {
@@ -98,20 +120,31 @@ export async function onRequestPost({ request, env }) {
     )
   }
 
+  let listed
+  try {
+    listed = findListedBlog(blogs, submission.url)
+  } catch {
+    return json(
+      { error: 'Duplicate checking is temporarily unavailable.' },
+      503
+    )
+  }
+  if (listed)
+    return json(
+      { error: 'This blog is already listed in BlogR Directory.' },
+      409
+    )
+
   const repository = env.GITHUB_REPOSITORY
-  const issuesPath = `/repos/${repository}/issues?state=open&labels=blog-submission&per_page=100`
   let existing
   try {
-    const response = await githubRequest(env, issuesPath)
-    if (!response.ok)
-      return json({ error: 'Submissions are temporarily unavailable.' }, 502)
-    existing = await response.json()
+    existing = await getOpenSubmissionIssues(env, repository)
   } catch {
     return json({ error: 'Submissions are temporarily unavailable.' }, 502)
   }
-  if (existing.some((issue) => issue.body?.includes(`\n${submission.url}\n`))) {
+  if (hasPendingSubmission(existing, submission.url)) {
     return json(
-      { error: 'That blog has already been submitted and is awaiting review.' },
+      { error: 'This blog has already been submitted and is awaiting review.' },
       409
     )
   }

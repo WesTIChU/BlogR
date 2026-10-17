@@ -6628,5 +6628,23 @@
       "summary": "So hear me out: Pinot Noir on an oddly cool October desert evening, cheesecake, and Depeche Mode. Yes? I say yes.",
       "publishedAt": "2026-10-17T03:06:38.000Z"
     }
+  },
+  "https://boehs.org/in/blog": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-17T07:42:38.238Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://joshuamorris.info/": {
+    "lastPublished": "2026-10-16",
+    "lastChecked": "2026-10-17T07:42:38.238Z",
+    "status": "success",
+    "feedUrl": "https://joshuamorris.info/atom.xml",
+    "latestArticle": {
+      "title": "Worth Wandering: The Public Domain Review",
+      "url": "https://joshuamorris.info/notes/2026/10/16/worth-wandering-public-domain-review/",
+      "summary": "The Public Domain Review is an independent, nonprofit journal exploring the strange, beautiful and often forgotten things humanity has created, from medieval manuscripts and Victorian photography to …",
+      "publishedAt": "2026-10-16T10:00:00.000Z"
+    }
   }
 }

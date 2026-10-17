@@ -743,6 +743,9 @@
   "https://bluemoon-mcfc.co.uk/": {
     "status": "unavailable"
   },
+  "https://boehs.org/in/blog": {
+    "status": "unavailable"
+  },
   "https://brainbaking.com/": {
     "status": "success",
     "lastPublished": "2026-10-16",
@@ -2095,6 +2098,17 @@
       "url": "https://joshreads.com/2026/10/metapost-cyberhacking-comments-of-the-week/",
       "summary": "Comics Curmudgeon readers! Do you love this blog and yearn for a novel written by its creator? Well, good news: Josh Fruhlinger's The Enthusiast is that novel! It's even about newspaper comic strips,…",
       "publishedAt": "2026-10-16T14:46:36.000Z"
+    }
+  },
+  "https://joshuamorris.info/": {
+    "status": "success",
+    "lastPublished": "2026-10-16",
+    "feedUrl": "https://joshuamorris.info/atom.xml",
+    "latestArticle": {
+      "title": "Worth Wandering: The Public Domain Review",
+      "url": "https://joshuamorris.info/notes/2026/10/16/worth-wandering-public-domain-review/",
+      "summary": "The Public Domain Review is an independent, nonprofit journal exploring the strange, beautiful and often forgotten things humanity has created, from medieval manuscripts and Victorian photography to …",
+      "publishedAt": "2026-10-16T10:00:00.000Z"
     }
   },
   "https://justalittlefurther.com/": {

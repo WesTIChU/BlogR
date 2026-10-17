@@ -3,6 +3,7 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import {
   COUNTRIES,
+  COUNTRY_GROUPS,
   COUNTRY_NOT_SPECIFIED,
   countryOption
 } from '../shared/countries.js'
@@ -11,10 +12,50 @@ const FORM_PATH = resolve('.github/ISSUE_TEMPLATE/submit-blog.yml')
 const TAXONOMY_PATH = resolve('data/blog-taxonomy.json')
 const BEGIN = '  # BEGIN GENERATED TAXONOMY OPTIONS'
 const END = '  # END GENERATED TAXONOMY OPTIONS'
-
 const yamlString = (value) => JSON.stringify(value)
 const compareTitles = (left, right) =>
   left.title.localeCompare(right.title, 'en', { sensitivity: 'base' })
+const submissionCountryOption = (country) =>
+  country.code === 'GB-SCT'
+    ? `${country.name} [GB-SCO]`
+    : countryOption(country)
+
+const buildCountryOptions = () => {
+  const groupedCodes = new Set(COUNTRY_GROUPS.flat())
+  const groups = COUNTRY_GROUPS.map((codes) => {
+    const countries = codes.map((code) =>
+      COUNTRIES.find((country) => country.code === code)
+    )
+    if (countries.some((country) => !country)) {
+      throw new Error(
+        'Submission form country grouping contains an unknown code'
+      )
+    }
+    return { codes, countries }
+  })
+  const remainingCountries = COUNTRIES.filter(
+    ({ code }) => !groupedCodes.has(code)
+  )
+  const insertions = groups
+    .map(({ codes, countries }) => ({
+      index: COUNTRIES.slice(
+        0,
+        COUNTRIES.findIndex(({ code }) => code === codes[0])
+      ).filter(({ code }) => !groupedCodes.has(code)).length,
+      countries
+    }))
+    .sort((left, right) => left.index - right.index)
+  let offset = 0
+  for (const { index, countries } of insertions) {
+    remainingCountries.splice(index + offset, 0, ...countries)
+    offset += countries.length
+  }
+  return [
+    COUNTRY_NOT_SPECIFIED,
+    ...remainingCountries.map(submissionCountryOption),
+    'Other / Not listed'
+  ]
+}
 
 export function buildTaxonomyOptions(taxonomy) {
   const categories = [...(taxonomy.categories ?? [])].sort(compareTitles)
@@ -25,15 +66,20 @@ export function buildTaxonomyOptions(taxonomy) {
         .map(({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`)
   )
   const categoryOptions = [...categorySubcategoryOptions, 'Not sure / Other']
-  const countryOptions = [
-    COUNTRY_NOT_SPECIFIED,
-    ...COUNTRIES.map(countryOption)
-  ]
+  const countryOptions = buildCountryOptions()
   if (new Set(categoryOptions).size !== categoryOptions.length) {
     throw new Error('Submission form taxonomy options contain duplicates')
   }
   if (categoryOptions.some((option) => !option)) {
     throw new Error('Submission form taxonomy options contain empty values')
+  }
+  if (
+    new Set(countryOptions).size !== countryOptions.length ||
+    countryOptions.some((option) => !option)
+  ) {
+    throw new Error(
+      'Submission form country options contain duplicates or empties'
+    )
   }
 
   const dropdown = (
@@ -88,6 +134,16 @@ export function buildTaxonomyOptions(taxonomy) {
       countryOptions,
       false
     ),
+    [
+      '  - type: input',
+      '    id: country-place',
+      '    attributes:',
+      `      label: ${yamlString('Country or place not listed?')}`,
+      `      description: ${yamlString("If your country, territory or region isn't listed, enter it here.")}`,
+      `      placeholder: ${yamlString('Enter your country or place')}`,
+      '    validations:',
+      '      required: false'
+    ].join('\n'),
     END
   ].join('\n')
 }

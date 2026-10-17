@@ -20,6 +20,7 @@ const IGNORED_SUBCATEGORIES = new Set([
   'Other / Suggest a subcategory'
 ])
 const EMPTY_SUBCATEGORY_VALUES = new Set(['', '_No response_', 'None'])
+const OTHER_COUNTRY_OPTION = 'Other / Not listed'
 const REQUIRED_FORM_HEADINGS = ['### Blog name', '### Blog URL']
 
 const hasBlogCategoryHeading = (body) =>
@@ -148,6 +149,9 @@ export function parseIssueForm(body) {
   const legacyCategory = get('main category')
   const legacySubcategory = get('subcategory')
   const categorySelection = combinedCategory || legacyCategory
+  const countryPlace = parseCustomCountryPlace(
+    get('country or place not listed?')
+  )
   return {
     name: cleanValue(get('blog name'), 'blog name', MAX_NAME_LENGTH),
     url: cleanValue(get('blog url'), 'blog URL', MAX_URL_LENGTH),
@@ -163,17 +167,28 @@ export function parseIssueForm(body) {
       combinedCategory || legacySubcategory
     ),
     country: parseCountry(get('country')),
+    ...(countryPlace ? { countryPlace } : {}),
     notes: get('additional notes')
   }
 }
 
 function parseCountry(value) {
-  if (!value || value === '_No response_' || value === 'Not specified') {
+  if (
+    !value ||
+    value === '_No response_' ||
+    value === 'Not specified' ||
+    value === OTHER_COUNTRY_OPTION
+  ) {
     return undefined
   }
   const match = value.match(/^.+ \[([A-Z]{2}(?:-[A-Z]{3})?)\]$/)
   if (!match) throw new Error('Invalid country selection')
   return normalizeCountryCode(match[1])
+}
+
+function parseCustomCountryPlace(value) {
+  if (!value || value === '_No response_') return undefined
+  return cleanValue(value, 'country or place not listed', 120)
 }
 
 export function parseCommunityIssueForm(body) {
@@ -422,6 +437,13 @@ export function validateSubmission(submission, blogs, taxonomy) {
 
   const { categories } = taxonomyMaps(taxonomy)
   const country = normalizeCountryCode(submission.country)
+  const countryPlace = submission.countryPlace
+    ? cleanValue(
+        submission.countryPlace,
+        'country or place not listed',
+        MAX_NAME_LENGTH
+      )
+    : undefined
   const category = categories.get(classificationKey(submission.category))
   if (!category) throw new Error('Invalid main category')
 
@@ -459,6 +481,10 @@ export function validateSubmission(submission, blogs, taxonomy) {
     category: category.slug,
     subcategory,
     ...(country ? { country } : {}),
+    ...(countryPlace ? { countryPlace } : {}),
+    ...(country && countryPlace
+      ? { countryReview: 'Listed country and custom location both supplied' }
+      : {}),
     ...(suggestedSubcategory ? { suggestedSubcategory } : {})
   }
 }
@@ -604,16 +630,20 @@ export function pullRequestDetails(
   branch,
   base,
   suggestedSubcategory,
-  suggestedSubcategoryStatus = 'none'
+  suggestedSubcategoryStatus = 'none',
+  countryPlace
 ) {
   const suggestionSection = suggestedSubcategory
     ? `### Suggested subcategory (${suggestedSubcategoryStatus})\n\n**${suggestedSubcategory}**\n\nThe subcategory was ${suggestedSubcategoryStatus === 'created' ? 'added to the official taxonomy and assigned to this blog' : 'matched to an existing taxonomy entry and assigned to this blog'}.`
     : '### Suggested subcategory for review\n\nNo suggested subcategory was provided.'
+  const countrySection = countryPlace
+    ? `\n\n### Country/place for editorial review\n\n**${countryPlace}**${entry.country ? `\n\nThe listed country code is **${entry.country}**; review both values before merging.` : '\n\nNo country code was assigned automatically.'}`
+    : ''
   return {
     title: `Add blog: ${entry.name}`,
     head: branch,
     base,
-    body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}\n\n${suggestionSection}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
+    body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}${countrySection}\n\n${suggestionSection}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
   }
 }
 
@@ -802,7 +832,8 @@ async function run() {
           branch,
           repositoryInfo.default_branch,
           submission.suggestedSubcategory,
-          suggestedSubcategoryStatus
+          suggestedSubcategoryStatus,
+          submission.countryPlace
         )
       : communityPullRequestDetails(
           entry,

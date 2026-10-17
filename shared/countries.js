@@ -51,9 +51,24 @@ export const COUNTRIES = [...isoCountries, ...customCountries].sort((a, b) =>
   a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })
 )
 export const COUNTRY_CODES = new Set(COUNTRIES.map(({ code }) => code))
+const COUNTRY_CODE_ALIASES = new Map([['GB-SCO', 'GB-SCT']])
+
+// Form-only convenience groups. The first code is the display anchor; the
+// remaining codes are shown immediately after it without changing their
+// individual identity or status.
+export const COUNTRY_GROUPS = [
+  ['GB', 'GB-ENG', 'GB-SCT', 'GB-WLS', 'GB-NIR', 'IE'],
+  ['US', 'PR', 'GU', 'VI'],
+  ['DK', 'GL', 'FO'],
+  ['NL', 'AW', 'CW', 'SX'],
+  ['FR', 'GF', 'PF', 'NC'],
+  ['CN', 'HK', 'MO'],
+  ['NZ', 'CK', 'NU', 'TK']
+]
 
 export function getCountryInfo(code) {
-  return COUNTRIES.find((country) => country.code === code) ?? null
+  const normalized = COUNTRY_CODE_ALIASES.get(code) ?? code
+  return COUNTRIES.find((country) => country.code === normalized) ?? null
 }
 
 export function countrySlug(countryOrCode) {
@@ -79,10 +94,12 @@ export function countryPath(countryOrCode) {
 
 export function normalizeCountryCode(value) {
   if (value === undefined || value === null || value === '') return undefined
-  if (typeof value !== 'string' || !COUNTRY_CODES.has(value)) {
+  if (typeof value !== 'string') {
     throw new Error('Invalid country code')
   }
-  return value
+  const normalized = COUNTRY_CODE_ALIASES.get(value) ?? value
+  if (!COUNTRY_CODES.has(normalized)) throw new Error('Invalid country code')
+  return normalized
 }
 
 export function countryOption(country) {

@@ -20,11 +20,15 @@ test('supports worldwide country codes and UK nation extensions', () => {
     'GB-ENG',
     'GB-NIR',
     'GB-SCT',
+    'GB-SCO',
     'GB-WLS'
   ]) {
     const country = getCountryInfo(code)
     assert.ok(country)
-    assert.equal(normalizeCountryCode(code), code)
+    assert.equal(
+      normalizeCountryCode(code),
+      code === 'GB-SCO' ? 'GB-SCT' : code
+    )
     assert.ok(country.name)
     assert.ok(country.flag)
   }

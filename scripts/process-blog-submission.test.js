@@ -36,9 +36,10 @@ const body = ({
   category = 'Technology',
   subcategory = 'Technology / Programming & Development',
   country = '',
+  customCountry = '',
   notes = ''
 } = {}) =>
-  `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Country\n\n${country}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Additional notes\n\n${notes}\n`
+  `### Blog name\n\n${name}\n\n### Blog URL\n\n${url}\n\n### Country\n\n${country}\n\n### Country or place not listed?\n\n${customCountry}\n\n### Short description\n\n${description}\n\n### Main category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Additional notes\n\n${notes}\n`
 
 const taxonomyWithoutFootball = () => {
   const copy = structuredClone(taxonomy)
@@ -169,6 +170,7 @@ _No response_
 test('accepts optional country selections and preserves their codes', () => {
   const selections = [
     ['Scotland [GB-SCT]', 'GB-SCT'],
+    ['Scotland [GB-SCO]', 'GB-SCT'],
     ['England [GB-ENG]', 'GB-ENG'],
     ['Wales [GB-WLS]', 'GB-WLS'],
     ['Northern Ireland [GB-NIR]', 'GB-NIR'],
@@ -194,6 +196,55 @@ test('accepts optional country selections and preserves their codes', () => {
   assert.throws(
     () => parseIssueForm(body({ country: 'Atlantis [ZZ]' })),
     /Invalid country/
+  )
+})
+
+test('retains custom locations for review without storing invented country codes', () => {
+  const custom = validateSubmission(
+    parseIssueForm(
+      body({ country: 'Other / Not listed', customCountry: 'Atlantis' })
+    ),
+    blogs,
+    taxonomy
+  )
+  assert.equal(custom.country, undefined)
+  assert.equal(custom.countryPlace, 'Atlantis')
+  assert.equal(buildBlogEntry(custom, '2026-10-10').country, undefined)
+  assert.match(
+    pullRequestDetails(
+      custom,
+      42,
+      'blog-submission/issue-42',
+      'main',
+      null,
+      'none',
+      custom.countryPlace
+    ).body,
+    /Atlantis/
+  )
+
+  const noCustom = validateSubmission(
+    parseIssueForm(body({ country: 'Other / Not listed' })),
+    blogs,
+    taxonomy
+  )
+  assert.equal(noCustom.country, undefined)
+  assert.equal(noCustom.countryPlace, undefined)
+})
+
+test('flags a listed country and custom location supplied together', () => {
+  const submission = validateSubmission(
+    parseIssueForm(
+      body({ country: 'Ireland [IE]', customCountry: 'Northern Ireland' })
+    ),
+    blogs,
+    taxonomy
+  )
+  assert.equal(submission.country, 'IE')
+  assert.equal(submission.countryPlace, 'Northern Ireland')
+  assert.equal(
+    submission.countryReview,
+    'Listed country and custom location both supplied'
   )
 })
 

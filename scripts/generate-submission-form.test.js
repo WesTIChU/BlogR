@@ -3,6 +3,11 @@ import { readFile } from 'node:fs/promises'
 import test from 'node:test'
 import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import {
+  COUNTRIES,
+  COUNTRY_GROUPS,
+  countryOption
+} from '../shared/countries.js'
+import {
   buildTaxonomyOptions,
   syncSubmissionForm
 } from './generate-submission-form.js'
@@ -16,6 +21,13 @@ const syncWorkflow = await readFile(
 const generatedOptions = (block) => {
   const dropdown = block.split('\n  - type: dropdown')[1]
   return [...dropdown.matchAll(/^        - (.+)$/gm)].map(([, value]) =>
+    JSON.parse(value)
+  )
+}
+
+const generatedCountryOptions = (block) => {
+  const dropdowns = block.split('\n  - type: dropdown').slice(1)
+  return [...dropdowns[1].matchAll(/^        - (.+)$/gm)].map(([, value]) =>
     JSON.parse(value)
   )
 }
@@ -106,6 +118,7 @@ test('the sync workflow only reacts to taxonomy changes and publishes safely', (
   assert.match(trigger, /push:/)
   assert.match(trigger, /workflow_dispatch:/)
   assert.match(trigger, /data\/blog-taxonomy\.json/)
+  assert.match(trigger, /shared\/countries\.js/)
   assert.doesNotMatch(trigger, /submit-blog\.yml/)
   assert.match(syncWorkflow, /group: submission-form-publish/)
   assert.match(syncWorkflow, /cancel-in-progress: false/)
@@ -119,4 +132,57 @@ test('the sync workflow only reacts to taxonomy changes and publishes safely', (
     /Refusing to publish files other than the generated submission form/
   )
   assert.match(syncWorkflow, /gh pr create/)
+})
+
+test('groups UK and Ireland country options without duplicates', () => {
+  const block = buildTaxonomyOptions(taxonomy)
+  const groupedOptions = [
+    'United Kingdom [GB]',
+    'England [GB-ENG]',
+    'Scotland [GB-SCO]',
+    'Wales [GB-WLS]',
+    'Northern Ireland [GB-NIR]',
+    'Ireland [IE]'
+  ]
+  const options = generatedCountryOptions(block)
+  const groupedStart = options.indexOf(groupedOptions[0])
+  const allGroupedOptions = new Set([
+    ...COUNTRY_GROUPS.flatMap((codes) =>
+      codes.map((code) => {
+        const country = COUNTRIES.find((item) => item.code === code)
+        return country.code === 'GB-SCT'
+          ? 'Scotland [GB-SCO]'
+          : countryOption(country)
+      })
+    ),
+    'Other / Not listed'
+  ])
+  assert.deepEqual(
+    options.filter((option) => !allGroupedOptions.has(option)),
+    [
+      'Not specified',
+      ...COUNTRIES.filter(
+        ({ code }) => !COUNTRY_GROUPS.flat().includes(code)
+      ).map(countryOption)
+    ]
+  )
+  assert.deepEqual(
+    options.slice(groupedStart, groupedStart + 6),
+    groupedOptions
+  )
+  assert.equal(new Set(options).size, options.length)
+  for (const codes of COUNTRY_GROUPS) {
+    const group = codes.map((code) => {
+      const country = COUNTRIES.find((item) => item.code === code)
+      return country.code === 'GB-SCT'
+        ? 'Scotland [GB-SCO]'
+        : countryOption(country)
+    })
+    const start = options.indexOf(group[0])
+    assert.deepEqual(options.slice(start, start + group.length), group)
+  }
+  assert.equal(options.at(-1), 'Other / Not listed')
+  assert.match(block, /id: country-place/)
+  assert.match(block, /label: "Country or place not listed\?"/)
+  assert.match(block, /placeholder: "Enter your country or place"/)
 })

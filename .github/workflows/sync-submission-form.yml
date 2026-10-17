@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - data/blog-taxonomy.json
+      - shared/countries.js
+      - scripts/generate-submission-form.js
   workflow_dispatch:
 
 concurrency:

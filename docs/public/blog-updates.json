@@ -1508,17 +1508,17 @@
   },
   "https://gardenbetty.com/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-17",
     "feedUrl": "https://gardenbetty.com/feed/",
     "latestArticle": {
-      "title": "Garlic Planting Calculator: How Much You Need to Fill a Garden Bed",
-      "url": "https://gardenbetty.com/garlic-planting-calculator/",
-      "summary": "The article Garlic Planting Calculator: How Much You Need to Fill a Garden Bed appeared first on Garden Betty . Never order too many or too little again. This interactive garlic planting calculator h…",
-      "publishedAt": "2026-10-11T23:45:38.000Z"
+      "title": "Winterizing Strawberries: Don’t Make This Mistake",
+      "url": "https://gardenbetty.com/winterizing-strawberries/",
+      "summary": "The article Winterizing Strawberries: Don’t Make This Mistake appeared first on Garden Betty . The right time to winterize strawberries is later than you think. Here's how to spot dormancy, tidy the …",
+      "publishedAt": "2026-10-17T06:37:59.000Z"
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1964,7 +1964,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2847,13 +2847,13 @@
   },
   "https://paxton-road.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-16",
+    "lastPublished": "2026-10-17",
     "feedUrl": "https://paxton-road.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Friday Update: Sixteen Ten Twenty-six…",
-      "url": "https://paxton-road.blogspot.com/2026/10/friday-update-sixteen-ten-twenty-six.html",
-      "summary": "Welcome to Friday and another update on things here in North Wales in my little workshop that despite the autumnal weather remains comfortable at present. Get yourself comfortable, and let me give yo…",
-      "publishedAt": "2026-10-16T06:34:00.000Z"
+      "title": "On the road…",
+      "url": "https://paxton-road.blogspot.com/2026/10/on-road.html",
+      "summary": "I’m down in Uckfield this weekend for the exhibition and will be enjoying sharing Coalbridge Street with you all… Yet I don’t like hotel stays on my own - so on the road I like to take some trains wi…",
+      "publishedAt": "2026-10-17T06:24:00.000Z"
     }
   },
   "https://perfectmediaserver.com/": {
@@ -4160,7 +4160,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4263,7 +4263,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4325,7 +4325,7 @@
     }
   },
   "https://waitbutwhy.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-11-25",
     "feedUrl": "https://waitbutwhy.com/feed",
     "latestArticle": {
@@ -5073,7 +5073,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5315,7 +5315,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -5438,7 +5438,7 @@
     }
   },
   "https://www.splitbrain.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-14",
     "feedUrl": "https://www.splitbrain.org/feed/blog",
     "latestArticle": {
@@ -5743,9 +5743,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

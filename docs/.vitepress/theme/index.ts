@@ -18,6 +18,7 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { enhanceBlogDetails } from '../components/blog-details-enhancer.js'
+import BlogSubmissionForm from './components/BlogSubmissionForm.vue'
 import { loadProgress } from './composables/nprogress'
 import {
   cancelPendingScroll,
@@ -98,6 +99,7 @@ export default {
   extends: DefaultTheme,
   Layout,
   enhanceApp({ router, app }) {
+    app.component('BlogSubmissionForm', BlogSubmissionForm)
     app.use(FloatingVue)
     loadProgress(router)
 

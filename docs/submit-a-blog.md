@@ -42,13 +42,21 @@ We appreciate every suggestion, but duplicate submissions won't be considered.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 
+## Submit directly
+
+<BlogSubmissionForm />
+
+The resulting GitHub issue is public and contains only the information above. It will not include a contact email.
+
+<hr class="blogr-intro-divider" aria-hidden="true" />
+
 ## Submit via GitHub
 
-**Have a GitHub account?** This is the preferred way to submit a blog.
+**Prefer GitHub?** Submit your blog using our GitHub form.
 
 [**► Open the GitHub Issue Form**](https://github.com/WesTIChU/BlogR/issues/new/choose)
 
-The form asks for the blog's name and URL, with optional fields for a description, category, and additional information.
+The GitHub Issue Form remains available as an alternative and follows the same review process.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 

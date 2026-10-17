@@ -19,6 +19,8 @@ Before submitting, search the directory to check whether the site is already lis
 - Use the [GitHub Issue Form](https://github.com/WesTIChU/BlogR/issues/new?template=submit-blog.yml).
 - Email [add@blogr.directory](mailto:add@blogr.directory) with the blog name, URL, and a short description.
 
+The direct form requires Cloudflare Pages secrets and a Turnstile configuration before it is enabled. See [`SUBMISSION_SETUP.md`](SUBMISSION_SETUP.md).
+
 AI-built websites are welcome, but the blog content must be written by humans. BlogR is not focused on large commercial publishers, paywalled blogs, sales-focused websites, promotional sites with little original content, or content farms and AI-generated articles. Submissions are reviewed manually and inclusion is not guaranteed.
 
 ## Approval workflow

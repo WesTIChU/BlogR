@@ -1,12 +1,22 @@
-/* global Response, URL, fetch */
-
-import blogs from '../../data/blogs.json' with { type: 'json' }
 import {
   canonicalBlogUrl,
   findListedBlog,
   hasPendingSubmission
 } from '../../shared/blog-duplicate.js'
 import { validateUrl } from './submit-blog-validation.js'
+
+/* global Response, URL, fetch, process */
+
+const blogs = await (async () => {
+  if (typeof process !== 'undefined' && process.getBuiltinModule) {
+    const fs = process.getBuiltinModule('fs')
+    return JSON.parse(
+      fs.readFileSync(new URL('../../data/blogs.json', import.meta.url), 'utf8')
+    )
+  }
+  return (await import('../../data/blogs.json', { assert: { type: 'json' } }))
+    .default
+})()
 
 const cache = new Map()
 const requestCounts = new Map()

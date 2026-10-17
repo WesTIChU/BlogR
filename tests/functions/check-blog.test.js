@@ -2,7 +2,7 @@
 
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { onRequestGet } from './check-blog.js'
+import { onRequestGet } from '../../functions/api/check-blog.js'
 
 const env = {
   GITHUB_TOKEN: 'server-only',

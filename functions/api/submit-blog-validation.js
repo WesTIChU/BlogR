@@ -1,12 +1,26 @@
-/* global URL */
-
-import taxonomy from '../../data/blog-taxonomy.json' with { type: 'json' }
 import {
   countryOption,
   getCountryInfo,
   normalizeCountryCode
 } from '../../shared/countries.js'
 import { comparableBlogUrl } from '../../shared/new-blog-entries.js'
+
+/* global URL, process */
+
+const taxonomy = await (async () => {
+  if (typeof process !== 'undefined' && process.getBuiltinModule) {
+    const fs = process.getBuiltinModule('fs')
+    return JSON.parse(
+      fs.readFileSync(
+        new URL('../../data/blog-taxonomy.json', import.meta.url),
+        'utf8'
+      )
+    )
+  }
+  return (
+    await import('../../data/blog-taxonomy.json', { assert: { type: 'json' } })
+  ).default
+})()
 
 export const MAX_NAME_LENGTH = 120
 export const MAX_DESCRIPTION_LENGTH = 500

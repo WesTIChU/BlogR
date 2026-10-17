@@ -5,15 +5,15 @@ import test from 'node:test'
 import taxonomy from '../../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../../data/blogs.json' with { type: 'json' }
 import {
-  parseIssueForm,
-  validateSubmission
-} from '../../scripts/process-blog-submission.js'
-import {
   buildIssueBody,
   validateSubmissionInput,
   validateUrl
-} from './submit-blog-validation.js'
-import { onRequestPost } from './submit-blog.js'
+} from '../../functions/api/submit-blog-validation.js'
+import { onRequestPost } from '../../functions/api/submit-blog.js'
+import {
+  parseIssueForm,
+  validateSubmission
+} from '../../scripts/process-blog-submission.js'
 
 const input = (overrides = {}) => ({
   name: 'Example Blog',

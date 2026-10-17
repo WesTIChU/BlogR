@@ -1,6 +1,3 @@
-/* global FormData, Response, fetch */
-
-import blogs from '../../data/blogs.json' with { type: 'json' }
 import {
   findListedBlog,
   hasPendingSubmission
@@ -9,6 +6,19 @@ import {
   buildIssueBody,
   validateSubmissionInput
 } from './submit-blog-validation.js'
+
+/* global FormData, Response, URL, fetch, process */
+
+const blogs = await (async () => {
+  if (typeof process !== 'undefined' && process.getBuiltinModule) {
+    const fs = process.getBuiltinModule('fs')
+    return JSON.parse(
+      fs.readFileSync(new URL('../../data/blogs.json', import.meta.url), 'utf8')
+    )
+  }
+  return (await import('../../data/blogs.json', { assert: { type: 'json' } }))
+    .default
+})()
 
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), {

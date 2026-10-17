@@ -1755,14 +1755,14 @@
     }
   },
   "https://hackernoon.com/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-16T22:44:42.334Z",
+    "lastPublished": "2026-10-17",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/500-blog-posts-to-learn-about-gaming?source=rss",
-      "summary": "Learn everything you need to know about Gaming via these 500 free HackerNoon blog posts.",
-      "publishedAt": "2026-10-16T20:02:39.000Z"
+      "url": "https://hackernoon.com/how-to-spend-six-months-changing-a-light-bulb?source=rss",
+      "summary": "The insanity of the over-governed workplace.",
+      "publishedAt": "2026-10-17T07:00:02.000Z"
     }
   },
   "https://www.homeautomationguy.io/": {
@@ -1778,15 +1778,15 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-17T10:04:52.308Z",
+    "lastPublished": "2026-10-17",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Broadband boss says Openreach and BT’s SFI fault fixing charge should not exist",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/broadband-boss-says-openreach-and-bts-sfi-fault-fixing-charge-should-not-exist.html",
-      "summary": "The boss UK broadband ISP Andrews & Arnold (AAISP), Adrian Kennard, has tabled an interesting argument for why the charges still being levelled against them by BT Wholesale and Openreach for Special …",
-      "publishedAt": "2026-10-16T23:01:53.000Z"
+      "title": "EE becomes first UK mobile network to confirm iPhone Handoff support",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/ee-becomes-first-uk-mobile-network-to-confirm-iphone-handoff-support.html",
+      "summary": "Mobile operator EE looks set to become the first UK network to introduce support for Apple’s new iPhone Handoff feature, which allows customers to easily switch back and forth between two iPhone mode…",
+      "publishedAt": "2026-10-17T10:47:45.000Z"
     }
   },
   "https://itsfoss.com/": {
@@ -2876,14 +2876,14 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-10-17",
-    "lastChecked": "2026-10-17T08:44:42.596Z",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "The Scottish media insults more than Celtic fans when it promotes Jason Cundy.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/media-insults-celtic-fans-publishing-jason-cundy/",
-      "summary": "Another Celtic European defeat, and once again the clown car screeches to a halt and all the merry The post The Scottish media insults more than Celtic fans when it promotes Jason Cundy. appeared fir…",
-      "publishedAt": "2026-10-17T08:30:30.000Z"
+      "title": "Hearts come to Celtic Park nursing Scottish football’s dumbest conspiracy theory.",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/hearts-celtic-park-dumbest-conspiracy-theory/",
+      "summary": "The Edinburgh media is running stories ahead of Sunday’s game about the supposed injustice Hearts suffered last season. The post Hearts come to Celtic Park nursing Scottish football’s dumbest conspir…",
+      "publishedAt": "2026-10-17T10:48:13.000Z"
     }
   },
   "https://readceltic.com/": {
@@ -3010,15 +3010,15 @@
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://www.timeextension.com/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-16T17:45:13.168Z",
+    "lastPublished": "2026-10-17",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Analogue Unveils Super Nt+ & Mega Sg+, Updated Versions of Its FPGA-Powered SNES & Mega Drive Consoles",
-      "url": "https://www.timeextension.com/#article-207770",
-      "summary": "Pre-orders open October 19. Here's something unexpected to end the week: Analogue has just announced refreshes of its FPGA-SNES & Mega Drive consoles, the Super Nt & Mega Sg, with pre-orders set to k…",
-      "publishedAt": "2026-10-16T17:00:00.000Z"
+      "title": "Analogue 3D Receives 'Best Inventions of 2026' Award from TIME Magazine",
+      "url": "https://www.timeextension.com/#article-207743",
+      "summary": "GoldenEye 007 still pulling in the plaudits. TIME magazine has recognised the Analogue 3D in its end-of-year awards , presenting the humble N64 clone with a gong for \"Best Inventions of 2026\". Releas…",
+      "publishedAt": "2026-10-17T11:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3035,8 +3035,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-17T08:44:42.596Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3311,8 +3311,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-17T08:44:42.596Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3341,8 +3341,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-17T08:44:42.596Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3836,15 +3836,15 @@
     }
   },
   "https://www.web-goddess.org/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-16T05:45:10.502Z",
+    "lastPublished": "2026-10-17",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "Fashion translated through Artisan Practice",
-      "url": "https://www.web-goddess.org/archive/95449",
-      "summary": "As part of Sydney Craft Week, this morning I headed over to UTS for a symposium on textile design and working with overseas artisans. It was hosted by Dr. Cecilia Heffer and focused mostly on the uni…",
-      "publishedAt": "2026-10-16T04:59:12.000Z"
+      "title": "Fast & Furious Presents: Hobbs & Shaw",
+      "url": "https://www.web-goddess.org/archive/95482",
+      "summary": "Me: Why is the Rock fighting in a loincloth? Rodd: Because it’s intimidating. Have we really watched nine of these movies? The quality is massively dropping off, for me. This was the only FFCU movie …",
+      "publishedAt": "2026-10-17T11:03:02.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -4538,8 +4538,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-17T08:44:42.596Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -5153,8 +5153,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-17T08:44:42.596Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5354,15 +5354,15 @@
     "feedUrl": null
   },
   "https://www.ibroxnoise.co.uk/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-16T14:45:13.308Z",
+    "lastPublished": "2026-10-17",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Bizarre Kick Off Time Presents Significant Rangers Challenge",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/rangers-8pm-ko-curiosity/",
-      "summary": "Thanks to a bizarre Saturday night kick off time amid a Rangers 8PM KO curiosity, Celtic have a frustrating chance to open the gap to Rangers to 5 points again. Rangers will face Dundee on Saturday e…",
-      "publishedAt": "2026-10-16T14:31:39.000Z"
+      "title": "Rangers injury list grows, but there’s a surprise ‘benefit’",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/rangers-injury-list-mccrorie-devlin-mcinnes/",
+      "summary": "No one ever wants to see Rangers injury list grow, but it is safe to say there’s been a difference with the last two. Obviously, Rangers have two long term injuries, three including Daisuke Yokota. T…",
+      "publishedAt": "2026-10-17T11:09:39.000Z"
     }
   },
   "https://mancityblog.com/": {
@@ -5711,14 +5711,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-17",
-    "lastChecked": "2026-10-17T10:04:52.308Z",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Harry Potter Collection finally lands on Nintendo Switch 2",
-      "url": "https://www.brickfanatics.com/lego-harry-potter-collection-finally-lands-on-nintendo-switch-2",
-      "summary": "10 years too late?",
-      "publishedAt": "2026-10-17T09:39:13.000Z"
+      "title": "LEGO Icons Venice set includes two of the best minifigures of 2026",
+      "url": "https://www.brickfanatics.com/lego-icons-venice-set-includes-two-of-the-best-minifigures-of-2026",
+      "summary": "Cause for celebration",
+      "publishedAt": "2026-10-17T10:37:49.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -6361,8 +6361,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-17T08:44:42.596Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-17T11:09:06.623Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {

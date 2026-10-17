@@ -45,6 +45,16 @@ test('rejects unsafe URLs and mismatched subcategories', () => {
   )
 })
 
+test('adds HTTPS to protocol-less URLs without rewriting explicit HTTP', () => {
+  assert.equal(validateUrl('ruggedscot.com'), 'https://ruggedscot.com/')
+  assert.equal(validateUrl('www.ruggedscot.com'), 'https://www.ruggedscot.com/')
+  assert.equal(validateUrl('http://ruggedscot.com/'), 'http://ruggedscot.com/')
+  assert.equal(
+    validateSubmissionInput(input({ url: 'ruggedscot.com' })).url,
+    'https://ruggedscot.com/'
+  )
+})
+
 test('keeps custom locations editorial-only and compatible with the issue parser', () => {
   const submission = validateSubmissionInput({
     ...input({ country: 'other' }),

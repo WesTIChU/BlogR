@@ -4,7 +4,7 @@ import {
   getCountryInfo,
   normalizeCountryCode
 } from '../../shared/countries.js'
-import { comparableBlogUrl } from '../../shared/new-blog-entries.js'
+import { normalizeBlogSubmissionUrl } from '../../shared/new-blog-entries.js'
 
 /* global URL */
 
@@ -61,7 +61,7 @@ export const validateUrl = (value) => {
   }
   let url
   try {
-    url = new URL(value.trim())
+    url = new URL(normalizeBlogSubmissionUrl(value))
   } catch {
     throw new Error('Blog URL must be a valid HTTP(S) URL')
   }
@@ -79,7 +79,7 @@ export const validateUrl = (value) => {
   ) {
     throw new Error('Blog URL must be a public HTTP(S) URL')
   }
-  return comparableBlogUrl(url.toString())
+  return url.toString()
 }
 
 const categoryByTitle = (title) =>

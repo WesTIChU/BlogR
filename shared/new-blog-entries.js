@@ -9,8 +9,35 @@ const TRACKING_QUERY_PARAMS = new Set([
   'wbraid'
 ])
 
+export const normalizeBlogSubmissionUrl = (value) => {
+  if (typeof value !== 'string') throw new Error('Blog URL is missing')
+  const trimmed = value.trim()
+  if (!trimmed) throw new Error('Blog URL is missing')
+  if (/^[a-z][a-z\d+.-]*:/i.test(trimmed) && !/^https?:\/\//i.test(trimmed)) {
+    throw new Error('Blog URL must be a valid HTTP(S) URL')
+  }
+  const url = new URL(
+    /^https?:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`
+  )
+  if (!['http:', 'https:'].includes(url.protocol)) {
+    throw new Error('Blog URL must be a valid HTTP(S) URL')
+  }
+  if (url.username || url.password) {
+    throw new Error('URLs with credentials are not supported')
+  }
+  url.hash = ''
+  url.hostname = url.hostname.toLowerCase()
+  if (
+    (url.protocol === 'http:' && url.port === '80') ||
+    (url.protocol === 'https:' && url.port === '443')
+  ) {
+    url.port = ''
+  }
+  return url.toString()
+}
+
 export const comparableBlogUrl = (value) => {
-  const url = new URL(value)
+  const url = new URL(normalizeBlogSubmissionUrl(value))
   if (!['http:', 'https:'].includes(url.protocol)) {
     throw new Error('Only HTTP and HTTPS URLs are supported')
   }

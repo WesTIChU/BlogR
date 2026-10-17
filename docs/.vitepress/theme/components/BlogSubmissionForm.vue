@@ -6,6 +6,10 @@ import {
   COUNTRY_GROUPS,
   countryOption
 } from '../../../../shared/countries.js'
+import {
+  comparableBlogUrl,
+  normalizeBlogSubmissionUrl
+} from '../../../../shared/new-blog-entries.js'
 
 declare global {
   interface Window {
@@ -29,7 +33,13 @@ const busy = ref(false)
 const error = ref('')
 const success = ref('')
 const duplicateStatus = ref<
-  'idle' | 'checking' | 'listed' | 'pending' | 'available' | 'unavailable'
+  | 'idle'
+  | 'checking'
+  | 'listed'
+  | 'pending'
+  | 'available'
+  | 'unavailable'
+  | 'invalid'
 >('idle')
 const duplicateName = ref('')
 const duplicateCache = new Map<
@@ -50,22 +60,14 @@ const checkDuplicate = async () => {
     duplicateStatus.value = 'idle'
     return
   }
-  let parsed: URL
+  let normalized: string
   try {
-    parsed = new URL(value)
-    if (!['http:', 'https:'].includes(parsed.protocol)) throw new Error()
+    normalized = normalizeBlogSubmissionUrl(value)
   } catch {
-    duplicateStatus.value = 'idle'
+    duplicateStatus.value = 'invalid'
     return
   }
-  parsed.hash = ''
-  parsed.hostname = parsed.hostname.toLowerCase()
-  if (
-    (parsed.protocol === 'http:' && parsed.port === '80') ||
-    (parsed.protocol === 'https:' && parsed.port === '443')
-  )
-    parsed.port = ''
-  const canonical = parsed.toString()
+  const canonical = comparableBlogUrl(normalized)
   const cached = duplicateCache.get(canonical)
   if (cached) {
     duplicateStatus.value = cached.status
@@ -75,7 +77,7 @@ const checkDuplicate = async () => {
   duplicateStatus.value = 'checking'
   try {
     const response = await fetch(
-      `/api/check-blog?url=${encodeURIComponent(value)}`
+      `/api/check-blog?url=${encodeURIComponent(normalized)}`
     )
     const result = await response.json().catch(() => ({}))
     if (!response.ok) throw new Error()
@@ -85,6 +87,17 @@ const checkDuplicate = async () => {
     duplicateCache.set(canonical, { status: result.status, name: result.name })
   } catch {
     if (requestId === duplicateRequest) duplicateStatus.value = 'unavailable'
+  }
+}
+
+const normalizeUrlField = () => {
+  if (duplicateTimer) clearTimeout(duplicateTimer)
+  try {
+    form.value.url = normalizeBlogSubmissionUrl(form.value.url)
+    checkDuplicate()
+  } catch {
+    duplicateStatus.value = 'invalid'
+    duplicateName.value = ''
   }
 }
 
@@ -184,7 +197,9 @@ const submit = async () => {
         ? 'This blog is already listed in BlogR Directory.'
         : duplicateStatus.value === 'pending'
           ? 'This blog has already been submitted and is awaiting review.'
-          : 'We could not confirm that this URL is available. Please try again.'
+          : duplicateStatus.value === 'invalid'
+            ? 'Please enter a valid website address, such as https://example.com.'
+            : 'We could not confirm that this URL is available. Please try again.'
     return
   }
   if (!siteKey || !turnstileId.value) {
@@ -272,7 +287,7 @@ const countryChanged = () => {
         maxlength="2048"
         placeholder="https://example.com/"
         inputmode="url"
-        @blur="checkDuplicate"
+        @blur="normalizeUrlField"
       />
       <p
         v-if="duplicateStatus !== 'idle'"
@@ -281,7 +296,8 @@ const countryChanged = () => {
           'blog-submission-error':
             duplicateStatus === 'listed' ||
             duplicateStatus === 'pending' ||
-            duplicateStatus === 'unavailable'
+            duplicateStatus === 'unavailable' ||
+            duplicateStatus === 'invalid'
         }"
         role="status"
       >
@@ -297,6 +313,9 @@ const countryChanged = () => {
         </template>
         <template v-else-if="duplicateStatus === 'available'">
           This blog isn't listed yet. You can continue!
+        </template>
+        <template v-else-if="duplicateStatus === 'invalid'">
+          Please enter a valid website address, such as https://example.com.
         </template>
         <template v-else>
           We couldn't check this URL right now. Please try again.
@@ -414,7 +433,7 @@ const countryChanged = () => {
         duplicateStatus === 'listed' ||
         duplicateStatus === 'pending' ||
         duplicateStatus === 'checking' ||
-        duplicateStatus === 'unavailable'
+        duplicateStatus !== 'available'
       "
     >
       {{ busy ? 'Submitting…' : 'Submit blog' }}

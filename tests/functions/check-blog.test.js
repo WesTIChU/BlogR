@@ -25,6 +25,25 @@ test('finds listed blogs using URL variations', async () => {
   })
 })
 
+test('accepts protocol-less URLs when checking listed blogs', async () => {
+  const response = await onRequestGet({
+    request: request('www.5000milewalk.co.uk'),
+    env
+  })
+  assert.deepEqual(await response.json(), {
+    status: 'listed',
+    name: 'A 5000 Mile Walk'
+  })
+})
+
+test('rejects malformed URLs before checking GitHub', async () => {
+  const response = await onRequestGet({
+    request: request('not a valid address'),
+    env
+  })
+  assert.equal(response.status, 400)
+})
+
 test('finds pending submissions without exposing GitHub data', async () => {
   const originalFetch = globalThis.fetch
   globalThis.fetch = async () =>

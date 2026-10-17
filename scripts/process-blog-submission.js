@@ -4,9 +4,11 @@ import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
-import { normalizeBlogHealthUrl } from '../shared/blog-health-url.js'
 import { normalizeCountryCode } from '../shared/countries.js'
-import { comparableBlogUrl } from '../shared/new-blog-entries.js'
+import {
+  comparableBlogUrl,
+  normalizeBlogSubmissionUrl
+} from '../shared/new-blog-entries.js'
 import { getLondonDateKey } from '../shared/recently-added.js'
 import { validateBlogs, validateCommunities } from './generate-blog-pages.js'
 
@@ -380,7 +382,7 @@ export function validateBlogUrl(value) {
   }
   let url
   try {
-    url = normalizeBlogHealthUrl(value.trim())
+    url = new URL(normalizeBlogSubmissionUrl(value))
   } catch {
     throw new Error('Blog URL must be a valid HTTP(S) URL')
   }

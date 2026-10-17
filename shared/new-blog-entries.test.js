@@ -3,7 +3,8 @@ import test from 'node:test'
 import {
   comparableBlogUrl,
   getNewBlogEntries,
-  getUninitializedNewBlogEntries
+  getUninitializedNewBlogEntries,
+  normalizeBlogSubmissionUrl
 } from './new-blog-entries.js'
 
 test('detects multiple genuinely new blogs', () => {
@@ -44,6 +45,25 @@ test('normalizes protocol, www and harmless tracking variations', () => {
   assert.notEqual(
     comparableBlogUrl('https://blog.example.com/'),
     comparableBlogUrl('https://example.com/')
+  )
+})
+
+test('normalizes protocol-less submission URLs while preserving paths and subdomains', () => {
+  assert.equal(
+    normalizeBlogSubmissionUrl('ruggedscot.com/journal'),
+    'https://ruggedscot.com/journal'
+  )
+  assert.equal(
+    normalizeBlogSubmissionUrl('http://ruggedscot.com/'),
+    'http://ruggedscot.com/'
+  )
+  assert.equal(
+    comparableBlogUrl('ruggedscot.com/journal'),
+    comparableBlogUrl('https://ruggedscot.com/journal/')
+  )
+  assert.notEqual(
+    comparableBlogUrl('blog.ruggedscot.com'),
+    comparableBlogUrl('ruggedscot.com')
   )
 })
 

@@ -3,26 +3,10 @@ import {
   findListedBlog,
   hasPendingSubmission
 } from '../../shared/blog-duplicate.js'
+import { blogs } from '../../shared/blogr-function-data.js'
 import { validateUrl } from './submit-blog-validation.js'
 
-/* global Response, URL, fetch, process */
-
-const blogs = await (async () => {
-  const nodeProcess =
-    typeof process !== 'undefined' &&
-    process.release?.name === 'node' &&
-    typeof process.getBuiltinModule === 'function'
-      ? process
-      : undefined
-  if (nodeProcess) {
-    const fs = nodeProcess.getBuiltinModule('fs')
-    return JSON.parse(
-      fs.readFileSync(new URL('../../data/blogs.json', import.meta.url), 'utf8')
-    )
-  }
-  return (await import('../../data/blogs.json', { assert: { type: 'json' } }))
-    .default
-})()
+/* global Response, URL, fetch */
 
 const cache = new Map()
 const requestCounts = new Map()

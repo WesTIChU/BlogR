@@ -1,3 +1,4 @@
+import { taxonomy } from '../../shared/blogr-function-data.js'
 import {
   countryOption,
   getCountryInfo,
@@ -5,28 +6,7 @@ import {
 } from '../../shared/countries.js'
 import { comparableBlogUrl } from '../../shared/new-blog-entries.js'
 
-/* global URL, process */
-
-const taxonomy = await (async () => {
-  const nodeProcess =
-    typeof process !== 'undefined' &&
-    process.release?.name === 'node' &&
-    typeof process.getBuiltinModule === 'function'
-      ? process
-      : undefined
-  if (nodeProcess) {
-    const fs = nodeProcess.getBuiltinModule('fs')
-    return JSON.parse(
-      fs.readFileSync(
-        new URL('../../data/blog-taxonomy.json', import.meta.url),
-        'utf8'
-      )
-    )
-  }
-  return (
-    await import('../../data/blog-taxonomy.json', { assert: { type: 'json' } })
-  ).default
-})()
+/* global URL */
 
 export const MAX_NAME_LENGTH = 120
 export const MAX_DESCRIPTION_LENGTH = 500

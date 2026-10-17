@@ -4785,10 +4785,10 @@
     "lastPublished": "2026-10-17",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Icons Jaguar E-Type gets its biggest discount to date",
-      "url": "https://www.brickfanatics.com/lego-icons-jaguar-e-type-gets-its-biggest-discount-to-date",
-      "summary": "Race on over to Amazon UK",
-      "publishedAt": "2026-10-17T08:50:29.000Z"
+      "title": "LEGO Harry Potter Collection finally lands on Nintendo Switch 2",
+      "url": "https://www.brickfanatics.com/lego-harry-potter-collection-finally-lands-on-nintendo-switch-2",
+      "summary": "10 years too late?",
+      "publishedAt": "2026-10-17T09:39:13.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5154,7 +5154,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-16",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -5952,9 +5952,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

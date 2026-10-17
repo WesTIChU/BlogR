@@ -8132,5 +8132,33 @@
     "addedAt": "2026-10-17T07:31:35.000Z",
     "country": "US",
     "subcategory": "Personal Blogs & Everyday Life"
+  },
+  {
+    "name": "Evan Boehs",
+    "url": "https://boehs.org/in/blog",
+    "description": "Evan Boehs's independent blog about software, open source, technology, digital rights, internet culture and the ideas behind how modern systems work.",
+    "category": "technology",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-17",
+    "addedAt": "2026-10-17T07:41:20.000Z",
+    "country": "US",
+    "subcategory": "Programming & Development"
+  },
+  {
+    "name": "Joshua Morris",
+    "url": "https://joshuamorris.info/",
+    "description": "Joshua Morris's personal notebook of software notes, reading, projects and experiments, exploring web development, local AI, open standards, hardware and the open web.",
+    "category": "technology",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-17",
+    "addedAt": "2026-10-17T07:41:20.000Z",
+    "country": "US",
+    "subcategory": "Programming & Development"
   }
 ]

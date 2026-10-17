@@ -1,13 +1,13 @@
 ---
 title: United States Blogs
-description: 86 blogs listed in United States.
+description: 87 blogs listed in United States.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="86" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="87" />
 
 ## Arts & Entertainment
 
@@ -31,6 +31,7 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Gaming
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://tenfootpole.org/ironspike/" target="_blank" rel="noopener noreferrer">tenfootpole.org - Iron Spike</a></strong> - Independent reviews of tabletop role-playing game adventures, assessing their writing, design, usability and play value.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://tenfootpole.org/ironspike/" data-blog-name="tenfootpole.org - Iron Spike"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;14 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://opinionatedgamers.com/" target="_blank" rel="noopener noreferrer">The Opinionated Gamers</a></strong> - Independent board game blog featuring detailed reviews, player opinions, gaming commentary and coverage of new releases, written by a community of contributors.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://opinionatedgamers.com/" data-blog-name="The Opinionated Gamers"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;17 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Halloween & Horror
 

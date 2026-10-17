@@ -980,9 +980,9 @@
     "lastPublished": "2026-10-17",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/match-report-and-player-ratings-manchester-city-3-2-ipswich-town-premier-league",
-      "summary": "Manchester City survived a late scare to outlast Ipswich Town and continue their 100 percent winning start to the Premier League season at the Etihad Stadium on Saturday.",
-      "publishedAt": "2026-10-17T16:09:11.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-provides-updates-on-five-manchester-city-injury-concerns-after-ipswich-town-win",
+      "summary": "Manchester City maintained their perfect start to the Premier League season this afternoon with a dramatic 3-2 win at home to Ipswich Town - but the victory came at a potential cost.",
+      "publishedAt": "2026-10-17T17:15:09.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -3280,9 +3280,9 @@
     "status": "unavailable"
   },
   "https://rawr.fun/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-08-16",
-    "feedUrl": "https://rawr.fun/rss.xml",
+    "feedUrl": "https://rawr.fun/atom.xml",
     "latestArticle": {
       "url": "https://rawr.fun/notes/follow-b3anz1e-bsky-social/",
       "summary": "I'm now following @b3anz1e.bsky.social !",
@@ -4044,12 +4044,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-17",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36130/lisandro-martinezs-gamble-will-define-the-season",
-      "summary": "Lisandro Martinez’s post-match interview was among a series of statements from United’s senior players in recent months that highlight the same issue: the club’s lack of urgency. Luke Shaw, Harry Mag…",
-      "publishedAt": "2026-10-15T15:37:40.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36141/match-preview-leeds-united-vs-manchester-united",
+      "summary": "Leeds United host bitter rivals Manchester United at Elland Road for Matchweek 7 of the 2026/27 Premier League campaign. With electric hostility expected in West Yorkshire, both sides aim to bounce b…",
+      "publishedAt": "2026-10-17T17:30:19.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5186,7 +5186,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {

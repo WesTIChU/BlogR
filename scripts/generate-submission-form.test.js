@@ -13,13 +13,9 @@ test('committed submission form taxonomy matches the authoritative taxonomy', ()
   assert.equal(syncSubmissionForm(form, taxonomy), form)
 })
 
-test('generates every main category and prefixed subcategory once', () => {
+test('generates every prefixed subcategory once', () => {
   const block = buildTaxonomyOptions(taxonomy)
   for (const category of taxonomy.categories) {
-    assert.match(
-      block,
-      new RegExp(`"${category.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`)
-    )
     for (const subsection of category.subsections) {
       assert.match(
         block,
@@ -29,13 +25,9 @@ test('generates every main category and prefixed subcategory once', () => {
       )
     }
   }
-  assert.equal(
-    (block.match(/Not sure \/ Let the editor decide/g) || []).length,
-    2
-  )
-  assert.match(block, /default: 12/)
-  assert.doesNotMatch(block, /default: 11/)
-  assert.match(block, /Other \/ Suggest a subcategory/)
+  assert.equal((block.match(/Not sure \/ Other/g) || []).length, 1)
+  assert.doesNotMatch(block, /Not sure \/ Let the editor decide/)
+  assert.doesNotMatch(block, /Other \/ Suggest a subcategory/)
 })
 
 test('dropdown defaults are valid zero-based option indices', () => {

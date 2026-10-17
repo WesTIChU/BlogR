@@ -29,32 +29,10 @@ body:
       required: false
   # BEGIN GENERATED TAXONOMY OPTIONS
   - type: dropdown
-    id: category
+    id: category-subcategory
     attributes:
-      label: "Main category"
-      description: "Choose the directory category that best fits. This is a suggestion for editorial review."
-      options:
-        - "Personal Writing"
-        - "Culture & Places"
-        - "Travel & Outdoors"
-        - "Technology"
-        - "Books & Writing"
-        - "Arts & Entertainment"
-        - "Lifestyle & Hobbies"
-        - "Health & Wellbeing"
-        - "Money & Business"
-        - "Science & Nature"
-        - "Internet & Society"
-        - "Religion & Spirituality"
-        - "Not sure / Let the editor decide"
-      default: 12
-    validations:
-      required: true
-  - type: dropdown
-    id: subcategory
-    attributes:
-      label: "Subcategory"
-      description: "Choose an existing subcategory if one fits. This is optional and suggestions are reviewed manually."
+      label: "Category / Subcategory"
+      description: "Choose the directory category and subcategory that best fit. This is a suggestion for editorial review."
       options:
         - "Personal Writing / Journals & Diaries"
         - "Personal Writing / Essays & Reflections"
@@ -126,10 +104,9 @@ body:
         - "Religion & Spirituality / Other Religions & Beliefs"
         - "Religion & Spirituality / Spirituality & Faith"
         - "Religion & Spirituality / Religious Studies & Theology"
-        - "Not sure / Let the editor decide"
-        - "Other / Suggest a subcategory"
+        - "Not sure / Other"
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: country
     attributes:

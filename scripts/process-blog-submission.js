@@ -15,15 +15,16 @@ const MAX_NAME_LENGTH = 120
 const MAX_DESCRIPTION_LENGTH = 500
 const MAX_URL_LENGTH = 2048
 const IGNORED_SUBCATEGORIES = new Set([
+  'Not sure / Other',
   'Not sure / Let the editor decide',
   'Other / Suggest a subcategory'
 ])
 const EMPTY_SUBCATEGORY_VALUES = new Set(['', '_No response_', 'None'])
-const REQUIRED_FORM_HEADINGS = [
-  '### Blog name',
-  '### Blog URL',
-  '### Main category'
-]
+const REQUIRED_FORM_HEADINGS = ['### Blog name', '### Blog URL']
+
+const hasBlogCategoryHeading = (body) =>
+  body.includes('### Category / Subcategory') ||
+  body.includes('### Main category')
 const REQUIRED_COMMUNITY_HEADINGS = [
   '### Community name',
   '### Website URL',
@@ -39,9 +40,9 @@ export function submissionType(body, labels = null) {
     const isCommunity = labels.includes('community-submission')
     if (isBlog && isCommunity) return null
     if (!isBlog && !isCommunity) {
-      const hasBlogHeadings = REQUIRED_FORM_HEADINGS.every((heading) =>
-        body.includes(heading)
-      )
+      const hasBlogHeadings =
+        REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading)) &&
+        hasBlogCategoryHeading(body)
       const hasCommunityHeadings = REQUIRED_COMMUNITY_HEADINGS.every(
         (heading) => body.includes(heading)
       )
@@ -53,7 +54,8 @@ export function submissionType(body, labels = null) {
     }
     if (
       isBlog &&
-      !REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))
+      (!REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading)) ||
+        !hasBlogCategoryHeading(body))
     ) {
       return null
     }
@@ -65,7 +67,10 @@ export function submissionType(body, labels = null) {
     }
     return isBlog ? 'blog' : 'community'
   }
-  if (REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading))) {
+  if (
+    REQUIRED_FORM_HEADINGS.every((heading) => body.includes(heading)) &&
+    hasBlogCategoryHeading(body)
+  ) {
     return 'blog'
   }
   if (REQUIRED_COMMUNITY_HEADINGS.every((heading) => body.includes(heading))) {
@@ -139,12 +144,24 @@ export function parseIssueForm(body) {
     throw new Error('Description contains unsupported markup')
   }
 
+  const combinedCategory = get('category / subcategory')
+  const legacyCategory = get('main category')
+  const legacySubcategory = get('subcategory')
+  const categorySelection = combinedCategory || legacyCategory
   return {
     name: cleanValue(get('blog name'), 'blog name', MAX_NAME_LENGTH),
     url: cleanValue(get('blog url'), 'blog URL', MAX_URL_LENGTH),
     description: description === '_No response_' ? '' : description,
-    category: cleanValue(get('main category'), 'main category', 120),
-    subcategory: normalizeSubmittedSubcategory(get('subcategory')),
+    category: cleanValue(
+      combinedCategory
+        ? combinedCategory.split('/', 1)[0].trim()
+        : categorySelection,
+      combinedCategory ? 'category / subcategory' : 'main category',
+      120
+    ),
+    subcategory: normalizeSubmittedSubcategory(
+      combinedCategory || legacySubcategory
+    ),
     country: parseCountry(get('country')),
     notes: get('additional notes')
   }

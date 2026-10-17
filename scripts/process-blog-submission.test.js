@@ -74,6 +74,24 @@ test('parses a valid issue form and maps taxonomy choices', () => {
   })
 })
 
+test('parses the combined category and subcategory field', () => {
+  const parsed = parseIssueForm(
+    body().replace(
+      '### Main category\n\nTechnology\n\n### Subcategory\n\nTechnology / Programming & Development',
+      '### Category / Subcategory\n\nTechnology / Programming & Development'
+    )
+  )
+  assert.equal(parsed.category, 'Technology')
+  assert.equal(parsed.subcategory, 'Technology / Programming & Development')
+  assert.deepEqual(validateSubmission(parsed, blogs, taxonomy), {
+    name: 'Example Blog',
+    url: 'https://example.com/',
+    description: 'A concise independent blog.',
+    category: 'technology',
+    subcategory: 'Programming & Development'
+  })
+})
+
 test('accepts issue 22 with no Personal Writing subcategory', () => {
   const parsed = parseIssueForm(`### Blog name
 

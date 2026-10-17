@@ -16,37 +16,21 @@ const yamlString = (value) => JSON.stringify(value)
 
 export function buildTaxonomyOptions(taxonomy) {
   const categories = taxonomy.categories ?? []
-  const categoryTitles = categories.map(({ title }) => title)
-  const subcategoryTitles = categories.flatMap(({ title, subsections }) =>
-    (subsections ?? []).map(
-      ({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`
-    )
+  const categorySubcategoryOptions = categories.flatMap(
+    ({ title, subsections }) =>
+      (subsections ?? []).map(
+        ({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`
+      )
   )
-  const categoryOptions = [
-    ...categoryTitles,
-    'Not sure / Let the editor decide'
-  ]
-  const subcategoryOptions = [
-    ...new Set([
-      ...subcategoryTitles,
-      'Not sure / Let the editor decide',
-      'Other / Suggest a subcategory'
-    ])
-  ]
+  const categoryOptions = [...categorySubcategoryOptions, 'Not sure / Other']
   const countryOptions = [
     COUNTRY_NOT_SPECIFIED,
     ...COUNTRIES.map(countryOption)
   ]
-  if (
-    new Set(categoryOptions).size !== categoryOptions.length ||
-    new Set(subcategoryOptions).size !== subcategoryOptions.length
-  ) {
+  if (new Set(categoryOptions).size !== categoryOptions.length) {
     throw new Error('Submission form taxonomy options contain duplicates')
   }
-  if (
-    categoryOptions.some((option) => !option) ||
-    subcategoryOptions.some((option) => !option)
-  ) {
+  if (categoryOptions.some((option) => !option)) {
     throw new Error('Submission form taxonomy options contain empty values')
   }
 
@@ -88,19 +72,12 @@ export function buildTaxonomyOptions(taxonomy) {
   return [
     BEGIN,
     dropdown(
-      'category',
-      'Main category',
-      'Choose the directory category that best fits. This is a suggestion for editorial review.',
+      'category-subcategory',
+      'Category / Subcategory',
+      'Choose the directory category and subcategory that best fit. This is a suggestion for editorial review.',
       categoryOptions,
       true,
-      categoryOptions.length - 1
-    ),
-    dropdown(
-      'subcategory',
-      'Subcategory',
-      'Choose an existing subcategory if one fits. This is optional and suggestions are reviewed manually.',
-      subcategoryOptions,
-      false
+      undefined
     ),
     dropdown(
       'country',

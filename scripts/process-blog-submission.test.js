@@ -175,6 +175,7 @@ test('accepts optional country selections and preserves their codes', () => {
     ['Wales [GB-WLS]', 'GB-WLS'],
     ['Northern Ireland [GB-NIR]', 'GB-NIR'],
     ['United Kingdom [GB]', 'GB'],
+    ['GR', 'GR'],
     ['Canada [CA]', 'CA'],
     ['United States [US]', 'US']
   ]

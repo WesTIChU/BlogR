@@ -184,6 +184,9 @@ function parseCountry(value) {
   ) {
     return undefined
   }
+  if (/^[A-Z]{2}(?:-[A-Z]{3})?$/.test(value)) {
+    return normalizeCountryCode(value)
+  }
   const match = value.match(/^.+ \[([A-Z]{2}(?:-[A-Z]{3})?)\]$/)
   if (!match) throw new Error('Invalid country selection')
   return normalizeCountryCode(match[1])

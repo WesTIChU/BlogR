@@ -1,13 +1,13 @@
 ---
 title: Scotland Blogs
-description: 20 blogs listed in Scotland.
+description: 22 blogs listed in Scotland.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="20" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="22" />
 
 ## Culture & Places
 
@@ -19,6 +19,12 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://ruggedscot.com" target="_blank" rel="noopener noreferrer">RuggedScot</a></strong> - Personal writing about Scottish culture, food, language and everyday life, sharing observations, humour and stories from Scotland.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://ruggedscot.com" data-blog-name="RuggedScot"><span class="blog-favourite" aria-label="Favourite">⭐</span><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;23 August 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.thechaoticscot.com" target="_blank" rel="noopener noreferrer">The Chaotic Scot</a></strong> - Personal writing about Scottish life and culture, sharing candid stories, opinions and everyday experiences with humour.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.thechaoticscot.com" data-blog-name="The Chaotic Scot"><span class="blog-favourite" aria-label="Favourite">⭐</span><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;5 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Internet & Society
+
+### Society & Commentary
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://andywightman.scot/" target="_blank" rel="noopener noreferrer">Land Matters</a></strong> - Andy Wightman’s blog about land ownership, land reform, community rights, governance, democracy, power and money in Scotland.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://andywightman.scot/" data-blog-name="Land Matters"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;17 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Lifestyle & Hobbies
 
@@ -49,6 +55,12 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://jamesg.blog/" target="_blank" rel="noopener noreferrer">James G</a></strong> - Personal essays and reflections on interests, experiences and everyday observations, published on an independent blog.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://jamesg.blog/" data-blog-name="James G"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;3 September 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://rachel.blog/" target="_blank" rel="noopener noreferrer">Rachel by the Bay</a></strong> - Sharp commentary on tech, internet culture, and the modern web.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://rachel.blog/" data-blog-name="Rachel by the Bay"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;6 September 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+## Science & Nature
+
+### Wildlife & Nature
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://scotlandsnature.wordpress.com/" target="_blank" rel="noopener noreferrer">Scotland's Nature</a></strong> - NatureScot’s blog about Scotland’s wildlife, landscapes, conservation work, natural heritage and the people helping protect it.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://scotlandsnature.wordpress.com/" data-blog-name="Scotland's Nature"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;17 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Technology
 

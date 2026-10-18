@@ -1,5 +1,3 @@
-import communities from '../../data/communities.json' with { type: 'json' }
-import websites from '../../data/websites.json' with { type: 'json' }
 import {
   canonicalBlogUrl,
   entriesForSubmissionType,
@@ -7,6 +5,7 @@ import {
   hasPendingSubmission
 } from '../../shared/blog-duplicate.js'
 import { blogs } from '../../shared/blogr-function-data.js'
+import { communities, websites } from '../../shared/cloudflare-function-data.js'
 import { validateUrl } from './submit-blog-validation.js'
 
 /* global Response, URL, fetch */

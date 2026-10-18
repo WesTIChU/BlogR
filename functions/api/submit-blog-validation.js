@@ -1,6 +1,8 @@
-import communityTaxonomy from '../../data/community-taxonomy.json' with { type: 'json' }
-import independentWebTaxonomy from '../../data/independent-web-taxonomy.json' with { type: 'json' }
 import { taxonomy } from '../../shared/blogr-function-data.js'
+import {
+  communityTaxonomy,
+  independentWebTaxonomy
+} from '../../shared/cloudflare-function-data.js'
 import {
   countryOption,
   getCountryInfo,

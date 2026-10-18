@@ -1,11 +1,10 @@
-import communities from '../../data/communities.json' with { type: 'json' }
-import websites from '../../data/websites.json' with { type: 'json' }
 import {
   entriesForSubmissionType,
   findListedBlog,
   hasPendingSubmission
 } from '../../shared/blog-duplicate.js'
 import { blogs } from '../../shared/blogr-function-data.js'
+import { communities, websites } from '../../shared/cloudflare-function-data.js'
 import {
   buildCommunityIssueBody,
   buildIndependentWebsiteIssueBody,

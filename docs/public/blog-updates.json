@@ -1184,9 +1184,9 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-08-08",
-    "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
+    "feedUrl": "https://davidgerard.co.uk/blockchain/xmlrpc.php?rsd",
     "latestArticle": {
       "title": "Molly White interview: following the AI and crypto money in US politics",
       "url": "https://davidgerard.co.uk/blockchain/2026/08/08/molly-white-interview-following-the-ai-and-crypto-money-in-us-politics/",
@@ -1590,7 +1590,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2066,7 +2066,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3694,13 +3694,13 @@
   },
   "https://simonwillison.net/": {
     "status": "success",
-    "lastPublished": "2026-10-16",
+    "lastPublished": "2026-10-17",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also chan…",
-      "publishedAt": "2026-10-16T22:06:37.000Z"
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element …",
+      "publishedAt": "2026-10-17T21:11:12.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -4047,12 +4047,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-17",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36130/lisandro-martinezs-gamble-will-define-the-season",
-      "summary": "Lisandro Martinez’s post-match interview was among a series of statements from United’s senior players in recent months that highlight the same issue: the club’s lack of urgency. Luke Shaw, Harry Mag…",
-      "publishedAt": "2026-10-15T15:37:40.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36152/three-points-manchester-united-at-leeds-united",
+      "summary": "Three points for Manchester United ahead of a big battle for three points at Elland Road on Sunday. Defensive Organisation United have been easy to play through all season. It wouldn’t come as a surp…",
+      "publishedAt": "2026-10-17T18:00:00.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -4268,7 +4268,7 @@
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 1 week ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might use the Tu…",
+      "summary": "This post was last edited 1 week, 1 day ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might use…",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -4404,7 +4404,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4507,7 +4507,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4597,12 +4597,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-16",
+    "lastPublished": "2026-10-17",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173125/how-should-chelsea-line-up-against-everton",
-      "summary": "Chelsea travel up to Merseyside this weekend for a Saturday lunchtime occasion at Everton’s new Hill Dickinson Stadium, and unfortunately we will be doing so without the Captain, who was confirmed to…",
-      "publishedAt": "2026-10-16T16:00:30.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173167/everton-0-2-chelsea-premier-league-post-match-reaction-ratings",
+      "summary": "It didn’t take long for the game to settle into its expected state, Chelsea having all of the ball but Everton leaving no spaces to play in the final third. There was good intensity from the visiting…",
+      "publishedAt": "2026-10-17T13:35:18.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -4852,7 +4852,7 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
@@ -4897,13 +4897,13 @@
   },
   "https://www.dailycartoonist.com/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://www.dailycartoonist.com/index.php/feed/",
     "latestArticle": {
-      "title": "CSotD: The Cult of the Chameleon",
-      "url": "https://www.dailycartoonist.com/index.php/2026/10/17/csotd-the-cult-of-the-chameleon/",
-      "summary": "I’m going to be watching to see if the GOP continues to call Democratic candidates “communists,” now that Dear Leader has openly declared his support of Vladimir Putin. Boris notes that the Russian f…",
-      "publishedAt": "2026-10-17T11:22:50.000Z"
+      "title": "Walt Taylor – RIP",
+      "url": "https://www.dailycartoonist.com/index.php/2026/10/17/walt-taylor-rip/",
+      "summary": "Cartoonist and illustrator and sketch artist Walt Taylor has passed away. Walt Taylor December 21, 1946 – October 8, 2026 Colin Warren-Hicks forThe Norfolk Virginian-Pilot has the obituary (or here):…",
+      "publishedAt": "2026-10-18T02:12:09.000Z"
     }
   },
   "https://www.danflyingsolo.com/": {
@@ -5317,7 +5317,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5559,7 +5559,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

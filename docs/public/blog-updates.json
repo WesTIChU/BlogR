@@ -76,6 +76,20 @@
       "publishedAt": "2026-10-13T13:25:11.216Z"
     }
   },
+  "http://www.retroarchive.org/": {
+    "status": "unavailable"
+  },
+  "https://10015.io/": {
+    "status": "success",
+    "lastPublished": "2026-10-18",
+    "feedUrl": "https://10015.io/tool-feed",
+    "latestArticle": {
+      "title": "TikTok LIVE Generator",
+      "url": "https://10015.io/tools/tiktok-live-generator",
+      "summary": "Create a fake TikTok LIVE screenshot with your own stream image, viewer count, top gifters, comments and a gift combo banner. Free iPhone-size download.",
+      "publishedAt": "2026-10-18T14:00:00.000Z"
+    }
+  },
   "https://13thdimension.com/": {
     "status": "success",
     "lastPublished": "2026-10-18",
@@ -386,8 +400,11 @@
       "publishedAt": "2026-09-05T16:16:53.000Z"
     }
   },
+  "https://archive95.net/": {
+    "status": "unavailable"
+  },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -402,10 +419,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://arseblog.com/feed/",
     "latestArticle": {
-      "title": "Arsenal looking to avoid another blank at the City Ground",
-      "url": "https://arseblog.com/2026/10/arsenal-looking-to-avoid-another-blank-at-the-city-ground/",
-      "summary": "Morning all. Arsenal are in Premier League action this afternoon, taking on Nottingham Forest at the City Ground. It’s been a tricky place for us to visit down the years with just one win in our last…",
-      "publishedAt": "2026-10-18T06:36:50.000Z"
+      "title": "Nottingham Forest v Arsenal – live blog",
+      "url": "https://arseblog.com/2026/10/nottingham-forest-v-arsenal-live-blog-5/",
+      "summary": "Join us for live blog coverage of our Premier League clash away to Nottingham Forest, kick-off 16.30. We’ve got up to the second live text commentary, updates, goal clips, observations and occasional…",
+      "publishedAt": "2026-10-18T15:00:24.000Z"
     }
   },
   "https://arun.is/blog/": {
@@ -775,6 +792,10 @@
       "publishedAt": "2026-10-11T00:00:00.000Z"
     }
   },
+  "https://blogroll.org/": {
+    "status": "unknown",
+    "feedUrl": "https://blogroll.org/assets/favicon/favicon.svg"
+  },
   "https://blogsharer.com/": {
     "status": "unavailable"
   },
@@ -828,6 +849,9 @@
       "publishedAt": "2026-10-16T20:50:00.000Z"
     }
   },
+  "https://brisray.com/web/indiedirs.htm": {
+    "status": "unavailable"
+  },
   "https://britishbeautyblogger.com/": {
     "status": "success",
     "lastPublished": "2026-08-20",
@@ -851,6 +875,9 @@
     }
   },
   "https://britishlandscapesphotography.co.uk/": {
+    "status": "unavailable"
+  },
+  "https://brittanychiang.com/": {
     "status": "unavailable"
   },
   "https://brooksreview.net/": {
@@ -1013,6 +1040,17 @@
       "publishedAt": "2026-10-14T19:15:50.000Z"
     }
   },
+  "https://chuck.is/": {
+    "status": "success",
+    "lastPublished": "2026-10-10",
+    "feedUrl": "https://chuck.is/feed.xml",
+    "latestArticle": {
+      "title": "Implementing a 3-2-1 Backup Strategy with restic and Backblaze B2",
+      "url": "https://chuck.is/paranoid",
+      "summary": "In order to follow a proper 3-2-1 backup strategy, you should have three copies of your important data: two local on different media types, and one off site. For local, I have a DAS with two 14TB dri…",
+      "publishedAt": "2026-10-10T05:00:00.000Z"
+    }
+  },
   "https://chuck.is/writing": {
     "status": "success",
     "lastPublished": "2026-10-10",
@@ -1079,6 +1117,17 @@
       "url": "https://commentingon.xyz/the-great-smoothening-lets-talk-about-analytics-lets-get-weird/",
       "summary": ">> Some smooth brains Nintendo struck gold with the original Switch, and instead of leaning on their “what-if-we” philosophy that has guided their console creation in the past, they decided to play i…",
       "publishedAt": "2026-04-01T00:01:00.000Z"
+    }
+  },
+  "https://computerhistory.org/": {
+    "status": "success",
+    "lastPublished": "2026-10-10",
+    "feedUrl": "https://computerhistory.org/feed/",
+    "latestArticle": {
+      "title": "Sphere: A Pioneering Early Microcomputer, Rediscovered",
+      "url": "https://computerhistory.org/blog/sphere-microcomputer-rediscovered/",
+      "summary": "A new book made possible by CHM research reveals the untold story of Utah’s Sphere Corporation, makers of one of the original desktop all-in-one PCs. IT WAS DECEMBER 1975, and the future was being ma…",
+      "publishedAt": "2026-10-10T21:49:00.000Z"
     }
   },
   "https://computerhistory.org/blogs/": {
@@ -1295,7 +1344,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1314,6 +1363,17 @@
       "url": "https://deepcuts.blog/2026/10/17/lost-tale-an-unpublished-episode-of-vathek-1823-by-charles-pendragon/",
       "summary": "Historical Orientalism The work presented and discussed includes stereotypes of Orientialism in accordance with the period, including depictions of a Jewish character in accordance with antisemitic s…",
       "publishedAt": "2026-10-17T14:33:14.000Z"
+    }
+  },
+  "https://demozoo.org/": {
+    "status": "success",
+    "lastPublished": "2026-10-03",
+    "feedUrl": "https://demozoo.org/news/feed/",
+    "latestArticle": {
+      "title": "Demozoo API will require an API key from 1st November",
+      "url": "https://demozoo.org/news/541/#news-541",
+      "summary": "Due to an unsustainable amount of bot traffic, unauthenticated public access to the Demozoo API is being closed. The website itself will remain public. From 1st November (or sooner if the bot situati…",
+      "publishedAt": "2026-10-03T16:55:38.000Z"
     }
   },
   "https://derekblogster.wordpress.com/": {
@@ -1337,6 +1397,10 @@
       "summary": "Felix Holt (b. Murray, Calloway County, Kentucky, 20 December 1897; d. Bucks County, Pennsylvania, 3 June 1956*) Felix Cacilock Holt was the sixth child of Crawford Duncan (\"C.D.\") Holt (1858-1950) a…",
       "publishedAt": "2026-10-04T07:00:00.000Z"
     }
+  },
+  "https://dev101.io/": {
+    "status": "unknown",
+    "feedUrl": "https://dev101.io/icon.svg"
   },
   "https://dev101.io/blog": {
     "status": "unknown",
@@ -1462,6 +1526,9 @@
       "publishedAt": "2026-10-17T21:32:07.000Z"
     }
   },
+  "https://eien-melody.net/ami/index.php": {
+    "status": "unavailable"
+  },
   "https://english-skills-success.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-06-29",
@@ -1539,6 +1606,10 @@
   "https://expertvagabond.com/": {
     "status": "unknown",
     "feedUrl": "https://expertvagabond.com/"
+  },
+  "https://ezgif.com/": {
+    "status": "unknown",
+    "feedUrl": "https://ezgif.com/"
   },
   "https://fbdd-lit.blogspot.com/": {
     "status": "success",
@@ -1662,11 +1733,18 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
     "status": "unavailable"
+  },
+  "https://gchq.github.io/CyberChef/": {
+    "status": "unavailable"
+  },
+  "https://gifcities.org/": {
+    "status": "unknown",
+    "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://glasgowgallivanter.com/": {
     "status": "success",
@@ -1724,7 +1802,7 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-18",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
@@ -1944,10 +2022,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Don’t know much about history: The best songs about education",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/17/dont-know-much-about-history-the-best-songs-about-education-2/",
-      "summary": "Often taken as a euphemism for sexual education, songs about schoolin’ and such in rock have existed as single entendres since at least Chuck Berry and Gary “U.S.” Bonds. The tradition continued in h…",
-      "publishedAt": "2026-10-18T00:10:34.000Z"
+      "title": "Grifters be grifting: ‘You Can See Everything’",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/18/grifters-be-grifting-you-can-see-everything/",
+      "summary": "An admission: I came to You Can See Everything almost blind. I knew little about Elizabeth Holmes and nothing at all about co-director Nathan Fielder (co-director Lance Oppenheim I knew from Some Kin…",
+      "publishedAt": "2026-10-18T15:19:22.000Z"
     }
   },
   "https://humbledollar.com/": {
@@ -1994,6 +2072,12 @@
       "publishedAt": "2026-10-17T07:03:55.000Z"
     }
   },
+  "https://imaginary.nu/henshin/": {
+    "status": "unavailable"
+  },
+  "https://imaginary.nu/saturn/": {
+    "status": "unavailable"
+  },
   "https://impossiblesongs.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-10-18",
@@ -2003,6 +2087,17 @@
       "url": "https://impossiblesongs.blogspot.com/2026/10/i-thought-it-was-spaghetti-in-her-hair.html",
       "summary": "It's an easy enough mistake to make. We've all been there. Don't let it bring you down. It never was spaghetti. Good news: you can own a copy of the original artwork (as above) quite easily but I'm n…",
       "publishedAt": "2026-10-18T08:11:29.937Z"
+    }
+  },
+  "https://indieblog.page/": {
+    "status": "success",
+    "lastPublished": "2026-10-18",
+    "feedUrl": "https://indieblog.page/dailyfeed",
+    "latestArticle": {
+      "title": "🎲 Farm Log #7",
+      "url": "https://andrewspittle.com/2026/05/11/farm-log-7/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
+      "summary": "We had a week of idyllic weather. Other than a couple of windless days (and thus, midges) it was blue skies, wisps of clouds, and a steady breeze. There’s a part of me that still feels the need to ta…",
+      "publishedAt": "2026-10-18T10:37:00.000Z"
     }
   },
   "https://inmoscowsshadows.wordpress.com/": {
@@ -2051,6 +2146,10 @@
       "summary": "#filmisnotdead #believeinfilm",
       "publishedAt": "2026-10-14T16:58:06.000Z"
     }
+  },
+  "https://it-tools.tech/": {
+    "status": "unknown",
+    "feedUrl": "https://it-tools.tech/index.xml"
   },
   "https://itsfoss.com/": {
     "status": "success",
@@ -2150,7 +2249,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2272,6 +2371,16 @@
       "publishedAt": "2026-10-16T10:00:00.000Z"
     }
   },
+  "https://joshwcomeau.com/": {
+    "status": "success",
+    "lastPublished": "2026-07-06",
+    "feedUrl": "https://www.joshwcomeau.com/rss.xml",
+    "latestArticle": {
+      "url": "https://www.joshwcomeau.com/css/anchor-positioning/",
+      "summary": "For decades, one of the most notoriously-challenging problems on the web has been sticking one element to another element, for things like tooltips and nested menus. The CSSWG has decided to provide …",
+      "publishedAt": "2026-07-06T13:15:00.000Z"
+    }
+  },
   "https://justalittlefurther.com/": {
     "status": "unavailable"
   },
@@ -2382,12 +2491,12 @@
   },
   "https://kimberlyhirsh.com/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://kimberlyhirsh.com/feed.xml",
     "latestArticle": {
-      "url": "https://kimberlyhirsh.com/2026/10/17/played-professor-layton-and-the.html",
-      "summary": "🎮 Played Professor Layton and the Curious Village . As charming as it was the first time I played it.",
-      "publishedAt": "2026-10-17T13:15:44.000Z"
+      "url": "https://kimberlyhirsh.com/2026/10/18/finished-reading-we-ride-upon.html",
+      "summary": "Finished reading: We ride upon sticks by Quan Barry 📚",
+      "publishedAt": "2026-10-18T15:10:05.000Z"
     }
   },
   "https://knifesteelnerds.com/": {
@@ -2400,6 +2509,9 @@
       "summary": "New Patreon Supporters Thanks to new Knife Steel Nerds Patreon supporters David, A.P. McC., Brunhard, Sal Glesser, Richard Airey, Dan Cifer, Matt Cheresh, and Mark Decherd. Your contributions mean mo…",
       "publishedAt": "2026-10-04T15:31:33.000Z"
     }
+  },
+  "https://kristinkwan.com/": {
+    "status": "unavailable"
   },
   "https://kryogenix.org/": {
     "status": "unavailable"
@@ -2633,6 +2745,17 @@
       "publishedAt": "2026-10-16T19:05:57.000Z"
     }
   },
+  "https://lynnandtonic.com/": {
+    "status": "success",
+    "lastPublished": "2026-04-04",
+    "feedUrl": "https://lynnandtonic.com/feed.xml",
+    "latestArticle": {
+      "title": "How I remember link and image Markdown syntax",
+      "url": "https://lynnandtonic.com/thoughts/entries/how-i-remember-link-and-image-markdown-syntax/",
+      "summary": "Image and link syntax in Markdown are pretty similar and it can be hard to remember which text goes where. To help me, I have a few handy mnemonics. As a reminder, here is the syntax for a link: [lin…",
+      "publishedAt": "2026-04-04T16:30:00.000Z"
+    }
+  },
   "https://lynnandtonic.com/thoughts/": {
     "status": "success",
     "lastPublished": "2026-04-04",
@@ -2753,10 +2876,20 @@
       "publishedAt": "2026-10-02T10:30:51.000Z"
     }
   },
+  "https://mattbrown.com/": {
+    "status": "success",
+    "lastPublished": "2026-09-20",
+    "feedUrl": "https://mattbrown.com/feed/feed.xml"
+  },
   "https://mattbrown.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-20",
     "feedUrl": "https://mattbrown.com/feed/feed.xml"
+  },
+  "https://mbbischoff.com/": {
+    "status": "success",
+    "lastPublished": "2024-07-14",
+    "feedUrl": "https://mbbischoff.com/feed/"
   },
   "https://mccookerybook.blogspot.com/": {
     "status": "success",
@@ -2782,6 +2915,17 @@
       "url": "https://merseypub.blogspot.com/2026/10/lounging-around.html",
       "summary": "It is quite difficult at the moment to find clusters of pubs overdue for a visit (Hence the taxi ride in the middle of last week's survey) and I was really struggling today, ending up with a plan in …",
       "publishedAt": "2026-10-10T22:35:00.000Z"
+    }
+  },
+  "https://mervi.art/": {
+    "status": "success",
+    "lastPublished": "2026-09-07",
+    "feedUrl": "https://mervi.art/feed",
+    "latestArticle": {
+      "title": "Do not despair",
+      "url": "https://mervi.art/blog/do-not-despair",
+      "summary": "All of this, the climate change, fascism, llm bullshit, greed and all, is making good people feel hopeless and exhausted. You see social media and blog posts by people who feel all hope is lost and t…",
+      "publishedAt": "2026-09-07T13:54:00.000Z"
     }
   },
   "https://mervi.art/blog": {
@@ -2833,7 +2977,7 @@
     }
   },
   "https://mkultra.monster/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://mkultra.monster/feed.xml",
     "latestArticle": {
@@ -3067,6 +3211,11 @@
       "publishedAt": "2026-10-13T04:42:19.398Z"
     }
   },
+  "https://ohhelloana.blog/": {
+    "status": "success",
+    "lastPublished": "2026-10-15",
+    "feedUrl": "https://ohhelloana.blog/feed.xml"
+  },
   "https://ohhelloana.blog/posts/": {
     "status": "success",
     "lastPublished": "2026-10-15",
@@ -3175,6 +3324,11 @@
   "https://perfectmediaserver.com/": {
     "status": "unavailable"
   },
+  "https://personalsit.es/": {
+    "status": "success",
+    "lastPublished": "2026-10-17",
+    "feedUrl": "https://personalsit.es/feed/all.xml"
+  },
   "https://peyanski.com/": {
     "status": "success",
     "lastPublished": "2021-06-16",
@@ -3228,6 +3382,9 @@
       "publishedAt": "2026-10-12T00:00:00.000Z"
     }
   },
+  "https://pixelcuties.club/": {
+    "status": "unavailable"
+  },
   "https://pixelesque.net/blog/": {
     "status": "success",
     "lastPublished": "2026-08-12",
@@ -3238,6 +3395,9 @@
       "summary": "Went out to see the partial solar eclipse this evening… Quite a lot of other people were out and about with their cars parked on the sides of the roads in the countryside, presumably doing the same t…",
       "publishedAt": "2026-08-12T08:00:00.000Z"
     }
+  },
+  "https://pixels.prismatic.pink/": {
+    "status": "unavailable"
   },
   "https://plainlyandpainfully.com/": {
     "status": "success",
@@ -3309,10 +3469,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Slim Pickins at Thorpe Arch",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/slim-pickins-at-thorpe-arch.html",
-      "summary": "We returned to our old Sunday car boot haunt at Thorpe Arch in Wetherby after what was probably a six month gap. The Missus did well with a sackful of dolls but I struggled, eventually buying a small…",
-      "publishedAt": "2026-10-18T12:24:52.661Z"
+      "title": "Body Concious",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/body-concious.html",
+      "summary": "Slightly dissatisfied with my recent purchase of the CM Lifting Body toy, due to its odd shaped canopy, I decided to replace it. The scrap box provided a perfect replacement with a small dome of exac…",
+      "publishedAt": "2026-10-18T15:34:57.698Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -3347,6 +3507,9 @@
       "summary": "So much Halloween...",
       "publishedAt": "2026-10-14T23:54:14.461Z"
     }
+  },
+  "https://putiecatootie.neocities.org/": {
+    "status": "unavailable"
   },
   "https://putiecatootie.neocities.org/blog/": {
     "status": "unavailable"
@@ -3454,6 +3617,9 @@
       "summary": "After yesterday’s post about the pear crop there must have been more wind in the night and I went out to find that the baby pear tree (Red Williams I think) had lost a branch, laden with majestic pea…",
       "publishedAt": "2026-10-15T17:50:24.000Z"
     }
+  },
+  "https://regex101.com/": {
+    "status": "unavailable"
   },
   "https://reneebehnke.wordpress.com/": {
     "status": "success",
@@ -3609,6 +3775,9 @@
     }
   },
   "https://runboli.com/": {
+    "status": "unavailable"
+  },
+  "https://sailorv.minty.nu/": {
     "status": "unavailable"
   },
   "https://sanlive.com/": {
@@ -3849,17 +4018,28 @@
   },
   "https://sive.rs/": {
     "status": "success",
-    "lastPublished": "2026-09-23",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://sive.rs/feed.xml",
     "latestArticle": {
-      "title": "To understand Türkiye and Turkish worldviews a bit, this book is a good quick start",
+      "title": "Istanbul Tűrkiye - 12 days in 10 neighborhoods, meeting up with 30 local people for 60 hours of conversation",
       "url": "https://sive.rs/d",
-      "summary": "To understand Türkiye and Turkish worldviews a bit, this book is a good quick start: https://sive.rs/book/TurkeyCS",
-      "publishedAt": "2026-09-23T19:29:24.000Z"
+      "summary": "Istanbul Tűrkiye - 12 days in 10 neighborhoods, meeting up with 30 local people for 60 hours of conversation: https://sive.rs/met/at-16",
+      "publishedAt": "2026-10-18T15:14:46.000Z"
     }
   },
   "https://skaterfish.net/": {
     "status": "unavailable"
+  },
+  "https://skyhold.org/adhd/": {
+    "status": "success",
+    "lastPublished": "2013-05-09",
+    "feedUrl": "https://skyhold.org/rss.xml",
+    "latestArticle": {
+      "title": "Atlantean Ascended Masters and Me",
+      "url": "https://skyhold.org/magica/logos/2013-05-09",
+      "summary": "If fictional ideas are real enough to convey meaningful truth about the Powers, and if the gods I interact with are, in a way, agents of the Powers...",
+      "publishedAt": "2013-05-09T00:00:00.000Z"
+    }
   },
   "https://sloopie72.wordpress.com/": {
     "status": "success",
@@ -3905,6 +4085,17 @@
       "publishedAt": "2026-09-14T07:17:34.000Z"
     }
   },
+  "https://smallwebring.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-17",
+    "feedUrl": "https://smallwebring.com/rss.xml",
+    "latestArticle": {
+      "title": "A Few New Features Have Arrived!",
+      "url": "https://smallwebring.com/whats-new/new-features",
+      "summary": "A new logo, two-factor authentication, a redesigned member dashboard and more themed webring links have arrived!",
+      "publishedAt": "2026-10-17T12:00:00.000Z"
+    }
+  },
   "https://smarthomescene.com/blog/": {
     "status": "success",
     "lastPublished": "2026-10-15",
@@ -3917,7 +4108,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-04-25",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -3937,6 +4128,9 @@
       "summary": "Today, twenty years to the day since I launched this experiment, feels like a real good moment to shut it down and try something entirely new. I’m still working out the kinks, as it were, but with an…",
       "publishedAt": "2026-08-31T12:10:12.000Z"
     }
+  },
+  "https://squoosh.app/": {
+    "status": "unavailable"
   },
   "https://stephenbodio.com/": {
     "status": "success",
@@ -4013,6 +4207,10 @@
       "summary": "The final potato crop of the year, with many marble-sized items. these have been washed, because there has actually been some rain recently!",
       "publishedAt": "2026-09-29T19:00:00.000Z"
     }
+  },
+  "https://svgomg.net/": {
+    "status": "unknown",
+    "feedUrl": "https://svgomg.net/index.xml"
   },
   "https://swoleateveryheight.blogspot.com/": {
     "status": "success",
@@ -4194,9 +4392,9 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/latest-news/36148/leeds-united-vs-manchester-united-live-stream-time-how-to-watch",
-      "summary": "Manchester United return to Premier League action on Sunday afternoon as we travel to West Yorkshire to take on rivals Leeds United. Although the atmosphere at Elland Road will no doubt be hostile, t…",
-      "publishedAt": "2026-10-18T06:00:00.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36171/leeds-united-1-1-manchester-united-reds-fade-in-second-half-of-third-straight-pl-draw",
+      "summary": "Michael Carrick’s Manchester United side drew for a third straight match in the Premier League on Sunday after a 1-1 result at Elland Road. The squad managed to leave Leeds unscathed despite a testy …",
+      "publishedAt": "2026-10-18T15:18:30.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -4360,6 +4558,9 @@
       "summary": "Official Zigbee2mqtt support is finally here for the Shelly BLU Remote Control ZB, so let's see how this new remote can be used in Home Assistant.",
       "publishedAt": "2026-01-30T09:06:25.000Z"
     }
+  },
+  "https://theindex.fyi/": {
+    "status": "unavailable"
   },
   "https://them0vieblog.com/": {
     "status": "success",
@@ -4548,7 +4749,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4651,7 +4852,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -4759,6 +4960,17 @@
       "summary": "This guide will take you through some of the best UK holiday destinations if you are looking for a trip closer to home. Below, I have listed 15 of the best UK holiday destinations so you can choose s…",
       "publishedAt": "2026-10-17T18:59:46.000Z"
     }
+  },
+  "https://webring.ca/": {
+    "status": "unknown",
+    "feedUrl": "https://webring.ca/favicon.svg"
+  },
+  "https://webring.fbk.moe/": {
+    "status": "unknown",
+    "feedUrl": "https://webring.fbk.moe/index.xml"
+  },
+  "https://webring.xxiivv.com/": {
+    "status": "unavailable"
   },
   "https://wheresalice.info/": {
     "status": "unavailable"
@@ -4967,10 +5179,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO VisionQuest minifigures are surprisingly hard to find",
-      "url": "https://www.brickfanatics.com/lego-visionquest-minifigures-hard-to-find",
-      "summary": "A villainous lack of options",
-      "publishedAt": "2026-10-18T13:54:52.000Z"
+      "title": "LEGO deals of the week: Star Wars, Harry Potter and more",
+      "url": "https://www.brickfanatics.com/lego-deals-of-the-week-us-star-wars-harry-potter",
+      "summary": "Free gifts, big builds and even bigger savings",
+      "publishedAt": "2026-10-18T15:39:30.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -4982,6 +5194,17 @@
       "url": "https://www.brothers-brick.com/2026/10/16/is-it-really-a-proper-lego-space-theme-without-walkers/",
       "summary": "Classic LEGO space theme M-Tron has a lot going for it, but there is one glaring omission from the nine sets it got. No, it’s not a faction to battle. And no, it’s not a permanent base – the Mega Cor…",
       "publishedAt": "2026-10-17T01:00:55.000Z"
+    }
+  },
+  "https://www.browserutils.dev/": {
+    "status": "success",
+    "lastPublished": "2026-10-12",
+    "feedUrl": "https://www.browserutils.dev/rss.xml",
+    "latestArticle": {
+      "title": "Git Branching Strategies: GitFlow, Trunk-Based, GitHub Flow",
+      "url": "https://www.browserutils.dev/blog/git-branching-strategies/",
+      "summary": "Compare GitFlow, trunk-based development, and GitHub Flow to find the branching strategy that fits your team size, release cadence, and workflow.",
+      "publishedAt": "2026-10-12T00:00:00.000Z"
     }
   },
   "https://www.browserutils.dev/blog": {
@@ -5347,7 +5570,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -5475,7 +5698,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -5483,9 +5706,9 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/18/im-feeling-so-lucky-that.html",
-      "summary": "I’m feeling so lucky that I get to build software for people like @patrickrhone . We were able to catch up this morning as my train stopped just long enough at the Minneapolis - St. Paul station.",
-      "publishedAt": "2026-10-18T14:38:35.000Z"
+      "url": "https://www.manton.org/2026/10/18/mark-gurman-is-pretty-down.html",
+      "summary": "Mark Gurman is pretty down on the iPhone Duo launch: Apple has dealt with launch shortages before, but a three-month wait for a new iPhone is practically unprecedented. Doesn’t bother me, but I know …",
+      "publishedAt": "2026-10-18T15:35:37.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -5647,6 +5870,9 @@
       "publishedAt": "2026-02-24T20:54:44.000Z"
     }
   },
+  "https://www.oocities.org/": {
+    "status": "unavailable"
+  },
   "https://www.ordinarytraveler.com/": {
     "status": "success",
     "lastPublished": "2026-10-17",
@@ -5702,6 +5928,13 @@
       "publishedAt": "2026-10-17T23:00:00.000Z"
     }
   },
+  "https://www.personalwebsitedirectory.com/": {
+    "status": "unknown",
+    "feedUrl": "https://www.personalwebsitedirectory.com/assets/favicon.svg"
+  },
+  "https://www.photopea.com/": {
+    "status": "unavailable"
+  },
   "https://www.qwantz.com/": {
     "status": "success",
     "lastPublished": "2026-10-16",
@@ -5717,7 +5950,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -5866,10 +6099,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on A Clear Dawn by Winifred Peck – #1949Club by ANON",
-      "url": "https://www.stuckinabook.com/a-clear-dawn-by-winifred-peck-1949club/#comment-173828",
-      "summary": "In reply to Gerri . Ann Hepple is similar to DES. Not mentioned much online but she should be. Also TATTERED TARTAN and others by Isabel Cameron would be similar. I was joking about selling the books…",
-      "publishedAt": "2026-10-18T11:10:57.000Z"
+      "title": "Comment on 1949 Club: your reviews! by Rebecca Foster",
+      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173829",
+      "summary": "I managed one (didn't think I was going to)! The Parent Trap by Erich Kästner: https://bookishbeck.com/2026/10/18/the-parent-trap-by-erich-kastner-for-1949club/",
+      "publishedAt": "2026-10-18T15:42:34.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -5903,6 +6136,9 @@
       "summary": "Making dashboards with charts and graphs is a pretty common part of the front-end developer experience, as well as deciding which JavaScript…",
       "publishedAt": "2025-03-31T00:00:00.000Z"
     }
+  },
+  "https://www.textfiles.com/": {
+    "status": "unavailable"
   },
   "https://www.theartofdoingstuff.com/": {
     "status": "success",
@@ -5953,6 +6189,17 @@
       "url": "https://www.thedarkmagazine.com/falling/?utm_source=rss&utm_medium=rss&utm_campaign=falling",
       "summary": "On Monday Grant experienced another episode of vertigo. This one lasted much longer than the rest. The whole world was spinning, a top that increasingly wobbled as the whirling went on for several mi…",
       "publishedAt": "2026-10-01T00:04:00.000Z"
+    }
+  },
+  "https://www.thefrugalgamer.net/": {
+    "status": "success",
+    "lastPublished": "2026-10-07",
+    "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
+    "latestArticle": {
+      "title": "Two Updates",
+      "url": "https://thefrugalgamer.net/artistTradingCards.php",
+      "summary": "Two new pages this time around. The first is a page showing off all the Artist Trading Cards I've made over the years, even ones I've traded away. There are...a lot. Also, I've created a new generato…",
+      "publishedAt": "2026-10-07T00:00:00.000Z"
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
@@ -6055,7 +6302,7 @@
     }
   },
   "https://www.theplanetd.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-01",
     "feedUrl": "https://theplanetd.com/feed/",
     "latestArticle": {
@@ -6103,10 +6350,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Charity Drive 'Desert Bus for Hope 2026' Hits the Dusty Highway Again This Week",
-      "url": "https://www.timeextension.com/#article-207757",
-      "summary": "Row, row, row your boat! Come on! Sing! It's that time of year again. Time to slather yourself in sun lotion, grab your biggest paperback, and hop on board the Desert Bus for another sweaty, non-stop…",
-      "publishedAt": "2026-10-18T13:00:00.000Z"
+      "title": "Retro Recap: All The Classic Gaming News From The Past Week (October 18th 2026)",
+      "url": "https://www.timeextension.com/#article-207733",
+      "summary": "Dungeon Master! M2 ShotTriggers! Schrödinger's Cat! Welcome to Retro Recap , a regular feature we run each and every weekend which rounds up all of the best retro gaming news and content of the past …",
+      "publishedAt": "2026-10-18T15:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -6210,6 +6457,12 @@
       "publishedAt": "2026-10-16T02:24:38.581Z"
     }
   },
+  "https://www.webring.gg/": {
+    "status": "unavailable"
+  },
+  "https://www.webringthemusic.info/": {
+    "status": "unavailable"
+  },
   "https://www.weirduniverse.net/": {
     "status": "success",
     "lastPublished": "2026-10-18",
@@ -6245,6 +6498,17 @@
       "url": "https://wyrdbritain.blogspot.com/2026/10/shadows-over-cymru-uncanny-stories-of.html",
       "summary": "Aaron Worth (editor) British Library From the peaks of Eryri to hidden valleys and haunted mines, the storied landscapes of Wales have inspired centuries of myth and folklore. Over time, these tales …",
       "publishedAt": "2026-10-16T18:39:42.459Z"
+    }
+  },
+  "https://xmasdb.com/": {
+    "status": "success",
+    "lastPublished": "2025-11-01",
+    "feedUrl": "https://xmasdb.com/rss.xml",
+    "latestArticle": {
+      "title": "A Christmas Angel Match (2025)",
+      "url": "https://xmasdb.com/movie/1538155/a-christmas-angel-match/",
+      "summary": "Christmas angels used to working alone to bring “destined soulmates together” over the holidays, are unexpectedly paired; soon, their “clashing styles – and the undeniable spark growing between them …",
+      "publishedAt": "2025-11-01T00:00:00.000Z"
     }
   },
   "https://yuanchuan.dev/": {

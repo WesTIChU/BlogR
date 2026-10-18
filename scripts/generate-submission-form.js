@@ -18,6 +18,8 @@ const END = '  # END GENERATED TAXONOMY OPTIONS'
 const WEBSITE_BEGIN = '        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES'
 const WEBSITE_END = '        # END GENERATED INDEPENDENT WEB CATEGORIES'
 const yamlString = (value) => JSON.stringify(value)
+const independentWebYamlString = (value) =>
+  `'${String(value).replaceAll("'", "''")}'`
 const compareTitles = (left, right) =>
   left.title.localeCompare(right.title, 'en', { sensitivity: 'base' })
 const submissionCountryOption = (country) =>
@@ -165,7 +167,7 @@ export function syncSubmissionForm(form, taxonomy) {
 
 export function syncIndependentWebsiteForm(form, taxonomy) {
   const generated = taxonomy
-    .map(({ title }) => `        - ${yamlString(title)}`)
+    .map(({ title }) => `        - ${independentWebYamlString(title)}`)
     .join('\n')
   const pattern =
     /^        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES\n[\s\S]*?^        # END GENERATED INDEPENDENT WEB CATEGORIES/m

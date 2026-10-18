@@ -1,13 +1,13 @@
 ---
 title: Scotland Blogs
-description: 23 blogs listed in Scotland.
+description: 24 blogs listed in Scotland.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="23" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="Scotland" :count="24" />
 
 ## Culture & Places
 
@@ -71,6 +71,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Retro Computing
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://cobradile.neocities.org/blog/" target="_blank" rel="noopener noreferrer">Còbra!'s Retro Room</a></strong> - A personal retro-tech blog exploring classic computers, video games, physical media and internet culture, with articles and reflections written in English, Scots and Scottish Gaelic.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://cobradile.neocities.org/blog/" data-blog-name="Còbra!'s Retro Room"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;18 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+### Self-Hosting & Homelabs
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://bytetrek.me/" target="_blank" rel="noopener noreferrer">ByteTrek</a></strong> - A technology blog exploring self-hosting, Docker, Synology NAS, automation and digital tools, with practical guides for running and managing software at home.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://bytetrek.me/" data-blog-name="ByteTrek"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/scotland" aria-label="Based in Scotland"><span aria-hidden="true">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span> Scotland</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;18 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Smart Homes & Automation
 

@@ -84,10 +84,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://10015.io/tool-feed",
     "latestArticle": {
-      "title": "TikTok LIVE Generator",
-      "url": "https://10015.io/tools/tiktok-live-generator",
-      "summary": "Create a fake TikTok LIVE screenshot with your own stream image, viewer count, top gifters, comments and a gift combo banner. Free iPhone-size download.",
-      "publishedAt": "2026-10-18T14:00:00.000Z"
+      "title": "YouTube Video Page Generator",
+      "url": "https://10015.io/tools/youtube-video-page-generator",
+      "summary": "Mock up a full YouTube watch page: player, title, channel, likes, description, comments and the Up next list, from your own image and text. Free PNG.",
+      "publishedAt": "2026-10-18T17:00:00.000Z"
     }
   },
   "https://13thdimension.com/": {
@@ -303,13 +303,13 @@
   },
   "https://anderegg.ca/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://anderegg.ca/feed.xml",
     "latestArticle": {
-      "title": "John Gruber on X",
-      "url": "https://anderegg.ca/2026/10/13/john-gruber-on-x",
-      "summary": "Over the weekend, John Gruber posted a piece titled “ X Once Again Marks the Spot ”. He announced this on Mastodon by saying “I’m sure this one won’t make anyone angry.” I’m not angry, John, I’m just…",
-      "publishedAt": "2026-10-13T17:34:35.000Z"
+      "title": "What the heck is /pkg?",
+      "url": "https://anderegg.ca/2026/10/18/what-the-heck-is-pkg",
+      "summary": "Recently, while troubleshooting a PATH issue, I noticed an entry for /pkg/env/global/bin . At first, I worried that something had gone horribly wrong. Turns out, this is part of macOS 27.0… though no…",
+      "publishedAt": "2026-10-18T16:52:45.000Z"
     }
   },
   "https://andregarzia.com/": {
@@ -622,13 +622,13 @@
   },
   "https://bits.gobino.be/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 273/365 - Vintage decoration",
-      "url": "https://bits.gobino.be/posts/2026-10-17-273365-vintage",
-      "summary": "📷 273/365 - Vintage decoration",
-      "publishedAt": "2026-10-17T13:26:38.000Z"
+      "title": "📷 274/365 - Bubblegum factory",
+      "url": "https://bits.gobino.be/posts/2026-10-18-274365-bubblegum",
+      "summary": "📷 274/365 - Bubblegum factory",
+      "publishedAt": "2026-10-18T17:17:50.000Z"
     }
   },
   "https://bitterandblue.sbnation.com/": {
@@ -998,7 +998,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1462,7 +1462,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1516,7 +1516,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -1690,13 +1690,13 @@
   },
   "https://francescrossley.com/posts/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://francescrossley.com/feed/",
     "latestArticle": {
-      "title": "Food questions",
-      "url": "https://francescrossley.com/food-questions/",
-      "summary": "Being as I wrote about cooking the garden yesterday and then James made a food questions challenge I thought I would give it a go. What was your favourite food growing up We used to have these packet…",
-      "publishedAt": "2026-10-17T17:00:00.000Z"
+      "title": "Pages on pages",
+      "url": "https://francescrossley.com/pages-on-pages/",
+      "summary": "This month's IndieWeb Carnival is being hosted by Marisabel on Pages . Which is a fantastic prompt. Very provoking for bloggers. Here I am trying a digital palimpsest - hover or click to see the text…",
+      "publishedAt": "2026-10-18T17:00:00.000Z"
     }
   },
   "https://frankforce.com/": {
@@ -1839,7 +1839,7 @@
     "feedUrl": "https://greenshadediary.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "url": "https://greenshadediary.blogspot.com/2026/10/480-of-them-which-i-ordered-for.html",
-      "summary": "Bulbs- 480 of them, which I orderedfor planting en masse at the music school. Bulbs are relatively inexpensive (unless it's something rare) so you get a lot for your money. This lot came to £94.99 in…",
+      "summary": "Bulbs- 480 of them, which I ordered for planting en masse at the music school. Bulbs are relatively inexpensive (unless it's something rare) so you get a lot for your money. These came to £94.99 incl…",
       "publishedAt": "2026-10-18T16:04:25.516Z"
     }
   },
@@ -2166,9 +2166,8 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "200 Albums for 2026 It Starts With a Birthstone # 70 Rostam - American Stories",
-      "summary": "The variety and quality of great albums I'm coming upon this year is gathering momentum. Rostam Batmanglij's American Stories is an elliptical record with plenty of the sparkle which its author contr…",
-      "publishedAt": "2026-10-18T13:21:27.000Z"
+      "title": "Nights # 29 Loreena McKennitt",
+      "publishedAt": "2026-10-18T17:23:51.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -2521,12 +2520,12 @@
   },
   "https://kylekukshtel.com/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://kylekukshtel.com/feed.rss",
     "latestArticle": {
-      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "summary": "I gave a 45 minute presentation entitled “ Your Game Is A Harness” as part of Indie Rodeo in Calgary on 9/12/26. After speaking with a lot of people after my talk, I thought it would be good to more …",
-      "publishedAt": "2026-10-11T02:26:29.000Z"
+      "url": "https://kylekukshtel.com/will-there-be-expert-ai-users-future",
+      "summary": "Something on my mind a lot recently is this scene from the first episode of Westworld: I remember watching this when it came out thinking that it was so unrealistic as to be comedic. I very distinctl…",
+      "publishedAt": "2026-10-18T16:52:00.000Z"
     }
   },
   "https://labmuffin.com/": {
@@ -3551,7 +3550,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-16",
     "feedUrl": "https://rachelsvintageretro.co.uk/comments/feed/?v=0b3b97fa6688",
     "latestArticle": {
@@ -5454,10 +5453,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.gordonmclean.co.uk/feed/",
     "latestArticle": {
-      "title": "Don’t Stop Me Now by Queen",
-      "url": "https://www.gordonmclean.co.uk/2026/10/18/dont-stop-me-now-by-queen/",
-      "summary": "A song you’d do at karaoke? No. I do not enjoy karaoke. But, the first time I did it I was “volunteered” on a work night out. The track, I kid you not, You Got The Power by Snap. Even if I HAD chose …",
-      "publishedAt": "2026-10-18T06:38:14.000Z"
+      "title": "Recently Read",
+      "url": "https://www.gordonmclean.co.uk/2026/10/18/recently-read-36/",
+      "summary": "A weekly recap of the articles and posts I’ve read that I think are worth your time. The Only Winning Move Is Not To Play: The Pattern Of Thinking That Justifies Cruelty – ideatrash — “There are ways…",
+      "publishedAt": "2026-10-18T17:30:03.000Z"
     }
   },
   "https://www.guyhadleigh.com/blog/categories": {
@@ -5516,7 +5515,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -5662,13 +5661,13 @@
   },
   "https://www.jvt.me/posts/": {
     "status": "success",
-    "lastPublished": "2026-10-16",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://www.jvt.me/posts/feed.xml",
     "latestArticle": {
-      "title": "Making an optional, required, status check with GitHub Actions",
-      "url": "https://www.jvt.me/posts/2026/10/16/github-actions-optional/?utm_medium=rss&utm_source=rss",
-      "summary": "Something that I've hit time and time again over the years - but seemingly have never blogument'd - is that when you add a required status check on GitHub (in branch protection or a Ruleset), it need…",
-      "publishedAt": "2026-10-16T14:47:21.000Z"
+      "title": "Writing to AWS S3 from Fly.io (in Go)",
+      "url": "https://www.jvt.me/posts/2026/10/18/fly-s3/?utm_medium=rss&utm_source=rss",
+      "summary": "I'm currently in the process of moving my site's media (under media.jvt.me ) from Netlify to AWS S3. The underlying infrastructure for my site that writes this media is hosted on Fly.io, so needs a w…",
+      "publishedAt": "2026-10-18T16:46:39.000Z"
     }
   },
   "https://www.labrujulaverde.com/en/": {
@@ -5717,9 +5716,9 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/18/mark-gurman-is-pretty-down.html",
-      "summary": "Mark Gurman is pretty down on the iPhone Duo launch: Apple has dealt with launch shortages before, but a three-month wait for a new iPhone is practically unprecedented. Doesn’t bother me, but I know …",
-      "publishedAt": "2026-10-18T15:35:37.000Z"
+      "url": "https://www.manton.org/2026/10/18/theres-a-fun-site-that.html",
+      "summary": "There’s a fun site that keeps track of Codex resets. OpenAI is in the middle of a nutty 28-day challenge to ship new features every day or give resets. Feels like a “bank error in your favor” every f…",
+      "publishedAt": "2026-10-18T17:35:09.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -5818,7 +5817,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -5853,10 +5852,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Now Playing Card shows media info for multiple apps at a time",
-      "url": "https://www.omgubuntu.co.uk/2026/10/gnome-now-playing-card-extension",
-      "summary": "Now Playing Card is an extension for GNOME Shell that can show playback info and media controls from multiple sources at the same time. You're reading Now Playing Card shows media info for multiple a…",
-      "publishedAt": "2026-10-18T02:55:48.000Z"
+      "title": "Linux Mint’s new system monitor does more than you’d expect",
+      "url": "https://www.omgubuntu.co.uk/2026/10/linux-mint-new-system-monitor",
+      "summary": "December’s Linux Mint 27 release will include a brand new system monitor tool preinstalled. The app is called Superlight (well, that’s the project and package name; the user-facing label is just Syst…",
+      "publishedAt": "2026-10-18T16:57:18.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -5947,7 +5946,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-16",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6110,10 +6109,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on 1949 Club: your reviews! by Maragret @ BooksPlease",
-      "url": "https://www.stuckinabook.com/1949-club-your-reviews/#comment-173830",
-      "summary": "Here's my review of The Third Man by Graham Greene: https://booksplease.org/2026/10/18/the-third-man-by-graham-greene-the-1949-club/ Thanks for choosing such an interesting year !",
-      "publishedAt": "2026-10-18T15:56:17.000Z"
+      "title": "Comment on The Innocent Traveller by Ethel Wilson – #1949Club by Madame Bibi",
+      "url": "https://www.stuckinabook.com/the-innocent-traveller-by-ethel-wilson-1949club/#comment-173833",
+      "summary": "This sounds completely wonderful!",
+      "publishedAt": "2026-10-18T17:33:57.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -6192,7 +6191,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6203,7 +6202,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6214,7 +6213,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-28",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -6292,13 +6291,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-18",
+    "lastPublished": "2026-08-30",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "New I Play Rocky Poster 2 Highlights the Sylvester Stallone Origin Story",
-      "url": "https://www.themovieblog.com/2026/10/i-play-rocky-poster-2-sylvester-stallone-origin/",
-      "summary": "Amazon MGM Studios has unveiled the official I Play Rocky Poster 2, building anticipation for the upcoming underdog story hitting theaters this November. The post New I Play Rocky Poster 2 Highlights…",
-      "publishedAt": "2026-10-18T00:24:00.000Z"
+      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
+      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
+      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
+      "publishedAt": "2026-08-30T19:13:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -6335,7 +6334,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-16",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -6361,10 +6360,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Retro Recap: All The Classic Gaming News From The Past Week (October 18th 2026)",
-      "url": "https://www.timeextension.com/#article-207733",
-      "summary": "Dungeon Master! M2 ShotTriggers! Schrödinger's Cat! Welcome to Retro Recap , a regular feature we run each and every weekend which rounds up all of the best retro gaming news and content of the past …",
-      "publishedAt": "2026-10-18T15:00:00.000Z"
+      "title": "Mega Man-Inspired Platformer 'Gravity Circuit 2' Unleashes New Electrifying Demo",
+      "url": "https://www.timeextension.com/#article-207758",
+      "summary": "Current-ly targeting Spring 2027 release. Remember Gravity Circuit , the acclaimed Mega Man -inspired action platformer from 2023? Well, it appears the developer and publisher team of Domesticated An…",
+      "publishedAt": "2026-10-18T17:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -6414,7 +6413,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

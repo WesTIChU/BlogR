@@ -6842,5 +6842,131 @@
     "lastChecked": "2026-10-18T09:19:09.478Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://www.adonameen.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://putiecatootie.neocities.org/blog/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://blog.prismatic.pink/": {
+    "lastPublished": "2026-07-10",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://blog.prismatic.pink/feed/",
+    "latestArticle": {
+      "title": "Two weeks in Brasilia, the capital of Brazil",
+      "url": "https://blog.prismatic.pink/2026/07/10/two-weeks-in-brasilia-the-capital-of-brazil/",
+      "summary": "Hi everyone! Again, I have failed to post every month, but there’s a good reason behind it. I spent the last two weeks in Brazil with my family. The last post I wrote about my hometown had a pessimis…",
+      "publishedAt": "2026-07-10T02:50:06.000Z"
+    }
+  },
+  "https://www.thefrugalgamer.net/blog/": {
+    "lastPublished": "2026-09-28",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
+    "latestArticle": {
+      "title": "Home Streaming Setup",
+      "url": "https://www.thefrugalgamer.net/blog/2026/09/28/home-streaming-setup/",
+      "summary": "Self-hosting is something I’ve been playing around with for a while, and I think I’ve finally got everything laid out the way I like it. This post will detail what I’m hosting and how I’ve got it set…",
+      "publishedAt": "2026-09-28T19:39:20.000Z"
+    }
+  },
+  "https://computerhistory.org/blogs/": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://computerhistory.org/feed/",
+    "latestArticle": {
+      "title": "Sphere: A Pioneering Early Microcomputer, Rediscovered",
+      "url": "https://computerhistory.org/blog/sphere-microcomputer-rediscovered/",
+      "summary": "A new book made possible by CHM research reveals the untold story of Utah’s Sphere Corporation, makers of one of the original desktop all-in-one PCs. IT WAS DECEMBER 1975, and the future was being ma…",
+      "publishedAt": "2026-10-10T21:49:00.000Z"
+    }
+  },
+  "https://dev101.io/blog": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "unknown",
+    "feedUrl": "https://dev101.io/icon.svg"
+  },
+  "https://www.browserutils.dev/blog": {
+    "lastPublished": "2026-10-12",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://www.browserutils.dev/rss.xml",
+    "latestArticle": {
+      "title": "Git Branching Strategies: GitFlow, Trunk-Based, GitHub Flow",
+      "url": "https://www.browserutils.dev/blog/git-branching-strategies/",
+      "summary": "Compare GitFlow, trunk-based development, and GitHub Flow to find the branching strategy that fits your team size, release cadence, and workflow.",
+      "publishedAt": "2026-10-12T00:00:00.000Z"
+    }
+  },
+  "https://blog.photopea.com/": {
+    "lastPublished": "2024-04-22",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://blog.photopea.com/feed",
+    "latestArticle": {
+      "title": "Photopea 5.6 – Advanced Color Depth",
+      "url": "https://blog.photopea.com/photopea-5-6-advanced-color-depth.html",
+      "summary": "A new release of Photopea is here! It has 138 541 lines of code. Play with it at the main site. New features 16 and 32-bit color support (GPU accelerated) Improving the PWA Advanced Text Styling Supp…",
+      "publishedAt": "2024-04-22T15:49:09.000Z"
+    }
+  },
+  "https://lynnandtonic.com/thoughts/": {
+    "lastPublished": "2026-04-04",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://lynnandtonic.com/feed.xml",
+    "latestArticle": {
+      "title": "How I remember link and image Markdown syntax",
+      "url": "https://lynnandtonic.com/thoughts/entries/how-i-remember-link-and-image-markdown-syntax/",
+      "summary": "Image and link syntax in Markdown are pretty similar and it can be hard to remember which text goes where. To help me, I have a few handy mnemonics. As a reminder, here is the syntax for a link: [lin…",
+      "publishedAt": "2026-04-04T16:30:00.000Z"
+    }
+  },
+  "https://chuck.is/writing": {
+    "lastPublished": "2026-10-10",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://chuck.is/feed.xml",
+    "latestArticle": {
+      "title": "Implementing a 3-2-1 Backup Strategy with restic and Backblaze B2",
+      "url": "https://chuck.is/paranoid",
+      "summary": "In order to follow a proper 3-2-1 backup strategy, you should have three copies of your important data: two local on different media types, and one off site. For local, I have a DAS with two 14TB dri…",
+      "publishedAt": "2026-10-10T05:00:00.000Z"
+    }
+  },
+  "https://mervi.art/blog": {
+    "lastPublished": "2026-09-07",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://mervi.art/feed",
+    "latestArticle": {
+      "title": "Do not despair",
+      "url": "https://mervi.art/blog/do-not-despair",
+      "summary": "All of this, the climate change, fascism, llm bullshit, greed and all, is making good people feel hopeless and exhausted. You see social media and blog posts by people who feel all hope is lost and t…",
+      "publishedAt": "2026-09-07T13:54:00.000Z"
+    }
+  },
+  "https://ohhelloana.blog/posts/": {
+    "lastPublished": "2026-10-15",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://ohhelloana.blog/feed.xml"
+  },
+  "https://mattbrown.com/blog/": {
+    "lastPublished": "2026-09-20",
+    "lastChecked": "2026-10-18T15:06:27.578Z",
+    "status": "success",
+    "feedUrl": "https://mattbrown.com/feed/feed.xml"
   }
 }

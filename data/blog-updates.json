@@ -7345,5 +7345,17 @@
     "lastChecked": "2026-10-18T15:46:34.248Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://nesjunk.com/": {
+    "lastPublished": "2026-08-13",
+    "lastChecked": "2026-10-18T17:21:29.829Z",
+    "status": "success",
+    "feedUrl": "https://nesjunk.com/feed/",
+    "latestArticle": {
+      "title": "Batman: Return of the Joker (1991) NES Game Review",
+      "url": "https://nesjunk.com/2026/08/13/batmanreturnofthejoker/",
+      "summary": "Holy inferior sequel, Batman!",
+      "publishedAt": "2026-08-13T08:32:18.000Z"
+    }
   }
 }

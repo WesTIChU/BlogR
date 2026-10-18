@@ -1,10 +1,17 @@
+import communities from '../../data/communities.json' with { type: 'json' }
+import websites from '../../data/websites.json' with { type: 'json' }
 import {
+  entriesForSubmissionType,
   findListedBlog,
   hasPendingSubmission
 } from '../../shared/blog-duplicate.js'
 import { blogs } from '../../shared/blogr-function-data.js'
 import {
+  buildCommunityIssueBody,
+  buildIndependentWebsiteIssueBody,
   buildIssueBody,
+  validateCommunityInput,
+  validateIndependentWebsiteInput,
   validateSubmissionInput
 } from './submit-blog-validation.js'
 
@@ -30,12 +37,12 @@ const githubRequest = async (env, path, options = {}) => {
   return response
 }
 
-const getOpenSubmissionIssues = async (env, repository) => {
+const getOpenSubmissionIssues = async (env, repository, label) => {
   const issues = []
   for (let page = 1; page <= 10; page += 1) {
     const response = await githubRequest(
       env,
-      `/repos/${repository}/issues?state=open&labels=blog-submission&per_page=100&page=${page}`
+      `/repos/${repository}/issues?state=open&labels=${encodeURIComponent(label)}&per_page=100&page=${page}`
     )
     if (!response.ok) throw new Error('Unable to inspect open submissions')
     const pageIssues = await response.json()
@@ -111,8 +118,14 @@ export async function onRequestPost({ request, env }) {
   }
 
   let submission
+  const type = payload?.type ?? 'blog'
   try {
-    submission = validateSubmissionInput(payload)
+    submission =
+      type === 'website'
+        ? validateIndependentWebsiteInput(payload)
+        : type === 'community'
+          ? validateCommunityInput(payload)
+          : validateSubmissionInput(payload)
   } catch (error) {
     return json(
       { error: error instanceof Error ? error.message : 'Invalid submission.' },
@@ -122,7 +135,10 @@ export async function onRequestPost({ request, env }) {
 
   let listed
   try {
-    listed = findListedBlog(blogs, submission.url)
+    listed = findListedBlog(
+      entriesForSubmissionType(type, { blogs, websites, communities }),
+      submission.url
+    )
   } catch {
     return json(
       { error: 'Duplicate checking is temporarily unavailable.' },
@@ -131,20 +147,32 @@ export async function onRequestPost({ request, env }) {
   }
   if (listed)
     return json(
-      { error: 'This blog is already listed in BlogR Directory.' },
+      {
+        error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} is already listed in BlogR Directory.`
+      },
       409
     )
 
   const repository = env.GITHUB_REPOSITORY
   let existing
   try {
-    existing = await getOpenSubmissionIssues(env, repository)
+    existing = await getOpenSubmissionIssues(
+      env,
+      repository,
+      type === 'website'
+        ? 'independent-web-submission'
+        : type === 'community'
+          ? 'community-submission'
+          : 'blog-submission'
+    )
   } catch {
     return json({ error: 'Submissions are temporarily unavailable.' }, 502)
   }
   if (hasPendingSubmission(existing, submission.url)) {
     return json(
-      { error: 'This blog has already been submitted and is awaiting review.' },
+      {
+        error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} has already been submitted and is awaiting review.`
+      },
       409
     )
   }
@@ -153,9 +181,20 @@ export async function onRequestPost({ request, env }) {
     const response = await githubRequest(env, `/repos/${repository}/issues`, {
       method: 'POST',
       body: JSON.stringify({
-        title: `Blog submission: ${submission.name}`,
-        body: buildIssueBody(submission),
-        labels: ['blog-submission']
+        title: `${type === 'website' ? 'Independent website' : type === 'community' ? 'Community' : 'Blog'} submission: ${submission.name}`,
+        body:
+          type === 'website'
+            ? buildIndependentWebsiteIssueBody(submission)
+            : type === 'community'
+              ? buildCommunityIssueBody(submission)
+              : buildIssueBody(submission),
+        labels: [
+          type === 'website'
+            ? 'independent-web-submission'
+            : type === 'community'
+              ? 'community-submission'
+              : 'blog-submission'
+        ]
       })
     })
     if (!response.ok)

@@ -1,4 +1,4 @@
-name: Blog and community health audit
+name: Blog, Independent Web and community health audit
 
 on:
   workflow_call:
@@ -8,6 +8,10 @@ on:
         type: string
         default: '[]'
       community_health_urls:
+        required: false
+        type: string
+        default: '[]'
+      website_health_urls:
         required: false
         type: string
         default: '[]'
@@ -66,6 +70,7 @@ jobs:
         env:
           BLOGR_REPORTS_DIR: ${{ runner.temp }}/blogr-reports
           BLOG_HEALTH_URLS: ${{ inputs.blog_health_urls }}
+          WEBSITE_HEALTH_URLS: ${{ inputs.website_health_urls }}
         run: pnpm audit:blogs
 
       - name: Run the community availability audit
@@ -85,42 +90,55 @@ jobs:
            import { normalizeCommunityCatalogue, validateCommunityStatusCoverage } from './shared/community-catalogue.js'
            import { normalizeBlogHealthUrl } from './shared/blog-health-url.js'
 
-          const blogs = JSON.parse(await readFile('data/blogs.json', 'utf8'))
+           const blogs = JSON.parse(await readFile('data/blogs.json', 'utf8'))
+           const websites = JSON.parse(await readFile('data/websites.json', 'utf8'))
            const communities = normalizeCommunityCatalogue(
              JSON.parse(await readFile('data/communities.json', 'utf8'))
            )
-           const publicStatuses = JSON.parse(
-             await readFile('docs/public/health-status.json', 'utf8')
-           )
+            const publicStatuses = JSON.parse(
+              await readFile('docs/public/health-status.json', 'utf8')
+            )
+            const websiteStatuses = JSON.parse(
+              await readFile('docs/public/website-health-status.json', 'utf8')
+            )
            const communityStatuses = JSON.parse(
              await readFile('docs/public/community-health-status.json', 'utf8')
            )
           const history = JSON.parse(
             await readFile(process.env.BLOGR_REPORTS_DIR + '/blog-health-history.json', 'utf8')
           )
-          const expectedUrls = new Set()
-          for (const blog of blogs) {
-            try {
-              expectedUrls.add(normalizeBlogHealthUrl(blog.url).toString())
-            } catch {
-              // Invalid catalogue entries are reported by the audit, not published.
-            }
-          }
-          if (!Array.isArray(publicStatuses) || publicStatuses.length !== expectedUrls.size) {
-            throw new Error('Public status data does not cover the catalogue')
-          }
-          for (const entry of publicStatuses) {
-            const keys = Object.keys(entry).sort().join(',')
-            if (keys !== 'checkedAt,status,url') throw new Error('Public status contains extra fields')
-            if (!expectedUrls.has(entry.url)) throw new Error('Unexpected public status URL')
-            if (!['online', 'warning', 'repeatedly-unreachable', 'unknown'].includes(entry.status)) {
-              throw new Error('Invalid public status')
-            }
-            if (!Number.isFinite(Date.parse(entry.checkedAt))) throw new Error('Invalid check timestamp')
-          }
+           const expectedUrls = (entries) => {
+             const urls = new Set()
+             for (const blog of entries) {
+             try {
+               urls.add(normalizeBlogHealthUrl(blog.url).toString())
+             } catch {
+               // Invalid catalogue entries are reported by the audit, not published.
+             }
+             }
+             return urls
+           }
+           const expectedBlogUrls = expectedUrls(blogs)
+           const expectedWebsiteUrls = expectedUrls(websites)
+           const validateStatuses = (statuses, expected, label) => {
+             if (!Array.isArray(statuses) || statuses.length !== expected.size) {
+               throw new Error(`${label} status data does not cover the catalogue`)
+             }
+             for (const entry of statuses) {
+             const keys = Object.keys(entry).sort().join(',')
+             if (keys !== 'checkedAt,status,url') throw new Error('Public status contains extra fields')
+             if (!expected.has(entry.url)) throw new Error(`Unexpected ${label} status URL`)
+             if (!['online', 'warning', 'repeatedly-unreachable', 'unknown'].includes(entry.status)) {
+               throw new Error('Invalid public status')
+             }
+             if (!Number.isFinite(Date.parse(entry.checkedAt))) throw new Error('Invalid check timestamp')
+             }
+           }
+           validateStatuses(publicStatuses, expectedBlogUrls, 'blog')
+           validateStatuses(websiteStatuses, expectedWebsiteUrls, 'website')
            if (!Array.isArray(history) || !history.length) throw new Error('Health history was not persisted')
           const latest = history.at(-1)
-           if (!Array.isArray(latest.statusData) || latest.statusData.length !== expectedUrls.size) {
+            if (!Array.isArray(latest.statusData) || latest.statusData.length !== expectedBlogUrls.size + expectedWebsiteUrls.size) {
              throw new Error('Latest health history is incomplete')
            }
            if (!Array.isArray(communityStatuses) || !communityStatuses.length) {
@@ -196,13 +214,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-           git add docs/public/health-status.json docs/public/community-health-status.json
+            git add docs/public/health-status.json docs/public/website-health-status.json docs/public/community-health-status.json
           if git diff --cached --quiet; then
             echo 'Public status JSON did not change.'
             exit 0
           fi
           staged_files="$(git diff --cached --name-only)"
-           if [[ "$staged_files" != $'docs/public/community-health-status.json\ndocs/public/health-status.json' ]]; then
+            if [[ "$staged_files" != $'docs/public/community-health-status.json\ndocs/public/health-status.json\ndocs/public/website-health-status.json' ]]; then
              echo 'Refusing to publish files other than the public status JSON files.' >&2
             git diff --cached --name-status >&2
             exit 1

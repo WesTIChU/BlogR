@@ -2,6 +2,8 @@
 
 import assert from 'node:assert/strict'
 import test from 'node:test'
+import blogs from '../../data/blogs.json' with { type: 'json' }
+import websites from '../../data/websites.json' with { type: 'json' }
 import { onRequestGet } from '../../functions/api/check-blog.js'
 
 const env = {
@@ -9,9 +11,9 @@ const env = {
   GITHUB_REPOSITORY: 'WesTIChU/BlogR'
 }
 
-const request = (url) =>
+const request = (url, type = 'blog') =>
   new Request(
-    `https://blogr.directory/api/check-blog?url=${encodeURIComponent(url)}`
+    `https://blogr.directory/api/check-blog?type=${type}&url=${encodeURIComponent(url)}`
   )
 
 test('finds listed blogs using URL variations', async () => {
@@ -21,7 +23,8 @@ test('finds listed blogs using URL variations', async () => {
   })
   assert.deepEqual(await response.json(), {
     status: 'listed',
-    name: 'A 5000 Mile Walk'
+    name: 'A 5000 Mile Walk',
+    listingUrl: '/blogs'
   })
 })
 
@@ -32,8 +35,49 @@ test('accepts protocol-less URLs when checking listed blogs', async () => {
   })
   assert.deepEqual(await response.json(), {
     status: 'listed',
-    name: 'A 5000 Mile Walk'
+    name: 'A 5000 Mile Walk',
+    listingUrl: '/blogs'
   })
+})
+
+test('checks blogs and Independent Web in separate directories', async () => {
+  const originalFetch = globalThis.fetch
+  globalThis.fetch = async () => new Response('[]', { status: 200 })
+  try {
+    const listedWebsite = await onRequestGet({
+      request: request(websites[0].url, 'website'),
+      env
+    })
+    assert.deepEqual(await listedWebsite.json(), {
+      status: 'listed',
+      name: websites[0].name,
+      listingUrl: '/independent-web'
+    })
+
+    const listedBlog = await onRequestGet({
+      request: request(blogs[0].url, 'blog'),
+      env
+    })
+    assert.deepEqual(await listedBlog.json(), {
+      status: 'listed',
+      name: blogs[0].name,
+      listingUrl: '/blogs'
+    })
+
+    const blogForWebsite = await onRequestGet({
+      request: request(blogs[0].url, 'website'),
+      env
+    })
+    assert.deepEqual(await blogForWebsite.json(), { status: 'available' })
+
+    const websiteForBlog = await onRequestGet({
+      request: request(websites[0].url, 'blog'),
+      env
+    })
+    assert.deepEqual(await websiteForBlog.json(), { status: 'available' })
+  } finally {
+    globalThis.fetch = originalFetch
+  }
 })
 
 test('rejects malformed URLs before checking GitHub', async () => {

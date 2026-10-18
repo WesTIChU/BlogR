@@ -1,5 +1,8 @@
+import communities from '../../data/communities.json' with { type: 'json' }
+import websites from '../../data/websites.json' with { type: 'json' }
 import {
   canonicalBlogUrl,
+  entriesForSubmissionType,
   findListedBlog,
   hasPendingSubmission
 } from '../../shared/blog-duplicate.js'
@@ -32,12 +35,12 @@ const githubRequest = (env, path) =>
     }
   })
 
-const getOpenSubmissionIssues = async (env) => {
+const getOpenSubmissionIssues = async (env, label) => {
   const issues = []
   for (let page = 1; page <= 10; page += 1) {
     const response = await githubRequest(
       env,
-      `/repos/${env.GITHUB_REPOSITORY}/issues?state=open&labels=blog-submission&per_page=100&page=${page}`
+      `/repos/${env.GITHUB_REPOSITORY}/issues?state=open&labels=${encodeURIComponent(label)}&per_page=100&page=${page}`
     )
     if (!response.ok) throw new Error('Unable to inspect open submissions')
     const pageIssues = await response.json()
@@ -63,6 +66,7 @@ export async function onRequestGet({ request, env }) {
     requestCounts.set(ip, { count: 1, expires: now + RATE_WINDOW })
   }
   const rawUrl = new URL(request.url).searchParams.get('url')
+  const type = new URL(request.url).searchParams.get('type') ?? 'blog'
   let url
   try {
     url = validateUrl(rawUrl)
@@ -70,7 +74,7 @@ export async function onRequestGet({ request, env }) {
     return json({ error: 'Blog URL must be a valid HTTP(S) URL' }, 400)
   }
 
-  const canonical = canonicalBlogUrl(url)
+  const canonical = `${type}:${canonicalBlogUrl(url)}`
   const cached = cache.get(canonical)
   if (cached && cached.expires > Date.now()) return json(cached.result)
 
@@ -98,7 +102,10 @@ export async function onRequestGet({ request, env }) {
 
   let listed
   try {
-    listed = findListedBlog(blogs, url)
+    listed = findListedBlog(
+      entriesForSubmissionType(type, { blogs, websites, communities }),
+      url
+    )
   } catch {
     return json(
       { error: 'Duplicate checking is temporarily unavailable.' },
@@ -106,13 +113,28 @@ export async function onRequestGet({ request, env }) {
     )
   }
   if (listed) {
-    const result = { status: 'listed', name: listed.name }
+    const result = {
+      status: 'listed',
+      name: listed.name,
+      listingUrl:
+        type === 'website'
+          ? '/independent-web'
+          : type === 'community'
+            ? '/communities/online-communities'
+            : '/blogs'
+    }
     cache.set(canonical, { result, expires: Date.now() + CACHE_TTL })
     return json(result)
   }
 
   try {
-    const issues = await getOpenSubmissionIssues(env)
+    const label =
+      type === 'website'
+        ? 'independent-web-submission'
+        : type === 'community'
+          ? 'community-submission'
+          : 'blog-submission'
+    const issues = await getOpenSubmissionIssues(env, label)
     const result = hasPendingSubmission(issues, url)
       ? { status: 'pending' }
       : { status: 'available' }

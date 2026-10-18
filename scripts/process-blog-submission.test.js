@@ -5,8 +5,11 @@ import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
 import communities from '../data/communities.json' with { type: 'json' }
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
+import independentWebTaxonomy from '../data/independent-web-taxonomy.json' with { type: 'json' }
+import websites from '../data/websites.json' with { type: 'json' }
 import {
   appendBlogEntry,
+  applySuggestedIndependentSubcategory,
   applySuggestedSubcategory,
   buildBlogEntry,
   buildCommunityEntry,
@@ -16,15 +19,18 @@ import {
   extractSuggestedSubcategory,
   getAdditionMetadata,
   hasApprovalPermission,
+  independentWebsiteCatalogueFiles,
   insertSubcategoryInTaxonomyText,
   isApprovedSubmissionEvent,
   parseCommunityIssueForm,
   parseIssueForm,
+  parseWebsiteIssueForm,
   pullRequestDetails,
   submissionBranch,
   submissionType,
   validateBlogUrl,
   validateCommunitySubmission,
+  validateIndependentWebsiteSubmission,
   validateSubmission,
   validateSuggestedSubcategory
 } from './process-blog-submission.js'
@@ -62,6 +68,58 @@ const communityBody = ({
   notes = ''
 } = {}) =>
   `### Community name\n\n${name}\n\n### Website URL\n\n${url}\n\n### Description\n\n${description}\n\n### Category\n\n${category}\n\n### Community type\n\n${type}\n\n### RSS feed URL (optional)\n\n${rss}\n\n### Additional notes\n\n${notes}\n`
+
+const websiteBody = ({
+  name = 'Example Independent Website',
+  url = 'https://independent-example.test/',
+  description = 'A useful independent web project.',
+  category = 'Personal Websites',
+  subcategory = 'Personal Homepages',
+  country = ''
+} = {}) =>
+  `### Website name\n\n${name}\n\n### Website URL\n\n${url}\n\n### Description\n\n${description}\n\n### Category\n\n${category}\n\n### Subcategory\n\n${subcategory}\n\n### Country\n\n${country}\n`
+
+test('validates independent website subcategories and creates new approved taxonomy entries', () => {
+  const parsed = parseWebsiteIssueForm(
+    websiteBody({ subcategory: 'New Web Project' })
+  )
+  const submission = validateIndependentWebsiteSubmission(parsed, [], [], [])
+  const result = applySuggestedIndependentSubcategory(
+    independentWebTaxonomy,
+    submission
+  )
+
+  assert.equal(result.status, 'created')
+  assert.equal(result.submission.subcategory, 'New Web Project')
+  assert.deepEqual(
+    result.taxonomy.find(({ title }) => title === 'Personal Websites')
+      .subcategories,
+    ['Personal Homepages', 'New Web Project']
+  )
+})
+
+test('reuses an existing independent website subcategory without duplication', () => {
+  const submission = validateIndependentWebsiteSubmission(
+    parseWebsiteIssueForm(
+      websiteBody({ subcategory: ' personal   homepages ' })
+    ),
+    [],
+    [],
+    []
+  )
+  const result = applySuggestedIndependentSubcategory(
+    independentWebTaxonomy,
+    submission
+  )
+
+  assert.equal(result.status, 'reused')
+  assert.equal(result.submission.subcategory, 'Personal Homepages')
+  assert.equal(
+    result.taxonomy.find(({ title }) => title === 'Personal Websites')
+      .subcategories.length,
+    1
+  )
+})
 
 test('parses a valid issue form and maps taxonomy choices', () => {
   const parsed = parseIssueForm(body())
@@ -329,14 +387,12 @@ test('rejects invalid, duplicate and incomplete community submissions', () => {
       ),
     /Duplicate community URL/
   )
-  assert.throws(
-    () =>
-      validateCommunitySubmission(
-        parseCommunityIssueForm(communityBody({ url: blogs[0].url })),
-        communities,
-        blogs
-      ),
-    /Duplicate community URL/
+  assert.doesNotThrow(() =>
+    validateCommunitySubmission(
+      parseCommunityIssueForm(communityBody({ url: blogs[0].url })),
+      communities,
+      blogs
+    )
   )
   assert.throws(
     () =>
@@ -473,6 +529,70 @@ test('rejects duplicate URLs after normalization', () => {
         taxonomy
       ),
     /Duplicate blog URL/
+  )
+})
+
+test('keeps blog and Independent Web duplicate checks separate', () => {
+  const existingBlog = blogs[0]
+  const existingWebsite = websites[0]
+
+  assert.throws(
+    () =>
+      validateSubmission(
+        parseIssueForm(
+          body({
+            url:
+              existingBlog.url.replace(/^https?:\/\/www\./, 'http://') +
+              '?utm_source=test#section'
+          })
+        ),
+        blogs,
+        taxonomy
+      ),
+    /Duplicate blog URL/
+  )
+  assert.doesNotThrow(() =>
+    validateSubmission(
+      parseIssueForm(body({ url: existingWebsite.url })),
+      blogs,
+      taxonomy
+    )
+  )
+
+  assert.throws(
+    () =>
+      validateIndependentWebsiteSubmission(
+        parseWebsiteIssueForm(
+          websiteBody({
+            url:
+              existingWebsite.url.replace(/^https?:\/\//, 'http://') +
+              '?utm_medium=email#section'
+          })
+        ),
+        websites,
+        blogs,
+        communities
+      ),
+    /Duplicate website URL/
+  )
+  assert.doesNotThrow(() =>
+    validateIndependentWebsiteSubmission(
+      parseWebsiteIssueForm(websiteBody({ url: existingBlog.url })),
+      websites,
+      blogs,
+      communities
+    )
+  )
+
+  assert.doesNotThrow(() =>
+    validateIndependentWebsiteSubmission(
+      parseWebsiteIssueForm(
+        websiteBody({ url: 'https://imaginary.nu/second-path' })
+      ),
+      [{ url: 'https://imaginary.nu/first-path' }],
+      [],
+      []
+    )
   )
 })
 
@@ -815,4 +935,16 @@ test('approval catalogue files include only the submission pages and its country
     'docs/country/greece.md'
   ])
   assert.equal(files.includes('docs/collections/travel-outdoors.md'), false)
+})
+
+test('independent website approvals include taxonomy, form and directory outputs', () => {
+  const files = independentWebsiteCatalogueFiles()
+  assert.equal(files.includes('data/websites.json'), true)
+  assert.equal(files.includes('data/independent-web-taxonomy.json'), true)
+  assert.equal(
+    files.includes('.github/ISSUE_TEMPLATE/submit-independent-website.yml'),
+    true
+  )
+  assert.equal(files.includes('docs/independent-web/index.md'), true)
+  assert.equal(files.length, independentWebTaxonomy.length + 4)
 })

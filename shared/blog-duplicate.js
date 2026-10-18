@@ -7,6 +7,12 @@ export const findListedBlog = (blogs, value) => {
   return blogs.find((blog) => canonicalBlogUrl(blog.url) === canonical)
 }
 
+export const entriesForSubmissionType = (
+  type,
+  { blogs = [], websites = [], communities = [] }
+) =>
+  type === 'website' ? websites : type === 'community' ? communities : blogs
+
 export const hasPendingSubmission = (issues, value) => {
   const canonical = canonicalBlogUrl(value)
   return issues.some((issue) =>

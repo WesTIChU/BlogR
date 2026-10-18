@@ -24,7 +24,11 @@ jobs:
       (contains(github.event.issue.body, '### Community name') &&
       contains(github.event.issue.body, '### Website URL') &&
       contains(github.event.issue.body, '### Category') &&
-      contains(github.event.issue.body, '### Community type')))
+      contains(github.event.issue.body, '### Community type')) ||
+      (contains(github.event.issue.body, '### Website name') &&
+      contains(github.event.issue.body, '### Website URL') &&
+      contains(github.event.issue.body, '### Description') &&
+      contains(github.event.issue.body, '### Category')))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

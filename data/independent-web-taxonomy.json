@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "personal-websites",
+    "title": "Personal Websites",
+    "icon": "🏠",
+    "subcategories": ["Personal Homepages"]
+  },
+  {
+    "slug": "web-directories",
+    "title": "Web Directories",
+    "icon": "📁",
+    "subcategories": ["Independent Directories"]
+  },
+  {
+    "slug": "digital-archives",
+    "title": "Digital Archives",
+    "icon": "💾",
+    "subcategories": ["Public Archives", "Film & Television Databases"]
+  },
+  {
+    "slug": "independent-tools",
+    "title": "Independent Tools",
+    "icon": "🛠️",
+    "subcategories": [
+      "Useful Tools",
+      "Developer Tools",
+      "Privacy & Security",
+      "Image & Media Tools",
+      "Creative Tools"
+    ]
+  },
+  {
+    "slug": "creative-projects",
+    "title": "Creative Projects",
+    "icon": "🎨",
+    "subcategories": ["Experimental Projects"]
+  },
+  {
+    "slug": "fansites",
+    "title": "Fansites",
+    "icon": "🎮",
+    "subcategories": ["Fan Archives"]
+  },
+  {
+    "slug": "webrings",
+    "title": "Webrings",
+    "icon": "🔗",
+    "subcategories": ["Webring Hubs"]
+  }
+]

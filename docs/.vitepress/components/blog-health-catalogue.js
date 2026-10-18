@@ -1,5 +1,6 @@
 import blogs from '../../../data/blogs.json'
 import communities from '../../../data/communities.json'
+import websites from '../../../data/websites.json'
 import { normalizeBlogHealthUrl } from '../../../shared/blog-health-url.js'
 
 const buildCatalogueMap = (entries) =>
@@ -14,7 +15,7 @@ const buildCatalogueMap = (entries) =>
   )
 
 const catalogueMaps = new Map([
-  [false, buildCatalogueMap(blogs)],
+  [false, buildCatalogueMap([...blogs, ...websites])],
   [true, buildCatalogueMap(communities)]
 ])
 

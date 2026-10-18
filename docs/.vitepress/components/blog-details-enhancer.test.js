@@ -63,7 +63,10 @@ test('enhances static rows once and reapplies metadata after SPA navigation', as
   globalThis.document = {
     querySelectorAll: () => [current],
     querySelector: (selector) =>
-      selector === '[data-blog-details][data-blog-community]' ? null : current,
+      selector === '[data-blog-details][data-blog-community]' ||
+      selector === '[data-blog-details][data-blog-website]'
+        ? null
+        : current,
     createElement: () => ({
       setAttribute() {},
       append() {}

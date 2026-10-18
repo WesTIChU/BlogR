@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import taxonomy from '../../../../data/blog-taxonomy.json'
+import communityTaxonomy from '../../../../data/community-taxonomy.json'
+import independentWebTaxonomy from '../../../../data/independent-web-taxonomy.json'
 import {
   COUNTRIES,
   COUNTRY_GROUPS,
@@ -21,13 +23,16 @@ declare global {
 }
 
 const form = ref({
+  type: 'blog',
   name: '',
   url: '',
   description: '',
   category: '',
   subcategory: '',
+  suggestedSubcategory: '',
   country: '',
-  countryPlace: ''
+  countryPlace: '',
+  communityType: 'Forum'
 })
 const busy = ref(false)
 const error = ref('')
@@ -42,9 +47,10 @@ const duplicateStatus = ref<
   | 'invalid'
 >('idle')
 const duplicateName = ref('')
+const duplicateListingUrl = ref('')
 const duplicateCache = new Map<
   string,
-  { status: typeof duplicateStatus.value; name?: string }
+  { status: typeof duplicateStatus.value; name?: string; listingUrl?: string }
 >()
 let duplicateTimer: ReturnType<typeof setTimeout> | undefined
 let duplicateRequest = 0
@@ -58,6 +64,7 @@ const checkDuplicate = async () => {
   const requestId = ++duplicateRequest
   if (!value) {
     duplicateStatus.value = 'idle'
+    duplicateListingUrl.value = ''
     return
   }
   let normalized: string
@@ -67,24 +74,30 @@ const checkDuplicate = async () => {
     duplicateStatus.value = 'invalid'
     return
   }
-  const canonical = comparableBlogUrl(normalized)
+  const canonical = `${form.value.type}:${comparableBlogUrl(normalized)}`
   const cached = duplicateCache.get(canonical)
   if (cached) {
     duplicateStatus.value = cached.status
     duplicateName.value = cached.name ?? ''
+    duplicateListingUrl.value = cached.listingUrl ?? ''
     return
   }
   duplicateStatus.value = 'checking'
   try {
     const response = await fetch(
-      `/api/check-blog?url=${encodeURIComponent(normalized)}`
+      `/api/check-blog?type=${encodeURIComponent(form.value.type)}&url=${encodeURIComponent(normalized)}`
     )
     const result = await response.json().catch(() => ({}))
     if (!response.ok) throw new Error()
     if (requestId !== duplicateRequest) return
     duplicateStatus.value = result.status
     duplicateName.value = result.name ?? ''
-    duplicateCache.set(canonical, { status: result.status, name: result.name })
+    duplicateListingUrl.value = result.listingUrl ?? ''
+    duplicateCache.set(canonical, {
+      status: result.status,
+      name: result.name,
+      listingUrl: result.listingUrl
+    })
   } catch {
     if (requestId === duplicateRequest) duplicateStatus.value = 'unavailable'
   }
@@ -98,6 +111,7 @@ const normalizeUrlField = () => {
   } catch {
     duplicateStatus.value = 'invalid'
     duplicateName.value = ''
+    duplicateListingUrl.value = ''
   }
 }
 
@@ -105,13 +119,48 @@ const scheduleDuplicateCheck = () => {
   if (duplicateTimer) clearTimeout(duplicateTimer)
   duplicateStatus.value = 'idle'
   duplicateName.value = ''
+  duplicateListingUrl.value = ''
   duplicateTimer = setTimeout(checkDuplicate, 500)
 }
 
 watch(() => form.value.url, scheduleDuplicateCheck)
+watch(
+  () => form.value.type,
+  () => {
+    duplicateStatus.value = 'idle'
+    duplicateName.value = ''
+    duplicateListingUrl.value = ''
+    if (form.value.url) checkDuplicate()
+  }
+)
 
+const blogCategories = [...taxonomy.categories].sort((a, b) =>
+  a.title.localeCompare(b.title)
+)
+const independentWebCategories = independentWebTaxonomy.map(
+  ({ slug, title, subcategories }) => ({
+    slug,
+    title,
+    subsections: subcategories.map((title) => ({ title }))
+  })
+)
+const communityCategories = communityTaxonomy
+  .map(({ slug, title }) => ({
+    slug,
+    title,
+    subsections: []
+  }))
+  .sort((a, b) => a.title.localeCompare(b.title))
+const categoryGroups = computed(() =>
+  form.value.type === 'community'
+    ? [{ label: 'Community Categories', categories: communityCategories }]
+    : [
+        { label: 'Blog Categories', categories: blogCategories },
+        { label: 'Independent Web', categories: independentWebCategories }
+      ]
+)
 const categories = computed(() =>
-  [...taxonomy.categories].sort((a, b) => a.title.localeCompare(b.title))
+  categoryGroups.value.flatMap(({ categories }) => categories)
 )
 const subcategories = computed(() => {
   const selected = categories.value.find(
@@ -123,6 +172,11 @@ const subcategories = computed(() => {
       )
     : []
 })
+const subcategoryGroup = computed(() =>
+  independentWebCategories.some(({ title }) => title === form.value.category)
+    ? 'Independent Web'
+    : 'Blog Categories'
+)
 
 const submissionCountryOption = (country: (typeof COUNTRIES)[number]) =>
   country.code === 'GB-SCT' ? 'Scotland [GB-SCO]' : countryOption(country)
@@ -191,12 +245,18 @@ const submit = async () => {
   if (busy.value) return
   error.value = ''
   success.value = ''
+  const noun =
+    form.value.type === 'website'
+      ? 'website'
+      : form.value.type === 'community'
+        ? 'community'
+        : 'blog'
   if (duplicateStatus.value !== 'available') {
     error.value =
       duplicateStatus.value === 'listed'
-        ? 'This blog is already listed in BlogR Directory.'
+        ? `This ${noun} is already listed in BlogR Directory.`
         : duplicateStatus.value === 'pending'
-          ? 'This blog has already been submitted and is awaiting review.'
+          ? `This ${noun} has already been submitted and is awaiting review.`
           : duplicateStatus.value === 'invalid'
             ? 'Please enter a valid website address, such as https://example.com.'
             : 'We could not confirm that this URL is available. Please try again.'
@@ -220,18 +280,20 @@ const submit = async () => {
     const result = await response.json().catch(() => ({}))
     if (!response.ok)
       throw new Error(result.error || 'Unable to submit the blog right now.')
-    success.value =
-      'Thanks for submitting your blog! Your submission has been received and is awaiting review.'
+    success.value = `Thanks for submitting your ${noun}! Your submission has been received and is awaiting review.`
     if (result.issueUrl)
       success.value += ` You can view the submission issue here: ${result.issueUrl}`
     form.value = {
+      type: form.value.type,
       name: '',
       url: '',
       description: '',
       category: '',
       subcategory: '',
+      suggestedSubcategory: '',
       country: '',
-      countryPlace: ''
+      countryPlace: '',
+      communityType: 'Forum'
     }
   } catch (submissionError) {
     error.value =
@@ -247,6 +309,29 @@ const submit = async () => {
 
 const categoryChanged = () => {
   form.value.subcategory = ''
+  form.value.suggestedSubcategory = ''
+  if (form.value.type === 'community') {
+    if (form.value.url) checkDuplicate()
+    return
+  }
+  form.value.type = independentWebCategories.some(
+    ({ title }) => title === form.value.category
+  )
+    ? 'website'
+    : 'blog'
+  if (form.value.url) checkDuplicate()
+}
+
+const subcategoryChanged = () => {
+  if (form.value.subcategory) form.value.suggestedSubcategory = ''
+}
+
+const typeChanged = () => {
+  form.value.category = ''
+  form.value.subcategory = ''
+  form.value.country = ''
+  form.value.countryPlace = ''
+  form.value.communityType = 'Forum'
 }
 
 const countryChanged = () => {
@@ -260,8 +345,30 @@ const countryChanged = () => {
       No GitHub account is needed. Every submission is reviewed manually.
     </p>
     <div class="blog-submission-field">
+      <label for="submission-type">
+        What are you submitting?
+        <span aria-hidden="true">*</span>
+      </label>
+      <select
+        id="submission-type"
+        v-model="form.type"
+        required
+        @change="typeChanged"
+      >
+        <option value="blog">Blog</option>
+        <option value="website">Independent Website</option>
+        <option value="community">Online Community</option>
+      </select>
+    </div>
+    <div class="blog-submission-field">
       <label for="submission-name">
-        Blog name
+        {{
+          form.type === 'website'
+            ? 'Website name'
+            : form.type === 'community'
+              ? 'Community name'
+              : 'Blog name'
+        }}
         <span aria-hidden="true">*</span>
       </label>
       <input
@@ -275,7 +382,7 @@ const countryChanged = () => {
     </div>
     <div class="blog-submission-field">
       <label for="submission-url">
-        Blog URL
+        Website URL
         <span aria-hidden="true">*</span>
       </label>
       <input
@@ -305,14 +412,25 @@ const countryChanged = () => {
           Checking BlogR for duplicates...
         </template>
         <template v-else-if="duplicateStatus === 'listed'">
-          This blog is already listed in BlogR!
+          This {{ form.type }} is already listed in
+          {{
+            form.type === 'website'
+              ? 'the Independent Web directory'
+              : form.type === 'community'
+                ? 'Online Communities'
+                : 'the Blog directory'
+          }}.
           <span v-if="duplicateName">({{ duplicateName }})</span>
+          <a v-if="duplicateListingUrl" :href="duplicateListingUrl">
+            View listing
+          </a>
         </template>
         <template v-else-if="duplicateStatus === 'pending'">
-          This blog has already been submitted and is awaiting review.
+          This {{ form.type }} has already been submitted and is awaiting
+          review.
         </template>
         <template v-else-if="duplicateStatus === 'available'">
-          This blog isn't listed yet. You can continue!
+          This {{ form.type }} isn't listed yet. You can continue!
         </template>
         <template v-else-if="duplicateStatus === 'invalid'">
           Please enter a valid website address, such as https://example.com.
@@ -339,7 +457,7 @@ const countryChanged = () => {
     </div>
     <div class="blog-submission-field">
       <label for="submission-category">
-        Main category
+        {{ form.type === 'community' ? 'Community category' : 'Main category' }}
         <span aria-hidden="true">*</span>
       </label>
       <select
@@ -349,34 +467,75 @@ const countryChanged = () => {
         @change="categoryChanged"
       >
         <option value="" disabled>Choose a category</option>
-        <option
-          v-for="category in categories"
-          :key="category.slug"
-          :value="category.title"
-        >
-          {{ category.title }}
-        </option>
+        <template v-for="(group, index) in categoryGroups" :key="group.label">
+          <option v-if="index > 0" disabled aria-hidden="true">
+            ────────────────────
+          </option>
+          <optgroup :label="group.label">
+            <option
+              v-for="category in group.categories"
+              :key="category.slug"
+              :value="category.title"
+            >
+              {{ category.title }}
+            </option>
+          </optgroup>
+        </template>
       </select>
     </div>
-    <div class="blog-submission-field">
+    <div v-if="form.type === 'community'" class="blog-submission-field">
+      <label for="submission-community-type">
+        Community type
+        <span aria-hidden="true">*</span>
+      </label>
+      <select
+        id="submission-community-type"
+        v-model="form.communityType"
+        required
+      >
+        <option>Forum</option>
+        <option>Independent Community</option>
+      </select>
+    </div>
+    <div v-if="form.type !== 'community'" class="blog-submission-field">
       <label for="submission-subcategory">Subcategory</label>
       <select
         id="submission-subcategory"
         v-model="form.subcategory"
         :disabled="!form.category"
+        @change="subcategoryChanged"
       >
         <option value="">Not sure / Other</option>
-        <option
-          v-for="subcategory in subcategories"
-          :key="subcategory.title"
-          :value="subcategory.title"
-        >
-          {{ subcategory.title }}
-        </option>
+        <optgroup v-if="subcategories.length" :label="subcategoryGroup">
+          <option
+            v-for="subcategory in subcategories"
+            :key="subcategory.title"
+            :value="subcategory.title"
+          >
+            {{ subcategory.title }}
+          </option>
+        </optgroup>
       </select>
     </div>
-    <div class="blog-submission-field">
-      <label for="submission-country">Country / Location</label>
+    <div
+      v-if="form.type !== 'community' && form.category && !form.subcategory"
+      class="blog-submission-field"
+    >
+      <label for="submission-suggested-subcategory">
+        Suggest a subcategory
+      </label>
+      <input
+        id="submission-suggested-subcategory"
+        v-model="form.suggestedSubcategory"
+        name="suggestedSubcategory"
+        maxlength="80"
+        placeholder="Optional new subcategory"
+      />
+    </div>
+    <div v-if="form.type !== 'community'" class="blog-submission-field">
+      <label for="submission-country">
+        {{ form.type === 'website' ? 'Country' : 'Country / Location' }}
+      </label>
       <select
         id="submission-country"
         v-model="form.country"
@@ -393,7 +552,10 @@ const countryChanged = () => {
         <option value="other">Other / Not listed</option>
       </select>
     </div>
-    <div v-if="form.country === 'other'" class="blog-submission-field">
+    <div
+      v-if="form.type !== 'community' && form.country === 'other'"
+      class="blog-submission-field"
+    >
       <label for="submission-country-place">Country or place not listed?</label>
       <input
         id="submission-country-place"
@@ -436,7 +598,11 @@ const countryChanged = () => {
         duplicateStatus !== 'available'
       "
     >
-      {{ busy ? 'Submitting…' : 'Submit blog' }}
+      {{
+        busy
+          ? 'Submitting…'
+          : `Submit ${form.type === 'website' ? 'website' : form.type === 'community' ? 'community' : 'blog'}`
+      }}
     </button>
   </form>
 </template>

@@ -8,7 +8,7 @@ const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
 // Nigeria and Russia now have country groups in the catalogue, so their
 // generated country pages are included in the public page and sitemap counts.
-const expectedPublicPageCount = 55
+const expectedPublicPageCount = 64
 
 const htmlFiles = async () => {
   const files = []
@@ -190,4 +190,47 @@ test('renders the Recently Added page and keeps fixture ordering deterministic',
       ['Yesterday', ['Yesterday']]
     ]
   )
+})
+
+test('Recently Added and Recently Updated use the blogs catalogue only', async () => {
+  const recentlyAddedComponent = await readFile(
+    'docs/.vitepress/components/RecentlyAddedBlogs.vue',
+    'utf8'
+  )
+  const recentlyUpdatedComponent = await readFile(
+    'docs/.vitepress/components/RecentlyUpdatedBlogs.vue',
+    'utf8'
+  )
+  const recentlyAddedStats = await readFile(
+    'docs/.vitepress/components/RecentlyAddedStats.vue',
+    'utf8'
+  )
+  assert.match(recentlyAddedComponent, /data\/blogs\.json/)
+  assert.match(recentlyUpdatedComponent, /data\/blogs\.json/)
+  assert.match(recentlyAddedStats, /data\/blogs\.json/)
+  assert.doesNotMatch(
+    recentlyAddedComponent,
+    /data\/websites\.json|data\/communities\.json/
+  )
+  assert.doesNotMatch(
+    recentlyUpdatedComponent,
+    /data\/websites\.json|data\/communities\.json/
+  )
+  assert.doesNotMatch(
+    recentlyAddedStats,
+    /data\/websites\.json|data\/communities\.json/
+  )
+
+  const recentlyAdded = await readFile(
+    join(DIST, 'recently-added.html'),
+    'utf8'
+  )
+  assert.match(recentlyAdded, /https:\/\/www\.thefrugalgamer\.net\/blog\//)
+  assert.doesNotMatch(
+    recentlyAdded,
+    /href="https:\/\/www\.thefrugalgamer\.net\/"/
+  )
+  assert.doesNotMatch(recentlyAdded, /https:\/\/skyhold\.org\/adhd\//)
+  assert.doesNotMatch(recentlyAdded, /https:\/\/pixelcuties\.club\//)
+  assert.doesNotMatch(recentlyAdded, /https:\/\/webring\.xxiivv\.com\//)
 })

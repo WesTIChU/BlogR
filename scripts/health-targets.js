@@ -41,6 +41,7 @@ export function changedHealthUrls(previous, current) {
 export async function getHealthTargets(base, head = 'HEAD') {
   const previousBlogs = readAt(base, 'data/blogs.json')
   const previousCommunities = readAt(base, 'data/communities.json')
+  const previousWebsites = readAt(base, 'data/websites.json')
   const currentBlogs =
     head === 'HEAD'
       ? await readCurrent('data/blogs.json')
@@ -49,12 +50,17 @@ export async function getHealthTargets(base, head = 'HEAD') {
     head === 'HEAD'
       ? await readCurrent('data/communities.json')
       : readAt(head, 'data/communities.json')
+  const currentWebsites =
+    head === 'HEAD'
+      ? await readCurrent('data/websites.json')
+      : readAt(head, 'data/websites.json')
   return {
     blogHealthUrls: changedHealthUrls(previousBlogs, currentBlogs),
     communityHealthUrls: changedHealthUrls(
       previousCommunities,
       currentCommunities
-    )
+    ),
+    websiteHealthUrls: changedHealthUrls(previousWebsites, currentWebsites)
   }
 }
 
@@ -63,5 +69,8 @@ if (process.argv[1]?.endsWith('/scripts/health-targets.js')) {
   console.log(`blog_health_urls=${JSON.stringify(targets.blogHealthUrls)}`)
   console.log(
     `community_health_urls=${JSON.stringify(targets.communityHealthUrls)}`
+  )
+  console.log(
+    `website_health_urls=${JSON.stringify(targets.websiteHealthUrls)}`
   )
 }

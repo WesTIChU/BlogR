@@ -87,7 +87,7 @@ One where people write because they enjoy it. Where a tiny personal blog can be 
 
 Whether it's your own or one you've stumbled across, I'd love to have a look.
 
-**[Submit a blog](/submit-a-blog)** or **[browse the directory](/blogs)** and see where you end up.
+**[Submit a blog](/submit/)** or **[browse the directory](/blogs)** and see where you end up.
 
 Cheers,
 

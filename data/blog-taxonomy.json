@@ -97,7 +97,11 @@
           "title": "Creative Tools & Digital Projects",
           "match": "creative tools|pixel art|game art|visuals|design"
         },
-        { "title": "Privacy & Security", "match": ".*" }
+        { "title": "Privacy & Security", "match": ".*" },
+        {
+          "title": "Retro Computing",
+          "match": "retro|computing"
+        }
       ]
     },
     {

@@ -87,7 +87,9 @@ test('health audit keeps scheduled/manual triggers and is reusable', () => {
   assert.match(healthWorkflow, /schedule:/)
   assert.match(healthWorkflow, /workflow_dispatch:/)
   assert.match(healthWorkflow, /run: pnpm audit:blogs/)
+  assert.match(healthWorkflow, /WEBSITE_HEALTH_URLS/)
   assert.match(healthWorkflow, /docs\/public\/health-status\.json/)
+  assert.match(healthWorkflow, /docs\/public\/website-health-status\.json/)
   assert.match(healthWorkflow, /group: blog-metadata-publish/)
   assert.match(healthWorkflow, /contents: write/)
   assert.match(completionWorkflow, /contents: write/)
@@ -109,10 +111,8 @@ test('health audit keeps scheduled/manual triggers and is reusable', () => {
     /startsWith\(github\.event\.pull_request\.head\.ref, 'blog-submission\/issue-'\)/
   )
   assert.match(completionWorkflow, /community-submission\/issue-/)
-  assert.match(
-    completionWorkflow,
-    /contains\(github\.event\.pull_request\.body, '<!-- blogr-submission:'\)/
-  )
+  assert.match(completionWorkflow, /blogr-submission:/)
+  assert.match(completionWorkflow, /independent-web-submission:/)
 })
 
 test('captures targeted health URLs and passes them to the reusable audit', () => {
@@ -131,6 +131,10 @@ test('captures targeted health URLs and passes them to the reusable audit', () =
   assert.match(
     completionWorkflow,
     /community_health_urls: \$\{\{ steps\.targets\.outputs\.community_health_urls \}\}/
+  )
+  assert.match(
+    completionWorkflow,
+    /website_health_urls: \$\{\{ steps\.targets\.outputs\.website_health_urls \}\}/
   )
   assert.match(
     completionWorkflow,

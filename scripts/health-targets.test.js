@@ -46,4 +46,12 @@ test('selects changed blogs and communities independently', () => {
   assert.deepEqual(changedHealthUrls(previousCommunities, currentCommunities), [
     'https://changed-community.example/'
   ])
+  const previousWebsites = [{ url: 'https://unchanged-website.example/' }]
+  const currentWebsites = [
+    ...previousWebsites,
+    { url: 'https://new-website.example/', description: 'new' }
+  ]
+  assert.deepEqual(changedHealthUrls(previousWebsites, currentWebsites), [
+    'https://new-website.example/'
+  ])
 })

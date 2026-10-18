@@ -1,6 +1,6 @@
 # Direct submission setup
 
-The direct form on `/submit-a-blog` uses the existing GitHub approval workflow: the Pages Function creates an issue with the `blog-submission` label, and an administrator still applies `approved` before the normal workflow can create a pull request.
+The direct form on `/submit/` uses the existing GitHub approval workflow: the Pages Function creates an issue with the appropriate submission label, and an administrator still applies `approved` before the normal workflow can create a pull request. `/submit-a-blog` redirects to the canonical route.
 
 ## Cloudflare Pages
 

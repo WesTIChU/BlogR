@@ -37,13 +37,18 @@ jobs:
       github.event.repository.default_branch &&
        (startsWith(github.event.pull_request.head.ref, 'blog-submission/issue-')
       || startsWith(github.event.pull_request.head.ref,
-      'community-submission/issue-')) &&
-      (contains(github.event.pull_request.body, '<!-- blogr-submission:') ||
-      contains(github.event.pull_request.body, '<!-- community-submission:'))
+      'community-submission/issue-') ||
+      startsWith(github.event.pull_request.head.ref,
+      'website-submission/issue-')) && (contains(github.event.pull_request.body,
+      '<!-- blogr-submission:') ||
+       contains(github.event.pull_request.body, '<!-- community-submission:') ||
+       contains(github.event.pull_request.body, '<!--
+      independent-web-submission:'))
     runs-on: ubuntu-latest
     outputs:
       blog_health_urls: ${{ steps.targets.outputs.blog_health_urls }}
       community_health_urls: ${{ steps.targets.outputs.community_health_urls }}
+      website_health_urls: ${{ steps.targets.outputs.website_health_urls }}
     steps:
       - name: Check out the merged source
         uses: actions/checkout@v4
@@ -72,13 +77,19 @@ jobs:
       github.event.repository.default_branch &&
        (startsWith(github.event.pull_request.head.ref, 'blog-submission/issue-')
       || startsWith(github.event.pull_request.head.ref,
-      'community-submission/issue-')) &&
-      (contains(github.event.pull_request.body, '<!-- blogr-submission:') ||
-      contains(github.event.pull_request.body, '<!-- community-submission:'))
+      'community-submission/issue-') ||
+      startsWith(github.event.pull_request.head.ref,
+      'website-submission/issue-')) && (contains(github.event.pull_request.body,
+      '<!-- blogr-submission:') ||
+       contains(github.event.pull_request.body, '<!-- community-submission:') ||
+       contains(github.event.pull_request.body, '<!--
+      independent-web-submission:'))
     uses: ./.github/workflows/blog-health.yml
     with:
       blog_health_urls: ${{ needs.health-targets.outputs.blog_health_urls }}
       community_health_urls:
         ${{ needs.health-targets.outputs.community_health_urls }}
+      website_health_urls:
+        ${{ needs.health-targets.outputs.website_health_urls }}
     permissions:
       contents: write

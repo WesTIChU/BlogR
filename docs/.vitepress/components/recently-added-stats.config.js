@@ -63,6 +63,21 @@ export const ALL_BLOG_STATS_CONFIG = {
   statistics: allBlogStatistics
 }
 
+export const INDEPENDENT_WEB_STATS_CONFIG = {
+  sectionHeading: '',
+  statistics: allBlogStatistics.map((statistic) => ({
+    ...statistic,
+    label:
+      statistic.label === 'Total Blogs' ? 'Total Websites' : statistic.label,
+    description:
+      statistic.metric === 'total-blogs'
+        ? 'Published independent websites currently listed in BlogR.'
+        : statistic.metric === 'known-countries'
+          ? 'Verified countries represented in the Independent Web directory.'
+          : 'Independent websites with confirmed content activity today.'
+  }))
+}
+
 const recentlyUpdatedStatistics = [
   {
     key: 'updated-today',

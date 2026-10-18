@@ -227,6 +227,16 @@ html[data-theme='monochrome'] {
   padding-bottom: 0;
 }
 
+.sidebar-new-label {
+  display: inline-block;
+  margin-inline-start: 0.45rem;
+  color: #facc15;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: middle;
+}
+
 .VPSidebar::-webkit-scrollbar {
   block-size: 4px;
   border-end-end-radius: 14px;
@@ -712,6 +722,17 @@ body,
   line-height: 1;
   vertical-align: middle;
   transform: translateY(-1px);
+}
+
+.nav-submit-site {
+  color: #f97316;
+  font-weight: 600;
+}
+
+@media (min-width: 960px) {
+  .VPNavBarMenuGroup:has(.nav-directory-group) {
+    display: none;
+  }
 }
 
 /* Prevent navbar collapsing/uncollapsing and disable transitions during search scroll operations */

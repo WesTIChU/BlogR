@@ -1,3 +1,5 @@
+import communityTaxonomy from '../../data/community-taxonomy.json' with { type: 'json' }
+import independentWebTaxonomy from '../../data/independent-web-taxonomy.json' with { type: 'json' }
 import { taxonomy } from '../../shared/blogr-function-data.js'
 import {
   countryOption,
@@ -144,6 +146,94 @@ export function validateSubmissionInput(input) {
   }
 }
 
+const categoryTitle = (value, categories, field) => {
+  const title = cleanSingleLine(value, field, MAX_NAME_LENGTH)
+  const match = categories.find(
+    ({ title: candidate }) =>
+      candidate.toLocaleLowerCase() === title.toLocaleLowerCase()
+  )
+  if (!match) throw new Error(`Invalid ${field}`)
+  return match.title
+}
+
+export function validateIndependentWebsiteInput(input) {
+  const name = cleanSingleLine(input.name, 'website name', MAX_NAME_LENGTH)
+  const url = validateUrl(input.url)
+  const description = cleanDescription(input.description)
+  const category = categoryTitle(
+    input.category,
+    independentWebTaxonomy,
+    'website category'
+  )
+  const subcategory =
+    typeof input.subcategory === 'string' ? input.subcategory.trim() : ''
+  const selectedSubcategory =
+    subcategory === 'Not sure / Other' ? '' : subcategory
+  const allowed =
+    independentWebTaxonomy.find(({ title }) => title === category)
+      ?.subcategories ?? []
+  const suggestedSubcategory =
+    typeof input.suggestedSubcategory === 'string'
+      ? input.suggestedSubcategory.trim()
+      : ''
+  if (selectedSubcategory && !allowed.includes(selectedSubcategory))
+    throw new Error('Invalid subcategory for the selected website category')
+  if (suggestedSubcategory) {
+    if (selectedSubcategory) {
+      throw new Error(
+        'Clear the selected subcategory before suggesting a new one'
+      )
+    }
+    if (
+      suggestedSubcategory.length > 80 ||
+      !/^[\p{L}\p{N}][\p{L}\p{N} &'’-]*[\p{L}\p{N}]$/u.test(
+        suggestedSubcategory
+      )
+    ) {
+      throw new Error('Suggested subcategory contains an invalid name')
+    }
+  }
+  return {
+    name,
+    url,
+    description,
+    category,
+    ...(selectedSubcategory
+      ? { subcategory: selectedSubcategory }
+      : suggestedSubcategory
+        ? { subcategory: suggestedSubcategory }
+        : {}),
+    ...(input.country
+      ? {
+          country: cleanSingleLine(
+            input.country,
+            'country',
+            MAX_COUNTRY_PLACE_LENGTH
+          )
+        }
+      : {})
+  }
+}
+
+export function validateCommunityInput(input) {
+  const name = cleanSingleLine(input.name, 'community name', MAX_NAME_LENGTH)
+  const url = validateUrl(input.url)
+  const description = cleanDescription(input.description)
+  const category = categoryTitle(
+    input.category,
+    communityTaxonomy,
+    'community category'
+  )
+  const communityType = cleanSingleLine(
+    input.communityType,
+    'community type',
+    80
+  )
+  if (!['Forum', 'Independent Community'].includes(communityType))
+    throw new Error('Invalid community type')
+  return { name, url, description, category, communityType }
+}
+
 export const buildIssueBody = (submission) => {
   const country = submission.country
     ? submission.country === 'GB-SCT'
@@ -189,3 +279,55 @@ export const buildIssueBody = (submission) => {
     ''
   ].join('\n')
 }
+
+export const buildIndependentWebsiteIssueBody = (submission) =>
+  [
+    '### Website name',
+    '',
+    submission.name,
+    '',
+    '### Website URL',
+    '',
+    submission.url,
+    '',
+    '### Description',
+    '',
+    submission.description,
+    '',
+    '### Category',
+    '',
+    submission.category,
+    '',
+    '### Subcategory',
+    '',
+    submission.subcategory ?? '',
+    '',
+    '### Country',
+    '',
+    submission.country ?? '',
+    ''
+  ].join('\n')
+
+export const buildCommunityIssueBody = (submission) =>
+  [
+    '### Community name',
+    '',
+    submission.name,
+    '',
+    '### Website URL',
+    '',
+    submission.url,
+    '',
+    '### Description',
+    '',
+    submission.description,
+    '',
+    '### Category',
+    '',
+    submission.category,
+    '',
+    '### Community type',
+    '',
+    submission.communityType,
+    ''
+  ].join('\n')

@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import {
   ALL_BLOG_STATS_CONFIG,
+  INDEPENDENT_WEB_STATS_CONFIG,
   RECENTLY_UPDATED_STATS_CONFIG
 } from '../docs/.vitepress/components/recently-added-stats.config.js'
 import {
@@ -43,6 +44,16 @@ test('exposes the Recently Updated statistics in display order', () => {
       .sort((a, b) => a.order - b.order)
       .map(({ label }) => label),
     ['Updated Today', 'Last 7 Days', 'This Month']
+  )
+})
+
+test('keeps blog and Independent Web statistic definitions separate', () => {
+  assert.deepEqual(
+    INDEPENDENT_WEB_STATS_CONFIG.statistics
+      .filter(({ enabled }) => enabled)
+      .sort((a, b) => a.order - b.order)
+      .map(({ label }) => label),
+    ['Total Websites', 'Known Countries', 'Updated Today']
   )
 })
 
@@ -209,6 +220,46 @@ test('counts published blogs, unique valid countries, and confirmed updates', ()
       ['countries', 2],
       ['today', 1]
     ]
+  )
+})
+
+test('counts each directory only from its own dataset', () => {
+  const now = new Date('2026-04-01T12:00:00Z')
+  const definitions = [
+    { key: 'total', metric: 'total-blogs', order: 1 },
+    { key: 'countries', metric: 'known-countries', order: 2 },
+    {
+      key: 'today',
+      metric: 'content-updates',
+      order: 3,
+      period: { type: 'calendar-day' }
+    }
+  ]
+  const blogs = [{ name: 'Blog', url: 'https://blog.example/', country: 'GB' }]
+  const websites = [
+    { name: 'Website', url: 'https://website.example/', country: 'US' }
+  ]
+  const updates = {
+    'https://blog.example/': { status: 'success', lastPublished: '2026-04-01' },
+    'https://website.example/': {
+      status: 'success',
+      lastPublished: '2026-04-01'
+    }
+  }
+
+  assert.deepEqual(
+    getAllBlogStats(blogs, updates, now, definitions).map(({ count }) => count),
+    [1, 1, 1]
+  )
+  assert.deepEqual(
+    getAllBlogStats(websites, updates, now, definitions).map(
+      ({ count }) => count
+    ),
+    [1, 1, 1]
+  )
+  assert.deepEqual(
+    getAllBlogStats([], updates, now, definitions).map(({ count }) => count),
+    [0, 0, 0]
   )
 })
 

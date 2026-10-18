@@ -11,28 +11,32 @@ import { RECENTLY_ADDED_STATS_CONFIG } from './recently-added-stats.config.js'
 
 const props = defineProps({
   config: { type: Object, default: () => RECENTLY_ADDED_STATS_CONFIG },
-  mode: { type: String, default: 'recently-added' }
+  mode: { type: String, default: 'recently-added' },
+  entries: { type: Array, default: () => blogs }
 })
 
 const currentTime = ref(new Date())
 let rolloverTimer
-
 const statistics = () =>
   props.mode === 'all-blogs'
     ? getAllBlogStats(
-        blogs,
+        props.entries,
         blogUpdates.value,
         currentTime.value,
         props.config.statistics
       )
     : props.mode === 'recently-updated'
       ? getAllBlogStats(
-          blogs,
+          props.entries,
           blogUpdates.value,
           currentTime.value,
           props.config.statistics
         )
-      : getRecentlyAddedStats(blogs, currentTime.value, props.config.statistics)
+      : getRecentlyAddedStats(
+          props.entries,
+          currentTime.value,
+          props.config.statistics
+        )
 
 const scheduleLondonMidnight = () => {
   if (typeof window === 'undefined') return

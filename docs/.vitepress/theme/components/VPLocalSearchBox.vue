@@ -151,6 +151,15 @@ function resultCategoryOf(id: string): string {
   return segment ? `/${segment}` : '/'
 }
 
+function resultTypeOf(id: string): string {
+  const category = resultCategoryOf(id)
+  return category === '/independent-web'
+    ? 'Independent Website'
+    : category === '/communities'
+      ? 'Community'
+      : 'Blog'
+}
+
 function computeCategoryCounts(results: (SearchResult & Result)[]) {
   const counts = new Map<string, number>()
   for (const r of results) {
@@ -2472,6 +2481,9 @@ function isSamePageComparison(destPath: string) {
                             v-html="sanitizeSearchHtml(p.title)"
                           />
                         </a>
+                        <small class="result-type">
+                          {{ resultTypeOf(p.id) }}
+                        </small>
                       </span>
                     </div>
                     <div v-if="showDetailedList" class="excerpt-wrapper">
@@ -2928,6 +2940,13 @@ function isSamePageComparison(destPath: string) {
 .result-link {
   color: inherit;
   text-decoration: none;
+}
+
+.result-type {
+  margin-left: 0.5rem;
+  color: var(--vp-c-text-3);
+  font-size: 0.72rem;
+  font-weight: 500;
 }
 
 .result-link::before {

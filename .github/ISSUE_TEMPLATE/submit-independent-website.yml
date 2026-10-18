@@ -1,0 +1,48 @@
+name: Submit an independent website
+description:
+  Suggest an interesting independent website for the Independent Web directory.
+title: 'Independent website submission: '
+labels:
+  - independent-web-submission
+body:
+  - type: input
+    id: website-name
+    attributes:
+      label: Website name
+    validations: { required: true }
+  - type: input
+    id: website-url
+    attributes:
+      label: Website URL
+      placeholder: https://example.com/
+    validations: { required: true }
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES
+        - "Personal Websites"
+        - "Web Directories"
+        - "Digital Archives"
+        - "Independent Tools"
+        - "Creative Projects"
+        - "Fansites"
+        - "Webrings"
+        # END GENERATED INDEPENDENT WEB CATEGORIES
+    validations: { required: true }
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory
+    validations: { required: false }
+  - type: input
+    id: country
+    attributes:
+      label: Country
+    validations: { required: false }

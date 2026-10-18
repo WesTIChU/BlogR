@@ -13,6 +13,12 @@ const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
 const communities = JSON.parse(
   await readFile(resolve('data/communities.json'), 'utf8')
 )
+const websites = JSON.parse(
+  await readFile(resolve('data/websites.json'), 'utf8')
+)
+const independentWebTaxonomy = JSON.parse(
+  await readFile(resolve('data/independent-web-taxonomy.json'), 'utf8')
+)
 const communityTaxonomy = JSON.parse(
   await readFile(resolve('data/community-taxonomy.json'), 'utf8')
 )
@@ -23,6 +29,22 @@ const taxonomy = JSON.parse(
 const categories = taxonomy.categories
 const recentlyAddedDescription =
   'Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.'
+const independentWebCategoryDescriptions = {
+  'Personal Websites':
+    'Personal homepages and hand-built sites where people share their interests, projects and corners of the web.',
+  'Web Directories':
+    'Small, human-curated directories that help visitors discover useful and unusual places across the independent web.',
+  'Digital Archives':
+    'Archives preserving websites, media, documents and other pieces of online and cultural history.',
+  'Independent Tools':
+    'Practical tools and small web projects made independently for focused, useful tasks.',
+  'Creative Projects':
+    'Artistic experiments, digital creations and personal projects made outside the usual platforms.',
+  Fansites:
+    'Fan-made archives and tributes celebrating favourite games, stories, characters and communities.',
+  Webrings:
+    'Webrings and ring hubs that connect independent sites through shared navigation and discovery.'
+}
 const subsectionRules = Object.fromEntries(
   categories.map((category) => [
     category.slug,
@@ -52,6 +74,11 @@ export const compareCommunities = (a, b) =>
     numeric: true,
     sensitivity: 'base'
   })
+export const compareWebsites = (a, b) =>
+  a.name.localeCompare(b.name, undefined, {
+    numeric: true,
+    sensitivity: 'base'
+  }) || a.url.localeCompare(b.url)
 export const compareCommunityCategories = (a, b) =>
   a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
 
@@ -307,6 +334,116 @@ export function validateBlogs(entries) {
   }
 }
 
+export function validateWebsites(entries, taxonomy = independentWebTaxonomy) {
+  const validCategories = new Set(taxonomy.map(({ title }) => title))
+  const seenIds = new Set()
+  const seenUrls = new Set()
+  for (const entry of entries) {
+    if (!entry || typeof entry !== 'object')
+      throw new Error('Invalid independent website entry')
+    if (typeof entry.id !== 'string' || !entry.id)
+      throw new Error(`Invalid independent website id for ${entry.name}`)
+    if (seenIds.has(entry.id))
+      throw new Error(`Duplicate independent website id "${entry.id}"`)
+    if (
+      typeof entry.name !== 'string' ||
+      !entry.name ||
+      typeof entry.url !== 'string'
+    )
+      throw new Error(`Invalid independent website fields for ${entry.name}`)
+    if (seenUrls.has(entry.url))
+      throw new Error(`Duplicate independent website URL "${entry.url}"`)
+    if (!validCategories.has(entry.category))
+      throw new Error(
+        `Invalid independent website category "${entry.category}"`
+      )
+    if (!entry.description || !entry.addedAt)
+      throw new Error(
+        `Independent website ${entry.name} needs a description and addedAt date`
+      )
+    try {
+      new URL(entry.url)
+    } catch {
+      throw new Error(`Invalid independent website URL for ${entry.name}`)
+    }
+    if (entry.subcategory !== undefined) {
+      const category = taxonomy.find(({ title }) => title === entry.category)
+      if (!category?.subcategories.includes(entry.subcategory))
+        throw new Error(
+          `Invalid independent website subcategory "${entry.subcategory}" for ${entry.name}`
+        )
+    }
+    seenIds.add(entry.id)
+    seenUrls.add(entry.url)
+  }
+}
+
+const renderWebsiteDetails = (entry) => {
+  const added = formatAddedDate(entry.addedDate)
+  return `<span class="blog-last-updated" data-blog-details data-blog-website="true" data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span>${added ? `<span class="blog-metadata-separator" aria-hidden="true">·</span><span class="blog-added-date">Added&nbsp;${attribute(added)}</span>` : ''}<span class="blog-health-sr-only">Unknown or stale</span></span>`
+}
+
+const renderWebsiteEntries = (entries) =>
+  entries
+    .map(
+      (entry) =>
+        `* <span class="blog-entry"><strong class="blog-health-link"><a href="${attribute(entry.url)}" target="_blank" rel="noopener noreferrer">${attribute(entry.name)}</a></strong> - ${attribute(entry.description)}</span>${renderWebsiteDetails(entry)}`
+    )
+    .join('\n')
+
+export function independentWebPage(
+  title,
+  description,
+  entries,
+  { root = false, previous = null, next = null } = {}
+) {
+  const grouped = root
+    ? independentWebTaxonomy
+        .map(({ title: category, subcategories }) => {
+          const categoryEntries = entries.filter(
+            (entry) => entry.category === category
+          )
+          if (!categoryEntries.length)
+            return `## ${category}\n\n* No independent websites are currently listed in this category.`
+          const sections = subcategories
+            .map((subcategory) => {
+              const matching = categoryEntries.filter(
+                (entry) => entry.subcategory === subcategory
+              )
+              return matching.length
+                ? `### ${subcategory}\n\n${renderWebsiteEntries(matching.sort(compareWebsites))}`
+                : ''
+            })
+            .filter(Boolean)
+          return `## ${category}\n\n${sections.length ? sections.join('\n\n') : renderWebsiteEntries(categoryEntries.sort(compareWebsites))}`
+        })
+        .join('\n\n')
+    : (() => {
+        const category = independentWebTaxonomy.find(
+          ({ title: categoryTitle }) => categoryTitle === title
+        )
+        const sections = category?.subcategories
+          .map((subcategory) => {
+            const matching = entries.filter(
+              (entry) => entry.subcategory === subcategory
+            )
+            return matching.length
+              ? `## ${subcategory}\n\n${renderWebsiteEntries(matching.sort(compareWebsites))}`
+              : ''
+          })
+          .filter(Boolean)
+        return sections?.length
+          ? sections.join('\n\n')
+          : entries.length
+            ? renderWebsiteEntries(entries.sort(compareWebsites))
+            : '* No independent websites are currently listed in this category yet.'
+      })()
+  const navigation = root
+    ? ''
+    : `prev:${previous ? `\n  text: ${previous.title}\n  link: /independent-web/${previous.slug}` : ' false'}\nnext:${next ? `\n  text: ${next.title}\n  link: /independent-web/${next.slug}` : ' false'}\n`
+  return `---\ntitle: ${title}\ndescription: ${description}\n${navigation}---\n\n<script setup>\n${root ? "import IndependentWebStats from '../.vitepress/components/IndependentWebStats.vue'" : ''}\n</script>\n\n# ► ${title}\n\n${description}\n\n${root ? '[**► Submit an Independent Website**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-independent-website.yml)\n\n' : ''}<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${root ? '<IndependentWebStats />\n\n' : ''}${grouped}\n`
+}
+
 export function groupBySubsection(
   slug,
   entries,
@@ -394,8 +531,10 @@ export function groupByCountry(entries) {
 if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   validateBlogs(blogs)
   validateCommunities(communities)
+  validateWebsites(websites)
   await mkdir(resolve('docs/collections'), { recursive: true })
   await mkdir(resolve('docs/country'), { recursive: true })
+  await mkdir(resolve('docs/independent-web'), { recursive: true })
 
   const all = [...blogs].sort(compareBlogs)
   await writeFile(
@@ -463,7 +602,40 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
     communityPage(communities)
   )
 
+  const independentWebDescription =
+    'Discover the independent web. Personal homepages, useful tools, forgotten archives, fansites and creative projects built by people who still make the internet interesting.'
+  await writeFile(
+    resolve('docs/independent-web/index.md'),
+    independentWebPage('Independent Web', independentWebDescription, websites, {
+      root: true
+    })
+  )
+  const websiteFiles = new Set(['index.md'])
+  for (const [index, category] of independentWebTaxonomy.entries()) {
+    const entries = websites.filter(
+      ({ category: value }) => value === category.title
+    )
+    const filename = `${category.slug}.md`
+    websiteFiles.add(filename)
+    await writeFile(
+      resolve('docs/independent-web', filename),
+      independentWebPage(
+        category.title,
+        independentWebCategoryDescriptions[category.title],
+        entries,
+        {
+          previous: independentWebTaxonomy[index - 1] ?? null,
+          next: independentWebTaxonomy[index + 1] ?? null
+        }
+      )
+    )
+  }
+  for (const filename of await readdir(resolve('docs/independent-web'))) {
+    if (filename.endsWith('.md') && !websiteFiles.has(filename))
+      await unlink(resolve('docs/independent-web', filename))
+  }
+
   console.log(
-    `Generated ${all.length} blogs across ${categories.length} categories and ${groupByCountry(blogs).length} countries.`
+    `Generated ${all.length} blogs, ${websites.length} independent websites across ${independentWebTaxonomy.length} categories, and ${groupByCountry(blogs).length} countries.`
   )
 }

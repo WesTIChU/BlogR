@@ -504,6 +504,9 @@ if (
   resolve(process.argv[1]) === fileURLToPath(import.meta.url)
 ) {
   const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
+  const websites = JSON.parse(
+    await readFile(resolve('data/websites.json'), 'utf8')
+  )
   let previous = {}
   try {
     previous = JSON.parse(
@@ -512,7 +515,7 @@ if (
   } catch {
     // First scan.
   }
-  const updates = await checkBlogs({ blogs, previous })
+  const updates = await checkBlogs({ blogs: [...blogs, ...websites], previous })
   await writeFile(
     resolve('data/blog-updates.json'),
     `${JSON.stringify(updates, null, 2)}\n`

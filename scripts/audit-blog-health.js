@@ -20,6 +20,10 @@ const REDIRECT_STATUSES = new Set([301, 302, 303, 307, 308])
 const reportsDir = resolve(process.env.BLOGR_REPORTS_DIR ?? 'reports')
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
+const websites = JSON.parse(
+  await readFile(resolve('data/websites.json'), 'utf8')
+)
+const catalogue = [...blogs, ...websites]
 
 const sleep = (milliseconds) =>
   new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds))
@@ -36,23 +40,26 @@ const normalizeUrl = (value) => {
   }
 }
 
-const selectedBlogUrls = (() => {
-  if (!process.env.BLOG_HEALTH_URLS) return null
-  const urls = JSON.parse(process.env.BLOG_HEALTH_URLS)
+const selectedHealthUrls = (() => {
+  const values = [process.env.BLOG_HEALTH_URLS, process.env.WEBSITE_HEALTH_URLS]
+    .filter(Boolean)
+    .flatMap((value) => JSON.parse(value))
+  if (!values.length) return null
+  const urls = values
   return urls.length
     ? new Set(urls.map((url) => normalizeUrl(url).toString()))
     : null
 })()
 
-const blogsToCheck = selectedBlogUrls
-  ? blogs.filter((blog) => {
+const catalogueToCheck = selectedHealthUrls
+  ? catalogue.filter((blog) => {
       try {
-        return selectedBlogUrls.has(normalizeUrl(blog.url).toString())
+        return selectedHealthUrls.has(normalizeUrl(blog.url).toString())
       } catch {
         return false
       }
     })
-  : blogs
+  : catalogue
 
 const classifyError = (error) => {
   if (error.code === 'PRIVATE_DESTINATION') {
@@ -247,7 +254,7 @@ const checkBlog = async (blog, normalizedUrl) => {
 }
 
 const uniqueBlogs = new Map()
-for (const blog of blogsToCheck) {
+for (const blog of catalogueToCheck) {
   let key
   try {
     key = normalizeUrl(blog.url).toString()
@@ -295,7 +302,7 @@ const worker = async () => {
 
 await Promise.all(Array.from({ length: CONCURRENCY }, worker))
 
-const results = blogsToCheck.map((blog) => {
+const results = catalogueToCheck.map((blog) => {
   let key
   try {
     key = normalizeUrl(blog.url).toString()
@@ -313,7 +320,7 @@ const counts = Object.fromEntries(
 )
 const report = {
   generatedAt: new Date().toISOString(),
-  catalogueCount: blogs.length,
+  catalogueCount: catalogue.length,
   uniqueUrlCount: uniqueEntries.length,
   concurrency: CONCURRENCY,
   maxRedirects: MAX_REDIRECTS,
@@ -341,7 +348,7 @@ const checkedStatusData = buildStatusData(
 const checkedStatusByUrl = new Map(
   checkedStatusData.map((entry) => [normalizeUrl(entry.url).toString(), entry])
 )
-const statusData = blogs.map((blog) => {
+const statusData = catalogue.map((blog) => {
   let key
   try {
     key = normalizeUrl(blog.url).toString()
@@ -373,7 +380,7 @@ history.push({
 })
 
 const markdown = [
-  '# Blog Health Audit',
+  '# Blog and Independent Web Health Audit',
   '',
   `Generated: ${report.generatedAt}`,
   `Catalogue entries: ${report.catalogueCount}`,
@@ -427,10 +434,32 @@ for (const entry of statusData) {
     // Invalid catalogue URLs have no safe public status key.
   }
 }
+const catalogueUrlSet = (entries) =>
+  new Set(
+    entries.map((entry) => {
+      try {
+        return normalizeBlogHealthUrl(entry.url).toString()
+      } catch {
+        return `invalid:${entry.url}`
+      }
+    })
+  )
+const blogUrls = catalogueUrlSet(blogs)
+const websiteUrls = catalogueUrlSet(websites)
+const blogPublicStatuses = [...publicStatusByUrl.values()].filter(({ url }) =>
+  blogUrls.has(url)
+)
+const websitePublicStatuses = [...publicStatusByUrl.values()].filter(
+  ({ url }) => websiteUrls.has(url)
+)
 await mkdir(resolve('docs/public'), { recursive: true })
 await writeFile(
   resolve('docs/public/health-status.json'),
-  `${JSON.stringify([...publicStatusByUrl.values()], null, 2)}\n`
+  `${JSON.stringify(blogPublicStatuses, null, 2)}\n`
+)
+await writeFile(
+  resolve('docs/public/website-health-status.json'),
+  `${JSON.stringify(websitePublicStatuses, null, 2)}\n`
 )
 
 console.log(

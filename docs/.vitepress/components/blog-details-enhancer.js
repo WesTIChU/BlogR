@@ -21,12 +21,14 @@ const statusDetails = {
   unknown: { label: 'Unknown or stale' }
 }
 
-function loadStatuses(community) {
-  const key = community ? 'community' : 'blog'
+function loadStatuses(community, website = false) {
+  const key = community ? 'community' : website ? 'website' : 'blog'
   if (!requests.has(key)) {
     const path = community
       ? '/community-health-status.json'
-      : '/health-status.json'
+      : website
+        ? '/website-health-status.json'
+        : '/health-status.json'
     requests.set(
       key,
       fetch(path, {
@@ -54,15 +56,24 @@ function loadStatuses(community) {
 function updateBlogDetails() {
   for (const element of document.querySelectorAll('[data-blog-details]')) {
     const community = element.hasAttribute('data-blog-community')
+    const website = element.hasAttribute('data-blog-website')
     const url = element.getAttribute('data-blog-url')
-    const update = community ? null : getBlogUpdate(blogUpdates.value, url)
-    const status = getPublicStatus(
+    const update =
+      community || website ? null : getBlogUpdate(blogUpdates.value, url)
+    const rawStatus = getPublicStatus(
       statusMaps
-        .get(community ? 'community' : 'blog')
+        .get(community ? 'community' : website ? 'website' : 'blog')
         ?.get(element.getAttribute('data-blog-url')),
       new Date()
     )
-    const detail = statusDetails[status.status]
+    const status =
+      website && rawStatus.status === 'warning'
+        ? { ...rawStatus, status: 'unknown' }
+        : rawStatus
+    const detail =
+      website && status.status === 'repeatedly-unreachable'
+        ? { label: 'Offline' }
+        : statusDetails[status.status]
     const checked = status.checkedAt
       ? new Date(status.checkedAt).toISOString().slice(0, 10)
       : 'not available'
@@ -87,7 +98,7 @@ function updateBlogDetails() {
       )
     }
 
-    if (!community) {
+    if (!community && !website) {
       const feedSlot = element.querySelector('[data-blog-feed-slot]')
       const updateSlot = element.querySelector('[data-blog-update-slot]')
       const updateSeparator = element.querySelector(
@@ -140,12 +151,16 @@ export function enhanceBlogDetails() {
   if (typeof document === 'undefined') return
   updateBlogDetails()
   const hasBlogs = document.querySelector(
-    '[data-blog-details]:not([data-blog-community])'
+    '[data-blog-details]:not([data-blog-community]):not([data-blog-website])'
+  )
+  const hasWebsites = document.querySelector(
+    '[data-blog-details][data-blog-website]'
   )
   const hasCommunities = document.querySelector(
     '[data-blog-details][data-blog-community]'
   )
   if (hasBlogs) void loadStatuses(false)
+  if (hasWebsites) void loadStatuses(false, true)
   if (hasCommunities) void loadStatuses(true)
   if (hasBlogs) void loadBlogUpdates().then(updateBlogDetails)
 }

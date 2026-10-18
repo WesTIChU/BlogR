@@ -4,8 +4,12 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import taxonomy from '../../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../../data/blogs.json' with { type: 'json' }
+import independentWebTaxonomy from '../../data/independent-web-taxonomy.json' with { type: 'json' }
+import websites from '../../data/websites.json' with { type: 'json' }
 import {
+  buildIndependentWebsiteIssueBody,
   buildIssueBody,
+  validateIndependentWebsiteInput,
   validateSubmissionInput,
   validateUrl
 } from '../../functions/api/submit-blog-validation.js'
@@ -42,6 +46,27 @@ test('rejects unsafe URLs and mismatched subcategories', () => {
   assert.throws(
     () => validateSubmissionInput(input({ subcategory: 'Book Reviews' })),
     /Invalid subcategory/
+  )
+})
+
+test('validates independent websites and carries a new subcategory into review', () => {
+  const submission = validateIndependentWebsiteInput({
+    name: 'Independent Tool',
+    url: 'https://independent-tool.example/',
+    description: 'A useful independent tool.',
+    category: 'Independent Tools',
+    suggestedSubcategory: 'Small Web Utilities'
+  })
+  assert.equal(submission.subcategory, 'Small Web Utilities')
+  assert.match(
+    buildIndependentWebsiteIssueBody(submission),
+    /Small Web Utilities/
+  )
+  assert.equal(
+    independentWebTaxonomy
+      .find(({ title }) => title === 'Independent Tools')
+      .subcategories.includes('Small Web Utilities'),
+    false
   )
 })
 
@@ -123,6 +148,57 @@ test('Pages Function verifies Turnstile and creates a review-only GitHub issue',
   }
 })
 
+test('Pages Function routes independent websites to the dedicated review label', async () => {
+  const originalFetch = globalThis.fetch
+  const calls = []
+  globalThis.fetch = async (url, options) => {
+    calls.push({ url, options })
+    if (url.includes('siteverify'))
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    if (options?.method === 'POST')
+      return new Response(
+        JSON.stringify({
+          html_url: 'https://github.com/WesTIChU/BlogR/issues/100'
+        }),
+        { status: 201 }
+      )
+    return new Response('[]', { status: 200 })
+  }
+  try {
+    const response = await onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          type: 'website',
+          name: 'Independent Tool',
+          url: 'https://independent-tool.example/',
+          description: 'A useful independent tool.',
+          category: 'Independent Tools',
+          suggestedSubcategory: 'Small Web Utilities',
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+    assert.equal(response.status, 200)
+    const issueRequest = calls.find(
+      ({ url, options }) =>
+        options?.method === 'POST' && url.endsWith('/issues')
+    )
+    const issue = JSON.parse(issueRequest.options.body)
+    assert.deepEqual(issue.labels, ['independent-web-submission'])
+    assert.match(issue.body, /Small Web Utilities/)
+    assert.doesNotMatch(issue.body, /### Blog name/)
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
 test('Pages Function rejects a published duplicate before checking GitHub issues', async () => {
   const originalFetch = globalThis.fetch
   let githubCalls = 0
@@ -154,6 +230,48 @@ test('Pages Function rejects a published duplicate before checking GitHub issues
     assert.equal(response.status, 409)
     assert.deepEqual(await response.json(), {
       error: 'This blog is already listed in BlogR Directory.'
+    })
+    assert.equal(githubCalls, 0)
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
+test('Pages Function rejects an Independent Web duplicate in its own directory', async () => {
+  const originalFetch = globalThis.fetch
+  let githubCalls = 0
+  const existing = websites[0]
+  globalThis.fetch = async (url) => {
+    if (url.includes('siteverify')) {
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    }
+    githubCalls += 1
+    return new Response('unexpected', { status: 500 })
+  }
+  try {
+    const response = await onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          type: 'website',
+          name: existing.name,
+          url: `${existing.url}#duplicate`,
+          description: 'A duplicate independent website.',
+          category: existing.category,
+          subcategory: existing.subcategory,
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+    assert.equal(response.status, 409)
+    assert.deepEqual(await response.json(), {
+      error: 'This website is already listed in BlogR Directory.'
     })
     assert.equal(githubCalls, 0)
   } finally {

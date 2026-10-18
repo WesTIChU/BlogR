@@ -16,7 +16,7 @@ hero:
       link: /recently-added
     - theme: alt
       text: Submit a Blog
-      link: /submit-a-blog
+      link: /submit/
 
 features:
   - title:

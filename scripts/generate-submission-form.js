@@ -10,8 +10,13 @@ import {
 
 const FORM_PATH = resolve('.github/ISSUE_TEMPLATE/submit-blog.yml')
 const TAXONOMY_PATH = resolve('data/blog-taxonomy.json')
+const INDEPENDENT_WEB_TAXONOMY_PATH = resolve(
+  'data/independent-web-taxonomy.json'
+)
 const BEGIN = '  # BEGIN GENERATED TAXONOMY OPTIONS'
 const END = '  # END GENERATED TAXONOMY OPTIONS'
+const WEBSITE_BEGIN = '        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES'
+const WEBSITE_END = '        # END GENERATED INDEPENDENT WEB CATEGORIES'
 const yamlString = (value) => JSON.stringify(value)
 const compareTitles = (left, right) =>
   left.title.localeCompare(right.title, 'en', { sensitivity: 'base' })
@@ -158,6 +163,17 @@ export function syncSubmissionForm(form, taxonomy) {
   return form.replace(markerPattern, generated)
 }
 
+export function syncIndependentWebsiteForm(form, taxonomy) {
+  const generated = taxonomy
+    .map(({ title }) => `        - ${yamlString(title)}`)
+    .join('\n')
+  const pattern =
+    /^        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES\n[\s\S]*?^        # END GENERATED INDEPENDENT WEB CATEGORIES/m
+  if (!pattern.test(form))
+    throw new Error('Independent Web submission form markers are missing')
+  return form.replace(pattern, `${WEBSITE_BEGIN}\n${generated}\n${WEBSITE_END}`)
+}
+
 if (
   process.argv[1] &&
   resolve(process.argv[1]) === fileURLToPath(import.meta.url)
@@ -165,15 +181,27 @@ if (
   const check = process.argv.includes('--check')
   const taxonomy = JSON.parse(await readFile(TAXONOMY_PATH, 'utf8'))
   const form = await readFile(FORM_PATH, 'utf8')
+  const websiteTaxonomy = JSON.parse(
+    await readFile(INDEPENDENT_WEB_TAXONOMY_PATH, 'utf8')
+  )
+  const websiteFormPath = resolve(
+    '.github/ISSUE_TEMPLATE/submit-independent-website.yml'
+  )
+  const websiteForm = await readFile(websiteFormPath, 'utf8')
   const synced = syncSubmissionForm(form, taxonomy)
+  const syncedWebsiteForm = syncIndependentWebsiteForm(
+    websiteForm,
+    websiteTaxonomy
+  )
 
   if (check) {
-    if (synced !== form) {
+    if (synced !== form || syncedWebsiteForm !== websiteForm) {
       throw new Error('submit-blog.yml is out of sync with blog-taxonomy.json')
     }
     console.log('Submission form taxonomy is up to date.')
-  } else if (synced !== form) {
+  } else if (synced !== form || syncedWebsiteForm !== websiteForm) {
     await writeFile(FORM_PATH, synced)
+    await writeFile(websiteFormPath, syncedWebsiteForm)
     console.log('Updated submit-blog.yml from blog-taxonomy.json.')
   }
 }

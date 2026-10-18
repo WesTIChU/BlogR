@@ -16,6 +16,7 @@
  */
 
 import type { DefaultTheme } from 'vitepress'
+import independentWebTaxonomy from '../../data/independent-web-taxonomy.json'
 
 // @unocss-include
 
@@ -152,57 +153,77 @@ const sortedCategoryItems = discoverItems
   .slice(3)
   .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
 
-type NavGroup = Omit<DefaultTheme.NavItemWithChildren, 'items'> & {
-  items: DefaultTheme.NavItemWithLink[]
-}
+const independentWebItems: DefaultTheme.NavItemWithLink[] =
+  independentWebTaxonomy.map(({ slug, title, icon }) => ({
+    text: `${icon} ${title}`,
+    link: `/independent-web/${slug}`
+  }))
 
-export const nav: NavGroup[] = [
+const communityItems: DefaultTheme.NavItemWithLink[] = [
   {
-    text: '🔎 Discover',
+    text: '<span class="i-twemoji-speech-balloon"></span> Online Communities',
+    link: '/communities/online-communities'
+  }
+]
+
+const resourcesItems: DefaultTheme.NavItemWithLink[] = [
+  {
+    text: '<span class="i-twemoji-memo"></span> Blogging Platforms',
+    link: '/resources/blogging-platforms'
+  },
+  {
+    text: '<span class="i-twemoji-desktop-computer"></span> Hosting',
+    link: '/resources/hosting'
+  },
+  {
+    text: '<span class="i-twemoji-house"></span> Self-Hosting',
+    link: '/resources/self-hosting'
+  },
+  {
+    text: '<span class="i-twemoji-toolbox"></span> Self-Hosting Apps',
+    link: '/resources/self-hosting-apps'
+  }
+]
+
+const aboutItems: DefaultTheme.NavItemWithLink[] = [
+  {
+    text: '<span class="i-twemoji-information"></span> About',
+    link: '/about'
+  },
+  {
+    text: '<span class="i-twemoji-open-mailbox-with-raised-flag"></span> Submit a Blog',
+    link: '/submit/'
+  }
+]
+
+export const nav: DefaultTheme.NavItem[] = [
+  {
+    text: '<span class="i-twemoji-house"></span> Home',
+    link: '/'
+  },
+  {
+    text: '<span class="nav-submit-site"><span class="i-twemoji-open-mailbox-with-raised-flag"></span> Submit a Site</span>',
+    link: '/submit/'
+  },
+  {
+    text: '<span class="nav-directory-group">🔎 Discover</span>',
     items: sortedDiscoverItems
   },
   {
-    text: '<span class="nav-communities-icon">👥</span> Communities',
-    items: [
-      {
-        text: '<span class="i-twemoji-speech-balloon"></span> Online Communities',
-        link: '/communities/online-communities'
-      }
-    ]
+    text: '<span class="nav-directory-group"><span class="nav-communities-icon">👥</span> Communities</span>',
+    items: communityItems
+  },
+  {
+    text: '<span class="nav-directory-group">🌐 Independent Web</span>',
+    items: independentWebItems
   },
   {
     text: '🛠 Resources',
-    items: [
-      {
-        text: '<span class="i-twemoji-memo"></span> Blogging Platforms',
-        link: '/resources/blogging-platforms'
-      },
-      {
-        text: '<span class="i-twemoji-desktop-computer"></span> Hosting',
-        link: '/resources/hosting'
-      },
-      {
-        text: '<span class="i-twemoji-house"></span> Self-Hosting',
-        link: '/resources/self-hosting'
-      },
-      {
-        text: '<span class="i-twemoji-toolbox"></span> Self-Hosting Apps',
-        link: '/resources/self-hosting-apps'
-      }
-    ]
+    items: resourcesItems
   },
   {
     text: 'ℹ️ About',
-    items: [
-      {
-        text: '<span class="i-twemoji-information"></span> About',
-        link: '/about'
-      },
-      {
-        text: '<span class="i-twemoji-open-mailbox-with-raised-flag"></span> Submit a Blog',
-        link: '/submit-a-blog'
-      }
-    ]
+    items: aboutItems
   }
 ]
 
@@ -213,18 +234,23 @@ export const sidebar: DefaultTheme.Sidebar = [
     items: browseItems
   },
   {
-    text: 'Discover',
+    text: 'Blogs',
     collapsed: false,
     items: sortedCategoryItems
   },
   {
+    text: 'Independent Web <span class="sidebar-new-label">NEW</span>',
+    collapsed: false,
+    items: independentWebItems
+  },
+  {
     text: 'Communities',
     collapsed: false,
-    items: nav[1].items
+    items: communityItems
   },
   {
     text: 'Resources',
     collapsed: false,
-    items: nav[2].items
+    items: resourcesItems
   }
 ]

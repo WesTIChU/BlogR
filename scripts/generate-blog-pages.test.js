@@ -5,6 +5,7 @@ import taxonomy from '../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../data/blogs.json' with { type: 'json' }
 import communities from '../data/communities.json' with { type: 'json' }
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
+import independentWebTaxonomy from '../data/independent-web-taxonomy.json' with { type: 'json' }
 import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 import {
   communityPage,
@@ -61,6 +62,49 @@ test('validates current blogs and groups subcategories alphabetically', () => {
       .entries.map(({ name }) => name),
     ['Alpha', 'Zulu']
   )
+})
+
+test('Independent Web listings render status and added-date metadata only', async () => {
+  const markdown = await readFile('docs/independent-web/webrings.md', 'utf8')
+  const row = markdown.slice(markdown.indexOf('The Small Web Ring'))
+  assert.match(row, /data-blog-website="true"/)
+  assert.match(row, /Added&nbsp;18 October 2026/)
+  assert.doesNotMatch(
+    row,
+    /data-blog-feed-slot|data-blog-update-slot|blog-country/
+  )
+})
+
+test('Independent Web category pages match blog hierarchy and stay in their navigation set', async () => {
+  for (const [index, category] of independentWebTaxonomy.entries()) {
+    const markdown = await readFile(
+      `docs/independent-web/${category.slug}.md`,
+      'utf8'
+    )
+    assert.match(markdown, new RegExp(`# ► ${category.title}`))
+    assert.doesNotMatch(markdown, new RegExp(`^## ${category.title}$`, 'm'))
+    assert.doesNotMatch(markdown, /\/collections\/|Travel & Outdoors/)
+    assert.doesNotMatch(
+      markdown,
+      new RegExp(`${category.title} in the independent web\\.`)
+    )
+
+    const previous = independentWebTaxonomy[index - 1]
+    const next = independentWebTaxonomy[index + 1]
+    if (previous) {
+      assert.match(
+        markdown,
+        new RegExp(`link: /independent-web/${previous.slug}`)
+      )
+    } else {
+      assert.match(markdown, /^prev: false$/m)
+    }
+    if (next) {
+      assert.match(markdown, new RegExp(`link: /independent-web/${next.slug}`))
+    } else {
+      assert.match(markdown, /^next: false$/m)
+    }
+  }
 })
 
 test('classifies dedicated smart-home blogs separately from self-hosting blogs', () => {

@@ -7368,5 +7368,17 @@
     "lastChecked": "2026-10-18T15:46:34.248Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://technovablogs.blogspot.com/?m=1": {
+    "lastPublished": "2026-10-18",
+    "lastChecked": "2026-10-18T20:32:17.260Z",
+    "status": "success",
+    "feedUrl": "https://technovablogs.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Enviormental Cost of Artificial Intelligence (AI)",
+      "url": "https://technovablogs.blogspot.com/2026/10/enviormental-cost-of-artificial.html",
+      "summary": "With the rise in AI, Artificial systems have taken over the world, from voice assistants to self-driving cars, Artificial Intelligence has impacted the way of life, it has impacted various industries…",
+      "publishedAt": "2026-10-18T15:17:00.208Z"
+    }
   }
 }

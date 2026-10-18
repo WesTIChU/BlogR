@@ -6968,5 +6968,17 @@
     "lastChecked": "2026-10-18T15:06:27.578Z",
     "status": "success",
     "feedUrl": "https://mattbrown.com/feed/feed.xml"
+  },
+  "https://bytetrek.me/": {
+    "lastPublished": "2025-11-11",
+    "lastChecked": "2026-10-18T15:21:10.591Z",
+    "status": "success",
+    "feedUrl": "https://bytetrek.me/feed.xml",
+    "latestArticle": {
+      "title": "Install Glance with Portainer",
+      "url": "https://bytetrek.me/posts/install-glance-with-portainer/",
+      "summary": "Glance is a lightweight, self-hosted dashboard for monitoring your system stats, weather, RSS feeds, quick links, and more — perfect for a home server overview. It’s an excellent addition to any Home…",
+      "publishedAt": "2025-11-11T06:00:00.000Z"
+    }
   }
 }

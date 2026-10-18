@@ -1,13 +1,13 @@
 ---
 title: United States Blogs
-description: 88 blogs listed in United States.
+description: 89 blogs listed in United States.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="88" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="89" />
 
 ## Arts & Entertainment
 
@@ -59,6 +59,7 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Book Reviews
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://sloopie72.wordpress.com/" target="_blank" rel="noopener noreferrer">A Just Recompense</a></strong> - Karen Carlson's literary blog featuring detailed reading reflections, short story analysis, fiction reviews and writing experiences.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://sloopie72.wordpress.com/" data-blog-name="A Just Recompense"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;11 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://romantasyscrolls.com/" target="_blank" rel="noopener noreferrer">Romantasy Scrolls</a></strong> - Romantasy Scrolls goes beyond bestseller lists to discover what readers genuinely recommend. Using Reddit discussions, it tracks popular books, reader opinions and honest recommendations. Discover the romantasy novels readers love, and which ones are best left on the shelf.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://romantasyscrolls.com/" data-blog-name="Romantasy Scrolls"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;18 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Horror & Scary Stories
 

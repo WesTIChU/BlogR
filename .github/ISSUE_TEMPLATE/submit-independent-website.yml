@@ -27,13 +27,13 @@ body:
       label: Category
       options:
         # BEGIN GENERATED INDEPENDENT WEB CATEGORIES
-        - "Personal Websites"
-        - "Web Directories"
-        - "Digital Archives"
-        - "Independent Tools"
-        - "Creative Projects"
-        - "Fansites"
-        - "Webrings"
+        - 'Personal Websites'
+        - 'Web Directories'
+        - 'Digital Archives'
+        - 'Independent Tools'
+        - 'Creative Projects'
+        - 'Fansites'
+        - 'Webrings'
         # END GENERATED INDEPENDENT WEB CATEGORIES
     validations: { required: true }
   - type: input

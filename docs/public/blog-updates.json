@@ -726,6 +726,28 @@
       "publishedAt": "2026-10-11T23:00:00.000Z"
     }
   },
+  "https://blog.photopea.com/": {
+    "status": "success",
+    "lastPublished": "2024-04-22",
+    "feedUrl": "https://blog.photopea.com/feed",
+    "latestArticle": {
+      "title": "Photopea 5.6 – Advanced Color Depth",
+      "url": "https://blog.photopea.com/photopea-5-6-advanced-color-depth.html",
+      "summary": "A new release of Photopea is here! It has 138 541 lines of code. Play with it at the main site. New features 16 and 32-bit color support (GPU accelerated) Improving the PWA Advanced Text Styling Supp…",
+      "publishedAt": "2024-04-22T15:49:09.000Z"
+    }
+  },
+  "https://blog.prismatic.pink/": {
+    "status": "success",
+    "lastPublished": "2026-07-10",
+    "feedUrl": "https://blog.prismatic.pink/feed/",
+    "latestArticle": {
+      "title": "Two weeks in Brasilia, the capital of Brazil",
+      "url": "https://blog.prismatic.pink/2026/07/10/two-weeks-in-brasilia-the-capital-of-brazil/",
+      "summary": "Hi everyone! Again, I have failed to post every month, but there’s a good reason behind it. I spent the last two weeks in Brazil with my family. The last post I wrote about my hometown had a pessimis…",
+      "publishedAt": "2026-07-10T02:50:06.000Z"
+    }
+  },
   "https://blog.rakkor.uk/": {
     "status": "success",
     "lastPublished": "2026-05-18",
@@ -980,6 +1002,17 @@
       "publishedAt": "2026-10-14T19:15:50.000Z"
     }
   },
+  "https://chuck.is/writing": {
+    "status": "success",
+    "lastPublished": "2026-10-10",
+    "feedUrl": "https://chuck.is/feed.xml",
+    "latestArticle": {
+      "title": "Implementing a 3-2-1 Backup Strategy with restic and Backblaze B2",
+      "url": "https://chuck.is/paranoid",
+      "summary": "In order to follow a proper 3-2-1 backup strategy, you should have three copies of your important data: two local on different media types, and one off site. For local, I have a DAS with two 14TB dri…",
+      "publishedAt": "2026-10-10T05:00:00.000Z"
+    }
+  },
   "https://cityxtra.co.uk/": {
     "status": "success",
     "lastPublished": "2026-10-18",
@@ -1035,6 +1068,17 @@
       "url": "https://commentingon.xyz/the-great-smoothening-lets-talk-about-analytics-lets-get-weird/",
       "summary": ">> Some smooth brains Nintendo struck gold with the original Switch, and instead of leaning on their “what-if-we” philosophy that has guided their console creation in the past, they decided to play i…",
       "publishedAt": "2026-04-01T00:01:00.000Z"
+    }
+  },
+  "https://computerhistory.org/blogs/": {
+    "status": "success",
+    "lastPublished": "2026-10-10",
+    "feedUrl": "https://computerhistory.org/feed/",
+    "latestArticle": {
+      "title": "Sphere: A Pioneering Early Microcomputer, Rediscovered",
+      "url": "https://computerhistory.org/blog/sphere-microcomputer-rediscovered/",
+      "summary": "A new book made possible by CHM research reveals the untold story of Utah’s Sphere Corporation, makers of one of the original desktop all-in-one PCs. IT WAS DECEMBER 1975, and the future was being ma…",
+      "publishedAt": "2026-10-10T21:49:00.000Z"
     }
   },
   "https://conservativehome.com/": {
@@ -1282,6 +1326,10 @@
       "summary": "Felix Holt (b. Murray, Calloway County, Kentucky, 20 December 1897; d. Bucks County, Pennsylvania, 3 June 1956*) Felix Cacilock Holt was the sixth child of Crawford Duncan (\"C.D.\") Holt (1858-1950) a…",
       "publishedAt": "2026-10-04T07:00:00.000Z"
     }
+  },
+  "https://dev101.io/blog": {
+    "status": "unknown",
+    "feedUrl": "https://dev101.io/icon.svg"
   },
   "https://diamondgeezer.blogspot.com/": {
     "status": "success",
@@ -2574,6 +2622,17 @@
       "publishedAt": "2026-10-16T19:05:57.000Z"
     }
   },
+  "https://lynnandtonic.com/thoughts/": {
+    "status": "success",
+    "lastPublished": "2026-04-04",
+    "feedUrl": "https://lynnandtonic.com/feed.xml",
+    "latestArticle": {
+      "title": "How I remember link and image Markdown syntax",
+      "url": "https://lynnandtonic.com/thoughts/entries/how-i-remember-link-and-image-markdown-syntax/",
+      "summary": "Image and link syntax in Markdown are pretty similar and it can be hard to remember which text goes where. To help me, I have a few handy mnemonics. As a reminder, here is the syntax for a link: [lin…",
+      "publishedAt": "2026-04-04T16:30:00.000Z"
+    }
+  },
   "https://makeupandbeautyblog.com/": {
     "status": "success",
     "lastPublished": "2026-01-19",
@@ -2683,6 +2742,11 @@
       "publishedAt": "2026-10-02T10:30:51.000Z"
     }
   },
+  "https://mattbrown.com/blog/": {
+    "status": "success",
+    "lastPublished": "2026-09-20",
+    "feedUrl": "https://mattbrown.com/feed/feed.xml"
+  },
   "https://mccookerybook.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-10-15",
@@ -2707,6 +2771,17 @@
       "url": "https://merseypub.blogspot.com/2026/10/lounging-around.html",
       "summary": "It is quite difficult at the moment to find clusters of pubs overdue for a visit (Hence the taxi ride in the middle of last week's survey) and I was really struggling today, ending up with a plan in …",
       "publishedAt": "2026-10-10T22:35:00.000Z"
+    }
+  },
+  "https://mervi.art/blog": {
+    "status": "success",
+    "lastPublished": "2026-09-07",
+    "feedUrl": "https://mervi.art/feed",
+    "latestArticle": {
+      "title": "Do not despair",
+      "url": "https://mervi.art/blog/do-not-despair",
+      "summary": "All of this, the climate change, fascism, llm bullshit, greed and all, is making good people feel hopeless and exhausted. You see social media and blog posts by people who feel all hope is lost and t…",
+      "publishedAt": "2026-09-07T13:54:00.000Z"
     }
   },
   "https://microgravities.net/": {
@@ -2980,6 +3055,11 @@
       "summary": "This is the first installment of my Fall 2026 Trail Drive during which I will restore the equipment I've collected from John L. Oliver's Pan Handle Rusty Route and Earl Benteler's Allegheny. Having s…",
       "publishedAt": "2026-10-13T04:42:19.398Z"
     }
+  },
+  "https://ohhelloana.blog/posts/": {
+    "status": "success",
+    "lastPublished": "2026-10-15",
+    "feedUrl": "https://ohhelloana.blog/feed.xml"
   },
   "https://oilpressure.com/": {
     "status": "success",
@@ -3256,6 +3336,9 @@
       "summary": "So much Halloween...",
       "publishedAt": "2026-10-14T23:54:14.461Z"
     }
+  },
+  "https://putiecatootie.neocities.org/blog/": {
+    "status": "unavailable"
   },
   "https://r41n834u.com/blog/bloglanding": {
     "status": "unavailable"
@@ -4724,6 +4807,9 @@
       "publishedAt": "2025-07-31T14:29:00.000Z"
     }
   },
+  "https://www.adonameen.com/": {
+    "status": "unavailable"
+  },
   "https://www.adventurouskate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-10-06",
@@ -4885,6 +4971,17 @@
       "url": "https://www.brothers-brick.com/2026/10/16/is-it-really-a-proper-lego-space-theme-without-walkers/",
       "summary": "Classic LEGO space theme M-Tron has a lot going for it, but there is one glaring omission from the nine sets it got. No, it’s not a faction to battle. And no, it’s not a permanent base – the Mega Cor…",
       "publishedAt": "2026-10-17T01:00:55.000Z"
+    }
+  },
+  "https://www.browserutils.dev/blog": {
+    "status": "success",
+    "lastPublished": "2026-10-12",
+    "feedUrl": "https://www.browserutils.dev/rss.xml",
+    "latestArticle": {
+      "title": "Git Branching Strategies: GitFlow, Trunk-Based, GitHub Flow",
+      "url": "https://www.browserutils.dev/blog/git-branching-strategies/",
+      "summary": "Compare GitFlow, trunk-based development, and GitHub Flow to find the branching strategy that fits your team size, release cadence, and workflow.",
+      "publishedAt": "2026-10-12T00:00:00.000Z"
     }
   },
   "https://www.buttercupfestival.com/": {
@@ -5845,6 +5942,17 @@
       "url": "https://www.thedarkmagazine.com/falling/?utm_source=rss&utm_medium=rss&utm_campaign=falling",
       "summary": "On Monday Grant experienced another episode of vertigo. This one lasted much longer than the rest. The whole world was spinning, a top that increasingly wobbled as the whirling went on for several mi…",
       "publishedAt": "2026-10-01T00:04:00.000Z"
+    }
+  },
+  "https://www.thefrugalgamer.net/blog/": {
+    "status": "success",
+    "lastPublished": "2026-09-28",
+    "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
+    "latestArticle": {
+      "title": "Home Streaming Setup",
+      "url": "https://www.thefrugalgamer.net/blog/2026/09/28/home-streaming-setup/",
+      "summary": "Self-hosting is something I’ve been playing around with for a while, and I think I’ve finally got everything laid out the way I like it. This post will detail what I’m hosting and how I’ve got it set…",
+      "publishedAt": "2026-09-28T19:39:20.000Z"
     }
   },
   "https://www.thehiking.club/blog/": {

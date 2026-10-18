@@ -135,10 +135,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "GNOME 51.1 Improves Drag and Drop Between Wayland and Xwayland Clients",
-      "url": "https://9to5linux.com/gnome-51-1-improves-drag-and-drop-between-wayland-and-xwayland-clients",
-      "summary": "GNOME 51.1 is now available as the first point release to the GNOME 51 desktop environment series with various bug fixes and improvements across several core components and default apps. The post GNO…",
-      "publishedAt": "2026-10-18T09:18:32.000Z"
+      "title": "9to5Linux Weekly Roundup: October 18th, 2026",
+      "url": "https://9to5linux.com/9to5linux-weekly-roundup-october-18th-2026",
+      "summary": "9to5Linux Weekly Roundup for October 18th, 2026, brings news about Ubuntu 26.10, KDE Plasma 6.8, Firefox 158, Linux Mint 27 and Ubuntu 27.04 release date, Thunderbird 158, IPFire 2.29 Core Update 204…",
+      "publishedAt": "2026-10-18T14:38:50.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -1603,7 +1603,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1983,7 +1983,7 @@
     "status": "unavailable"
   },
   "https://islandinthenet.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-14",
     "feedUrl": "https://islandinthenet.com/feed/",
     "latestArticle": {
@@ -2091,7 +2091,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2747,7 +2747,7 @@
     }
   },
   "https://mkultra.monster/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://mkultra.monster/feed.xml",
     "latestArticle": {
@@ -3226,24 +3226,24 @@
   },
   "https://publicclockthis.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://publicclockthis.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Ashington",
-      "url": "https://publicclockthis.blogspot.com/2026/10/ashington.html",
-      "summary": "The reason for the visit to Ashington is that it is the end of a branch line that was re-opened to passenger traffic in December 2024, having been previously closed 60 years before. The town itself (…",
-      "publishedAt": "2026-10-11T14:51:13.151Z"
+      "title": "Seaham",
+      "url": "https://publicclockthis.blogspot.com/2026/10/seaham.html",
+      "summary": "Seaham, a town of about 20,000 people, is just down the coast from Sunderland. Its main development stems from the construction of a port in the 1820s to export coal, but its fame today is based arou…",
+      "publishedAt": "2026-10-18T14:26:31.995Z"
     }
   },
   "https://pulpcovers.com/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "Psychopast",
-      "url": "https://pulpcovers.com/psychopast/",
-      "summary": "A Sin Killer Prowling The Streets With His — Psychopast via",
-      "publishedAt": "2026-10-17T15:14:45.000Z"
+      "title": "The Middle Sex",
+      "url": "https://pulpcovers.com/the-middle-sex/",
+      "summary": "The slightest touch of any woman excited her life fire . . . From the back: They want it both ways! Here’s a novel that tells it like it is—at least in the strange world of bisexual women. It describ…",
+      "publishedAt": "2026-10-18T14:34:42.000Z"
     }
   },
   "https://pumpkinrot.blogspot.com/": {
@@ -3283,7 +3283,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-16",
     "feedUrl": "https://rachelsvintageretro.co.uk/comments/feed/?v=0b3b97fa6688",
     "latestArticle": {
@@ -3471,7 +3471,7 @@
     "status": "unavailable"
   },
   "https://rotational.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-03",
     "feedUrl": "https://rotational.co.uk/index.xml",
     "latestArticle": {
@@ -4454,7 +4454,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -4557,7 +4557,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5239,7 +5239,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -5367,17 +5367,17 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/17/looking-over-stats-for-the.html",
-      "summary": "Looking over stats for the Mac app. 90% of users on macOS 26 or 27. 98% on Apple Silicon. Only thing I’d like to change going forward is to check for new versions a little more aggressively, so peopl…",
-      "publishedAt": "2026-10-17T21:35:13.000Z"
+      "url": "https://www.manton.org/2026/10/18/im-feeling-so-lucky-that.html",
+      "summary": "I’m feeling so lucky that I get to build software for people like @patrickrhone . We were able to catch up this morning as my train stopped just long enough at the Minneapolis - St. Paul station.",
+      "publishedAt": "2026-10-18T14:38:35.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -5433,13 +5433,13 @@
   },
   "https://www.newsfromme.com/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://www.newsfromme.com/feed/",
     "latestArticle": {
-      "title": "Morning Crunch",
-      "url": "https://www.newsfromme.com/2026/10/17/morning-crunch/",
-      "summary": "This morning was Returning Registration for Comic-Con 2027, meaning that folks who had paid memberships for 2026 could participate in a lottery for badges for next year. Naturally, the available badg…",
-      "publishedAt": "2026-10-17T23:49:14.000Z"
+      "title": "Lost Resorts",
+      "url": "https://www.newsfromme.com/2026/10/18/lost-resorts/",
+      "summary": "Some time ago on this blog, I wrote about Resort Fees at hotels, especially in Las Vegas. It was kind of a warning. You see them advertise hotel rooms for $39 a night and you think, \"Wow! That's chea…",
+      "publishedAt": "2026-10-18T14:32:55.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -5609,7 +5609,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

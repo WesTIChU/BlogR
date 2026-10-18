@@ -65,6 +65,16 @@
       "publishedAt": "2014-02-17T12:00:00.000Z"
     }
   },
+  "http://www.kidfenris.com/": {
+    "status": "success",
+    "lastPublished": "2026-09-23",
+    "feedUrl": "http://www.kidfenris.com/rss.xml",
+    "latestArticle": {
+      "title": "Interview: Estique's Takayuki Komabayashi",
+      "summary": "Any shooter fan should give Changeable Guardian Estique some attention. That’s not merely because it’s technically astounding for something running on an actual Famicom or NES. And it’s not just beca…",
+      "publishedAt": "2026-09-23T03:50:43.000Z"
+    }
+  },
   "http://www.merseytart.com/": {
     "status": "success",
     "lastPublished": "2026-10-13",
@@ -998,7 +1008,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1462,7 +1472,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1516,7 +1526,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -2182,9 +2192,9 @@
     }
   },
   "https://jamesg.blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-17",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "Websites in artistic contexts",
       "url": "https://jamesg.blog/2026/10/17/websites-in-artistic-contexts",
@@ -4402,9 +4412,9 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36171/leeds-united-1-1-manchester-united-reds-fade-in-second-half-of-third-straight-pl-draw",
-      "summary": "Michael Carrick’s Manchester United side drew for a third straight match in the Premier League on Sunday after a 1-1 result at Elland Road. The squad managed to leave Leeds unscathed despite a testy …",
-      "publishedAt": "2026-10-18T15:18:30.000Z"
+      "url": "https://thebusbybabe.sbnation.com/latest-news/36148/leeds-united-vs-manchester-united-live-stream-time-how-to-watch",
+      "summary": "Manchester United return to Premier League action on Sunday afternoon as we travel to West Yorkshire to take on rivals Leeds United. Although the atmosphere at Elland Road will no doubt be hostile, t…",
+      "publishedAt": "2026-10-18T06:00:00.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5515,7 +5525,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -5817,7 +5827,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -5946,7 +5956,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-16",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6109,10 +6119,10 @@
     "lastPublished": "2026-10-18",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on The Innocent Traveller by Ethel Wilson – #1949Club by Madame Bibi",
-      "url": "https://www.stuckinabook.com/the-innocent-traveller-by-ethel-wilson-1949club/#comment-173833",
-      "summary": "This sounds completely wonderful!",
-      "publishedAt": "2026-10-18T17:33:57.000Z"
+      "title": "Comment on The Far Cry by Emma Smith – #1949Club by Madame Bibi",
+      "url": "https://www.stuckinabook.com/the-far-cry-by-emma-smith-1949club/#comment-173834",
+      "summary": "Wonderful review Simon! This had also been languishing in my TBR for a good while so I'm pleased to have finally got to it for the 1949 Club. I completely agree she manages the descriptive passages w…",
+      "publishedAt": "2026-10-18T17:42:55.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -6191,7 +6201,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6202,7 +6212,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6213,7 +6223,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-28",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -6291,13 +6301,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-08-30",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
-      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
-      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
-      "publishedAt": "2026-08-30T19:13:00.000Z"
+      "title": "New I Play Rocky Poster 2 Highlights the Sylvester Stallone Origin Story",
+      "url": "https://www.themovieblog.com/2026/10/i-play-rocky-poster-2-sylvester-stallone-origin/",
+      "summary": "Amazon MGM Studios has unveiled the official I Play Rocky Poster 2, building anticipation for the upcoming underdog story hitting theaters this November. The post New I Play Rocky Poster 2 Highlights…",
+      "publishedAt": "2026-10-18T00:24:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -6324,17 +6334,17 @@
   },
   "https://www.thewaywardhome.com/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://www.thewaywardhome.com/feed/",
     "latestArticle": {
-      "title": "I’ve Wintered in the Desert for Years. Here’s Where Van Lifers Actually Go When It Gets Cold.",
-      "url": "https://www.thewaywardhome.com/where-van-lifers-go-in-winter/",
-      "summary": "The six places the van world goes when it gets cold, from Quartzsite and the Slabs to Baja and the Texas coast, with what each costs, who ends up where, and why the migration exists. The post I’ve Wi…",
-      "publishedAt": "2026-10-17T21:11:25.000Z"
+      "title": "I’ve Cooked on a Sailboat Stove Since 2016. These Are the Lazy Galley Meals Sailors Actually Make When Nobody Wants to Cook.",
+      "url": "https://www.thewaywardhome.com/lazy-galley-meals/",
+      "summary": "Twenty-six lazy galley meals from 48 sailors, sorted from no-cook to one-pot, with the two tricks that make lazy possible on a boat: the pressure cooker and the solar oven. The post I’ve Cooked on a …",
+      "publishedAt": "2026-10-18T17:42:19.000Z"
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-16",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -6413,7 +6423,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

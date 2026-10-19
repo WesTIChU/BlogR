@@ -220,7 +220,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -285,7 +285,7 @@
   "https://alisonwilder.com/blog/": {
     "status": "success",
     "lastPublished": "2026-08-24",
-    "feedUrl": "https://alisonwilder.com/feed/",
+    "feedUrl": "https://alisonwilder.com/blog/feed/",
     "latestArticle": {
       "title": "Streaming performance this week",
       "url": "https://alisonwilder.com/streaming-performance-this-week/",
@@ -304,12 +304,12 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
-    "lastPublished": "2026-08-25",
+    "status": "success",
+    "lastPublished": "2026-10-19",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
-      "url": "https://amadeuspaulussen.com/blog/2026/arch-linux-re-installation-journal-for-my-z16-amd-thinkpad",
-      "publishedAt": "2026-08-25T12:57:00.000Z"
+      "url": "https://amadeuspaulussen.com/blog/2026/part-1-my-favorite-songs-of-2026",
+      "publishedAt": "2026-10-19T10:00:00.000Z"
     }
   },
   "https://anderegg.ca/": {
@@ -346,7 +346,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://andrewdoran.uk/blog/feed/",
     "latestArticle": {
@@ -401,7 +401,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -586,7 +586,7 @@
     "status": "unavailable"
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -689,7 +689,7 @@
     "status": "unavailable"
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -745,13 +745,13 @@
   },
   "https://blog.omgmog.net/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-18",
     "feedUrl": "https://blog.omgmog.net/feed.xml",
     "latestArticle": {
-      "title": "Halo on Android, a C64 keyboard font, and every lighthouse in the world",
-      "url": "https://blog.omgmog.net/lwal/week-41/",
-      "summary": "A games-leaning week of links from 5 to 11 October, pulled from what I shared over on social.omgmog.net. There’s been a lot of effort going into decomp and recomp projects lately. I’ve been spending …",
-      "publishedAt": "2026-10-11T23:00:00.000Z"
+      "title": "The original iPhone in a browser, PS2 games on WebGPU, and 68k Mac ports",
+      "url": "https://blog.omgmog.net/lwal/week-42/",
+      "summary": "The week of 12 to 18 October on social.omgmog.net had a pile of retro software running in odd places, from the first iPhone in a browser tab to PS2 games on WebGPU. There’s also some Nintendo history…",
+      "publishedAt": "2026-10-18T23:00:00.000Z"
     }
   },
   "https://blog.photopea.com/": {
@@ -828,7 +828,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-13",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1078,9 +1078,9 @@
     "lastPublished": "2026-10-19",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/match-officials-willy-delajod-to-referee-manchester-city-vs-aek-athens-uefa-champions-league",
-      "summary": "UEFA have confirmed a predominantly French team of match officials to oversee Manchester City's Champions League clash with AEK Athens on Tuesday night.",
-      "publishedAt": "2026-10-19T09:00:39.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-provides-erling-haaland-fitness-update-after-ipswich-town-injury-scare",
+      "summary": "Manchester City manager Enzo Maresca has issued an update on Erling Haaland's fitness ahead of Tuesday night's UEFA Champions League group-phase clash with AEK Athens.",
+      "publishedAt": "2026-10-19T11:10:14.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1241,7 +1241,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-31",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -1312,7 +1312,7 @@
     }
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1451,7 +1451,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1495,7 +1495,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-30",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -1966,7 +1966,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -1977,7 +1977,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -1999,7 +1999,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -2087,7 +2087,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -2116,13 +2116,13 @@
   },
   "https://indieblog.page/": {
     "status": "success",
-    "lastPublished": "2026-10-18",
+    "lastPublished": "2026-10-19",
     "feedUrl": "https://indieblog.page/dailyfeed",
     "latestArticle": {
-      "title": "🎲 Farm Log #7",
-      "url": "https://andrewspittle.com/2026/05/11/farm-log-7/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
-      "summary": "We had a week of idyllic weather. Other than a couple of windless days (and thus, midges) it was blue skies, wisps of clouds, and a steady breeze. There’s a part of me that still feels the need to ta…",
-      "publishedAt": "2026-10-18T10:37:00.000Z"
+      "title": "🎲 Plate Atlas — Privacy &amp; Support",
+      "url": "https://mustafaakin.dev/plate-atlas/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
+      "summary": "Plate Atlas is a family app for discovering the places behind license plate codes — Türkiye, Germany, France, and the United Kingdom. Privacy Policy Plate Atlas does not collect any data. Period. Sin…",
+      "publishedAt": "2026-10-19T11:37:00.000Z"
     }
   },
   "https://inmoscowsshadows.wordpress.com/": {
@@ -2181,9 +2181,9 @@
     "lastPublished": "2026-10-19",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17500485/linux-kernel-7-3-release",
-      "summary": "A fix for memory freezes lands alongside Zen 6 groundwork, and early Apple M3 support.",
-      "publishedAt": "2026-10-19T02:56:37.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17500641/debloat-smart-tv",
+      "summary": "Android TV owners are pointing Claude Code at their TVs over ADB to strip out ads, telemetry and bloat. Here's how it works and where it can go wrong.",
+      "publishedAt": "2026-10-19T10:59:24.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -2240,7 +2240,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -2251,7 +2251,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -2375,13 +2375,13 @@
   },
   "https://joshreads.com/": {
     "status": "success",
-    "lastPublished": "2026-10-18",
+    "lastPublished": "2026-10-19",
     "feedUrl": "https://joshreads.com/feed/",
     "latestArticle": {
-      "title": "SURPRISE!!!!!!! (if you are as dumb as Toby)",
-      "url": "https://joshreads.com/2026/10/surprise-if-you-are-as-dumb-as-toby/",
+      "title": "Soap opera? Wrong, an opera has high stakes",
+      "url": "https://joshreads.com/2026/10/soap-opera-wrong-an-opera-has-high-stakes/",
       "summary": "Comics Curmudgeon readers! Do you love this blog and yearn for a novel written by its creator? Well, good news: Josh Fruhlinger's The Enthusiast is that novel! It's even about newspaper comic strips,…",
-      "publishedAt": "2026-10-18T11:23:51.000Z"
+      "publishedAt": "2026-10-19T11:20:30.000Z"
     }
   },
   "https://joshuamorris.info/": {
@@ -2434,7 +2434,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-16",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -2731,10 +2731,10 @@
     "lastPublished": "2026-10-19",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Festive Theatre Shows To Enchant The Whole Family This Christmas",
-      "url": "https://londonist.com/london/christmas-in-london/family-friendly-kids-festive-theatre-shows-london-christmas",
-      "summary": "Santa, Disney and The Snowman live on stage.",
-      "publishedAt": "2026-10-19T10:06:00.000Z"
+      "title": "Things To Do In London This Weekend: 24-25 October 2026",
+      "url": "https://londonist.com/london/weekend/things-to-do-in-london-this-weekend-24-25-october-2026",
+      "summary": "Top events in London this Saturday and Sunday.",
+      "publishedAt": "2026-10-19T11:30:03.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -2862,10 +2862,10 @@
     "lastPublished": "2026-10-19",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "What I’ve been reading",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/what-ive-been-reading-297.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-297",
-      "summary": "David Stuart, The Four Heavens: A New History of the Ancient Maya. The best book about the ancient Maya that I know of, and also a book about how we keep on discovering more about them. “The model I …",
-      "publishedAt": "2026-10-19T04:29:27.000Z"
+      "title": "No, DataCenters are Not Crowding-Out Other Investments",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/no-datacenters-are-not-crowding-out-other-investments.html?utm_source=rss&utm_medium=rss&utm_campaign=no-datacenters-are-not-crowding-out-other-investments",
+      "summary": "Based on charts like the one at right, Paul Krugman and many others are arguing that: Massive spending on data centers is crowding out investment in everything else in the economy. Not so fast. Can y…",
+      "publishedAt": "2026-10-19T11:16:23.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -2943,7 +2943,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -2954,7 +2954,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3599,7 +3599,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-18",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -4170,7 +4170,7 @@
     "status": "unavailable"
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -4834,7 +4834,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -4878,7 +4878,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -5068,7 +5068,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -5169,7 +5169,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -5257,24 +5257,24 @@
   },
   "https://www.browserutils.dev/": {
     "status": "success",
-    "lastPublished": "2026-10-12",
+    "lastPublished": "2026-10-19",
     "feedUrl": "https://www.browserutils.dev/rss.xml",
     "latestArticle": {
-      "title": "Git Branching Strategies: GitFlow, Trunk-Based, GitHub Flow",
-      "url": "https://www.browserutils.dev/blog/git-branching-strategies/",
-      "summary": "Compare GitFlow, trunk-based development, and GitHub Flow to find the branching strategy that fits your team size, release cadence, and workflow.",
-      "publishedAt": "2026-10-12T00:00:00.000Z"
+      "title": "API Key Security: Storage, Rotation, and Best Practices",
+      "url": "https://www.browserutils.dev/blog/api-key-security/",
+      "summary": "Learn how to securely store, scope, and rotate API keys, using environment variables, secrets managers, rate limiting, and key scoping to prevent leaks.",
+      "publishedAt": "2026-10-19T00:00:00.000Z"
     }
   },
   "https://www.browserutils.dev/blog": {
     "status": "success",
-    "lastPublished": "2026-10-12",
+    "lastPublished": "2026-10-19",
     "feedUrl": "https://www.browserutils.dev/rss.xml",
     "latestArticle": {
-      "title": "Git Branching Strategies: GitFlow, Trunk-Based, GitHub Flow",
-      "url": "https://www.browserutils.dev/blog/git-branching-strategies/",
-      "summary": "Compare GitFlow, trunk-based development, and GitHub Flow to find the branching strategy that fits your team size, release cadence, and workflow.",
-      "publishedAt": "2026-10-12T00:00:00.000Z"
+      "title": "API Key Security: Storage, Rotation, and Best Practices",
+      "url": "https://www.browserutils.dev/blog/api-key-security/",
+      "summary": "Learn how to securely store, scope, and rotate API keys, using environment variables, secrets managers, rate limiting, and key scoping to prevent leaks.",
+      "publishedAt": "2026-10-19T00:00:00.000Z"
     }
   },
   "https://www.buttercupfestival.com/": {
@@ -5418,13 +5418,13 @@
   },
   "https://www.disneytouristblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-18",
+    "lastPublished": "2026-10-19",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Will Disneyland Move the Matterhorn for Tomorrowland’s Reimagining? Why We’re Skeptical of Rumors",
-      "url": "https://www.disneytouristblog.com/will-disneyland-move-the-matterhorn-for-tomorrowlands-reimagining-why-were-skeptical-of-rumors/",
-      "summary": "Rumors are swirling that the Matterhorn Bobsleds will be relocated and rebuilt or removed entirely as part of the comprehensive reimagining of Tomorrowland at Disneyland. This post shares our comment…",
-      "publishedAt": "2026-10-18T22:10:02.000Z"
+      "title": "Disney World’s Tower of Terror Could Be Getting New or Expanded Twilight Zone ‘Episode’",
+      "url": "https://www.disneytouristblog.com/disney-worlds-tower-of-terror-could-be-getting-new-or-expanded-twilight-zone-episode/",
+      "summary": "It looks like Walt Disney World might be pulling a page from its ‘singles and doubles’ playbook to get fans excited about the 2027 slate and draw them to the parks. This was especially fruitful at Di…",
+      "publishedAt": "2026-10-19T11:32:17.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -5608,14 +5608,14 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Headphones or a £100 fine? Councils to tackle noisy bus passengers",
-      "url": "https://www.ianvisits.co.uk/articles/headphones-or-a-100-fine-councils-to-tackle-noisy-bus-passengers-93378/",
-      "summary": "Passengers who play music out loud on buses could face fines of up to £100 under new powers granted to local authorities in England. Read more ›",
-      "publishedAt": "2026-10-19T07:45:42.000Z"
+      "title": "Three exhibitions at two Tate galleries",
+      "url": "https://www.ianvisits.co.uk/articles/three-exhibitions-at-two-tate-galleries-93343/",
+      "summary": "A selection of three exhibitions that have opened in recent weeks at the two Tates. Read more ›",
+      "publishedAt": "2026-10-19T11:00:29.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -5731,7 +5731,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -5807,7 +5807,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-08",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -5818,7 +5818,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-28",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -5866,7 +5866,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -6188,7 +6188,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -6406,7 +6406,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://www.timboucher.ca/feed/",
     "latestArticle": {
@@ -6476,7 +6476,7 @@
   "https://www.urbex-travel.com/blog/": {
     "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -6496,7 +6496,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-03-31",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/feed/",
     "latestArticle": {

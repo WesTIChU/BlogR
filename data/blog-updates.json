@@ -7383,5 +7383,17 @@
     "lastChecked": "2026-10-18T15:46:34.248Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://www.buywithcontext.com/": {
+    "lastPublished": "2026-10-18",
+    "lastChecked": "2026-10-19T06:30:27.788Z",
+    "status": "success",
+    "feedUrl": "https://www.buywithcontext.com/feed/",
+    "latestArticle": {
+      "title": "Everyday Buying Decisions: Choose What Fits Your Routine",
+      "url": "https://www.buywithcontext.com/everyday-buying-decisions-choose-what-fits-your-routine/?utm_source=rss&utm_medium=rss&utm_campaign=everyday-buying-decisions-choose-what-fits-your-routine",
+      "summary": "Everyday buying decisions get easier when you start with the routine that keeps creating friction. The useful choice is rarely the option with the longest feature list. It is the one that fits the ta…",
+      "publishedAt": "2026-10-18T23:23:27.000Z"
+    }
   }
 }

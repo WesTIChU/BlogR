@@ -166,6 +166,10 @@
         {
           "title": "Photography & Street Art",
           "match": "photo|photography|street art|mural|.*"
+        },
+        {
+          "title": "Architecture & Design",
+          "match": "architecture|design"
         }
       ]
     },

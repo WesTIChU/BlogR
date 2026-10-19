@@ -34,6 +34,7 @@ body:
       label: "Category / Subcategory"
       description: "Choose the directory category and subcategory that best fit. This is a suggestion for editorial review."
       options:
+        - "Arts & Entertainment / Architecture & Design"
         - "Arts & Entertainment / Comics & Illustration"
         - "Arts & Entertainment / Design & Creative Projects"
         - "Arts & Entertainment / Film, TV & Theatre"

@@ -1644,8 +1644,8 @@
   },
   "https://brendandawes.com/blog": {
     "lastPublished": "2026-09-13",
-    "lastChecked": "2026-10-17T13:44:41.800Z",
-    "status": "success",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
+    "status": "unavailable",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
       "title": "That Was The Week That Was — 13th September 2026",
@@ -1679,8 +1679,8 @@
   },
   "https://davideaversa.it/": {
     "lastPublished": "2026-10-17",
-    "lastChecked": "2026-10-17T17:31:38.176Z",
-    "status": "success",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
+    "status": "unavailable",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
       "title": "The ChangeLog – September 2026",
@@ -1790,14 +1790,14 @@
     }
   },
   "https://itsfoss.com/": {
-    "lastPublished": "2026-10-17",
-    "lastChecked": "2026-10-17T13:44:41.800Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17499437/open-source-non-linux-os",
-      "summary": "There are more operating systems than just Linux. Here's a list of a few that are under active development.",
-      "publishedAt": "2026-10-17T13:01:44.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17500485/linux-kernel-7-3-release",
+      "summary": "A fix for memory freezes lands alongside Zen 6 groundwork, and early Apple M3 support.",
+      "publishedAt": "2026-10-19T02:56:37.000Z"
     }
   },
   "https://www.jvt.me/posts/": {
@@ -3501,15 +3501,15 @@
     }
   },
   "https://www.actionfigurebarbecue.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-18T04:45:27.822Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://www.actionfigurebarbecue.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Trick or Treat Through 31 Days of Toy Terror: Franken-Snoopy from Peanuts by G. Mason Group",
-      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_01820880785.html",
-      "summary": "We never leave out our four legged friends here at Action Figure Barbecue! While o ur dog, Zoey, has volunteered to write special reviews on toys over the past few years for 31 Days of Toy Terror (sh…",
-      "publishedAt": "2026-10-18T04:00:00.000Z"
+      "title": "Trick or Treat Through 31 Days of Toy Terror: \"The Bride of Frankenstein\" '40 Ford from Hot Wheels Silver Series: Universal Monsters by Mattel",
+      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_0826484310.html",
+      "summary": "Ready for another Universal Monsters themed Hot Wheels car? Today I'm checking out the last of the cars from this series that I'll probably be reviewing this year: The Bride of Frankenstein's '40 For…",
+      "publishedAt": "2026-10-19T04:00:00.000Z"
     }
   },
   "https://bricknerd.com/": {
@@ -3837,14 +3837,14 @@
   },
   "https://www.web-goddess.org/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T01:44:46.224Z",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "AWS catch-ups",
-      "url": "https://www.web-goddess.org/archive/95502",
-      "summary": "Just realised I forgot to blog these last week! Several of my old AWS colleagues were in town for meetings and I managed to catch up with a few of them. On Sunday after the Spring Cycle I went into t…",
-      "publishedAt": "2026-10-19T01:05:35.000Z"
+      "title": "Shingles vax",
+      "url": "https://www.web-goddess.org/archive/95506",
+      "summary": "We got our second and final dose this morning. It didn’t hurt as much going in, and I was fine for several hours. Arm is starting to feel pretty sore now though. You know what really annoys me? I boo…",
+      "publishedAt": "2026-10-19T04:10:20.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -3974,8 +3974,8 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "lastPublished": "2026-09-10",
-    "lastChecked": "2026-10-19T03:44:41.617Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
+    "status": "success",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=0b3b97fa6688",
     "latestArticle": {
       "title": "Comfort in an Orange Tin: The History of Ovaltine in Britain",
@@ -4141,15 +4141,15 @@
     }
   },
   "http://www.galactichunter.com/GH/": {
-    "lastPublished": "2014-02-17",
-    "lastChecked": "2026-10-14T18:52:04.246Z",
+    "lastPublished": "2026-09-28",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
-    "feedUrl": "http://www.galactichunter.com/rss.xml",
+    "feedUrl": "http://www.galactichunter.com/GH/crss",
     "latestArticle": {
-      "title": "16bit.com Update Summary: February 17, 2014",
-      "url": "http://16bit.com/n1402.asp#0217",
-      "summary": "Toy Fair updates. Your Figure of the Day is Strong-Or.",
-      "publishedAt": "2014-02-17T12:00:00.000Z"
+      "title": "\"I don't think it's possible",
+      "url": "http://www.galactichunter.com/gh/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
+      "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
+      "publishedAt": "2026-09-28T13:18:14.000Z"
     }
   },
   "https://alexwilson.tech/": {
@@ -4287,15 +4287,15 @@
     }
   },
   "https://www.themovieblog.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-18T17:44:48.368Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "New I Play Rocky Poster 2 Highlights the Sylvester Stallone Origin Story",
-      "url": "https://www.themovieblog.com/2026/10/i-play-rocky-poster-2-sylvester-stallone-origin/",
-      "summary": "Amazon MGM Studios has unveiled the official I Play Rocky Poster 2, building anticipation for the upcoming underdog story hitting theaters this November. The post New I Play Rocky Poster 2 Highlights…",
-      "publishedAt": "2026-10-18T00:24:00.000Z"
+      "title": "Seedance 3.0 AI for a Short Film Scene Built Around an Unopened Door",
+      "url": "https://www.themovieblog.com/2026/10/seedance-3-0-ai-for-a-short-film-scene-built-around-an-unopened-door/",
+      "summary": "A character stops outside an apartment door, hears a cup fall inside and decides whether to knock. That would be the entire dramatic situation for my proposed short film scene. I would want the audie…",
+      "publishedAt": "2026-10-19T04:07:56.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4747,15 +4747,15 @@
     }
   },
   "https://travelbetweenthepages.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-18T04:45:27.822Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://travelbetweenthepages.com/feed/",
     "latestArticle": {
-      "title": "Kerouac goes home",
-      "url": "https://travelbetweenthepages.com/2026/10/18/kerouac-goes-home/",
-      "summary": "The Jack Kerouac Center has released new architectural renderings by Boston-based Flansburgh Architects showing how Lowell’s former St. Jean Baptiste Church will look as a museum, performance venue a…",
-      "publishedAt": "2026-10-18T04:01:43.000Z"
+      "title": "Acquainted with the night rain",
+      "url": "https://travelbetweenthepages.com/2026/10/19/acquainted-with-the-night-rain/",
+      "summary": "Robert Frost 1928",
+      "publishedAt": "2026-10-19T04:01:43.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -5337,15 +5337,15 @@
     }
   },
   "https://flixchatter.net/": {
-    "lastPublished": "2026-10-17",
-    "lastChecked": "2026-10-18T03:44:40.838Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://flixchatter.net/feed/",
     "latestArticle": {
-      "title": "FlixChatter Review: Sense and Sensibility (2026)—What works and what doesn’t in Georgia Oakley’s earthy, atmospheric adaptation",
-      "url": "https://flixchatter.net/2026/10/16/flixchatter-review-sense-and-sensibility-2026-what-works-and-what-doesnt-in-georgia-oakleys-earthy-atmospheric-adaptation/",
-      "summary": "“I require so much!” Marianne declares to her mother, referring to the kind of man she deems worthy of her romantic love. As a Jane Austen fan, I also require much of her film adaptation. The 1995 An…",
-      "publishedAt": "2026-10-17T04:33:06.000Z"
+      "title": "FlixChatter Guest Review: Netflix’s ANIMALS (2026)",
+      "url": "https://flixchatter.net/2026/10/18/flixchatter-guest-review-netflixs-animals-2026/",
+      "summary": "Fresh off the sale of his AI post-production and visual effects startup, InterPositive, to Netflix for over $500 million in cash, Ben Affleck steps into the roles of both director and lead actor for …",
+      "publishedAt": "2026-10-19T04:05:31.000Z"
     }
   },
   "https://www.rangersreview.co.uk/": {
@@ -6538,14 +6538,14 @@
     }
   },
   "https://philsworkbench.blogspot.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-18T04:45:27.822Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://philsworkbench.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Elsecar 2026",
-      "summary": "The Yorkshire Garden Railway show returned this year, to its spiritual home - Elsecar Heritage Centre . I like the site. While Barrow Hill, the location for a few years while the heritage centre was …",
-      "publishedAt": "2026-10-18T04:30:00.000Z"
+      "title": "The not quite Elsecar haul",
+      "summary": "I didn't manage to buy anything from the Elsecar show. OK, that's not quite true; there are a couple of goodies for future Garden Rail articles, but nothing for me personally. We came close, but I ha…",
+      "publishedAt": "2026-10-19T04:30:00.000Z"
     }
   },
   "https://shapeof.com/": {
@@ -6561,15 +6561,15 @@
     }
   },
   "https://marginalrevolution.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-18T22:44:44.330Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "*You Can See Everything* (no spoilers)",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/you-can-see-everything-no-spoilers.html?utm_source=rss&utm_medium=rss&utm_campaign=you-can-see-everything-no-spoilers",
-      "summary": "An excellent and also original movie, you all should see it. There are different interpretations, but I read it as a story between two autistic people, and the bond they have but also the great diffi…",
-      "publishedAt": "2026-10-18T22:03:02.000Z"
+      "title": "What I’ve been reading",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/what-ive-been-reading-297.html?utm_source=rss&utm_medium=rss&utm_campaign=what-ive-been-reading-297",
+      "summary": "David Stuart, The Four Heavens: A New History of the Ancient Maya. The best book about the ancient Maya that I know of, and also a book about how we keep on discovering more about them. “The model I …",
+      "publishedAt": "2026-10-19T04:29:27.000Z"
     }
   },
   "https://leancrew.com/all-this/": {
@@ -6585,15 +6585,15 @@
     }
   },
   "https://13thdimension.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-18T05:05:27.524Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-19T04:44:43.132Z",
     "status": "success",
     "feedUrl": "https://13thdimension.com/feed/",
     "latestArticle": {
-      "title": "PAUL LEVITZ: 13 THINGS I Learned While Researching MARVEL EXPLODES: FROM BULLPEN TO BIG BUSINESS",
-      "url": "https://13thdimension.com/paul-levitz-13-things-i-learned-while-researching-marvel-explodes-from-bullpen-to-big-business/",
-      "summary": "The former DC honcho chronicles the competition, from the late ’60s to the mid ’70s. — Former DC chieftain Paul Levitz’s new behind-the-scenes history of Marvel as it segued from the Silver Age to th…",
-      "publishedAt": "2026-10-18T04:08:41.000Z"
+      "title": "If Only AURORA’s 1965 WONDER WOMAN Model Got Her Own COMIC SCENES Issue",
+      "url": "https://13thdimension.com/if-only-auroras-1965-wonder-woman-model-got-her-own-comic-scenes-issue/",
+      "summary": "A MORRISON MONDAYS 85th anniversary salute to the Amazing Amazon! By BILL MORRISON You wouldn’t know it to look at Wonder Woman, but this Wednesday, October 21, she will turn 85 years old! To celebra…",
+      "publishedAt": "2026-10-19T04:08:05.000Z"
     }
   },
   "https://mysteryfile.com/blog/": {

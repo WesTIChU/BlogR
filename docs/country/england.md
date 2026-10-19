@@ -1,15 +1,19 @@
 ---
 title: England Blogs
-description: 62 blogs listed in England.
+description: 63 blogs listed in England.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="62" />
+<CountryDirectoryHeader flag="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="England" :count="63" />
 
 ## Arts & Entertainment
+
+### Architecture & Design
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.architectural-review.com/" target="_blank" rel="noopener noreferrer">The Architectural Review</a></strong> - A long-established architecture publication featuring critical essays, building reviews, design history and international projects, exploring how architecture shapes the cities, spaces and communities around us.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.architectural-review.com/" data-blog-name="The Architectural Review"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/england" aria-label="Based in England"><span aria-hidden="true">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> England</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;19 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Design & Creative Projects
 

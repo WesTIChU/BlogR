@@ -416,13 +416,13 @@
   },
   "https://arduinoexpert.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
-      "title": "Mobile Phone Application Development for IoT: Arduino, ESP32 & Smart Devices",
-      "url": "https://arduinoexpert.com/blog/mobile-phone-application-development-iot/",
-      "summary": "Smartphones are no longer just communication devices. They have become powerful tools for monitoring, controlling, and managing intelligent electronic systems. From smart home automation and industri…",
-      "publishedAt": "2026-10-15T06:01:38.000Z"
+      "title": "Build an Automatic Pet Feeder Using ESP32 WiFi and Custom App",
+      "url": "https://arduinoexpert.com/automatic-pet-feeder-with-esp32-wifi-custom-app/",
+      "summary": "What if your pet feeder could display the current time, show the next scheduled meal, respond with animated expressions, and let you control feeding through a custom mobile app—even without The post …",
+      "publishedAt": "2026-10-20T08:28:43.000Z"
     }
   },
   "https://arseblog.com/": {
@@ -1078,9 +1078,9 @@
     "lastPublished": "2026-10-20",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-offers-phil-foden-alternate-route-into-manchester-city-starting-xi",
-      "summary": "Enzo Maresca has revealed that Phil Foden could be deployed as a backup striker if Erling Haaland faces any future injury scares, such as the one against Ipswich Town at the weekend.",
-      "publishedAt": "2026-10-20T05:30:21.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/its-been-good-not-to-train-and-just-play-games-says-marc-guehi-on-challenging-manchester-city-schedule",
+      "summary": "Manchester City defender Marc Guehi insists that his side’s hectic schedule is 'enjoyable' and 'fun' as the Blues prepare to play their fourth game in 10 days.",
+      "publishedAt": "2026-10-20T07:30:19.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1334,7 +1334,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1671,13 +1671,13 @@
   },
   "https://figureoftheday.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-20",
     "feedUrl": "http://feeds.feedburner.com/blogspot/cImJr",
     "latestArticle": {
-      "title": "Star Wars Figure of the Day: Day 3,389: RJ-83 (Crimson Firehawk Droid, Young Jedi Adventures)",
-      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3389-rj-83.html",
-      "summary": "RJ-83 Crimson Firehawk Pack-in Young Jedi Adventures Vehicle Pilot Item No.: No. F7878 Manufacturer: Hasbro Number: n/a Includes: Crimson Firehawk vehicle, Nash Durango pilot figue Action Feature: n/…",
-      "publishedAt": "2026-10-15T07:33:00.000Z"
+      "title": "Star Wars Figure of the Day: Day 3,390: Devon Izara (The Vintage Collection)",
+      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3390-devon.html",
+      "summary": "DEVON IZARA 3 3/4-Inch Debut The Vintage Collection 3 3/4-Inch basic figure Item No.: Asst. G2786 No. G2625 Manufacturer: Hasbro Number: #408 Includes: Lightsaber, hilt, cape Action Feature: Removabl…",
+      "publishedAt": "2026-10-20T08:00:00.000Z"
     }
   },
   "https://flamingpablum.com/": {
@@ -1769,7 +1769,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1956,13 +1956,13 @@
   },
   "https://handeaux.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://handeaux.tumblr.com/rss",
     "latestArticle": {
-      "title": "Cincinnati&rsquo;s Seven Hills Were First Counted By An Utterly Incompetent Charlatan",
-      "url": "https://handeaux.tumblr.com/post/830344829319954432",
-      "summary": "Everybody knows that Cincinnati is the City of Seven Hills and yet, despite the inability of anyone to actually agree on which hills constitute the canonical heptad, we accept it on faith that there …",
-      "publishedAt": "2026-10-13T08:02:17.000Z"
+      "title": "Once Upon A Time, Cincinnati&rsquo;s Official Chemist Uncovered Some Unsavory Secrets",
+      "url": "https://handeaux.tumblr.com/post/830978979122020352",
+      "summary": "The Cincinnati Board of Health was mightily confused in 1915. The board clerk handed president George Fackler a request to approve the purchase of something called “Dimethylparaphenylenediamine.” Joh…",
+      "publishedAt": "2026-10-20T08:01:49.000Z"
     }
   },
   "https://happyacres.blog/": {
@@ -2189,12 +2189,12 @@
   },
   "https://itsfoss.com/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17500684/cutefishos-vibe-coded-desktop",
-      "summary": "The project says the new desktop has its own Wayland compositor and graphics library.",
-      "publishedAt": "2026-10-19T12:52:23.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17501229/microsoft-scope-self-hosted-agent-testing",
+      "summary": "Scope is for teams that maintain SDKs, docs, or MCP servers and want to see where coding agents get stuck.",
+      "publishedAt": "2026-10-20T08:13:49.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -2284,7 +2284,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2738,13 +2738,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Things To Do In London This Weekend: 24-25 October 2026",
-      "url": "https://londonist.com/london/weekend/things-to-do-in-london-this-weekend-24-25-october-2026",
-      "summary": "Top events in London this Saturday and Sunday.",
-      "publishedAt": "2026-10-19T11:30:03.000Z"
+      "title": "East 17's Tony Mortimer Is Throwing A 90s Themed Christmas Party",
+      "url": "https://londonist.com/london/christmas-in-london/tony-mortimer-christmas-party-east-17",
+      "summary": "Daytime rave with fur-trimmed boybander.",
+      "publishedAt": "2026-10-20T08:33:46.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -4471,10 +4471,10 @@
     "lastPublished": "2026-10-20",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "A tale of two strikers.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/a-tale-of-two-strikers/",
-      "summary": "I have some wonderful news; Kelechi Iheanacho has remembered how to score goals. Quite a lot of them, The post A tale of two strikers. appeared first on The Celtic Blog .",
-      "publishedAt": "2026-10-20T05:30:10.000Z"
+      "title": "Ewan Cameron’s Celtic fan audience was there for the freak show. Nothing more.",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/ewan-camerons-audience-freak-show/",
+      "summary": "There is a great episode of The Sopranos, very early in the run, where Tony discovers something about The post Ewan Cameron’s Celtic fan audience was there for the freak show. Nothing more. appeared …",
+      "publishedAt": "2026-10-20T08:30:15.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -4910,7 +4910,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5317,10 +5317,10 @@
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "‘I DON’T THINK YOU SHOULD BE SAYING THAT’: THE DAY O’NEILL RIPPED INTO RODGERS",
-      "url": "https://www.celticquicknews.co.uk/i-dont-think-you-should-be-saying-that-the-day-oneill-ripped-into-rodgers/",
-      "summary": "MARTIN O’NEILL fired a salvo at Brendan Rodgers after the Celtic manager’s comments following the miserable 2-0 loss to Dundee at Dens Park on Octoner 19 last year. Remarkably, the former Hoops gaffe…",
-      "publishedAt": "2026-10-20T05:30:24.000Z"
+      "title": "‘IT WILL HELP ME,’ JOTA AND HIS DEMONS",
+      "url": "https://www.celticquicknews.co.uk/it-will-help-me-jota-and-his-demons/",
+      "summary": "FILIPE JOTA has revealed how he faced his demons during his injury-enforced 18-month lay-off. The Celtic maverick made his first-team comeback as a second-half substitute in the 2-0 win over Motherwe…",
+      "publishedAt": "2026-10-20T08:36:29.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -5654,10 +5654,10 @@
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Nexfibre and Virgin Media O2’s £2bn Netomnia UK broadband deal is effectively dead",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/nexfibre-and-virgin-media-o2s-2bn-netomnia-uk-broadband-deal-is-effectively-dead.html",
-      "summary": "Full fibre network operator nexfibre has today issued a joint statement with shareholders InfraVia, Liberty Global (Virgin Media) and Telefónica ( O2 ) to confirm that they do not plan to submit any …",
-      "publishedAt": "2026-10-20T06:48:31.000Z"
+      "title": "Openreach publish October 2026 update on UK full fibre broadband build",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/openreach-publish-october-2026-update-on-uk-full-fibre-broadband-build.html",
+      "summary": "Network operator Openreach ( BT ) has today published the first update to their national roll-out plan for Fibre-to-the-Premises ( FTTP ) broadband ISP technology since March 2026, which reflects all…",
+      "publishedAt": "2026-10-20T07:49:12.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -5742,13 +5742,13 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "Neanderthal Hand Found in a Spanish Cave Still Holds Its DNA After 46,000 Years",
-      "url": "https://www.labrujulaverde.com/en/2026/10/neanderthal-hand-found-in-a-spanish-cave-still-holds-its-dna-after-46000-years/",
-      "summary": "Neanderthals left plenty of traces in the western Pyrenees, the mountain range that separates Spain from France. Stone tools, butchered animal bones, the leftovers of their camps. What nobody had eve…",
-      "publishedAt": "2026-10-19T16:35:24.000Z"
+      "title": "Mad Honey: The Natural Poison That Knocked Out a Greek Army and Later Ambushed Roman Soldiers",
+      "url": "https://www.labrujulaverde.com/en/2026/10/mad-honey-the-natural-poison-that-knocked-out-a-greek-army-and-later-ambushed-roman-soldiers/",
+      "summary": "They had crossed most of Persia, climbed snowbound mountains and fought tribes that hurled stones at them from the cliffs. What left them most exposed, only a few days from the sea, was a honeycomb. …",
+      "publishedAt": "2026-10-20T07:55:38.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -5778,7 +5778,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6031,7 +6031,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6180,10 +6180,10 @@
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Announcing the next club… by Constance",
-      "url": "https://www.stuckinabook.com/announcing-the-next-club-9/#comment-173877",
-      "summary": "A fun week as always, thank you . . . however, a serious problem here as Georgette Heyer died in 1974 - but her last completed novel was Lady of Quality (1972), and her final, unfinished medieval nov…",
-      "publishedAt": "2026-10-20T02:54:39.000Z"
+      "title": "Comment on All I Could Never Be by Beverley Nichols – #1949Club by StuckinaBook",
+      "url": "https://www.stuckinabook.com/all-i-could-never-be-by-beverley-nichols-1949club/#comment-173902",
+      "summary": "In reply to kaggsysbookishramblings . Yes, really surprisingly thoughtful, alongside the entertainment. I loved the frame of the first section, of going through his old friend's house. That must be t…",
+      "publishedAt": "2026-10-20T08:29:05.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -6249,13 +6249,13 @@
   },
   "https://www.thechaoticscot.com/": {
     "status": "success",
-    "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
+    "lastPublished": "2026-06-24",
+    "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
-      "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
-      "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
-      "summary": "In reply to Karen Pugh . Thanks so much Karen. I included absolutely everything I know, so it's lovely to hear you found it interesting. I hope you get to visit and experience the peninsulas for your…",
-      "publishedAt": "2021-12-01T20:59:18.000Z"
+      "title": "Insta360 x4 Air: Quick Review",
+      "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
+      "summary": "If you’re thinking about buying a 360° camera for vlogging, outdoor adventures or to capture travel memories, this is my to-the-point review of the Insta360 X4 Air camera, plus a wee shout-out to the…",
+      "publishedAt": "2026-06-24T09:01:32.000Z"
     }
   },
   "https://www.theculturetrip.com/": {
@@ -6307,13 +6307,13 @@
   },
   "https://www.thehistoryblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thehistoryblog.com/feed",
     "latestArticle": {
-      "title": "Late Roman-era house cut into bedrock found in Corsica",
-      "url": "https://www.thehistoryblog.com/archives/77166",
-      "summary": "The remains of a settlement with a domestic space carved out of built into the bedrock has been discovered near the Meria marina in Cap Corse, Corsica. The settlement dates to the 4th century A.D., a…",
-      "publishedAt": "2026-10-19T05:59:36.000Z"
+      "title": "One-ton antique bronze fountain stolen from Wiltshire garden",
+      "url": "https://www.thehistoryblog.com/archives/77177",
+      "summary": "An elaborate three-tier antique bronze fountain weighing approximately a ton was stolen from the garden of an estate in Fisherton de la Mere, near Warminster. The theft took place between October 8th…",
+      "publishedAt": "2026-10-20T08:41:27.000Z"
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
@@ -6428,13 +6428,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "AYANEO Offers Shipping Updates on Its Pocket Advance, Pocket Block, and Pocket Micro 2 Handhelds",
-      "url": "https://www.timeextension.com/#article-207849",
-      "summary": "Some coming sooner than expected, and others... AYANEO has released a shipping update for its range of current and upcoming handheld consoles. The updated info, shared by RetroHandhelds , arrived in …",
-      "publishedAt": "2026-10-19T16:00:00.000Z"
+      "title": "First AYN Odin 3 Portal Trailer Highlights Dragonwing Q8 CPU, Larger Grips and Thumbsticks",
+      "url": "https://www.timeextension.com/#article-207860",
+      "summary": "Info by a thousand cuts. Following on from last week's initial announcement, tech manufacturer AYN has released its first teaser trailer for its upcoming handheld, Odin 3 Portal. The short video is a…",
+      "publishedAt": "2026-10-20T08:35:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -6546,12 +6546,12 @@
   },
   "https://www.weirduniverse.net/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://www.weirduniverse.net/blog/rss_2.0/",
     "latestArticle": {
-      "title": "Tickle Tim",
-      "summary": "Some marketing exec must have noticed that if you change the first letter of 'pickle' to a 't' you get 'tickle'. And so was born Tickle Tim, the feather-holding pickle. I found a lot of ads for Tickl…",
-      "publishedAt": "2026-10-19T08:15:00.000Z"
+      "title": "Please send bird stomachs",
+      "summary": "In 1903 the US Federal Government, via the Bureau of Economic Ornithology, sought the help of the public by requesting that people mail them bird stomachs. The Bureau hoped, by this means, to find ou…",
+      "publishedAt": "2026-10-20T08:10:00.000Z"
     }
   },
   "https://www.zachleat.com/": {

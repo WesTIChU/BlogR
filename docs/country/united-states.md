@@ -1,13 +1,13 @@
 ---
 title: United States Blogs
-description: 93 blogs listed in United States.
+description: 95 blogs listed in United States.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="93" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="95" />
 
 ## Arts & Entertainment
 
@@ -130,6 +130,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://everydayeditbyk.com/" target="_blank" rel="noopener noreferrer">The Everyday Edit by K</a></strong> - A personal lifestyle blog sharing everyday experiences, home decorating and improvements, favourite recipes, family life, motherhood, books and travel, with a little bit of everything in between.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://everydayeditbyk.com/" data-blog-name="The Everyday Edit by K"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;19 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://the-modern-dad.com/" target="_blank" rel="noopener noreferrer">The Modern Dad</a></strong> - Jason Dunnigan shares experiences of fatherhood, family life, food, product reviews and everyday parenting from a dad's perspective.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://the-modern-dad.com/" data-blog-name="The Modern Dad"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;12 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+### Food Reviews
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.theimpulsivebuy.com/" target="_blank" rel="noopener noreferrer">The Impulsive Buy</a></strong> - A food review blog covering new snacks, sweets, drinks, fast food and supermarket products, with honest reviews, ratings and discoveries of unusual and limited-edition releases.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.theimpulsivebuy.com/" data-blog-name="The Impulsive Buy"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;20 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Gardening
 

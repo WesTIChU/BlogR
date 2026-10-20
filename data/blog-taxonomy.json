@@ -214,6 +214,10 @@
         {
           "title": "Beauty & Personal Care",
           "match": "beauty|personal|care"
+        },
+        {
+          "title": "Food Reviews",
+          "match": "food|reviews"
         }
       ]
     },

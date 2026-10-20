@@ -1,13 +1,13 @@
 ---
 title: United States Blogs
-description: 96 blogs listed in United States.
+description: 97 blogs listed in United States.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="96" />
+<CountryDirectoryHeader flag="🇺🇸" name="United States" :count="97" />
 
 ## Arts & Entertainment
 
@@ -148,6 +148,7 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 
 ### Business & Entrepreneurship
 
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://www.askamanager.org/" target="_blank" rel="noopener noreferrer">Ask a Manager</a></strong> - A workplace advice blog by Alison Green answering readers' questions about difficult bosses, coworkers, job interviews, salaries, management and navigating everyday working life.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.askamanager.org/" data-blog-name="Ask a Manager"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;20 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://stratechery.com" target="_blank" rel="noopener noreferrer">Stratechery</a></strong> - Analysis of the technology industry and business strategy, examining companies, platforms and the economics of digital markets.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://stratechery.com" data-blog-name="Stratechery"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/united-states" aria-label="Based in United States"><span aria-hidden="true">🇺🇸</span> United States</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;8 August 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ### Economics

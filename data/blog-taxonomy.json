@@ -170,6 +170,10 @@
         {
           "title": "Architecture & Design",
           "match": "architecture|design"
+        },
+        {
+          "title": "Science Fiction & Fantasy",
+          "match": "science|fiction|fantasy"
         }
       ]
     },

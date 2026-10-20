@@ -685,6 +685,17 @@
       "publishedAt": "2026-10-20T02:45:06.000Z"
     }
   },
+  "https://blog.avas.space/": {
+    "status": "success",
+    "lastPublished": "2026-10-11",
+    "feedUrl": "https://blog.avas.space/feed/",
+    "latestArticle": {
+      "title": "a (temporary) win for meta glasses in the classroom",
+      "url": "https://blog.avas.space/smart-glasses-school/",
+      "summary": "A student in Vienna, Austria has recently made the news because he has refused to stop using his Meta smart glasses at school, causing a legal dispute, and - to the surprise and outrage of many - act…",
+      "publishedAt": "2026-10-11T13:21:00.000Z"
+    }
+  },
   "https://blog.britishnewspaperarchive.co.uk/": {
     "status": "unavailable"
   },

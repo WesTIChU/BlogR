@@ -7437,5 +7437,17 @@
     "lastChecked": "2026-10-18T15:46:34.248Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://www.thephoblographer.com/": {
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T17:56:12.215Z",
+    "status": "success",
+    "feedUrl": "https://www.thephoblographer.com/feed/",
+    "latestArticle": {
+      "title": "Why the 5 Boro Foto Fest Still Says No to AI",
+      "url": "https://www.thephoblographer.com/2026/10/20/why-the-5-boro-foto-fest-still-says-no-to-ai/",
+      "summary": "With the 5 Boro Foto Fest less than a week away now, on Sunday, October 25th at Culture Lab LIC, it's worth repeating the thing that started this whole festival in the first place: a hard guarantee t…",
+      "publishedAt": "2026-10-20T17:00:00.000Z"
+    }
   }
 }

@@ -734,8 +734,8 @@
   },
   "https://chaoslife.findchaos.com/comic": {
     "lastPublished": "2026-06-11",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
       "title": "Late Lament",
@@ -871,8 +871,8 @@
   },
   "https://dom.blog/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
       "title": "When I was one, I had just begun",
@@ -1421,15 +1421,15 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Super Mario Bros. concept art sketch of an unused &ldquo;Cannon Koopa&rdquo; enemy with a caption that&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/830930127060942849",
-      "summary": "Super Mario Bros. concept art sketch of an unused “Cannon Koopa” enemy with a caption that translates to “Aims for Mario” and a pair of trajectory arrows. Based on the shape of the arrows and the hel…",
-      "publishedAt": "2026-10-19T19:05:20.000Z"
+      "title": "Officially licensed 1998 Mario Party keychain of Luigi, from Japan.",
+      "url": "https://smallmariofindings.tumblr.com/post/830948844950945792",
+      "summary": "Officially licensed 1998 Mario Party keychain of Luigi, from Japan. Main Blog | Patreon | Twitter | Bluesky | Small Findings | Source",
+      "publishedAt": "2026-10-20T00:02:51.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1877,14 +1877,14 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Audacious 4.6.2 fills the last gaps in its Qt Winamp mode",
-      "url": "https://www.omgubuntu.co.uk/2026/10/audacious-update-qt-winamp-skins",
-      "summary": "Audacious 4.6.2 lets you drop Winamp skin files onto the Qt window to install them, and adds keyboard navigation for toolbar buttons. You're reading Audacious 4.6.2 fills the last gaps in its Qt Wina…",
-      "publishedAt": "2026-10-19T22:38:14.000Z"
+      "title": "BleachBit 6.0.6 released with fixes for admin cleaning on Linux",
+      "url": "https://www.omgubuntu.co.uk/2026/10/bleachbit-606-update-speed-boost",
+      "summary": "BleachBit, the free, open-source and cross-platform system cleaning utility has a new maintenance release out – with support for Ubuntu 26.10. BleachBit 6.0.6 introduces cleaners for the Helium brows…",
+      "publishedAt": "2026-10-19T23:57:44.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -1924,15 +1924,15 @@
     }
   },
   "https://simonwillison.net/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-19T00:27:33.840Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was…",
-      "publishedAt": "2026-10-18T23:43:09.000Z"
+      "title": "My obituary for programming",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the…",
+      "publishedAt": "2026-10-19T23:58:25.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -2283,8 +2283,8 @@
   },
   "https://seat31b.com/": {
     "lastPublished": "2026-09-16",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
       "title": "Wyndham Just Quadrupled the Points Price of 237 Hotels",
@@ -2553,8 +2553,8 @@
   },
   "https://www.qwantz.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
       "title": "t-rex in: chosen FUN",
@@ -2887,14 +2887,14 @@
   },
   "https://readceltic.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Jota Has The Chance To Write One Of Celtic’s Great Modern Love Stories – And His Best Years Are Still Ahead Of Him",
-      "url": "https://readceltic.com/2026/10/20/jota-celtic-return-best-years/",
-      "summary": "There is a romantic side to football that no amount of money, statistics or transfer-market analysis will ever The post Jota Has The Chance To Write One Of Celtic’s Great Modern Love Stories – And Hi…",
-      "publishedAt": "2026-10-19T23:03:46.000Z"
+      "title": "Who gets their ar** handed to them on plate for 2 weeks running?? Ewen Cameron goes into hiding after 7-1 mauling by Celtic!",
+      "url": "https://readceltic.com/2026/10/19/who-gets-their-ar-handed-to-them-on-plate-for-2-weeks-running-ewen-cameron-goes-into-hiding-after-7-1-mauling-by-celtic/",
+      "summary": "If Ewen Cameron thought he was having a hellish time of it since Hearts lost the league on The post Who gets their ar** handed to them on plate for 2 weeks running?? Ewen Cameron goes into hiding aft…",
+      "publishedAt": "2026-10-19T16:27:30.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -3741,8 +3741,8 @@
   },
   "https://babakfakhamzadeh.com/": {
     "lastPublished": "2026-10-11",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
       "title": "Please, not him",
@@ -3787,15 +3787,15 @@
     }
   },
   "https://www.thenewestrant.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T00:27:33.840Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Personally, I Thought the New, \"Street Figher,\" Movie Was Highly Enjoyable",
-      "url": "https://www.thenewestrant.com/2026/10/personally-i-thought-new-street-figher.html",
-      "summary": "\"Street Fighter,\" has had previous film interpretations of the gaming franchise, but ever since the first trailer for this latest version, I've been excited to check it out. Some games get made into …",
-      "publishedAt": "2026-10-19T00:13:23.497Z"
+      "title": "Music Mondays: Some Random Newer Songs I Like",
+      "url": "https://www.thenewestrant.com/2026/10/music-mondays-some-random-newer-songs-i.html",
+      "summary": "I had a busy weekend, and it is going to be an active week full of meetings and errands too. I'll be driving around a good deal, and certain tunes have been, \"On repeat,\" in my car. Here are some of …",
+      "publishedAt": "2026-10-20T00:42:42.245Z"
     }
   },
   "https://greg.org/": {
@@ -3860,8 +3860,8 @@
   },
   "https://econbrowser.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
       "title": "Wall Street Expectations for Treasury Yields: Higher for Longer",
@@ -3883,15 +3883,15 @@
     }
   },
   "https://vhistory.wordpress.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T00:27:33.840Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://vhistory.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Barney’s Barrier Reef – Deadly 60 – 10 Sept 2010",
-      "url": "https://vhistory.wordpress.com/2026/10/19/barneys-barrier-reef-deadly-60-10-sept-2010/",
-      "summary": "The first recording today starts with the end of League of Super Evil. There’s a trail for CBBC Autumn programmes. There’s a short episode of Newsround. There’s a trail for Big Fab Fridays. Then it’s…",
-      "publishedAt": "2026-10-19T00:00:00.000Z"
+      "title": "What’s New Scooby-Doo? – Merlin – 11 Sept 2010",
+      "url": "https://vhistory.wordpress.com/2026/10/20/whats-new-scooby-doo-merlin-11-sept-2010/",
+      "summary": "The first recording today starts with the end of Dennis The Menace. There’s a trail for Autumn programmes on CBBC. Then it’s a repeat of What’s New Scooby-Doo? – Uncle Scooby and Antarctica. Media Ce…",
+      "publishedAt": "2026-10-20T00:00:00.000Z"
     }
   },
   "https://glitternight.com/": {
@@ -4795,15 +4795,15 @@
     }
   },
   "https://priorprobability.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T19:44:43.196Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "Monday music: Breezin’",
-      "url": "https://priorprobability.com/2026/10/19/monday-music-breezin/",
-      "summary": "Update: I will begin a new Adam Smith series in my next post; in the meantime, allow me to share this “oldie but goodie” by the legend George Benson, which was playing on my car radio (shout out WUCF…",
-      "publishedAt": "2026-10-19T12:02:49.000Z"
+      "title": "Adam Smith: bureaucrat?",
+      "url": "https://priorprobability.com/2026/10/20/adam-smith-bureaucrat/",
+      "summary": "Nota bene: Last month (see here), I mentioned that I would begin two new series on Adam Smith. I have already completed my first series on “Adam Smith and the ‘Absurd Prescriptions’ of Doctors“; now,…",
+      "publishedAt": "2026-10-20T00:20:00.000Z"
     }
   },
   "https://www.joeydevilla.com/": {
@@ -4939,8 +4939,8 @@
   },
   "https://www.thisishorror.co.uk/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
       "title": "5 Must Read Horror Articles 19 October 2026",
@@ -4951,8 +4951,8 @@
   },
   "https://www.horrorsociety.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
       "title": "Watch the New Clip for CHRISTMAS AT THE KRINGLES",
@@ -5057,15 +5057,15 @@
     }
   },
   "https://www.thehiking.club/blog/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-16T03:45:10.563Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://www.thehiking.club/blog?format=rss",
     "latestArticle": {
-      "title": "Eight days on Alta Via 2: Passo Gardena to San Martino di Castrozza",
-      "url": "https://www.thehiking.club/blog/alta-via-2-itinerary-passo-gardena-san-martino",
-      "summary": "Amy’s 8-day Alta Via 2 itinerary from Passo Gardena to San Martino di Castrozza, with via ferratas, rifugios, cable cars and lessons from the trail.",
-      "publishedAt": "2026-10-16T03:37:13.000Z"
+      "title": "Alta Via 1 Trail Running: 4, 5 & 6-Day Itinerary Examples",
+      "url": "https://www.thehiking.club/blog/trail-running-alta-via-1",
+      "summary": "Plan your Alta Via 1 trail-running adventure. Compare 4, 5 and 6-day itinerary examples, daily distance and ascent, rifugio stays and baggage-transfer options.",
+      "publishedAt": "2026-10-20T00:25:13.000Z"
     }
   },
   "https://www.hikersblog.co.uk/": {
@@ -5154,8 +5154,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5503,15 +5503,15 @@
     }
   },
   "https://humanizingthevacuum.wordpress.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T16:44:45.134Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Running to the right.",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/19/running-to-the-right/",
-      "summary": "It behooves me to offer a South Florida election update. Early voting begins today. Polling for certain races remains scarce. My congressperson María Elvira Salazar, winner of all three of her electi…",
-      "publishedAt": "2026-10-19T16:19:33.000Z"
+      "title": "Ranking #1 songs, UK edition: 1978-1979",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/19/ranking-1-songs-uk-edition-1978-1979/",
+      "summary": "Why shouldn’t I categorize #1s? I won’t linger on the overlap between America and the UK; these rankings will focus on the local phenomena. I’ve never been able to rank The Police away from their own…",
+      "publishedAt": "2026-10-20T00:00:51.000Z"
     }
   },
   "https://neveenwood.com/": {
@@ -5528,14 +5528,14 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T21:44:45.547Z",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "At The Mountains of Madness, Tim Kirk",
-      "url": "https://70sscifiart.tumblr.com/post/830930057325314048",
-      "summary": "notpulpcovers : At The Mountains of Madness, Tim Kirk",
-      "publishedAt": "2026-10-19T19:04:14.000Z"
+      "title": "Claude Denis, 1980",
+      "url": "https://70sscifiart.tumblr.com/post/830946265667862528",
+      "summary": "Claude Denis, 1980",
+      "publishedAt": "2026-10-19T23:21:51.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5892,8 +5892,8 @@
   },
   "https://www.thedarkmagazine.com/": {
     "lastPublished": "2026-10-01",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
       "title": "Falling",
@@ -5904,8 +5904,8 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
       "title": "BACK ON SHELVES: Lay’s Wavy Magic Masala Potato Chips (2026)",
@@ -6232,15 +6232,15 @@
     }
   },
   "https://banbantonton.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T00:27:33.840Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://banbantonton.com/feed/",
     "latestArticle": {
-      "title": "Mad Professor / Cuts & Dubs / Test Pressing",
-      "url": "https://banbantonton.com/2026/10/19/mad-professor-cuts-dubs-test-pressing/",
-      "summary": "This is a really cool compilation. A smart cross section of Mad Professor’s back catalogue, that serves as both a brilliant sampler to the uninitiated and a treasure trove to the obsessive (1). The 3…",
-      "publishedAt": "2026-10-19T00:01:00.000Z"
+      "title": "Hot House Tips / October 2026 – By The Insider",
+      "url": "https://banbantonton.com/2026/10/20/hot-house-tips-october-2026-by-the-insider/",
+      "summary": "Super selections and wonderful words by our favourite four-to-the-floor expert, The Insider. ROOTDOWN 30 COMPILED BY RAINER TRUBY / DAYBREAKERS “Root Down 30” isn’t just a compilation, it’s a birthda…",
+      "publishedAt": "2026-10-20T00:01:00.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -6262,8 +6262,8 @@
   },
   "https://www.notebookstories.com/": {
     "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
       "title": "Sketchbook Switch: Here’s What I Chose",
@@ -6363,8 +6363,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6399,14 +6399,14 @@
   },
   "https://greatawakeningreport.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T20:44:46.655Z",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "The Subtle Art of Losing Yourself | Documentary",
-      "url": "https://greatawakeningreport.com/the-subtle-art-of-losing-yourself-documentary/",
-      "summary": "The Subtle Art of Losing Yourself documentary takes an idea most people treat as recreation and examines it as something closer to a method. Wild places, the film proposes, teach lessons about the hu…",
-      "publishedAt": "2026-10-19T20:35:00.000Z"
+      "title": "THE THREE CITY STATES | THE EMPIRE OF THE CITY",
+      "url": "https://greatawakeningreport.com/three-city-states-empire-of-the-city/",
+      "summary": "GLOBAL FINANCE, RELIGIOUS AUTHORITY, MILITARY POWER & THE QUESTION OF NATIONAL SOVEREIGNTY “The world is not a corporation, and your soul is not a commodity. True sovereignty begins with understandin…",
+      "publishedAt": "2026-10-19T23:53:39.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -6871,8 +6871,8 @@
   },
   "https://www.thefrugalgamer.net/blog/": {
     "lastPublished": "2026-09-28",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
       "title": "Home Streaming Setup",
@@ -7038,8 +7038,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Rodríguez + De Mitri, Mexico",
@@ -7146,8 +7146,8 @@
   },
   "https://www.thefrugalgamer.net/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-19T23:44:42.939Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "status": "success",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
       "title": "New Music",

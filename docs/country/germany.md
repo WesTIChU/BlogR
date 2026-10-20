@@ -1,13 +1,13 @@
 ---
 title: Germany Blogs
-description: 5 blogs listed in Germany.
+description: 6 blogs listed in Germany.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇩🇪" name="Germany" :count="5" />
+<CountryDirectoryHeader flag="🇩🇪" name="Germany" :count="6" />
 
 ## Personal Writing
 
@@ -18,6 +18,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Journals & Diaries
 
 * <span class="blog-entry"><strong class="blog-health-link"><a href="https://paperpools.blogspot.com/" target="_blank" rel="noopener noreferrer">Paper Pools</a></strong> - Personal reflections, quiet observations, and indie-style journal writing.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://paperpools.blogspot.com/" data-blog-name="Paper Pools"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/germany" aria-label="Based in Germany"><span aria-hidden="true">🇩🇪</span> Germany</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;8 August 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
+
+### Personal Blogs & Everyday Life
+
+* <span class="blog-entry"><strong class="blog-health-link"><a href="https://blog.avas.space/" target="_blank" rel="noopener noreferrer">Ava's Blog</a></strong> - A personal blog by Ava sharing thoughts on technology, digital privacy, data protection law, books, media, creative projects and everyday life, with a particular interest in the independent web.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://blog.avas.space/" data-blog-name="Ava's Blog"><span data-blog-feed-slot></span><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/germany" aria-label="Based in Germany"><span aria-hidden="true">🇩🇪</span> Germany</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;20 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span></span>
 
 ## Technology
 

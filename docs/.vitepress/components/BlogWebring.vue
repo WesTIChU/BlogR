@@ -219,9 +219,10 @@ onBeforeUnmount(() => {
           {{ websiteName }}
         </strong>
         <small class="blog-webring-trial-warning">
-          <b>Webring is currently in trial mode</b>
-          We're still testing the Webring. Please don't add the widget to your
-          website just yet. Check back in a few days when it's ready.
+          <b>BlogR Webring: Beta</b>
+          The BlogR Webring is currently in beta and may change or be removed
+          while we're testing it. If you're happy to help us test it, feel free
+          to add the widget to your website.
         </small>
         <small class="blog-webring-domain-warning">
           <b>IMPORTANT: This code is unique to your website</b>
@@ -343,16 +344,16 @@ onBeforeUnmount(() => {
 }
 .blog-webring-trial-warning {
   display: block;
-  margin: 0 0 14px;
-  padding: 8px 10px;
+  margin: 0 0 10px;
+  padding: 6px 8px;
   border-inline-start: 2px solid #d6a72c;
   background: color-mix(in srgb, #d6a72c 10%, transparent);
   color: #f4d77b;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 .blog-webring-trial-warning b {
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   font-weight: 600;
 }
 .blog-webring-domain-warning {
@@ -411,8 +412,12 @@ onBeforeUnmount(() => {
   opacity: 0.65;
 }
 .blog-webring-recheck {
-  margin-top: 10px !important;
-  margin-bottom: 6px !important;
+  margin-top: 8px !important;
+  margin-bottom: 0 !important;
+  padding: 5px 9px !important;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  vertical-align: middle;
 }
 .blog-webring-recheck-message {
   display: block;
@@ -450,10 +455,12 @@ onBeforeUnmount(() => {
 }
 .blog-webring-more-link {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 8px;
+  margin-inline-start: 6px;
   color: var(--vp-c-brand-1);
   text-decoration: underline;
   text-underline-offset: 2px;
+  vertical-align: middle;
 }
 .blog-webring-popover small {
   line-height: 1.35;

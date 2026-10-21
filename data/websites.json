@@ -10,6 +10,96 @@
     "addedAt": "2026-10-18T14:15:12.030Z"
   },
   {
+    "id": "yordi",
+    "name": "Yordi",
+    "url": "https://yordi.me/",
+    "description": "Yordi's handcrafted personal homepage brings together growth-focused writing, a blog, photography, reading and music pages, a guestbook, slash pages and links to the wider indie web.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:17:24.000Z"
+  },
+  {
+    "id": "mihobuland",
+    "name": "Mihobuland",
+    "url": "https://mihobu.net/",
+    "description": "Michael Burkhardt’s personal homepage anchors a family of independent sites for general writing, photography, amateur radio, media ratings and tested recipes, with an about page and active publishing across the network.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:23:00.000Z"
+  },
+  {
+    "id": "mihobu-photography",
+    "name": "Mihobu’s Photography Blog",
+    "url": "https://photography.mihobu.net/",
+    "description": "A standalone photography site documenting camera practice, gear and lessons learned, with short-form galleries, photography pages and links to Michael Burkhardt’s larger themed photo collection.",
+    "category": "Creative Projects",
+    "subcategory": "Experimental Projects",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:23:00.000Z"
+  },
+  {
+    "id": "nz6a",
+    "name": "NZ6A",
+    "url": "https://nz6a.mihobu.net/",
+    "description": "Michael Burkhardt’s standalone amateur-radio homepage combines an active blog with QSL-card archives, maps, downloads, propagation information, operating resources and personal station details.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:23:00.000Z"
+  },
+  {
+    "id": "wheelsblog",
+    "name": "Wheelsblog",
+    "url": "https://wheelsbot.dev/",
+    "description": "Owen Wertzberger’s hand-built personal developer site combines an active technical blog with project pages, code links, reading material, tags, archives and experiments in Linux and web development.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:23:00.000Z"
+  },
+  {
+    "id": "candost",
+    "name": "Candost",
+    "url": "https://candost.blog/",
+    "description": "Candost's personal website combines a long-running blog and newsletter with book notes, journal entries, a blogroll, podcast links, a guestbook and reflections on software and life.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:17:24.000Z"
+  },
+  {
+    "id": "vivarism",
+    "name": "Vivarism",
+    "url": "https://vivarism.net/",
+    "description": "Flonne Pocket's personal internet playplace combines diaries, galleries, tutorials, fandom pages, quizzes, guestbook features, web resources, original art and handmade graphics.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:17:24.000Z"
+  },
+  {
+    "id": "karl-wilcox",
+    "name": "Karl Wilcox",
+    "url": "https://karlwilcox.com/",
+    "description": "Karl Wilcox's personal site gathers his biography, software and electronics projects, heraldry work, collections, artwork, media reviews and other long-term interests.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:17:24.000Z"
+  },
+  {
+    "id": "piotr-porzuczek",
+    "name": "Piotr Porzuczek",
+    "url": "https://porzuczek.pl/",
+    "description": "Piotr Porzuczek's portfolio-style personal website presents his frontend development and lecturing work, selected projects, research articles, blog posts, photography and contact details.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-21",
+    "addedAt": "2026-10-21T03:17:24.000Z"
+  },
+  {
     "id": "xxiivv-webring",
     "name": "XXIIVV Webring",
     "url": "https://webring.xxiivv.com/",

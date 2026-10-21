@@ -182,7 +182,7 @@ onBeforeUnmount(() => {
       @click="togglePopup"
     >
       <svg
-        class="blog-metadata-icon blog-webring-icon"
+        class="blog-metadata-visual blog-webring-icon"
         viewBox="0 0 24 24"
         aria-hidden="true"
         focusable="false"
@@ -280,7 +280,7 @@ onBeforeUnmount(() => {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   vertical-align: middle;
 }
 .blog-webring-trigger {

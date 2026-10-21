@@ -140,16 +140,12 @@ onMounted(() => {
     v-show="showBlogDetails"
     class="blog-last-updated"
   >
-    <span
-      v-if="favourite"
-      class="blog-metadata-icon blog-favourite"
-      aria-label="Favourite"
-    >
-      ⭐
+    <span v-if="favourite" class="blog-metadata-icon" aria-label="Favourite">
+      <span class="blog-favourite">⭐</span>
     </span>
     <a
       v-if="feedUrl"
-      class="blog-metadata-icon-button blog-feed-link"
+      class="blog-feed-link"
       :href="feedUrl"
       :aria-label="feedLabel"
       :title="feedLabel"
@@ -157,7 +153,7 @@ onMounted(() => {
       rel="noopener noreferrer"
     >
       <svg
-        class="blog-metadata-icon blog-feed-icon"
+        class="blog-metadata-visual blog-feed-icon"
         viewBox="0 0 24 24"
         aria-hidden="true"
         focusable="false"
@@ -167,13 +163,15 @@ onMounted(() => {
         <path d="M4 10a10 10 0 0 1 10 10" />
       </svg>
     </a>
-    <span
-      class="blog-health-dot"
-      :style="{ backgroundColor: statusDetails[health.status].color }"
-      :title="tooltip"
-      :aria-label="tooltip"
-      role="img"
-    ></span>
+    <span class="blog-metadata-icon blog-health-dot-container">
+      <span
+        class="blog-health-dot"
+        :style="{ backgroundColor: statusDetails[health.status].color }"
+        :title="tooltip"
+        :aria-label="tooltip"
+        role="img"
+      ></span>
+    </span>
     <span v-if="country" class="blog-metadata-separator" aria-hidden="true">
       ·
     </span>
@@ -183,7 +181,9 @@ onMounted(() => {
       :href="countryUrl"
       :aria-label="`Based in ${country.name}`"
     >
-      <span aria-hidden="true">{{ country.flag }}</span>
+      <span class="blog-country-flag" aria-hidden="true">
+        {{ country.flag }}
+      </span>
       {{ country.name }}
     </a>
     <span
@@ -219,7 +219,7 @@ onMounted(() => {
 .blog-last-updated {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   margin-top: 0.15em;
   color: var(--vp-c-text-3);
   font-size: 0.75em;
@@ -237,9 +237,9 @@ onMounted(() => {
 }
 
 .blog-metadata-icon {
-  width: 14px;
-  height: 14px;
-  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
   line-height: 1;
 }
 
@@ -249,6 +249,12 @@ onMounted(() => {
   line-height: 1;
 }
 
+.blog-metadata-visual {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+}
+
 .blog-favourite {
   color: #facc15;
 }
@@ -256,18 +262,36 @@ onMounted(() => {
 .blog-health-dot {
   display: inline-block;
   flex: 0 0 auto;
-  width: 7px;
-  height: 7px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
+}
+
+.blog-health-dot-container {
+  width: 20px;
+  height: 20px;
 }
 
 .blog-country {
   display: inline-flex;
   align-items: center;
-  gap: 0.2em;
+  gap: 4px;
   color: inherit;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.blog-country-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  font-size: 16px;
+  line-height: 1;
+  font-family:
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
 }
 
 .blog-country:hover {
@@ -284,11 +308,14 @@ onMounted(() => {
 }
 
 .blog-feed-icon {
+  width: 13px;
+  height: 13px;
+  flex: 0 0 13px;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 2;
+  stroke-width: 1.75;
 }
 
 .blog-feed-icon path:first-child {

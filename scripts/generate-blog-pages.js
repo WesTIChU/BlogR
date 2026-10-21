@@ -115,26 +115,26 @@ export const renderBlogDetails = (entry, showWebring = showWebringAtBuild) => {
 
   if (entry.favourite) {
     details.push(
-      '<span class="blog-favourite" aria-label="Favourite">⭐</span>'
+      '<span class="blog-metadata-icon" aria-label="Favourite"><span class="blog-favourite">⭐</span></span>'
     )
   }
 
   if (!community) {
     const feedUrl = getVerifiedFeedUrl(blogUpdates, entry.url)
     const feed = feedUrl
-      ? `<a class="blog-feed-link" href="${attribute(feedUrl)}" target="_blank" rel="noopener noreferrer" title="RSS feed for ${attribute(entry.name)}" aria-label="RSS feed for ${attribute(entry.name)}"><svg class="blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a>`
+      ? `<a class="blog-feed-link" href="${attribute(feedUrl)}" target="_blank" rel="noopener noreferrer" title="RSS feed for ${attribute(entry.name)}" aria-label="RSS feed for ${attribute(entry.name)}"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a>`
       : ''
     details.push(`<span data-blog-feed-slot>${feed}</span>`)
   }
 
   details.push(
-    `<span class="blog-health-dot" style="background-color:#94A3B8;" title="${statusTooltip}" aria-label="${statusTooltip}" role="img"></span>`
+    `<span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="${statusTooltip}" aria-label="${statusTooltip}" role="img"></span></span>`
   )
 
   if (country && countryUrl) {
     details.push(
       '<span class="blog-metadata-separator" aria-hidden="true">·</span>',
-      `<a class="blog-country" href="${attribute(countryUrl)}" aria-label="${attribute(`Based in ${country.name}`)}"><span aria-hidden="true">${country.flag}</span> ${attribute(country.name)}</a>`
+      `<a class="blog-country" href="${attribute(countryUrl)}" aria-label="${attribute(`Based in ${country.name}`)}"><span class="blog-country-flag" aria-hidden="true">${country.flag}</span> ${attribute(country.name)}</a>`
     )
   }
 
@@ -414,7 +414,7 @@ export const renderWebsiteDetails = (
     showWebring && entry.webringId
       ? `<BlogWebring webring-id="${attribute(entry.webringId)}" website-url="${attribute(entry.url)}" website-name="${attribute(entry.name)}" />`
       : ''
-  return `<span class="blog-last-updated" data-blog-details data-blog-website="true" data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span>${added ? `<span class="blog-metadata-separator" aria-hidden="true">·</span><span class="blog-added-date">Added&nbsp;${attribute(added)}</span>` : ''}<span class="blog-health-sr-only">Unknown or stale</span>${webring}</span>`
+  return `<span class="blog-last-updated" data-blog-details data-blog-website="true" data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span>${added ? `<span class="blog-metadata-separator" aria-hidden="true">·</span><span class="blog-added-date">Added&nbsp;${attribute(added)}</span>` : ''}<span class="blog-health-sr-only">Unknown or stale</span>${webring}</span>`
 }
 
 const renderWebsiteEntries = (entries) =>

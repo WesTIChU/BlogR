@@ -7519,5 +7519,136 @@
     "lastChecked": "2026-10-18T15:46:34.248Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://yordi.me/": {
+    "lastPublished": "2026-08-29",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://yordi.me/feed/",
+    "latestArticle": {
+      "title": "Where Darkness Meets the Light",
+      "url": "https://yordi.me/where-darkness-meets-the-light/",
+      "summary": "Kutná Hora. An old, medieval town about an hour train ride from Prague that would do well as the setting for a videogame . Narrow streets with cobblestones sway between buildings, some of them leadin…",
+      "publishedAt": "2026-08-29T08:51:00.000Z"
+    }
+  },
+  "https://candost.blog/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "unknown",
+    "feedUrl": "https://candost.blog/favicon.ico"
+  },
+  "https://vivarism.net/": {
+    "lastPublished": "2026-09-12",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://vivarism.net/rss.xml",
+    "latestArticle": {
+      "title": "Hobby Stuff I've Been Up To",
+      "url": "https://vivarism.net/diary/26/0912",
+      "summary": "New blog post about what I've been doing since my last update~☆ We also have a new poll for September now— happy voting!!!",
+      "publishedAt": "2026-09-12T11:11:11.000Z"
+    }
+  },
+  "https://karlwilcox.com/": {
+    "lastPublished": "2026-10-01",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://karlwilcox.com/feed.xml",
+    "latestArticle": {
+      "title": "I Deliver Parcels in Beijing",
+      "url": "https://karlwilcox.com/reviews/books/non-fiction/i-deliver-parcels-in-beijing/",
+      "summary": "A strangely compelling if rather disjointed story of modern life for a young person in today’s China. The overwhelming impression I get is a strange mix of frenetic entrepreneurship and stifling bure…",
+      "publishedAt": "2026-10-01T23:00:00.000Z"
+    }
+  },
+  "https://hashset.dev/": {
+    "lastPublished": "2026-03-21",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://hashset.dev/rss.xml",
+    "latestArticle": {
+      "title": "Reflecting on deserialization. Why you should explicitly decode your JSON.",
+      "url": "https://hashset.dev/article/2026/03/21/reflecting-on-deserialization-why-you-should-explicitly-decode-your-json/",
+      "summary": "Reflecting on deserialization. Why you should explicitly decode your JSON.JSON is everywhere. As developers, we will be required to work with it at some point or another. Maybe in the embedded space",
+      "publishedAt": "2026-03-21T00:00:00.000Z"
+    }
+  },
+  "https://porzuczek.pl/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://mihobu.net/": {
+    "lastPublished": "2026-10-18",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://mihobu.net/rss.xml",
+    "latestArticle": {
+      "title": "Hulu’s Home Screen Categories, Translated",
+      "url": "https://mihobu.net/hulus-home-screen-categories-translated",
+      "summary": "When I started studying machine learning, before the advent of Generative Pre-trained Transformers (GPTs) , recommender systems were pretty terrible. More than a decade later, you’d think that the qu…",
+      "publishedAt": "2026-10-18T15:42:00.000Z"
+    }
+  },
+  "https://photography.mihobu.net/": {
+    "lastPublished": "2026-10-18",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://photography.mihobu.net/rss.xml",
+    "latestArticle": {
+      "title": "📷 And just for fun, a couple of color snaps using the new lens.",
+      "url": "https://photography.mihobu.net/micro-20261018210034",
+      "summary": "Fujifilm X-E5 Voigtländer Color-Skopar 18mm F2.8 Kodak Ektachrome E100VS film simulation recipe",
+      "publishedAt": "2026-10-18T21:00:00.000Z"
+    }
+  },
+  "https://nz6a.mihobu.net/": {
+    "lastPublished": "2026-09-18",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://nz6a.mihobu.net/rss.xml",
+    "latestArticle": {
+      "title": "📷 Portuguese antenna garden",
+      "url": "https://nz6a.mihobu.net/micro-20260918070719",
+      "publishedAt": "2026-09-18T07:07:00.000Z"
+    }
+  },
+  "https://ratings.mihobu.net/": {
+    "lastPublished": "2026-10-18",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://ratings.mihobu.net/rss.xml",
+    "latestArticle": {
+      "title": "🍿 Good Luck, Have Fun, Don’t Die (2025)",
+      "url": "https://ratings.mihobu.net/micro-20261018173146",
+      "summary": "I don’t even know what to say about this. It is some serious Terry Gilliam–level mindfuck shit that moves quickly past familiar irony to extremely dark and deeply disturbing. I’m here for it. A few t…",
+      "publishedAt": "2026-10-18T17:31:00.000Z"
+    }
+  },
+  "https://recipes.mihobu.net/": {
+    "lastPublished": "2026-10-17",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://recipes.mihobu.net/rss.xml",
+    "latestArticle": {
+      "title": "Easy Cheese Danish Pastries",
+      "url": "https://recipes.mihobu.net/easy-cheese-danish-pastries",
+      "summary": "This recipe is still in testing. You’ll need: 1 Pepperidge Farm frozen puff pastry sheet 4 oz cream cheese Be sure to set out the cream cheese and puff pastry ahead of time. The cream cheese should b…",
+      "publishedAt": "2026-10-17T13:09:00.000Z"
+    }
+  },
+  "https://wheelsbot.dev/": {
+    "lastPublished": "2026-05-05",
+    "lastChecked": "2026-10-21T03:28:33.887Z",
+    "status": "success",
+    "feedUrl": "https://wheelsbot.dev/index.xml",
+    "latestArticle": {
+      "title": "Color Preference Analysis System",
+      "url": "https://wheelsbot.dev/projects/best-color/",
+      "summary": "A website that presents users with 2 colors in UI contexts and asks them to pick one. It collects this data with the user’s browser, os, etc.",
+      "publishedAt": "2026-05-05T00:00:00.000Z"
+    }
   }
 }

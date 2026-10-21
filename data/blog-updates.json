@@ -30,15 +30,15 @@
     "feedUrl": null
   },
   "https://britishcoast.wordpress.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T21:44:45.547Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://britishcoast.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Special: Walking the coast of Lithuania: LIT2 Kunigiškiai to Klaipeda",
-      "url": "https://britishcoast.wordpress.com/2026/10/19/special-walking-the-coast-of-lithuania-lit2-kunigiskiai-to-klaipeda/",
-      "summary": "September 2026 I had a good night sleep at the hotel and after breakfast, it was time to head back to Kunigiškiai so I could continue south from there. This is because this was the name of the villag…",
-      "publishedAt": "2026-10-19T20:51:52.000Z"
+      "title": "545. Nefyn to Whistling Sands (Porth Oer)",
+      "url": "https://britishcoast.wordpress.com/2026/10/21/545-nefyn-to-whistling-sands-porth-oer/",
+      "summary": "March 2018 For this walk I was staying at the Permier Inn Caernarfon. I had breakfast at the hotel and then drove down to a fairly remote beach called Whistling Sands or Porth Oer. The logistics for …",
+      "publishedAt": "2026-10-21T21:57:35.000Z"
     }
   },
   "https://blog.britishnewspaperarchive.co.uk/": {
@@ -1517,15 +1517,15 @@
     }
   },
   "https://www.theminimalists.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-19T12:44:45.176Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://www.theminimalists.com/feed/",
     "latestArticle": {
-      "title": "Podcast Ep. 560 | The Responsibility",
-      "url": "https://www.theminimalists.com/p560/",
-      "summary": "You can care without carrying. The post Podcast Ep. 560 | The Responsibility appeared first on The Minimalists .",
-      "publishedAt": "2026-10-19T12:00:00.000Z"
+      "title": "Dumb Question",
+      "url": "https://www.theminimalists.com/dumb/",
+      "summary": "By Joshua Fields Millburn Understanding begins with a willingness to sound foolish. The post Dumb Question appeared first on The Minimalists .",
+      "publishedAt": "2026-10-21T12:00:00.000Z"
     }
   },
   "https://thettablog.blogspot.com/": {
@@ -1541,15 +1541,15 @@
     }
   },
   "https://thezvi.wordpress.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T23:44:45.032Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://thezvi.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Anthropic Does Not Understand Why Its Draft Bill Was Unacceptable and Troubling",
-      "url": "https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/",
-      "summary": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday. His response indicates that Anthropic address specific concerns…",
-      "publishedAt": "2026-10-20T23:03:29.000Z"
+      "title": "Misaligned!",
+      "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/",
+      "summary": "A lot of AIs were misaligned this week. A fun little survey. This is not coverage of The Hackening, which appears to have arrived early, including a core vulnerability in PHP. That is a developing st…",
+      "publishedAt": "2026-10-21T22:25:05.000Z"
     }
   },
   "https://tiramisu.bearblog.dev/blog/": {
@@ -1744,24 +1744,24 @@
   },
   "https://www.freecodecamp.org/news/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T19:34:30.776Z",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/diagnose-vite-not-found-npm-ci-container-build/",
-      "summary": "I recently worked on a project where a Node.js application used Vite to compile its frontend. It worked in a browser-hosted development environment, but its image build failed after the move to Azure",
-      "publishedAt": "2026-10-21T16:03:14.000Z"
+      "url": "https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/",
+      "summary": "Over time, knowledge has been passed down in various forms. Before writing was invented in ancient Mesopotamia (modern-day Iraq), laws, history, myths, songs, and other information were all transferre",
+      "publishedAt": "2026-10-21T18:46:22.000Z"
     }
   },
   "https://hackernoon.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T16:44:33.576Z",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/if-ai-isnt-your-competitive-advantage-stop-building-it?source=rss",
-      "summary": "Basware CEO Jason Kurtz on when to build AI and when to buy: develop what sets your business apart, and use specialist software for standard work.",
-      "publishedAt": "2026-10-21T15:51:43.000Z"
+      "url": "https://hackernoon.com/why-ai-agent-pricing-is-still-unsolved-and-what-it-means-for-how-you-track-costs?source=rss",
+      "summary": "Unlike traditional SaaS, AI agents deliver uncertain value at a cost that keeps shifting, and that combination breaks the pricing logic SaaS was built on.",
+      "publishedAt": "2026-10-21T21:56:11.000Z"
     }
   },
   "https://www.homeautomationguy.io/": {
@@ -2671,14 +2671,14 @@
   },
   "https://theoverspill.blog/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T21:44:31.281Z",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://theoverspill.blog/feed/",
     "latestArticle": {
-      "title": "Start Up No.2768: PHP flaw discovered by humans (and AI) threatens huge parts of the web, including Pinboard. That’s all.",
-      "url": "https://theoverspill.blog/2026/10/21/php-flaw-pinboard-blocked/",
-      "summary": "When you think about the modern internet, what image comes to mind? CC-licensed photo by David Leo Veksler on Flickr. You can sign up to receive each day’s Start Up post by email. You’ll need to clic…",
-      "publishedAt": "2026-10-21T21:37:01.000Z"
+      "title": "Start Up No.2767: how chatbots sucked up slop statistics, CoreWeave’s debt trouble grows, BoA rushes to fix software holes, and more",
+      "url": "https://theoverspill.blog/2026/10/21/ai-page-statistics-slop-embedded-start-up-2767/",
+      "summary": "A Google Cloud outage knocked out ATM services for some people in the UK. (People still use cash?) CC-licensed photo by Henry Cha on Flickr. You can sign up to receive each day’s Start Up post by ema…",
+      "publishedAt": "2026-10-21T06:00:00.000Z"
     }
   },
   "https://gorillasdontblog.blogspot.com/": {
@@ -2964,13 +2964,13 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T20:44:31.544Z",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36204/como-4-1-manchester-united-player-ratings",
-      "summary": "Player ratings from Manchester United’s embarrassing 4-1 loss to Como in the Champions League League Phase. Senne Lammens – 4 It never looks good when you concede four. Though there wasn’t much he co…",
-      "publishedAt": "2026-10-21T20:14:06.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36199/como-vs-manchester-united-live-stream-time-how-to-watch",
+      "summary": "Manchester United are back in UEFA Champions League action on Wednesday as we travel to Italy to face competition newcomers Como. The Italian side are flying high in Serie A under Cesc Fabregas and h…",
+      "publishedAt": "2026-10-21T15:00:00.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -3117,14 +3117,14 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T11:44:31.927Z",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Debian-Based siduction 2026.1 “Big Crime” Released with Linux 7.2, KDE Plasma 6.7",
-      "url": "https://9to5linux.com/debian-based-siduction-2026-1-big-crime-released-with-linux-7-2-kde-plasma-6-7",
-      "summary": "siduction Linux 2026.1.0 distribution is now available for download featuring the Xfce 4.20 and KDE Plasma 6.7 desktop environments, based on Debian Unstable. The post Debian-Based siduction 2026.1 “…",
-      "publishedAt": "2026-10-21T11:14:12.000Z"
+      "title": "KeePassXC 2.8 Released with ARM64 and Wayland Auto-Type Support on Linux",
+      "url": "https://9to5linux.com/keepassxc-2-8-released-with-arm64-and-wayland-auto-type-support-on-linux",
+      "summary": "KeePassXC 2.8 open-source password manager is now available for download with Qt 6 port, Auto-Type support on Linux/Wayland, quick unlock on Linux, and many other changes. The post KeePassXC 2.8 Rele…",
+      "publishedAt": "2026-10-21T22:28:00.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3625,15 +3625,15 @@
     }
   },
   "https://www.gentlemanstationer.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T15:44:46.457Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://www.gentlemanstationer.com/blog?format=rss",
     "latestArticle": {
-      "title": "New Arrivals: TRAVELER'S Notebook 2027 Diaries/Planners, Stickers, and Accessories, Plus the Lamy Studio Petrol!",
-      "url": "https://www.gentlemanstationer.com/blog/2026/10/20/new-arrivals-travelers-notebook-2027-diariesplanners-stickers-and-accessories-plus-the-lamy-studio-petrol",
-      "summary": "At long last, the 2027 dated TRAVELER’S Notebook special edition planner/diary refills and other exclusive accessories have arrived . As per the usual, standard size comes in Monthly, Weekly Vertical…",
-      "publishedAt": "2026-10-20T15:06:44.000Z"
+      "title": "Running Our First Stationery Event: A Retrospective on the \"On The Paper Trail Live in Nashville\" Weekend!",
+      "url": "https://www.gentlemanstationer.com/blog/2026/10/21/running-our-first-stationery-event-a-retrospective",
+      "summary": "Kaleidocraft was kind enough to make charms for our event passes! Kaleidocraft was kind enough to make charms for our event passes! It’s time for a report on our On The Paper Trail Live in Nashville …",
+      "publishedAt": "2026-10-21T22:22:48.000Z"
     }
   },
   "https://tgreviews.com/": {
@@ -3972,8 +3972,8 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "lastPublished": "2026-09-10",
-    "lastChecked": "2026-10-20T14:44:47.716Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
+    "status": "success",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=7885444af42e",
     "latestArticle": {
       "title": "Comfort in an Orange Tin: The History of Ovaltine in Britain",
@@ -4476,9 +4476,9 @@
   },
   "https://www.urbex-travel.com/blog/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-21T19:34:30.776Z",
-    "status": "unknown",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
+    "status": "success",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -4565,15 +4565,15 @@
     }
   },
   "https://pulpcovers.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T19:44:46.110Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "The Heart Of A Busher",
-      "url": "https://pulpcovers.com/the-heart-of-a-busher/",
-      "summary": "Also, Slug It Out, Willie! via",
-      "publishedAt": "2026-10-20T19:35:24.000Z"
+      "title": "Scarlet Range",
+      "url": "https://pulpcovers.com/scarlet-range/",
+      "summary": "This entire issue can be downloaded here",
+      "publishedAt": "2026-10-21T22:28:06.000Z"
     }
   },
   "https://www.righto.com/": {
@@ -4970,15 +4970,15 @@
     }
   },
   "https://horrormovieblog.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-21T14:44:33.755Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T22:42:29.436Z",
     "status": "success",
     "feedUrl": "https://horrormovieblog.com/feed/",
     "latestArticle": {
-      "title": "Split Rock // 59th Sitges Film Festival Review",
-      "url": "https://horrormovieblog.com/split-rock-59th-sitges-film-festival-review/?utm_source=rss&utm_medium=rss&utm_campaign=split-rock-59th-sitges-film-festival-review",
-      "summary": "Split Rock is a new cosmic horror feature from director Ryan Glover (Strings) that premiered at the 59th Sitges Film Festival on October 9, 2026, ahead of its North American premiere at the Brooklyn …",
-      "publishedAt": "2026-10-20T19:25:41.000Z"
+      "title": "Erie // Brooklyn Horror Film Festival 2026 Review",
+      "url": "https://horrormovieblog.com/erie-brooklyn-horror-film-festival-2026-review/?utm_source=rss&utm_medium=rss&utm_campaign=erie-brooklyn-horror-film-festival-2026-review",
+      "summary": "Alison-Eve Hammersely’s feature debut, Erie, just had its East Coast premiere at the Brooklyn Horror Film Festival on October 20th. Hammersely is an award-winning shorts filmmaker who is bringing her…",
+      "publishedAt": "2026-10-21T16:54:18.000Z"
     }
   },
   "https://horror-movie-a-day.blogspot.com/": {

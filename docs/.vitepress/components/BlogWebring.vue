@@ -269,6 +269,30 @@ onBeforeUnmount(() => {
             />
             <span>Image 2</span>
           </label>
+          <label class="blog-webring-design-option">
+            <input
+              v-model="selectedDesign"
+              type="radio"
+              value="image-halloween"
+            />
+            <img
+              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.halloween"
+              alt="Halloween Webring widget design"
+            />
+            <span>Image 3</span>
+          </label>
+          <label class="blog-webring-design-option">
+            <input
+              v-model="selectedDesign"
+              type="radio"
+              value="image-christmas"
+            />
+            <img
+              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.christmas"
+              alt="Christmas Webring widget design"
+            />
+            <span>Image 4</span>
+          </label>
           <div class="blog-webring-design-option blog-webring-basic-option">
             <label>
               <input v-model="selectedDesign" type="radio" value="basic" />
@@ -313,7 +337,9 @@ onBeforeUnmount(() => {
           <div
             v-if="
               selectedDesign === 'image-blog' ||
-              selectedDesign === 'image-globe'
+              selectedDesign === 'image-globe' ||
+              selectedDesign === 'image-halloween' ||
+              selectedDesign === 'image-christmas'
             "
             class="blogr-webring-widget blog-webring-image-preview"
           >
@@ -321,7 +347,11 @@ onBeforeUnmount(() => {
               :src="
                 selectedDesign === 'image-blog'
                   ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog
-                  : WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe
+                  : selectedDesign === 'image-globe'
+                    ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe
+                    : selectedDesign === 'image-halloween'
+                      ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.halloween
+                      : WEBRING_WIDGET_PREVIEW_IMAGE_URLS.christmas
               "
               alt="BlogR Webring widget preview"
             />

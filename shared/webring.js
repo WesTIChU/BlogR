@@ -3,11 +3,15 @@ import { canonicalBlogUrl } from './blog-duplicate.js'
 export const WEBRING_WIDGET_VERSION = '1'
 export const WEBRING_WIDGET_IMAGE_URLS = {
   blog: 'https://blogr.directory/images/web-ring-images/blog-orange.png',
-  globe: 'https://blogr.directory/images/web-ring-images/globe-orange.png'
+  globe: 'https://blogr.directory/images/web-ring-images/globe-orange.png',
+  halloween: 'https://blogr.directory/images/web-ring-images/halloween.png',
+  christmas: 'https://blogr.directory/images/web-ring-images/christmas.png'
 }
 export const WEBRING_WIDGET_PREVIEW_IMAGE_URLS = {
   blog: '/images/web-ring-images/blog-orange.png',
-  globe: '/images/web-ring-images/globe-orange.png'
+  globe: '/images/web-ring-images/globe-orange.png',
+  halloween: '/images/web-ring-images/halloween.png',
+  christmas: '/images/web-ring-images/christmas.png'
 }
 export const WEBRING_INSTALL_PATHS = [
   '/',
@@ -85,11 +89,20 @@ export const widgetHtmlForDesign = (
       webringBasicLabels(theme === 'emoji' ? 'classic' : theme)
     )
   }
-  if (design === 'image-blog' || design === 'image-globe') {
+  if (
+    design === 'image-blog' ||
+    design === 'image-globe' ||
+    design === 'image-halloween' ||
+    design === 'image-christmas'
+  ) {
     const image =
       design === 'image-blog'
         ? WEBRING_WIDGET_IMAGE_URLS.blog
-        : WEBRING_WIDGET_IMAGE_URLS.globe
+        : design === 'image-globe'
+          ? WEBRING_WIDGET_IMAGE_URLS.globe
+          : design === 'image-halloween'
+            ? WEBRING_WIDGET_IMAGE_URLS.halloween
+            : WEBRING_WIDGET_IMAGE_URLS.christmas
     const safeImage = escapeHtml(image)
     const links = widgetLinksHtml(id, baseUrl, {
       previous: 'Previous',

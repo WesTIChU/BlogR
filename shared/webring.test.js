@@ -53,6 +53,8 @@ test('all widget designs keep the verified navigation links', () => {
   for (const design of [
     'image-blog',
     'image-globe',
+    'image-halloween',
+    'image-christmas',
     'basic-emoji',
     'basic-plain'
   ]) {
@@ -65,6 +67,19 @@ test('all widget designs keep the verified navigation links', () => {
     } else if (design === 'image-globe') {
       assert.match(html, /globe-orange\.png/)
       assert.doesNotMatch(html, /blog-orange\.png/)
+      assert.match(html, /width="220" height="88"/)
+      assert.match(html, /alt="BlogR Webring"/)
+    } else if (design === 'image-halloween') {
+      assert.match(html, /halloween\.png/)
+      assert.doesNotMatch(html, /blog-orange\.png|globe-orange\.png/)
+      assert.match(html, /width="220" height="88"/)
+      assert.match(html, /alt="BlogR Webring"/)
+    } else if (design === 'image-christmas') {
+      assert.match(html, /christmas\.png/)
+      assert.doesNotMatch(
+        html,
+        /blog-orange\.png|globe-orange\.png|halloween\.png/
+      )
       assert.match(html, /width="220" height="88"/)
       assert.match(html, /alt="BlogR Webring"/)
     } else if (design === 'basic-emoji') {
@@ -80,7 +95,9 @@ test('all widget designs keep the verified navigation links', () => {
 test('local previews use public assets while embed code uses absolute assets', () => {
   assert.deepEqual(WEBRING_WIDGET_PREVIEW_IMAGE_URLS, {
     blog: '/images/web-ring-images/blog-orange.png',
-    globe: '/images/web-ring-images/globe-orange.png'
+    globe: '/images/web-ring-images/globe-orange.png',
+    halloween: '/images/web-ring-images/halloween.png',
+    christmas: '/images/web-ring-images/christmas.png'
   })
   assert.match(
     widgetHtmlForDesign('br-0123456789abcdef0123456789abcdef', 'image-blog'),
@@ -129,6 +146,8 @@ test('every widget design remains compatible with exact Webring verification', (
   const designs = [
     'image-blog',
     'image-globe',
+    'image-halloween',
+    'image-christmas',
     'basic-plain',
     ...[
       'classic',

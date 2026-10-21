@@ -1141,6 +1141,17 @@ html.monolith .vp-doc hr.blogr-intro-divider {
   vertical-align: middle;
 }
 
+.blog-metadata-icon-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex: 0 0 auto;
+}
+
+.blog-metadata-icon-group [data-blog-feed-slot] {
+  display: contents;
+}
+
 .blog-metadata-icon {
   width: 20px;
   height: 20px;

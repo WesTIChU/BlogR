@@ -111,7 +111,7 @@ export const renderBlogDetails = (entry, showWebring = showWebringAtBuild) => {
   const countryUrl = country ? countryPath(country) : null
   const statusTooltip =
     'Health status: Unknown or stale. Last checked: not available.'
-  const details = []
+  const details = ['<span class="blog-metadata-icon-group">']
 
   if (entry.favourite) {
     details.push(
@@ -130,6 +130,7 @@ export const renderBlogDetails = (entry, showWebring = showWebringAtBuild) => {
   details.push(
     `<span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="${statusTooltip}" aria-label="${statusTooltip}" role="img"></span></span>`
   )
+  details.push('</span>')
 
   if (country && countryUrl) {
     details.push(

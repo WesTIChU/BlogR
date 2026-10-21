@@ -140,37 +140,39 @@ onMounted(() => {
     v-show="showBlogDetails"
     class="blog-last-updated"
   >
-    <span v-if="favourite" class="blog-metadata-icon" aria-label="Favourite">
-      <span class="blog-favourite">⭐</span>
-    </span>
-    <a
-      v-if="feedUrl"
-      class="blog-feed-link"
-      :href="feedUrl"
-      :aria-label="feedLabel"
-      :title="feedLabel"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <svg
-        class="blog-metadata-visual blog-feed-icon"
-        viewBox="0 0 24 24"
-        aria-hidden="true"
-        focusable="false"
+    <span class="blog-metadata-icon-group">
+      <span v-if="favourite" class="blog-metadata-icon" aria-label="Favourite">
+        <span class="blog-favourite">⭐</span>
+      </span>
+      <a
+        v-if="feedUrl"
+        class="blog-feed-link"
+        :href="feedUrl"
+        :aria-label="feedLabel"
+        :title="feedLabel"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        <path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <path d="M4 10a10 10 0 0 1 10 10" />
-      </svg>
-    </a>
-    <span class="blog-metadata-icon blog-health-dot-container">
-      <span
-        class="blog-health-dot"
-        :style="{ backgroundColor: statusDetails[health.status].color }"
-        :title="tooltip"
-        :aria-label="tooltip"
-        role="img"
-      ></span>
+        <svg
+          class="blog-metadata-visual blog-feed-icon"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+          <path d="M4 4a16 16 0 0 1 16 16" />
+          <path d="M4 10a10 10 0 0 1 10 10" />
+        </svg>
+      </a>
+      <span class="blog-metadata-icon blog-health-dot-container">
+        <span
+          class="blog-health-dot"
+          :style="{ backgroundColor: statusDetails[health.status].color }"
+          :title="tooltip"
+          :aria-label="tooltip"
+          role="img"
+        ></span>
+      </span>
     </span>
     <span v-if="country" class="blog-metadata-separator" aria-hidden="true">
       ·
@@ -234,6 +236,13 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+}
+
+.blog-metadata-icon-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex: 0 0 auto;
 }
 
 .blog-metadata-icon {

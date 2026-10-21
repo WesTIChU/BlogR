@@ -11,6 +11,13 @@ another through a small, friendly navigation widget.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 
+## Directory metadata icons
+
+The directory metadata row keeps its favourite, RSS, status, country and Webring
+icons compact and consistently aligned.
+
+![BlogR directory metadata icons](/images/web-ring.png)
+
 ## What is a webring?
 
 A webring is a group of websites connected by shared links. Instead of ending

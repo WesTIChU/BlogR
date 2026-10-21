@@ -7,6 +7,7 @@ import {
   formatLondonHeadingDate,
   getTodayUpdatedCategoryGroups
 } from '../../../shared/recently-updated.js'
+import { SHOW_WEBRING } from '../../../shared/webring.js'
 import {
   blogUpdates,
   blogUpdatesError,
@@ -15,6 +16,7 @@ import {
 } from './blog-update-client.js'
 import BlogHealthLink from './BlogHealthLink.vue'
 import BlogLastUpdated from './BlogLastUpdated.vue'
+import BlogWebring from './BlogWebring.vue'
 
 const currentTime = ref(new Date())
 let rolloverTimer
@@ -107,7 +109,14 @@ onUnmounted(() => {
             :publication-at="
               entry.article?.publishedAt ?? entry.publication.date
             "
-          />
+          >
+            <BlogWebring
+              v-if="SHOW_WEBRING && entry.blog.webringId"
+              :webring-id="entry.blog.webringId"
+              :website-url="entry.blog.url"
+              :website-name="entry.blog.name"
+            />
+          </BlogLastUpdated>
         </li>
       </ul>
     </section>

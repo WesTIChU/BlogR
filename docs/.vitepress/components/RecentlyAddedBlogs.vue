@@ -6,8 +6,10 @@ import {
   getLondonDateKey,
   getRecentlyAddedGroups
 } from '../../../shared/recently-added.js'
+import { SHOW_WEBRING } from '../../../shared/webring.js'
 import BlogHealthLink from './BlogHealthLink.vue'
 import BlogLastUpdated from './BlogLastUpdated.vue'
+import BlogWebring from './BlogWebring.vue'
 
 const currentTime = ref(new Date())
 let rolloverTimer
@@ -79,7 +81,14 @@ onUnmounted(() => {
             />
             - {{ blog.description }}
           </span>
-          <BlogLastUpdated :url="blog.url" :added-date="blog.addedDate" />
+          <BlogLastUpdated :url="blog.url" :added-date="blog.addedDate">
+            <BlogWebring
+              v-if="SHOW_WEBRING && blog.webringId"
+              :webring-id="blog.webringId"
+              :website-url="blog.url"
+              :website-name="blog.name"
+            />
+          </BlogLastUpdated>
         </li>
       </ul>
     </section>

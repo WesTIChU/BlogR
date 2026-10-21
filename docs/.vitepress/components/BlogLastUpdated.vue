@@ -206,6 +206,7 @@ onMounted(() => {
     <span v-if="addedDateText" class="blog-added-date">
       Added&nbsp;{{ addedDateText }}
     </span>
+    <slot />
     <span class="blog-health-sr-only">{{ statusLabel }}</span>
   </span>
 </template>

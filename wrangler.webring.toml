@@ -6,7 +6,7 @@ compatibility_date = "2026-10-21"
 crons = ["*/5 * * * *"]
 
 [vars]
-WEBRING_VERIFY_ENABLED = "false"
+WEBRING_VERIFY_ENABLED = "true"
 WEBRING_PUBLIC_ENABLED = "false"
 BLOGR_BASE_URL = "https://blogr.directory"
 

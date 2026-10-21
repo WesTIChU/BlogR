@@ -18,9 +18,94 @@ import {
   groupByCountry,
   groupBySubsection,
   page,
+  renderBlogDetails,
+  renderWebsiteDetails,
   validateBlogs,
   validateCommunities
 } from './generate-blog-pages.js'
+
+test('adds the Webring copy component to eligible listing metadata', () => {
+  const entry = {
+    name: 'Example',
+    url: 'https://example.com/',
+    webringId: 'br-0123456789abcdef0123456789abcdef',
+    addedDate: null
+  }
+  assert.match(
+    renderBlogDetails(entry, true),
+    /<BlogWebring webring-id="br-.*website-url="https:\/\/example\.com\/" website-name="Example"/
+  )
+  assert.match(
+    renderBlogDetails({ ...entry, community: true }, true),
+    /<BlogWebring/
+  )
+  assert.match(
+    renderWebsiteDetails(entry, true),
+    /<BlogWebring webring-id="br-.*website-url="https:\/\/example\.com\/" website-name="Example"/
+  )
+  assert.doesNotMatch(renderBlogDetails(entry, false), /BlogWebring/)
+  assert.doesNotMatch(renderWebsiteDetails(entry, false), /BlogWebring/)
+})
+
+test('preserves listing metadata around the Webring component', () => {
+  const entry = {
+    name: 'Metadata Example',
+    url: 'https://example.com/',
+    webringId: 'br-0123456789abcdef0123456789abcdef',
+    favourite: true,
+    country: 'US',
+    addedDate: '2026-10-21'
+  }
+  const rendered = renderBlogDetails(entry, true)
+
+  assert.match(rendered, /blog-favourite/)
+  assert.match(rendered, /data-blog-feed-slot/)
+  assert.match(rendered, /blog-health-dot/)
+  assert.match(rendered, /blog-country/)
+  assert.match(rendered, /data-blog-update-slot/)
+  assert.match(rendered, /blog-added-date/)
+  assert.match(rendered, /<BlogWebring webring-id="br-/)
+  assert.ok(
+    rendered.indexOf('data-blog-feed-slot') <
+      rendered.indexOf('blog-health-dot')
+  )
+  assert.ok(
+    rendered.indexOf('blog-health-dot') < rendered.indexOf('blog-country')
+  )
+  assert.ok(
+    rendered.indexOf('blog-country') < rendered.indexOf('data-blog-update-slot')
+  )
+  assert.ok(
+    rendered.indexOf('data-blog-update-slot') <
+      rendered.indexOf('blog-added-date')
+  )
+  assert.ok(
+    rendered.indexOf('blog-added-date') < rendered.indexOf('<BlogWebring')
+  )
+
+  const community = renderBlogDetails(
+    { ...entry, community: true, country: null },
+    true
+  )
+  assert.doesNotMatch(
+    community,
+    /data-blog-feed-slot|blog-country|data-blog-update-slot/
+  )
+  assert.match(
+    community,
+    /blog-health-dot|data-health-relative|blog-added-date|<BlogWebring/
+  )
+})
+
+test('renders a verified RSS icon in the initial blog metadata when available', () => {
+  const entry = blogs.find(
+    (candidate) => candidate.url === 'https://5000milewalk.co.uk/'
+  )
+  assert.ok(entry)
+  const rendered = renderBlogDetails(entry, true)
+  assert.match(rendered, /data-blog-feed-slot><a class="blog-feed-link"/)
+  assert.match(rendered, /blog-feed-icon/)
+})
 
 test('validates current blogs and groups subcategories alphabetically', () => {
   validateBlogs(blogs)

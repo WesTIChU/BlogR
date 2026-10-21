@@ -47,13 +47,18 @@ test('reports authentication failures without exposing credentials or request bo
   )
 })
 
-test('reports permission failures from batch requests with Cloudflare details', async () => {
+test('reports D1 Write permission failures from batch requests', async () => {
   await assert.rejects(
     client(
       jsonResponse(
         {
           success: false,
-          errors: [{ code: 9109, message: 'User lacks permission' }]
+          errors: [
+            {
+              code: 7500,
+              message: 'You do not have permission to perform this operation.'
+            }
+          ]
         },
         403
       )
@@ -62,7 +67,8 @@ test('reports permission failures from batch requests with Cloudflare details', 
     ]),
     (error) => {
       assert.match(error.message, /HTTP 403/)
-      assert.match(error.message, /9109.*User lacks permission/)
+      assert.match(error.message, /7500.*You do not have permission/)
+      assert.match(error.message, /D1 Write permission/)
       assert.doesNotMatch(error.message, /secret|private_table/)
       return true
     }

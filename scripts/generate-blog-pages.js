@@ -1,6 +1,7 @@
 import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { getVerifiedFeedUrl } from '../shared/blog-update.js'
 import {
   countryPath,
   getCountryInfo,
@@ -9,6 +10,9 @@ import {
 import { formatAddedDate } from '../shared/recently-added.js'
 
 const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
+const blogUpdates = JSON.parse(
+  await readFile(resolve('data/blog-updates.json'), 'utf8')
+)
 const communities = JSON.parse(
   await readFile(resolve('data/communities.json'), 'utf8')
 )
@@ -25,7 +29,26 @@ const communityTaxonomy = JSON.parse(
 const taxonomy = JSON.parse(
   await readFile(resolve('data/blog-taxonomy.json'), 'utf8')
 )
-const showWebringAtBuild = process.env.VITE_WEBRING_PUBLIC_ENABLED === 'true'
+const loadViteFlag = async (name) => {
+  const mode = process.env.NODE_ENV || 'development'
+  const files = ['.env', '.env.local', `.env.${mode}`, `.env.${mode}.local`]
+  let value
+  for (const file of files) {
+    try {
+      const source = await readFile(resolve(file), 'utf8')
+      for (const line of source.split(/\r?\n/)) {
+        const match = line.match(new RegExp(`^${name}\\s*=\\s*(.*)$`))
+        if (match) value = match[1].trim().replace(/^['"]|['"]$/g, '')
+      }
+    } catch {
+      // Optional dotenv files are normal in CI and production builds.
+    }
+  }
+  return value
+}
+const viteEnvWebringEnabled = await loadViteFlag('VITE_WEBRING_PUBLIC_ENABLED')
+const showWebringAtBuild =
+  (process.env.VITE_WEBRING_PUBLIC_ENABLED ?? viteEnvWebringEnabled) === 'true'
 const categories = taxonomy.categories
 const recentlyAddedDescription =
   'Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.'
@@ -82,7 +105,7 @@ export const compareWebsites = (a, b) =>
 export const compareCommunityCategories = (a, b) =>
   a.title.localeCompare(b.title, undefined, { sensitivity: 'base' })
 
-const renderBlogDetails = (entry) => {
+export const renderBlogDetails = (entry, showWebring = showWebringAtBuild) => {
   const community = Boolean(entry.community)
   const country = community ? null : getCountryInfo(entry.country)
   const countryUrl = country ? countryPath(country) : null
@@ -96,7 +119,13 @@ const renderBlogDetails = (entry) => {
     )
   }
 
-  if (!community) details.push('<span data-blog-feed-slot></span>')
+  if (!community) {
+    const feedUrl = getVerifiedFeedUrl(blogUpdates, entry.url)
+    const feed = feedUrl
+      ? `<a class="blog-feed-link" href="${attribute(feedUrl)}" target="_blank" rel="noopener noreferrer" title="RSS feed for ${attribute(entry.name)}" aria-label="RSS feed for ${attribute(entry.name)}"><svg class="blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a>`
+      : ''
+    details.push(`<span data-blog-feed-slot>${feed}</span>`)
+  }
 
   details.push(
     `<span class="blog-health-dot" style="background-color:#94A3B8;" title="${statusTooltip}" aria-label="${statusTooltip}" role="img"></span>`
@@ -134,15 +163,17 @@ const renderBlogDetails = (entry) => {
 
   details.push('<span class="blog-health-sr-only">Unknown or stale</span>')
 
-  if (showWebringAtBuild && entry.webringId)
-    details.push(`<BlogWebring webring-id="${attribute(entry.webringId)}" />`)
+  if (showWebring && entry.webringId)
+    details.push(
+      `<BlogWebring webring-id="${attribute(entry.webringId)}" website-url="${attribute(entry.url)}" website-name="${attribute(entry.name)}" />`
+    )
 
   const communityAttribute = community ? ' data-blog-community="true"' : ''
   return `<span class="blog-last-updated" data-blog-details data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"${communityAttribute}>${details.join('')}</span>`
 }
 
 const renderBlogLink = (blog) => {
-  return `<BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :clicks="${Number(blog.clicks) || 0}" />`
+  return `<BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" />`
 }
 
 const line = (blog) =>
@@ -150,7 +181,7 @@ const line = (blog) =>
 const renderBlogEntries = (entries) => entries.map(line).join('\n')
 
 const communityLine = (community) =>
-  `* <span class="blog-entry"><BlogHealthLink name="${attribute(community.name)}" url="${attribute(community.url)}" :clicks="${Number(community.clicks) || 0}" /> - ${attribute(community.description)}</span>${renderBlogDetails({ ...community, community: true })}`
+  `* <span class="blog-entry"><BlogHealthLink name="${attribute(community.name)}" url="${attribute(community.url)}" /> - ${attribute(community.description)}</span>${renderBlogDetails({ ...community, community: true })}`
 
 const renderSections = (sections) =>
   sections
@@ -374,16 +405,23 @@ export function validateWebsites(entries, taxonomy = independentWebTaxonomy) {
   }
 }
 
-const renderWebsiteDetails = (entry) => {
+export const renderWebsiteDetails = (
+  entry,
+  showWebring = showWebringAtBuild
+) => {
   const added = formatAddedDate(entry.addedDate)
-  return `<span class="blog-last-updated" data-blog-details data-blog-website="true" data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span>${added ? `<span class="blog-metadata-separator" aria-hidden="true">·</span><span class="blog-added-date">Added&nbsp;${attribute(added)}</span>` : ''}<span class="blog-health-sr-only">Unknown or stale</span></span>`
+  const webring =
+    showWebring && entry.webringId
+      ? `<BlogWebring webring-id="${attribute(entry.webringId)}" website-url="${attribute(entry.url)}" website-name="${attribute(entry.name)}" />`
+      : ''
+  return `<span class="blog-last-updated" data-blog-details data-blog-website="true" data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span>${added ? `<span class="blog-metadata-separator" aria-hidden="true">·</span><span class="blog-added-date">Added&nbsp;${attribute(added)}</span>` : ''}<span class="blog-health-sr-only">Unknown or stale</span>${webring}</span>`
 }
 
 const renderWebsiteEntries = (entries) =>
   entries
     .map(
       (entry) =>
-        `* <span class="blog-entry"><BlogHealthLink name="${attribute(entry.name)}" url="${attribute(entry.url)}" :clicks="${Number(entry.clicks) || 0}" /> - ${attribute(entry.description)}</span>${renderWebsiteDetails(entry)}`
+        `* <span class="blog-entry"><BlogHealthLink name="${attribute(entry.name)}" url="${attribute(entry.url)}" /> - ${attribute(entry.description)}</span>${renderWebsiteDetails(entry)}`
     )
     .join('\n')
 

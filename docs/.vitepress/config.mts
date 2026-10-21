@@ -181,6 +181,9 @@ export default defineConfig({
     }
   },
   vite: {
+    // Keep Vite's client-side env loading aligned with the repository root,
+    // where .env.local and the generator's flags are configured.
+    envDir: fileURLToPath(new URL('../../', import.meta.url)),
     css: {
       preprocessorOptions: {
         scss: {

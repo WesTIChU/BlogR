@@ -9,7 +9,12 @@ import {
   getBlogUpdate,
   getVerifiedFeedUrl
 } from '../../../shared/blog-update.js'
-import { blogUpdates, loadBlogUpdates } from './blog-update-client.js'
+import {
+  blogUpdates,
+  blogUpdatesError,
+  blogUpdatesLoaded,
+  loadBlogUpdates
+} from './blog-update-client.js'
 
 const requests = new Map()
 const statusMaps = new Map()
@@ -114,8 +119,9 @@ function updateBlogDetails() {
           : null
 
       if (feedSlot) {
-        feedSlot.replaceChildren()
-        if (feedUrl) {
+        if (blogUpdatesLoaded.value && !blogUpdatesError.value)
+          feedSlot.replaceChildren()
+        if (feedUrl && (!blogUpdatesLoaded.value || !blogUpdatesError.value)) {
           const link = document.createElement('a')
           const name = element.getAttribute('data-blog-name') || 'blog'
           const label = `RSS feed for ${name}`

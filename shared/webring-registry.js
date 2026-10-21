@@ -79,7 +79,14 @@ export const createD1RegistryClient = ({
         return `${code}${message}`.trim()
       })
       .filter(Boolean)
-    return details.length > 0 ? details.join('; ') : 'No error details returned'
+    const permissionHint = [...errors, ...messages].some(
+      (item) => Number(item?.code) === 7500
+    )
+      ? '; check that the API token has D1 Write permission'
+      : ''
+    return details.length > 0
+      ? `${details.join('; ')}${permissionHint}`
+      : `No error details returned${permissionHint}`
   }
   const readResponse = async (response, operation) => {
     const status = Number.isInteger(response?.status)

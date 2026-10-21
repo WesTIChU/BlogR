@@ -166,6 +166,19 @@ test('recently added sections expose stable direct-navigation anchors', async ()
   assert.equal(new Set(sectionIds).size, sectionIds.length)
 })
 
+test('recently added listings render Webring triggers for catalogue entries', async () => {
+  const html = await readFile(
+    new URL('./dist/recently-added.html', import.meta.url),
+    'utf8'
+  )
+  const expected = getRecentlyAddedGroups(blogs, new Date()).reduce(
+    (total, group) =>
+      total + group.blogs.filter((blog) => blog.webringId).length,
+    0
+  )
+  assert.equal((html.match(/blog-webring-trigger/g) ?? []).length, expected)
+})
+
 test('metadata and RSS output remain generated', async () => {
   const homepage = await readFile(
     new URL('./dist/index.html', import.meta.url),

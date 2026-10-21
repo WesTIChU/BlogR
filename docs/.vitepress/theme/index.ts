@@ -19,6 +19,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { enhanceBlogDetails } from '../components/blog-details-enhancer.js'
 import BlogHealthLink from '../components/BlogHealthLink.vue'
+import BlogWebring from '../components/BlogWebring.vue'
 import BlogSubmissionForm from './components/BlogSubmissionForm.vue'
 import { loadProgress } from './composables/nprogress'
 import {
@@ -102,6 +103,7 @@ export default {
   enhanceApp({ router, app }) {
     app.component('BlogSubmissionForm', BlogSubmissionForm)
     app.component('BlogHealthLink', BlogHealthLink)
+    app.component('BlogWebring', BlogWebring)
     app.use(FloatingVue)
     loadProgress(router)
 

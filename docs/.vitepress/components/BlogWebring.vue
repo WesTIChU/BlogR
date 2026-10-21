@@ -1,10 +1,6 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import {
-  SHOW_WEBRING,
-  WEBRING_INSTALL_PATHS,
-  widgetHtml
-} from '../../../shared/webring.js'
+import { SHOW_WEBRING, widgetHtml } from '../../../shared/webring.js'
 import {
   activeWebringPopup,
   closeWebringPopup,
@@ -219,15 +215,15 @@ onBeforeUnmount(() => {
           {{ websiteName }}
         </strong>
         <small class="blog-webring-trial-warning">
-          <b>BlogR Webring: Beta</b>
-          The BlogR Webring is currently in beta and may change or be removed
-          while we're testing it. If you're happy to help us test it, feel free
-          to add the widget to your website.
+          <b>BlogR Webring Beta</b>
+          The Webring is still being tested and may change or be removed. You're
+          welcome to try it! If the Webring is discontinued, your Webring
+          membership will end.
         </small>
         <small class="blog-webring-domain-warning">
-          <b>IMPORTANT: This code is unique to your website</b>
-          This Webring code is linked to the website URL listed in BlogR. It
-          will only work on that website and cannot be used on another domain.
+          <b>Important: This code is unique to your website</b>
+          This code only works on the website registered with BlogR. Please
+          don't use it on another website.
           <span v-if="registeredDomain" class="blog-webring-registered-domain">
             <b>Registered website:</b>
             {{ registeredDomain }}
@@ -237,15 +233,13 @@ onBeforeUnmount(() => {
         <button type="button" @click="copyCode">
           {{ copied ? 'Copied!' : 'Copy Code' }}
         </button>
-        <small class="blog-webring-install-label">Install the widget on:</small>
-        <small class="blog-webring-install-paths">
-          <code v-for="path in WEBRING_INSTALL_PATHS" :key="path">
-            {{ path }}
-          </code>
+        <small class="blog-webring-install-label">Where to add it</small>
+        <small class="blog-webring-install-description">
+          Add the code to your homepage, blog, links or Webring page.
         </small>
         <small class="blog-webring-verification-note">
-          Once you've installed the widget, BlogR will automatically check your
-          website. Request another queued check after installing or updating it.
+          Once you've added the code, BlogR will automatically check your
+          website. You can also request a check below.
         </small>
         <button
           type="button"
@@ -425,30 +419,14 @@ onBeforeUnmount(() => {
   line-height: 1.45;
 }
 .blog-webring-install-label,
-.blog-webring-install-paths,
+.blog-webring-install-description,
 .blog-webring-verification-note {
   display: block;
   line-height: 1.45;
 }
-.blog-webring-install-paths {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 6px;
-}
-.blog-webring-install-paths code {
-  display: inline-block;
-  width: auto;
-  min-height: 0;
-  max-height: none;
-  margin: 0;
-  padding: 2px 5px;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  color: var(--vp-c-text-1);
-  font-size: 0.75rem;
-  white-space: nowrap;
-  overflow-wrap: normal;
+.blog-webring-install-label {
+  margin-bottom: 2px;
+  font-weight: 600;
 }
 .blog-webring-verification-note {
   margin-top: 12px;

@@ -1067,9 +1067,9 @@
   },
   "https://jamesg.blog/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T07:44:46.036Z",
-    "status": "success",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
+    "status": "unknown",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "Wonders of Web Weaving, Episode 24",
       "url": "https://jamesg.blog/2026/10/20/www-24",
@@ -1925,14 +1925,14 @@
   },
   "https://simonwillison.net/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T19:44:46.110Z",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to pla…",
-      "publishedAt": "2026-10-20T19:34:19.000Z"
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Micro…",
+      "publishedAt": "2026-10-20T23:50:25.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -2992,14 +2992,14 @@
     }
   },
   "https://weaintgotnohistory.sbnation.com/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-20T23:44:45.032Z",
+    "lastPublished": "2026-10-20",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173237/the-daily-hilario-october-19th",
-      "summary": "Biggest Hmm Crazy",
-      "publishedAt": "2026-10-19T07:05:34.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173247/the-daily-hilario-october-20th",
+      "summary": "First Hmm Rumour",
+      "publishedAt": "2026-10-20T07:01:23.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3775,15 +3775,15 @@
     }
   },
   "https://blog.atmtxphoto.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T02:44:46.210Z",
+    "lastPublished": "2026-10-19",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://blog.atmtxphoto.com/feed/",
     "latestArticle": {
-      "title": "Winter Garden Shine",
-      "url": "https://blog.atmtxphoto.com/2026/10/19/winter-garden-shine/",
-      "summary": "Winter Garden Shine – New York, New York I shot this inside the Winter Garden Theatre on Broadway, where my wife and I watched Mamma Mia! Like most, if not all, Broadway shows, photography is not all…",
-      "publishedAt": "2026-10-20T02:45:06.000Z"
+      "title": "Mamma Mia!",
+      "url": "https://blog.atmtxphoto.com/2026/10/18/mamma-mia/",
+      "summary": "Mamma Mia! – New York, New York We are hoping to continue a tradition we started in 2025 when we saw Mamma Mia! on Broadway. Every time we go to NYC, we want to see a Broadway show. I already went to…",
+      "publishedAt": "2026-10-19T03:04:53.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -3883,15 +3883,15 @@
     }
   },
   "https://vhistory.wordpress.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://vhistory.wordpress.com/feed/",
     "latestArticle": {
-      "title": "What’s New Scooby-Doo? – Merlin – 11 Sept 2010",
-      "url": "https://vhistory.wordpress.com/2026/10/20/whats-new-scooby-doo-merlin-11-sept-2010/",
-      "summary": "The first recording today starts with the end of Dennis The Menace. There’s a trail for Autumn programmes on CBBC. Then it’s a repeat of What’s New Scooby-Doo? – Uncle Scooby and Antarctica. Media Ce…",
-      "publishedAt": "2026-10-20T00:00:00.000Z"
+      "title": "Deadly 60 – 12 Sept 2010",
+      "url": "https://vhistory.wordpress.com/2026/10/21/deadly-60-12-sept-2010/",
+      "summary": "Just one recording today, which starts with the end of Escape from Scorpion Island. Then it’s Deadly 60 – Brazil. Steve meets one of the largest fish in the world, and gets head-butted for his troubl…",
+      "publishedAt": "2026-10-21T00:00:00.000Z"
     }
   },
   "https://glitternight.com/": {
@@ -4973,14 +4973,14 @@
   },
   "https://horrormovieblog.com/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T23:44:45.032Z",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://horrormovieblog.com/feed/",
     "latestArticle": {
-      "title": "Split Rock // 59th Sitges Film Festival Review",
-      "url": "https://horrormovieblog.com/split-rock-59th-sitges-film-festival-review/?utm_source=rss&utm_medium=rss&utm_campaign=split-rock-59th-sitges-film-festival-review",
-      "summary": "Split Rock is a new cosmic horror feature from director Ryan Glover (Strings) that premiered at the 59th Sitges Film Festival on October 9, 2026, ahead of its North American premiere at the Brooklyn …",
-      "publishedAt": "2026-10-20T19:25:41.000Z"
+      "title": "Species // Toronto After Dark Film Festival 2026 Review",
+      "url": "https://horrormovieblog.com/species-toronto-after-dark-film-festival-2026-review/?utm_source=rss&utm_medium=rss&utm_campaign=species-toronto-after-dark-film-festival-2026-review",
+      "summary": "We had the opportunity to see Species (Sanguine) by Marion Le Coroller at the Toronto After Dark Film Festival, and it did not disappoint. On the surface, it looks like other French body horrors of i…",
+      "publishedAt": "2026-10-20T18:12:11.000Z"
     }
   },
   "https://horror-movie-a-day.blogspot.com/": {
@@ -5527,14 +5527,14 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T19:44:46.110Z",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "The last of it&rsquo;s tribe. Art by Wayne Barlowe",
-      "url": "https://70sscifiart.tumblr.com/post/831020565578022912",
-      "summary": "fear-planet : The last of it’s tribe. Art by Wayne Barlowe",
-      "publishedAt": "2026-10-20T19:02:49.000Z"
+      "title": "Frank Kelly Freas depicts Forrest J Ackerman, editor of Famous Monsters of Filmland magazine, 1993.",
+      "url": "https://70sscifiart.tumblr.com/post/831039119136292864",
+      "summary": "ALT Frank Kelly Freas depicts Forrest J Ackerman, editor of Famous Monsters of Filmland magazine, 1993.",
+      "publishedAt": "2026-10-20T23:57:43.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5639,8 +5639,8 @@
   },
   "https://makeupandbeautyblog.com/": {
     "lastPublished": "2026-01-19",
-    "lastChecked": "2026-10-20T23:44:45.032Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
+    "status": "success",
     "feedUrl": "https://makeupandbeautyblog.com/feed/",
     "latestArticle": {
       "title": "Sundays With Tabs the Cat, Makeup and Beauty Blog Mascot, Vol. 878",
@@ -5983,11 +5983,11 @@
   },
   "https://www.dailycartoonist.com/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T23:44:45.032Z",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://www.dailycartoonist.com/index.php/feed/",
     "latestArticle": {
-      "title": "Cartoonists News and Reviews",
+      "title": "Cartoonist Interviews & Reviews",
       "url": "https://www.dailycartoonist.com/index.php/2026/10/20/cartoonists-news-and-reviews/",
       "summary": "Featured cartoonists: Raina Telgemeier, Bob Clampett, Paul Noth, John Backderf, Todd Webb, Jean Giraud/Moebius, Dabin Han, Peter Kuper, and in a bit of a cheat William Grady, and The Funny Pages. Rai…",
       "publishedAt": "2026-10-20T23:42:07.000Z"
@@ -6231,15 +6231,15 @@
     }
   },
   "https://banbantonton.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T00:44:42.118Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T00:06:53.512Z",
     "status": "success",
     "feedUrl": "https://banbantonton.com/feed/",
     "latestArticle": {
-      "title": "Hot House Tips / October 2026 – By The Insider",
-      "url": "https://banbantonton.com/2026/10/20/hot-house-tips-october-2026-by-the-insider/",
-      "summary": "Super selections and wonderful words by our favourite four-to-the-floor expert, The Insider. ROOTDOWN 30 COMPILED BY RAINER TRUBY / DAYBREAKERS “Root Down 30” isn’t just a compilation, it’s a birthda…",
-      "publishedAt": "2026-10-20T00:01:00.000Z"
+      "title": "Woodleigh Research Facility / The Black Lodge",
+      "url": "https://banbantonton.com/2026/10/21/woodleigh-research-facility-the-black-lodge/",
+      "summary": "“The Black Lodge” takes its name from David Lynch’s “Twin Peaks”, and the TV show’s occult informed “extra-dimensional location”, “a place of pure evil through which all souls passed on the way to pe…",
+      "publishedAt": "2026-10-21T00:01:00.000Z"
     }
   },
   "https://londonreconnections.com/": {

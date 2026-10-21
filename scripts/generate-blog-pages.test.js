@@ -260,10 +260,7 @@ test('renders directory descriptions in clampable spans', async () => {
     'utf8'
   )
 
-  assert.match(
-    generatedPage,
-    /<span class="blog-entry"><strong class="blog-health-link"><a/
-  )
+  assert.match(generatedPage, /<span class="blog-entry"><BlogHealthLink/)
   assert.match(layout, /-webkit-line-clamp: 3/)
   assert.match(layout, /line-clamp: 3/)
   assert.match(search, /-webkit-line-clamp: 3/)
@@ -312,7 +309,7 @@ test('groups country pages by assigned country and excludes unknown countries', 
   )
   assert.match(scotlandPage, /<CountryDirectoryHeader[^>]+name="Scotland"/)
   assert.doesNotMatch(scotlandPage, /^# .*Scotland$/m)
-  assert.match(scotlandPage, /class="blog-health-link"><a/)
+  assert.match(scotlandPage, /<BlogHealthLink/)
 
   const unitedStatesPage = await readFile(
     'docs/country/united-states.md',
@@ -711,7 +708,7 @@ test('renders every blog exactly once in the grouped All Blogs page', () => {
   assert.equal(renderedCount, blogs.length)
   assert.equal(new Set(blogs.map(({ url }) => url)).size, blogs.length)
   for (const blog of blogs) {
-    assert.match(markdown, new RegExp(`data-blog-url="${blog.url}"`))
+    assert.ok(markdown.includes(`data-blog-url="${blog.url}"`))
   }
 })
 
@@ -752,7 +749,7 @@ test('renders nested category headings and preserves blog metadata', () => {
   )
   assert.match(
     markdown,
-    /<strong class="blog-health-link"><a href="http:\/\/www\.16bit\.com\/"[^>]*>16bit\.com<\/a><\/strong>/
+    /<BlogHealthLink name="16bit\.com" url="http:\/\/www\.16bit\.com\/"/
   )
   assert.match(markdown, /data-blog-url="http:\/\/www\.16bit\.com\/"/)
   assert.equal(

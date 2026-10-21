@@ -1,7 +1,6 @@
 import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { getBlogLinkAttributes } from '../shared/blog-link.js'
 import {
   countryPath,
   getCountryInfo,
@@ -139,14 +138,7 @@ const renderBlogDetails = (entry) => {
 }
 
 const renderBlogLink = (blog) => {
-  const linkAttributes = getBlogLinkAttributes(blog.url)
-  const target = linkAttributes.target
-    ? ` target="${attribute(linkAttributes.target)}"`
-    : ''
-  const rel = linkAttributes.rel
-    ? ` rel="${attribute(linkAttributes.rel)}"`
-    : ''
-  return `<strong class="blog-health-link"><a href="${attribute(blog.url)}"${target}${rel}>${attribute(blog.name)}</a></strong>`
+  return `<BlogHealthLink name="${attribute(blog.name)}" url="${attribute(blog.url)}" :clicks="${Number(blog.clicks) || 0}" />`
 }
 
 const line = (blog) =>
@@ -387,7 +379,7 @@ const renderWebsiteEntries = (entries) =>
   entries
     .map(
       (entry) =>
-        `* <span class="blog-entry"><strong class="blog-health-link"><a href="${attribute(entry.url)}" target="_blank" rel="noopener noreferrer">${attribute(entry.name)}</a></strong> - ${attribute(entry.description)}</span>${renderWebsiteDetails(entry)}`
+        `* <span class="blog-entry"><BlogHealthLink name="${attribute(entry.name)}" url="${attribute(entry.url)}" :clicks="${Number(entry.clicks) || 0}" /> - ${attribute(entry.description)}</span>${renderWebsiteDetails(entry)}`
     )
     .join('\n')
 

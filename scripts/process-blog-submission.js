@@ -692,6 +692,7 @@ export function buildBlogEntry(submission, addedDate, addedAt) {
     recentlyAdded: true,
     favourite: false,
     noLongerUpdated: false,
+    clicks: 0,
     addedDate,
     ...(addedAt ? { addedAt } : {})
   }
@@ -731,6 +732,7 @@ export function buildIndependentWebsiteEntry(submission, addedDate, addedAt) {
     ...(submission.subcategory ? { subcategory: submission.subcategory } : {}),
     ...(submission.country ? { country: submission.country } : {}),
     addedDate,
+    clicks: 0,
     addedAt: addedAt ?? `${addedDate}T00:00:00.000Z`
   }
 }

@@ -33,6 +33,7 @@ GitHub submissions begin as issues. After review, an approved issue is processed
 - [Vue](https://vuejs.org/) components provide the custom directory interface.
 - [GitHub Actions](https://github.com/WesTIChU/BlogR/actions) runs submission processing, blog update scans, and scheduled health audits.
 - The production site is hosted through Cloudflare Pages. The VitePress configuration supports its `CF_PAGES` build environment.
+- Set the Cloudflare Pages build variable `VITE_SHOW_CLICK_COUNTS` to exactly `true` to display synced outbound click counts; it defaults to hidden when unset or any other value.
 - [pnpm](https://pnpm.io/) manages the project dependencies.
 
 ## Local development

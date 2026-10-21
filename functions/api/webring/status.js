@@ -5,6 +5,8 @@ import { isValidWebringId } from '../../../shared/webring.js'
 export async function onRequestGet({ request, env }) {
   if (env.WEBRING_PUBLIC_ENABLED !== 'true')
     return new Response('Not found', { status: 404 })
+  if (!env.OUTBOUND_CLICKS)
+    return new Response('Webring service unavailable', { status: 503 })
   const id = new URL(request.url).searchParams.get('id')
   if (!isValidWebringId(id)) return new Response('Invalid ID', { status: 400 })
   const row = await env.OUTBOUND_CLICKS.prepare(

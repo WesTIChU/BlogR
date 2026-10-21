@@ -27,8 +27,9 @@ onMounted(async () => {
       home page, blog, links, website or webring page.
     </p>
     <p>
-      Only the registered website and the five approved paths are checked.
-      Please allow up to 12 hours for automatic verification.
+      Only the registered website and the five approved paths are checked. Once
+      you've installed the widget, BlogR will automatically check your website.
+      Verification may take a little while during busy periods.
     </p>
     <h2>Participation rules</h2>
     <p>

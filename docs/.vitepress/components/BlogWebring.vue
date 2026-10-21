@@ -224,8 +224,8 @@ onBeforeUnmount(() => {
           </code>
         </small>
         <small class="blog-webring-verification-note">
-          Please allow up to 12 hours for BlogR to automatically verify your
-          installation.
+          Once you've installed the widget, BlogR will automatically check your
+          website. Verification may take a little while during busy periods.
         </small>
         <a class="blog-webring-more-link" href="/webring/">
           Learn more about the BlogR Webring →

@@ -9,6 +9,8 @@ crons = ["*/5 * * * *"]
 WEBRING_VERIFY_ENABLED = "true"
 WEBRING_PUBLIC_ENABLED = "false"
 BLOGR_BASE_URL = "https://blogr.directory"
+WEBRING_VERIFY_BATCH_SIZE = "8"
+WEBRING_VERIFY_CONCURRENCY = "6"
 
 [[d1_databases]]
 binding = "OUTBOUND_CLICKS"

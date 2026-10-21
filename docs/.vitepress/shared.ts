@@ -214,6 +214,10 @@ export const nav: DefaultTheme.NavItem[] = [
     items: communityItems
   },
   {
+    text: 'Webring',
+    link: '/webring/'
+  },
+  {
     text: '<span class="nav-directory-group">🌐 Independent Web</span>',
     items: independentWebItems
   },

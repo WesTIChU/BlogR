@@ -1,3 +1,4 @@
+import { isSafeApprovedHost } from '../../../shared/webring-verification.js'
 import { isValidWebringId } from '../../../shared/webring.js'
 
 /* global Response, URL */
@@ -24,6 +25,17 @@ const redirect = (url) =>
     status: 302,
     headers: { Location: url, 'cache-control': 'no-store' }
   })
+
+const safeDestination = (value) => {
+  try {
+    const url = new URL(value)
+    if (url.protocol !== 'https:' || !isSafeApprovedHost(url.toString()))
+      return null
+    return url.toString()
+  } catch {
+    return null
+  }
+}
 
 const allowRequest = (request, env) => {
   const ip = request.headers.get('CF-Connecting-IP') ?? 'unknown'
@@ -58,6 +70,8 @@ const recordClick = async (env, member, destination, action, source) => {
 export async function onRequestGet({ request, env, params }) {
   if (env.WEBRING_PUBLIC_ENABLED !== 'true')
     return response({ error: 'Not found' }, 404)
+  if (!env.OUTBOUND_CLICKS)
+    return response({ error: 'Webring service unavailable' }, 503)
   const action = params.action
   if (!actions.has(action)) return response({ error: 'Not found' }, 404)
   const allowed = await allowRequest(request, env)
@@ -78,13 +92,18 @@ export async function onRequestGet({ request, env, params }) {
   )
     .bind(id)
     .first()
-  if (!current) return response({ error: 'Membership is not active' }, 404)
+  const currentUrl = safeDestination(current?.canonical_url)
+  if (!current || !currentUrl)
+    return response({ error: 'Membership is not active' }, 404)
 
   const members = await env.OUTBOUND_CLICKS.prepare(
     `SELECT webring_id, canonical_url FROM webring_members
       WHERE verification_status = 'active' AND membership_status = 'active' ORDER BY webring_id`
   ).all()
-  const active = members.results ?? []
+  const active = (members.results ?? []).flatMap((member) => {
+    const canonicalUrl = safeDestination(member.canonical_url)
+    return canonicalUrl ? [{ ...member, canonical_url: canonicalUrl }] : []
+  })
   if (active.length < 2)
     return response(
       { error: 'The ring needs at least two active members' },

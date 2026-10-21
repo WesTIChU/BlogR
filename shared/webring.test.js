@@ -61,6 +61,7 @@ test('verification rejects missing links, forged IDs and non-anchor text', () =>
 test('verification blocks private and metadata hosts before fetching', () => {
   assert.equal(isSafeApprovedHost('http://127.0.0.1/'), false)
   assert.equal(isSafeApprovedHost('http://169.254.169.254/'), false)
+  assert.equal(isSafeApprovedHost('http://[::ffff:127.0.0.1]/'), false)
   assert.equal(isSafeApprovedHost('https://example.com/'), true)
 })
 
@@ -83,22 +84,48 @@ test('verification checks the previous installation first and accepts an exact w
 })
 
 test('network failures are temporary, while two confirmed failures suspend and success reactivates', () => {
-  const member = { verification_status: 'active', consecutive_failures: 1 }
+  const member = {
+    verification_status: 'active',
+    consecutive_failures: 0,
+    last_successful_verification: '2026-10-21T00:00:00.000Z'
+  }
+  const withinGrace = '2026-10-22T00:00:00.000Z'
+  const temporary = verificationStateAfterCheck(
+    member,
+    { status: 'temporary_failure' },
+    withinGrace
+  )
+  assert.equal(temporary.verification_status, 'active')
+  assert.equal(temporary.consecutive_failures, 1)
   assert.equal(
-    verificationStateAfterCheck(member, { status: 'temporary_failure' }, 'now')
-      .verification_status,
-    undefined
+    verificationStateAfterCheck(
+      { ...member, consecutive_failures: 1 },
+      { status: 'temporary_failure' },
+      '2026-10-23T00:00:00.000Z'
+    ).verification_status,
+    'suspended'
   )
   assert.equal(
-    verificationStateAfterCheck(member, { status: 'missing' }, 'now')
-      .verification_status,
+    verificationStateAfterCheck(
+      { ...member, consecutive_failures: 1 },
+      { status: 'missing' },
+      '2026-10-23T00:00:00.000Z'
+    ).verification_status,
     'suspended'
+  )
+  assert.equal(
+    verificationStateAfterCheck(
+      { verification_status: 'pending', consecutive_failures: 99 },
+      { status: 'missing' },
+      '2026-10-23T00:00:00.000Z'
+    ).verification_status,
+    'pending'
   )
   assert.equal(
     verificationStateAfterCheck(
       { ...member, consecutive_failures: 2 },
       { status: 'active', installationUrl: 'https://example.com/' },
-      'now'
+      '2026-10-23T00:00:00.000Z'
     ).verification_status,
     'active'
   )

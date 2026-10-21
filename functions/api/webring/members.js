@@ -16,6 +16,8 @@ const names = new Map(
 export async function onRequestGet({ env }) {
   if (env.WEBRING_PUBLIC_ENABLED !== 'true')
     return new Response('Not found', { status: 404 })
+  if (!env.OUTBOUND_CLICKS)
+    return new Response('Webring service unavailable', { status: 503 })
   const result = await env.OUTBOUND_CLICKS.prepare(
     `SELECT webring_id, canonical_url FROM webring_members
      WHERE verification_status = 'active' AND membership_status = 'active' ORDER BY canonical_url`

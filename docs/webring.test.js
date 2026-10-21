@@ -21,6 +21,9 @@ test('Webring information page is static while public controls are disabled', ()
   assert.match(page, /Joining is free/)
   assert.match(page, /must remain installed/)
   assert.match(page, /Only verified websites participate/)
-  assert.match(page, /12 hours/)
+  assert.match(
+    page,
+    /Once you've installed the widget, BlogR will automatically check your website\./
+  )
   assert.doesNotMatch(page, /<WebringPage\s*\/>|\/api\/webring\//)
 })

@@ -67,11 +67,16 @@ control is exposed here.
 
 BlogR checks the approved pages automatically in the background. Verification
 looks for all three links and confirms that they use the correct permanent ID.
-The first check may take up to **12 hours**.
+Once you've installed the widget, BlogR will automatically check your website.
+New memberships are prioritised and are normally checked within 5–15 minutes.
+Pending failures retry after 15 minutes with increasing delays, while verified
+members are rechecked every 24 hours.
 
 The widget must remain installed for your website to stay verified. If the
-links are removed or no longer match the assigned widget, the site will stop
-participating in navigation until it passes verification again.
+links are removed or no longer match the assigned widget, BlogR retries the
+check automatically. Previously verified sites have a 48-hour failure grace
+period before they are suspended; sites that have never verified remain
+pending until they pass a check.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 

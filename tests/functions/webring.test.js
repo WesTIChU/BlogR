@@ -63,3 +63,34 @@ test('webring navigation remains disabled until explicitly enabled', async () =>
   })
   assert.equal(response.status, 404)
 })
+
+test('webring navigation never redirects to an unsafe stored destination', async () => {
+  const response = await onRequestGet({
+    request: new Request(`https://blogr.directory/api/webring/next?id=${id}`),
+    env: {
+      WEBRING_PUBLIC_ENABLED: 'true',
+      OUTBOUND_CLICKS: {
+        prepare() {
+          return {
+            all: async () => ({
+              results: [
+                { webring_id: id, canonical_url: 'https://one.example/' },
+                { webring_id: other, canonical_url: 'http://127.0.0.1/' }
+              ]
+            }),
+            bind() {
+              return {
+                first: async () => ({
+                  webring_id: id,
+                  canonical_url: 'https://one.example/'
+                })
+              }
+            }
+          }
+        }
+      }
+    },
+    params: { action: 'next' }
+  })
+  assert.equal(response.status, 503)
+})

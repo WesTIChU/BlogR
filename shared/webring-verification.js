@@ -8,6 +8,7 @@ import {
 
 export const MAX_WIDGET_RESPONSE_BYTES = 128 * 1024
 export const VERIFICATION_TIMEOUT_MS = 8_000
+export const VERIFIED_FAILURE_GRACE_MS = 48 * 60 * 60 * 1000
 
 const stripMarkupThatCannotContainRealLinks = (html) =>
   html
@@ -61,6 +62,9 @@ const sameApprovedHost = (registered, candidate) => {
 
 export const isSafeApprovedHost = (url) => {
   const host = new URL(url).hostname.toLowerCase().replace(/^\[|\]$/g, '')
+  // IPv6 literals are rejected conservatively. This prevents IPv4-mapped
+  // literals and private IPv6 forms from bypassing hostname checks.
+  if (host.includes(':')) return false
   if (
     host === 'localhost' ||
     host.endsWith('.localhost') ||
@@ -191,12 +195,32 @@ export const verificationStateAfterCheck = (member, result, now) => {
       successful_installation_url: result.installationUrl,
       consecutive_failures: 0
     }
-  if (result.status === 'temporary_failure') return { last_checked_at: now }
+  if (result.status === 'temporary_failure') {
+    const consecutiveFailures = Number(member.consecutive_failures || 0) + 1
+    const lastSuccessful = Date.parse(member.last_successful_verification ?? '')
+    const checkedAt = Date.parse(now)
+    const graceExpired =
+      Number.isFinite(lastSuccessful) &&
+      Number.isFinite(checkedAt) &&
+      checkedAt - lastSuccessful >= VERIFIED_FAILURE_GRACE_MS
+    return {
+      last_checked_at: now,
+      consecutive_failures: consecutiveFailures,
+      verification_status: graceExpired
+        ? 'suspended'
+        : member.verification_status
+    }
+  }
   const consecutiveFailures = Number(member.consecutive_failures || 0) + 1
+  const lastSuccessful = Date.parse(member.last_successful_verification ?? '')
+  const checkedAt = Date.parse(now)
+  const graceExpired =
+    Number.isFinite(lastSuccessful) &&
+    Number.isFinite(checkedAt) &&
+    checkedAt - lastSuccessful >= VERIFIED_FAILURE_GRACE_MS
   return {
     last_checked_at: now,
     consecutive_failures: consecutiveFailures,
-    verification_status:
-      consecutiveFailures >= 2 ? 'suspended' : member.verification_status
+    verification_status: graceExpired ? 'suspended' : member.verification_status
   }
 }

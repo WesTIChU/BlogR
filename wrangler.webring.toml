@@ -1,0 +1,16 @@
+name = "blogr-webring-verifier"
+main = "workers/webring-verifier.js"
+compatibility_date = "2026-10-21"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[vars]
+WEBRING_VERIFY_ENABLED = "false"
+WEBRING_PUBLIC_ENABLED = "false"
+BLOGR_BASE_URL = "https://blogr.directory"
+
+[[d1_databases]]
+binding = "OUTBOUND_CLICKS"
+database_name = "blogr-outbound-clicks"
+database_id = "fccd76c9-6630-4111-b825-d055e33c8b88"

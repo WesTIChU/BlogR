@@ -8,7 +8,7 @@ const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
 // Nigeria and Russia now have country groups in the catalogue, so their
 // generated country pages are included in the public page and sitemap counts.
-const expectedPublicPageCount = 64
+const expectedPublicPageCount = 65
 
 const htmlFiles = async () => {
   const files = []

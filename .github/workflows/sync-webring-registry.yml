@@ -1,0 +1,41 @@
+name: Synchronise Webring ID registry
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/blogs.json
+      - data/websites.json
+      - data/communities.json
+      - migrations/**
+      - scripts/sync-webring-registry.js
+      - shared/webring-registry.js
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: blogr-webring-registry
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.12.2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # The job fails closed when these secrets are not configured. Git alone
+      # never makes a new catalogue ID active.
+      - name: Register catalogue IDs in D1
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node scripts/sync-webring-registry.js

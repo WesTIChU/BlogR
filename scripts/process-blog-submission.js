@@ -1,4 +1,5 @@
 import { execFile } from 'node:child_process'
+import { randomBytes } from 'node:crypto'
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -11,6 +12,8 @@ import {
   normalizeBlogSubmissionUrl
 } from '../shared/new-blog-entries.js'
 import { getLondonDateKey } from '../shared/recently-added.js'
+import { createD1RegistryClient } from '../shared/webring-registry.js'
+import { canonicalWebringUrl } from '../shared/webring.js'
 import {
   validateBlogs,
   validateCommunities,
@@ -30,6 +33,20 @@ const IGNORED_SUBCATEGORIES = new Set([
 const EMPTY_SUBCATEGORY_VALUES = new Set(['', '_No response_', 'None'])
 const OTHER_COUNTRY_OPTION = 'Other / Not listed'
 const REQUIRED_FORM_HEADINGS = ['### Blog name', '### Blog URL']
+
+const newWebringId = () => `br-${randomBytes(16).toString('hex')}`
+
+const assignWebringId = (entry, catalogues, registered = []) => {
+  const canonical = canonicalWebringUrl(entry.url)
+  const existing = catalogues
+    .flat()
+    .find((candidate) => canonicalWebringUrl(candidate.url) === canonical)
+  const historical = registered.find((row) => row.canonical_url === canonical)
+  return {
+    ...entry,
+    webringId: existing?.webringId ?? historical?.webring_id ?? newWebringId()
+  }
+}
 
 const hasBlogCategoryHeading = (body) =>
   body.includes('### Category / Subcategory') ||
@@ -974,12 +991,25 @@ async function run() {
   }
 
   const { addedDate, addedAt } = getAdditionMetadata()
-  const entry =
+  const unassignedEntry =
     type === 'blog'
       ? buildBlogEntry(submission, addedDate, addedAt)
       : type === 'community'
         ? buildCommunityEntry(submission, addedDate, addedAt)
         : buildIndependentWebsiteEntry(submission, addedDate, addedAt)
+  const registry = createD1RegistryClient({
+    accountId: process.env.CLOUDFLARE_ACCOUNT_ID,
+    databaseId: process.env.CLOUDFLARE_D1_DATABASE_ID,
+    apiToken: process.env.CLOUDFLARE_API_TOKEN
+  })
+  const registered = await registry.query(
+    'SELECT webring_id, canonical_url FROM webring_id_registry'
+  )
+  const entry = assignWebringId(
+    unassignedEntry,
+    [blogs, websites, communities],
+    registered
+  )
   await exec('git', ['checkout', '-b', branch])
   const generated =
     type === 'blog'
@@ -1033,6 +1063,11 @@ async function run() {
     generated.push('.github/ISSUE_TEMPLATE/submit-independent-website.yml')
   }
   await exec(process.execPath, ['scripts/generate-blog-pages.js'])
+  await exec(process.execPath, ['scripts/generate-function-data.js'])
+  generated.push(
+    'shared/blogr-function-data.js',
+    'shared/cloudflare-function-data.js'
+  )
 
   await exec('git', ['add', '--', ...generated])
   const { stdout: staged } = await exec('git', [

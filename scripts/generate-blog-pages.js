@@ -25,6 +25,7 @@ const communityTaxonomy = JSON.parse(
 const taxonomy = JSON.parse(
   await readFile(resolve('data/blog-taxonomy.json'), 'utf8')
 )
+const showWebringAtBuild = process.env.VITE_WEBRING_PUBLIC_ENABLED === 'true'
 const categories = taxonomy.categories
 const recentlyAddedDescription =
   'Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.'
@@ -132,6 +133,9 @@ const renderBlogDetails = (entry) => {
   }
 
   details.push('<span class="blog-health-sr-only">Unknown or stale</span>')
+
+  if (showWebringAtBuild && entry.webringId)
+    details.push(`<BlogWebring webring-id="${attribute(entry.webringId)}" />`)
 
   const communityAttribute = community ? ' data-blog-community="true"' : ''
   return `<span class="blog-last-updated" data-blog-details data-blog-url="${attribute(entry.url)}" data-blog-name="${attribute(entry.name)}"${communityAttribute}>${details.join('')}</span>`

@@ -1066,15 +1066,15 @@
     }
   },
   "https://jamesg.blog/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
-    "status": "unknown",
-    "feedUrl": "https://jamesg.blog/feed",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
+    "status": "success",
+    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
     "latestArticle": {
-      "title": "Wonders of Web Weaving, Episode 24",
-      "url": "https://jamesg.blog/2026/10/20/www-24",
-      "summary": "The twenty-fourth episode of Wonders of Web Weaving is out: In Episode 24, I chat with Alex, the author of alexsirac.com about, among other things, collective intelligence in public commons, what the…",
-      "publishedAt": "2026-10-20T00:00:00.000Z"
+      "title": "Brainstorming the multi-lingual reading experience for Artemis",
+      "url": "https://jamesg.blog/2026/10/21/brainstorming-multi-lingual-artemis",
+      "summary": "I now follow three websites or feeds whose authors write in French; in at least two cases, the authors write in both French and English. When I see posts in different languages, I use Firefox’s Trans…",
+      "publishedAt": "2026-10-21T00:00:00.000Z"
     }
   },
   "https://www.jamesreeves.co/notebook/": {
@@ -1124,8 +1124,8 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "lastPublished": "2026-10-16",
-    "lastChecked": "2026-10-19T11:44:43.882Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -1743,14 +1743,14 @@
     }
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T19:44:46.110Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/how-neural-networks-work-why-straight-lines-aren-t-enough/",
-      "summary": "A straight line equation is a good place to start understanding how a neural network works. It's what we explored in my previous article, How Neural Networks Work – Explained Using the Straight Line E",
-      "publishedAt": "2026-10-20T16:36:05.000Z"
+      "url": "https://www.freecodecamp.org/news/build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval/",
+      "summary": "Most application search setups force a trade-off: settle for simple text filters, or manage a separate search cluster like Elasticsearch with complex synchronization pipelines. In a new video course o",
+      "publishedAt": "2026-10-21T11:42:44.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2875,14 +2875,14 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T11:44:31.927Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "The Celtic boss still has a message discipline problem and it’s hurting him.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/celtic-boss-has-message-discipline-problem/",
-      "summary": "Let me just say from the off that I have no objection to Martin O’Neill being critical of The post The Celtic boss still has a message discipline problem and it’s hurting him. appeared first on The C…",
-      "publishedAt": "2026-10-21T10:45:32.000Z"
+      "title": "Chris Sutton Tells The Green Brigade To Stand Firm As Celtic’s Seven-Goal Victory Fails To Silence The Questions The Board Still Won’t Answer",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/chris-sutton-tells-the-green-brigade-to-stand-firm-as-celtics-seven-goal-victory-fails-to-silence-the-questions-the-board-still-wont-answer/",
+      "summary": "There are certain people in Scottish football whose opinions you can predict before they’ve even opened their mouths. The post Chris Sutton Tells The Green Brigade To Stand Firm As Celtic’s Seven-Goa…",
+      "publishedAt": "2026-10-21T13:00:58.000Z"
     }
   },
   "https://readceltic.com/": {
@@ -3010,14 +3010,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Adorable Dr. Mario Inspired Puzzler 'Annalynn MD' Aims to Make the World 'A Little Bit Healthier'",
-      "url": "https://www.timeextension.com/#article-207925",
-      "summary": "Just what the doctor ordered! It’s been five years since support for the last entry in the Dr. Mario series, the mobile title Dr. Mario World , was shut down. As a result, people have mostly had to r…",
-      "publishedAt": "2026-10-21T12:00:00.000Z"
+      "title": "Classic PS1 Shmup Compilation 'The Raiden Project' Fires Its Way to Nintendo Switch 2 & PS5 Tomorrow",
+      "url": "https://www.timeextension.com/#article-207933",
+      "summary": "Holds for thunderous applause. Seibu Kaihatsu's shoot em up Raiden Project is getting a new release on consoles (Nintendo Switch 2 and PS5), courtesy of Hamster's Console Archives series. Released in…",
+      "publishedAt": "2026-10-21T13:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3129,15 +3129,15 @@
     }
   },
   "https://lwn.net/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T21:44:45.603Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "Critical PHP security update coming",
-      "url": "https://lwn.net/Articles/1101687/",
-      "summary": "The PHP security team has let it be known that there is a high-stakes security update coming at 14:00 UTC on October 21. \" All PHP users are encouraged to prepare now so they can upgrade as soon as t…",
-      "publishedAt": "2026-10-20T21:05:19.000Z"
+      "title": "Four stable kernels for Wednesday",
+      "url": "https://lwn.net/Articles/1101758/",
+      "summary": "Greg Kroah-Hartman has announced the release of the 7.2.12 , 6.18.58 , 6.12.114 , and 6.6.160 stable kernels. Each contains a number of important fixes; users are advised to upgrade.",
+      "publishedAt": "2026-10-21T13:24:25.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3202,8 +3202,8 @@
   },
   "https://dinotoyblog.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
-    "status": "success",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
+    "status": "unavailable",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
       "title": "Aquilops (Dolores) (Jurassic World: Rebirth, Hammon Collection Screen Scale by Mattel)",
@@ -3662,15 +3662,15 @@
     }
   },
   "https://www.penaddict.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T13:44:43.604Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.penaddict.com/blog?format=rss",
     "latestArticle": {
-      "title": "uniball One P uniball Zento 0.38 mm Rollerball Gel Ink Retractable Translucent Glitter Limited Edition Pen Giveaway",
-      "url": "https://www.penaddict.com/blog/2026/10/20/uniball-one-p-uniball-zento-038-mm-rollerball-gel-ink-retractable-translucent-glitter-limited-edition-pen-giveaway",
-      "summary": "I was way too #SERIOUSFACE with yesterday’s review, so I had to lighten the mood with one of the products that has brought me the most joy this year. This uniball One P is one of my favorites, but I …",
-      "publishedAt": "2026-10-20T13:00:00.000Z"
+      "title": "St. Jude Incentive Fulfillment Update",
+      "url": "https://www.penaddict.com/blog/2026/10/21/st-jude-incentive-fulfillment-update",
+      "summary": "Postcarding. Hey everyone! I wanted to drop a quick note on incentive fulfillment from my St. Jude Fundraising campaign. Postcards are underway, Ink Pony paintings will start soon, and I’ll drop what…",
+      "publishedAt": "2026-10-21T13:00:00.000Z"
     }
   },
   "https://timmcmahon.com.au/": {
@@ -4251,14 +4251,14 @@
   },
   "https://www.celticquicknews.co.uk/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T11:44:31.927Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "Fertile ground for Hassan",
-      "url": "https://www.celticquicknews.co.uk/fertile-ground-for-hassan/",
-      "summary": "Haissem Hassan was one of the casualties of the Ferencvaros defeat. That was his last starting spot before facing Hearts on Sunday. Five weeks and an international break later, he looked far more com…",
-      "publishedAt": "2026-10-21T11:00:35.000Z"
+      "title": "HERE VIGO: CELTIC ‘IN GOOD SHAPE,’ INSISTS O’NEILL",
+      "url": "https://www.celticquicknews.co.uk/here-vigo-celtic-in-good-shape-insists-oneill/",
+      "summary": "MARTIN O’NEILL is convinced Celtic will use the 7-1 hammering of Hearts as a springboard as the champions continue to fight back after three consecutive dismal defeats last month. The Hoops showed so…",
+      "publishedAt": "2026-10-21T13:36:36.000Z"
     }
   },
   "https://celtic365.com/": {
@@ -4287,14 +4287,14 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "AI Movies Are Getting Long: The First Wave of Feature-Length AI Films",
-      "url": "https://www.themovieblog.com/2026/10/ai-movies-are-getting-long-the-first-wave-of-feature-length-ai-films/",
-      "summary": "A year ago, an “AI film” usually meant a two-minute trailer for something that did not exist. That is changing fast. Independent makers are now finishing films that run as long as a studio feature, a…",
-      "publishedAt": "2026-10-21T12:44:21.000Z"
+      "title": "The Only Living Pickpocket in New York Review: A Thoughtful Thriller",
+      "url": "https://www.themovieblog.com/2026/10/the-only-living-pickpocket-in-new-york-review-a-thoughtful-thriller/",
+      "summary": "Noah Segan’s The Only Living Pickpocket in New York is a contemplative crime thriller that finds an intriguing way to explore aging, loneliness, and the difficulty of adapting to a world that seems d…",
+      "publishedAt": "2026-10-21T13:25:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4477,9 +4477,9 @@
   },
   "https://www.urbex-travel.com/blog/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-21T11:44:31.927Z",
-    "status": "unknown",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
+    "status": "success",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -4525,14 +4525,14 @@
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T11:44:31.927Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "New Dickens exhibition looks at the smells and poverty of old London",
-      "url": "https://www.ianvisits.co.uk/articles/new-dickens-exhibition-looks-at-the-smells-and-poverty-of-old-london-93419/",
-      "summary": "A foul and putrid air is once again abroad in London, as the stench of cholera and death that once haunted its streets seeps into the Charles Dickens Museum. Read more ›",
-      "publishedAt": "2026-10-21T11:00:27.000Z"
+      "title": "Angel tube station could become exit-only or close entirely as TfL battles failing escalators",
+      "url": "https://www.ianvisits.co.uk/articles/angel-tube-station-could-become-exit-only-or-close-entirely-as-tfl-battles-failing-escalators-93428/",
+      "summary": "Angel tube station in central London faces possible closure as its ageing escalators become increasingly unreliable and difficult to repair. Read more ›",
+      "publishedAt": "2026-10-21T13:00:47.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
@@ -4948,15 +4948,15 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T18:44:43.564Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "Trailer Premiere for Buried Secrets from Full Moon Features",
-      "url": "https://www.horrorsociety.com/2026/10/20/trailer-premiere-for-buried-secrets-from-full-moon-features/",
-      "summary": "From Full Moon Features and director Brooks Davis (Bring Her To Me) comes a frightening new tale of greed where secrets will be revealed and horrors unearthed. A missing girl… a fabled treasure… and …",
-      "publishedAt": "2026-10-20T18:44:27.000Z"
+      "title": "Blu Review – Tetsuo: The Bullet Man (Unearthed Films)",
+      "url": "https://www.horrorsociety.com/2026/10/21/blu-review-tetsuo-the-bullet-man-unearthed-films/",
+      "summary": "Director – Shin’ya Tsukamoto (Tetsuo: The Iron Man, Tetsuo: Body Hammer) Starring – Eric Bossick (Wasted Land, Equals), Akiko Mono (Lost in Translation, The Ramen Girl), and Yuko Nakamura (Ace Attorn…",
+      "publishedAt": "2026-10-21T13:06:48.000Z"
     }
   },
   "https://www.oldstyletales.com/blog": {
@@ -5157,15 +5157,15 @@
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T19:44:46.110Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://flamingpablum.com/feed/",
     "latestArticle": {
-      "title": "The Central Park Movie Mashup",
-      "url": "https://flamingpablum.com/2026/10/the-central-park-movie-mashup/",
-      "summary": "Reviving from 2020…. cleverly done.",
-      "publishedAt": "2026-10-20T19:32:31.000Z"
+      "title": "Back to “Josie’s”: NYC 2013",
+      "url": "https://flamingpablum.com/2026/10/back-to-josies-nyc-2013/",
+      "summary": "This is a fun one. Over on Instagram, I’d flagged a post that bore the compelling descriptor below: A music video filmed 13 years ago is going viral for capturing a different era of New York City. Th…",
+      "publishedAt": "2026-10-21T12:58:17.000Z"
     }
   },
   "https://kylekukshtel.com/": {
@@ -5378,13 +5378,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T11:44:31.927Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-comments-on-empty-seats-at-the-etihad-stadium-after-manchester-city-thrash-aek-athens",
-      "summary": "Manchester City manager Enzo Maresca brushed aside questions over a high number of empty seats at the Etihad Stadium in the 5-1 UEFA Champions League win over AEK Athens.",
-      "publishedAt": "2026-10-21T10:30:27.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/match-officials-peter-bankes-to-referee-aston-villa-vs-manchester-city-premier-league",
+      "summary": "Manchester City travel to Villa Park on matchday eight of the 2026/27 Premier League season, with the top-flight confirming the team of match officials to oversee the contest with Aston Villa.",
+      "publishedAt": "2026-10-21T12:30:27.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -5513,15 +5513,15 @@
     }
   },
   "https://neveenwood.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T16:44:43.309Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "Beauty of Joseon Dynasty Cream Review: Every Ingredient Checked (and Who It Suits)",
-      "url": "https://neveenwood.com/beauty-of-joseon-dynasty-cream-review/",
-      "summary": "My Beauty of Joseon Dynasty Cream review: what is in it, the two ingredient lists in circulation, whether it suits rosacea and combination skin, if it is fungal acne safe, and where to buy it with my…",
-      "publishedAt": "2026-10-20T16:07:22.000Z"
+      "title": "Best Korean Skincare for Sensitive Skin: 6 Gentle Picks for Dry, Easily Irritated Skin",
+      "url": "https://neveenwood.com/korean-skincare-for-sensitive-skin/",
+      "summary": "The best Korean skincare for sensitive skin that is not rosacea: six gentle, fragrance-free picks for dry, easily irritated skin, every ingredient list checked, plus where to buy them with my codes.",
+      "publishedAt": "2026-10-21T13:08:26.000Z"
     }
   },
   "https://70sscifiart.tumblr.com/": {
@@ -5674,9 +5674,9 @@
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
     "lastPublished": "2026-06-20",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
-    "status": "unknown",
-    "feedUrl": "https://www.thelifeofaglasgowgirl.co.uk/sitemap.rss",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
+    "status": "success",
+    "feedUrl": "https://www.thelifeofaglasgowgirl.co.uk/feed/",
     "latestArticle": {
       "title": "8 of The Best Colouring Books for Millennials You Need",
       "url": "https://www.thelifeofaglasgowgirl.co.uk/best-colouring-books-for-millennials/?utm_source=rss&utm_medium=rss&utm_campaign=best-colouring-books-for-millennials",
@@ -5710,14 +5710,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Dragon Ball could be expanding in all the right ways in 2027",
-      "url": "https://www.brickfanatics.com/lego-dragon-ball-expanding-all-the-right-ways-2027",
-      "summary": "These rumoured sets are going Super Saiyan",
-      "publishedAt": "2026-10-21T11:51:55.000Z"
+      "title": "Save £34 on this transforming LEGO NINJAGO vehicle",
+      "url": "https://www.brickfanatics.com/save-34-on-this-transforming-lego-ninjago-vehicle",
+      "summary": "Three vehicles for the price of one?",
+      "publishedAt": "2026-10-21T13:33:23.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -5864,15 +5864,15 @@
     }
   },
   "https://www.creepypasta.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T13:44:43.604Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.creepypasta.com/feed/",
     "latestArticle": {
-      "title": "How BEN Drowned Became One of the Internet’s Most Famous Creepypastas",
-      "url": "https://www.creepypasta.com/how-ben-drowned-became-one-of-the-internets-most-famous-creepypastas/",
-      "summary": "Creepypastas are all about imagining something scary and then convincing yourself that scary thing will somehow become real, right? Well, BEN Drowned didn’t ask you to imagine things. Instead, it sho…",
-      "publishedAt": "2026-10-20T13:44:45.000Z"
+      "title": "The Damned’s Congregation",
+      "url": "https://www.creepypasta.com/the-damneds-congregation/",
+      "summary": "Samir stood beneath the concrete awning of Masjid al-Noor, rainwater dripping from the edges of his black coat, and studied the brass lettering bolted above the entrance. The letters were a tarnished…",
+      "publishedAt": "2026-10-21T13:30:00.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -5912,15 +5912,15 @@
     }
   },
   "https://www.cakewrecks.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T13:44:43.604Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.cakewrecks.com/home?format=rss",
     "latestArticle": {
-      "title": "Is That A Baby In Your Pants Or Are You Just Happy To See Me?",
-      "url": "https://www.cakewrecks.com/home/is-that-a-baby-in-your-pants-or-are-you-just-happy-to-see-me-2026",
-      "summary": "Kids today, with all their weird hobbies: (PS - Oh! Hey! Think this is Isabella?) ***** Ariel's company wanted their vision statement written on a cake, but made the rookie mistake of e-mailing a cel…",
-      "publishedAt": "2026-10-20T13:00:00.000Z"
+      "title": "My Friend The Witch Baker Has A Way With Words",
+      "url": "https://www.cakewrecks.com/home/my-friend-the-witch-baker-has-a-way-with-words-2026",
+      "summary": "I told the witch baker I was in love with you And then the witch baker, he told me what to do He told me.. Ting! Tang! WALLA WALLA BING BANG. Ting... ...Tang? Walla Walla Bing Bang! Thanks to Misty B…",
+      "publishedAt": "2026-10-21T13:00:00.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -5935,14 +5935,14 @@
     }
   },
   "https://www.manton.org/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T13:44:43.604Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/20/i-love-the-feeling-of.html",
-      "summary": "I love the feeling of one minute after arriving in NYC, looking around and thinking, “Yeah, this is the city where things happen.” Almost wish I was in my 20s again so I could experience it with the …",
-      "publishedAt": "2026-10-20T13:45:00.000Z"
+      "url": "https://www.manton.org/2026/10/21/the-bookmarks-links-tab-in.html",
+      "summary": "The Bookmarks → Links tab in Micro.blog Premium is practically unknown, but so useful. It archives a copy of everything you link to! HTML, CSS, everything. Really useful to find things later. Here’s …",
+      "publishedAt": "2026-10-21T13:30:00.000Z"
     }
   },
   "https://prettyspooky.life/": {
@@ -5982,14 +5982,14 @@
   },
   "https://www.dailycartoonist.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T12:44:30.587Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.dailycartoonist.com/index.php/feed/",
     "latestArticle": {
-      "title": "CSotD: Changing Drivers on the Old Road",
-      "url": "https://www.dailycartoonist.com/index.php/2026/10/21/csotd-changing-drivers-on-the-old-road/",
-      "summary": "I feel like I’ve had enough politics. I’m not suggesting anyone stick their head in the sand, though. We know Election Day is coming, we know the stakes, we know the importance.My oft-mentioned dog p…",
-      "publishedAt": "2026-10-21T12:34:26.000Z"
+      "title": "Wayback Whensday: Will and Nancy",
+      "url": "https://www.dailycartoonist.com/index.php/2026/10/21/wayback-whensday-will-and-nancy/",
+      "summary": "Will Johnson is an American cartoonist, notable as one of Ernie Bushmiller’s assistants on his daily ‘Nancy’ strip. He worked on the series from the late 1970s until the early 1980s. Bas Schuddeboom,…",
+      "publishedAt": "2026-10-21T13:25:42.000Z"
     }
   },
   "https://www.splitbrain.org/": {
@@ -6242,14 +6242,14 @@
     }
   },
   "https://londonreconnections.com/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T11:44:47.168Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/time-to-3-introduction-to-measuring-train-performance-part-1/",
-      "summary": "Transport can be seen to have three priorities: safety, financial sustainability, and performance. Safety is an unarguable aim, and one where risks must be reduced to be as low as reasonably practica…",
-      "publishedAt": "2026-10-20T03:20:37.000Z"
+      "url": "https://londonreconnections.com/replaceable-tread-tyre-being-developed-anthroposcene/",
+      "summary": "The case for a more sustainable tire that comes apart on purpose Tires are hard to recycle and shed microplastics as they wear. A modular design with a replaceable tread may offer a solution to both …",
+      "publishedAt": "2026-10-21T13:26:13.000Z"
     }
   },
   "https://www.zachleat.com/": {
@@ -6397,14 +6397,14 @@
   },
   "https://greatawakeningreport.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T01:44:45.733Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "New Positive Ivermectin Evidence | Dr. John Campbell",
-      "url": "https://greatawakeningreport.com/new-positive-ivermectin-evidence-report/",
-      "summary": "Few drugs have been argued about more furiously and understood less clearly than this one. In this report, which is a video analysis rather than a documentary, Dr. John Campbell walks through what he…",
-      "publishedAt": "2026-10-21T01:40:00.000Z"
+      "title": "Inside the Mystery of the Greys | Ancient Aliens",
+      "url": "https://greatawakeningreport.com/inside-the-mystery-of-the-greys-documentary/",
+      "summary": "Ask anyone on the street to draw an alien and you will get the same figure. Grey skin, an oversized cranium, a small body, and those enormous black almond eyes. The Inside the Mystery of the Greys do…",
+      "publishedAt": "2026-10-21T13:15:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -7084,14 +7084,14 @@
   },
   "https://www.thephoblographer.com/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T09:44:30.582Z",
+    "lastChecked": "2026-10-21T13:44:30.666Z",
     "status": "success",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "The LUMIX S1R II’s New Firmware Helps Real Photographers",
-      "url": "https://www.thephoblographer.com/2026/10/21/the-lumix-s1r-iis-new-firmware-helps-real-photographers/",
-      "summary": "Something that I really love about the latest S1R II update is the fact that they're taking real photographers seriously with flash. In a world where too many people are called content creators, it's…",
-      "publishedAt": "2026-10-21T09:00:00.000Z"
+      "title": "The Problem Photographers Don’t Realize About Social Media",
+      "url": "https://www.thephoblographer.com/2026/10/21/problem-photographers-social-media/",
+      "summary": "You may be aware of this if you read the Phoblographer often: I started something called the 5 Boro Foto Fest that's happening in October 25th, 2026. It's a culmination of many of the ideas that I ha…",
+      "publishedAt": "2026-10-21T13:00:00.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/": {

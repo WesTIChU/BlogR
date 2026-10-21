@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
 import {
+  createD1RegistryClient,
   planRegistrySync,
   synchroniseWebringMembers,
   synchroniseWebringRegistry
@@ -8,6 +9,81 @@ import {
 
 const id = (hex) => `br-${hex.repeat(32 / hex.length)}`
 const entry = (url, webringId) => ({ url, webringId })
+
+const client = (response) =>
+  createD1RegistryClient({
+    accountId: 'account',
+    databaseId: 'database',
+    apiToken: 'super-secret-token',
+    fetchImpl: async (_url, init) => {
+      assert.equal(init.headers.Authorization, 'Bearer super-secret-token')
+      return response
+    }
+  })
+
+const jsonResponse = (body, status = 200) => ({
+  ok: status >= 200 && status < 300,
+  status,
+  text: async () => JSON.stringify(body)
+})
+
+test('reports authentication failures without exposing credentials or request bodies', async () => {
+  await assert.rejects(
+    client(
+      jsonResponse(
+        {
+          success: false,
+          errors: [{ code: 10000, message: 'Authentication error' }]
+        },
+        401
+      )
+    ).query('SELECT * FROM private_table', ['super-secret-token']),
+    (error) => {
+      assert.match(error.message, /HTTP 401/)
+      assert.match(error.message, /10000.*Authentication error/)
+      assert.doesNotMatch(error.message, /super-secret-token|private_table/)
+      return true
+    }
+  )
+})
+
+test('reports permission failures from batch requests with Cloudflare details', async () => {
+  await assert.rejects(
+    client(
+      jsonResponse(
+        {
+          success: false,
+          errors: [{ code: 9109, message: 'User lacks permission' }]
+        },
+        403
+      )
+    ).batch([
+      { sql: 'UPDATE private_table SET value = ?', params: ['secret'] }
+    ]),
+    (error) => {
+      assert.match(error.message, /HTTP 403/)
+      assert.match(error.message, /9109.*User lacks permission/)
+      assert.doesNotMatch(error.message, /secret|private_table/)
+      return true
+    }
+  )
+})
+
+test('handles invalid JSON responses for both query and batch requests', async () => {
+  const response = {
+    ok: false,
+    status: 502,
+    text: async () => '<html>Bad gateway</html>'
+  }
+  await assert.rejects(
+    client(response).query('SELECT 1'),
+    /request failed \(HTTP 502\): invalid JSON response/
+  )
+  await assert.rejects(
+    client(response).batch([]),
+    /batch request failed \(HTTP 502\): invalid JSON response/
+  )
+})
 
 test('rejects duplicate IDs and duplicate URLs with different IDs', () => {
   assert.throws(() =>

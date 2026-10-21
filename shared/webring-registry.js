@@ -59,6 +59,54 @@ export const createD1RegistryClient = ({
   if (!accountId || !databaseId || !apiToken)
     throw new Error('Cloudflare D1 registry credentials are required')
   const endpoint = `https://api.cloudflare.com/client/v4/accounts/${accountId}/d1/database/${databaseId}/query`
+  const redactCredentials = (value) =>
+    [apiToken, accountId, databaseId].reduce(
+      (text, credential) => text.replaceAll(credential, '[redacted]'),
+      value
+    )
+  const describeErrors = (body) => {
+    const errors = Array.isArray(body?.errors) ? body.errors : []
+    const messages = Array.isArray(body?.messages) ? body.messages : []
+    const details = [...errors, ...messages]
+      .map((item) => {
+        const code = item?.code == null ? '' : `[${item.code}] `
+        const message = redactCredentials(String(item?.message ?? item ?? ''))
+          .replace(
+            /(authorization|api[-_ ]?token|password|secret|credential)\s*[:=]\s*\S+/gi,
+            '$1=[redacted]'
+          )
+          .replace(/bearer\s+\S+/gi, 'Bearer [redacted]')
+        return `${code}${message}`.trim()
+      })
+      .filter(Boolean)
+    return details.length > 0 ? details.join('; ') : 'No error details returned'
+  }
+  const readResponse = async (response, operation) => {
+    const status = Number.isInteger(response?.status)
+      ? response.status
+      : 'unknown'
+    let raw
+    try {
+      raw = await response.text()
+    } catch {
+      throw new Error(
+        `Cloudflare D1 registry ${operation} failed (HTTP ${status}): unable to read response body`
+      )
+    }
+    let body
+    try {
+      body = JSON.parse(raw)
+    } catch {
+      throw new Error(
+        `Cloudflare D1 registry ${operation} failed (HTTP ${status}): invalid JSON response`
+      )
+    }
+    if (!response.ok || !body.success)
+      throw new Error(
+        `Cloudflare D1 registry ${operation} failed (HTTP ${status}): ${describeErrors(body)}`
+      )
+    return body
+  }
   return {
     async query(sql, params = []) {
       const response = await fetchImpl(endpoint, {
@@ -69,9 +117,7 @@ export const createD1RegistryClient = ({
         },
         body: JSON.stringify([{ sql, params }])
       })
-      const body = await response.json()
-      if (!response.ok || !body.success)
-        throw new Error('Cloudflare D1 registry request failed')
+      const body = await readResponse(response, 'request')
       return body.result?.[0]?.results ?? []
     },
     async batch(statements) {
@@ -85,9 +131,7 @@ export const createD1RegistryClient = ({
           statements.map(({ sql, params = [] }) => ({ sql, params }))
         )
       })
-      const body = await response.json()
-      if (!response.ok || !body.success)
-        throw new Error('Cloudflare D1 registry batch request failed')
+      const body = await readResponse(response, 'batch request')
       return body.result ?? []
     }
   }

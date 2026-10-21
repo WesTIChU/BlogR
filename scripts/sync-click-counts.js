@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { canonicalOutboundUrl } from '../shared/outbound-click.js'
+import { generateFunctionData } from './generate-function-data.js'
 
 const required = (name) => {
   const value = process.env[name]
@@ -59,6 +60,7 @@ export async function syncClickCounts({
     const updated = applyClickCounts(entries, counts)
     await writeFile(resolve(path), `${JSON.stringify(updated, null, 2)}\n`)
   }
+  await generateFunctionData()
 }
 
 if (process.argv[1]?.endsWith('/scripts/sync-click-counts.js')) {

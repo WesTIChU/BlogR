@@ -53,9 +53,12 @@ test('workflow allows either catalogue file without requiring both', async () =>
     workflow,
     /data\/blogs\.json\|data\/websites\.json\|data\/communities\.json/
   )
+  assert.match(workflow, /shared\/blogr-function-data\.js/)
+  assert.match(workflow, /shared\/cloudflare-function-data\.js/)
   assert.doesNotMatch(
     workflow,
     /expected=\$'data\/blogs\.json\\ndata\/websites\.json'/
   )
   assert.match(workflow, /validate-click-count-changes\.js/)
+  assert.match(workflow, /generate-function-data\.js --check/)
 })

@@ -29,11 +29,12 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # The job fails closed when these secrets are not configured. Git alone
-      # never makes a new catalogue ID active.
+      # CLOUDFLARE_API_TOKEN must include Account > D1 > Write for registry
+      # and membership updates. The job fails closed when secrets are absent.
+      # Git alone never makes a new catalogue ID active.
       - name: Register catalogue IDs in D1
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_WEBRING_API_TOKEN }}
         run: node scripts/sync-webring-registry.js

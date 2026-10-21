@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-20T23:44:45.032Z",
-    "status": "success",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Copper cable thieves cause Openreach broadband outage in Thurnscoe",
@@ -3034,8 +3034,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3310,8 +3310,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3340,8 +3340,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -4477,9 +4477,9 @@
   },
   "https://www.urbex-travel.com/blog/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "success",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -4537,8 +4537,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4734,15 +4734,15 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "lastPublished": "2026-10-15",
-    "lastChecked": "2026-10-19T11:44:43.882Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
     "status": "success",
     "feedUrl": "https://www.timboucher.ca/feed/",
     "latestArticle": {
-      "title": "Product Manager’s notes using ChatGPT Codex",
-      "url": "https://www.timboucher.ca/2026/10/product-managers-notes-using-chatgpt-codex/",
-      "summary": "Well, I finally bit the bullet and bought a month of the ChatGPT Pro 100 plan. Conversion into CAD makes it even pricier, but I’ve been realizing lately that for a very focused user, the value you ca…",
-      "publishedAt": "2026-10-15T18:28:11.000Z"
+      "title": "Notes on #139 & #140",
+      "url": "https://www.timboucher.ca/2026/10/notes-on-139-140/",
+      "summary": "So, catching up on some published volumes that I haven’t discussed yet in much detail… The Center for Social Presence arose out of a collision between a few different things, one of which was attendi…",
+      "publishedAt": "2026-10-21T03:40:44.000Z"
     }
   },
   "https://travelbetweenthepages.com/": {
@@ -4973,14 +4973,14 @@
   },
   "https://horrormovieblog.com/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-21T02:44:45.039Z",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
     "status": "success",
     "feedUrl": "https://horrormovieblog.com/feed/",
     "latestArticle": {
-      "title": "Split Rock // 59th Sitges Film Festival Review",
-      "url": "https://horrormovieblog.com/split-rock-59th-sitges-film-festival-review/?utm_source=rss&utm_medium=rss&utm_campaign=split-rock-59th-sitges-film-festival-review",
-      "summary": "Split Rock is a new cosmic horror feature from director Ryan Glover (Strings) that premiered at the 59th Sitges Film Festival on October 9, 2026, ahead of its North American premiere at the Brooklyn …",
-      "publishedAt": "2026-10-20T19:25:41.000Z"
+      "title": "Species // Toronto After Dark Film Festival 2026 Review",
+      "url": "https://horrormovieblog.com/species-toronto-after-dark-film-festival-2026-review/?utm_source=rss&utm_medium=rss&utm_campaign=species-toronto-after-dark-film-festival-2026-review",
+      "summary": "We had the opportunity to see Species (Sanguine) by Marion Le Coroller at the Toronto After Dark Film Festival, and it did not disappoint. On the surface, it looks like other French body horrors of i…",
+      "publishedAt": "2026-10-20T18:12:11.000Z"
     }
   },
   "https://horror-movie-a-day.blogspot.com/": {
@@ -5153,8 +5153,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -6362,8 +6362,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T03:33:29.409Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-21T03:44:43.561Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {

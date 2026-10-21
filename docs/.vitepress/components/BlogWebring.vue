@@ -167,7 +167,7 @@ onBeforeUnmount(() => {
   <span v-if="SHOW_WEBRING" class="blog-webring">
     <span
       v-if="verified"
-      class="blog-webring-globe"
+      class="blog-metadata-icon blog-webring-globe"
       title="Verified BlogR Webring member"
       aria-label="Verified BlogR Webring member"
     >
@@ -175,7 +175,7 @@ onBeforeUnmount(() => {
     </span>
     <button
       ref="trigger"
-      class="blog-webring-trigger"
+      class="blog-metadata-icon-button blog-webring-trigger"
       type="button"
       :aria-label="
         copied ? 'Webring widget code copied' : 'Copy BlogR Webring widget code'
@@ -186,7 +186,7 @@ onBeforeUnmount(() => {
       @click="togglePopup"
     >
       <svg
-        class="blog-webring-icon"
+        class="blog-metadata-icon blog-webring-icon"
         viewBox="0 0 24 24"
         aria-hidden="true"
         focusable="false"
@@ -285,28 +285,24 @@ onBeforeUnmount(() => {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 0.15rem;
+  gap: 6px;
+  vertical-align: middle;
 }
 .blog-webring-trigger {
   border: 0;
   background: transparent;
   color: #64748b;
   cursor: pointer;
-  padding: 0 0.15rem;
+  padding: 0;
   font-size: 0.8em;
 }
 .blog-webring-icon {
   display: block;
-  width: 0.9rem;
-  height: 0.9rem;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2;
-}
-.blog-webring-globe {
-  font-size: 0.85em;
 }
 .blog-webring-popover {
   position: fixed;

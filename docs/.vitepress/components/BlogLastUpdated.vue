@@ -140,12 +140,16 @@ onMounted(() => {
     v-show="showBlogDetails"
     class="blog-last-updated"
   >
-    <span v-if="favourite" class="blog-favourite" aria-label="Favourite">
+    <span
+      v-if="favourite"
+      class="blog-metadata-icon blog-favourite"
+      aria-label="Favourite"
+    >
       ⭐
     </span>
     <a
       v-if="feedUrl"
-      class="blog-feed-link"
+      class="blog-metadata-icon-button blog-feed-link"
       :href="feedUrl"
       :aria-label="feedLabel"
       :title="feedLabel"
@@ -153,7 +157,7 @@ onMounted(() => {
       rel="noopener noreferrer"
     >
       <svg
-        class="blog-feed-icon"
+        class="blog-metadata-icon blog-feed-icon"
         viewBox="0 0 24 24"
         aria-hidden="true"
         focusable="false"
@@ -215,7 +219,7 @@ onMounted(() => {
 .blog-last-updated {
   display: flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 6px;
   margin-top: 0.15em;
   color: var(--vp-c-text-3);
   font-size: 0.75em;
@@ -223,10 +227,30 @@ onMounted(() => {
   flex-wrap: wrap;
 }
 
+.blog-metadata-icon,
+.blog-metadata-icon-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.blog-metadata-icon {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.blog-metadata-icon-button {
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+}
+
 .blog-favourite {
   color: #facc15;
-  font-size: 0.75rem;
-  line-height: 1;
 }
 
 .blog-health-dot {
@@ -252,10 +276,7 @@ onMounted(() => {
 }
 
 .blog-feed-link {
-  display: inline-flex;
-  flex: 0 0 auto;
   color: #f97316;
-  line-height: 1;
 }
 
 .blog-feed-link:hover {
@@ -263,8 +284,6 @@ onMounted(() => {
 }
 
 .blog-feed-icon {
-  width: 0.9rem;
-  height: 0.9rem;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;

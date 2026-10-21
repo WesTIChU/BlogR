@@ -1123,12 +1123,43 @@ html.monolith .vp-doc hr.blogr-intro-divider {
 .blog-last-updated {
   display: flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 6px;
   margin-top: 0.15em;
   color: var(--vp-c-text-3);
   font-size: 0.75em;
   font-weight: 400;
   flex-wrap: wrap;
+}
+
+.blog-metadata-icon,
+.blog-metadata-icon-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.blog-metadata-icon {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.blog-metadata-icon-button {
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+}
+
+/* VitePress renders this external-link mark for the listing title links. */
+.blog-health-link a::after {
+  width: 14px;
+  height: 14px;
+  margin-top: 0;
+  margin-left: 6px;
+  vertical-align: middle;
 }
 
 .blog-details-hidden .blog-last-updated {
@@ -1137,8 +1168,6 @@ html.monolith .vp-doc hr.blogr-intro-divider {
 
 .blog-favourite {
   color: #facc15;
-  font-size: 0.75rem;
-  line-height: 1;
 }
 
 .blog-health-dot {
@@ -1164,10 +1193,7 @@ html.monolith .vp-doc hr.blogr-intro-divider {
 }
 
 .blog-feed-link {
-  display: inline-flex;
-  flex: 0 0 auto;
   color: #f97316;
-  line-height: 1;
 }
 
 .blog-feed-link:hover {
@@ -1175,8 +1201,6 @@ html.monolith .vp-doc hr.blogr-intro-divider {
 }
 
 .blog-feed-icon {
-  width: 0.9rem;
-  height: 0.9rem;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;

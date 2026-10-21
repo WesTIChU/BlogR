@@ -30,7 +30,7 @@ export const MAX_RETRY_INTERVAL_MINUTES = 8 * 60
 export const VERIFIED_FAILURE_GRACE_HOURS = 48
 export const NEW_MEMBER_WINDOW_MINUTES = 15
 export const LEASE_MINUTES = 15
-export const D1_OPERATIONS_PER_RUN = 2
+export const D1_OPERATIONS_PER_RUN = 3
 export const D1_OPERATIONS_PER_MEMBER = 2
 export const MAX_HTTP_FETCHES_PER_RUN =
   MAX_MEMBERS_PER_RUN * MAX_PAGE_CHECKS_PER_MEMBER
@@ -102,7 +102,8 @@ export const claimDueMember = async (db, member) => {
   const result = await db
     .prepare(
       `UPDATE webring_members
-       SET verification_lease_until = datetime('now', '+${LEASE_MINUTES} minutes')
+       SET verification_lease_until = datetime('now', '+${LEASE_MINUTES} minutes'),
+           verification_requested_at = NULL
        WHERE webring_id = ?
          AND membership_status = 'active'
          AND verification_status != 'retired'
@@ -115,9 +116,10 @@ export const claimDueMember = async (db, member) => {
 
 export const compareDueMembers = (a, b) => {
   const priority = (member) => {
-    if (member.last_checked_at == null) return 0
-    if (Number(member.consecutive_failures || 0) > 0) return 1
-    return 2
+    if (member.verification_requested_at != null) return 0
+    if (member.last_checked_at == null) return 1
+    if (Number(member.consecutive_failures || 0) > 0) return 2
+    return 3
   }
   return (
     priority(a) - priority(b) ||
@@ -131,10 +133,13 @@ export const compareDueMembers = (a, b) => {
 
 const memberColumns = `webring_id, canonical_url, successful_installation_url,
                        verification_status, membership_status, consecutive_failures,
-                       last_checked_at, created_at, verification_lease_until`
+                       last_checked_at, created_at, verification_requested_at,
+                       verification_lease_until`
 
 const dueConditions = `
           AND (
+            verification_requested_at IS NOT NULL
+            OR
             last_checked_at IS NULL
             OR (
               consecutive_failures > 0
@@ -154,7 +159,30 @@ const dueConditions = `
 
 const urgentConditions = `
           AND (
+            verification_requested_at IS NOT NULL
+            OR
             (
+              last_checked_at IS NULL
+              AND julianday(created_at) >= julianday('now', '-${NEW_MEMBER_WINDOW_MINUTES} minutes')
+            )
+            OR (
+              consecutive_failures > 0
+              AND julianday(last_checked_at) < julianday(
+                'now',
+                printf(
+                  '-%d minutes',
+                  MIN(${MAX_RETRY_INTERVAL_MINUTES}, ${RETRY_INTERVAL_MINUTES} * (1 << MIN(consecutive_failures - 1, 5)))
+                )
+              )
+            )
+           )`
+
+// Keep the reserved urgent slots meaningful. Requested, new and retry work is
+// selected in the urgent slice; the rest of the batch is an older fair queue.
+const regularConditions = `
+          AND NOT (
+            verification_requested_at IS NOT NULL
+            OR (
               last_checked_at IS NULL
               AND julianday(created_at) >= julianday('now', '-${NEW_MEMBER_WINDOW_MINUTES} minutes')
             )
@@ -171,20 +199,38 @@ const urgentConditions = `
           )`
 
 const queueOrder = `
-         ORDER BY CASE WHEN last_checked_at IS NULL THEN 0
-                       WHEN consecutive_failures > 0 THEN 1
-                       ELSE 2 END,
-                  COALESCE(last_checked_at, created_at, ''),
+         ORDER BY CASE WHEN verification_requested_at IS NOT NULL THEN 0
+                       WHEN last_checked_at IS NULL
+                            AND julianday(created_at) >= julianday('now', '-${NEW_MEMBER_WINDOW_MINUTES} minutes') THEN 1
+                       WHEN consecutive_failures > 0 THEN 2
+                       WHEN last_checked_at IS NULL THEN 3
+                       ELSE 4 END,
+                  COALESCE(verification_requested_at, ''),
+                   COALESCE(last_checked_at, created_at, ''),
                   created_at,
                   webring_id`
 
 export const dueMembersQuery = ({ urgent = false } = {}) =>
   `SELECT ${memberColumns}
      FROM webring_members
-    WHERE membership_status = 'active'
-      AND verification_status != 'retired'
-      AND (verification_lease_until IS NULL OR julianday(verification_lease_until) <= julianday('now'))${dueConditions}${urgent ? urgentConditions : ''}${queueOrder}
-    LIMIT ?`
+     WHERE membership_status = 'active'
+       AND verification_status != 'retired'
+       AND (verification_lease_until IS NULL OR julianday(verification_lease_until) <= julianday('now'))${dueConditions}${urgent ? urgentConditions : regularConditions}${queueOrder}
+     LIMIT ?`
+
+export const priorityCategory = (member, now = Date.now()) => {
+  if (member.verification_requested_at != null) return 'requested'
+  const createdAt = Date.parse(member.created_at ?? '')
+  if (
+    member.last_checked_at == null &&
+    Number.isFinite(createdAt) &&
+    createdAt >= now - NEW_MEMBER_WINDOW_MINUTES * 60 * 1_000
+  )
+    return 'new'
+  if (Number(member.consecutive_failures || 0) > 0) return 'retry'
+  if (member.last_checked_at == null) return 'never_checked'
+  return 'regular'
+}
 
 const verifyOne = async (db, member, env) => {
   const startedAt = Date.now()
@@ -206,6 +252,7 @@ const verifyOne = async (db, member, env) => {
       JSON.stringify({
         event: 'webring_verification_result',
         webringId: member.webring_id,
+        priority: priorityCategory(member),
         status: result.status,
         latencyMs: Date.now() - startedAt
       })
@@ -233,7 +280,8 @@ export default {
               SUM(last_checked_at IS NULL) AS never_checked_count,
               SUM(consecutive_failures > 0) AS failed_count,
               SUM(
-                last_checked_at IS NULL
+                verification_requested_at IS NOT NULL
+                OR last_checked_at IS NULL
                 OR (
                   consecutive_failures > 0
                   AND julianday(last_checked_at) < julianday(
@@ -256,13 +304,15 @@ export default {
     ).first()
     const membershipCount = Number(count?.membership_count || 0)
     const capacity = settings.batchSize * VERIFICATION_RUNS
-    if (membershipCount > capacity)
+    const queueBacklog = Number(count?.queue_backlog_count || 0)
+    if (queueBacklog > capacity)
       console.error(
         JSON.stringify({
           event: 'webring_verification_capacity_warning',
           targetHours: VERIFICATION_TARGET_HOURS,
           capacity,
-          memberships: membershipCount
+          memberships: membershipCount,
+          queueBacklog
         })
       )
     const urgent = await env.OUTBOUND_CLICKS.prepare(
@@ -291,12 +341,15 @@ export default {
         pending: Number(count?.pending_count || 0),
         neverChecked: Number(count?.never_checked_count || 0),
         failed: Number(count?.failed_count || 0),
-        queueBacklog: Number(count?.queue_backlog_count || 0),
+        queueBacklog,
         oldestCheckAt: count?.oldest_check_at ?? null,
         newestCheckAt: count?.newest_check_at ?? null,
         batchSize: settings.batchSize,
         concurrency: settings.concurrency,
         claimed: claimed.length,
+        priorityCounts: Object.groupBy(claimed, (member) =>
+          priorityCategory(member)
+        ),
         capacityPerTargetHours: capacity,
         targetHours: VERIFICATION_TARGET_HOURS
       })

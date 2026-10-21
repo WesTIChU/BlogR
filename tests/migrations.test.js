@@ -12,7 +12,7 @@ const migration = (name) =>
 const run = (database, sql) =>
   execFileSync('sqlite3', [database], { input: sql, encoding: 'utf8' })
 
-test('0002 and 0003 apply in order without changing outbound click data', () => {
+test('Webring migrations apply in order without changing outbound click data', () => {
   const directory = mkdtempSync(resolve(tmpdir(), 'blogr-migrations-'))
   const database = resolve(directory, 'test.db')
   try {
@@ -24,7 +24,9 @@ test('0002 and 0003 apply in order without changing outbound click data', () => 
         '\n' +
         migration('0003_webring_registry.sql') +
         '\n' +
-        migration('0004_webring_verification_lease.sql')
+        migration('0004_webring_verification_lease.sql') +
+        '\n' +
+        migration('0005_webring_recheck_request.sql')
     )
     assert.equal(
       run(
@@ -38,7 +40,7 @@ test('0002 and 0003 apply in order without changing outbound click data', () => 
         database,
         "SELECT sql FROM sqlite_master WHERE name = 'webring_members';"
       ),
-      /verification_lease_until/
+      /verification_lease_until.*verification_requested_at/s
     )
   } finally {
     rmSync(directory, { recursive: true, force: true })

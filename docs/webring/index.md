@@ -78,6 +78,10 @@ check automatically. Previously verified sites have a 48-hour failure grace
 period before they are suspended; sites that have never verified remain
 pending until they pass a check.
 
+After installing the widget, the **Request verification check** control in the
+widget popup can place a bounded recheck request in the queue. It does not run
+an immediate fetch, and repeated requests are rate-limited and de-duplicated.
+
 <hr class="blogr-intro-divider" aria-hidden="true" />
 
 ## Frequently asked questions

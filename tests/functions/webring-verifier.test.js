@@ -4,6 +4,7 @@ import worker, {
   claimDueMember,
   compareDueMembers,
   D1_OPERATIONS_PER_MEMBER,
+  dueMembersQuery,
   MAX_D1_OPERATIONS_PER_RUN,
   MAX_HTTP_FETCHES_PER_RUN,
   MAX_HTTP_SUBREQUESTS,
@@ -11,6 +12,7 @@ import worker, {
   MAX_MEMBERS_PER_RUN,
   MAX_SAFE_BATCH_SIZE,
   MAX_SAFE_CONCURRENCY,
+  priorityCategory,
   RETRY_INTERVAL_MINUTES,
   retryDelayMinutes,
   runWithConcurrency,
@@ -77,7 +79,7 @@ test('free capacity supports the current catalogue queue', () => {
   assert.equal(VERIFICATION_RUNS, 288)
   assert.equal(VERIFICATION_CAPACITY, 2304)
   assert.equal(MAX_HTTP_FETCHES_PER_RUN, 48)
-  assert.equal(MAX_D1_OPERATIONS_PER_RUN, 18)
+  assert.equal(MAX_D1_OPERATIONS_PER_RUN, 19)
   assert.ok(MAX_HTTP_FETCHES_PER_RUN < MAX_HTTP_SUBREQUESTS)
   assert.ok(MAX_D1_OPERATIONS_PER_RUN < MAX_INTERNAL_SUBREQUESTS)
   assert.equal(D1_OPERATIONS_PER_MEMBER, 2)
@@ -88,7 +90,7 @@ test('free capacity supports the current catalogue queue', () => {
     externalFetchesExpected: 756,
     externalFetchesWorstCase: 4536,
     httpSubrequestsPerInvocation: 48,
-    d1OperationsPerInvocation: 18,
+    d1OperationsPerInvocation: 19,
     targetHoursCapacity: 2304,
     withinTargetHours: true,
     spareCapacity: 1548
@@ -99,6 +101,56 @@ test('free capacity supports the current catalogue queue', () => {
   assert.equal(verificationCapacity(1000).withinTargetHours, true)
   assert.equal(verificationCapacity(2000).withinTargetHours, true)
   assert.equal(verificationCapacity(5000).withinTargetHours, false)
+})
+
+test('priority categories distinguish requested, new, retry and backlog members', () => {
+  const now = Date.parse('2026-10-21T12:00:00.000Z')
+  assert.equal(
+    priorityCategory(
+      { verification_requested_at: '2026-10-21T11:59:00.000Z' },
+      now
+    ),
+    'requested'
+  )
+  assert.equal(
+    priorityCategory(
+      { created_at: '2026-10-21T11:59:00.000Z', last_checked_at: null },
+      now
+    ),
+    'new'
+  )
+  assert.equal(
+    priorityCategory(
+      {
+        created_at: '2026-01-01T00:00:00.000Z',
+        last_checked_at: '2026-10-21T00:00:00.000Z',
+        consecutive_failures: 1
+      },
+      now
+    ),
+    'retry'
+  )
+  assert.equal(
+    priorityCategory(
+      { created_at: '2026-01-01T00:00:00.000Z', last_checked_at: null },
+      now
+    ),
+    'never_checked'
+  )
+})
+
+test('a previously failed installed member uses the retry lane', () => {
+  const fixture = {
+    name: 'RuggedScot',
+    canonical_url: 'https://ruggedscot.com/',
+    webring_id: 'br-1c678e1dee200ef836a9ee89e44c86eb',
+    last_checked_at: '2026-10-21T07:00:00.000Z',
+    consecutive_failures: 1
+  }
+  assert.equal(
+    priorityCategory(fixture, Date.parse('2026-10-21T12:00:00.000Z')),
+    'retry'
+  )
 })
 
 test('retry backoff starts at fifteen minutes and caps sensibly', () => {
@@ -234,6 +286,20 @@ test('queue query retries failures before the normal twenty-four-hour interval',
   assert.match(query, /-24 hours/)
   assert.match(query, /printf\(/)
   assert.match(query, /consecutive_failures > 0/)
-  assert.match(query, /ORDER BY CASE WHEN last_checked_at IS NULL THEN 0/)
+  assert.match(
+    query,
+    /ORDER BY CASE WHEN verification_requested_at IS NOT NULL THEN 0/
+  )
+  assert.match(query, /verification_requested_at IS NOT NULL/)
   assert.match(query, /created_at,\s*webring_id/)
+})
+
+test('ordinary slots cannot be consumed by the urgent queue lanes', () => {
+  const regularQuery = dueMembersQuery()
+  assert.match(
+    regularQuery,
+    /AND NOT \(\s*verification_requested_at IS NOT NULL/
+  )
+  assert.match(regularQuery, /last_checked_at IS NULL/)
+  assert.match(regularQuery, /consecutive_failures > 0/)
 })

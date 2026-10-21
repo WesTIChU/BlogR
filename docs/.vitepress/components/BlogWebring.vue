@@ -20,6 +20,7 @@ const props = defineProps({
 })
 const verified = ref(false)
 const copied = ref(false)
+const recheckState = ref('idle')
 const code = computed(() => widgetHtml(props.webringId))
 const registeredDomain = computed(() => {
   try {
@@ -114,6 +115,24 @@ const copyCode = async () => {
     copiedTimer = setTimeout(() => (copied.value = false), 1600)
   } catch {
     copied.value = false
+  }
+}
+
+const requestRecheck = async () => {
+  if (recheckState.value === 'requesting') return
+  recheckState.value = 'requesting'
+  try {
+    const response = await fetch(
+      `/api/webring/recheck?id=${encodeURIComponent(props.webringId)}`,
+      { method: 'POST' }
+    )
+    if (response.status === 202) {
+      recheckState.value = 'queued'
+      return
+    }
+    recheckState.value = response.status === 429 ? 'limited' : 'unavailable'
+  } catch {
+    recheckState.value = 'unavailable'
   }
 }
 
@@ -225,7 +244,33 @@ onBeforeUnmount(() => {
         </small>
         <small class="blog-webring-verification-note">
           Once you've installed the widget, BlogR will automatically check your
-          website. Verification may take a little while during busy periods.
+          website. Request another queued check after installing or updating it.
+        </small>
+        <button
+          type="button"
+          class="blog-webring-recheck"
+          :disabled="recheckState === 'requesting' || recheckState === 'queued'"
+          @click="requestRecheck"
+        >
+          {{
+            recheckState === 'requesting'
+              ? 'Requesting…'
+              : recheckState === 'queued'
+                ? 'Check queued'
+                : 'Request verification check'
+          }}
+        </button>
+        <small
+          v-if="recheckState === 'limited'"
+          class="blog-webring-recheck-message"
+        >
+          Please wait before requesting another check.
+        </small>
+        <small
+          v-if="recheckState === 'unavailable'"
+          class="blog-webring-recheck-message"
+        >
+          Verification requests are temporarily unavailable.
         </small>
         <a class="blog-webring-more-link" href="/webring/">
           Learn more about the BlogR Webring →
@@ -364,6 +409,19 @@ onBeforeUnmount(() => {
 }
 .blog-webring-popover button:hover {
   background: var(--vp-c-brand-2);
+}
+.blog-webring-popover button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+.blog-webring-recheck {
+  margin-top: 10px !important;
+  margin-bottom: 6px !important;
+}
+.blog-webring-recheck-message {
+  display: block;
+  color: var(--vp-c-text-2);
+  line-height: 1.45;
 }
 .blog-webring-install-label,
 .blog-webring-install-paths,

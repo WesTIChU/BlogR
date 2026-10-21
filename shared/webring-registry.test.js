@@ -85,6 +85,55 @@ test('handles invalid JSON responses for both query and batch requests', async (
   )
 })
 
+test('sends a single D1 query as an object and parses its result rows', async () => {
+  let request
+  const registry = createD1RegistryClient({
+    accountId: 'account',
+    databaseId: 'database',
+    apiToken: 'token',
+    fetchImpl: async (_url, init) => {
+      request = JSON.parse(init.body)
+      return jsonResponse({
+        success: true,
+        result: [{ results: [{ webring_id: 'br-test' }] }]
+      })
+    }
+  })
+  assert.deepEqual(await registry.query('SELECT ?', ['value']), [
+    { webring_id: 'br-test' }
+  ])
+  assert.deepEqual(request, { sql: 'SELECT ?', params: ['value'] })
+})
+
+test('sends multiple D1 statements using the supported batch object', async () => {
+  let request
+  const registry = createD1RegistryClient({
+    accountId: 'account',
+    databaseId: 'database',
+    apiToken: 'token',
+    fetchImpl: async (_url, init) => {
+      request = JSON.parse(init.body)
+      return jsonResponse({
+        success: true,
+        result: [{ meta: { changes: 1 } }, { meta: { changes: 1 } }]
+      })
+    }
+  })
+  assert.deepEqual(
+    await registry.batch([
+      { sql: 'UPDATE one SET value = ?', params: ['one'] },
+      { sql: 'UPDATE two SET value = ?', params: ['two'] }
+    ]),
+    [{ meta: { changes: 1 } }, { meta: { changes: 1 } }]
+  )
+  assert.deepEqual(request, {
+    batch: [
+      { sql: 'UPDATE one SET value = ?', params: ['one'] },
+      { sql: 'UPDATE two SET value = ?', params: ['two'] }
+    ]
+  })
+})
+
 test('rejects duplicate IDs and duplicate URLs with different IDs', () => {
   assert.throws(() =>
     planRegistrySync(

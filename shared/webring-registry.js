@@ -115,7 +115,7 @@ export const createD1RegistryClient = ({
           Authorization: `Bearer ${apiToken}`,
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify([{ sql, params }])
+        body: JSON.stringify({ sql, params })
       })
       const body = await readResponse(response, 'request')
       return body.result?.[0]?.results ?? []
@@ -127,9 +127,9 @@ export const createD1RegistryClient = ({
           Authorization: `Bearer ${apiToken}`,
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(
-          statements.map(({ sql, params = [] }) => ({ sql, params }))
-        )
+        body: JSON.stringify({
+          batch: statements.map(({ sql, params = [] }) => ({ sql, params }))
+        })
       })
       const body = await readResponse(response, 'batch request')
       return body.result ?? []

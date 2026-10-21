@@ -922,6 +922,14 @@ test('catalogue generation is limited to data and known generated pages', () => 
   assert.equal(files.length, taxonomy.categories.length + 3)
 })
 
+test('approval workflow explicitly preserves Webring output during generation', async () => {
+  const workflow = await readFile(
+    '.github/workflows/process-approved-blog-submission.yml',
+    'utf8'
+  )
+  assert.match(workflow, /VITE_WEBRING_PUBLIC_ENABLED:\s*['"]true['"]?/)
+})
+
 test('approval catalogue files include only the submission pages and its country page', () => {
   const files = catalogueFiles(taxonomy, {
     category: 'arts-and-entertainment',

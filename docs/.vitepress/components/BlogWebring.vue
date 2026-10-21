@@ -1,6 +1,14 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { SHOW_WEBRING, widgetHtml } from '../../../shared/webring.js'
+import {
+  expectedWidgetLinks,
+  SHOW_WEBRING,
+  WEBRING_BASIC_THEMES,
+  WEBRING_WIDGET_IMAGE_URLS,
+  WEBRING_WIDGET_PREVIEW_IMAGE_URLS,
+  webringBasicLabels,
+  widgetHtmlForDesign
+} from '../../../shared/webring.js'
 import {
   activeWebringPopup,
   closeWebringPopup,
@@ -17,7 +25,18 @@ const props = defineProps({
 const verified = ref(false)
 const copied = ref(false)
 const recheckState = ref('idle')
-const code = computed(() => widgetHtml(props.webringId))
+const selectedDesign = ref('basic')
+const basicStyle = ref('classic')
+const basicThemeLabels = computed(() => webringBasicLabels(basicStyle.value))
+const code = computed(() =>
+  widgetHtmlForDesign(
+    props.webringId,
+    selectedDesign.value === 'basic'
+      ? `basic-${basicStyle.value}`
+      : selectedDesign.value
+  )
+)
+const widgetLinks = computed(() => expectedWidgetLinks(props.webringId))
 const registeredDomain = computed(() => {
   try {
     return new URL(props.websiteUrl).hostname
@@ -68,7 +87,7 @@ const updatePosition = async () => {
     listingLinkRect?.left ?? contentRect?.left ?? leftBoundary
   )
   const availableWidth = Math.max(0, rightBoundary - contentLeft)
-  const width = Math.min(720, availableWidth || window.innerWidth - margin * 2)
+  const width = Math.min(850, availableWidth || window.innerWidth - margin * 2)
 
   positionStyle.value = {
     width: `${width}px`,
@@ -78,7 +97,10 @@ const updatePosition = async () => {
   await nextTick()
 
   const popupHeight = popover.value.getBoundingClientRect().height
-  const preferredLeft = contentLeft
+  const preferredLeft = Math.max(
+    leftBoundary,
+    (leftBoundary + rightBoundary - width) / 2
+  )
   const leftOfTrigger = triggerRect.right - width
   const left =
     preferredLeft + width <= rightBoundary
@@ -229,6 +251,108 @@ onBeforeUnmount(() => {
             {{ registeredDomain }}
           </span>
         </small>
+        <fieldset class="blog-webring-design-selector">
+          <legend>Choose your Webring widget</legend>
+          <label class="blog-webring-design-option">
+            <input v-model="selectedDesign" type="radio" value="image-blog" />
+            <img
+              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog"
+              alt="Blog Webring widget design"
+            />
+            <span>Image 1</span>
+          </label>
+          <label class="blog-webring-design-option">
+            <input v-model="selectedDesign" type="radio" value="image-globe" />
+            <img
+              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe"
+              alt="Globe Webring widget design"
+            />
+            <span>Image 2</span>
+          </label>
+          <div class="blog-webring-design-option blog-webring-basic-option">
+            <label>
+              <input v-model="selectedDesign" type="radio" value="basic" />
+              Basic Links
+            </label>
+            <span class="blog-webring-basic-preview">
+              <a :href="widgetLinks.previous" aria-label="Previous">
+                {{ basicThemeLabels.previous }}
+              </a>
+              ·
+              <a :href="widgetLinks.random" aria-label="Random">
+                {{ basicThemeLabels.random }}
+              </a>
+              ·
+              <a :href="widgetLinks.next" aria-label="Next">
+                {{ basicThemeLabels.next }}
+              </a>
+            </span>
+            <label
+              v-if="selectedDesign === 'basic'"
+              class="blog-webring-basic-styles"
+            >
+              <span>Theme</span>
+              <select v-model="basicStyle" aria-label="Basic Links theme">
+                <option
+                  v-for="(_, theme) in WEBRING_BASIC_THEMES"
+                  :key="theme"
+                  :value="theme"
+                >
+                  {{
+                    theme === 'retro'
+                      ? 'Retro Web'
+                      : theme[0].toUpperCase() + theme.slice(1)
+                  }}
+                </option>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+        <div class="blog-webring-live-preview">
+          <small>Preview</small>
+          <div
+            v-if="
+              selectedDesign === 'image-blog' ||
+              selectedDesign === 'image-globe'
+            "
+            class="blogr-webring-widget blog-webring-image-preview"
+          >
+            <img
+              :src="
+                selectedDesign === 'image-blog'
+                  ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog
+                  : WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe
+              "
+              alt="BlogR Webring widget preview"
+            />
+            <nav aria-label="BlogR Webring preview" @click.prevent>
+              <a :href="widgetLinks.previous" aria-label="Previous">
+                {{ basicThemeLabels.previous }}
+              </a>
+              ·
+              <a :href="widgetLinks.random" aria-label="Random">
+                {{ basicThemeLabels.random }}
+              </a>
+              ·
+              <a :href="widgetLinks.next" aria-label="Next">
+                {{ basicThemeLabels.next }}
+              </a>
+            </nav>
+          </div>
+          <nav v-else aria-label="BlogR Webring preview" @click.prevent>
+            <a :href="widgetLinks.previous">
+              {{ basicThemeLabels.previous }}
+            </a>
+            ·
+            <a :href="widgetLinks.random">
+              {{ basicThemeLabels.random }}
+            </a>
+            ·
+            <a :href="widgetLinks.next">
+              {{ basicThemeLabels.next }}
+            </a>
+          </nav>
+        </div>
         <code v-text="code"></code>
         <button type="button" @click="copyCode">
           {{ copied ? 'Copied!' : 'Copy Code' }}
@@ -304,9 +428,11 @@ onBeforeUnmount(() => {
   z-index: 1001;
   top: 0;
   left: 0;
-  width: min(720px, calc(100vw - 2rem));
+  width: min(850px, calc(100vw - 2rem));
   max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 24px);
   box-sizing: border-box;
+  overflow-y: auto;
   padding: 18px;
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-divider);
@@ -368,6 +494,103 @@ onBeforeUnmount(() => {
 .blog-webring-registered-domain {
   display: block;
   margin-top: 6px;
+}
+.blog-webring-design-selector {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin: 0 0 10px;
+  padding: 0;
+  border: 0;
+}
+.blog-webring-design-selector legend {
+  width: 100%;
+  margin-bottom: 5px;
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+}
+.blog-webring-design-option {
+  display: flex;
+  min-width: 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+}
+.blog-webring-design-option input {
+  flex: 0 0 auto;
+  margin: 0;
+}
+.blog-webring-design-option img {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+.blog-webring-basic-option {
+  display: block;
+}
+.blog-webring-basic-preview {
+  display: block;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+  font-size: 0.75rem;
+}
+.blog-webring-basic-preview a {
+  color: var(--vp-c-brand-1);
+}
+.blog-webring-basic-styles {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  font-size: 0.75rem;
+}
+.blog-webring-basic-styles select {
+  min-width: 118px;
+  padding: 2px 5px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 2px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font: inherit;
+}
+.blog-webring-live-preview {
+  display: flex;
+  min-height: 34px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 0 10px;
+  padding: 5px 7px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  overflow-wrap: anywhere;
+}
+.blog-webring-live-preview > small {
+  flex: 0 0 auto;
+  color: var(--vp-c-text-2);
+}
+.blog-webring-image-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.blog-webring-image-preview img {
+  width: min(220px, 100%);
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+.blog-webring-live-preview nav {
+  line-height: 1.35;
+}
+.blog-webring-live-preview a {
+  color: var(--vp-c-brand-1);
 }
 .blog-webring-popover code {
   display: block;
@@ -442,5 +665,13 @@ onBeforeUnmount(() => {
 }
 .blog-webring-popover small {
   line-height: 1.35;
+}
+@media (max-width: 560px) {
+  .blog-webring-design-selector {
+    grid-template-columns: 1fr;
+  }
+  .blog-webring-design-option img {
+    width: 110px;
+  }
 }
 </style>

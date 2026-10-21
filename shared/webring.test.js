@@ -15,7 +15,10 @@ import {
   canonicalWebringUrl,
   expectedWidgetLinks,
   isValidWebringId,
-  widgetHtml
+  WEBRING_WIDGET_IMAGE_URLS,
+  WEBRING_WIDGET_PREVIEW_IMAGE_URLS,
+  widgetHtml,
+  widgetHtmlForDesign
 } from './webring.js'
 
 const all = [...blogs, ...websites, ...communities]
@@ -43,6 +46,113 @@ test('widget contains three genuine navigation anchors with the membership ID', 
   )
   for (const link of Object.values(links))
     assert.match(html, new RegExp(link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')))
+})
+
+test('all widget designs keep the verified navigation links', () => {
+  const id = 'br-0123456789abcdef0123456789abcdef'
+  for (const design of [
+    'image-blog',
+    'image-globe',
+    'basic-emoji',
+    'basic-plain'
+  ]) {
+    const html = widgetHtmlForDesign(id, design)
+    assert.equal(validateInstallationHtml(html, id), true)
+    if (design === 'image-blog') {
+      assert.match(html, /blog-orange\.png/)
+      assert.doesNotMatch(html, /globe-orange\.png/)
+      assert.match(html, /width="220" height="88"/)
+    } else if (design === 'image-globe') {
+      assert.match(html, /globe-orange\.png/)
+      assert.doesNotMatch(html, /blog-orange\.png/)
+      assert.match(html, /width="220" height="88"/)
+      assert.match(html, /alt="BlogR Webring"/)
+    } else if (design === 'basic-emoji') {
+      assert.match(html, /⬅️ Previous.*🎲 Random.*Next ➡️/s)
+      assert.doesNotMatch(html, /<img /)
+    } else {
+      assert.match(html, /Previous.*Random.*Next/s)
+      assert.doesNotMatch(html, /⬅️|🎲|➡️|<img /)
+    }
+  }
+})
+
+test('local previews use public assets while embed code uses absolute assets', () => {
+  assert.deepEqual(WEBRING_WIDGET_PREVIEW_IMAGE_URLS, {
+    blog: '/images/web-ring-images/blog-orange.png',
+    globe: '/images/web-ring-images/globe-orange.png'
+  })
+  assert.match(
+    widgetHtmlForDesign('br-0123456789abcdef0123456789abcdef', 'image-blog'),
+    new RegExp(
+      WEBRING_WIDGET_IMAGE_URLS.blog.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    )
+  )
+})
+
+test('basic themes keep emojis inside accessible navigation links', () => {
+  const id = 'br-0123456789abcdef0123456789abcdef'
+  const themes = {
+    plain: ['', '', ''],
+    classic: ['⬅️ ', '🎲 ', ' ➡️'],
+    christmas: ['🎄 ', '🎁 ', ' 🎅'],
+    halloween: ['🎃 ', '👻 ', ' 🦇'],
+    zombie: ['🧟 ', '🧠 ', ' 🪦'],
+    gaming: ['🎮 ', '🕹️ ', ' 👾'],
+    autumn: ['🍂 ', '🍁 ', ' 🌰'],
+    nature: ['🌿 ', '🌻 ', ' 🦋'],
+    space: ['🚀 ', '🪐 ', ' 🌌'],
+    cats: ['🐈 ', '🐾 ', ' 🐈‍⬛'],
+    retro: ['💾 ', '💿 ', ' 🖥️']
+  }
+  for (const [theme, [previous, random, next]] of Object.entries(themes)) {
+    const html = widgetHtmlForDesign(id, `basic-${theme}`)
+    assert.match(
+      html,
+      new RegExp(`<a[^>]*aria-label="Previous"[^>]*>${previous}Previous</a>`)
+    )
+    assert.match(
+      html,
+      new RegExp(`<a[^>]*aria-label="Random"[^>]*>${random}Random</a>`)
+    )
+    assert.match(
+      html,
+      new RegExp(`<a[^>]*aria-label="Next"[^>]*>Next${next}</a>`)
+    )
+    assert.equal(validateInstallationHtml(html, id), true)
+  }
+})
+
+test('every widget design remains compatible with exact Webring verification', () => {
+  const id = 'br-0123456789abcdef0123456789abcdef'
+  const expected = expectedWidgetLinks(id)
+  const designs = [
+    'image-blog',
+    'image-globe',
+    'basic-plain',
+    ...[
+      'classic',
+      'christmas',
+      'halloween',
+      'zombie',
+      'gaming',
+      'autumn',
+      'nature',
+      'space',
+      'cats',
+      'retro'
+    ].map((theme) => `basic-${theme}`)
+  ]
+
+  for (const design of designs) {
+    const html = widgetHtmlForDesign(id, design)
+    const links = [...html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>/g)].map(
+      ([, href]) => href
+    )
+    assert.deepEqual(links, Object.values(expected), design)
+    assert.equal(validateInstallationHtml(html, id), true, design)
+    assert.doesNotMatch(html, /<script\b|\bon(?:click|load)\s*=/i, design)
+  }
 })
 
 test('verification rejects missing links, forged IDs and non-anchor text', () => {

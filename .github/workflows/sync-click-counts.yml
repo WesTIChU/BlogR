@@ -46,13 +46,18 @@ jobs:
             echo 'Click counts did not change.'
             exit 0
           fi
-          staged_files="$(git diff --cached --name-only)"
-          expected=$'data/blogs.json\ndata/websites.json'
-          if [[ "$staged_files" != "$expected" ]]; then
-            echo 'Refusing to publish files other than catalogue count outputs.' >&2
-            git diff --cached --name-status >&2
-            exit 1
-          fi
+          mapfile -t staged_files < <(git diff --cached --name-only)
+          for file in "${staged_files[@]}"; do
+            case "$file" in
+              data/blogs.json|data/websites.json) ;;
+              *)
+                echo "Refusing to publish unexpected file: $file" >&2
+                git diff --cached --name-status >&2
+                exit 1
+                ;;
+            esac
+          done
+          node scripts/validate-click-count-changes.js
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'Sync outbound click counts'

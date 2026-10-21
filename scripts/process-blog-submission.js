@@ -717,6 +717,7 @@ export function buildCommunityEntry(submission, addedDate, addedAt) {
     favourite: false,
     noLongerUpdated: false,
     addedDate,
+    clicks: 0,
     addedAt,
     ...(submission.rssUrl ? { rssUrl: submission.rssUrl } : {})
   }

@@ -870,13 +870,13 @@ test('places Arsenal Mania in alphabetical order among Football & Sports communi
     markdown.indexOf('\n## ', markdown.indexOf('## Football & Sports') + 3)
   )
   const actual = expected.map((name) =>
-    footballSection.indexOf(`<strong>${name}</strong>`)
+    footballSection.indexOf(`name="${name}"`)
   )
   assert.deepEqual(
     actual,
     [...actual].sort((a, b) => a - b)
   )
-  assert.match(footballSection, /<strong>Arsenal Mania<\/strong>/)
+  assert.match(footballSection, /name="Arsenal Mania"/)
 })
 
 test('sorts community categories alphabetically by display title', () => {

@@ -146,7 +146,7 @@ const line = (blog) =>
 const renderBlogEntries = (entries) => entries.map(line).join('\n')
 
 const communityLine = (community) =>
-  `* <a href="${attribute(community.url)}" target="_blank" rel="noopener noreferrer"><strong>${attribute(community.name)}</strong></a> - ${community.description}${renderBlogDetails({ ...community, community: true })}`
+  `* <span class="blog-entry"><BlogHealthLink name="${attribute(community.name)}" url="${attribute(community.url)}" :clicks="${Number(community.clicks) || 0}" /> - ${attribute(community.description)}</span>${renderBlogDetails({ ...community, community: true })}`
 
 const renderSections = (sections) =>
   sections

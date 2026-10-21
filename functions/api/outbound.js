@@ -1,6 +1,6 @@
 import { canonicalBlogUrl } from '../../shared/blog-duplicate.js'
 import { blogs } from '../../shared/blogr-function-data.js'
-import { websites } from '../../shared/cloudflare-function-data.js'
+import { communities, websites } from '../../shared/cloudflare-function-data.js'
 
 /* global Response, URL */
 
@@ -8,7 +8,7 @@ const RATE_WINDOW_MS = 60_000
 const RATE_LIMIT = 60
 const rateBuckets = new Map()
 const listedUrls = new Map(
-  [...blogs, ...websites].map((entry) => [
+  [...blogs, ...websites, ...communities].map((entry) => [
     canonicalBlogUrl(entry.url),
     entry.url
   ])

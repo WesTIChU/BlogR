@@ -8,6 +8,12 @@ const required = (name) => {
   return value
 }
 
+export const DEFAULT_CLICK_COUNT_PATHS = [
+  'data/blogs.json',
+  'data/websites.json',
+  'data/communities.json'
+]
+
 export async function fetchClickCounts({ token, accountId, databaseId }) {
   const response = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(accountId)}/d1/database/${encodeURIComponent(databaseId)}/query`,
@@ -46,7 +52,7 @@ export function applyClickCounts(entries, counts) {
 
 export async function syncClickCounts({
   counts,
-  paths = ['data/blogs.json', 'data/websites.json']
+  paths = DEFAULT_CLICK_COUNT_PATHS
 }) {
   for (const path of paths) {
     const entries = JSON.parse(await readFile(resolve(path), 'utf8'))

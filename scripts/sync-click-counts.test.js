@@ -1,6 +1,10 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { applyClickCounts, fetchClickCounts } from './sync-click-counts.js'
+import {
+  applyClickCounts,
+  DEFAULT_CLICK_COUNT_PATHS,
+  fetchClickCounts
+} from './sync-click-counts.js'
 
 test('applies one D1 total to duplicate catalogue listings', () => {
   const entries = [
@@ -19,6 +23,19 @@ test('applies one D1 total to duplicate catalogue listings', () => {
     result.map(({ clicks }) => clicks),
     [12, 12, 0]
   )
+})
+
+test('synchronizes all three catalogues', () => {
+  assert.deepEqual(DEFAULT_CLICK_COUNT_PATHS, [
+    'data/blogs.json',
+    'data/websites.json',
+    'data/communities.json'
+  ])
+  const result = applyClickCounts(
+    [{ id: 'forum', url: 'https://forums.example/' }],
+    new Map([['https://forums.example/', 7]])
+  )
+  assert.equal(result[0].clicks, 7)
 })
 
 test('rejects unsuccessful D1 responses', async () => {

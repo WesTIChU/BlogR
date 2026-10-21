@@ -33,6 +33,30 @@ test('tracks a listed URL and redirects to the original destination', async () =
   assert.equal(bound[0], 'https://wheelsbot.dev/')
 })
 
+test('tracks a listed community URL through the same D1 counter', async () => {
+  let boundKey
+  const env = {
+    OUTBOUND_CLICKS: {
+      prepare() {
+        return {
+          bind(key) {
+            boundKey = key
+            return { run: async () => ({ success: true }) }
+          }
+        }
+      }
+    }
+  }
+  const response = await onRequestGet({
+    request: new Request(
+      'https://blogr.directory/api/outbound?url=https%3A%2F%2Fforums.overclockers.co.uk%2F'
+    ),
+    env
+  })
+  assert.equal(response.status, 302)
+  assert.equal(boundKey, 'https://forums.overclockers.co.uk/')
+})
+
 test('rejects unlisted destinations without touching D1', async () => {
   let called = false
   const response = await onRequestGet({

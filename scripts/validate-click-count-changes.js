@@ -1,6 +1,10 @@
 import { execFileSync } from 'node:child_process'
 
-export const CLICK_COUNT_FILES = ['data/blogs.json', 'data/websites.json']
+export const CLICK_COUNT_FILES = [
+  'data/blogs.json',
+  'data/websites.json',
+  'data/communities.json'
+]
 export const ALLOWED_CLICK_FIELDS = new Set(['clicks'])
 
 const withoutClickFields = (entry) => {

@@ -49,7 +49,10 @@ test('workflow allows either catalogue file without requiring both', async () =>
     'utf8'
   )
   assert.match(workflow, /mapfile -t staged_files/)
-  assert.match(workflow, /data\/blogs\.json\|data\/websites\.json/)
+  assert.match(
+    workflow,
+    /data\/blogs\.json\|data\/websites\.json\|data\/communities\.json/
+  )
   assert.doesNotMatch(
     workflow,
     /expected=\$'data\/blogs\.json\\ndata\/websites\.json'/

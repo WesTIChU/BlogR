@@ -40,7 +40,7 @@ jobs:
           set -euo pipefail
           default_branch='${{ github.event.repository.default_branch }}'
           remote_ref="refs/remotes/origin/${default_branch}"
-          update_files=(data/blogs.json data/websites.json)
+          update_files=(data/blogs.json data/websites.json data/communities.json)
           git add "${update_files[@]}"
           if git diff --cached --quiet; then
             echo 'Click counts did not change.'
@@ -49,7 +49,7 @@ jobs:
           mapfile -t staged_files < <(git diff --cached --name-only)
           for file in "${staged_files[@]}"; do
             case "$file" in
-              data/blogs.json|data/websites.json) ;;
+              data/blogs.json|data/websites.json|data/communities.json) ;;
               *)
                 echo "Refusing to publish unexpected file: $file" >&2
                 git diff --cached --name-status >&2

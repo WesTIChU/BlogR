@@ -32,9 +32,9 @@ body:
         - 'Digital Archives'
         - 'Independent Tools'
         - 'Creative Projects'
-        - 'Guides & Resources'
         - 'Fansites'
         - 'Webrings'
+        - 'Guides & Resources'
         # END GENERATED INDEPENDENT WEB CATEGORIES
     validations: { required: true }
   - type: input

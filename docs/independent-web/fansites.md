@@ -2,8 +2,8 @@
 title: Fansites
 description: Fan-made archives and tributes celebrating favourite games, stories, characters and communities.
 prev:
-  text: Guides & Resources
-  link: /independent-web/guides-and-resources
+  text: Creative Projects
+  link: /independent-web/creative-projects
 next:
   text: Webrings
   link: /independent-web/webrings

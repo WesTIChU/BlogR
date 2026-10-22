@@ -2,11 +2,9 @@
 title: Guides & Resources
 description: Practical guides, tutorials, explainers and useful everyday resources shared on the independent web.
 prev:
-  text: Creative Projects
-  link: /independent-web/creative-projects
-next:
-  text: Fansites
-  link: /independent-web/fansites
+  text: Webrings
+  link: /independent-web/webrings
+next: false
 ---
 
 <script setup>

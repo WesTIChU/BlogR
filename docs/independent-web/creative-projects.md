@@ -5,8 +5,8 @@ prev:
   text: Independent Tools
   link: /independent-web/independent-tools
 next:
-  text: Guides & Resources
-  link: /independent-web/guides-and-resources
+  text: Fansites
+  link: /independent-web/fansites
 ---
 
 <script setup>

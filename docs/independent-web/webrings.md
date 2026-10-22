@@ -4,7 +4,9 @@ description: Webrings and ring hubs that connect independent sites through share
 prev:
   text: Fansites
   link: /independent-web/fansites
-next: false
+next:
+  text: Guides & Resources
+  link: /independent-web/guides-and-resources
 ---
 
 <script setup>

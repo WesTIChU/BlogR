@@ -36,12 +36,6 @@
     "subcategories": ["Experimental Projects"]
   },
   {
-    "slug": "guides-and-resources",
-    "title": "Guides & Resources",
-    "icon": "📚",
-    "subcategories": ["How-To & Tutorials"]
-  },
-  {
     "slug": "fansites",
     "title": "Fansites",
     "icon": "🎮",
@@ -52,5 +46,11 @@
     "title": "Webrings",
     "icon": "🔗",
     "subcategories": ["Webring Hubs"]
+  },
+  {
+    "slug": "guides-and-resources",
+    "title": "Guides & Resources",
+    "icon": "📖",
+    "subcategories": ["How-To & Tutorials"]
   }
 ]

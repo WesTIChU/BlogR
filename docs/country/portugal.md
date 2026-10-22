@@ -1,19 +1,25 @@
 ---
 title: Portugal Blogs
-description: 2 blogs listed in Portugal.
+description: 3 blogs listed in Portugal.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇵🇹" name="Portugal" :count="2" />
+<CountryDirectoryHeader flag="🇵🇹" name="Portugal" :count="3" />
+
+## Guides & Resources
+
+### How-To & Tutorials
+
+* <span class="blog-entry"><BlogHealthLink name="HowTos.video" url="https://howtos.video/" /> - A collection of practical how-to guides covering home DIY, crafts, cooking, gardening, pets and everyday technology, combining short tutorial videos with written step-by-step instructions.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://howtos.video/" data-blog-name="HowTos.video"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/portugal" aria-label="Based in Portugal"><span class="blog-country-flag" aria-hidden="true">🇵🇹</span> Portugal</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;22 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-ca427686434e745f644d38d0469dc4a0" website-url="https://howtos.video/" website-name="HowTos.video" /></span>
 
 ## Technology
 
 ### Internet & Web Technology
 
-* <span class="blog-entry"><BlogHealthLink name="Tao of Mac" url="https://taoofmac.com/" /> - Rui Carmo’s long-running personal site covers Apple, macOS, hardware, open-source tools, homelabs, programming, reviews, projects and observations about technology.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://taoofmac.com/" data-blog-name="Tao of Mac"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/portugal" aria-label="Based in Portugal"><span class="blog-country-flag" aria-hidden="true">🇵🇹</span> Portugal</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;22 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-f2f9b6fea2ad11c68d7351f500ab31d2" website-url="https://taoofmac.com/" website-name="Tao of Mac" /></span>
+* <span class="blog-entry"><BlogHealthLink name="Tao of Mac" url="https://taoofmac.com/" /> - Rui Carmo’s long-running personal site covers Apple, macOS, hardware, open-source tools, homelabs, programming, reviews, projects and observations about technology.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://taoofmac.com/" data-blog-name="Tao of Mac"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://taoofmac.com/atom.xml" target="_blank" rel="noopener noreferrer" title="RSS feed for Tao of Mac" aria-label="RSS feed for Tao of Mac"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/portugal" aria-label="Based in Portugal"><span class="blog-country-flag" aria-hidden="true">🇵🇹</span> Portugal</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;22 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-f2f9b6fea2ad11c68d7351f500ab31d2" website-url="https://taoofmac.com/" website-name="Tao of Mac" /></span>
 
 ## Travel & Outdoors
 

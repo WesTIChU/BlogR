@@ -56,13 +56,13 @@
   },
   "http://www.galactichunter.com/GH/": {
     "status": "success",
-    "lastPublished": "2026-09-28",
-    "feedUrl": "http://www.galactichunter.com/gh/crss",
+    "lastPublished": "2026-10-20",
+    "feedUrl": "http://www.galactichunter.com/GH/rss.xml",
     "latestArticle": {
-      "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
-      "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
-      "publishedAt": "2026-09-28T13:18:14.000Z"
+      "title": "Star Wars Figure of the Day: Day 3,390: Devon Izara (The Vintage Collection)",
+      "url": "http://www.galactichunter.com/GH/story/star-wars-figure-day-day-3390-devon-izara-vintage-collection",
+      "summary": "Via the Star Wars Galactic Hunter Figure of the Day Blog: Devon Izara (The Vintage Collection) . This figure turned out well, taking the Maul - Shadow Lord character and making something that turned …",
+      "publishedAt": "2026-10-20T16:48:40.000Z"
     }
   },
   "http://www.kidfenris.com/": {
@@ -415,7 +415,7 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -587,13 +587,13 @@
   },
   "https://bennevis.co.uk/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
-      "title": "Lochaber Mountain Rescue Team Breaks its Callout Record",
-      "url": "https://bennevis.co.uk/lochaber-mountain-rescue-team-breaks-its-callout-record/",
-      "summary": "Anyone who has spent time on Ben Nevis will know that the volunteers of Lochaber Mountain Rescue Team are never far away, although this year they have been kept busier than at any point in their hist…",
-      "publishedAt": "2026-10-20T18:08:50.000Z"
+      "title": "Trading the Classroom for the Crag: How Outdoor Education and  Flexible Schooling Transform Pupil Engagement",
+      "url": "https://bennevis.co.uk/trading-the-classroom-for-the-crag-how-outdoor-education-and-flexible-schooling-transform-pupil-engagement/",
+      "summary": "There is a profound difference between reading about glacial erosion in a textbook and standing in the shadow of Ben Nevis, seeing the raw, dramatic geography of the Scottish Highlands firsthand. For…",
+      "publishedAt": "2026-10-22T15:22:31.000Z"
     }
   },
   "https://betterprogramming.pub/": {
@@ -647,10 +647,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 278/365 - Taking a quick shot before...",
-      "url": "https://bits.gobino.be/posts/2026-10-22-278365-taking",
-      "summary": "📷 278/365 - Taking a quick shot before being run over by bikes.",
-      "publishedAt": "2026-10-22T14:10:30.000Z"
+      "title": "😢 This makes me sad...",
+      "url": "https://bits.gobino.be/posts/2026-10-22-this-makes-me",
+      "summary": "😢 This makes me sad. They made such great games. I spent hours playing Knights of the old Republic and Mass effect. https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "publishedAt": "2026-10-22T15:17:43.000Z"
     }
   },
   "https://bitterandblue.sbnation.com/": {
@@ -1189,6 +1189,17 @@
       "publishedAt": "2026-04-01T00:01:00.000Z"
     }
   },
+  "https://companionsfan.cz/en/": {
+    "status": "success",
+    "lastPublished": "2026-10-21",
+    "feedUrl": "https://companionsfan.cz/rss.php?lang=en",
+    "latestArticle": {
+      "title": "Android 1.7.0 — a major audio update",
+      "url": "https://companionsfan.cz/en/news/android-170-oct21/",
+      "summary": "21 Oct 2026: Siaržuk announced Android 1.7.0 with AI-powered echo cancellation, audio processing modes, manual microphone selection and music for Valentine. Rolling out gradually.",
+      "publishedAt": "2026-10-21T19:44:14.000Z"
+    }
+  },
   "https://computerhistory.org/": {
     "status": "success",
     "lastPublished": "2026-10-10",
@@ -1371,7 +1382,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1414,7 +1425,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1544,13 +1555,13 @@
   },
   "https://drwho.virtadpt.net/": {
     "status": "success",
-    "lastPublished": "2026-09-30",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
-      "title": "Upgrading Huginn",
-      "url": "https://drwho.virtadpt.net/archive/2026-09-30/upgrading-huginn/",
-      "summary": "A few weeks ago I realized in mid-act that I hadn't gotten around to writing something I'd intended to some years ago - how to upgrade Huginn if you're running it in a reasonably pedestrian (read: no…",
-      "publishedAt": "2026-09-30T07:00:00.000Z"
+      "title": "Pictures from when I went on retreat in 2025.",
+      "url": "https://drwho.virtadpt.net/archive/2026-10-22/retreat-2025/",
+      "summary": "At least once a year I try to go on retreat for a couple of days to clear my head by becoming a hermit for a little while. I try to get off the grid far enough that I can walk around, explore, take p…",
+      "publishedAt": "2026-10-22T07:00:00.000Z"
     }
   },
   "https://dysonlogos.blog/": {
@@ -1784,7 +1795,7 @@
     }
   },
   "https://galacticjourney.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
@@ -1795,7 +1806,7 @@
     }
   },
   "https://gallistead.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-11",
     "feedUrl": "https://gallistead.com/feed/",
     "latestArticle": {
@@ -1886,7 +1897,7 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
@@ -1929,13 +1940,13 @@
   },
   "https://greg.org/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://greg.org/feed",
     "latestArticle": {
-      "title": "Constable Six Foot Sketches",
-      "url": "https://greg.org/archive/2026/10/21/constable-six-foot-sketches.html",
-      "summary": "A thing I learned about John Constable from Tyler Green’s conversation with the curators of the Yale Center for British Art’s new show of Constable’s landscapes: Constable made full-scale studies in …",
-      "publishedAt": "2026-10-21T21:26:22.000Z"
+      "title": "It’s Rauschenberg Time",
+      "url": "https://greg.org/archive/2026/10/22/its-rauschenberg-time.html",
+      "summary": "To mark the 101st anniversary of Robert Rauschenberg’s birth today, @davidhudson posted the 1967 Time Magazine cover Rauschenberg designed around Arthur Penn’s film, Bonnie & Clyde. Which is far more…",
+      "publishedAt": "2026-10-22T14:54:23.000Z"
     }
   },
   "https://gregalder.com/yardposts/": {
@@ -2117,10 +2128,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Ranking #66 singles, U.S. edition: 2002-2008",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/21/ranking-66-singles-u-s-edition-2002-2008/",
-      "summary": "One of the decade’s strongest tracks on a great hip-hop artist’s album and a merely good imperial-era Jay-Z track, yet I gave top honors to “Take Me Out.” A little older than the college students I w…",
-      "publishedAt": "2026-10-22T00:01:32.000Z"
+      "title": "On the power of John Anderson’s yarl",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/22/on-the-power-of-john-andersons-yarl/",
+      "summary": "How I would have heard “Money in the Bank” in the wild thirty years ago breaks my brain; but this John Anderson hit, a #1 country single during the second act of a mighty career, introduced me to the…",
+      "publishedAt": "2026-10-22T15:17:15.000Z"
     }
   },
   "https://humbledollar.com/": {
@@ -2251,9 +2262,9 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17502758/foss-weekly-26-43",
-      "summary": "A new kernel and a new Ubuntu release are here.",
-      "publishedAt": "2026-10-22T13:19:30.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17502832/beamfs-linux-filesystem-proposal",
+      "summary": "Aimed at hardware exposed to radiation, like satellites, BeamFS can repair data without keeping a second copy.",
+      "publishedAt": "2026-10-22T14:39:35.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -2820,7 +2831,7 @@
     }
   },
   "https://londonreconnections.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
@@ -2834,10 +2845,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Film review: The Crowd at London Breeze Film Festival",
-      "url": "https://loureviews.blog/2026/10/22/film-review-the-crowd-at-london-breeze-film-festival/",
-      "summary": "The London Breeze Film Festival, running from October 21-25, features the UK premiere of Sahand Kabiri's debut film, The Crowd (Jama'at). Set in Iran, it explores themes of censorship, family respons…",
-      "publishedAt": "2026-10-22T12:19:06.000Z"
+      "title": "Julia Fischer Plays Brahms at the Royal Festival Hall – rehearsal and performance",
+      "url": "https://loureviews.blog/2026/10/22/julia-fischer-plays-brahms-at-the-royal-festival-hall-rehearsal-and-performance/",
+      "summary": "The review reflects on a recent performance by the London Philharmonic Orchestra, featuring Julia Fischer's interpretation of Brahms' Violin Concerto and Tchaikovsky's Manfred Symphony, conducted by …",
+      "publishedAt": "2026-10-22T15:29:32.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3181,7 +3192,7 @@
     }
   },
   "https://moxiemoshpit.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://moxiemoshpit.com/feed/",
     "latestArticle": {
@@ -3270,13 +3281,13 @@
   },
   "https://neveenwood.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "Best Korean Skincare for Sensitive Skin: 6 Gentle Picks for Dry, Easily Irritated Skin",
-      "url": "https://neveenwood.com/korean-skincare-for-sensitive-skin/",
-      "summary": "The best Korean skincare for sensitive skin that is not rosacea: six gentle, fragrance-free picks for dry, easily irritated skin, every ingredient list checked, plus where to buy them with my codes.",
-      "publishedAt": "2026-10-21T13:08:26.000Z"
+      "title": "Dr.Althea 345 Relief Cream Review: New Formula (Ver.2) vs Old, Every Ingredient Checked",
+      "url": "https://neveenwood.com/dr-althea-345-relief-cream-review/",
+      "summary": "My Dr.Althea 345 Relief Cream review: the new tea tree formula vs the old one, whether it suits rosacea, which version is fungal acne safe, how to tell them apart on the box, and where to buy it with…",
+      "publishedAt": "2026-10-22T14:50:14.000Z"
     }
   },
   "https://nintil.com/": {
@@ -3333,10 +3344,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "Perfume at heart x 3",
-      "url": "https://nstperfume.com/2026/10/22/perfume-at-heart-x-3/",
-      "summary": "Three long videos from Guerlain. First up, 24 minutes with perfumer Thierry Wasser, then below the jump, 22ish minutes with perfumer Delphine Jelk, followed by 16 minutes with Production Manager Paul…",
-      "publishedAt": "2026-10-22T14:12:01.000Z"
+      "title": "The daily lemming",
+      "url": "https://nstperfume.com/2026/10/22/the-daily-lemming-1965/",
+      "summary": "Three new limited edition 200g candles from Jo Malone, featuring ceramic lids decorated with small animals: Pomegranate Noir (with mouse) and Golden Barley (with robin) are both on markdown now at Ma…",
+      "publishedAt": "2026-10-22T15:18:13.000Z"
     }
   },
   "https://nyanpasu64.gitlab.io/": {
@@ -3396,7 +3407,7 @@
     "status": "unavailable"
   },
   "https://onegirlwholeworld.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-15",
     "feedUrl": "https://onegirlwholeworld.com/feed/",
     "latestArticle": {
@@ -3603,6 +3614,10 @@
       "publishedAt": "2026-10-14T12:00:27.000Z"
     }
   },
+  "https://pokebonk.gg/": {
+    "status": "unknown",
+    "feedUrl": "https://pokebonk.gg/favicon.svg"
+  },
   "https://porzuczek.pl/": {
     "status": "unavailable"
   },
@@ -3714,7 +3729,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-10",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=7885444af42e",
     "latestArticle": {
@@ -4207,13 +4222,13 @@
   },
   "https://simonwillison.net/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-      "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote c…",
-      "publishedAt": "2026-10-21T18:41:53.000Z"
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-se…",
+      "publishedAt": "2026-10-22T15:34:13.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -4341,7 +4356,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -4793,7 +4808,7 @@
     }
   },
   "https://thehighburylibrary.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2016-11-27",
     "feedUrl": "https://thehighburylibrary.com/feed/",
     "latestArticle": {
@@ -4896,12 +4911,13 @@
   },
   "https://therealadam.com/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://therealadam.com/feed.xml",
     "latestArticle": {
-      "url": "https://therealadam.com/2026/10/19/finished-platos-the-republic-by.html",
-      "summary": "Finished: Plato’s The Republic by Plato 📚. Plato sure doesn’t like creative-types! Talk about zero self-awareness. Though, I suppose “philosopher” wasn’t considered the same school as sculptors and p…",
-      "publishedAt": "2026-10-19T14:57:01.000Z"
+      "title": "Things I learned in autocross this year",
+      "url": "https://therealadam.com/2026/10/22/things-i-learned-in-autocross.html",
+      "summary": "Use more gas and more brakes. Actually, just tap the brakes. It’s not a track, the speeds aren’t that high, the braking zones aren’t big. Oregon Raceway Park is a fantastic track. It’s in Grass Valle…",
+      "publishedAt": "2026-10-22T14:57:08.000Z"
     }
   },
   "https://therepublikofmancunia.com/": {
@@ -4994,13 +5010,13 @@
   },
   "https://thezvi.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://thezvi.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Misaligned!",
-      "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/",
-      "summary": "A lot of AIs were misaligned this week. A fun little survey. This is not coverage of The Hackening, which appears to have arrived early, including a core vulnerability in PHP. That is a developing st…",
-      "publishedAt": "2026-10-21T22:25:05.000Z"
+      "title": "AI #191: The Hackening Begins",
+      "url": "https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/",
+      "summary": "It was the probably worst day in cybersecurity history. So far. Not only is there a critical flaw in PHP that due to a leak was announced a day before the fix would be available, sending most of the …",
+      "publishedAt": "2026-10-22T15:13:35.000Z"
     }
   },
   "https://thisisnthappiness.com/": {
@@ -5445,10 +5461,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "dealing with a negative coworker and boss, more eggs at work, and more",
-      "url": "https://www.askamanager.org/2026/10/dealing-with-a-negative-coworker-and-boss-more-eggs-at-work-and-more.html",
-      "summary": "It’s five answers to five questions. Here we go… 1. Dealing with a negative coworker when the manager is the same way This question is on behalf of my husband, who works in a small building. Recently…",
-      "publishedAt": "2026-10-22T04:03:08.000Z"
+      "title": "let’s discuss times your office was weird about pregnancy",
+      "url": "https://www.askamanager.org/2026/10/lets-discuss-times-your-office-was-weird-about-pregnancy.html",
+      "summary": "Someone recently wrote to me: A good call for stories would be, “When was your job weird about pregnancy?” My wife had a tech job in an office that was mostly 20something dudes and they were (charmin…",
+      "publishedAt": "2026-10-22T14:59:17.000Z"
     }
   },
   "https://www.authenticallyemily.uk/": {
@@ -5553,7 +5569,7 @@
     "status": "unavailable"
   },
   "https://www.buywithcontext.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://www.buywithcontext.com/feed/",
     "latestArticle": {
@@ -5587,13 +5603,13 @@
   },
   "https://www.cleverhiker.com/blog": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://www.cleverhiker.com/feed/",
     "latestArticle": {
-      "title": "Enlightened Equipment Accomplice 20 Review",
-      "url": "https://www.cleverhiker.com/backpacking/enlightened-equipment-accomplice-20-review/",
-      "summary": "Sharing insulation saves some duplicated gear, but the included pad connectors matter most when partners shift or their pads separate. The post Enlightened Equipment Accomplice 20 Review appeared fir…",
-      "publishedAt": "2026-10-21T14:05:01.000Z"
+      "title": "REI Gift Guide 2026: Best Gifts for Hikers & Backpackers",
+      "url": "https://www.cleverhiker.com/more-gear/rei-gift-guide-2026/",
+      "summary": "Outdoor gifts handpicked by our team, including gear we've tested and additional finds for hikers, campers, and backpackers. The post REI Gift Guide 2026: Best Gifts for Hikers & Backpackers appeared…",
+      "publishedAt": "2026-10-22T14:47:30.000Z"
     }
   },
   "https://www.collaborativefund.com/blog/": {
@@ -5906,10 +5922,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Eastcote tube station gets step-free upgrade planning permission",
-      "url": "https://www.ianvisits.co.uk/articles/eastcote-tube-station-gets-step-free-upgrade-planning-permission-93234/",
-      "summary": "West London’s Eastcote tube station has been granted planning permission for a step-free upgrade, but it still needs funding to proceed. Read more ›",
-      "publishedAt": "2026-10-22T13:00:44.000Z"
+      "title": "Greenwich map thief banned from being alone in museum and library reading rooms",
+      "url": "https://www.ianvisits.co.uk/articles/greenwich-map-thief-banned-from-being-alone-in-museum-and-library-reading-rooms-93475/",
+      "summary": "Melvin West has been banned from being left alone in museum and library reading rooms across England and Wales after stealing a historic map from the National Maritime Museum. Read more ›",
+      "publishedAt": "2026-10-22T15:15:35.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -5917,10 +5933,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Rangers fans RIDICULE ‘appalling’ Castore Fourth Kit",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/rangers-fans-ridicule/",
-      "summary": "Another month, another Rangers shirt is released. Randomly, Rangers have elected to produce a fourth shirt this season, for reasons not particularly known, well, aside from profit. It is, of course, …",
-      "publishedAt": "2026-10-22T12:40:35.000Z"
+      "title": "Ex-Celtic boss Strachan makes ‘bleeding obvious’ comment about Rangers",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/ex-celtic-boss-strachan/",
+      "summary": "If there is one former Scottish football figure we doubt we’ve ever even mentioned on Ibrox Noise, it’s ex-Celtic manager Gordon Strachan. An amusing little individual before he joined Celtic, WGS, a…",
+      "publishedAt": "2026-10-22T14:53:42.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6659,10 +6675,10 @@
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Own a Piece of 007 History: Major James Bond Auction Now Live",
-      "url": "https://www.themovieblog.com/2026/10/james-bond-auction-propstore-daniel-craig-ana-de-armas/",
-      "summary": "Propstore has launched a massive online auction featuring 400 lots from the James Bond franchise, including iconic costumes and rare memorabilia. The post Own a Piece of 007 History: Major James Bond…",
-      "publishedAt": "2026-10-22T14:40:00.000Z"
+      "title": "“Ink” Is Danny Boyle at His Best at 62nd Chicago International Film Festival",
+      "url": "https://www.themovieblog.com/2026/10/ink-is-danny-boyle-at-his-best-at-62nd-chicago-international-film-festival/",
+      "summary": "Danny Boyle directs a fast-paced, insightful film, “Ink,” based on James Graham’s 2007 play about Rupert Murdoch’s rise and journalism’s fall, now playing at the 62nd Chicago International Film Festi…",
+      "publishedAt": "2026-10-22T15:30:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -6700,13 +6716,13 @@
   },
   "https://www.thewaywardhome.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://www.thewaywardhome.com/feed/",
     "latestArticle": {
-      "title": "31 Clothing-Optional Hot Springs Where You Can Soak and Camp",
-      "url": "https://www.thewaywardhome.com/clothing-optional-hot-springs/",
-      "summary": "Thirty-one clothing-optional hot springs across the West, from private resorts with written policies to BLM and Forest Service springs where nude soaking is the custom, each with the camping, fees, a…",
-      "publishedAt": "2026-10-21T17:24:35.000Z"
+      "title": "Could You Find Your Way Home on a Sailboat Without GPS? The Old-School Navigation Skills Every Sailor Should Keep",
+      "url": "https://www.thewaywardhome.com/navigate-without-gps/",
+      "summary": "Every sailor before 1990 crossed oceans on compass, clock, and paper. Here are the no-GPS navigation skills worth keeping alive, and how to practice them on your own boat. The post Could You Find You…",
+      "publishedAt": "2026-10-22T15:38:54.000Z"
     }
   },
   "https://www.thisishorror.co.uk/": {
@@ -6789,9 +6805,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

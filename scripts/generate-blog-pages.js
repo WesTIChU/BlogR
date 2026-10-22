@@ -63,6 +63,8 @@ const independentWebCategoryDescriptions = {
     'Practical tools and small web projects made independently for focused, useful tasks.',
   'Creative Projects':
     'Artistic experiments, digital creations and personal projects made outside the usual platforms.',
+  'Guides & Resources':
+    'Practical guides, tutorials, explainers and useful everyday resources shared on the independent web.',
   Fansites:
     'Fan-made archives and tributes celebrating favourite games, stories, characters and communities.',
   Webrings:

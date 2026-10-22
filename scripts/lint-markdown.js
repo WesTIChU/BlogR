@@ -823,11 +823,17 @@ files.forEach((file) => {
     // ---------------------------------------------------------------------
 
     if (!isSeparatedEnglishCheck) {
-      // Create a sanitized line for text checks: strip URLs and inline links
+      // Create a sanitized line for text checks: strip URLs, inline links,
+      // inline code, comments, and HTML/component markup. Generated directory
+      // pages contain website names and props inside component attributes;
+      // those are not normal prose and must not be treated as repeated words.
       // Preserves character indices 1:1 by replacing matches with equivalent whitespace padding
       const lineCleaned = line
+        .replace(/<!--.*?-->/g, (m) => ' '.repeat(m.length))
+        .replace(/`[^`]+`/g, (m) => ' '.repeat(m.length))
         .replace(/https?:\/\/[^\s)]+/g, (m) => ' '.repeat(m.length))
         .replace(/\[[^\]]+\]\([^)]*\)/g, (m) => ' '.repeat(m.length))
+        .replace(/<[^>\n]*>/g, (m) => ' '.repeat(m.length))
 
       // ---------------------------------------------------------------------
       // Check 13: Repeated Words (e.g., "the the", "and and")

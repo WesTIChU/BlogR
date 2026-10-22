@@ -304,7 +304,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -1795,7 +1795,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2321,7 +2321,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3680,7 +3680,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-10",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=7885444af42e",
     "latestArticle": {
@@ -4242,13 +4242,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed Nintendo DS Mario-themed case and stylus.",
-      "url": "https://smallmariofindings.tumblr.com/post/831100062126997504",
-      "summary": "Officially licensed Nintendo DS Mario-themed case and stylus. Main Blog | Patreon | Twitter | Bluesky | Small Findings | Source",
-      "publishedAt": "2026-10-21T16:06:23.000Z"
+      "title": "In Super Mario Galaxy, it is possible to get a Game Over while obtaining a star. Mario will still&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831130044377300992",
+      "summary": "In Super Mario Galaxy, it is possible to get a Game Over while obtaining a star. Mario will still perform his “star obtained” animation (though desynced from the star object), as can be seen on the e…",
+      "publishedAt": "2026-10-22T00:02:56.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -4801,7 +4801,7 @@
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 1 week, 4 days ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might us…",
+      "summary": "This post was last edited 1 week, 5 days ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might us…",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -4936,7 +4936,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5038,7 +5038,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5834,12 +5834,12 @@
   },
   "https://www.jamesreeves.co/notebook/": {
     "status": "success",
-    "lastPublished": "2026-10-16",
+    "lastPublished": "2026-10-22",
     "feedUrl": "https://www.jamesreeves.co/rss/",
     "latestArticle": {
-      "url": "https://www.jamesreeves.co/456am/",
-      "summary": "Special guest Deb Chachra delivers a wild tracklist of old classics and big new sounds for a grey Octember morning.",
-      "publishedAt": "2026-10-16T03:40:48.000Z"
+      "url": "https://www.jamesreeves.co/the-empty-booth/",
+      "summary": "Last night I dreamt I was at a fancy restaurant, waiting for all my friends and family, past and present, dead and alive. I was hoping to get a nice booth to impress everyone, but there was only a sm…",
+      "publishedAt": "2026-10-22T02:22:27.000Z"
     }
   },
   "https://www.janetgyford.com/": {
@@ -5939,7 +5939,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6191,7 +6191,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

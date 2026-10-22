@@ -446,6 +446,23 @@ test('accepts Arts & Entertainment gaming submissions', () => {
   )
 })
 
+test('rejects Independent Web categories from blog submissions', () => {
+  assert.throws(
+    () =>
+      validateSubmission(
+        parseIssueForm(
+          body({
+            category: 'Guides & Resources',
+            subcategory: 'Guides & Resources / How-To & Tutorials'
+          })
+        ),
+        blogs,
+        taxonomy
+      ),
+    /Invalid main category/
+  )
+})
+
 test('creates a new subcategory for the selected approved main category', () => {
   const submission = validateSubmission(
     parseIssueForm(

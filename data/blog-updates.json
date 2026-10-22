@@ -396,8 +396,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-08-08",
-    "lastChecked": "2026-10-22T00:54:22.361Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "success",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "Molly White interview: following the AI and crypto money in US politics",
@@ -3034,8 +3034,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T23:44:30.724Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3310,8 +3310,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T23:44:30.724Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3340,8 +3340,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T23:44:30.724Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3973,8 +3973,8 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "lastPublished": "2026-09-10",
-    "lastChecked": "2026-10-21T22:42:29.436Z",
-    "status": "success",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unavailable",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=7885444af42e",
     "latestArticle": {
       "title": "Comfort in an Orange Tin: The History of Ovaltine in Britain",
@@ -4141,12 +4141,12 @@
   },
   "http://www.galactichunter.com/GH/": {
     "lastPublished": "2026-09-28",
-    "lastChecked": "2026-10-21T17:44:28.835Z",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
     "status": "success",
     "feedUrl": "http://www.galactichunter.com/gh/crss",
     "latestArticle": {
       "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/gh/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
+      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
       "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
       "publishedAt": "2026-09-28T13:18:14.000Z"
     }
@@ -4363,15 +4363,15 @@
     "feedUrl": null
   },
   "https://1morefilmblog.com/": {
-    "lastPublished": "2026-10-18",
-    "lastChecked": "2026-10-22T00:54:22.361Z",
+    "lastPublished": "2026-10-21",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
     "status": "success",
     "feedUrl": "https://1morefilmblog.com/feed/",
     "latestArticle": {
-      "title": "Sense and Sensibility (Oakley, 2026)",
-      "url": "https://1morefilmblog.com/2026/10/18/sense-and-sensibility-oakley-2026/",
-      "summary": "Sense and Sensibility is listed at IMDB as director Georgia Oakley’s first theatrical feature-length film. (She has some previous credits for shorts and teleivision work). It is also listed as… Conti…",
-      "publishedAt": "2026-10-18T21:15:09.000Z"
+      "title": "Good Vibes Only (D’Ambrosio, 2026)",
+      "url": "https://1morefilmblog.com/2026/10/21/good-vibes-only-dambrosio-2026/",
+      "summary": "AI is hardly the only technological development one could say this about, but I sometimes wonder if all the worry that goes into its possible negative effects at some indeterminate… Continue reading …",
+      "publishedAt": "2026-10-21T20:36:04.000Z"
     }
   },
   "https://jasonsmovieblog.com/": {
@@ -4537,8 +4537,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T23:44:30.724Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4794,13 +4794,13 @@
   },
   "https://priorprobability.com/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T00:44:29.613Z",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
       "title": "Adam Smith, bureaucrat (part 3)",
       "url": "https://priorprobability.com/2026/10/22/adam-smith-bureaucrat-part-3/",
-      "summary": "Here are parts 1 and 2. The next piece of official customs-house correspondence in my sample is Letter #112, which is dated __ October 1784 (alas, the day is cut out of my copy of the letter) and is …",
+      "summary": "Here are parts 1 (my intro) and 2 (Letter #109). Now, without further ado, let’s proceed to the next piece of official customs-house correspondence in my Smithian sample: Letter #112, which is dated …",
       "publishedAt": "2026-10-22T00:21:00.000Z"
     }
   },
@@ -5152,8 +5152,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T23:44:30.724Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -6360,8 +6360,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-21T23:44:30.724Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6395,15 +6395,15 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T23:44:30.724Z",
+    "lastPublished": "2026-10-22",
+    "lastChecked": "2026-10-22T01:44:29.536Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "UFO Chronicles: The Shadow World | Full Documentary",
-      "url": "https://greatawakeningreport.com/ufo-chronicles-the-shadow-world-documentary/",
-      "summary": "Few subjects inside the disclosure conversation create as much friction as the suggestion that a second layer of government has been quietly managing contact with non human intelligence for decades. …",
-      "publishedAt": "2026-10-21T23:10:00.000Z"
+      "title": "3rd Reich Hitler’s UFOs | Full Documentary",
+      "url": "https://greatawakeningreport.com/3rd-reich-hitlers-ufos-documentary/",
+      "summary": "One of the most durable puzzles of the twentieth century is how a single European state, economically broken and diplomatically isolated in the 1920s, produced within twenty years a weapons program t…",
+      "publishedAt": "2026-10-22T01:40:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {

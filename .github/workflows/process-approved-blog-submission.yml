@@ -53,7 +53,11 @@ jobs:
         with:
           node-version: 22.13.0
       - name: Install dependencies
-        run: corepack enable && pnpm install --frozen-lockfile
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.12.2
+      - name: Install project dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Validate approval and create pull request
         env:

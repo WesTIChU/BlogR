@@ -109,6 +109,17 @@
       ]
     },
     {
+      "slug": "guides-and-resources",
+      "title": "Guides & Resources",
+      "description": "Practical guides, tutorials, explainers, and useful everyday resources.",
+      "subsections": [
+        {
+          "title": "How-To & Tutorials",
+          "match": "how[- ]to|tutorial|guide|guides|instruction|walkthrough|step[- ]by[- ]step"
+        }
+      ]
+    },
+    {
       "slug": "books-and-writing",
       "title": "Books & Writing",
       "description": "Blogs about books, literature, writing, and the craft of words.",

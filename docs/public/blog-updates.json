@@ -2123,6 +2123,10 @@
       "publishedAt": "2026-10-21T16:54:18.000Z"
     }
   },
+  "https://howtos.video/": {
+    "status": "unknown",
+    "feedUrl": "https://howtos.video/assets/favicon.svg?v=591763"
+  },
   "https://humanizingthevacuum.wordpress.com/": {
     "status": "success",
     "lastPublished": "2026-10-22",

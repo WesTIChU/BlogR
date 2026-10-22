@@ -1,19 +1,23 @@
 ---
 title: Canada Blogs
-description: 10 blogs listed in Canada.
+description: 11 blogs listed in Canada.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="10" />
+<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="11" />
 
 ## Arts & Entertainment
 
 ### Comics & Illustration
 
 * <span class="blog-entry"><BlogHealthLink name="Dinosaur Comics" url="https://www.qwantz.com/" /> - A humorous webcomic built around talking dinosaurs, absurd conversations and playful explorations of everyday ideas.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.qwantz.com/" data-blog-name="Dinosaur Comics"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://qwantz.com/rssfeed.php" target="_blank" rel="noopener noreferrer" title="RSS feed for Dinosaur Comics" aria-label="RSS feed for Dinosaur Comics"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/canada" aria-label="Based in Canada"><span class="blog-country-flag" aria-hidden="true">🇨🇦</span> Canada</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;9 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-f8e5beac04d51738a0e0ffa9f949a2eb" website-url="https://www.qwantz.com/" website-name="Dinosaur Comics" /></span>
+
+### Film, TV & Theatre
+
+* <span class="blog-entry"><BlogHealthLink name="The Wonderful World of Cinema" url="https://thewonderfulworldofcinema.wordpress.com/" /> - A Montreal film enthusiast celebrates classic cinema through thoughtful reviews, tributes, themed blogathons, favourite performers, directors and discoveries from film history.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://thewonderfulworldofcinema.wordpress.com/" data-blog-name="The Wonderful World of Cinema"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/canada" aria-label="Based in Canada"><span class="blog-country-flag" aria-hidden="true">🇨🇦</span> Canada</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;22 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-94d75d4b7ea309fc80963fba37ec5cdc" website-url="https://thewonderfulworldofcinema.wordpress.com/" website-name="The Wonderful World of Cinema" /></span>
 
 ## Books & Writing
 

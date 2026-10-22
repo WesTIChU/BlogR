@@ -38,6 +38,10 @@
           "match": "local|city|culture|community|pub|politic|public transport|rail|birmingham|glasgow|liverpool"
         },
         {
+          "title": "Geography & Maps",
+          "match": "unusual maps|cartograph|atlas|mapping"
+        },
+        {
           "title": "Regional Life",
           "match": "rural|countryside|coast|coastal|landscape|place|walking|river|urban|exploration|aviation|maritime|conservation"
         },

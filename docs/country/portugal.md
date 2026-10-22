@@ -1,13 +1,19 @@
 ---
 title: Portugal Blogs
-description: 1 blog listed in Portugal.
+description: 2 blogs listed in Portugal.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇵🇹" name="Portugal" :count="1" />
+<CountryDirectoryHeader flag="🇵🇹" name="Portugal" :count="2" />
+
+## Technology
+
+### Internet & Web Technology
+
+* <span class="blog-entry"><BlogHealthLink name="Tao of Mac" url="https://taoofmac.com/" /> - Rui Carmo’s long-running personal site covers Apple, macOS, hardware, open-source tools, homelabs, programming, reviews, projects and observations about technology.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://taoofmac.com/" data-blog-name="Tao of Mac"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/portugal" aria-label="Based in Portugal"><span class="blog-country-flag" aria-hidden="true">🇵🇹</span> Portugal</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;22 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-f2f9b6fea2ad11c68d7351f500ab31d2" website-url="https://taoofmac.com/" website-name="Tao of Mac" /></span>
 
 ## Travel & Outdoors
 

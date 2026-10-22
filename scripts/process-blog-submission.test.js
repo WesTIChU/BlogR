@@ -28,6 +28,7 @@ import {
   pullRequestDetails,
   submissionBranch,
   submissionType,
+  updateIndependentWebTaxonomyText,
   validateBlogUrl,
   validateCommunitySubmission,
   validateIndependentWebsiteSubmission,
@@ -798,6 +799,20 @@ test('inserts a new taxonomy subsection without reformatting existing taxonomy t
     ''
   )
   assert.equal(restored, source)
+})
+
+test('formats an independent web taxonomy update with the repository style', async () => {
+  const updated = await updateIndependentWebTaxonomyText([
+    {
+      slug: 'fansites',
+      title: 'Fansites',
+      icon: '🎮',
+      subcategories: ['Fan Archives', 'Fan Guides']
+    }
+  ])
+
+  assert.match(updated, /"subcategories": \["Fan Archives", "Fan Guides"\]/)
+  assert.equal(updated.endsWith('\n'), true)
 })
 
 test('adding one blog preserves every existing entry and appends in source order', () => {

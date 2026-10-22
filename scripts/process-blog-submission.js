@@ -4,6 +4,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { promisify } from 'node:util'
+import prettier from 'prettier'
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import independentWebTaxonomy from '../data/independent-web-taxonomy.json' with { type: 'json' }
 import { countryPath, normalizeCountryCode } from '../shared/countries.js'
@@ -826,8 +827,10 @@ export function independentWebsiteCatalogueFiles() {
   ]
 }
 
-export function updateIndependentWebTaxonomyText(taxonomy) {
-  return `${JSON.stringify(taxonomy, null, 2)}\n`
+export async function updateIndependentWebTaxonomyText(taxonomy) {
+  return prettier.format(`${JSON.stringify(taxonomy, null, 2)}\n`, {
+    filepath: 'data/independent-web-taxonomy.json'
+  })
 }
 
 export function pullRequestDetails(
@@ -1056,7 +1059,7 @@ async function run() {
   if (type === 'website' && suggestedSubcategoryStatus === 'created') {
     await writeFile(
       resolve('data/independent-web-taxonomy.json'),
-      updateIndependentWebTaxonomyText(nextIndependentWebTaxonomy)
+      await updateIndependentWebTaxonomyText(nextIndependentWebTaxonomy)
     )
     await exec(process.execPath, ['scripts/generate-submission-form.js'])
     generated.push('data/independent-web-taxonomy.json')

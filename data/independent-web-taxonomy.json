@@ -3,26 +3,19 @@
     "slug": "personal-websites",
     "title": "Personal Websites",
     "icon": "🏠",
-    "subcategories": [
-      "Personal Homepages"
-    ]
+    "subcategories": ["Personal Homepages"]
   },
   {
     "slug": "web-directories",
     "title": "Web Directories",
     "icon": "📁",
-    "subcategories": [
-      "Independent Directories"
-    ]
+    "subcategories": ["Independent Directories"]
   },
   {
     "slug": "digital-archives",
     "title": "Digital Archives",
     "icon": "💾",
-    "subcategories": [
-      "Public Archives",
-      "Film & Television Databases"
-    ]
+    "subcategories": ["Public Archives", "Film & Television Databases"]
   },
   {
     "slug": "independent-tools",
@@ -40,26 +33,18 @@
     "slug": "creative-projects",
     "title": "Creative Projects",
     "icon": "🎨",
-    "subcategories": [
-      "Experimental Projects"
-    ]
+    "subcategories": ["Experimental Projects"]
   },
   {
     "slug": "fansites",
     "title": "Fansites",
     "icon": "🎮",
-    "subcategories": [
-      "Fan Archives",
-      "Gaming Fansites",
-      "Fan Guides"
-    ]
+    "subcategories": ["Fan Archives", "Gaming Fansites", "Fan Guides"]
   },
   {
     "slug": "webrings",
     "title": "Webrings",
     "icon": "🔗",
-    "subcategories": [
-      "Webring Hubs"
-    ]
+    "subcategories": ["Webring Hubs"]
   }
 ]

@@ -160,10 +160,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Shelly 3.1.9 GUI Package Manager for Arch Linux Improves AUR Support",
-      "url": "https://9to5linux.com/shelly-3-1-9-gui-package-manager-for-arch-linux-improves-aur-support",
-      "summary": "Shelly 3.1.9 graphical package manager for Arch Linux distributions is now available for download with file migration support to RLPM, more reliable AUR builds, and other changes. The post Shelly 3.1…",
-      "publishedAt": "2026-10-23T01:59:23.000Z"
+      "title": "Calibre 9.17 E-Book Manager Adds JPEG XL Support and Performance Improvements",
+      "url": "https://9to5linux.com/calibre-9-17-e-book-manager-adds-jpeg-xl-support-and-performance-improvements",
+      "summary": "Calibre 9.17 open-source e-book manager is now available for download with support for JPEG XL images for e-book cover conversion, faster MOBI/AZW3/PDB conversion, and more. The post Calibre 9.17 E-B…",
+      "publishedAt": "2026-10-23T04:35:26.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -565,11 +565,11 @@
   },
   "https://bearalley.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://bearalley.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Commando 6003-6006",
-      "publishedAt": "2026-10-22T04:03:00.000Z"
+      "title": "Comic Cuts — 23 October 2026",
+      "publishedAt": "2026-10-23T04:03:00.000Z"
     }
   },
   "https://bearfoottheory.com/": {
@@ -620,13 +620,13 @@
   },
   "https://bigthink.com/strange-maps/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://bigthink.com/feed/",
     "latestArticle": {
-      "title": "4 hilarious ancient Greek comedies — that still hold up today",
-      "url": "https://bigthink.com/books/4-hilarious-ancient-greek-comedies/",
-      "summary": "Comedy is a strange genre. Even the best comedies are strongly tied to the time and place of their composition. Just try getting all the jokes in Shakespeare without peeking at the footnotes for help…",
-      "publishedAt": "2026-10-22T14:30:00.000Z"
+      "title": "A psychologist’s guide to understanding and spotting narcissism",
+      "url": "https://bigthink.com/series/full-interview/spotting-narcissism-durvasula/",
+      "summary": "Narcissistic people are often charming at the dinner party and cruel in the car ride home, which tells you they can control it. Clinical psychologist Ramani Durvasula, author of It’s Not You, has stu…",
+      "publishedAt": "2026-10-23T04:00:00.000Z"
     }
   },
   "https://bikeportland.org/": {
@@ -800,7 +800,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -1829,7 +1829,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2360,7 +2360,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3519,12 +3519,12 @@
   },
   "https://philsworkbench.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://philsworkbench.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Look mum, no wires!",
-      "summary": "Out in Birmingham last week, I found myself tram spotting while waiting to go into the town hall. This is the section of the line where the trams run on battery power to avoid having to install overh…",
-      "publishedAt": "2026-10-22T04:30:00.000Z"
+      "title": "Off to Gaydon this weekend for the Great British Model Railway Show",
+      "summary": "This weekend, I can be found at the top of the escalators at the British Motor Museum, Gaydon, for the Great British Model Railway Show. All being well, I'll fill a couple of tables with various proj…",
+      "publishedAt": "2026-10-23T04:30:00.000Z"
     }
   },
   "https://photography.mihobu.net/": {
@@ -5048,7 +5048,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5141,16 +5141,17 @@
   },
   "https://travelbetweenthepages.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://travelbetweenthepages.com/feed/",
     "latestArticle": {
-      "title": "Literary Book Covers",
-      "url": "https://travelbetweenthepages.com/2026/10/22/literary-book-covers/",
-      "publishedAt": "2026-10-22T04:01:25.000Z"
+      "title": "Randomness of the Now",
+      "url": "https://travelbetweenthepages.com/2026/10/23/randomness-of-the-now/",
+      "summary": "“I have heard what the talkers were talking, the talk of the beginning and the end. But I do not talk of the beginning or the end. There was never any more inception than there is now, Nor any more ……",
+      "publishedAt": "2026-10-23T04:01:38.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5341,13 +5342,13 @@
   },
   "https://www.actionfigurebarbecue.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://www.actionfigurebarbecue.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Trick or Treat Through 31 Days of Toy Terror: Creature from the Black Lagoon (Black & White) from Tubbz Mystery Egg: Universal Monsters by Numskull Designs",
-      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_0993596741.html",
-      "summary": "I received a pretty cool little surprise for my birthday: A Tubbz Mystery Egg. I've had a Jeep for a couple years now and while my dashboard isn't covered with ducks, I do have a few in a little tray…",
-      "publishedAt": "2026-10-22T04:00:00.000Z"
+      "title": "Trick or Treat Through 31 Days of Toy Terror: Jack O. Lantern from PIX! Garbage Pail Kids by Thrilljoy",
+      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_01559412249.html",
+      "summary": "I am always down for a character with a Jack o' Lantern for a head so I made sure to preorder the PIX! Garbage Pail Kids Jack O. Lantern for this year's \"Trick or Treat Through 31 Days of Toy Terror\"…",
+      "publishedAt": "2026-10-23T04:00:00.000Z"
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
@@ -5464,13 +5465,13 @@
   },
   "https://www.askamanager.org/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "can I ask for another interview with the hiring manager for my own questions?",
-      "url": "https://www.askamanager.org/2026/10/can-i-ask-for-another-interview-with-the-hiring-manager-for-my-own-questions.html",
-      "summary": "A reader writes: I’ve been out of work for several months, since my last employer, a well-known tech giant, suddenly decided my globally scoped role (almost all computer-based) could no longer be per…",
-      "publishedAt": "2026-10-22T17:59:07.000Z"
+      "title": "coworker who quit is claiming 150 hours of off-the-clock pay, my coworker keeps saying “per my last email, and more",
+      "url": "https://www.askamanager.org/2026/10/coworker-who-quit-is-claiming-150-hours-of-off-the-clock-pay-my-coworker-keeps-saying-per-my-last-email-and-more.html",
+      "summary": "It’s four answers to four questions. Here we go… 1. My coworker who quit on the spot is claiming 150 hours of off-the-clock pay The company I work for is vaguely in the realm of special needs childca…",
+      "publishedAt": "2026-10-23T04:03:06.000Z"
     }
   },
   "https://www.authenticallyemily.uk/": {
@@ -5598,13 +5599,13 @@
   },
   "https://www.celticquicknews.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "CELTIC 1 CELTA VIGO 2: THREE IN A WOE",
-      "url": "https://www.celticquicknews.co.uk/celtic-1-celta-vigo-2-three-in-a-woe/",
-      "summary": "CELTIC 1 CELTA VIGO 2 CELTIC’S Europa League misery continued as they threw away a one-goal advantage to crash 2-1 to Celta Vigo at Parkhead this evening. After losses to Ferencvaros (1-3) and Benfic…",
-      "publishedAt": "2026-10-22T21:12:23.000Z"
+      "title": "BOBBY MURDOCH: A CELTIC MAN",
+      "url": "https://www.celticquicknews.co.uk/bobby-murdoch-a-celtic-man/",
+      "summary": "BOBBY MURDOCH was the epitome of a Celtic player; a skilled ball artiste blessed with breathtaking qualities. He brought flair and adventure to proceedings when he wore his beloved green and white ho…",
+      "publishedAt": "2026-10-23T04:30:44.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -5778,12 +5779,12 @@
   },
   "https://www.freecodecamp.org/news/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/what-is-model-distillation-a-guide-for-developers/",
-      "summary": "Over time, knowledge has been passed down in various forms. Before writing was invented in ancient Mesopotamia (modern-day Iraq), laws, history, myths, songs, and other information were all transferre",
-      "publishedAt": "2026-10-21T18:46:22.000Z"
+      "url": "https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/",
+      "summary": "MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in capability co",
+      "publishedAt": "2026-10-23T01:49:44.000Z"
     }
   },
   "https://www.fromjason.xyz/": {
@@ -6084,7 +6085,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6226,13 +6227,13 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Epic’s vibe-coded games launcher is available to test on Ubuntu",
-      "url": "https://www.omgubuntu.co.uk/2026/10/epic-confirm-fortnite-linux",
-      "summary": "Epic Games has confirmed that Fortnite is coming to Linux, and the launcher it will arrive through is available to try in preview on Ubuntu – a vibe-coded wonder that’s been royally roasted on the in…",
-      "publishedAt": "2026-10-22T22:59:55.000Z"
+      "title": "Canonical dev mocks up an Ubuntu launcher that uses AI",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-ai-launcher-prototype",
+      "summary": "What would deeper AI integration on the Ubuntu desktop look like? Well, you don’t need to think too hard to find out. A Canonical engineer has published a prototype launcher that simulates how on-dev…",
+      "publishedAt": "2026-10-23T04:05:46.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -6337,7 +6338,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6554,9 +6555,9 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
+    "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
     "latestArticle": {
       "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
       "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",

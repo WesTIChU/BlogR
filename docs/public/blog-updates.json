@@ -415,7 +415,7 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -1116,9 +1116,9 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/manchester-city-poised-to-reveal-special-edition-year-of-the-goat-kit",
-      "summary": "There is expected to be a continuation of a tradition at Manchester City in releasing Lunar New Year-themed special edition shirts, according to new reports, with a Year of the Goat strip coming earl…",
-      "publishedAt": "2026-10-23T19:30:05.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/barcelona-emerge-as-potential-suitor-in-chase-to-hijack-man-city-transfer-agreement",
+      "summary": "Manchester City could face interest from La Liga champions Barcelona should an agreement in place for USA starlet Cavan Sullivan collapse as a result of possible Premier League sanctions, according t…",
+      "publishedAt": "2026-10-23T21:30:19.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1459,7 +1459,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1884,7 +1884,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1953,7 +1953,7 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
@@ -2064,9 +2064,9 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/dont-let-ai-steal-your-personality?source=rss",
-      "summary": "Learn how to use AI in writing without sacrificing originality, personality, or the human perspective behind your byline.",
-      "publishedAt": "2026-10-23T15:30:06.000Z"
+      "url": "https://hackernoon.com/five-seo-errors-on-my-static-site-that-werent-errors?source=rss",
+      "summary": "Search Console and an SEO audit flagged dozens of problems on my static site. Only one was real, and one suggested fix would have made things worse.",
+      "publishedAt": "2026-10-23T21:35:00.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2426,7 +2426,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3845,7 +3845,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-10",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
     "latestArticle": {
@@ -4346,10 +4346,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Introducing Kimi K3.1 Pro",
-      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-      "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"H…",
-      "publishedAt": "2026-10-23T19:40:54.000Z"
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paint…",
+      "publishedAt": "2026-10-23T21:35:13.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -4477,7 +4477,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -5004,7 +5004,7 @@
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 1 week, 6 days ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might us…",
+      "summary": "This post was last edited 2 weeks ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might use the T…",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -5043,13 +5043,12 @@
   },
   "https://therealadam.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://therealadam.com/feed.xml",
     "latestArticle": {
-      "title": "Things I learned in autocross this year",
-      "url": "https://therealadam.com/2026/10/22/things-i-learned-in-autocross.html",
-      "summary": "Use more gas and more brakes. Actually, just tap the brakes. It’s not a track, the speeds aren’t that high, the braking zones aren’t big. Oregon Raceway Park is a fantastic track. It’s in Grass Valle…",
-      "publishedAt": "2026-10-22T14:57:08.000Z"
+      "url": "https://therealadam.com/2026/10/23/watched-slow-horses-season-the.html",
+      "summary": "Watched: Slow Horses Season 6 📺 The show is as perfect as ever, in its own way. It’s the best show on Apple TV that you’re probably not watching . Horses has everything: flawed people, workplace come…",
+      "publishedAt": "2026-10-23T21:48:12.000Z"
     }
   },
   "https://therepublikofmancunia.com/": {
@@ -5277,7 +5276,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -6115,7 +6114,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6522,7 +6521,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6667,7 +6666,7 @@
     }
   },
   "https://www.stuckinabook.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
@@ -6739,7 +6738,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -6812,10 +6811,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.thehorrorsofhalloween.com/feeds/posts/default",
     "latestArticle": {
-      "title": "SCARY MOVIE (1991) A Look at VHS, DVD, Blu-ray Cover Art & Lobby Cards",
-      "url": "https://www.thehorrorsofhalloween.com/2026/10/scary-movie-1991-vhs-dvd-blu-ray-cover-art-lobby-cards.html",
-      "summary": "Original Posters: VHS cover from vhscollector.com : Custom VHS cover: AGFA Blu-ray front cover: AGFA Blu-ray full covers front and reverse: UK 101 Films Blu-ray full covers front and reverse + disc s…",
-      "publishedAt": "2026-10-23T00:38:11.248Z"
+      "title": "What's on Tonight: JOE BOB'S HALLOWEEN HOUSE PARTY (2026) Stream on SHUDDER — Our Final Descent",
+      "url": "https://www.thehorrorsofhalloween.com/2026/10/whats-on-tonight-joe-bobs-halloween-house-party-2026-stream-on-shudder-our-final-descent.html",
+      "summary": "Official Poster: Fan Art by @monstervision2017 : ATTENTION MUTANTS! Let’s make this last Halloween special (on Shudder) mirror the first one 8 years ago. Here we come for 👻 JOE BOB’S HALLOWEEN HOUSE …",
+      "publishedAt": "2026-10-23T22:11:56.584Z"
     }
   },
   "https://www.theimpulsivebuy.com/": {
@@ -7008,9 +7007,9 @@
     }
   },
   "https://www.van-tramp.com/wp/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-23",
-    "feedUrl": "https://www.van-tramp.com/wp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.van-tramp.com%2Fwp%2F&format=xml",
+    "feedUrl": "https://www.van-tramp.com/wp/feed/",
     "latestArticle": {
       "title": "Reconsidering our choices",
       "url": "https://www.van-tramp.com/wp/reconsidering-our-choices/",
@@ -7072,7 +7071,7 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "New ‘Alien’ Movie Hires ‘Prisoners’ Writer, Tied to Ridley Scott’s ‘Prometheus’ and ‘Covenant’",
+      "title": "New ‘Alien’ Movie Hires ‘Prisoners’ Writer, Tied to Ridley Scott’s ‘Prometheus’ and ‘Covenant’ — ‘Romulus 2’ in “Limbo”",
       "url": "https://www.worldofreel.com/blog/2026/10/23/new-alien-movie-hires-prisoners-writer-tied-to-ridley-scotts-prometheus-and-covenant",
       "summary": "According to THR, Aaron Guzikowski, who wrote Denis Villeneuve’s “Prisoners,” has been hired to write a new “Alien” movie for 20th Century Studios, unrelated to ‘Romulus,’ but connected to Ridley Sco…",
       "publishedAt": "2026-10-23T21:44:48.000Z"

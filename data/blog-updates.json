@@ -1484,8 +1484,8 @@
   },
   "https://www.thechaoticscot.com/": {
     "lastPublished": "2021-12-01",
-    "lastChecked": "2026-10-22T22:44:31.398Z",
-    "status": "success",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
     "latestArticle": {
       "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
@@ -1879,14 +1879,14 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T17:36:21.349Z",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "KeePassXC 2.8 brings Qt 6 UI, auto-type on Wayland",
-      "url": "https://www.omgubuntu.co.uk/2026/10/keepassxc-2-8-auto-type-wayland",
-      "summary": "If KeePassXC is your password-management app of choice on Linux, the new 2.8.0 update is going to please. KeePassXC 2.8.0 sees some “long-awaited new features” arrive, including a Qt6 port of the mai…",
-      "publishedAt": "2026-10-22T17:17:39.000Z"
+      "title": "Epic confirm Linux Fornite release, release new launcher",
+      "url": "https://www.omgubuntu.co.uk/2026/10/epic-confirm-fortnite-linux",
+      "summary": "Epic Games has confirmed that Fortnite is coming to Linux, and the launcher it will arrive through is already available to try in preview on Ubuntu. Epic’s also rebuilt its anti-cheat tech to bring F…",
+      "publishedAt": "2026-10-22T22:59:55.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -2708,15 +2708,15 @@
     }
   },
   "https://danq.me/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T10:44:30.258Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://danq.me/feed/",
     "latestArticle": {
-      "title": "[Repost] There isn't an easy exploit for this PHP vulnerability",
-      "url": "https://danq.me/2026/10/22/there-isnt-an-easy-exploit-for-this-php-vulnerability/",
-      "summary": "Elias's experience of the PHP CVE matches mine: it's real, it's serious... but it's not actually that easy to exploit \"in the wild\" except in conjunction with OTHER exploits, so it's not by-itself ca…",
-      "publishedAt": "2026-10-22T10:42:06.000Z"
+      "title": "[Article] Incognito (Weird Web October)",
+      "url": "https://danq.me/2026/10/23/incognito-wwo/",
+      "summary": "In another Weird Web October contribution, I'd like to introduce you to Incognito Mode for Wikipedia. Yes, it's stupid.",
+      "publishedAt": "2026-10-23T00:11:41.000Z"
     }
   },
   "https://leehanchung.github.io/blogs/": {
@@ -3790,15 +3790,15 @@
     }
   },
   "https://www.thenewestrant.com/": {
-    "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-21T16:44:33.576Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "11 Years Ago We Got Married!",
-      "url": "https://www.thenewestrant.com/2026/10/11-years-ago-we-got-married.html",
-      "summary": "Samii and I got married 11 years ago, on this day ! It randomly happened to be the unofficial, \"Back to the Future Day,\" as well, due to how, in the flick, \"Back to the Future II,\" October 21st, 2015…",
-      "publishedAt": "2026-10-21T16:14:35.569Z"
+      "title": "I'm in, \"Undie Comix,\" #5!",
+      "url": "https://www.thenewestrant.com/2026/10/im-in-undie-comix-5.html",
+      "summary": "The fifth issue of, \"Undie Comix,\" is available for order. I have a new article they were kind enough to include in this latest edition! You can get yourself a copy at this link and, as always, check…",
+      "publishedAt": "2026-10-23T00:23:09.108Z"
     }
   },
   "https://greg.org/": {
@@ -3826,15 +3826,15 @@
     }
   },
   "https://mojobob.blogspot.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T03:44:28.556Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Lozenge Stencil",
-      "url": "https://mojobob.blogspot.com/2026/10/lozenge-stencil.html",
-      "summary": "Painting lozenge pattern disruptive fabric in 1:144 scale isn't actually all that difficult. The trickiest part is getting the size and spacing of the first colour of the array right; once that's sor…",
-      "publishedAt": "2026-10-21T03:51:44.305Z"
+      "title": "Hawker Hart Update",
+      "url": "https://mojobob.blogspot.com/2026/10/hawker-hart-update.html",
+      "summary": "I've updated the 1:144 model of the Hawker Hart that I built quite some time ago, and added some wing rib detail and a flight stand socket. The updated model can be had at https://www.wargaming3d.com…",
+      "publishedAt": "2026-10-23T00:28:57.394Z"
     }
   },
   "https://www.web-goddess.org/": {
@@ -4654,8 +4654,8 @@
     }
   },
   "https://pantsaflame.blogspot.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T23:44:32.581Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://pantsaflame.blogspot.com/feeds/posts/default",
     "latestArticle": {
@@ -4797,15 +4797,15 @@
     }
   },
   "https://priorprobability.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T01:44:29.536Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "Adam Smith, bureaucrat (part 3)",
-      "url": "https://priorprobability.com/2026/10/22/adam-smith-bureaucrat-part-3/",
-      "summary": "Here are parts 1 (my intro) and 2 (Letter #109). Now, without further ado, let’s proceed to the next piece of official customs-house correspondence in my Smithian sample: Letter #112, which is dated …",
-      "publishedAt": "2026-10-22T00:21:00.000Z"
+      "title": "Adam Smith, bureaucrat (part 4)",
+      "url": "https://priorprobability.com/2026/10/23/adam-smith-bureaucrat-part-4/",
+      "summary": "Here are parts 1 (intro), 2 (Letter #109), and 3 (Letter #112). The next piece of official customs-house correspondence in my sample of Adam Smith letters from 1784-1785 is Letter #118. This letter, …",
+      "publishedAt": "2026-10-23T00:23:00.000Z"
     }
   },
   "https://www.joeydevilla.com/": {
@@ -4916,15 +4916,15 @@
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T00:44:29.613Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://www.thehorrorsofhalloween.com/feeds/posts/default",
     "latestArticle": {
-      "title": "What's on Tonight: HALLOWEEN CANDY 2 (2026) Stream on Chilling + Reviews — Revenge Is Sweet As Trick Or Treat...",
-      "url": "https://www.thehorrorsofhalloween.com/2026/10/where-to-watch-halloween-candy-2-2026-streaming-online-plus-reviews-revenge-is-sweet-as-trick-or-treat.html",
-      "summary": "Halloween Candy 2 began streaming on Chilling App and BloodStream for subscribers on October 16th 2026. The Halloween horror anthology launches on other streaming platforms including Prime, Tubi and …",
-      "publishedAt": "2026-10-22T00:18:01.298Z"
+      "title": "SCARY MOVIE (1991) A Look at VHS, DVD, Blu-ray Cover Art & Lobby Cards",
+      "url": "https://www.thehorrorsofhalloween.com/2026/10/scary-movie-1991-vhs-dvd-blu-ray-cover-art-lobby-cards.html",
+      "summary": "Original Posters: VHS cover from vhscollector.com : Custom VHS cover: AGFA Blu-ray front cover: USA AGFA Blu-ray full covers front and reverse: UK 101 Films Blu-ray full covers front and reverse + di…",
+      "publishedAt": "2026-10-23T00:38:11.248Z"
     }
   },
   "http://spookylittlegirllikeyou.blogspot.com/": {
@@ -5505,15 +5505,15 @@
     }
   },
   "https://humanizingthevacuum.wordpress.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T15:44:29.992Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "On the power of John Anderson’s yarl",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/22/on-the-power-of-john-andersons-yarl/",
-      "summary": "How I would have heard “Money in the Bank” in the wild thirty years ago breaks my brain; but this John Anderson hit, a #1 country single during the second act of a mighty career, introduced me to the…",
-      "publishedAt": "2026-10-22T15:17:15.000Z"
+      "title": "Ranking #60 singles, U.S. edition: 1970-1972",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/23/ranking-60-singles-u-s-edition-1970-1972/",
+      "summary": "5 Have you been making out okay? Have I? Few men on Earth were as sexy as Al Green between 1971 and 1975: he emitted an erotic charge that could light Belarus for three decades. His cover of the Whit…",
+      "publishedAt": "2026-10-23T00:33:31.000Z"
     }
   },
   "https://neveenwood.com/": {
@@ -5529,15 +5529,15 @@
     }
   },
   "https://70sscifiart.tumblr.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-23T00:08:17.626Z",
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "RIP Tom Skerritt",
-      "url": "https://70sscifiart.tumblr.com/post/831208244489961472",
-      "summary": "humanoidhistory : Tom Skerritt and Veronica Cartwright take five on the set of Alien . RIP Tom Skerritt",
-      "publishedAt": "2026-10-22T20:45:54.000Z"
+      "title": "RIP Tom Skerritt (1933&ndash;2026)",
+      "url": "https://70sscifiart.tumblr.com/post/831222476193349632",
+      "summary": "humanoidhistory : RIP Tom Skerritt (1933–2026)",
+      "publishedAt": "2026-10-23T00:32:06.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -6224,14 +6224,14 @@
   },
   "https://thisisnthappiness.com/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T20:44:35.336Z",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "Too many creeps, Mike Combs",
-      "url": "https://thisisnthappiness.com/post/831207134933958656",
-      "summary": "Too many creeps, Mike Combs",
-      "publishedAt": "2026-10-22T20:28:16.000Z"
+      "title": "Something in the dark, Matt Schu",
+      "url": "https://thisisnthappiness.com/post/831207467598938112",
+      "summary": "Something in the dark, Matt Schu",
+      "publishedAt": "2026-10-22T20:33:33.000Z"
     }
   },
   "https://banbantonton.com/": {
@@ -6589,13 +6589,13 @@
   },
   "https://13thdimension.com/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T22:44:31.398Z",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
     "status": "success",
     "feedUrl": "https://13thdimension.com/feed/",
     "latestArticle": {
       "title": "1970s SHAZAM! TV Star MICHAEL GRAY Dead at 75",
       "url": "https://13thdimension.com/1970s-shazam-tv-star-michael-gray-dead-at-75/",
-      "summary": "He was Billy Batson… Michael Gray, who portrayed Billy Batson on the popular 1970s TV show Shazam!, has died at the age of 75. Here’s the press release, with more to come later Thursday: Palm Desert,…",
+      "summary": "He was Billy Batson… Michael Gray, who portrayed Billy Batson on the popular 1970s live-action Filmation TV show Shazam!, has died at the age of 75. Here’s the official press release: Palm Desert, CA…",
       "publishedAt": "2026-10-22T21:13:16.000Z"
     }
   },
@@ -7041,8 +7041,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-23T00:08:17.626Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-23T00:44:31.038Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "HEMAA Architectes",

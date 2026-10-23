@@ -34,13 +34,13 @@
   },
   "http://www.16bit.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "http://www.16bit.com/rss.xml",
     "latestArticle": {
-      "title": "16bit.com Update Summary: October 22, 2026",
-      "url": "http://16bit.com/n2610.shtml#1022",
-      "summary": "Review: Mattel Jurassic Park '93 Classic Dennis Nedry Track and Chase Pack.",
-      "publishedAt": "2026-10-22T12:00:00.000Z"
+      "title": "16bit.com Update Summary: October 23, 2026",
+      "url": "http://16bit.com/n2610.shtml#1023",
+      "summary": "Star Wars Review: Clone Commander Cody (Utapau, The Vintage Collection.) Review: Blokees Transformers Defender Version 04 Tyrants Fury Grimlock Tyrannosaurus Rex Action Figure.",
+      "publishedAt": "2026-10-23T12:00:00.000Z"
     }
   },
   "http://www.cherryandspoon.com/": {
@@ -160,10 +160,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Calibre 9.17 E-Book Manager Adds JPEG XL Support and Performance Improvements",
-      "url": "https://9to5linux.com/calibre-9-17-e-book-manager-adds-jpeg-xl-support-and-performance-improvements",
-      "summary": "Calibre 9.17 open-source e-book manager is now available for download with support for JPEG XL images for e-book cover conversion, faster MOBI/AZW3/PDB conversion, and more. The post Calibre 9.17 E-B…",
-      "publishedAt": "2026-10-23T04:35:26.000Z"
+      "title": "OpenSSL 4.1 Released with Support for DTLS 1.3, IKEV2 KDF, and GREASE",
+      "url": "https://9to5linux.com/openssl-4-1-released-with-support-for-dtls-1-3-ikev2-kdf-and-grease",
+      "summary": "OpenSSL 4.1 is now available for download with an alpha version adding support for DTLS 1.3, IKEV2 KDF, and GREASE, as well as other improvements. The post OpenSSL 4.1 Released with Support for DTLS …",
+      "publishedAt": "2026-10-23T12:33:57.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -179,12 +179,12 @@
   },
   "https://accidentalwoodworker.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://accidentalwoodworker.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "shavings & still not done......",
-      "summary": "from yesterday This was the last thing I did in the shop before I killed the lights yesterday. 1/8\" plywood I have learned is more than sufficient for a box of this size. hmm...... Put the Soss hinge…",
-      "publishedAt": "2026-10-22T11:36:10.000Z"
+      "title": "shavings & still not done........",
+      "summary": "Still slugging my way through the box. It is taking a lot longer than I thought it would even with the health issues factored in. It is a small project but the devil is in the build steps that I chan…",
+      "publishedAt": "2026-10-23T12:07:05.000Z"
     }
   },
   "https://adamapples.blogspot.com/": {
@@ -415,7 +415,7 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -800,7 +800,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -1170,13 +1170,13 @@
   },
   "https://comicss.art/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-10-21",
     "feedUrl": "https://comicss.art/rss.xml",
     "latestArticle": {
-      "title": "One Last Line",
-      "url": "https://comicss.art/comics/263",
+      "title": "I put the...",
+      "url": "https://comicss.art/comics/264",
       "summary": "A cartoon coded in CSS from comiCSS.",
-      "publishedAt": "2026-10-19T00:00:00.000Z"
+      "publishedAt": "2026-10-21T00:00:00.000Z"
     }
   },
   "https://commentingon.xyz/": {
@@ -1228,10 +1228,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Daniel Pitt: The Conservative Party’s history with deals and coalitions is a warning for now",
-      "url": "https://conservativehome.com/2026/10/23/daniel-pitt-the-conservative-partys-history-with-deals-and-coalitions-is-warning-for-now/",
-      "summary": "The Conservatives have done a reasonable job of winning the acquisition game in the past; for example, the Liberal Unionists and National Liberals were merged within the party, but the acquisition mu…",
-      "publishedAt": "2026-10-23T10:00:58.000Z"
+      "title": "Neville Lishman: The door is ajar in the Red Wall – we can open it further",
+      "url": "https://conservativehome.com/2026/10/23/neville-lishman-the-door-is-ajar-in-the-red-wall-we-can-open-it-further/",
+      "summary": "Let’s treat everyone we speak to as someone who was once most likely with us in 2019, who shares similar values and similar aspirations. These voters are not gone, they just feel let down. The stakes…",
+      "publishedAt": "2026-10-23T12:00:35.000Z"
     }
   },
   "https://corporalfrisk.com/": {
@@ -1383,7 +1383,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1426,7 +1426,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1898,7 +1898,7 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
@@ -1941,13 +1941,13 @@
   },
   "https://greg.org/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://greg.org/feed",
     "latestArticle": {
-      "title": "F0llowing Johns’s Lead",
-      "url": "https://greg.org/archive/2026/10/22/following-johnss-lead.html",
-      "summary": "Rummaging around through the remnants of Gemini GEL’s archive at the NGA, I got caught up by—surprise, surprise—this Jasper Johns Flag, the best from the 1969 Lead Reliefs series. This example entere…",
-      "publishedAt": "2026-10-22T23:38:32.000Z"
+      "title": "Where Is Marilyn Neuhart Baby Jesus?",
+      "url": "https://greg.org/archive/2026/10/23/where-is-marilyn-neuhart-baby-jesus.html",
+      "summary": "I was the first great-grandchild, and one thing that imprinted on my family was that I liked nativity sets. Because when I went to my great-grandmother’s house, I played with a nativity set. The timi…",
+      "publishedAt": "2026-10-23T11:54:51.000Z"
     }
   },
   "https://gregalder.com/yardposts/": {
@@ -2686,13 +2686,13 @@
   },
   "https://laststandonzombieisland.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://laststandonzombieisland.com/feed/",
     "latestArticle": {
-      "title": "A Decent Looking CSG by any measure",
-      "url": "https://laststandonzombieisland.com/2026/10/22/a-decent-looking-csg-by-any-measure/",
-      "summary": "How about this great PHOTEX featuring the 30,000-ton F-35-equipped Italian Navy aircraft carrier ITS Cavour (CVH 550), her companion strike group, and the multi-national squadron of Standing NATO Mar…",
-      "publishedAt": "2026-10-22T12:00:53.000Z"
+      "title": "Echoes of Fleet Week by the Golden Gate",
+      "url": "https://laststandonzombieisland.com/2026/10/23/echoes-of-fleet-week-by-the-golden-gate/",
+      "summary": "Today’s San Francisco is a far cry from the city it was during WWII, but it can still turn out for the Navy at Fleet Week. Check out this view of the Parade of Ships under the Golden Gate, past Alcat…",
+      "publishedAt": "2026-10-23T12:00:36.000Z"
     }
   },
   "https://laurasmiscmusings.blogspot.com/": {
@@ -2730,13 +2730,13 @@
   },
   "https://liberalengland.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Le Beaujolais Nouveau est disparu",
-      "url": "https://liberalengland.blogspot.com/2026/10/le-beaujolais-nouveau-est-disparu.html",
-      "summary": "The arrival of Beaujolais Nouveau was a thing, a big thing, in the Britain of the 1980s, with the media taking a huge interest. But then we were a country where wine bars were suddenly everywhere. I …",
-      "publishedAt": "2026-10-22T18:55:55.284Z"
+      "title": "A.E. Housman on books and their authors",
+      "url": "https://liberalengland.blogspot.com/2026/10/ae-housman-on-books-and-their-authors.html",
+      "summary": "John Bayley once began a review of a book about Elizabeth Gaskell with: To an admirer who wanted to meet him on account of A Shropshire Lad Housman replied discouragingly that while most men might be…",
+      "publishedAt": "2026-10-23T12:28:55.214Z"
     }
   },
   "https://librearts.org/": {
@@ -2836,7 +2836,7 @@
     }
   },
   "https://londonreconnections.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
@@ -3198,7 +3198,7 @@
     }
   },
   "https://moxiemoshpit.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://moxiemoshpit.com/feed/",
     "latestArticle": {
@@ -3439,10 +3439,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://opinionatedgamers.com/feed/",
     "latestArticle": {
-      "title": "Dale Yu: Review of Timespan",
-      "url": "https://opinionatedgamers.com/2026/10/23/dale-yu-review-of-timespan/",
-      "summary": "Timespan Designers: Kenneth Minde, Kristian Amundsen Østby Publisher: Alion Players: 1-5 Age: 12+ Time: 90 mins Played with review copy provided by publisher Timespan is a streamlined, friendly and h…",
-      "publishedAt": "2026-10-23T06:16:20.000Z"
+      "title": "Dale’s Report from Essen – Spiel 2026 – Thurs/Fri AM",
+      "url": "https://opinionatedgamers.com/2026/10/23/dales-report-from-essen-spiel-2026-thurs-fri-am/",
+      "summary": "OK, so much for trying to post every day – to be honest, there’s just not enough time in the day here! If you’ve never been, the show is simply a giant firehose of game information – everywhere you ……",
+      "publishedAt": "2026-10-23T10:38:50.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -3735,7 +3735,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-10",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/?v=7885444af42e",
     "latestArticle": {
@@ -3796,10 +3796,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Forget letting rip at the referee – let rip at the Celtic board who provided Oliver Sorensen and a clause in his deal that he must play in every Europa League fixture…",
-      "url": "https://readceltic.com/2026/10/23/board-sorensen-europa-league-clause-celtic/",
-      "summary": "Last night, Martin O’Neill let rip at the referee, and the Daily Record seem to think that was The post Forget letting rip at the referee – let rip at the Celtic board who provided Oliver Sorensen an…",
-      "publishedAt": "2026-10-23T11:23:02.000Z"
+      "title": "Bonner’s Celtic Spending Claim Lets the Wrong People Off the Hook",
+      "url": "https://readceltic.com/2026/10/23/bonner-celtic-spending-claim-fans/",
+      "summary": "Pat Bonner’s Celtic spending claim deserves scrutiny after he linked transfer fees to supporter demands following the defeat The post Bonner’s Celtic Spending Claim Lets the Wrong People Off the Hook…",
+      "publishedAt": "2026-10-23T12:26:50.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -4286,13 +4286,13 @@
   },
   "https://sloopie72.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-18",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://sloopie72.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Closing Out In-Between Reading 2026: Shaken, Indeed [IBR2026]",
-      "url": "https://sloopie72.wordpress.com/2026/10/18/closing-out-in-between-reading-2026-shaken-indeed-ibr2026/",
-      "summary": "I noted in my IBR2026 Opening post last January that I was taking a different approach this year: I was eager to read a pile of what I called ‘Big Books’ on my table, so I moved Pushcart to the summe…",
-      "publishedAt": "2026-10-18T12:00:00.000Z"
+      "title": "Starting BASS 2026: What’s Love Got To Do With It?",
+      "url": "https://sloopie72.wordpress.com/2026/10/23/starting-bass-2026-whats-love-got-to-do-with-it/",
+      "summary": "Look – I know all about poetry’s reputation for romance, its alluring powers, the sly ways verse woos with line breaks and slant rhymes, but please consider what I know to be true after two years of …",
+      "publishedAt": "2026-10-23T12:00:00.000Z"
     }
   },
   "https://sluggerotoole.com/": {
@@ -4362,7 +4362,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -4814,7 +4814,7 @@
     }
   },
   "https://thehighburylibrary.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2016-11-27",
     "feedUrl": "https://thehighburylibrary.com/feed/",
     "latestArticle": {
@@ -5453,7 +5453,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -5533,10 +5533,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "BrickLink Designer Program Series 8 LEGO sets arriving with backers",
-      "url": "https://www.brickfanatics.com/bricklink-designer-program-series-8-lego-sets-arriving-with-backers",
-      "summary": "Keep your eye out for a big brown box turning up on your doorstep",
-      "publishedAt": "2026-10-23T10:24:01.000Z"
+      "title": "LEGO swaps out iconic Classic Space astronaut in new gift – but why?",
+      "url": "https://www.brickfanatics.com/lego-swaps-out-iconic-classic-space-astronaut-gift",
+      "summary": "We have a theory",
+      "publishedAt": "2026-10-23T12:34:12.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5727,10 +5727,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "New ‘Music of EPCOT’ Inspired by 1983 Fan-Favorite Record is Now Streaming!",
-      "url": "https://www.disneytouristblog.com/disney-world-dropping-new-music-of-epcot-2lp-vinyl-inspired-by-1983-fan-favorite-album/",
-      "summary": "Great news, audiophiles! Walt Disney World has released the new two-LP vinyl release inspired by the original 1983 “The Official Album of EPCOT Center” on streaming services. Here are details about t…",
-      "publishedAt": "2026-10-23T10:14:23.000Z"
+      "title": "Why Facial Recognition Won’t Replace MagicBands at Disney World",
+      "url": "https://www.disneytouristblog.com/why-facial-recognition-wont-replace-magicbands-at-disney-world/",
+      "summary": "New rumors are swirling that Walt Disney World plans to install new facial recognition entrances and replace hotel room key readers to support digital keys, further phasing out of physical cards and …",
+      "publishedAt": "2026-10-23T12:35:50.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -5937,13 +5937,13 @@
   },
   "https://www.ibroxnoise.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-23",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Ex-Celtic boss Strachan makes ‘bleeding obvious’ comment about Rangers",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/ex-celtic-boss-strachan/",
-      "summary": "If there is one former Scottish football figure we doubt we’ve ever even mentioned on Ibrox Noise, it’s ex-Celtic manager Gordon Strachan. An amusing little individual before he joined Celtic, WGS, a…",
-      "publishedAt": "2026-10-22T14:53:42.000Z"
+      "title": "80% of Rangers fans slam fourth shirt as “Wycombe Rip Off” and won’t buy it",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/rangers-fans-slam-fourth-shirt/",
+      "summary": "Rangers finally released the recently hyped fourth kit. By hyped, we mean leaked and derided by the majority of those who saw it. Reaction to the official launch has not exactly been terribly positiv…",
+      "publishedAt": "2026-10-23T12:16:52.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6446,7 +6446,7 @@
     }
   },
   "https://www.snitchseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
@@ -6555,7 +6555,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -6813,9 +6813,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

@@ -179,12 +179,12 @@
   },
   "https://accidentalwoodworker.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://accidentalwoodworker.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "shavings & still not done........",
-      "summary": "Still slugging my way through the box. It is taking a lot longer than I thought it would even with the health issues factored in. It is a small project but the devil is in the build steps that I chan…",
-      "publishedAt": "2026-10-23T12:07:05.000Z"
+      "title": "shellac time........",
+      "summary": "one down, three to go The left short side was done first with the front long side next. I worked my way around the bottom until all four miters closed up. a lot to remove Rabbeted miter corners confu…",
+      "publishedAt": "2026-10-24T11:31:37.000Z"
     }
   },
   "https://adamapples.blogspot.com/": {
@@ -1368,13 +1368,13 @@
   },
   "https://danielbowen.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://danielbowen.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Old photos from September and October 2016 by Marcus",
-      "url": "https://danielbowen.com/2026/10/22/old-photos-from-september-and-october-2016/#comment-422748",
-      "summary": "@Ross - Hardwarehouse actually introduced the \"big box\" hardware store concept to Australia back in 1992 - https://en.wikipedia.org/wiki/Hardwarehouse The first Bunnings Warehouse didn't open until 1…",
-      "publishedAt": "2026-10-22T03:29:41.000Z"
+      "title": "Comment on Weekly cap: good idea, but… by Michael Bell",
+      "url": "https://danielbowen.com/2026/10/24/weekly-cap-good-idea-but/#comment-422839",
+      "summary": "Perth’s fare discounts preference the methods of payment that have the lowest administrative cost with the greatest discount. So direct-debit auto-loaded Easyrider cards get the greatest discount; ma…",
+      "publishedAt": "2026-10-24T11:10:09.000Z"
     }
   },
   "https://danq.me/": {
@@ -1405,7 +1405,7 @@
     }
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1884,7 +1884,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2053,10 +2053,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "A Walkie Talkie Interface For Claude",
-      "url": "https://hackaday.com/2026/10/24/a-walkie-talkie-interface-for-claude/",
-      "summary": "[Bookmari] had a problem — working as a delivery driver, they wanted to work on various projects with Claude Code while out and about. Unfortunately, it simply wasn’t practical to …read more",
-      "publishedAt": "2026-10-24T08:00:14.000Z"
+      "title": "Watch VCF Southwest in Retrotastic SGI-Edited Footage",
+      "url": "https://hackaday.com/2026/10/24/watch-vcf-southwest-in-retrotastic-sgi-edited-footage/",
+      "summary": "There’s just something about backing way, way off the cutting edge to rediscover the simpler joys of yesteryear. We’ve got a contest about to wrap up along those lines, and …read more",
+      "publishedAt": "2026-10-24T11:00:56.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2206,9 +2206,9 @@
     }
   },
   "https://humbledollar.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-24",
-    "feedUrl": "https://humbledollar.com/feed/",
+    "feedUrl": "https://humbledollar.com/feed.xml",
     "latestArticle": {
       "title": "Inherited IRA Trap",
       "url": "https://humbledollar.com/2026/10/inherited-ira-trap/",
@@ -2426,7 +2426,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2528,13 +2528,13 @@
   },
   "https://joshreads.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://joshreads.com/feed/",
     "latestArticle": {
-      "title": "Metapost: Autumnal COTW",
-      "url": "https://joshreads.com/2026/10/metapost-autumnal-cotw/",
+      "title": "One-panel Saturday",
+      "url": "https://joshreads.com/2026/10/one-panel-saturday-6/",
       "summary": "Comics Curmudgeon readers! Do you love this blog and yearn for a novel written by its creator? Well, good news: Josh Fruhlinger's The Enthusiast is that novel! It's even about newspaper comic strips,…",
-      "publishedAt": "2026-10-23T14:40:28.000Z"
+      "publishedAt": "2026-10-24T11:25:35.000Z"
     }
   },
   "https://joshuamorris.info/": {
@@ -3479,12 +3479,13 @@
   },
   "https://nz6a.mihobu.net/": {
     "status": "success",
-    "lastPublished": "2026-09-18",
+    "lastPublished": "2026-10-06",
     "feedUrl": "https://nz6a.mihobu.net/rss.xml",
     "latestArticle": {
-      "title": "📷 Portuguese antenna garden",
-      "url": "https://nz6a.mihobu.net/micro-20260918070719",
-      "publishedAt": "2026-09-18T07:07:00.000Z"
+      "title": "Spectrum Allocation",
+      "url": "https://nz6a.mihobu.net/micro-20261006001030",
+      "summary": "This is a copy of a post by XKCD Bot .",
+      "publishedAt": "2026-10-06T00:10:00.000Z"
     }
   },
   "https://ocalicreek.blogspot.com/": {
@@ -3906,10 +3907,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Celtic injury news offers Hibs boost as options finally grow",
-      "url": "https://readceltic.com/2026/10/24/celtic-injury-news-hibs-boost/",
-      "summary": "Celtic’s injury news finally offers something supporters have been craving: the prospect of a bench that gives Martin The post Celtic injury news offers Hibs boost as options finally grow appeared fi…",
-      "publishedAt": "2026-10-24T08:39:00.000Z"
+      "title": "Celtic denied, Rangers protected from a penalty: Collum exposes the failures",
+      "url": "https://readceltic.com/2026/10/24/celtic-penalty-denied-collum-officials-failures/",
+      "summary": "Celtic denied, Rangers spared. Willie Collum’s latest admissions leave Scottish football facing an uncomfortable contrast that supporters have The post Celtic denied, Rangers protected from a penalty…",
+      "publishedAt": "2026-10-24T11:11:45.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -4803,10 +4804,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "The longer our leaders remain in place, the more harm falls upon Celtic itself.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/celtic-leaders-institutional-failure-harm/",
-      "summary": "All of us should still be buzzing after what Celtic did to Hearts. Of course we are, even The post The longer our leaders remain in place, the more harm falls upon Celtic itself. appeared first on Th…",
-      "publishedAt": "2026-10-24T08:30:50.000Z"
+      "title": "Ibrox has made a multi-year bet. If it doesn’t pay off now it never will.",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/ibrox-has-made-a-multi-year-bet/",
+      "summary": "There is a tendency in Scottish football to look at accounts as if they are simply a snapshot The post Ibrox has made a multi-year bet. If it doesn’t pay off now it never will. appeared first on The …",
+      "publishedAt": "2026-10-24T10:45:24.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5172,7 +5173,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5275,7 +5276,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5657,10 +5658,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Spooky saving to be had on LEGO Creator 3-in-1 Haunted Mansion",
-      "url": "https://www.brickfanatics.com/spooky-saving-to-be-had-on-lego-creator-3-in-1-haunted-mansion",
-      "summary": "Creeping into your collection",
-      "publishedAt": "2026-10-24T10:25:14.000Z"
+      "title": "LEGO Editions ‘Madison’ range rumoured to be basketball-themed",
+      "url": "https://www.brickfanatics.com/lego-editions-madison-range-rumoured-to-be-basketball-themed",
+      "summary": "Hoop dreams",
+      "publishedAt": "2026-10-24T10:33:00.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6096,10 +6097,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Nico Raskin Rangers twist as Belgian makes surprise future admission",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/nico-raskin-rangers-twist/",
-      "summary": "Putting Nico Raskin in front of the cameras at Friday’s pre-match press conference was a very bold move by Rangers. And indeed by Raskin himself. Could it have a twist? Naturally, we know the huge sp…",
-      "publishedAt": "2026-10-24T10:32:33.000Z"
+      "title": "Rangers sickness bug could cost up to FIVE key players v St Johnstone",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/rangers-sickness-bug/",
+      "summary": "As has been widely reported, Rangers’ training camp has been struck by a sickness bug, and there are reports that one to five key players are likely to miss the weekend visit of St Johnstone. This is…",
+      "publishedAt": "2026-10-24T11:11:53.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6252,7 +6253,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6520,7 +6521,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6737,7 +6738,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -6939,13 +6940,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'There Will Always Be a Role Left for Us to Play' - In an AI-Filled World, Miyamoto Thinks the Human Touch Will Always Be Vital",
-      "url": "https://www.timeextension.com/#article-208062",
-      "summary": "\"It provides an opportunity to reflect on what’s really important\". The legendary Shigeru Miyamoto has just received Japan’s Order of Culture award , and after accepting it, the creator of Mario and …",
-      "publishedAt": "2026-10-23T17:00:00.000Z"
+      "title": "Waveling Island Is an Upcoming Creature-Collecting Sim for PC & Xbox with Some Serious GBA-Vibes",
+      "url": "https://www.timeextension.com/#article-208052",
+      "summary": "Tropic like it's hot! The developer behind Mega Man-inspired indie games Berserk Boy and Berserk B.I.T.S has unveiled its latest game, and it's giving us some serious Game Boy Advance vibes, based on…",
+      "publishedAt": "2026-10-24T11:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -6995,9 +6996,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

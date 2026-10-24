@@ -768,5 +768,43 @@
     "addedAt": "2026-10-23T15:29:05.596Z",
     "clicks": 1,
     "webringId": "br-20187e6b1e079a69a9ffa3283820a4e5"
+  },
+  {
+    "id": "beaddraft",
+    "name": "BeadDraft",
+    "url": "https://beaddraft.com/",
+    "description": "A free browser-based creative tool that turns photos or short text into editable fuse-bead patterns with color matching, protected cells and printable exports.",
+    "category": "Independent Tools",
+    "subcategory": "Creative Tools",
+    "addedDate": "2026-10-24",
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-5cdbca7640f75cdfe33509098c7bb585"
+  },
+  {
+    "id": "cheltenham-open-data",
+    "name": "Cheltenham Open Data",
+    "url": "https://cheltenham-od.uk/",
+    "description": "An independent, privacy-first local data hub for Cheltenham and Gloucestershire, bringing together public information on transport, housing, safety, environment, health, community life and local services.",
+    "category": "Independent Tools",
+    "subcategory": "Useful Tools",
+    "country": "GB-ENG",
+    "addedDate": "2026-10-24",
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-bd22f94d9afa39c94650a2fae823bb07"
+  },
+  {
+    "id": "nuchronic",
+    "name": "Nuchronic",
+    "url": "https://nuchronic.uk/",
+    "description": "A dark-mode IndieWeb webring and feed hub for chronically ill people, aggregating public posts from independent sites and offering privacy-focused health tracking tools and printables.",
+    "category": "Webrings",
+    "subcategory": "Webring Hubs",
+    "country": "GB-ENG",
+    "addedDate": "2026-10-24",
+    "addedAt": "2026-10-24T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-9a50c9e86a649ce3e7575f862e162fd3"
   }
 ]

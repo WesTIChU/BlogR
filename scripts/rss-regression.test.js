@@ -19,7 +19,7 @@ test('renders stable RSS metadata slots in generated HTML', async () => {
     html,
     /data-blog-url="https:\/\/roadtothesea\.com\/"[^>]*>.*?data-blog-update-slot/s
   )
-  assert.doesNotMatch(html, /href="https:\/\/roadtothesea\.com\/feed\//)
+  assert.match(html, /href="https:\/\/roadtothesea\.com\/feed\//)
 })
 
 test('keeps the runtime RSS slot empty for blogs without metadata', async () => {

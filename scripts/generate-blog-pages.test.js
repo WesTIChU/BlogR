@@ -204,6 +204,7 @@ test('classifies dedicated smart-home blogs separately from self-hosting blogs',
 
   assert.deepEqual(entries('Smart Homes & Automation'), [
     'Awesome Home Assistant',
+    'Buy With Context',
     'Derek Seaman',
     'Everything Smart Home',
     'Home Automation Guy',
@@ -215,6 +216,7 @@ test('classifies dedicated smart-home blogs separately from self-hosting blogs',
   ])
   assert.deepEqual(entries('Self-Hosting & Homelabs'), [
     'Awesome Selfhosted',
+    'ByteTrek',
     "Justin's IT Blog",
     'LinuxServer.io Blog',
     'Open Pi',
@@ -310,6 +312,12 @@ test('classifies the newly added lifestyle, music, technology, and spooky blogs'
         name: 'The Impulsive Buy',
         category: 'lifestyle-and-hobbies',
         subcategory: 'Cooking & Recipes',
+        country: 'US'
+      },
+      {
+        name: 'The Impulsive Buy',
+        category: 'lifestyle-and-hobbies',
+        subcategory: 'Food Reviews',
         country: 'US'
       }
     ]
@@ -976,7 +984,7 @@ test('sorts community categories alphabetically by display title', () => {
 test('renders every community exactly once under its subject category', () => {
   const markdown = communityPage(communities)
   for (const community of communities) {
-    assert.equal(markdown.split(community.url).length - 1, 2)
+    assert.equal(markdown.split(community.url).length - 1, 3)
   }
   for (const { title } of communityTaxonomy) {
     assert.match(markdown, new RegExp(`## ${title}`))

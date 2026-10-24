@@ -8041,5 +8041,40 @@
     "lastChecked": "2026-10-23T15:44:38.843Z",
     "status": "unknown",
     "feedUrl": "https://www.philosophydef.com/favicon.svg"
+  },
+  "https://beaddraft.com/blog": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-24T15:16:41.700Z",
+    "status": "unknown",
+    "feedUrl": "https://beaddraft.com/favicon.svg"
+  },
+  "https://maisonkojira.com/insights/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-24T15:16:41.700Z",
+    "status": "unknown",
+    "feedUrl": "https://maisonkojira.com/"
+  },
+  "https://revenuecycleuncovered.blogspot.com/": {
+    "lastPublished": "2026-10-23",
+    "lastChecked": "2026-10-24T15:16:41.700Z",
+    "status": "success",
+    "feedUrl": "https://revenuecycleuncovered.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Excel Worksheet | Fee Schedule Comparison",
+      "url": "https://revenuecycleuncovered.blogspot.com/2026/10/excel-worksheet-fee-schedule-comparison.html",
+      "summary": "Specialized Topics & Deep Dives · Revenue Integrity & Contract Management Fee Schedule Comparison Tool Compare user-entered reimbursement rates and explore how different payment scenarios affect esti…",
+      "publishedAt": "2026-10-23T06:34:54.662Z"
+    }
+  },
+  "https://thechels.uk/": {
+    "lastPublished": "2026-10-18",
+    "lastChecked": "2026-10-24T15:16:41.700Z",
+    "status": "success",
+    "feedUrl": "https://thechels.uk/posts.xml",
+    "latestArticle": {
+      "url": "https://thechels.uk/one-to-one-questions-that-go-deeper",
+      "summary": "The easiest one-to-one to run is a status update. It’s also the least useful: you can get status from the board. The point of the time is the stuff that never makes it onto a ticket. Here are seven q…",
+      "publishedAt": "2026-10-18T08:00:00.000Z"
+    }
   }
 }

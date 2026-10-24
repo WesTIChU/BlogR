@@ -157,13 +157,13 @@
   },
   "https://9to5linux.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "OBS Studio 33 Officially Released with Many New Features and Improvements",
-      "url": "https://9to5linux.com/obs-studio-33-officially-released-with-many-new-features-and-improvements",
-      "summary": "OBS Studio 33 open-source video recording and live streaming software is now available for download with support for newest NVIDIA Broadcast SDKs for NVIDIA Audio Effects and Video Effects, a check f…",
-      "publishedAt": "2026-10-23T23:51:09.000Z"
+      "title": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
+      "url": "https://9to5linux.com/transmission-4-1-4-open-source-bittorrent-client-released-with-various-fixes",
+      "summary": "Transmission 4.1.4 open-source BitTorrent client is now available for download with various bug fixes and improvements for the Qt client, GTK client, macOS Client, and Web client. The post Transmissi…",
+      "publishedAt": "2026-10-24T01:15:00.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -1047,7 +1047,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1588,7 +1588,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1642,7 +1642,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -1954,13 +1954,13 @@
   },
   "https://greatawakeningreport.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Remove It And Everything Fails | Documentary",
-      "url": "https://greatawakeningreport.com/remove-it-and-everything-fails-documentary/",
-      "summary": "The title is the whole thesis. Remove it and everything fails. The Remove It And Everything Fails documentary builds its case around a single element it argues an entire nation quietly depends on, an…",
-      "publishedAt": "2026-10-23T23:10:00.000Z"
+      "title": "2026 Could Trigger The Deadliest Debt Collapse | Documentary",
+      "url": "https://greatawakeningreport.com/2026-could-trigger-the-deadliest-debt-collapse-documentary/",
+      "summary": "Debt is the quietest force in economics until it is the loudest. The deadliest debt collapse documentary takes the position that the world financial system is standing on an edge it has been walking …",
+      "publishedAt": "2026-10-24T01:40:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -3222,13 +3222,13 @@
   },
   "https://mojobob.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Hawker Hart Update",
-      "url": "https://mojobob.blogspot.com/2026/10/hawker-hart-update.html",
-      "summary": "I've updated the 1:144 model of the Hawker Hart that I built quite some time ago, and added some wing rib detail and a flight stand socket. The updated model can be had at https://www.wargaming3d.com…",
-      "publishedAt": "2026-10-23T00:28:57.394Z"
+      "title": "Aeroplane Display Board (again)",
+      "url": "https://mojobob.blogspot.com/2026/10/aeroplane-display-board-again.html",
+      "summary": "I've made another display board for my little aeroplanes, mostly WWII stuff this time, though there's a bit of WW1 overflow as well. This one is intended as a wall display, hanging from a picture hoo…",
+      "publishedAt": "2026-10-24T01:12:06.788Z"
     }
   },
   "https://momentsingraphics.de/": {
@@ -5844,7 +5844,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -5913,7 +5913,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -6049,7 +6049,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -6270,7 +6270,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -6373,7 +6373,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -6507,7 +6507,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6738,9 +6738,9 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-06-24",
-    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
+    "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
       "title": "Insta360 x4 Air: Quick Review",
       "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
@@ -6752,7 +6752,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6763,7 +6763,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6774,7 +6774,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -6818,7 +6818,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
@@ -6829,7 +6829,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
@@ -6866,10 +6866,10 @@
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Back to the Future Fans Get Huge Surprise Release From Michael J. Fox & Christopher Lloyd",
-      "url": "https://www.themovieblog.com/2026/10/back-to-the-future-fans-get-huge-surprise-release-from-michael-j-fox-and-christopher-lloyd/",
-      "summary": "Michael J. Fox and Christopher Lloyd have unveiled a special limited-edition collection for Back to the Future fans, coinciding with a nationwide theatrical return. The post Back to the Future Fans G…",
-      "publishedAt": "2026-10-23T17:10:00.000Z"
+      "title": "Avengers: Secret Wars Filming Schedule Report Raises Production Concerns",
+      "url": "https://www.themovieblog.com/2026/10/avengers-secret-wars-filming-schedule-report-raises-production-concerns/",
+      "summary": "A recent industry report suggests that the production timeline for the upcoming Marvel blockbuster could be tighter than previously anticipated. The post Avengers: Secret Wars Filming Schedule Report…",
+      "publishedAt": "2026-10-23T17:35:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -6917,7 +6917,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -6996,7 +6996,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

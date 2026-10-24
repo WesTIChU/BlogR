@@ -1579,8 +1579,8 @@
   },
   "https://waitbutwhy.com/": {
     "lastPublished": "2025-11-25",
-    "lastChecked": "2026-10-18T12:44:45.639Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T06:44:30.538Z",
+    "status": "unavailable",
     "feedUrl": "https://waitbutwhy.com/feed",
     "latestArticle": {
       "title": "The sights and sounds of Bhutan",
@@ -1779,8 +1779,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T05:44:29.286Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T06:44:30.538Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "EE come top in Streetwave study of Cornwall UK’s mobile broadband performance",
@@ -1790,14 +1790,14 @@
     }
   },
   "https://itsfoss.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T18:44:30.478Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T06:44:30.538Z",
     "status": "success",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17505238/projects-keeping-x11-alive",
-      "summary": "The list covers desktops, X servers, and a Wayland-hosted X11 layer. Basically, projects that are resisting a Waylan-only Linux future.",
-      "publishedAt": "2026-10-23T17:14:00.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17505795/raid-calculator",
+      "summary": "Calculate usable capacity, fault tolerance, and storage efficiency for any RAID or ZFS layout. Also see if there are any risks associated with your rebuilds.",
+      "publishedAt": "2026-10-24T06:13:58.000Z"
     }
   },
   "https://www.jvt.me/posts/": {
@@ -4689,15 +4689,15 @@
     }
   },
   "https://johnclare.blogspot.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T05:44:31.026Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T06:44:30.538Z",
     "status": "success",
     "feedUrl": "https://johnclare.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Sweet solitude",
-      "url": "https://johnclare.blogspot.com/2026/10/blog-post_23.html",
-      "summary": "Sweet solitude what joy to be alone In wild wood shady dell to stay for hours Twould soften hearts if they were hard as stone To see glad Butterflies & smiling flowers Tis pleasant in these quiet lon…",
-      "publishedAt": "2026-10-23T05:22:55.164Z"
+      "title": "Thy truth",
+      "url": "https://johnclare.blogspot.com/2026/10/blog-post_24.html",
+      "summary": "I love thee nature in my inmost heart Go where I will thy truth seems from above Go where I will thy landscape forms a part Of heaven—e'en these fens where wood nor grove Are seen—their very nakednes…",
+      "publishedAt": "2026-10-24T06:41:28.705Z"
     }
   },
   "https://desturmobed.blogspot.com/": {
@@ -5554,8 +5554,8 @@
   },
   "https://scholarlykitchen.sspnet.org/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T09:44:30.063Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T06:44:30.538Z",
+    "status": "unavailable",
     "feedUrl": "https://scholarlykitchen.sspnet.org/feed/",
     "latestArticle": {
       "title": "Guest Post — Improving OpenAlex Data: Why Publishers Should Help Authors Improve the Scholarly Record",
@@ -7041,8 +7041,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T06:26:03.799Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-24T06:44:30.538Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Manijeh Vergese joins the AR Future Projects jury 2027",

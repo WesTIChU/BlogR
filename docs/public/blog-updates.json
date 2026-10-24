@@ -60,7 +60,7 @@
     "feedUrl": "http://www.galactichunter.com/GH/rss.xml",
     "latestArticle": {
       "title": "Star Wars Figure of the Day: Day 3,391: Clone Commander Cody (Utapau, The Vintage Collection)",
-      "url": "http://www.galactichunter.com/gh/story/star-wars-figure-day-day-3391-clone-commander-cody-utapau-vintage-collection",
+      "url": "http://www.galactichunter.com/GH/story/star-wars-figure-day-day-3391-clone-commander-cody-utapau-vintage-collection",
       "summary": "Via the Star Wars Galactic Hunter Figure of the Day Blog: Clone Commander Cody (Utapau, The Vintage Collection) . You got a new one over a decade ago, and this one is skinner, has more joints, and is…",
       "publishedAt": "2026-10-22T16:13:35.000Z"
     }
@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1059,7 +1059,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1622,7 +1622,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1676,7 +1676,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -1918,7 +1918,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2098,9 +2098,9 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/500-blog-posts-to-learn-about-hackernoon-zh?source=rss",
-      "summary": "Learn everything you need to know about Hackernoon Zh via these 500 free HackerNoon blog posts.",
-      "publishedAt": "2026-10-24T14:02:59.000Z"
+      "url": "https://hackernoon.com/500-blog-posts-to-learn-about-hackernoon?source=rss",
+      "summary": "Learn everything you need to know about Hackernoon via these 500 free HackerNoon blog posts.",
+      "publishedAt": "2026-10-24T20:01:20.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2244,10 +2244,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "Roth conversion cash flow",
-      "url": "https://humbledollar.com/forum/roth-conversion-cash-flow/",
-      "summary": "Is there a spreadsheet or app that illustrates cash flows under different Roth conversions. Or is there a spreadsheet ninja on this forum who has created one and would be willing to share? The post R…",
-      "publishedAt": "2026-10-24T17:34:02.000Z"
+      "title": "The Trouble With Being Different",
+      "url": "https://humbledollar.com/forum/the-trouble-with-being-different/",
+      "summary": "I used AI as an editorial assistant to help organize and refine my thoughts; the underlying ideas and personal experiences remain my own. During the stock market boom of the late 1990s, an acquaintan…",
+      "publishedAt": "2026-10-24T22:18:56.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -2302,13 +2302,13 @@
   },
   "https://indieblog.page/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://indieblog.page/dailyfeed",
     "latestArticle": {
-      "title": "🎲 Baby Ospreys!",
-      "url": "https://www.chuq.me/blog/baby-osprey?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
-      "summary": "Baby Ospreys! This random indieblog.page link was picked on Friday, October 23rd 2026. It was originally published on Thursday, August 13th 2026 at Blog - Chuq Von Rospach - Birds - Landscapes - Natu…",
-      "publishedAt": "2026-10-23T21:37:00.000Z"
+      "title": "🎲 Mandatory Update",
+      "url": "https://stucky.tech/mandatory-update/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
+      "summary": "A mandatory update that covers new essays, my family situation, and my vision for what I'm building and why This random indieblog.page link was picked on Saturday, October 24th 2026. It was originall…",
+      "publishedAt": "2026-10-24T22:37:00.000Z"
     }
   },
   "https://inmoscowsshadows.wordpress.com/": {
@@ -2460,7 +2460,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -5076,7 +5076,7 @@
     "latestArticle": {
       "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
       "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "This post was last edited 2 weeks ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might use the T…",
+      "summary": "This post was last edited 2 weeks, 1 day ago . This article contains affiliate links. See this page for details. I begin writing this as a set of instructions addressed to one of my kids who might us…",
       "publishedAt": "2026-10-05T19:39:00.000Z"
     }
   },
@@ -5256,7 +5256,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5359,7 +5359,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5661,7 +5661,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -5927,7 +5927,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -5996,7 +5996,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -6132,7 +6132,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -6336,7 +6336,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6353,7 +6353,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -6456,7 +6456,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -6612,7 +6612,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6626,7 +6626,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6857,7 +6857,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6868,7 +6868,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6879,7 +6879,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -6971,10 +6971,10 @@
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Fun Final Trailer for Wicker Movie with Alexander Skarsgård",
-      "url": "https://www.themovieblog.com/2026/10/fun-final-trailer-for-wicker-movie-with-alexander-skarsgard/",
-      "summary": "Black Bear Pictures has unveiled the final trailer for the upcoming comedy Wicker, featuring Olivia Colman and Alexander Skarsgård in a unique, satirical tale. The post Fun Final Trailer for Wicker M…",
-      "publishedAt": "2026-10-24T21:24:00.000Z"
+      "title": "Netflix Officially Pulls Zack Snyder’s Sucker Punch From UK Library",
+      "url": "https://www.themovieblog.com/2026/10/netflix-officially-pulls-zack-snyders-sucker-punch-from-uk-library/",
+      "summary": "Netflix is set to remove Zack Snyder's ambitious action fantasy film Sucker Punch from its United Kingdom library in early November. The post Netflix Officially Pulls Zack Snyder’s Sucker Punch From …",
+      "publishedAt": "2026-10-24T22:36:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7022,7 +7022,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -7101,7 +7101,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

@@ -734,8 +734,8 @@
   },
   "https://chaoslife.findchaos.com/comic": {
     "lastPublished": "2026-06-11",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
       "title": "Late Lament",
@@ -871,8 +871,8 @@
   },
   "https://dom.blog/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
       "title": "When I was one, I had just begun",
@@ -1422,15 +1422,15 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T23:44:29.574Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In Super Mario RPG, the Moleville Mines mine cart ride minigame&rsquo;s maps actually loop infinitely in&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831303299077701632",
-      "summary": "In Super Mario RPG, the Moleville Mines mine cart ride minigame’s maps actually loop infinitely in all directions, which is briefly noticeable at the start of the rooms. Top: note how at the start of…",
-      "publishedAt": "2026-10-23T21:56:45.000Z"
+      "title": "Officially licensed collectible Bowser tin from a 2019 Pok&eacute;mon/Super Mario Bros. cross-promotion&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831311242013671424",
+      "summary": "Officially licensed collectible Bowser tin from a 2019 Pokémon/Super Mario Bros. cross-promotion event in Japan. Zooming in onto the Bowser sprite reveals that is it made out of Generation 1 Pokémon …",
+      "publishedAt": "2026-10-24T00:03:00.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1691,8 +1691,8 @@
   },
   "https://debugpoint.com/": {
     "lastPublished": "2026-10-07",
-    "lastChecked": "2026-10-23T23:44:29.574Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
       "title": "LibreOffice 26.8: Best New Features",
@@ -1779,8 +1779,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "EE come top in Streetwave study of Cornwall UK’s mobile broadband performance",
@@ -1877,15 +1877,15 @@
     }
   },
   "https://www.omgubuntu.co.uk/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T15:44:38.843Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Calibre 9.7 touts faster ebook conversion speeds",
-      "url": "https://www.omgubuntu.co.uk/2026/10/calibre-9-7-faster-conversion",
-      "summary": "Calibre 9.17 has been released with faster ebook conversion speeds and JPEG XL image support. The open-source ebook editor improves output compression speeds for MOBI, AZW3 and PDB files, which makes…",
-      "publishedAt": "2026-10-23T15:45:01.000Z"
+      "title": "Shader Effects is the coolest GNOME extension you’ll try this weekend",
+      "url": "https://www.omgubuntu.co.uk/2026/10/shader-effect-gnome-extension",
+      "summary": "Ever wondered what your Ubuntu desktop would look like if you were watching it on a chewed up VHS tape or an old monochrome CRT monitor? You probably haven’t, but a new GNOME Shell extension lets you…",
+      "publishedAt": "2026-10-24T03:29:18.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -1914,8 +1914,8 @@
   },
   "https://simonschreibt.de/": {
     "lastPublished": "2025-03-27",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "success",
     "feedUrl": "https://simonschreibt.de/feed/",
     "latestArticle": {
       "title": "Sims 4: Mirrors",
@@ -2554,8 +2554,8 @@
   },
   "https://www.qwantz.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
       "title": "t-rex and the work enemy",
@@ -3035,8 +3035,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3311,20 +3311,20 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T07:44:30.145Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://gardenbetty.com/feed/",
     "latestArticle": {
-      "title": "Why You Should Leave Roots From Old Plants in the Ground",
-      "url": "https://gardenbetty.com/leave-roots-in-ground/",
-      "summary": "The article Why You Should Leave Roots From Old Plants in the Ground appeared first on Garden Betty . Should spent plants come out, roots and all? Usually not. Here’s how to cut, mulch, and top them,…",
-      "publishedAt": "2026-10-22T06:59:50.000Z"
+      "title": "How to Reduce Overwintering Pests in the Garden",
+      "url": "https://gardenbetty.com/reduce-overwintering-pests/",
+      "summary": "The article How to Reduce Overwintering Pests in the Garden appeared first on Garden Betty . Can pests survive cold winters in your garden? Some can! Here’s what to cut down, what to clean up in fall…",
+      "publishedAt": "2026-10-24T03:34:20.000Z"
     }
   },
   "https://savvygardening.com/": {
@@ -3341,8 +3341,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3729,15 +3729,15 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T20:44:28.527Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
-      "title": "Developing a nonfiction book concept",
-      "url": "https://tracydurnell.com/2026/10/22/developing-a-nonfiction-book-concept/",
-      "summary": "I’ve had the vague idea for a while that I’d like to write up my thoughts about local government outreach — I’m an opinionated person 😉 Originally, I thought I’d write an email newsletter, but after …",
-      "publishedAt": "2026-10-23T01:23:27.000Z"
+      "title": "Weeknotes: Oct. 17-23, 2026",
+      "url": "https://tracydurnell.com/2026/10/23/weeknotes-oct-17-23-2026/",
+      "summary": "Win of the week: did another music library purge — down to 3150 tracks from about 4000 in February — have removed all the “easy” stuff, now I need to actually listen to some tracks and decide whether…",
+      "publishedAt": "2026-10-24T03:33:50.000Z"
     }
   },
   "https://babakfakhamzadeh.com/": {
@@ -3753,15 +3753,15 @@
     }
   },
   "https://www.suppermariobroth.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T23:44:29.574Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "&ldquo;Irregular Mario Brothers&rdquo;, or nonstandard recolors of Mario&rsquo;s sprite that are explicitly not him or&hellip;",
-      "url": "https://www.suppermariobroth.com/post/831299790661894144",
-      "summary": "“Irregular Mario Brothers”, or nonstandard recolors of Mario’s sprite that are explicitly not him or Luigi, have occasionally appeared both in games (top left: the yellow and blue Marios from the GBA…",
-      "publishedAt": "2026-10-23T21:00:59.000Z"
+      "title": "In Paper Mario: The Thousand-Year Door, Crazee Dayzees and Amazy Dayzees actually change the pitch&hellip;",
+      "url": "https://www.suppermariobroth.com/post/831311132226732032",
+      "summary": "In Paper Mario: The Thousand-Year Door, Crazee Dayzees and Amazy Dayzees actually change the pitch of their song attack if they are afflicted by the Tiny status effect (making it higher-pitched) or t…",
+      "publishedAt": "2026-10-24T00:01:15.000Z"
     }
   },
   "https://www.pepysdiary.com/": {
@@ -3777,15 +3777,15 @@
     }
   },
   "https://blog.atmtxphoto.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T03:44:28.669Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://blog.atmtxphoto.com/feed/",
     "latestArticle": {
-      "title": "Lobby, JP Morgan Chase Tower",
-      "url": "https://blog.atmtxphoto.com/2026/10/22/lobby-jp-morgan-chase-tower/",
-      "summary": "Lobby, JP Morgan Chase Tower – New York, New York Yesterday, I featured the dramatic style and height of the JPMorgan Chase Tower. Today, a peek at the lobby of this gleaming corporate headquarters. …",
-      "publishedAt": "2026-10-23T03:00:53.000Z"
+      "title": "Park Avenue, JP Morgan Chase Tower",
+      "url": "https://blog.atmtxphoto.com/2026/10/23/park-avenue-jp-morgan-chase-tower/",
+      "summary": "Park Avenue, JP Morgan Chase Tower – New York, New York For the third and final post on the JPMorgan Chase Tower in this mini-series, we get a really great view of its architectural and engineering s…",
+      "publishedAt": "2026-10-24T03:13:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -3862,8 +3862,8 @@
   },
   "https://econbrowser.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
       "title": "Forward Price Earnings Ratios",
@@ -3975,8 +3975,8 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "lastPublished": "2026-09-10",
-    "lastChecked": "2026-10-23T23:44:29.574Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
     "latestArticle": {
       "title": "Comfort in an Orange Tin: The History of Ovaltine in Britain",
@@ -4130,15 +4130,15 @@
     }
   },
   "https://www.theartofdoingstuff.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T03:44:28.669Z",
+    "lastPublished": "2026-10-24",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
     "status": "success",
     "feedUrl": "https://www.theartofdoingstuff.com/feed/",
     "latestArticle": {
-      "title": "5 Halloween Decorations That Aren't the Least Bit Cheerful",
-      "url": "https://www.theartofdoingstuff.com/5-halloween-decorations-that-arent-the-least-bit-cheerful/",
-      "summary": "Halloween decorating doesn't have to involve a fog machine or a life-sized skeleton that costs more than your dishwasher. Also, I've never understood Halloween inflatables. They're scarier lying defl…",
-      "publishedAt": "2026-10-23T03:28:00.000Z"
+      "title": "Dear Autumn: Keep your dirt off my Christmas hands.",
+      "url": "https://www.theartofdoingstuff.com/christmas-hands/",
+      "summary": "It's nearing the end of October so I've brought out the Ginger, Clove & Mistletoe hand cream. Also, I put nail polish on. Nail polish is a universally recognized signal of winter among gardeners. We …",
+      "publishedAt": "2026-10-24T03:28:00.000Z"
     }
   },
   "http://www.galactichunter.com/GH/": {
@@ -4480,8 +4480,8 @@
   },
   "https://www.urbex-travel.com/blog/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
@@ -4540,8 +4540,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4941,8 +4941,8 @@
   },
   "https://www.thisishorror.co.uk/": {
     "lastPublished": "2026-10-24",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
       "title": "Reading and Remembering Ryu Murakami (1952–2026)",
@@ -4953,8 +4953,8 @@
   },
   "https://www.horrorsociety.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
       "title": "The Art of Killing (Review)",
@@ -5156,8 +5156,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5792,8 +5792,8 @@
   },
   "https://arduinoexpert.com/blog/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-23T23:44:29.574Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
       "title": "Beehive Monitoring System: Complete Guide to IoT Smart Beekeeping",
@@ -5894,8 +5894,8 @@
   },
   "https://www.thedarkmagazine.com/": {
     "lastPublished": "2026-10-01",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
       "title": "Falling",
@@ -6265,8 +6265,8 @@
   },
   "https://www.notebookstories.com/": {
     "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
       "title": "Sketchbook Switch: Here’s What I Chose",
@@ -6402,8 +6402,8 @@
   },
   "https://greatawakeningreport.com/": {
     "lastPublished": "2026-10-24",
-    "lastChecked": "2026-10-24T01:44:32.607Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
       "title": "2026 Could Trigger The Deadliest Debt Collapse | Documentary",
@@ -6796,8 +6796,8 @@
   },
   "https://somaryrose.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T23:44:29.574Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
       "title": "To the Woman Who has Everything But Feels Empty",
@@ -6874,8 +6874,8 @@
   },
   "https://www.thefrugalgamer.net/blog/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
       "title": "Laptop Stickers",
@@ -7326,8 +7326,8 @@
   },
   "https://www.designswarm.com/blog/": {
     "lastPublished": "2026-10-21",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
       "title": "Sunday Scraps #126 (Venice edition)",
@@ -7374,8 +7374,8 @@
   },
   "https://www.fluxblog.org/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
       "title": "A Cocooning Kind Of Attitude",
@@ -7487,8 +7487,8 @@
   },
   "https://www.maproomblog.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
       "title": "Hegseth’s Minions Break Eisenhower’s Globe",
@@ -7511,8 +7511,8 @@
   },
   "https://marcel.io/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "success",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
       "title": "🎨 October 4, 2026",
@@ -7703,8 +7703,8 @@
   },
   "https://www.thefrugalgamer.net/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-24T02:44:33.677Z",
-    "status": "success",
+    "lastChecked": "2026-10-24T03:44:31.557Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
       "title": "New Music",

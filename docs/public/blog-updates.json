@@ -415,7 +415,7 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -688,13 +688,13 @@
   },
   "https://blog.atmtxphoto.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://blog.atmtxphoto.com/feed/",
     "latestArticle": {
-      "title": "Lobby, JP Morgan Chase Tower",
-      "url": "https://blog.atmtxphoto.com/2026/10/22/lobby-jp-morgan-chase-tower/",
-      "summary": "Lobby, JP Morgan Chase Tower – New York, New York Yesterday, I featured the dramatic style and height of the JPMorgan Chase Tower. Today, a peek at the lobby of this gleaming corporate headquarters. …",
-      "publishedAt": "2026-10-23T03:00:53.000Z"
+      "title": "Park Avenue, JP Morgan Chase Tower",
+      "url": "https://blog.atmtxphoto.com/2026/10/23/park-avenue-jp-morgan-chase-tower/",
+      "summary": "Park Avenue, JP Morgan Chase Tower – New York, New York For the third and final post on the JPMorgan Chase Tower in this mini-series, we get a really great view of its architectural and engineering s…",
+      "publishedAt": "2026-10-24T03:13:00.000Z"
     }
   },
   "https://blog.avas.space/": {
@@ -1047,7 +1047,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1459,7 +1459,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1588,7 +1588,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1642,7 +1642,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -1874,17 +1874,17 @@
   },
   "https://gardenbetty.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://gardenbetty.com/feed/",
     "latestArticle": {
-      "title": "Why You Should Leave Roots From Old Plants in the Ground",
-      "url": "https://gardenbetty.com/leave-roots-in-ground/",
-      "summary": "The article Why You Should Leave Roots From Old Plants in the Ground appeared first on Garden Betty . Should spent plants come out, roots and all? Usually not. Here’s how to cut, mulch, and top them,…",
-      "publishedAt": "2026-10-22T06:59:50.000Z"
+      "title": "How to Reduce Overwintering Pests in the Garden",
+      "url": "https://gardenbetty.com/reduce-overwintering-pests/",
+      "summary": "The article How to Reduce Overwintering Pests in the Garden appeared first on Garden Betty . Can pests survive cold winters in your garden? Some can! Here’s what to cut down, what to clean up in fall…",
+      "publishedAt": "2026-10-24T03:34:20.000Z"
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1953,7 +1953,7 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
@@ -2426,7 +2426,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3011,7 +3011,7 @@
     }
   },
   "https://marcel.io/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
@@ -3845,7 +3845,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-10",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
     "latestArticle": {
@@ -4331,7 +4331,7 @@
     }
   },
   "https://simonschreibt.de/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-03-27",
     "feedUrl": "https://simonschreibt.de/feed/",
     "latestArticle": {
@@ -4422,13 +4422,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In Super Mario RPG, the Moleville Mines mine cart ride minigame&rsquo;s maps actually loop infinitely in&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831303299077701632",
-      "summary": "In Super Mario RPG, the Moleville Mines mine cart ride minigame’s maps actually loop infinitely in all directions, which is briefly noticeable at the start of the rooms. Top: note how at the start of…",
-      "publishedAt": "2026-10-23T21:56:45.000Z"
+      "title": "Officially licensed collectible Bowser tin from a 2019 Pok&eacute;mon/Super Mario Bros. cross-promotion&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831311242013671424",
+      "summary": "Officially licensed collectible Bowser tin from a 2019 Pokémon/Super Mario Bros. cross-promotion event in Japan. Zooming in onto the Bowser sprite reveals that is it made out of Generation 1 Pokémon …",
+      "publishedAt": "2026-10-24T00:03:00.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -4476,7 +4476,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -5254,13 +5254,13 @@
   },
   "https://tracydurnell.com/mind-garden/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
-      "title": "Developing a nonfiction book concept",
-      "url": "https://tracydurnell.com/2026/10/22/developing-a-nonfiction-book-concept/",
-      "summary": "I’ve had the vague idea for a while that I’d like to write up my thoughts about local government outreach — I’m an opinionated person 😉 Originally, I thought I’d write an email newsletter, but after …",
-      "publishedAt": "2026-10-23T01:23:27.000Z"
+      "title": "Weeknotes: Oct. 17-23, 2026",
+      "url": "https://tracydurnell.com/2026/10/23/weeknotes-oct-17-23-2026/",
+      "summary": "Win of the week: did another music library purge — down to 3150 tracks from about 4000 in February — have removed all the “easy” stuff, now I need to actually listen to some tracks and decide whether…",
+      "publishedAt": "2026-10-24T03:33:50.000Z"
     }
   },
   "https://travelbetweenthepages.com/": {
@@ -5275,7 +5275,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5843,7 +5843,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -5912,7 +5912,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -6048,7 +6048,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -6113,7 +6113,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6252,7 +6252,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6269,7 +6269,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -6372,7 +6372,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -6405,13 +6405,13 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Calibre 9.7 touts faster ebook conversion speeds",
-      "url": "https://www.omgubuntu.co.uk/2026/10/calibre-9-7-faster-conversion",
-      "summary": "Calibre 9.17 has been released with faster ebook conversion speeds and JPEG XL image support. The open-source ebook editor improves output compression speeds for MOBI, AZW3 and PDB files, which makes…",
-      "publishedAt": "2026-10-23T15:45:01.000Z"
+      "title": "Shader Effects is the coolest GNOME extension you’ll try this weekend",
+      "url": "https://www.omgubuntu.co.uk/2026/10/shader-effect-gnome-extension",
+      "summary": "Ever wondered what your Ubuntu desktop would look like if you were watching it on a chewed up VHS tape or an old monochrome CRT monitor? You probably haven’t, but a new GNOME Shell extension lets you…",
+      "publishedAt": "2026-10-24T03:29:18.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -6506,7 +6506,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6520,7 +6520,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6677,13 +6677,13 @@
   },
   "https://www.suppermariobroth.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "&ldquo;Irregular Mario Brothers&rdquo;, or nonstandard recolors of Mario&rsquo;s sprite that are explicitly not him or&hellip;",
-      "url": "https://www.suppermariobroth.com/post/831299790661894144",
-      "summary": "“Irregular Mario Brothers”, or nonstandard recolors of Mario’s sprite that are explicitly not him or Luigi, have occasionally appeared both in games (top left: the yellow and blue Marios from the GBA…",
-      "publishedAt": "2026-10-23T21:00:59.000Z"
+      "title": "In Paper Mario: The Thousand-Year Door, Crazee Dayzees and Amazy Dayzees actually change the pitch&hellip;",
+      "url": "https://www.suppermariobroth.com/post/831311132226732032",
+      "summary": "In Paper Mario: The Thousand-Year Door, Crazee Dayzees and Amazy Dayzees actually change the pitch of their song attack if they are afflicted by the Tiny status effect (making it higher-pitched) or t…",
+      "publishedAt": "2026-10-24T00:01:15.000Z"
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
@@ -6712,13 +6712,13 @@
   },
   "https://www.theartofdoingstuff.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://www.theartofdoingstuff.com/feed/",
     "latestArticle": {
-      "title": "5 Halloween Decorations That Aren't the Least Bit Cheerful",
-      "url": "https://www.theartofdoingstuff.com/5-halloween-decorations-that-arent-the-least-bit-cheerful/",
-      "summary": "Halloween decorating doesn't have to involve a fog machine or a life-sized skeleton that costs more than your dishwasher. Also, I've never understood Halloween inflatables. They're scarier lying defl…",
-      "publishedAt": "2026-10-23T03:28:00.000Z"
+      "title": "Dear Autumn: Keep your dirt off my Christmas hands.",
+      "url": "https://www.theartofdoingstuff.com/christmas-hands/",
+      "summary": "It's nearing the end of October so I've brought out the Ginger, Clove & Mistletoe hand cream. Also, I put nail polish on. Nail polish is a universally recognized signal of winter among gardeners. We …",
+      "publishedAt": "2026-10-24T03:28:00.000Z"
     }
   },
   "https://www.theblondeabroad.com/": {
@@ -6751,7 +6751,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6762,7 +6762,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6773,7 +6773,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -6916,7 +6916,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -6995,7 +6995,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

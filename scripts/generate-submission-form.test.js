@@ -50,7 +50,8 @@ test('generates every prefixed subcategory once', () => {
         )
         .map(({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`)
     ),
-    'Not sure / Other'
+    'Not sure / Other',
+    'Other / Suggest a new category'
   ]
   assert.deepEqual(generatedOptions(block), expected)
   assert.deepEqual(
@@ -86,13 +87,15 @@ test('updates added, renamed, and removed categories and subcategories exactly',
 
   assert.deepEqual(generatedOptions(buildTaxonomyOptions(original)), [
     'Original Category / Original Subcategory',
-    'Not sure / Other'
+    'Not sure / Other',
+    'Other / Suggest a new category'
   ])
   assert.deepEqual(generatedOptions(buildTaxonomyOptions(changed)), [
     'New Category / New Category Subcategory',
     'Renamed Category / Another One',
     'Renamed Category / New Subcategory',
-    'Not sure / Other'
+    'Not sure / Other',
+    'Other / Suggest a new category'
   ])
 })
 

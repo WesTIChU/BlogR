@@ -28,6 +28,7 @@ const form = ref({
   url: '',
   description: '',
   category: '',
+  categorySuggestion: '',
   subcategory: '',
   suggestedSubcategory: '',
   country: '',
@@ -144,6 +145,8 @@ const independentWebCategories = independentWebTaxonomy.map(
     subsections: subcategories.map((title) => ({ title }))
   })
 )
+const OTHER_CATEGORY = 'Other / Suggest a new category'
+const OTHER_SUBCATEGORY = 'Other / Suggest a new subcategory'
 const communityCategories = communityTaxonomy
   .map(({ slug, title }) => ({
     slug,
@@ -154,10 +157,9 @@ const communityCategories = communityTaxonomy
 const categoryGroups = computed(() =>
   form.value.type === 'community'
     ? [{ label: 'Community Categories', categories: communityCategories }]
-    : [
-        { label: 'Blog Categories', categories: blogCategories },
-        { label: 'Independent Web', categories: independentWebCategories }
-      ]
+    : form.value.type === 'website'
+      ? [{ label: 'Independent Web', categories: independentWebCategories }]
+      : [{ label: 'Blog Categories', categories: blogCategories }]
 )
 const categories = computed(() =>
   categoryGroups.value.flatMap(({ categories }) => categories)
@@ -289,6 +291,7 @@ const submit = async () => {
       url: '',
       description: '',
       category: '',
+      categorySuggestion: '',
       subcategory: '',
       suggestedSubcategory: '',
       country: '',
@@ -309,16 +312,12 @@ const submit = async () => {
 
 const categoryChanged = () => {
   form.value.subcategory = ''
+  form.value.categorySuggestion = ''
   form.value.suggestedSubcategory = ''
   if (form.value.type === 'community') {
     if (form.value.url) checkDuplicate()
     return
   }
-  form.value.type = independentWebCategories.some(
-    ({ title }) => title === form.value.category
-  )
-    ? 'website'
-    : 'blog'
   if (form.value.url) checkDuplicate()
 }
 
@@ -481,7 +480,21 @@ const countryChanged = () => {
             </option>
           </optgroup>
         </template>
+        <option :value="OTHER_CATEGORY">{{ OTHER_CATEGORY }}</option>
       </select>
+    </div>
+    <div v-if="form.category === OTHER_CATEGORY" class="blog-submission-field">
+      <label for="submission-category-suggestion">Suggested new category</label>
+      <input
+        id="submission-category-suggestion"
+        v-model="form.categorySuggestion"
+        name="categorySuggestion"
+        maxlength="80"
+        placeholder="Optional category suggestion"
+      />
+      <small>
+        This is a suggestion for editorial review, not an official category.
+      </small>
     </div>
     <div v-if="form.type === 'community'" class="blog-submission-field">
       <label for="submission-community-type">
@@ -515,22 +528,26 @@ const countryChanged = () => {
             {{ subcategory.title }}
           </option>
         </optgroup>
+        <option :value="OTHER_SUBCATEGORY">{{ OTHER_SUBCATEGORY }}</option>
       </select>
     </div>
     <div
-      v-if="form.type !== 'community' && form.category && !form.subcategory"
+      v-if="form.type !== 'community' && form.subcategory === OTHER_SUBCATEGORY"
       class="blog-submission-field"
     >
       <label for="submission-suggested-subcategory">
-        Suggest a subcategory
+        Suggested new subcategory
       </label>
       <input
         id="submission-suggested-subcategory"
         v-model="form.suggestedSubcategory"
         name="suggestedSubcategory"
         maxlength="80"
-        placeholder="Optional new subcategory"
+        placeholder="Optional subcategory suggestion"
       />
+      <small>
+        This is a suggestion for editorial review, not an official subcategory.
+      </small>
     </div>
     <div v-if="form.type !== 'community'" class="blog-submission-field">
       <label for="submission-country">

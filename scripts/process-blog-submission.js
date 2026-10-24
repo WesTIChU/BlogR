@@ -33,6 +33,8 @@ const IGNORED_SUBCATEGORIES = new Set([
 ])
 const EMPTY_SUBCATEGORY_VALUES = new Set(['', '_No response_', 'None'])
 const OTHER_COUNTRY_OPTION = 'Other / Not listed'
+const OTHER_CATEGORY_OPTION = 'Other / Suggest a new category'
+const OTHER_SUBCATEGORY_OPTION = 'Other / Suggest a new subcategory'
 const REQUIRED_FORM_HEADINGS = ['### Blog name', '### Blog URL']
 
 const newWebringId = () => `br-${randomBytes(16).toString('hex')}`
@@ -196,7 +198,15 @@ export function parseIssueForm(body) {
   const combinedCategory = get('category / subcategory')
   const legacyCategory = get('main category')
   const legacySubcategory = get('subcategory')
-  const categorySelection = combinedCategory || legacyCategory
+  const categorySelection =
+    get('category') || combinedCategory || legacyCategory
+  const freeformSuggestion = get(
+    'suggested new category or subcategory (optional)'
+  )
+  const categorySuggestion = get('suggested category') || freeformSuggestion
+  const explicitSubcategory = get('subcategory')
+  const subcategorySuggestion = get('suggested subcategory')
+  const categoryParts = combinedCategory ? combinedCategory.split('/') : []
   const countryPlace = parseCustomCountryPlace(
     get('country or place not listed?')
   )
@@ -205,15 +215,35 @@ export function parseIssueForm(body) {
     url: cleanValue(get('blog url'), 'blog URL', MAX_URL_LENGTH),
     description: description === '_No response_' ? '' : description,
     category: cleanValue(
-      combinedCategory
-        ? combinedCategory.split('/', 1)[0].trim()
-        : categorySelection,
-      combinedCategory ? 'category / subcategory' : 'main category',
+      categoryParts.length ? categoryParts[0].trim() : categorySelection,
+      'category',
       120
     ),
     subcategory: normalizeSubmittedSubcategory(
-      combinedCategory || legacySubcategory
+      explicitSubcategory ||
+        (categoryParts.length > 1
+          ? categoryParts.slice(1).join('/').trim()
+          : legacySubcategory)
     ),
+    ...(categorySuggestion && categorySuggestion !== '_No response_'
+      ? {
+          categorySuggestion: cleanValue(
+            categorySuggestion,
+            'category suggestion',
+            80
+          )
+        }
+      : {}),
+    ...(subcategorySuggestion && subcategorySuggestion !== '_No response_'
+      ? {
+          suggestedSubcategory: cleanValue(
+            subcategorySuggestion,
+            'subcategory suggestion',
+            80
+          )
+        }
+      : {}),
+    directoryType: get('directory type'),
     country: parseCountry(get('country')),
     ...(countryPlace ? { countryPlace } : {}),
     notes: get('additional notes')
@@ -273,6 +303,17 @@ export function parseCommunityIssueForm(body) {
     url: cleanValue(get('website url'), 'website URL', MAX_URL_LENGTH),
     description,
     category: cleanValue(get('category'), 'category', 120),
+    ...(get('suggested category') &&
+    get('suggested category') !== '_No response_'
+      ? {
+          categorySuggestion: cleanValue(
+            get('suggested category'),
+            'category suggestion',
+            80
+          )
+        }
+      : {}),
+    directoryType: get('directory type'),
     section: cleanValue(get('community type'), 'community type', 80),
     rssUrl: rssUrl && rssUrl !== '_No response_' ? rssUrl.trim() : null,
     notes: get('additional notes')
@@ -306,10 +347,32 @@ export function parseWebsiteIssueForm(body) {
       MAX_DESCRIPTION_LENGTH
     ),
     category: cleanValue(get('category'), 'category', 80),
+    ...(get('suggested category') &&
+    get('suggested category') !== '_No response_'
+      ? {
+          categorySuggestion: cleanValue(
+            get('suggested category'),
+            'category suggestion',
+            80
+          )
+        }
+      : {}),
     subcategory:
       get('subcategory') && get('subcategory') !== '_No response_'
         ? cleanValue(get('subcategory'), 'subcategory', 80)
         : undefined,
+    ...((get('suggested subcategory') || get('suggested new subcategory')) &&
+    (get('suggested subcategory') || get('suggested new subcategory')) !==
+      '_No response_'
+      ? {
+          suggestedSubcategory: cleanValue(
+            get('suggested subcategory') || get('suggested new subcategory'),
+            'subcategory suggestion',
+            80
+          )
+        }
+      : {}),
+    directoryType: get('directory type'),
     country:
       get('country') && get('country') !== '_No response_'
         ? cleanValue(get('country'), 'country', 120)
@@ -360,6 +423,39 @@ export function validateSuggestedSubcategory(value) {
 }
 
 const subcategoryKey = (value) => classificationKey(value)
+
+const taxonomySlug = (value) => classificationKey(value).replace(/ /g, '-')
+
+export function addSuggestedCategory(taxonomy, title, kind = 'blog') {
+  const next = structuredClone(taxonomy)
+  if (kind === 'blog') {
+    if (
+      next.categories.some(
+        (item) => classificationKey(item.title) === classificationKey(title)
+      )
+    )
+      throw new Error('Suggested category already exists')
+    next.categories.push({
+      slug: taxonomySlug(title),
+      title,
+      description: `${title} blogs.`,
+      subsections: [{ title: 'General', match: '.*' }]
+    })
+  } else {
+    if (
+      next.some(
+        (item) => classificationKey(item.title) === classificationKey(title)
+      )
+    )
+      throw new Error('Suggested category already exists')
+    next.push({
+      slug: taxonomySlug(title),
+      title,
+      ...(kind === 'website' ? { subcategories: [] } : {})
+    })
+  }
+  return next
+}
 
 const subcategoryMatch = (title) =>
   [...new Set(title.toLocaleLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [])]
@@ -585,7 +681,8 @@ const communityCategories = new Map(
 export function validateCommunitySubmission(
   submission,
   communities,
-  blogs = []
+  blogs = [],
+  taxonomyData = communityTaxonomy
 ) {
   const name = cleanValue(submission.name, 'community name', MAX_NAME_LENGTH)
   const url = validateBlogUrl(submission.url)
@@ -594,7 +691,9 @@ export function validateCommunitySubmission(
     'description',
     MAX_DESCRIPTION_LENGTH
   )
-  const category = communityCategories.get(submission.category)
+  const category = new Map(
+    taxonomyData.map(({ slug, title }) => [title, { slug, title }])
+  ).get(submission.category)
   if (!category) throw new Error('Invalid community category')
   const sectionByTitle = new Map([
     ['Forum', 'forums'],
@@ -625,7 +724,8 @@ export function validateIndependentWebsiteSubmission(
   submission,
   websites,
   blogs = [],
-  communities = []
+  communities = [],
+  taxonomyData = independentWebTaxonomy
 ) {
   const name = cleanValue(submission.name, 'website name', MAX_NAME_LENGTH)
   const url = validateBlogUrl(submission.url)
@@ -634,7 +734,7 @@ export function validateIndependentWebsiteSubmission(
     'description',
     MAX_DESCRIPTION_LENGTH
   )
-  const category = independentWebTaxonomy.find(
+  const category = taxonomyData.find(
     ({ title }) =>
       classificationKey(title) === classificationKey(submission.category)
   )
@@ -645,17 +745,29 @@ export function validateIndependentWebsiteSubmission(
   if (duplicate)
     throw new Error(`Duplicate website URL already exists: ${duplicate.name}`)
   const subcategory = normalizeSubmittedSubcategory(submission.subcategory)
+  const requestedSuggestion = submission.suggestedSubcategory
+    ? validateSuggestedSubcategory(submission.suggestedSubcategory)
+    : null
+  const existingSubcategory = (category.subcategories ?? []).find(
+    (candidate) => subcategoryKey(candidate) === subcategoryKey(subcategory)
+  )
+  const legacySuggestion =
+    subcategory && !isIgnoredSubcategory(subcategory) && !existingSubcategory
+      ? validateSuggestedSubcategory(subcategory)
+      : null
+  const country = submission.country
+    ? parseCountry(submission.country)
+    : undefined
   return {
     name,
     url,
     description,
     category: category.title,
-    ...(subcategory && !isIgnoredSubcategory(subcategory)
-      ? { subcategory: cleanValue(subcategory, 'subcategory', 80) }
+    ...(existingSubcategory ? { subcategory: existingSubcategory } : {}),
+    ...(requestedSuggestion || legacySuggestion
+      ? { suggestedSubcategory: requestedSuggestion || legacySuggestion }
       : {}),
-    ...(submission.country
-      ? { country: cleanValue(submission.country, 'country', 120) }
-      : {})
+    ...(country ? { country } : {})
   }
 }
 
@@ -667,7 +779,9 @@ export function applySuggestedIndependentSubcategory(taxonomy, submission) {
   )
   if (!category) throw new Error('Invalid independent website category')
 
-  const requested = normalizeSubmittedSubcategory(submission.subcategory)
+  const requested = normalizeSubmittedSubcategory(
+    submission.suggestedSubcategory || submission.subcategory
+  )
   if (!requested || isIgnoredSubcategory(requested)) {
     return {
       taxonomy: nextTaxonomy,
@@ -785,6 +899,14 @@ export function hasApprovalPermission(permission) {
   return ['admin', 'maintain', 'write'].includes(permission?.permission)
 }
 
+export function hasTaxonomyAuthorization(labels, permission, body) {
+  if (!Array.isArray(labels) || !labels.includes('taxonomy-approved'))
+    return false
+  if (!hasApprovalPermission(permission)) return false
+  if (typeof body !== 'string') return false
+  return /^###\s+Taxonomy authorization\s*\r?\n\s*approved\s*$/im.test(body)
+}
+
 export function existingSubmissionPullRequest(pullRequests) {
   return pullRequests.find((pullRequest) => pullRequest?.number) ?? null
 }
@@ -812,7 +934,12 @@ export function catalogueFiles(taxonomy, submission = null) {
 }
 
 export function communityCatalogueFiles() {
-  return ['data/communities.json', 'docs/communities/online-communities.md']
+  return [
+    'data/communities.json',
+    'data/community-taxonomy.json',
+    '.github/ISSUE_TEMPLATE/submit-community.yml',
+    'docs/communities/online-communities.md'
+  ]
 }
 
 export function independentWebsiteCatalogueFiles() {
@@ -840,7 +967,8 @@ export function pullRequestDetails(
   base,
   suggestedSubcategory,
   suggestedSubcategoryStatus = 'none',
-  countryPlace
+  countryPlace,
+  suggestedCategoryStatus = 'none'
 ) {
   const suggestionSection = suggestedSubcategory
     ? `### Suggested subcategory (${suggestedSubcategoryStatus})\n\n**${suggestedSubcategory}**\n\nThe subcategory was ${suggestedSubcategoryStatus === 'created' ? 'added to the official taxonomy and assigned to this blog' : 'matched to an existing taxonomy entry and assigned to this blog'}.`
@@ -848,20 +976,30 @@ export function pullRequestDetails(
   const countrySection = countryPlace
     ? `\n\n### Country/place for editorial review\n\n**${countryPlace}**${entry.country ? `\n\nThe listed country code is **${entry.country}**; review both values before merging.` : '\n\nNo country code was assigned automatically.'}`
     : ''
+  const categorySection =
+    suggestedCategoryStatus === 'created'
+      ? '\n\n### Taxonomy change\n\nA new category was explicitly authorized and added to the taxonomy in this review PR.'
+      : ''
   return {
     title: `Add blog: ${entry.name}`,
     head: branch,
     base,
-    body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}${countrySection}\n\n${suggestionSection}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
+    body: `## Approved blog submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}${countrySection}${categorySection}\n\n${suggestionSection}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- blogr-submission:${issueNumber} -->`
   }
 }
 
-export function communityPullRequestDetails(entry, issueNumber, branch, base) {
+export function communityPullRequestDetails(
+  entry,
+  issueNumber,
+  branch,
+  base,
+  suggestedCategoryStatus = 'none'
+) {
   return {
     title: `Add community: ${entry.name}`,
     head: branch,
     base,
-    body: `## Approved community submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}\n- **Type:** ${entry.section}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- community-submission:${issueNumber} -->`
+    body: `## Approved community submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}\n- **Type:** ${entry.section}\n\n${suggestedCategoryStatus === 'created' ? 'A new category was explicitly authorized and added to the taxonomy in this review PR.\n\n' : ''}Adds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- community-submission:${issueNumber} -->`
   }
 }
 
@@ -915,18 +1053,36 @@ async function run() {
   const labels = issue.labels.map((label) =>
     typeof label === 'string' ? label : label.name
   )
-  const type = submissionType(issue.body, labels)
+  const labeledType = submissionType(issue.body, labels)
+  const bodyType = issue.body.match(
+    /^###\s+Directory type\s*\r?\n\s*(Blog|Independent Website|Community)\s*$/im
+  )?.[1]
+  const type = bodyType
+    ? {
+        Blog: 'blog',
+        'Independent Website': 'website',
+        Community: 'community'
+      }[bodyType]
+    : labeledType
   if (issue.state !== 'open' || !labels.includes('approved') || !type) {
     throw new Error('Issue is not an open approved submission')
   }
+  const taxonomyAuthorized = hasTaxonomyAuthorization(
+    labels,
+    permission,
+    issue.body
+  )
 
   const taxonomyText = await readFile(
     resolve('data/blog-taxonomy.json'),
     'utf8'
   )
-  const taxonomy = JSON.parse(taxonomyText)
-  const independentWebTaxonomyData = JSON.parse(
+  let taxonomy = JSON.parse(taxonomyText)
+  let independentWebTaxonomyData = JSON.parse(
     await readFile(resolve('data/independent-web-taxonomy.json'), 'utf8')
+  )
+  let communityTaxonomyData = JSON.parse(
+    await readFile(resolve('data/community-taxonomy.json'), 'utf8')
   )
   const blogs = JSON.parse(await readFile(resolve('data/blogs.json'), 'utf8'))
   const communities = JSON.parse(
@@ -938,15 +1094,41 @@ async function run() {
   let submission
   let nextTaxonomy = taxonomy
   let nextIndependentWebTaxonomy = independentWebTaxonomyData
+  let nextCommunityTaxonomy = communityTaxonomyData
   let suggestedSubcategoryStatus = 'none'
+  let suggestedCategoryStatus = 'none'
   let subsection
   if (type === 'blog') {
     validateBlogs(blogs)
-    const parsedSubmission = validateSubmission(
-      parseIssueForm(issue.body),
-      blogs,
-      taxonomy
+    const parsedIssue = parseIssueForm(issue.body)
+    const selectedBlogCategory = taxonomy.categories.find(
+      ({ title }) =>
+        classificationKey(title) === classificationKey(parsedIssue.category)
     )
+    const selectedBlogSubcategory = selectedBlogCategory?.subsections?.some(
+      ({ title }) =>
+        subcategoryKey(title) === subcategoryKey(parsedIssue.subcategory)
+    )
+    if (
+      (parsedIssue.category === OTHER_CATEGORY_OPTION ||
+        parsedIssue.categorySuggestion ||
+        parsedIssue.suggestedSubcategory ||
+        extractSuggestedSubcategory(parsedIssue.notes) ||
+        (parsedIssue.subcategory && !selectedBlogSubcategory)) &&
+      !taxonomyAuthorized
+    ) {
+      throw new Error(
+        'Taxonomy suggestions require the taxonomy-approved label and explicit authorization'
+      )
+    }
+    if (parsedIssue.category === OTHER_CATEGORY_OPTION) {
+      const title = validateSuggestedSubcategory(parsedIssue.categorySuggestion)
+      taxonomy = addSuggestedCategory(taxonomy, title, 'blog')
+      parsedIssue.category = title
+      delete parsedIssue.categorySuggestion
+      suggestedCategoryStatus = 'created'
+    }
+    const parsedSubmission = validateSubmission(parsedIssue, blogs, taxonomy)
     const result = applySuggestedSubcategory(taxonomy, parsedSubmission)
     nextTaxonomy = result.taxonomy
     submission = result.submission
@@ -954,17 +1136,73 @@ async function run() {
     subsection = result.subsection
   } else if (type === 'community') {
     validateCommunities(communities)
+    const parsedIssue = parseCommunityIssueForm(issue.body)
+    if (
+      (parsedIssue.category === OTHER_CATEGORY_OPTION ||
+        parsedIssue.categorySuggestion) &&
+      !taxonomyAuthorized
+    ) {
+      throw new Error(
+        'Taxonomy suggestions require the taxonomy-approved label and explicit authorization'
+      )
+    }
+    if (parsedIssue.category === OTHER_CATEGORY_OPTION) {
+      const title = validateSuggestedSubcategory(parsedIssue.categorySuggestion)
+      communityTaxonomyData = addSuggestedCategory(
+        communityTaxonomyData,
+        title,
+        'community'
+      )
+      nextCommunityTaxonomy = communityTaxonomyData
+      parsedIssue.category = title
+      delete parsedIssue.categorySuggestion
+      suggestedCategoryStatus = 'created'
+    }
     submission = validateCommunitySubmission(
-      parseCommunityIssueForm(issue.body),
+      parsedIssue,
       communities,
-      blogs
+      blogs,
+      communityTaxonomyData
     )
   } else {
+    const parsedIssue = parseWebsiteIssueForm(issue.body)
+    const selectedWebsiteCategory = independentWebTaxonomyData.find(
+      ({ title }) =>
+        classificationKey(title) === classificationKey(parsedIssue.category)
+    )
+    const selectedWebsiteSubcategory =
+      selectedWebsiteCategory?.subcategories?.some(
+        (title) =>
+          subcategoryKey(title) === subcategoryKey(parsedIssue.subcategory)
+      )
+    if (
+      (parsedIssue.category === OTHER_CATEGORY_OPTION ||
+        parsedIssue.categorySuggestion ||
+        parsedIssue.suggestedSubcategory ||
+        (parsedIssue.subcategory && !selectedWebsiteSubcategory)) &&
+      !taxonomyAuthorized
+    ) {
+      throw new Error(
+        'Taxonomy suggestions require the taxonomy-approved label and explicit authorization'
+      )
+    }
+    if (parsedIssue.category === OTHER_CATEGORY_OPTION) {
+      const title = validateSuggestedSubcategory(parsedIssue.categorySuggestion)
+      independentWebTaxonomyData = addSuggestedCategory(
+        independentWebTaxonomyData,
+        title,
+        'website'
+      )
+      parsedIssue.category = title
+      delete parsedIssue.categorySuggestion
+      suggestedCategoryStatus = 'created'
+    }
     const parsedSubmission = validateIndependentWebsiteSubmission(
-      parseWebsiteIssueForm(issue.body),
+      parsedIssue,
       websites,
       blogs,
-      communities
+      communities,
+      independentWebTaxonomyData
     )
     const result = applySuggestedIndependentSubcategory(
       independentWebTaxonomyData,
@@ -1056,6 +1294,17 @@ async function run() {
       '.github/ISSUE_TEMPLATE/submit-blog.yml'
     )
   }
+  if (type === 'blog' && suggestedCategoryStatus === 'created') {
+    await writeFile(
+      resolve('data/blog-taxonomy.json'),
+      `${JSON.stringify(taxonomy, null, 2)}\n`
+    )
+    await exec(process.execPath, ['scripts/generate-submission-form.js'])
+    generated.push(
+      'data/blog-taxonomy.json',
+      '.github/ISSUE_TEMPLATE/submit-blog.yml'
+    )
+  }
   if (type === 'website' && suggestedSubcategoryStatus === 'created') {
     await writeFile(
       resolve('data/independent-web-taxonomy.json'),
@@ -1064,6 +1313,26 @@ async function run() {
     await exec(process.execPath, ['scripts/generate-submission-form.js'])
     generated.push('data/independent-web-taxonomy.json')
     generated.push('.github/ISSUE_TEMPLATE/submit-independent-website.yml')
+  }
+  if (type === 'website' && suggestedCategoryStatus === 'created') {
+    await writeFile(
+      resolve('data/independent-web-taxonomy.json'),
+      await updateIndependentWebTaxonomyText(nextIndependentWebTaxonomy)
+    )
+    await exec(process.execPath, ['scripts/generate-submission-form.js'])
+    generated.push(
+      'data/independent-web-taxonomy.json',
+      '.github/ISSUE_TEMPLATE/submit-independent-website.yml'
+    )
+  }
+  if (type === 'community' && suggestedCategoryStatus === 'created') {
+    await writeFile(
+      resolve('data/community-taxonomy.json'),
+      `${JSON.stringify(nextCommunityTaxonomy, null, 2)}\n`
+    )
+    await exec(process.execPath, ['scripts/generate-submission-form.js'])
+    generated.push('data/community-taxonomy.json')
+    generated.push('.github/ISSUE_TEMPLATE/submit-community.yml')
   }
   await exec(process.execPath, ['scripts/generate-blog-pages.js'])
   await exec(process.execPath, ['scripts/generate-function-data.js'])
@@ -1102,20 +1371,22 @@ async function run() {
           repositoryInfo.default_branch,
           submission.suggestedSubcategory,
           suggestedSubcategoryStatus,
-          submission.countryPlace
+          submission.countryPlace,
+          suggestedCategoryStatus
         )
       : type === 'community'
         ? communityPullRequestDetails(
             entry,
             issueNumber,
             branch,
-            repositoryInfo.default_branch
+            repositoryInfo.default_branch,
+            suggestedCategoryStatus
           )
         : {
             title: `Add independent website: ${entry.name}`,
             head: branch,
             base: repositoryInfo.default_branch,
-            body: `## Approved independent website submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}\n\nThe subcategory was ${suggestedSubcategoryStatus === 'created' ? 'added to the official Independent Web taxonomy' : suggestedSubcategoryStatus === 'reused' ? 'matched to an existing Independent Web taxonomy entry' : 'not changed'}.\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- independent-web-submission:${issueNumber} -->`
+            body: `## Approved independent website submission\n\n- **Name:** ${entry.name}\n- **URL:** ${entry.url}\n- **Category:** ${entry.category}${entry.subcategory ? `\n- **Subcategory:** ${entry.subcategory}` : ''}\n\nThe subcategory was ${suggestedSubcategoryStatus === 'created' ? 'added to the official Independent Web taxonomy' : suggestedSubcategoryStatus === 'reused' ? 'matched to an existing Independent Web taxonomy entry' : 'not changed'}.${suggestedCategoryStatus === 'created' ? ' A new category was explicitly authorized and added to the taxonomy in this review PR.' : ''}\n\nAdds the approved submission from #${issueNumber}.\n\nCloses #${issueNumber}\n<!-- independent-web-submission:${issueNumber} -->`
           }
   const pullRequest = await apiRequest(token, `/repos/${owner}/${repo}/pulls`, {
     method: 'POST',

@@ -7,7 +7,9 @@ import communities from '../data/communities.json' with { type: 'json' }
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import independentWebTaxonomy from '../data/independent-web-taxonomy.json' with { type: 'json' }
 import websites from '../data/websites.json' with { type: 'json' }
+import { crossSectionMatches } from '../shared/blog-duplicate.js'
 import {
+  addSuggestedCategory,
   appendBlogEntry,
   applySuggestedIndependentSubcategory,
   applySuggestedSubcategory,
@@ -19,6 +21,7 @@ import {
   extractSuggestedSubcategory,
   getAdditionMetadata,
   hasApprovalPermission,
+  hasTaxonomyAuthorization,
   independentWebsiteCatalogueFiles,
   insertSubcategoryInTaxonomyText,
   isApprovedSubmissionEvent,
@@ -142,7 +145,7 @@ test('parses the combined category and subcategory field', () => {
     )
   )
   assert.equal(parsed.category, 'Technology')
-  assert.equal(parsed.subcategory, 'Technology / Programming & Development')
+  assert.equal(parsed.subcategory, 'Programming & Development')
   assert.deepEqual(validateSubmission(parsed, blogs, taxonomy), {
     name: 'Example Blog',
     url: 'https://example.com/',
@@ -329,6 +332,8 @@ test('parses and validates a community submission without touching blogs', () =>
   assert.equal(entry.favourite, false)
   assert.deepEqual(communityCatalogueFiles(), [
     'data/communities.json',
+    'data/community-taxonomy.json',
+    '.github/ISSUE_TEMPLATE/submit-community.yml',
     'docs/communities/online-communities.md'
   ])
 })
@@ -912,6 +917,49 @@ test('only write-capable maintainers may approve submissions', () => {
   assert.equal(hasApprovalPermission({ permission: 'triage' }), false)
   assert.equal(hasApprovalPermission({ permission: 'read' }), false)
   assert.equal(hasApprovalPermission(null), false)
+})
+
+test('taxonomy authorization requires both maintainer permission and label', () => {
+  const authorizedBody = `${body()}\n### Taxonomy authorization\n\napproved\n`
+  assert.equal(
+    hasTaxonomyAuthorization(
+      ['approved', 'taxonomy-approved'],
+      { permission: 'maintain' },
+      authorizedBody
+    ),
+    true
+  )
+  assert.equal(
+    hasTaxonomyAuthorization(
+      ['approved'],
+      { permission: 'admin' },
+      authorizedBody
+    ),
+    false
+  )
+  assert.equal(
+    hasTaxonomyAuthorization(
+      ['approved', 'taxonomy-approved'],
+      { permission: 'triage' },
+      authorizedBody
+    ),
+    false
+  )
+})
+
+test('cross-section duplicates are warnings rather than same-section rejection', () => {
+  const matches = crossSectionMatches('website', 'https://example.com/', {
+    blogs: [{ name: 'Example Blog', url: 'https://example.com' }],
+    websites: [],
+    communities: []
+  })
+  assert.equal(matches.length, 1)
+  assert.equal(matches[0].type, 'blog')
+})
+
+test('authorized category suggestions produce explicit taxonomy data', () => {
+  const next = addSuggestedCategory([], 'DIY Projects', 'community')
+  assert.deepEqual(next, [{ slug: 'diy-projects', title: 'DIY Projects' }])
 })
 
 test('accepts the labeled event without requiring a missing form label', () => {

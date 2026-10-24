@@ -17,6 +17,9 @@ export const MAX_DESCRIPTION_LENGTH = 500
 export const MAX_URL_LENGTH = 2048
 export const MAX_COUNTRY_PLACE_LENGTH = 120
 export const OTHER_COUNTRY_OPTION = 'Other / Not listed'
+export const OTHER_CATEGORY_OPTION = 'Other / Suggest a new category'
+export const OTHER_SUBCATEGORY_OPTION = 'Other / Suggest a new subcategory'
+export const MAX_TAXONOMY_SUGGESTION_LENGTH = 80
 
 const cleanSingleLine = (value, field, maxLength) => {
   if (typeof value !== 'string') throw new Error(`Missing ${field}`)
@@ -44,6 +47,19 @@ const cleanDescription = (value) => {
     throw new Error('Description contains unsupported content')
   }
   return cleaned.replace(/\s+/g, ' ')
+}
+
+export const cleanTaxonomySuggestion = (value, field) => {
+  if (typeof value !== 'string') throw new Error(`Missing ${field}`)
+  const cleaned = value.trim()
+  if (!cleaned) throw new Error(`Missing ${field}`)
+  if (cleaned.length > MAX_TAXONOMY_SUGGESTION_LENGTH) {
+    throw new Error(`${field} is too long`)
+  }
+  if (!/^[\p{L}\p{N}][-\p{L}\p{N} &'’]*[\p{L}\p{N}]$/u.test(cleaned)) {
+    throw new Error(`${field} contains unsupported content`)
+  }
+  return cleaned
 }
 
 const isPrivateIpv4 = (hostname) => {
@@ -105,11 +121,27 @@ export function validateSubmissionInput(input) {
     MAX_NAME_LENGTH
   )
   const category = categoryByTitle(categoryTitle)
-  if (!category) throw new Error('Invalid main category')
+  const categorySuggestion =
+    categoryTitle === OTHER_CATEGORY_OPTION
+      ? cleanTaxonomySuggestion(input.categorySuggestion, 'category suggestion')
+      : undefined
+  if (!category && !categorySuggestion) throw new Error('Invalid main category')
 
   const subcategory =
     typeof input.subcategory === 'string' ? input.subcategory.trim() : ''
-  if (subcategory && subcategory !== 'Not sure / Other') {
+  const subcategorySuggestion =
+    subcategory === OTHER_SUBCATEGORY_OPTION
+      ? cleanTaxonomySuggestion(
+          input.subcategorySuggestion,
+          'subcategory suggestion'
+        )
+      : undefined
+  if (
+    subcategory &&
+    subcategory !== 'Not sure / Other' &&
+    subcategory !== OTHER_SUBCATEGORY_OPTION
+  ) {
+    if (!category) throw new Error('Choose a category before a subcategory')
     if (
       !(category.subsections ?? []).some(({ title }) => title === subcategory)
     ) {
@@ -138,47 +170,63 @@ export function validateSubmissionInput(input) {
     name,
     url,
     description,
-    category: category.title,
+    category: category?.title ?? OTHER_CATEGORY_OPTION,
     subcategory:
-      subcategory && subcategory !== 'Not sure / Other'
+      subcategory &&
+      subcategory !== 'Not sure / Other' &&
+      subcategory !== OTHER_SUBCATEGORY_OPTION
         ? subcategory
         : undefined,
+    ...(categorySuggestion ? { categorySuggestion } : {}),
+    ...(subcategorySuggestion
+      ? { suggestedSubcategory: subcategorySuggestion }
+      : {}),
     ...(country ? { country } : {}),
     ...(countryPlace ? { countryPlace } : {})
   }
 }
 
-const categoryTitle = (value, categories, field) => {
+const categoryOrSuggestion = (value, suggestion, categories, field) => {
   const title = cleanSingleLine(value, field, MAX_NAME_LENGTH)
+  if (title === OTHER_CATEGORY_OPTION) {
+    return {
+      title,
+      suggestion: cleanTaxonomySuggestion(suggestion, `${field} suggestion`)
+    }
+  }
   const match = categories.find(
     ({ title: candidate }) =>
       candidate.toLocaleLowerCase() === title.toLocaleLowerCase()
   )
   if (!match) throw new Error(`Invalid ${field}`)
-  return match.title
+  return { title: match.title, category: match }
 }
 
 export function validateIndependentWebsiteInput(input) {
   const name = cleanSingleLine(input.name, 'website name', MAX_NAME_LENGTH)
   const url = validateUrl(input.url)
   const description = cleanDescription(input.description)
-  const category = categoryTitle(
+  const selectedCategory = categoryOrSuggestion(
     input.category,
+    input.categorySuggestion,
     independentWebTaxonomy,
     'website category'
   )
+  const category = selectedCategory.category
   const subcategory =
     typeof input.subcategory === 'string' ? input.subcategory.trim() : ''
   const selectedSubcategory =
     subcategory === 'Not sure / Other' ? '' : subcategory
-  const allowed =
-    independentWebTaxonomy.find(({ title }) => title === category)
-      ?.subcategories ?? []
+  const allowed = category?.subcategories ?? []
   const suggestedSubcategory =
     typeof input.suggestedSubcategory === 'string'
       ? input.suggestedSubcategory.trim()
       : ''
-  if (selectedSubcategory && !allowed.includes(selectedSubcategory))
+  if (
+    selectedSubcategory &&
+    selectedSubcategory !== OTHER_SUBCATEGORY_OPTION &&
+    !allowed.includes(selectedSubcategory)
+  )
     throw new Error('Invalid subcategory for the selected website category')
   if (suggestedSubcategory) {
     if (selectedSubcategory) {
@@ -199,11 +247,14 @@ export function validateIndependentWebsiteInput(input) {
     name,
     url,
     description,
-    category,
-    ...(selectedSubcategory
+    category: selectedCategory.title,
+    ...(selectedCategory.suggestion
+      ? { categorySuggestion: selectedCategory.suggestion }
+      : {}),
+    ...(selectedSubcategory && selectedSubcategory !== OTHER_SUBCATEGORY_OPTION
       ? { subcategory: selectedSubcategory }
       : suggestedSubcategory
-        ? { subcategory: suggestedSubcategory }
+        ? { subcategory: suggestedSubcategory, suggestedSubcategory }
         : {}),
     ...(input.country
       ? {
@@ -221,8 +272,9 @@ export function validateCommunityInput(input) {
   const name = cleanSingleLine(input.name, 'community name', MAX_NAME_LENGTH)
   const url = validateUrl(input.url)
   const description = cleanDescription(input.description)
-  const category = categoryTitle(
+  const selectedCategory = categoryOrSuggestion(
     input.category,
+    input.categorySuggestion,
     communityTaxonomy,
     'community category'
   )
@@ -233,7 +285,16 @@ export function validateCommunityInput(input) {
   )
   if (!['Forum', 'Independent Community'].includes(communityType))
     throw new Error('Invalid community type')
-  return { name, url, description, category, communityType }
+  return {
+    name,
+    url,
+    description,
+    category: selectedCategory.title,
+    ...(selectedCategory.suggestion
+      ? { categorySuggestion: selectedCategory.suggestion }
+      : {}),
+    communityType
+  }
 }
 
 export const buildIssueBody = (submission) => {
@@ -244,9 +305,6 @@ export const buildIssueBody = (submission) => {
     : submission.countryPlace
       ? OTHER_COUNTRY_OPTION
       : 'Not specified'
-  const category = submission.subcategory
-    ? `${submission.category} / ${submission.subcategory}`
-    : `${submission.category} / Not sure / Other`
   const reviewNote = submission.countryPlace
     ? `Custom country or place supplied for editorial review: ${submission.countryPlace}`
     : ''
@@ -271,9 +329,25 @@ export const buildIssueBody = (submission) => {
     '',
     submission.description,
     '',
-    '### Category / Subcategory',
+    '### Directory type',
     '',
-    category,
+    'Blog',
+    '',
+    '### Category',
+    '',
+    submission.category,
+    '',
+    '### Subcategory',
+    '',
+    submission.subcategory ?? '',
+    '',
+    '### Suggested category',
+    '',
+    submission.categorySuggestion ?? '',
+    '',
+    '### Suggested subcategory',
+    '',
+    submission.suggestedSubcategory ?? '',
     '',
     '### Additional notes',
     '',
@@ -284,6 +358,10 @@ export const buildIssueBody = (submission) => {
 
 export const buildIndependentWebsiteIssueBody = (submission) =>
   [
+    '### Directory type',
+    '',
+    'Independent Website',
+    '',
     '### Website name',
     '',
     submission.name,
@@ -300,9 +378,17 @@ export const buildIndependentWebsiteIssueBody = (submission) =>
     '',
     submission.category,
     '',
+    '### Suggested category',
+    '',
+    submission.categorySuggestion ?? '',
+    '',
     '### Subcategory',
     '',
     submission.subcategory ?? '',
+    '',
+    '### Suggested subcategory',
+    '',
+    submission.suggestedSubcategory ?? '',
     '',
     '### Country',
     '',
@@ -312,6 +398,10 @@ export const buildIndependentWebsiteIssueBody = (submission) =>
 
 export const buildCommunityIssueBody = (submission) =>
   [
+    '### Directory type',
+    '',
+    'Community',
+    '',
     '### Community name',
     '',
     submission.name,
@@ -327,6 +417,10 @@ export const buildCommunityIssueBody = (submission) =>
     '### Category',
     '',
     submission.category,
+    '',
+    '### Suggested category',
+    '',
+    submission.categorySuggestion ?? '',
     '',
     '### Community type',
     '',

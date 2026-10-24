@@ -33,6 +33,7 @@ body:
       label: Category
       description: Choose the subject category that best fits.
       options:
+        # BEGIN GENERATED COMMUNITY CATEGORIES
         - Technology
         - Football & Sports
         - Gaming
@@ -41,8 +42,17 @@ body:
         - Lifestyle & Interests
         - News & Discussion
         - Internet Culture
+        - Other / Suggest a new category
+        # END GENERATED COMMUNITY CATEGORIES
     validations:
       required: true
+  - type: input
+    id: suggested-category
+    attributes:
+      label: Suggested new category
+      description: Required when Other / Suggest a new category is selected.
+    validations:
+      required: false
   - type: dropdown
     id: community-type
     attributes:

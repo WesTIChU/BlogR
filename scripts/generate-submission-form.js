@@ -13,10 +13,13 @@ const TAXONOMY_PATH = resolve('data/blog-taxonomy.json')
 const INDEPENDENT_WEB_TAXONOMY_PATH = resolve(
   'data/independent-web-taxonomy.json'
 )
+const COMMUNITY_TAXONOMY_PATH = resolve('data/community-taxonomy.json')
 const BEGIN = '  # BEGIN GENERATED TAXONOMY OPTIONS'
 const END = '  # END GENERATED TAXONOMY OPTIONS'
 const WEBSITE_BEGIN = '        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES'
 const WEBSITE_END = '        # END GENERATED INDEPENDENT WEB CATEGORIES'
+const COMMUNITY_BEGIN = '        # BEGIN GENERATED COMMUNITY CATEGORIES'
+const COMMUNITY_END = '        # END GENERATED COMMUNITY CATEGORIES'
 const yamlString = (value) => JSON.stringify(value)
 const independentWebYamlString = (value) =>
   `'${String(value).replaceAll("'", "''")}'`
@@ -72,7 +75,11 @@ export function buildTaxonomyOptions(taxonomy) {
         .sort(compareTitles)
         .map(({ title: subsectionTitle }) => `${title} / ${subsectionTitle}`)
   )
-  const categoryOptions = [...categorySubcategoryOptions, 'Not sure / Other']
+  const categoryOptions = [
+    ...categorySubcategoryOptions,
+    'Not sure / Other',
+    'Other / Suggest a new category'
+  ]
   const countryOptions = buildCountryOptions()
   if (new Set(categoryOptions).size !== categoryOptions.length) {
     throw new Error('Submission form taxonomy options contain duplicates')
@@ -134,6 +141,15 @@ export function buildTaxonomyOptions(taxonomy) {
       true,
       undefined
     ),
+    [
+      '  - type: input',
+      '    id: taxonomy-suggestion',
+      '    attributes:',
+      `      label: ${yamlString('Suggested new category or subcategory (optional)')}`,
+      `      description: ${yamlString('Suggestions are reviewed by an administrator and are not official taxonomy entries.')}`,
+      '    validations:',
+      '      required: false'
+    ].join('\n'),
     dropdown(
       'country',
       'Country',
@@ -168,12 +184,30 @@ export function syncSubmissionForm(form, taxonomy) {
 export function syncIndependentWebsiteForm(form, taxonomy) {
   const generated = taxonomy
     .map(({ title }) => `        - ${independentWebYamlString(title)}`)
+    .concat([
+      `        - ${independentWebYamlString('Other / Suggest a new category')}`
+    ])
     .join('\n')
   const pattern =
     /^        # BEGIN GENERATED INDEPENDENT WEB CATEGORIES\n[\s\S]*?^        # END GENERATED INDEPENDENT WEB CATEGORIES/m
   if (!pattern.test(form))
     throw new Error('Independent Web submission form markers are missing')
   return form.replace(pattern, `${WEBSITE_BEGIN}\n${generated}\n${WEBSITE_END}`)
+}
+
+export function syncCommunityForm(form, taxonomy) {
+  const generated = taxonomy
+    .map(({ title }) => `        - ${title}`)
+    .concat(['        - Other / Suggest a new category'])
+    .join('\n')
+  const pattern =
+    /^        # BEGIN GENERATED COMMUNITY CATEGORIES\n[\s\S]*?^        # END GENERATED COMMUNITY CATEGORIES/m
+  if (!pattern.test(form))
+    throw new Error('Community submission form taxonomy markers are missing')
+  return form.replace(
+    pattern,
+    `${COMMUNITY_BEGIN}\n${generated}\n${COMMUNITY_END}`
+  )
 }
 
 if (
@@ -186,6 +220,9 @@ if (
   const websiteTaxonomy = JSON.parse(
     await readFile(INDEPENDENT_WEB_TAXONOMY_PATH, 'utf8')
   )
+  const communityTaxonomy = JSON.parse(
+    await readFile(COMMUNITY_TAXONOMY_PATH, 'utf8')
+  )
   const websiteFormPath = resolve(
     '.github/ISSUE_TEMPLATE/submit-independent-website.yml'
   )
@@ -195,15 +232,32 @@ if (
     websiteForm,
     websiteTaxonomy
   )
+  const communityFormPath = resolve(
+    '.github/ISSUE_TEMPLATE/submit-community.yml'
+  )
+  const communityForm = await readFile(communityFormPath, 'utf8')
+  const syncedCommunityForm = syncCommunityForm(
+    communityForm,
+    communityTaxonomy
+  )
 
   if (check) {
-    if (synced !== form || syncedWebsiteForm !== websiteForm) {
+    if (
+      synced !== form ||
+      syncedWebsiteForm !== websiteForm ||
+      syncedCommunityForm !== communityForm
+    ) {
       throw new Error('submit-blog.yml is out of sync with blog-taxonomy.json')
     }
     console.log('Submission form taxonomy is up to date.')
-  } else if (synced !== form || syncedWebsiteForm !== websiteForm) {
+  } else if (
+    synced !== form ||
+    syncedWebsiteForm !== websiteForm ||
+    syncedCommunityForm !== communityForm
+  ) {
     await writeFile(FORM_PATH, synced)
     await writeFile(websiteFormPath, syncedWebsiteForm)
+    await writeFile(communityFormPath, syncedCommunityForm)
     console.log('Updated submit-blog.yml from blog-taxonomy.json.')
   }
 }

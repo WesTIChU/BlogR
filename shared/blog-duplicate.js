@@ -13,6 +13,26 @@ export const entriesForSubmissionType = (
 ) =>
   type === 'website' ? websites : type === 'community' ? communities : blogs
 
+export const crossSectionMatches = (
+  type,
+  value,
+  { blogs = [], websites = [], communities = [] }
+) => {
+  const canonical = canonicalBlogUrl(value)
+  const sections = [
+    ['blog', blogs],
+    ['website', websites],
+    ['community', communities]
+  ]
+  return sections
+    .filter(([section]) => section !== type)
+    .flatMap(([section, entries]) =>
+      entries
+        .filter((entry) => canonicalBlogUrl(entry.url) === canonical)
+        .map((entry) => ({ type: section, entry }))
+    )
+}
+
 export const hasPendingSubmission = (issues, value) => {
   const canonical = canonicalBlogUrl(value)
   return issues.some((issue) =>

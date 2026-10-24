@@ -1,5 +1,6 @@
 import {
   canonicalBlogUrl,
+  crossSectionMatches,
   entriesForSubmissionType,
   findListedBlog,
   hasPendingSubmission
@@ -125,6 +126,11 @@ export async function onRequestGet({ request, env }) {
     cache.set(canonical, { result, expires: Date.now() + CACHE_TTL })
     return json(result)
   }
+  const crossSection = crossSectionMatches(type, url, {
+    blogs,
+    websites,
+    communities
+  })
 
   try {
     const label =
@@ -136,7 +142,12 @@ export async function onRequestGet({ request, env }) {
     const issues = await getOpenSubmissionIssues(env, label)
     const result = hasPendingSubmission(issues, url)
       ? { status: 'pending' }
-      : { status: 'available' }
+      : crossSection.length
+        ? {
+            status: 'available',
+            warning: `This URL is already listed in another BlogR section (${crossSection.map(({ type }) => type).join(', ')}).`
+          }
+        : { status: 'available' }
     cache.set(canonical, { result, expires: Date.now() + CACHE_TTL })
     return json(result)
   } catch {

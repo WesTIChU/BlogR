@@ -1,4 +1,5 @@
 import {
+  crossSectionMatches,
   entriesForSubmissionType,
   findListedBlog,
   hasPendingSubmission
@@ -176,17 +177,21 @@ export async function onRequestPost({ request, env }) {
     )
   }
 
+  const crossSection = crossSectionMatches(type, submission.url, {
+    blogs,
+    websites,
+    communities
+  })
+  const crossSectionNote = crossSection.length
+    ? `\n\n### Cross-section duplicate warning\n\nThis URL is already listed in: ${crossSection.map(({ type: section }) => section).join(', ')}. This is a warning only; the administrator must decide whether the dual listing is legitimate.`
+    : ''
+
   try {
     const response = await githubRequest(env, `/repos/${repository}/issues`, {
       method: 'POST',
       body: JSON.stringify({
         title: `${type === 'website' ? 'Independent website' : type === 'community' ? 'Community' : 'Blog'} submission: ${submission.name}`,
-        body:
-          type === 'website'
-            ? buildIndependentWebsiteIssueBody(submission)
-            : type === 'community'
-              ? buildCommunityIssueBody(submission)
-              : buildIssueBody(submission),
+        body: `${type === 'website' ? buildIndependentWebsiteIssueBody(submission) : type === 'community' ? buildCommunityIssueBody(submission) : buildIssueBody(submission)}${crossSectionNote}`,
         labels: [
           type === 'website'
             ? 'independent-web-submission'

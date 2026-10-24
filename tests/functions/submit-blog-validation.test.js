@@ -92,7 +92,8 @@ test('keeps custom locations editorial-only and compatible with the issue parser
   const validated = validateSubmission(parsed, blogs, taxonomy)
   assert.equal(validated.countryPlace, 'Atlantis')
   assert.equal(validated.country, undefined)
-  assert.match(body, /### Category \/ Subcategory/)
+  assert.match(body, /### Directory type/)
+  assert.match(body, /### Category\n\nTechnology/)
 })
 
 test('Pages Function verifies Turnstile and creates a review-only GitHub issue', async () => {

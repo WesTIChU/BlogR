@@ -110,8 +110,16 @@ body:
         - "Travel & Outdoors / Hiking & Walking"
         - "Travel & Outdoors / Travel & Exploration"
         - "Not sure / Other"
+        - "Other / Suggest a new category"
     validations:
       required: true
+  - type: input
+    id: taxonomy-suggestion
+    attributes:
+      label: "Suggested new category or subcategory (optional)"
+      description: "Suggestions are reviewed by an administrator and are not official taxonomy entries."
+    validations:
+      required: false
   - type: dropdown
     id: country
     attributes:

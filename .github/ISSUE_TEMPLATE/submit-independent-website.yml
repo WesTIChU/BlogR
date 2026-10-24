@@ -35,12 +35,29 @@ body:
         - 'Fansites'
         - 'Webrings'
         - 'Guides & Resources'
+        - 'Other / Suggest a new category'
         # END GENERATED INDEPENDENT WEB CATEGORIES
     validations: { required: true }
+  - type: input
+    id: suggested-category
+    attributes:
+      label: Suggested new category
+      description:
+        Required when Other / Suggest a new category is selected. Suggestions
+        are not official taxonomy entries.
+    validations: { required: false }
   - type: input
     id: subcategory
     attributes:
       label: Subcategory
+    validations: { required: false }
+  - type: input
+    id: suggested-subcategory
+    attributes:
+      label: Suggested new subcategory
+      description:
+        Suggestions are reviewed by an administrator and are not official
+        taxonomy entries.
     validations: { required: false }
   - type: input
     id: country

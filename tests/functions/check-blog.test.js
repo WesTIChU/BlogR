@@ -68,13 +68,19 @@ test('checks blogs and Independent Web in separate directories', async () => {
       request: request(blogs[0].url, 'website'),
       env
     })
-    assert.deepEqual(await blogForWebsite.json(), { status: 'available' })
+    assert.deepEqual(await blogForWebsite.json(), {
+      status: 'available',
+      warning: 'This URL is already listed in another BlogR section (blog).'
+    })
 
     const websiteForBlog = await onRequestGet({
       request: request(websites[0].url, 'blog'),
       env
     })
-    assert.deepEqual(await websiteForBlog.json(), { status: 'available' })
+    assert.deepEqual(await websiteForBlog.json(), {
+      status: 'available',
+      warning: 'This URL is already listed in another BlogR section (website).'
+    })
   } finally {
     globalThis.fetch = originalFetch
   }

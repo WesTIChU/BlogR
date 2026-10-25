@@ -657,13 +657,13 @@
   },
   "https://bits.gobino.be/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 280/365 - Mushroom madness",
-      "url": "https://bits.gobino.be/posts/2026-10-24-280365-mushroom",
-      "summary": "📷 280/365 - Mushroom madness",
-      "publishedAt": "2026-10-24T12:41:59.000Z"
+      "title": "📷 281/365 - Always watching",
+      "url": "https://bits.gobino.be/posts/2026-10-25-281365-always",
+      "summary": "📷 281/365 - Always watching",
+      "publishedAt": "2026-10-25T12:43:00.000Z"
     }
   },
   "https://bitterandblue.sbnation.com/": {
@@ -1070,7 +1070,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1150,9 +1150,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/five-things-learned-aston-villa-2-1-manchester-city-premier-league-1",
-      "summary": "Manchester City lose their first match in the Premier League's 2026/27 season against Aston Villa at Villa Park - a venue the Blues have now failed to secure a win at since December 2021 - and are no…",
-      "publishedAt": "2026-10-25T09:09:39.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/features/five-things-learned-aston-villa-2-1-manchester-city-premier-league-2",
+      "summary": "Nicolas Jackson’s ruthless brace shattered Manchester City’s perfect start to the Premier League season as Aston Villa claimed a fourth successive win over the Citizens at Villa Park on Saturday.",
+      "publishedAt": "2026-10-25T12:30:28.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1647,7 +1647,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1712,7 +1712,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -1877,13 +1877,13 @@
   },
   "https://fossilhuntress.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://fossilhuntress.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "TRAPPED IN TIME: THE EXTRAORDINARY FOSSILS PRESERVED IN AMBER",
-      "url": "https://fossilhuntress.blogspot.com/2026/10/trapped-in-time-extraordinary-fossils.html",
-      "summary": "Fossilized Insect in AmberA tiny insect lands on the sticky surface of a tree, unaware that this ordinary moment might become part of the geological record.Millions of years later, that insect may st…",
-      "publishedAt": "2026-10-24T13:30:00.000Z"
+      "title": "HARRY'S FOSSIL ROOM: ANCIENT TREASURES AND THE ART OF FOSSIL PREPARATION",
+      "url": "https://fossilhuntress.blogspot.com/2026/10/harrys-fossil-room-ancient-treasures.html",
+      "summary": "Baltic Amber. Photo: Harry TabinerThere is something rather wonderful about people who can hold a small piece of stone or amber in their hands and see an entire ancient world waiting to be revealed.M…",
+      "publishedAt": "2026-10-25T13:00:00.000Z"
     }
   },
   "https://found-media-archive.neocities.org/": {
@@ -1953,7 +1953,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2023,13 +2023,13 @@
   },
   "https://greatawakeningreport.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Mexico Enter at Your Own Risk | Cartel War Documentary",
-      "url": "https://greatawakeningreport.com/worlds-most-feared-cartel-war-documentary/",
-      "summary": "This is a field report, not an essay. The Mexico cartel war documentary embeds with the people who deal with organized crime at close range, and it earns its warning of a title by going where most co…",
-      "publishedAt": "2026-10-24T23:10:00.000Z"
+      "title": "Common Wealth | Documentary Trailer",
+      "url": "https://greatawakeningreport.com/common-wealth-documentary-trailer/",
+      "summary": "The Common Wealth documentary trailer opens on an admission most people never make out loud. The man behind the project was raised inside one economic story, told from childhood that a single arrange…",
+      "publishedAt": "2026-10-25T13:15:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -2498,7 +2498,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -5434,7 +5434,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5550,12 +5550,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173304/the-daily-hilario-october-23rd",
-      "summary": "Involved Most Huh",
-      "publishedAt": "2026-10-23T07:04:00.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173401/crystal-palace-fcw-vs-chelsea-fcw-womens-super-league-confirmed-lineups-how-to-watch",
+      "summary": "Unlike the men’s team yesterday, Chelsea Women handily beaten Tottenham at Stamford Bridge last weekend. This time they take a trip to Sutton to face Crystal Palace, a team whose last Women’s Super L…",
+      "publishedAt": "2026-10-25T11:04:54.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -5831,10 +5831,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Ideas gets spooky with Beetlejuice and The Addams Family",
-      "url": "https://www.brickfanatics.com/lego-ideas-spooky-beetlejuice-the-addams-family",
-      "summary": "It’s all treats and no tricks",
-      "publishedAt": "2026-10-25T11:35:23.000Z"
+      "title": "Basketball sets could solve LEGO Editions’ biggest problem",
+      "url": "https://www.brickfanatics.com/basketball-sets-solve-lego-editions-problem",
+      "summary": "Back to the basketball basics",
+      "publishedAt": "2026-10-25T12:33:20.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5886,13 +5886,13 @@
   },
   "https://www.cakewrecks.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.cakewrecks.com/home?format=rss",
     "latestArticle": {
-      "title": "One Line Horror Stories",
-      "url": "https://www.cakewrecks.com/home/one-line-horror-stories-2026",
-      "summary": "I always liked the idea of fitting as much story into as few words as possible, so let's see if BAKERS can scare us in, say, 10 words or less. Eh? BEGIN. \"You know, most of that is technically edible…",
-      "publishedAt": "2026-10-23T13:00:00.000Z"
+      "title": "Sunday Sweets: Halloween Cuties!",
+      "url": "https://www.cakewrecks.com/home/sunday-sweets-halloween-cuties-2026",
+      "summary": "Yassss , it's Halloween cake time! I look forward to these all year! I like to split my favorite spooky sweets into two categories: cute and creepy. And this week we are all about the cute: (By Meng …",
+      "publishedAt": "2026-10-25T13:00:00.000Z"
     }
   },
   "https://www.cartoonbrew.com/": {
@@ -6017,7 +6017,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -6033,13 +6033,13 @@
   },
   "https://www.disneytouristblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Four Magic Kingdom Restaurants Receiving Reimagined & New Menus",
-      "url": "https://www.disneytouristblog.com/four-magic-kingdom-restaurants-receiving-reimagined-new-menus/",
-      "summary": "Magic Kingdom is the worst food park at Walt Disney World. This is despite being the crown jewel and the #1 theme park for global attendance. That’s the bad news. The good news is that WDW has reveal…",
-      "publishedAt": "2026-10-24T22:57:10.000Z"
+      "title": "Ex-Disney CEO Bob Chapek Paid $100,000 Per Month to Bring Magic Touch to Vail Ski Resorts in Proxy Fight",
+      "url": "https://www.disneytouristblog.com/ex-disney-ceo-bob-chapek-paid-100000-per-month-to-bring-magic-touch-to-vail-ski-resorts-in-proxy-fight/",
+      "summary": "Somehow, Bob Chapek returned. In the midst of the former Disney CEO’s book tour, the ex-executive has found the time to serve as one of the four nominees activist investor Oasis Management proposed f…",
+      "publishedAt": "2026-10-25T13:00:38.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -6086,7 +6086,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -6222,7 +6222,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -6287,7 +6287,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6426,7 +6426,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6443,7 +6443,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -6557,7 +6557,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -6713,7 +6713,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6727,7 +6727,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6958,7 +6958,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6969,7 +6969,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6980,7 +6980,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -7072,10 +7072,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Sylvester Stallone and Bill Conti Reunite for Rocky 50th Anniversary",
-      "url": "https://www.themovieblog.com/2026/10/sylvester-stallone-and-bill-conti-reunite-for-rocky-50th-anniversary/",
-      "summary": "Sylvester Stallone and composer Bill Conti are set to reunite for a special one-night-only event in Brooklyn to celebrate the 50th anniversary of the iconic film Rocky. The post Sylvester Stallone an…",
-      "publishedAt": "2026-10-25T12:36:00.000Z"
+      "title": "Frisco King Teaser Trailer and Premiere Date Revealed",
+      "url": "https://www.themovieblog.com/2026/10/frisco-king-teaser-trailer-premiere-date/",
+      "summary": "Paramount+ has officially unveiled the teaser trailer and a December 18 premiere date for the highly anticipated original series Frisco King, starring Samuel L. Jackson. The post Frisco King Teaser T…",
+      "publishedAt": "2026-10-25T13:12:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7094,10 +7094,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "We Are in the Digital Photography Feudalistic World",
-      "url": "https://www.thephoblographer.com/2026/10/25/we-are-in-the-digital-photography-feudalistic-world/",
-      "summary": "I'm not really a diplomatic person as much as I am an honest one: and I'm very happy that photographers are hacking their cameras using AI. The big manufacturers have been limiting functionality with…",
-      "publishedAt": "2026-10-25T09:00:00.000Z"
+      "title": "Retro Digital or Analog Film? Here’s How to Pick the Right Phoblographer Preset",
+      "url": "https://www.thephoblographer.com/2026/10/25/retro-digital-or-analog-film-heres-how-to-pick-the-right-phoblographer-preset/",
+      "summary": "We get some version of this question a lot: should you buy the Retro Digital Presets or the Analog Film Presets Pack? They're both popular, and they both start from the same basic idea, recreating a …",
+      "publishedAt": "2026-10-25T13:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -7123,7 +7123,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -7202,7 +7202,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
@@ -7323,12 +7323,13 @@
   },
   "https://xoxocherrydiva.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://xoxocherrydiva.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "𝓣𝓱𝓮 𝓾𝓵𝓽𝓲𝓶𝓪𝓽𝓮 𝔂2𝓴 𝓯𝓪𝓼𝓱𝓲𝓸𝓷 𝓰𝓾𝓲𝓭𝓮: 𝓣𝓱𝓮 𝓶𝓪𝓰𝓪𝔃𝓲𝓷𝓮!",
-      "url": "https://xoxocherrydiva.blogspot.com/2026/10/2.html",
-      "publishedAt": "2026-10-19T21:40:00.000Z"
+      "title": "𝓐𝓷𝓸𝓽𝓱𝓮𝓻 𝓵𝓲𝓯𝓮 𝓾𝓹𝓭𝓪𝓽𝓮",
+      "url": "https://xoxocherrydiva.blogspot.com/2026/10/blog-post_25.html",
+      "summary": "𝑯𝒊 𝒅𝒊𝒗𝒂𝒔/ 𝑶𝒊 𝒅𝒊𝒗𝒂𝒔! Today im doing another life update! Its been a while since i last wrote for this blog, so i sure do have a lot to tell you guys! First of all, ive had an humanities (history, lang…",
+      "publishedAt": "2026-10-25T12:59:18.933Z"
     }
   },
   "https://yordi.me/": {

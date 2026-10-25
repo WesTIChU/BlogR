@@ -1070,7 +1070,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1647,7 +1647,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1712,7 +1712,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -1953,7 +1953,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1979,13 +1979,13 @@
   },
   "https://glitternight.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "FOOL KILLER PART EIGHTY: DECEMBER 1915",
-      "url": "https://glitternight.com/2026/10/24/fool-killer-part-eighty-december-1915/",
-      "summary": "Balladeer’s Blog continues its examination of the many facets of Fool Killer lore. FOR PART ONE, INCLUDING THE HISTORICAL CONTEXT IN THE 1850s, CLICK HERE. PART 80 – As always, it’s fascinating to re…",
-      "publishedAt": "2026-10-24T16:29:57.000Z"
+      "title": "BALLADEER’S BLOG’S COLLEGE FOOTBALL: OCT 25th",
+      "url": "https://glitternight.com/2026/10/25/balladeers-blogs-college-football-oct-25th/",
+      "summary": "HEADLINES NUMBER SEVEN TAKES A FALL – In the NAIA, the 23rd ranked SOUTHWESTERN COLLEGE MOUNDBUILDERS visited the number 7 team in the nation – the FRIENDS UNIVERSITY FALCONS. By Halftime the Moundbu…",
+      "publishedAt": "2026-10-25T13:28:55.000Z"
     }
   },
   "https://gnomadhome.com/": {
@@ -2065,13 +2065,13 @@
   },
   "https://greg.org/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://greg.org/feed",
     "latestArticle": {
-      "title": "A Drawing Of A Swiss Gold Vault",
-      "url": "https://greg.org/archive/2026/10/24/a-drawing-of-a-swiss-gold-vault.html",
-      "summary": "It was only after months of combing through metres of correspondence and minutes of meetings that, in the autumn of 2021, I first noticed this modest piece of paper. I had moved to Zurich to write a …",
-      "publishedAt": "2026-10-24T10:43:42.000Z"
+      "title": "John H. Howe > FLW FTW",
+      "url": "https://greg.org/archive/2026/10/25/john-h-howe-flw-ftw.html",
+      "summary": "My first reaction to the 25 pieces of instantly recognizable Frank Lloyd Wright furniture being sold in Chicago without a single mention of FLW was trademark outrage. The “Private Midwest Commission”…",
+      "publishedAt": "2026-10-25T13:33:48.000Z"
     }
   },
   "https://gregalder.com/yardposts/": {
@@ -2498,7 +2498,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3331,13 +3331,13 @@
   },
   "https://mossandfog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://mossandfog.com/feed/",
     "latestArticle": {
-      "title": "A Japanese Island’s Colored Cliffs, Rebuilt as Painted Metal Furniture",
-      "url": "https://mossandfog.com/moriyuki-ochiai-chromatic-symphony-of-landscapes/",
-      "summary": "Moriyuki Ochiai Architects turned the banded, 90-million-year-old rocks of a tiny Japanese island into a room full of gradient-painted metal furniture. The paint came from just down the coast. The po…",
-      "publishedAt": "2026-10-24T19:50:37.000Z"
+      "title": "Fog Signals: The Little Mark in Our Name, a Lion in Space and Portland in Miniature",
+      "url": "https://mossandfog.com/fog-signals-the-little-mark-in-our-name-a-lion-in-space-and-portland-in-miniature/",
+      "summary": "Our ampersand learned to move this week. Plus LAIKA’s handmade Portland, a dying star with a lion’s face and 31 posters that will keep you up! The post Fog Signals: The Little Mark in Our Name, a Lio…",
+      "publishedAt": "2026-10-25T13:45:00.000Z"
     }
   },
   "https://moviemetropolis.net/": {
@@ -5331,7 +5331,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5434,7 +5434,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5831,10 +5831,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Basketball sets could solve LEGO Editions’ biggest problem",
-      "url": "https://www.brickfanatics.com/basketball-sets-solve-lego-editions-problem",
-      "summary": "Back to the basketball basics",
-      "publishedAt": "2026-10-25T12:33:20.000Z"
+      "title": "The biggest LEGO Star Wars SMART Play set is now half price",
+      "url": "https://www.brickfanatics.com/biggest-lego-star-wars-smart-play-set-half-price",
+      "summary": "Two SMART Bricks in one set, now for 45% off",
+      "publishedAt": "2026-10-25T13:17:18.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5941,13 +5941,13 @@
   },
   "https://www.creepypasta.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.creepypasta.com/feed/",
     "latestArticle": {
-      "title": "The Fear of Myself",
-      "url": "https://www.creepypasta.com/the-fear-of-myself/",
-      "summary": "Being afraid of yourself is something you rarely hear anyone admit—not to others, and certainly not to themselves. Fearing your own existence sounds almost made-up. When you actually stop to think ab…",
-      "publishedAt": "2026-10-23T13:30:00.000Z"
+      "title": "The Legend of Jack Turnip",
+      "url": "https://www.creepypasta.com/the-legend-of-jack-turnip/",
+      "summary": "The moon hung low and bloated over the town of Hallowville, Oregon, bleeding a sickly orange light across the frost-dusted fields. It was Halloween night, the one time of year when the veil between t…",
+      "publishedAt": "2026-10-25T13:30:00.000Z"
     }
   },
   "https://www.dailycartoonist.com/": {
@@ -6017,7 +6017,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -6086,7 +6086,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -6222,7 +6222,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -6426,7 +6426,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6443,7 +6443,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -6557,7 +6557,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -6713,7 +6713,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6727,7 +6727,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6958,7 +6958,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6969,7 +6969,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6980,7 +6980,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -7123,7 +7123,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -7202,7 +7202,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {

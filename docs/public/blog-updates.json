@@ -112,7 +112,7 @@
     }
   },
   "https://1morefilmblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://1morefilmblog.com/feed/",
     "latestArticle": {
@@ -157,13 +157,13 @@
   },
   "https://9to5linux.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
-      "url": "https://9to5linux.com/transmission-4-1-4-open-source-bittorrent-client-released-with-various-fixes",
-      "summary": "Transmission 4.1.4 open-source BitTorrent client is now available for download with various bug fixes and improvements for the Qt client, GTK client, macOS Client, and Web client. The post Transmissi…",
-      "publishedAt": "2026-10-24T01:15:00.000Z"
+      "title": "9to5Linux Weekly Roundup: October 25th, 2026",
+      "url": "https://9to5linux.com/9to5linux-weekly-roundup-october-25th-2026",
+      "summary": "9to5Linux Weekly Roundup for October 24th, 2026, brings news about Linux 7.3, GNU Linux-libre 7.3, SparkyOS, KDE Plasma 6.8.1, OpenSSL 4.1, siduction 2026.1, OBS Studio 33, COSMIC 1.11, KeePassXC 2.8…",
+      "publishedAt": "2026-10-25T13:45:28.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -983,13 +983,13 @@
   },
   "https://cabbieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://cabbieblog.com/feed/",
     "latestArticle": {
-      "title": "Previously Posted: Sentinels of our streets",
-      "url": "https://cabbieblog.com/2026/10/24/previously-posted-sentinels-of-our-streets/",
-      "summary": "For those new to CabbieBlog or readers who are slightly forgetful, on Saturdays I’m republishing posts, many going back over a decade. Some will still be very relevant while others have become dated …",
-      "publishedAt": "2026-10-24T12:50:00.000Z"
+      "title": "London Trivia: Heckled by a parrot",
+      "url": "https://cabbieblog.com/2026/10/25/london-trivia-heckled-by-a-parrot-2/",
+      "summary": "Weekly nuggets of triviality posted every Sunday each with a short essay relating to the day in question along with 10 other pieces of useless information, read weekly or dip in and out",
+      "publishedAt": "2026-10-25T13:50:25.000Z"
     }
   },
   "https://calamitymn.blogspot.com/": {
@@ -1150,9 +1150,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/features/five-things-learned-aston-villa-2-1-manchester-city-premier-league-2",
-      "summary": "Nicolas Jackson’s ruthless brace shattered Manchester City’s perfect start to the Premier League season as Aston Villa claimed a fourth successive win over the Citizens at Villa Park on Saturday.",
-      "publishedAt": "2026-10-25T12:30:28.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/manchester-city-loanee-claudio-echeverri-open-to-extended-benfica-stay",
+      "summary": "Manchester City youngster Claudio Echeverri would be open to extending his stay with Benfica beyond his initial loan agreement as he searches for consistent minutes, according to new reports.",
+      "publishedAt": "2026-10-25T14:00:05.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1963,7 +1963,7 @@
     "status": "unavailable"
   },
   "https://gifcities.org/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://glasgowgallivanter.com/": {
@@ -2122,10 +2122,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Meshtastic Pet Tracking",
-      "url": "https://hackaday.com/2026/10/25/meshtastic-pet-tracking/",
-      "summary": "Most commercial pet trackers require a subscription or network connection to function. [Jon G Aguado] wanted a better way and designed LIA, a Meshtastic collar tracker. LIA uses a custom …read more",
-      "publishedAt": "2026-10-25T11:00:07.000Z"
+      "title": "Simple, Reliable RF Remote Control",
+      "url": "https://hackaday.com/2026/10/25/simple-reliable-rf-remote-control/",
+      "summary": "Some of the first remote controls available to consumers used sound, visible light, or even just wires to communicate with their parent device. It was many years between these first …read more",
+      "publishedAt": "2026-10-25T14:00:48.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2415,9 +2415,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "500 Greatest Albums of the 2000's # 21 The Streets - A Grand Doesn't Come For Free",
-      "summary": "Intertextuality. Texts feeding in to other text. A Grand Doesn't Come For Free feeds off The Oddysey, Ulysees, Good Fellas, Eastenders. A track closes . Another one begins. This is how we all live Th…",
-      "publishedAt": "2026-10-25T11:53:28.000Z"
+      "title": "200 Albums for 2026 It Starts With a Birthstone # 63 American Football - American Football",
+      "summary": "I've surprised myself by falling hard for American Football's self tutled fourth album over the last couple of days. It's spacey and grandiose. In The Smith and Radiohead's ballpark. Incredibly inven…",
+      "publishedAt": "2026-10-25T14:44:45.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -2760,7 +2760,7 @@
     }
   },
   "https://knifesteelnerds.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://knifesteelnerds.com/feed/",
     "latestArticle": {
@@ -2882,10 +2882,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Lime Garden: Moving Target",
-      "url": "https://liberalengland.blogspot.com/2026/10/lime-garden-moving-target.html",
-      "summary": "Like most of the contemporary singles I like, this is more about melody than rhythm and a bit retro. But then I long ago passed the age when you were meant to stop liking what was in the charts – whe…",
-      "publishedAt": "2026-10-25T09:59:44.426Z"
+      "title": "Bodhana Sivanandan is youngest ever female international master",
+      "url": "https://liberalengland.blogspot.com/2026/10/bodhana-sivanandan-is-youngest-ever.html",
+      "summary": "The 11-year-old English chess prodigy Bodhana Sivanandan has recorded her greatest achievement yet. She has become the youngest girl ever to qualify for the international master (IM) title, which is …",
+      "publishedAt": "2026-10-25T14:22:11.183Z"
     }
   },
   "https://librearts.org/": {
@@ -3110,13 +3110,13 @@
   },
   "https://marcschuster.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-11",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://marcschuster.com/feed/",
     "latestArticle": {
-      "title": "A First",
-      "url": "https://marcschuster.com/2026/10/11/a-first/",
-      "summary": "I was listening to G Kane’s debut single, “Time Heals,” when I realized that this is the first time I’ve officially been credited as a producer — outside of my own music, anyway! I really like the wa…",
-      "publishedAt": "2026-10-11T14:58:39.000Z"
+      "title": "Plush Gordon: Stayin’ Alive?",
+      "url": "https://marcschuster.com/2026/10/25/plush-gordon-stayin-alive/",
+      "summary": "Quite a while back, I was releasing music under the name Plush Gordon. It was kind of a band, kind of a solo project, kind of a thing where whoever was playing with me was part of the band even thoug…",
+      "publishedAt": "2026-10-25T13:54:43.000Z"
     }
   },
   "https://marginalrevolution.com/": {
@@ -3636,10 +3636,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://opinionatedgamers.com/feed/",
     "latestArticle": {
-      "title": "Dale Yu: Review of Citadels Duel",
-      "url": "https://opinionatedgamers.com/2026/10/25/dale-yu-review-of-citadels-duel/",
-      "summary": "Citadels Duel Designers: Guillaume Montiage and Manuel Rozoy Publisher: Asmodee / Zman Players: 2 Age: 10+ Time: 30 minutes Amazon affiliate link: https://link.amazon/B0b6pIUw0 Played with review cop…",
-      "publishedAt": "2026-10-25T05:20:15.000Z"
+      "title": "Simon W – report from Saturday Essen Spiel 2026",
+      "url": "https://opinionatedgamers.com/2026/10/25/simon-w-report-from-saturday-essen-spiel-2026/",
+      "summary": "…My first day without appointments, and a chance to play more games and wander round the smaller publishers too…here’s what I found. The day started off with a play of Cardia Tide and Storm, the new …",
+      "publishedAt": "2026-10-25T14:26:52.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -3863,7 +3863,7 @@
     "latestArticle": {
       "title": "Sunday UCF Fight Song",
       "url": "https://priorprobability.com/2026/10/25/sunday-ucf-fight-song/",
-      "summary": "Congratulations to the University of Central Florida! Our college football team defeated #2 BYU yesterday!",
+      "summary": "Congratulations to the University of Central Florida: our college football team defeated #2 BYU yesterday in double OT, the biggest win in our school’s athletic history. (If you know, you know!) BYU …",
       "publishedAt": "2026-10-25T12:13:09.000Z"
     }
   },
@@ -4807,13 +4807,13 @@
   },
   "https://thamara.co.uk/notebook": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://thamara.co.uk/notebook/rss.xml",
     "latestArticle": {
-      "title": "Food Questions Challenge",
-      "url": "https://thamara.co.uk/notebook/2026/10/food-questions-challenge/",
-      "summary": "Get to know me: the food edition",
-      "publishedAt": "2026-10-20T22:30:00.000Z"
+      "title": "Stranded in Manchester",
+      "url": "https://thamara.co.uk/notebook/2026/10/stranded-in-manchester/",
+      "summary": "Storm Boelo grounded me",
+      "publishedAt": "2026-10-25T13:30:00.000Z"
     }
   },
   "https://the-modern-dad.com/": {
@@ -4861,7 +4861,7 @@
     }
   },
   "https://theblockchainsocialist.com/category/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-11",
     "feedUrl": "https://theblockchainsocialist.com/category/blog/feed/",
     "latestArticle": {
@@ -4930,10 +4930,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Like most Celtic fans, I’d prefer this game was played today.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/celtic-fans-id-prefer-this-game-was-played-today/",
-      "summary": "If you are looking out of your window this morning at absolute carnage, fallen trees and wreckage, then The post Like most Celtic fans, I’d prefer this game was played today. appeared first on The Ce…",
-      "publishedAt": "2026-10-25T09:30:01.000Z"
+      "title": "Three more points for Celtic, but man that was rough.",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/articles/three-more-points-for-celtic-but-man-that-was-rough/",
+      "summary": "Everyone who follows football knows there is a time and a place for the Ugly Victory. As football The post Three more points for Celtic, but man that was rough. appeared first on The Celtic Blog .",
+      "publishedAt": "2026-10-25T14:21:40.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5331,7 +5331,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5553,9 +5553,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173401/crystal-palace-fcw-vs-chelsea-fcw-womens-super-league-confirmed-lineups-how-to-watch",
-      "summary": "Unlike the men’s team yesterday, Chelsea Women handily beaten Tottenham at Stamford Bridge last weekend. This time they take a trip to Sutton to face Crystal Palace, a team whose last Women’s Super L…",
-      "publishedAt": "2026-10-25T11:04:54.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173407/crystal-palace-fcw-1-3-chelsea-fcw-womens-super-league-post-match-reaction",
+      "summary": "We are all well aware at this point that the times of easy matches in the Women’s Super League are over. That in large part because much like their men’s counterpart teams in the Women’s Super League…",
+      "publishedAt": "2026-10-25T13:58:00.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -5831,10 +5831,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "The biggest LEGO Star Wars SMART Play set is now half price",
-      "url": "https://www.brickfanatics.com/biggest-lego-star-wars-smart-play-set-half-price",
-      "summary": "Two SMART Bricks in one set, now for 45% off",
-      "publishedAt": "2026-10-25T13:17:18.000Z"
+      "title": "Seven sets to qualify for upcoming LEGO Classic Space gift",
+      "url": "https://www.brickfanatics.com/top-picks-for-upcoming-lego-classic-space-gift",
+      "summary": "T-minus three days to launch...",
+      "publishedAt": "2026-10-25T14:12:00.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5911,10 +5911,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "Hibernian v Celtic, Live updates",
-      "url": "https://www.celticquicknews.co.uk/hibernian-v-celtic-live-updates-26/",
-      "summary": "Live updates will appear below after 12:00.",
-      "publishedAt": "2026-10-25T10:56:52.000Z"
+      "title": "HIBS 1 CELTIC 2: DURAN’S THE MAN AGAIN",
+      "url": "https://www.celticquicknews.co.uk/hibs-1-celtic-2-durans-the-man-again/",
+      "summary": "HIBS 1 CELTIC 2 CAMILO DURAN once again showed his more expensive team-mate Kasper Hogh how it’s done with a slick winner against Hibs at Easter Road today. As the £11.5million man fired blanks again…",
+      "publishedAt": "2026-10-25T13:56:36.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6223,13 +6223,13 @@
   },
   "https://www.horrorsociety.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "Cryptid Manor Brings Terror & Nostalgia to The Jersey Shore",
-      "url": "https://www.horrorsociety.com/2026/10/24/cryptid-manor-brings-terror-nostalgia-to-the-jersey-shore/",
-      "summary": "If you were born in the 80s, like I was, then unfortunately you’ve seen the decline in all things Halloween. Not as may hayrides, far fewer trick or treaters and certainly not as many shenanigans. Oh…",
-      "publishedAt": "2026-10-24T21:00:56.000Z"
+      "title": "Review: Justin Shilton & Rob Zazzali’s ‘SLEEP STALKER’",
+      "url": "https://www.horrorsociety.com/2026/10/25/review-justin-shilton-rob-zazzalis-sleep-stalker/",
+      "summary": "Oh, I didn’t realize Sleep Stalker was going to be a found footage feature. Not that I’m complaining, although, I do take the genre very seriously. When executed correctly, I feel like it brings true…",
+      "publishedAt": "2026-10-25T14:32:51.000Z"
     }
   },
   "https://www.ianbicking.org/": {
@@ -6944,7 +6944,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -7072,10 +7072,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Frisco King Teaser Trailer and Premiere Date Revealed",
-      "url": "https://www.themovieblog.com/2026/10/frisco-king-teaser-trailer-premiere-date/",
-      "summary": "Paramount+ has officially unveiled the teaser trailer and a December 18 premiere date for the highly anticipated original series Frisco King, starring Samuel L. Jackson. The post Frisco King Teaser T…",
-      "publishedAt": "2026-10-25T13:12:00.000Z"
+      "title": "Ayyana Mane 2 Brings Psychological Mystery Thriller to Zee 5 Global",
+      "url": "https://www.themovieblog.com/2026/10/ayyana-mane-2-brings-psychological-mystery-thriller-to-zee-5-global/",
+      "summary": "The mystery thriller Ayyana Mane 2 has officially arrived on Zee 5 Global, promising a gripping new chapter filled with family secrets and supernatural tension. The post Ayyana Mane 2 Brings Psycholo…",
+      "publishedAt": "2026-10-25T14:24:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7149,10 +7149,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Retro Recap: All The Classic Gaming News From The Past Week (October 25th 2026)",
-      "url": "https://www.timeextension.com/#article-208057",
-      "summary": "Atari VCS! Zelda! Mario 64! Croc! Welcome to Retro Recap , a regular feature we run each and every weekend which rounds up all of the best retro gaming news and content of the past week in one place.…",
-      "publishedAt": "2026-10-25T12:00:00.000Z"
+      "title": "The 8BitDo Arcade Controller Pro Offers Compact, Leverless Control for PC and Nintendo Switch",
+      "url": "https://www.timeextension.com/#article-208054",
+      "summary": "The NES Advantage goes full FGC. Accessory aficionados 8BitDo has lifted the lid on a new leverless controller currently in the works for Nintendo Switch platforms. The Arcade Controller Pro is now a…",
+      "publishedAt": "2026-10-25T14:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -7213,7 +7213,7 @@
     }
   },
   "https://www.van-tramp.com/wp/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.van-tramp.com/wp/feed/",
     "latestArticle": {

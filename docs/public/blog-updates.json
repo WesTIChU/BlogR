@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1439,7 +1439,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1757,13 +1757,13 @@
   },
   "https://evidenceanecdotal.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://evidenceanecdotal.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "'A Sound Like a Rusty Pump Beneath Our Window'",
-      "url": "https://evidenceanecdotal.blogspot.com/2026/10/a-sound-like-rusty-pump-beneath-our.html",
-      "summary": "Among humans, complaining is always annoying. Short of murder, rape, theft and treason, it may be our most detestable quality. A complainer assumes he or she is important, and everyone ought to know …",
-      "publishedAt": "2026-10-24T05:00:00.000Z"
+      "title": "Eric Ormsby R.I.P.",
+      "url": "https://evidenceanecdotal.blogspot.com/2026/10/eric-ormsby-rip.html",
+      "summary": "Marius Kociejowski has written to tell me the poet, critic, translator, Islamic scholar and voluptuary of sound Eric Ormsby has died, apparently in Prague, at age eighty-five. As always when a good w…",
+      "publishedAt": "2026-10-25T02:13:03.705Z"
     }
   },
   "https://expertvagabond.com/": {
@@ -1918,7 +1918,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2084,13 +2084,13 @@
   },
   "https://hackaday.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "The Slurptop is Both Drool Worthy and Practical",
-      "url": "https://hackaday.com/2026/10/24/the-slurptop-is-both-drool-worthy-and-practical/",
-      "summary": "There are two kinds of cyberdeck: the kind someone makes on a lark and operates purely on ‘rule of cool’, and the kind designed to do practical work. The Slurptop …read more",
-      "publishedAt": "2026-10-24T23:00:51.000Z"
+      "title": "Remembering the Weirdest Nintendo DSi Accessory",
+      "url": "https://hackaday.com/2026/10/24/remembering-the-weirdest-nintendo-dsi-accessory/",
+      "summary": "The Nintendo DSi was released in November 2008, and boasted a new feature not formerly seen on the brand’s handhelds—it had two cameras, inside and outside. It let the console …read more",
+      "publishedAt": "2026-10-25T02:00:01.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2460,7 +2460,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -4483,13 +4483,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Footage of &ldquo;Timber&rsquo;s Balloon Pop&rdquo;, a 2007 Adobe Flash game to promote Diddy Kong Racing DS on&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831393911332356096",
-      "summary": "Footage of “Timber’s Balloon Pop”, a 2007 Adobe Flash game to promote Diddy Kong Racing DS on Nintendo of America’s official site. The aim of the game is to touch the balloons without touching the bu…",
-      "publishedAt": "2026-10-24T21:57:00.000Z"
+      "title": "Officially licensed 2024 Donkey Kong plush keychain available at Super Nintendo World in Japan.",
+      "url": "https://smallmariofindings.tumblr.com/post/831401859112632320",
+      "summary": "Officially licensed 2024 Donkey Kong plush keychain available at Super Nintendo World in Japan. Main Blog | Patreon | Twitter | Bluesky | Small Findings | Source",
+      "publishedAt": "2026-10-25T00:03:19.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -5257,7 +5257,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5360,7 +5360,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5662,7 +5662,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6198,7 +6198,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6210,13 +6210,13 @@
   },
   "https://www.itsdougholland.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.itsdougholland.com/feed/",
     "latestArticle": {
-      "title": "Anything goes: 10/24/2026",
-      "url": "https://www.itsdougholland.com/anything-goes-10-24-2026/",
-      "summary": "our 103rd weekly open mike Let’s see what happens when your host (me) has nothing to say. Step right up, speak your mind, tell a story, sing a song, whatever. ... [read more]",
-      "publishedAt": "2026-10-24T16:39:17.000Z"
+      "title": "Don’t take me out to the ball game.",
+      "url": "https://www.itsdougholland.com/a-day-at-ball-park/",
+      "summary": "As a kid I was nothing but strikeouts at bat and errors in right field — couldn’t play the game at all, but I’ve always enjoyed watching baseball. ... [read more]",
+      "publishedAt": "2026-10-25T02:31:04.000Z"
     }
   },
   "https://www.jamesreeves.co/notebook/": {
@@ -6337,17 +6337,17 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/24/we-are-so-used-to.html",
-      "summary": "We are so used to the App Store model that I don’t think we pause enough to note that app distribution is actually clunky and slow now. In 1996 it was faster for me to do a Mac app build, copy it to …",
-      "publishedAt": "2026-10-24T16:45:00.000Z"
+      "url": "https://www.manton.org/2026/10/24/watched-klara-and-the-sun.html",
+      "summary": "Watched: Klara and the Sun . Beautiful. It lives up to the book. 🍿",
+      "publishedAt": "2026-10-25T02:37:51.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -6627,7 +6627,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7139,10 +7139,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "🚴‍♀️ Ride: Brunch with Kelly",
-      "url": "https://www.web-goddess.org/archive/95567",
-      "summary": "It’s a very hot day, so iced coffee was required! #coffeeneuring Time: 25min / Distance: 5.55km",
-      "publishedAt": "2026-10-25T01:04:07.000Z"
+      "title": "Chippendale’s Footpath Gardens",
+      "url": "https://www.web-goddess.org/archive/95575",
+      "summary": "I’ve just sent in my support of the Friends of Chippendale submission to the City of Sydney Council’s draft footpath and laneway gardening policy. Things are definitely moving in the right direction!…",
+      "publishedAt": "2026-10-25T02:06:21.000Z"
     }
   },
   "https://www.web3isgoinggreat.com/": {

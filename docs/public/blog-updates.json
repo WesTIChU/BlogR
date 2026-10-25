@@ -801,7 +801,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -3740,10 +3740,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://photography.mihobu.net/rss.xml",
     "latestArticle": {
-      "title": "Look at this handsome devil.",
-      "url": "https://photography.mihobu.net/micro-20261025170809",
-      "summary": "(Mihobu at 10 months old)",
-      "publishedAt": "2026-10-25T17:08:00.000Z"
+      "title": "Pottery projects",
+      "url": "https://photography.mihobu.net/micro-20261025172128",
+      "publishedAt": "2026-10-25T17:21:00.000Z"
     }
   },
   "https://pilledtexts.com/": {
@@ -4907,12 +4906,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36216/match-preview-manchester-united-vs-bournemouth",
-      "summary": "Manchester United are seeking a morale-boosting win against Bournemouth, in the Premier League on Sunday. The Reds return to domestic duties after the chastening 4-1 reverse to Como in Wednesday’s UE…",
-      "publishedAt": "2026-10-24T18:00:00.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36236/manchester-united-0-3-bournemouth-the-end-is-nigh-again",
+      "summary": "Manchester United lost in a very predictable fashion on Sunday, a 3-0 defeat at Old Trafford to AFC Bournemouth for the third time in the last four seasons. It’s the third different manager to do so,…",
+      "publishedAt": "2026-10-25T16:24:49.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -4931,9 +4930,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Celtic’s transfer policy would enter the realms of surreal if we buy summer targets in January.uar",
+      "title": "Celtic’s transfer policy would enter the realms of surreal if we buy summer targets in January.",
       "url": "https://thecelticblog.com/2026/10/blogs/celtics-transfer-policy-surreal-summer-targets/",
-      "summary": "If the reports are to be believed, Celtic are looking again at three players we tried to sign The post Celtic’s transfer policy would enter the realms of surreal if we buy summer targets in January.u…",
+      "summary": "If the reports are to be believed, Celtic are looking again at three players we tried to sign The post Celtic’s transfer policy would enter the realms of surreal if we buy summer targets in January. …",
       "publishedAt": "2026-10-25T16:56:21.000Z"
     }
   },
@@ -5125,13 +5124,13 @@
   },
   "https://thenumb.at/": {
     "status": "success",
-    "lastPublished": "2025-08-02",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://thenumb.at/index.xml",
     "latestArticle": {
-      "title": "Monte Carlo Crash Course",
-      "url": "https://thenumb.at/QMC/",
-      "summary": "Continuous Probability Exponentially Better Integration Sampling Case Study: Rendering Quasi-Monte Carlo Coming Soon… Quasi-Monte Carlo We’ve learned how to define and apply Monte Carlo integration—f…",
-      "publishedAt": "2025-08-02T00:00:00.000Z"
+      "title": "Compile-Time Dependent Types",
+      "url": "https://thenumb.at/Syl/",
+      "summary": "It seems inevitable that compile-time dependent types will come to systems programming. C++ has templates and constexpr . Rust has const generics. Zig has comptime . Even C has _Generic . However, th…",
+      "publishedAt": "2026-10-25T00:00:00.000Z"
     }
   },
   "https://theoverspill.blog/": {
@@ -6383,10 +6382,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "A Roman Inscription Nearly 16 Feet Long Was Found Reused in Southeastern Spain Roman Baths",
-      "url": "https://www.labrujulaverde.com/en/2026/10/a-roman-inscription-nearly-16-feet-long-was-found-reused-in-southeastern-spain-roman-baths/",
-      "summary": "On Tuesday, October 20, a team in southeastern Spain lifted a block of stone out of a wall where it had been sitting for about twenty centuries. The block carries fragments of two lines of text. The …",
-      "publishedAt": "2026-10-25T16:31:48.000Z"
+      "title": "Scientists Switch Back On a Chimpanzee Gene Silenced by a Virus Millions of Years Old. Humans Use it to Form the Brain",
+      "url": "https://www.labrujulaverde.com/en/2026/10/scientists-switch-back-on-a-chimpanzee-gene-silenced-by-a-virus-millions-of-years-old-humans-use-it-to-form-the-brain/",
+      "summary": "Line up human and chimpanzee DNA and the first surprise is how little separates us. We share more than 96% of the sequences used to make proteins, the molecules that build and run a living body. And …",
+      "publishedAt": "2026-10-25T17:27:23.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -7152,7 +7151,7 @@
     "latestArticle": {
       "title": "The Making Of: Addams Family Values, Ocean Software's Attempt to Mix Hollywood & the Legend of Zelda",
       "url": "https://www.timeextension.com/#article-207488",
-      "summary": "\"Management didn't really understand development or the creative process\". The Addams Family Values for the SNES and Sega Mega Drive/Genesis isn't exactly regarded as a 16-bit classic, but it's a gam…",
+      "summary": "\"Management didn't really understand development or the creative process\". The Addams Family Values for the SNES and Sega Mega Drive isn't exactly regarded as a 16-bit classic, but it's a game I stil…",
       "publishedAt": "2026-10-25T17:00:00.000Z"
     }
   },

@@ -831,5 +831,80 @@
     "addedAt": "2026-10-24T16:20:00.000Z",
     "clicks": 1,
     "webringId": "br-71a5a923d93be144b47d6bb5e9d39fdf"
+  },
+  {
+    "id": "random-song-generator",
+    "name": "Random Song Generator",
+    "url": "https://randomsonggenerator.app/",
+    "description": "A browser-based music discovery tool that randomly selects songs from a live catalogue, offers previews and filters, and includes related album, karaoke and songwriting generators.",
+    "category": "Independent Tools",
+    "subcategory": "Image & Media Tools",
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-61069d7e211fd14bdb1479935e44d8fe"
+  },
+  {
+    "id": "horsey-game-wiki",
+    "name": "Horsey Game Wiki",
+    "url": "https://horseygame.net/",
+    "description": "An independent Horsey Game companion with original, sourced guides, a DNA database, splice recipes, player genomes and a curated record of community discoveries.",
+    "category": "Fansites",
+    "subcategory": "Gaming Fansites",
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-7e10f4f15dfcbf52c1e976175a97a609"
+  },
+  {
+    "id": "the-holland-press",
+    "name": "The Holland Press",
+    "url": "https://thehollandpress.com/",
+    "description": "Victor Holland’s independent publishing project presents an unfinished historical novel in text and audio, inviting readers to follow its episodes and contribute through a workshop.",
+    "category": "Creative Projects",
+    "subcategory": "Experimental Projects",
+    "country": "US",
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-0496b67b23c406a26f89d5f21860eb9f"
+  },
+  {
+    "id": "vtuber-zukan",
+    "name": "VTuber Zukan",
+    "url": "https://vtuberzukan.com/en/",
+    "description": "An independent VTuber reference database linking profiles to official channels, affiliations, creators, organizations, activity records, events and sourced verification notes.",
+    "category": "Web Directories",
+    "subcategory": "Independent Directories",
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-8b8b879789906d406788873934e5ded8"
+  },
+  {
+    "id": "uniqfox",
+    "name": "uniqfox",
+    "url": "https://uniqfox.me/",
+    "description": "A distinctive personal homepage combining a journal, photographs, artwork, creative writing, guestbook, chatbox and carefully crafted independent-web design.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "country": "US",
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T12:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-2d1c2d11c5ea4ce4a7481e19f1d7c2a9"
+  },
+  {
+    "id": "clean-the-superstore-roblox-wiki",
+    "name": "Clean The Superstore Roblox Wiki",
+    "url": "https://cleanthesuperstore.online/",
+    "description": "An independent Roblox fan wiki for Clean The Superstore, with source-checked guides, badge and Game Pass references, a cleaning planner, strategy tools and dated game updates.",
+    "category": "Fansites",
+    "subcategory": "Gaming Fansites",
+    "country": "GB-SCT",
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T12:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-7c0a7e48f1e445c3b5d1f4c8a9e2b607"
   }
 ]

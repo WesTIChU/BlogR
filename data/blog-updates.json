@@ -8165,5 +8165,17 @@
     "lastChecked": "2026-10-24T16:44:29.855Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://www.neatorama.com/": {
+    "lastPublished": "2026-10-25",
+    "lastChecked": "2026-10-25T00:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://www.neatorama.com/feed/",
+    "latestArticle": {
+      "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
+      "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
+      "summary": "Miss Cellania examines the lesser-known photographs from the session that produced Dorothea Lange's Migrant Mother image.",
+      "publishedAt": "2026-10-25T11:01:25.000Z"
+    }
   }
 }

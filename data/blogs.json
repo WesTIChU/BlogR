@@ -5077,7 +5077,7 @@
     "noLongerUpdated": false,
     "addedDate": "2026-10-09",
     "addedAt": "2026-10-09T17:01:58.886Z",
-    "country": null,
+    "country": "US",
     "clicks": 4,
     "webringId": "br-74d615380029d8f2345e3fda07d3df2d"
   },
@@ -10874,5 +10874,52 @@
     "country": "US",
     "clicks": 0,
     "webringId": "br-1c9d82b5a5d35806d2e5abdd05f2abb1"
+  },
+  {
+    "name": "Clothes In Books",
+    "url": "https://clothesinbooks.blogspot.com/",
+    "description": "Moira Redmond’s long-running blog examines clothes, appearance and fashion in literature, with a particular fondness for crime fiction, classic novels and children’s books.",
+    "category": "books-and-writing",
+    "subcategory": "Literature & Book Reviews",
+    "country": "GB-ENG",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T12:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-f95c08b9ca90055f8bdab65084bcd0e7"
+  },
+  {
+    "name": "Between Sound and Space: ECM Records and Beyond",
+    "url": "https://ecmreviews.com/",
+    "description": "Tyran Grillo’s deeply personal archive reviews ECM and ECM New Series albums, alongside thoughtful writing on jazz, classical, books and contemporary music.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Music",
+    "country": "US",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T12:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-0264a1567c6bc561e552150d0eb6d102"
+  },
+  {
+    "name": "Neatorama",
+    "url": "https://www.neatorama.com/",
+    "description": "A long-running blog about science, history, technology, culture and the wonderfully strange, combining original commentary from named authors with daily discoveries from across the web.",
+    "category": "arts-and-entertainment",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-25",
+    "addedAt": "2026-10-25T00:00:00.000Z",
+    "country": null,
+    "clicks": 0,
+    "webringId": "br-9e1847df76d39429deb813aec4d6077e"
   }
 ]

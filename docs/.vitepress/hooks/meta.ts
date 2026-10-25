@@ -34,6 +34,53 @@ export function generateMeta(context: TransformContext, hostname: string) {
     ['meta', { name: 'twitter:title', content: pageData.frontmatter.title }]
   )
 
+  const relativePath = pageData.relativePath.replace(/\\/g, '/')
+  const isHomepage = relativePath === 'index.md'
+  const isCategory =
+    relativePath === 'personal-writing.md' ||
+    relativePath.startsWith('collections/')
+  const isCountry = relativePath.startsWith('country/')
+
+  if (isHomepage) {
+    head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'BlogR Directory',
+        url: `${hostname}/`,
+        description: pageData.frontmatter.description,
+        inLanguage: 'en-US'
+      })
+    ])
+  }
+
+  if (isCategory || isCountry) {
+    head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: `${hostname}/`
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: pageData.frontmatter.title,
+            item: url
+          }
+        ]
+      })
+    ])
+  }
+
   if (pageData.frontmatter.description) {
     head.push(
       [

@@ -1,6 +1,6 @@
 ---
 title: Religion & Spirituality
-description: Blogs about religion, spirituality, faith, theology, and religious traditions.
+description: Personal writing on faith, theology, Scripture, religious history, and spiritual practice.
 ---
 
 <script setup>
@@ -8,7 +8,7 @@ description: Blogs about religion, spirituality, faith, theology, and religious 
 
 # ► Religion & Spirituality
 
-Blogs about religion, spirituality, faith, theology, and religious traditions.
+Personal writing on faith, theology, Scripture, religious history, and spiritual practice.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 

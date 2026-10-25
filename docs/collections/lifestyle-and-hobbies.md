@@ -1,6 +1,6 @@
 ---
 title: Lifestyle & Hobbies
-description: Personal interests, hobbies, practical projects, and ways of living.
+description: Personal blogs about hobbies, making things, collecting, games, food, and everyday projects.
 ---
 
 <script setup>
@@ -8,7 +8,7 @@ description: Personal interests, hobbies, practical projects, and ways of living
 
 # ► Lifestyle & Hobbies
 
-Personal interests, hobbies, practical projects, and ways of living.
+Personal blogs about hobbies, making things, collecting, games, food, and everyday projects.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 

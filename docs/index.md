@@ -1,5 +1,6 @@
 ---
 title: BlogR Directory
+titleTemplate: false
 layout: home
 description:
   A directory for discovering independent blogs and personal websites.

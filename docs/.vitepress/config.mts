@@ -40,7 +40,9 @@ export default defineConfig({
   srcExclude: ['README.md', 'public/single-page.md', 'single-page'],
   ignoreDeadLinks: true,
   sitemap: {
-    hostname: meta.hostname
+    hostname: meta.hostname,
+    transformItems: (items) =>
+      items.filter(({ url }) => url !== 'submit-a-blog')
   },
   head: [
     ['meta', { name: 'theme-color', content: '#7bc5e4' }],

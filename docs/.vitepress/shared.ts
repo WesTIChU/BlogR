@@ -153,11 +153,16 @@ const sortedCategoryItems = discoverItems
   .slice(3)
   .sort((a, b) => navLabel(a).localeCompare(navLabel(b)))
 
-const independentWebItems: DefaultTheme.NavItemWithLink[] =
-  independentWebTaxonomy.map(({ slug, title, icon }) => ({
+const independentWebItems: DefaultTheme.NavItemWithLink[] = [
+  {
+    text: '🏠 Independent Web',
+    link: '/independent-web/'
+  },
+  ...independentWebTaxonomy.map(({ slug, title, icon }) => ({
     text: `${icon} ${title}`,
     link: `/independent-web/${slug}`
   }))
+]
 
 const communityItems: DefaultTheme.NavItemWithLink[] = [
   {

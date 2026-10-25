@@ -8,6 +8,7 @@ const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
 // Country groups are included in the public page and sitemap counts.
 const expectedPublicPageCount = 69
+const expectedSitemapPageCount = 68
 
 const htmlFiles = async () => {
   const files = []
@@ -69,13 +70,43 @@ test('sitemap and robots use the production sitemap URL', async () => {
     (match) => match[1]
   )
 
-  assert.equal(locs.length, expectedPublicPageCount)
+  assert.equal(locs.length, expectedSitemapPageCount)
   assert.equal(
     locs.every((url) => url.startsWith(ORIGIN)),
     true
   )
   assert.equal(sitemap.includes('localhost:5173'), false)
   assert.match(robots, /^Sitemap: https:\/\/blogr\.directory\/sitemap\.xml$/m)
+  assert.equal(sitemap.includes('/submit-a-blog'), false)
+})
+
+test('legacy submission redirects remain direct and out of the sitemap', async () => {
+  const redirects = await readFile(join(DIST, '_redirects'), 'utf8')
+  assert.match(redirects, /^\/submit-a-blog \/submit\/ 301$/m)
+  assert.match(redirects, /^\/submit-a-blog\/ \/submit\/ 301$/m)
+})
+
+test('homepage metadata and navigation expose the intended SEO entry points', async () => {
+  const homepage = await readFile(join(DIST, 'index.html'), 'utf8')
+  assert.match(homepage, /<title>BlogR Directory<\/title>/)
+  assert.doesNotMatch(
+    homepage,
+    /<title>BlogR Directory • BlogR Directory<\/title>/
+  )
+  assert.match(homepage, /href="\/independent-web\/"/)
+  assert.match(homepage, /application\/ld\+json/)
+  assert.match(homepage, /"@type":"WebSite"/)
+})
+
+test('category and country pages include breadcrumb structured data', async () => {
+  for (const path of [
+    'collections/technology.html',
+    'country/united-states.html'
+  ]) {
+    const html = await readFile(join(DIST, path), 'utf8')
+    assert.match(html, /application\/ld\+json/, path)
+    assert.match(html, /"@type":"BreadcrumbList"/, path)
+  }
 })
 
 test('RSS uses the production origin', async () => {

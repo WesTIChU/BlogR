@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1439,7 +1439,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1820,13 +1820,12 @@
   },
   "https://flintlockandtomahawk.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://flintlockandtomahawk.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "White Plains 250th event details.",
-      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/white-plains-250th-event-details.html",
-      "summary": "REV FEST 250",
-      "publishedAt": "2026-10-21T14:49:31.818Z"
+      "title": "Germans at White Plains 250th",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/blog-post.html",
+      "publishedAt": "2026-10-25T11:30:28.132Z"
     }
   },
   "https://flixchatter.net/": {
@@ -1918,7 +1917,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2087,10 +2086,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "An Analog TV Station For Anyone",
-      "url": "https://hackaday.com/2026/10/25/an-analog-tv-station-for-anyone/",
-      "summary": "If you’re a collector of older TVs, you’re probably facing the problem in some form of having no transmissions to tune in to. With many sets you can use a …read more",
-      "publishedAt": "2026-10-25T08:00:24.000Z"
+      "title": "Meshtastic Pet Tracking",
+      "url": "https://hackaday.com/2026/10/25/meshtastic-pet-tracking/",
+      "summary": "Most commercial pet trackers require a subscription or network connection to function. [Jon G Aguado] wanted a better way and designed LIA, a Meshtastic collar tracker. LIA uses a custom …read more",
+      "publishedAt": "2026-10-25T11:00:07.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2241,13 +2240,13 @@
   },
   "https://humbledollar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "The Trouble With Being Different",
-      "url": "https://humbledollar.com/forum/the-trouble-with-being-different/",
-      "summary": "I used AI as an editorial assistant to help organize and refine my thoughts; the underlying ideas and personal experiences remain my own. During the stock market boom of the late 1990s, an acquaintan…",
-      "publishedAt": "2026-10-24T22:18:56.000Z"
+      "title": "Social Security “Haircuts”",
+      "url": "https://humbledollar.com/forum/social-security-haircuts/",
+      "summary": "A little backstory, we have set a 30 years TIPS ladder a few years ago because we were concern with inflation and a surviving spouse in later years of our retirement. We later trim it back to 25 year…",
+      "publishedAt": "2026-10-25T11:14:13.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -2348,7 +2347,7 @@
     "status": "unavailable"
   },
   "https://islandinthenet.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-14",
     "feedUrl": "https://islandinthenet.com/feed/",
     "latestArticle": {
@@ -2460,7 +2459,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2562,13 +2561,13 @@
   },
   "https://joshreads.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://joshreads.com/feed/",
     "latestArticle": {
-      "title": "One-panel Saturday",
-      "url": "https://joshreads.com/2026/10/one-panel-saturday-6/",
+      "title": "Your boring-ass house is not where in the world",
+      "url": "https://joshreads.com/2026/10/your-boring-ass-house-is-not-where-in-the-world/",
       "summary": "Comics Curmudgeon readers! Do you love this blog and yearn for a novel written by its creator? Well, good news: Josh Fruhlinger's The Enthusiast is that novel! It's even about newspaper comic strips,…",
-      "publishedAt": "2026-10-24T11:25:35.000Z"
+      "publishedAt": "2026-10-25T11:27:29.000Z"
     }
   },
   "https://joshuamorris.info/": {
@@ -2961,10 +2960,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Musical review: Most Peculiar Dreams at Irish Cultural Centre",
-      "url": "https://loureviews.blog/2026/10/25/musical-review-most-peculiar-dreams-at-irish-cultural-centre/",
-      "summary": "Fergus Foran’s musical Most Peculiar Dreams debuted outside Ireland at the Irish Cultural Centre, depicting Shawn Donnelly Jr.'s pursuit of fame in Manhattan. With a focus on exploitation in show bus…",
-      "publishedAt": "2026-10-25T09:30:00.000Z"
+      "title": "Play review: Blood of my Blood at Royal Court Upstairs",
+      "url": "https://loureviews.blog/2026/10/25/play-review-blood-of-my-blood-at-royal-court-upstairs/",
+      "summary": "Joy Nesbitt's play, Blood of my Blood, unfolds on a former plantation during the Civil War and today. It follows Tallulah, a young pregnant woman exploring her ancestral connections, while Ginnie, an…",
+      "publishedAt": "2026-10-25T09:39:45.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3086,10 +3085,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Facts about breastfeeding",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/facts-about-breastfeeding.html?utm_source=rss&utm_medium=rss&utm_campaign=facts-about-breastfeeding",
-      "summary": "We produce a numerical estimate of the value of unpaid breastfeeding relative to national income spanning five centuries and integrating historical and bioarchaeological data. The relative economic c…",
-      "publishedAt": "2026-10-25T06:57:04.000Z"
+      "title": "The Panic Patrol",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/the-panic-patrol.html?utm_source=rss&utm_medium=rss&utm_campaign=the-panic-patrol",
+      "summary": "The Panic Patrol, a division of the department of future corrections, reminds us of past panics. Here’s one case in point I wasn’t aware of: The post The Panic Patrol appeared first on Marginal REVOL…",
+      "publishedAt": "2026-10-25T11:15:45.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -3506,12 +3505,12 @@
   },
   "https://nuchronic.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://nuchronic.uk/feed.xml",
     "latestArticle": {
-      "url": "https://nuchronic.uk/item/can-you-get-stronger-instantly-and-would-it-fix-your-pain-if-you-could-4m-d3dccc07db/",
-      "summary": "Title: Can you get stronger instantly? (And would it fix your pain if you could?) [4m] Author: PainSci Updates Link: https://www.painscience.com/blog/instant-strength.html Published: 2026-10-24 *** /…",
-      "publishedAt": "2026-10-24T07:00:00.000Z"
+      "url": "https://nuchronic.uk/item/my-ffxiv-character-ab6847cd7f/",
+      "summary": "Title: my ffxiv character Author: avas (hidden) Link: https://blog.avas.space/ffxiv/ Published: 2026-10-25 *** // Published 2026-10-25 on nuchronic.uk - The webring for the chronically ill Thanks for…",
+      "publishedAt": "2026-10-25T10:34:00.000Z"
     }
   },
   "https://nyanpasu64.gitlab.io/": {
@@ -4875,13 +4874,13 @@
   },
   "https://thecelticstar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://thecelticstar.com/feed/",
     "latestArticle": {
-      "title": "Storm Boelo Puts Celtic’s Easter Road Trip Under Weather Watch",
-      "url": "https://thecelticstar.com/storm-boelo-puts-celtics-easter-road-trip-under-weather-watch/",
-      "summary": "An amber wind warning for Storm Boelo covers the whole of Sunday’s Hibs v Celtic window, with gusts of up to 80mph forecast in exposed spots. Celtic’s trip to Easter Road could be played in some of t…",
-      "publishedAt": "2026-10-24T09:33:15.000Z"
+      "title": "Five Games Left as Celtic Chase a Way Out of Europa League Trouble",
+      "url": "https://thecelticstar.com/five-games-left-as-celtic-chase-a-way-out-of-europa-league-trouble/",
+      "summary": "Three defeats from three have left Celtic 35th of 36 in the Europa League table, but Martin O’Neill insists the door is still open. Celtic’s Europa League campaign has reached the stage where every r…",
+      "publishedAt": "2026-10-25T10:21:00.000Z"
     }
   },
   "https://thechels.uk/": {
@@ -5203,13 +5202,13 @@
   },
   "https://theunconventionalgardener.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://theunconventionalgardener.com/feed/",
     "latestArticle": {
-      "title": "Art Can’t Die",
-      "url": "https://theunconventionalgardener.com/blog/art-cant-die/",
-      "summary": "A note from a future version of myself.",
-      "publishedAt": "2026-10-14T10:47:37.000Z"
+      "title": "Stuck in a Loop",
+      "url": "https://theunconventionalgardener.com/blog/stuck-in-a-loop/",
+      "summary": "My brain is stuck in a loop, trying to find the right kind of people, but not knowing where to find them.",
+      "publishedAt": "2026-10-25T10:54:37.000Z"
     }
   },
   "https://thewonderfulworldofcinema.wordpress.com/": {
@@ -5257,7 +5256,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5360,7 +5359,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5464,9 +5463,9 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173356/crystal-palace-fcw-vs-chelsea-fcw-womens-super-league-preview-team-news-how-to-watch",
-      "summary": "Another weekend, another London derby for Chelsea Women. This time we’re heading to Sutton to face newly-promoted Crystal Palace, hoping to extend our five-match winning streak in the Women’s Super L…",
-      "publishedAt": "2026-10-25T07:51:56.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173401/crystal-palace-fcw-vs-chelsea-fcw-womens-super-league-confirmed-lineups-how-to-watch",
+      "summary": "Unlike the men’s team yesterday, Chelsea Women handily beaten Tottenham at Stamford Bridge last weekend. This time they take a trip to Sutton to face Crystal Palace, a team whose last Women’s Super L…",
+      "publishedAt": "2026-10-25T11:04:54.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -5742,10 +5741,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Every new LEGO set launching in November 2026: prices, pieces, and more",
-      "url": "https://www.brickfanatics.com/every-new-lego-set-launching-november-2026",
-      "summary": "November's line-up is small but mighty",
-      "publishedAt": "2026-10-25T09:58:46.000Z"
+      "title": "New Avengers: Doomsday footage makes one LEGO omission sting",
+      "url": "https://www.brickfanatics.com/new-avengers-doomsday-footage-lego-omission",
+      "summary": "One superhero power is still missing",
+      "publishedAt": "2026-10-25T10:52:22.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5822,10 +5821,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "HIBS v CELTIC: 5-MINUTE QUIZ",
-      "url": "https://www.celticquicknews.co.uk/hibs-v-celtic-5-minute-quiz-9/",
-      "summary": "IT’S top v bottom as Celtic prepare to face Hibs in the High Noon shoot-out at Easter Road this afternoon. The Edinburgh side have struggled for form since the start of the campaign and sacked manage…",
-      "publishedAt": "2026-10-25T10:03:38.000Z"
+      "title": "Hibernian v Celtic, Live updates",
+      "url": "https://www.celticquicknews.co.uk/hibernian-v-celtic-live-updates-26/",
+      "summary": "Live updates will appear below after 12:00.",
+      "publishedAt": "2026-10-25T10:56:52.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -5966,13 +5965,13 @@
   },
   "https://www.everydaycommentary.com/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.everydaycommentary.com/www.everydaycommentary.com?format=rss",
     "latestArticle": {
-      "title": "Carbon Fiber Myths",
-      "url": "https://www.everydaycommentary.com/www.everydaycommentary.com/2026/7/24/carbon-fiber-myths",
-      "summary": "As with many things, I have slowly learned that Bob Loveless is, when it comes to knives, generally right about everything. This is another piece of evidence to support that contention. Here it has t…",
-      "publishedAt": "2026-10-20T15:41:30.000Z"
+      "title": "Urban EDC Supply Jib Review",
+      "url": "https://www.everydaycommentary.com/www.everydaycommentary.com/2026/10/8/urban-edc-supply-jib",
+      "summary": "Note : This review, as with all content I write on this site, is my opinion. It does not reflect the opinion of others, including the American Knife and Tool Institute (AKTI), the cutlery trade group…",
+      "publishedAt": "2026-10-25T11:15:37.000Z"
     }
   },
   "https://www.feelgoodinfinity.com/": {
@@ -6178,13 +6177,13 @@
   },
   "https://www.ibroxnoise.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Nico Raskin Rangers assessment as Belgian faces spotlight",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/raskin-performance-st-johnstone/",
-      "summary": "With Nico Raskin’s press conference only yesterday, Rangers’ Belgian midfielder found himself under more focus than normal in his performance v St Johnstone. How would Raskin and his performance show…",
-      "publishedAt": "2026-10-24T20:51:48.000Z"
+      "title": "Ben Godfrey explanation makes Vanja Rangers exile stranger",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/ben-godfrey-explanation/",
+      "summary": "There is always method in the madness when Rangers have a good manager, and Walter Smith himself was guilty of a few little verbal comments which didn’t quite add up on the pitch. Ben Godfrey explana…",
+      "publishedAt": "2026-10-25T11:14:02.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6337,7 +6336,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6627,7 +6626,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

@@ -1147,6 +1147,17 @@
   "https://classicgamezone.com/blogs": {
     "status": "unavailable"
   },
+  "https://clothesinbooks.blogspot.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-25",
+    "feedUrl": "https://clothesinbooks.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "The Alington Inheritance  Patricia Wentworth",
+      "url": "https://clothesinbooks.blogspot.com/2026/10/the-alington-inheritance-patricia.html",
+      "summary": "The Alington Inheritance by Patricia Wentworth published 1958 [ excerpt ] When she came into the drawing-room Mac was there. He was reading the paper, but he looked up, smiled his charming smile, and…",
+      "publishedAt": "2026-10-25T08:48:50.124Z"
+    }
+  },
   "https://coastalwalker.co.uk/": {
     "status": "success",
     "lastPublished": "2026-10-10",
@@ -1673,6 +1684,17 @@
       "title": "Hi! It’s been a while, let’s talk.",
       "summary": "Hello! I’ve not been well recently (vomiting, dizziness. E.c.t) which is one of the reasons I haven’t been posting. I do apologise for that and I am hoping to start using a new schedule and format wh…",
       "publishedAt": "2026-10-14T17:23:29.000Z"
+    }
+  },
+  "https://ecmreviews.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-25",
+    "feedUrl": "https://ecmreviews.com/feed/",
+    "latestArticle": {
+      "title": "Tania Giannouli/Nik Bärtsch Review for All About Jazz",
+      "url": "https://ecmreviews.com/2026/10/25/tania-giannouli-nik-bartsch-review-for-all-about-jazz/",
+      "summary": "My review of Metakosmos, the new duo album by Tania Giannouli and Nik Bärtsch, is now available at All About Jazz. Across eight pieces, the Greek and Swiss pianists bring melodic luminosity and rhyth…",
+      "publishedAt": "2026-10-25T09:47:19.000Z"
     }
   },
   "https://econbrowser.com/": {
@@ -6394,6 +6416,17 @@
       "url": "https://www.mrsmummypenny.co.uk/why-silver-toned-accessories-are-back-in-everyday-fashion/",
       "summary": "Jewellery trends often shift with broader changes in how people dress, and the renewed interest in silver-toned pieces reflects a clear move toward simplicity and versatility. In today’s wardrobes, w…",
       "publishedAt": "2026-10-23T10:13:49.000Z"
+    }
+  },
+  "https://www.neatorama.com/": {
+    "status": "unknown",
+    "lastPublished": "2026-10-25",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "latestArticle": {
+      "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
+      "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
+      "summary": "Miss Cellania examines the lesser-known photographs from the session that produced Dorothea Lange's Migrant Mother image.",
+      "publishedAt": "2026-10-25T11:01:25.000Z"
     }
   },
   "https://www.neverendingfootsteps.com/": {

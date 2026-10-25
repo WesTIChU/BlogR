@@ -8168,14 +8168,38 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T00:00:00.000Z",
-    "status": "success",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "lastChecked": "2026-10-25T12:09:53.055Z",
+    "status": "unknown",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
       "summary": "Miss Cellania examines the lesser-known photographs from the session that produced Dorothea Lange's Migrant Mother image.",
       "publishedAt": "2026-10-25T11:01:25.000Z"
+    }
+  },
+  "https://clothesinbooks.blogspot.com/": {
+    "lastPublished": "2026-10-25",
+    "lastChecked": "2026-10-25T12:09:53.055Z",
+    "status": "success",
+    "feedUrl": "https://clothesinbooks.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "The Alington Inheritance  Patricia Wentworth",
+      "url": "https://clothesinbooks.blogspot.com/2026/10/the-alington-inheritance-patricia.html",
+      "summary": "The Alington Inheritance by Patricia Wentworth published 1958 [ excerpt ] When she came into the drawing-room Mac was there. He was reading the paper, but he looked up, smiled his charming smile, and…",
+      "publishedAt": "2026-10-25T08:48:50.124Z"
+    }
+  },
+  "https://ecmreviews.com/": {
+    "lastPublished": "2026-10-25",
+    "lastChecked": "2026-10-25T12:09:53.055Z",
+    "status": "success",
+    "feedUrl": "https://ecmreviews.com/feed/",
+    "latestArticle": {
+      "title": "Tania Giannouli/Nik Bärtsch Review for All About Jazz",
+      "url": "https://ecmreviews.com/2026/10/25/tania-giannouli-nik-bartsch-review-for-all-about-jazz/",
+      "summary": "My review of Metakosmos, the new duo album by Tania Giannouli and Nik Bärtsch, is now available at All About Jazz. Across eight pieces, the Greek and Swiss pianists bring melodic luminosity and rhyth…",
+      "publishedAt": "2026-10-25T09:47:19.000Z"
     }
   }
 }

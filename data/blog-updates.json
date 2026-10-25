@@ -8168,9 +8168,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T12:09:53.055Z",
-    "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "lastChecked": "2026-10-25T00:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -8200,6 +8200,42 @@
       "url": "https://ecmreviews.com/2026/10/25/tania-giannouli-nik-bartsch-review-for-all-about-jazz/",
       "summary": "My review of Metakosmos, the new duo album by Tania Giannouli and Nik Bärtsch, is now available at All About Jazz. Across eight pieces, the Greek and Swiss pianists bring melodic luminosity and rhyth…",
       "publishedAt": "2026-10-25T09:47:19.000Z"
+    }
+  },
+  "https://carswetalk.wordpress.com/": {
+    "lastPublished": "2026-10-03",
+    "lastChecked": "2026-10-25T12:30:00.000Z",
+    "status": "success",
+    "feedUrl": "https://carswetalk.wordpress.com/feed/",
+    "latestArticle": {
+      "title": "Suria KLCC Car Park Joins Touch ’n Go Group’s LPR Parking Network, Bringing Automatic Payments to Visitors",
+      "url": "https://carswetalk.wordpress.com/2026/10/03/suria-klcc-car-park-joins-touch-n-go-groups-lpr-parking-network-bringing-automatic-payments-to-visitors/",
+      "summary": "Cars We Talk reports on an automatic payment and licence-plate recognition parking network at Suria KLCC.",
+      "publishedAt": "2026-10-03T08:10:42.000Z"
+    }
+  },
+  "https://stamphacks.com/": {
+    "lastPublished": "2026-07-26",
+    "lastChecked": "2026-10-25T12:30:00.000Z",
+    "status": "success",
+    "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
+    "latestArticle": {
+      "title": "Ukrposhta, You Don’t Make My Life Easy",
+      "url": "https://stamphacks.com/wp/?p=1956",
+      "summary": "A Stamp Hacks post about working with Ukrposhta while developing stamp-album resources.",
+      "publishedAt": "2026-07-26T14:31:27.000Z"
+    }
+  },
+  "https://pennyblackinc.wordpress.com/": {
+    "lastPublished": "2026-09-17",
+    "lastChecked": "2026-10-25T12:30:00.000Z",
+    "status": "success",
+    "feedUrl": "https://pennyblackinc.wordpress.com/feed/",
+    "latestArticle": {
+      "title": "Must See NEW Release – Autumn Wonder– Shop Today!",
+      "url": "https://pennyblackinc.wordpress.com/2026/09/17/must-see-new-release-autumn-wonder-shop-today/",
+      "summary": "Penny Black announces its Autumn Wonder release and points readers to the online store.",
+      "publishedAt": "2026-09-17T07:03:39.000Z"
     }
   }
 }

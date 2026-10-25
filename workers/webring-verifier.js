@@ -1,5 +1,6 @@
 /* global console */
 
+import puppeteer from '@cloudflare/puppeteer'
 import {
   verificationStateAfterCheck,
   verifyWebringInstallation
@@ -34,6 +35,22 @@ export const D1_OPERATIONS_PER_RUN = 3
 export const D1_OPERATIONS_PER_MEMBER = 2
 export const MAX_HTTP_FETCHES_PER_RUN =
   MAX_MEMBERS_PER_RUN * MAX_PAGE_CHECKS_PER_MEMBER
+export const MAX_BROWSER_FALLBACKS_PER_RUN = 1
+export const BROWSER_VERIFY_TIMEOUT_MS = 8_000
+export const BROWSER_VERIFY_WAIT_MS = 1_000
+
+export const createBrowserFallbackLauncher = (
+  env,
+  launch = puppeteer.launch
+) => {
+  if (env.WEBRING_BROWSER_VERIFY_ENABLED !== 'true' || !env.BROWSER) return null
+  let fallbacks = 0
+  return async () => {
+    if (fallbacks >= MAX_BROWSER_FALLBACKS_PER_RUN) return null
+    fallbacks += 1
+    return launch(env.BROWSER)
+  }
+}
 export const MAX_D1_OPERATIONS_PER_RUN =
   D1_OPERATIONS_PER_RUN + MAX_MEMBERS_PER_RUN * D1_OPERATIONS_PER_MEMBER
 
@@ -232,11 +249,14 @@ export const priorityCategory = (member, now = Date.now()) => {
   return 'regular'
 }
 
-const verifyOne = async (db, member, env) => {
+const verifyOne = async (db, member, env, browserLaunch = null) => {
   const startedAt = Date.now()
   try {
     const result = await verifyWebringInstallation(member, {
-      blogrBaseUrl: env.BLOGR_BASE_URL || 'https://blogr.directory'
+      blogrBaseUrl: env.BLOGR_BASE_URL || 'https://blogr.directory',
+      browserLaunch,
+      browserTimeoutMs: BROWSER_VERIFY_TIMEOUT_MS,
+      browserWaitMs: BROWSER_VERIFY_WAIT_MS
     })
     const now = new Date().toISOString()
     const state = verificationStateAfterCheck(member, result, now)
@@ -333,6 +353,7 @@ export default {
         if (await claimDueMember(env.OUTBOUND_CLICKS, member))
           claimed.push(member)
     }
+    const browserLaunch = createBrowserFallbackLauncher(env)
     console.log(
       JSON.stringify({
         event: 'webring_verification_run',
@@ -357,7 +378,7 @@ export default {
     ctx.waitUntil(
       runWithConcurrency(claimed, settings.concurrency, async (member) => {
         try {
-          await verifyOne(env.OUTBOUND_CLICKS, member, env)
+          await verifyOne(env.OUTBOUND_CLICKS, member, env, browserLaunch)
         } catch {
           // The lease expires and makes this member eligible for recovery.
         }

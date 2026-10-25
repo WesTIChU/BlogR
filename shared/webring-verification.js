@@ -1,4 +1,4 @@
-/* global AbortController, URL, clearTimeout, fetch, setTimeout, TextDecoder, TextEncoder */
+/* global AbortController, URL, clearTimeout, document, fetch, setTimeout, TextDecoder, TextEncoder */
 
 import {
   canonicalWebringUrl,
@@ -37,13 +37,27 @@ export const installationUrls = (registeredUrl) => {
 }
 
 export const validateInstallationHtml = (html, membershipId, blogrBaseUrl) => {
+  return validateInstallationLinks(
+    anchors(html),
+    membershipId,
+    blogrBaseUrl,
+    blogrBaseUrl
+  )
+}
+
+export const validateInstallationLinks = (
+  hrefs,
+  membershipId,
+  blogrBaseUrl,
+  hrefBaseUrl = blogrBaseUrl
+) => {
   const expected = new Set(
     Object.values(expectedWidgetLinks(membershipId, blogrBaseUrl))
   )
   const found = new Set(
-    anchors(html).map((href) => {
+    hrefs.map((href) => {
       try {
-        return new URL(href, blogrBaseUrl).toString()
+        return new URL(href, hrefBaseUrl).toString()
       } catch {
         return ''
       }
@@ -103,7 +117,10 @@ export const verifyWebringInstallation = async (
     fetchImpl = fetch,
     blogrBaseUrl = 'https://blogr.directory',
     timeoutMs = VERIFICATION_TIMEOUT_MS,
-    maxBytes = MAX_WIDGET_RESPONSE_BYTES
+    maxBytes = MAX_WIDGET_RESPONSE_BYTES,
+    browserLaunch = null,
+    browserTimeoutMs = VERIFICATION_TIMEOUT_MS,
+    browserWaitMs = 1_000
   } = {}
 ) => {
   const registered = canonicalWebringUrl(member.canonical_url)
@@ -179,6 +196,61 @@ export const verifyWebringInstallation = async (
       temporaryFailure = true
     } finally {
       clearTimeout(timer)
+    }
+  }
+
+  if (browserLaunch && !temporaryFailure) {
+    let browser
+    try {
+      browser = await browserLaunch()
+      if (!browser) return { status: 'missing' }
+      const page = await browser.newPage()
+      for (const candidate of candidates) {
+        if (
+          !sameApprovedHost(registered, candidate) ||
+          !isSafeApprovedHost(candidate)
+        )
+          continue
+        try {
+          const response = await page.goto(candidate.href, {
+            timeout: browserTimeoutMs,
+            waitUntil: 'domcontentloaded'
+          })
+          const finalUrl = new URL(page.url() || candidate.href)
+          if (
+            !sameApprovedHost(registered, finalUrl) ||
+            !isSafeApprovedHost(finalUrl)
+          )
+            continue
+          if (response && response.status() >= 300) continue
+          if (browserWaitMs > 0)
+            await new Promise((resolve) => setTimeout(resolve, browserWaitMs))
+          const hrefs = await page.evaluate(() =>
+            Array.from(document.querySelectorAll('a[href]')).map((anchor) =>
+              anchor.getAttribute('href')
+            )
+          )
+          if (
+            validateInstallationLinks(
+              hrefs.filter((href) => typeof href === 'string'),
+              member.webring_id,
+              blogrBaseUrl,
+              finalUrl.toString()
+            )
+          )
+            return { status: 'active', installationUrl: finalUrl.toString() }
+        } catch {
+          temporaryFailure = true
+        }
+      }
+    } catch {
+      return { status: 'temporary_failure' }
+    } finally {
+      try {
+        await browser?.close()
+      } catch {
+        // Browser cleanup must not mask the verification result.
+      }
     }
   }
   return { status: temporaryFailure ? 'temporary_failure' : 'missing' }

@@ -3,6 +3,7 @@ import test from 'node:test'
 import worker, {
   claimDueMember,
   compareDueMembers,
+  createBrowserFallbackLauncher,
   D1_OPERATIONS_PER_MEMBER,
   dueMembersQuery,
   MAX_D1_OPERATIONS_PER_RUN,
@@ -176,6 +177,33 @@ test('batch and concurrency settings are bounded by platform-safe defaults', () 
     }),
     { batchSize: 3, concurrency: 3 }
   )
+})
+
+test('browser fallback is disabled by default', async () => {
+  assert.equal(createBrowserFallbackLauncher({ BROWSER: {} }), null)
+  assert.equal(
+    createBrowserFallbackLauncher({
+      WEBRING_BROWSER_VERIFY_ENABLED: 'false',
+      BROWSER: {}
+    }),
+    null
+  )
+})
+
+test('browser fallback launcher permits only one session per run', async () => {
+  const bindings = []
+  const launch = async (binding) => {
+    bindings.push(binding)
+    return { close: async () => {} }
+  }
+  const launcher = createBrowserFallbackLauncher(
+    { WEBRING_BROWSER_VERIFY_ENABLED: 'true', BROWSER: 'binding' },
+    launch
+  )
+  assert.ok(launcher)
+  assert.ok(await launcher())
+  assert.equal(await launcher(), null)
+  assert.deepEqual(bindings, ['binding'])
 })
 
 test('bounded concurrency does not allow one slow member to block the batch', async () => {

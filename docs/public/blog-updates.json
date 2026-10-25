@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -431,13 +431,13 @@
   },
   "https://arseblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://arseblog.com/feed/",
     "latestArticle": {
-      "title": "Arsenal v Everton – live blog",
-      "url": "https://arseblog.com/2026/10/arsenal-v-everton-live-blog-16/",
-      "summary": "Join us for live blog coverage of our Premier League clash at home to Everton, kick-off 15.00. We’ve got up to the second live text commentary, updates, goal clips, observations and occasionally witt…",
-      "publishedAt": "2026-10-24T13:30:15.000Z"
+      "title": "Arsenal 2-0 Everton: Konsa and Gabriel get the goals",
+      "url": "https://arseblog.com/2026/10/arsenal-2-0-everton-konsa-and-gabriel-get-the-goals/",
+      "summary": "Match report – Player ratings – Arteta reaction – Video Arsenal made it 7 wins from 8 so far in the Premier League this season with a relatively comfortable 2-0 win over Everton at home yesterday. Mi…",
+      "publishedAt": "2026-10-25T08:36:26.000Z"
     }
   },
   "https://arun.is/blog/": {
@@ -1059,7 +1059,7 @@
     }
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1439,7 +1439,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1622,7 +1622,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1676,7 +1676,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -2010,12 +2010,12 @@
   },
   "https://greek-metal-area.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://greek-metal-area.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Hunger Remains - Weep For Mankind",
-      "summary": "Genre : Death Metal Year : 2025 1. Transition (Intro) / Weep for Mankind 05:09 2. Banished from Existence 04:08 -DOWNLOAD-",
-      "publishedAt": "2026-10-24T07:33:00.000Z"
+      "title": "Aurion - Forest Whisper",
+      "summary": "Genre : Black Metal Year : 2025 1. Forest Whisper 04:25 -DOWNLOAD-",
+      "publishedAt": "2026-10-25T08:41:00.000Z"
     }
   },
   "https://greenshadediary.blogspot.com/": {
@@ -2073,13 +2073,13 @@
   },
   "https://gunnerstown.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://feeds.feedburner.com/gunnerstown",
     "latestArticle": {
-      "title": "‘See Man Utd, then see Arsenal’ (Observations after an impressive Munich outing)",
-      "url": "https://gunnerstown.com/arsenal/2026/10/23/see-man-utd-then-see-arsenal-observations-after-an-impressive-munich-outing/?utm_source=rss&utm_medium=rss&utm_campaign=see-man-utd-then-see-arsenal-observations-after-an-impressive-munich-outing",
-      "summary": "‘See Man Utd, then see Arsenal’ Firstly, my apologies for not being able to blog the last couple of games. I was going to park my blog until after the Everton game, but there is something I cannot sh…",
-      "publishedAt": "2026-10-23T12:21:13.000Z"
+      "title": "‘Talkin’ bout an evolution’ (Positives Needs & Hopes) [ARS 2-0 EVE]",
+      "url": "https://gunnerstown.com/arsenal/2026/10/25/talkin-bout-an-evolution-positives-needs-hopes-ars-2-0-eve/?utm_source=rss&utm_medium=rss&utm_campaign=talkin-bout-an-evolution-positives-needs-hopes-ars-2-0-eve",
+      "summary": "‘Talkin’ bout an evolution’ An Arsenal blog from a coach’s perspective Tracy Chapman reminds me of the time that I moved to America. She was so good. Not sure where she is now. I’ll look her up. Anyw…",
+      "publishedAt": "2026-10-25T06:07:02.000Z"
     }
   },
   "https://hackaday.com/": {
@@ -2087,10 +2087,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Pushing Bluetooth out to 12 Kilometers",
-      "url": "https://hackaday.com/2026/10/24/pushing-bluetooth-out-to-12-kilometers/",
-      "summary": "Bluetooth is a short-range protocol that’s great for peripherals and finding your keys, but it’s limited range is mainly a product of how it’s usually implemented. A recent video from …read more",
-      "publishedAt": "2026-10-25T05:00:51.000Z"
+      "title": "An Analog TV Station For Anyone",
+      "url": "https://hackaday.com/2026/10/25/an-analog-tv-station-for-anyone/",
+      "summary": "If you’re a collector of older TVs, you’re probably facing the problem in some form of having no transmissions to tune in to. With many sets you can use a …read more",
+      "publishedAt": "2026-10-25T08:00:24.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2374,12 +2374,12 @@
   },
   "https://itstartswithabirthstone.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "200 Albums for 2026 It Starts With a Birthstone # 64 The Heavenly Bodes - Green Hills",
-      "summary": "It's July. But frankly it's hotter than July. I've just taught three online classes in a flat where it sometimes felt like I was teaching in an actual tin can and headed into Newcastle to make the mo…",
-      "publishedAt": "2026-10-24T20:47:00.000Z"
+      "title": "A Song(s) of the Day # 4,551 Shabazz Palaces",
+      "summary": "Hip Hop takes different pathways. I confess I sometimes find its narrowness slightly difficult but Shabazz Palaces stand apart from the herd and latest record It's a Style Sport is a pathway to the s…",
+      "publishedAt": "2026-10-25T08:19:28.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -2541,13 +2541,13 @@
   },
   "https://jorgesanz.net/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://jorgesanz.net/index.xml",
     "latestArticle": {
-      "title": "2026-10-24 07:25",
-      "url": "https://jorgesanz.net/photoblog/2026/6adc5d836cd03/",
-      "summary": "Mornings! Coffee is my religion #coffee",
-      "publishedAt": "2026-10-24T07:25:59.000Z"
+      "title": "2026-10-25 07:21",
+      "url": "https://jorgesanz.net/photoblog/2026/6addaddca5d25/",
+      "summary": "We did the time warp again #t-shirt #daylightsavings #cet",
+      "publishedAt": "2026-10-25T07:21:05.000Z"
     }
   },
   "https://joshcollinsworth.com/blog": {
@@ -3116,13 +3116,13 @@
   },
   "https://mastermixmovies.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://mastermixmovies.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Time Is on My Side",
-      "url": "https://mastermixmovies.wordpress.com/2026/10/24/time-is-on-my-side/",
-      "summary": "Fallen fell short of its potential. Despite the success of Primal Fear, director Gregory Hoblit followed it up with a box office bomb. Though Fallen gained a cult following thanks to the always commi…",
-      "publishedAt": "2026-10-24T08:00:00.000Z"
+      "title": "The Messenger is Here",
+      "url": "https://mastermixmovies.wordpress.com/2026/10/25/the-messenger-is-here/",
+      "summary": "Stigmata is a deeply troubling experience. As a Christian, I’m typically wary of religious horror movies depending on their stance. I’m not Catholic, but I was made aware of the movie through its man…",
+      "publishedAt": "2026-10-25T08:00:00.000Z"
     }
   },
   "https://matduggan.com/": {
@@ -3820,7 +3820,7 @@
   },
   "https://projectswordtoys.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "To Zoltar or Not to Zoltar",
@@ -3955,10 +3955,10 @@
     "lastPublished": "2026-10-25",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Baur puts Celtic midfield under scrutiny with honest admission",
-      "url": "https://readceltic.com/2026/10/25/baur-celtic-midfield-admission/",
-      "summary": "Mika Baur’s Celtic midfield admission deserves attention because he has put himself inside the argument about what must The post Baur puts Celtic midfield under scrutiny with honest admission appeare…",
-      "publishedAt": "2026-10-25T06:39:26.000Z"
+      "title": "Celtic board condemned by Keevins – loyalty is no excuse",
+      "url": "https://readceltic.com/2026/10/25/celtic-board-keevins-criticism/",
+      "summary": "Hugh Keevins has supplied another answer to those who dismiss Celtic board criticism as the noise of a The post Celtic board condemned by Keevins – loyalty is no excuse appeared first on Read Celtic .",
+      "publishedAt": "2026-10-25T07:54:15.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -4843,12 +4843,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36210/what-now",
-      "summary": "Where to start… We’ll start a bit personal. I left the house after the second goal. The disaster that was Manchester United at Como was interrupted, thankfully, by life. A meeting with the boss at th…",
-      "publishedAt": "2026-10-21T23:50:32.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36228/on-invoking-history",
+      "summary": "Bruno Fernandes’ post-match interview after the humiliating loss to Como took aim at many things, including the tendency to analyse the club’s present in relation to its past. Fernandes wasn’t disres…",
+      "publishedAt": "2026-10-24T20:00:00.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5928,7 +5928,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -5997,7 +5997,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -6133,7 +6133,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -6354,7 +6354,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -6457,7 +6457,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -6613,7 +6613,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -6844,7 +6844,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -6858,7 +6858,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -6869,7 +6869,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -6880,7 +6880,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -6903,13 +6903,13 @@
   },
   "https://www.thehistoryblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.thehistoryblog.com/feed",
     "latestArticle": {
-      "title": "Long-lost Marie Antoinette breast bowl found",
-      "url": "https://www.thehistoryblog.com/archives/77208",
-      "summary": "The last of the four jatte téton, the breast-shaped bowls made by Sèvres for Queen Marie Antoinette’s pleasure dairy at the Château de Rambouillet, has been rediscovered more than 200 years after its…",
-      "publishedAt": "2026-10-24T07:35:15.000Z"
+      "title": "1,500-year-old female shaman figure found in Japan",
+      "url": "https://www.thehistoryblog.com/archives/77215",
+      "summary": "An excavation of a late 5th century burial mound in central Japan has uncovered a clay figurine representing a female shaman (miko). The figurative clay sculpture, a haniwa, is well-preserved, with i…",
+      "publishedAt": "2026-10-25T08:03:34.000Z"
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
@@ -7023,7 +7023,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -7045,7 +7045,7 @@
     }
   },
   "https://www.timeextension.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
@@ -7102,7 +7102,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
@@ -7164,12 +7164,12 @@
   },
   "https://www.weirduniverse.net/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://www.weirduniverse.net/blog/rss_2.0/",
     "latestArticle": {
-      "title": "Miss Corn Bread",
-      "summary": "Fort Worth Star-Telegram - Nov 27, 1958 Grand Rapids Press - Oct 27, 1958",
-      "publishedAt": "2026-10-24T08:18:00.000Z"
+      "title": "Scammer who sold songs to compensate his victims",
+      "summary": "After getting busted for real-estate fraud, Raymond E. Reynolds announced that he would try to repay his victims by songwriting. I can't find evidence that he ever managed to sell a song. The sheet m…",
+      "publishedAt": "2026-10-25T08:05:00.000Z"
     }
   },
   "https://www.worldofreel.com/": {

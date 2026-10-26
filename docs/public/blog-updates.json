@@ -60,7 +60,7 @@
     "feedUrl": "http://www.galactichunter.com/GH/rss.xml",
     "latestArticle": {
       "title": "Star Wars Figure of the Day: Day 3,391: Clone Commander Cody (Utapau, The Vintage Collection)",
-      "url": "http://www.galactichunter.com/GH/story/star-wars-figure-day-day-3391-clone-commander-cody-utapau-vintage-collection",
+      "url": "http://www.galactichunter.com/gh/story/star-wars-figure-day-day-3391-clone-commander-cody-utapau-vintage-collection",
       "summary": "Via the Star Wars Galactic Hunter Figure of the Day Blog: Clone Commander Cody (Utapau, The Vintage Collection) . You got a new one over a decade ago, and this one is skinner, has more joints, and is…",
       "publishedAt": "2026-10-22T16:13:35.000Z"
     }
@@ -134,7 +134,7 @@
     }
   },
   "https://5000milewalk.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-14",
     "feedUrl": "https://5000milewalk.co.uk/feed",
     "latestArticle": {
@@ -843,7 +843,7 @@
     "feedUrl": "https://blogroll.org/assets/favicon/favicon.svg"
   },
   "https://blogs.ucl.ac.uk/constitution-unit/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://blogs.ucl.ac.uk/constitution-unit/feed/",
     "latestArticle": {
@@ -2065,13 +2065,13 @@
   },
   "https://greg.org/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://greg.org/feed",
     "latestArticle": {
-      "title": "John H. Howe > FLW FTW",
-      "url": "https://greg.org/archive/2026/10/25/john-h-howe-flw-ftw.html",
-      "summary": "My first reaction to the 25 pieces of instantly recognizable Frank Lloyd Wright furniture being sold in Chicago without a single mention of FLW was trademark outrage. The “Private Midwest Commission”…",
-      "publishedAt": "2026-10-25T13:33:48.000Z"
+      "title": "FOUND: David Hammons ATL Sculptures",
+      "url": "https://greg.org/archive/2026/10/25/found-david-hammons-atl-sculptures.html",
+      "summary": "David Hammons was among the fourteen artists commissioned to make permanent works for the new Atlanta Airport in 1979-80. For more than ten years, I’d tried to find out what Hammons’ work was like, a…",
+      "publishedAt": "2026-10-26T01:53:25.000Z"
     }
   },
   "https://gregalder.com/yardposts/": {
@@ -2119,13 +2119,13 @@
   },
   "https://hackaday.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Hackaday Links: October 25, 2026",
-      "url": "https://hackaday.com/2026/10/25/hackaday-links-october-25-2026/",
-      "summary": "Some disappointing, but perhaps not entirely unsurprising news this week out of Denmark — after announcing last year that they would transition away from Microsoft’s proprietary software, the realiti…",
-      "publishedAt": "2026-10-25T23:00:48.000Z"
+      "title": "Transforming a Tungsten Ditelluride Monolayer into a Transistor",
+      "url": "https://hackaday.com/2026/10/25/transforming-a-tungsten-ditelluride-monolayer-into-a-transistor/",
+      "summary": "In the world of silicon semiconductors, the process of creating transistors and similar structures involves various rounds of modifications and additions in order to create the requisite functional l…",
+      "publishedAt": "2026-10-26T02:00:52.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2989,9 +2989,9 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/paris-unveils-eur200-million-cycling-plan-cities-today/",
-      "summary": "Paris has announced a €200 million cycling plan to deliver 140 kilometres of additional cycle paths and improve safety at 420 junctions by 2032. The programme will also introduce a specialist municip…",
-      "publishedAt": "2026-10-26T01:19:21.000Z"
+      "url": "https://londonreconnections.com/mondays-friday-reads-26-october-2026/",
+      "summary": "Some new Piccadilly line train carriages have no wheels: Video | ForSomeReason TfL earns £1.1m from Turkish Airlines’ Elizabeth line adverts | Ian Visits Alexander Dennis/Volvo unveil new tram-style …",
+      "publishedAt": "2026-10-26T02:17:45.000Z"
     }
   },
   "https://loureviews.blog/": {
@@ -4841,7 +4841,7 @@
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
+    "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -5466,13 +5466,13 @@
   },
   "https://uniqfox.me/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://uniqfox.me/zine/rss.php?kind=main",
     "latestArticle": {
-      "title": "Some Days",
-      "url": "https://uniqfox.me/journal/some-days",
-      "summary": "one of my preferred poets, Billy Collins (former poet laureate of 🇺🇸) 2001 to 2003 {{video https://www.youtube.com/watch?v=yaBeaQHdrGo}}",
-      "publishedAt": "2026-10-25T23:15:09.000Z"
+      "title": "cheap finds",
+      "url": "https://uniqfox.me/journal/used-books",
+      "summary": "some interesting finds {{image /zine/uploads/20261026-67d4e10e21fb.jpg | not bad, $2.50 for a $25 dollar read}} beautifully lit poetry, from Virginia. looked promising not poetry, but a bunch of crin…",
+      "publishedAt": "2026-10-26T02:26:41.000Z"
     }
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -5523,7 +5523,7 @@
     "feedUrl": "https://vtuberzukan.com/favicon.svg"
   },
   "https://waitbutwhy.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-11-25",
     "feedUrl": "https://waitbutwhy.com/feed",
     "latestArticle": {
@@ -6300,13 +6300,13 @@
   },
   "https://www.itsdougholland.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://www.itsdougholland.com/feed/",
     "latestArticle": {
-      "title": "Don’t take me out to the ball game.",
-      "url": "https://www.itsdougholland.com/a-day-at-ball-park/",
-      "summary": "As a kid I was nothing but strikeouts at bat and errors in right field — couldn’t play the game at all, but I’ve always enjoyed watching baseball. ... [read more]",
-      "publishedAt": "2026-10-25T02:31:04.000Z"
+      "title": "Links & news: 10/25/2026",
+      "url": "https://www.itsdougholland.com/links-news-10-25-2026/",
+      "summary": "#638 — Oct. 25, 2026 Today’s theme song: All You Fascists, by Billie Bragg Here’s what happened when I went to a Pride festival dressed as Jesus OG Nazis’ favorite retreat burns to the ground Hmmm. .…",
+      "publishedAt": "2026-10-26T02:17:48.000Z"
     }
   },
   "https://www.jamesreeves.co/notebook/": {
@@ -6490,7 +6490,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6945,7 +6945,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2021-12-01",
     "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
     "latestArticle": {
@@ -7070,13 +7070,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-08-30",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "No Coach or Crowd: The Persistence of Solitude In “Sumo Didi”",
-      "url": "https://www.themovieblog.com/2026/10/no-coach-or-crowd-the-persistence-of-solitude-in-sumo-didi/",
-      "summary": "Sumo Didi (2023) may be one of the most distinctive sports Hindi films out there. Sports dramas are not new to Bollywood. In fact, some of the biggest hits in the industry, like Sultan starring Salma…",
-      "publishedAt": "2026-10-26T00:00:00.000Z"
+      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
+      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
+      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
+      "publishedAt": "2026-08-30T19:13:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {

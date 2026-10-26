@@ -501,15 +501,15 @@
     }
   },
   "https://alisonwilder.com/blog/": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-23T15:44:38.843Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://alisonwilder.com/feed/",
     "latestArticle": {
-      "title": "This Saturday – Nightmother Live",
-      "url": "https://alisonwilder.com/this-saturday-nightmother-live/",
-      "summary": "I’ll be performing my first-ever solo electronic set as nightmother this Saturday evening at the Circuits in the Woods festival in Brattleboro, Vermont. (Er, at least my first IRL solo electronic set…",
-      "publishedAt": "2026-10-19T20:49:45.000Z"
+      "title": "How to infinitely loop a one-shot sample on a late-model MPC",
+      "url": "https://alisonwilder.com/how-to-infinitely-loop-a-one-shot-on-mpc/",
+      "summary": "Looping a sample in one-shot mode on the MPC Live 3, and probably on all MPC devices running the MPC 3.x OS, is hard. Here's how you do it.",
+      "publishedAt": "2026-10-26T16:06:28.000Z"
     }
   },
   "https://alongtheray.com/": {
@@ -816,15 +816,15 @@
     }
   },
   "https://cupofjo.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T19:44:31.705Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://cupofjo.com/feed/",
     "latestArticle": {
-      "title": "Have a Beautiful Weekend.",
-      "url": "https://cupofjo.com/2026/10/23/have-a-beautiful-weekend-27/",
-      "summary": "What are you up to this weekend? We’re planning to enjoy the fall sunshine on our faces and see the Nathan Fielder documentary . Also, this sheep photo, above, reminds me of when my aunt got stuck in…",
-      "publishedAt": "2026-10-23T19:40:02.000Z"
+      "title": "A Parenting Moment That Moved Me",
+      "url": "https://cupofjo.com/2026/10/26/kindness-of-strangers-moms/",
+      "summary": "Earlier this month, I took a work trip to New York and brought along my one-year-old, Evelynn… My friends Angela and Ally had volunteered to babysit Evelynn while I worked.… Read more The post A Pare…",
+      "publishedAt": "2026-10-26T15:49:18.000Z"
     }
   },
   "https://dansinker.com/blog/": {
@@ -1483,9 +1483,9 @@
   },
   "https://www.thechaoticscot.com/": {
     "lastPublished": "2026-06-24",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
-    "status": "success",
-    "feedUrl": "https://www.thechaoticscot.com/feed/",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
+    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
     "latestArticle": {
       "title": "Insta360 x4 Air: Quick Review",
       "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
@@ -1744,25 +1744,25 @@
     }
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T04:44:29.828Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security/",
-      "summary": "MCP bridges the gap between your AI agents and your external tools, allowing them to send Discord messages, read your emails, and interact with your environment. But this massive leap in capability co",
-      "publishedAt": "2026-10-23T01:49:44.000Z"
+      "url": "https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/",
+      "summary": "A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines, which contin",
+      "publishedAt": "2026-10-26T13:51:50.000Z"
     }
   },
   "https://hackernoon.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T10:44:34.150Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/top-5-sca-tools-that-catch-malicious-open-source-packages?source=rss",
-      "summary": "Compare five SCA tools for detecting malicious open-source packages, from behavioral analysis and install-time blocking to threat intelligence.",
-      "publishedAt": "2026-10-26T09:23:01.000Z"
+      "url": "https://hackernoon.com/20-aws-cost-optimization-moves-that-still-pay-off?source=rss",
+      "summary": "Discover 20 practical AWS cost optimization strategies for EC2, EKS, S3, RDS, and networking, with pricing examples and a 30-day action plan.",
+      "publishedAt": "2026-10-26T15:58:42.000Z"
     }
   },
   "https://www.homeautomationguy.io/": {
@@ -2876,26 +2876,26 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T14:32:32.078Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Martin O’Neill Calls Hibs Victory Celtic’s Best Of The Season, But If That’s Our Benchmark It Says Plenty About Where We Are",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/martin-oneill-calls-hibs-victory-celtics-best-of-the-season-but-if-thats-our-benchmark-it-says-plenty-about-where-we-are/",
-      "summary": "Martin O’Neill reckons Celtic’s victory over Hibernian was our best win of the season. Now, before anybody starts The post Martin O’Neill Calls Hibs Victory Celtic’s Best Of The Season, But If That’s…",
-      "publishedAt": "2026-10-26T14:00:41.000Z"
+      "title": "Celtic’s Board Declared The Club’s Reputation Non-Negotiable, But The Green Brigade Have Turned Those Words Into An Embarrassing Reminder Of Who Really Built It",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/celtic-board-reputation-green-brigade-protest/",
+      "summary": "There’s something extremely satisfying about Celtic supporters taking the board’s own words and throwing them straight back in The post Celtic’s Board Declared The Club’s Reputation Non-Negotiable, B…",
+      "publishedAt": "2026-10-26T16:00:18.000Z"
     }
   },
   "https://readceltic.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T12:46:27.223Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "“A total embarrassment in European competition & living on their nerves in the league when it comes to the retention of their title” – Keevins paints a painfully accurate picture of Celtic right now…",
-      "url": "https://readceltic.com/2026/10/26/keevins-painfully-accurate-celtic-embarrassment-nerves/",
-      "summary": "When we get to the point where it’s virtually impossible to argue with washed up journalists like Hugh The post “A total embarrassment in European competition & living on their nerves in the league w…",
-      "publishedAt": "2026-10-26T12:18:17.000Z"
+      "title": "Sutton Claims Celtic May Struggle To Keep Camilo Durán",
+      "url": "https://readceltic.com/2026/10/26/sutton-claims-celtic-may-struggle-to-keep-camilo-duran/",
+      "summary": "How long can Celtic realistically keep Camilo Durán? That is a question I did not expect to be The post Sutton Claims Celtic May Struggle To Keep Camilo Durán appeared first on Read Celtic .",
+      "publishedAt": "2026-10-26T16:00:00.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -3011,14 +3011,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Random: Did You Spot This Nintendo Cameo in Slow Horses?",
-      "url": "https://www.timeextension.com/#article-208115",
-      "summary": "\"S**t rises to the top in this building with the gold at the bottom\". If you're anything like me, then you're a sucker for Apple's brilliant adaptation of Mick Herron's Slow Horses series. The sixth …",
-      "publishedAt": "2026-10-26T15:00:00.000Z"
+      "title": "'We Will Not Be Officially Supporting This Device' - the Team Behind 3DS Emulator Azahar Isn't Happy with Anbernic",
+      "url": "https://www.timeextension.com/#article-208146",
+      "summary": "\"Any issues or bugs related to devices from this specific manufacturer will not be investigated\". Emulation handheld maker Anbernic has been in hot water recently, it's fair to say. The Entertainment…",
+      "publishedAt": "2026-10-26T16:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3035,8 +3035,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3059,14 +3059,14 @@
   },
   "https://humbledollar.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T12:46:27.223Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "The pension conundrum and a solution",
-      "url": "https://humbledollar.com/forum/the-pension-conundrum-and-a-solution/",
-      "summary": "Pensions are gone. Not really, but in the private sector they are scarce in 2026. State and federal workers and many colleges (especially public institutions) still benefit from traditional pensions.…",
-      "publishedAt": "2026-10-26T11:46:35.000Z"
+      "title": "Do I really need International funds in my portfolio?  I say no.",
+      "url": "https://humbledollar.com/forum/do-i-really-need-international-funds-in-my-portfolio-i-say-no/",
+      "summary": "My wife and I recently engaged with a financial consultant. He’s taken a look at our investment portfolio and suggested we buy International ETFs because we don’t have enough exposure to those market…",
+      "publishedAt": "2026-10-26T16:15:20.000Z"
     }
   },
   "https://moneywithkatie.com/blog/": {
@@ -3131,14 +3131,14 @@
   },
   "https://lwn.net/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "Two stable kernels for Monday",
-      "url": "https://lwn.net/Articles/1102973/",
-      "summary": "Greg Kroah-Hartman has announced the release of the 7.2.13 and 6.18.59 stable kernels. Each contains a number of fixes throughout the tree. Users are advised to upgrade.",
-      "publishedAt": "2026-10-26T15:45:34.000Z"
+      "title": "[$] Python's experimental JIT to be removed",
+      "url": "https://lwn.net/Articles/1102102/",
+      "summary": "Python's experimental just-in-time (JIT) compiler , which was added to CPython in 2024 for the 3.13 release , is on its way out. In June, the Python steering council announced that it was pausing wor…",
+      "publishedAt": "2026-10-26T15:45:58.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3311,8 +3311,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3341,8 +3341,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3537,15 +3537,15 @@
     }
   },
   "https://thefigureinquestion.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-26T00:44:40.541Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://thefigureinquestion.com/feed/",
     "latestArticle": {
-      "title": "Flashback Friday Figure Addendum #0096: Time Traveler",
-      "url": "https://thefigureinquestion.com/2026/10/23/flashback-friday-figure-addendum-0096-time-traveler/",
-      "summary": "TIME TRAVELER MICRONAUTS (PALISADES) Welcome to Friday everyone! We made it! Hooray! And I’m here to talk about Micronauts, for a second time in the same week! Is that even legal? We’ll find out, I g…",
-      "publishedAt": "2026-10-23T16:00:47.000Z"
+      "title": "#4148: Penance",
+      "url": "https://thefigureinquestion.com/2026/10/26/4148-penance/",
+      "summary": "PENANCE GENERATION X (TOY BIZ) “The young woman called Penance possesses the mutant ability to internalize negative energy around her, turning her body into a diamond-hard, razor-sharp weapon. Held p…",
+      "publishedAt": "2026-10-26T16:00:59.000Z"
     }
   },
   "https://figureoftheday.blogspot.com/": {
@@ -3802,14 +3802,14 @@
   },
   "https://greg.org/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T03:44:28.670Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://greg.org/feed",
     "latestArticle": {
-      "title": "For Sale: Schindler Lovell Beach House",
-      "url": "https://greg.org/archive/2026/10/25/for-sale-schindler-lovell-beach-house.html",
-      "summary": "Stop the wire transfer to Cap Ferrat. Because a new architecturally iconic, oceanfront fixer-upper just dropped. After keeping it, and keeping it intact for a century, the Lovell family has been doin…",
-      "publishedAt": "2026-10-26T02:59:13.000Z"
+      "title": "Olafur Said Love",
+      "url": "https://greg.org/archive/2026/10/26/olafur-said-love.html",
+      "summary": "For its 10th anniversary the Museum for the United Nations invited some people to share headlines they would like to see in 2036, and Olafur Eliasson said, “Science has proven that being in love is g…",
+      "publishedAt": "2026-10-26T15:55:03.000Z"
     }
   },
   "https://wyrdbritain.blogspot.com/": {
@@ -3838,8 +3838,8 @@
   },
   "https://www.web-goddess.org/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "success",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
       "title": "Sydney Open this weekend",
@@ -4094,15 +4094,15 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "lastPublished": "2026-10-19",
-    "lastChecked": "2026-10-25T04:44:31.351Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
-      "title": "October 19, 2026",
-      "url": "https://www.tabletenniscoaching.com/node/3769",
-      "summary": "October 19, 2026 Tip of the Week The Mental State of a Looper Against a Push . A Few Miscellaneous Observations... Everyone should have at least one “off” or “weird” shot. It both throws your opponen…",
-      "publishedAt": "2026-10-19T16:15:48.000Z"
+      "title": "October 26, 2026",
+      "url": "https://www.tabletenniscoaching.com/node/3770",
+      "summary": "October 26, 2026 Tip of the Week Importance of Serve Variety . Weekend Coaching, Backhand Looping, and the Stupid Flu I coached in four group junior sessions over the weekend. Some of the emphasis wa…",
+      "publishedAt": "2026-10-26T15:53:25.000Z"
     }
   },
   "https://theprivacydad.com/": {
@@ -4528,20 +4528,20 @@
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "TfL reaches 70% of the underground covered by mobile phone signals",
-      "url": "https://www.ianvisits.co.uk/articles/tfl-reaches-70-of-the-underground-covered-by-mobile-phone-signals-93570/",
-      "summary": "As part of the rollout, TfL says that it has now reached the milestone of 70 per cent of Underground stations located below ground having a mobile signal. Read more ›",
-      "publishedAt": "2026-10-26T15:00:25.000Z"
+      "title": "Tickets Alert: Handel’s Messiah in St Paul’s Cathedral",
+      "url": "https://www.ianvisits.co.uk/articles/tickets-alert-handels-messiah-in-st-pauls-cathedral-93565/",
+      "summary": "An annual tradition continues this Christmas, with a performance of Handel’s Messiah at St Paul’s Cathedral. Read more ›",
+      "publishedAt": "2026-10-26T16:00:03.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -5126,9 +5126,9 @@
   },
   "https://theautisticadvocate.com/blog/": {
     "lastPublished": "2026-09-15",
-    "lastChecked": "2026-10-26T12:46:27.223Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
-    "feedUrl": "https://theautisticadvocate.com/feed/",
+    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -5156,8 +5156,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5220,15 +5220,15 @@
     }
   },
   "https://rolandtanglao.com/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-26T03:44:28.670Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://rolandtanglao.com/feed.xml",
     "latestArticle": {
-      "title": "Highly Recommended Filipino film, Liway, about Marcos's martial law horrors",
-      "url": "http://rolandtanglao.com/2026/10/25/p1458-liway/",
-      "summary": "Discovered : Oct 25, 2026 21:58 (UTC) Highly Recommended Filipino film, Liway, about Marcos’s martial law horrors <– You can legally obtain the film from google drive at: drive.google.com/drive/folde…",
-      "publishedAt": "2026-10-25T07:00:00.000Z"
+      "title": "Pampanga's Cuisine Combo 2 has gone up to $19 from $18. Still a great deal and still enough food for 2 not very hungry people!",
+      "url": "http://rolandtanglao.com/2026/10/26/p0817-pampanga-cuisine-combo2-19-dollars-from-18/",
+      "summary": "Draft created : Oct 26, 2026 15:17 (UTC). Pampanga’s Cuisine is at 46th and Fraser and at Joyce Station for those who don’t know :-)",
+      "publishedAt": "2026-10-26T07:00:00.000Z"
     }
   },
   "https://www.stuckinabook.com/": {
@@ -5411,13 +5411,13 @@
   },
   "https://kimberlyhirsh.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T12:46:27.223Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://kimberlyhirsh.com/feed.xml",
     "latestArticle": {
-      "url": "https://kimberlyhirsh.com/2026/10/26/whats-life-without-the-pursuit.html",
-      "summary": "📚🗨️ “What’s life without the pursuit of knowledge? When you have a nearly limitless lifespan, after a while the only thing to do with yourself is learn… I want to read everything. All of it… When my …",
-      "publishedAt": "2026-10-26T12:07:11.000Z"
+      "url": "https://kimberlyhirsh.com/2026/10/26/i-was-going-to-do.html",
+      "summary": "I was going to do something besides lie on my couch and look at my phone but (gestures at meat cage, then at everything else) . Today I have had brunch with a friend, returned something to Torrid, an…",
+      "publishedAt": "2026-10-26T15:58:32.000Z"
     }
   },
   "https://digitalflapjack.com/blog/": {
@@ -5517,15 +5517,15 @@
     }
   },
   "https://neveenwood.com/": {
-    "lastPublished": "2026-10-24",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "Lattafa Khamrah Review: Boozy Apple Pie in a Bottle (and It Lasts All Day on Me)",
-      "url": "https://neveenwood.com/lattafa-khamrah-review/",
-      "summary": "My Lattafa Khamrah review: what it smells like on me (boozy apple pie), how long it lasts, the full notes, and where to buy it in the UK and US.",
-      "publishedAt": "2026-10-24T17:24:16.000Z"
+      "title": "Medicube PDRN Pink Peptide Serum Review: What’s Really in the Viral Pink Serum",
+      "url": "https://neveenwood.com/medicube-pdrn-pink-peptide-serum-review/",
+      "summary": "My Medicube PDRN Pink Peptide Serum review: the two versions, the full ingredient list, what PDRN research says, fungal acne and fragrance, plus where to buy with my codes.",
+      "publishedAt": "2026-10-26T16:25:40.000Z"
     }
   },
   "https://70sscifiart.tumblr.com/": {
@@ -5715,14 +5715,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T14:44:33.879Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Grab reduced retiring LEGO sets with extra 10% off at Very",
-      "url": "https://www.brickfanatics.com/grab-reduced-retiring-lego-sets-extra-10-off-very",
-      "summary": "Two more months remain, and these are likely some of the best prices you'll find",
-      "publishedAt": "2026-10-26T14:34:45.000Z"
+      "title": "Save 43% on five retiring LEGO Speed Champions F1 cars",
+      "url": "https://www.brickfanatics.com/save-43-five-retiring-lego-speed-champions-f1-cars",
+      "summary": "Complete your LEGO F1 grid before the current roster is retired.",
+      "publishedAt": "2026-10-26T16:04:43.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -5906,14 +5906,14 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T14:32:32.078Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "New Frozen Meals Spotted — October 26, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/26/new-frozen-meals-spotted-october-26-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-10-26T14:00:00.000Z"
+      "title": "REVIEW: Wonderful Dubai Chocolate Pistachios",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/26/wonderful-dubai-chocolate-pistachios-review/",
+      "summary": "About this time last year, I wrote about the first chocolate-covered pistachios from Wonderful, and they were, um, what’s a good, long word to describe something really good? Marvelous? Magnificent? …",
+      "publishedAt": "2026-10-26T16:00:00.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
@@ -6366,8 +6366,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6377,15 +6377,15 @@
     "feedUrl": null
   },
   "https://bits.gobino.be/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T13:24:10.319Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 281/365 - Always watching",
-      "url": "https://bits.gobino.be/posts/2026-10-25-281365-always",
-      "summary": "📷 281/365 - Always watching",
-      "publishedAt": "2026-10-25T12:43:00.000Z"
+      "title": "📷 282/365 - Unaware in their new VR...",
+      "url": "https://bits.gobino.be/posts/2026-10-26-282365-unaware",
+      "summary": "📷 282/365 - Unaware in their new VR reality.",
+      "publishedAt": "2026-10-26T15:55:53.000Z"
     }
   },
   "https://marblethoughts.bearblog.dev/": {
@@ -6565,14 +6565,14 @@
   },
   "https://marginalrevolution.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T11:44:30.926Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "The MR Archive!",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/the-mr-archive.html?utm_source=rss&utm_medium=rss&utm_campaign=the-mr-archive",
-      "summary": "The Marginal Revolution archive is now live at https://marginalrevolution.com/ai-archive/. You can also find it from the “Download Full Archive” link in the left menu. The purpose of the archive is t…",
-      "publishedAt": "2026-10-26T11:20:43.000Z"
+      "title": "Monday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/monday-assorted-links-583.html?utm_source=rss&utm_medium=rss&utm_campaign=monday-assorted-links-583",
+      "summary": "1. Why slow fields may determine the pace of discovery. 2. Touch screens on your jacket? 3. Astras performance on Bach bench. 4. More on regional productivity differences (and puzzles) in health care…",
+      "publishedAt": "2026-10-26T16:23:21.000Z"
     }
   },
   "https://leancrew.com/all-this/": {
@@ -7101,14 +7101,14 @@
   },
   "https://www.theimpulsivebuy.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T14:32:32.078Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "New Frozen Meals Spotted — October 26, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/26/new-frozen-meals-spotted-october-26-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-10-26T14:00:00.000Z"
+      "title": "REVIEW: Wonderful Dubai Chocolate Pistachios",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/26/wonderful-dubai-chocolate-pistachios-review/",
+      "summary": "About this time last year, I wrote about the first chocolate-covered pistachios from Wonderful, and they were, um, what’s a good, long word to describe something really good? Marvelous? Magnificent? …",
+      "publishedAt": "2026-10-26T16:00:00.000Z"
     }
   },
   "https://nstperfume.com/": {
@@ -7125,14 +7125,14 @@
   },
   "https://www.askamanager.org/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "my boss wanted me to not do my job because I was pregnant",
-      "url": "https://www.askamanager.org/2026/10/my-boss-wanted-me-to-not-do-my-job-because-i-was-pregnant.html",
-      "summary": "A reader writes: I am currently on maternity leave with my third child (first at my current job). I technically had a high-risk pregnancy, but no real complications. My other pregnancies were similar…",
-      "publishedAt": "2026-10-26T14:59:51.000Z"
+      "title": "the people who hate their jobs — but feel too guilty to leave",
+      "url": "https://www.askamanager.org/2026/10/the-people-who-hate-their-jobs-but-feel-too-guilty-to-leave.html",
+      "summary": "When it’s time to resign from a job, people tend to fall into one of two camps: those who can’t wait to tell their boss they’re leaving, and those who feel tremendously guilty about quitting, as if t…",
+      "publishedAt": "2026-10-26T16:29:24.000Z"
     }
   },
   "https://blog.avas.space/": {
@@ -7243,15 +7243,15 @@
     }
   },
   "https://nz6a.mihobu.net/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T21:44:30.784Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://nz6a.mihobu.net/rss.xml",
     "latestArticle": {
-      "title": "ARRL Board of Directors Election Notice",
-      "url": "https://nz6a.mihobu.net/micro-20261025213136",
-      "summary": "If you are an member in the Atlantic, Great Lakes, and Delta Divisions, look for a mailing from the ARRL about the current board of directors' election. If you're in the Great Lakes Division, please …",
-      "publishedAt": "2026-10-25T21:31:00.000Z"
+      "title": "I voted in 2026 ARRL Division Election.",
+      "url": "https://nz6a.mihobu.net/micro-20261026153949",
+      "summary": "If you’re a league member in one of the divisions with an election this year (esp. for contested seats), please make your voice heard.",
+      "publishedAt": "2026-10-26T15:39:00.000Z"
     }
   },
   "https://ratings.mihobu.net/": {
@@ -7478,14 +7478,14 @@
   },
   "https://www.cartoonbrew.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "Eric Bauza, Looney Tunes Voice Actor And Tireless Champion Of Animation, Dies At 46",
-      "url": "https://www.cartoonbrew.com/rip/eric-bauza-looney-tunes-voice-actor-dies-268416.html",
-      "summary": "From his beginnings at a drawing desk to his advocacy for the medium, Bauza brought a deep understanding of the art of animation to every role he played.",
-      "publishedAt": "2026-10-26T15:10:57.000Z"
+      "title": "Here’s How Stoopid Buddy Gave ‘The Simpsons’ A ‘Nightmare Before Christmas’ Makeover",
+      "url": "https://www.cartoonbrew.com/series/the-simpsons-treehouse-of-horror-nightmare-before-christmas-268442.html",
+      "summary": "Tim Long and John Harvatine discuss the handmade puppets, costumes, and clay worms behind this year’s ‘Treehouse of Horror’ opening.",
+      "publishedAt": "2026-10-26T16:10:43.000Z"
     }
   },
   "https://www.maproomblog.com/": {
@@ -7513,36 +7513,36 @@
     }
   },
   "https://marcel.io/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T16:44:33.321Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
-      "title": "🎨 October 6, 2026",
-      "url": "https://marcel.io/dailies/2026-10-06",
-      "summary": "I tend to get milia on my chest. The aesthetician didn't know why that would ever happen and made me feel like some weird edge case of a human being, but getting my face smushed for 50 minutes made m…",
-      "publishedAt": "2026-10-25T16:00:00.000Z"
+      "title": "🎨 October 7, 2026",
+      "url": "https://marcel.io/dailies/2026-10-07",
+      "summary": "When I'm really focused on a project I'm invested in, I still have no problem hammering out hours and hours of focused work. One of the core truths about my life is that I feel better when I have som…",
+      "publishedAt": "2026-10-26T16:00:00.000Z"
     }
   },
   "https://www.fromthemurkydepths.co.uk/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-26T13:44:41.635Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
-      "title": "Goldsmiths drop plan to move to Catford",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/10/23/goldsmiths-drop-plan-to-move-to-catford/",
-      "summary": "Goldsmiths have announced the dropping of a planned move to Catford announced at the start of 2026. The proposal would have seen around 600 students move to the former Town Hall in an agreement betwe…",
-      "publishedAt": "2026-10-23T14:17:46.000Z"
+      "title": "Next stage of Surrey Quays redevelopment put on hold",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/10/26/next-stage-of-surrey-quays-redevelopment-put-on-hold/",
+      "summary": "The next phase of a major development in Rotherhithe has been put on hold just weeks after a new entrance at Surrey Quays station opened to serve the site. British Land has halted plans for phase two…",
+      "publishedAt": "2026-10-26T16:17:29.000Z"
     }
   },
   "https://www.worldofreel.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T15:44:33.974Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "success",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Peter Claffey Cast as Beast in Marvel's ‘X-Men' Reboot, Charles Melton Exits Race for ‘Naruto'",
+      "title": "Peter Claffey Cast as Beast in Marvel's ‘X-Men' Reboot",
       "url": "https://www.worldofreel.com/blog/2026/10/25/peter-claffey-x-men-besst",
       "summary": "Claffey 6'5\" and played professional rugby before he got into acting, so the physicality is already there for Beast. If you saw what Claffey did as Dunk this past winter, you'll understand why Marvel…",
       "publishedAt": "2026-10-26T15:30:50.000Z"
@@ -7693,8 +7693,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-26T14:44:33.879Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7735,9 +7735,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-26T11:44:30.926Z",
+    "lastChecked": "2026-10-26T16:44:31.789Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",

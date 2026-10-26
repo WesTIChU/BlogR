@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -812,7 +812,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -843,7 +843,7 @@
     "feedUrl": "https://blogroll.org/assets/favicon/favicon.svg"
   },
   "https://blogs.ucl.ac.uk/constitution-unit/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://blogs.ucl.ac.uk/constitution-unit/feed/",
     "latestArticle": {
@@ -939,13 +939,13 @@
   },
   "https://brooksreview.net/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://brooksreview.net/feed/",
     "latestArticle": {
-      "title": "Some Thoughts on Woodworking Tools Made by YouTubers",
-      "url": "https://brooksreview.net/2026/10/some-thoughts-on-woodworking-tools-made-by-youtubers/",
-      "summary": "Yes they are popular, but can they make good tools? Yes, actually.",
-      "publishedAt": "2026-10-22T11:00:02.000Z"
+      "title": "Member Journal — 10/26/26",
+      "url": "https://brooksreview.net/2026/10/member-journal-10-26-26/",
+      "summary": "Some thoughts on work, working, and locations.",
+      "publishedAt": "2026-10-26T11:00:05.000Z"
     }
   },
   "https://brr.fyi/": {
@@ -1150,9 +1150,9 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/jackson-was-incredible---erling-haaland-lauds-aston-villa-forward-in-assessment-of-manchester-city-loss",
-      "summary": "Manchester City number nine Erling Haaland was full of praise for fellow striker Nicolas Jackson after the latter scored the winning brace at Villa Park on Saturday.",
-      "publishedAt": "2026-10-26T08:30:04.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-explains-ayyoub-bouaddi-snub-in-manchester-city-defeat-to-aston-villa",
+      "summary": "Manchester City manager Enzo Maresca has explained his midfield selection and Ayyoub Bouaddi's absence from the 2-1 defeat to Aston Villa at Villa Park.",
+      "publishedAt": "2026-10-26T10:30:33.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1276,10 +1276,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Hang on to your hats everyone, because Burnham’s going to risk it, and go early",
-      "url": "https://conservativehome.com/2026/10/26/hang-on-to-your-hats-everyone-because-burnhams-going-to-risk-it-and-go-early/",
-      "summary": "Burnham will try it, because he has said he won’t. What the Budget on Wednesday absolutely won’t do is confront the major problems besetting the British economy, that’s because it’s not deigned to bu…",
-      "publishedAt": "2026-10-26T07:00:14.000Z"
+      "title": "Thomas Heald: When is a job not really a job? When it’s part of the SNP’s public sector reform",
+      "url": "https://conservativehome.com/2026/10/26/thomas-heald-when-is-a-job-not-really-a-job-when-its-part-of-the-snps-public-sector-reform/",
+      "summary": "The SNP have spent nearly two decades presenting itself as the defender of Scotland’s public services. In doing so, it has too often confused defending services with defending the machinery of govern…",
+      "publishedAt": "2026-10-26T11:00:02.000Z"
     }
   },
   "https://corporalfrisk.com/": {
@@ -1603,7 +1603,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1702,13 +1702,13 @@
   },
   "https://ecmreviews.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://ecmreviews.com/feed/",
     "latestArticle": {
-      "title": "Tania Giannouli/Nik Bärtsch Review for All About Jazz",
-      "url": "https://ecmreviews.com/2026/10/25/tania-giannouli-nik-bartsch-review-for-all-about-jazz/",
-      "summary": "My review of Metakosmos, the new duo album by Tania Giannouli and Nik Bärtsch, is now available at All About Jazz. Across eight pieces, the Greek and Swiss pianists bring melodic luminosity and rhyth…",
-      "publishedAt": "2026-10-25T09:47:19.000Z"
+      "title": "Gidon Kremer/Kremerata Baltica: Pages of a Biography (ECM New Series 2803)",
+      "url": "https://ecmreviews.com/2026/10/26/gidon-kremer-kremerata-baltica-pages-of-a-biography-ecm-new-series-2803/",
+      "summary": "Gidon KremerKremerata BalticaPages of a Biography Gidon Kremer violinGeneva Lewis violinAndrew Pushkarev vibraphone, tubular bellKremerata BalticaPages of a Biography, Passacaglia, Darf ich…recorded …",
+      "publishedAt": "2026-10-26T11:22:53.000Z"
     }
   },
   "https://econbrowser.com/": {
@@ -1953,7 +1953,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -1979,13 +1979,13 @@
   },
   "https://glitternight.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "HOUSEBOAT HORROR (1989) BAD HALLOWEEN MOVIE",
-      "url": "https://glitternight.com/2026/10/25/houseboat-horror-1989-bad-halloween-movie/",
-      "summary": "Halloween Month is nearly over, and Balladeer’s Blog is here with a review of what is often called the worst Australian horror film ever made. HOUSEBOAT HORROR (1989) – “Mullets ahoy!” would make a g…",
-      "publishedAt": "2026-10-25T23:11:46.000Z"
+      "title": "NEWS ROUNDUP FOR OCTOBER TWENTY-SIXTH",
+      "url": "https://glitternight.com/2026/10/26/news-roundup-for-october-twenty-sixth/",
+      "summary": "It’s a Monday current events roundup from Independent Voter Site Balladeer’s Blog. EX-FBI OFFICIALS WHO COVERED UP BIDEN CRIME FAMILY SCANDALS ARRESTED. More HERE. And HERE. And HERE. DEMOCRAT SENATO…",
+      "publishedAt": "2026-10-26T11:24:27.000Z"
     }
   },
   "https://gnomadhome.com/": {
@@ -2122,10 +2122,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Hairy Armor For Combat Robot? It’s Not Terrible!",
-      "url": "https://hackaday.com/2026/10/26/hairy-armor-for-combat-robot-its-not-terrible/",
-      "summary": "[Angus] of Maker’s Muse enjoys combat robotics, in which contenders zip about in an arena, attempting to disable one another with weapons that lift, spin, and smash. He got a …read more",
-      "publishedAt": "2026-10-26T08:00:59.000Z"
+      "title": "Hiding Virtualization From Other Software",
+      "url": "https://hackaday.com/2026/10/26/hiding-virtualization-from-other-software/",
+      "summary": "The Kernel-based Virtual Machine (KVM) allows Linux systems to function as hypervisors without needing any extra software, but VMs created with it don’t behave exactly like real hardware does. Someti…",
+      "publishedAt": "2026-10-26T11:00:56.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2194,7 +2194,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -2279,13 +2279,13 @@
   },
   "https://humbledollar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "My Investment Approach: Adapt and Protect Capital + a quick guide",
-      "url": "https://humbledollar.com/forum/my-investment-approach-adapt-and-protect-capital-a-quick-guide/",
-      "summary": "My Investment Approach: Adapt and Protect Capital First, I have never sold investment advice or made a dime from it. Over the years, I’ve helped hundreds of investors, from beginners building simple …",
-      "publishedAt": "2026-10-25T16:04:07.000Z"
+      "title": "Are You Interested in Living An Additional 10 Healthy Years?",
+      "url": "https://humbledollar.com/forum/are-you-interested-in-living-an-additional-10-healthy-years/",
+      "summary": "From time to time I receive emails from Phil Moeller called Aging in America which is on Substack. Today I received an email where he wrote that if you’re interested in extending your own life by ano…",
+      "publishedAt": "2026-10-26T11:28:14.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -2498,7 +2498,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2535,7 +2535,7 @@
     }
   },
   "https://jonaharagon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-01-26",
     "feedUrl": "https://www.jonaharagon.com/posts/rss/",
     "latestArticle": {
@@ -2600,13 +2600,13 @@
   },
   "https://joshreads.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://joshreads.com/feed/",
     "latestArticle": {
-      "title": "Your boring-ass house is not where in the world",
-      "url": "https://joshreads.com/2026/10/your-boring-ass-house-is-not-where-in-the-world/",
+      "title": "Neither the kids nor the olds are all right",
+      "url": "https://joshreads.com/2026/10/neither-the-kids-nor-the-olds-are-all-right/",
       "summary": "Comics Curmudgeon readers! Do you love this blog and yearn for a novel written by its creator? Well, good news: Josh Fruhlinger's The Enthusiast is that novel! It's even about newspaper comic strips,…",
-      "publishedAt": "2026-10-25T11:27:29.000Z"
+      "publishedAt": "2026-10-26T11:28:15.000Z"
     }
   },
   "https://joshuamorris.info/": {
@@ -2882,10 +2882,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Joy of Six 1597",
-      "url": "https://liberalengland.blogspot.com/2026/10/the-joy-of-six-1597.html",
-      "summary": "\"More than 260 peers hold multiple, individual shareholdings – stakes in listed companies – worth more than £100,000 apiece. In fact, some Lords held more than 200 individual holdings, each valued in…",
-      "publishedAt": "2026-10-26T09:47:50.907Z"
+      "title": "A new article for Central Bylines: We shouldn’t laugh at Ladybird books but celebrate them",
+      "url": "https://liberalengland.blogspot.com/2026/10/a-new-article-for-central-bylines-we.html",
+      "summary": "I've a new article on Central Bylines this morning: it's a defence of the much-misunderstood Ladybird Books: The classic Ladybird Book is no more. The imprint still exists, but it’s based in London –…",
+      "publishedAt": "2026-10-26T11:28:16.448Z"
     }
   },
   "https://librearts.org/": {
@@ -3124,10 +3124,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Brazil’s economic problems, in a nutshell",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/brazils-economic-problems-in-a-nutshell.html?utm_source=rss&utm_medium=rss&utm_campaign=brazils-economic-problems-in-a-nutshell",
-      "summary": "It would take true Milei-like ardour to slice through Brazil’s economic troubles. These are caused by a gnarly mix of high public spending, stubborn inflation and low saving. The result is a cripplin…",
-      "publishedAt": "2026-10-26T07:03:20.000Z"
+      "title": "The MR Archive!",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/the-mr-archive.html?utm_source=rss&utm_medium=rss&utm_campaign=the-mr-archive",
+      "summary": "The Marginal Revolution archive is now live at https://marginalrevolution.com/ai-archive/. You can also find it from the “Download Full Archive” link in the left menu. The purpose of the archive is t…",
+      "publishedAt": "2026-10-26T11:20:43.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -4007,10 +4007,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "How many more European defeats must we endure before Martin O’Neill’s Celtic legend is burnt to ashes?",
-      "url": "https://readceltic.com/2026/10/26/how-many-more-european-defeats-must-we-endure-before-martin-oneills-celtic-legend-is-burnt-to-ashes/",
-      "summary": "Celtic managed to scrape over the line yesterday against Hibernian in a lacklustre performance, against what was a The post How many more European defeats must we endure before Martin O’Neill’s Celti…",
-      "publishedAt": "2026-10-26T07:23:26.000Z"
+      "title": "Celtic fans might be just tolerating their club right now, but that tolerance has its limits…",
+      "url": "https://readceltic.com/2026/10/26/celtic-fans-tolerating-club-tolerance-has-limits/",
+      "summary": "Yesterday, Martin O’Neill stood in front of the cameras after Easter Road and told us that was the The post Celtic fans might be just tolerating their club right now, but that tolerance has its limit…",
+      "publishedAt": "2026-10-26T11:00:36.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -4527,10 +4527,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://sluggerotoole.com/feed/",
     "latestArticle": {
-      "title": "No Matter Who Wins, the Palestinians Lose.",
-      "url": "https://sluggerotoole.com/2026/10/26/no-matter-who-wins-the-palestinians-lose/",
-      "summary": "There are few foreign countries whose elections are of interest to us. We don’t follow the elections in Japan or Greece or Mexico all that much. We do follow those in France and in Germany given the …",
-      "publishedAt": "2026-10-26T07:00:36.000Z"
+      "title": "After Garvaghy recklessness has a price: Burrows and the new unionist competition",
+      "url": "https://sluggerotoole.com/2026/10/26/burrows-garvaghy-road-unionist-competition/",
+      "summary": "For a generation, unionist parties competed on who looked toughest. The Garvaghy Road standoff suggests that has changed. Jon Burrows has made restraint look like strength, and the DUP now faces pres…",
+      "publishedAt": "2026-10-26T11:45:49.000Z"
     }
   },
   "https://smallmariofindings.tumblr.com/": {
@@ -4774,13 +4774,13 @@
   },
   "https://tenfootpole.org/ironspike/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://tenfootpole.org/ironspike/?feed=rss2",
     "latestArticle": {
-      "title": "The Caverns of Anamosa",
-      "url": "https://tenfootpole.org/ironspike/?p=10676",
-      "summary": "By Todd LebackThird Kingdom GamesB/XLevels 1-3 […] The pair had left behind a small garrison at their fortress, led by their faithful steward, Tercy One-eye, with instructions to guard their domain a…",
-      "publishedAt": "2026-10-24T11:39:00.000Z"
+      "title": "Dogtooth Valley",
+      "url": "https://tenfootpole.org/ironspike/?p=10681",
+      "summary": "By Nate TremeHighland Paranormal SocietyOSRLevels 1-2 The valley is a remote region in the shadows of the Dogtooth mountains—colloquially ‘the Dogteeth.’ While the Dogtooth Outpost is a relatively ne…",
+      "publishedAt": "2026-10-26T11:11:00.000Z"
     }
   },
   "https://testvalleyriverkeeper.blogspot.com/": {
@@ -4818,13 +4818,13 @@
   },
   "https://the-modern-dad.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://the-modern-dad.com/feed/",
     "latestArticle": {
-      "title": "IG REVIEW OCTOBER 19-23",
-      "url": "https://the-modern-dad.com/ig-review-october-19-23/",
-      "summary": "It’s been all mahjong all week around here. I spoke at a mahjong retreat, we played mahjong as an event, it’s been so fun! But other than mahjong, it’s been a pretty normal week around… The post IG R…",
-      "publishedAt": "2026-10-24T14:14:28.000Z"
+      "title": "EASY RECIPES FOR A DAD DURING HALLOWEEN WEEK",
+      "url": "https://the-modern-dad.com/easy-recipes-for-a-dad-during-halloween-week/",
+      "summary": "I don’t know about you, but we have so many things that we have going on this week it’s hard to keep it all straight. And the last thing I want to do is make… The post EASY RECIPES FOR A DAD DURING H…",
+      "publishedAt": "2026-10-26T11:00:28.000Z"
     }
   },
   "https://theautismcafe.com/": {
@@ -4839,9 +4839,9 @@
     }
   },
   "https://theautisticadvocate.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/feed/",
+    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -4906,12 +4906,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-10-25",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36210/what-now",
-      "summary": "Where to start… We’ll start a bit personal. I left the house after the second goal. The disaster that was Manchester United at Como was interrupted, thankfully, by life. A meeting with the boss at th…",
-      "publishedAt": "2026-10-21T23:50:32.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36236/manchester-united-0-3-bournemouth-the-end-is-nigh-again",
+      "summary": "Manchester United lost in a very predictable fashion on Sunday, a 3-0 defeat at Old Trafford to AFC Bournemouth for the third time in the last four seasons. It’s the third different manager to do so,…",
+      "publishedAt": "2026-10-25T16:24:49.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5332,7 +5332,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5435,7 +5435,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5551,12 +5551,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173324/the-daily-hilario-october-24th",
-      "summary": "Chances Most Hmm",
-      "publishedAt": "2026-10-24T07:13:21.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173415/the-daily-hilario-oct-25th",
+      "summary": "Nightmare Unbeaten Highest",
+      "publishedAt": "2026-10-26T07:00:00.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -5832,10 +5832,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Eric Bauza, voice of LEGO Luke Skywalker, passes away at 46",
-      "url": "https://www.brickfanatics.com/eric-bauza-lego-luke-skywalker-passes-away-at-46",
-      "summary": "Voice actor Eric Bauza, who portrayed Luke Skywalker in a variety of LEGO Star Wars projects, has passed away at the age of 46. Iconic in wider pop culture for his roles as Bugs Bunny and Daffy Duck,…",
-      "publishedAt": "2026-10-26T10:37:57.000Z"
+      "title": "Best price yet on LEGO Technic Koenigsegg Sadair’s Spear: nearly £100 off",
+      "url": "https://www.brickfanatics.com/lego-technic-koenigsegg-sadairs-spear-nearly-100-off",
+      "summary": "Double discount alert",
+      "publishedAt": "2026-10-26T10:56:12.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -5912,10 +5912,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "‘AN HONOUR,’ ADMITS HAPPY BHOY DURAN",
-      "url": "https://www.celticquicknews.co.uk/an-honour-admits-happy-bhoy-duran/",
-      "summary": "CAMILO DURAN once again staked his claim to lead the Celtic attack after his superb winner in the 2-1 victory over Hibs at Easter Road yesterday. The Colombian frontman finished with his trademark ex…",
-      "publishedAt": "2026-10-26T10:13:17.000Z"
+      "title": "WATCH AGAIN: CELTIC’S CAPITAL HAT-TRICK",
+      "url": "https://www.celticquicknews.co.uk/watch-again-celtics-capital-hat-trick/",
+      "summary": "YOU CANNOT accuse Celtic of not being consistent. The champions secured victory over Hibs at Easter Road yesterday with Camilo Duran firing in the winner. Coincidentally, it’s the Hoops’ third succes…",
+      "publishedAt": "2026-10-26T11:31:48.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6268,13 +6268,13 @@
   },
   "https://www.ibroxnoise.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "It’s make or break time for Derek McInnes’ Rangers",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/its-make-or-break-time-for-derek-mcinnes-rangers/",
-      "summary": "So here we go. Outside of fixtures against Celtic, the next two are the Rangers crunch for Derek McInnes. Derek McInnes’s Rangers travel to Tynecastle next weekend to face his former side. Then we ho…",
-      "publishedAt": "2026-10-25T16:03:59.000Z"
+      "title": "“I think it’s terrible”: Nico Raskin has made it clear how appalled he is by Rangers’ European exit",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/nico-raskin-rangers-europe/",
+      "summary": "There has been a lot said about Nico Raskin in the last week or so, naturally carrying out his first press conference since the summer transfer window. The Belgian international had an awful lot to s…",
+      "publishedAt": "2026-10-26T11:13:19.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6288,14 +6288,14 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "O2 UK trial Nokia’s AI-powered radio access network to boost 5G mobile network",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/o2-uk-trial-nokias-ai-powered-radio-access-network-to-boost-5g-mobile-network.html",
-      "summary": "Mobile operator O2 ( Virgin Media ) has today revealed that they’ve just completed the UK’s “ first live deployment ” of Nokia’s AI-powered Radio Access Network (RAN) tech at their Giga Site in Londo…",
-      "publishedAt": "2026-10-26T09:02:25.000Z"
+      "title": "Broadband ISP Plusnet refreshes UK brand and introduces new mascot",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/broadband-isp-plusnet-refreshes-uk-brand-and-introduces-new-mascot.html",
+      "summary": "Internet service provider Plusnet , which is often viewed as being the low-cost and no-frills broadband brand within the wider BT Group, has today refreshed their brand with a new website, logo and a…",
+      "publishedAt": "2026-10-26T10:38:50.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -6427,7 +6427,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6490,7 +6490,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6728,7 +6728,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6863,13 +6863,13 @@
   },
   "https://www.spookylittlehalloween.com/blog": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://www.spookylittlehalloween.com/blog?format=rss",
     "latestArticle": {
-      "title": "The Folklore Behind Fall: Why October Feels Different",
-      "url": "https://www.spookylittlehalloween.com/blog/folklore-behind-fall-why-october-feels-different",
-      "summary": "That feeling you get every October — like something has shifted, like the world is different somehow — isn't just in your head. It's ancient. Learn more about the folklore and history behind why fall…",
-      "publishedAt": "2026-10-23T11:00:25.000Z"
+      "title": "Halloween 101: Trick-or-Treating Safety Tips for All Ages",
+      "url": "https://www.spookylittlehalloween.com/blog/halloween-101-trick-or-treating-safety-tips",
+      "summary": "Halloween night carries real risks for young pedestrians. Here are simple, age-based safety tips to keep trick-or-treaters safe and the fun intact.",
+      "publishedAt": "2026-10-26T11:00:57.000Z"
     }
   },
   "https://www.stuckinabook.com/": {
@@ -7070,13 +7070,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-08-30",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
-      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
-      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
-      "publishedAt": "2026-08-30T19:13:00.000Z"
+      "title": "Clayface Review: DC Delivers Gruesome Body Horror",
+      "url": "https://www.themovieblog.com/2026/10/clayface-review-dc-delivers-gruesome-body-horror/",
+      "summary": "Clayface brings Gotham's monster to life through practical effects and strong performances, though some rushed moments hold it back. The post Clayface Review: DC Delivers Gruesome Body Horror appeare…",
+      "publishedAt": "2026-10-26T05:56:40.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7150,10 +7150,10 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'I Hope This Wonderful Game Lives On Forever' - Panzer Dragoon Saga Gets PC 'Recomp' from the Dev Behind Yaba Sanshiro",
-      "url": "https://www.timeextension.com/#article-208102",
-      "summary": "\"Built on the emulation technology of Yaba Sanshiro\". The developer behind the Sega Saturn emulator Yaba Sanshiro has created a 'PC port' of the legendary JRPG Panzer Dragoon Saga . Miyaxdev has rele…",
-      "publishedAt": "2026-10-26T10:00:00.000Z"
+      "title": "Enter, Stranger: New Knightmare Game in the Works to Celebrate the Legendary TV Show's 40th Anniversary",
+      "url": "https://www.timeextension.com/#article-208109",
+      "summary": "Ooooh naaaaasty... Welcome, Watchers of Illusion, to the Castle of Confusion... such were the opening words of the groundbreaking children's TV Knightmare , as spoken by its master of ceremonies, Tre…",
+      "publishedAt": "2026-10-26T11:30:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

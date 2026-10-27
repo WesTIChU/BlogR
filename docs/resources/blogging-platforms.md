@@ -15,6 +15,7 @@ Platforms and tools used to create and publish blogs.
 * **[DEV Community](https://dev.to/)** - Community publishing platform for developers and technical writers.
 * **[Ghost](https://ghost.org/)** - Modern publishing platform focused on writing, newsletters and memberships.
 * **[Hashnode](https://hashnode.com/)** - Blogging platform for developers, with support for custom domains.
+* **[JustBlogged](https://justblogged.com/)** - Blogging and publishing platform for creating and sharing blog posts.
 * **[Medium](https://medium.com/)** - Publishing platform with an established readership.
 * **[Substack](https://substack.com/)** - Blogging and newsletters with subscriptions and audience tools.
 * **[Tumblr](https://www.tumblr.com/)** - Social blogging platform for text, images, GIFs and multimedia.

@@ -282,7 +282,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -433,10 +433,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://arseblog.com/feed/",
     "latestArticle": {
-      "title": "A chance for rotation and rest as we face Fleetwood Town",
-      "url": "https://arseblog.com/2026/10/a-chance-for-rotation-and-rest-as-we-face-fleetwood-town/",
-      "summary": "Morning. We’re in EFL Cup action this evening, taking on Fleetwood Town at Highbury Stadium (not that one). Tonight’s opposition sit 18th in League Two, and this will surely influence Mikel Arteta’s …",
-      "publishedAt": "2026-10-27T06:49:31.000Z"
+      "title": "‘The 22’ launch event info – November 6th 2026",
+      "url": "https://arseblog.com/2026/10/the-22-launch-event-info-november-6th-2026/",
+      "summary": "Hi folks! I just wanted to give you details of our London event for the launch of The 22, the limited edition book we told you about last week. This will be taking place at Big Red on Holloway Road o…",
+      "publishedAt": "2026-10-27T16:55:31.000Z"
     }
   },
   "https://arun.is/blog/": {
@@ -1442,7 +1442,7 @@
     "latestArticle": {
       "title": "Olivia Muenter’s Hudson Valley Home Feels Right Out of a Nora Ephron Movie",
       "url": "https://cupofjo.com/2026/10/27/olivia-muenter-house-tour/",
-      "summary": "This past spring, we shared novelist Olivia Muenter’s week of outfits . Dozens of readers immediately left comments asking for a house tour of her 1863 farmhouse in the Hudson Valley, which she share…",
+      "summary": "This past spring, we shared novelist Olivia Muenter’s week of outfits . Dozens of readers immediately requested a tour of her 1863 farmhouse in the Hudson Valley, which she shares with her husband, J…",
       "publishedAt": "2026-10-27T16:26:49.000Z"
     }
   },
@@ -1769,7 +1769,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2000,7 +2000,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2169,10 +2169,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "How Bad Is That Bridge: A Government Database",
-      "url": "https://hackaday.com/2026/10/27/how-bad-is-that-bridge-a-government-database/",
-      "summary": "Bridges! We kind of expect them to just be there and do their job, ad infinitum. They are built into the landscape, and we often take them and the routes …read more",
-      "publishedAt": "2026-10-27T14:40:49.000Z"
+      "title": "Where Did Your Mouse Come From?",
+      "url": "https://hackaday.com/2026/10/27/where-did-your-mouse-come-from/",
+      "summary": "Many readers will be familiar with Douglas Englebart’s 1968 so-called “Mother of All Demos”, in which he described many of the devices and technologies we would be using two or …read more",
+      "publishedAt": "2026-10-27T17:00:23.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2180,9 +2180,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/sonys-soneium-brings-access-to-$549-million-royalties-fund-onchain?source=rss",
-      "summary": "Soneium, the blockchain entertainment ecosystem developed by Sony Group and Startale Group, is expanding into tokenized intellectual property investments through a collaboration with Asseto, bringing…",
-      "publishedAt": "2026-10-27T08:33:25.000Z"
+      "url": "https://hackernoon.com/meet-aviator-hackernoon-company-of-the-week?source=rss",
+      "summary": "Meet Aviator, the YC-backed developer tools company helping teams review, merge, and ship code, plus three Proof of Usefulness projects.",
+      "publishedAt": "2026-10-27T16:00:03.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2555,7 +2555,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2987,13 +2987,13 @@
   },
   "https://linuxblog.io/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://linuxblog.io/feed/",
     "latestArticle": {
-      "title": "MySQL Monitor: MySQL Monitoring Script",
-      "url": "https://linuxblog.io/mysql-monitor-script/",
-      "summary": "Updated October 2026: MySQL Monitor has had a major update. The single table of counters is now a live dashboard with per-second rates, alerts, health checks and process and top-query views. Continue…",
-      "publishedAt": "2026-10-24T15:52:11.000Z"
+      "title": "I was wrong! zswap IS better than zram",
+      "url": "https://linuxblog.io/zswap-better-than-zram/",
+      "summary": "Update (October 2026): I first published this article on September 1, 2025. In March 2026, kernel developer Chris Down published Debunking zswap and zram myths, which reaches the same conclusion: if …",
+      "publishedAt": "2026-10-27T12:30:49.000Z"
     }
   },
   "https://liorpachter.wordpress.com/": {
@@ -3621,10 +3621,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "Memo Paris Cosmos ~ new fragrance",
-      "url": "https://nstperfume.com/2026/10/27/memo-paris-cosmos-new-fragrance/",
-      "summary": "French niche line Memo has launched Cosmos, a new fragrance...",
-      "publishedAt": "2026-10-27T15:45:11.000Z"
+      "title": "Pierre Guillaume 10.2 Sphinxyness ~ new fragrance",
+      "url": "https://nstperfume.com/2026/10/27/pierre-guillaume-10-2-sphinxyness-new-fragrance/",
+      "summary": "French niche line Pierre Guillaume has launched a new fragrance, 10.2 Sphinxyness...",
+      "publishedAt": "2026-10-27T17:05:31.000Z"
     }
   },
   "https://nuchronic.uk/": {
@@ -4092,10 +4092,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Is the Dane Murray Slander Getting Out of Hand?",
-      "url": "https://readceltic.com/2026/10/27/is-the-dane-murray-slander-getting-out-of-hand/",
-      "summary": "I understand the frustration with Dane Murray. He has made mistakes in a Celtic shirt, and his performances The post Is the Dane Murray Slander Getting Out of Hand? appeared first on Read Celtic .",
-      "publishedAt": "2026-10-27T16:00:00.000Z"
+      "title": "Martin O’Neill Says Celtic Have Rejuvenated Him, But One Year After His Return Can We Honestly Say He’s Done The Same For The Football Club?",
+      "url": "https://readceltic.com/2026/10/27/martin-oneill-celtic-return-nostalgia-europe/",
+      "summary": "Martin O’Neill has admitted that his return to Celtic has rejuvenated him. And listening to his press conference The post Martin O’Neill Says Celtic Have Rejuvenated Him, But One Year After His Retur…",
+      "publishedAt": "2026-10-27T17:24:07.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -4675,13 +4675,13 @@
   },
   "https://somaryrose.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
-      "title": "Dance and Be Merry",
-      "url": "https://somaryrose.com/dance-and-be-merry/?utm_source=rss&utm_medium=rss&utm_campaign=dance-and-be-merry",
-      "summary": "Christians, when was the last time you danced? Whether by yourself in your room, at a wedding or at... The post Dance and Be Merry appeared first on So Maryrose .",
-      "publishedAt": "2026-10-25T16:52:53.000Z"
+      "title": "A Collection of Beautiful Vintage Nightwear In Pictures",
+      "url": "https://somaryrose.com/beautiful-vintage-nightwear-in-pictures/?utm_source=rss&utm_medium=rss&utm_campaign=beautiful-vintage-nightwear-in-pictures",
+      "summary": "I love looking at beautiful vintage nightwear – In general images from the past, it’s history and there’s so... The post A Collection of Beautiful Vintage Nightwear In Pictures appeared first on So M…",
+      "publishedAt": "2026-10-27T17:31:01.000Z"
     }
   },
   "https://speedbird.wordpress.com/": {
@@ -4925,7 +4925,7 @@
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
+    "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -5310,10 +5310,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://thesicktimes.org/feed/",
     "latestArticle": {
-      "title": "National COVID-19 trends, October 27",
-      "url": "https://thesicktimes.org/2026/10/27/national-covid-19-trends-october-27/?utm_source=rss&utm_medium=rss&utm_campaign=national-covid-19-trends-october-27",
-      "summary": "This summer’s COVID-19 wave is still lingering into the fall, as much of the country reports ongoing moderate to high disease levels in mid-October. While there’s some conflicting data about where ca…",
-      "publishedAt": "2026-10-27T16:22:08.000Z"
+      "title": "Research updates, October 27",
+      "url": "https://thesicktimes.org/2026/10/27/research-updates-october-27/?utm_source=rss&utm_medium=rss&utm_campaign=research-updates-october-27",
+      "summary": "Low-dose prednisolone may temporarily reduce some “symptom severity” of Long COVID, according to a new study in eClinicalMedicine. German researchers evaluated the drug, a corticosteroid that reduces…",
+      "publishedAt": "2026-10-27T17:42:38.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -5427,7 +5427,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5498,13 +5498,13 @@
   },
   "https://towerofzenopus.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://towerofzenopus.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Necessary Evil: Third Time's the Charm - Session 3: The Hammer of Justice",
-      "url": "https://towerofzenopus.blogspot.com/2026/10/necessary-evil-third-times-charm.html",
-      "summary": "Our Villains: MEGASTRIKE - Strong, radioactive Russian mobster brick. Played by Paladin Steve. A returning character from the prior attempts at this campaign. LEGION - Demonic leader of a criminal or…",
-      "publishedAt": "2026-10-26T18:00:00.000Z"
+      "title": "The Savage Worlds Adventure Deck",
+      "url": "https://towerofzenopus.blogspot.com/2026/10/the-savage-worlds-adventure-deck.html",
+      "summary": "One of the optional accessories for Savage Worlds is the Adventure Deck. This is different from the Action Deck which is cards used for initiative. Pinnacle's description of the deck: The Savage Worl…",
+      "publishedAt": "2026-10-27T17:00:00.000Z"
     }
   },
   "https://tracydurnell.com/mind-garden/": {
@@ -5545,7 +5545,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5942,10 +5942,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Skip the queue to buy LEGO Arkham Asylum at Amazon",
-      "url": "https://www.brickfanatics.com/skip-the-queue-to-buy-lego-arkham-asylum-at-amazon",
-      "summary": "There's a 60-day wait on LEGO.com, but you can skip the queue and pay the same price",
-      "publishedAt": "2026-10-27T16:27:41.000Z"
+      "title": "LEGO Editions needs a Harry Kane set after Ballon d’Or win",
+      "url": "https://www.brickfanatics.com/lego-editions-harry-kane-set-ballon-dor",
+      "summary": "And Alexia Putellas deserves a set, too",
+      "publishedAt": "2026-10-27T16:55:25.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6011,10 +6011,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "‘A Great Person, A Great Talent, And A Great Friend’: Animation Community Pays Tribute To Eric Bauza",
-      "url": "https://www.cartoonbrew.com/rip/animation-industry-pays-tribute-to-eric-bauza-268488.html",
-      "summary": "Friends and collaborators remember Eric Bauza as a gifted performer, artist, animation advocate, and generous friend who brought people together.",
-      "publishedAt": "2026-10-27T14:58:23.000Z"
+      "title": "‘Wildwood’ Debuts; ‘When The Wind Blows’ Turns 40; Remembering Eric Bauza",
+      "url": "https://www.cartoonbrew.com/newsletter/wildwood-debuts-when-the-wind-blows-turns-40-remembering-eric-bauza-268513.html",
+      "summary": "This week, the animation community is mourning Eric Bauza, who died Sunday at 46. The remarkably versatile voice actor was also one of the medium’s most passionate advocates, and we’ve … Continued",
+      "publishedAt": "2026-10-27T15:59:08.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -6133,13 +6133,13 @@
   },
   "https://www.designswarm.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
-      "title": "Sunday Scraps #127",
-      "url": "https://www.designswarm.com/blog/2026/10/sunday-scraps-127/",
-      "summary": "A fabulous documentary about Andy Warhol / a Pride Poppy pin / a lovely blog post about product people / the new Apple home screen is the least elegant smart home display I’ve seen in a long time / J…",
-      "publishedAt": "2026-10-25T21:05:06.000Z"
+      "title": "Weeknote 13: remember, remember",
+      "url": "https://www.designswarm.com/blog/2026/10/weeknote-13-remember-remember/",
+      "summary": "I have been organising a paper conference for the last few years so naturally I get interested in paper at work. We have a bias towards eliminating paper as much as possible both in population facing…",
+      "publishedAt": "2026-10-27T17:12:40.000Z"
     }
   },
   "https://www.digitalocean.com/community/tutorials": {
@@ -6374,10 +6374,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Royal blingfest to bring 500 years of jewellery to the King’s Gallery",
-      "url": "https://www.ianvisits.co.uk/articles/royal-blingfest-to-bring-500-years-of-jewellery-to-the-kings-gallery-93511/",
-      "summary": "Over 500 years of royal jewellery will go on display next year, and tickets to the blingfest go on sale shortly. Read more ›",
-      "publishedAt": "2026-10-27T14:00:07.000Z"
+      "title": "The London Buzz – 27th Oct 2026",
+      "url": "https://www.ianvisits.co.uk/articles/the-london-buzz-27th-oct-2026-93615/",
+      "summary": "Today’s London news round-up: Read more ›",
+      "publishedAt": "2026-10-27T17:00:26.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -6540,7 +6540,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6548,9 +6548,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/27/in-sunlit-for-ios-released.html",
-      "summary": "In Sunlit 4.0 for iOS, released today, we’re trying something new to make the default feed mostly photos. Micro.blog now tries to classify JPEGs as actually photos to weed out screenshots, memes, and…",
-      "publishedAt": "2026-10-27T16:00:00.000Z"
+      "title": "AI-assisted science",
+      "url": "https://www.manton.org/2026/10/27/aiassisted-science.html",
+      "summary": "I don’t pretend to understand these discoveries in math, computer science, and physics announced by OpenAI. I spent an hour last night reading about them. Even if I can’t wrap my brain around them, t…",
+      "publishedAt": "2026-10-27T16:54:51.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -6603,7 +6604,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/rss.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6633,7 +6634,7 @@
     "latestArticle": {
       "title": "Wabbit Eternal",
       "url": "https://www.newsfromme.com/2026/10/27/wabbit-eternal/",
-      "summary": "The no-one-saw-it-coming death of Eric Bauza has hit a lot of people, in and outside the animation industry hard. That's in part because the man was so accessible and friendly. He said yes to every e…",
+      "summary": "The no-one-saw-it-coming death of Eric Bauza has hit a lot of people, in and outside the animation industry, hard. That's in part because the man was so accessible and friendly. He said yes to every …",
       "publishedAt": "2026-10-27T10:55:54.000Z"
     }
   },
@@ -6841,7 +6842,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -6987,13 +6988,13 @@
   },
   "https://www.stuckinabook.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Announcing the next club… by flixfox download",
-      "url": "https://www.stuckinabook.com/announcing-the-next-club-9/#comment-174136",
-      "summary": "Tôi sẽ tiếp tục ủng hộ trang này flixfox download TONY10-23",
-      "publishedAt": "2026-10-26T17:40:40.000Z"
+      "title": "Comment on Don’t anthrax the otters! Peas in a Podcast #25 by Sarah",
+      "url": "https://www.stuckinabook.com/dont-anthrax-the-otters-peas-in-a-podcast-25/#comment-174160",
+      "summary": "Thanks for allowing me to eavesdrop on your meandering musings and generally great fun banter once again!",
+      "publishedAt": "2026-10-27T16:53:51.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -7208,10 +7209,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "Techart LMEA9 Review Update: Negating Sony’s Award Winning Autofocus",
-      "url": "https://www.thephoblographer.com/2026/10/27/techart-lmea9-review-update-negating-sonys-award-winning-autofocus/",
-      "summary": "Back in 2022, I reviewed the Techart LMEA9 adapter. This big, fat, ring is a matrimony of Leica M lenses and Sony's modern cameras with autofocus. Since its launch, there've been multiple firmware up…",
-      "publishedAt": "2026-10-27T13:00:00.000Z"
+      "title": "8 Nikon DSLRs Behind Major Award-Winning Photos",
+      "url": "https://www.thephoblographer.com/2026/10/27/8-nikon-dslrs-behind-major-award-winning-photos/",
+      "summary": "The Nikon DSLRs that have won awards are the Nikon D500, the D850, the D5, the D3, the D4s, the D600, the D3200, and the D750. It's crazy to think that one of those, the Nikon D3, is from 2007! Nikon…",
+      "publishedAt": "2026-10-27T17:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -7227,13 +7228,13 @@
   },
   "https://www.thewaywardhome.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.thewaywardhome.com/feed/",
     "latestArticle": {
-      "title": "I Sail Salt Water. I Asked Sailors Who’ve Done Both What Really Changes When You Leave the Lake.",
-      "url": "https://www.thewaywardhome.com/lake-sailing-vs-ocean-sailing/",
-      "summary": "Lake sailing versus ocean sailing, answered by more than a hundred sailors who have done both: steep short chop versus long swell, fluky wind versus steady, tides, salt, and why a lake can scare you …",
-      "publishedAt": "2026-10-24T16:19:32.000Z"
+      "title": "Want to Camp Naked? Everything You Were Too Scared to Ask about Nudist Campgrounds.",
+      "url": "https://www.thewaywardhome.com/staying-at-a-nude-campground/",
+      "summary": "What staying at a nude campground is really like, from the people who do it: the two kinds of club and how to tell them apart, the towel rule, cameras, single men, day passes, what to pack, and the h…",
+      "publishedAt": "2026-10-27T17:14:26.000Z"
     }
   },
   "https://www.thisishorror.co.uk/": {
@@ -7263,10 +7264,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'A Mark of Its Heritage Awaiting Rediscovery' - Polymega Gets Cryptic with Dramatic Social Media Post",
-      "url": "https://www.timeextension.com/#article-208199",
-      "summary": "Prosymega. Playmaji, the developer behind physical-media-reading multi-console Polymega , has posted a cryptic message on the company's X account , filled with dramatic, purple text but not overtly t…",
-      "publishedAt": "2026-10-27T16:00:00.000Z"
+      "title": "Korean Ratings Board Lists Capcom Console Releases Inc. NES & SNES Final Fight, Mega Man, & Breath of Fire Games",
+      "url": "https://www.timeextension.com/#article-208207",
+      "summary": "Console collection incoming? Everyone's favourite whistleblower, The Game Rating and Administration Committee of Korea, has a new listing featuring a wide variety of classic Capcom titles that have b…",
+      "publishedAt": "2026-10-27T17:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -7391,10 +7392,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Aaron Sorkin Admits He Has “No Visual Sensibility\" as a Director, Questions His “Talent”",
-      "url": "https://www.worldofreel.com/blog/2026/10/27/aaron-sorkin-admits-he-has-no-visual-sensibility-as-a-director-questions-his-talent",
-      "summary": "You don't see this every day: a major filmmaker, mid-release, admitting he's just not very good at his job. That’s exactly what Aaron Sorkin has done as “The Social Reckoning” dies a slow death in th…",
-      "publishedAt": "2026-10-27T14:59:36.000Z"
+      "title": "‘Dune 3’ Final Trailer: Denis Villeneuve Has Taken Massive Liberties With ‘Messiah’ — That’s Perfectly Fine",
+      "url": "https://www.worldofreel.com/blog/2026/10/27/dune-3-final-trailer-denis-villeneuve-has-taken-massive-liberties-with-messiah-thats-perfectly-fine",
+      "summary": "Warner Bros. has dropped the final trailer for Denis Villeneuve's \"Dune: Part Three,\" and with the film only weeks away, this is the last big look we're getting before opening day.",
+      "publishedAt": "2026-10-27T16:54:20.000Z"
     }
   },
   "https://www.zachleat.com/": {

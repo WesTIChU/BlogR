@@ -102,13 +102,13 @@
   },
   "https://13thdimension.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://13thdimension.com/feed/",
     "latestArticle": {
-      "title": "PAVEL CHEKOV’s 13 GREATEST HITS: A Walter Koenig Salute",
-      "url": "https://13thdimension.com/pavel-chekovs-13-greatest-hits-a-walter-koenig-birthday-salute/",
-      "summary": "The STAR TREK actor has died at the age of 90… — UPDATED 10/26/26: Actor Walter Koenig has died at the age of 90. The piece below first ran Sept. 14, 2023, his birthday. — Dan — By JIM BEARD, Editor …",
-      "publishedAt": "2026-10-26T19:30:51.000Z"
+      "title": "RYAN SOOK’s Latest LEX LUTHOR Parody Cover Takes You Back to the Golden Age",
+      "url": "https://13thdimension.com/ryan-sooks-latest-lex-luthor-parody-cover-takes-you-back-to-the-golden-age/",
+      "summary": "A tip of the cape to Jack Burnley… In case you’ve been unaware, artist Ryan Sook is doing a run of variant covers for Action Comics’ Lex Luthor: Year One arc by Mark Waid and Patricio Delpeche — each…",
+      "publishedAt": "2026-10-27T04:08:28.000Z"
     }
   },
   "https://1morefilmblog.com/": {
@@ -577,11 +577,11 @@
   },
   "https://bearalley.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://bearalley.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Comic Cuts: Banksy & the art of dissent",
-      "publishedAt": "2026-10-26T17:38:39.000Z"
+      "title": "Comic Cuts:  Banksy & the art of dissent",
+      "publishedAt": "2026-10-27T05:03:00.000Z"
     }
   },
   "https://bearfoottheory.com/": {
@@ -1737,7 +1737,8 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable"
+    "status": "unknown",
+    "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
     "status": "success",
@@ -1807,13 +1808,13 @@
   },
   "https://evidenceanecdotal.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://evidenceanecdotal.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "'The Breezy Wight Who Cannot See'",
-      "url": "https://evidenceanecdotal.blogspot.com/2026/10/i-often-think-about-continuity-of.html",
-      "summary": "I often think about the continuity of personality. Not in the abstract sense, as an academic exercise in human psychology. Rather, as an aspect of your life and mine. Are we the same people we were a…",
-      "publishedAt": "2026-10-26T05:00:00.000Z"
+      "title": "'Pass Judgment on Only What He Understands'",
+      "url": "https://evidenceanecdotal.blogspot.com/2026/10/pass-judgment-on-only-what-he.html",
+      "summary": "“Anyone who says the artist’s field is all answers and no questions has never done any writing or had any dealings with imagery. . . . You are confusing two concepts: answering the questions and form…",
+      "publishedAt": "2026-10-27T05:00:00.000Z"
     }
   },
   "https://expertvagabond.com/": {
@@ -2136,10 +2137,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "In Praise Of A Legendary Power Transistor",
-      "url": "https://hackaday.com/2026/10/26/in-praise-of-a-legendary-power-transistor/",
-      "summary": "There are some devices which achieve electronic immortality, it’s likely that you have used a few of them yourself. The 555 timer of course, or the 741 op-amp. [ElectronicsNotes] is …read more",
-      "publishedAt": "2026-10-27T02:00:15.000Z"
+      "title": "The Oldest Windows App To Still Run On WIndows 11",
+      "url": "https://hackaday.com/2026/10/26/the-oldest-windows-app-to-still-run-on-windows-11/",
+      "summary": "In the open source world we are used to software being compiled from source for our particular distro, so while in a few cases an ancient release may still be …read more",
+      "publishedAt": "2026-10-27T05:00:21.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3749,12 +3750,12 @@
   },
   "https://philsworkbench.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://philsworkbench.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "GETS haul",
-      "summary": "Not a lot of stuff for me from GETS. There were a few purchases for work projects, but I'm still being restrained as I have so much stuff in the stash, and not enough time to build it all! Of course,…",
-      "publishedAt": "2026-10-26T05:30:00.000Z"
+      "title": "The CatBus",
+      "summary": "Remember when I went to see \" My Neighbour Totoro \"? I quickly became obsessed with the CatBus, but not so much I'd pay £40 for a plush version that didn't look that great to me. Instead, I dug aroun…",
+      "publishedAt": "2026-10-27T05:30:00.000Z"
     }
   },
   "https://photography.mihobu.net/": {
@@ -5353,7 +5354,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5788,7 +5789,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -5975,6 +5976,10 @@
       "summary": "Join Collaborative Fund as an Investment Associate Collaborative Fund is hiring an Investment Associate to join our team in New York. We back entrepreneurs pushing the world forward. We look for busi…",
       "publishedAt": "2026-10-14T09:16:00.000Z"
     }
+  },
+  "https://www.countmydays.to/": {
+    "status": "unknown",
+    "feedUrl": "https://www.countmydays.to/index.xml"
   },
   "https://www.creepypasta.com/": {
     "status": "success",
@@ -6617,12 +6622,12 @@
   },
   "https://www.oldstyletales.com/blog": {
     "status": "success",
-    "lastPublished": "2026-10-18",
+    "lastPublished": "2026-10-26",
     "feedUrl": "https://www.oldstyletales.com/blog-feed.xml",
     "latestArticle": {
-      "url": "https://www.oldstyletales.com/single-post/sympathy-and-haunting-in-nineteenth-century-scottish-ghost-stories-a-lecture-given-to-the-house-of",
-      "summary": "The following lecture was presented to and recorded for the House of Burnett for the Halloween-themed October 14th symposium. The House of Burnett is a non-profit international Scottish heritage asso…",
-      "publishedAt": "2026-10-18T19:45:07.000Z"
+      "url": "https://www.oldstyletales.com/single-post/2019/05/07/washington-irvings-the-adventure-of-the-german-student-a-two-minute-summary-and-analysis",
+      "summary": "Aside from “The Legend of Sleepy Hollow” and “Rip Van Winkle,” no ghost story by Irving has enjoyed the enduring popularity — among both publishers and readers — of “The Adventure of the German Stude…",
+      "publishedAt": "2026-10-26T16:08:39.000Z"
     }
   },
   "https://www.omgubuntu.co.uk/": {
@@ -6638,13 +6643,13 @@
   },
   "https://www.oneletterwords.com/weblog/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://feeds.feedburner.com/oneletterwords/abecedarian",
     "latestArticle": {
-      "title": "Precursors",
-      "url": "https://www.oneletterwords.com/weblog/?id=117724",
-      "summary": "A century before \"Live, Laugh, Love,\" there was \"Stop! Think! Laugh!\" From Little Folks , 1920.",
-      "publishedAt": "2026-10-26T04:00:00.000Z"
+      "title": "Restoring the Lost Sense",
+      "url": "https://www.oneletterwords.com/weblog/?id=117696",
+      "summary": "This is the way we keep still, too. From Little Folks , 1920.",
+      "publishedAt": "2026-10-27T04:00:00.000Z"
     }
   },
   "https://www.onstageblog.com/onscreenblog": {
@@ -6981,9 +6986,9 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
+    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
     "latestArticle": {
       "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
       "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
@@ -7276,10 +7281,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "🚴‍♀️ Ride: Catch up with Jonathan",
-      "url": "https://www.web-goddess.org/archive/95595",
-      "summary": "A quick hilly ride through Forest Lodge and Annandale. I had a juice with our baklava because I’d already had a coffee, but it still counts as my 4th #coffeeneuring ! Time: 25min / Distance: 5.3km",
-      "publishedAt": "2026-10-27T01:22:16.000Z"
+      "title": "I voted 🇺🇸",
+      "url": "https://www.web-goddess.org/archive/95600",
+      "summary": "Just sent back my Absentee ballot. I’m proud to vote for Jamee Decio as my Indiana Representative. She’s an Elkhart native, proud union member, and one of the first women to graduate from Notre Dame …",
+      "publishedAt": "2026-10-27T05:05:18.000Z"
     }
   },
   "https://www.web3isgoinggreat.com/": {

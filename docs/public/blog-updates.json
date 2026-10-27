@@ -922,13 +922,13 @@
   },
   "https://britishcoast.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://britishcoast.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Special: Walking the coast of Lithuania: LIT4 Juodkrantė to the Russian Border",
-      "url": "https://britishcoast.wordpress.com/2026/10/23/special-walking-the-coast-of-lithuania-lit4-juodkrante-to-the-russian-border/",
-      "summary": "September 2026 Today I hoped I would finish walking the coast of Lithuania, continuing from Juodkrantė where I got to yesterday to the border with Russia, or at least as close as I could get. I was s…",
-      "publishedAt": "2026-10-23T21:44:11.000Z"
+      "title": "546. Aberdaron circular via Whistling Sands (Porth Oer)",
+      "url": "https://britishcoast.wordpress.com/2026/10/27/546-aberdaron-circular-via-whistling-sands-porth-oer/",
+      "summary": "March 2018 Today was the first day of a 4 day trip to the Llŷn Peninsula. This meant I was starting the day at home. As I wanted to get a walk in before it got dark (this was in … Continue reading →",
+      "publishedAt": "2026-10-27T23:21:45.000Z"
     }
   },
   "https://britishlandscapesphotography.co.uk/": {
@@ -1659,13 +1659,13 @@
   },
   "https://discontinuednotes.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://discontinuednotes.com/feed/",
     "latestArticle": {
-      "title": "Ice Core Choir & Pumpkin Percussion",
-      "url": "https://discontinuednotes.com/2026/10/25/ice-core-choir-pumpkin-percussion/",
-      "summary": "We went to the Barbican again to see another programme of work by Hannah Peel. This time we were in the main Hall. Here’s the model of the dear old Barbican Centre itself: In the Hall: Like any other…",
-      "publishedAt": "2026-10-25T09:15:32.000Z"
+      "title": "Street Art",
+      "url": "https://discontinuednotes.com/2026/10/27/street-art/",
+      "summary": "I went to Birmingham again. I wanted to get to see the Ikon Gallery that I missed because I previously went up on a Monday. I also wanted to look at two other galleries I had just heard of. To make t…",
+      "publishedAt": "2026-10-27T23:00:02.000Z"
     }
   },
   "https://distantarcade.co.uk/": {
@@ -2074,10 +2074,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Inside Area 51’s UFO Secrets | Documentary",
-      "url": "https://greatawakeningreport.com/inside-area-51s-ufo-secrets-documentary/",
-      "summary": "No patch of desert on Earth carries more mythology per square mile than the dry lakebed at Groom Lake. This Area 51 UFO secrets documentary works through the layers of that mythology methodically, se…",
-      "publishedAt": "2026-10-27T20:35:00.000Z"
+      "title": "Supernova | Full Disaster Movie",
+      "url": "https://greatawakeningreport.com/supernova-full-disaster-movie/",
+      "summary": "Set expectations correctly before you start this one. Supernova is a disaster movie, a work of fiction with actors and a script, not a documentary and not a briefing. It sits in the library because t…",
+      "publishedAt": "2026-10-27T23:10:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -2170,10 +2170,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
-      "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader/",
-      "summary": "The humble credit card reader — most of us have used hundreds, perhaps even thousands of them over the years. But even for folks like us, it’s not the sort …read more",
-      "publishedAt": "2026-10-27T20:00:33.000Z"
+      "title": "How a Single University Project Started Everything",
+      "url": "https://hackaday.com/2026/10/27/how-a-single-university-project-started-everything/",
+      "summary": "If we care to cast an eye over the history of ubiquitous personal computing as we know it today, we might immediately point at the original IBM PC. After all, …read more",
+      "publishedAt": "2026-10-27T23:00:07.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -4924,7 +4924,7 @@
     }
   },
   "https://theautisticadvocate.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-15",
     "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
@@ -6403,7 +6403,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6604,7 +6604,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6708,10 +6708,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Firefox 159 released with Wayland Linux fixes",
-      "url": "https://www.omgubuntu.co.uk/2026/10/firefox-159-released",
-      "summary": "Firefox 159 is out, with a fresh set of improvements and some Linux-specific fixes. Now that Mozilla’s browser hews to a faster release cadence, with two releases a month rather than one, some change…",
-      "publishedAt": "2026-10-27T01:28:51.000Z"
+      "title": "Ubuntu firmware HWE will prevent issues on older kernel",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-firmware-hwe-effort-moving-forward",
+      "summary": "Ubuntu is planning a new linux-firmware-hwe package, in an effort to reduce the risk of firmware updates for newer kernels causing problems for users running older ones. On Ubuntu long-term support (…",
+      "publishedAt": "2026-10-27T23:15:24.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -6807,13 +6807,13 @@
   },
   "https://www.pepysdiary.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "http://feeds.feedburner.com/PepysDiary",
     "latestArticle": {
-      "title": "Monday 26 October 1663",
-      "url": "https://www.pepysdiary.com/diary/1663/10/26/",
-      "summary": "Waked about one o'clock in the morning ... [to piss (having gone so soon over-night to bed) and then – L&M] my wife being waked rung her bell, and the mayds rose and went to washing, we to sleep agai…",
-      "publishedAt": "2026-10-26T23:00:00.000Z"
+      "title": "Tuesday 27 October 1663",
+      "url": "https://www.pepysdiary.com/diary/1663/10/27/",
+      "summary": "Up, and my uncle Thomas and his scrivener bringing me a bond and affidavit to my mind, I paid him his 20l. for his daughter's legacy, and 5l. more for a Quarter's annuity, in the manner expressed in …",
+      "publishedAt": "2026-10-27T23:00:00.000Z"
     }
   },
   "https://www.personalwebsitedirectory.com/": {
@@ -7002,10 +7002,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "(Flashing in small portion of image)",
-      "url": "https://www.suppermariobroth.com/post/831654661006163968",
-      "summary": "(Flashing in small portion of image) It is possible to hack a Nintendo 2DS/3DS system merely by entering a co-op multiplayer match in New Super Mario Bros. 2 with a system that is already hacked and …",
-      "publishedAt": "2026-10-27T19:01:30.000Z"
+      "title": "Top: in Paper Mario: The Thousand-Year Door, the Poison Shroom is a recipe cooked by Zess T., the&hellip;",
+      "url": "https://www.suppermariobroth.com/post/831666021917179904",
+      "summary": "Top: in Paper Mario: The Thousand-Year Door, the Poison Shroom is a recipe cooked by Zess T., the description of which states that “it will poison you!” As such, most players are likely to either not…",
+      "publishedAt": "2026-10-27T22:02:04.000Z"
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
@@ -7187,21 +7187,21 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Way of the Warrior Kid Trailer: Chris Pratt Stars in New Apple Film",
-      "url": "https://www.themovieblog.com/2026/10/way-of-the-warrior-kid-trailer-chris-pratt/",
-      "summary": "Apple Original Films has released the first trailer for Way of the Warrior Kid, an inspiring new feature starring Chris Pratt and Jude Hill. The post Way of the Warrior Kid Trailer: Chris Pratt Stars…",
-      "publishedAt": "2026-10-27T22:35:00.000Z"
+      "title": "Amanda Seyfried Reflects on Turning Down Guardians of the Galaxy Role",
+      "url": "https://www.themovieblog.com/2026/10/amanda-seyfried-reflects-on-turning-down-guardians-of-the-galaxy-role/",
+      "summary": "Amanda Seyfried opens up about her decision to pass on the role of Gamora in the Marvel Cinematic Universe, prioritizing her family over the blockbuster franchise. The post Amanda Seyfried Reflects o…",
+      "publishedAt": "2026-10-27T23:25:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "A Bee Stung My Index Finger Today. I Didn't LIke it",
-      "url": "https://www.thenewestrant.com/2026/10/a-bee-stung-my-index-finger-today-i.html",
-      "summary": "I've been stung by bees maybe twice in my life. Once on my shoulder at the pool (I wasn't wearing a shirt); another time on my arm at a park. It is always unpleasant, starting with a sudden sharp and…",
-      "publishedAt": "2026-10-26T23:18:03.237Z"
+      "title": "The Saint Charles QuadCon is this Saturday, Halloween!",
+      "url": "https://www.thenewestrant.com/2026/10/the-saint-charles-quadcon-is-this.html",
+      "summary": "This Saturday will mark both Halloween and the latest QuadCon in Saint Charles. QuadCon puts on all kinds of great shows, and it is fun that folks can spend the morning and afternoon at a great comic…",
+      "publishedAt": "2026-10-27T23:07:54.727Z"
     }
   },
   "https://www.thephoblographer.com/": {

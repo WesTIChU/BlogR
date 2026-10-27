@@ -8287,5 +8287,17 @@
     "lastChecked": "2026-10-25T12:44:31.742Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://trendsfaq.com/": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T04:51:52.000Z",
+    "status": "success",
+    "feedUrl": "https://trendsfaq.com/rss.xml",
+    "latestArticle": {
+      "title": "AWS Lambda Runtime Deprecation Dates: 2026-2027",
+      "url": "https://trendsfaq.com/tech/aws-lambda-runtime-deprecation-dates-2027/",
+      "summary": "AWS Lambda deprecates Python 3.10 on October 31, 2026 and .NET 8 on November 10, 2026. All deprecation, create-block and update-block dates in one table.",
+      "publishedAt": "2026-10-26T00:00:00.000Z"
+    }
   }
 }

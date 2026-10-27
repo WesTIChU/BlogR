@@ -7,8 +7,8 @@ import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
 // Country groups are included in the public page and sitemap counts.
-const expectedPublicPageCount = 69
-const expectedSitemapPageCount = 68
+const expectedPublicPageCount = 71
+const expectedSitemapPageCount = 70
 
 const htmlFiles = async () => {
   const files = []

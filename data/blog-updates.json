@@ -8299,5 +8299,41 @@
       "summary": "AWS Lambda deprecates Python 3.10 on October 31, 2026 and .NET 8 on November 10, 2026. All deprecation, create-block and update-block dates in one table.",
       "publishedAt": "2026-10-26T00:00:00.000Z"
     }
+  },
+  "https://cinemassacre.com/": {
+    "lastPublished": "2026-10-22",
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "success",
+    "feedUrl": "https://cinemassacre.com/feed/",
+    "latestArticle": {
+      "title": "Hubie Halloween (2020) – Monster Madness XX",
+      "url": "https://cinemassacre.com/hubie-halloween-2020-monster-madness-xx/",
+      "summary": "It’s Cinemassacre’s Monster Madness XX: Trick or Treat! This year I’m covering movies that take place on Halloween. Hubie Halloween (2020) is a change of pace, an Adam Sandler comedy set on Halloween…",
+      "publishedAt": "2026-10-22T21:19:11.000Z"
+    }
+  },
+  "https://ejesim.com/blog/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://meeow.org/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "unavailable",
+    "feedUrl": null
+  },
+  "https://lawasked.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "unknown",
+    "feedUrl": "https://lawasked.com/favicon.svg"
+  },
+  "https://transmissionfluid.net/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "unknown",
+    "feedUrl": "https://transmissionfluid.net/icon.svg?6de96fc3fe604761"
   }
 }

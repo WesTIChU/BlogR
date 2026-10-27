@@ -1145,6 +1145,17 @@
       "publishedAt": "2026-10-10T05:00:00.000Z"
     }
   },
+  "https://cinemassacre.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-22",
+    "feedUrl": "https://cinemassacre.com/feed/",
+    "latestArticle": {
+      "title": "Hubie Halloween (2020) – Monster Madness XX",
+      "url": "https://cinemassacre.com/hubie-halloween-2020-monster-madness-xx/",
+      "summary": "It’s Cinemassacre’s Monster Madness XX: Trick or Treat! This year I’m covering movies that take place on Halloween. Hubie Halloween (2020) is a change of pace, an Adam Sandler comedy set on Halloween…",
+      "publishedAt": "2026-10-22T21:19:11.000Z"
+    }
+  },
   "https://cityxtra.co.uk/": {
     "status": "success",
     "lastPublished": "2026-10-26",
@@ -1723,6 +1734,9 @@
     }
   },
   "https://eien-melody.net/ami/index.php": {
+    "status": "unavailable"
+  },
+  "https://ejesim.com/blog/": {
     "status": "unavailable"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2856,6 +2870,10 @@
       "publishedAt": "2026-10-25T03:30:00.000Z"
     }
   },
+  "https://lawasked.com/": {
+    "status": "unknown",
+    "feedUrl": "https://lawasked.com/favicon.svg"
+  },
   "https://leancrew.com/all-this/": {
     "status": "success",
     "lastPublished": "2026-10-26",
@@ -3204,6 +3222,9 @@
     "status": "success",
     "lastPublished": "2026-09-20",
     "feedUrl": "https://mediocregopher.com/feed.xml"
+  },
+  "https://meeow.org/": {
+    "status": "unavailable"
   },
   "https://merseypub.blogspot.com/": {
     "status": "success",
@@ -5423,6 +5444,10 @@
       "publishedAt": "2026-10-24T03:33:50.000Z"
     }
   },
+  "https://transmissionfluid.net/": {
+    "status": "unknown",
+    "feedUrl": "https://transmissionfluid.net/icon.svg?6de96fc3fe604761"
+  },
   "https://travelbetweenthepages.com/": {
     "status": "success",
     "lastPublished": "2026-10-27",
@@ -5432,6 +5457,17 @@
       "url": "https://travelbetweenthepages.com/2026/10/27/kafkas-metro/",
       "summary": "Kafka’s Metro is a real clickbait title since Prague’s Metro, or more precisely Metroskop, wasn’t even opened until 1974, which was 50 years after Franz Kafka’s death. But since you’re reading the po…",
       "publishedAt": "2026-10-27T04:01:51.000Z"
+    }
+  },
+  "https://trendsfaq.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-26",
+    "feedUrl": "https://trendsfaq.com/rss.xml",
+    "latestArticle": {
+      "title": "AWS Lambda Runtime Deprecation Dates: 2026-2027",
+      "url": "https://trendsfaq.com/tech/aws-lambda-runtime-deprecation-dates-2027/",
+      "summary": "AWS Lambda deprecates Python 3.10 on October 31, 2026 and .NET 8 on November 10, 2026. All deprecation, create-block and update-block dates in one table.",
+      "publishedAt": "2026-10-26T00:00:00.000Z"
     }
   },
   "https://trueadventureseeker.com/": {

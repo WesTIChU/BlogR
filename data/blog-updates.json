@@ -971,15 +971,15 @@
     }
   },
   "https://grognardia.blogspot.com/": {
-    "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-23T16:44:30.161Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://grognardia.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Con Season (Part II)",
-      "url": "https://grognardia.blogspot.com/2026/10/con-season-part-ii.html",
-      "summary": "I've been back from Gamehole Con for a few days and am now preparing to attend another, local convention, CleriCon . I attended for the first time last year and had a great time. I'll be running a co…",
-      "publishedAt": "2026-10-23T15:54:54.450Z"
+      "title": "Post-Con Thoughts",
+      "url": "https://grognardia.blogspot.com/2026/10/post-con-thoughts.html",
+      "summary": "As I've said innumerable times on this blog over the years, I am not a regular attendee of gaming conventions and yet, over the last couple of weeks, I've attended not one but two of them, specifical…",
+      "publishedAt": "2026-10-27T20:50:51.313Z"
     }
   },
   "https://handeaux.tumblr.com/": {
@@ -1067,9 +1067,9 @@
   },
   "https://jamesg.blog/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T14:44:34.916Z",
-    "status": "success",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "Designing the Wonders of Web Weaving website",
       "url": "https://jamesg.blog/2026/10/27/www-site-design",
@@ -3033,8 +3033,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3117,12 +3117,12 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
       "title": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
-      "url": "https://9to5linux.com/mozilla-thunderbird-159-email-client-improves-tray-icon-support-on-linux",
+      "url": "https://9to5linux.com/mozilla-thunderbird-159-email-client-improves-tray-icon-support-on-linux?utm_source=rss",
       "summary": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. The post Mozilla Thu…",
       "publishedAt": "2026-10-27T18:07:42.000Z"
     }
@@ -3309,8 +3309,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3339,20 +3339,20 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T07:44:30.151Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
-      "title": "Make Ahead Texas Roadhouse Rolls",
-      "url": "https://iamafoodblog.com/texas-roadhouse-rolls/",
-      "summary": "Get endless fresh baked Texas Roadhouse rolls right at home: pillowy soft, squishy, and just so good with honey cinnamon butter.",
-      "publishedAt": "2026-10-26T07:05:53.000Z"
+      "title": "Make Ahead Turkey Gravy (One Pan, No Drippings Needed)",
+      "url": "https://iamafoodblog.com/make-ahead-turkey-gravy/",
+      "summary": "Make the most relaxing afternoon extra-turkey-ful gravy ahead of time instead of panic cooking while you have an audience.",
+      "publishedAt": "2026-10-27T20:56:21.000Z"
     }
   },
   "https://jensfoodblog.com/": {
@@ -3511,15 +3511,15 @@
     }
   },
   "https://bricknerd.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T17:44:36.574Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://bricknerd.com/home?format=rss",
     "latestArticle": {
-      "title": "Happily Ever After? A Close Look at the LEGO Shrek Minifigures",
-      "url": "https://bricknerd.com/home/happily-ever-after-a-close-look-at-the-lego-shrek-minifigures-10-26-26",
-      "summary": "Shrek’s fairy-tale cast has arrived in LEGO minifigure form, but does everyone get a happily ever after? We take a close look at the movie references, a few puzzling design choices, and some useful p…",
-      "publishedAt": "2026-10-26T17:30:00.000Z"
+      "title": "The Galidor Horror Picture Show",
+      "url": "https://bricknerd.com/home/the-galidor-horror-picture-show-10-27-22",
+      "summary": "Galidor. A retired theme with a cult following, nearly universally hated by all. Just look at it. What part of this makes you think “LEGO?” Today we’ll take a look at the horrors of Galidor.",
+      "publishedAt": "2026-10-27T13:00:00.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -3930,15 +3930,15 @@
     }
   },
   "https://blog.omgmog.net/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T09:44:34.099Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://blog.omgmog.net/feed.xml",
     "latestArticle": {
-      "title": "Batman on the Sega, Switch games on iPhone, and Local Wikipedia",
-      "url": "https://blog.omgmog.net/lwal/week-43/",
-      "summary": "Links from social.omgmog.net for Monday 19th to Sunday 25th October. It was a patchy week on my end, as I spent the latter half of it and the whole weekend patching an old VPS and moving a handful of…",
-      "publishedAt": "2026-10-26T00:00:00.000Z"
+      "title": "PHP2Shell and the case for building boring sites",
+      "url": "https://blog.omgmog.net/post/php2shell-and-the-case-for-building-boring-sites/",
+      "summary": "From Wednesday 21 October to the end of the weekend, I was patching an old VPS and moving a handful of sites onto a new one. PHP2Shell finally made the decision for me. This blog carried on regardles…",
+      "publishedAt": "2026-10-27T00:00:00.000Z"
     }
   },
   "https://netwars.pelicancrossing.net/": {
@@ -4538,8 +4538,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4567,15 +4567,15 @@
     }
   },
   "https://pulpcovers.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T20:08:02.686Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "Movies Train Big-Game Fishermen",
-      "url": "https://pulpcovers.com/movies-train-big-game-fishermen/",
+      "title": "How Rough Can It Get?",
+      "url": "https://pulpcovers.com/how-rough-can-it-get/",
       "summary": "via",
-      "publishedAt": "2026-10-26T18:55:10.000Z"
+      "publishedAt": "2026-10-27T21:14:18.000Z"
     }
   },
   "https://www.righto.com/": {
@@ -5154,8 +5154,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5928,13 +5928,13 @@
   },
   "https://itstartswithabirthstone.blogspot.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "500 Greatest Albums of the 2000's # 19 Joanna Newsom  Ys",
-      "summary": "There's an unorthodoxy about Joanna Newsom's work which in itself is remarkable and noteworthy. But then you listen to her records and surely the central kernal of her charm and appeal is clear. It's…",
-      "publishedAt": "2026-10-27T19:06:07.000Z"
+      "title": "Coveted # 28 John Cale - Vintage Violence",
+      "summary": "Cale's first album sounds like sloppy early Glam before the event on Colombia Records. Cale himself is dismissive of the album saying essentially he's trying on clothes in an attempt to find a voice.…",
+      "publishedAt": "2026-10-27T21:29:24.000Z"
     }
   },
   "https://www.manton.org/": {
@@ -6364,8 +6364,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -7087,14 +7087,14 @@
   },
   "https://www.thephoblographer.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
     "status": "success",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "8 Nikon DSLRs Behind Major Award-Winning Photos",
-      "url": "https://www.thephoblographer.com/2026/10/27/8-nikon-dslrs-behind-major-award-winning-photos/",
-      "summary": "The Nikon DSLRs that have won awards are the Nikon D500, the D850, the D5, the D3, the D4s, the D600, the D3200, and the D750. It's crazy to think that one of those, the Nikon D3, is from 2007! Nikon…",
-      "publishedAt": "2026-10-27T17:00:00.000Z"
+      "title": "Canon Patent Points to an RF 70-200mm f2",
+      "url": "https://www.thephoblographer.com/2026/10/27/canon-patent-points-to-an-rf-70-200mm-f2/",
+      "summary": "A Canon 70-200mm f2 L series lens is probably going to be a reality in the near future. At least, that's what could happen according to a new patent. Canon has a plethora of fantastic lenses. From op…",
+      "publishedAt": "2026-10-27T21:00:00.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/": {
@@ -7691,8 +7691,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7793,8 +7793,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T19:44:31.475Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T21:28:19.510Z",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {

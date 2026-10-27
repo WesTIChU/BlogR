@@ -8342,88 +8342,86 @@
     "status": "unknown",
     "feedUrl": "https://www.countmydays.to/index.xml"
   },
-  "https://lawasked.com/": {
-    "lastPublished": null,
-    "lastChecked": "2026-10-27T04:59:16.936Z",
-    "status": "unknown",
-    "feedUrl": "https://lawasked.com/favicon.svg"
-  },
-  "https://transmissionfluid.net/": {
-    "lastPublished": null,
-    "lastChecked": "2026-10-27T04:59:16.936Z",
-    "status": "unknown",
-    "feedUrl": "https://transmissionfluid.net/icon.svg?6de96fc3fe604761"
-  },
   "https://thejaymo.net/blog/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T05:00:00.000Z",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
     "status": "success",
     "feedUrl": "https://thejaymo.net/feed/",
     "latestArticle": {
       "title": "Vocabulary of Action",
       "url": "https://thejaymo.net/2026/10/26/456-reading-the-the-unix-time-sharing-system/",
-      "summary": "Jay Springett’s latest weeknote considers the UNIX command line, reading Dennis Ritchie and Ken Thompson’s paper on the UNIX time-sharing system.",
+      "summary": "I’ve been reading a bunch of the 'must-read' computer science literature for the first time. Most recently, Dennis Ritchie and Ken Thompson’s The UNIX Time-Sharing System. The post Vocabulary of Acti…",
       "publishedAt": "2026-10-26T20:18:29.000Z"
     }
   },
   "https://colly.com/journal": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
     "status": "success",
     "feedUrl": "https://colly.com/journal/feed",
     "latestArticle": {
       "title": "Autechre & Space Afrika",
       "url": "https://colly.com/journal/autechre-space-afrika",
-      "summary": "Simon Collison writes about seeing Autechre and Space Afrika on the Greenwich peninsula.",
+      "summary": "Storm Boelo was hammering the Greenwich peninsula when I arrived. Inside, Autechre seemed to channel that violence into a dense electronic maelstrom with nowhere to shelter. I like to stay curious an…",
       "publishedAt": "2026-10-26T13:00:00.000Z"
     }
   },
   "https://lbj20.blogspot.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
     "status": "success",
     "feedUrl": "https://lbj20.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "Festival of Commoning 2026",
       "url": "https://lbj20.blogspot.com/2026/10/festival-of-commoning-2026.html",
-      "summary": "Notes from the third Festival of Commoning in Stroud and reflections on what commoning means.",
-      "publishedAt": "2026-10-26T21:35:53.498Z"
+      "summary": "I started October at the third Festival of Commoning , in Stroud again. As seems to be normal now at the Festival, there was discussion about what this commoning thing actually is (I blogged them too…",
+      "publishedAt": "2026-10-26T21:35:53.497Z"
     }
   },
   "https://mcxfisher.blogspot.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
     "status": "success",
     "feedUrl": "https://mcxfisher.blogspot.com/feeds/posts/default?alt=rss",
     "latestArticle": {
       "title": "Rounding off the season",
-      "url": "https://mcxfisher.blogspot.com/2026/10/rounding-off-season.html",
-      "summary": "A final four-day salmon-fishing trip on the Ure closes out the 2026 season.",
+      "summary": "Stepping Stones My 2026 season drew to a close with four days on the Ure in glorious autumn weather, bathed in golden light. On three of the days the water was below optimal height, while on the othe…",
       "publishedAt": "2026-10-26T21:49:57.000Z"
     }
   },
   "https://dcairns.wordpress.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
     "status": "success",
     "feedUrl": "https://dcairns.wordpress.com/feed/",
     "latestArticle": {
       "title": "Posthumous Remus",
       "url": "https://dcairns.wordpress.com/2026/10/27/posthumous-remus/",
-      "summary": "A film essay considering Remus, grief and a range of classic and cult cinema references.",
+      "summary": "I might by now have seen all Monogram’s cheapie horror films. But I’m not sure — they do tend to merge. The only reason I hadn’t seen REVENGE OF THE ZOMBIES is because I thought I had. Zombies, John …",
       "publishedAt": "2026-10-26T23:07:29.000Z"
     }
   },
   "https://hugoclub.blogspot.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
     "status": "success",
     "feedUrl": "https://hugoclub.blogspot.com/feeds/posts/default?alt=rss",
     "latestArticle": {
       "title": "The Poetry Of Imperfection",
-      "url": "https://hugoclub.blogspot.com/2026/10/the-poetry-of-imperfection.html",
-      "summary": "A Hugo Club review of a science-fiction novel exploring imperfection, identity and moral responsibility.",
+      "summary": "Each book in the series has a cover by Joe Wilson. (Image via Amazon) There are many reasons to recommend Adrian Tchaikovsky’s Tyrant Philosophers , the five-book fantasy saga whose conclusion The Gr…",
       "publishedAt": "2026-10-26T17:03:21.000Z"
+    }
+  },
+  "https://brucefnesmith.blogspot.com/": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T06:04:52.144Z",
+    "status": "success",
+    "feedUrl": "https://brucefnesmith.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Joe Mitchell is too silly for words",
+      "url": "https://brucefnesmith.blogspot.com/2026/10/joe-mitchell-is-too-silly-for-words.html",
+      "summary": "Cycling infrastructure, like this Marion sidepath, allow children to navigate their town safely (10/26/2026) You probably heard that there's an election next week? Many U.S. Senate and state governor…",
+      "publishedAt": "2026-10-26T20:50:58.131Z"
     }
   }
 }

@@ -1482,9 +1482,9 @@
   },
   "https://www.thechaoticscot.com/": {
     "lastPublished": "2026-06-24",
-    "lastChecked": "2026-10-27T18:44:35.188Z",
-    "status": "success",
-    "feedUrl": "https://www.thechaoticscot.com/feed/",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unknown",
+    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
     "latestArticle": {
       "title": "Insta360 x4 Air: Quick Review",
       "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
@@ -1743,14 +1743,14 @@
     }
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/",
-      "summary": "Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data analysis t",
-      "publishedAt": "2026-10-26T21:56:52.000Z"
+      "url": "https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs/",
+      "summary": "Passwords are a pain for both users and service providers․ Users often find it difficult to remember passwords, and the risk of phishing and password reuse across multiple websites is high. Developers",
+      "publishedAt": "2026-10-27T17:44:12.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T16:44:32.664Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Channel 4 UK TV content comes to the Disney+ video streaming service",
@@ -1923,15 +1923,15 @@
     }
   },
   "https://simonwillison.net/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T00:44:34.076Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "GPT-6.1 Terra",
-      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-      "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use…",
-      "publishedAt": "2026-10-26T23:53:07.000Z"
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, …",
+      "publishedAt": "2026-10-27T19:34:18.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -2491,8 +2491,8 @@
     }
   },
   "https://whereweretheynow.blogspot.com/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T22:44:33.154Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://whereweretheynow.blogspot.com/feeds/posts/default",
     "latestArticle": {
@@ -2886,14 +2886,14 @@
   },
   "https://readceltic.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Martin O’Neill Says Celtic Have Rejuvenated Him, But One Year After His Return Can We Honestly Say He’s Done The Same For The Football Club?",
-      "url": "https://readceltic.com/2026/10/27/martin-oneill-celtic-return-nostalgia-europe/",
-      "summary": "Martin O’Neill has admitted that his return to Celtic has rejuvenated him. And listening to his press conference The post Martin O’Neill Says Celtic Have Rejuvenated Him, But One Year After His Retur…",
-      "publishedAt": "2026-10-27T17:24:07.000Z"
+      "title": "One Year Since Rodgers “Resigned”: Is Celtic in a Worse Position Than Ever?",
+      "url": "https://readceltic.com/2026/10/27/one-year-since-rodgers-resigned-is-celtic-in-a-worse-position-than-ever/",
+      "summary": "One year ago today, Brendan Rodgers “resigned” as Celtic manager, and Dermot Desmond responded with one of the The post One Year Since Rodgers “Resigned”: Is Celtic in a Worse Position Than Ever? app…",
+      "publishedAt": "2026-10-27T19:00:00.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -2910,20 +2910,20 @@
   },
   "https://arseblog.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://arseblog.com/feed/",
     "latestArticle": {
-      "title": "‘The 22’ launch event info – November 6th 2026",
-      "url": "https://arseblog.com/2026/10/the-22-launch-event-info-november-6th-2026/",
-      "summary": "Hi folks! I just wanted to give you details of our London event for the launch of The 22, the limited edition book we told you about last week. This will be taking place at Big Red on Holloway Road o…",
-      "publishedAt": "2026-10-27T16:55:31.000Z"
+      "title": "Fleetwood Town v Arsenal – live blog",
+      "url": "https://arseblog.com/2026/10/fleetwood-town-v-arsenal-live-blog/",
+      "summary": "Join us for live blog coverage of our EFL Cup clash away to Fleetwood Town, kick-off 20.00. We’ve got up to the second live text commentary, updates, goal clips, observations and occasionally witty a…",
+      "publishedAt": "2026-10-27T19:30:56.000Z"
     }
   },
   "https://thehighburylibrary.com/": {
     "lastPublished": "2016-11-27",
-    "lastChecked": "2026-10-27T18:44:35.188Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "success",
     "feedUrl": "https://thehighburylibrary.com/feed/",
     "latestArticle": {
       "title": "Interested in having your blog/website on The Highbury Library?",
@@ -2992,13 +2992,13 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T08:44:30.851Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173440/the-daily-hilario-my-arrakis",
-      "summary": "There was a rumor yesterday that a new (final) trailer for Dune 3 would be dropping within hours. Alas, no such thing has occurred. Instead, I rewatched Part 2 tonight. Beyond hyped for Part 3. Still…",
-      "publishedAt": "2026-10-27T07:48:56.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/injury-news/173449/joao-pedro-set-to-miss-a-few-weeks-emmanuel-emegha-set-to-return",
+      "summary": "There are good news and bad news regarding our striker situation. Unfortunately, the news are not equal in magnitude, as it’s not the good news that’s winning. Then again, maybe Emmanuel Emegha is ab…",
+      "publishedAt": "2026-10-27T18:49:59.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3009,14 +3009,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Korean Ratings Board Lists Capcom Console Releases Inc. NES & SNES Final Fight, Mega Man, & Breath of Fire Games",
-      "url": "https://www.timeextension.com/#article-208207",
-      "summary": "Console collection incoming? Everyone's favourite whistleblower, The Game Rating and Administration Committee of Korea, has a new listing featuring a wide variety of classic Capcom titles that have b…",
-      "publishedAt": "2026-10-27T17:00:00.000Z"
+      "title": "Report suggests Bloober Team's Silent Hill Remake Will Launch in 2027",
+      "url": "https://www.timeextension.com/#article-208194",
+      "summary": "Outlook Bleak. Bloober Team is still sifting through the development fog in efforts to bring us a slick new remake of the classic 1999 survival horror title, Silent Hill . While no official release d…",
+      "publishedAt": "2026-10-27T19:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3033,8 +3033,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3117,14 +3117,14 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T18:44:35.188Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "KDE Plasma 6.8.2 Desktop Environment Released with Numerous Bug Fixes",
-      "url": "https://9to5linux.com/kde-plasma-6-8-2-desktop-environment-released-with-numerous-bug-fixes",
-      "summary": "KDE Plasma 6.8.2 is now available as the second maintenance update to the latest KDE Plasma 6.8 desktop environment series with various bug fixes and improvements. The post KDE Plasma 6.8.2 Desktop E…",
-      "publishedAt": "2026-10-27T14:13:20.000Z"
+      "title": "Mozilla Thunderbird 159 Email Client Improves Tray Icon Support on Linux",
+      "url": "https://9to5linux.com/mozilla-thunderbird-159-email-client-improves-tray-icon-support-on-linux",
+      "summary": "Mozilla Thunderbird 159 open-source email client is now available for download with updated tray icons on Linux to indicate unread mail and show the message count in the tooltip. The post Mozilla Thu…",
+      "publishedAt": "2026-10-27T18:07:42.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3309,8 +3309,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3339,8 +3339,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3752,14 +3752,14 @@
   },
   "https://www.suppermariobroth.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T03:44:33.190Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "Officially licensed 2026 limited edition Mario canned tuna from Japan.",
-      "url": "https://www.suppermariobroth.com/post/831586682620035072",
-      "summary": "Officially licensed 2026 limited edition Mario canned tuna from Japan. Source: fukuya_mentai Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-10-27T01:01:01.000Z"
+      "title": "(Flashing in small portion of image)",
+      "url": "https://www.suppermariobroth.com/post/831654661006163968",
+      "summary": "(Flashing in small portion of image) It is possible to hack a Nintendo 2DS/3DS system merely by entering a co-op multiplayer match in New Super Mario Bros. 2 with a system that is already hacked and …",
+      "publishedAt": "2026-10-27T19:01:30.000Z"
     }
   },
   "https://www.pepysdiary.com/": {
@@ -4239,14 +4239,14 @@
     }
   },
   "https://www.andymuirhead.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T19:44:31.324Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.andymuirhead.com/feed",
     "latestArticle": {
-      "url": "https://www.andymuirhead.com/p/chapter-fifteen-the-end-of-rangers",
-      "summary": "The death of a football club does not happen in one moment.",
-      "publishedAt": "2026-10-22T18:53:38.000Z"
+      "url": "https://www.andymuirhead.com/p/mcinnes-can-cry-injustice-all-he",
+      "summary": "Hearts led Celtic by 10 points, failed to win away from January until the final day, then collapsed at Celtic Park when it mattered most, and McInnes calls that injustice?",
+      "publishedAt": "2026-10-27T18:44:23.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -4538,8 +4538,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -5124,8 +5124,8 @@
   },
   "https://theautisticadvocate.com/blog/": {
     "lastPublished": "2026-09-15",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
@@ -5154,8 +5154,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5528,13 +5528,14 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T15:44:33.408Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "url": "https://70sscifiart.tumblr.com/post/831638645183283200",
-      "summary": "Skull Architecture",
-      "publishedAt": "2026-10-27T14:46:56.000Z"
+      "title": "station451:\n\nFantastical Bantam 1972 edition of The Halloween...",
+      "url": "https://70sscifiart.tumblr.com/post/831654736173334528",
+      "summary": "station451 : Fantastical Bantam 1972 edition of The Halloween Tree by Ray Bradbury. Cover unknown, interior art by Joe Mugnaini. There’s a good balance between surreal with the dinosaur and the imagi…",
+      "publishedAt": "2026-10-27T19:02:41.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5712,14 +5713,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T18:44:35.188Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO is removing all Daft Punk LEGO Ideas projects",
-      "url": "https://www.brickfanatics.com/lego-removing-daft-punk-lego-ideas-projects",
-      "summary": "But what does it mean?",
-      "publishedAt": "2026-10-27T17:41:38.000Z"
+      "title": "LEGO’s best new minifigure for November is an easy choice",
+      "url": "https://www.brickfanatics.com/lego-best-new-minifigure-november-easy-choice",
+      "summary": "Not all minifigures are created equal",
+      "publishedAt": "2026-10-27T18:59:01.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -5926,26 +5927,25 @@
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T23:44:33.526Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Coveted # 27 Coveted Judee Sill - Judee Sill",
-      "summary": "Not the happiest person by all accounts. But a supernova talent. Influenced by Bach. Sounded like the Karen Carpenter of the drugged Underground. Made records not quite like anyone elses. Lived a qui…",
-      "publishedAt": "2026-10-26T19:05:09.000Z"
+      "title": "500 Greatest Albums of the 2000's # 19 Joanna Newsom  Ys",
+      "summary": "There's an unorthodoxy about Joanna Newsom's work which in itself is remarkable and noteworthy. But then you listen to her records and surely the central kernal of her charm and appeal is clear. It's…",
+      "publishedAt": "2026-10-27T19:06:07.000Z"
     }
   },
   "https://www.manton.org/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "title": "AI-assisted science",
-      "url": "https://www.manton.org/2026/10/27/aiassisted-science.html",
-      "summary": "I don’t pretend to understand these discoveries in math, computer science, and physics announced by OpenAI. I spent an hour last night reading about them. Even if I can’t wrap my brain around them, t…",
-      "publishedAt": "2026-10-27T16:54:51.000Z"
+      "url": "https://www.manton.org/2026/10/27/im-still-updating-this-gist.html",
+      "summary": "I’m still updating this gist with notes on recent releases across the platform. It’s a little nerdy, but it helps me keep track of everything on a simple page.",
+      "publishedAt": "2026-10-27T19:14:15.000Z"
     }
   },
   "https://prettyspooky.life/": {
@@ -5973,14 +5973,14 @@
   },
   "https://loureviews.blog/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T10:56:18.370Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Play review: Roleplay at Soho Theatre",
-      "url": "https://loureviews.blog/2026/10/27/play-review-roleplay-at-soho-theatre/",
-      "summary": "\"Roleplay,\" a solo show by Hannah Reilly, explores sex positivity and female empowerment amidst societal exploitation. Danni, a nearly 30-year-old podcast editor, navigates complex themes of sexualit…",
-      "publishedAt": "2026-10-27T10:44:06.000Z"
+      "title": "Edinburgh Fringe review: Vasthy and Friends – Sing, Dance, Play!",
+      "url": "https://loureviews.blog/2026/10/27/edinburgh-fringe-review-vasthy-and-friends-sing-dance-play/",
+      "summary": "Vasthy and Friends - Sing, Dance, Play! is a family-oriented show featuring Broadway performer Vasthy Mompoint. With songs, jokes, and audience interaction, it creates a joyous atmosphere for childre…",
+      "publishedAt": "2026-10-27T19:31:21.000Z"
     }
   },
   "https://www.dailycartoonist.com/": {
@@ -6364,8 +6364,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6481,13 +6481,13 @@
   },
   "https://riz0me.bearblog.dev/": {
     "lastPublished": "2026-09-01",
-    "lastChecked": "2026-10-27T16:50:27.640Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://riz0me.bearblog.dev/feed/",
     "latestArticle": {
       "title": "Just Waiting Around",
       "url": "https://riz0me.bearblog.dev/2026/08/01/just-waiting-around/",
-      "summary": "Kicking rocks, it feels like.",
+      "summary": "I was laid off from my job on June 1—but I have my regular pay through August 31 and an additional six month severance; I'm doing fine!—and have been mired in the job search, which has been...dishear…",
       "publishedAt": "2026-08-01T19:31:10.536Z"
     }
   },
@@ -7039,8 +7039,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T11:44:35.726Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "NUA Arquitectures",
@@ -7476,14 +7476,14 @@
   },
   "https://www.cartoonbrew.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "‘Wildwood’ Debuts; ‘When The Wind Blows’ Turns 40; Remembering Eric Bauza",
-      "url": "https://www.cartoonbrew.com/newsletter/wildwood-debuts-when-the-wind-blows-turns-40-remembering-eric-bauza-268513.html",
-      "summary": "This week, the animation community is mourning Eric Bauza, who died Sunday at 46. The remarkably versatile voice actor was also one of the medium’s most passionate advocates, and we’ve … Continued",
-      "publishedAt": "2026-10-27T15:59:08.000Z"
+      "title": "Ketchup Lights The Fuse On ‘Coyote Vs. Acme’ Animated Feature Oscar Campaign After Academy Approval",
+      "url": "https://www.cartoonbrew.com/awards/coyote-vs-acme-oscars-eligable-268527.html",
+      "summary": "Once shelved by Warner Bros., Dave Green’s hybrid could turn its unlikely comeback into an awards-season black eye for the studio that buried it.",
+      "publishedAt": "2026-10-27T19:36:15.000Z"
     }
   },
   "https://www.maproomblog.com/": {
@@ -7523,27 +7523,27 @@
     }
   },
   "https://www.fromthemurkydepths.co.uk/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
-      "title": "Woolwich town centre upgrade sees decline continue",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/10/26/woolwich-town-centre-upgrade-sees-decline-continue/",
-      "summary": "Woolwich town centre’s recent upgrade continues to decline with street furniture falling apart along Powis Street. The £21 million project funded by the Future High Streets Fund was completed last ye…",
-      "publishedAt": "2026-10-26T23:40:41.000Z"
+      "title": "Award-winning PLACE Ladywell to be demolished by Lewisham Council next year",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/10/27/award-winning-place-ladywell-to-be-demolished-by-lewisham-council-next-year/",
+      "summary": "An award-winning structure that was supposed to provide temporary housing across Lewisham borough is set to be demolished next year. PLACE Ladywell was installed with the intention of being able to m…",
+      "publishedAt": "2026-10-27T19:45:20.000Z"
     }
   },
   "https://www.worldofreel.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T18:44:35.188Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Gotham Award Nominations: ‘Tender Loving Care,’ ‘All of a Sudden,’ ‘The Invite’ and ‘La Gradiva' Lead With 4 Nods",
-      "url": "https://www.worldofreel.com/blog/2026/10/27/gotham-award-nominations-tender-loving-care-all-of-a-sudden-the-invite-and-la-gradiva-lead-with-4-nods",
-      "summary": "Last year, \"One Battle After Another\" dominated the Gothams and then won the Best Picture Oscar. This year, there's no clear frontrunner, with five films tied for the most nominations at four.",
-      "publishedAt": "2026-10-27T17:56:37.000Z"
+      "title": "‘The Birds’ Limited Series Starring Sarah Snook Lands at HBO",
+      "url": "https://www.worldofreel.com/blog/2026/5/29/sarah-snook-to-star-in-the-birds-remake-series-hollywood-still-hasnt-learned-its-lesson",
+      "summary": "Hollywood remaking anything connected to Hitchcock has rarely produced memorable results. Yet the industry keeps trying, despite overwhelming evidence that it’s a fool’s errand.",
+      "publishedAt": "2026-10-27T19:37:29.000Z"
     }
   },
   "https://fossilhuntress.blogspot.com/": {
@@ -7691,8 +7691,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7733,9 +7733,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-27T18:44:35.188Z",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7793,8 +7793,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T17:44:31.681Z",
-    "status": "unknown",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -7887,15 +7887,15 @@
     }
   },
   "https://dcairns.wordpress.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T06:04:52.144Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T19:44:31.475Z",
     "status": "success",
     "feedUrl": "https://dcairns.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Posthumous Remus",
-      "url": "https://dcairns.wordpress.com/2026/10/27/posthumous-remus/",
-      "summary": "I might by now have seen all Monogram’s cheapie horror films. But I’m not sure — they do tend to merge. The only reason I hadn’t seen REVENGE OF THE ZOMBIES is because I thought I had. Zombies, John …",
-      "publishedAt": "2026-10-26T23:07:29.000Z"
+      "title": "Popcornea",
+      "url": "https://dcairns.wordpress.com/2026/10/27/popcornea/",
+      "summary": "Finally watched Bigas Luna’s ANGUISH, and it was… interesting. OK. Odd. It serves up far more than the usual horror flick, but somehow doesn’t feel like enough. Michael BARTON FINK Lerner is a murder…",
+      "publishedAt": "2026-10-27T18:58:55.000Z"
     }
   },
   "https://hugoclub.blogspot.com/": {

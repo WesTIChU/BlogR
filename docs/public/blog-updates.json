@@ -282,7 +282,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -960,7 +960,7 @@
   },
   "https://brucefnesmith.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://brucefnesmith.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "Joe Mitchell is too silly for words",
@@ -1171,9 +1171,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/they-dont-care-about-the-noise---enzo-maresca-rejects-hostile-post-verdict-away-reception-for-manchester-city-players",
-      "summary": "Manchester City manager Enzo Maresca has addressed how his players handle hostile away crowds ahead of Wednesday night's Carabao Cup fourth-round tie with Brighton and Hove Albion.",
-      "publishedAt": "2026-10-27T15:00:05.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-discusses-lack-of-manchester-city-representation-in-2026-mens-ballon-dor-shortlist",
+      "summary": "Enzo Maresca has shared his thoughts on the lack of Manchester City players who were on the 30-player shortlist for the 2026 Men’s Ballon d’Or award on Monday night.",
+      "publishedAt": "2026-10-27T16:00:38.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1437,13 +1437,13 @@
   },
   "https://cupofjo.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://cupofjo.com/feed/",
     "latestArticle": {
-      "title": "What Collective Nouns Describe Your Family?",
-      "url": "https://cupofjo.com/2026/10/26/funny-collective-nouns-animals-people/",
-      "summary": "I’ve had a weirdly stressful day (anyone else?), so let’s talk about something fun! This post is for all you word-lovers… First, do you know any of the collective nouns for animals?… Read more The po…",
-      "publishedAt": "2026-10-26T20:16:44.000Z"
+      "title": "Olivia Muenter’s Hudson Valley Home Feels Right Out of a Nora Ephron Movie",
+      "url": "https://cupofjo.com/2026/10/27/olivia-muenter-house-tour/",
+      "summary": "This past spring, we shared novelist Olivia Muenter’s week of outfits . Dozens of readers immediately left comments asking for a house tour of her 1863 farmhouse in the Hudson Valley, which she share…",
+      "publishedAt": "2026-10-27T16:26:49.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -1756,20 +1756,20 @@
   },
   "https://econbrowser.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "“News” Illustrated: Brazilian Election",
-      "url": "https://econbrowser.com/archives/2026/10/news-illustrated-brazilian-election",
-      "summary": "(This is an example for my “financial system” course.) When the outcome differs from expectations in a big way, expect big asset moves.",
-      "publishedAt": "2026-10-26T23:04:25.000Z"
+      "title": "Gasoline and Diesel Fuel Update through 10/26/2026",
+      "url": "https://econbrowser.com/archives/2026/10/gasoline-and-diesel-fuel-update-through-10-26-2026",
+      "summary": "Diesel prices rise again. Figure 1: Regular gasoline (blue), diesel (red), both $/gallon. Source: EIA.",
+      "publishedAt": "2026-10-27T16:41:56.000Z"
     }
   },
   "https://eien-melody.net/ami/index.php": {
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2328,10 +2328,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Ranking #54, U.S. singles: 1984-1990",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/26/ranking-54-u-s-singles-1984-1990/",
-      "summary": "The world will little note, nor long remember, why Jermaine Jackson lent his jheri-curled splendor to Golden Globe-coronoated Pia Zadora and her prestige project “When the Rain Begins to Fall.” As fa…",
-      "publishedAt": "2026-10-27T00:01:39.000Z"
+      "title": "‘Mother Mary’ is an uneven deconstruction of pop stardom.",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/27/mother-mary-is-an-uneven-deconstruction-of-pop-stardom/",
+      "summary": "The creation of pop music requires collaboration, degrees of sycophancy, and an openness to weird shit, according to Mother Mary. Writer-director David Lowery’s film, released last spring, stars Anne…",
+      "publishedAt": "2026-10-27T16:13:09.000Z"
     }
   },
   "https://humbledollar.com/": {
@@ -2462,9 +2462,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17507469/tesco-vmware-exit",
-      "summary": "Tired of the rising licensing cost of VMWare, Tesco seems to be looking to switch to Proxmox.",
-      "publishedAt": "2026-10-27T09:48:41.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17507740/ginux",
+      "summary": "Ginux is not a Linux fork, yet it boots Rocky Linux 10 all the way to systemd. An OpenAI Codex agent wrote about 139,000 lines of it.",
+      "publishedAt": "2026-10-27T15:31:43.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -2976,13 +2976,13 @@
   },
   "https://lifewellcruised.com/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://lifewellcruised.com/feed/",
     "latestArticle": {
-      "title": "Carnival Cruise Line Introduces New FunPacks With Up to 55% Savings on Drinks, Wi-Fi and More",
-      "url": "https://lifewellcruised.com/carnival-cruise-line-introduces-new-funpacks-with-up-to-55-savings-on-drinks-wi-fi-and-more/",
-      "summary": "Carnival Cruise Line has announced four new cruise packages that could help passengers save money on popular extras, including drink packages, Wi-Fi, shore excursions and specialty dining. The new Ca…",
-      "publishedAt": "2026-10-15T21:15:55.000Z"
+      "title": "Celebrity vs Princess Cruises: Which Cruise Line Is Better Right Now?",
+      "url": "https://lifewellcruised.com/celebrity-vs-princess-cruises-which-cruise-line-is-better-right-now/",
+      "summary": "Celebrity and Princess get compared all the time, and it’s easy to see why. I’ve sailed on both and I genuinely enjoy them. Each line is doing some things really well right now, and a… The post Celeb…",
+      "publishedAt": "2026-10-27T16:00:08.000Z"
     }
   },
   "https://linuxblog.io/": {
@@ -3160,13 +3160,13 @@
   },
   "https://marcel.io/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
-      "title": "🎨 October 7, 2026",
-      "url": "https://marcel.io/dailies/2026-10-07",
-      "summary": "When I'm really focused on a project I'm invested in, I still have no problem hammering out hours and hours of focused work. One of the core truths about my life is that I feel better when I have som…",
-      "publishedAt": "2026-10-26T16:00:00.000Z"
+      "title": "🎨 October 8, 2026",
+      "url": "https://marcel.io/dailies/2026-10-08",
+      "summary": "I'm not naming any names here, but I was forgotten about! I normally tend to subtly remind people about things we've planned together, but this friend in particular has always been so reliable that I…",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
     }
   },
   "https://marco.org/": {
@@ -3196,10 +3196,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Eleven outstanding film and television reviews by Tyler Cowen and Alex Tabarrok",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/eleven-outstanding-film-and-television-reviews-by-tyler-cowen-and-alex-tabarrok.html?utm_source=rss&utm_medium=rss&utm_campaign=eleven-outstanding-film-and-television-reviews-by-tyler-cowen-and-alex-tabarrok",
-      "summary": "From the Archive–these posts are written by ChatGPT These selections emphasize the quality of the criticism: original interpretations, close attention to the work, and arguments worth considering eve…",
-      "publishedAt": "2026-10-27T11:17:35.000Z"
+      "title": "Tuesday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/tuesday-assorted-links-592.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-592",
+      "summary": "1. Which musical styles do smart people prefer? 2. U. of Austin job ads. 3. Walter Koenig, RIP (NYT). Chekov. 4. One take on the new computational result. And one (overstated) Chinese interpretation.…",
+      "publishedAt": "2026-10-27T16:33:54.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -3416,13 +3416,13 @@
   },
   "https://mossandfog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://mossandfog.com/feed/",
     "latestArticle": {
-      "title": "Inside Thunderbird, the Space Station With No Floor",
-      "url": "https://mossandfog.com/inside-thunderbird-the-space-station-with-no-floor/",
-      "summary": "Exploring the Thunderbird expandable space station, designed by OMI and Max Space. The post Inside Thunderbird, the Space Station With No Floor appeared first on Moss and Fog .",
-      "publishedAt": "2026-10-26T20:49:50.000Z"
+      "title": "The Land of Standing-Up Rocks, America’s Newest National Park",
+      "url": "https://mossandfog.com/chiricahua-national-park/",
+      "summary": "Chiricahua, a canyon country of balanced rocks and rhyolite spires in southeastern Arizona, just became America's 64th national park. The post The Land of Standing-Up Rocks, America’s Newest National…",
+      "publishedAt": "2026-10-27T16:11:26.000Z"
     }
   },
   "https://moviemetropolis.net/": {
@@ -3909,7 +3909,7 @@
     "latestArticle": {
       "title": "The better technology",
       "url": "https://podviaznikov.com/the-better-technology",
-      "summary": "The better technology This summer I did 3 months residency in Berlin. I attended the program called The Sandbox . One of the most memorable days was a trip to the warehouse of one prominent logistics…",
+      "summary": "The better technology This summer I did a 3-month residency in Berlin. I attended the program called The Sandbox . One of the most memorable days was a trip to the warehouse of one prominent logistic…",
       "publishedAt": "2026-10-14T12:00:27.000Z"
     }
   },
@@ -4092,10 +4092,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Have Celtic Missed a Trick by Not Re-signing Calvin Miller?",
-      "url": "https://readceltic.com/2026/10/27/have-celtic-missed-a-trick-by-not-re-signing-calvin-miller/",
-      "summary": "Sometimes, the best transfer business is not about spending millions on a player from abroad. Sometimes, it is The post Have Celtic Missed a Trick by Not Re-signing Calvin Miller? appeared first on R…",
-      "publishedAt": "2026-10-27T12:00:00.000Z"
+      "title": "Is the Dane Murray Slander Getting Out of Hand?",
+      "url": "https://readceltic.com/2026/10/27/is-the-dane-murray-slander-getting-out-of-hand/",
+      "summary": "I understand the frustration with Dane Murray. He has made mistakes in a Celtic shirt, and his performances The post Is the Dane Murray Slander Getting Out of Hand? appeared first on Read Celtic .",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -4214,7 +4214,7 @@
     "latestArticle": {
       "title": "Just Waiting Around",
       "url": "https://riz0me.bearblog.dev/2026/08/01/just-waiting-around/",
-      "summary": "Kicking rocks, it feels like.",
+      "summary": "I was laid off from my job on June 1—but I have my regular pay through August 31 and an additional six month severance; I'm doing fine!—and have been mired in the job search, which has been...dishear…",
       "publishedAt": "2026-08-01T19:31:10.536Z"
     }
   },
@@ -4612,10 +4612,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://sluggerotoole.com/feed/",
     "latestArticle": {
-      "title": "CS Lewis author of Narnia reclaimed for Norn Irn.",
-      "url": "https://sluggerotoole.com/2026/10/27/cs-lewis-author-of-narnia-reclaimed-for-norn-irn/",
-      "summary": "Ahead of Netflix’s version of the Chroncles of Narnia to be shown early next year, Patrick Little in the Guardian has reclaimed the celebrated writer and visionary scholar Clive Staples ( always know…",
-      "publishedAt": "2026-10-27T13:09:06.000Z"
+      "title": "Go East, Old Man, Part III: Are you ‘this’ or ‘that’?",
+      "url": "https://sluggerotoole.com/2026/10/27/go-east-old-man-part-iii-are-you-this-or-that/",
+      "summary": "In 1988, a Moscow paper called Nagorno-Karabakh “our Northern Ireland.” In Part III, Peter Emerson asks why “this or that?” questions divide us, from Belfast to the Balkans, and makes the case for mu…",
+      "publishedAt": "2026-10-27T16:00:45.000Z"
     }
   },
   "https://smallmariofindings.tumblr.com/": {
@@ -4623,10 +4623,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed 1997 Super Mario 64-themed Nintendo 64 game storage case from Japan.",
-      "url": "https://smallmariofindings.tumblr.com/post/831586687420334080",
-      "summary": "Officially licensed 1997 Super Mario 64-themed Nintendo 64 game storage case from Japan. Source: j-vintage-toys Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-10-27T01:01:05.000Z"
+      "title": "In Paper Mario: The Thousand-Year Door, there is an unused functionality for Bowser to enter a&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831639562105274368",
+      "summary": "In Paper Mario: The Thousand-Year Door, there is an unused functionality for Bowser to enter a “defensive stance” at the end of a turn, as well as return from it to his normal stance. In the defensiv…",
+      "publishedAt": "2026-10-27T15:01:30.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -4925,7 +4925,7 @@
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/feed/",
+    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -5014,10 +5014,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Hearts need to stop indulging grievance, just as Celtic finally did.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/hearts-stop-indulging-grievance-as-celtic-finally-did/",
-      "summary": "A lot of people wonder when Celtic made the transition from being one of the two dominant clubs The post Hearts need to stop indulging grievance, just as Celtic finally did. appeared first on The Cel…",
-      "publishedAt": "2026-10-27T13:56:58.000Z"
+      "title": "AJ’s injury is better than we feared. Now Celtic needs to be patient and careful.",
+      "url": "https://thecelticblog.com/2026/10/blogs/ajs-injury-better-than-celtic-feared/",
+      "summary": "There are moments in football when a Celtic supporter does not need a dramatic injury announcement to start The post AJ’s injury is better than we feared. Now Celtic needs to be patient and careful. …",
+      "publishedAt": "2026-10-27T16:28:16.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5084,13 +5084,13 @@
   },
   "https://thefigureinquestion.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://thefigureinquestion.com/feed/",
     "latestArticle": {
-      "title": "#4148: Penance",
-      "url": "https://thefigureinquestion.com/2026/10/26/4148-penance/",
-      "summary": "PENANCE GENERATION X (TOY BIZ) “The young woman called Penance possesses the mutant ability to internalize negative energy around her, turning her body into a diamond-hard, razor-sharp weapon. Held p…",
-      "publishedAt": "2026-10-26T16:00:59.000Z"
+      "title": "#4149: Dr. Mid-Nite",
+      "url": "https://thefigureinquestion.com/2026/10/27/4149-dr-mid-nite/",
+      "summary": "DR. MID-NITE SUPER POWERS (McFARLANE) “The original Doctor Mid-Nite, Dr. Charles McNider, lost his sight to a grenade, and fought crime alongside the original Justice Society of America.” Before Matt…",
+      "publishedAt": "2026-10-27T16:00:01.000Z"
     }
   },
   "https://thefilm.blog/": {
@@ -5307,13 +5307,13 @@
   },
   "https://thesicktimes.org/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://thesicktimes.org/feed/",
     "latestArticle": {
-      "title": "The real story behind the “October slide”",
-      "url": "https://thesicktimes.org/2026/10/20/the-real-story-behind-the-october-slide/?utm_source=rss&utm_medium=rss&utm_campaign=the-real-story-behind-the-october-slide",
-      "summary": "Changing seasons affect many people with Long COVID, myalgic encephalomyelitis, and other chronic illnesses, but not all in the same way. Research has a long way to go before it can explain the pheno…",
-      "publishedAt": "2026-10-20T17:30:50.000Z"
+      "title": "National COVID-19 trends, October 27",
+      "url": "https://thesicktimes.org/2026/10/27/national-covid-19-trends-october-27/?utm_source=rss&utm_medium=rss&utm_campaign=national-covid-19-trends-october-27",
+      "summary": "This summer’s COVID-19 wave is still lingering into the fall, as much of the country reports ongoing moderate to high disease levels in mid-October. While there’s some conflicting data about where ca…",
+      "publishedAt": "2026-10-27T16:22:08.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -5417,17 +5417,17 @@
   },
   "https://thoughtfullycatholic.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-02-27",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://thoughtfullycatholic.wordpress.com/feed/",
     "latestArticle": {
-      "title": "On The Most Holy Rosary of the Virgin Mary",
-      "url": "https://thoughtfullycatholic.wordpress.com/2026/02/27/on-the-most-holy-rosary-of-the-virgin-mary/",
-      "summary": "Although this blog and its predecessor, Catholic Scot, contain thousands of words about prayer I have thus far written little about that most beloved and characteristic of Catholic devotions, the Ros…",
-      "publishedAt": "2026-02-27T04:07:27.000Z"
+      "title": "On The Harmony of Law and Cosmos",
+      "url": "https://thoughtfullycatholic.wordpress.com/2026/10/27/on-the-harmony-of-law-and-cosmos/",
+      "summary": "The LORD’s teaching is perfect, restoring to life. The LORD’s pact is steadfast, it makes the fool wise. (Psalm 19:8) There has been some debate among scholars as to whether in fact Psalm 19 might be…",
+      "publishedAt": "2026-10-27T16:33:14.000Z"
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5852,13 +5852,13 @@
   },
   "https://www.arcadeattack.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.arcadeattack.co.uk/feed/",
     "latestArticle": {
-      "title": "ANIMALS! – October (2 of 2) 2026",
-      "url": "https://www.arcadeattack.co.uk/animals-podcast/",
-      "summary": "Before we go on a little break (only until next month, don’t worry) we thought we’d have a chat about games where you are an animal. And who doesn’t love animals? No, not anthromdkdfs, anthrofkenm, a…",
-      "publishedAt": "2026-10-13T05:30:46.000Z"
+      "title": "Pixel Art Started on Arcade Machines: Here’s How Retro Gaming’s Visual Language Ended Up in the Top Casinos in the UK",
+      "url": "https://www.arcadeattack.co.uk/pixel-art-started-on-arcade-machines-heres-how-retro-gamings-visual-language-ended-up-in-the-top-casinos-in-the-uk/",
+      "summary": "Street Fighter II reached arcades in March 1991, according to Capcom’s own timeline of the series, and Sonic the Hedgehog landed on the Mega Drive a few months later. Anyone who has ever argued over …",
+      "publishedAt": "2026-10-27T16:12:11.000Z"
     }
   },
   "https://www.architectural-review.com/": {
@@ -5877,10 +5877,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "my boss says I give too much praise to my employees",
-      "url": "https://www.askamanager.org/2026/10/my-boss-says-i-give-too-much-praise-to-my-employees.html",
-      "summary": "A reader writes: Recently, we had a tough situation where a new employee, Sam, rubbed my boss, Alex, the wrong way in their first two weeks, and since then I have not been able to successfully turn t…",
-      "publishedAt": "2026-10-27T14:59:48.000Z"
+      "title": "my boss stole my presentation",
+      "url": "https://www.askamanager.org/2026/10/my-boss-stole-my-presentation.html",
+      "summary": "A reader writes: I was hired by my current employer about two years ago and joined our internal consulting team. Different departments bring us in to help address challenges or figure out what’s goin…",
+      "publishedAt": "2026-10-27T16:29:33.000Z"
     }
   },
   "https://www.authenticallyemily.uk/": {
@@ -5942,10 +5942,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Sesame Street is back with new, free educational videos",
-      "url": "https://www.brickfanatics.com/lego-sesame-street-new-free-educational-videos",
-      "summary": "Can you tell me how to get to Sesame Street?",
-      "publishedAt": "2026-10-27T15:26:09.000Z"
+      "title": "Skip the queue to buy LEGO Arkham Asylum at Amazon",
+      "url": "https://www.brickfanatics.com/skip-the-queue-to-buy-lego-arkham-asylum-at-amazon",
+      "summary": "There's a 60-day wait on LEGO.com, but you can skip the queue and pay the same price",
+      "publishedAt": "2026-10-27T16:27:41.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6022,10 +6022,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "‘REALLY HAPPY’: CELTIC CROCK’S POSITIVE NEWS",
-      "url": "https://www.celticquicknews.co.uk/really-happy-celtic-crocks-positive-news/",
-      "summary": "CELTIC have received some positive news on Alistair Johnston after the right-back’s comeback in the 2-1 weekend win over Hibs lasted a mere 21 minutes. The Canadian international had been out since i…",
-      "publishedAt": "2026-10-27T15:25:08.000Z"
+      "title": "‘SECRETLY DELIGHTED,’ O’NEILL ON ANSWERING CELTIC SOS CALL",
+      "url": "https://www.celticquicknews.co.uk/secretly-delighted-oneill-on-answering-celtic-sos-call/",
+      "summary": "MARTIN O’NEILL received a phone call exactly a year ago today that turned his life upside down. The voice on the other end of the receiver belonged to Dermot Desmond who informed the former Celtic bo…",
+      "publishedAt": "2026-10-27T16:19:43.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6239,13 +6239,13 @@
   },
   "https://www.gentlemanstationer.com/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.gentlemanstationer.com/blog?format=rss",
     "latestArticle": {
-      "title": "Sunday Reading for October 25, 2026",
-      "url": "https://www.gentlemanstationer.com/blog/2026/10/25/sunday-reading-for-october-25-2026",
-      "summary": "Ink swatching at On The Paper Trail Live in Nashville! Ink swatching at On The Paper Trail Live in Nashville! Recap: On The Paper Trail LIVE in Nashville (via Well-Appointed Desk). I had to lead with…",
-      "publishedAt": "2026-10-25T16:41:01.000Z"
+      "title": "New Arrivals: TWSBI ECO Jade Jelly + Bronze Fountain Pens, Plus New Diplomats!",
+      "url": "https://www.gentlemanstationer.com/blog/2026/10/27/new-arrivals-twsbi-eco-jade-jelly-bronze-fountain-pens-plus-new-diplomats",
+      "summary": "TWSBI’s latest release, the Jade Jelly + Bronze fountain pen , showed up this week and it’s another nice addition to the TWSBI ECO lineup, especially as some of the older ECOs are being retired. Late…",
+      "publishedAt": "2026-10-27T15:49:48.000Z"
     }
   },
   "https://www.giventotri.com/": {
@@ -6402,14 +6402,14 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Ofcom set out KCOM changes to boost competition and broadband in Hull UK",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/ofcom-set-out-kcom-changes-to-boost-competition-and-broadband-in-hull-uk.html",
-      "summary": "The UK telecoms regulator, Ofcom, has today set out their final decisions for how they intend to regulate the fixed telecoms markets that underpin gigabit broadband, mobile networks and business conn…",
-      "publishedAt": "2026-10-27T13:10:16.000Z"
+      "title": "Channel 4 UK TV content comes to the Disney+ video streaming service",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/channel-4-uk-tv-content-comes-to-the-disney-video-streaming-service.html",
+      "summary": "Internet video streaming provider Disney+ has today revealed that, from early 2027, their service will also begin to carry TV content from Channel 4 in the UK and Ireland “ at no extra cost “. Multip…",
+      "publishedAt": "2026-10-27T16:02:27.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -6548,9 +6548,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/27/herman-martinus-removed-the-upvote.html",
-      "summary": "Herman Martinus removed the upvote counts in Bear : Someone puts sincere effort into a post, publishes it, and then sees a little “1” next to it, sitting right below someone else’s “214”. Writing sho…",
-      "publishedAt": "2026-10-27T14:41:00.000Z"
+      "url": "https://www.manton.org/2026/10/27/in-sunlit-for-ios-released.html",
+      "summary": "In Sunlit 4.0 for iOS, released today, we’re trying something new to make the default feed mostly photos. Micro.blog now tries to classify JPEGs as actually photos to weed out screenshots, memes, and…",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -6954,13 +6954,13 @@
   },
   "https://www.sparklytrainers.com/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.sparklytrainers.com/feed/",
     "latestArticle": {
-      "title": "Herefordshire Week 355: Tuesday 13 – Monday 19 October 2026",
-      "url": "https://www.sparklytrainers.com/blog/2026/10/20/herefordshire-week-355-tuesday-13-monday-19-october-2026/",
-      "summary": "Three walks and a Civil Partnership Party in Brum. Two visits to Winchester for tech support and dinner with Aunty A. Admin on Tuesday morning, plus MCS quality audit for the ASHP and CW dropping by …",
-      "publishedAt": "2026-10-20T10:58:24.000Z"
+      "title": "Herefordshire Week 356: Tuesday 20 – Monday 26 October 2026",
+      "url": "https://www.sparklytrainers.com/blog/2026/10/27/herefordshire-week-356-tuesday-20-monday-26-october-2026/",
+      "summary": "Rain. Bayeux Tapestry Exhibition Tickets Triple!!! To London for the annual LW KMC-as-was Dinner. Plastering. Two Storms. A lot of video editing tech support. Llanthony Figure of Eight. Quite a week!…",
+      "publishedAt": "2026-10-27T15:53:45.000Z"
     }
   },
   "https://www.splitbrain.org/": {
@@ -7142,10 +7142,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "New Frozen Foods Spotted — October 27, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/27/new-frozen-foods-spotted-october-27-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-10-27T14:00:00.000Z"
+      "title": "REVIEW: Taco Bell Milk Bar Birthday Cake Empanada",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/27/taco-bell-milk-bar-birthday-cake-empanada-review/",
+      "summary": "I’ve been a big fan of the dessert-focused bakery Milk Bar for years, so when I heard about its collaboration with Taco Bell for the new limited edition Birthday Cake Empanada, I celebrated like it w…",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
@@ -7153,10 +7153,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "New Frozen Foods Spotted — October 27, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/27/new-frozen-foods-spotted-october-27-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-10-27T14:00:00.000Z"
+      "title": "REVIEW: Taco Bell Milk Bar Birthday Cake Empanada",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/10/27/taco-bell-milk-bar-birthday-cake-empanada-review/",
+      "summary": "I’ve been a big fan of the dessert-focused bakery Milk Bar for years, so when I heard about its collaboration with Taco Bell for the new limited edition Birthday Cake Empanada, I celebrated like it w…",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
@@ -7263,10 +7263,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Legendary Amiga Artist Klas Benjaminsson Creates Eye-Catching 32-Colour Art for the A1200's Upcoming Release",
-      "url": "https://www.timeextension.com/#article-208188",
-      "summary": "'Beyond the Screen' was created using an Amiga 1200. The A1200 is inching ever closer to release, and Retro Games Limited and PLAION REPLAI have commissioned one of the most talented pixel artists al…",
-      "publishedAt": "2026-10-27T14:00:00.000Z"
+      "title": "'A Mark of Its Heritage Awaiting Rediscovery' - Polymega Gets Cryptic with Dramatic Social Media Post",
+      "url": "https://www.timeextension.com/#article-208199",
+      "summary": "Prosymega. Playmaji, the developer behind physical-media-reading multi-console Polymega , has posted a cryptic message on the company's X account , filled with dramatic, purple text but not overtly t…",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -7404,13 +7404,13 @@
   },
   "https://www.zephoria.org/thoughts/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.zephoria.org/thoughts/feed",
     "latestArticle": {
-      "title": "What’s Up with 4-3-5?",
-      "url": "https://www.zephoria.org/thoughts/archives/2026/10/13/whats-up-with-4-3-5.html",
-      "summary": "A few weeks ago, I launched my new book – Data Are Made, Not Found: A Story of Politics, Power, and the Civil Servants Who Saved the US Census. To my sheer delight, many friends have stepped up to ho…",
-      "publishedAt": "2026-10-13T13:01:21.000Z"
+      "title": "Dear Civil Servants and the Ventriloquists behind the proposed residence rules",
+      "url": "https://www.zephoria.org/thoughts/archives/2026/10/27/dear-civil-servants-and-the-ventriloquists-behind-the-proposed-residence-rules.html",
+      "summary": "The “Census Bureau” is currently seeking comments to a proposed new set of residence rules for the 2030 census. Comments are due on November 2, 2026. In reality, the actual proposal is a tirade writt…",
+      "publishedAt": "2026-10-27T13:45:09.000Z"
     }
   },
   "https://wyrdbritain.blogspot.com/": {

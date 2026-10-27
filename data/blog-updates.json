@@ -734,8 +734,8 @@
   },
   "https://chaoslife.findchaos.com/comic": {
     "lastPublished": "2026-06-11",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
       "title": "Late Lament",
@@ -871,8 +871,8 @@
   },
   "https://dom.blog/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
       "title": "When I was one, I had just begun",
@@ -1422,15 +1422,15 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T00:03:55.348Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Illustration from a 2002 issue of the British Nintendo Official Magazine, depicting Mario saying &ldquo;I&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831578859077091328",
-      "summary": "Illustration from a 2002 issue of the British Nintendo Official Magazine, depicting Mario saying “I hate my job” in regards to the fact that Japanese players were able to play demo versions of games …",
-      "publishedAt": "2026-10-26T22:56:39.000Z"
+      "title": "Officially licensed 1997 Super Mario 64-themed Nintendo 64 game storage case from Japan.",
+      "url": "https://smallmariofindings.tumblr.com/post/831586687420334080",
+      "summary": "Officially licensed 1997 Super Mario 64-themed Nintendo 64 game storage case from Japan. Source: j-vintage-toys Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-10-27T01:01:05.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1745,13 +1745,13 @@
   },
   "https://www.freecodecamp.org/news/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T16:44:31.789Z",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/how-noise-cancelling-headphones-work/",
-      "summary": "A noisy flight can make it difficult to enjoy a podcast or listen to music without turning up your volume super high. Much of that disturbance comes from the steady rumble of the engines, which contin",
-      "publishedAt": "2026-10-26T13:51:50.000Z"
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-simple-data-analyzer-in-python-with-pandas/",
+      "summary": "Data analysis might sound complicated when you first encounter it. You might imagine large databases, advanced mathematics, and complicated machine learning algorithms. But many useful data analysis t",
+      "publishedAt": "2026-10-26T21:56:52.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -1877,15 +1877,15 @@
     }
   },
   "https://www.omgubuntu.co.uk/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-26T01:39:45.560Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Ubuntu users can now file bugs against specific Launchpad PPAs",
-      "url": "https://www.omgubuntu.co.uk/2026/10/launchpad-ppa-dedicated-bug-tracker",
-      "summary": "Launchpad now offers bug tracking for personal package archives (PPAs), making it easier for users to report issues specific to software within a PPA. Why does that matter? Well, not all PPAs are mai…",
-      "publishedAt": "2026-10-25T23:41:00.000Z"
+      "title": "Firefox 159 released with Wayland Linux fixes",
+      "url": "https://www.omgubuntu.co.uk/2026/10/firefox-159-released",
+      "summary": "Firefox 159 is out, with a fresh set of improvements and some Linux-specific fixes. Now that Mozilla’s browser hews to a faster release cadence, with two releases a month rather than one, some change…",
+      "publishedAt": "2026-10-27T01:28:51.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -2284,8 +2284,8 @@
   },
   "https://seat31b.com/": {
     "lastPublished": "2026-09-16",
-    "lastChecked": "2026-10-20T00:44:42.118Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
       "title": "Wyndham Just Quadrupled the Points Price of 237 Hotels",
@@ -2554,8 +2554,8 @@
   },
   "https://www.qwantz.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T07:44:30.151Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
       "title": "the relative merits of wooden vs concrete railway ties.  AT LAST!!",
@@ -2993,14 +2993,14 @@
     }
   },
   "https://weaintgotnohistory.sbnation.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T00:03:55.348Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173415/the-daily-hilario-oct-25th",
-      "summary": "Nightmare Unbeaten Highest",
-      "publishedAt": "2026-10-26T07:00:00.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173432/chelsea-0-2-tottenham-hotspur-player-ratings-early-season-blues",
+      "summary": "1. MOISÉS CAICEDO (5.6) These are very generous ratings for one of the worst games we’ve seen in a long time, especially given the nature of the occasion with the rivalry, the history, the meaning be…",
+      "publishedAt": "2026-10-27T01:21:58.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3118,15 +3118,15 @@
     }
   },
   "https://9to5linux.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T23:44:33.526Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Mozilla Firefox 160 Enters Public Beta Testing, Here’s What to Expect",
-      "url": "https://9to5linux.com/mozilla-firefox-160-enters-public-beta-testing-heres-what-to-expect",
-      "summary": "Mozilla Firefox 160 open-source web browser is now available for public beta testing with various new features and improvements. Here's what to expect from the final release. The post Mozilla Firefox…",
-      "publishedAt": "2026-10-26T22:55:52.000Z"
+      "title": "Mozilla Firefox 159 Is Now Available for Download, Here’s What’s New",
+      "url": "https://9to5linux.com/mozilla-firefox-159-is-now-available-for-download-heres-whats-new",
+      "summary": "Mozilla Firefox 159 open-source web browser is now available for download with better memory management on Linux systems with AMD GPUs, better Wayland support, and new developer features. The post Mo…",
+      "publishedAt": "2026-10-27T01:44:15.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3742,8 +3742,8 @@
   },
   "https://babakfakhamzadeh.com/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-22T17:36:21.349Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
       "title": "Please Accept Colonialism to Continue",
@@ -3837,15 +3837,15 @@
     }
   },
   "https://www.web-goddess.org/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T00:03:55.348Z",
-    "status": "unavailable",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "success",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "Sydney Open this weekend",
-      "url": "https://www.web-goddess.org/archive/95590",
-      "summary": "I just had the final briefing for Volunteer Site Supervisors for this Sunday’s Sydney Open. There will be 40+ buildings open across the city with spaces that the public doesn’t normally get to see. I…",
-      "publishedAt": "2026-10-26T08:48:27.000Z"
+      "title": "🚴‍♀️ Ride: Catch up with Jonathan",
+      "url": "https://www.web-goddess.org/archive/95595",
+      "summary": "A quick hilly ride through Forest Lodge and Annandale. I had a juice with our baklava because I’d already had a coffee, but it still counts as my 4th #coffeeneuring ! Time: 25min / Distance: 5.3km",
+      "publishedAt": "2026-10-27T01:22:16.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -3862,8 +3862,8 @@
   },
   "https://econbrowser.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T23:44:33.526Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
       "title": "“News” Illustrated: Brazilian Election",
@@ -4289,14 +4289,14 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T00:44:34.076Z",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "New Avengers: Doomsday TV Spot Offers Fresh Look at Marvel Epic",
-      "url": "https://www.themovieblog.com/2026/10/new-avengers-doomsday-tv-spot-offers-fresh-look-at-marvel-epic/",
-      "summary": "Marvel Studios has unveiled a new 30-second TV spot for Avengers: Doomsday, featuring fresh footage and a look at the film's expansive ensemble cast. The post New Avengers: Doomsday TV Spot Offers Fr…",
-      "publishedAt": "2026-10-27T00:30:00.000Z"
+      "title": "“No Hands: The Wild Ride of the Schwinn Bicycle Company” @ CIFF 2026",
+      "url": "https://www.themovieblog.com/2026/10/no-hands-the-wild-ride-of-the-schwinn-bicycle-company-ciff-2026/",
+      "summary": "Writer/Director Daniel Clarke brought a 77-minute history of the rise and fall of the Schwinn Bicycle Company,”No Hands: The Wild Ride of the Schwinn Bicycle Company” to the 62nd Chicago Internationa…",
+      "publishedAt": "2026-10-27T01:20:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4941,8 +4941,8 @@
   },
   "https://www.thisishorror.co.uk/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T08:44:31.226Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
       "title": "5 Must Read Horror Articles 26 October 2026",
@@ -4953,8 +4953,8 @@
   },
   "https://www.horrorsociety.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T17:44:36.574Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
       "title": "Chris LaMartina’s SPIRIT TASTING from Terror Vision Films",
@@ -5643,8 +5643,8 @@
   },
   "https://makeupandbeautyblog.com/": {
     "lastPublished": "2026-01-19",
-    "lastChecked": "2026-10-27T00:44:34.076Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "success",
     "feedUrl": "https://makeupandbeautyblog.com/feed/",
     "latestArticle": {
       "title": "Sundays With Tabs the Cat, Makeup and Beauty Blog Mascot, Vol. 878",
@@ -5894,8 +5894,8 @@
   },
   "https://www.thedarkmagazine.com/": {
     "lastPublished": "2026-10-01",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
       "title": "Falling",
@@ -5906,8 +5906,8 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T21:44:29.725Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
       "title": "SPOTTED: Hershey’s Kisses Strawberry Sugar Cookie",
@@ -6224,14 +6224,14 @@
   },
   "https://thisisnthappiness.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T21:44:29.725Z",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "One world, Paul Rouphail",
-      "url": "https://thisisnthappiness.com/post/831568198513147904",
-      "summary": "One world, Paul Rouphail",
-      "publishedAt": "2026-10-26T20:07:13.000Z"
+      "title": "Charles Addams, The New Yorker",
+      "url": "https://thisisnthappiness.com/post/831580809419014144",
+      "summary": "Charles Addams, The New Yorker",
+      "publishedAt": "2026-10-26T23:27:39.000Z"
     }
   },
   "https://banbantonton.com/": {
@@ -6247,14 +6247,14 @@
     }
   },
   "https://londonreconnections.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T02:44:33.113Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/mondays-friday-reads-26-october-2026/",
-      "summary": "Some new Piccadilly line train carriages have no wheels: Video | ForSomeReason TfL earns £1.1m from Turkish Airlines’ Elizabeth line adverts | Ian Visits Alexander Dennis/Volvo unveil new tram-style …",
-      "publishedAt": "2026-10-26T02:17:45.000Z"
+      "url": "https://londonreconnections.com/france-launches-state-aid-for-battery-fleets-intl-railway-journal/",
+      "summary": "THE French government aims to have 100 battery trains in service within 10 years as part of its drive to phase out diesel trains by 2035. New funding, the amount of which has not yet been disclosed, …",
+      "publishedAt": "2026-10-27T01:48:12.000Z"
     }
   },
   "https://www.zachleat.com/": {
@@ -6265,8 +6265,8 @@
   },
   "https://www.notebookstories.com/": {
     "lastPublished": "2026-10-13",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
       "title": "Sketchbook Switch: Here’s What I Chose",
@@ -6366,8 +6366,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T00:03:55.348Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6401,15 +6401,15 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T23:44:33.526Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Secrets Beneath the Maya | Full Documentary",
-      "url": "https://greatawakeningreport.com/secrets-beneath-the-maya-documentary/",
-      "summary": "Most of what the world thinks it knows about the ancient Maya was built from what survived above ground, the pyramids, the ball courts, the carved stelae standing in cleared plazas. The Secrets Benea…",
-      "publishedAt": "2026-10-26T23:10:00.000Z"
+      "title": "The Real Impact of the Silk Road | Documentary",
+      "url": "https://greatawakeningreport.com/the-real-impact-of-the-silk-road-documentary/",
+      "summary": "The phrase conjures a single dusty track winding between China and Rome, camels in silhouette, bales of fabric moving west. This Silk Road documentary dismantles that postcard within its first stretc…",
+      "publishedAt": "2026-10-27T01:40:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -6874,8 +6874,8 @@
   },
   "https://www.thefrugalgamer.net/blog/": {
     "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
       "title": "Laptop Stickers",
@@ -7041,8 +7041,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T06:56:12.013Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "LUO Studio",
@@ -7101,8 +7101,8 @@
   },
   "https://www.theimpulsivebuy.com/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-26T21:44:29.725Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
       "title": "SPOTTED: Hershey’s Kisses Strawberry Sugar Cookie",
@@ -7328,8 +7328,8 @@
   },
   "https://www.designswarm.com/blog/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T21:44:30.784Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
       "title": "Sunday Scraps #127",
@@ -7376,8 +7376,8 @@
   },
   "https://www.fluxblog.org/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
       "title": "A Cocooning Kind Of Attitude",
@@ -7387,15 +7387,15 @@
     }
   },
   "https://site-of-curiosities.blogspot.com/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-25T01:37:54.100Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://site-of-curiosities.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "On the Skids",
-      "url": "https://site-of-curiosities.blogspot.com/2026/10/on-skids.html",
-      "summary": "She's got to the skids again. It is a mess. I know. I know. Who was this chick? She kinda flew in from the eighties and got stuck somewheres in a Wendy's triple. She stands approx.50mm tall and the w…",
-      "publishedAt": "2026-10-22T01:00:12.981Z"
+      "title": "Burning Chrome - William Gibson , A Reading",
+      "url": "https://site-of-curiosities.blogspot.com/2026/10/burning-chrome-william-gibson-reading.html",
+      "summary": "I usually like to hold on to the text I am reading, but in this rendition was very entertaining. Eairler mentions of Burning Chrome",
+      "publishedAt": "2026-10-24T02:05:09.126Z"
     }
   },
   "https://thewonderfulworldofcinema.wordpress.com/": {
@@ -7490,8 +7490,8 @@
   },
   "https://www.maproomblog.com/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
       "title": "Hegseth’s Minions Break Eisenhower’s Globe",
@@ -7526,8 +7526,8 @@
   },
   "https://www.fromthemurkydepths.co.uk/": {
     "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T00:44:34.076Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "success",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
       "title": "Woolwich town centre upgrade sees decline continue",
@@ -7645,15 +7645,15 @@
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://revenuecycleuncovered.blogspot.com/": {
-    "lastPublished": "2026-10-26",
-    "lastChecked": "2026-10-27T00:03:55.348Z",
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
     "status": "success",
     "feedUrl": "https://revenuecycleuncovered.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Excel Worksheet | Fee Schedule Comparison",
-      "url": "https://revenuecycleuncovered.blogspot.com/2026/10/excel-worksheet-fee-schedule-comparison.html",
-      "summary": "Specialized Topics & Deep Dives · Revenue Integrity & Contract Management Fee Schedule Comparison Tool Compare user-entered reimbursement rates and explore how different payment scenarios affect esti…",
-      "publishedAt": "2026-10-23T06:34:54.662Z"
+      "title": "The Revenue Cycle Thank You Pack",
+      "url": "https://revenuecycleuncovered.blogspot.com/2026/10/the-revenue-cycle-thank-you-pack.html",
+      "summary": "Revenue Cycle Uncovered · Reference and Practice The Revenue Cycle Thank You Pack First edition · Reviewed October 26, 2026 · Educational examples Use this small, undated pack for a department meetin…",
+      "publishedAt": "2026-10-27T01:21:17.906Z"
     }
   },
   "https://thechels.uk/": {
@@ -7693,8 +7693,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-27T00:03:55.348Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7855,8 +7855,8 @@
   },
   "https://www.thefrugalgamer.net/": {
     "lastPublished": "2026-10-09",
-    "lastChecked": "2026-10-25T13:44:29.520Z",
-    "status": "success",
+    "lastChecked": "2026-10-27T01:44:29.796Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
       "title": "New Music",

@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -801,7 +801,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -1172,9 +1172,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/we-fought---ruben-dias-admits-to-frustration-in-manchester-city-defeat-to-aston-villa",
-      "summary": "Manchester City captain Ruben Dias has insisted that while defeat to Aston Villa was \"frustrating\", there are plenty of encouraging signs to take away from Villa Park on Saturday afternoon.",
-      "publishedAt": "2026-10-27T06:30:06.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/puma-set-to-alter-manchester-city-kits-with-major-branding-change",
+      "summary": "Sportswear giants Puma are preparing to introduce a major visual change across their kit lineup that will subtly transform the design of future Manchester City shirts, according to new reports.",
+      "publishedAt": "2026-10-27T08:30:05.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1460,13 +1460,13 @@
   },
   "https://danq.me/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://danq.me/feed/",
     "latestArticle": {
-      "title": "[Note] The Possession of Butt",
-      "url": "https://danq.me/2026/10/26/the-possession-of-butt/",
-      "summary": "Let this be your reminder to check on how your computer systems truncate long strings for public display.",
-      "publishedAt": "2026-10-26T14:26:01.000Z"
+      "title": "[Repost] It’s Time to Come Back to Firefox. The Internet You Loved Is Still Here",
+      "url": "https://danq.me/2026/10/27/its-time-to-come-back-to-firefox-the-internet-you-loved-is-still-here/",
+      "summary": "The Firefox team absolutely knocking it out of the park by rallying the faces of the memes you've missed and using them as a reminder that the Web you've missed is still out there. And your choice of…",
+      "publishedAt": "2026-10-27T09:33:38.000Z"
     }
   },
   "https://dansinker.com/blog/": {
@@ -1770,7 +1770,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2001,7 +2001,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2096,9 +2096,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://greek-metal-area.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Disoriented - No​.​4",
-      "summary": "Genre : Groove/Death Metal Year : 2024 1. No​.​4 04:18 -DOWNLOAD-",
-      "publishedAt": "2026-10-27T08:31:00.000Z"
+      "title": "Disoriented - Crossed The Line",
+      "summary": "Genre : Groove/Death Metal Year : 2024 1. Crossed The Line 03:16 2. Only Gods Feel Pain 03:04 3. Self Made 03:06 4. Human Affected 02:30 5. Kintsugi 02:55 6. Wait For The Bullet 03:32 7. Losing Side …",
+      "publishedAt": "2026-10-27T08:55:00.000Z"
     }
   },
   "https://greenshadediary.blogspot.com/": {
@@ -2199,13 +2199,13 @@
   },
   "https://handeaux.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-20",
     "feedUrl": "https://handeaux.tumblr.com/rss",
     "latestArticle": {
-      "title": "Did Someone In Cincinnati Try To Assassinate Abraham Lincoln During His 1861 Visit?",
-      "url": "https://handeaux.tumblr.com/post/831613087110021120",
-      "summary": "Abraham Lincoln arrived in Cincinnati on his birthday, February 12, 1861. He was traveling to his inauguration as President of the United States. According to some accounts, Lincoln barely escaped de…",
-      "publishedAt": "2026-10-27T08:00:42.000Z"
+      "title": "Once Upon A Time, Cincinnati&rsquo;s Official Chemist Uncovered Some Unsavory Secrets",
+      "url": "https://handeaux.tumblr.com/post/830978979122020352",
+      "summary": "The Cincinnati Board of Health was mightily confused in 1915. The board clerk handed president George Fackler a request to approve the purchase of something called “Dimethylparaphenylenediamine.” Joh…",
+      "publishedAt": "2026-10-20T08:01:49.000Z"
     }
   },
   "https://happyacres.blog/": {
@@ -2494,9 +2494,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
     "latestArticle": {
-      "title": "Wonders of Web Weaving, Behind the Scenes",
-      "url": "https://jamesg.blog/2026/10/27/www-bts",
-      "summary": "After twenty-five wonderful conversations, Wonders of Web Weaving is, at least for now, complete. To everyone who has been listening over the last few months: thank you! It has been the greatest plea…",
+      "title": "Designing the Wonders of Web Weaving website",
+      "url": "https://jamesg.blog/2026/10/27/www-site-design",
+      "summary": "When I started the Wonders of Web Weaving project, I knew I wanted the technical design of the website to be web-first. This meant that the website would be the home of the project, where all episode…",
       "publishedAt": "2026-10-27T00:00:00.000Z"
     }
   },
@@ -2556,7 +2556,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -4173,13 +4173,13 @@
   },
   "https://retiredmartin.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://retiredmartin.com/feed/",
     "latestArticle": {
-      "title": "PINTS UNDER THE WATNEY’S RED LIGHT IN TARRING",
-      "url": "https://retiredmartin.com/2026/10/26/pints-under-the-watneys-red-light-in-tarring/",
-      "summary": "October 2026. West Tarring. Worthing. The lack of young, female pub tickers is a matter of concern in our society, but then women aren’t generally as fascinated by maps in the same way as blokes, hav…",
-      "publishedAt": "2026-10-26T21:30:35.000Z"
+      "title": "A BONUS BRIGHTON BOOZER",
+      "url": "https://retiredmartin.com/2026/10/27/a-bonus-brighton-boozer/",
+      "summary": "October 2026. Brighton. On the way back from Ford to Rye now, an eight train journey but with four Beer Guide ticks (“half a BRAPA”) in the bag. Four pints in 2 hours, really important not to mix it …",
+      "publishedAt": "2026-10-27T09:14:33.000Z"
     }
   },
   "https://retroarcadia.blog/": {
@@ -4365,13 +4365,13 @@
   },
   "https://scholarlykitchen.sspnet.org/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://scholarlykitchen.sspnet.org/feed/",
     "latestArticle": {
-      "title": "Guest Post — When Research Integrity Fails, the Entire System Follows",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/26/guest-post-when-research-integrity-fails-the-entire-system-follows/",
-      "summary": "Leadership in academia, publishing, funding, and across the supply chain must coordinate efforts to address research integrity. It is this collective responsibility that will restore and protect the …",
-      "publishedAt": "2026-10-26T09:30:26.000Z"
+      "title": "Who Keeps the Catalog of Connectors? The Coming MCP Discovery Problem",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/27/mcp-discovery/",
+      "summary": "Libraries and their vendor partners can build registries and metadata feeds that make MCP connectors for scholarly content findable, accessible, and usable. The post Who Keeps the Catalog of Connecto…",
+      "publishedAt": "2026-10-27T09:30:06.000Z"
     }
   },
   "https://scholars-stage.org/": {
@@ -4442,13 +4442,13 @@
   },
   "https://seths.blog/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://seths.blog/feed/",
     "latestArticle": {
-      "title": "Is our attitude up to us?",
-      "url": "https://seths.blog/2026/10/is-our-attitude-up-to-us/",
-      "summary": "If the stakes are high enough and the duration you need to keep it together is short enough, can you control your response? Because if we can do it then, we can learn to do it now. Acknowledging that…",
-      "publishedAt": "2026-10-26T09:03:00.000Z"
+      "title": "The half-life of disappointment",
+      "url": "https://seths.blog/2026/10/the-half-life-of-disappointment/",
+      "summary": "When things don’t turn out the way you pictured, how long does it take for you to move on? Reducing this window of disappointment unlocks the path to creativity and leadership. People who get over di…",
+      "publishedAt": "2026-10-27T09:03:00.000Z"
     }
   },
   "https://shapeof.com/": {
@@ -4926,7 +4926,7 @@
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/feed/",
+    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -5015,10 +5015,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Colby Donovan proves the pathway exists. Others at Celtic must follow him.",
-      "url": "https://thecelticblog.com/2026/10/articles-and-features/colby-donovan-proves-pathway-exists-celtic/",
-      "summary": "There is something genuinely satisfying about seeing a young Celtic player commit his future to the club. Colby The post Colby Donovan proves the pathway exists. Others at Celtic must follow him. app…",
-      "publishedAt": "2026-10-27T06:30:27.000Z"
+      "title": "The McKenna question may be answered soon, if Celtic wants him.",
+      "url": "https://thecelticblog.com/2026/10/articles-and-features/mckenna-question-answered-soon-for-celtic/",
+      "summary": "Michael Carrick is not gone yet, but after Sunday’s 3-0 home defeat to Bournemouth, United are holding crisis The post The McKenna question may be answered soon, if Celtic wants him. appeared first o…",
+      "publishedAt": "2026-10-27T09:30:25.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5278,10 +5278,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "@ – Autosmile",
-      "url": "https://thequietus.com/quietus-reviews/autosmile-at-review/",
-      "summary": "@ Autosmile Philadelphia duo with an ungoogleable name create dreamy psychedelic worlds with Waterboys flutes adn Beach Boys harmonies Autosmile by @ It’s a great time and a nightmarish time to be an…",
-      "publishedAt": "2026-10-27T08:28:23.000Z"
+      "title": "Johnny Marr – The Age of Everything",
+      "url": "https://thequietus.com/quietus-reviews/johnny-marr-the-age-of-everything-review/",
+      "summary": "Johnny Marr The Age of Everything Former Smiths guitarist settles some scores – with himself, and others When I spoke to Johnny Marr for Huck in 2019, all Morrissey talk was off the table. Marr is a …",
+      "publishedAt": "2026-10-27T09:32:00.000Z"
     }
   },
   "https://therealadam.com/": {
@@ -5428,7 +5428,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5546,7 +5546,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5940,13 +5940,13 @@
   },
   "https://www.brickfanatics.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "New LEGO book from bestselling cartoonist launches soon",
-      "url": "https://www.brickfanatics.com/new-lego-book-bestselling-cartoonist-launches-soon",
-      "summary": "Meet the newest original LEGO character from the creator of the Jedi Academy series.",
-      "publishedAt": "2026-10-26T19:31:03.000Z"
+      "title": "First details on LEGO Black Friday 2026 set preview livestream",
+      "url": "https://www.brickfanatics.com/first-details-lego-black-friday-2026-livestream",
+      "summary": "Something BIG is coming, the LEGO Group has teased",
+      "publishedAt": "2026-10-27T09:41:16.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6273,13 +6273,13 @@
   },
   "https://www.gordonmclean.co.uk/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.gordonmclean.co.uk/feed/",
     "latestArticle": {
-      "title": "Blueberry Hill by Fats Domino",
-      "url": "https://www.gordonmclean.co.uk/2026/10/26/blueberry-hill-by-fats-domino/",
-      "summary": "A song from the 1950s that you like or means something to you. Memories of my time at Hospital Radio Lennox are evoked by a small number of tracks. I heard so many songs for the first time there, exp…",
-      "publishedAt": "2026-10-26T06:40:26.000Z"
+      "title": "Soul Man by Sam & Dave",
+      "url": "https://www.gordonmclean.co.uk/2026/10/27/soul-man-by-sam-dave/",
+      "summary": "A song from the 1960s that you like or means something to you. As I’ve mentioned before, my parents weren’t all that bothered by soul music, so it’s the one musical genre that I discovered and explor…",
+      "publishedAt": "2026-10-27T08:39:37.000Z"
     }
   },
   "https://www.guyhadleigh.com/blog/categories": {
@@ -6403,7 +6403,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6495,13 +6495,13 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "Fossil of the first and only amphibian to have always lived in the sea has been discovered in China: it was armored and hunted by suction",
-      "url": "https://www.labrujulaverde.com/en/2026/10/fossil-of-the-first-and-only-amphibian-to-have-always-lived-in-the-sea-has-been-discovered-in-china-it-was-armored-and-hunted-by-suction/",
-      "summary": "There are more than 8,000 species of amphibians on Earth, and not one of them lives in the sea. Fewer than 2% tolerate any salt at all, and even those have limits. It is a striking gap. Whales, sea t…",
-      "publishedAt": "2026-10-26T17:00:31.000Z"
+      "title": "Was This Roman Soldier Murdered by His Own Comrades? Archaeologists Reopen a 2,000-Year-Old Cold Case",
+      "url": "https://www.labrujulaverde.com/en/2026/10/was-this-roman-soldier-murdered-by-his-own-comrades-archaeologists-reopen-a-2000-year-old-cold-case/",
+      "summary": "In 1977, amateur archaeologists digging at the site of an old Roman fort in Velsen, on the coast of North Holland, uncovered a well. At the bottom lay the almost complete skeleton of a man who was st…",
+      "publishedAt": "2026-10-27T08:51:18.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -6542,7 +6542,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6843,7 +6843,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7060,9 +7060,9 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
+    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
     "latestArticle": {
       "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
       "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
@@ -7262,13 +7262,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'We Will Not Be Officially Supporting This Device' - the Team Behind 3DS Emulator Azahar Isn't Happy with Anbernic",
-      "url": "https://www.timeextension.com/#article-208146",
-      "summary": "\"Any issues or bugs related to devices from this specific manufacturer will not be investigated\". Emulation handheld maker Anbernic has been in hot water recently, it's fair to say. The Entertainment…",
-      "publishedAt": "2026-10-26T16:00:00.000Z"
+      "title": "Rare Co-Founder Tim Stamper Returns to Social Media, Cryptically Teases Opening 'The Vault'",
+      "url": "https://www.timeextension.com/#article-208170",
+      "summary": "‘The keys won’t stop jangling…’. Tim Stamper, legendary UK developer and co-founder of iconic studios Rare and Ultimate Play The Game , has surprised gaming fans by making an unlikely appearance on s…",
+      "publishedAt": "2026-10-27T09:07:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

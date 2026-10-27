@@ -8341,5 +8341,89 @@
     "lastChecked": "2026-10-27T05:33:29.596Z",
     "status": "unknown",
     "feedUrl": "https://www.countmydays.to/index.xml"
+  },
+  "https://lawasked.com/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "unknown",
+    "feedUrl": "https://lawasked.com/favicon.svg"
+  },
+  "https://transmissionfluid.net/": {
+    "lastPublished": null,
+    "lastChecked": "2026-10-27T04:59:16.936Z",
+    "status": "unknown",
+    "feedUrl": "https://transmissionfluid.net/icon.svg?6de96fc3fe604761"
+  },
+  "https://thejaymo.net/blog/": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T05:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://thejaymo.net/feed/",
+    "latestArticle": {
+      "title": "Vocabulary of Action",
+      "url": "https://thejaymo.net/2026/10/26/456-reading-the-the-unix-time-sharing-system/",
+      "summary": "Jay Springett’s latest weeknote considers the UNIX command line, reading Dennis Ritchie and Ken Thompson’s paper on the UNIX time-sharing system.",
+      "publishedAt": "2026-10-26T20:18:29.000Z"
+    }
+  },
+  "https://colly.com/journal": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://colly.com/journal/feed",
+    "latestArticle": {
+      "title": "Autechre & Space Afrika",
+      "url": "https://colly.com/journal/autechre-space-afrika",
+      "summary": "Simon Collison writes about seeing Autechre and Space Afrika on the Greenwich peninsula.",
+      "publishedAt": "2026-10-26T13:00:00.000Z"
+    }
+  },
+  "https://lbj20.blogspot.com/": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://lbj20.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Festival of Commoning 2026",
+      "url": "https://lbj20.blogspot.com/2026/10/festival-of-commoning-2026.html",
+      "summary": "Notes from the third Festival of Commoning in Stroud and reflections on what commoning means.",
+      "publishedAt": "2026-10-26T21:35:53.498Z"
+    }
+  },
+  "https://mcxfisher.blogspot.com/": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://mcxfisher.blogspot.com/feeds/posts/default?alt=rss",
+    "latestArticle": {
+      "title": "Rounding off the season",
+      "url": "https://mcxfisher.blogspot.com/2026/10/rounding-off-season.html",
+      "summary": "A final four-day salmon-fishing trip on the Ure closes out the 2026 season.",
+      "publishedAt": "2026-10-26T21:49:57.000Z"
+    }
+  },
+  "https://dcairns.wordpress.com/": {
+    "lastPublished": "2026-10-27",
+    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://dcairns.wordpress.com/feed/",
+    "latestArticle": {
+      "title": "Posthumous Remus",
+      "url": "https://dcairns.wordpress.com/2026/10/27/posthumous-remus/",
+      "summary": "A film essay considering Remus, grief and a range of classic and cult cinema references.",
+      "publishedAt": "2026-10-26T23:07:29.000Z"
+    }
+  },
+  "https://hugoclub.blogspot.com/": {
+    "lastPublished": "2026-10-26",
+    "lastChecked": "2026-10-27T06:00:00.000Z",
+    "status": "success",
+    "feedUrl": "https://hugoclub.blogspot.com/feeds/posts/default?alt=rss",
+    "latestArticle": {
+      "title": "The Poetry Of Imperfection",
+      "url": "https://hugoclub.blogspot.com/2026/10/the-poetry-of-imperfection.html",
+      "summary": "A Hugo Club review of a science-fiction novel exploring imperfection, identity and moral responsibility.",
+      "publishedAt": "2026-10-26T17:03:21.000Z"
+    }
   }
 }

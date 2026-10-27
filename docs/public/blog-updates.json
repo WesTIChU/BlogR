@@ -272,7 +272,7 @@
     }
   },
   "https://alis.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2024-09-25",
     "feedUrl": "https://alis.me/home/feed/",
     "latestArticle": {
@@ -419,7 +419,7 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -689,13 +689,13 @@
   },
   "https://blog.archive.org/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.archive.org/feed/",
     "latestArticle": {
-      "title": "Internet Archive Honors Poynter and IRE for Preserving Local News Online",
-      "url": "https://blog.archive.org/2026/10/20/internet-archive-hero-award-2026/",
-      "summary": "As newsrooms across the United States close, years of reporting are at risk of disappearing. Stories documenting local elections, holding public officials accountable, investigating community problem…",
-      "publishedAt": "2026-10-20T12:00:00.000Z"
+      "title": "A Behind-the-Scenes Look at the Physical Archive",
+      "url": "https://blog.archive.org/2026/10/27/behind-the-scenes-physical-archive/",
+      "summary": "Visitors who came to the open house at the Physical Archive in Richmond, California, on October 20 were curious. They wanted to learn about the range of items collected, the […] The post A Behind-the…",
+      "publishedAt": "2026-10-27T11:05:00.000Z"
     }
   },
   "https://blog.atmtxphoto.com/": {
@@ -1172,9 +1172,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/puma-set-to-alter-manchester-city-kits-with-major-branding-change",
-      "summary": "Sportswear giants Puma are preparing to introduce a major visual change across their kit lineup that will subtly transform the design of future Manchester City shirts, according to new reports.",
-      "publishedAt": "2026-10-27T08:30:05.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-press-conference-five-manchester-city-stars-given-three-days-off-ahead-of-carabao-cup-fourth-round",
+      "summary": "Manchester City manager Enzo Maresca has issued a fitness update on his side ahead of Wednesday night's Carabao Cup fourth round tie with Brighton and Hove Albion.",
+      "publishedAt": "2026-10-27T11:00:10.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1309,10 +1309,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Tomorrow’s Budget won’t be like the 1970s",
-      "url": "https://conservativehome.com/2026/10/27/tomorrows-budget-wont-be-like-the-1970s/",
-      "summary": "So, to those obsessing over tomorrow’s numbers, might I leave you with a warning? Healey’s speech may well be bland, dull and utterly unremarkable. You might sit there, wondering where this supposed …",
-      "publishedAt": "2026-10-27T07:00:03.000Z"
+      "title": "Andrew Gilligan: Is Andy Burnham the new Jim Callaghan?",
+      "url": "https://conservativehome.com/2026/10/27/andrew-gilligan-is-andy-burnham-the-new-jim-callaghan/",
+      "summary": "Yesterday, and not for the first time, some of Burnham’s musings had to be “clarified” by his spokesman. So maybe all this is just riffing. Maybe he just hasn’t thought any of it through. The post An…",
+      "publishedAt": "2026-10-27T11:00:28.000Z"
     }
   },
   "https://corporalfrisk.com/": {
@@ -1452,10 +1452,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://danielbowen.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on European trip notes by Ethan | SocialTraveler",
-      "url": "https://danielbowen.com/2026/10/06/european-trip-notes/#comment-422989",
-      "summary": "The shaver cable detail is a great catch; “USB” really doesn’t tell you what has to go in the bag. A quick device-and-cable checklist could save that little surprise next time. Has switching the phon…",
-      "publishedAt": "2026-10-27T06:23:06.000Z"
+      "title": "Comment on Exit here for Fed Square by Andrew C",
+      "url": "https://danielbowen.com/2026/10/27/exit-here-for-fed-square/#comment-422994",
+      "summary": "Richmond, Caulfield and South Yarra stations all need significant upgrades. Aside from perhaps Caulfield, there probably aren't votes in spending the money, but it will have to happen eventually. The…",
+      "publishedAt": "2026-10-27T11:02:00.000Z"
     }
   },
   "https://danq.me/": {
@@ -1551,7 +1551,7 @@
     }
   },
   "https://debugpoint.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
@@ -1968,7 +1968,7 @@
     }
   },
   "https://galacticjourney.org/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
@@ -2001,7 +2001,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2070,7 +2070,7 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
@@ -2170,10 +2170,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "ESP32 Rotary Display Makes Ideal Timer",
-      "url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer/",
-      "summary": "We’re big fans of pushing hardware into situations it wasn’t designed for here at Hackaday, but sometimes you’ve got to appreciate a nicely designed gadget doing more or less exactly …read more",
-      "publishedAt": "2026-10-27T08:00:35.000Z"
+      "title": "SIMD-accelerated Machine Vision on an ESP32-S3",
+      "url": "https://hackaday.com/2026/10/27/simd-accelerated-machine-vision-on-an-esp32-s3/",
+      "summary": "Recently [shraiwi] decided to have a bit of good nerdy fun and implement the FAST machine vision algorithm on an ESP32-S3 using its SIMD ISA. This involves using the assembly …read more",
+      "publishedAt": "2026-10-27T11:00:12.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2199,13 +2199,13 @@
   },
   "https://handeaux.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://handeaux.tumblr.com/rss",
     "latestArticle": {
-      "title": "Once Upon A Time, Cincinnati&rsquo;s Official Chemist Uncovered Some Unsavory Secrets",
-      "url": "https://handeaux.tumblr.com/post/830978979122020352",
-      "summary": "The Cincinnati Board of Health was mightily confused in 1915. The board clerk handed president George Fackler a request to approve the purchase of something called “Dimethylparaphenylenediamine.” Joh…",
-      "publishedAt": "2026-10-20T08:01:49.000Z"
+      "title": "Did Someone In Cincinnati Try To Assassinate Abraham Lincoln During His 1861 Visit?",
+      "url": "https://handeaux.tumblr.com/post/831613087110021120",
+      "summary": "Abraham Lincoln arrived in Cincinnati on his birthday, February 12, 1861. He was traveling to his inauguration as President of the United States. According to some accounts, Lincoln barely escaped de…",
+      "publishedAt": "2026-10-27T08:00:42.000Z"
     }
   },
   "https://happyacres.blog/": {
@@ -2445,13 +2445,13 @@
   },
   "https://islandinthenet.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://islandinthenet.com/feed/",
     "latestArticle": {
-      "title": "One Roll —  Atlanta Film Co. Hand Rolled 250D (NRJ) at Avalon Beach",
-      "url": "https://islandinthenet.com/one-roll-avalon-beach-2026/",
-      "summary": "#filmisnotdead #believeinfilm",
-      "publishedAt": "2026-10-14T16:58:06.000Z"
+      "title": "[Article] Stark but lovely.",
+      "url": "https://islandinthenet.com/273933-2/",
+      "summary": "Stark but lovely.",
+      "publishedAt": "2026-10-27T11:44:29.000Z"
     }
   },
   "https://it-tools.tech/": {
@@ -2524,13 +2524,13 @@
   },
   "https://jaysbrickblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
-      "title": "List of every LEGO Winter Village Collection set to date",
-      "url": "https://jaysbrickblog.com/seasonal/list-of-every-lego-winter-village-collection-set-to-date/",
-      "summary": "We’re now in the 18th year of LEGO’s beloved, annual Winter Village Collection subtheme, with the launch of 11387 Holiday House earlier this month. Check out our review of 11387 Holiday House if you …",
-      "publishedAt": "2026-10-24T12:29:23.000Z"
+      "title": "Review: LEGO 11383 Mayor Manor",
+      "url": "https://jaysbrickblog.com/reviews/review-11383-mayor-manor/",
+      "summary": "With Halloween being such an important holiday and celebration, LEGO has sought to introduce a brand new sub-theme within LEGO Icons in 2026, with 11383 Mayor Manor, the first in the Midnight Valley …",
+      "publishedAt": "2026-10-27T11:41:09.000Z"
     }
   },
   "https://jeffmackinnon.com/": {
@@ -2556,7 +2556,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2657,13 +2657,13 @@
   },
   "https://joshreads.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://joshreads.com/feed/",
     "latestArticle": {
-      "title": "Neither the kids nor the olds are all right",
-      "url": "https://joshreads.com/2026/10/neither-the-kids-nor-the-olds-are-all-right/",
+      "title": "Tuesday diatribes",
+      "url": "https://joshreads.com/2026/10/tuesday-diatribes/",
       "summary": "Comics Curmudgeon readers! Do you love this blog and yearn for a novel written by its creator? Well, good news: Josh Fruhlinger's The Enthusiast is that novel! It's even about newspaper comic strips,…",
-      "publishedAt": "2026-10-26T11:28:15.000Z"
+      "publishedAt": "2026-10-27T11:26:52.000Z"
     }
   },
   "https://joshuamorris.info/": {
@@ -3051,14 +3051,14 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "80+ Fantastic Things To Do In London This Month: November 2026",
-      "url": "https://londonist.com/london/things-to-do/things-to-do-in-london-in-november",
-      "summary": "Including a huge museum reopening, and the Christmas light switch-ons.",
-      "publishedAt": "2026-10-27T10:38:00.000Z"
+      "title": "Angel Tube Station Will Be Exit-Only On Weekends",
+      "url": "https://londonist.com/london/transport/angel-tube-station-exit-only-escalators",
+      "summary": "Lengthy escalator renovations ahead.",
+      "publishedAt": "2026-10-27T11:24:57.000Z"
     }
   },
   "https://londonreconnections.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
@@ -3197,10 +3197,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "NYT debate on the rules for AI companies",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/nyt-debate-on-the-rules-for-ai-companies.html?utm_source=rss&utm_medium=rss&utm_campaign=nyt-debate-on-the-rules-for-ai-companies",
-      "summary": "Emily Bazelon was the moderator, there were five of us in the symposium. Excerpt from me: Bores: Do you think the federal government pre-empting the states is consistent with democracy? Cowen: Absolu…",
-      "publishedAt": "2026-10-27T08:17:58.000Z"
+      "title": "Eleven outstanding film and television reviews by Tyler Cowen and Alex Tabarrok",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/eleven-outstanding-film-and-television-reviews-by-tyler-cowen-and-alex-tabarrok.html?utm_source=rss&utm_medium=rss&utm_campaign=eleven-outstanding-film-and-television-reviews-by-tyler-cowen-and-alex-tabarrok",
+      "summary": "From the Archive–these posts are written by ChatGPT These selections emphasize the quality of the criticism: original interpretations, close attention to the work, and arguments worth considering eve…",
+      "publishedAt": "2026-10-27T11:17:35.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -3459,7 +3459,7 @@
     }
   },
   "https://moxiemoshpit.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://moxiemoshpit.com/feed/",
     "latestArticle": {
@@ -3548,13 +3548,13 @@
   },
   "https://neveenwood.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "Wild Winter Paddington Collection: The New Case, Gift Set and Orange Marmalade",
-      "url": "https://neveenwood.com/wild-winter-paddington/",
-      "summary": "Wild's limited edition Winter Paddington collection is here, on the stick and roll-on cases plus their first ever Paddington gift set, with a new Orange Marmalade scent. Prices, what's in the box, an…",
-      "publishedAt": "2026-10-26T19:51:21.000Z"
+      "title": "Are Hair Extensions Bad for Thinning Hair? I Asked a Stylist Who Has Hereditary Hair Loss",
+      "url": "https://neveenwood.com/are-hair-extensions-bad-for-thinning-hair/",
+      "summary": "Kenzie Moon, a Utah hairstylist with hereditary hair loss, answers the big questions about extensions on fine and thinning hair, from what type to choose to the warning signs they are pulling too muc…",
+      "publishedAt": "2026-10-27T11:40:07.000Z"
     }
   },
   "https://nikhil.bearblog.dev/blog/": {
@@ -4029,7 +4029,7 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-16",
     "feedUrl": "https://rachelsvintageretro.co.uk/comments/feed/",
     "latestArticle": {
@@ -4215,7 +4215,7 @@
     "latestArticle": {
       "title": "Just Waiting Around",
       "url": "https://riz0me.bearblog.dev/2026/08/01/just-waiting-around/",
-      "summary": "I was laid off from my job on June 1—but I have my regular pay through August 31 and an additional six month severance; I'm doing fine!—and have been mired in the job search, which has been...dishear…",
+      "summary": "Kicking rocks, it feels like.",
       "publishedAt": "2026-08-01T19:31:10.536Z"
     }
   },
@@ -4675,7 +4675,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-25",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -4903,13 +4903,13 @@
   },
   "https://the-modern-dad.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://the-modern-dad.com/feed/",
     "latestArticle": {
-      "title": "EASY RECIPES FOR A DAD DURING HALLOWEEN WEEK",
-      "url": "https://the-modern-dad.com/easy-recipes-for-a-dad-during-halloween-week/",
-      "summary": "I don’t know about you, but we have so many things that we have going on this week it’s hard to keep it all straight. And the last thing I want to do is make… The post EASY RECIPES FOR A DAD DURING H…",
-      "publishedAt": "2026-10-26T11:00:28.000Z"
+      "title": "OUR FAVORITE FALL BOOKS",
+      "url": "https://the-modern-dad.com/our-favorite-fall-books/",
+      "summary": "Our kids are getting older, but one thing that hasn’t changed is how excited they get when we pull out our holiday books each year. They still love looking through the stories, pointing out their… Th…",
+      "publishedAt": "2026-10-27T11:00:49.000Z"
     }
   },
   "https://theautismcafe.com/": {
@@ -5023,13 +5023,13 @@
   },
   "https://thecelticstar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://thecelticstar.com/feed/",
     "latestArticle": {
-      "title": "Durán goal completes Celtic fightback to beat Hibernian 2-1 at Easter Road",
-      "url": "https://thecelticstar.com/duran-goal-completes-celtic-fightback-to-beat-hibernian-2-1-at-easter-road/",
-      "summary": "Celtic came from behind to win 2-1 at Hibernian in the Premiership, with all three goals arriving in the first half. The post Durán goal completes Celtic fightback to beat Hibernian 2-1 at Easter Roa…",
-      "publishedAt": "2026-10-26T06:58:30.000Z"
+      "title": "Colby Donovan Commits Future to Celtic Until 2031",
+      "url": "https://thecelticstar.com/colby-donovan-celtic-new-deal-2031/",
+      "summary": "The 20-year-old full-back has committed his future to Celtic until 2031, and Martin O’Neill believes there is a lot more to come. Colby Donovan has put pen to paper on a new long-term contract at Cel…",
+      "publishedAt": "2026-10-27T08:42:58.000Z"
     }
   },
   "https://thechels.uk/": {
@@ -5150,7 +5150,7 @@
     }
   },
   "https://thehighburylibrary.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2016-11-27",
     "feedUrl": "https://thehighburylibrary.com/feed/",
     "latestArticle": {
@@ -5428,7 +5428,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5546,7 +5546,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5577,13 +5577,13 @@
   },
   "https://uniqfox.me/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://uniqfox.me/zine/rss.php?kind=main",
     "latestArticle": {
-      "title": "cheap finds",
-      "url": "https://uniqfox.me/journal/used-books",
-      "summary": "some interesting finds {{image /zine/uploads/20261026-67d4e10e21fb.jpg | not bad, $2.50 for a $25 dollar read}} beautifully lit poetry, from Virginia. looked promising not poetry, but a bunch of crin…",
-      "publishedAt": "2026-10-26T02:26:41.000Z"
+      "title": "nibz #1: Eric remembers shelly",
+      "url": "https://uniqfox.me/journal/nibz-1-eric-remembers-shelly",
+      "summary": "Watch the video tribute to Brandon Lee's masterpiece The Crow ) fun fact: I met James O'Barr once in the tiny, unnoticeable comic book store which was right next door to Smart Bar, got my copy signed…",
+      "publishedAt": "2026-10-27T11:27:41.000Z"
     }
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -5863,7 +5863,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -5943,10 +5943,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Don't miss a trio of free LEGO gifts with qualifying orders",
-      "url": "https://www.brickfanatics.com/don-t-miss-trio-free-lego-gifts-qualifying-orders",
-      "summary": "Build, Paint and Play is nearly here, but there's still time for up to three free LEGO sets",
-      "publishedAt": "2026-10-27T10:39:56.000Z"
+      "title": "My November 2026 LEGO shopping plans: mostly retiring models",
+      "url": "https://www.brickfanatics.com/my-november-2026-lego-shopping-plans-retiring",
+      "summary": "It's time to play catch-up",
+      "publishedAt": "2026-10-27T11:38:40.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6019,7 +6019,7 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
@@ -6375,21 +6375,21 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Camden High Street pedestrianisation trial to be made permanent",
-      "url": "https://www.ianvisits.co.uk/articles/camden-high-street-pedestrianisation-trial-to-be-made-permanent-93585/",
-      "summary": "Pedestrianisation season seems to be here in London, as Camden Council has announced it will make a trial pedestrianisation of Camden High Street permanent. Read more ›",
-      "publishedAt": "2026-10-27T10:00:16.000Z"
+      "title": "Angel Tube station to be exit-only at weekends from early 2027",
+      "url": "https://www.ianvisits.co.uk/articles/angel-tube-station-to-be-exit-only-at-weekends-from-early-2027-93591/",
+      "summary": "Ongoing escalator problems at Angel Tube station have forced Transport for London’s hand, and it has announced that the station will be exit-only on weekends and bank holidays from Saturday 2 January…",
+      "publishedAt": "2026-10-27T11:15:51.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Rangers have £25M of loan players to make permanent",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/rangers-loan-permanent/",
-      "summary": "As Rangers fans may be aware, the club has a number of players on loan with option to buy permanent. Kosta Nedeljkovic, Bed Godfrey, James Penrice and Badredine Bouanani are all loan players with opt…",
-      "publishedAt": "2026-10-26T15:14:55.000Z"
+      "title": "Derek McInnes Ready for Hot Reception at Hearts v Rangers",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/hearts-v-rangers/",
+      "summary": "So here we go, approaching Wednesday’s trip to Hearts and the start of the double fixture that will have a hugely defining say on whether Rangers can win the title. As is well known, it is very hard,…",
+      "publishedAt": "2026-10-27T11:44:36.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6407,18 +6407,17 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "APFN offer cashback to UK partners on CityFibre’s broadband and Ethernet network",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/apfn-offer-cashback-to-uk-partners-on-cityfibres-broadband-and-ethernet-network.html",
-      "summary": "The AllPoints Fibre Network (APFN), which is a Fern Trading backed wholesale platform that aggregates connectivity from several different UK networks including their own, has begun offering their UK …",
-      "publishedAt": "2026-10-27T10:20:41.000Z"
+      "title": "Copper cable thieves strike Essex town and disrupt Openreach’s broadband",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/copper-cable-thieves-strike-essex-town-and-disrupt-openreachs-broadband.html",
+      "summary": "More than 2,000 metres of Openreach’s older copper broadband and phone cable has been stolen from around the Essex (England) town of South Woodham Ferrers, which is home to a population of c.16,000. …",
+      "publishedAt": "2026-10-27T11:08:54.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
     "status": "success",
     "lastPublished": "2026-10-26",
-    "feedUrl": "https://www.itsdougholland.com/feed/",
+    "feedUrl": "https://www.itsdougholland.com/feed/atom/",
     "latestArticle": {
-      "title": "Man on a Swing, and a few other films",
       "url": "https://www.itsdougholland.com/man-on-a-swing-and-a-few-other-films/",
       "summary": "Reviewing every movie ever made, in (mostly) alphabetical order Kybernetická babicka (1962) Superb stop-motion, in service of a decent story about a girl who wanders through a future both fantastical…",
       "publishedAt": "2026-10-26T19:19:31.000Z"
@@ -6498,10 +6497,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "Bronze Tools That May Be Medical Found in an Egyptian Tomb, 1,800 Years Before Hippocrates",
-      "url": "https://www.labrujulaverde.com/en/2026/10/bronze-tools-that-may-be-medical-found-in-an-egyptian-tomb-1800-years-before-hippocrates/",
-      "summary": "Many Egyptian tombs reveal the trade of the person inside. A scribe is buried with his writing palette, a soldier with his weapons. The tomb that has just come to light at Saqqara breaks that pattern…",
-      "publishedAt": "2026-10-27T09:55:29.000Z"
+      "title": "Dog Paw Prints From 4,000 Years Ago Found in a Mudbrick From an Anatolian Burned Bronze Age City",
+      "url": "https://www.labrujulaverde.com/en/2026/10/dog-paw-prints-from-4000-years-ago-found-in-a-mudbrick-from-an-anatolian-burned-bronze-age-city/",
+      "summary": "An animal stepped on a mudbrick while it was still soft and left its paw prints in the clay. The brick went into the wall of a house. The house burned and collapsed. About 4,000 years later, archaeol…",
+      "publishedAt": "2026-10-27T11:25:25.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -6532,17 +6531,17 @@
   },
   "https://www.lovefromscotland.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-25",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.lovefromscotland.co.uk/feed/",
     "latestArticle": {
-      "title": "Scotland in November: 10 brilliant things to do in Scotland this month",
-      "url": "https://www.lovefromscotland.co.uk/scotland-in-november/",
-      "summary": "November is Scotland's quietest month - and its best value. Bonfire Night, the northern lights, the Christmas lights coming on, rugby at Murrayfield and St Andrew's Day. What's on and where to go.",
-      "publishedAt": "2026-10-25T16:05:15.000Z"
+      "title": "The 2026 Scottish Christmas gift guide – sustainable, independent & design-led",
+      "url": "https://www.lovefromscotland.co.uk/the-scottish-christmas-gift-guide-sustainable-independent-design-led/",
+      "summary": "My sustainable Scottish Christmas gift guide for 2026 - with all gifts made by independent makers, from £3 stocking fillers to Harris Tweed.",
+      "publishedAt": "2026-10-27T11:21:30.000Z"
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6843,7 +6842,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7060,9 +7059,9 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-06-24",
-    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
+    "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
       "title": "Insta360 x4 Air: Quick Review",
       "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
@@ -7273,13 +7272,13 @@
   },
   "https://www.traingeek.ca/wp/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://www.traingeek.ca/wp/feed/",
     "latestArticle": {
-      "title": "Chasing NBSR 120",
-      "url": "https://www.traingeek.ca/wp/chasing-nbsr-120/",
-      "summary": "There was a rare opportunity for a \"family reunion\" in New Brunswick in mid October. One old friend that I really wanted to catch up with was the New Brunswick Southern Railway.",
-      "publishedAt": "2026-10-23T11:00:00.000Z"
+      "title": "Chasing NBSR 121",
+      "url": "https://www.traingeek.ca/wp/chasing-nbsr-121/",
+      "summary": "I was in Saint John on October 16, 2026, having chased NBSR 120 from Fredericton Junction earlier in the morning. Its counterpart NBSR 121 was leaving Saint John so I waited around for its departure.…",
+      "publishedAt": "2026-10-27T11:00:00.000Z"
     }
   },
   "https://www.turkeysforlife.com/": {
@@ -7351,7 +7350,7 @@
     }
   },
   "https://www.web-goddess.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {

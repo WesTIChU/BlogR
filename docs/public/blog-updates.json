@@ -232,12 +232,12 @@
   },
   "https://aeon.co/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://aeon.co/feed.rss",
     "latestArticle": {
-      "url": "https://aeon.co/videos/the-bisexual-artist-who-reimagined-womanhood-for-the-jazz-age",
-      "summary": "A very modern conception of womanhood: in the Jazz Age paintings of Tamara de Lempicka, women were bold, free and stylish - by Aeon Video Watch on Aeon",
-      "publishedAt": "2026-10-26T10:01:00.000Z"
+      "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
+      "summary": "Grief is not only for the dead. When we are unable to honour other profound losses, we become strangers to ourselves - by Derek van Zoonen Read on Aeon",
+      "publishedAt": "2026-10-27T10:00:00.000Z"
     }
   },
   "https://alabamayesterdays.blogspot.com/": {
@@ -283,7 +283,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -716,7 +716,7 @@
     "latestArticle": {
       "title": "my ffxiv character",
       "url": "https://blog.avas.space/ffxiv/",
-      "summary": "It's been more quiet here because I've had increased health issues, and have been focusing more on other things, especially my degree and gaming! I have some unfinished drafts, but they'll release so…",
+      "summary": "Small info + photo dump of my character :>",
       "publishedAt": "2026-10-25T10:34:00.000Z"
     }
   },
@@ -801,7 +801,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -1770,7 +1770,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -1882,13 +1882,13 @@
   },
   "https://figureoftheday.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-27",
     "feedUrl": "http://feeds.feedburner.com/blogspot/cImJr",
     "latestArticle": {
-      "title": "Star Wars Figure of the Day: Day 3,391: Clone Commander Cody (Utapau, The Vintage Collection)",
-      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3391-clone.html",
-      "summary": "CLONE COMMANDER CODY (Utapau) The Vintage Collection 3 3/4-Inch Walmart Exclusive 2-Pack Item No.: No. G3192 Manufacturer: Hasbro Number: #413 Includes: Blaster rifles, removable jet pack Action Feat…",
-      "publishedAt": "2026-10-22T08:00:00.000Z"
+      "title": "Star Wars Figure of the Day: Day 3,392: Dark Trooper (Force Mech Suit / Epic World of Action)",
+      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3392-dark.html",
+      "summary": "DARK TROOPER Force Mech Suit Epic World of Action Amazon Exclusive Item No.: No. G1421 Manufacturer: Hasbro Number: n/a Includes: 1 Mech, 1 big blaster, 1 small blaster, 1 figure Action Feature: n/a …",
+      "publishedAt": "2026-10-27T08:00:00.000Z"
     }
   },
   "https://flamingpablum.com/": {
@@ -2001,7 +2001,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2178,12 +2178,12 @@
   },
   "https://hackernoon.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/anthropics-s-1-shows-$163b-in-half-year-revenue-a-900percent-nrr-and-an-$807b-loss-that-mostly-isnt?source=rss",
-      "summary": "Anthropic's S-1: $16.3B in half-year revenue, ~900% NRR, an $80.7B mostly-paper loss, a blank compute bill and governance that keeps control with founders.",
-      "publishedAt": "2026-10-26T21:53:15.000Z"
+      "url": "https://hackernoon.com/sonys-soneium-brings-access-to-$549-million-royalties-fund-onchain?source=rss",
+      "summary": "Soneium, the blockchain entertainment ecosystem developed by Sony Group and Startale Group, is expanding into tokenized intellectual property investments through a collaboration with Asseto, bringing…",
+      "publishedAt": "2026-10-27T08:33:25.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2463,9 +2463,9 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17507385/things-to-do-after-installing-ubuntu-26-10",
-      "summary": "Make Ubuntu 26.10 yours by following these tweaks and tips.",
-      "publishedAt": "2026-10-27T05:52:06.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17507469/tesco-vmware-exit",
+      "summary": "Tired of the rising licensing cost of VMWare, Tesco seems to be looking to switch to Proxmox.",
+      "publishedAt": "2026-10-27T09:48:41.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -2546,17 +2546,17 @@
   },
   "https://jensfoodblog.com/": {
     "status": "success",
-    "lastPublished": "2026-09-22",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://jensfoodblog.com/feed/",
     "latestArticle": {
-      "title": "Mother Root",
-      "url": "https://jensfoodblog.com/2026/09/22/mother-root/",
-      "summary": "Jen's Food Blog's review of Mother Root - a refreshing, alcohol-free aperitif",
-      "publishedAt": "2026-09-22T09:45:02.000Z"
+      "title": "Dunston Food Hall & Garden Centre, Chesterfield",
+      "url": "https://jensfoodblog.com/2026/10/27/dunston-food-hall-garden-centre-chesterfield/",
+      "summary": "Jen's Food Blog's review of Dunston Food Hall & Garden Centre, Chesterfield",
+      "publishedAt": "2026-10-27T10:28:46.000Z"
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2952,7 +2952,7 @@
   },
   "https://liberalengland.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "Talbot Street and Church Street, Ellesmere",
@@ -3048,13 +3048,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Toby Jones DJs At A Halloween Disco, As Celebrities Come Out In Force For Cinema Museum",
-      "url": "https://londonist.com/london/film/cinema-museum-fundraiser-celebrities",
-      "summary": "Fundraising for a remarkable institution.",
-      "publishedAt": "2026-10-26T12:40:07.000Z"
+      "title": "80+ Fantastic Things To Do In London This Month: November 2026",
+      "url": "https://londonist.com/london/things-to-do/things-to-do-in-london-in-november",
+      "summary": "Including a huge museum reopening, and the Christmas light switch-ons.",
+      "publishedAt": "2026-10-27T10:38:00.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -4162,13 +4162,13 @@
   },
   "https://restaurantsbrighton.co.uk/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://restaurantsbrighton.co.uk/feed/",
     "latestArticle": {
-      "title": "This week: Half-term heroes | David Shrigley pizza | Say cheese!",
-      "url": "https://restaurantsbrighton.co.uk/brighton-food-news-october-22-2026/",
-      "summary": "Hello friends, A cherished Restaurants Brighton partner commented this week that he found our newsletters “quite amusing”. Blushing, we accepted the compliment, just as he added, “if sometimes a bit …",
-      "publishedAt": "2026-10-23T06:57:59.000Z"
+      "title": "From Chillis to Tamarind: Brighton’s Thai Dynasty Expands",
+      "url": "https://restaurantsbrighton.co.uk/from-chillis-to-tamarind-brightons-thai-dynasty-expands/",
+      "summary": "A Brighton-Hove Thai Legacy If you love Thai food, you know Chilli. And if you know Chilli, you’ll love Tamarind. After 16 very successful years with the ‘Green’ Chilli in Hove (which just celebrated…",
+      "publishedAt": "2026-10-27T10:38:32.000Z"
     }
   },
   "https://retiredmartin.com/": {
@@ -4475,13 +4475,13 @@
   },
   "https://shereadsnovels.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://shereadsnovels.com/feed/",
     "latestArticle": {
-      "title": "The Country Schoolmaster by Kate Grenville",
-      "url": "https://shereadsnovels.com/2026/10/23/the-country-schoolmaster-by-kate-grenville/",
-      "summary": "This book wasn’t what I was expecting at all. It was listed as fiction on NetGalley but feels much more like non-fiction, although I can understand why the author and publisher could be hesitant to d…",
-      "publishedAt": "2026-10-23T08:25:15.000Z"
+      "title": "Top Ten Tuesday: Ten Vampire Books for Halloween!",
+      "url": "https://shereadsnovels.com/2026/10/27/top-ten-tuesday-ten-vampire-books-for-halloween/",
+      "summary": "This week’s topic for Top Ten Tuesday (hosted by That Artsy Reader Girl) is: “Halloween Freebie”. I’ve joined in with the Halloween Freebie topic every year for the last few years and have already po…",
+      "publishedAt": "2026-10-27T10:02:02.000Z"
     }
   },
   "https://shinynewbooks.co.uk/": {
@@ -4747,13 +4747,13 @@
   },
   "https://stratechery.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://stratechery.com/feed/",
     "latestArticle": {
-      "title": "The End of the Internet",
-      "url": "https://stratechery.com/2026/the-end-of-the-internet/",
-      "summary": "The old Internet, where anyone could host a server is over, but it's just the final blow in an ending that has been coming for years. The future, though, is brighter than it appears.",
-      "publishedAt": "2026-10-26T10:00:00.000Z"
+      "title": "Anthropic S-1, The Cost of Compute, Who Is Paying?",
+      "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+      "summary": "Anthropic's IPO is finally here; the core business is very profitable, but competition may eat all of the profits, even as investors are set up for endless dilution.",
+      "publishedAt": "2026-10-27T10:32:57.000Z"
     }
   },
   "https://sunshineandcelandines.wordpress.com/": {
@@ -5363,13 +5363,13 @@
   },
   "https://thettablog.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://thettablog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "TTAB Refuses to Vacate Prior Decision Despite Stipulated Dismissal of Section 1071(b) Civil Action for Review",
-      "url": "https://thettablog.blogspot.com/2026/10/ttab-refuses-to-vacate-prior-decision.html",
-      "summary": "The Board denied a joint motion to vacate its July 25, 2025 decision in M Halyard, Inc. v. Guidepoint Global, LLC [pdf here ] under FRCP 60(b). Observing that relief from judgment is \"an extraordinar…",
-      "publishedAt": "2026-10-26T10:25:19.362Z"
+      "title": "TTAB Finds \"THE JONES\" for a Host of Services to be Primarily Merely a Surname",
+      "url": "https://thettablog.blogspot.com/2026/10/ttab-finds-jones-for-host-of-services.html",
+      "summary": "The Board affirmed a refusal to register the mark THE JONES for a laundry list of disparate services, including educational consulting, hotel accommodation, and beauty care [this is a Section 66(a) r…",
+      "publishedAt": "2026-10-27T10:03:28.348Z"
     }
   },
   "https://theunconventionalgardener.com/blog/": {
@@ -5428,7 +5428,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5546,7 +5546,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5943,10 +5943,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "First details on LEGO Black Friday 2026 set preview livestream",
-      "url": "https://www.brickfanatics.com/first-details-lego-black-friday-2026-livestream",
-      "summary": "Something BIG is coming, the LEGO Group has teased",
-      "publishedAt": "2026-10-27T09:41:16.000Z"
+      "title": "Don't miss a trio of free LEGO gifts with qualifying orders",
+      "url": "https://www.brickfanatics.com/don-t-miss-trio-free-lego-gifts-qualifying-orders",
+      "summary": "Build, Paint and Play is nearly here, but there's still time for up to three free LEGO sets",
+      "publishedAt": "2026-10-27T10:39:56.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6375,10 +6375,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "The night a tornado tore through Gunnersbury station",
-      "url": "https://www.ianvisits.co.uk/articles/the-night-a-tornado-tore-through-gunnersbury-station-93527/",
-      "summary": "Fifteen passengers were buried beneath a collapsed platform roof when a tornado struck west London during the evening rush hour in December 1954. Read more ›",
-      "publishedAt": "2026-10-27T07:00:46.000Z"
+      "title": "Camden High Street pedestrianisation trial to be made permanent",
+      "url": "https://www.ianvisits.co.uk/articles/camden-high-street-pedestrianisation-trial-to-be-made-permanent-93585/",
+      "summary": "Pedestrianisation season seems to be here in London, as Camden Council has announced it will make a trial pedestrianisation of Camden High Street permanent. Read more ›",
+      "publishedAt": "2026-10-27T10:00:16.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -6403,14 +6403,14 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Culture Secretary pushes for statutory UK broadband supplier of last resort",
-      "url": "https://www.ispreview.co.uk/index.php/2026/10/culture-secretary-pushes-for-statutory-uk-broadband-supplier-of-last-resort.html",
-      "summary": "The UK Government’s Secretary of State for Digital and Culture (DCMS), Lisa Nandy MP, has pushed for the Enterprise Act 2002 to be updated to add a statutory Supplier of Last Resort (SoLR) process fo…",
-      "publishedAt": "2026-10-27T08:14:40.000Z"
+      "title": "APFN offer cashback to UK partners on CityFibre’s broadband and Ethernet network",
+      "url": "https://www.ispreview.co.uk/index.php/2026/10/apfn-offer-cashback-to-uk-partners-on-cityfibres-broadband-and-ethernet-network.html",
+      "summary": "The AllPoints Fibre Network (APFN), which is a Fern Trading backed wholesale platform that aggregates connectivity from several different UK networks including their own, has begun offering their UK …",
+      "publishedAt": "2026-10-27T10:20:41.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -6498,10 +6498,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "Was This Roman Soldier Murdered by His Own Comrades? Archaeologists Reopen a 2,000-Year-Old Cold Case",
-      "url": "https://www.labrujulaverde.com/en/2026/10/was-this-roman-soldier-murdered-by-his-own-comrades-archaeologists-reopen-a-2000-year-old-cold-case/",
-      "summary": "In 1977, amateur archaeologists digging at the site of an old Roman fort in Velsen, on the coast of North Holland, uncovered a well. At the bottom lay the almost complete skeleton of a man who was st…",
-      "publishedAt": "2026-10-27T08:51:18.000Z"
+      "title": "Bronze Tools That May Be Medical Found in an Egyptian Tomb, 1,800 Years Before Hippocrates",
+      "url": "https://www.labrujulaverde.com/en/2026/10/bronze-tools-that-may-be-medical-found-in-an-egyptian-tomb-1800-years-before-hippocrates/",
+      "summary": "Many Egyptian tombs reveal the trade of the person inside. A scribe is buried with his writing palette, a soldier with his weapons. The tomb that has just come to light at Saqqara breaks that pattern…",
+      "publishedAt": "2026-10-27T09:55:29.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -6542,7 +6542,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6605,7 +6605,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6843,7 +6843,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7060,14 +7060,14 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unknown",
-    "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
+    "status": "success",
+    "lastPublished": "2026-06-24",
+    "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
-      "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
-      "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
-      "summary": "In reply to Karen Pugh . Thanks so much Karen. I included absolutely everything I know, so it's lovely to hear you found it interesting. I hope you get to visit and experience the peninsulas for your…",
-      "publishedAt": "2021-12-01T20:59:18.000Z"
+      "title": "Insta360 x4 Air: Quick Review",
+      "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
+      "summary": "If you’re thinking about buying a 360° camera for vlogging, outdoor adventures or to capture travel memories, this is my to-the-point review of the Insta360 X4 Air camera, plus a wee shout-out to the…",
+      "publishedAt": "2026-06-24T09:01:32.000Z"
     }
   },
   "https://www.theculturetrip.com/": {
@@ -7265,10 +7265,10 @@
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Rare Co-Founder Tim Stamper Returns to Social Media, Cryptically Teases Opening 'The Vault'",
-      "url": "https://www.timeextension.com/#article-208170",
-      "summary": "‘The keys won’t stop jangling…’. Tim Stamper, legendary UK developer and co-founder of iconic studios Rare and Ultimate Play The Game , has surprised gaming fans by making an unlikely appearance on s…",
-      "publishedAt": "2026-10-27T09:07:00.000Z"
+      "title": "Start Your Day with This Official Tomb Raider 'Lo-Fi' Playlist, Celebrating 30 Years of Lara Croft Adventures",
+      "url": "https://www.timeextension.com/#article-208155",
+      "summary": "Sound of the Underground. This week marks the 30th anniversary of one of the most notable and recognisable gaming franchises of all time, Tomb Raider. It's been three whole decades since that box-sha…",
+      "publishedAt": "2026-10-27T10:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

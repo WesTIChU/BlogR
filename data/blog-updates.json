@@ -394,8 +394,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-08-08",
-    "lastChecked": "2026-10-28T19:05:17.294Z",
-    "status": "success",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "Molly White interview: following the AI and crypto money in US politics",
@@ -488,8 +488,8 @@
   },
   "https://alis.me/": {
     "lastPublished": "2024-09-25",
-    "lastChecked": "2026-10-27T11:44:35.726Z",
-    "status": "success",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
+    "status": "unavailable",
     "feedUrl": "https://alis.me/home/feed/",
     "latestArticle": {
       "title": "By: Alis",
@@ -540,15 +540,15 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "lastPublished": "2026-10-22",
-    "lastChecked": "2026-10-25T04:44:31.351Z",
+    "lastPublished": "2026-09-27",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
-    "feedUrl": "https://andrewdoran.uk/blog/feed/",
+    "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
-      "title": "Weeknotes #399 — The sense of an ending",
-      "url": "https://andrewdoran.uk/blog/2026/10/22/weeknotes-399-the-sense-of-an-ending/",
-      "summary": "My boss retired on Friday. In one form or another, I’ve been working for him for most of the past 16 years. Looking back, deciding to move to this company and having the good fortune to meet and work…",
-      "publishedAt": "2026-10-22T21:58:27.000Z"
+      "title": "Comment on Did it do the work? by Recently Read – Happily Imperfect",
+      "url": "https://andrewdoran.uk/blog/2026/09/20/did-it-do-the-work/#comment-6103",
+      "summary": "[…] Did it do the work? – Andrew Doran — A well considered article about AI and how it actually works, and what we need to question about how it does what it does. […]",
+      "publishedAt": "2026-09-27T17:30:58.000Z"
     }
   },
   "https://evidenceanecdotal.blogspot.com/": {
@@ -815,14 +815,14 @@
   },
   "https://cupofjo.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T15:44:35.427Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://cupofjo.com/feed/",
     "latestArticle": {
-      "title": "The Book I’m Cooking: Simply Plants",
-      "url": "https://cupofjo.com/2026/10/26/simply-plants-sadia-badiei-interview",
-      "summary": "Every month, I’ll take you inside a new cookbook and share a recipe, a conversation with the author, and plenty of photos. This month we’re diving into Simply Plants: Feel-Good Vegan Recipes to Nouri…",
-      "publishedAt": "2026-10-28T15:04:40.000Z"
+      "title": "Are You Going to See Wicker?",
+      "url": "https://cupofjo.com/2026/10/28/are-you-going-to-see-wicker/",
+      "summary": "When I first saw the trailer for Wicker , I wasn’t sure what to think… But audiences everywhere are losing their minds over the romantic fantasy, in which Olivia Colman plays an eccentric fisherwoman…",
+      "publishedAt": "2026-10-28T19:07:06.000Z"
     }
   },
   "https://dansinker.com/blog/": {
@@ -1480,8 +1480,8 @@
   },
   "https://www.thechaoticscot.com/": {
     "lastPublished": "2021-12-01",
-    "lastChecked": "2026-10-28T19:05:17.294Z",
-    "status": "success",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
+    "status": "unavailable",
     "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
     "latestArticle": {
       "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
@@ -1700,9 +1700,9 @@
   },
   "https://www.derekseaman.com/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-10-28T19:05:17.294Z",
-    "status": "unknown",
-    "feedUrl": "https://www.derekseaman.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.derekseaman.com%2F&format=xml",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
+    "status": "success",
+    "feedUrl": "https://www.derekseaman.com/comments/feed",
     "latestArticle": {
       "title": "Comment on Home Assistant Notifications That Run Apple Shortcuts (Yes, Really) by Nelson",
       "url": "https://www.derekseaman.com/2026/06/home-assistant-notifications-that-run-apple-shortcuts-yes-really.html#comment-601833",
@@ -1874,15 +1874,15 @@
     }
   },
   "https://www.omgubuntu.co.uk/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-28T17:44:34.369Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Ubuntu plans firmware HWE to prevent issues on older kernels",
-      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-firmware-hwe-effort-moving-forward",
-      "summary": "Ubuntu is planning a new linux-firmware-hwe package, in an effort to reduce the risk of firmware updates for newer kernels causing problems for users running older ones. On Ubuntu long-term support (…",
-      "publishedAt": "2026-10-27T23:15:24.000Z"
+      "title": "Ubuntu Core Desktop is back, baby",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-core-desktop-2704",
+      "summary": "Canonical has announced it’s ‘accelerating’ development of Ubuntu Core Desktop, its immutable, snap-based version of its desktop OS. Ubuntu Core Desktop was announced in 2023 and made available in a …",
+      "publishedAt": "2026-10-28T19:38:29.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -2585,15 +2585,15 @@
     }
   },
   "https://towerofzenopus.blogspot.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T17:44:31.681Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://towerofzenopus.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Savage Worlds Adventure Deck",
-      "url": "https://towerofzenopus.blogspot.com/2026/10/the-savage-worlds-adventure-deck.html",
-      "summary": "One of the optional accessories for Savage Worlds is the Adventure Deck. This is different from the Action Deck which is cards used for initiative. Pinnacle's description of the deck: The Savage Worl…",
-      "publishedAt": "2026-10-27T17:00:00.000Z"
+      "title": "Necessary Evil: Third Time's the Charm - Session 4: Cult of the Space Gods",
+      "url": "https://towerofzenopus.blogspot.com/2026/10/necessary-evil-third-times-charm_01757212250.html",
+      "summary": "Our Villains: MEGASTRIKE - Strong, radioactive Russian mobster brick. Played by Paladin Steve. A returning character from the prior attempts at this campaign. LEGION - Demonic leader of a criminal or…",
+      "publishedAt": "2026-10-27T20:00:00.000Z"
     }
   },
   "https://theswedishgames.wordpress.com/": {
@@ -2991,13 +2991,13 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T19:05:17.294Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-league-cup/173513/liverpool-vs-chelsea-league-cup-confirmed-lineups-how-to-watch",
-      "summary": "Welcome to Anfield and the fourth round of the League Cup. Yes, it’s still just the fourth round even though it’s our third game of this year’s competition already. Liverpool are in good form; Chelse…",
-      "publishedAt": "2026-10-28T18:57:21.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173519/chelsea-fcw-2-0-as-roma-femminile-uefa-womens-champions-league-post-match-reaction",
+      "summary": "Last season there were already complaints on how Chelsea Women no longer looked like their former selves. This wasn’t the case in the UEFA Women’s Champions League group stage as the Blues handily be…",
+      "publishedAt": "2026-10-28T19:38:11.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3403,14 +3403,14 @@
     }
   },
   "https://greenshadediary.blogspot.com/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T19:44:30.180Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://greenshadediary.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "url": "https://greenshadediary.blogspot.com/2026/10/storms-of-winter-blew-across-country.html",
-      "summary": "First storms of winter blew across the country the past couple of days (coinciding appropriately enough with the end British Summer Time). No dramas to report, just a spindly Silver Birch at the musi…",
-      "publishedAt": "2026-10-25T19:27:21.076Z"
+      "url": "https://greenshadediary.blogspot.com/2026/10/delivery-from-beth-chatto-nursery.html",
+      "summary": "A delivery from the Beth Chatto nursery, always known for propagating quality plants in conjunction with the renowned garden she developed.",
+      "publishedAt": "2026-10-28T19:20:49.913Z"
     }
   },
   "https://myhomefarm.co.uk/": {
@@ -3751,14 +3751,14 @@
   },
   "https://www.suppermariobroth.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T03:44:32.670Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "Officially licensed 2025 Mario Kart World apron from Japan themed after that game&rsquo;s in-universe&hellip;",
-      "url": "https://www.suppermariobroth.com/post/831677338630733824",
-      "summary": "Officially licensed 2025 Mario Kart World apron from Japan themed after that game’s in-universe “Yoshi’s” fast food chain. It is a more detailed version of the apron worn in-game by Yoshi’s employees…",
-      "publishedAt": "2026-10-28T01:01:57.000Z"
+      "title": "Top: in the Game Boy Advance version of Donkey Kong Country, additional cutscenes were inserted to&hellip;",
+      "url": "https://www.suppermariobroth.com/post/831745264492707840",
+      "summary": "Top: in the Game Boy Advance version of Donkey Kong Country, additional cutscenes were inserted to tell the story in-game as opposed to the original SNES version’s manual-only story. For the ending, …",
+      "publishedAt": "2026-10-28T19:01:36.000Z"
     }
   },
   "https://www.pepysdiary.com/": {
@@ -3858,15 +3858,15 @@
     }
   },
   "https://econbrowser.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-28T04:44:33.678Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "Gasoline and Diesel Fuel Update through 10/26/2026",
-      "url": "https://econbrowser.com/archives/2026/10/gasoline-and-diesel-fuel-update-through-10-26-2026",
-      "summary": "Diesel prices rise again. Figure 1: Regular gasoline (blue), diesel (red), both $/gallon. Source: EIA.",
-      "publishedAt": "2026-10-27T16:41:56.000Z"
+      "title": "The Taylor Rule and Today’s Dissents",
+      "url": "https://econbrowser.com/archives/2026/10/taylor-rule-and-dissents",
+      "summary": "Two voting members of the FOMC dissented in favor of raising rates. Some context for why that stance might make sense, from Jason Furman’s EconVitals Taylor rule utility. Source: EconVitals, accessed…",
+      "publishedAt": "2026-10-28T19:06:10.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -3895,14 +3895,14 @@
   },
   "https://glitternight.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T09:44:31.957Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "OCTOBER TWENTY-EIGHTH NEWS ROUNDUP",
-      "url": "https://glitternight.com/2026/10/28/october-twenty-eighth-news-roundup/",
-      "summary": "Independent Voter Site Balladeer’s Blog is here with another current events roundup from an America waiting to see what violence and fraud will be unleashed by the increasingly unhinged Democrat Part…",
-      "publishedAt": "2026-10-28T09:35:46.000Z"
+      "title": "SKY FISHERS: BRAZILIAN HORROR LEGEND",
+      "url": "https://glitternight.com/2026/10/28/sky-fishers-brazilian-horror-legend/",
+      "summary": "Halloween Month is nearly over, so here are a species of Brazilian monsters I’d love to read more about. THE SKY FISHERS – Who do these folk creatures from Brazil have to sleep with to get more well …",
+      "publishedAt": "2026-10-28T19:28:37.000Z"
     }
   },
   "https://joshcollinsworth.com/blog": {
@@ -5121,15 +5121,15 @@
     }
   },
   "https://theautisticadvocate.com/blog/": {
-    "lastPublished": "2026-09-15",
-    "lastChecked": "2026-10-27T23:44:30.694Z",
+    "lastPublished": "2026-10-13",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
-    "feedUrl": "https://theautisticadvocate.com/feed/",
+    "feedUrl": "https://theautisticadvocate.com/comments/feed/",
     "latestArticle": {
-      "title": "A Personal Announcement",
-      "url": "https://theautisticadvocate.com/a-personal-announcement/",
-      "summary": "Kieran explains his recent diagnosis of prostate cancer. The post A Personal Announcement appeared first on The Autistic Advocate .",
-      "publishedAt": "2026-09-15T10:11:17.000Z"
+      "title": "Comment on A Personal Announcement by A rookie",
+      "url": "https://theautisticadvocate.com/a-personal-announcement/#comment-21209",
+      "summary": "Hi Kieran, in the few short weeks I have known I am autistic (at the ripe old age of 44) I have been devouring your work - books, journal articles, podcast interviews, blog posts… Your depth of explo…",
+      "publishedAt": "2026-10-13T10:57:46.000Z"
     }
   },
   "https://theautismcafe.com/": {
@@ -5526,14 +5526,14 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T16:44:35.343Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "I saw these two really good Cosmonautics Day stamp series and immediately knew I had to send them to you :P One is a Cuban series from 1984 and the other is a Vietnamese series from 1979! Cuban series: https://colnect.com/en/stamps/list/country/55-Cuba/series/466574-Cosmonautics_Day_1984 Vietnamese series: https://colnect.com/en/stamps/list/country/231-Vietnam/series/134921-Cosmos_Day And my personal favourite from each :D (Can you tell I like art of space stations?)",
-      "url": "https://70sscifiart.tumblr.com/post/831736384676052992",
-      "summary": "Very cool, thanks! I love those designs and colors. I'm putting together a new art collection right now, and I have a Cuban stamp of a Cosmodrome by Andrei Sokolov and Alexei Leonov on my list to try…",
-      "publishedAt": "2026-10-28T16:40:28.000Z"
+      "title": "UFOs, future predictions, and a Loch Ness monster from Walter Molino",
+      "url": "https://70sscifiart.tumblr.com/post/831745463955898368",
+      "summary": "ALT ALT ALT ALT ALT ALT ALT ALT UFOs, future predictions, and a Loch Ness monster from Walter Molino",
+      "publishedAt": "2026-10-28T19:04:46.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5711,14 +5711,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T18:44:34.716Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Friends Unicorn Café pop-up to showcase 2027 sets",
-      "url": "https://www.brickfanatics.com/lego-friends-unicorn-cafe-pop-up-to-showcase-2027-sets",
-      "summary": "Party and play in person",
-      "publishedAt": "2026-10-28T18:11:30.000Z"
+      "title": "Five LEGO Marvel Strange Supreme details you may have missed",
+      "url": "https://www.brickfanatics.com/five-lego-marvel-strange-supreme-details-you-may-have-missed",
+      "summary": "Sanctum Sanctorum secrets",
+      "publishedAt": "2026-10-28T18:59:20.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -6183,15 +6183,15 @@
     }
   },
   "https://mychilligarden.com/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T10:44:28.209Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://mychilligarden.com/feed/",
     "latestArticle": {
-      "title": "Autumn Chilli Harvest: From Garden to Drying Season",
-      "url": "https://mychilligarden.com/autumn-chilli-harvest-from-garden-to-drying-season/",
-      "summary": "Our late-season chilli harvest is in: a colourful mix of reds, oranges, yellows and chocolate pods. Now it’s drying time for flakes and homemade powder to last through winter. The post Autumn Chilli …",
-      "publishedAt": "2026-10-25T10:18:16.000Z"
+      "title": "How to Ripen Green Chillies at Home",
+      "url": "https://mychilligarden.com/how-to-ripen-green-chillies/",
+      "summary": "Ripen green chillies on the plant, in a paper bag, on a sunny windowsill, or by hanging plants upside-down. What works and what to avoid. The post How to Ripen Green Chillies at Home appeared first o…",
+      "publishedAt": "2026-10-28T19:42:25.000Z"
     }
   },
   "https://gallistead.com/": {
@@ -6349,15 +6349,15 @@
     }
   },
   "https://www.rhyswynne.co.uk/": {
-    "lastPublished": "2026-10-20",
-    "lastChecked": "2026-10-25T04:44:31.351Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://www.rhyswynne.co.uk/feed/",
     "latestArticle": {
-      "title": "Spoilerriffic Thoughts on the new Street Fighter Movie",
-      "url": "https://www.rhyswynne.co.uk/spoilerriffic-thoughts-on-the-new-street-fighter-movie/",
-      "summary": "As a fair warning, this will contain spoilers on the Street Fighter movie as I will discuss elements of the film I enjoy. I am a massive Street Fighter 2 fan. The game came out when I was 7 but it do…",
-      "publishedAt": "2026-10-20T15:57:39.000Z"
+      "title": "Firefox: The Internet You Loved is Still Here",
+      "url": "https://www.rhyswynne.co.uk/firefox-the-internet-you-loved-is-still-here/",
+      "summary": "I’m not on Firefox (I’m a Vivaldi user), but I like their browser a lot, and their latest video made me smile. Whilst I didn’t recognise all the memes (the shoes one passed me by?), it was fun to see…",
+      "publishedAt": "2026-10-28T19:27:05.000Z"
     }
   },
   "https://thoughts.uncountable.uk/": {
@@ -7109,14 +7109,14 @@
   },
   "https://nstperfume.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T19:05:17.294Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "Vilhelm Parfumerie Machiavelli ~ new fragrance",
-      "url": "https://nstperfume.com/2026/10/28/vilhelm-parfumerie-machiavelli-new-fragrance/",
-      "summary": "Vilhelm Parfumerie will introduce Machiavelli,* a new fragrance in The Triptych Collection , now renamed The Hannibal Collection...",
-      "publishedAt": "2026-10-28T17:19:20.000Z"
+      "title": "Atelier Cologne Oolang Clair-Obscur ~ new fragrance",
+      "url": "https://nstperfume.com/2026/10/28/atelier-cologne-oolang-clair-obscur-new-fragrance/",
+      "summary": "Atelier Cologne has launched Oolang Clair-Obscur, a new unisex fragrance in the brand's Collection Rare. Oolang Clair-Obscur follows Oolang Infini and Oolang Monochrome ...",
+      "publishedAt": "2026-10-28T17:49:05.000Z"
     }
   },
   "https://www.askamanager.org/": {
@@ -7475,14 +7475,14 @@
   },
   "https://www.cartoonbrew.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T18:44:34.716Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "success",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "2027 Oscars Short Film Contenders: ‘God Is Shy’ Director Jocelyn Charles",
-      "url": "https://www.cartoonbrew.com/awards/god-is-shy-director-jocelyn-charles-268468.html",
-      "summary": "A playful exchange of drawings aboard a train turns sinister in a cosmic horror short that contrasts saturated colors with unsettling visions.",
-      "publishedAt": "2026-10-28T18:43:04.000Z"
+      "title": "‘Powerpuff Girls’ Reunion Postponed After Eric Bauza’s Death, Organizers Share Ways To Help His Family",
+      "url": "https://www.cartoonbrew.com/events/powerpuff-girls-reunion-postponed-eric-bauza-268588.html",
+      "summary": "Saturday Morning Cartoons United has postponed its 'Powerpuff Girls' reunion. Ticket purchases not refunded will go to Eric Bauza’s family.",
+      "publishedAt": "2026-10-28T19:33:59.000Z"
     }
   },
   "https://www.maproomblog.com/": {
@@ -7732,9 +7732,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-28T18:44:34.716Z",
+    "lastChecked": "2026-10-28T19:44:32.156Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",

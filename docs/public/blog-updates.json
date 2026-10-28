@@ -189,7 +189,7 @@
   },
   "https://adamapples.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://adamapples.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "MAIA 1284",
@@ -2167,13 +2167,13 @@
   },
   "https://hackaday.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "How a Single University Project Started Everything",
-      "url": "https://hackaday.com/2026/10/27/how-a-single-university-project-started-everything/",
-      "summary": "If we care to cast an eye over the history of ubiquitous personal computing as we know it today, we might immediately point at the original IBM PC. After all, …read more",
-      "publishedAt": "2026-10-27T23:00:07.000Z"
+      "title": "Airborne Particle Monitoring, the BIG way",
+      "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way/",
+      "summary": "Airborne micro particles can be a significant health hazard in a workshop, and thus it’s important to maintain a high standard of ventilation. But monitoring their concentration is also important, …r…",
+      "publishedAt": "2026-10-28T02:00:01.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3059,12 +3059,12 @@
   },
   "https://londonreconnections.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/france-launches-state-aid-for-battery-fleets-intl-railway-journal/",
-      "summary": "THE French government aims to have 100 battery trains in service within 10 years as part of its drive to phase out diesel trains by 2035. New funding, the amount of which has not yet been disclosed, …",
-      "publishedAt": "2026-10-27T01:48:12.000Z"
+      "url": "https://londonreconnections.com/ridership-data-trends-from-40-global-cities-uitp/",
+      "summary": "Ridership Trends: Growth Is Stable When it comes to global metro ridership, it is recovering from the lows of 2020. Looking at it month-on-month, the figures fluctuate regularly. This happens for man…",
+      "publishedAt": "2026-10-28T02:44:19.000Z"
     }
   },
   "https://loureviews.blog/": {
@@ -4621,13 +4621,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-27",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed 1996 Yoshi&rsquo;s Island keychain from Japan.",
-      "url": "https://smallmariofindings.tumblr.com/post/831677331157417984",
-      "summary": "Officially licensed 1996 Yoshi’s Island keychain from Japan. Source: blacktangent Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-10-28T01:01:50.000Z"
+      "title": "Concept art for the &ldquo;Castle O'Koopa&rdquo; background from the Super Mario Bros. Super Show episode&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831669467207614464",
+      "summary": "Concept art for the “Castle O'Koopa” background from the Super Mario Bros. Super Show episode “Mighty McMario and the Pot of Gold”, alongside a frame from the cartoon showing its final appearance. So…",
+      "publishedAt": "2026-10-27T22:56:50.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -6604,7 +6604,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7271,7 +7271,7 @@
     }
   },
   "https://www.traingeek.ca/wp/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.traingeek.ca/wp/feed/",
     "latestArticle": {

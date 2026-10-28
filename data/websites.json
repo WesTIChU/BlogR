@@ -918,5 +918,29 @@
     "addedAt": "2026-10-27T04:51:52.000Z",
     "clicks": 0,
     "webringId": "br-d8667089a99b687c4d4ea674d564eda3"
+  },
+  {
+    "id": "doxascope",
+    "name": "Doxascope",
+    "url": "https://doxascope.com/home",
+    "description": "An Arabic and English multimedia project combining fiction, essays, experiments, series and research lenses for examining how belief is formed.",
+    "category": "Creative Projects",
+    "subcategory": "Experimental Projects",
+    "addedDate": "2026-10-28",
+    "addedAt": "2026-10-28T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-f713ede944495153e87ea3af797a8b84"
+  },
+  {
+    "id": "glyphsift",
+    "name": "GlyphSift",
+    "url": "https://glyphsift.com/",
+    "description": "A browser-local text studio for styling, cleaning and inspecting Unicode text, with practical tools and guides for safer copying.",
+    "category": "Independent Tools",
+    "subcategory": "Useful Tools",
+    "addedDate": "2026-10-28",
+    "addedAt": "2026-10-28T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-1397416a83f63b3e679305fb10e085ab"
   }
 ]

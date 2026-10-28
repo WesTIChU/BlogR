@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1728,7 +1728,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -1818,7 +1818,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2060,7 +2060,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2233,10 +2233,10 @@
     "lastPublished": "2026-10-28",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Hacking a Marine Radio Dish",
-      "url": "https://hackaday.com/2026/10/27/hacking-a-marine-radio-dish/",
-      "summary": "Having watched some fun videos on repurposed satellite dishes on YouTube, [Melan] wanted to get in on the action. She managed to source herself an Intellian i4, a dish built …read more",
-      "publishedAt": "2026-10-28T05:00:31.000Z"
+      "title": "SLAM Navigation For an Arduino Powered Car",
+      "url": "https://hackaday.com/2026/10/28/slam-navigation-for-an-arduino-powered-car/",
+      "summary": "There are plenty of “robot” projects out there that are really just a small remote control platform of some sort. We often like to think of robots of having some …read more",
+      "publishedAt": "2026-10-28T08:00:33.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2450,13 +2450,13 @@
   },
   "https://impossiblesongs.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://impossiblesongs.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Dead Wood Soap",
-      "url": "https://impossiblesongs.blogspot.com/2026/10/dead-wood-soap.html",
-      "summary": "A simple explanation of an unimportant point. Unless you think it is important. Inspired by recent events. And observations. Detail from an Aesop soap box.",
-      "publishedAt": "2026-10-27T08:18:38.462Z"
+      "title": "Michelin Man",
+      "url": "https://impossiblesongs.blogspot.com/2026/10/michelin-man.html",
+      "summary": "Dear doctors or to whom it may concern, I'd be quite happy not to have tiny air bubbles going \"click\" in my knees from time to time. It is because I don't like the idea of my joints holding onto smal…",
+      "publishedAt": "2026-10-28T08:01:53.563Z"
     }
   },
   "https://indieblog.page/": {
@@ -2630,7 +2630,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2780,13 +2780,13 @@
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://kaggsysbookishramblings.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Murder, mayhem, mystery – and a quivering towel????? #thepossessed",
-      "url": "https://kaggsysbookishramblings.wordpress.com/2026/10/26/murder-mayhem-mystery-and-a-quivering-towel-thepossessed/",
-      "summary": "Online recommendations continue to influence my reading (as I mentioned in my review of “Madonna in a Fur Coat” recently), and today’s book is another fine example of that! Many of the reels I’ve com…",
-      "publishedAt": "2026-10-26T08:00:31.000Z"
+      "title": "…in which I undertake *another* Penguin reading project!!! #penguinnewwriting",
+      "url": "https://kaggsysbookishramblings.wordpress.com/2026/10/28/in-which-i-undertake-another-penguin-reading-project-penguinnewwriting/",
+      "summary": "Despite the fact that I have barely dented the existing Penguin Projects I have pages for on the Ramblings, I seem to have inadvertently committed to another one! I could blame Liz at Adventures in r…",
+      "publishedAt": "2026-10-28T08:00:50.000Z"
     }
   },
   "https://kaigulliksen.com/": {
@@ -3312,13 +3312,13 @@
   },
   "https://mastermixmovies.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://mastermixmovies.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The True Monster",
-      "url": "https://mastermixmovies.wordpress.com/2026/10/27/the-true-monster/",
-      "summary": "Frankenstein (2025) is a dream project brought to life. Director Guillermo del Toro has always been fascinated by gothic tales of misunderstood monsters. Nowhere is that better exemplified than Mary …",
-      "publishedAt": "2026-10-27T08:00:00.000Z"
+      "title": "Frankie & Bride",
+      "url": "https://mastermixmovies.wordpress.com/2026/10/28/frankie-bride/",
+      "summary": "The Bride! is somehow the second worst remake of Bride of Frankenstein. Though I doubt anyone remembers The Bride from 1985. The Bride! was meant to release months before Guillermo del Toro’s Franken…",
+      "publishedAt": "2026-10-28T08:00:00.000Z"
     }
   },
   "https://matduggan.com/": {
@@ -3857,13 +3857,13 @@
   },
   "https://paxton-road.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://paxton-road.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Ex Ballard and Wantage RS1 still on hire with HMLX…",
-      "url": "https://paxton-road.blogspot.com/2026/10/ex-ballard-and-wantage-rs1-still-on.html",
-      "summary": "Regular readers may recall the ex Ballard and Wantage RS1, the last survivor of the trio, is now part of the HMLX lease fleet and has been out on hire with Alan Sewell… \"#1000 has returned from switc…",
-      "publishedAt": "2026-10-27T07:29:54.367Z"
+      "title": "Mosslanda: Defiance - stepping forwards…",
+      "url": "https://paxton-road.blogspot.com/2026/10/mosslanda-defiance-stepping-forwards.html",
+      "summary": "It has been a bit of a week so far, some success (retro-fitting working headlights to a new tool Bachmann 37) and equal disappointment (struggling to get DCC to control a Mashima/Highlevel combo) - I…",
+      "publishedAt": "2026-10-28T08:33:18.375Z"
     }
   },
   "https://pennyblackinc.wordpress.com/": {
@@ -5361,13 +5361,13 @@
   },
   "https://thequietus.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Nik Colk Void and More to Play Soho Electronic 2026",
-      "url": "https://thequietus.com/news/nik-colk-void-and-more-to-play-soho-electronic-2026/",
-      "summary": "The festival of leftfield electronic music returns to Central London next month for its second edition Soho Electronic, the Central London festival championing leftfield electronic music, will return…",
-      "publishedAt": "2026-10-27T15:28:52.000Z"
+      "title": "Prepared for the Future: the Slow Reveal of Aphex Twin’s Drukqs",
+      "url": "https://thequietus.com/opinion-and-essays/black-sky-thinking/aphex-twin-best-album-drukqs/",
+      "summary": "Drukqs has long been one of John Doran's favourite LPs; with a reissue looming, he attempts to articulate why he loves this critically derided album so much Drukqs by Aphex Twin Rereading the contemp…",
+      "publishedAt": "2026-10-28T08:14:13.000Z"
     }
   },
   "https://therealadam.com/": {
@@ -5514,7 +5514,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5631,7 +5631,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5761,9 +5761,9 @@
     "lastPublished": "2026-10-28",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-league-cup/173457/how-should-chelsea-line-up-against-liverpool-in-the-league-cup",
-      "summary": "Chelsea are marginally better off in the injury department than over the weekend, but even that one returning player was only rated a strong maybe to play, let alone make an impact. That’s not to say…",
-      "publishedAt": "2026-10-28T04:38:53.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173452/the-daily-hilario-october-27th",
+      "summary": "Most Good Expensive",
+      "publishedAt": "2026-10-28T07:00:07.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6083,13 +6083,13 @@
   },
   "https://www.buywithcontext.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://www.buywithcontext.com/feed/",
     "latestArticle": {
-      "title": "Personal Heater vs Whole-Room Heater: Which Cold Spot Are You Actually Trying to Fix?",
-      "url": "https://www.buywithcontext.com/personal-heater-vs-whole-room-heater-cold-spot/?utm_source=rss&utm_medium=rss&utm_campaign=personal-heater-vs-whole-room-heater-cold-spot",
-      "summary": "Choose a personal heater for one attended cold spot or a whole-room heater for an occupied room. Start with safe placement, not a larger appliance. The post Personal Heater vs Whole-Room Heater: Whic…",
-      "publishedAt": "2026-10-24T05:16:14.000Z"
+      "title": "Black Friday Phone Upgrade: Is Samsung Certified Re-Newed Right for You?",
+      "url": "https://www.buywithcontext.com/samsung-certified-renewed-galaxy-s24-s25-ultra-amazon/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-certified-renewed-galaxy-s24-s25-ultra-amazon",
+      "summary": "For a Black Friday phone replacement, decide whether Samsung Certified Re-Newed solves a real current-phone problem before choosing S24, S25, or Ultra. The post Black Friday Phone Upgrade: Is Samsung…",
+      "publishedAt": "2026-10-28T06:58:45.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
@@ -6116,13 +6116,13 @@
   },
   "https://www.celticquicknews.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "‘SECRETLY DELIGHTED,’ O’NEILL ON ANSWERING CELTIC SOS CALL",
-      "url": "https://www.celticquicknews.co.uk/secretly-delighted-oneill-on-answering-celtic-sos-call/",
-      "summary": "MARTIN O’NEILL received a phone call exactly a year ago today that turned his life upside down. The voice on the other end of the receiver belonged to Dermot Desmond who informed the former Celtic bo…",
-      "publishedAt": "2026-10-27T16:19:43.000Z"
+      "title": "HOGH AND CRY",
+      "url": "https://www.celticquicknews.co.uk/hogh-and-cry/",
+      "summary": "KASPER HOGH is hoping to get the nod from Martin O’Neill to face Dundee United at Parkhead this evening as he attempts to end his agonising 12-game scoreless nightmare. The Danish international strik…",
+      "publishedAt": "2026-10-28T08:08:26.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6509,7 +6509,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6647,7 +6647,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6948,7 +6948,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7235,13 +7235,13 @@
   },
   "https://www.thehistoryblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://www.thehistoryblog.com/feed",
     "latestArticle": {
-      "title": "Unique Pre-Inca elite toddler burial found in Peru",
-      "url": "https://www.thehistoryblog.com/archives/77226",
-      "summary": "The has been discovered at the Huaca de la Luna archaeological site in northern Peru. The tomb dates to the 6th or 7th century. It contains the skeletal remains of a small child who was no more than …",
-      "publishedAt": "2026-10-27T08:22:14.000Z"
+      "title": "Rare Suffragette Christmas card donated to V&A",
+      "url": "https://www.thehistoryblog.com/archives/77234",
+      "summary": "A rare surviving Suffragette Christmas card found in Mold, Flintshire, has been donated to the Victoria & Albert Museum. The card was sold by the Women’s Social and Political Union (WSPU) around 1910…",
+      "publishedAt": "2026-10-28T08:32:58.000Z"
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
@@ -7496,12 +7496,12 @@
   },
   "https://www.weirduniverse.net/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://www.weirduniverse.net/blog/rss_2.0/",
     "latestArticle": {
-      "title": "Kids behaving badly",
-      "summary": "Anderson Independent-Mail - Aug 13, 1982",
-      "publishedAt": "2026-10-27T08:07:00.000Z"
+      "title": "Japan’s Raccoon Problem",
+      "summary": "There weren't any raccoons in Japan until the late 1970s when an animated children's series, Araiguma Rasukaru (\"Rascal the Raccoon\"), introduced the species to Japanese audiences. People began impor…",
+      "publishedAt": "2026-10-28T08:08:00.000Z"
     }
   },
   "https://www.worldofreel.com/": {

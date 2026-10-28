@@ -25,6 +25,29 @@ test('applies one D1 total to duplicate catalogue listings', () => {
   )
 })
 
+test('initializes missing click counts without changing catalogue metadata', () => {
+  const entry = {
+    name: 'New blog',
+    url: 'https://new.example/',
+    description: 'Description',
+    clicks: undefined
+  }
+
+  assert.deepEqual(applyClickCounts([entry], new Map()), [
+    { ...entry, clicks: 0 }
+  ])
+})
+
+test('preserves existing click totals when D1 has no matching row', () => {
+  const entry = {
+    name: 'Established blog',
+    url: 'https://old.example/',
+    clicks: 9
+  }
+
+  assert.deepEqual(applyClickCounts([entry], new Map()), [entry])
+})
+
 test('synchronizes all three catalogues', () => {
   assert.deepEqual(DEFAULT_CLICK_COUNT_PATHS, [
     'data/blogs.json',

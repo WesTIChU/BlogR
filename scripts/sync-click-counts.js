@@ -45,9 +45,13 @@ export async function fetchClickCounts({ token, accountId, databaseId }) {
 export function applyClickCounts(entries, counts) {
   return entries.map((entry) => {
     const count = counts.get(canonicalOutboundUrl(entry.url))
-    return Number.isSafeInteger(count) && count >= 0
-      ? { ...entry, clicks: count }
-      : entry
+    if (Number.isSafeInteger(count) && count >= 0) {
+      return { ...entry, clicks: count }
+    }
+    if (Number.isSafeInteger(entry.clicks) && entry.clicks >= 0) {
+      return entry
+    }
+    return { ...entry, clicks: 0 }
   })
 }
 

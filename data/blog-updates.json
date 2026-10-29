@@ -1455,15 +1455,15 @@
     }
   },
   "https://stratechery.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T10:44:36.006Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://stratechery.com/feed/",
     "latestArticle": {
-      "title": "Meta Earnings, Muse and the Frontier, Musebook",
-      "url": "https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
-      "summary": "Meta's earnings come in the context of Zuckerberg delivering on his promise; if investors believe in Muse they must support Meta's spending on compute.",
-      "publishedAt": "2026-10-28T10:06:13.000Z"
+      "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+      "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+      "summary": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
+      "publishedAt": "2026-10-29T10:00:00.000Z"
     }
   },
   "https://thebloggess.com/": {
@@ -1752,14 +1752,14 @@
     }
   },
   "https://hackernoon.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T22:44:32.481Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/scaling-agentic-ai-coding-assistants-in-a-regulated-enterprise?source=rss",
-      "summary": "How to scale agentic AI coding assistants to 600+ engineers in a regulated enterprise, using governance, guardrails, curated skills and approved integrations.",
-      "publishedAt": "2026-10-28T21:55:30.000Z"
+      "url": "https://hackernoon.com/share3dcam-announces-major-3dgs-upgrade-and-new-mesh-generation-in-share-pointclouds-studio-v270?source=rss",
+      "summary": "Explore SHARE3DCAM V2.7, featuring improved 3D Gaussian Splatting, point cloud mesh generation, semantic labels, and new reality capture tools.",
+      "publishedAt": "2026-10-29T08:41:50.000Z"
     }
   },
   "https://www.homeautomationguy.io/": {
@@ -1776,8 +1776,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
-    "status": "success",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "O2 UK upgrades 4G and 5G mobile signals at Haven holiday parks",
@@ -2885,26 +2885,26 @@
   },
   "https://readceltic.com/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T07:44:35.105Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "2-2, 2 points dropped at Celtic Park, 3 out and out strikers start up front, and we’re left wondering just what the manager is playing at?",
-      "url": "https://readceltic.com/2026/10/29/2-2-2-points-dropped-at-celtic-park-3-out-and-out-strikers-start-up-front-and-were-left-wondering-just-what-the-manager-is-playing-at2-2-2-points-dropped-at-celtic-park-3-out-and-out-strikers-start-up/",
-      "summary": "Before the game kicked off last night at Celtic Park, I was on the Bhoycie Bus. Bhoycie asked The post 2-2, 2 points dropped at Celtic Park, 3 out and out strikers start up front, and we’re left wond…",
-      "publishedAt": "2026-10-29T07:25:02.000Z"
+      "title": "Martin O’Neill Wasn’t Entirely Dissatisfied With Celtic Dropping Points At Home – But Are Standards Quietly Being Lowered At Paradise?",
+      "url": "https://readceltic.com/2026/10/29/martin-oneill-celtic-reaction-raises-questions-over-standards/",
+      "summary": "Martin O’Neill says he wasn’t entirely dissatisfied with Celtic’s 2-2 draw against Dundee United. Well, Martin, I certainly The post Martin O’Neill Wasn’t Entirely Dissatisfied With Celtic Dropping P…",
+      "publishedAt": "2026-10-29T10:03:53.000Z"
     }
   },
   "https://thecelticstar.com/": {
-    "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://thecelticstar.com/feed/",
     "latestArticle": {
-      "title": "Scales header earns Celtic 2-2 draw with Dundee United as lead stays at four points",
-      "url": "https://thecelticstar.com/scales-rescues-point-as-celtic-draw-2-2-with-dundee-utd-at-celtic-park/",
-      "summary": "Liam Scales headed Celtic level after Dundee United had turned the game around before half-time at Celtic Park. The point keeps Celtic four clear at the top of the Premiership. The post Scales header…",
-      "publishedAt": "2026-10-29T07:13:02.000Z"
+      "title": "Johnston out for four games with new hamstring injury as Celtic face Besiktas",
+      "url": "https://thecelticstar.com/johnston-out-for-four-games-with-new-hamstring-injury-as-celtic-face-besiktas/",
+      "summary": "A new hamstring injury has halted Alistair Johnston's return, though a scan suggests a shorter spell out. The right-back role stays with Colby Donovan for a demanding run that includes a Europa Leagu…",
+      "publishedAt": "2026-10-28T08:46:03.000Z"
     }
   },
   "https://arseblog.com/": {
@@ -2932,15 +2932,15 @@
     }
   },
   "https://gunnerstown.com/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T08:44:33.133Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://feeds.feedburner.com/gunnerstown",
     "latestArticle": {
-      "title": "‘Talkin’ bout an evolution’ (Positives Needs & Hopes) [ARS 2-0 EVE]",
-      "url": "https://gunnerstown.com/arsenal/2026/10/25/talkin-bout-an-evolution-positives-needs-hopes-ars-2-0-eve/?utm_source=rss&utm_medium=rss&utm_campaign=talkin-bout-an-evolution-positives-needs-hopes-ars-2-0-eve",
-      "summary": "‘Talkin’ bout an evolution’ An Arsenal blog from a coach’s perspective Tracy Chapman reminds me of the time that I moved to America. She was so good. Not sure where she is now. I’ll look her up. Anyw…",
-      "publishedAt": "2026-10-25T06:07:02.000Z"
+      "title": "The Arsenal Women Journal – A Win Is a Win. Or Is It?",
+      "url": "https://gunnerstown.com/arsenal/2026/10/29/the-arsenal-women-journal-a-win-is-a-win-or-is-it/?utm_source=rss&utm_medium=rss&utm_campaign=the-arsenal-women-journal-a-win-is-a-win-or-is-it",
+      "summary": "…aaaaaaaaaaaaaaaaand we’re back! It is quite fitting to talk about the Arsenal Women’s somewhat tribulated, troubled new season during a tribulated, troubled personal time, so let’s get to it right a…",
+      "publishedAt": "2026-10-29T07:12:02.000Z"
     }
   },
   "https://bluemoon-mcfc.co.uk/": {
@@ -2961,14 +2961,14 @@
     }
   },
   "https://thebusbybabe.sbnation.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-29T05:44:31.519Z",
+    "lastPublished": "2026-10-25",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36279/sesko-out-until-january",
-      "summary": "Manchester United anticipate Benjamin Sesko will be out until at least January as he strives to recover fully from his shin injury. The club’s medical team have been investigating the best course of …",
-      "publishedAt": "2026-10-28T20:08:25.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36236/manchester-united-0-3-bournemouth-the-end-is-nigh-again",
+      "summary": "Manchester United lost in a very predictable fashion on Sunday, a 3-0 defeat at Old Trafford to AFC Bournemouth for the third time in the last four seasons. It’s the third different manager to do so,…",
+      "publishedAt": "2026-10-25T16:24:49.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -2990,14 +2990,14 @@
     }
   },
   "https://weaintgotnohistory.sbnation.com/": {
-    "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T08:44:29.608Z",
+    "lastPublished": "2026-10-28",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173540/the-daily-hilario-october-29th",
-      "summary": "Fine Winless Wow",
-      "publishedAt": "2026-10-29T07:35:50.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-league-cup/173528/liverpool-1-1-6-5-p-k-chelsea-league-cup-post-match-reaction-ratings",
+      "summary": "Both sides made a promising start to the match, but that early impetus faded pretty quickly We woke back up about halfway through the half and started to create some dangerous situations. It wasn’t t…",
+      "publishedAt": "2026-10-28T22:12:54.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3008,14 +3008,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'It's Coming…'- Rare Co-Founder and N64 Virtuoso Tim Stamper Teases Release of Unseen 'Relics' from 40+ Year Career",
-      "url": "https://www.timeextension.com/#article-208170",
-      "summary": "Reclusive developer opens the vault. Tim Stamper, legendary UK developer and co-founder of iconic studios Rare and Ultimate Play The Game , has surprised gaming fans by making an unlikely appearance …",
-      "publishedAt": "2026-10-29T09:30:00.000Z"
+      "title": "Everyone's Favourite Pith-Helmeted Hero Is Back In A New 'Sabre Wulf' Fan Remaster For The C64",
+      "url": "https://www.timeextension.com/#article-140171",
+      "summary": "Vine & Dandy! Here's something that will have you reaching for a makeshift helmet and a cane to swing about your room in celebration — Indie Retro News is reporting that a new remaster of Ultimate Pl…",
+      "publishedAt": "2026-10-29T10:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3116,12 +3116,12 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-29T07:44:35.105Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
       "title": "Armbian Imager 2.5 Released with First-Boot Profiles, Revamped Settings Page",
-      "url": "https://9to5linux.com/armbian-imager-2-5-released-with-first-boot-profiles-revamped-settings-page?utm_source=rss",
+      "url": "https://9to5linux.com/armbian-imager-2-5-released-with-first-boot-profiles-revamped-settings-page",
       "summary": "Armbian Imager 2.5 open-source utility for flashing Armbian Linux on single-board computers is now available for download with new features and many improvements. The post Armbian Imager 2.5 Released…",
       "publishedAt": "2026-10-28T19:01:10.000Z"
     }
@@ -3546,15 +3546,15 @@
     }
   },
   "https://figureoftheday.blogspot.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-27T10:44:30.332Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/blogspot/cImJr",
     "latestArticle": {
-      "title": "Star Wars Figure of the Day: Day 3,392: Dark Trooper (Force Mech Suit / Epic World of Action)",
-      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3392-dark.html",
-      "summary": "DARK TROOPER Force Mech Suit Epic World of Action Amazon Exclusive Item No.: No. G1421 Manufacturer: Hasbro Number: n/a Includes: 1 Mech, 1 big blaster, 1 small blaster, 1 figure Action Feature: n/a …",
-      "publishedAt": "2026-10-27T08:00:00.000Z"
+      "title": "Star Wars Figure of the Day: Day 3,393: Clone Trooper (Halloween Edition)",
+      "url": "http://figureoftheday.blogspot.com/2026/10/star-wars-figure-of-day-day-3393-clone.html",
+      "summary": "CLONE TROOPER (Halloween Edition) The Black Series 2022 Closed Box Line Look Halloween Packaging, Target Shared Exclusive Item No.: No. F5608 Manufacturer: Hasbro Number: n/a Includes: Porg as Dracul…",
+      "publishedAt": "2026-10-29T08:00:00.000Z"
     }
   },
   "https://kidsbricks.wordpress.com/": {
@@ -3894,15 +3894,15 @@
     }
   },
   "https://glitternight.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T19:44:32.156Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "SKY FISHERS: BRAZILIAN HORROR LEGEND",
-      "url": "https://glitternight.com/2026/10/28/sky-fishers-brazilian-horror-legend/",
-      "summary": "Halloween Month is nearly over, so here are a species of Brazilian monsters I’d love to read more about. THE SKY FISHERS – Who do these folk creatures from Brazil have to sleep with to get more well …",
-      "publishedAt": "2026-10-28T19:28:37.000Z"
+      "title": "B-MOVIE HOST ASHLEY GHASTLY (1977/8-1982)",
+      "url": "https://glitternight.com/2026/10/29/b-movie-host-ashley-ghastly-1977-8-1982/",
+      "summary": "ASHLEY GHASTLY – Cyrus Newitt played the phantom Ashley Ghastly, host of the Bad Movie Show Scream Theatre from 1977 or 1978 to 1982. The program aired on Saturday nights/ Sunday mornings at 12:30am …",
+      "publishedAt": "2026-10-29T10:06:08.000Z"
     }
   },
   "https://joshcollinsworth.com/blog": {
@@ -4399,14 +4399,14 @@
   },
   "https://sluggerotoole.com/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T07:44:35.105Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://sluggerotoole.com/feed/",
     "latestArticle": {
-      "title": "Does the Secretary of State’s decision about Drumcree serve social justice, or victors’ justice?",
-      "url": "https://sluggerotoole.com/2026/10/29/does-the-secretary-of-states-decision-about-drumcree-serve-social-justice-or-victors-justice/",
-      "summary": "Gadfly is a political geographer from Belfast with a particular interest in the relationship between democracy and the creation of more sustainable futures. Northern nationalists and republicans have…",
-      "publishedAt": "2026-10-29T07:00:43.000Z"
+      "title": "One Road, Two Perspectives: Hughie Beag and Macha on Drumcree",
+      "url": "https://sluggerotoole.com/2026/10/29/one-road-two-perspectives-hughie-beag-and-macha-on-drumcree/",
+      "summary": "Fellow Slugger poster Hughie Beag and I have crossed swords a few times in the comments section, particularly over my attempts to understand unionism and his challenges to how I’ve approached it. We’…",
+      "publishedAt": "2026-10-29T10:24:52.000Z"
     }
   },
   "https://www.undercovertourist.com/blog/tag-disney-world/": {
@@ -4511,27 +4511,27 @@
     }
   },
   "https://diamondgeezer.blogspot.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T14:44:31.009Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/blogspot/HcFb",
     "latestArticle": {
-      "title": "47 dull lists",
-      "url": "http://diamondgeezer.blogspot.com/2026/10/47-dull-lists.html",
-      "summary": "47 dull lists 5-letter national capitals: Abuja, Accra, Amman, Cairo, Dakar, Dhaka, Hanoi, Kabul, La Paz, Minsk, Paris, Praia, Quito, Rabat, Sana'a, Seoul, Sofia, Tokyo, Tunis, Vaduz Chinese Zodiac a…",
-      "publishedAt": "2026-10-28T07:00:00.000Z"
+      "title": "V is for Vale of Health",
+      "url": "http://diamondgeezer.blogspot.com/2026/10/v-is-for-vale-of-health.html",
+      "summary": "LONDON A - Z V is for V ale of Health We're now at the tough end of the alphabet for unsung suburbs. There's Victoria and Vauxhall but they're way too well known. There's Kingston Vale, Putney Vale a…",
+      "publishedAt": "2026-10-29T07:00:00.000Z"
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T07:44:35.105Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "London’s smallest museum has opened – next to The Monument",
-      "url": "https://www.ianvisits.co.uk/articles/londons-smallest-museum-has-opened-next-to-the-monument-93517/",
-      "summary": "London has a new contender for its smallest museum — and it’s inside an old public toilet next to the Monument. Read more ›",
-      "publishedAt": "2026-10-29T07:00:07.000Z"
+      "title": "Large swarm of unmanned flying objects and fireworks expected over the Southbank",
+      "url": "https://www.ianvisits.co.uk/articles/large-swarm-of-unmanned-flying-objects-expected-over-the-southbank-93567/",
+      "summary": "A large swarm of unmanned flying objects might appear in central London next week for one reason or another. Read more ›",
+      "publishedAt": "2026-10-29T10:00:33.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
@@ -4936,15 +4936,15 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T10:44:36.006Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
-      "title": "TIH 683: Santiago Eximeno and Alicia L. Alonso on Alicia is in the Basement, Translating Spanish Fiction into English, and Horror Board Games",
-      "url": "https://www.thisishorror.co.uk/tih-683-santiago-eximeno-and-alicia-l-alonso-on-alicia-is-in-the-basement-translating-spanish-fiction-into-english-and-horror-board-games/",
-      "summary": "In this podcast, Santiago Eximeno and Alicia L. Alonso talk about Alicia is in the Basement, translating Spanish fiction into English, horror board games, and much more. About Santiago Eximeno Santia…",
-      "publishedAt": "2026-10-28T10:13:25.000Z"
+      "title": "Look Out For … Chimera Skin by Johnny Compton",
+      "url": "https://www.thisishorror.co.uk/look-out-for-chimera-skin-by-johnny-compton/",
+      "summary": "“With his latest, Compton takes on the end of the world with a hostile alien take over steeped in body horror.” A mutated man. Civilization’s last hope. Failing to “uplift” humanity, a zealous alien …",
+      "publishedAt": "2026-10-29T10:00:30.000Z"
     }
   },
   "https://www.horrorsociety.com/": {
@@ -5008,9 +5008,9 @@
   },
   "https://cruisewithamber.co.uk/": {
     "lastPublished": "2026-03-23",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
-    "status": "unknown",
-    "feedUrl": "https://cruisewithamber.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcruisewithamber.co.uk%2F&format=xml",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
+    "status": "success",
+    "feedUrl": "https://cruisewithamber.co.uk/feed/",
     "latestArticle": {
       "title": "Fred. Olsen Drinks Package Calculator",
       "url": "https://cruisewithamber.co.uk/fred-olsen-drinks-package-calculator/",
@@ -5152,8 +5152,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-29T06:44:33.057Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5430,15 +5430,15 @@
     }
   },
   "https://googlemapsmania.blogspot.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T09:44:31.957Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania",
     "latestArticle": {
-      "title": "How the World Draws the World",
-      "url": "http://googlemapsmania.blogspot.com/2026/10/how-world-draws-world.html",
-      "summary": "I recently shared this map (above) showing the countries of the world as drawn by over 3,000 people playing the Borderline country border game. This combined map brings together all the borders and c…",
-      "publishedAt": "2026-10-28T09:32:26.581Z"
+      "title": "To Infinity & Beyond",
+      "url": "http://googlemapsmania.blogspot.com/2026/10/to-infinity-beyond.html",
+      "summary": "Yesterday I visited the Night Maps exhibition at the Warburg Institute, which explores the history of celestial maps and globes, and how mapping the heavens has shaped our understanding of the world.…",
+      "publishedAt": "2026-10-29T09:23:18.683Z"
     }
   },
   "https://joshreads.com/": {
@@ -5562,14 +5562,14 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "Scientists Discover How the Prehistoric Cave Paintings in the Chauvet Cave Survived for Thousands of Years",
-      "url": "https://www.labrujulaverde.com/en/2026/10/scientists-discover-how-the-prehistoric-cave-paintings-in-the-chauvet-cave-survived-for-thousands-of-years/",
-      "summary": "To measure a horse painted 37,000 years ago, you would normally walk up to the wall. At Chauvet that is impossible. The cave floor still holds footprints tens of thousands of years old, and nobody is…",
-      "publishedAt": "2026-10-29T09:15:16.000Z"
+      "title": "Celtic Woman Buried With a Lamb and a Bracelet of Fossilized Mud Found in Germany",
+      "url": "https://www.labrujulaverde.com/en/2026/10/celtic-woman-buried-with-a-lamb-and-a-bracelet-of-fossilized-mud-found-in-germany/",
+      "summary": "When a company plans a business park, the last thing it expects to find underground is a cemetery. That is what happened in 2024 on St.-Florian-Straße in Senden, a town of about 23,700 people in the …",
+      "publishedAt": "2026-10-29T10:17:32.000Z"
     }
   },
   "https://historyofparliament.com/": {
@@ -5585,14 +5585,14 @@
     }
   },
   "https://aeon.co/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T10:44:36.006Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://aeon.co/feed.rss",
     "latestArticle": {
-      "url": "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed",
-      "summary": "Petty disputes, pleas for help and requests for gold – explore letters sent to Egyptian pharaohs more than 3,000 years ago - by Aeon Video Watch on Aeon",
-      "publishedAt": "2026-10-28T10:01:00.000Z"
+      "url": "https://aeon.co/videos/an-afghan-woman-recalls-how-her-countrys-devastation-led-to-her-own",
+      "summary": "A girl’s story of forced marriage reveals how the Soviet invasion of 1979 transformed life in Afghanistan - by Aeon Video Watch on Aeon",
+      "publishedAt": "2026-10-29T10:01:00.000Z"
     }
   },
   "https://ocalicreek.blogspot.com/": {
@@ -5711,14 +5711,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Pick a Brick Castle and Space pieces coming soon – with restrictions",
-      "url": "https://www.brickfanatics.com/lego-pick-a-brick-castle-and-space-restrictions",
-      "summary": "Don't worry: you can still assemble a pretty big fleet",
-      "publishedAt": "2026-10-29T08:53:32.000Z"
+      "title": "Retired LEGO Lion Knights’ Castle elements return to Pick a Brick",
+      "url": "https://www.brickfanatics.com/retired-lego-lion-knights-castle-elements-pick-a-brick",
+      "summary": "But there's a time limit",
+      "publishedAt": "2026-10-29T09:42:36.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -6362,8 +6362,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-29T08:44:29.608Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6733,14 +6733,14 @@
     }
   },
   "https://greek-metal-area.blogspot.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T06:18:33.259Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://greek-metal-area.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Ringlorn - Tales Of War And Magic",
-      "summary": "Genre : Heavy Metal Year : 2025 1.Death with honor 06:54 2.Royal Guard 03:10 3.Warlord 06:04 4.Beautiful Witch 03:42 5.Ars Moriendi 03:56 6.Hallowed Swords 04:39 7.Ringlorn 03:44 8.The black veil of …",
-      "publishedAt": "2026-10-28T06:14:00.000Z"
+      "title": "This I Owe - Alchemists",
+      "summary": "Genre : Heavy/Doom Metal Year : 2025 1. Prologue 2. Equinox 3. Sharks 4. Disdain 5. Queen of Hearts 6. Isobel 7. Feelings to Dust 8. Nightmare 9. Echo Chambers 10. Solstice -DOWNLOAD-",
+      "publishedAt": "2026-10-29T10:12:00.000Z"
     }
   },
   "https://opinionatedgamers.com/": {
@@ -7361,14 +7361,14 @@
   },
   "https://thequietus.com/": {
     "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T09:44:34.394Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Maria W Horn – Melting Pillars of Snow",
-      "url": "https://thequietus.com/quietus-reviews/melting-pillars-of-snow-review/",
-      "summary": "Maria W Horn Melting Pillars of Snow Melting Pillar of Snow is a dense exploration of time and decay that feels more like a static monument than a living listening experience Melting Pillars of Snow …",
-      "publishedAt": "2026-10-29T09:33:13.000Z"
+      "title": "Audiovisual Phantasmagoria: Highlights from Semibreve 2026",
+      "url": "https://thequietus.com/quietus-reviews/live-reviews/semibreve-festival-braga-2026-review/",
+      "summary": "Pedro João Santos reports from the latest edition of Portugal’s premiere festival for experimental music, where stellar sets from Noémi Büchi, Tygapaw, Marta Salogni and more lead the way Malcolm Par…",
+      "publishedAt": "2026-10-29T10:15:20.000Z"
     }
   },
   "https://www.fluxblog.org/": {
@@ -7690,8 +7690,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-29T09:44:34.394Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7719,22 +7719,22 @@
     }
   },
   "https://ecmreviews.com/": {
-    "lastPublished": "2026-10-28",
-    "lastChecked": "2026-10-28T12:44:33.262Z",
+    "lastPublished": "2026-10-29",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "success",
     "feedUrl": "https://ecmreviews.com/feed/",
     "latestArticle": {
-      "title": "ALLVEI Review for All About Jazz",
-      "url": "https://ecmreviews.com/2026/10/28/allvei-review-for-all-about-jazz/",
-      "summary": "My latest review for All About Jazz explores the self-titled debut of ALLVEI, the trio of Norwegian guitarist Eivind J. Vullum, Polish saxophonist Jerzy Mączyński, and Swiss drummer Nicolas Stocker. …",
-      "publishedAt": "2026-10-28T12:02:37.000Z"
+      "title": "The Caretaker: Everywhere At The End Of Time",
+      "url": "https://ecmreviews.com/2026/10/29/the-caretaker-everywhere-at-the-end-of-time/",
+      "summary": "Somewhere beyond the last remembered melody, a room is waiting for us to remember that no human being belongs entirely to memory. Its confines continue to breathe long after the drywall of experience…",
+      "publishedAt": "2026-10-29T09:54:14.000Z"
     }
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-29T08:44:29.608Z",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7792,8 +7792,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-29T09:44:34.394Z",
-    "status": "unavailable",
+    "lastChecked": "2026-10-29T10:23:41.578Z",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {

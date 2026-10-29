@@ -45,13 +45,13 @@
   },
   "http://www.cherryandspoon.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-29",
     "feedUrl": "http://www.cherryandspoon.com/feeds/posts/default",
     "latestArticle": {
-      "title": "\"One-Shot\" at Six Points Theater",
-      "url": "http://www.cherryandspoon.com/2026/10/one-shot-at-six-points-theater.html",
-      "summary": "The new play One-Shot , premiering at Six Points Theater, takes us back to 1999, when we rented VHS tapes from video stores to watch movies at home. It was also a time when we were beginning to see m…",
-      "publishedAt": "2026-10-27T22:04:30.753Z"
+      "title": "\"memento vivere: remember to live\" by The Moving Company at The Southern Theater",
+      "url": "http://www.cherryandspoon.com/2026/10/memento-vivere-remember-to-live-by.html",
+      "summary": "Sitting down in the red velvet seats of the gorgeous and historic Southern Theater last night, I had no idea what I was about to see. This is usually the case with The Moving Company; they sometimes …",
+      "publishedAt": "2026-10-29T22:13:27.557Z"
     }
   },
   "http://www.galactichunter.com/GH/": {
@@ -105,10 +105,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://13thdimension.com/feed/",
     "latestArticle": {
-      "title": "PATRICK STEWART DEAD AT 86",
-      "url": "https://13thdimension.com/patrick-stewart-dead-at-86/",
-      "summary": "Farewell to the great Star Trek and X-Men star… Sir Patrick Stewart, the beloved Shakespearean actor who immortalized two great roles in popular fiction with Star Trek: The Next Generation’s Capt. Je…",
-      "publishedAt": "2026-10-29T20:10:32.000Z"
+      "title": "MARK CHIARELLO’s Next Great SPIDER-MAN Cover Brings the Black Light Vibe",
+      "url": "https://13thdimension.com/mark-chiarellos-next-great-spider-man-cover-brings-the-black-light-vibe/",
+      "summary": "THWIP! Literally! Man, I love Mark Chiarello’s Spider-Man covers. Dude gets it. (Then again, the guy gets everything when it comes to comics.) Anyway, there’s a new, four-issue, anthology miniseries …",
+      "publishedAt": "2026-10-29T04:10:39.000Z"
     }
   },
   "https://1morefilmblog.com/": {
@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1818,7 +1818,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2089,10 +2089,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "B-MOVIE HOST ASHLEY GHASTLY (1977/8-1982)",
-      "url": "https://glitternight.com/2026/10/29/b-movie-host-ashley-ghastly-1977-8-1982/",
-      "summary": "… ASHLEY GHASTLY – Cyrus Newitt played the phantom Ashley Ghastly, host of the Bad Movie Show Scream Theatre from 1977 or 1978 to 1982. The program aired on Saturday nights/ Sunday mornings at 12:30a…",
-      "publishedAt": "2026-10-29T10:06:08.000Z"
+      "title": "THE MACHINE TO KILL/ THE BLOODY AUTOMATON (1923 and 1924) BY THE AUTHOR OF THE PHANTOM OF THE OPERA",
+      "url": "https://glitternight.com/2026/10/29/the-machine-to-kill-the-bloody-automaton-1923-and-1924-by-the-author-of-the-phantom-of-the-opera/",
+      "summary": "Gaston Leroux’s The Bloody Automaton (1923) and The Machine to Kill (1924) were a lengthy serialized story later published as one novel. Many book sites list 1930s works, but that was just when it wa…",
+      "publishedAt": "2026-10-29T22:28:29.000Z"
     }
   },
   "https://glyphsift.com/": {
@@ -2244,9 +2244,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/distributed-locks-are-more-dangerous-than-they-look?source=rss",
-      "summary": "Distributed locks don't always prevent stale workers from writing. Learn how leases, fencing tokens, and atomic validation protect shared state.",
-      "publishedAt": "2026-10-29T15:36:49.000Z"
+      "url": "https://hackernoon.com/your-billing-migration-is-really-a-state-machine?source=rss",
+      "summary": "Records moved fine. State broke everything. An architect’s guide to modeling subscription state across billing, provisioning, and ERP before you migrate.",
+      "publishedAt": "2026-10-29T21:45:46.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2742,13 +2742,13 @@
   },
   "https://joshuamorris.info/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://joshuamorris.info/atom.xml",
     "latestArticle": {
-      "title": "Worth Wandering: Pippin Barr",
-      "url": "https://joshuamorris.info/notes/2026/10/23/worth-wandering-pippin-barr/",
-      "summary": "An independent game designer who has spent more than a decade making wonderfully strange experiments out of familiar video games, performance art, office work, Greek mythology, empty software project…",
-      "publishedAt": "2026-10-23T14:30:00.000Z"
+      "title": "Knowing How to Build Something Is Different From Knowing What Should Be Built",
+      "url": "https://joshuamorris.info/notes/2026/10/28/knowing-how-to-build-something-is-different-from-knowing-what-should-be-built/",
+      "summary": "Knowing how to build software is not the same as knowing what should be built. On craft, judgment, architecture, and why AI makes that distinction sharper.",
+      "publishedAt": "2026-10-28T17:00:00.000Z"
     }
   },
   "https://joshwcomeau.com/": {
@@ -4760,7 +4760,7 @@
     }
   },
   "https://somaryrose.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://somaryrose.com/feed/",
     "latestArticle": {
@@ -5327,13 +5327,13 @@
   },
   "https://theprivacydad.com/": {
     "status": "success",
-    "lastPublished": "2026-10-13",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://theprivacydad.com/feed/",
     "latestArticle": {
-      "title": "Setting up Tuta Mail & Nextcloud Integration in Simple Steps",
-      "url": "https://theprivacydad.com/setting-up-tutanextcloud-integration/",
-      "summary": "The new Tuta Mail and Nextcloud integration is a great step forward in terms of convenience for those who use privacy tools, and it is not difficult to set up.",
-      "publishedAt": "2026-10-05T19:39:00.000Z"
+      "title": "Why Is It So Difficult To Build an Alternative Operating System for a Smartphone?",
+      "url": "https://theprivacydad.com/why-is-it-so-difficult-to-build-an-alternative-operating-system-for-a-smartphone/",
+      "summary": "Looking more closely at how your Android phone works can explain why it is so difficult to develop open source alternative operating systems for these devices.",
+      "publishedAt": "2026-10-29T22:08:00.000Z"
     }
   },
   "https://theprivacyperspective.wordpress.com/2026/04/04/the-privacy-perspective-to-revert-to-an-archive/": {
@@ -5491,13 +5491,13 @@
   },
   "https://thisisnthappiness.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "Orange jello, Laura Stevens",
-      "url": "https://thisisnthappiness.com/post/831758101028929536",
-      "summary": "Orange jello, Laura Stevens",
-      "publishedAt": "2026-10-28T22:25:38.000Z"
+      "title": "Dead at 86, Patrick Stewart",
+      "url": "https://thisisnthappiness.com/post/831846951124434944",
+      "summary": "Dead at 86, Patrick Stewart",
+      "publishedAt": "2026-10-29T21:57:52.000Z"
     }
   },
   "https://thoughtfullycatholic.wordpress.com/": {
@@ -6322,9 +6322,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/python-in-marketing-a-practical-book/",
-      "summary": "Marketing has always involved wrangling lots of data. Before digital marketing, businesses had to track sales, customer purchases, coupon redemptions, store traffic, and survey responses to understand",
-      "publishedAt": "2026-10-29T15:42:25.000Z"
+      "url": "https://www.freecodecamp.org/news/learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course/",
+      "summary": "Understanding how malicious actors infiltrate networks is the first step to building resilient infrastructure. To help developers and aspiring security analysts learn the fundamentals of offensive sec",
+      "publishedAt": "2026-10-29T21:00:09.000Z"
     }
   },
   "https://www.fromjason.xyz/": {
@@ -6345,13 +6345,13 @@
   },
   "https://www.gentlemanstationer.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.gentlemanstationer.com/blog?format=rss",
     "latestArticle": {
-      "title": "On The Paper Trail Episode 19: Pen, Paper, & Ink Problems (Terminology Part 2)",
-      "url": "https://www.gentlemanstationer.com/blog/2026/10/28/on-the-paper-trail-episode-19-pen-paper-amp-ink-problems-terminology-part-2",
-      "summary": "You can watch the video on our YouTube Channel ! This week we discuss Pen, Paper, & Ink Problems , and the different terms commonly used in the stationery world to describe these issues. We specifica…",
-      "publishedAt": "2026-10-28T17:51:37.000Z"
+      "title": "Thursday Drops: More Planners Arrive! Midori Hibino, Gradation Day-Length, Kawecos and More!",
+      "url": "https://www.gentlemanstationer.com/blog/2026/10/29/thursday-drops-more-planners-arrive-midori-hibino-gradation-day-length-kawecos-and-more",
+      "summary": "Midori B6 Day-Length Gradation Planner, shown here next to the Pilot Custom 845 Urushi The second wave of 2027 planners arrived this week, with new releases from Midori in the B6 Gradation and Hibino…",
+      "publishedAt": "2026-10-29T22:27:05.000Z"
     }
   },
   "https://www.giventotri.com/": {
@@ -6447,10 +6447,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "Echoes from the Void (Review)",
-      "url": "https://www.horrorsociety.com/2026/10/29/echoes-from-the-void-review/",
-      "summary": "Director – Robert W. Filion (Psychic Brats, Athena) Starring – Jaysen P. Buterin (The Devil’s Lettuce, Bombshell Bloodbath), Amie Henry (Dead Men and Devil’s, Coloring Girl), and John R. Sexton (Grav…",
-      "publishedAt": "2026-10-29T13:29:01.000Z"
+      "title": "The Asylum’s EBENEZER SCROOGE: A CHRISTMAS CAROL HORROR Trailer and Art",
+      "url": "https://www.horrorsociety.com/2026/10/29/the-asylums-ebenezer-scrooge-a-christmas-carol-horror-trailer-and-art/",
+      "summary": "Release Date: 10/30/26 | Director: Marcel Walz Stars: Dominic Keating, Bryan Barron, Matthew Gademske. Written by: Joshua Pruett A horror take on the classic tale. When cruel businessman Ebenezer Scr…",
+      "publishedAt": "2026-10-29T21:25:38.000Z"
     }
   },
   "https://www.ianbicking.org/": {
@@ -6508,7 +6508,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6520,13 +6520,13 @@
   },
   "https://www.itsdougholland.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.itsdougholland.com/feed/",
     "latestArticle": {
-      "title": "Talkin’ baseball with Dean",
-      "url": "https://www.itsdougholland.com/talkin-baseball-with-dean/",
-      "summary": "Honesty is the goal in my occasional diary entries, so with no attempt to polish a turd, here’s my Wednesday morning. I was watching a pretty good old movie, when a sudden gurgling announced that I n…",
-      "publishedAt": "2026-10-28T21:03:12.000Z"
+      "title": "Man on Wire, and a few other films",
+      "url": "https://www.itsdougholland.com/man-on-wire-and-a-few-other-films/",
+      "summary": "Having finished the K’s and before beginning the L’s, Father forgive me for I have sinned — a few movies watched out of proper alphabetical order. ... [read more]",
+      "publishedAt": "2026-10-29T22:08:37.000Z"
     }
   },
   "https://www.jamesreeves.co/notebook/": {
@@ -7175,7 +7175,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2021-12-01",
     "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
     "latestArticle": {
@@ -7314,10 +7314,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Mike Wolfer is Crowdfunding His Latest, \"Widow,\" Comic!",
-      "url": "https://www.thenewestrant.com/2026/10/mike-wolfer-is-crowdfunding-his-latest.html",
-      "summary": "Friend of the blog, Mike Wolfer, has been making quality comics for decades. His classic, \"Widow,\" series has been going through the process of being remastered and tweaked as, \"Widow Unleashed.\" A n…",
-      "publishedAt": "2026-10-29T00:24:23.481Z"
+      "title": "Patrick Stewart Has Died",
+      "url": "https://www.thenewestrant.com/2026/10/patrick-stewart-has-died.html",
+      "summary": "Patrick Stewart has died at 86 . According to his wife, Sunny Ozell, he had, \" ...a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia .\"His career spanned over six decades. H…",
+      "publishedAt": "2026-10-29T22:05:49.199Z"
     }
   },
   "https://www.thephoblographer.com/": {

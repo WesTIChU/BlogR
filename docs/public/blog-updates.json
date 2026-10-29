@@ -220,7 +220,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -319,7 +319,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -361,7 +361,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -416,7 +416,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -621,7 +621,7 @@
     "status": "unavailable"
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -661,10 +661,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://bigthink.com/feed/",
     "latestArticle": {
-      "title": "Was dark matter first discovered by Fritz Zwicky or Vera Rubin?",
-      "url": "https://bigthink.com/starts-with-a-bang/who-discovered-dark-matter-fritz-zwicky-vera-rubin/",
-      "summary": "It’s hard to believe, but the idea that the Universe was dominated not by normal matter but rather by dark matter — a novel form of non-interacting matter that’s completely distinct from protons, neu…",
-      "publishedAt": "2026-10-29T06:00:00.000Z"
+      "title": "Stop trying to find yourself",
+      "url": "https://bigthink.com/series/conversations/joe-folley-stop-trying-to-find-yourself/",
+      "summary": "Philosopher Joe Folley is skeptical that there’s a core self down there to find. In this Big Think Conversation with Jonny Thomson, he makes the case for a self that gets built rather than excavated …",
+      "publishedAt": "2026-10-29T13:00:00.000Z"
     }
   },
   "https://bikeportland.org/": {
@@ -751,7 +751,7 @@
     "status": "unavailable"
   },
   "https://blog.firestartoys.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -912,7 +912,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-13",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1209,9 +1209,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/manchester-city-monitoring-ajax-teenage-sensation-amid-stiff-european-competition",
-      "summary": "Manchester City are reportedly keeping a close eye on Ajax midfielder Abdellah Ouazane as the 17-year-old enjoys a breakout campaign in the Netherlands.",
-      "publishedAt": "2026-10-29T10:30:33.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/match-officials-craig-pawson-to-referee-manchester-city-vs-brighton-hove-albion-premier-league",
+      "summary": "The Premier League have now confirmed the team of match officials to oversee proceedings between Manchester City and Brighton & Hove Albion in the top-flight on Saturday afternoon.",
+      "publishedAt": "2026-10-29T12:30:33.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1346,10 +1346,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Joe Shalam: Healey’s fudge-it Budget dodged all the hard choices",
-      "url": "https://conservativehome.com/2026/10/29/joe-shalam-healeys-fudge-it-budget-dodged-all-the-hard-choices/",
-      "summary": "The Budget was an enormous fudge. No10 should be grateful for the breathing space Healey has bought them. But workers facing higher taxes and young people losing another year to worklessness have few…",
-      "publishedAt": "2026-10-29T11:00:40.000Z"
+      "title": "William Hall: Conservatives must win the argument for a smaller state",
+      "url": "https://conservativehome.com/2026/10/29/william-hall-conservatives-must-win-the-argument-for-a-smaller-state/",
+      "summary": "We have a compelling case. But a compelling case is not the same as a won argument. Until Conservatives persuade the country that government must focus on fewer things and do them better, promises of…",
+      "publishedAt": "2026-10-29T13:00:02.000Z"
     }
   },
   "https://corporalfrisk.com/": {
@@ -1430,7 +1430,7 @@
     }
   },
   "https://cruisewithamber.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-03-23",
     "feedUrl": "https://cruisewithamber.co.uk/feed/",
     "latestArticle": {
@@ -1452,7 +1452,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -1523,7 +1523,7 @@
     }
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1684,7 +1684,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1750,7 +1750,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -1973,13 +1973,13 @@
   },
   "https://fossilhuntress.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://fossilhuntress.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "WYOTEUTHIS: THE CHUNKY BELEMNITE FROM THE JURASSIC SEA",
-      "url": "https://fossilhuntress.blogspot.com/2026/10/wyoteuthis-chunky-belemnite-from.html",
-      "summary": "Wyoteuthis linsterorum, holotypeSome fossils make you pause because they are beautiful. Others catch your eye because something about them simply does not fit.Two unusually stout fossils from Wyoming…",
-      "publishedAt": "2026-10-28T13:00:00.000Z"
+      "title": "KUMIMANU: THE GIANT PENGUIN THAT TIPPED THE SCALES",
+      "url": "https://fossilhuntress.blogspot.com/2026/10/kumimanu-giant-penguin-that-tipped.html",
+      "summary": "Kumimanu adapted from Nobu TamuraSome penguins belong on postcards. This one deserves its own weigh station.Around 57 million years ago, an enormous penguin swam through the seas of what is now Aotea…",
+      "publishedAt": "2026-10-29T13:00:00.000Z"
     }
   },
   "https://found-media-archive.neocities.org/": {
@@ -2137,10 +2137,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Leo Tolstoy and the Meaning of Life | Documentary Essay",
-      "url": "https://greatawakeningreport.com/leo-tolstoy-the-meaning-of-life-documentary/",
-      "summary": "This Leo Tolstoy documentary essay is a short philosophical piece rather than a feature film, and it takes up the question its own title poses with a question mark still attached. Tolstoy is remember…",
-      "publishedAt": "2026-10-29T01:40:00.000Z"
+      "title": "Take Back Your Power | Full Documentary",
+      "url": "https://greatawakeningreport.com/take-back-your-power-documentary/",
+      "summary": "WATCH THE FULL DOCUMENTARY The Take Back Your Power documentary is an investigative film directed by Josh del Sol that examines the global rollout of so called smart meters and the wider smart grid p…",
+      "publishedAt": "2026-10-29T13:15:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -2294,7 +2294,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -2305,7 +2305,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -2327,7 +2327,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -2400,13 +2400,13 @@
   },
   "https://humbledollar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "To Claim or Not to Claim, That Is the Question",
-      "url": "https://humbledollar.com/forum/to-claim-or-not-to-claim-that-is-the-question/",
-      "summary": "Unfortunately for me, the first coastal storm of the season arrived early this year. It spun up out of the Atlantic last weekend with little warning and struck the coast near our vacation home with 8…",
-      "publishedAt": "2026-10-28T20:16:46.000Z"
+      "title": "Why can’t Americans put more effort into understanding Social Security?",
+      "url": "https://humbledollar.com/forum/why-cant-americans-put-more-effort-into-understanding-social-security/",
+      "summary": "The lack of knowledge about one of our most important social programs is unfortunate because it minimizes the understanding of its value and distorts acceptance of necessary changes. Misinformation c…",
+      "publishedAt": "2026-10-29T11:43:02.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -2432,7 +2432,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -2523,12 +2523,12 @@
   },
   "https://itsfoss.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17510159/jadens-jd-166-review",
-      "summary": "A small, portable printer that prints A4 papers without ink on Debian-based Linux distros.",
-      "publishedAt": "2026-10-28T16:47:00.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17510602/ubuntu-core-desktop-firmware-hwe",
+      "summary": "Core Desktop could run apps that can’t run natively in a sandbox, while linux-firmware-hwe is proposed as a safeguard against newer firmware causing problems.",
+      "publishedAt": "2026-10-29T11:01:02.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -2597,7 +2597,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -2608,7 +2608,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -2790,7 +2790,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -2806,7 +2806,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -3136,10 +3136,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "A 'Balloon View' Of Victorian London",
-      "url": "https://londonist.com/london/history/a-balloon-view-of-victorian-london",
-      "summary": "19th century London from above.",
-      "publishedAt": "2026-10-29T08:00:03.000Z"
+      "title": "TfL Poppy Roundels: Here Are The Underground And Overground Stations Where You'll Find Them",
+      "url": "https://londonist.com/london/transport/poppy-roundels-which-tube-stations",
+      "summary": "London's trains and buses are 'wearing' poppies too.",
+      "publishedAt": "2026-10-29T12:00:00.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -3168,10 +3168,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "[$] LWN.net Weekly Edition for October 29, 2026",
-      "url": "https://lwn.net/Articles/1102136/",
-      "summary": "Inside this week's LWN.net Weekly Edition: Front : Python JIT; Kernel clean up; Rust panics; Future Rust features; Northstar browser; 7.4 merge window; Smaller kernel stacks. Briefs : KeePassXC 2.8.0…",
-      "publishedAt": "2026-10-29T00:19:08.000Z"
+      "title": "Security updates for Thursday",
+      "url": "https://lwn.net/Articles/1103666/",
+      "summary": "Security updates have been issued by AlmaLinux (cjose, emacs, expat, gcc-toolset-15-gcc, java-17-openjdk, java-25-openjdk, kernel, kernel-rt, libX11, libXi, libXrender, libXtst, mod_auth_openidc:2.3,…",
+      "publishedAt": "2026-10-29T13:18:42.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -3387,7 +3387,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3398,7 +3398,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3505,10 +3505,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://mossandfog.com/feed/",
     "latestArticle": {
-      "title": "Snow Peak Makes You Leave the Car",
-      "url": "https://mossandfog.com/snow-peak-campfield-long-beach-washington/",
-      "summary": "Snow Peak's first American campground keeps cars at the gate, puts Kengo Kuma's living boxes in the trees and saves its best room, a bathhouse facing the alders, for last. The post Snow Peak Makes Yo…",
-      "publishedAt": "2026-10-29T04:37:55.000Z"
+      "title": "The Scariest Halloween Costume of 2026 Is an AI Data Center",
+      "url": "https://mossandfog.com/ai-data-center-halloween-costume/",
+      "summary": "Cardboard, grey paint, two fans and a very large water bottle. How to build 2026's scariest costume, hum included. The post The Scariest Halloween Costume of 2026 Is an AI Data Center appeared first …",
+      "publishedAt": "2026-10-29T13:00:00.000Z"
     }
   },
   "https://moviemetropolis.net/": {
@@ -4140,7 +4140,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -4740,13 +4740,13 @@
   },
   "https://smarthomescene.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://smarthomescene.com/feed/",
     "latestArticle": {
-      "title": "HOROW X70: What a Smart Toilet Actually Does?",
-      "url": "https://smarthomescene.com/blog/horow-x70-what-a-smart-toilet-actually-does/",
-      "summary": "I researched where smart toilets stand in 2026. Here is what the popular HOROW X70 does, from pump flushing and bidet washing to self-cleaning. Source",
-      "publishedAt": "2026-10-22T07:06:13.000Z"
+      "title": "Ecowitt WH51 vs WH52 Soil Sensor Comparison",
+      "url": "https://smarthomescene.com/reviews/ecowitt-wh51-vs-wh52-soil-sensor-comparison/",
+      "summary": "The new Ecowitt WH52 measures soil temperature and electrical conductivity in addition to moisture. Here is how it compares to the WH51 in Home Assistant. Source",
+      "publishedAt": "2026-10-29T13:19:57.000Z"
     }
   },
   "https://smittenkitchen.com/": {
@@ -4786,7 +4786,7 @@
     "status": "unavailable"
   },
   "https://stamphacks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-26",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -4800,7 +4800,7 @@
     "status": "unavailable"
   },
   "https://stephenbodio.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -5550,7 +5550,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -5594,7 +5594,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -5858,7 +5858,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -6039,10 +6039,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO’s new Sanctum Sanctorum is a step back from 2018 in one big way",
-      "url": "https://www.brickfanatics.com/lego-sanctum-sanctorum-is-a-step-back-from-2018",
-      "summary": "Just look at the box art...",
-      "publishedAt": "2026-10-29T12:06:50.000Z"
+      "title": "LEGO Marvel’s first F.R.I.D.A.Y. minifigure comes at a strange time",
+      "url": "https://www.brickfanatics.com/lego-marvel-first-friday-minifigure-strange-time",
+      "summary": "Right character, odd timing",
+      "publishedAt": "2026-10-29T12:55:42.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6094,24 +6094,24 @@
   },
   "https://www.cakewrecks.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.cakewrecks.com/home?format=rss",
     "latestArticle": {
-      "title": "The 10 Stages Of Wrecky Trick-Or-Treating",
-      "url": "https://www.cakewrecks.com/home/the-10-stages-of-wrecky-trick-or-treating-2026",
-      "summary": "The 10 Stages Of Handing Out Candy To Trick-Or-Treaters As Illustrated With Halloween Cake Wrecks Stage 1: \"AWWWWW lookit the cute costumes on all the cute bebies! CANDY FOR EVERYONE.\" Stage 2: \"Wow …",
-      "publishedAt": "2026-10-28T13:00:00.000Z"
+      "title": "Back Off, Man. I'm A Baker.",
+      "url": "https://www.cakewrecks.com/home/back-off-man-im-a-baker-2026",
+      "summary": "Are you bothered by strange noises in the middle of the night? Plus rampant rodent droppings? Do you experience feelings of dread in your basement, attic, or bakery? \"You guys, I have a feeling there…",
+      "publishedAt": "2026-10-29T13:00:00.000Z"
     }
   },
   "https://www.cartoonbrew.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "‘Powerpuff Girls’ Reunion Postponed After Eric Bauza’s Death, Organizers Share Ways To Help His Family",
-      "url": "https://www.cartoonbrew.com/events/powerpuff-girls-reunion-postponed-eric-bauza-268588.html",
-      "summary": "Saturday Morning Cartoons United has postponed its 'Powerpuff Girls' reunion. Ticket purchases not refunded will go to Eric Bauza’s family.",
-      "publishedAt": "2026-10-28T19:33:59.000Z"
+      "title": "‘Living Large’ And ‘Dog Alone’ Take Top Honors At 2026 Emile Awards",
+      "url": "https://www.cartoonbrew.com/awards/emile-european-animation-awards-living-large-dog-alone-268597.html",
+      "summary": "‘Arco’ picked up two craft prizes at the Krakow-held awards, with ‘Little Amélie’ and ‘On Weary Wings Go By’ also among the winners.",
+      "publishedAt": "2026-10-29T13:10:57.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -6119,10 +6119,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "Resolving wing issues feels straightforward and a priority",
-      "url": "https://www.celticquicknews.co.uk/resolving-wing-issues-feels-straightforward-and-a-priority/",
-      "summary": "All the world’s problems are not solved on the same day, so let’s set aside the recurring concern that Dundee United and many others can cut Celtic open and create chances at will. At halftime last n…",
-      "publishedAt": "2026-10-29T12:01:05.000Z"
+      "title": "NICOLSON IN CHARGE",
+      "url": "https://www.celticquicknews.co.uk/nicolson-in-charge-2/",
+      "summary": "DUNCAN NICOLSON will be in charge of Celtic’s 1pm kick-off at Falkirk on Sunday. The referee will be assisted by Frank Connor and Daniel McFarlane on the touchlines while Daniel Graves is the fourth …",
+      "publishedAt": "2026-10-29T13:22:01.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6153,13 +6153,13 @@
   },
   "https://www.creepypasta.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.creepypasta.com/feed/",
     "latestArticle": {
-      "title": "The Woods Beyond Margaret Street",
-      "url": "https://www.creepypasta.com/the-woods-beyond-margaret-street/",
-      "summary": "By the time Thomas Grady turned sixty-eight, most people on Margaret Street had stopped taking him seriously. They were polite about it, of course. Small towns tend to be. Neighbors waved when they p…",
-      "publishedAt": "2026-10-28T13:30:00.000Z"
+      "title": "The Halloween Game",
+      "url": "https://www.creepypasta.com/the-halloween-game/",
+      "summary": "My name is Steven Kerns.Yes.That Steven Kerns.If you are reading this, it is probably because my lawyer released this document after something happened to me. I told him to put it somewhere people mi…",
+      "publishedAt": "2026-10-29T13:30:00.000Z"
     }
   },
   "https://www.dailycartoonist.com/": {
@@ -6335,13 +6335,13 @@
   },
   "https://www.fromthemurkydepths.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
-      "title": "Former Plumstead pub could become 17-person HMO",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/10/28/former-plumstead-pub-could-become-17-person-hmo/",
-      "summary": "Plans are in to increase the size of a HMO at a former pub building on Plumstead High Street. O’Dowds closed some years ago and currently has a HMO for 11 people which was approved retrospectively in…",
-      "publishedAt": "2026-10-28T21:22:52.000Z"
+      "title": "Thamesmead DLR plan: TfL award £42 million contract",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/10/29/thamesmead-dlr-plan-tfl-award-42-million-contract/",
+      "summary": "A £42 million contract has been awarded by TfL to Amey for an early scoping exercise covering the DLR extension to north Thamesmead. It will cover a review of the programme and any risks, early work …",
+      "publishedAt": "2026-10-29T13:29:10.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -6445,13 +6445,13 @@
   },
   "https://www.horrorsociety.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "Paolo Strippoli’s Singular Supernatural Thriller THE HOLY BOY Debuts Nov. 27th on Shudder",
-      "url": "https://www.horrorsociety.com/2026/10/28/paolo-strippolis-singular-supernatural-thriller-the-holy-boy-debuts-nov-27th-on-shudder/",
-      "summary": "Directed by Paolo Strippoli (A Classic Horror Story, the upcoming The Spiral) Starring Michele Riondino and Giulio Feltri Written by Paolo Strippoli, Jacopo Del Giudice, Milo Tissone Streaming on Shu…",
-      "publishedAt": "2026-10-28T16:37:14.000Z"
+      "title": "Echoes from the Void (Review)",
+      "url": "https://www.horrorsociety.com/2026/10/29/echoes-from-the-void-review/",
+      "summary": "Director – Robert W. Filion (Psychic Brats, Athena) Starring – Jaysen P. Buterin (The Devil’s Lettuce, Bombshell Bloodbath), Amie Henry (Dead Men and Devil’s, Coloring Girl), and John R. Sexton (Grav…",
+      "publishedAt": "2026-10-29T13:29:01.000Z"
     }
   },
   "https://www.ianbicking.org/": {
@@ -6477,7 +6477,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -6492,10 +6492,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Nico Raskin just looks like a player who wants to leave Rangers",
-      "url": "https://www.ibroxnoise.co.uk/2026/10/nico-raskin-rangers-form/",
-      "summary": "Rangers supporters have spent months defending Nicolas Raskin, treating the Belgian midfielder as an indispensable part of the Ibrox midfield. However, the evidence this season tells a very different…",
-      "publishedAt": "2026-10-29T12:10:07.000Z"
+      "title": "Olwethu Makhanya Rangers Criticism Damns His Team Mates",
+      "url": "https://www.ibroxnoise.co.uk/2026/10/olwethu-makhanya-rangers-criticism/",
+      "summary": "Olwethu Makhanya has delivered one of the most devastating assessments of Rangers this season following Wednesday’s 2–2 draw against Hearts. The South African defender rescued Derek McInnes’ side wit…",
+      "publishedAt": "2026-10-29T13:25:06.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6509,7 +6509,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6600,7 +6600,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -6666,13 +6666,13 @@
   },
   "https://www.maproomblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
-      "title": "Hegseth’s Minions Break Eisenhower’s Globe",
-      "url": "https://www.maproomblog.com/2026/10/hegseths-minions-break-eisenhowers-globe/",
-      "summary": "U.S. Defense Secretary Pete Hegseth wanted a 30-inch floor globe used by Dwight Eisenhower during World War II moved to his office. Rather than wait for specialist movers, his staffers tried to move …",
-      "publishedAt": "2026-10-23T12:36:03.000Z"
+      "title": "Night Maps",
+      "url": "https://www.maproomblog.com/2026/10/night-maps/",
+      "summary": "Night Maps is an exhibition “exploring the visual and intellectual history and the real-world consequences of mapping the night sky” at the Warburg Institute in London. Many of these objects are on p…",
+      "publishedAt": "2026-10-29T13:17:34.000Z"
     }
   },
   "https://www.math.columbia.edu/~woit/wordpress/": {
@@ -6698,7 +6698,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -6720,7 +6720,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-28",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -6768,7 +6768,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -7126,7 +7126,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -7366,7 +7366,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-10-19",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -7381,10 +7381,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Taito Milestones 5 Brings Together Space Invaders, Hat Trick Hero and More Arcade Hits on a Single Switch Cart",
-      "url": "https://www.timeextension.com/#article-208302",
-      "summary": "Marine Date & Extermination also making their Switch debut. It's that time again! Time for another Taito Milestones collection for Nintendo Switch. Announced earlier today, the newly unveiled Taito M…",
-      "publishedAt": "2026-10-29T11:30:00.000Z"
+      "title": "Humanbrew Is a New Discord Server Dedicated to Sharing and Championing Non-AI Homebrew Projects",
+      "url": "https://www.timeextension.com/#article-208315",
+      "summary": "(Cats are also allowed). Calling all fans of human endeavour: Veteran modder Elias Daler, renowned in the community for their PlayStation and Dreamcast projects, announced the opening of \" Humanbrew …",
+      "publishedAt": "2026-10-29T13:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -7456,7 +7456,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-03-31",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {

@@ -200,13 +200,13 @@
   },
   "https://adamj.eu/tech/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://adamj.eu/tech/atom.xml",
     "latestArticle": {
-      "title": "Django: check version support with norwegianblue",
-      "url": "https://adamj.eu/tech/2026/10/16/django-norwegianblue/",
-      "summary": "Django projects end up slotting into a bunch of software release cycles: Django itself, Python, database servers, cache servers, and more. It can be hard for us developers to keep track of all of the…",
-      "publishedAt": "2026-10-15T23:00:00.000Z"
+      "title": "Zsh: parse command-line options with zparseopts",
+      "url": "https://adamj.eu/tech/2026/10/28/zsh-zparseopts/",
+      "summary": "Sometimes you want your shell scripts to take options, like --verbose or --help , along with any positional arguments. Handling options is fiddly to do by hand, with the traditional portable approach…",
+      "publishedAt": "2026-10-28T00:00:00.000Z"
     }
   },
   "https://addenda.ghost.io/": {
@@ -220,7 +220,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -319,7 +319,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -361,7 +361,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-27",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -416,7 +416,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -558,13 +558,13 @@
   },
   "https://banbantonton.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://banbantonton.com/feed/",
     "latestArticle": {
-      "title": "John Beltran / Sunrise And The life We Live / Music For Dreams",
-      "url": "https://banbantonton.com/2026/10/28/john-beltran-sunrise-and-the-life-we-live-music-for-dreams/",
-      "summary": "John Beltran’s “Ten Days Of Blue” was released 30 years ago. Commissioned by Music For Dreams’ Kenneth Bager, “Sunrise And The life We Live” is its spiritual successor. During the 3 decades that have…",
-      "publishedAt": "2026-10-28T00:01:00.000Z"
+      "title": "Ava Rasti / No One Knows How Wild The Wind Blows / 130701",
+      "url": "https://banbantonton.com/2026/10/29/ava-rasti-no-one-knows-how-wild-the-wind-blows-130701/",
+      "summary": "Iranian musician Ava Rasti’s latest long-player for 130701 is concerned with the concept of “home”. Written following a trip to Tehran, to visit friends and family, and then a period, when due to war…",
+      "publishedAt": "2026-10-29T00:01:00.000Z"
     }
   },
   "https://bartwronski.com/": {
@@ -621,7 +621,7 @@
     "status": "unavailable"
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -679,7 +679,8 @@
     }
   },
   "https://bisha.neocities.org/blog": {
-    "status": "unavailable"
+    "status": "unknown",
+    "feedUrl": "https://bisha.neocities.org/feed.xml"
   },
   "https://bits.gobino.be/": {
     "status": "success",
@@ -750,7 +751,7 @@
     "status": "unavailable"
   },
   "https://blog.firestartoys.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -795,13 +796,13 @@
   },
   "https://blog.master.dev/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://blog.master.dev/feed/",
     "latestArticle": {
-      "title": "How I Used Claude Code to Speed Up My Shell Startup by 95%",
-      "url": "https://blog.master.dev/how-i-used-claude-code-to-speed-up-my-shell-startup-by-95/",
-      "summary": "I like the idea of \"Please suggest 10 improvements to my ~/.zshrc\" as a prompt (John Lindquist). Nick Taylor wrote up all the stuff it found for him and got nearly a second back for every fresh termi…",
-      "publishedAt": "2026-10-28T03:35:18.000Z"
+      "title": "Useful @custom-media Presets",
+      "url": "https://blog.master.dev/useful-custom-media-presets/",
+      "summary": "Custom media queries let you name and reuse media queries the way custom properties do for values. Here’s a set of drop-in @custom-media presets for input mechanisms, breakpoints, and true HDR, plus …",
+      "publishedAt": "2026-10-29T00:34:02.000Z"
     }
   },
   "https://blog.mollywhite.net/": {
@@ -911,7 +912,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-13",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1451,7 +1452,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -1485,13 +1486,13 @@
   },
   "https://danielbowen.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://danielbowen.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Exit here for Fed Square by Daniel Bowen",
-      "url": "https://danielbowen.com/2026/10/27/exit-here-for-fed-square/#comment-423015",
-      "summary": "Confirmed: Fed Square exit will open on Thursday at 4am, according to this Herald Sun report (paywall) and their video (looks like no paywall for this).",
-      "publishedAt": "2026-10-27T20:41:47.000Z"
+      "title": "Comment on Exit here for Fed Square by Heihachi_73",
+      "url": "https://danielbowen.com/2026/10/27/exit-here-for-fed-square/#comment-423089",
+      "summary": "Next train information visible from the street, how novel. *Glares at Parliament station's utterly useless rainbow boards, and the complete lack of any street-level next train signage at Jolimont, ne…",
+      "publishedAt": "2026-10-29T00:43:35.000Z"
     }
   },
   "https://danq.me/": {
@@ -1522,7 +1523,7 @@
     }
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1683,7 +1684,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1749,7 +1750,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -1804,13 +1805,13 @@
   },
   "https://econbrowser.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "The Taylor Rule and Today’s Dissents",
-      "url": "https://econbrowser.com/archives/2026/10/taylor-rule-and-dissents",
-      "summary": "Two voting members of the FOMC dissented in favor of raising rates. Some context for why that stance might make sense, from Jason Furman’s EconVitals Taylor rule utility. Source: EconVitals, accessed…",
-      "publishedAt": "2026-10-28T19:06:10.000Z"
+      "title": "Guest Contribution: “Europe, the US, and China: Comparing Geoeconomic Size”",
+      "url": "https://econbrowser.com/archives/2026/10/guest-contribution-europe-the-us-and-china-comparing-geoeconomic-size",
+      "summary": "Today, we present a guest post written by Jeffrey Frankel, Harpel Professor at Harvard’s Kennedy School of Government, and formerly a member of the White House Council of Economic Advisers. A shorter…",
+      "publishedAt": "2026-10-29T00:28:44.000Z"
     }
   },
   "https://eien-melody.net/ami/index.php": {
@@ -2197,13 +2198,13 @@
   },
   "https://grognardia.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://grognardia.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Post-Con Thoughts",
-      "url": "https://grognardia.blogspot.com/2026/10/post-con-thoughts.html",
-      "summary": "As I've said innumerable times on this blog over the years, I am not a regular attendee of gaming conventions and yet, over the last couple of weeks, I've attended not one but two of them, specifical…",
-      "publishedAt": "2026-10-27T20:50:51.313Z"
+      "title": "The Art of the Con",
+      "url": "https://grognardia.blogspot.com/2026/10/the-art-of-con.html",
+      "summary": "Though I attended two conventions recently, I only refereed events at one of them – CleriCon. At Gamehole Con, I was there solely as a participant, playing in several games run by others. Partly, I d…",
+      "publishedAt": "2026-10-29T00:17:06.774Z"
     }
   },
   "https://guitar-maker.blogspot.com/": {
@@ -2293,7 +2294,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -2304,7 +2305,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -2326,7 +2327,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -2388,13 +2389,13 @@
   },
   "https://humanizingthevacuum.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Notions of maturity: Zach Bryan and Imperial Teen",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/10/28/notions-of-maturity-zach-bryan-and-imperial-teen/",
-      "summary": "I don’t expect Zach Bryan to record music that is the equivalent of a sequined sash, but his latest EP suggests he realizes he was entering parched terrain. Whatever else, Imperial Teen aren’t parche…",
-      "publishedAt": "2026-10-28T15:54:47.000Z"
+      "title": "Ranking #39 singles, U.S. edition: 1984-1990",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/10/28/ranking-39-singles-u-s-edition-1984-1990/",
+      "summary": "Frustrated that his 1985 solo debut, despite the millions CBS spent in promotion, piddled out below the top ten, Mick Jagger understood he had a problem. No one under 80 thought him a credible sex sy…",
+      "publishedAt": "2026-10-29T00:01:39.000Z"
     }
   },
   "https://humbledollar.com/": {
@@ -2431,7 +2432,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -2596,7 +2597,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -2607,7 +2608,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -2789,7 +2790,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -2805,7 +2806,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -3164,13 +3165,13 @@
   },
   "https://lwn.net/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "A report from the LPC sched_ext microconference",
-      "url": "https://lwn.net/Articles/1103426/",
-      "summary": "The Linux Plumbers Conference blog has a report from the sched_ext microconference held in Prague. Three main topics dominated the discussions Priority inversion and how to handle it in sched_ext : l…",
-      "publishedAt": "2026-10-28T22:11:43.000Z"
+      "title": "[$] LWN.net Weekly Edition for October 29, 2026",
+      "url": "https://lwn.net/Articles/1102136/",
+      "summary": "Inside this week's LWN.net Weekly Edition: Front : Python JIT; Kernel clean up; Rust panics; Future Rust features; Northstar browser; 7.4 merge window; Smaller kernel stacks. Briefs : KeePassXC 2.8.0…",
+      "publishedAt": "2026-10-29T00:19:08.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -3277,7 +3278,7 @@
     }
   },
   "https://marginalrevolution.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
@@ -3386,7 +3387,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3397,7 +3398,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -4029,24 +4030,24 @@
   },
   "https://priorprobability.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "Adam Smith, Commissioner (Part 8)",
-      "url": "https://priorprobability.com/2026/10/28/adam-smith-commissioner-part-8/",
-      "summary": "Nota bene: For reference, here are the previous installments — parts 1, 2, 3, 4, 5, 6, and 7 — in my multi-part series on Adam Smith’s day-to-day duties as a commissioner of the Board of Customs of S…",
-      "publishedAt": "2026-10-28T00:28:00.000Z"
+      "title": "Adam Smith, Commissioner (Part 9)",
+      "url": "https://priorprobability.com/2026/10/29/adam-smith-commissioner-part-9/",
+      "summary": "Nota bene: Here are the previous installments — parts 1, 2, 3, 4, 5, 6, 7, and 8 — in my multi-part series on Adam Smith’s day-to-day duties as a commissioner of the Board of Customs of Scotland. The…",
+      "publishedAt": "2026-10-29T00:29:00.000Z"
     }
   },
   "https://projectswordtoys.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Philip's Finished Photos of 1/441 Scale Space Ark Diorama From the 1951 Movie WHEN WORLDS COLLIDE",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/philips-finished-photos-of-1441-scale.html",
-      "summary": "Below are photos of Pegasus Hobbies 1/441 scale Space Ark spaceship diorama from the 1951 movie WHEN WORLDS COLLIDE. The movie tells the story of a star on a collision course with Earth and the despe…",
-      "publishedAt": "2026-10-28T12:00:00.000Z"
+      "title": "Very Anderson",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/very-anderson.html",
+      "summary": "Sorting through some larger die-casts I have, I thought these would have sat really well in Gerry Anderson's TV shows. What do you think? This fab Corgi Angus even lights up and sounds it siren. The …",
+      "publishedAt": "2026-10-29T00:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -4139,7 +4140,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -4709,10 +4710,10 @@
     "lastPublished": "2026-10-28",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In Super Paper Mario, the hex code &ldquo;64&rdquo; in the level setup files corresponds to spawning a Mr. I&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831749276359180288",
-      "summary": "In Super Paper Mario, the hex code “64” in the level setup files corresponds to spawning a Mr. I enemy, which were introduced in Super Mario 64, where they famously had to be defeated by running arou…",
-      "publishedAt": "2026-10-28T20:05:22.000Z"
+      "title": "A 1992 issue of the official German Club Nintendo magazine claimed that Dinosaur Land from Super&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831760055155163136",
+      "summary": "A 1992 issue of the official German Club Nintendo magazine claimed that Dinosaur Land from Super Mario World is “a small archipelago in the Pacific Ocean” (highlighted in red), placing it in (an alte…",
+      "publishedAt": "2026-10-28T22:56:41.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -4785,7 +4786,7 @@
     "status": "unavailable"
   },
   "https://stamphacks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-26",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -4799,7 +4800,7 @@
     "status": "unavailable"
   },
   "https://stephenbodio.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -5549,7 +5550,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -5593,7 +5594,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-24",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -5703,13 +5704,13 @@
   },
   "https://vhistory.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://vhistory.wordpress.com/feed/",
     "latestArticle": {
-      "title": "What’s New Scooby-Doo? – 10 Oct 2010",
-      "url": "https://vhistory.wordpress.com/2026/10/28/whats-new-scooby-doo-10-oct-2010/",
-      "summary": "Today’s recording starts with the end of Dennis The Menace. There’s a trail for The Sarah Jane Adventures. Then it’s a repeat of What’s New Scooby-Doo? – Mummy Scares Best. Media Centre Description: …",
-      "publishedAt": "2026-10-28T00:00:00.000Z"
+      "title": "Déjà Vu – 13 Oct 2010",
+      "url": "https://vhistory.wordpress.com/2026/10/29/deja-vu-13-oct-2010/",
+      "summary": "Today’s recording starts with the end of Don’t Tell The Bride. There’s a trail for Lip Service. There’s 60 Seconds of news. The first of the trapped Chilean miners have been rescued. Plus a trail for…",
+      "publishedAt": "2026-10-29T00:00:00.000Z"
     }
   },
   "https://vivarism.net/": {
@@ -5745,13 +5746,13 @@
   },
   "https://waxy.org/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://waxy.org/feed/",
     "latestArticle": {
-      "title": "It’s A Wonderful Night of the Living Dead",
-      "url": "https://www.youtube.com/watch?v=AGsB9eJUrSc",
-      "summary": "remix geniuses Bell Brothers mashed up two of the most famous post-1930 public domain movies #",
-      "publishedAt": "2026-10-28T18:57:14.000Z"
+      "title": "Annie Rauwerda collects old newspaper headlines about people with the same names of future celebs",
+      "url": "https://bsky.app/profile/annierau.bsky.social/post/3myxq3umdvc2t",
+      "summary": "even more in the second thread , including gems like “Peter Thiel Ends Life With Acid” #",
+      "publishedAt": "2026-10-29T00:01:41.000Z"
     }
   },
   "https://weaintgotnohistory.sbnation.com/": {
@@ -5856,7 +5857,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -6081,13 +6082,13 @@
   },
   "https://www.buywithcontext.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://www.buywithcontext.com/feed/",
     "latestArticle": {
-      "title": "Black Friday Phone Upgrade: Is Samsung Certified Re-Newed Right for You?",
-      "url": "https://www.buywithcontext.com/samsung-certified-renewed-galaxy-s24-s25-ultra-amazon/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-certified-renewed-galaxy-s24-s25-ultra-amazon",
-      "summary": "For a Black Friday phone replacement, decide whether Samsung Certified Re-Newed solves a real current-phone problem before choosing S24, S25, or Ultra. The post Black Friday Phone Upgrade: Is Samsung…",
-      "publishedAt": "2026-10-28T06:58:45.000Z"
+      "title": "Personal Heater vs Whole-Room Heater: Which Cold Spot Are You Actually Trying to Fix?",
+      "url": "https://www.buywithcontext.com/personal-heater-vs-whole-room-heater-cold-spot/?utm_source=rss&utm_medium=rss&utm_campaign=personal-heater-vs-whole-room-heater-cold-spot",
+      "summary": "Choose a personal heater for one attended cold spot or a whole-room heater for an occupied room. Start with safe placement, not a larger appliance. The post Personal Heater vs Whole-Room Heater: Whic…",
+      "publishedAt": "2026-10-24T05:16:14.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
@@ -6113,7 +6114,7 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
@@ -6475,7 +6476,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -6507,7 +6508,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6598,7 +6599,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -6696,7 +6697,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -6709,7 +6710,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6718,7 +6719,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-28",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -6766,7 +6767,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -7125,7 +7126,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -7311,13 +7312,13 @@
   },
   "https://www.thenewestrant.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "These Two Upcoming Comics Have Covers That Caught My Eye",
-      "url": "https://www.thenewestrant.com/2026/10/these-two-upcoming-comics-have-covers.html",
-      "summary": "A comic book's cover can be a huge asset or a major hindrance. If you've got a dull one, that is a problem…but when you've got something that really pops for one reason or another? Yeah, that's helpf…",
-      "publishedAt": "2026-10-28T18:36:05.261Z"
+      "title": "Mike Wolfer is Crowdfunding His Latest, \"Widow,\" Comic!",
+      "url": "https://www.thenewestrant.com/2026/10/mike-wolfer-is-crowdfunding-his-latest.html",
+      "summary": "Friend of the blog, Mike Wolfer, has been making quality comics for decades. His classic, \"Widow,\" series has been going through the process of being remastered and tweaked as, \"Widow Unleashed.\" A n…",
+      "publishedAt": "2026-10-29T00:24:23.481Z"
     }
   },
   "https://www.thephoblographer.com/": {
@@ -7365,7 +7366,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-10-19",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -7455,7 +7456,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-03-31",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {
@@ -7494,7 +7495,7 @@
     "status": "unavailable"
   },
   "https://www.weirduniverse.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://www.weirduniverse.net/blog/rss_2.0/",
     "latestArticle": {

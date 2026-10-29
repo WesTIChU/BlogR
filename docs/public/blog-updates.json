@@ -200,13 +200,13 @@
   },
   "https://adamj.eu/tech/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://adamj.eu/tech/atom.xml",
     "latestArticle": {
-      "title": "Zsh: parse command-line options with zparseopts",
-      "url": "https://adamj.eu/tech/2026/10/28/zsh-zparseopts/",
-      "summary": "Sometimes you want your shell scripts to take options, like --verbose or --help , along with any positional arguments. Handling options is fiddly to do by hand, with the traditional portable approach…",
-      "publishedAt": "2026-10-28T00:00:00.000Z"
+      "title": "Zsh: uncover hidden files in globs with (D)",
+      "url": "https://adamj.eu/tech/2026/10/29/zsh-d-glob-qualifier/",
+      "summary": "By default, Zsh globs skip hidden files and directories, meaning those with names starting with a dot. For example, in a project directory, * misses all the configuration files and directories: $ ls …",
+      "publishedAt": "2026-10-29T00:00:00.000Z"
     }
   },
   "https://addenda.ghost.io/": {
@@ -687,10 +687,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 285/365 - Another great morning...",
-      "url": "https://bits.gobino.be/posts/2026-10-29-285365-another-great",
-      "summary": "📷 285/365 - Another great morning. The sun was shining, a bit of fog.",
-      "publishedAt": "2026-10-29T14:40:52.000Z"
+      "title": "😤 Just when you think you found a...",
+      "url": "https://bits.gobino.be/posts/2026-10-29-just-when-you",
+      "summary": "😤 Just when you think you found a trustworthy provider, something like this drops. Why does good tech becomes so hard to find? https://www.404media.co/manifestos-fear-and-loser-thinking-inside-proton…",
+      "publishedAt": "2026-10-29T20:42:15.000Z"
     }
   },
   "https://bitterandblue.sbnation.com/": {
@@ -935,13 +935,13 @@
   },
   "https://bricknerd.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://bricknerd.com/home?format=rss",
     "latestArticle": {
-      "title": "Empire Brick Con: Through the Looking-Glass… Museum",
-      "url": "https://bricknerd.com/home/empire-brick-con-2026-through-the-looking-glass-museum-10-28-26",
-      "summary": "Did you know there is a LEGO convention held inside a world-renowned glass museum? Let’s step through the looking-glass together and learn what BrickNerd contributors Ted Andes and Daniel Zimmerman f…",
-      "publishedAt": "2026-10-28T22:20:00.000Z"
+      "title": "Instructions to Build a Witch and a Grave for Halloween",
+      "url": "https://bricknerd.com/home/quick-builds-4-halloween-edition-witch-and-grave-10-28-22",
+      "summary": "Welcome back to some spooky BrickNerd Quick Builds! We have two treats for you today. The theme for our LEGO instructions is Halloween with witches, spiders, crows and a grave!",
+      "publishedAt": "2026-10-29T13:00:00.000Z"
     }
   },
   "https://brisray.com/web/indiedirs.htm": {
@@ -1130,12 +1130,12 @@
   },
   "https://charlesharri.es/": {
     "status": "success",
-    "lastPublished": "2026-10-15",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://charlesharri.es/feed.xml",
     "latestArticle": {
-      "url": "https://charlesharri.es/stream/daniel-kitson-gala-durham",
-      "summary": "I’d forgotten we were even going to this until the day before (and then forgot again, at one point, on the day of). Sam booked this on the strength of a recommendation from Vito from Northern Ireland…",
-      "publishedAt": "2026-10-15T21:00:00.000Z"
+      "url": "https://charlesharri.es/books/the-life-and-opinions-of-tristram-shandy-gentlemen",
+      "summary": "Gosh, what do I say about The Life and Opinions of Tristram Shandy ? A book that people have been reading for two hundred and fifty years. I picked this up on the force of a placement on some Top XXX…",
+      "publishedAt": "2026-10-29T21:12:00.000Z"
     }
   },
   "https://cheltenham-od.uk/": {
@@ -1209,9 +1209,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/we-were-all-aware-of-it---former-man-united-star-ander-herrera-calls-for-substantial-manchester-city-punishment",
-      "summary": "Former Manchester United midfielder Ander Herrera has insisted everyone in football ’was aware’ of alleged financial offences at Manchester City in a call for substantial punishment to his ex-club's …",
-      "publishedAt": "2026-10-29T18:30:33.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/liverpool-make-crucial-alexis-mac-allister-future-decision-following-manchester-city-interest",
+      "summary": "Liverpool are preparing to offer Alexis Mac Allister a contract extension amid transfer interest from Manchester City, as per a recent report.",
+      "publishedAt": "2026-10-29T20:30:28.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -2536,9 +2536,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "500 Greatest Albums of the 2000's # 17 Arctic Monkeys - Whatever People Say I Am That's What I'm Not",
-      "summary": "'It's been a long time since...'. Our Space . Twenty years to be precise. There are people who went to school with the Arctic Monkeys who are grandparents now. This was in conversation with The Smiwi…",
-      "publishedAt": "2026-10-29T20:42:43.000Z"
+      "title": "200 Albums for 2026 It Starts With a Birthstone # 59 Shredded Sun",
+      "summary": "Shredded Sun come motoring out of Chicago, Illinois with waterpistols blazing on latest album Never Odd Or Even. They trip through the tulips, unpack their hamper of Indie tricks and picnic in a fiel…",
+      "publishedAt": "2026-10-29T21:00:56.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -2861,12 +2861,12 @@
   },
   "https://kevinspencer.org/posts/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://kevinspencer.org/posts/feed/",
     "latestArticle": {
-      "url": "https://kevinspencer.org/posts/2026/10/8109/",
-      "summary": "If you're like me and a bit partial to The Smiths (and dear reader you *should* be like me), this is a bloody great piece on Johnny Marr. Marr is now on the opposite side of the culture war from Morr…",
-      "publishedAt": "2026-10-22T23:31:42.000Z"
+      "url": "https://kevinspencer.org/posts/2026/10/8114/",
+      "summary": "Damn. Patrick Stewart 😢",
+      "publishedAt": "2026-10-29T21:14:52.000Z"
     }
   },
   "https://kevquirk.com/": {
@@ -2896,9 +2896,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://kimberlyhirsh.com/feed.xml",
     "latestArticle": {
-      "url": "https://kimberlyhirsh.com/2026/10/29/humans-ubiquitously-suck-i-know.html",
-      "summary": "📚🗨️ “Humans ubiquitously suck. I know I was one at some point, but I like to think I’ve grown since then.” Taylor Grothe, Lethal Kiss",
-      "publishedAt": "2026-10-29T20:08:34.000Z"
+      "url": "https://kimberlyhirsh.com/2026/10/29/o-captain-my-captain.html",
+      "summary": "O captain my captain",
+      "publishedAt": "2026-10-29T21:23:25.000Z"
     }
   },
   "https://knifesteelnerds.com/": {
@@ -3717,9 +3717,9 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://nuchronic.uk/feed.xml",
     "latestArticle": {
-      "url": "https://nuchronic.uk/item/mea-research-ldn-did-not-improve-post-covid-me-cfs-in-canadian-clinical-trial-a161ad7206/",
-      "summary": "Title: MEA Research: LDN did not improve post-Covid ME/CFS in Canadian clinical trial Author: Kelly Reid Link: https://meassociation.org.uk/2026/10/mea-research-ldn-did-not-improve-post-covid-me-cfs-…",
-      "publishedAt": "2026-10-29T14:21:16.000Z"
+      "url": "https://nuchronic.uk/item/weaknotes-2026-10-29-0eb6b2d9e6/",
+      "summary": "Title: WeakNotes 2026-10-29 Author: thechelsuk Link: https://thechels.uk/weaknotes-2026-10-29 Published: 2026-10-29 *** // Published 2026-10-29 on nuchronic.uk - The webring for the chronically ill T…",
+      "publishedAt": "2026-10-29T19:13:00.000Z"
     }
   },
   "https://nyanpasu64.gitlab.io/": {
@@ -4043,10 +4043,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Groovy Ghouls and Krazy Kreeps",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/groovy-ghouls-and-krazy-kreeps.html",
-      "summary": "These bagged knockoff figures appeared on auction this Autumn. All very rough and highly collectable. You'll see Mego and similar parts and clothing chucked in there. A true mash-up of mad rip offs. …",
-      "publishedAt": "2026-10-29T16:53:49.565Z"
+      "title": "SIR PATRICK STEWART R.I.P.",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/patrick-stewart-rip.html",
+      "summary": "Sad to read that Star Trek: The Next Generation and X-Men actor, Sir Patrick Stewart has passed away. Our sincere condolances to his family and friends.",
+      "publishedAt": "2026-10-29T20:50:54.724Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -4709,10 +4709,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Unused animation found in the files of Paper Mario: Sticker Star, depicting a shopkeeper Toad&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831820827057078272",
-      "summary": "Unused animation found in the files of Paper Mario: Sticker Star, depicting a shopkeeper Toad showing off five different types of stickers. Note the early Hammer and Jump sticker designs different fr…",
-      "publishedAt": "2026-10-29T15:02:38.000Z"
+      "title": "Unused low-quality tree found in the files of Mario Kart 8. This tree appears to be an edit of the&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831839863529734144",
+      "summary": "Unused low-quality tree found in the files of Mario Kart 8. This tree appears to be an edit of the N64 Mario Raceway trees used in Mario Kart Wii and was likely meant to be used on the Royal Raceway …",
+      "publishedAt": "2026-10-29T20:05:13.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -5076,12 +5076,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36279/sesko-out-until-january",
-      "summary": "Manchester United anticipate Benjamin Sesko will be out until at least January as he strives to recover fully from his shin injury. The club’s medical team have been investigating the best course of …",
-      "publishedAt": "2026-10-28T20:08:25.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36284/the-ineos-groups-naivety-and-arrogance-has-been-staggering",
+      "summary": "Most observers were sympathetic to the job the INEOS Group faced when they first entered the building. Years of mismanagement meant there wouldn’t be a quick fix, and most fans accepted that. In thei…",
+      "publishedAt": "2026-10-29T14:55:08.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -6247,10 +6247,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Disney World’s Free Airport Luggage Transfer Onsite Perk Adds Three New Resorts in 5,500 Room Expansion",
-      "url": "https://www.disneytouristblog.com/disney-worlds-free-airport-luggage-transfer-onsite-perk-adds-three-new-resorts-in-5500-room-expansion/",
-      "summary": "After adding its first Terminal C airline last month, Walt Disney World is adding 3 new hotels to its free Airport Luggage Transfer perk, with its biggest expansion since launch to cover the remainin…",
-      "publishedAt": "2026-10-29T20:25:43.000Z"
+      "title": "Full Menus for 2026 Mickey’s Very Merry Christmas Party at Magic Kingdom",
+      "url": "https://www.disneytouristblog.com/full-menus-for-2026-mickeys-very-merry-christmas-party-at-magic-kingdom/",
+      "summary": "Walt Disney World has released the full list of dishes and drinks for 2026 Mickey’s Very Merry Christmas Party, the hard ticket event during the holiday season at Magic Kingdom. This MVMCP food guide…",
+      "publishedAt": "2026-10-29T21:33:52.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -6337,10 +6337,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/comments/feed/",
     "latestArticle": {
-      "title": "Comment on No trains to call at City Thameslink station for eight months in 2027 by Roy",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/10/29/no-trains-to-call-at-city-thameslink-station-for-eight-months-in-2027/#comment-112512",
-      "summary": "Hi Regular yearly maintenance and staggered replacement over 10 escalators over 5 years would have been planned Maintenance .... Closing the station for several months is a bodge up by Management who…",
-      "publishedAt": "2026-10-29T17:59:30.000Z"
+      "title": "Comment on Plans dusted off for 258 homes at Huntsman site at Blackheath and Kidbrooke by a2c",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/10/29/plans-dusted-off-for-258-homes-at-huntsman-site-at-blackheath-and-kidbrooke/#comment-112514",
+      "summary": "In reply to Derek Small . Ere are, this is wot worries me n all on ere. There tryin to get rid of green space on council estates n all to build more ahrsin. Shockin but true n all.",
+      "publishedAt": "2026-10-29T21:40:24.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -7071,13 +7071,13 @@
   },
   "https://www.splitbrain.org/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-10-29",
     "feedUrl": "https://www.splitbrain.org/feed/blog",
     "latestArticle": {
-      "title": "MonsterID as Gravatar Fallback",
-      "url": "https://www.splitbrain.org/blog/2007-01/20_monsterid_as_gravatar_fallback",
-      "summary": "MonsterID as Gravatar Fallback Today I stumbled across a link at Simon Willison's blog : Visual Security: 9-block IP Identification Smart (and pretty) trick for showing a representation tied to a com…",
-      "publishedAt": "2026-10-14T08:28:57.000Z"
+      "title": "TIL: PHP IIS 8kb Request Limit?",
+      "url": "https://www.splitbrain.org/blog/2026-10/29-til_iis_php_8kb_request",
+      "summary": "TIL: PHP IIS 8kb Request Limit? Today, at $dayjob, I was called into a remote debugging session. For some reason the DokuWiki install at a customer failed to save long pages. Instead of saving, the e…",
+      "publishedAt": "2026-10-29T21:17:18.000Z"
     }
   },
   "https://www.spookylittlehalloween.com/blog": {
@@ -7200,7 +7200,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -7211,7 +7211,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -7325,10 +7325,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "At 18, He Was Already Building Surreal Worlds With a Camera",
-      "url": "https://www.thephoblographer.com/2026/10/29/giulio-musardo-surreal-photography-interview/",
-      "summary": "Some photographers spend years finding a visual identity. Italian photographer Giulio Musardo had one by 18 -- a surreal, self-portrait-heavy style built with little more than a plain wall and natura…",
-      "publishedAt": "2026-10-29T17:00:00.000Z"
+      "title": "Is the Fujifilm 23mm f1.4 a Good Lens in 2026?",
+      "url": "https://www.thephoblographer.com/2026/10/29/is-the-fujifilm-23mm-f1-4-a-good-lens-in-2026/",
+      "summary": "If you're looking for the Fujifilm 23mm f1.4 lens variant with more character, then you should consider the original lens. The newer lens doesn't have the same feeling and is meant more for faster au…",
+      "publishedAt": "2026-10-29T21:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -7508,10 +7508,10 @@
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Sir Patrick Stewart, 86, Has Died",
-      "url": "https://www.worldofreel.com/blog/2026/10/29/patrick-stewart-86-has-died",
-      "summary": "A real shocker. There are some people you think will live forever, and Sir Patrick Stewart was one of them. The legendary actor has passed away at the age of 86. We’ve lost one of the greats.",
-      "publishedAt": "2026-10-29T19:49:45.000Z"
+      "title": "Karyn Kusama to Direct ‘Mouthwashing’ Movie for Sony, ‘The Invitation’ Writers to Pen Script",
+      "url": "https://www.worldofreel.com/blog/2026/10/29/karyn-kusama-to-direct-mouthwashing-movie-for-sony-the-invitation-writers-to-pen-script",
+      "summary": "Sony has acquired the feature film rights to \"Mouthwashing,\" the acclaimed psychological horror game. The studio has hired Kusama to direct, and she will bring her most reliable writers, Matt Manfred…",
+      "publishedAt": "2026-10-29T21:29:57.000Z"
     }
   },
   "https://www.zachleat.com/": {

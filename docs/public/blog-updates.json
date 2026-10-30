@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1519,7 +1519,7 @@
   },
   "https://dansinker.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-12",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://dansinker.com/feed.xml"
   },
   "https://darekkay.com/": {
@@ -1832,7 +1832,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2426,13 +2426,13 @@
   },
   "https://humbledollar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "Why can’t Americans put more effort into understanding Social Security?",
-      "url": "https://humbledollar.com/forum/why-cant-americans-put-more-effort-into-understanding-social-security/",
-      "summary": "The lack of knowledge about one of our most important social programs is unfortunate because it minimizes the understanding of its value and distorts acceptance of necessary changes. Misinformation c…",
-      "publishedAt": "2026-10-29T11:43:02.000Z"
+      "title": "Executives have stopped talking about recession. They talk about affordability instead.",
+      "url": "https://humbledollar.com/forum/executives-have-stopped-talking-about-recession-they-talk-about-affordability-instead/",
+      "summary": "Every quarter, public companies hold earnings calls, where executives present results and take questions from analysts. Equibles counted two words across those calls for companies in the S&P 500, and…",
+      "publishedAt": "2026-10-30T21:12:10.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -5128,9 +5128,9 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36294/three-points-chelsea-vs-manchester-united",
-      "summary": "Three points of emphasis with a big three points on the line this Saturday for Manchester United. Bruno Fernandes The captain will most likely start the game after sitting out last week. He hasn’t st…",
-      "publishedAt": "2026-10-30T19:55:26.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36291/benjamin-sesko-represents-the-issues-of-the-ineos-era",
+      "summary": "Reports this week stated that Benjamin Sesko will be out at least until January with a shin injury. The Slovenian last got on the pitch in a 3-2 loss in mid-September against Brighton and Hove Albion…",
+      "publishedAt": "2026-10-30T15:00:00.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5561,7 +5561,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6572,7 +6572,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6739,7 +6739,7 @@
     }
   },
   "https://www.math.columbia.edu/~woit/wordpress/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.math.columbia.edu/~woit/wordpress/?feed=rss2",
     "latestArticle": {
@@ -6774,7 +6774,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6878,10 +6878,10 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "This app lets you manage Nothing & CMF earbuds on Linux",
-      "url": "https://www.omgubuntu.co.uk/2026/10/cmf-nothing-earbuds-linux-companion-app",
-      "summary": "Adjusting active noise cancellation (ANC) on Nothing or CMF earbuds means taking out your phone, opening the official mobile app and twiddling a setting there. EarA, a new open-source tool, aims to n…",
-      "publishedAt": "2026-10-30T03:15:04.000Z"
+      "title": "Ubuntu 27.04 ‘Tenacious T-Rex’ opens for development",
+      "url": "https://www.omgubuntu.co.uk/2026/10/ubuntu-2704-opens-for-development",
+      "summary": "Development on Ubuntu 27.04, codenamed ‘Tenacious T-Rex’, has officially begun. The tenacious archive is now open (30 October 2026), with auto-sync from Debian set to pull in a tranche of updated pac…",
+      "publishedAt": "2026-10-30T21:15:12.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -7244,7 +7244,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -7380,13 +7380,13 @@
   },
   "https://www.thenewestrant.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Patrick Stewart Has Died",
-      "url": "https://www.thenewestrant.com/2026/10/patrick-stewart-has-died.html",
-      "summary": "Patrick Stewart has died at 86 . According to his wife, Sunny Ozell, he had, \" ...a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia .\"His career spanned over six decades. H…",
-      "publishedAt": "2026-10-29T22:05:49.199Z"
+      "title": "Before Halloween, Let's Dispel Two Big Myths Relating to the Holiday",
+      "url": "https://www.thenewestrant.com/2026/10/before-halloween-lets-dispel-two-big.html",
+      "summary": "Every year I see two false things get repeated about Halloween. They are: 1. Check your candy for razors/drugs/something dangerous because people could do bad things to candy! 2. Black cats shouldn't…",
+      "publishedAt": "2026-10-30T21:42:56.540Z"
     }
   },
   "https://www.thephoblographer.com/": {
@@ -7502,9 +7502,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

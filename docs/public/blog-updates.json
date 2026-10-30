@@ -157,13 +157,13 @@
   },
   "https://9to5linux.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Tor Browser 16.0 Anonymous Browser Brings Native ARM Support on Linux",
-      "url": "https://9to5linux.com/tor-browser-16-0-anonymous-browser-brings-native-arm-support-on-linux",
-      "summary": "Tor Browser 16.0 is now available for download as a major update to this open-source anonymous web browser based on the Tor technologies and Firefox web browser with ARM support on Linux and more. Th…",
-      "publishedAt": "2026-10-29T18:12:59.000Z"
+      "title": "Shelly 3.1.10 Brings More Reliable AUR Builds and a New “Shell” Progress Bar",
+      "url": "https://9to5linux.com/shelly-3-1-10-brings-more-reliable-aur-builds-and-a-new-shell-progress-bar",
+      "summary": "Shelly 3.1.10graphical package manager for Arch Linux distributions is now available for download with a new “Shell” progress bar for the command-line interface, AUR build improvements, and more. The…",
+      "publishedAt": "2026-10-30T16:40:25.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -430,7 +430,7 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
@@ -1288,13 +1288,13 @@
   },
   "https://colly.com/journal": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://colly.com/journal/feed",
     "latestArticle": {
-      "title": "Autechre & Space Afrika",
-      "url": "https://colly.com/journal/autechre-space-afrika",
-      "summary": "Storm Boelo was hammering the Greenwich peninsula when I arrived. Inside, Autechre seemed to channel that violence into a dense electronic maelstrom with nowhere to shelter. I like to stay curious an…",
-      "publishedAt": "2026-10-26T13:00:00.000Z"
+      "title": "Gig at The Grove",
+      "url": "https://colly.com/journal/gig-at-the-grove",
+      "summary": "I’m playing at The Grove in Nottingham soon, supporting Foule , with Oiseaux also on the bill. It’s on Thursday 26th November. Tickets via Gigantic . It’ll be my first chance to air some new songs. I…",
+      "publishedAt": "2026-10-30T15:00:00.000Z"
     }
   },
   "https://comicss.art/": {
@@ -1710,13 +1710,13 @@
   },
   "https://discontinuednotes.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://discontinuednotes.com/feed/",
     "latestArticle": {
-      "title": "Past Jericho",
-      "url": "https://discontinuednotes.com/2026/10/29/past-jericho/",
-      "summary": "Yesterday I went to Bush Theatre to see the first night of The Bridge. This is performed by Alaa Shehada, who previously presented The Horse Of Jenin. As with the earlier play, it concerns life in th…",
-      "publishedAt": "2026-10-29T08:54:58.000Z"
+      "title": "The Birth Of The Idol",
+      "url": "https://discontinuednotes.com/2026/10/30/the-birth-of-the-idol/",
+      "summary": "I went to This Is Still Not A Pipe: The Afterlife Of Magritte at the Gagosian Gallery at Grosvenor Hill. The first “art book” I bought for myself was Magritte by Suzi Gablik, and it was a fine place …",
+      "publishedAt": "2026-10-30T16:39:43.000Z"
     }
   },
   "https://distantarcade.co.uk/": {
@@ -1977,12 +1977,13 @@
   },
   "https://flintlockandtomahawk.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://flintlockandtomahawk.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "White Plains 250th",
-      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/white-plains-250th.html",
-      "publishedAt": "2026-10-26T15:13:55.505Z"
+      "title": "Light Troops in the Seven Years War Irregular Warfare in Europe and North America, 1755-1763",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/light-troops-in-seven-years-war.html",
+      "summary": "Light Troops in the Seven Years War | From Reason to Revolution 1721-1815 | Helion & Company",
+      "publishedAt": "2026-10-30T16:36:18.991Z"
     }
   },
   "https://flixchatter.net/": {
@@ -2897,13 +2898,13 @@
   },
   "https://kevquirk.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://kevquirk.com/feed/",
     "latestArticle": {
-      "title": "2026-10-29 14:56: Been having some fun with my 404 page. I love discovering little Easter eggs like...",
-      "url": "https://kevquirk.com/2026-10-29-1456",
-      "summary": "Been having some fun with my 404 page. I love discovering little Easter eggs like this on other people's sites. Just visit a random page, like https://kevquirk.com/mjkk Thanks for reading this post v…",
-      "publishedAt": "2026-10-29T14:56:00.000Z"
+      "title": "SocialSpec Seems...Pointless",
+      "url": "https://kevquirk.com/socialspec-seems-pointless",
+      "summary": "I've seen a few people talking about SocialSpec which claims that \"the future of social media is websites\" . Something I strongly agree with. However, I don't see the point of this fledgling spec on …",
+      "publishedAt": "2026-10-30T16:36:00.000Z"
     }
   },
   "https://kidsbricks.wordpress.com/": {
@@ -3318,10 +3319,10 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Better Incentives, More Kidneys, More Lives",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/better-incentives-more-kidneys-more-lives.html?utm_source=rss&utm_medium=rss&utm_campaign=better-incentives-more-kidneys-more-lives",
-      "summary": "The organ procurement system has long been a miasma of inefficient monopoly providers. In 2024 I quoted some shocking facts from a great Statecraft interview with Jennifer Erickson and Greg Segal: “O…",
-      "publishedAt": "2026-10-30T11:18:21.000Z"
+      "title": "Friday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/friday-assorted-links-597.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-597",
+      "summary": "1. Dwarkesh interviews Robert Caro (!). 2. New and pretty brutal results on CTE and football. 3. Interview with Dan Wang. 4. Updated version of the Saez-Zucman audit. Contestable and speculative assu…",
+      "publishedAt": "2026-10-30T16:16:29.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -4156,13 +4157,13 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-07-16",
-    "feedUrl": "https://rachelsvintageretro.co.uk/comments/feed/",
+    "lastPublished": "2026-10-30",
+    "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
     "latestArticle": {
-      "title": "Comment on Collecting Ridgway Homemaker by Rachel Toy",
-      "url": "https://rachelsvintageretro.co.uk/collecting-ridgway-homemaker/#comment-9907",
-      "summary": "In reply to Ewan Lamont . Thanks for your comments Ewan. Thats an interesting perspective!",
-      "publishedAt": "2026-07-16T08:22:40.000Z"
+      "title": "Autumn Sale: Reduced Prices on Christmas Gifts and Homewares",
+      "url": "https://rachelsvintageretro.co.uk/autumn-sale-reduced-prices-on-christmas-gifts-and-homewares/",
+      "summary": "Rachel’s Vintage & Retro Autumn Sale is now on! Shop all Sale here: https://rachelsvintageretro.co.uk/product-category/sale/ I’ve been having a rummage through my stock lately, it is time to move on …",
+      "publishedAt": "2026-10-30T11:45:09.000Z"
     }
   },
   "https://raindancevideoai.com/": {
@@ -4757,10 +4758,10 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed Bowser flag and Mario flag versions of Goal Pole-themed ballpoint pens, from&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/831858643375980544",
-      "summary": "Officially licensed Bowser flag and Mario flag versions of Goal Pole-themed ballpoint pens, from Japan. Main Blog | Patreon | Twitter | Bluesky | Small Findings | Source: 1 , 2",
-      "publishedAt": "2026-10-30T01:03:43.000Z"
+      "title": "In Super Mario Odyssey, by positioning a Ty-foo enemy above a vine growing spot, then capturing it&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/831911388870000640",
+      "summary": "In Super Mario Odyssey, by positioning a Ty-foo enemy above a vine growing spot, then capturing it immediately after throwing in the seed, it is possible for the Ty-foo to ride the vine all the way u…",
+      "publishedAt": "2026-10-30T15:02:05.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -5753,12 +5754,12 @@
   },
   "https://vhbelvadi.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://vhbelvadi.com/rss",
     "latestArticle": {
-      "url": "https://vhbelvadi.com/overlooked-pages",
-      "summary": "The IndieWeb Carnival topic this month ‘ pages ’ is fascinating. Unfortunately for me, nearly everything I wanted to say, others have said better: Steve wrote about infiniteness and free-form writing…",
-      "publishedAt": "2026-10-23T12:51:00.000Z"
+      "url": "https://vhbelvadi.com/jean-luc-picard",
+      "summary": "It feels like cherry-picking to single out Patrick Stewart’s role as Picard when remembering the actor, who died yesterday , because he played so many roles so brilliantly, both on stage and screen. …",
+      "publishedAt": "2026-10-30T09:14:00.000Z"
     }
   },
   "https://vhistory.wordpress.com/": {
@@ -6021,7 +6022,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6170,10 +6171,10 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "2027 Oscars Short Film Contenders: ‘Sulaimani’ Director Vinnie Ann Bose",
-      "url": "https://www.cartoonbrew.com/awards/sulaimani-director-vinnie-ann-bose-268745.html",
-      "summary": "Two women from Kerala revisit memories of home over a meal in Paris, in a short blending stop-motion food with hand-painted recollections of the past.",
-      "publishedAt": "2026-10-30T15:35:08.000Z"
+      "title": "‘Coyote Vs. Acme’ Launches Oscar Race; Halloween Horrors; Remembering Patrick Stewart",
+      "url": "https://www.cartoonbrew.com/newsletter/coyote-vs-acme-launches-oscar-race-halloween-horrors-remembering-patrick-stewart-268751.html",
+      "summary": "This week, Coyote vs. Acme cleared another unlikely hurdle when the Academy granted it approval to compete for the animated feature Oscar. Ketchup Entertainment is preparing a campaign for the … Cont…",
+      "publishedAt": "2026-10-30T16:16:59.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -6382,12 +6383,12 @@
   },
   "https://www.freecodecamp.org/news/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/ai-search-visibility/",
-      "summary": "Searched worked in a familiar way for decades: you'd type in your query, get back a list of pages, and choose one to click on. Behind the scenes, Google would find the pages it thought you might want,",
-      "publishedAt": "2026-10-29T21:53:51.000Z"
+      "url": "https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/",
+      "summary": "Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It checks whet",
+      "publishedAt": "2026-10-30T13:57:52.000Z"
     }
   },
   "https://www.fromjason.xyz/": {
@@ -6584,12 +6585,12 @@
   "https://www.itsdougholland.com/": {
     "status": "success",
     "lastPublished": "2026-10-30",
-    "feedUrl": "https://www.itsdougholland.com/comments/feed/",
+    "feedUrl": "https://www.itsdougholland.com/feed/",
     "latestArticle": {
-      "title": "Comment on Man on Wire, and a few other films by Doug Holland",
-      "url": "https://www.itsdougholland.com/man-on-wire-and-a-few-other-films/#comment-17359",
-      "summary": "In reply to Claude Reigns . There's a lot of hate for Fincher out there, but I'm not a Fincherhater. Saw and liked Alien 3, Fight Club, The Game, Panic Room, and The Social Network. Intentionally ski…",
-      "publishedAt": "2026-10-30T13:20:26.000Z"
+      "title": "Links & news: 10/29/2026",
+      "url": "https://www.itsdougholland.com/links-news-10-29-2026/",
+      "summary": "#639 — Oct. 29, 2026 Today’s theme song: Also Sprach Zarathustra, by Richard Strauss & Deodato These spiders sleep like humans. But do they dream? “I was a little too young to get involved and go to …",
+      "publishedAt": "2026-10-30T01:54:27.000Z"
     }
   },
   "https://www.jamesreeves.co/notebook/": {
@@ -6728,13 +6729,13 @@
   },
   "https://www.maproomblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
-      "title": "Night Maps",
-      "url": "https://www.maproomblog.com/2026/10/night-maps/",
-      "summary": "Night Maps is an exhibition “exploring the visual and intellectual history and the real-world consequences of mapping the night sky” at the Warburg Institute in London. Many of these objects are on p…",
-      "publishedAt": "2026-10-29T13:17:34.000Z"
+      "title": "Review: Mapping the Mountains",
+      "url": "https://www.maproomblog.com/2026/10/review-mapping-the-mountains/",
+      "summary": "I spent my youth and twenties hiking the Canadian Rockies as much as I could, always with topo maps in hand. So a book like Mapping the Mountains by Andrew Davies (Uitgeverij Moving Mountains, 2026) …",
+      "publishedAt": "2026-10-30T16:34:27.000Z"
     }
   },
   "https://www.math.columbia.edu/~woit/wordpress/": {
@@ -6773,7 +6774,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7150,13 +7151,13 @@
   },
   "https://www.spookylittlehalloween.com/blog": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.spookylittlehalloween.com/blog?format=rss",
     "latestArticle": {
-      "title": "The Best of Spooky Little Halloween | Halloween 2026",
-      "url": "https://www.spookylittlehalloween.com/blog/best-of-spooky-little-halloween-2026",
-      "summary": "Halloween 2026 is almost in the books. Here’s a look at the five most-read posts of the season, plus five personal favorites, including a new series, a love letter to October, and the post I wrote be…",
-      "publishedAt": "2026-10-28T11:00:49.000Z"
+      "title": "Happy Halloween! Here Are 31 Ways to Celebrate",
+      "url": "https://www.spookylittlehalloween.com/blog/31-ways-to-celebrate-halloween",
+      "summary": "Looking for a few simple ways to celebrate Halloween? Here's my list of 31 ideas (one for every day in October) so you can have a spooky little Halloween!",
+      "publishedAt": "2026-10-30T10:00:00.000Z"
     }
   },
   "https://www.stuckinabook.com/": {
@@ -7368,13 +7369,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-08-30",
+    "lastPublished": "2026-10-28",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
-      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
-      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
-      "publishedAt": "2026-08-30T19:13:00.000Z"
+      "title": "Street Fighter Movie Cast Reportedly Signed for Three-Film Trilogy",
+      "url": "https://www.themovieblog.com/2026/10/street-fighter-movie-cast-reportedly-signed-for-three-film-trilogy/",
+      "summary": "New reports indicate the cast of the 2026 Street Fighter movie signed contracts for three films, pointing toward a potential trilogy for the franchise. The post Street Fighter Movie Cast Reportedly S…",
+      "publishedAt": "2026-10-28T13:00:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7412,13 +7413,13 @@
   },
   "https://www.thewaywardhome.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.thewaywardhome.com/feed/",
     "latestArticle": {
-      "title": "I’ve Been Single for 10 Years Because I Want to Live on a Sailboat. Here’s Why Dating as a Sailor Is So Hard.",
-      "url": "https://www.thewaywardhome.com/ive-been-single-for-10-years-because-i-want-to-live-on-a-sailboat-heres-why-dating-as-a-sailor-is-so-hard/",
-      "summary": "A Swedish sailor on why dating gets complicated when your dream life involves a sailboat. The post I’ve Been Single for 10 Years Because I Want to Live on a Sailboat. Here’s Why Dating as a Sailor Is…",
-      "publishedAt": "2026-10-29T20:23:52.000Z"
+      "title": "Overnight Parking Is Disappearing. Here Are the States, Cities and Store Lots Closing the Door, and Where a Van Can Still Sleep.",
+      "url": "https://www.thewaywardhome.com/overnight-parking-bans-by-state/",
+      "summary": "Overnight parking is closing in three places at once: state rest-area rules, city two-hour limits, and store lots overruled by ordinances. The post Overnight Parking Is Disappearing. Here Are the Sta…",
+      "publishedAt": "2026-10-30T16:23:39.000Z"
     }
   },
   "https://www.thisishorror.co.uk/": {
@@ -7576,10 +7577,10 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Martin Scorsese Says Sony Hack Killed His ‘Cleopatra' With Angelina Jolie, Leonardo DiCaprio and Daniel Day-Lewis: “I’m So Mad About It”",
-      "url": "https://www.worldofreel.com/blog/2026/10/30/martin-scorsese-says-sony-hack-killed-his-cleopatra-with-angelina-jolie-leonardo-dicaprio-and-daniel-day-lewis-im-so-mad-about-it",
-      "summary": "In a new interview, Martin Scorsese casually revealed that he came very close to directing a \"Cleopatra\" epic with Angelina Jolie in the title role. And what killed it? North Korea.",
-      "publishedAt": "2026-10-30T15:50:57.000Z"
+      "title": "Amanda Seyfried Joins Brady Corbet's ‘The Origin of the World'",
+      "url": "https://www.worldofreel.com/blog/2026/10/30/amanda-seyfried-joins-brady-corbets-the-origin-of-the-world",
+      "summary": "Seyfried just came off “The Testament of Ann Lee,” which, Corbet’s partner, Mona Fastvold directed and co-wrote with him. Corbet also served as second unit director on that film.",
+      "publishedAt": "2026-10-30T16:15:05.000Z"
     }
   },
   "https://www.zachleat.com/": {

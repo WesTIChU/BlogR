@@ -942,5 +942,77 @@
     "addedAt": "2026-10-28T00:00:00.000Z",
     "clicks": 1,
     "webringId": "br-1397416a83f63b3e679305fb10e085ab"
+  },
+  {
+    "id": "shout-my-post",
+    "name": "Shout My Post",
+    "url": "https://shoutmypost.com/",
+    "description": "An independent directory of websites, apps and open-source projects, with categorized listings, collections, short descriptions and a submission process reviewed before publication.",
+    "category": "Web Directories",
+    "subcategory": "Independent Directories",
+    "addedDate": "2026-10-30",
+    "addedAt": "2026-10-30T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-c0928b5d5773948b313aed003fc31084"
+  },
+  {
+    "id": "webdir-si",
+    "name": "WebDir.SI",
+    "url": "https://webdir.si/",
+    "description": "An independent directory of useful websites and online tools, with hand-reviewed listings, 97 categories, source-linked descriptions, scores and the Ask SI search assistant.",
+    "category": "Web Directories",
+    "subcategory": "Independent Directories",
+    "addedDate": "2026-10-30",
+    "addedAt": "2026-10-30T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-55e3110ee445a6b90d08adcc2dfe05db"
+  },
+  {
+    "id": "chrislt",
+    "name": "ChrisLT",
+    "url": "https://chrislt.nz/",
+    "description": "Chris Lovie-Tyler’s personal homepage for his active blog, art and collage work, creative process, faith, links and occasional personal updates.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "addedDate": "2026-10-30",
+    "addedAt": "2026-10-30T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-9e3a5c32b3872ce9097ca203b5f24b63"
+  },
+  {
+    "id": "raindance-ai-video-generator",
+    "name": "Raindance AI Video Generator",
+    "url": "https://raindancevideoai.com/",
+    "description": "A photo-to-video tool that creates a 15-second silent 4:3 MP4 from two permitted adult photos. It offers a free watermarked still preview; video generation requires sign-in and paid credits.",
+    "category": "Independent Tools",
+    "subcategory": "Creative Tools",
+    "addedDate": "2026-10-30",
+    "addedAt": "2026-10-30T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-aa9a74bfda3addd97b68ca74f4770cc4"
+  },
+  {
+    "id": "puzzico",
+    "name": "Puzzico",
+    "url": "https://puzzico.com/",
+    "description": "An independent five-letter word game with one shared daily puzzle and an unlimited mode, each played in six guesses, plus a solver, word lists, guides and statistics.",
+    "category": "Independent Tools",
+    "subcategory": "Useful Tools",
+    "addedDate": "2026-10-30",
+    "addedAt": "2026-10-30T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-4d40aad98057749472c21080028b7cff"
+  },
+  {
+    "id": "dave-the-diver-wiki",
+    "name": "Dave the Diver Wiki",
+    "url": "https://davethediver.net/",
+    "description": "An unofficial fan-created Dave the Diver reference with information on fish, recipes, missions and items, alongside guides, collection pages and planning tools.",
+    "category": "Fansites",
+    "subcategory": "Gaming Fansites",
+    "addedDate": "2026-10-30",
+    "addedAt": "2026-10-30T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-22e4c380fbfaa523a43d260ac139475b"
   }
 ]

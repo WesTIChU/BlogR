@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -839,7 +839,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -1222,13 +1222,13 @@
   },
   "https://clothesinbooks.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://clothesinbooks.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Land of Green Ginger by Winifred Holtby",
-      "url": "https://clothesinbooks.blogspot.com/2026/10/land-of-green-ginger-by-winifred-holtby.html",
-      "summary": "Land of Green Ginger by Winifred Holtby published 1927 [ excerpt ] Lorna Lavine, turning to greet the little secretary of a Kingsport Nursing Home, saw instead a tall, magnificent young woman in a fl…",
-      "publishedAt": "2026-10-28T08:52:31.597Z"
+      "title": "Spies in Smart Dresses",
+      "url": "https://clothesinbooks.blogspot.com/2026/10/spies-in-smart-dresses.html",
+      "summary": "London Station by David McCloskey published 2026 I read a lot of spy thrillers, but don’t generally blog on them; there are a few Mick Herrons, and a few John le Carres, on the blog – but mostly I re…",
+      "publishedAt": "2026-10-30T09:23:55.028Z"
     }
   },
   "https://coastalwalker.co.uk/": {
@@ -1818,7 +1818,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2533,12 +2533,12 @@
   },
   "https://itstartswithabirthstone.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "200 Albums for 2026 It Starts With a Birthstone # 59 Shredded Sun",
-      "summary": "Shredded Sun come motoring out of Chicago, Illinois with waterpistols blazing on latest album Never Odd Or Even. They trip through the tulips, unpack their hamper of Indie tricks and picnic in a fiel…",
-      "publishedAt": "2026-10-29T21:00:56.000Z"
+      "title": "A Song(s) of the Day # 4,556 Spacemoth",
+      "summary": "When I was nineteen I went for six months to a hotel in Switzerland. It was pretty much the best six months of my life though I've had plenty and am anticipating plenty more. But this was a special t…",
+      "publishedAt": "2026-10-30T09:22:04.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -3037,13 +3037,13 @@
   },
   "https://liberalengland.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Two early screen  appearances by Patrick Stewart (1940-2026)",
-      "url": "https://liberalengland.blogspot.com/2026/10/two-early-screen-appearances-by-patrick.html",
-      "summary": "The actor Patrick Stewart died yesterday. This story from the Hollywood Reporter concentrates on his appearances in Star Trek and X-Men, while some of us will think first of his appearances in Smiley…",
-      "publishedAt": "2026-10-29T20:35:28.922Z"
+      "title": "Reform leader of Leicestershire County Council under pressure",
+      "url": "https://liberalengland.blogspot.com/2026/10/reform-leader-of-leicestershire-county.html",
+      "summary": "Discontent with the Reform UK leader of Leicestershire County Council, Dan Harrison, is growing within his own party, reports the Harborough Mail . Reform councillors met on Tuesday to discuss the co…",
+      "publishedAt": "2026-10-30T09:34:06.548Z"
     }
   },
   "https://librearts.org/": {
@@ -3133,13 +3133,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "A Treat For The Little Grey Cells: Agatha Christie Exhibition Opens At The British Library",
-      "url": "https://londonist.com/london/things-to-do/agatha-christie-british-library-exhibition-review-tickets",
-      "summary": "Board the Orient Express to explore Christie's legacy.",
-      "publishedAt": "2026-10-29T16:36:44.000Z"
+      "title": "Catherine Eddowes: New Pub Named After Ripper Murder Victim",
+      "url": "https://londonist.com/london/pubs/catherine-eddowes-pub",
+      "summary": "A sign that focus is shifting.",
+      "publishedAt": "2026-10-30T09:44:14.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -3768,13 +3768,13 @@
   },
   "https://oilpressure.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://oilpressure.com/feed/",
     "latestArticle": {
-      "title": "2027 IndyCar Schedule: Barcelona – Part Two",
-      "url": "https://oilpressure.com/2026/10/28/2027-indycar-schedule-barcelona-part-two/",
-      "summary": "This past Monday, I went through the 2027 schedule race-by-race and gave you my thoughts – for whatever that’s worth. While some labeled it as a lazy-man’s schedule, I think IndyCar did an OK job – i…",
-      "publishedAt": "2026-10-28T09:04:27.000Z"
+      "title": "2027 IndyCar Schedule: Nashville – Part Three",
+      "url": "https://oilpressure.com/2026/10/30/2027-indycar-schedule-nashville-part-three/",
+      "summary": "When the 2027 IndyCar schedule was released last Friday, there was one major change. For 2026, the weekend slot around mid-July was occupied by the race at Nashville Superspeedway. For 2027, that slo…",
+      "publishedAt": "2026-10-30T09:04:49.000Z"
     }
   },
   "https://oldvcr.blogspot.com/": {
@@ -4451,13 +4451,13 @@
   },
   "https://scholarlykitchen.sspnet.org/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://scholarlykitchen.sspnet.org/feed/",
     "latestArticle": {
-      "title": "Ask the SSP Advocacy Committee: What one change would you most like to see in terms of U.S. federal support for research following the midterms?",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/29/ask-the-ssp-advocacy-committee-what-one-change-would-you-most-like-to-see-in-terms-of-u-s-federal-support-for-research-following-the-midterms/",
-      "summary": "Today we hear from some of SSP's Advocacy Committee members about what changes they'd like to see to US federal support for research. The post Ask the SSP Advocacy Committee: What one change would yo…",
-      "publishedAt": "2026-10-29T09:30:12.000Z"
+      "title": "Guest Post — Freed from Thinking: Protecting Scholarly Publishing from the Slow Erosion of Human Judgment",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/30/guest-post-freed-from-thinking-protecting-scholarly-publishing-from-the-slow-erosion-of-human-judgment/",
+      "summary": "Today's guest blogger argues that if we want scholarly publishing to be worth anything in a generation, we must acknowledge the risks we run by relying on intelligent automation. The post Guest Post …",
+      "publishedAt": "2026-10-30T09:30:18.000Z"
     }
   },
   "https://scholars-stage.org/": {
@@ -4528,13 +4528,13 @@
   },
   "https://seths.blog/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://seths.blog/feed/",
     "latestArticle": {
-      "title": "Explaining funny",
-      "url": "https://seths.blog/2026/10/explaining-funny/",
-      "summary": "This is one of the most famous comedy bits of all time: But why is it funny? The disconnect between experiencing it and explaining it represents one of the challenges of teaching. It’s also at the he…",
-      "publishedAt": "2026-10-29T09:03:00.000Z"
+      "title": "Cooperation (the fall book list)",
+      "url": "https://seths.blog/2026/10/cooperation-the-fall-book-list/",
+      "summary": "Last week’s book list was a success, and I realized that it would work even better with others. Bookstores work precisely because they stack the books right next to each other. Even though each of th…",
+      "publishedAt": "2026-10-30T09:03:00.000Z"
     }
   },
   "https://shapeof.com/": {
@@ -4699,10 +4699,10 @@
     "lastPublished": "2026-10-30",
     "feedUrl": "https://sluggerotoole.com/feed/",
     "latestArticle": {
-      "title": "Diehards Under Pressure: The DUP and Education…",
-      "url": "https://sluggerotoole.com/2026/10/30/diehards-under-pressure-the-dup-and-education/",
-      "summary": "Helen Armstrong lives in the North West and is a psychotherapist, executive coach and trainer. Well, here I go again on the campaign path to help end our system of academic selection as the next roun…",
-      "publishedAt": "2026-10-30T07:00:26.000Z"
+      "title": "A choice, not a crisis: why Stormont still has no budget",
+      "url": "https://sluggerotoole.com/2026/10/30/no-collapse-to-blame-this-time-stormont-budget/",
+      "summary": "Seven months into the year, Stormont still has no budget, and this time there is no collapse to blame. Ministers are sitting and a £1.5bn offer is on the table, but the Finance Minister has made more…",
+      "publishedAt": "2026-10-30T09:25:27.000Z"
     }
   },
   "https://smallmariofindings.tumblr.com/": {
@@ -5011,13 +5011,13 @@
   },
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/feed/",
+    "lastPublished": "2026-10-13",
+    "feedUrl": "https://theautisticadvocate.com/comments/feed/",
     "latestArticle": {
-      "title": "A Personal Announcement",
-      "url": "https://theautisticadvocate.com/a-personal-announcement/",
-      "summary": "Kieran explains his recent diagnosis of prostate cancer. The post A Personal Announcement appeared first on The Autistic Advocate .",
-      "publishedAt": "2026-09-15T10:11:17.000Z"
+      "title": "Comment on A Personal Announcement by A rookie",
+      "url": "https://theautisticadvocate.com/a-personal-announcement/#comment-21209",
+      "summary": "Hi Kieran, in the few short weeks I have known I am autistic (at the ripe old age of 44) I have been devouring your work - books, journal articles, podcast interviews, blog posts… Your depth of explo…",
+      "publishedAt": "2026-10-13T10:57:46.000Z"
     }
   },
   "https://thebeautylookbook.com/": {
@@ -5328,7 +5328,7 @@
   },
   "https://theprivacydad.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://theprivacydad.com/feed/",
     "latestArticle": {
       "title": "Why Is It So Difficult To Build an Alternative Operating System for a Smartphone?",
@@ -5513,7 +5513,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6036,13 +6036,13 @@
   },
   "https://www.brickfanatics.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "There’s double trouble for the latest LEGO Ideas 10K submissions",
-      "url": "https://www.brickfanatics.com/there-is-double-trouble-for-the-latest-lego-ideas-10k-submissions",
-      "summary": "Couple of cops",
-      "publishedAt": "2026-10-29T18:50:07.000Z"
+      "title": "As more retiring LEGO sets sell out, what will actually be left for Black Friday?",
+      "url": "https://www.brickfanatics.com/retiring-lego-sets-sell-out-whats-left-for-black-friday",
+      "summary": "The Botanical Garden is among the latest casualties",
+      "publishedAt": "2026-10-30T09:27:54.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6116,17 +6116,17 @@
   },
   "https://www.celticquicknews.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "NICOLSON IN CHARGE",
-      "url": "https://www.celticquicknews.co.uk/nicolson-in-charge-2/",
-      "summary": "DUNCAN NICOLSON will be in charge of Celtic’s 1pm kick-off at Falkirk on Sunday. The referee will be assisted by Frank Connor and Daniel McFarlane on the touchlines while Daniel Graves is the fourth …",
-      "publishedAt": "2026-10-29T13:22:01.000Z"
+      "title": "‘EXCESSIVE,’ CELTIC HIT BACK AT CUP BAN RULING",
+      "url": "https://www.celticquicknews.co.uk/excessive-celtic-hit-back-at-cup-ban-ruling/",
+      "summary": "CELTIC have hit back at “excessive and disproportionate punishment” from the SFA following the chaotic scenes in the aftermath of their Scottish Cup penalty-kick triumph at Ibrox in March. The trophy…",
+      "publishedAt": "2026-10-30T09:07:25.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://www.cleverhiker.com/feed/",
     "latestArticle": {
@@ -7177,7 +7177,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2021-12-01",
     "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
     "latestArticle": {
@@ -7324,13 +7324,13 @@
   },
   "https://www.thephoblographer.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "Is the Fujifilm 23mm f1.4 a Good Lens in 2026?",
-      "url": "https://www.thephoblographer.com/2026/10/29/is-the-fujifilm-23mm-f1-4-a-good-lens-in-2026/",
-      "summary": "If you're looking for the Fujifilm 23mm f1.4 lens variant with more character, then you should consider the original lens. The newer lens doesn't have the same feeling and is meant more for faster au…",
-      "publishedAt": "2026-10-29T21:00:00.000Z"
+      "title": "The Sigma 35mm f1.4 Is 13 Years Old. Is It Still Worth Your Time in 2026?",
+      "url": "https://www.thephoblographer.com/2026/10/30/the-sigma-35mm-f1-4-is-13-years-old-is-it-still-worth-your-time-in-2026/",
+      "summary": "One of Sigma's first lenses of their Global Vision program was the 35mm f1.4; and it's still considered to be a favorite of the staff here. The contrasty look it gave was truly something special. Sig…",
+      "publishedAt": "2026-10-30T09:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -7435,9 +7435,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

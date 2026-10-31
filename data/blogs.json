@@ -1346,7 +1346,7 @@
   {
     "name": "Grognardia",
     "url": "https://grognardia.blogspot.com/",
-    "description": "Essays about tabletop role-playing games, gaming history and the culture and traditions of the RPG hobby.",
+    "description": "A long-running tabletop roleplaying blog exploring classic Dungeons & Dragons, RPG history, campaign experiences and the literature that inspired early roleplaying games.",
     "category": "arts-and-entertainment",
     "subcategory": "Gaming",
     "topics": [],
@@ -1355,7 +1355,7 @@
     "noLongerUpdated": false,
     "addedDate": "2026-06-05",
     "addedAt": "2026-06-05T04:05:01.000Z",
-    "country": null,
+    "country": "CA",
     "clicks": 12,
     "webringId": "br-536b5822c204496330535b967271be41"
   },
@@ -5369,9 +5369,9 @@
     "webringId": "br-0c1509223b909df67d880f0d8d5642fb"
   },
   {
-    "name": "web-goddess",
+    "name": "Web Goddess",
     "url": "https://www.web-goddess.org/",
-    "description": "Kris's long-running personal blog about technology, books, films, crafts, cycling, travel, and everyday life in Sydney.",
+    "description": "A long-running personal blog by Kris Howard about technology, books, films, crafts, cycling, travel and everyday life in Sydney.",
     "category": "personal-writing",
     "subcategory": "Personal Blogs & Everyday Life",
     "topics": [],
@@ -11493,5 +11493,53 @@
     "country": "IN",
     "clicks": 0,
     "webringId": "br-7bc623bcb18849414005104e2a6a2893"
+  },
+  {
+    "name": "Jeff Milner",
+    "url": "https://jeffmilner.com/",
+    "description": "A personal blog featuring travel diaries, photography, entertainment, internet curiosities and reflections on everyday life.",
+    "category": "personal-writing",
+    "subcategory": "Personal Blogs & Everyday Life",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-31",
+    "addedAt": "2026-10-31T00:00:00.000Z",
+    "country": "CA",
+    "clicks": 0,
+    "webringId": "br-202ed58d0573c7cca501ab47a79a2696"
+  },
+  {
+    "name": "Andre Lackmann",
+    "url": "https://andre.lackmann.net/posts/",
+    "description": "A personal technology and creative-project blog covering LEGO builds, retro gaming, 3D printing, home automation, programming and other hands-on projects.",
+    "category": "technology",
+    "subcategory": "3D Printing",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-31",
+    "addedAt": "2026-10-31T00:00:00.000Z",
+    "country": "AU",
+    "clicks": 0,
+    "webringId": "br-9bcd5cd66651120d10dfd7cc1f7435c9"
+  },
+  {
+    "name": "Musical Theatre Review",
+    "url": "https://musicaltheatrereview.com/",
+    "description": "An independent musical theatre publication featuring reviews, interviews, news and coverage of productions in London's West End, regional theatres and international venues.",
+    "category": "arts-and-entertainment",
+    "subcategory": "Film, TV & Theatre",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-10-31",
+    "addedAt": "2026-10-31T00:00:00.000Z",
+    "country": "GB",
+    "clicks": 0,
+    "webringId": "br-0ebd37d158f28751566b7d4ece099fc4"
   }
 ]

@@ -4720,6 +4720,17 @@
   "https://skaterfish.net/": {
     "status": "unavailable"
   },
+  "https://skilletglow.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-30",
+    "feedUrl": "https://skilletglow.com/feed/",
+    "latestArticle": {
+      "title": "Hearty Lentil Soup (One-Pot Vegetable Dinner)",
+      "url": "https://skilletglow.com/hearty-lentil-soup-one-pot-vegetable-dinner/",
+      "summary": "This hearty lentil soup is a satisfying one-pot meal made with brown lentils, vegetables, tomatoes, and a bright squeeze of lemon. The lentils simmer until tender but intact, while cumin and smoked p…",
+      "publishedAt": "2026-10-30T23:14:13.000Z"
+    }
+  },
   "https://skyhold.org/adhd/": {
     "status": "unavailable",
     "lastPublished": "2013-05-09",

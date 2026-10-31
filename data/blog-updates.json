@@ -8649,5 +8649,17 @@
     "lastChecked": "2026-10-30T10:44:30.679Z",
     "status": "unavailable",
     "feedUrl": null
+  },
+  "https://skilletglow.com/": {
+    "lastPublished": "2026-10-30",
+    "lastChecked": "2026-10-31T05:00:49.441Z",
+    "status": "success",
+    "feedUrl": "https://skilletglow.com/feed/",
+    "latestArticle": {
+      "title": "Hearty Lentil Soup (One-Pot Vegetable Dinner)",
+      "url": "https://skilletglow.com/hearty-lentil-soup-one-pot-vegetable-dinner/",
+      "summary": "This hearty lentil soup is a satisfying one-pot meal made with brown lentils, vegetables, tomatoes, and a bright squeeze of lemon. The lentils simmer until tender but intact, while cumin and smoked p…",
+      "publishedAt": "2026-10-30T23:14:13.000Z"
+    }
   }
 }

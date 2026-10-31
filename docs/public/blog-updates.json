@@ -850,7 +850,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -1935,7 +1935,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -1987,7 +1987,7 @@
     }
   },
   "https://flamedfury.com/posts/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://flamedfury.com/feeds/posts/atom.xml"
   },
@@ -2048,13 +2048,13 @@
   },
   "https://francescrossley.com/posts/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://francescrossley.com/feed/",
     "latestArticle": {
-      "title": "Links: Fun projects, joy, hope, community, and more",
-      "url": "https://francescrossley.com/links-fun-projects-joy-hope-community-and-more/",
-      "summary": "Thank you to the internet for yet again being full of weird and wonderful stuff",
-      "publishedAt": "2026-10-29T18:00:00.000Z"
+      "title": "October 2026 monthlog",
+      "url": "https://francescrossley.com/october-2026-monthlog/",
+      "summary": "October in several bullet points",
+      "publishedAt": "2026-10-31T18:00:00.000Z"
     }
   },
   "https://frankforce.com/": {
@@ -2084,10 +2084,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
-      "title": "Comment on [October 31, 1971]  A Black Arrow (November 1971 Analog) by 89 Chemistry",
-      "url": "https://galacticjourney.org/october-31-1971-a-black-arrow-november-1971-analog/#comment-278615",
-      "summary": "Gotta ask what makes you believe \"The Gored Ox\" was the final Campbell editorial. My guess is that he had enough in the can to fill out the rest of Volume LXXXVIII -- i.e., through the February 1972 …",
-      "publishedAt": "2026-10-31T16:49:01.000Z"
+      "title": "Comment on [October 31, 1971]  A Black Arrow (November 1971 Analog) by DemetriosX",
+      "url": "https://galacticjourney.org/october-31-1971-a-black-arrow-november-1971-analog/#comment-278619",
+      "summary": "If there's a positive note in how bad the last couple of issues have been, it's that it looks like they're clearing out the backlog of stories bought by Campbell. If so, the new editor will be able t…",
+      "publishedAt": "2026-10-31T18:27:24.000Z"
     }
   },
   "https://gallistead.com/": {
@@ -2131,7 +2131,7 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://glasgowgallivanter.com/feed/",
     "latestArticle": {
-      "title": "John’s epic French cycle: part 3",
+      "title": "John’s epic French cycle: part 3",
       "url": "https://glasgowgallivanter.com/2026/10/26/cycling-france-3/",
       "summary": "Week 3: from Vallon Pont d'Arc to Nice.",
       "publishedAt": "2026-10-26T10:30:00.000Z"
@@ -2142,10 +2142,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "THE SIMON GARTH ZOMBIE: HALLOWEENISH COVERS",
-      "url": "https://glitternight.com/2026/10/31/the-simon-garth-zombie-halloweenish-covers/",
-      "summary": "Halloween is here! I’ll have one final 2026 Halloween post later today, but here’s a look at the Halloweenish Covers for Marvel’s Simon Garth Zombie in their 1970s series Tales of the Zombie. TALES O…",
-      "publishedAt": "2026-10-31T00:03:00.000Z"
+      "title": "HAPPY HALLOWEEN 2026: THE AUTOPSY OF JANE DOE (2016)",
+      "url": "https://glitternight.com/2026/10/31/happy-halloween-2026-the-autopsy-of-jane-doe-2016/",
+      "summary": "HAPPY HALLOWEEN, ONE AND ALL! Here is my final seasonal post for this year’s festivities. THE AUTOPSY OF JANE DOE (2016) – This horror film was the 1st English-language movie directed by André Øvreda…",
+      "publishedAt": "2026-10-31T18:25:20.000Z"
     }
   },
   "https://glyphsift.com/": {
@@ -2190,10 +2190,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Dr. Robert Malone | mRNA Research Interview",
-      "url": "https://greatawakeningreport.com/dr-robert-malone-mrna-research-interview/",
-      "summary": "This Dr. Robert Malone interview is a sit down conversation rather than a film, and its value lies in exactly that. The biochemist describes his early laboratory work on the delivery of messenger RNA…",
-      "publishedAt": "2026-10-31T15:40:00.000Z"
+      "title": "Malone on Natural Immunity | Interview Clip",
+      "url": "https://greatawakeningreport.com/dr-robert-malone-natural-immunity-clip/",
+      "summary": "This is a short clip lifted from a longer conversation, not a documentary, and it addresses one question only. In it, Robert Malone natural immunity arguments are set against the public messaging of …",
+      "publishedAt": "2026-10-31T18:05:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -3376,10 +3376,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Saturday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/saturday-assorted-links-584.html?utm_source=rss&utm_medium=rss&utm_campaign=saturday-assorted-links-584",
-      "summary": "1. Organizing Intelligence. 2. World Bank African urbanization report. Building out African cities in a decent way could end up being the task of our coming era. 3. Summary of The Commanding Heights.…",
-      "publishedAt": "2026-10-31T16:16:45.000Z"
+      "title": "William Nordhaus, RIP",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/william-nordhaus-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=william-nordhaus-rip",
+      "summary": "Here is notice from Yale, he was one of the true greats. For the pointer I thank several MR readers. The post William Nordhaus, RIP appeared first on Marginal REVOLUTION .",
+      "publishedAt": "2026-10-31T18:33:58.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -3442,13 +3442,13 @@
   },
   "https://mccookerybook.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://mccookerybook.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Next Gig: Glasgow Old Hairdresser's",
-      "url": "https://mccookerybook.blogspot.com/2026/10/next-gig-glasgow-old-hairdressers.html",
-      "summary": "Only two weeks to go! What was punk really like in 1977? Not anything like the nostalgic memories would have you believe. This new set of songs tells it like it was, from the frontline. Glasgow Old H…",
-      "publishedAt": "2026-10-28T11:23:22.374Z"
+      "title": "Folkestone",
+      "url": "https://mccookerybook.blogspot.com/2026/10/folkestone.html",
+      "summary": "Yesterday I went to Folkestone with Joan to visit a lovely house on the seafront at Sandgate with panels of framed Delft tiles on the walls. It was very sociable and such a change from the rest of th…",
+      "publishedAt": "2026-10-31T17:56:58.717Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -4193,10 +4193,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Tony's Tipple of Terror 👹",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/tonys-tipple-of-terror.html",
-      "summary": "What will you be slurping this Halloween? Looking to get into the spirit of things, I discovered these beautifully labelled Halloween gems. The large colourful card advertising display immediately ca…",
-      "publishedAt": "2026-10-31T17:00:00.000Z"
+      "title": "A QUIET PINT OR TWO!",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/a-quiet-pint-or-two.html",
+      "summary": "I have little interest in Halloween, and always nip out to my local pub to avoid that awful American import, trick or treating . Thankfully the barstaff in my local feel the same!",
+      "publishedAt": "2026-10-31T18:22:49.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -5091,10 +5091,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://taoofmac.com/atom.xml",
     "latestArticle": {
-      "title": "Lenovo ThinkSmart View",
-      "url": "https://taoofmac.com/space/com/lenovo/thinksmart_view?utm_content=atom",
-      "summary": "The Lenovo ThinkSmart View CD-18781Y is an Android-based smart display originally sold for video conferencing. I repurposed two of them as desktop and music appliances in The Lenovo ThinkSmart View, …",
-      "publishedAt": "2026-10-31T11:30:00.000Z"
+      "title": "Notes for October 25-31",
+      "url": "https://taoofmac.com/space/notes/2026/10/31/1753?utm_content=atom",
+      "summary": "Have I ever mentioned how much I hate daylight savings and the utter stupidity of disrupting my (already poorly attuned) circadian rhythms for a completely arbitrary change that makes mornings only s…",
+      "publishedAt": "2026-10-31T17:53:00.000Z"
     }
   },
   "https://technovablogs.blogspot.com/?m=1": {
@@ -5267,9 +5267,9 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36303/chelsea-vs-manchester-united-live-stream-time-how-to-watch",
-      "summary": "Stamford Bridge is the venue for this weekend’s pulsating Premier League lunchtime kickoff, which pits under-performing Chelsea against crisis club Manchester United. Both Xabi Alonso and Michael Car…",
-      "publishedAt": "2026-10-31T03:30:00.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36313/chelsea-2-0-manchester-united-positive-start-wasted-by-martinez-defensive-stupidity",
+      "summary": "The chaos spiral continues at Manchester United as Michael Carrick’s side found a new way to let down the manager and fans. The Reds battled through a testy first half at Stamford Bridge in which the…",
+      "publishedAt": "2026-10-31T14:32:05.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5977,9 +5977,9 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173592/chelsea-fans-preferred-lineup-against-manchester-united-formation-change",
-      "summary": "So far this season, Chelsea have used a back-three setup almost exclusively, even at the cost of playing players out of position — or having them learn and transition to new roles, like in the case o…",
-      "publishedAt": "2026-10-31T07:22:44.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173617/charlton-athletic-wfc-vs-chelsea-fcw-womens-super-league-preview-team-news-how-to-watch",
+      "summary": "Just four days after facing AS Roma in Europe, Chelsea Women are back in the Women’s Super League for another London derby, this time away to newly-promoted Charlton Athletic. The Blues have reclaime…",
+      "publishedAt": "2026-10-31T15:55:11.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6179,7 +6179,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6335,7 +6335,7 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
@@ -6350,10 +6350,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "That Strange Noise When You Start Your Car Could Be Warning You About an Expensive Problem",
-      "url": "https://www.cleverdude.com/content/that-strange-noise-when-you-start-your-car-could-be-warning-you-about-an-expensive-problem/",
-      "summary": "Your car has a way of announcing trouble before the dashboard gets involved. A metallic grind, a rapid clicking sound, or a sudden squeal when you turn the key can signal anything from a tired batter…",
-      "publishedAt": "2026-10-31T16:58:12.000Z"
+      "title": "Your Smart TV May Be Collecting More Data Than You Realize — Check These Settings",
+      "url": "https://www.cleverdude.com/content/your-smart-tv-may-be-collecting-more-data-than-you-realize-check-these-settings/",
+      "summary": "Your television knows which streaming apps you open, but some smart TVs can also identify what you watch through a cable box, game console, or antenna. That favorite movie night can generate data for…",
+      "publishedAt": "2026-10-31T17:42:31.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6577,13 +6577,13 @@
   },
   "https://www.gentlemanstationer.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://www.gentlemanstationer.com/blog?format=rss",
     "latestArticle": {
-      "title": "Thursday Drops: More Planners Arrive! Midori Hibino, Gradation Day-Length, Kawecos and More!",
-      "url": "https://www.gentlemanstationer.com/blog/2026/10/29/thursday-drops-more-planners-arrive-midori-hibino-gradation-day-length-kawecos-and-more",
-      "summary": "Midori B6 Day-Length Gradation Planner, shown here next to the Pilot Custom 845 Urushi The second wave of 2027 planners arrived this week, with new releases from Midori in the B6 Gradation and Hibino…",
-      "publishedAt": "2026-10-29T22:27:05.000Z"
+      "title": "What's In My Pen Case? Checking in After Pen Show Season on My Favorite 2026 Finds!",
+      "url": "https://www.gentlemanstationer.com/blog/2026/10/10/whats-in-my-pen-case-checking-in-after-pen-show-season",
+      "summary": "From left: Opus 88 Koloro, seY Pen Tsugaru-Nuri Urushi, Bonecrusher7 Studios, Nagasawa Pilot Decimo Sengara Bay, Pilot Custom 845 Urushi in Prussian Blue. From left: Opus 88 Koloro, seY Pen Tsugaru-N…",
+      "publishedAt": "2026-10-31T17:55:19.000Z"
     }
   },
   "https://www.giventotri.com/": {
@@ -6740,7 +6740,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7241,10 +7241,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Your Parent Dies With an Unpaid Medical Bill — Can the Hospital Come After You?",
-      "url": "https://www.savingadvice.com/articles/2026/10/31/10763659_your-parent-dies-with-an-unpaid-medical-bill-can-the-hospital-come-after-you.html",
-      "summary": "Your parent passes away after a lengthy hospital stay, and weeks later, an unexpected bill arrives for $18,000. The hospital wants payment, but your parent’s...",
-      "publishedAt": "2026-10-31T17:39:51.000Z"
+      "title": "7 Health Changes After 60 That Are Worth Discussing With Your Doctor",
+      "url": "https://www.savingadvice.com/articles/2026/10/31/10763662_7-health-changes-after-60-that-are-worth-discussing-with-your-doctor.html",
+      "summary": "You turn 60, and suddenly, things that never bothered you before start becoming noticeable. Maybe you’re more tired than usual, your balance isn’t quite what...",
+      "publishedAt": "2026-10-31T18:28:06.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -7537,13 +7537,13 @@
   },
   "https://www.theminimalists.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://www.theminimalists.com/feed/",
     "latestArticle": {
-      "title": "Want the Wanting",
-      "url": "https://www.theminimalists.com/wanting/",
-      "summary": "By Joshua Fields Millburn I’ve spent countless days browsing showrooms, stores, and websites, daydreaming about things I desire: cars, clothes, cottages, commodities, careers. After numerous acquisit…",
-      "publishedAt": "2026-10-28T12:00:00.000Z"
+      "title": "Friday Afternoon Minimalist Zoom",
+      "url": "https://www.theminimalists.com/zoom/",
+      "summary": "By The Minimalists Have a Zoom call with Joshua, Ryan, and T.K. The post Friday Afternoon Minimalist Zoom appeared first on The Minimalists .",
+      "publishedAt": "2026-10-30T12:00:00.000Z"
     }
   },
   "https://www.themovieblog.com/": {
@@ -7628,10 +7628,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Feature: Before Metal Gear and Resident Evil, a Trio of Japanese Devs Blazed a Trail in Stealth and Survival Horror",
-      "url": "https://www.timeextension.com/#article-208313",
-      "summary": "\"Taito would give us money. But the games were never published\". Given that Halloween is upon us, now is the perfect time to examine Japan's first survival horror, and how it evolved from the first-e…",
-      "publishedAt": "2026-10-31T16:00:00.000Z"
+      "title": "Random: Did You Know About This Japan-Exclusive 'Casper' Game Featuring Music From A Castlevania Legend?",
+      "url": "https://www.timeextension.com/#article-208332",
+      "summary": "Spirited attempt? Or morbid mistake? We take a look! When Universal and Amblin's supernatural comedy Casper , based on the cartoon character Casper the Friendly Ghost , was released in cinemas in 199…",
+      "publishedAt": "2026-10-31T18:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

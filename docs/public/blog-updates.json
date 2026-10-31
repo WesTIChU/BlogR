@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1935,7 +1935,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -2113,7 +2113,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2705,7 +2705,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -3295,7 +3295,7 @@
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://makeupandbeautyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-01-19",
     "feedUrl": "https://makeupandbeautyblog.com/feed/",
     "latestArticle": {
@@ -4606,7 +4606,7 @@
     }
   },
   "https://scholarlykitchen.sspnet.org/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://scholarlykitchen.sspnet.org/feed/",
     "latestArticle": {
@@ -4717,13 +4717,13 @@
   },
   "https://shereadsnovels.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://shereadsnovels.com/feed/",
     "latestArticle": {
-      "title": "Elidor by Alan Garner",
-      "url": "https://shereadsnovels.com/2026/10/29/elidor-by-alan-garner/",
-      "summary": "I’ve been meaning to re-read this classic children’s fantasy novel for a long time and was motivated to move it further up the TBR pile after reading a wonderful review by Chris of Calmgrove Books ea…",
-      "publishedAt": "2026-10-29T09:10:41.000Z"
+      "title": "My Commonplace Book: October 2026",
+      "url": "https://shereadsnovels.com/2026/10/31/my-commonplace-book-october-2026/",
+      "summary": "A selection of quotes and pictures to represent October’s reading: commonplace book noun a book into which notable extracts from other works are copied for personal use. ~ Someone had said that if yo…",
+      "publishedAt": "2026-10-31T07:36:15.000Z"
     }
   },
   "https://shinynewbooks.co.uk/": {
@@ -5704,7 +5704,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5822,7 +5822,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5971,9 +5971,9 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173579/chelsea-vs-manchester-united-premier-league-preview-team-news-how-to-watch",
-      "summary": "It’s not been a good week for Xabi Alonso and Chelsea Football Club, but we have a good chance to make it a good weekend as a very much not good Manchester United roll into town for Saturday high noo…",
-      "publishedAt": "2026-10-31T06:07:43.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173592/chelsea-fans-preferred-lineup-against-manchester-united-formation-change",
+      "summary": "So far this season, Chelsea have used a back-three setup almost exclusively, even at the cost of playing players out of position — or having them learn and transition to new roles, like in the case o…",
+      "publishedAt": "2026-10-31T07:22:44.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6559,7 +6559,7 @@
     "feedUrl": "https://www.fromjason.xyz/feed/feed.xml"
   },
   "https://www.fromthemurkydepths.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
@@ -6873,7 +6873,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6936,7 +6936,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7174,7 +7174,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

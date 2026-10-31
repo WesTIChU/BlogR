@@ -17,10 +17,12 @@ jobs:
   process:
     if: >-
       github.event.label.name == 'approved' && github.event.issue.state ==
-      'open' && ((contains(github.event.issue.body, '### Blog name') &&
+      'open' && ( (contains(github.event.issue.body, '### Blog name') &&
       contains(github.event.issue.body, '### Blog URL') &&
       (contains(github.event.issue.body, '### Main category') ||
-      contains(github.event.issue.body, '### Category / Subcategory'))) ||
+      contains(github.event.issue.body, '### Category / Subcategory') ||
+      (contains(github.event.issue.body, '### Category') &&
+      contains(github.event.issue.body, '### Subcategory'))) ||
       (contains(github.event.issue.body, '### Community name') &&
       contains(github.event.issue.body, '### Website URL') &&
       contains(github.event.issue.body, '### Category') &&

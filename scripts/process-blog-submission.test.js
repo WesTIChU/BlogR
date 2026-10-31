@@ -1010,6 +1010,49 @@ test('approval workflow explicitly preserves Webring output during generation', 
   assert.match(workflow, /VITE_WEBRING_PUBLIC_ENABLED:\s*['"]true['"]?/)
 })
 
+test('approval workflow recognizes all public submission form formats', async () => {
+  const workflow = await readFile(
+    '.github/workflows/process-approved-blog-submission.yml',
+    'utf8'
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Blog name'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Blog URL'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Main category'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Category \/ Subcategory'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Subcategory'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Community name'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Community type'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Website name'\)/
+  )
+  assert.match(
+    workflow,
+    /contains\(github\.event\.issue\.body, '### Website URL'\)/
+  )
+})
+
 test('approval catalogue files include only the submission pages and its country page', () => {
   const files = catalogueFiles(taxonomy, {
     category: 'arts-and-entertainment',

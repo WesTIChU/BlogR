@@ -1162,13 +1162,13 @@
   },
   "https://chrislt.nz/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://chrislt.nz/feed/",
     "latestArticle": {
-      "title": "A collaboration with Bill Waters!",
-      "url": "https://chrislt.nz/collaboration-with-bill-waters/",
-      "summary": "Bill Waters is a poet who lives in Pennington, New Jersey, U.S.A. and writes Japanese-inspired micropoetry. I first interacted with Bill on his or my blog maybe eight or nine years ago, when I was fo…",
-      "publishedAt": "2026-10-28T06:14:17.000Z"
+      "title": "City on a hill",
+      "url": "https://chrislt.nz/city-on-a-hill/",
+      "summary": "Source",
+      "publishedAt": "2026-10-31T02:00:28.000Z"
     }
   },
   "https://christiano.dev/": {
@@ -1913,7 +1913,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -2256,13 +2256,13 @@
   },
   "https://hackaday.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "A 1982 Modem for $100",
-      "url": "https://hackaday.com/2026/10/30/a-1982-modem-for-100/",
-      "summary": "[Dave Farquhar] takes a walk down memory lane about the Commodore 1600 VICModem, perhaps the first phone modem to sell for less than $100. Commodore, of course, was famous for …read more",
-      "publishedAt": "2026-10-30T23:00:57.000Z"
+      "title": "VR Headset Ditches the Base Stations with DIY Tracking",
+      "url": "https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking/",
+      "summary": "Those in the virtual reality scene might be interested in [Prohurtz]’s add-on for the Bigscreen Beyond VR headset. BSB-SLAM adds SLAM (Simultaneous Localization and Mapping) tracking to the headset b…",
+      "publishedAt": "2026-10-31T02:00:41.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -5183,13 +5183,13 @@
   },
   "https://thedeathchamber.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://thedeathchamber.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Conjureth - The Parasitic Chambers [2023]",
-      "url": "https://thedeathchamber.blogspot.com/2026/10/conjureth-parasitic-chambers-2023.html",
-      "summary": "Artist: Conjureth Album: The Parasitic Chambers Year: 2023 Genre: Death Metal Web: https://youtu.be/hkoAuRCh9I0 / https://www.facebook.com/conjureth / TDC Link Country: United States Quality: 320 Kbp…",
-      "publishedAt": "2026-10-26T01:37:19.134Z"
+      "title": "Open The Coffin - Once Alive Always Dead [2026]",
+      "url": "https://thedeathchamber.blogspot.com/2026/10/open-coffin-once-alive-always-dead-2026.html",
+      "summary": "Artist: Open The Coffin Album: Once Alive Always Dead Year: 2026 Genre: Death Metal Web: https://youtu.be/mElJFzGRFZc / https://openthecoffin.bandcamp.com Country: Brazil Quality: 320 Kbps Tracklist:…",
+      "publishedAt": "2026-10-31T02:18:43.265Z"
     }
   },
   "https://thediaryofdad.com/": {
@@ -5540,13 +5540,13 @@
   },
   "https://thisisnthappiness.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "Dead at 86, Patrick Stewart",
-      "url": "https://thisisnthappiness.com/post/831846951124434944",
-      "summary": "Dead at 86, Patrick Stewart",
-      "publishedAt": "2026-10-29T21:57:52.000Z"
+      "title": "Head, Lindsay Merrill",
+      "url": "https://thisisnthappiness.com/post/831942469821300736",
+      "summary": "Head, Lindsay Merrill",
+      "publishedAt": "2026-10-30T23:16:06.000Z"
     }
   },
   "https://thoughtfullycatholic.wordpress.com/": {
@@ -6022,7 +6022,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6292,7 +6292,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -6572,7 +6572,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6774,7 +6774,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6998,7 +6998,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -7269,7 +7269,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -7280,7 +7280,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -7539,10 +7539,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "Overgrown",
-      "url": "https://www.web-goddess.org/archive/95638",
-      "summary": "I normally skim through the Boing Boing RSS feed pretty quickly, but I did a double-take when I recognised Charlie Gerard in the screenshot! They linked to a fun Chrome extension she built that fills…",
-      "publishedAt": "2026-10-31T00:27:10.000Z"
+      "title": "Threadloop",
+      "url": "https://www.web-goddess.org/archive/95640",
+      "summary": "Any sewists on Threadloop? It’s meant to be a “Ravelry for sewing,” of sorts. I set up a profile and added the shirt I finished yesterday. I’m impressed with the pattern database, which found nearly …",
+      "publishedAt": "2026-10-31T02:13:59.000Z"
     }
   },
   "https://www.web3isgoinggreat.com/": {

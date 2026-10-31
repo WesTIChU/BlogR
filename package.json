@@ -28,7 +28,7 @@
     "test:community-health": "node --test shared/community-health.test.js",
     "test:directory-search": "node --test docs/.vitepress/directory-search.test.js",
     "test:recently-added": "node --test shared/recently-added.test.js",
-    "test:seo": "node --test scripts/seo-regression.test.js",
+    "test:seo": "pnpm docs:build && node --test scripts/seo-regression.test.js",
     "test:submission-form": "node scripts/generate-submission-form.js --check"
   },
   "simple-git-hooks": {

@@ -72,6 +72,7 @@ const checkDuplicate = async () => {
   const requestId = ++duplicateRequest
   if (!value) {
     duplicateStatus.value = 'idle'
+    duplicateName.value = ''
     duplicateListingUrl.value = ''
     suggestedUrl.value = ''
     return
@@ -81,6 +82,9 @@ const checkDuplicate = async () => {
     normalized = normalizeBlogSubmissionUrl(value)
   } catch {
     duplicateStatus.value = 'invalid'
+    duplicateName.value = ''
+    duplicateListingUrl.value = ''
+    suggestedUrl.value = ''
     return
   }
   const canonical = `${form.value.type}:${comparableBlogUrl(normalized)}`
@@ -100,6 +104,8 @@ const checkDuplicate = async () => {
     const result = await response.json().catch(() => ({}))
     if (!response.ok && result.status !== 'article') throw new Error()
     if (requestId !== duplicateRequest) return
+    if (!['listed', 'pending', 'article', 'available'].includes(result.status))
+      throw new Error()
     duplicateStatus.value = result.status
     duplicateName.value = result.name ?? ''
     duplicateListingUrl.value = result.listingUrl ?? ''
@@ -130,6 +136,7 @@ const normalizeUrlField = () => {
 
 const scheduleDuplicateCheck = () => {
   if (duplicateTimer) clearTimeout(duplicateTimer)
+  duplicateRequest++
   duplicateStatus.value = 'idle'
   duplicateName.value = ''
   duplicateListingUrl.value = ''
@@ -141,6 +148,7 @@ watch(() => form.value.url, scheduleDuplicateCheck)
 watch(
   () => form.value.type,
   () => {
+    duplicateRequest++
     duplicateStatus.value = 'idle'
     duplicateName.value = ''
     duplicateListingUrl.value = ''
@@ -471,7 +479,7 @@ const countryChanged = () => {
           </button>
         </template>
         <template v-else-if="duplicateStatus === 'available'">
-          This {{ form.type }} isn't listed yet. You can continue!
+          No existing listing found. You can continue with your submission.
         </template>
         <template v-else-if="duplicateStatus === 'invalid'">
           Please enter a valid website address, such as https://example.com.

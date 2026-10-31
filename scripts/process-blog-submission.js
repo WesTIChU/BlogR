@@ -7,6 +7,7 @@ import { promisify } from 'node:util'
 import prettier from 'prettier'
 import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'json' }
 import independentWebTaxonomy from '../data/independent-web-taxonomy.json' with { type: 'json' }
+import { findListedBlog } from '../shared/blog-duplicate.js'
 import { countryPath, normalizeCountryCode } from '../shared/countries.js'
 import {
   comparableBlogUrl,
@@ -652,10 +653,7 @@ export function validateSubmission(submission, blogs, taxonomy) {
     }
   }
 
-  const normalizedUrl = comparableBlogUrl(url)
-  const duplicate = blogs.find(
-    (blog) => comparableBlogUrl(blog.url) === normalizedUrl
-  )
+  const duplicate = findListedBlog(blogs, url, { allowChildPaths: true })
   if (duplicate)
     throw new Error(`Duplicate blog URL already exists: ${duplicate.name}`)
 
@@ -702,10 +700,9 @@ export function validateCommunitySubmission(
   const section = sectionByTitle.get(submission.section)
   if (!section) throw new Error('Invalid community type')
 
-  const normalizedUrl = comparableBlogUrl(url)
-  const duplicate = communities.find(
-    (community) => comparableBlogUrl(community.url) === normalizedUrl
-  )
+  const duplicate = findListedBlog(communities, url, {
+    allowChildPaths: false
+  })
   if (duplicate) {
     throw new Error(`Duplicate community URL already exists: ${duplicate.name}`)
   }
@@ -739,9 +736,7 @@ export function validateIndependentWebsiteSubmission(
       classificationKey(title) === classificationKey(submission.category)
   )
   if (!category) throw new Error('Invalid independent website category')
-  const duplicate = websites.find(
-    (entry) => comparableBlogUrl(entry.url) === comparableBlogUrl(url)
-  )
+  const duplicate = findListedBlog(websites, url, { allowChildPaths: false })
   if (duplicate)
     throw new Error(`Duplicate website URL already exists: ${duplicate.name}`)
   const subcategory = normalizeSubmittedSubcategory(submission.subcategory)
@@ -876,12 +871,7 @@ export function getAdditionMetadata(now = new Date()) {
 }
 
 export function appendBlogEntry(entries, entry) {
-  const normalizedUrl = comparableBlogUrl(entry.url)
-  if (
-    entries.some(
-      (existing) => comparableBlogUrl(existing.url) === normalizedUrl
-    )
-  ) {
+  if (findListedBlog(entries, entry.url, { allowChildPaths: true })) {
     return entries
   }
   return [...entries, entry]

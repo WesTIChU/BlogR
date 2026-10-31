@@ -78,20 +78,6 @@ export async function onRequestGet({ request, env }) {
     return json({ error: 'Blog URL must be a valid HTTP(S) URL' }, 400)
   }
 
-  if (type === 'blog') {
-    const article = inspectArticleUrl(url)
-    if (article.isArticle) {
-      return json(
-        {
-          status: 'article',
-          error: articleSubmissionMessage(article.suggestedUrl),
-          suggestedUrl: article.suggestedUrl
-        },
-        422
-      )
-    }
-  }
-
   const canonical = `${type}:${canonicalBlogUrl(url)}`
   const cached = cache.get(canonical)
   if (cached && cached.expires > Date.now()) return json(cached.result)
@@ -122,7 +108,8 @@ export async function onRequestGet({ request, env }) {
   try {
     listed = findListedBlog(
       entriesForSubmissionType(type, { blogs, websites, communities }),
-      url
+      url,
+      { allowChildPaths: type === 'blog' }
     )
   } catch {
     return json(
@@ -134,6 +121,12 @@ export async function onRequestGet({ request, env }) {
     const result = {
       status: 'listed',
       name: listed.name,
+      directory:
+        type === 'website'
+          ? 'Independent Web'
+          : type === 'community'
+            ? 'Online Communities'
+            : 'Blogs',
       listingUrl:
         type === 'website'
           ? '/independent-web'
@@ -143,6 +136,20 @@ export async function onRequestGet({ request, env }) {
     }
     cache.set(canonical, { result, expires: Date.now() + CACHE_TTL })
     return json(result)
+  }
+
+  if (type === 'blog') {
+    const article = inspectArticleUrl(url)
+    if (article.isArticle) {
+      return json(
+        {
+          status: 'article',
+          error: articleSubmissionMessage(article.suggestedUrl),
+          suggestedUrl: article.suggestedUrl
+        },
+        422
+      )
+    }
   }
   const crossSection = crossSectionMatches(type, url, {
     blogs,
@@ -158,7 +165,9 @@ export async function onRequestGet({ request, env }) {
           ? 'community-submission'
           : 'blog-submission'
     const issues = await getOpenSubmissionIssues(env, label)
-    const result = hasPendingSubmission(issues, url)
+    const result = hasPendingSubmission(issues, url, {
+      allowChildPaths: type === 'blog'
+    })
       ? { status: 'pending' }
       : crossSection.length
         ? {

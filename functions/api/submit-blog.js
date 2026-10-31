@@ -14,7 +14,8 @@ import {
   SubmissionUrlError,
   validateCommunityInput,
   validateIndependentWebsiteInput,
-  validateSubmissionInput
+  validateSubmissionInput,
+  validateUrl
 } from './submit-blog-validation.js'
 
 /* global FormData, Response, fetch */
@@ -87,6 +88,34 @@ const verifyTurnstile = async (token, request, env) => {
   return (await response.json()).success === true
 }
 
+const directoryForType = (type) =>
+  type === 'website'
+    ? 'Independent Web'
+    : type === 'community'
+      ? 'Online Communities'
+      : 'Blogs'
+
+const listingUrlForType = (type) =>
+  type === 'website'
+    ? '/independent-web'
+    : type === 'community'
+      ? '/communities/online-communities'
+      : '/blogs'
+
+const duplicateResponse = (type, listed) =>
+  json(
+    {
+      error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} is already listed in BlogR Directory.`,
+      duplicate: {
+        status: 'listed',
+        name: listed.name,
+        directory: directoryForType(type),
+        listingUrl: listingUrlForType(type)
+      }
+    },
+    409
+  )
+
 export async function onRequestPost({ request, env }) {
   if (
     !env.GITHUB_TOKEN ||
@@ -131,8 +160,21 @@ export async function onRequestPost({ request, env }) {
     return json({ error: 'Please complete the spam check and try again.' }, 400)
   }
 
-  let submission
   const type = payload?.type ?? 'blog'
+  let preflightUrl
+  try {
+    preflightUrl = validateUrl(payload?.url)
+    const listed = findListedBlog(
+      entriesForSubmissionType(type, { blogs, websites, communities }),
+      preflightUrl,
+      { allowChildPaths: type === 'blog' }
+    )
+    if (listed) return duplicateResponse(type, listed)
+  } catch {
+    // Full input validation below returns the appropriate malformed-input error.
+  }
+
+  let submission
   try {
     submission =
       type === 'website'
@@ -171,7 +213,8 @@ export async function onRequestPost({ request, env }) {
     try {
       listed = findListedBlog(
         entriesForSubmissionType(type, { blogs, websites, communities }),
-        submission.url
+        submission.url,
+        { allowChildPaths: type === 'blog' }
       )
     } catch {
       return json(
@@ -179,13 +222,7 @@ export async function onRequestPost({ request, env }) {
         503
       )
     }
-    if (listed)
-      return json(
-        {
-          error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} is already listed in BlogR Directory.`
-        },
-        409
-      )
+    if (listed) return duplicateResponse(type, listed)
 
     const repository = env.GITHUB_REPOSITORY
     let existing
@@ -202,7 +239,11 @@ export async function onRequestPost({ request, env }) {
     } catch {
       return json({ error: 'Submissions are temporarily unavailable.' }, 502)
     }
-    if (hasPendingSubmission(existing, submission.url)) {
+    if (
+      hasPendingSubmission(existing, submission.url, {
+        allowChildPaths: type === 'blog'
+      })
+    ) {
       return json(
         {
           error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} has already been submitted and is awaiting review.`

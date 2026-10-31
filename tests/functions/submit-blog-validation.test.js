@@ -270,9 +270,60 @@ test('Pages Function rejects a published duplicate before checking GitHub issues
     })
     assert.equal(response.status, 409)
     assert.deepEqual(await response.json(), {
-      error: 'This blog is already listed in BlogR Directory.'
+      error: 'This blog is already listed in BlogR Directory.',
+      duplicate: {
+        status: 'listed',
+        name: 'John Clare Blog',
+        directory: 'Blogs',
+        listingUrl: '/blogs'
+      }
     })
     assert.equal(githubCalls, 0)
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
+test('server rejects an arbitrary child path of a listed blog before GitHub', async () => {
+  const originalFetch = globalThis.fetch
+  let issueCreated = false
+  globalThis.fetch = async (url, options) => {
+    if (url.includes('siteverify'))
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    if (options?.method === 'POST' && url.endsWith('/issues'))
+      issueCreated = true
+    return new Response('unexpected', { status: 500 })
+  }
+  try {
+    const response = await onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          ...input({
+            name: 'RuggedScot Copy',
+            url: 'https://ruggedscot.com/article1'
+          }),
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+    assert.equal(response.status, 409)
+    assert.deepEqual(await response.json(), {
+      error: 'This blog is already listed in BlogR Directory.',
+      duplicate: {
+        status: 'listed',
+        name: 'RuggedScot',
+        directory: 'Blogs',
+        listingUrl: '/blogs'
+      }
+    })
+    assert.equal(issueCreated, false)
   } finally {
     globalThis.fetch = originalFetch
   }
@@ -312,7 +363,13 @@ test('Pages Function rejects an Independent Web duplicate in its own directory',
     })
     assert.equal(response.status, 409)
     assert.deepEqual(await response.json(), {
-      error: 'This website is already listed in BlogR Directory.'
+      error: 'This website is already listed in BlogR Directory.',
+      duplicate: {
+        status: 'listed',
+        name: existing.name,
+        directory: 'Independent Web',
+        listingUrl: '/independent-web'
+      }
     })
     assert.equal(githubCalls, 0)
   } finally {
@@ -369,7 +426,7 @@ test('Pages Function rejects a pending duplicate using URL variations', async ()
   }
 })
 
-test('Pages Function rejects individual SDL India articles before creating an issue', async () => {
+test('Pages Function rejects listed SDL India article paths before creating an issue', async () => {
   const originalFetch = globalThis.fetch
   let githubCalls = 0
   globalThis.fetch = async (url) => {
@@ -396,12 +453,15 @@ test('Pages Function rejects individual SDL India articles before creating an is
         TURNSTILE_SECRET_KEY: 'turnstile-secret'
       }
     })
-    assert.equal(response.status, 422)
+    assert.equal(response.status, 409)
     assert.deepEqual(await response.json(), {
-      error:
-        'It looks like you submitted an individual article. BlogR lists websites and blogs rather than individual posts. Did you mean to submit this blog instead?',
-      code: 'article-url',
-      suggestedUrl: 'https://www.sdlindia.com/blogs/'
+      error: 'This blog is already listed in BlogR Directory.',
+      duplicate: {
+        status: 'listed',
+        name: 'SDL India Blog',
+        directory: 'Blogs',
+        listingUrl: '/blogs'
+      }
     })
     assert.equal(githubCalls, 0)
   } finally {

@@ -24,6 +24,20 @@ test('finds listed blogs using URL variations', async () => {
   assert.deepEqual(await response.json(), {
     status: 'listed',
     name: 'A 5000 Mile Walk',
+    directory: 'Blogs',
+    listingUrl: '/blogs'
+  })
+})
+
+test('finds RuggedScot when an arbitrary child path is submitted', async () => {
+  const response = await onRequestGet({
+    request: request('https://ruggedscot.com/article1'),
+    env
+  })
+  assert.deepEqual(await response.json(), {
+    status: 'listed',
+    name: 'RuggedScot',
+    directory: 'Blogs',
     listingUrl: '/blogs'
   })
 })
@@ -36,15 +50,30 @@ test('accepts protocol-less URLs when checking listed blogs', async () => {
   assert.deepEqual(await response.json(), {
     status: 'listed',
     name: 'A 5000 Mile Walk',
+    directory: 'Blogs',
     listingUrl: '/blogs'
   })
 })
 
-test('suggests the blog homepage for individual article URLs', async () => {
+test('finds a listed blog before applying article heuristics', async () => {
   const response = await onRequestGet({
     request: request(
       'https://www.sdlindia.com/blogs/ayurveda-basics/what-is-prakriti'
     ),
+    env
+  })
+  assert.equal(response.status, 200)
+  assert.deepEqual(await response.json(), {
+    status: 'listed',
+    name: 'SDL India Blog',
+    directory: 'Blogs',
+    listingUrl: '/blogs'
+  })
+})
+
+test('suggests the blog homepage for an unlisted article URL', async () => {
+  const response = await onRequestGet({
+    request: request('https://unknown-sdl.example/blogs/article-one'),
     env
   })
   assert.equal(response.status, 422)
@@ -52,7 +81,7 @@ test('suggests the blog homepage for individual article URLs', async () => {
     status: 'article',
     error:
       'It looks like you submitted an individual article. BlogR lists websites and blogs rather than individual posts. Did you mean to submit this blog instead?',
-    suggestedUrl: 'https://www.sdlindia.com/blogs/'
+    suggestedUrl: 'https://unknown-sdl.example/blogs/'
   })
 })
 
@@ -67,6 +96,7 @@ test('checks blogs and Independent Web in separate directories', async () => {
     assert.deepEqual(await listedWebsite.json(), {
       status: 'listed',
       name: websites[0].name,
+      directory: 'Independent Web',
       listingUrl: '/independent-web'
     })
 
@@ -77,6 +107,7 @@ test('checks blogs and Independent Web in separate directories', async () => {
     assert.deepEqual(await listedBlog.json(), {
       status: 'listed',
       name: blogs[0].name,
+      directory: 'Blogs',
       listingUrl: '/blogs'
     })
 

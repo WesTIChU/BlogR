@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1154,10 +1154,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://cheltenham-od.uk/feeds/main.xml",
     "latestArticle": {
-      "title": "Every Park, Playing Field and Allotment in Cheltenham, Now on One Map",
-      "url": "https://cheltenham-od.uk/news/cheltenham-green-spaces-added",
-      "summary": "Our new parks and green spaces map draws every public park, garden, playing field, allotment, cemetery and churchyard in Cheltenham to its real outline. Ordnance Survey records 214 of them in the bor…",
-      "publishedAt": "2026-10-31T18:00:00.000Z"
+      "title": "Met Office Weather Warnings Now on Our Cheltenham Forecast",
+      "url": "https://cheltenham-od.uk/news/weather-warnings-added",
+      "summary": "Our Cheltenham 10-day weather forecast now opens with any Met Office weather warnings in force or coming up, checked every five minutes. When a warning is live it also appears in the alerts on our ho…",
+      "publishedAt": "2026-10-31T20:00:00.000Z"
     }
   },
   "https://chriscoyier.net/": {
@@ -1478,10 +1478,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Next Technology authorizes sale or pledge of 5,833 BTC after Binance hack",
-      "url": "https://cryptonews.mobile/brief/next-technology-authorizes-sale-or-pledge-of-5833-btc-after-binance-hack",
-      "summary": "Nasdaq-listed Next Technology Holding said its board unanimously approved selling or pledging its roughly 5,833 BTC in one or more tranches. The company ranked 18th among publicly traded corporate bi…",
-      "publishedAt": "2026-10-31T22:26:12.000Z"
+      "title": "Binance buys back stolen ENA tokens after hack, Ethena deposits $24M",
+      "url": "https://cryptonews.mobile/brief/binance-buys-back-stolen-ena-tokens-after-hack-ethena-deposits-24m",
+      "summary": "Binance began repurchasing ENA tokens stolen in a recent hack. The hacker took 217.5 million ENA, valued at about $33.9 million. Ethena transferred 128.63 million ENA, worth $24 million, to Binance o…",
+      "publishedAt": "2026-10-31T23:07:26.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1570,7 +1570,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1854,7 +1854,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2131,7 +2131,7 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://glasgowgallivanter.com/feed/",
     "latestArticle": {
-      "title": "John’s epic French cycle: part 3",
+      "title": "John’s epic French cycle: part 3",
       "url": "https://glasgowgallivanter.com/2026/10/26/cycling-france-3/",
       "summary": "Week 3: from Vallon Pont d'Arc to Nice.",
       "publishedAt": "2026-10-26T10:30:00.000Z"
@@ -2190,10 +2190,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "The Anunnaki Movie | Full Documentary",
-      "url": "https://greatawakeningreport.com/the-anunnaki-movie-2025-documentary/",
-      "summary": "The Anunnaki Movie documentary presents itself as the most complete cinematic treatment of the Anunnaki story yet assembled, a fully reworked adaptation running, by its own description, roughly two h…",
-      "publishedAt": "2026-10-31T20:35:00.000Z"
+      "title": "Sumerian Texts Before the Anunnaki | Narrated History",
+      "url": "https://greatawakeningreport.com/sumerian-texts-before-the-anunnaki-narrated-history/",
+      "summary": "Long before the first pharaoh, scribes in southern Mesopotamia were pressing wedge shaped marks into wet clay and recording where they believed the world came from. This narrated episode works throug…",
+      "publishedAt": "2026-10-31T23:10:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -2286,10 +2286,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Voyager 1 Briefly Goes Silent, Scaring Everyone",
-      "url": "https://hackaday.com/2026/10/31/voyager-1-briefly-goes-silent-scaring-everyone/",
-      "summary": "It’s no big secret at this point that we are looking at the final years of the two venerable Voyager spacecraft. With their power supplies diminishing and their 1970s-era electronics …read more",
-      "publishedAt": "2026-10-31T20:00:00.000Z"
+      "title": "Rooting an Amazon Echo Dot",
+      "url": "https://hackaday.com/2026/10/31/rooting-an-amazon-echo-dot/",
+      "summary": "The Amazon Echo Dot is one of Amazon’s so-called ‘smart speaker’ offerings that tie into their larger Alexa-fueled ecosystem, designed to be a pretty minimalistic device that gives you access …read m…",
+      "publishedAt": "2026-10-31T23:00:00.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2940,13 +2940,12 @@
   },
   "https://kevinspencer.org/posts/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://kevinspencer.org/posts/feed/",
     "latestArticle": {
-      "title": "Metallica By Candlelight",
-      "url": "https://kevinspencer.org/posts/2026/10/metallica-by-candlelight/",
-      "summary": "Last weekend we went out with our friends to POMO. Lovely downtown Phoenix vibe, we sat outside with some red wine and fantastic pasta dishes. The main event of the evening though, a classical tribut…",
-      "publishedAt": "2026-10-30T02:06:18.000Z"
+      "url": "https://kevinspencer.org/posts/2026/10/8136/",
+      "summary": "Took the plunge and upgraded WordPress to the latest 7.x branch. Seems to have worked out ok? I don't immediately dig the subtle tweaks in the admin UI mind you. But what are you gonna do?",
+      "publishedAt": "2026-10-31T23:09:28.000Z"
     }
   },
   "https://kevquirk.com/": {
@@ -3075,10 +3074,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://laurasmiscmusings.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Happy Halloween",
-      "url": "https://laurasmiscmusings.blogspot.com/2026/10/happy-halloween.html",
-      "summary": "Happy Halloween! This year I'm sharing studio Halloween publicity photos featuring the beautiful Ava Gardner . Have a wonderful day! Previous Halloween posts, in reverse chronological order: Vera-Ell…",
-      "publishedAt": "2026-10-31T14:30:00.000Z"
+      "title": "Tonight's Movie: Sense and Sensibility (2026)",
+      "url": "https://laurasmiscmusings.blogspot.com/2026/10/tonights-movie-sense-and-sensibility.html",
+      "summary": "It's a \"truth universally acknowledged,\" to borrow an Austen phrase, that the 1995 version of SENSE AND SENSIBILITY is a perfect film. Indeed, in 2014 I included it on my personal list of \" 10 Favori…",
+      "publishedAt": "2026-10-31T23:00:00.000Z"
     }
   },
   "https://lawasked.com/": {
@@ -3251,10 +3250,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://lowlightleaf.com/feed/",
     "latestArticle": {
-      "title": "Chinese Evergreen Care: Light, Water and Which Leaves Take the Dark",
-      "url": "https://lowlightleaf.com/chinese-evergreen-care/",
-      "summary": "Chinese evergreen care is mostly about matching the plant to your light: the solid green kinds grow in low light, […] The post Chinese Evergreen Care: Light, Water and Which Leaves Take the Dark appe…",
-      "publishedAt": "2026-10-31T06:16:56.000Z"
+      "title": "Are Orchids Toxic to Cats? No, but Check the Name on the Tag",
+      "url": "https://lowlightleaf.com/are-orchids-toxic-to-cats/",
+      "summary": "No, orchids are not toxic to cats. The ASPCA lists the moth orchid, the Phalaenopsis sold in grocery stores, as […] The post Are Orchids Toxic to Cats? No, but Check the Name on the Tag appeared firs…",
+      "publishedAt": "2026-10-31T23:07:34.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3574,13 +3573,13 @@
   },
   "https://mojobob.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Aichi D3 \"Val\" (1:144)",
-      "url": "https://mojobob.blogspot.com/2026/10/aichi-d3-val-1144.html",
-      "summary": "This is the last of my 1:144 scale WWII Japanese aircraft models, this time one that I built myself in Blender, the Aich D3 \"Val\" dive-bomber. I think it unlikely that I'll be doing any more Japanese…",
-      "publishedAt": "2026-10-30T01:58:15.827Z"
+      "title": "Bebe",
+      "url": "https://mojobob.blogspot.com/2026/11/bebe.html",
+      "summary": "Courtesy of insomnia, I've put together this 1:144 scale model of a Nieuport 11 Bebe. Another scout for the Entente to put up against those blasted Fokkers. This little sesquiplane went into service …",
+      "publishedAt": "2026-10-31T22:55:58.303Z"
     }
   },
   "https://momentsingraphics.de/": {
@@ -4193,10 +4192,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Creature Castle: Good Enough to Hang",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/creature-castle-good-enough-to-hang.html",
-      "summary": "I reckon this is one of the best looking creepy board game boxes ever, from 1975, Creature Castle. I'd frame it for on my wall. Alas, I sold my example years ago. Can you think of a better box top? A…",
-      "publishedAt": "2026-10-31T22:00:00.000Z"
+      "title": "Shallowed Ground 💀",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/hallowed-ground.html",
+      "summary": "In the dying sludge of All Hallows Eve, when the unruly graveyard beyond returned to sleep, I took the begrudging midnight air one final time and thought of her, my dead sorceress, Whence there it ap…",
+      "publishedAt": "2026-10-31T23:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -4787,13 +4786,13 @@
   },
   "https://simonwillison.net/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "dbreunig/nesformer",
-      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
-      "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES R…",
-      "publishedAt": "2026-10-30T21:59:22.000Z"
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the late…",
+      "publishedAt": "2026-10-31T23:15:22.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -5264,12 +5263,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36313/chelsea-2-0-manchester-united-positive-start-wasted-by-martinez-defensive-stupidity",
-      "summary": "The chaos spiral continues at Manchester United as Michael Carrick’s side found a new way to let down the manager and fans. The Reds battled through a testy first half at Stamford Bridge in which the…",
-      "publishedAt": "2026-10-31T14:32:05.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36294/three-points-chelsea-vs-manchester-united",
+      "summary": "Three points of emphasis with a big three points on the line this Saturday for Manchester United. Bruno Fernandes The captain will most likely start the game after sitting out last week. He hasn’t st…",
+      "publishedAt": "2026-10-30T19:55:26.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -5704,7 +5703,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5974,12 +5973,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173617/charlton-athletic-wfc-vs-chelsea-fcw-womens-super-league-preview-team-news-how-to-watch",
-      "summary": "Just four days after facing AS Roma in Europe, Chelsea Women are back in the Women’s Super League for another London derby, this time away to newly-promoted Charlton Athletic. The Blues have reclaime…",
-      "publishedAt": "2026-10-31T15:55:11.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-league-cup/173563/liverpool-1-1-6-5-p-k-chelsea-player-ratings-penders-redemption",
+      "summary": "1. MIKE PENDERS (7.1) It was a horror moment in an otherwise solid full Premier League debut for young Mike Penders over the weekend, when he punched a Spurs corner straight into the back of his own …",
+      "publishedAt": "2026-10-30T08:54:41.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6179,7 +6178,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6229,13 +6228,13 @@
   },
   "https://www.becomingminimalist.com/": {
     "status": "success",
-    "lastPublished": "2025-07-10",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://feeds.feedburner.com/becomingminimalistcom",
     "latestArticle": {
-      "title": "The Greatest Luxuries in Life Can’t Be Bought at a Store",
-      "url": "https://www.becomingminimalist.com/the-greatest-luxuries/",
-      "summary": "There’s a quote that’s been floating around the Internet for years now. Every time it’s shared, it’s quickly reposted, re-shared, and liked over and over again. I’ve even posted it myself. The viral …",
-      "publishedAt": "2025-07-10T13:06:12.000Z"
+      "title": "Inspiring Simplicity. Weekend Reads.",
+      "url": "https://www.becomingminimalist.com/inspiring-simplicity-1026c/",
+      "summary": "For the last thirteen years, I have been compiling and publishing curated articles that inspire simplicity. At first, it was an exercise in communicating to Becoming Minimalist readers the most popul…",
+      "publishedAt": "2026-10-31T05:23:24.000Z"
     }
   },
   "https://www.bfoliver.com/": {
@@ -6884,12 +6883,12 @@
   },
   "https://www.manton.org/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/10/30/mostly-lying-low-today-still.html",
-      "summary": "Mostly lying low today, still have a cold. Getting some work done anyway, though, various background work on Micro.blog. I put off early voting too long… Guess I will vote on Election Day.",
-      "publishedAt": "2026-10-30T19:35:34.000Z"
+      "url": "https://www.manton.org/2026/10/31/starting-to-feel-a-little.html",
+      "summary": "Starting to feel a little bit better in time for Halloween. Got candy and carved a pumpkin. For fun, we still have the micro.boo domain collecting Halloween-related posts. 🎃",
+      "publishedAt": "2026-10-31T23:26:30.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -7355,10 +7354,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "Top: Blockhoppers are rare enemies in New Super Mario Bros., being encountered only in one level,&hellip;",
-      "url": "https://www.suppermariobroth.com/post/832016997470650368",
-      "summary": "Top: Blockhoppers are rare enemies in New Super Mario Bros., being encountered only in one level, World 2-5, where they pretend to be regular Question Blocks before revealing themselves. They have ne…",
-      "publishedAt": "2026-10-31T19:00:41.000Z"
+      "title": "Top: Clawgrip is a crab boss in Super Mario Bros. 2, whose name is obviously based on the fact that&hellip;",
+      "url": "https://www.suppermariobroth.com/post/832028493916372992",
+      "summary": "Top: Clawgrip is a crab boss in Super Mario Bros. 2, whose name is obviously based on the fact that he has two large claws, which he uses to grip and throw rocks at the player. Middle: however, in th…",
+      "publishedAt": "2026-10-31T22:03:25.000Z"
     }
   },
   "https://www.swiftjectivec.com/": {
@@ -7756,7 +7755,7 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Taika Waititi Slams Critics as “Sad Lost Souls” in Unhinged Rant Over ‘Klara and the Sun’: “Irrelevant, Out of Touch, and Obsolete”",
+      "title": "Taika Waititi Slams Critics as “Sad Lost Souls” in Unhinged Rant Over ‘Klara and the Sun’",
       "url": "https://www.worldofreel.com/blog/2026/10/31/taika-waititi-calls-critics-sad-lost-souls-in-unhinged-rant-over-klara-and-the-sun-irrelevant-out-of-touch-obsolete",
       "summary": "Firing back at critics is nothing new, but calling an entire profession “failed artists” who belong \"in the bin\" is hilarious, and wildly unhinged.",
       "publishedAt": "2026-10-31T20:31:44.000Z"

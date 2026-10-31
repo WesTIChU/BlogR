@@ -1473,6 +1473,17 @@
       "publishedAt": "2026-10-31T00:10:31.837Z"
     }
   },
+  "https://cryptonews.mobile/": {
+    "status": "success",
+    "lastPublished": "2026-10-31",
+    "feedUrl": "https://cryptonews.mobile/feed.xml",
+    "latestArticle": {
+      "title": "Coinbase insiders plan to sell up to 13.6 million shares",
+      "url": "https://cryptonews.mobile/brief/coinbase-insiders-plan-to-sell-up-to-136-million-shares",
+      "summary": "Coinbase reported third-quarter net income of $718.7 million, or $2.51 per diluted share. CEO Brian Armstrong, co-founder Fred Ehrsam and President Emilie Choi filed plans to sell up to 13.6 million …",
+      "publishedAt": "2026-10-31T01:54:26.000Z"
+    }
+  },
   "https://css-tricks.com/": {
     "status": "success",
     "lastPublished": "2026-10-29",
@@ -1914,13 +1925,13 @@
   },
   "https://evidenceanecdotal.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://evidenceanecdotal.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "'Anything But Superficial'",
-      "url": "https://evidenceanecdotal.blogspot.com/2026/10/anything-but-superficial.html",
-      "summary": "Charles Lamb in a letter to his childhood friend Samuel Taylor Coleridge on October 30, 1809: “I have put up shelves. You never saw a book-case in more true harmony with the contents, than what I’ve …",
-      "publishedAt": "2026-10-30T05:00:00.000Z"
+      "title": "'A Very Peculiar Sorrow Attacks Me'",
+      "url": "https://evidenceanecdotal.blogspot.com/2026/10/a-very-peculiar-sorrow-attacks-me.html",
+      "summary": "The feuilleton is an attractively flexible form, part journalism, part essay, that has seldom successfully crossed the Atlantic. The name is derived from the French feuillet , meaning the leaf of a b…",
+      "publishedAt": "2026-10-31T05:00:00.000Z"
     }
   },
   "https://exotic-japan-ese.com/": {
@@ -2275,10 +2286,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "VR Headset Ditches the Base Stations with DIY Tracking",
-      "url": "https://hackaday.com/2026/10/30/vr-headset-ditches-the-base-stations-with-diy-tracking/",
-      "summary": "Those in the virtual reality scene might be interested in [Prohurtz]’s add-on for the Bigscreen Beyond VR headset. BSB-SLAM adds SLAM (Simultaneous Localization and Mapping) tracking to the headset b…",
-      "publishedAt": "2026-10-31T02:00:41.000Z"
+      "title": "Novelty Camera To USB Camera",
+      "url": "https://hackaday.com/2026/10/30/novelty-camera-to-usb-camera/",
+      "summary": "The Godox C100 is a cheap camera that’s best described as a toy, its party trick being a large clear viewfinder with a head-up-display light meter. It’s by no means …read more",
+      "publishedAt": "2026-10-31T05:00:23.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2442,13 +2453,13 @@
   },
   "https://humbledollar.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "Executives have stopped talking about recession. They talk about affordability instead.",
-      "url": "https://humbledollar.com/forum/executives-have-stopped-talking-about-recession-they-talk-about-affordability-instead/",
-      "summary": "Every quarter, public companies hold earnings calls, where executives present results and take questions from analysts. Equibles counted two words across those calls for companies in the S&P 500, and…",
-      "publishedAt": "2026-10-30T21:12:10.000Z"
+      "title": "Brain Power",
+      "url": "https://humbledollar.com/2026/10/brain-power/",
+      "summary": "I KEEP PHYSICALLY active and exercise on a semi-regular basis. Maybe not as much as my wife suggests, but enough that I feel the burn during a workout, and experience those pesky muscle group aches t…",
+      "publishedAt": "2026-10-31T05:00:13.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -2825,6 +2836,10 @@
       "publishedAt": "2026-10-20T13:15:00.000Z"
     }
   },
+  "https://junkcarworth.com/": {
+    "status": "unknown",
+    "feedUrl": "https://junkcarworth.com/favicon.svg"
+  },
   "https://justalittlefurther.com/": {
     "status": "unavailable"
   },
@@ -2944,6 +2959,10 @@
       "summary": "I've seen a few people talking about SocialSpec which claims that \"the future of social media is websites\" . Something I strongly agree with. However, I don't see the point of this fledgling spec on …",
       "publishedAt": "2026-10-30T16:36:00.000Z"
     }
+  },
+  "https://khalid.computer/": {
+    "status": "unknown",
+    "feedUrl": "https://khalid.computer/index.xml"
   },
   "https://kidsbricks.wordpress.com/": {
     "status": "success",
@@ -4028,12 +4047,12 @@
   },
   "https://philsworkbench.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://philsworkbench.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "The CatBus has arrived!",
-      "summary": "What colour is a CatBus? On stage, it's bright orange, but in the films, there is a bit more subtlety, so I've plumped for more AK Off-white (must get another one of those) and the same company's Bro…",
-      "publishedAt": "2026-10-30T05:30:00.000Z"
+      "title": "Saturday Film Club: 1990: Building Dioramas and Models",
+      "summary": "Let's head back to the good old days, when TV used miniatures to help explain things. Miniatures built, and presented by Matt Irvine.",
+      "publishedAt": "2026-10-31T05:30:00.000Z"
     }
   },
   "https://photography.mihobu.net/": {
@@ -4912,6 +4931,11 @@
       "publishedAt": "2026-10-21T15:25:02.000Z"
     }
   },
+  "https://snook.ca/": {
+    "status": "success",
+    "lastPublished": "2026-10-22",
+    "feedUrl": "https://snook.ca/posts/index.xml"
+  },
   "https://somaryrose.com/": {
     "status": "unavailable",
     "lastPublished": "2026-10-27",
@@ -5565,6 +5589,10 @@
       "publishedAt": "2026-10-18T19:04:59.000Z"
     }
   },
+  "https://thestrangerdollar.pages.dev/": {
+    "status": "unknown",
+    "feedUrl": "https://thestrangerdollar.pages.dev/index.xml"
+  },
   "https://thestrollingbones.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-10-14",
@@ -5747,13 +5775,13 @@
   },
   "https://tracydurnell.com/mind-garden/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
-      "title": "Fall color at Seattle’s Japanese Garden",
-      "url": "https://tracydurnell.com/2026/10/28/fall-color-seattle-japanese-garden/",
-      "summary": "Somehow I’ve never made it to the Seattle Japanese Garden before — I’ve been to the free Kubota Garden in South Seattle many a time (and highly recommend it), but never got around to the paid one. I …",
-      "publishedAt": "2026-10-29T04:35:56.000Z"
+      "title": "Weeknotes: Oct. 24-30, 2026",
+      "url": "https://tracydurnell.com/2026/10/30/weeknotes-oct-24-30-2026/",
+      "summary": "Win of the week: compared health plans and completed Open Enrollment — astonishingly our health care plan is only going up $5 per month 😯 Looking forward to: upcoming trip to see my family! Stuff I d…",
+      "publishedAt": "2026-10-31T05:42:55.000Z"
     }
   },
   "https://transmissionfluid.net/": {
@@ -5856,6 +5884,10 @@
       "publishedAt": "2026-10-28T00:00:00.000Z"
     }
   },
+  "https://usefreetools.net/": {
+    "status": "unknown",
+    "feedUrl": "https://usefreetools.net/assets/brand/favicon-v2.svg?v=0.87.2"
+  },
   "https://vhbelvadi.com/": {
     "status": "success",
     "lastPublished": "2026-10-30",
@@ -5887,6 +5919,10 @@
       "summary": "New blog post about what I've been doing since my last update~☆ We also have a new poll for September now— happy voting!!!",
       "publishedAt": "2026-09-12T11:11:11.000Z"
     }
+  },
+  "https://voltagedropcalculator.net/": {
+    "status": "unknown",
+    "feedUrl": "https://voltagedropcalculator.net/favicon.svg"
   },
   "https://vtuberzukan.com/en/": {
     "status": "unknown",
@@ -6126,7 +6162,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6687,7 +6723,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7001,13 +7037,13 @@
   },
   "https://www.oneletterwords.com/weblog/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://feeds.feedburner.com/oneletterwords/abecedarian",
     "latestArticle": {
-      "title": "I Found a Penny Today, So Here's a Thought",
-      "url": "https://www.oneletterwords.com/weblog/?id=117705",
-      "summary": "</",
-      "publishedAt": "2026-10-30T04:00:00.000Z"
+      "title": "Old News",
+      "url": "https://www.oneletterwords.com/weblog/?id=116427",
+      "summary": "\"Witching time predicted this weekend.\" From The Kentucky Kernel , 1959.",
+      "publishedAt": "2026-10-31T04:00:00.000Z"
     }
   },
   "https://www.onstageblog.com/onscreenblog": {
@@ -7429,13 +7465,13 @@
   },
   "https://www.thehistoryblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://www.thehistoryblog.com/feed",
     "latestArticle": {
-      "title": "Celtic grave with unique animal offering found in Bavaria",
-      "url": "https://www.thehistoryblog.com/archives/77244",
-      "summary": "The grave of a Celtic woman buried with an unusual animal offering and rich jewelry has been discovered in Senden, in the German state of Bavaria. The remains of a lamb or kid, which were typically n…",
-      "publishedAt": "2026-10-30T06:06:30.000Z"
+      "title": "Exceptional Roman child’s sarcophagus found with toys inside",
+      "url": "https://www.thehistoryblog.com/archives/77250",
+      "summary": "The 1,800-year-old sarcophagus of a child still sealed with toys inside has been discovered in the ancient city of Tomis, Romania. It was found on the northern edge of the Roman necropolis, an area t…",
+      "publishedAt": "2026-10-31T05:26:09.000Z"
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
@@ -7630,7 +7666,7 @@
   "https://www.urbex-travel.com/blog/": {
     "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -7790,5 +7826,8 @@
       "summary": "If we failed to do this, I feared, we would stop leading the industry and turn into “merely the CSS trick of the week.” The post The Day the Focus Died appeared first on Jeffrey Zeldman Presents .",
       "publishedAt": "2026-10-29T16:25:23.000Z"
     }
+  },
+  "https://zipzax.com/": {
+    "status": "unavailable"
   }
 }

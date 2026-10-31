@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -861,7 +861,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -1231,9 +1231,9 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-discusses-rayan-cherkis-leadership-skills-amid-impressive-manchester-city-form",
-      "summary": "Enzo Maresca has said Rayan Cherki can become a future leader at Manchester City, ahead of Saturday's Premier League meeting with Brighton and Hove Albion.",
-      "publishedAt": "2026-10-31T08:00:41.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/fabian-hurzeler-issues-brighton-and-hove-albion-fitness-update-ahead-of-manchester-city-premier-league-clash",
+      "summary": "Brighton and Hove Albion have been handed a fitness boost ahead of Saturday's Premier League visit to Manchester City at the Etihad Stadium.",
+      "publishedAt": "2026-10-31T10:00:45.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1478,10 +1478,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Coinbase insiders plan to sell up to 13.6 million shares",
-      "url": "https://cryptonews.mobile/brief/coinbase-insiders-plan-to-sell-up-to-136-million-shares",
-      "summary": "Coinbase reported third-quarter net income of $718.7 million, or $2.51 per diluted share. CEO Brian Armstrong, co-founder Fred Ehrsam and President Emilie Choi filed plans to sell up to 13.6 million …",
-      "publishedAt": "2026-10-31T01:54:26.000Z"
+      "title": "Binance $6.3B hack draws regulatory and market reaction",
+      "url": "https://cryptonews.mobile/brief/binance-63b-hack-draws-regulatory-and-market-reaction",
+      "summary": "A $6.3 billion theft from Binance is the largest crypto security incident on record. Bitcoin briefly fell to $76,400 and around $1.5 billion in leveraged positions were liquidated. DeFi total value l…",
+      "publishedAt": "2026-10-31T10:11:32.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1830,13 +1830,13 @@
   },
   "https://ecmreviews.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://ecmreviews.com/feed/",
     "latestArticle": {
-      "title": "Keith Jarrett: Roma (ECM 2880)",
-      "url": "https://ecmreviews.com/2026/10/30/keith-jarrett-roma-ecm-2880/",
-      "summary": "Keith JarrettRoma Keith Jarrett pianoRecorded live July 12, 2016at Sala Santa Cecilia,Auditorium Parco della Musica, RomaProducer: Keith JarrettEngineer: Martin PearsonDesign: Sascha KleisExecutive p…",
-      "publishedAt": "2026-10-30T11:46:29.000Z"
+      "title": "Listening Through the Body in the Music of Sarah Davachi",
+      "url": "https://ecmreviews.com/2026/10/31/listening-through-the-body-in-the-music-of-sarah-davachi/",
+      "summary": "In the music of Sarah Davachi, sound remains suspended beyond the moment of its apparent exhaustion, gathering strange internal populations as its harmonics fracture and quietly reassemble. What init…",
+      "publishedAt": "2026-10-31T10:14:58.000Z"
     }
   },
   "https://econbrowser.com/": {
@@ -1854,7 +1854,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2294,12 +2294,12 @@
   },
   "https://hackernoon.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/395-blog-posts-to-learn-about-learning?source=rss",
-      "summary": "Learn everything you need to know about Learning via these 395 free HackerNoon blog posts.",
-      "publishedAt": "2026-10-30T20:02:26.000Z"
+      "url": "https://hackernoon.com/what-is-eip-7702-ethereums-smart-account-feature-explained-and-how-to-stay-safe?source=rss",
+      "summary": "What is EIP-7702? Learn how Ethereum smart account delegation works, its security risks, and how to check and revoke permissions.",
+      "publishedAt": "2026-10-31T06:00:06.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -3216,13 +3216,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Giant Elf On The Shelf Trail Coming To Central London",
-      "url": "https://londonist.com/london/christmas-in-london/elf-on-the-shelf-trail",
-      "summary": "Get a selfie with an elf(ie).",
-      "publishedAt": "2026-10-30T11:37:00.000Z"
+      "title": "Places To Volunteer In London That Are Actually Great Vibes",
+      "url": "https://londonist.com/london/things-to-do/places-to-volunteer-london-good-vibes",
+      "summary": "Do good! Feel good! Stay sane!",
+      "publishedAt": "2026-10-31T10:00:04.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -3240,10 +3240,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Showcase review: Standby Please at Waterloo East Theatre",
+      "title": "Showcase review: Standby, Please!",
       "url": "https://loureviews.blog/2026/10/31/showcase-review-standby-please-at-waterloo-east-theatre/",
-      "summary": "Standby Please, celebrating its 5th anniversary, features ten emerging musical theatre singers in a one-hour performance at Waterloo East Theatre. The program includes diverse songs from well-known a…",
-      "publishedAt": "2026-10-31T09:30:00.000Z"
+      "summary": "The 5th anniversary edition of Standby Please runs at Waterloo East Theatre for three performances today, bringing together ten singers in a varied programme of musical theatre. The premise is straig…",
+      "publishedAt": "2026-10-31T09:58:14.000Z"
     }
   },
   "https://lowlightleaf.com/": {
@@ -4193,10 +4193,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Monster Mash🫈",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/monster-mash.html",
-      "summary": "https://youtu.be/u8uvLHnrqdU?is=tJNdDD6sPkbxhKjB",
-      "publishedAt": "2026-10-31T09:36:00.000Z"
+      "title": "Brian's Monster Band is Nearly Ready! 🤘",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/brians-monster-band-is-nearly-ready.html",
+      "summary": "Nearly all there! It's nearly time!",
+      "publishedAt": "2026-10-31T10:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -4651,13 +4651,13 @@
   },
   "https://scotlandsnature.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://scotlandsnature.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A Heroic Foraging Trip through the Landscape of the Gàidhealtachd",
-      "url": "https://scotlandsnature.wordpress.com/2026/10/28/a-heroic-foraging-trip-through-the-landscape-of-the-gaidhealtachd/",
-      "summary": "Leugh ann an Gàidhlig / Read in Gaelic In her first blog for NatureScot, creative practitioner and folklorist Ceit Langhorne takes a look at the legendary heroes of the Fianna. I was at the Royal Nat…",
-      "publishedAt": "2026-10-28T12:49:56.000Z"
+      "title": "Stoats – An ecological horror story?",
+      "url": "https://scotlandsnature.wordpress.com/2026/10/31/stoats-an-ecological-horror-story/",
+      "summary": "Today’s blog is a guest column from our partner, the Orkney Native Species Project, which is working hard to protect native wildlife on the Orkney islands. October is a month for scary stories, pract…",
+      "publishedAt": "2026-10-31T10:00:00.000Z"
     }
   },
   "https://seat31b.com/": {
@@ -5901,12 +5901,12 @@
   },
   "https://vhbelvadi.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://vhbelvadi.com/rss",
     "latestArticle": {
-      "url": "https://vhbelvadi.com/jean-luc-picard",
-      "summary": "It feels like cherry-picking to single out Patrick Stewart’s role as Picard when remembering the actor, who died yesterday , because he played so many roles so brilliantly, both on stage and screen. …",
-      "publishedAt": "2026-10-30T09:14:00.000Z"
+      "url": "https://vhbelvadi.com/perfection",
+      "summary": "In 1965, Georges Perec wrote ‘Les Choses: Une histoire des années soixante’ (‘Things: A story of the sixties’) a french novel about a couple, but more about everything they own, about all the things …",
+      "publishedAt": "2026-10-31T08:07:00.000Z"
     }
   },
   "https://vhistory.wordpress.com/": {
@@ -5968,12 +5968,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173592/chelsea-fans-preferred-lineup-against-manchester-united-formation-change",
-      "summary": "So far this season, Chelsea have used a back-three setup almost exclusively, even at the cost of playing players out of position — or having them learn and transition to new roles, like in the case o…",
-      "publishedAt": "2026-10-31T07:22:44.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173572/how-should-chelsea-line-up-against-manchester-united",
+      "summary": "After back-to-back wins we’ve had back-to-back damaging defeats, losing to Spurs at home and then getting eliminated from the League Cup by Liverpool on penalties. The former stings a lot more than t…",
+      "publishedAt": "2026-10-30T21:33:07.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6029,7 +6029,7 @@
   },
   "https://whereweretheynow.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://whereweretheynow.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "Microdeal",
@@ -6173,7 +6173,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6253,10 +6253,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Marvel’s Zombie Avengers minifigure ranks continue to grow",
-      "url": "https://www.brickfanatics.com/lego-marvel-s-zombie-avengers-minifigure-ranks-continue-to-grow",
-      "summary": "Undead assemble!",
-      "publishedAt": "2026-10-31T09:30:43.000Z"
+      "title": "LEGO x Nike Classic Space collection launching next week",
+      "url": "https://www.brickfanatics.com/lego-x-nike-classic-space-collection-launching-next-week",
+      "summary": "Stepping into Space",
+      "publishedAt": "2026-10-31T10:23:28.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6333,10 +6333,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "MARK LAWWELL’S BIG-TIME RETURN",
-      "url": "https://www.celticquicknews.co.uk/mark-lawwells-big-time-return/",
-      "summary": "MARK LAWWELL has returned to big-time football after his appointment to a major role at Chelsea. The former Celtic recruitment chief has been named as senior scout working within the London giants’ f…",
-      "publishedAt": "2026-10-31T08:35:55.000Z"
+      "title": "GOOD NEWS FOR HOGH",
+      "url": "https://www.celticquicknews.co.uk/good-news-for-hogh/",
+      "summary": "KASPER HOGH is in desperate need of a goal and some good news after going THIRTEEN consecutive games without a strike for Celtic. The club’s record £11.5million signing fired blanks on his Hoops debu…",
+      "publishedAt": "2026-10-31T10:36:17.000Z"
     }
   },
   "https://www.cleverdude.com/": {
@@ -6734,7 +6734,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7619,13 +7619,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "This Giant, Handmade, and Fully Playable Pokémon Game Boy Color Was Built in 200 Hours",
-      "url": "https://www.timeextension.com/#article-208033",
-      "summary": "Pikac-huge! One of the major selling points of the Game Boy - particularly its slimmer Game Boy Pocket variant - was the fact that, as the name denotes, it fit in your pocket. Super portable, top-not…",
-      "publishedAt": "2026-10-30T20:00:00.000Z"
+      "title": "Happy Halloween! Who Do You Think Are Gaming's Scariest and Most Memorable Monsters?",
+      "url": "https://www.timeextension.com/#article-208222",
+      "summary": "(In before 'Electronic Arts'). What's the scariest game of all time? No. It's 3D Monster Maze . There's nothin g in gaming all of history more frightening than being silently informed that Rex is \"be…",
+      "publishedAt": "2026-10-31T10:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

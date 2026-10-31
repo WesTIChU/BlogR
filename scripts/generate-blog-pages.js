@@ -183,6 +183,73 @@ const line = (blog) =>
   `* <span class="blog-entry">${renderBlogLink(blog)} - ${blog.description}</span>${renderBlogDetails(blog)}`
 const renderBlogEntries = (entries) => entries.map(line).join('\n')
 
+const headingPattern = (heading) =>
+  new RegExp(`^#{2,3} ${heading.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`)
+
+const entryName = (value) =>
+  value.match(/<BlogHealthLink name="([^"]+)"/)?.[1] ?? ''
+
+export function insertBlogEntryIntoPage(source, entry, heading) {
+  const lines = source.split('\n')
+  const headingIndex = lines.findIndex((value) =>
+    headingPattern(heading).test(value)
+  )
+  if (headingIndex === -1)
+    throw new Error(`Generated page section not found: ${heading}`)
+
+  const level = lines[headingIndex].startsWith('###') ? 3 : 2
+  const sectionEnd = lines.findIndex(
+    (value, index) =>
+      index > headingIndex && new RegExp(`^#{1,${level}} `).test(value)
+  )
+  const end = sectionEnd === -1 ? lines.length : sectionEnd
+  const entryIndexes = []
+  for (let index = headingIndex + 1; index < end; index += 1) {
+    if (lines[index].startsWith('* <span class="blog-entry"')) {
+      if (lines[index].includes(`url="${entry.url}"`)) return source
+      entryIndexes.push(index)
+    }
+  }
+
+  const rendered = line(entry)
+  const firstAfter = entryIndexes.find(
+    (index) =>
+      compareBlogNames(
+        { name: entryName(lines[index]), url: '' },
+        { name: entry.name, url: entry.url }
+      ) > 0
+  )
+  if (firstAfter !== undefined) {
+    lines.splice(firstAfter, 0, rendered, '')
+  } else if (entryIndexes.length) {
+    lines.splice(entryIndexes.at(-1) + 1, 0, rendered)
+  } else {
+    lines.splice(headingIndex + 1, 0, '', rendered)
+  }
+  return lines.join('\n')
+}
+
+export function addBlogToCountryPage(source, entry, heading, countryName) {
+  const updated = insertBlogEntryIntoPage(source, entry, heading)
+  if (updated === source) return source
+  const resolvedCountryName = countryName ?? getCountryInfo(entry.country)?.name
+  if (!resolvedCountryName)
+    throw new Error(`Invalid country for ${entry.name}: ${entry.country}`)
+  const countPattern = new RegExp(
+    `(description: )([0-9]+)( blogs? listed in ${resolvedCountryName}\\.)`
+  )
+  const headerPattern = new RegExp(`(:count=")([0-9]+)(" \\/>)`)
+  return updated
+    .replace(countPattern, (_, prefix, count, suffix) => {
+      const nextCount = Number(count) + 1
+      return `${prefix}${nextCount}${suffix.replace(/ blogs? /, nextCount === 1 ? ' blog ' : ' blogs ')}`
+    })
+    .replace(
+      headerPattern,
+      (_, prefix, count, suffix) => `${prefix}${Number(count) + 1}${suffix}`
+    )
+}
+
 const communityLine = (community) =>
   `* <span class="blog-entry"><BlogHealthLink name="${attribute(community.name)}" url="${attribute(community.url)}" /> - ${attribute(community.description)}</span>${renderBlogDetails({ ...community, community: true })}`
 
@@ -565,7 +632,49 @@ export function groupByCountry(entries) {
     .sort((a, b) => a.country.name.localeCompare(b.country.name))
 }
 
+export async function updateSubmissionBlogPages(url) {
+  const entry = blogs.find((candidate) => candidate.url === url)
+  if (!entry) throw new Error(`Blog submission URL not found: ${url}`)
+  const category = categories.find(({ slug }) => slug === entry.category)
+  if (!category) throw new Error(`Blog category not found: ${entry.category}`)
+  const heading = entry.subcategory ?? category.title
+  const categoryFile =
+    entry.category === 'personal-writing'
+      ? 'docs/personal-writing.md'
+      : `docs/collections/${entry.category}.md`
+  const categorySource = await readFile(resolve(categoryFile), 'utf8')
+  await writeFile(
+    resolve(categoryFile),
+    insertBlogEntryIntoPage(categorySource, entry, heading)
+  )
+
+  const allBlogsSource = await readFile(resolve('docs/blogs.md'), 'utf8')
+  await writeFile(
+    resolve('docs/blogs.md'),
+    insertBlogEntryIntoPage(allBlogsSource, entry, heading)
+  )
+
+  if (entry.country) {
+    const country = getCountryInfo(entry.country)
+    if (!country) throw new Error(`Invalid country for ${entry.name}`)
+    const countryFile = `docs${countryPath(country.code)}.md`
+    const countrySource = await readFile(resolve(countryFile), 'utf8')
+    await writeFile(
+      resolve(countryFile),
+      addBlogToCountryPage(countrySource, entry, heading, country.name)
+    )
+  }
+}
+
 if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const submissionUrlIndex = process.argv.indexOf('--submission-url')
+  if (submissionUrlIndex !== -1) {
+    const submissionUrl = process.argv[submissionUrlIndex + 1]
+    if (!submissionUrl) throw new Error('--submission-url requires a URL')
+    await updateSubmissionBlogPages(submissionUrl)
+    process.exit(0)
+  }
+
   validateBlogs(blogs)
   validateCommunities(communities)
   validateWebsites(websites)

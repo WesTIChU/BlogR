@@ -1068,6 +1068,14 @@ test('approval catalogue files include only the submission pages and its country
   assert.equal(files.includes('docs/collections/travel-outdoors.md'), false)
 })
 
+test('approval processing uses submission-scoped page generation', async () => {
+  const processor = await readFile('scripts/process-blog-submission.js', 'utf8')
+  assert.match(
+    processor,
+    /generate-blog-pages\.js'[\s\S]*'--submission-url'[\s\S]*submission\.url/
+  )
+})
+
 test('independent website approvals include taxonomy, form and directory outputs', () => {
   const files = independentWebsiteCatalogueFiles()
   assert.equal(files.includes('data/websites.json'), true)

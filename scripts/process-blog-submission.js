@@ -1324,7 +1324,11 @@ async function run() {
     generated.push('data/community-taxonomy.json')
     generated.push('.github/ISSUE_TEMPLATE/submit-community.yml')
   }
-  await exec(process.execPath, ['scripts/generate-blog-pages.js'])
+  await exec(process.execPath, [
+    'scripts/generate-blog-pages.js',
+    '--submission-url',
+    submission.url
+  ])
   await exec(process.execPath, ['scripts/generate-function-data.js'])
   generated.push(
     'shared/blogr-function-data.js',

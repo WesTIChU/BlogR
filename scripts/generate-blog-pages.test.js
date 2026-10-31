@@ -8,6 +8,7 @@ import communityTaxonomy from '../data/community-taxonomy.json' with { type: 'js
 import independentWebTaxonomy from '../data/independent-web-taxonomy.json' with { type: 'json' }
 import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 import {
+  addBlogToCountryPage,
   communityPage,
   compareBlogNames,
   compareBlogs,
@@ -17,12 +18,69 @@ import {
   groupByCategory,
   groupByCountry,
   groupBySubsection,
+  insertBlogEntryIntoPage,
   page,
   renderBlogDetails,
   renderWebsiteDetails,
   validateBlogs,
   validateCommunities
 } from './generate-blog-pages.js'
+
+test('submission page updates preserve unrelated generated entries', () => {
+  const existing =
+    '## Personal Writing\n\n### Personal Blogs & Everyday Life\n\n' +
+    '* <span class="blog-entry"><BlogHealthLink name="Existing Blog" url="https://existing.example/" /> - Existing description.</span>\n\n' +
+    '## Technology\n\n### Programming & Development\n\n* Unrelated content remains byte-for-byte unchanged.\n'
+  const entry = {
+    name: 'New Blog',
+    url: 'https://new.example/',
+    description: 'A new description.',
+    category: 'personal-writing',
+    subcategory: 'Personal Blogs & Everyday Life',
+    country: 'CA',
+    addedDate: '2026-10-31',
+    webringId: 'br-0123456789abcdef0123456789abcdef'
+  }
+  const updated = insertBlogEntryIntoPage(
+    existing,
+    entry,
+    'Personal Blogs & Everyday Life'
+  )
+  assert.match(updated, /name="New Blog"/)
+  assert.match(updated, /name="Existing Blog"/)
+  assert.match(updated, /Unrelated content remains byte-for-byte unchanged/)
+  assert.equal(
+    insertBlogEntryIntoPage(updated, entry, 'Personal Blogs & Everyday Life'),
+    updated
+  )
+})
+
+test('submission country updates only add the new entry and increment its count', () => {
+  const existing =
+    '---\ntitle: Canada Blogs\ndescription: 1 blog listed in Canada.\n---\n\n' +
+    '<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="1" />\n\n' +
+    '### Personal Blogs & Everyday Life\n\n* Existing entry\n'
+  const entry = {
+    name: 'New Blog',
+    url: 'https://new.example/',
+    description: 'A new description.',
+    category: 'personal-writing',
+    subcategory: 'Personal Blogs & Everyday Life',
+    country: 'CA',
+    addedDate: '2026-10-31',
+    webringId: 'br-0123456789abcdef0123456789abcdef'
+  }
+  const updated = addBlogToCountryPage(
+    existing,
+    entry,
+    'Personal Blogs & Everyday Life',
+    'Canada'
+  )
+  assert.match(updated, /description: 2 blogs listed in Canada/)
+  assert.match(updated, /:count="2"/)
+  assert.match(updated, /name="New Blog"/)
+  assert.match(updated, /\* Existing entry/)
+})
 
 test('adds the Webring copy component to eligible listing metadata', () => {
   const entry = {

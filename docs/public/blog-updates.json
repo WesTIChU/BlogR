@@ -168,13 +168,13 @@
   },
   "https://aaronparecki.com/": {
     "status": "success",
-    "lastPublished": "2026-10-17",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://aaronparecki.com/feed.xml",
     "latestArticle": {
-      "title": "Why I'm rebuilding my IndieWeb projects with Claude",
-      "url": "https://aaronparecki.com/2026/10/17/5/rebuilding-my-indieweb-projects",
-      "summary": "I recently came across Brennan's post noticing that Claude Code has been showing up in the commit history of a bunch of my IndieWeb projects lately. That's true! I was wondering when someone would no…",
-      "publishedAt": "2026-10-17T14:46:17.000Z"
+      "title": "Identity Assertion JWT Authorization Grant Draft 06",
+      "url": "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06",
+      "summary": "We've just published draft -06 of the Identity Assertion JWT Authorization Grant (ID-JAG):",
+      "publishedAt": "2026-10-31T00:55:21.000Z"
     }
   },
   "https://accidentalwoodworker.blogspot.com/": {
@@ -220,7 +220,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -319,7 +319,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-19",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -361,7 +361,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -416,7 +416,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -621,7 +621,7 @@
     "status": "unavailable"
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -751,7 +751,7 @@
     "status": "unavailable"
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -912,7 +912,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-13",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1463,7 +1463,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -1537,7 +1537,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-17",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1698,7 +1698,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1764,7 +1764,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -1832,7 +1832,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2086,7 +2086,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2160,13 +2160,13 @@
   },
   "https://greatawakeningreport.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "The Atmosphere Broke | Hunga Tonga Explainer",
-      "url": "https://greatawakeningreport.com/the-atmosphere-broke-and-now-its-snapping-back/",
-      "summary": "Volcanoes are supposed to cool the planet. That single expectation is what this explainer on Hunga Tonga water vapor sets out to overturn, and the reason it matters is that the eruption in question b…",
-      "publishedAt": "2026-10-30T23:10:00.000Z"
+      "title": "The Dimming | Climate Engineering Documentary",
+      "url": "https://greatawakeningreport.com/the-dimming-full-length-climate-engineering-documentary/",
+      "summary": "The Dimming documentary is the most substantial piece of film work the climate engineering research community has produced, and it functions as the reference text for the entire subject. Presented by…",
+      "publishedAt": "2026-10-31T01:40:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -2320,7 +2320,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -2331,7 +2331,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -2353,7 +2353,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -2458,7 +2458,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -2623,7 +2623,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -2634,7 +2634,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -2656,7 +2656,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://johnclare.blogspot.com/": {
@@ -2816,7 +2816,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -2832,7 +2832,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -3424,7 +3424,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3435,7 +3435,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -4184,7 +4184,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -4755,13 +4755,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Toad Town map found on Nintendo&rsquo;s official 2000 Japanese site for Paper Mario.",
-      "url": "https://smallmariofindings.tumblr.com/post/831941257630826496",
-      "summary": "Toad Town map found on Nintendo’s official 2000 Japanese site for Paper Mario. Main Blog | Patreon | Twitter | Bluesky | Small Findings | Source",
-      "publishedAt": "2026-10-30T22:56:50.000Z"
+      "title": "Set of four officially licensed 2012 Paper Mario: Sticker Star cushions from Japan.",
+      "url": "https://smallmariofindings.tumblr.com/post/831949338241630208",
+      "summary": "Set of four officially licensed 2012 Paper Mario: Sticker Star cushions from Japan. Source: blacktangent Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-10-31T01:05:16.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -4834,7 +4834,7 @@
     "status": "unavailable"
   },
   "https://stamphacks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-26",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -4848,7 +4848,7 @@
     "status": "unavailable"
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -5561,7 +5561,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -5598,7 +5598,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -5642,7 +5642,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -5679,7 +5679,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -5921,7 +5921,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -6292,7 +6292,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -6540,7 +6540,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -6572,7 +6572,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6663,7 +6663,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -6711,7 +6711,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -6761,7 +6761,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -6774,7 +6774,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -6783,7 +6783,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-28",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -6802,10 +6802,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.newsfromme.com/feed/",
     "latestArticle": {
-      "title": "It Gets Better…",
-      "url": "https://www.newsfromme.com/2026/10/30/it-gets-better/",
-      "summary": "I was a big fan of a sitcom called The Many Loves of Dobie Gillis which ran four seasons on CBS — from 1959 to 1963. When I found the first episode (i.e., the pilot) online, I decided to post it here…",
-      "publishedAt": "2026-10-31T00:06:56.000Z"
+      "title": "Cheesecake Chatter",
+      "url": "https://www.newsfromme.com/2026/10/30/cheesecake-chatter/",
+      "summary": "Desi Lydic \"Foxsplains\" Obama's Cheesecake Factory joke. As the clips in this video show, no one on the Trump side seems to understand what it meant but they know Obama said it so they have to come u…",
+      "publishedAt": "2026-10-31T01:27:54.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -6831,7 +6831,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -6998,7 +6998,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-28",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -7012,7 +7012,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7194,7 +7194,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -7244,14 +7244,14 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unknown",
-    "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/home/feed/",
+    "status": "success",
+    "lastPublished": "2026-06-24",
+    "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
-      "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
-      "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
-      "summary": "In reply to Karen Pugh . Thanks so much Karen. I included absolutely everything I know, so it's lovely to hear you found it interesting. I hope you get to visit and experience the peninsulas for your…",
-      "publishedAt": "2021-12-01T20:59:18.000Z"
+      "title": "Insta360 x4 Air: Quick Review",
+      "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
+      "summary": "If you’re thinking about buying a 360° camera for vlogging, outdoor adventures or to capture travel memories, this is my to-the-point review of the Insta360 X4 Air camera, plus a wee shout-out to the…",
+      "publishedAt": "2026-06-24T09:01:32.000Z"
     }
   },
   "https://www.theculturetrip.com/": {
@@ -7269,7 +7269,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -7280,7 +7280,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-20",
     "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
     "latestArticle": {
@@ -7434,7 +7434,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-10-19",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -7524,7 +7524,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-03-31",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {

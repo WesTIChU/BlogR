@@ -1,10 +1,15 @@
 import { comparableBlogUrl } from './new-blog-entries.js'
+import { canonicalSubmissionUrl } from './submission-url.js'
 
 export const canonicalBlogUrl = (value) => comparableBlogUrl(value)
+export const canonicalSubmissionIdentity = (value) =>
+  canonicalSubmissionUrl(value)
 
 export const findListedBlog = (blogs, value) => {
-  const canonical = canonicalBlogUrl(value)
-  return blogs.find((blog) => canonicalBlogUrl(blog.url) === canonical)
+  const canonical = canonicalSubmissionIdentity(value)
+  return blogs.find(
+    (blog) => canonicalSubmissionIdentity(blog.url) === canonical
+  )
 }
 
 export const entriesForSubmissionType = (
@@ -18,7 +23,7 @@ export const crossSectionMatches = (
   value,
   { blogs = [], websites = [], communities = [] }
 ) => {
-  const canonical = canonicalBlogUrl(value)
+  const canonical = canonicalSubmissionIdentity(value)
   const sections = [
     ['blog', blogs],
     ['website', websites],
@@ -28,19 +33,19 @@ export const crossSectionMatches = (
     .filter(([section]) => section !== type)
     .flatMap(([section, entries]) =>
       entries
-        .filter((entry) => canonicalBlogUrl(entry.url) === canonical)
+        .filter((entry) => canonicalSubmissionIdentity(entry.url) === canonical)
         .map((entry) => ({ type: section, entry }))
     )
 }
 
 export const hasPendingSubmission = (issues, value) => {
-  const canonical = canonicalBlogUrl(value)
+  const canonical = canonicalSubmissionIdentity(value)
   return issues.some((issue) =>
     String(issue.body ?? '')
       .split(/\s+/)
       .some((candidate) => {
         try {
-          return canonicalBlogUrl(candidate) === canonical
+          return canonicalSubmissionIdentity(candidate) === canonical
         } catch {
           return false
         }

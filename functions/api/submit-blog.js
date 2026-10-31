@@ -1,4 +1,5 @@
 import {
+  canonicalSubmissionIdentity,
   crossSectionMatches,
   entriesForSubmissionType,
   findListedBlog,
@@ -10,6 +11,7 @@ import {
   buildCommunityIssueBody,
   buildIndependentWebsiteIssueBody,
   buildIssueBody,
+  SubmissionUrlError,
   validateCommunityInput,
   validateIndependentWebsiteInput,
   validateSubmissionInput
@@ -22,6 +24,18 @@ const json = (body, status = 200) =>
     status,
     headers: { 'content-type': 'application/json; charset=utf-8' }
   })
+
+const submissionLocks = new Map()
+const recentSubmissions = new Map()
+
+const withSubmissionLock = (key, task) => {
+  const previous = submissionLocks.get(key) ?? Promise.resolve()
+  const current = previous.catch(() => undefined).then(task)
+  submissionLocks.set(key, current)
+  return current.finally(() => {
+    if (submissionLocks.get(key) === current) submissionLocks.delete(key)
+  })
+}
 
 const githubRequest = async (env, path, options = {}) => {
   const response = await fetch(`https://api.github.com${path}`, {
@@ -128,84 +142,106 @@ export async function onRequestPost({ request, env }) {
           : validateSubmissionInput(payload)
   } catch (error) {
     return json(
-      { error: error instanceof Error ? error.message : 'Invalid submission.' },
-      400
-    )
-  }
-
-  let listed
-  try {
-    listed = findListedBlog(
-      entriesForSubmissionType(type, { blogs, websites, communities }),
-      submission.url
-    )
-  } catch {
-    return json(
-      { error: 'Duplicate checking is temporarily unavailable.' },
-      503
-    )
-  }
-  if (listed)
-    return json(
       {
-        error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} is already listed in BlogR Directory.`
+        error: error instanceof Error ? error.message : 'Invalid submission.',
+        ...(error instanceof SubmissionUrlError
+          ? { code: error.code, suggestedUrl: error.suggestedUrl }
+          : {})
       },
-      409
-    )
-
-  const repository = env.GITHUB_REPOSITORY
-  let existing
-  try {
-    existing = await getOpenSubmissionIssues(
-      env,
-      repository,
-      type === 'website'
-        ? 'independent-web-submission'
-        : type === 'community'
-          ? 'community-submission'
-          : 'blog-submission'
-    )
-  } catch {
-    return json({ error: 'Submissions are temporarily unavailable.' }, 502)
-  }
-  if (hasPendingSubmission(existing, submission.url)) {
-    return json(
-      {
-        error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} has already been submitted and is awaiting review.`
-      },
-      409
+      error instanceof SubmissionUrlError && error.code === 'article-url'
+        ? 422
+        : 400
     )
   }
 
-  const crossSection = crossSectionMatches(type, submission.url, {
-    blogs,
-    websites,
-    communities
-  })
-  const crossSectionNote = crossSection.length
-    ? `\n\n### Cross-section duplicate warning\n\nThis URL is already listed in: ${crossSection.map(({ type: section }) => section).join(', ')}. This is a warning only; the administrator must decide whether the dual listing is legitimate.`
-    : ''
+  const lockKey = `${type}:${canonicalSubmissionIdentity(submission.url)}`
+  return withSubmissionLock(lockKey, async () => {
+    const recent = recentSubmissions.get(lockKey)
+    if (recent && recent > Date.now()) {
+      return json(
+        {
+          error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} has already been submitted and is awaiting review.`
+        },
+        409
+      )
+    }
+    recentSubmissions.delete(lockKey)
 
-  try {
-    const response = await githubRequest(env, `/repos/${repository}/issues`, {
-      method: 'POST',
-      body: JSON.stringify({
-        title: `${type === 'website' ? 'Independent website' : type === 'community' ? 'Community' : 'Blog'} submission: ${submission.name}`,
-        body: `${type === 'website' ? buildIndependentWebsiteIssueBody(submission) : type === 'community' ? buildCommunityIssueBody(submission) : buildIssueBody(submission)}${crossSectionNote}`,
-        labels: [
-          type === 'website'
-            ? 'independent-web-submission'
-            : type === 'community'
-              ? 'community-submission'
-              : 'blog-submission'
-        ]
-      })
-    })
-    if (!response.ok)
+    let listed
+    try {
+      listed = findListedBlog(
+        entriesForSubmissionType(type, { blogs, websites, communities }),
+        submission.url
+      )
+    } catch {
+      return json(
+        { error: 'Duplicate checking is temporarily unavailable.' },
+        503
+      )
+    }
+    if (listed)
+      return json(
+        {
+          error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} is already listed in BlogR Directory.`
+        },
+        409
+      )
+
+    const repository = env.GITHUB_REPOSITORY
+    let existing
+    try {
+      existing = await getOpenSubmissionIssues(
+        env,
+        repository,
+        type === 'website'
+          ? 'independent-web-submission'
+          : type === 'community'
+            ? 'community-submission'
+            : 'blog-submission'
+      )
+    } catch {
       return json({ error: 'Submissions are temporarily unavailable.' }, 502)
-    const issue = await response.json()
-    return json({ ok: true, issueUrl: issue.html_url })
-  } catch {
-    return json({ error: 'Submissions are temporarily unavailable.' }, 502)
-  }
+    }
+    if (hasPendingSubmission(existing, submission.url)) {
+      return json(
+        {
+          error: `This ${type === 'website' ? 'website' : type === 'community' ? 'community' : 'blog'} has already been submitted and is awaiting review.`
+        },
+        409
+      )
+    }
+
+    const crossSection = crossSectionMatches(type, submission.url, {
+      blogs,
+      websites,
+      communities
+    })
+    const crossSectionNote = crossSection.length
+      ? `\n\n### Cross-section duplicate warning\n\nThis URL is already listed in: ${crossSection.map(({ type: section }) => section).join(', ')}. This is a warning only; the administrator must decide whether the dual listing is legitimate.`
+      : ''
+
+    try {
+      const response = await githubRequest(env, `/repos/${repository}/issues`, {
+        method: 'POST',
+        body: JSON.stringify({
+          title: `${type === 'website' ? 'Independent website' : type === 'community' ? 'Community' : 'Blog'} submission: ${submission.name}`,
+          body: `${type === 'website' ? buildIndependentWebsiteIssueBody(submission) : type === 'community' ? buildCommunityIssueBody(submission) : buildIssueBody(submission)}${crossSectionNote}`,
+          labels: [
+            type === 'website'
+              ? 'independent-web-submission'
+              : type === 'community'
+                ? 'community-submission'
+                : 'blog-submission'
+          ]
+        })
+      })
+      if (!response.ok)
+        return json({ error: 'Submissions are temporarily unavailable.' }, 502)
+      const issue = await response.json()
+      recentSubmissions.set(lockKey, Date.now() + 60_000)
+      return json({ ok: true, issueUrl: issue.html_url })
+    } catch {
+      return json({ error: 'Submissions are temporarily unavailable.' }, 502)
+    }
+  })
 }

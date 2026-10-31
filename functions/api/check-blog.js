@@ -7,6 +7,10 @@ import {
 } from '../../shared/blog-duplicate.js'
 import { blogs } from '../../shared/blogr-function-data.js'
 import { communities, websites } from '../../shared/cloudflare-function-data.js'
+import {
+  articleSubmissionMessage,
+  inspectArticleUrl
+} from '../../shared/submission-url.js'
 import { validateUrl } from './submit-blog-validation.js'
 
 /* global Response, URL, fetch */
@@ -72,6 +76,20 @@ export async function onRequestGet({ request, env }) {
     url = validateUrl(rawUrl)
   } catch {
     return json({ error: 'Blog URL must be a valid HTTP(S) URL' }, 400)
+  }
+
+  if (type === 'blog') {
+    const article = inspectArticleUrl(url)
+    if (article.isArticle) {
+      return json(
+        {
+          status: 'article',
+          error: articleSubmissionMessage(article.suggestedUrl),
+          suggestedUrl: article.suggestedUrl
+        },
+        422
+      )
+    }
   }
 
   const canonical = `${type}:${canonicalBlogUrl(url)}`

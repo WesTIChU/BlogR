@@ -18,6 +18,10 @@ import {
   parseIssueForm,
   validateSubmission
 } from '../../scripts/process-blog-submission.js'
+import {
+  canonicalSubmissionUrl,
+  inspectArticleUrl
+} from '../../shared/submission-url.js'
 
 const input = (overrides = {}) => ({
   name: 'Example Blog',
@@ -77,6 +81,42 @@ test('adds HTTPS to protocol-less URLs without rewriting explicit HTTP', () => {
   assert.equal(
     validateSubmissionInput(input({ url: 'ruggedscot.com' })).url,
     'https://ruggedscot.com/'
+  )
+})
+
+test('recognises article URLs and suggests the blog section without rejecting subdirectory sites', () => {
+  const article = inspectArticleUrl(
+    'https://www.sdlindia.com/blogs/ayurveda-basics/what-is-prakriti'
+  )
+  assert.equal(article.isArticle, true)
+  assert.equal(article.suggestedUrl, 'https://www.sdlindia.com/blogs/')
+  assert.equal(
+    canonicalSubmissionUrl(
+      'https://www.sdlindia.com/blogs/article-one?utm_source=test'
+    ),
+    'https://sdlindia.com/blogs'
+  )
+  assert.equal(
+    inspectArticleUrl('https://example.com/projects/project-name/').isArticle,
+    false
+  )
+  assert.equal(
+    inspectArticleUrl('https://alice.github.io/blog/').isArticle,
+    false
+  )
+  assert.throws(
+    () =>
+      validateSubmissionInput(input({ url: 'sdlindia.com/blogs/article-one' })),
+    (error) =>
+      error.code === 'article-url' &&
+      error.suggestedUrl === 'https://sdlindia.com/blogs/'
+  )
+  assert.throws(
+    () =>
+      validateSubmissionInput(
+        input({ url: 'https://example.com/2026/10/article-title' })
+      ),
+    /individual article/
   )
 })
 
@@ -324,6 +364,96 @@ test('Pages Function rejects a pending duplicate using URL variations', async ()
       ),
       false
     )
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
+test('Pages Function rejects individual SDL India articles before creating an issue', async () => {
+  const originalFetch = globalThis.fetch
+  let githubCalls = 0
+  globalThis.fetch = async (url) => {
+    if (url.includes('siteverify'))
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    githubCalls++
+    return new Response('unexpected', { status: 500 })
+  }
+  try {
+    const response = await onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          ...input({
+            url: 'https://www.sdlindia.com/blogs/ayurveda-basics/what-is-prakriti'
+          }),
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+    assert.equal(response.status, 422)
+    assert.deepEqual(await response.json(), {
+      error:
+        'It looks like you submitted an individual article. BlogR lists websites and blogs rather than individual posts. Did you mean to submit this blog instead?',
+      code: 'article-url',
+      suggestedUrl: 'https://www.sdlindia.com/blogs/'
+    })
+    assert.equal(githubCalls, 0)
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
+test('serializes simultaneous submissions for the same website identity', async () => {
+  const originalFetch = globalThis.fetch
+  let issueCreates = 0
+  globalThis.fetch = async (url, options) => {
+    if (url.includes('siteverify'))
+      return new Response(JSON.stringify({ success: true }), { status: 200 })
+    if (options?.method === 'POST') {
+      issueCreates++
+      return new Response(
+        JSON.stringify({
+          html_url: 'https://github.com/WesTIChU/BlogR/issues/101'
+        }),
+        { status: 201 }
+      )
+    }
+    return new Response(
+      JSON.stringify(
+        issueCreates ? [{ body: '### Blog URL\n\nhttps://example.com/\n' }] : []
+      ),
+      { status: 200 }
+    )
+  }
+  const makeRequest = () =>
+    onRequestPost({
+      request: new Request('https://blogr.directory/api/submit-blog', {
+        method: 'POST',
+        body: JSON.stringify({
+          ...input({ url: 'https://www.race-example.net/?utm_source=one' }),
+          turnstileToken: 'verified'
+        }),
+        headers: { 'content-type': 'application/json' }
+      }),
+      env: {
+        GITHUB_TOKEN: 'server-only',
+        GITHUB_REPOSITORY: 'WesTIChU/BlogR',
+        TURNSTILE_SECRET_KEY: 'turnstile-secret'
+      }
+    })
+  try {
+    const responses = await Promise.all([makeRequest(), makeRequest()])
+    assert.deepEqual(
+      responses.map((response) => response.status).sort(),
+      [200, 409]
+    )
+    assert.equal(issueCreates, 1)
   } finally {
     globalThis.fetch = originalFetch
   }

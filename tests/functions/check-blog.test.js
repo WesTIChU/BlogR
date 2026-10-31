@@ -40,6 +40,22 @@ test('accepts protocol-less URLs when checking listed blogs', async () => {
   })
 })
 
+test('suggests the blog homepage for individual article URLs', async () => {
+  const response = await onRequestGet({
+    request: request(
+      'https://www.sdlindia.com/blogs/ayurveda-basics/what-is-prakriti'
+    ),
+    env
+  })
+  assert.equal(response.status, 422)
+  assert.deepEqual(await response.json(), {
+    status: 'article',
+    error:
+      'It looks like you submitted an individual article. BlogR lists websites and blogs rather than individual posts. Did you mean to submit this blog instead?',
+    suggestedUrl: 'https://www.sdlindia.com/blogs/'
+  })
+})
+
 test('checks blogs and Independent Web in separate directories', async () => {
   const originalFetch = globalThis.fetch
   globalThis.fetch = async () => new Response('[]', { status: 200 })
@@ -106,6 +122,28 @@ test('finds pending submissions without exposing GitHub data', async () => {
   try {
     const response = await onRequestGet({
       request: request('https://pending.example/blog'),
+      env
+    })
+    assert.deepEqual(await response.json(), { status: 'pending' })
+  } finally {
+    globalThis.fetch = originalFetch
+  }
+})
+
+test('matches an article submission to its parent blog identity', async () => {
+  const originalFetch = globalThis.fetch
+  globalThis.fetch = async () =>
+    new Response(
+      JSON.stringify([
+        {
+          body: '### Blog URL\n\nhttps://pending-sdl.example/blogs/diet-and-nutrition/article-one\n'
+        }
+      ]),
+      { status: 200 }
+    )
+  try {
+    const response = await onRequestGet({
+      request: request('https://pending-sdl.example/blogs'),
       env
     })
     assert.deepEqual(await response.json(), { status: 'pending' })

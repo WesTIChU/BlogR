@@ -9,6 +9,10 @@ import {
   normalizeCountryCode
 } from '../../shared/countries.js'
 import { normalizeBlogSubmissionUrl } from '../../shared/new-blog-entries.js'
+import {
+  articleSubmissionMessage,
+  inspectArticleUrl
+} from '../../shared/submission-url.js'
 
 /* global URL */
 
@@ -20,6 +24,15 @@ export const OTHER_COUNTRY_OPTION = 'Other / Not listed'
 export const OTHER_CATEGORY_OPTION = 'Other / Suggest a new category'
 export const OTHER_SUBCATEGORY_OPTION = 'Other / Suggest a new subcategory'
 export const MAX_TAXONOMY_SUGGESTION_LENGTH = 80
+
+export class SubmissionUrlError extends Error {
+  constructor(message, { code = 'invalid-url', suggestedUrl = null } = {}) {
+    super(message)
+    this.name = 'SubmissionUrlError'
+    this.code = code
+    this.suggestedUrl = suggestedUrl
+  }
+}
 
 const cleanSingleLine = (value, field, maxLength) => {
   if (typeof value !== 'string') throw new Error(`Missing ${field}`)
@@ -75,7 +88,7 @@ const isPrivateIpv4 = (hostname) => {
   )
 }
 
-export const validateUrl = (value) => {
+export const validateUrl = (value, { rejectArticles = false } = {}) => {
   if (typeof value !== 'string' || value.length > MAX_URL_LENGTH) {
     throw new Error('Blog URL is missing or too long')
   }
@@ -99,6 +112,18 @@ export const validateUrl = (value) => {
   ) {
     throw new Error('Blog URL must be a public HTTP(S) URL')
   }
+  if (rejectArticles) {
+    const article = inspectArticleUrl(url.toString())
+    if (article.isArticle) {
+      throw new SubmissionUrlError(
+        articleSubmissionMessage(article.suggestedUrl),
+        {
+          code: 'article-url',
+          suggestedUrl: article.suggestedUrl
+        }
+      )
+    }
+  }
   return url.toString()
 }
 
@@ -113,7 +138,7 @@ export function validateSubmissionInput(input) {
     throw new Error('Invalid submission')
   }
   const name = cleanSingleLine(input.name, 'blog name', MAX_NAME_LENGTH)
-  const url = validateUrl(input.url)
+  const url = validateUrl(input.url, { rejectArticles: true })
   const description = cleanDescription(input.description)
   const categoryTitle = cleanSingleLine(
     input.category,
@@ -204,7 +229,7 @@ const categoryOrSuggestion = (value, suggestion, categories, field) => {
 
 export function validateIndependentWebsiteInput(input) {
   const name = cleanSingleLine(input.name, 'website name', MAX_NAME_LENGTH)
-  const url = validateUrl(input.url)
+  const url = validateUrl(input.url, { rejectArticles: true })
   const description = cleanDescription(input.description)
   const selectedCategory = categoryOrSuggestion(
     input.category,

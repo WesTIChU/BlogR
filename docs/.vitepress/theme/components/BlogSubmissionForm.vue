@@ -43,15 +43,22 @@ const duplicateStatus = ref<
   | 'checking'
   | 'listed'
   | 'pending'
+  | 'article'
   | 'available'
   | 'unavailable'
   | 'invalid'
 >('idle')
 const duplicateName = ref('')
 const duplicateListingUrl = ref('')
+const suggestedUrl = ref('')
 const duplicateCache = new Map<
   string,
-  { status: typeof duplicateStatus.value; name?: string; listingUrl?: string }
+  {
+    status: typeof duplicateStatus.value
+    name?: string
+    listingUrl?: string
+    suggestedUrl?: string
+  }
 >()
 let duplicateTimer: ReturnType<typeof setTimeout> | undefined
 let duplicateRequest = 0
@@ -66,6 +73,7 @@ const checkDuplicate = async () => {
   if (!value) {
     duplicateStatus.value = 'idle'
     duplicateListingUrl.value = ''
+    suggestedUrl.value = ''
     return
   }
   let normalized: string
@@ -81,6 +89,7 @@ const checkDuplicate = async () => {
     duplicateStatus.value = cached.status
     duplicateName.value = cached.name ?? ''
     duplicateListingUrl.value = cached.listingUrl ?? ''
+    suggestedUrl.value = cached.suggestedUrl ?? ''
     return
   }
   duplicateStatus.value = 'checking'
@@ -89,15 +98,17 @@ const checkDuplicate = async () => {
       `/api/check-blog?type=${encodeURIComponent(form.value.type)}&url=${encodeURIComponent(normalized)}`
     )
     const result = await response.json().catch(() => ({}))
-    if (!response.ok) throw new Error()
+    if (!response.ok && result.status !== 'article') throw new Error()
     if (requestId !== duplicateRequest) return
     duplicateStatus.value = result.status
     duplicateName.value = result.name ?? ''
     duplicateListingUrl.value = result.listingUrl ?? ''
+    suggestedUrl.value = result.suggestedUrl ?? ''
     duplicateCache.set(canonical, {
       status: result.status,
       name: result.name,
-      listingUrl: result.listingUrl
+      listingUrl: result.listingUrl,
+      suggestedUrl: result.suggestedUrl
     })
   } catch {
     if (requestId === duplicateRequest) duplicateStatus.value = 'unavailable'
@@ -113,6 +124,7 @@ const normalizeUrlField = () => {
     duplicateStatus.value = 'invalid'
     duplicateName.value = ''
     duplicateListingUrl.value = ''
+    suggestedUrl.value = ''
   }
 }
 
@@ -121,6 +133,7 @@ const scheduleDuplicateCheck = () => {
   duplicateStatus.value = 'idle'
   duplicateName.value = ''
   duplicateListingUrl.value = ''
+  suggestedUrl.value = ''
   duplicateTimer = setTimeout(checkDuplicate, 500)
 }
 
@@ -131,6 +144,7 @@ watch(
     duplicateStatus.value = 'idle'
     duplicateName.value = ''
     duplicateListingUrl.value = ''
+    suggestedUrl.value = ''
     if (form.value.url) checkDuplicate()
   }
 )
@@ -259,9 +273,11 @@ const submit = async () => {
         ? `This ${noun} is already listed in BlogR Directory.`
         : duplicateStatus.value === 'pending'
           ? `This ${noun} has already been submitted and is awaiting review.`
-          : duplicateStatus.value === 'invalid'
-            ? 'Please enter a valid website address, such as https://example.com.'
-            : 'We could not confirm that this URL is available. Please try again.'
+          : duplicateStatus.value === 'article'
+            ? 'It looks like you submitted an individual article. BlogR lists websites and blogs rather than individual posts. Please use the suggested blog URL below.'
+            : duplicateStatus.value === 'invalid'
+              ? 'Please enter a valid website address, such as https://example.com.'
+              : 'We could not confirm that this URL is available. Please try again.'
     return
   }
   if (!siteKey || !turnstileId.value) {
@@ -280,8 +296,13 @@ const submit = async () => {
       })
     })
     const result = await response.json().catch(() => ({}))
-    if (!response.ok)
+    if (!response.ok) {
+      if (result.code === 'article-url') {
+        duplicateStatus.value = 'article'
+        suggestedUrl.value = result.suggestedUrl ?? ''
+      }
       throw new Error(result.error || 'Unable to submit the blog right now.')
+    }
     success.value = `Thanks for submitting your ${noun}! Your submission has been received and is awaiting review.`
     if (result.issueUrl)
       success.value += ` You can view the submission issue here: ${result.issueUrl}`
@@ -308,6 +329,13 @@ const submit = async () => {
     if (turnstileId.value) window.turnstile?.reset(turnstileId.value)
     turnstileToken.value = ''
   }
+}
+
+const useSuggestedUrl = () => {
+  if (!suggestedUrl.value) return
+  form.value.url = suggestedUrl.value
+  duplicateStatus.value = 'checking'
+  checkDuplicate()
 }
 
 const categoryChanged = () => {
@@ -402,6 +430,7 @@ const countryChanged = () => {
           'blog-submission-error':
             duplicateStatus === 'listed' ||
             duplicateStatus === 'pending' ||
+            duplicateStatus === 'article' ||
             duplicateStatus === 'unavailable' ||
             duplicateStatus === 'invalid'
         }"
@@ -427,6 +456,19 @@ const countryChanged = () => {
         <template v-else-if="duplicateStatus === 'pending'">
           This {{ form.type }} has already been submitted and is awaiting
           review.
+        </template>
+        <template v-else-if="duplicateStatus === 'article'">
+          It looks like you've submitted an individual article. BlogR lists
+          websites and blogs rather than individual posts. Did you mean to
+          submit this blog instead?
+          <button
+            v-if="suggestedUrl"
+            type="button"
+            class="blog-submission-suggested-url"
+            @click="useSuggestedUrl"
+          >
+            Use {{ suggestedUrl }}
+          </button>
         </template>
         <template v-else-if="duplicateStatus === 'available'">
           This {{ form.type }} isn't listed yet. You can continue!

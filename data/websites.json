@@ -1014,5 +1014,42 @@
     "addedAt": "2026-10-30T00:00:00.000Z",
     "clicks": 0,
     "webringId": "br-22e4c380fbfaa523a43d260ac139475b"
+  },
+  {
+    "id": "voltage-drop-calculator",
+    "name": "Voltage Drop Calculator",
+    "url": "https://voltagedropcalculator.net/",
+    "description": "Electrical calculation tools for voltage drop and wire sizing, with conductor comparisons, efficiency analysis, downloadable PDF reports and practical electrical reference material.",
+    "category": "Independent Tools",
+    "subcategory": "Useful Tools",
+    "addedDate": "2026-10-31",
+    "addedAt": "2026-10-31T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-269892f8b4c81997bceb96b7374800ad"
+  },
+  {
+    "id": "the-stranger-dollar",
+    "name": "The Stranger Dollar",
+    "url": "https://thestrangerdollar.pages.dev/",
+    "description": "A quirky one-page internet experiment asking whether 10,000 strangers will each contribute one dollar for no reward, with a small team of AI agents helping run the project.",
+    "category": "Creative Projects",
+    "subcategory": "Experimental Projects",
+    "addedDate": "2026-10-31",
+    "addedAt": "2026-10-31T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-04fe7b1b4ab82742f415629a8553cb73"
+  },
+  {
+    "id": "khalids-computer",
+    "name": "Khalid's Computer",
+    "url": "https://khalid.computer/",
+    "description": "A nostalgic Windows XP-style personal website with an interactive desktop, personal writing, a photo gallery, music and small browser-based experiments.",
+    "category": "Personal Websites",
+    "subcategory": "Personal Homepages",
+    "country": "GB",
+    "addedDate": "2026-10-31",
+    "addedAt": "2026-10-31T00:00:00.000Z",
+    "clicks": 0,
+    "webringId": "br-ed0897cae2f4b3b4cd93107b888c7cc1"
   }
 ]

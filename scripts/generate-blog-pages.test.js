@@ -858,7 +858,7 @@ test('renders nested category headings and preserves blog metadata', () => {
 
 test('keeps the separate community catalogue complete and unique', () => {
   validateCommunities(communities)
-  assert.equal(communities.length, 45)
+  assert.equal(communities.length, 46)
   assert.deepEqual(
     [...new Set(communities.map((community) => community.section))],
     ['forums', 'independent-communities']

@@ -338,6 +338,17 @@
       "publishedAt": "2026-10-26T19:56:01.000Z"
     }
   },
+  "https://andre.lackmann.net/posts/": {
+    "status": "success",
+    "lastPublished": "2026-10-30",
+    "feedUrl": "https://andre.lackmann.net/posts/index.xml",
+    "latestArticle": {
+      "title": "A DIY E-Ink Dashboard with TRMNL",
+      "url": "https://andre.lackmann.net/posts/projects/2026/10/trmnl-e-ink-dashboard/",
+      "summary": "A 7.5\" e-ink display showing weather, F1 schedules, and eventually solar stats — built around the TRMNL ecosystem, a custom 3D-printed fridge-mount case, and a self-hosted Terminus backend.",
+      "publishedAt": "2026-10-30T22:00:00.000Z"
+    }
+  },
   "https://andregarzia.com/": {
     "status": "success",
     "lastPublished": "2026-10-08",
@@ -2644,6 +2655,17 @@
       "publishedAt": "2026-10-01T03:00:00.000Z"
     }
   },
+  "https://jeffmilner.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-31",
+    "feedUrl": "https://jeffmilner.com/index.php/feed/",
+    "latestArticle": {
+      "title": "Patrick Stewart Dies at 86",
+      "url": "https://jeffmilner.com/index.php/2026/10/30/patrick-stewart-dies-at-86/",
+      "summary": "When I heard the news that Patrick Stewart died, I started thinking about one of my favourite episodes of Star Trek: The Next Generation, Season 5, episode 25: “The Inner Light”. In that episode, Cap…",
+      "publishedAt": "2026-10-31T03:58:20.000Z"
+    }
+  },
   "https://jensfoodblog.com/": {
     "status": "success",
     "lastPublished": "2026-10-27",
@@ -3600,6 +3622,17 @@
       "url": "https://moxiemoshpit.com/blog/your-mums-favourite-nu-metal-band/",
       "summary": "About a month ago, Sumo Cyco announced their first run of EU shows since 2017 as a supporting act for BLACKGOLD. I was gonna go regardless of who Sumo Cyco were opening for, because well, they're my …",
       "publishedAt": "2026-10-19T12:08:43.000Z"
+    }
+  },
+  "https://musicaltheatrereview.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-31",
+    "feedUrl": "https://musicaltheatrereview.com/feed/",
+    "latestArticle": {
+      "title": "Matilda The Musical – Milton Keynes Theatre and Touring",
+      "url": "https://musicaltheatrereview.com/matilda-the-musical-milton-keynes-theatre-and-touring-2/",
+      "summary": "Matilda The Musical was reviewed at Milton Keynes Theatre where it continues until 14 November 2026. The production continues touring until 17 January 2027. Star rating: five stars ★ ★ ★ ★ ★ A charmi…",
+      "publishedAt": "2026-10-31T00:32:11.000Z"
     }
   },
   "https://mybpool.wordpress.com/": {

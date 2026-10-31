@@ -189,11 +189,44 @@ const headingPattern = (heading) =>
 const entryName = (value) =>
   value.match(/<BlogHealthLink name="([^"]+)"/)?.[1] ?? ''
 
-export function insertBlogEntryIntoPage(source, entry, heading) {
+export function insertBlogEntryIntoPage(
+  source,
+  entry,
+  heading,
+  parentHeading = null
+) {
   const lines = source.split('\n')
-  const headingIndex = lines.findIndex((value) =>
+  let headingIndex = lines.findIndex((value) =>
     headingPattern(heading).test(value)
   )
+  if (headingIndex === -1 && parentHeading) {
+    const parentIndex = lines.findIndex((value) =>
+      headingPattern(parentHeading).test(value)
+    )
+    if (parentIndex !== -1) {
+      const parentEnd = lines.findIndex(
+        (value, index) => index > parentIndex && /^## /.test(value)
+      )
+      const end = parentEnd === -1 ? lines.length : parentEnd
+      const rendered = line(entry)
+      lines.splice(end, 0, `### ${heading}`, '', rendered, '')
+      return lines.join('\n')
+    }
+
+    const rendered = line(entry)
+    const newSection = `## ${parentHeading}\n\n### ${heading}\n\n${rendered}\n`
+    const nextCategory = lines.findIndex(
+      (value, index) =>
+        index > 0 &&
+        /^## /.test(value) &&
+        value.slice(3).localeCompare(parentHeading, undefined, {
+          sensitivity: 'base'
+        }) > 0
+    )
+    if (nextCategory === -1) return `${source.trimEnd()}\n\n${newSection}`
+    lines.splice(nextCategory, 0, newSection)
+    return lines.join('\n')
+  }
   if (headingIndex === -1)
     throw new Error(`Generated page section not found: ${heading}`)
 
@@ -229,8 +262,14 @@ export function insertBlogEntryIntoPage(source, entry, heading) {
   return lines.join('\n')
 }
 
-export function addBlogToCountryPage(source, entry, heading, countryName) {
-  const updated = insertBlogEntryIntoPage(source, entry, heading)
+export function addBlogToCountryPage(
+  source,
+  entry,
+  heading,
+  countryName,
+  parentHeading = null
+) {
+  const updated = insertBlogEntryIntoPage(source, entry, heading, parentHeading)
   if (updated === source) return source
   const resolvedCountryName = countryName ?? getCountryInfo(entry.country)?.name
   if (!resolvedCountryName)
@@ -645,13 +684,13 @@ export async function updateSubmissionBlogPages(url) {
   const categorySource = await readFile(resolve(categoryFile), 'utf8')
   await writeFile(
     resolve(categoryFile),
-    insertBlogEntryIntoPage(categorySource, entry, heading)
+    insertBlogEntryIntoPage(categorySource, entry, heading, category.title)
   )
 
   const allBlogsSource = await readFile(resolve('docs/blogs.md'), 'utf8')
   await writeFile(
     resolve('docs/blogs.md'),
-    insertBlogEntryIntoPage(allBlogsSource, entry, heading)
+    insertBlogEntryIntoPage(allBlogsSource, entry, heading, category.title)
   )
 
   if (entry.country) {
@@ -661,7 +700,13 @@ export async function updateSubmissionBlogPages(url) {
     const countrySource = await readFile(resolve(countryFile), 'utf8')
     await writeFile(
       resolve(countryFile),
-      addBlogToCountryPage(countrySource, entry, heading, country.name)
+      addBlogToCountryPage(
+        countrySource,
+        entry,
+        heading,
+        country.name,
+        category.title
+      )
     )
   }
 }

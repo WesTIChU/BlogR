@@ -32,6 +32,7 @@ Hosting services for independent blogs and personal websites, from simple shared
 * **[Pressable](https://pressable.com/)** - Managed WordPress hosting with automatic updates and backups.
 * **[Rocket.net](https://rocket.net/)** - Managed WordPress hosting with integrated edge caching and security.
 * **[WP Engine](https://wpengine.com/)** - Managed WordPress hosting for businesses and content websites.
+* **[WP Support](https://www.wp-support.com/)** - WordPress hosting, maintenance and technical support, including security, backups, troubleshooting and website migrations.
 
 ## VPS & Cloud Servers
 

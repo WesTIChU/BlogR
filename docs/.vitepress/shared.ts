@@ -203,10 +203,6 @@ const aboutItems: DefaultTheme.NavItemWithLink[] = [
 
 export const nav: DefaultTheme.NavItem[] = [
   {
-    text: '<span class="i-twemoji-house"></span> Home',
-    link: '/'
-  },
-  {
     text: '<span class="nav-submit-site"><span class="i-twemoji-open-mailbox-with-raised-flag"></span> Submit a Site</span>',
     link: '/submit/'
   },

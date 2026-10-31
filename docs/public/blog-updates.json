@@ -1975,6 +1975,11 @@
       "publishedAt": "2026-10-29T08:00:00.000Z"
     }
   },
+  "https://flamedfury.com/posts/": {
+    "status": "success",
+    "lastPublished": "2026-10-20",
+    "feedUrl": "https://flamedfury.com/feeds/posts/atom.xml"
+  },
   "https://flamingpablum.com/": {
     "status": "success",
     "lastPublished": "2026-10-30",
@@ -3568,6 +3573,17 @@
       "url": "http://momentsingraphics.de/Siggraph2026.html",
       "summary": "We propose Gaussian point splatting, a stochastic method to render Gaussian splats that scales extremely well to scenes with many Gaussians. Our core idea is to sample pixel-sized, opaque points from…",
       "publishedAt": "2026-07-01T00:00:00.000Z"
+    }
+  },
+  "https://monevator.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-31",
+    "feedUrl": "https://feeds2.feedburner.com/Monevatorcom",
+    "latestArticle": {
+      "title": "Weekend reading: Budget, boom, and bust",
+      "url": "https://monevator.com/weekend-reading-budget-boom-and-bust/",
+      "summary": "What caught my eye this week. Weekend Reading – featuring the week’s best money and investing articles from around the web – can be read by any logged-in Monevator member. Alternatively please subscr…",
+      "publishedAt": "2026-10-31T01:59:00.000Z"
     }
   },
   "https://moneywithkatie.com/blog/": {

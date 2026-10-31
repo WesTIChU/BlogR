@@ -113,13 +113,13 @@
   },
   "https://1morefilmblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-10-24",
     "feedUrl": "https://1morefilmblog.com/feed/",
     "latestArticle": {
-      "title": "American Warrior (Martin, 2024)",
-      "url": "https://1morefilmblog.com/2026/10/31/american-warrior-martin-2024/",
-      "summary": "“Are you a janitor, or are you a fighter?” The question is posed by Dennis (Danny Trejo) to Jai (Omi Vaidya), who has been thrust into the limelight and offered… Continue reading \"American Warrior (M…",
-      "publishedAt": "2026-10-31T21:49:20.000Z"
+      "title": "Being Heumann (Seder, 2026)",
+      "url": "https://1morefilmblog.com/2026/10/24/being-heumann-seder-2026/",
+      "summary": "I don’t know how many years had to pass after 9/11 before I got used to seeing airline hijackings and plane crashes in commercial movies without feeling a little cheap.… Continue reading \"Being Heuma…",
+      "publishedAt": "2026-10-24T21:36:49.000Z"
     }
   },
   "https://4gravitons.com/": {
@@ -1570,7 +1570,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -1935,7 +1935,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -5199,7 +5199,7 @@
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
+    "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -6179,7 +6179,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6942,7 +6942,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/index.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",

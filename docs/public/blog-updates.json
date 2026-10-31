@@ -45,13 +45,13 @@
   },
   "http://www.cherryandspoon.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-31",
     "feedUrl": "http://www.cherryandspoon.com/feeds/posts/default",
     "latestArticle": {
-      "title": "\"memento vivere: remember to live\" by The Moving Company at The Southern Theater",
-      "url": "http://www.cherryandspoon.com/2026/10/memento-vivere-remember-to-live-by.html",
-      "summary": "Sitting down in the red velvet seats of the gorgeous and historic Southern Theater last night, I had no idea what I was about to see. This is usually the case with The Moving Company; they sometimes …",
-      "publishedAt": "2026-10-29T22:13:27.557Z"
+      "title": "\"The Pirates of Penzance\" by Gilbert and Sullivan Very Light Opera Company at the Conn Theater",
+      "url": "http://www.cherryandspoon.com/2026/10/the-pirates-of-penzance-by-gilbert-and.html",
+      "summary": "It's only been four years since The Gilbert and Sullivan Very Light Opera Company did The Pirates of Penzance , but I'm not mad about the repeat. Pirates is my favorite G&S opera and the one that int…",
+      "publishedAt": "2026-10-31T21:54:35.933Z"
     }
   },
   "http://www.galactichunter.com/GH/": {
@@ -113,13 +113,13 @@
   },
   "https://1morefilmblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://1morefilmblog.com/feed/",
     "latestArticle": {
-      "title": "Being Heumann (Seder, 2026)",
-      "url": "https://1morefilmblog.com/2026/10/24/being-heumann-seder-2026/",
-      "summary": "I don’t know how many years had to pass after 9/11 before I got used to seeing airline hijackings and plane crashes in commercial movies without feeling a little cheap.… Continue reading \"Being Heuma…",
-      "publishedAt": "2026-10-24T21:36:49.000Z"
+      "title": "American Warrior (Martin, 2024)",
+      "url": "https://1morefilmblog.com/2026/10/31/american-warrior-martin-2024/",
+      "summary": "“Are you a janitor, or are you a fighter?” The question is posed by Dennis (Danny Trejo) to Jai (Omi Vaidya), who has been thrust into the limelight and offered… Continue reading \"American Warrior (M…",
+      "publishedAt": "2026-10-31T21:49:20.000Z"
     }
   },
   "https://4gravitons.com/": {
@@ -160,10 +160,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Linux Mint Devs Introduce New System Monitor and Terminal Emulator Apps",
-      "url": "https://9to5linux.com/linux-mint-devs-introduce-new-system-monitor-and-terminal-emulator-apps",
-      "summary": "Linux Mint devs unveil new system monitor, archive manager, and terminal emulator apps for Linux Mint, along with a preview pane for Nemo and hibernation support. The post Linux Mint Devs Introduce N…",
-      "publishedAt": "2026-10-31T15:47:42.000Z"
+      "title": "OpenShot 4.1 Video Editor Is Out with Native ARM64 Linux Builds and Text Editing",
+      "url": "https://9to5linux.com/openshot-4-1-video-editor-is-out-with-native-arm64-linux-builds-and-text-editing",
+      "summary": "OpenShot 4.1 open-source video editor is now available for download with native text editing, native Linux ARM64 builds, CLI automation, and more. The post OpenShot 4.1 Video Editor Is Out with Nativ…",
+      "publishedAt": "2026-10-31T21:45:56.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -200,13 +200,13 @@
   },
   "https://adamj.eu/tech/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-10-30",
     "feedUrl": "https://adamj.eu/tech/atom.xml",
     "latestArticle": {
-      "title": "Zsh: uncover hidden files in globs with (D)",
-      "url": "https://adamj.eu/tech/2026/10/29/zsh-d-glob-qualifier/",
-      "summary": "By default, Zsh globs skip hidden files and directories, meaning those with names starting with a dot. For example, in a project directory, * misses all the configuration files and directories: $ ls …",
-      "publishedAt": "2026-10-29T00:00:00.000Z"
+      "title": "Zsh: glob case-insensitively with the (#i) glob flag and the no_case_glob option",
+      "url": "https://adamj.eu/tech/2026/10/30/zsh-case-insensitive-globbing/",
+      "summary": "By default, Zsh globs are case-sensitive, so *.jpg matches beach.jpg but not CAT.JPG or dog.Jpg : $ ls photos/*.jpg photos/beach.jpg This is true even on macOS, where the filesystem is case-insensiti…",
+      "publishedAt": "2026-10-30T00:00:00.000Z"
     }
   },
   "https://addenda.ghost.io/": {
@@ -1467,10 +1467,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://cruisingwithbillandmaryann.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Report #59---Thursday, October 29, 2026---Sea Day #4 Of 6----Enroute To Avatoru, Rangiroa, French Polynesia----Sunny With Clouds---84 Degrees---70% Humidity---4.3mph Winds---Ships Speed--13 Knots------Casual Dress",
-      "url": "https://cruisingwithbillandmaryann.blogspot.com/2026/10/report-59-thursday-october-29-2026-sea.html",
-      "summary": "As we have mentioned, today should have been a visit to Fanning Island, Kiribati, but due to technical problems with the ship, it had to be cancelled. For those who have never been there, it is a pla…",
-      "publishedAt": "2026-10-31T00:10:31.837Z"
+      "title": "Report #60---Friday, October 30, 2026---Sea Day #5 Of 6---Enroute To Avatoru, Rangiroa, French Polynesia---Partly Cloudy--84 Degrees---75% Humidity---12.6mph Winds---Ships Speed 13 Knots----Casual Dress",
+      "url": "https://cruisingwithbillandmaryann.blogspot.com/2026/10/report-60-friday-october-30-2026-sea.html",
+      "summary": "There was another fabulous sunrise this morning around 5:37am indicating we would have another fine day at sea. Who's up that early? Certainly, not me. I am more than happy to see the photos. The tem…",
+      "publishedAt": "2026-10-31T22:17:06.418Z"
     }
   },
   "https://cryptonews.mobile/": {
@@ -1478,10 +1478,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Chainalysis confirms agentic AI cyberattack exposed non-sensitive customer data",
-      "url": "https://cryptonews.mobile/brief/chainalysis-confirms-agentic-ai-cyberattack-exposed-non-sensitive-customer-data",
-      "summary": "Chainalysis confirmed a cyberattack involving offensive agentic AI techniques. The company said the breach exposed customer names, email addresses, user IDs and organization role labels. It found no …",
-      "publishedAt": "2026-10-31T20:41:19.000Z"
+      "title": "Next Technology authorizes sale or pledge of 5,833 BTC after Binance hack",
+      "url": "https://cryptonews.mobile/brief/next-technology-authorizes-sale-or-pledge-of-5833-btc-after-binance-hack",
+      "summary": "Nasdaq-listed Next Technology Holding said its board unanimously approved selling or pledging its roughly 5,833 BTC in one or more tranches. The company ranked 18th among publicly traded corporate bi…",
+      "publishedAt": "2026-10-31T22:26:12.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1935,7 +1935,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -2131,7 +2131,7 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://glasgowgallivanter.com/feed/",
     "latestArticle": {
-      "title": "John’s epic French cycle: part 3",
+      "title": "John’s epic French cycle: part 3",
       "url": "https://glasgowgallivanter.com/2026/10/26/cycling-france-3/",
       "summary": "Week 3: from Vallon Pont d'Arc to Nice.",
       "publishedAt": "2026-10-26T10:30:00.000Z"
@@ -2297,9 +2297,9 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/the-ai-bubble-scorecard?source=rss",
-      "summary": "The AI bubble debate intensified this week, with 8 articles concluding it's a bubble and 4 rejecting the label.",
-      "publishedAt": "2026-10-31T16:00:00.000Z"
+      "url": "https://hackernoon.com/93-blog-posts-to-learn-about-live-streaming?source=rss",
+      "summary": "Learn everything you need to know about Live Streaming via these 93 free HackerNoon blog posts.",
+      "publishedAt": "2026-10-31T20:00:41.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -3262,10 +3262,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "How We Could Have Backdoored Bash (Hacktron blog)",
-      "url": "https://lwn.net/Articles/1104262/",
-      "summary": "The Hacktron blog documents how the group was able to compromise the GNU Savannah forge and could have pushed malware into any of the projects hosted there. Using Hacktron, we found that an email add…",
-      "publishedAt": "2026-10-31T14:00:42.000Z"
+      "title": "A massive pile of security updates for Saturday",
+      "url": "https://lwn.net/Articles/1104612/",
+      "summary": "Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, aspell, bind, bind9.18, container-tools:1.0, container-tools:rhel8, curl, dogtag-pki, ignition, java-21-openj…",
+      "publishedAt": "2026-10-31T22:34:30.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -4193,10 +4193,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Sabbath Bloody Sabbath 💀",
-      "url": "https://projectswordtoys.blogspot.com/2026/10/sabbath-bloody-sabbath.html",
-      "summary": "https://youtu.be/mfTpjrzas5E?is=jlbyE75IOXMN0_UR",
-      "publishedAt": "2026-10-31T21:00:00.000Z"
+      "title": "Creature Castle: Good Enough to Hang",
+      "url": "https://projectswordtoys.blogspot.com/2026/10/creature-castle-good-enough-to-hang.html",
+      "summary": "I reckon this is one of the best looking creepy board game boxes ever, from 1975, Creature Castle. I'd frame it for on my wall. Alas, I sold my example years ago. Can you think of a better box top? A…",
+      "publishedAt": "2026-10-31T22:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -5325,10 +5325,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://thedeathchamber.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Armory - Echoes of the Astrolith",
-      "url": "https://thedeathchamber.blogspot.com/2026/10/armory-echoes-of-astrolith.html",
-      "summary": "Artist: Armory Album: Echoes of the Astrolith Year: 2026 Genre: Speed Metal Web: https://www.armory.se / https://armory417.bandcamp.com / https://www.facebook.com/armory Country: Sweden Quality: 320 …",
-      "publishedAt": "2026-10-31T03:45:20.386Z"
+      "title": "Surujuhla - Murtuneet [2025]",
+      "url": "https://thedeathchamber.blogspot.com/2026/10/surujuhla-murtuneet-2025.html",
+      "summary": "Artist: Surujuhla Album: Murtuneet Year: 2025 Genre: Death Metal Web: https://www.facebook.com/surujuhla# Country: Finland Quality: 320 Kbps Tracklist: 1. Tulkoon hiljaisuus 2. Ikävä 3. Kädet kasvoih…",
+      "publishedAt": "2026-10-31T22:23:48.632Z"
     }
   },
   "https://thediaryofdad.com/": {
@@ -6740,7 +6740,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -6942,7 +6942,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7551,10 +7551,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "5 Films Where the Island Isn’t on Any Map",
-      "url": "https://www.themovieblog.com/2026/10/5-films-where-the-island-isnt-on-any-map/",
-      "summary": "There is a special trope in cinema where films revolve around the uncharted. The absence of land stirs mystery, suspense, and secrets. These adventure tales go back centuries in literature, where voy…",
-      "publishedAt": "2026-10-31T21:24:00.000Z"
+      "title": "Revisiting Shoojit Sircar’s “October” (2018)",
+      "url": "https://www.themovieblog.com/2026/10/revisiting-shoojit-sircars-october-2018/",
+      "summary": "Shoojit Sircar’s 2018 masterpiece October is more than a conventional romance movie. For that very reason, it calls one for a cathartic revisit every October. The very string that pieces together the…",
+      "publishedAt": "2026-10-31T22:00:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7628,10 +7628,10 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "The Making Of: Eternal Darkness: Sanity's Requiem - 'Getting Nintendo to Sign Off on Game Elements Was Difficult'",
-      "url": "https://www.timeextension.com/#article-55388",
-      "summary": "The creation of a spooky GameCube classic. Out of all gaming genres, horror is the one that few would directly associate with Nintendo. After all, its flagship titles largely use brilliantly chirpy a…",
-      "publishedAt": "2026-10-31T20:00:00.000Z"
+      "title": "Feature: The Story Of Ecstatica, The Groundbreaking Survival Horror With Plenty Of Balls",
+      "url": "https://www.timeextension.com/#article-181669",
+      "summary": "An 18-rated ellipsoid classic. Cast your mind back to the video game landscape of the early '90s, and 2D remains king. Granted, 3D gaming was on the rise thanks to titles such as Star Fox , Alone in …",
+      "publishedAt": "2026-10-31T22:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -7756,7 +7756,7 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Taika Waititi Calls Critics “Sad Lost Souls” in Unhinged Rant Over ‘Klara and the Sun’: “Irrelevant. Out of Touch. Obsolete”",
+      "title": "Taika Waititi Slams Critics as “Sad Lost Souls” in Unhinged Rant Over ‘Klara and the Sun’: “Irrelevant, Out of Touch, and Obsolete”",
       "url": "https://www.worldofreel.com/blog/2026/10/31/taika-waititi-calls-critics-sad-lost-souls-in-unhinged-rant-over-klara-and-the-sun-irrelevant-out-of-touch-obsolete",
       "summary": "Firing back at critics is nothing new, but calling an entire profession “failed artists” who belong \"in the bin\" is hilarious, and wildly unhinged.",
       "publishedAt": "2026-10-31T20:31:44.000Z"

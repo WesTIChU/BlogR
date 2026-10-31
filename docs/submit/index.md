@@ -5,6 +5,18 @@ description: Suggest an independent blog, website or online community for BlogR.
 
 # ► Submit a Site
 
+<div class="blogr-submission-notice" role="note" aria-label="Submission guidelines">
+
+### 🛡️ Important: Please read before submitting
+
+Every website submitted to BlogR is **manually reviewed and moderated** before being added to the directory. **Submission does not guarantee inclusion.**
+
+**AI-assisted website design, coding and structure are absolutely welcome.** However, articles, stories and other main editorial content should be **original and human-written**, not filled with mass-produced AI-generated content.
+
+We want to showcase **genuine voices, creativity and the independent web**.
+
+</div>
+
 **Know a brilliant independent site, blog or community that deserves more attention?** Send it our way.
 
 BlogR is all about discovering **smaller, independent websites**, personal writing, niche interests, online communities, and people who share things simply because they enjoy it.
@@ -126,3 +138,41 @@ For example:
 The height adjusts automatically, so the image keeps its proportions.
 
 The badge is hosted by BlogR, so there's no need to download or upload the image yourself.
+
+<style>
+.blogr-submission-notice {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.25rem;
+  background: rgba(245, 158, 11, 0.07);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-left: 3px solid #f59e0b;
+  border-radius: 6px;
+  line-height: 1.65;
+}
+
+.blogr-submission-notice h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+.blogr-submission-notice p {
+  margin: 0 0 0.75rem;
+}
+
+.blogr-submission-notice p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .blogr-submission-notice {
+    padding: 0.9rem 1rem;
+  }
+}
+</style>
+```
+
+**One implementation detail:** Because your page contains a fenced HTML example, ensure the outer Markdown code fence is longer than the inner one when copying the complete page.
+
+The notice will have a subtle amber background, an orange left border and the same compact layout as the rest of BlogR.

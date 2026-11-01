@@ -1,6 +1,6 @@
 ---
 title: Social & Community
-description: undefined
+description: Discover independent social platforms, online spaces and community-focused websites offering alternatives to mainstream social media.
 prev:
   text: Guides & Resources
   link: /independent-web/guides-and-resources
@@ -13,7 +13,7 @@ next: false
 
 # ► Social & Community
 
-undefined
+Discover independent social platforms, online spaces and community-focused websites offering alternatives to mainstream social media.
 
 <hr class="blogr-intro-divider" aria-hidden="true" />
 

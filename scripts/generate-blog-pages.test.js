@@ -18,6 +18,8 @@ import {
   groupByCategory,
   groupByCountry,
   groupBySubsection,
+  independentWebCategoryDescriptions,
+  independentWebPage,
   insertBlogEntryIntoPage,
   page,
   renderBlogDetails,
@@ -53,6 +55,26 @@ test('submission page updates preserve unrelated generated entries', () => {
     insertBlogEntryIntoPage(updated, entry, 'Personal Blogs & Everyday Life'),
     updated
   )
+})
+
+test('independent web category descriptions never render missing values', () => {
+  const description =
+    'Discover independent social platforms, online spaces and community-focused websites offering alternatives to mainstream social media.'
+  const rendered = independentWebPage('Social & Community', description, [])
+  assert.match(rendered, new RegExp(`description: ${description}`))
+  assert.match(rendered, new RegExp(description))
+  assert.doesNotMatch(rendered, /undefined|null/)
+
+  const fallback = independentWebPage('Unclassified', undefined, [])
+  assert.match(fallback, /description: Independent websites in Unclassified\./)
+  assert.doesNotMatch(fallback, /undefined|null/)
+})
+
+test('every independent web category has page metadata', () => {
+  for (const { title } of independentWebTaxonomy) {
+    assert.equal(typeof independentWebCategoryDescriptions[title], 'string')
+    assert.ok(independentWebCategoryDescriptions[title].trim())
+  }
 })
 
 test('submission country updates only add the new entry and increment its count', () => {

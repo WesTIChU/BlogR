@@ -52,7 +52,7 @@ const showWebringAtBuild =
 const categories = taxonomy.categories
 const recentlyAddedDescription =
   'Fresh faces, new stories and plenty worth reading. Explore the latest independent blogs and personal websites to join the BlogR directory.'
-const independentWebCategoryDescriptions = {
+export const independentWebCategoryDescriptions = {
   'Personal Websites':
     'Personal homepages and hand-built sites where people share their interests, projects and corners of the web.',
   'Web Directories':
@@ -65,6 +65,8 @@ const independentWebCategoryDescriptions = {
     'Artistic experiments, digital creations and personal projects made outside the usual platforms.',
   'Guides & Resources':
     'Practical guides, tutorials, explainers and useful everyday resources shared on the independent web.',
+  'Social & Community':
+    'Discover independent social platforms, online spaces and community-focused websites offering alternatives to mainstream social media.',
   Fansites:
     'Fan-made archives and tributes celebrating favourite games, stories, characters and communities.',
   Webrings:
@@ -353,6 +355,10 @@ export function communityPage(
     grouped = true
   } = {}
 ) {
+  const resolvedDescription =
+    typeof description === 'string' && description.trim()
+      ? description
+      : `${title} and independent discussion spaces.`
   const orderedCommunityTaxonomy = [...communityTaxonomy].sort(
     compareCommunityCategories
   )
@@ -376,7 +382,7 @@ export function communityPage(
     grouped && title === 'Online Communities'
       ? '\n[**► Submit a Community**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-community.yml)\n'
       : ''
-  return `---\ntitle: ${title}\ndescription: ${description}\n---\n\n<script setup>\n</script>\n\n# ${title}\n\n${description}\n${submissionLink}\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${body}\n`
+  return `---\ntitle: ${title}\ndescription: ${resolvedDescription}\n---\n\n<script setup>\n</script>\n\n# ${title}\n\n${resolvedDescription}\n${submissionLink}\n<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${body}\n`
 }
 
 export function page(
@@ -392,6 +398,10 @@ export function page(
     introContent = ''
   } = {}
 ) {
+  const resolvedDescription =
+    typeof description === 'string' && description.trim()
+      ? description
+      : `${title} blogs.`
   const body = sections
     ? renderSections(sections) ||
       '* No blogs are currently listed in this category yet.'
@@ -400,7 +410,7 @@ export function page(
       : '* No blogs are currently listed in this category yet.'
   const introDivider =
     '<hr class="blogr-intro-divider" aria-hidden="true" />\n\n'
-  return `---\ntitle: ${frontmatterTitle}\ndescription: ${description}\n---\n\n<script setup>\n${additionalImports}</script>\n\n# ${heading}\n\n${description}\n\n${introDivider}${introContent}${body}\n`
+  return `---\ntitle: ${frontmatterTitle}\ndescription: ${resolvedDescription}\n---\n\n<script setup>\n${additionalImports}</script>\n\n# ${heading}\n\n${resolvedDescription}\n\n${introDivider}${introContent}${body}\n`
 }
 
 export function countryPage(country, entries) {
@@ -540,6 +550,10 @@ export function independentWebPage(
   entries,
   { root = false, previous = null, next = null } = {}
 ) {
+  const resolvedDescription =
+    typeof description === 'string' && description.trim()
+      ? description
+      : `Independent websites in ${title}.`
   const grouped = root
     ? independentWebTaxonomy
         .map(({ title: category, subcategories }) => {
@@ -584,7 +598,7 @@ export function independentWebPage(
   const navigation = root
     ? ''
     : `prev:${previous ? `\n  text: ${previous.title}\n  link: /independent-web/${previous.slug}` : ' false'}\nnext:${next ? `\n  text: ${next.title}\n  link: /independent-web/${next.slug}` : ' false'}\n`
-  return `---\ntitle: ${title}\ndescription: ${description}\n${navigation}---\n\n<script setup>\n${root ? "import IndependentWebStats from '../.vitepress/components/IndependentWebStats.vue'" : ''}\n</script>\n\n# ► ${title}\n\n${description}\n\n${root ? '[**► Submit an Independent Website**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-independent-website.yml)\n\n' : ''}<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${root ? '<IndependentWebStats />\n\n' : ''}${grouped}\n`
+  return `---\ntitle: ${title}\ndescription: ${resolvedDescription}\n${navigation}---\n\n<script setup>\n${root ? "import IndependentWebStats from '../.vitepress/components/IndependentWebStats.vue'" : ''}\n</script>\n\n# ► ${title}\n\n${resolvedDescription}\n\n${root ? '[**► Submit an Independent Website**](https://github.com/WesTIChU/BlogR/issues/new?template=submit-independent-website.yml)\n\n' : ''}<hr class="blogr-intro-divider" aria-hidden="true" />\n\n${root ? '<IndependentWebStats />\n\n' : ''}${grouped}\n`
 }
 
 export function groupBySubsection(

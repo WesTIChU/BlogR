@@ -1018,6 +1018,17 @@
       "publishedAt": "2026-10-30T20:13:14.113Z"
     }
   },
+  "https://burgeonlab.com/": {
+    "status": "success",
+    "lastPublished": "2026-10-28",
+    "feedUrl": "https://burgeonlab.com/all/feed.xml",
+    "latestArticle": {
+      "title": "Weeknote 2026-W43: Homelab Networking, Snapshots & Going Out",
+      "url": "https://burgeonlab.com/weeknotes/2026/w43/",
+      "summary": "Spent time with my other hobbies (coffee, cars, photography) and figuring out how to use Docker, Caddy and Tailscale together on the Pi. Overdue link roundup.",
+      "publishedAt": "2026-10-28T15:31:00.000Z"
+    }
+  },
   "https://busandtrainuser.com/": {
     "status": "success",
     "lastPublished": "2026-10-31",
@@ -1394,6 +1405,17 @@
       "url": "https://craigmod.com/roden/119/",
       "summary": "Roden Readers — Hello from the other side of hiding in Europe during Japan’s extended summer / record-breakingly rainy September. It is I, Modo-san . I was working on a book in London. And then co-le…",
       "publishedAt": "2026-10-21T00:00:00.000Z"
+    }
+  },
+  "https://cri.cl/": {
+    "status": "success",
+    "lastPublished": "2026-05-07",
+    "feedUrl": "https://cri.cl/feed/",
+    "latestArticle": {
+      "title": "Recursos educativos gratuitos",
+      "url": "https://cri.cl/recursos-educativos-gratuitos",
+      "summary": "https://www.ceacgr.cl/capacitacion/ https://www.serviciocivil.cl/buscador-campus/ https://academia.senapred.gob.cl/ https://formacionddhh.minjusticia.gob.cl/",
+      "publishedAt": "2026-05-07T10:00:00.000Z"
     }
   },
   "https://crimebookjunkie.co.uk/": {
@@ -1850,12 +1872,34 @@
       "publishedAt": "2026-10-30T17:53:59.000Z"
     }
   },
+  "https://edleeman.co.uk/": {
+    "status": "success",
+    "lastPublished": "2026-10-29",
+    "feedUrl": "https://edleeman.co.uk/index.xml",
+    "latestArticle": {
+      "title": "Thus Spoke Zarathustra",
+      "url": "https://edleeman.co.uk/reading/thus-spoke-zarathustra/?utm_source=rss",
+      "summary": "You're getting this because you follow my global (everything) feed — if you'd like to filter what comes through, you can find all my feeds at edleeman.co.uk/rss . Regardless, thanks for reading over …",
+      "publishedAt": "2026-10-29T11:42:44.000Z"
+    }
+  },
   "https://eien-melody.net/ami/index.php": {
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
     "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
+  },
+  "https://eklausmeier.goip.de/": {
+    "status": "success",
+    "lastPublished": "2026-10-30",
+    "feedUrl": "https://eklausmeier.goip.de/feed.xml",
+    "latestArticle": {
+      "title": "The Cyclic Use of Linear Multistep Formulas for the Solution of Stiff Differential Equations",
+      "url": "https://eklausmeier.goip.de/blog/2026/10-30-the-cyclic-use-of-linear-multistep-formulas-for-the-solution-of-stiff-differential-equations",
+      "summary": "PhD thesis from Peter E. Tischer from August, 1983. Completed under the supervision of Prof. Dr. Goptal K. Gupta and Prof. Dr. Ron Sacks-Davis , Monash University, Australia. PDF: TischerDiss1973.pdf",
+      "publishedAt": "2026-10-30T19:00:00.000Z"
+    }
   },
   "https://english-skills-success.blogspot.com/": {
     "status": "success",
@@ -2707,6 +2751,17 @@
   "https://joegardener.com/blog/": {
     "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
+  },
+  "https://joelchrono.xyz/": {
+    "status": "success",
+    "lastPublished": "2026-10-27",
+    "feedUrl": "https://joelchrono.xyz/feed.xml",
+    "latestArticle": {
+      "title": "Flight log",
+      "url": "https://joelchrono.xyz/blog/flight-log/",
+      "summary": "I have turned on airplane mode on all my devices, the plane is now moving, preparing for flight. Waiting in the airport I played a bunch of Castlevania Symphony of the Night —I managed to reach the s…",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
+    }
   },
   "https://johnclare.blogspot.com/": {
     "status": "success",
@@ -4028,6 +4083,17 @@
   },
   "https://perfectmediaserver.com/": {
     "status": "unavailable"
+  },
+  "https://perrotta.dev/": {
+    "status": "success",
+    "lastPublished": "2026-10-07",
+    "feedUrl": "https://perrotta.dev/index.xml",
+    "latestArticle": {
+      "title": "git clone of a private repo hangs",
+      "url": "https://perrotta.dev/2026/10/git-clone-of-a-private-repo-hangs/",
+      "summary": "♠ Problem statement : git clone {repo} hangs. How to troubleshoot? Assumption: we’re cloning via SSH, not via HTTPS. First, ensure the proper SSH key is being used: % ssh -vT {repo} If that’s not the…",
+      "publishedAt": "2026-10-07T19:45:30.000Z"
+    }
   },
   "https://personalsit.es/": {
     "status": "success",
@@ -7787,6 +7853,17 @@
       "url": "https://wyrdbritain.blogspot.com/2026/10/the-sanctuary-and-other-strange-stories.html",
       "summary": "R.B. Russell Tartarus Press Gathering together lost souls on the Sussex Downs, houses demolished and rediscovered, and half-remembered dreams, The Sanctuary and Other Strange Stories collects uncanny…",
       "publishedAt": "2026-10-30T13:35:40.910Z"
+    }
+  },
+  "https://xannyx.me/": {
+    "status": "success",
+    "lastPublished": "2026-10-14",
+    "feedUrl": "https://xannyx.me/rss.xml",
+    "latestArticle": {
+      "title": "Got a new book - Mythos by Stephen Fry",
+      "url": "https://xannyx.me/blog/got_a_new_book_mythos_by_stephen_fry/",
+      "summary": "A new book about the Greek mythology",
+      "publishedAt": "2026-10-14T00:00:00.000Z"
     }
   },
   "https://xmasdb.com/": {

@@ -230,6 +230,34 @@ test('is idempotent for repeated synchronisation', () => {
   })
 })
 
+test('matches Blogger mobile display URLs to their canonical homepage', () => {
+  const webringId = id('a')
+  const registered = {
+    webring_id: webringId,
+    canonical_url: 'https://technovablogs.blogspot.com/?m=1',
+    membership_status: 'active'
+  }
+  const plan = planRegistrySync(
+    [[entry('https://technovablogs.blogspot.com/', webringId)]],
+    [registered]
+  )
+  assert.deepEqual(plan.upserts, [
+    {
+      webring_id: webringId,
+      canonical_url: 'https://technovablogs.blogspot.com/'
+    }
+  ])
+  assert.deepEqual(plan.retired, [])
+  assert.throws(
+    () =>
+      planRegistrySync(
+        [[entry('https://different.blogspot.com/', webringId)]],
+        [registered]
+      ),
+    /permanently bound/
+  )
+})
+
 test('does not partially retire the registry when a batch is interrupted', async () => {
   const statements = []
   const db = {

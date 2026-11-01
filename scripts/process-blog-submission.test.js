@@ -1003,7 +1003,7 @@ test('rejects malformed suggested categories before taxonomy mutation', () => {
   }
 })
 
-test('parses and creates the Roam Radio suggested subcategory without extra authorization', () => {
+test('parses and reuses the existing Roam Radio suggested subcategory', () => {
   const issue = `${websiteBody({
     name: 'Roam Radio',
     url: 'https://roamradios.com/',
@@ -1012,18 +1012,22 @@ test('parses and creates the Roam Radio suggested subcategory without extra auth
   })}\n### Suggested new subcategory\n\nRadio & Audio Directories\n`
   const parsed = parseWebsiteIssueForm(issue)
   const submission = validateIndependentWebsiteSubmission(parsed, [], [], [])
+  const originalTaxonomy = structuredClone(independentWebTaxonomy)
   const result = applySuggestedIndependentSubcategory(
     independentWebTaxonomy,
     submission
   )
   assert.equal(submission.category, 'Web Directories')
-  assert.equal(result.status, 'created')
+  assert.equal(result.status, 'reused')
   assert.equal(result.submission.subcategory, 'Radio & Audio Directories')
+  assert.deepEqual(result.taxonomy, originalTaxonomy)
   assert.equal(
     result.taxonomy
       .find(({ slug }) => slug === 'web-directories')
-      .subcategories.at(-1),
-    'Radio & Audio Directories'
+      .subcategories.filter(
+        (subcategory) => subcategory === 'Radio & Audio Directories'
+      ).length,
+    1
   )
 })
 

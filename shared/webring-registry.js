@@ -25,13 +25,13 @@ export const planRegistrySync = (catalogues, registered) => {
   const current = catalogueMemberships(catalogues)
   const rows = new Map(registered.map((row) => [row.webring_id, row]))
   const byRegisteredUrl = new Map(
-    registered.map((row) => [row.canonical_url, row])
+    registered.map((row) => [canonicalWebringUrl(row.canonical_url), row])
   )
   const upserts = []
   for (const [id, url] of current.byId) {
     const oldById = rows.get(id)
     const oldByUrl = byRegisteredUrl.get(url)
-    if (oldById && oldById.canonical_url !== url)
+    if (oldById && canonicalWebringUrl(oldById.canonical_url) !== url)
       throw new Error(
         `Webring ID is permanently bound to ${oldById.canonical_url}`
       )
@@ -161,11 +161,13 @@ export const synchroniseWebringMembers = async (
         .then((result) => result.results ?? []))
   const rows = registered.results ?? registered
   const byId = new Map(rows.map((row) => [row.webring_id, row]))
-  const byUrl = new Map(rows.map((row) => [row.canonical_url, row]))
+  const byUrl = new Map(
+    rows.map((row) => [canonicalWebringUrl(row.canonical_url), row])
+  )
   for (const [webring_id, canonical_url] of current.byId) {
     const oldById = byId.get(webring_id)
-    const oldByUrl = byUrl.get(canonical_url)
-    if (oldById && oldById.canonical_url !== canonical_url)
+    const oldByUrl = byUrl.get(canonicalWebringUrl(canonical_url))
+    if (oldById && canonicalWebringUrl(oldById.canonical_url) !== canonical_url)
       throw new Error(
         `Webring membership ID is bound to another URL: ${webring_id}`
       )

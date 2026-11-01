@@ -1,3 +1,5 @@
+/* global URL */
+
 import { canonicalBlogUrl } from './blog-duplicate.js'
 
 export const WEBRING_WIDGET_VERSION = '1'
@@ -47,7 +49,16 @@ export const webringBasicLabels = (theme = 'plain') => {
 const env = typeof import.meta.env === 'object' ? import.meta.env : {}
 export const SHOW_WEBRING = env.VITE_WEBRING_PUBLIC_ENABLED === 'true'
 
-export const canonicalWebringUrl = (value) => canonicalBlogUrl(value)
+export const canonicalWebringUrl = (value) => {
+  const url = new URL(canonicalBlogUrl(value))
+  if (
+    url.hostname.endsWith('.blogspot.com') &&
+    url.searchParams.get('m') === '1'
+  ) {
+    url.searchParams.delete('m')
+  }
+  return url.toString()
+}
 
 export const escapeHtml = (value) =>
   String(value)

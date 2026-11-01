@@ -43,13 +43,34 @@ async function createSearchIndex() {
       fuzzy: false,
       prefix: true,
       boost: { title: 4, text: 2, titles: 1 }
+    },
+    processTerm: (term, fieldName) => {
+      term = term.trim().toLowerCase().replace(/^\.+/, '').replace(/\.+$/, '')
+      const stopWords = new Set([
+        'frontmatter',
+        '$frontmatter.synopsis',
+        'and',
+        'about',
+        'but',
+        'now',
+        'the',
+        'with',
+        'you'
+      ])
+      if (term.length < 2 || stopWords.has(term)) return false
+      if (fieldName === 'text' && term.includes('.')) {
+        return [term, ...term.split('.')]
+          .filter((part) => part.length >= 2)
+          .filter((part) => !stopWords.has(part))
+      }
+      return term
     }
   })
 }
 
 test('local search indexes blog names and descriptions', async () => {
   const index = await createSearchIndex()
-  const nameResults = index.search('Coastal Walker', { combineWith: 'AND' })
+  const nameResults = index.search('Bisha Underground', { combineWith: 'AND' })
   const descriptionResults = index.search('independent writing', {
     combineWith: 'AND'
   })
@@ -60,6 +81,23 @@ test('local search indexes blog names and descriptions', async () => {
       ({ id }) => id === '/personal-writing#independent-voices'
     )
   )
+})
+
+test('every catalogue blog is searchable by exact title and links to its listing', async () => {
+  const raw = await readSearchIndex()
+  const index = await createSearchIndex()
+  const metadata = raw.customMetadata
+  const missing = []
+
+  for (const blog of blogs) {
+    const host = new URL(blog.url).host.toLowerCase().replace(/^www\./, '')
+    const result = index
+      .search(blog.name, { combineWith: 'AND' })
+      .find(({ id }) => metadata[id]?.u?.some((url) => url.includes(host)))
+    if (!result) missing.push(blog.name)
+  }
+
+  assert.deepEqual(missing, [])
 })
 
 test('local search preserves category and subcategory results', async () => {

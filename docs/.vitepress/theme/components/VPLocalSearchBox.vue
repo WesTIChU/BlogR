@@ -64,6 +64,7 @@ import {
   watch,
   watchEffect
 } from 'vue'
+import BlogHealthLink from '../../components/BlogHealthLink.vue'
 import { normalizeSearchUrl, sidebar, stripSchemeAndWww } from '../../shared'
 import { sanitizeRichHtml, sanitizeSearchHtml } from '../composables/sanitize'
 import {
@@ -88,6 +89,35 @@ const resultsEl = shallowRef<HTMLElement>()
 /* Search */
 
 const searchIndexData = shallowRef(localSearchIndex)
+
+// Keep query processing in lockstep with the MiniSearch index configuration in
+// constants.ts. The index omits these terms, so queries must omit them too.
+const SEARCH_STOP_WORDS = new Set([
+  'frontmatter',
+  '$frontmatter.synopsis',
+  'and',
+  'about',
+  'but',
+  'now',
+  'the',
+  'with',
+  'you'
+])
+
+const processSearchTerm = (term: string, fieldName?: string) => {
+  term = term.trim().toLowerCase().replace(/^\.+/, '').replace(/\.+$/, '')
+  if (term.length < 2 || SEARCH_STOP_WORDS.has(term)) return false
+
+  if (fieldName === 'text') {
+    const parts = term.split('.')
+    if (parts.length > 1) {
+      return [term, ...parts]
+        .filter((part) => part.length >= 2)
+        .filter((part) => !SEARCH_STOP_WORDS.has(part))
+    }
+  }
+  return term
+}
 
 // Hot Module Replacement - updates search index without full page reload during development
 if (import.meta.hot) {
@@ -624,7 +654,8 @@ const searchIndex = computedAsync(async () => {
           theme.value.search.options?.miniSearch?.searchOptions)
       },
       ...(theme.value.search?.provider === 'local' &&
-        theme.value.search.options?.miniSearch?.options)
+        theme.value.search.options?.miniSearch?.options),
+      processTerm: processSearchTerm
     })
   )
 })
@@ -1604,6 +1635,7 @@ async function processExcerpts(
       try {
         const app = createApp(comp as Component)
         app.component('VDropdown', VDropdownStub)
+        app.component('BlogHealthLink', BlogHealthLink)
         app.config.warnHandler = () => {}
         app.provide(dataSymbol, vitePressData)
         Object.defineProperties(app.config.globalProperties, {

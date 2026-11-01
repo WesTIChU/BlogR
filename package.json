@@ -25,6 +25,7 @@
     "test:blog-health": "node --test shared/blog-health-*.test.js",
     "test:blog-submissions": "node --test scripts/*blog-submission.test.js",
     "test:blog-updates": "node --test scripts/check-blog-updates.test.js",
+    "test:browser-search": "node --test docs/.vitepress/browser-search.test.js",
     "test:community-health": "node --test shared/community-health.test.js",
     "test:directory-search": "node --test docs/.vitepress/directory-search.test.js",
     "test:recently-added": "node --test shared/recently-added.test.js",

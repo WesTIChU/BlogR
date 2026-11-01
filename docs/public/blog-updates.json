@@ -542,6 +542,9 @@
       "publishedAt": "2026-09-11T21:00:01.000Z"
     }
   },
+  "https://ashtray.digital/": {
+    "status": "unavailable"
+  },
   "https://austinkleon.com/": {
     "status": "success",
     "lastPublished": "2026-10-28",
@@ -908,7 +911,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -970,7 +973,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-13",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1075,6 +1078,9 @@
       "summary": "Spent time with my other hobbies (coffee, cars, photography) and figuring out how to use Docker, Caddy and Tailscale together on the Pi. Overdue link roundup.",
       "publishedAt": "2026-10-28T15:31:00.000Z"
     }
+  },
+  "https://burnuptheroad.neocities.org/": {
+    "status": "unavailable"
   },
   "https://busandtrainuser.com/": {
     "status": "success",
@@ -1217,6 +1223,9 @@
       "summary": "Our Cheltenham 10-day weather forecast now opens with any Met Office weather warnings in force or coming up, checked every five minutes. When a warning is live it also appears in the alerts on our ho…",
       "publishedAt": "2026-10-31T20:00:00.000Z"
     }
+  },
+  "https://cherrysplat.neocities.org/": {
+    "status": "unavailable"
   },
   "https://chriscoyier.net/": {
     "status": "success",
@@ -1716,6 +1725,9 @@
       "summary": "Henry Hasse was a science fiction fan and writer; some of his early work includes Cthulhu Mythos fiction such as “The Guardian of the Book” (Weird Tales Mar 1937) and “Horror at Vecra” (The Acolyte, …",
       "publishedAt": "2026-10-31T12:44:40.000Z"
     }
+  },
+  "https://demisdesignart.neocities.org/": {
+    "status": "unavailable"
   },
   "https://demozoo.org/": {
     "status": "success",
@@ -2218,7 +2230,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2413,10 +2425,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Turning Syngas into Hydrocarbons with the Right Alpha",
-      "url": "https://hackaday.com/2026/11/01/turning-syngas-into-hydrocarbons-with-the-right-alpha/",
-      "summary": "Although the Fischer-Tropsch synthesis (F-T synthesis) process is well-known and on face value quite straightforward, using it for DIY production of a somewhat defined length hydrocarbons is fairly t…",
-      "publishedAt": "2026-11-01T12:00:34.000Z"
+      "title": "FloppoScope is a Disk Image Analyzer",
+      "url": "https://hackaday.com/2026/11/01/flopposcope-is-a-disk-image-analyzer/",
+      "summary": "If you’re a big retro tech fan, you might still have a floppy drive on hand, or even some sort of high-end disk imaging solution. If you’re a little less …read more",
+      "publishedAt": "2026-11-01T15:00:36.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2727,9 +2739,9 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "200 Albums for 2026 It Starts With a Birthstone # 56 The Cat's Miaow - When You Smiled & Turned Away",
-      "summary": "A Monday afternoon. Grey and overcast in Canterbury. Nothing better to than listen to When You Smiled & Turned Away the latest album from Melbourne Indie stalwarts, The Cat's Miaow. A band that have …",
-      "publishedAt": "2026-11-01T13:24:03.000Z"
+      "title": "Coveted # 33 Isobel Campbell & Mark Lanegan - Ballad of The Broken Seas",
+      "summary": "A classic image. A woman gazing at her reflection at a motel dressing table. Pinning up her hair. Behind her on the bed a slightly more unkempt type in trainers frowning, sullenly. Where are they goi…",
+      "publishedAt": "2026-11-01T14:48:32.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -2832,7 +2844,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -3412,13 +3424,13 @@
   },
   "https://lwn.net/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "A massive pile of security updates for Saturday",
-      "url": "https://lwn.net/Articles/1104612/",
-      "summary": "Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, aspell, bind, bind9.18, container-tools:1.0, container-tools:rhel8, curl, dogtag-pki, ignition, java-21-openj…",
-      "publishedAt": "2026-10-31T22:34:30.000Z"
+      "title": "Final release for the 7.2 stable series",
+      "url": "https://lwn.net/Articles/1104629/",
+      "summary": "Greg Kroah-Hartman has announced the release of the 7.2.15 kernel, with a handful of updates. Note, this is the LAST 7.2.y kernel release. After this one the 7.2.y kernel tree is end-of-life. Please …",
+      "publishedAt": "2026-11-01T15:03:40.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -3850,10 +3862,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://musicaltheatrereview.com/feed/",
     "latestArticle": {
-      "title": "Dates for The Greatest Showman’s Theatre Royal Drury Lane debut",
-      "url": "https://musicaltheatrereview.com/dates-for-the-greatest-showmans-theatre-royal-drury-lane-debut/",
-      "summary": "The hit new stage adaptation of the blockbuster movie The Greatest Showman will follow its recent sold-out run at the Bristol Hippodrome by making its West End debut at the Theatre Royal Drury Lane w…",
-      "publishedAt": "2026-11-01T14:32:04.000Z"
+      "title": "Remembering Hugh Wooldridge – 1952-2026",
+      "url": "https://musicaltheatrereview.com/remembering-hugh-wooldridge-1952-2026/",
+      "summary": "Sarah Brightman was among the many figures paying tribute to director and lighting designer Hugh Wooldridge recently. Posting on Facebook, the singer and actress wrote: “I was very saddened to hear t…",
+      "publishedAt": "2026-11-01T15:36:15.000Z"
     }
   },
   "https://mybpool.wordpress.com/": {
@@ -3946,13 +3958,13 @@
   },
   "https://nikhil.bearblog.dev/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://nikhil.bearblog.dev/feed/",
     "latestArticle": {
-      "title": "It Was Never About Free Speech",
-      "url": "https://nikhil.bearblog.dev/it-was-never-about-free-speech/",
-      "summary": "Few debates are as stubborn as the one over free speech. One camp holds that freedom of speech must be absolute: no one should be punished for voicing an opinion. The other insists that not everythin…",
-      "publishedAt": "2026-10-31T14:42:00.000Z"
+      "title": "What Your Desire Says About You",
+      "url": "https://nikhil.bearblog.dev/what-your-desire-says-about-you/",
+      "summary": "Talking about desire is one thing; living through its intensity is another. It blinds you to reason. It numbs you to everything else. You do not notice how your body responds under the spell of desir…",
+      "publishedAt": "2026-11-01T14:42:00.000Z"
     }
   },
   "https://nintil.com/": {
@@ -3968,13 +3980,13 @@
   },
   "https://nitrateglow.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://nitrateglow.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Reconsidering Vampyr (dir. Carl Dreyer, 1932)",
-      "url": "https://nitrateglow.wordpress.com/2026/10/30/reconsidering-vampyr-dir-carl-dreyer-1932/",
-      "summary": "A strange coincidence occurred in my viewing habits this spooky season. I had the opportunity to see FW Murnau’s Nosferatu screened with live orchestral accompaniment and then the next day on Criteri…",
-      "publishedAt": "2026-10-30T18:07:29.000Z"
+      "title": "Movie of the month: Pushover (dir. Richard Quine, 1954)",
+      "url": "https://nitrateglow.wordpress.com/2026/11/01/movie-of-the-month-pushover-dir-richard-quine-1954/",
+      "summary": "Pushover is a noir ripe for rediscovery. Until Fredrik Gustaffson– one of my favorite film critics– mentioned it in a post about director Richard Quine, I had never heard of it despite the big names …",
+      "publishedAt": "2026-11-01T15:39:39.000Z"
     }
   },
   "https://nodighome.com/blog-posts/": {
@@ -4436,13 +4448,13 @@
   },
   "https://rachel.blog/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://rachel.blog/feed/",
     "latestArticle": {
-      "title": "Penny the pigeon learning from an iPad",
-      "url": "https://rachel.blog/2026/10/19/penny-the-pigeon-learning-from-an-ipad/",
-      "summary": "Penny, the juvenile pigeon, came to us last week after being found in the city centre sitting on a windowsill all day, making no attempt to fly away when approached. At first, she wasn’t eating indep…",
-      "publishedAt": "2026-10-19T20:39:17.000Z"
+      "title": "Edward the pigeon",
+      "url": "https://rachel.blog/2026/11/01/edward-the-pigeon/",
+      "summary": "Last Friday afternoon I went into town to check on Matilda, the one-footed pigeon. I do worry about her but she seems to be managing ok. I’m sure I could find her a permanent home in an aviary if she…",
+      "publishedAt": "2026-11-01T15:39:12.000Z"
     }
   },
   "https://rachelsvintageretro.co.uk/": {
@@ -5019,13 +5031,13 @@
   },
   "https://skilletglow.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://skilletglow.com/feed/",
     "latestArticle": {
-      "title": "Spinach Artichoke Dip: Creamy, Cheesy Baked Party Favorite",
-      "url": "https://skilletglow.com/spinach-artichoke-dip-creamy-cheesy-baked-party-favorite/",
-      "summary": "Jump to RecipePrint Recipe This warm spinach artichoke dip is creamy in the center, lightly browned on top, and easy to mix before guests arrive. Frozen spinach and canned artichoke hearts keep prep …",
-      "publishedAt": "2026-10-31T21:20:22.000Z"
+      "title": "Creamy Mashed Potatoes (Fluffy & Buttery)",
+      "url": "https://skilletglow.com/creamy-mashed-potatoes-fluffy-buttery/",
+      "summary": "Fluffy, buttery mashed potatoes made on the stovetop with Yukon Gold potatoes, warm milk, and simple tips for a smooth, lump-free texture. The post Creamy Mashed Potatoes (Fluffy & Buttery) appeared …",
+      "publishedAt": "2026-11-01T15:33:14.000Z"
     }
   },
   "https://skyhold.org/adhd/": {
@@ -5284,7 +5296,7 @@
   },
   "https://taoofmac.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://taoofmac.com/atom.xml",
     "latestArticle": {
       "title": "Notes for October 25-31",
@@ -5495,10 +5507,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Martin O’Neill should not be promising Luke McCowan games.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/martin-oneill-mccowan-games-promise/",
-      "summary": "So last night we got some comments from Martin O’Neill on the squad, and one of the remarks The post Martin O’Neill should not be promising Luke McCowan games. appeared first on The Celtic Blog .",
-      "publishedAt": "2026-11-01T09:30:23.000Z"
+      "title": "Celtic is a broken club. No more living in denial about it.",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/celtic-is-a-broken-club-no-more-living-in-denial-about-it/",
+      "summary": "There was a moment in HBO’s monster hit Game of Thrones when a character is being tortured and The post Celtic is a broken club. No more living in denial about it. appeared first on The Celtic Blog .",
+      "publishedAt": "2026-11-01T15:25:43.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5944,7 +5956,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6062,7 +6074,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -6217,9 +6229,9 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/injury-news/173646/maxence-lacroix-feared-to-be-out-until-january-report",
-      "summary": "Maxence Lacroix picked up a hamstring injury in the League Cup match against Liverpool at Anfield midweek, and unfortunately it sounds like that could keep him out for a while. According to The Athle…",
-      "publishedAt": "2026-11-01T07:37:13.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173653/charlton-athletic-wfc-vs-chelsea-fcw-womens-super-league-confirmed-lineups-how-to-watch",
+      "summary": "For the fifth consecutive time this season, Chelsea Women are taking a short trip within the London region to face a Women’s Super League rival. Today the opposition are Charlton Athletic, having jus…",
+      "publishedAt": "2026-11-01T13:41:45.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6499,10 +6511,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO deals of the week: Game Boy, Luxo Jr., and wall art",
-      "url": "https://www.brickfanatics.com/lego-deals-of-the-week-game-boy-luxo-jr-wall-art",
-      "summary": "From the lowest current price for the Game Boy to two kinds of wall art builds",
-      "publishedAt": "2026-11-01T14:38:19.000Z"
+      "title": "LEGO deals of the week: from Volvo to Chopper and Christmas",
+      "url": "https://www.brickfanatics.com/lego-deals-of-the-week-volvo-chopper-and-christmas",
+      "summary": "Another round of great LEGO savings for you to browse",
+      "publishedAt": "2026-11-01T15:06:26.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6579,21 +6591,21 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "Falkirk v Celtic, Live updates",
-      "url": "https://www.celticquicknews.co.uk/falkirk-v-celtic-live-updates-3/",
-      "summary": "Live updates will appear below after 13:00.",
-      "publishedAt": "2026-11-01T12:00:28.000Z"
+      "title": "FALKIRK 2 CELTIC 0: HOOPS’ HORROR SHOW",
+      "url": "https://www.celticquicknews.co.uk/falkirk-2-celtic-0-hoops-horror-show/",
+      "summary": "FALKIRK 2 CELTIC 0 THE day after Halloween, Celtic staged their very own horror show at Falkirk this afternoon. Martin O’Neill looked on as his side crashed for the SIXTH time in 10 games and blew th…",
+      "publishedAt": "2026-11-01T15:02:40.000Z"
     }
   },
   "https://www.cleverdude.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "6 Tech Features You’re Already Paying For but Probably Never Use",
-      "url": "https://www.cleverdude.com/content/6-tech-features-youre-already-paying-for-but-probably-never-use/",
-      "summary": "Technology companies have the ability to sell people useful things and then hide half the benefits behind a settings menu. Your phone can copy text straight from a photograph. Your computer can remem…",
-      "publishedAt": "2026-10-31T19:24:09.000Z"
+      "title": "That Free App on Your Phone Could Be Costing You More Than You Think",
+      "url": "https://www.cleverdude.com/content/that-free-app-on-your-phone-could-be-costing-you-more-than-you-think/",
+      "summary": "A free app can take up surprisingly little space on your phone and still collect plenty of information about your life. It might track your location, study your shopping habits, serve targeted advert…",
+      "publishedAt": "2026-11-01T15:01:23.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6963,10 +6975,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Key Rangers Man Is Having a Dip – Forgotten Summer Signing is Waiting",
-      "url": "https://www.ibroxnoise.co.uk/2026/11/key-rangers-man-is-having-a-dip/",
-      "summary": "We’re not quite sure what on earth has happened to Dujon Sterling with Rangers’ first choice right back experiencing a lull in form ever since he returned from the international break and Kosta Nedel…",
-      "publishedAt": "2026-11-01T11:45:50.000Z"
+      "title": "Celtic in Meltdown as Title Hopes Take Huge Hit Giving Rangers a Major Opening",
+      "url": "https://www.ibroxnoise.co.uk/2026/11/rangers-celtic-spl-race/",
+      "summary": "Celtic have suffered an absolutely catastrophic afternoon at Falkirk and Rangers supporters must be licking their lips. The Parkhead side crashed to a humiliating 2-0 defeat, handing Derek McInnes an…",
+      "publishedAt": "2026-11-01T15:11:53.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -7119,7 +7131,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -7127,9 +7139,9 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/01/very-cool-to-see-the.html",
-      "summary": "Very cool to see the Blowfish theme ported over to Micro.blog by @nhr . It’s a unique theme and has a bunch of settings to control the home page and other things.",
-      "publishedAt": "2026-11-01T14:31:55.000Z"
+      "url": "https://www.manton.org/2026/11/01/looking-into-this-blog-post.html",
+      "summary": "Looking into this blog post from OpenAI , both OpenAI and Anthropic appear to be converging on an IETF draft to limit training via robots.txt. It uses the special user-agent string __usage_ai-trainin…",
+      "publishedAt": "2026-11-01T15:00:00.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -7240,13 +7252,13 @@
   },
   "https://www.ninaallan.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-10-24",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ninaallan.co.uk/?feed=rss2",
     "latestArticle": {
-      "title": "Lost Girls by Robert Kolker",
-      "url": "https://www.ninaallan.co.uk/?p=7478",
-      "summary": "That was the worst paradox of the life. You had to be strong enough to work hard and long in order to convince so many men to part with their money, but weak enough to be there in the first place. In…",
-      "publishedAt": "2026-10-24T14:15:41.000Z"
+      "title": "“I tell you there’s no such place”: a story for Samhain",
+      "url": "https://www.ninaallan.co.uk/?p=7516",
+      "summary": "Arthur Machen’s ‘N’ is, among many other things, the quintessential club story. Three friends of long standing – Perrott, Arnold and Harliss – sit together around the fireplace in Perrott’s rooms, sa…",
+      "publishedAt": "2026-10-31T20:29:39.000Z"
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
@@ -7431,7 +7443,7 @@
     "status": "unavailable"
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -7492,10 +7504,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Your Social Security Benefits Are Deposited Into a Joint Account — What Happens if One Owner Dies?",
-      "url": "https://www.savingadvice.com/articles/2026/11/01/10763838_your-social-security-benefits-are-deposited-into-a-joint-account-what-happens-if-one-owner-dies.html",
-      "summary": "Your spouse passes away, and a few days later, you check the bank account you’ve shared for decades. The balance looks normal, the mortgage payment...",
-      "publishedAt": "2026-11-01T14:39:14.000Z"
+      "title": "Someone Sends You a Photo of Your Own House and Demands Money — What Happens Next?",
+      "url": "https://www.savingadvice.com/articles/2026/11/01/10763841_someone-sends-you-a-photo-of-your-own-house-and-demands-money-what-happens-next.html",
+      "summary": "Imagine opening your email and discovering a photograph of your own house staring back at you. The sender knows your full name, street address, and...",
+      "publishedAt": "2026-11-01T15:20:10.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -7675,13 +7687,13 @@
   },
   "https://www.thechaoticscot.com/": {
     "status": "success",
-    "lastPublished": "2021-12-01",
-    "feedUrl": "https://www.thechaoticscot.com/comments/feed/",
+    "lastPublished": "2026-06-24",
+    "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
-      "title": "Comment on Ardnamurchan & the West Highland Peninsulas by Kay",
-      "url": "https://www.thechaoticscot.com/ardnamurchan-peninsula/#comment-141824",
-      "summary": "In reply to Karen Pugh . Thanks so much Karen. I included absolutely everything I know, so it's lovely to hear you found it interesting. I hope you get to visit and experience the peninsulas for your…",
-      "publishedAt": "2021-12-01T20:59:18.000Z"
+      "title": "Insta360 x4 Air: Quick Review",
+      "url": "https://www.thechaoticscot.com/insta360-x4-air-review/",
+      "summary": "If you’re thinking about buying a 360° camera for vlogging, outdoor adventures or to capture travel memories, this is my to-the-point review of the Insta360 X4 Air camera, plus a wee shout-out to the…",
+      "publishedAt": "2026-06-24T09:01:32.000Z"
     }
   },
   "https://www.theculturetrip.com/": {
@@ -8007,10 +8019,10 @@
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Francis Ford Coppola Says He Hopes to “Make One More Film”",
-      "url": "https://www.worldofreel.com/blog/2026/10/31/coppola-in-bogot-hoping-to-shoot-one-more-film-so-what-happened-to-glimpses-of-the-moon",
-      "summary": "Coppola lost more than $100M on \"Megalopolis,\" got hammered for it, and he knows the clock is running out for one more film. If \"Glimpses of the Moon\" is that film, someone needs to write the check s…",
-      "publishedAt": "2026-11-01T01:34:05.000Z"
+      "title": "Michael Mann Hospitalized After Accidentally Shoots Himself in the Leg at Gun Range",
+      "url": "https://www.worldofreel.com/blog/2026/11/1/michael-mann-hospitalized-after-accidentally-shoots-himself-in-the-leg-at-gun-range",
+      "summary": "Mann, 83, was rushed to a hospital after accidentally shooting himself in the leg at The Range LA, an indoor shooting facility in Los Angeles.",
+      "publishedAt": "2026-11-01T15:09:05.000Z"
     }
   },
   "https://www.zachleat.com/": {

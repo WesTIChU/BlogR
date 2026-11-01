@@ -60,7 +60,7 @@
     "feedUrl": "http://www.galactichunter.com/gh/crss",
     "latestArticle": {
       "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/gh/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
+      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
       "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
       "publishedAt": "2026-09-28T13:18:14.000Z"
     }
@@ -146,13 +146,13 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-10-31",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "💀art by Josh Kirby, Peter Goodfellow, Rodney Matthews, Colin Hay",
-      "url": "https://70sscifiart.tumblr.com/post/832042815699730432",
-      "summary": "retroscifiart : 💀art by Josh Kirby, Peter Goodfellow, Rodney Matthews, Colin Hay",
-      "publishedAt": "2026-11-01T01:51:03.000Z"
+      "title": "70sscifiart:\n\nFrank Frazetta",
+      "url": "https://70sscifiart.tumblr.com/post/832017135001812992",
+      "summary": "70sscifiart : Frank Frazetta",
+      "publishedAt": "2026-10-31T19:02:52.000Z"
     }
   },
   "https://9to5linux.com/": {
@@ -294,7 +294,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -441,9 +441,9 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-28",
-    "feedUrl": "https://arduinoexpert.com/",
+    "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
       "title": "How to Make an Automatic Water Pump Controller Using Arduino, ESP32 & STM32 – Complete Guide",
       "url": "https://arduinoexpert.com/blog/automatic-water-pump-controller-arduino-esp32-stm32/",
@@ -738,13 +738,13 @@
   },
   "https://blog.atmtxphoto.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://blog.atmtxphoto.com/feed/",
     "latestArticle": {
-      "title": "5th Avenue Street Photography",
-      "url": "https://blog.atmtxphoto.com/2026/10/30/5th-avenue-street-photography/",
-      "summary": "5th Avenue Street Photography – New York, New York We are still on 5th Avenue like we’ve been for the last several posts. However, I’m switching from architecture to street photography. Like I often …",
-      "publishedAt": "2026-10-31T03:26:29.000Z"
+      "title": "The Street Photographer",
+      "url": "https://blog.atmtxphoto.com/2026/10/31/the-street-photographer/",
+      "summary": "The Street Photographer – New York, New York Happy Halloween! I’m making an assumption calling this guy a street photographer, but it’s an educated guess. I actually saw him ahead of me on 5th Avenue…",
+      "publishedAt": "2026-11-01T02:56:34.000Z"
     }
   },
   "https://blog.avas.space/": {
@@ -1854,7 +1854,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2131,7 +2131,7 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://glasgowgallivanter.com/feed/",
     "latestArticle": {
-      "title": "John’s epic French cycle: part 3",
+      "title": "John’s epic French cycle: part 3",
       "url": "https://glasgowgallivanter.com/2026/10/26/cycling-france-3/",
       "summary": "Week 3: from Vallon Pont d'Arc to Nice.",
       "publishedAt": "2026-10-26T10:30:00.000Z"
@@ -2732,13 +2732,13 @@
   },
   "https://johnquiggin.com/": {
     "status": "success",
-    "lastPublished": "2026-10-12",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://johnquiggin.com/feed/",
     "latestArticle": {
-      "title": "The economic irrelevance of naval power",
-      "url": "https://johnquiggin.com/2026/10/12/the-economic-irrelevance-of-naval-power/",
-      "summary": "When I posted a piece on the latest failure of the US Navy a while back, I predicted that I wouldn’t be changing any minds. That was one of my safer predictions, confirmed almost immediately by Rober…",
-      "publishedAt": "2026-10-12T01:28:23.000Z"
+      "title": "Democracy is not on the ballot:",
+      "url": "https://johnquiggin.com/2026/11/01/democracy-is-not-on-the-ballot/",
+      "summary": "Affordability is not the answer One of the recurring themes of the 2024 election campaign was the argument that “democracy is on the ballot”. Trump had attempted to overthrow US democracy, and regula…",
+      "publishedAt": "2026-11-01T03:05:17.000Z"
     }
   },
   "https://jonaharagon.com/": {
@@ -4031,7 +4031,7 @@
   },
   "https://personalsit.es/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://personalsit.es/feed/all.xml"
   },
   "https://peyanski.com/": {
@@ -4530,13 +4530,13 @@
   },
   "https://roughghosts.com/": {
     "status": "success",
-    "lastPublished": "2026-10-21",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://roughghosts.com/feed/",
     "latestArticle": {
-      "title": "Poetry as a journey: What Lies Ahead by Caroline Clark",
-      "url": "https://roughghosts.com/2026/10/21/poetry-as-a-journey-what-lies-ahead-by-caroline-clark/",
-      "summary": "The epigraph at the very beginning of Caroline Clark’s new collection of essays, What Lies Ahead, reads simply: Can I be with youwhile you read this?Don’t look up orsay anything. And, as you read the…",
-      "publishedAt": "2026-10-21T08:42:48.000Z"
+      "title": "Dreams, phantoms, and beautiful horror: Visions & Apparitions by Ladisav Klíma",
+      "url": "https://roughghosts.com/2026/10/31/dreams-phantoms-and-beautiful-horror-visions-apparitions-by-ladisav-klima/",
+      "summary": "On a spring evening, in a quiet side room of a busy tavern in a mountain town, the hero of “Delend, or the Phantom of Fantasy,” notices a strange shift in two stars in the still light sky and senses …",
+      "publishedAt": "2026-11-01T03:25:16.000Z"
     }
   },
   "https://roytang.net/": {
@@ -6752,23 +6752,23 @@
   },
   "https://www.itsdougholland.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://www.itsdougholland.com/feed/",
     "latestArticle": {
-      "title": "Anything goes: 10/31/2026",
-      "url": "https://www.itsdougholland.com/anything-goes-10-31-2026/",
-      "summary": "our 104th weekly open mike Let’s see what happens when your host (me) has nothing to say. Step right up, speak your mind, tell a story, sing a song, whatever. ... [read more]",
-      "publishedAt": "2026-10-31T17:34:23.000Z"
+      "title": "Zodiac, and a few other films",
+      "url": "https://www.itsdougholland.com/zodiac-and-a-few-other-films/",
+      "summary": "The L’s are coming soon, but first, more movies watched out of proper alphabetical order… Reviewing every movie ever made, in (mostly) alphabetical order Everybody Wants Some!! ... [read more]",
+      "publishedAt": "2026-11-01T02:58:10.000Z"
     }
   },
   "https://www.jamesreeves.co/notebook/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://www.jamesreeves.co/rss/",
     "latestArticle": {
-      "url": "https://www.jamesreeves.co/the-empty-booth/",
-      "summary": "Last night I dreamt I was at a fancy restaurant, waiting for all my friends and family, past and present, dead and alive. I was hoping to get a nice booth to impress everyone, but there was only a sm…",
-      "publishedAt": "2026-10-22T02:22:27.000Z"
+      "url": "https://www.jamesreeves.co/an-ode-to-the-return-of-standard-time/",
+      "summary": "Let’s celebrate the end of Daylight Savings Time, my favorite moment of the year because it brings the night closer.",
+      "publishedAt": "2026-11-01T02:53:55.000Z"
     }
   },
   "https://www.janetgyford.com/": {
@@ -6942,7 +6942,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7352,13 +7352,13 @@
   },
   "https://www.suppermariobroth.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "Top: Clawgrip is a crab boss in Super Mario Bros. 2, whose name is obviously based on the fact that&hellip;",
-      "url": "https://www.suppermariobroth.com/post/832028493916372992",
-      "summary": "Top: Clawgrip is a crab boss in Super Mario Bros. 2, whose name is obviously based on the fact that he has two large claws, which he uses to grip and throw rocks at the player. Middle: however, in th…",
-      "publishedAt": "2026-10-31T22:03:25.000Z"
+      "title": "Officially licensed 2026 Bowser Jr. neck fan available at Super Nintendo World in Japan. Bizarrely,&hellip;",
+      "url": "https://www.suppermariobroth.com/post/832039803551973376",
+      "summary": "Officially licensed 2026 Bowser Jr. neck fan available at Super Nintendo World in Japan. Bizarrely, despite being based on the Jr. Clown Car, which features a propeller and would as such be logical t…",
+      "publishedAt": "2026-11-01T01:03:10.000Z"
     }
   },
   "https://www.swiftjectivec.com/": {

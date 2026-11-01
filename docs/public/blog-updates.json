@@ -284,17 +284,17 @@
   },
   "https://alis.me/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://alis.me/feed/",
     "latestArticle": {
-      "title": "Saturday @ 8:15 pm",
-      "url": "https://alis.me/x/saturday-815-pm/",
-      "summary": "Also, belated apologies to the two kids waiting for the Dangerfield to open, who I think I just deadass blanked when they were trying to tel",
-      "publishedAt": "2026-10-31T09:15:53.000Z"
+      "title": "Currently reading: Batman/The Maxx: Arkham Dreams",
+      "url": "https://alis.me/x/currently-reading-batman-the-maxx-arkham-dreams/",
+      "summary": "Legit question, is this the only time we’ve ever seen Dave’s chin??? Like I guess I never really thought much about how that whole neckline worked, but if I was going to have guessed I definitely wou…",
+      "publishedAt": "2026-11-01T02:32:48.000Z"
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -441,9 +441,9 @@
     "status": "unavailable"
   },
   "https://arduinoexpert.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-28",
-    "feedUrl": "https://arduinoexpert.com/feed/",
+    "feedUrl": "https://arduinoexpert.com/",
     "latestArticle": {
       "title": "How to Make an Automatic Water Pump Controller Using Arduino, ESP32 & STM32 – Complete Guide",
       "url": "https://arduinoexpert.com/blog/automatic-water-pump-controller-arduino-esp32-stm32/",
@@ -1854,7 +1854,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://english-skills-success.blogspot.com/": {
@@ -2131,7 +2131,7 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://glasgowgallivanter.com/feed/",
     "latestArticle": {
-      "title": "John’s epic French cycle: part 3",
+      "title": "John’s epic French cycle: part 3",
       "url": "https://glasgowgallivanter.com/2026/10/26/cycling-france-3/",
       "summary": "Week 3: from Vallon Pont d'Arc to Nice.",
       "publishedAt": "2026-10-26T10:30:00.000Z"
@@ -5267,9 +5267,9 @@
     "lastPublished": "2026-10-31",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36303/chelsea-vs-manchester-united-live-stream-time-how-to-watch",
-      "summary": "Stamford Bridge is the venue for this weekend’s pulsating Premier League lunchtime kickoff, which pits under-performing Chelsea against crisis club Manchester United. Both Xabi Alonso and Michael Car…",
-      "publishedAt": "2026-10-31T03:30:00.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36313/chelsea-2-0-manchester-united-positive-start-wasted-by-martinez-defensive-stupidity",
+      "summary": "The chaos spiral continues at Manchester United as Michael Carrick’s side found a new way to let down the manager and fans. The Reds battled through a testy first half at Stamford Bridge in which the…",
+      "publishedAt": "2026-10-31T14:32:05.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -6740,7 +6740,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7423,7 +7423,7 @@
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -7503,7 +7503,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
@@ -7514,7 +7514,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {

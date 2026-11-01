@@ -33,7 +33,10 @@
     "slug": "creative-projects",
     "title": "Creative Projects",
     "icon": "🎨",
-    "subcategories": ["Experimental Projects"]
+    "subcategories": [
+      "Experimental Projects",
+      "Interactive Games & Experiments"
+    ]
   },
   {
     "slug": "fansites",

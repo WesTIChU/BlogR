@@ -733,8 +733,8 @@
   },
   "https://chaoslife.findchaos.com/comic": {
     "lastPublished": "2026-06-11",
-    "lastChecked": "2026-11-01T02:32:31.407Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "success",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
       "title": "Late Lament",
@@ -1777,8 +1777,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-10-31",
-    "lastChecked": "2026-11-01T02:44:28.520Z",
-    "status": "success",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Virgin Media O2 set to cut thousands of UK jobs as part of cost cutting",
@@ -2443,15 +2443,15 @@
     }
   },
   "https://tellyspotting.kera.org/": {
-    "lastPublished": "2026-10-29",
-    "lastChecked": "2026-10-29T16:44:31.803Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://tellyspotting.kera.org/feed/",
     "latestArticle": {
-      "title": "‘Sherlock’ creator moves from 221b Baker Street to 10 Downing Street for new series",
-      "url": "https://tellyspotting.kera.org/2026/10/29/sherlock-creator-moves-from-221b-baker-street-to-10-downing-street-for-new-series/",
-      "summary": "At the risk of giving anyone yet another reason as to why there won’t be new series of Sherlock in the foreseeable future, it appears that series co-creator/writer, Steven Moffat, is working on a new…",
-      "publishedAt": "2026-10-29T16:23:15.000Z"
+      "title": "Psychoville’s Mr. Jelly is definitely not Halloween’s biggest fan",
+      "url": "https://tellyspotting.kera.org/2026/10/31/psychovilles-mr-jelly-is-definitely-not-halloweens-biggest-fan-3/",
+      "summary": "Like The Day the Earth Stood Still, this never gets old. Since 2010, Halloween has been about two bits of small screen greatness that should be considered ‘must see TV’. The annual Simpsons Halloween…",
+      "publishedAt": "2026-11-01T04:23:01.000Z"
     }
   },
   "https://retroarcadia.blog/": {
@@ -2962,14 +2962,14 @@
     }
   },
   "https://thebusbybabe.sbnation.com/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-11-01T02:44:28.520Z",
+    "lastPublished": "2026-10-30",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36313/chelsea-2-0-manchester-united-positive-start-wasted-by-martinez-defensive-stupidity",
-      "summary": "The chaos spiral continues at Manchester United as Michael Carrick’s side found a new way to let down the manager and fans. The Reds battled through a testy first half at Stamford Bridge in which the…",
-      "publishedAt": "2026-10-31T14:32:05.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36294/three-points-chelsea-vs-manchester-united",
+      "summary": "Three points of emphasis with a big three points on the line this Saturday for Manchester United. Bruno Fernandes The captain will most likely start the game after sitting out last week. He hasn’t st…",
+      "publishedAt": "2026-10-30T19:55:26.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -3033,8 +3033,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-31T19:44:28.048Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3309,8 +3309,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-31T19:44:28.048Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3339,20 +3339,20 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-31T19:44:28.048Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
-    "lastPublished": "2026-10-30",
-    "lastChecked": "2026-10-31T01:54:31.606Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
-      "title": "Friday Finds 10.30.2026",
-      "url": "https://iamafoodblog.com/friday-finds-10-30-2026/",
-      "summary": "I’m feeling kinda inspired to make some halloween-y type foods. But not too halloween-y.",
-      "publishedAt": "2026-10-30T07:13:28.000Z"
+      "title": "Make Ahead Mashed Potatoes",
+      "url": "https://iamafoodblog.com/make-ahead-mashed-potatoes/",
+      "summary": "Your favorite steakhouse isn't mashing potatoes a la minute, and neither should you.",
+      "publishedAt": "2026-11-01T04:44:02.000Z"
     }
   },
   "https://jensfoodblog.com/": {
@@ -3499,15 +3499,15 @@
     }
   },
   "https://www.actionfigurebarbecue.com/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T04:44:29.590Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://www.actionfigurebarbecue.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Trick or Treat Through 31 Days of Toy Terror: Mayor Manor from LEGO Icons: Midnight Valley Collection by LEGO",
-      "url": "https://www.actionfigurebarbecue.com/2026/10/trick-or-treat-through-31-days-of-toy_01930712160.html",
-      "summary": "Happy Halloween 2026! Ever since today's set was leaked this past summer, I knew it was going to be the October 31st review for Trick or Treat Through 31 Days of Toy Terror. While I don't collect LEG…",
-      "publishedAt": "2026-10-31T04:00:00.000Z"
+      "title": "Action Figure Review: Airtight from G.I. Joe: Classified Series by Hasbro",
+      "url": "https://www.actionfigurebarbecue.com/2026/11/action-figure-review-airtight-from-gi.html",
+      "summary": "Ready for another G.I. Joe: Classified Series review? Today I'm checking out Airtight, the last of the vintage single-carded 1985 G.I. Joe figures to be released in the Classified Series. Airtight wa…",
+      "publishedAt": "2026-11-01T04:00:00.000Z"
     }
   },
   "https://bricknerd.com/": {
@@ -3788,14 +3788,14 @@
   },
   "https://www.thenewestrant.com/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-01T00:44:31.719Z",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "QuadCon Was Frightfully Fun Today",
-      "url": "https://www.thenewestrant.com/2026/10/quadcon-was-frightfully-fun-today.html",
-      "summary": "The Saint Charles Quadcon was held today, and it was a superb way to kick off Halloween! Located at the Steel Shop Event Center, the show started at 10AM. There was a crowd lined up and ready to enjo…",
-      "publishedAt": "2026-11-01T00:22:19.189Z"
+      "title": "Happy Halloween and Don't Forget to, \"Fall Back,\" for Daylight Saving Time",
+      "url": "https://www.thenewestrant.com/2026/10/happy-halloween-and-dont-forget-to-fall.html",
+      "summary": "Here's hoping everyone had a great Halloween! Our boys enjoyed the holiday and were pleased to acquire an assortment of candy. I also want to remind everyone who lives in a region that observes Dayli…",
+      "publishedAt": "2026-11-01T04:12:00.940Z"
     }
   },
   "https://greg.org/": {
@@ -4009,14 +4009,14 @@
   },
   "https://laurasmiscmusings.blogspot.com/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-01T00:44:31.719Z",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://laurasmiscmusings.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Tonight's Movie: Sense and Sensibility (2026)",
-      "url": "https://laurasmiscmusings.blogspot.com/2026/10/tonights-movie-sense-and-sensibility.html",
-      "summary": "It's a \"truth universally acknowledged,\" to borrow an Austen phrase, that the 1995 version of SENSE AND SENSIBILITY is a perfect film. Indeed, in 2014 I included it on my personal list of \" 10 Favori…",
-      "publishedAt": "2026-10-31T23:00:00.000Z"
+      "title": "Around the Blogosphere This Week",
+      "url": "https://laurasmiscmusings.blogspot.com/2026/10/around-blogosphere-this-week_01682317487.html",
+      "summary": "Miscellaneous bits of news and fun stuff from around the Internet... ...Hot on the heels of the new Warner Archive Collection Blu-ray release of TV's MAVERICK (1957-62) comes the news that 77 SUNSET …",
+      "publishedAt": "2026-11-01T04:40:00.000Z"
     }
   },
   "https://stingysailor.com/": {
@@ -4537,8 +4537,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-31T19:44:28.048Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4746,15 +4746,15 @@
     }
   },
   "https://travelbetweenthepages.com/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T04:44:29.590Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://travelbetweenthepages.com/feed/",
     "latestArticle": {
-      "title": "Where Halloween and Hanukah Intersect",
-      "url": "https://travelbetweenthepages.com/2026/10/31/where-halloween-and-hanukah-intersect/",
-      "summary": "You will probably be surprised to discover an unlikely connection between the popular Pagan holiday celebration of Halloween and the ancient Jewish Festival of Hanukah. The improbable link connecting…",
-      "publishedAt": "2026-10-31T04:01:24.000Z"
+      "title": "Día de los Muertos (Day of the Dead)",
+      "url": "https://travelbetweenthepages.com/2026/11/01/dia-de-los-muertos-day-of-the-dead/",
+      "summary": "“Up in Illinois, we’ve forgotten what it’s all about. I mean the dead, up in our town, tonight, heck, they’re forgotten. Nobody goes to sit and talk to them. Boy, that’s lonely. That’s really sad. Bu…",
+      "publishedAt": "2026-11-01T04:01:01.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -5159,8 +5159,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-10-31T19:44:28.048Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5532,15 +5532,15 @@
     }
   },
   "https://70sscifiart.tumblr.com/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-11-01T03:44:32.119Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "70sscifiart:\n\nFrank Frazetta",
-      "url": "https://70sscifiart.tumblr.com/post/832017135001812992",
-      "summary": "70sscifiart : Frank Frazetta",
-      "publishedAt": "2026-10-31T19:02:52.000Z"
+      "title": "💀art by Josh Kirby, Peter Goodfellow, Rodney Matthews, Colin Hay",
+      "url": "https://70sscifiart.tumblr.com/post/832042815699730432",
+      "summary": "retroscifiart : 💀art by Josh Kirby, Peter Goodfellow, Rodney Matthews, Colin Hay",
+      "publishedAt": "2026-11-01T01:51:03.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5909,8 +5909,8 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-10-30",
-    "lastChecked": "2026-11-01T02:44:28.520Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
       "title": "SPOTTED: Red Bull Winter Edition Pistachio & Berries Energy Drink",
@@ -6369,8 +6369,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-01T00:44:31.719Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6567,15 +6567,15 @@
     }
   },
   "https://marginalrevolution.com/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T19:44:28.048Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "William Nordhaus, RIP",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/william-nordhaus-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=william-nordhaus-rip",
-      "summary": "Here is notice from Yale, and from Paul Krugman, he was one of the true greats. For the pointer I thank several MR readers. The post William Nordhaus, RIP appeared first on Marginal REVOLUTION .",
-      "publishedAt": "2026-10-31T18:33:58.000Z"
+      "title": "Are LLMs good or bad Bayesians?",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-llms-good-or-bad-bayesians.html?utm_source=rss&utm_medium=rss&utm_campaign=are-llms-good-or-bad-bayesians",
+      "summary": "Bryan Caplan: It seems like you and other AIs are bad Bayesians. When presented with counterevidence, you should move toward or against the presenter with roughly equal probability. It depends on whe…",
+      "publishedAt": "2026-11-01T04:17:10.000Z"
     }
   },
   "https://leancrew.com/all-this/": {
@@ -6591,15 +6591,15 @@
     }
   },
   "https://13thdimension.com/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T04:44:29.590Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://13thdimension.com/feed/",
     "latestArticle": {
-      "title": "Oh, Boy! I Got Me a ‘New’ 1960s BEN COOPER BATMAN Play Suit!",
-      "url": "https://13thdimension.com/oh-boy-i-got-me-a-new-1960s-ben-cooper-batman-play-suit/",
-      "summary": "A MORRISON MONDAYS SPECIAL for Halloween — even though it’s Saturday! By BILL MORRISON Just in time for Halloween, I bought a Ben Cooper Batman Play Suit from 1965 in the original box! I still own mo…",
-      "publishedAt": "2026-10-31T04:10:43.000Z"
+      "title": "The Brilliant SUPERMAN: THE STRANGER Art Deco Cover You Must See",
+      "url": "https://13thdimension.com/the-brilliant-superman-the-stranger-art-deco-cover-you-must-see/",
+      "summary": "Julian Totino Tedesco’s back with a glorious vengeance… Artist Julian Totino Tedesco in 2021-22 did a run of variant covers for Action Comics that were utterly spectacular — painterly takes that evok…",
+      "publishedAt": "2026-11-01T04:04:40.000Z"
     }
   },
   "https://mysteryfile.com/blog/": {
@@ -6775,15 +6775,15 @@
     }
   },
   "https://crpgaddict.blogspot.com/": {
-    "lastPublished": "2026-10-30",
-    "lastChecked": "2026-10-30T17:44:31.121Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/TheCrpgAddict",
     "latestArticle": {
-      "title": "Pagan: The Beginning of Wisdom",
-      "url": "http://crpgaddict.blogspot.com/2026/10/pagan-beginning-of-wisdom.html",
-      "summary": "The Avatar is a bit slow. Plot check: The Avatar has been stranded on the world of Pagan by the Guardian, who continues to taunt him with hints about the devastation he is inflicting on Britannia whi…",
-      "publishedAt": "2026-10-29T16:00:00.000Z"
+      "title": "Ravenloft: Strahd's Destruction!",
+      "url": "http://crpgaddict.blogspot.com/2026/11/ravenloft-strahds-destruction.html",
+      "summary": "If this is Dhelt's response to returning an amulet, I want to be the hero who rescues his kidnapped daughter. Somers and Quill, Forgotten Realms denizens, arrived in this weird little dimension after…",
+      "publishedAt": "2026-11-01T04:00:00.000Z"
     }
   },
   "https://bisha.neocities.org/blog": {
@@ -7027,13 +7027,13 @@
   },
   "https://www.buywithcontext.com/": {
     "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T12:44:30.086Z",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://www.buywithcontext.com/feed/",
     "latestArticle": {
       "title": "Robot Vacuum for Two Large Shedding Dogs, Mixed Floors, and Night Cleaning: Dreame, eufy, or Roborock?",
       "url": "https://www.buywithcontext.com/robot-vacuum-two-large-dogs-mixed-floors-night-dreame-eufy-roborock/?utm_source=rss&utm_medium=rss&utm_campaign=robot-vacuum-two-large-dogs-mixed-floors-night-dreame-eufy-roborock",
-      "summary": "Two Bernese Mountain Dogs change what a robot vacuum has to prove. The hair volume is daily, not weekly; the floors mix hardwood with carpet on two levels; and the run happens at night, when the dock…",
+      "summary": "Choosing a robot vacuum for two large dogs, mixed floors, and night cleaning means testing more than hair pickup. The hair volume is daily, not weekly; the floors mix hardwood with carpet on two leve…",
       "publishedAt": "2026-10-31T12:04:47.000Z"
     }
   },
@@ -7105,8 +7105,8 @@
   },
   "https://www.theimpulsivebuy.com/": {
     "lastPublished": "2026-10-30",
-    "lastChecked": "2026-11-01T02:44:28.520Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
       "title": "SPOTTED: Red Bull Winter Edition Pistachio & Berries Energy Drink",
@@ -7698,8 +7698,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-01T03:44:32.119Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7740,9 +7740,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-01T03:44:32.119Z",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7800,8 +7800,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-01T03:44:32.119Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -7977,15 +7977,15 @@
     }
   },
   "https://frompyrgos.blogspot.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-28T05:05:22.342Z",
+    "lastPublished": "2026-11-01",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://frompyrgos.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Club de Nuit Maleka (Armaf)",
-      "url": "https://frompyrgos.blogspot.com/2026/10/club-de-nuit-maleka-armaf.html",
-      "summary": "\"We worked with outstanding naturals, chosen for their purity and depth.\" So says Olivier Cresp, master perfumer, of Armaf's 2025 Club de Nuit Maleka, gesturing to what looks like crushed olibanum, p…",
-      "publishedAt": "2026-10-27T22:29:55.716Z"
+      "title": "Continuum [12:00 GMT] (Tumi)",
+      "url": "https://frompyrgos.blogspot.com/2026/11/continuum-1200-gmt-tumi.html",
+      "summary": "I don't know what to make of Tumi fragrances. Atlas is very fresh, quite a bit woody and green, and reminiscent of a '90s masculine, with actual oakmoss in the formula. Yet I rarely feel like reachin…",
+      "publishedAt": "2026-11-01T04:28:26.429Z"
     }
   },
   "https://jamesrussellontheweb.blogspot.com/": {
@@ -8832,14 +8832,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-01T00:44:31.719Z",
+    "lastChecked": "2026-11-01T04:44:32.581Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Tether posts $1.5B Q3 profit as reserve buffer doubles to nearly $8B",
-      "url": "https://cryptonews.mobile/brief/tether-posts-15b-q3-profit-as-reserve-buffer-doubles-to-nearly-8b",
-      "summary": "Tether reported $1.5 billion in net operating profit for the third quarter of 2026, matching the prior quarter. The stablecoin issuer said its reserve buffer rose from $4.1 billion to almost $8 billi…",
-      "publishedAt": "2026-11-01T00:03:13.000Z"
+      "title": "Anchorpoint and Solana Foundation partner to bring HKDAP stablecoin to Solana",
+      "url": "https://cryptonews.mobile/brief/anchorpoint-and-solana-foundation-partner-to-bring-hkdap-stablecoin-to-solana",
+      "summary": "Anchorpoint and the Solana Foundation have entered a strategic collaboration to bring the Hong Kong dollar-pegged HKDAP stablecoin to Solana. The arrangement covers native minting and redemption of H…",
+      "publishedAt": "2026-11-01T04:43:27.000Z"
     }
   },
   "https://usefreetools.net/": {

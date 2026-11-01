@@ -35,6 +35,7 @@ body:
         - 'Fansites'
         - 'Webrings'
         - 'Guides & Resources'
+        - 'Social & Community'
         - 'Other / Suggest a new category'
         # END GENERATED INDEPENDENT WEB CATEGORIES
     validations: { required: true }

@@ -4,7 +4,9 @@ description: Practical guides, tutorials, explainers and useful everyday resourc
 prev:
   text: Webrings
   link: /independent-web/webrings
-next: false
+next:
+  text: Social & Community
+  link: /independent-web/social-and-community
 ---
 
 <script setup>

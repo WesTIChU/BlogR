@@ -55,5 +55,11 @@
     "title": "Guides & Resources",
     "icon": "📖",
     "subcategories": ["How-To & Tutorials"]
+  },
+  {
+    "slug": "social-and-community",
+    "title": "Social & Community",
+    "icon": "💬",
+    "subcategories": ["Social Networking"]
   }
 ]

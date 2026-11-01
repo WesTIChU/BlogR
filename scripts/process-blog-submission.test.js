@@ -11,6 +11,7 @@ import { crossSectionMatches } from '../shared/blog-duplicate.js'
 import {
   addSuggestedCategory,
   appendBlogEntry,
+  applySuggestedCategory,
   applySuggestedIndependentSubcategory,
   applySuggestedSubcategory,
   buildBlogEntry,
@@ -919,7 +920,7 @@ test('only write-capable maintainers may approve submissions', () => {
   assert.equal(hasApprovalPermission(null), false)
 })
 
-test('taxonomy authorization requires both maintainer permission and label', () => {
+test('maintainer approval authorizes taxonomy changes without a second label', () => {
   const authorizedBody = `${body()}\n### Taxonomy authorization\n\napproved\n`
   assert.equal(
     hasTaxonomyAuthorization(
@@ -935,7 +936,7 @@ test('taxonomy authorization requires both maintainer permission and label', () 
       { permission: 'admin' },
       authorizedBody
     ),
-    false
+    true
   )
   assert.equal(
     hasTaxonomyAuthorization(
@@ -944,6 +945,10 @@ test('taxonomy authorization requires both maintainer permission and label', () 
       authorizedBody
     ),
     false
+  )
+  assert.equal(
+    hasTaxonomyAuthorization(['approved'], { permission: 'maintain' }, body()),
+    true
   )
 })
 
@@ -960,6 +965,65 @@ test('cross-section duplicates are warnings rather than same-section rejection',
 test('authorized category suggestions produce explicit taxonomy data', () => {
   const next = addSuggestedCategory([], 'DIY Projects', 'community')
   assert.deepEqual(next, [{ slug: 'diy-projects', title: 'DIY Projects' }])
+})
+
+test('reuses existing categories case-insensitively without changing metadata', () => {
+  const source = structuredClone(independentWebTaxonomy)
+  const result = applySuggestedCategory(
+    source,
+    '  web   directories ',
+    'website'
+  )
+  assert.equal(result.status, 'reused')
+  assert.equal(result.category.slug, 'web-directories')
+  assert.deepEqual(result.taxonomy, source)
+})
+
+test('creates a new category with the directory-specific schema', () => {
+  const result = applySuggestedCategory(
+    independentWebTaxonomy,
+    'Radio & Audio Directories',
+    'website'
+  )
+  assert.equal(result.status, 'created')
+  assert.deepEqual(result.category, {
+    slug: 'radio-and-audio-directories',
+    title: 'Radio & Audio Directories',
+    subcategories: []
+  })
+})
+
+test('rejects malformed suggested categories before taxonomy mutation', () => {
+  for (const title of ['', 'Bad / Path', '<script>', 'name: value']) {
+    assert.throws(
+      () => applySuggestedCategory(independentWebTaxonomy, title, 'website'),
+      /invalid name/
+    )
+  }
+})
+
+test('parses and creates the Roam Radio suggested subcategory without extra authorization', () => {
+  const issue = `${websiteBody({
+    name: 'Roam Radio',
+    url: 'https://roamradios.com/',
+    category: 'Web Directories',
+    subcategory: 'Other / Suggest a new subcategory'
+  })}\n### Suggested new subcategory\n\nRadio & Audio Directories\n`
+  const parsed = parseWebsiteIssueForm(issue)
+  const submission = validateIndependentWebsiteSubmission(parsed, [], [], [])
+  const result = applySuggestedIndependentSubcategory(
+    independentWebTaxonomy,
+    submission
+  )
+  assert.equal(submission.category, 'Web Directories')
+  assert.equal(result.status, 'created')
+  assert.equal(result.submission.subcategory, 'Radio & Audio Directories')
+  assert.equal(
+    result.taxonomy
+      .find(({ slug }) => slug === 'web-directories')
+      .subcategories.at(-1),
+    'Radio & Audio Directories'
+  )
 })
 
 test('accepts the labeled event without requiring a missing form label', () => {
@@ -1000,6 +1064,19 @@ test('catalogue generation is limited to data and known generated pages', () => 
     false
   )
   assert.equal(files.length, taxonomy.categories.length + 3)
+})
+
+test('new independent web categories include their generated page in the PR', () => {
+  const nextTaxonomy = applySuggestedCategory(
+    independentWebTaxonomy,
+    'Radio & Audio Directories',
+    'website'
+  ).taxonomy
+  const files = independentWebsiteCatalogueFiles(nextTaxonomy)
+  assert.equal(
+    files.includes('docs/independent-web/radio-and-audio-directories.md'),
+    true
+  )
 })
 
 test('approval workflow explicitly preserves Webring output during generation', async () => {

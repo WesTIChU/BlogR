@@ -6,9 +6,20 @@ import { getRecentlyAddedGroups } from '../shared/recently-added.js'
 
 const DIST = resolve('docs/.vitepress/dist')
 const ORIGIN = 'https://blogr.directory'
-// Country groups are included in the public page and sitemap counts.
-const expectedPublicPageCount = 71
-const expectedSitemapPageCount = 70
+
+const sourceMarkdownFiles = async () => {
+  const files = []
+  const visit = async (directory) => {
+    for (const entry of await readdir(directory, { withFileTypes: true })) {
+      if (entry.name === '.vitepress') continue
+      const path = join(directory, entry.name)
+      if (entry.isDirectory()) await visit(path)
+      else if (entry.name.endsWith('.md')) files.push(path)
+    }
+  }
+  await visit(resolve('docs'))
+  return files
+}
 
 const htmlFiles = async () => {
   const files = []
@@ -47,7 +58,7 @@ const contentHeadings = (html) => {
 test('public pages use the production origin consistently', async () => {
   const files = (await htmlFiles()).filter((file) => !file.endsWith('404.html'))
 
-  assert.equal(files.length, expectedPublicPageCount)
+  assert.equal(files.length, (await sourceMarkdownFiles()).length)
   for (const file of files) {
     const html = await readFile(file, 'utf8')
     assert.equal(
@@ -70,7 +81,11 @@ test('sitemap and robots use the production sitemap URL', async () => {
     (match) => match[1]
   )
 
-  assert.equal(locs.length, expectedSitemapPageCount)
+  const sourcePages = await sourceMarkdownFiles()
+  const sitemapPages = sourcePages.filter(
+    (file) => !file.endsWith('submit-a-blog.md')
+  )
+  assert.equal(locs.length, sitemapPages.length)
   assert.equal(
     locs.every((url) => url.startsWith(ORIGIN)),
     true

@@ -7,7 +7,7 @@ description: Suggest an independent blog, website or online community for BlogR.
 
 <div class="blogr-submission-notice" role="note" aria-label="Submission guidelines">
 
-### 🛡️ Important: Please read before submitting
+## 🛡️ Important: Please read before submitting
 
 Every website submitted to BlogR is **manually reviewed and moderated** before being added to the directory. **Submission does not guarantee inclusion.**
 

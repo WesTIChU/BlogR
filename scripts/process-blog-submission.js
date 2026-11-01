@@ -30,7 +30,8 @@ const MAX_URL_LENGTH = 2048
 const IGNORED_SUBCATEGORIES = new Set([
   'Not sure / Other',
   'Not sure / Let the editor decide',
-  'Other / Suggest a subcategory'
+  'Other / Suggest a subcategory',
+  'Other / Suggest a new subcategory'
 ])
 const EMPTY_SUBCATEGORY_VALUES = new Set(['', '_No response_', 'None'])
 const OTHER_COUNTRY_OPTION = 'Other / Not listed'
@@ -291,6 +292,8 @@ export function parseCommunityIssueForm(body) {
   }
 
   const get = (heading) => fields.get(heading) ?? ''
+  const categorySuggestion =
+    get('suggested category') || get('suggested new category')
   const description = cleanValue(
     get('description'),
     'description',
@@ -304,11 +307,10 @@ export function parseCommunityIssueForm(body) {
     url: cleanValue(get('website url'), 'website URL', MAX_URL_LENGTH),
     description,
     category: cleanValue(get('category'), 'category', 120),
-    ...(get('suggested category') &&
-    get('suggested category') !== '_No response_'
+    ...(categorySuggestion && categorySuggestion !== '_No response_'
       ? {
           categorySuggestion: cleanValue(
-            get('suggested category'),
+            categorySuggestion,
             'category suggestion',
             80
           )
@@ -339,6 +341,8 @@ export function parseWebsiteIssueForm(body) {
     )
   }
   const get = (heading) => fields.get(heading) ?? ''
+  const categorySuggestion =
+    get('suggested category') || get('suggested new category')
   return {
     name: cleanValue(get('website name'), 'website name', MAX_NAME_LENGTH),
     url: cleanValue(get('website url'), 'website URL', MAX_URL_LENGTH),
@@ -348,11 +352,10 @@ export function parseWebsiteIssueForm(body) {
       MAX_DESCRIPTION_LENGTH
     ),
     category: cleanValue(get('category'), 'category', 80),
-    ...(get('suggested category') &&
-    get('suggested category') !== '_No response_'
+    ...(categorySuggestion && categorySuggestion !== '_No response_'
       ? {
           categorySuggestion: cleanValue(
-            get('suggested category'),
+            categorySuggestion,
             'category suggestion',
             80
           )
@@ -429,33 +432,63 @@ const taxonomySlug = (value) => classificationKey(value).replace(/ /g, '-')
 
 export function addSuggestedCategory(taxonomy, title, kind = 'blog') {
   const next = structuredClone(taxonomy)
+  const validatedTitle = validateSuggestedSubcategory(title)
   if (kind === 'blog') {
     if (
       next.categories.some(
-        (item) => classificationKey(item.title) === classificationKey(title)
+        (item) =>
+          classificationKey(item.title) === classificationKey(validatedTitle)
       )
     )
-      throw new Error('Suggested category already exists')
+      return next
     next.categories.push({
-      slug: taxonomySlug(title),
-      title,
-      description: `${title} blogs.`,
+      slug: taxonomySlug(validatedTitle),
+      title: validatedTitle,
+      description: `${validatedTitle} blogs.`,
       subsections: [{ title: 'General', match: '.*' }]
     })
   } else {
     if (
       next.some(
-        (item) => classificationKey(item.title) === classificationKey(title)
+        (item) =>
+          classificationKey(item.title) === classificationKey(validatedTitle)
       )
     )
-      throw new Error('Suggested category already exists')
+      return next
     next.push({
-      slug: taxonomySlug(title),
-      title,
+      slug: taxonomySlug(validatedTitle),
+      title: validatedTitle,
       ...(kind === 'website' ? { subcategories: [] } : {})
     })
   }
   return next
+}
+
+export function applySuggestedCategory(taxonomy, title, kind = 'blog') {
+  const validatedTitle = validateSuggestedSubcategory(title)
+  const categories = kind === 'blog' ? taxonomy.categories : taxonomy
+  const existing = categories.find(
+    ({ title: existingTitle }) =>
+      classificationKey(existingTitle) === classificationKey(validatedTitle)
+  )
+  if (existing) {
+    return {
+      taxonomy: structuredClone(taxonomy),
+      category: existing,
+      status: 'reused'
+    }
+  }
+  const nextTaxonomy = addSuggestedCategory(taxonomy, validatedTitle, kind)
+  const nextCategories =
+    kind === 'blog' ? nextTaxonomy.categories : nextTaxonomy
+  return {
+    taxonomy: nextTaxonomy,
+    category: nextCategories.find(
+      ({ title: categoryTitle }) =>
+        classificationKey(categoryTitle) === classificationKey(validatedTitle)
+    ),
+    status: 'created'
+  }
 }
 
 const subcategoryMatch = (title) =>
@@ -690,8 +723,11 @@ export function validateCommunitySubmission(
     MAX_DESCRIPTION_LENGTH
   )
   const category = new Map(
-    taxonomyData.map(({ slug, title }) => [title, { slug, title }])
-  ).get(submission.category)
+    taxonomyData.map(({ slug, title }) => [
+      classificationKey(title),
+      { slug, title }
+    ])
+  ).get(classificationKey(submission.category))
   if (!category) throw new Error('Invalid community category')
   const sectionByTitle = new Map([
     ['Forum', 'forums'],
@@ -890,11 +926,10 @@ export function hasApprovalPermission(permission) {
 }
 
 export function hasTaxonomyAuthorization(labels, permission, body) {
-  if (!Array.isArray(labels) || !labels.includes('taxonomy-approved'))
-    return false
-  if (!hasApprovalPermission(permission)) return false
-  if (typeof body !== 'string') return false
-  return /^###\s+Taxonomy authorization\s*\r?\n\s*approved\s*$/im.test(body)
+  // Taxonomy changes are authorized by the maintainer approval itself. Keep
+  // this helper for callers that still pass the old arguments, but do not
+  // require a second label or an issue-body authorization paragraph.
+  return hasApprovalPermission(permission ?? labels)
 }
 
 export function existingSubmissionPullRequest(pullRequests) {
@@ -932,15 +967,15 @@ export function communityCatalogueFiles() {
   ]
 }
 
-export function independentWebsiteCatalogueFiles() {
+export function independentWebsiteCatalogueFiles(
+  taxonomy = independentWebTaxonomy
+) {
   return [
     'data/websites.json',
     'data/independent-web-taxonomy.json',
     '.github/ISSUE_TEMPLATE/submit-independent-website.yml',
     'docs/independent-web/index.md',
-    ...independentWebTaxonomy.map(
-      ({ slug }) => `docs/independent-web/${slug}.md`
-    )
+    ...taxonomy.map(({ slug }) => `docs/independent-web/${slug}.md`)
   ]
 }
 
@@ -1057,12 +1092,6 @@ async function run() {
   if (issue.state !== 'open' || !labels.includes('approved') || !type) {
     throw new Error('Issue is not an open approved submission')
   }
-  const taxonomyAuthorized = hasTaxonomyAuthorization(
-    labels,
-    permission,
-    issue.body
-  )
-
   const taxonomyText = await readFile(
     resolve('data/blog-taxonomy.json'),
     'utf8'
@@ -1091,32 +1120,16 @@ async function run() {
   if (type === 'blog') {
     validateBlogs(blogs)
     const parsedIssue = parseIssueForm(issue.body)
-    const selectedBlogCategory = taxonomy.categories.find(
-      ({ title }) =>
-        classificationKey(title) === classificationKey(parsedIssue.category)
-    )
-    const selectedBlogSubcategory = selectedBlogCategory?.subsections?.some(
-      ({ title }) =>
-        subcategoryKey(title) === subcategoryKey(parsedIssue.subcategory)
-    )
     if (
-      (parsedIssue.category === OTHER_CATEGORY_OPTION ||
-        parsedIssue.categorySuggestion ||
-        parsedIssue.suggestedSubcategory ||
-        extractSuggestedSubcategory(parsedIssue.notes) ||
-        (parsedIssue.subcategory && !selectedBlogSubcategory)) &&
-      !taxonomyAuthorized
+      classificationKey(parsedIssue.category) ===
+      classificationKey(OTHER_CATEGORY_OPTION)
     ) {
-      throw new Error(
-        'Taxonomy suggestions require the taxonomy-approved label and explicit authorization'
-      )
-    }
-    if (parsedIssue.category === OTHER_CATEGORY_OPTION) {
       const title = validateSuggestedSubcategory(parsedIssue.categorySuggestion)
-      taxonomy = addSuggestedCategory(taxonomy, title, 'blog')
-      parsedIssue.category = title
+      const result = applySuggestedCategory(taxonomy, title, 'blog')
+      taxonomy = result.taxonomy
+      parsedIssue.category = result.category.slug
       delete parsedIssue.categorySuggestion
-      suggestedCategoryStatus = 'created'
+      suggestedCategoryStatus = result.status
     }
     const parsedSubmission = validateSubmission(parsedIssue, blogs, taxonomy)
     const result = applySuggestedSubcategory(taxonomy, parsedSubmission)
@@ -1128,25 +1141,20 @@ async function run() {
     validateCommunities(communities)
     const parsedIssue = parseCommunityIssueForm(issue.body)
     if (
-      (parsedIssue.category === OTHER_CATEGORY_OPTION ||
-        parsedIssue.categorySuggestion) &&
-      !taxonomyAuthorized
+      classificationKey(parsedIssue.category) ===
+      classificationKey(OTHER_CATEGORY_OPTION)
     ) {
-      throw new Error(
-        'Taxonomy suggestions require the taxonomy-approved label and explicit authorization'
-      )
-    }
-    if (parsedIssue.category === OTHER_CATEGORY_OPTION) {
       const title = validateSuggestedSubcategory(parsedIssue.categorySuggestion)
-      communityTaxonomyData = addSuggestedCategory(
+      const result = applySuggestedCategory(
         communityTaxonomyData,
         title,
         'community'
       )
+      communityTaxonomyData = result.taxonomy
       nextCommunityTaxonomy = communityTaxonomyData
-      parsedIssue.category = title
+      parsedIssue.category = result.category.title
       delete parsedIssue.categorySuggestion
-      suggestedCategoryStatus = 'created'
+      suggestedCategoryStatus = result.status
     }
     submission = validateCommunitySubmission(
       parsedIssue,
@@ -1156,36 +1164,20 @@ async function run() {
     )
   } else {
     const parsedIssue = parseWebsiteIssueForm(issue.body)
-    const selectedWebsiteCategory = independentWebTaxonomyData.find(
-      ({ title }) =>
-        classificationKey(title) === classificationKey(parsedIssue.category)
-    )
-    const selectedWebsiteSubcategory =
-      selectedWebsiteCategory?.subcategories?.some(
-        (title) =>
-          subcategoryKey(title) === subcategoryKey(parsedIssue.subcategory)
-      )
     if (
-      (parsedIssue.category === OTHER_CATEGORY_OPTION ||
-        parsedIssue.categorySuggestion ||
-        parsedIssue.suggestedSubcategory ||
-        (parsedIssue.subcategory && !selectedWebsiteSubcategory)) &&
-      !taxonomyAuthorized
+      classificationKey(parsedIssue.category) ===
+      classificationKey(OTHER_CATEGORY_OPTION)
     ) {
-      throw new Error(
-        'Taxonomy suggestions require the taxonomy-approved label and explicit authorization'
-      )
-    }
-    if (parsedIssue.category === OTHER_CATEGORY_OPTION) {
       const title = validateSuggestedSubcategory(parsedIssue.categorySuggestion)
-      independentWebTaxonomyData = addSuggestedCategory(
+      const result = applySuggestedCategory(
         independentWebTaxonomyData,
         title,
         'website'
       )
-      parsedIssue.category = title
+      independentWebTaxonomyData = result.taxonomy
+      parsedIssue.category = result.category.title
       delete parsedIssue.categorySuggestion
-      suggestedCategoryStatus = 'created'
+      suggestedCategoryStatus = result.status
     }
     const parsedSubmission = validateIndependentWebsiteSubmission(
       parsedIssue,
@@ -1247,7 +1239,7 @@ async function run() {
       ? [...catalogueFiles(nextTaxonomy, submission)]
       : type === 'community'
         ? communityCatalogueFiles()
-        : independentWebsiteCatalogueFiles()
+        : independentWebsiteCatalogueFiles(nextIndependentWebTaxonomy)
   if (type === 'blog') {
     const nextBlogs = appendBlogEntry(blogs, entry)
     await writeFile(

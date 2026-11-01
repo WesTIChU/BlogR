@@ -1,13 +1,13 @@
 ---
 title: Canada Blogs
-description: 18 blogs listed in Canada.
+description: 19 blogs listed in Canada.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="18" />
+<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="19" />
 
 ## Arts & Entertainment
 
@@ -40,6 +40,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Geography & Maps
 
 * <span class="blog-entry"><BlogHealthLink name="The Map Room" url="https://www.maproomblog.com/" /> - Long-running blog exploring maps, cartography, geography, historical maps and geospatial technology.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://www.maproomblog.com/" data-blog-name="The Map Room"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://www.maproomblog.com/feed/" target="_blank" rel="noopener noreferrer" title="RSS feed for The Map Room" aria-label="RSS feed for The Map Room"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/canada" aria-label="Based in Canada"><span class="blog-country-flag" aria-hidden="true">🇨🇦</span> Canada</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;23 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-518b155a03bf5be7ba0eb184426c064a" website-url="https://www.maproomblog.com/" website-name="The Map Room" /></span>
+
+### Local Culture & Communities
+
+* <span class="blog-entry"><BlogHealthLink name="Montreal City Weblog" url="https://mtlcityweblog.com/" /> - Kate McDonnell’s long-running Montreal blog follows local news, urban change, public affairs, transport, neighbourhood life and environmental issues across the city and island.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://mtlcityweblog.com/" data-blog-name="Montreal City Weblog"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/canada" aria-label="Based in Canada"><span class="blog-country-flag" aria-hidden="true">🇨🇦</span> Canada</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;1 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-18f1ac800c869fe59a365c35832f193f" website-url="https://mtlcityweblog.com/" website-name="Montreal City Weblog" /></span>
 
 ## Health & Wellbeing
 

@@ -1,5 +1,5 @@
 import { execFile } from 'node:child_process'
-import { randomBytes } from 'node:crypto'
+import { createHash, randomBytes } from 'node:crypto'
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -944,6 +944,17 @@ export function hasTaxonomyAuthorization(labels, permission, body) {
   return hasApprovalPermission(permission ?? labels)
 }
 
+export function processingFailureMarker(body) {
+  return `<!-- blogr-processing-failure:${createHash('sha256').update(body).digest('hex')} -->`
+}
+
+export function hasProcessingFailure(comments, body) {
+  const marker = processingFailureMarker(body)
+  return comments.some(
+    (item) => typeof item?.body === 'string' && item.body.includes(marker)
+  )
+}
+
 export function existingSubmissionPullRequest(pullRequests) {
   return pullRequests.find((pullRequest) => pullRequest?.number) ?? null
 }
@@ -1115,6 +1126,16 @@ async function run() {
     : labeledType
   if (issue.state !== 'open' || !labels.includes('approved') || !type) {
     throw new Error('Issue is not an open approved submission')
+  }
+  const comments = await apiRequest(
+    token,
+    `/repos/${owner}/${repo}/issues/${issueNumber}/comments?per_page=100`
+  )
+  if (hasProcessingFailure(comments, issue.body)) {
+    console.log(
+      'Skipping unchanged submission after a previous processing failure; edit the issue before retrying approval.'
+    )
+    return
   }
   const taxonomyText = await readFile(
     resolve('data/blog-taxonomy.json'),
@@ -1418,12 +1439,16 @@ if (resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
     if (repository && issueNumber && token) {
       const [owner, repo] = repository.split('/')
       try {
+        const failedIssue = await apiRequest(
+          token,
+          `/repos/${owner}/${repo}/issues/${issueNumber}`
+        )
         await comment(
           token,
           owner,
           repo,
           issueNumber,
-          `The approved submission could not be processed automatically: ${error.message}`
+          `The approved submission could not be processed automatically: ${error.message}\n\n${processingFailureMarker(failedIssue.body)}`
         )
       } catch {
         // Keep the original failure as the workflow result without exposing tokens.

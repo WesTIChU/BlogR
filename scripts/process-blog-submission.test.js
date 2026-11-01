@@ -23,6 +23,7 @@ import {
   extractSuggestedSubcategory,
   getAdditionMetadata,
   hasApprovalPermission,
+  hasProcessingFailure,
   hasTaxonomyAuthorization,
   independentWebsiteCatalogueFiles,
   insertSubcategoryInTaxonomyText,
@@ -30,6 +31,7 @@ import {
   parseCommunityIssueForm,
   parseIssueForm,
   parseWebsiteIssueForm,
+  processingFailureMarker,
   pullRequestDetails,
   submissionBranch,
   submissionType,
@@ -416,6 +418,14 @@ test('approval detection accepts community forms alongside blog forms', () => {
     null
   )
   assert.equal(submissionType(communityBody(), ['approved']), 'community')
+})
+
+test('processing failure markers block only unchanged approved submissions', () => {
+  const body = communityBody({ category: 'Unknown' })
+  const comments = [{ body: `Failure\n${processingFailureMarker(body)}` }]
+  assert.equal(hasProcessingFailure(comments, body), true)
+  assert.equal(hasProcessingFailure(comments, `${body}\nEdited`), false)
+  assert.equal(hasProcessingFailure([{ body: 'Failure' }], body), false)
 })
 
 test('community form categories match the community taxonomy', async () => {

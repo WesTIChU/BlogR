@@ -979,6 +979,18 @@ export function independentWebsiteCatalogueFiles(
   ]
 }
 
+export function catalogueGenerationArguments(type, submissionUrl) {
+  if (type === 'blog') {
+    if (!submissionUrl)
+      throw new Error('Blog generation requires a submission URL')
+    return ['scripts/generate-blog-pages.js', '--submission-url', submissionUrl]
+  }
+  if (type === 'community' || type === 'website') {
+    return ['scripts/generate-blog-pages.js']
+  }
+  throw new Error(`Invalid submission type: ${type}`)
+}
+
 export async function updateIndependentWebTaxonomyText(taxonomy) {
   return prettier.format(`${JSON.stringify(taxonomy, null, 2)}\n`, {
     filepath: 'data/independent-web-taxonomy.json'
@@ -1316,11 +1328,10 @@ async function run() {
     generated.push('data/community-taxonomy.json')
     generated.push('.github/ISSUE_TEMPLATE/submit-community.yml')
   }
-  await exec(process.execPath, [
-    'scripts/generate-blog-pages.js',
-    '--submission-url',
-    submission.url
-  ])
+  await exec(
+    process.execPath,
+    catalogueGenerationArguments(type, type === 'blog' ? submission.url : null)
+  )
   await exec(process.execPath, ['scripts/generate-function-data.js'])
   generated.push(
     'shared/blogr-function-data.js',

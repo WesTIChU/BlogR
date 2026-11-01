@@ -17,6 +17,7 @@ import {
   buildBlogEntry,
   buildCommunityEntry,
   catalogueFiles,
+  catalogueGenerationArguments,
   communityCatalogueFiles,
   existingSubmissionPullRequest,
   extractSuggestedSubcategory,
@@ -1145,12 +1146,22 @@ test('approval catalogue files include only the submission pages and its country
   assert.equal(files.includes('docs/collections/travel-outdoors.md'), false)
 })
 
-test('approval processing uses submission-scoped page generation', async () => {
-  const processor = await readFile('scripts/process-blog-submission.js', 'utf8')
-  assert.match(
-    processor,
-    /generate-blog-pages\.js'[\s\S]*'--submission-url'[\s\S]*submission\.url/
+test('approval generation uses the appropriate catalogue for each submission type', () => {
+  assert.deepEqual(
+    catalogueGenerationArguments('blog', 'https://example.com/'),
+    [
+      'scripts/generate-blog-pages.js',
+      '--submission-url',
+      'https://example.com/'
+    ]
   )
+  assert.deepEqual(catalogueGenerationArguments('website'), [
+    'scripts/generate-blog-pages.js'
+  ])
+  assert.deepEqual(catalogueGenerationArguments('community'), [
+    'scripts/generate-blog-pages.js'
+  ])
+  assert.throws(() => catalogueGenerationArguments('blog'), /submission URL/)
 })
 
 test('independent website approvals include taxonomy, form and directory outputs', () => {

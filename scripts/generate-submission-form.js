@@ -196,10 +196,7 @@ export function syncIndependentWebsiteForm(form, taxonomy) {
 }
 
 export function syncCommunityForm(form, taxonomy) {
-  const generated = taxonomy
-    .map(({ title }) => `        - ${title}`)
-    .concat(['        - Other / Suggest a new category'])
-    .join('\n')
+  const generated = taxonomy.map(({ title }) => `        - ${title}`).join('\n')
   const pattern =
     /^        # BEGIN GENERATED COMMUNITY CATEGORIES\n[\s\S]*?^        # END GENERATED COMMUNITY CATEGORIES/m
   if (!pattern.test(form))

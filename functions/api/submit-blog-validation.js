@@ -303,6 +303,30 @@ export function validateCommunityInput(input) {
     communityTaxonomy,
     'community category'
   )
+  if (selectedCategory.title === OTHER_CATEGORY_OPTION) {
+    throw new Error('Invalid community category')
+  }
+  if (
+    typeof input.categorySuggestion === 'string' &&
+    input.categorySuggestion.trim()
+  ) {
+    throw new Error('Community submissions do not support category suggestions')
+  }
+  const subcategory =
+    typeof input.subcategory === 'string' ? input.subcategory.trim() : ''
+  if (subcategory) {
+    throw new Error(
+      'Community submissions use community categories and do not support blog subcategories'
+    )
+  }
+  if (
+    typeof input.suggestedSubcategory === 'string' &&
+    input.suggestedSubcategory.trim()
+  ) {
+    throw new Error(
+      'Community submissions use community categories and do not support blog subcategories'
+    )
+  }
   const communityType = cleanSingleLine(
     input.communityType,
     'community type',
@@ -442,10 +466,6 @@ export const buildCommunityIssueBody = (submission) =>
     '### Category',
     '',
     submission.category,
-    '',
-    '### Suggested category',
-    '',
-    submission.categorySuggestion ?? '',
     '',
     '### Community type',
     '',

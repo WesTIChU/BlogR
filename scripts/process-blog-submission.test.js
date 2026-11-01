@@ -340,6 +340,60 @@ test('parses and validates a community submission without touching blogs', () =>
   ])
 })
 
+test('processes Driftya with the community taxonomy category', () => {
+  const parsed = parseCommunityIssueForm(
+    communityBody({
+      name: 'Driftya',
+      url: 'https://driftya.com/',
+      description:
+        'An independent social writing project where notes travel between people.',
+      category: 'Internet Culture',
+      type: 'Independent Community'
+    })
+  )
+  const submission = validateCommunitySubmission(parsed, communities, blogs)
+  assert.deepEqual(submission, {
+    name: 'Driftya',
+    url: 'https://driftya.com/',
+    description:
+      'An independent social writing project where notes travel between people.',
+    category: 'internet-culture',
+    section: 'independent-communities'
+  })
+})
+
+test('rejects the blog category and subcategory used by the legacy Driftya issue', () => {
+  const legacyBody = `${communityBody({
+    name: 'Driftya',
+    url: 'https://driftya.com/',
+    category: 'Internet & Society',
+    type: 'Independent Community'
+  })}### Subcategory\n\nOnline Communities\n`
+  assert.throws(
+    () =>
+      validateCommunitySubmission(
+        parseCommunityIssueForm(legacyBody),
+        communities
+      ),
+    /Invalid community category/
+  )
+
+  const validCategoryWithBlogSubcategory = `${communityBody({
+    name: 'Driftya',
+    url: 'https://driftya.com/',
+    category: 'Internet Culture',
+    type: 'Independent Community'
+  })}### Subcategory\n\nOnline Communities\n`
+  assert.throws(
+    () =>
+      validateCommunitySubmission(
+        parseCommunityIssueForm(validCategoryWithBlogSubcategory),
+        communities
+      ),
+    /do not support blog subcategories/
+  )
+})
+
 test('approval detection accepts community forms alongside blog forms', () => {
   assert.equal(submissionType(body()), 'blog')
   assert.equal(submissionType(communityBody()), 'community')

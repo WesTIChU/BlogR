@@ -530,7 +530,9 @@ const countryChanged = () => {
             </option>
           </optgroup>
         </template>
-        <option :value="OTHER_CATEGORY">{{ OTHER_CATEGORY }}</option>
+        <option v-if="form.type !== 'community'" :value="OTHER_CATEGORY">
+          {{ OTHER_CATEGORY }}
+        </option>
       </select>
     </div>
     <div v-if="form.category === OTHER_CATEGORY" class="blog-submission-field">

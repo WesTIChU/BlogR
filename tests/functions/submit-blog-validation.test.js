@@ -4,11 +4,14 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import taxonomy from '../../data/blog-taxonomy.json' with { type: 'json' }
 import blogs from '../../data/blogs.json' with { type: 'json' }
+import communityTaxonomy from '../../data/community-taxonomy.json' with { type: 'json' }
 import independentWebTaxonomy from '../../data/independent-web-taxonomy.json' with { type: 'json' }
 import websites from '../../data/websites.json' with { type: 'json' }
 import {
+  buildCommunityIssueBody,
   buildIndependentWebsiteIssueBody,
   buildIssueBody,
+  validateCommunityInput,
   validateIndependentWebsiteInput,
   validateSubmissionInput,
   validateUrl
@@ -71,6 +74,59 @@ test('validates independent websites and carries a new subcategory into review',
       .find(({ title }) => title === 'Independent Tools')
       .subcategories.includes('Small Web Utilities'),
     false
+  )
+})
+
+test('validates community submissions against the community taxonomy only', () => {
+  const submission = validateCommunityInput({
+    name: 'Driftya',
+    url: 'https://driftya.com/',
+    description: 'An independent social writing project.',
+    category: 'Internet Culture',
+    communityType: 'Independent Community'
+  })
+  assert.equal(submission.category, 'Internet Culture')
+  assert.equal(
+    communityTaxonomy.some(({ title }) => title === submission.category),
+    true
+  )
+  assert.throws(
+    () =>
+      validateCommunityInput({
+        name: 'Driftya',
+        url: 'https://driftya.com/',
+        description: 'An independent social writing project.',
+        category: 'Internet & Society',
+        subcategory: 'Online Communities',
+        communityType: 'Independent Community'
+      }),
+    /Invalid community category/
+  )
+  assert.throws(
+    () =>
+      validateCommunityInput({
+        name: 'Driftya',
+        url: 'https://driftya.com/',
+        description: 'An independent social writing project.',
+        category: 'Internet Culture',
+        subcategory: 'Online Communities',
+        communityType: 'Independent Community'
+      }),
+    /do not support blog subcategories/
+  )
+  assert.doesNotMatch(buildCommunityIssueBody(submission), /Subcategory/)
+  assert.doesNotMatch(buildCommunityIssueBody(submission), /Suggested category/)
+  assert.throws(
+    () =>
+      validateCommunityInput({
+        name: 'Driftya',
+        url: 'https://driftya.com/',
+        description: 'An independent social writing project.',
+        category: 'Other / Suggest a new category',
+        categorySuggestion: 'Independent Web & Communities',
+        communityType: 'Independent Community'
+      }),
+    /Invalid community category/
   )
 })
 

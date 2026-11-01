@@ -42,7 +42,6 @@ body:
         - Lifestyle & Interests
         - News & Discussion
         - Internet Culture
-        - Other / Suggest a new category
         # END GENERATED COMMUNITY CATEGORIES
     validations:
       required: true

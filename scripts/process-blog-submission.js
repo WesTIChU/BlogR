@@ -294,6 +294,7 @@ export function parseCommunityIssueForm(body) {
   const get = (heading) => fields.get(heading) ?? ''
   const categorySuggestion =
     get('suggested category') || get('suggested new category')
+  const subcategory = get('subcategory')
   const description = cleanValue(
     get('description'),
     'description',
@@ -315,6 +316,9 @@ export function parseCommunityIssueForm(body) {
             80
           )
         }
+      : {}),
+    ...(subcategory && subcategory !== '_No response_'
+      ? { subcategory: cleanValue(subcategory, 'subcategory', 80) }
       : {}),
     directoryType: get('directory type'),
     section: cleanValue(get('community type'), 'community type', 80),
@@ -729,6 +733,14 @@ export function validateCommunitySubmission(
     ])
   ).get(classificationKey(submission.category))
   if (!category) throw new Error('Invalid community category')
+  if (submission.categorySuggestion) {
+    throw new Error('Community submissions do not support category suggestions')
+  }
+  if (submission.subcategory) {
+    throw new Error(
+      'Community submissions use community categories and do not support blog subcategories'
+    )
+  }
   const sectionByTitle = new Map([
     ['Forum', 'forums'],
     ['Independent Community', 'independent-communities']

@@ -77,13 +77,13 @@
   },
   "http://www.merseytart.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-11-02",
     "feedUrl": "http://feeds.feedburner.com/RoundTheMerseyrailWeGo",
     "latestArticle": {
-      "title": "Blue Notes",
-      "url": "http://www.merseytart.com/2026/10/blue-notes.html",
-      "summary": "The rain is hammering down outside. Cold winds whip at the trees and the rooftops. I'm wearing a thick green jumper. And yet, for some reason, I'm still here typing up a trip to Milan that happened b…",
-      "publishedAt": "2026-10-26T12:48:46.502Z"
+      "title": "Blue Moods",
+      "url": "http://www.merseytart.com/2026/11/blue-moods.html",
+      "summary": "Remember that 90s dance hit Santa Maria ? That's going round and round in my head now. There were more neat newly laid gardens over the top of the station, chopping the street in half so that traffic…",
+      "publishedAt": "2026-11-02T21:49:51.593Z"
     }
   },
   "http://www.retroarchive.org/": {
@@ -163,10 +163,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "aerynOS 2026.11 Is Out with GNOME 51, KDE Plasma 6.8, COSMIC 1.11, and Budgie 10.10",
-      "url": "https://9to5linux.com/aerynos-2026-11-is-out-with-gnome-51-kde-plasma-6-8-cosmic-1-11-and-budgie-10-10",
-      "summary": "aerynOS 2026.11 has been released today and it's now available for download for this independently-develop distribution featuring some of the latest and greatest GNU/Linux technologies and Open Sourc…",
-      "publishedAt": "2026-11-02T18:39:08.000Z"
+      "title": "GIMP 3.2.8 Image Editor Restores Support for Offset as a Non-Destructive Filter",
+      "url": "https://9to5linux.com/gimp-3-2-8-image-editor-restores-support-for-offset-as-a-non-destructive-filter",
+      "summary": "GIMP 3.2.8 open-source image editor is now available for download with Offset as a non-destructive filter, DPI information when copying an image to clipboard, and other changes. The post GIMP 3.2.8 I…",
+      "publishedAt": "2026-11-02T23:03:38.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -223,7 +223,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -333,7 +333,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -387,7 +387,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -442,7 +442,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -598,13 +598,13 @@
   },
   "https://baileysbeerblog.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-02",
     "feedUrl": "https://baileysbeerblog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "November and already, the clock is ticking",
-      "url": "https://baileysbeerblog.blogspot.com/2026/11/november-and-already-clock-is-ticking.html",
-      "summary": "I’m slacking somewhat in my quest to break my record of visiting as many “unique” pubs as possible, especially after hitting the magic 100 at the middle of last month. Some might accuse me of “restin…",
-      "publishedAt": "2026-11-01T20:48:04.911Z"
+      "title": "The Man of Kent at Little Mill",
+      "url": "https://baileysbeerblog.blogspot.com/2026/11/the-man-of-kent-at-little-mill.html",
+      "summary": "As hinted at in the previous post, I notched up another “unique” pub for my collection, last Friday. The pub in question was the Man of Kent, at Little Mill, East Peckham, which reopened a couple of …",
+      "publishedAt": "2026-11-02T22:51:00.017Z"
     }
   },
   "https://balloonstodrones.com/articles/": {
@@ -683,7 +683,7 @@
     "status": "unavailable"
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -813,7 +813,7 @@
     "status": "unavailable"
   },
   "https://blog.firestartoys.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -974,7 +974,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1567,7 +1567,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -1641,7 +1641,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1804,7 +1804,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1881,7 +1881,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -1936,13 +1936,13 @@
   },
   "https://econbrowser.com/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-02",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "Recession in France?",
-      "url": "https://econbrowser.com/archives/2026/11/recession-in-france",
-      "summary": "A statement by the French Business Cycle Dating Committee (CDCEF) of the French Economic Association (AFSE) on 10/29/2026 (original communique in French), by way of Laurent Ferrara (Chair), and secre…",
-      "publishedAt": "2026-11-01T19:30:39.000Z"
+      "title": "Nasdaq Correction",
+      "url": "https://econbrowser.com/archives/2026/11/nasdaq-correction",
+      "summary": "As of today’s close, Nasdaq down 10%, S&P500 4%, from prior peak. Nasdaq (blue, right scale), SP500 (green, left scale). From Bloomberg: The tech-heavy Nasdaq 100 Index ended down 1.4%, pushing it in…",
+      "publishedAt": "2026-11-02T22:09:31.000Z"
     }
   },
   "https://edleeman.co.uk/": {
@@ -2201,14 +2201,14 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
-      "title": "Comment on [July 30, 1964] Are You For Real? (Simulacron-3 AKA Counterfeit World by Daniel F. Galouye) by YTShortDown",
-      "url": "https://galacticjourney.org/july-30-1964-are-you-for-real-simulacron-3-aka-counterfeit-world-by-daniel-f-galouye/#comment-278681",
-      "summary": "This post really captures the eerie depth of Galouye's vision in \"Simulacron-3.\" The exploration of reality and simulation feels even more relevant today than it did in 1964. It's fascinating to see …",
-      "publishedAt": "2026-11-02T18:42:22.000Z"
+      "title": "Comment on [October 26, 1971] The Infinity Box (Orbit 9) by George Pritchard",
+      "url": "https://galacticjourney.org/the-infinity-box/#comment-278692",
+      "summary": "Thank you for your comment! It is entirely possible that Wolfe will not become a favorite of mine, and that I am missing his deeper subtleties. I admit that I did not read Orbit 7 or previous entries…",
+      "publishedAt": "2026-11-02T22:55:46.000Z"
     }
   },
   "https://gallistead.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-11",
     "feedUrl": "https://gallistead.com/feed/",
     "latestArticle": {
@@ -2436,9 +2436,9 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/media-titan-omri-hurwitz-humans-not-bots-run-the-news?source=rss",
-      "summary": "Omri Hurwitz explains why human editors remain essential as AI reshapes news production, media ownership, and distribution.",
-      "publishedAt": "2026-11-02T15:23:37.000Z"
+      "url": "https://hackernoon.com/music-through-your-cheekbones-how-bone-conduction-headphones-work-and-why-they-sound-different?source=rss",
+      "summary": "Learn how bone-conduction headphones work, how vibrations transmit sound through the skull, and why their audio quality differs from traditional headphones.",
+      "publishedAt": "2026-11-02T22:53:27.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2486,7 +2486,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -2497,7 +2497,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -2519,7 +2519,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -2624,7 +2624,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -2799,7 +2799,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -2810,7 +2810,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -2848,13 +2848,13 @@
   },
   "https://joelchrono.xyz/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-11-01",
     "feedUrl": "https://joelchrono.xyz/feed.xml",
     "latestArticle": {
-      "title": "Flight log",
-      "url": "https://joelchrono.xyz/blog/flight-log/",
-      "summary": "I have turned on airplane mode on all my devices, the plane is now moving, preparing for flight. Waiting in the airport I played a bunch of Castlevania Symphony of the Night —I managed to reach the s…",
-      "publishedAt": "2026-10-27T16:00:00.000Z"
+      "title": "October 2026 Summary",
+      "url": "https://joelchrono.xyz/blog/october-2026-summary/",
+      "summary": "Another month goes by! For October I decided to mostly focus on a plan for my gaming and my reading! That’s the reason I managed to get a lot of books done! I am quite happy with that progress, altho…",
+      "publishedAt": "2026-11-01T16:45:33.000Z"
     }
   },
   "https://johnclare.blogspot.com/": {
@@ -3019,7 +3019,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -3035,7 +3035,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -3287,10 +3287,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "John Rogers walks from Herne Bay and Reculver to Margate",
-      "url": "https://liberalengland.blogspot.com/2026/11/john-rogers-walks-from-herne-bay-and.html",
-      "summary": "John Rogers writes on YouTube: This picturesque walk takes us across the vanished landscape of the Wantsum Channel which once separated the Isle of Thanet from the mainland. We start at Herne Bay Pie…",
-      "publishedAt": "2026-11-02T22:18:38.466Z"
+      "title": "Reform leader of Leicestershire County Council resigns",
+      "url": "https://liberalengland.blogspot.com/2026/11/reform-leader-of-leicestershire-county.html",
+      "summary": "Dan Harrison has resigned as leader of Leicestershire County Council's minority Reform UK administration, reports BBC News : It comes after Harrison had apologised after being recorded saying 76 coun…",
+      "publishedAt": "2026-11-02T22:53:28.996Z"
     }
   },
   "https://librearts.org/": {
@@ -3656,7 +3656,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3667,7 +3667,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3846,7 +3846,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -3949,10 +3949,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "K-Beauty Black Friday 2026: The Deals I’m Watching and the Codes That Still Work",
-      "url": "https://neveenwood.com/kbeauty-black-friday/",
-      "summary": "K-beauty Black Friday 2026: Olive Young's sale is already on (1 to 12 November) and LOOKFANTASTIC has a K-beauty sale too. Plus what I'm watching at YesStyle, STYLEVANA, SkinSeoul, BuyBeautyKorea and…",
-      "publishedAt": "2026-11-02T09:00:00.000Z"
+      "title": "Korean Skincare Gift Sets and Gifts 2026: What I’d Actually Give a K-Beauty Fan",
+      "url": "https://neveenwood.com/korean-skincare-gift-sets/",
+      "summary": "The Korean skincare gift sets I'd actually give in 2026, from a calming Pyunkang Yul set for sensitive skin to Sulwhasoo for a big gift, plus K-beauty advent calendars, budget sets and stocking fille…",
+      "publishedAt": "2026-11-02T23:30:16.000Z"
     }
   },
   "https://nikhil.bearblog.dev/blog/": {
@@ -4485,7 +4485,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-31",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -5077,10 +5077,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In Paper Mario: The Origami King, Olivia is referred to as &ldquo;Navi&rdquo; internally in some places, such as&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/832202184360968192",
-      "summary": "In Paper Mario: The Origami King, Olivia is referred to as “Navi” internally in some places, such as the variable that determines if she can be summoned or not during a specific story sequence. While…",
-      "publishedAt": "2026-11-02T20:04:09.000Z"
+      "title": "Unused graphic found in the files of Mario Superstar Baseball reading &ldquo;Stadium under construction!&rdquo;&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/832213070641348608",
+      "summary": "Unused graphic found in the files of Mario Superstar Baseball reading “Stadium under construction!” in Japanese, alongside a separate English graphic reading “You can’t play this yet.” This was likel…",
+      "publishedAt": "2026-11-02T22:57:11.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -5158,7 +5158,7 @@
     "status": "unavailable"
   },
   "https://stamphacks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-26",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -5172,7 +5172,7 @@
     "status": "unavailable"
   },
   "https://stephenbodio.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -5703,10 +5703,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://thekillingtimestv.wordpress.com/feed/",
     "latestArticle": {
-      "title": "BBC confirms transmission date for Honey",
-      "url": "https://thekillingtimestv.wordpress.com/2026/11/02/bbc-confirms-transmission-date-for-honey/",
-      "summary": "The BBC has confirmed that Honey will arrive on Saturday 14th November, with a double bill kicking off the six-part series on BBC One and BBC iPlayer. Set in East Berlin in 1982, the darkly comic Col…",
-      "publishedAt": "2026-11-02T15:24:43.000Z"
+      "title": "REVIEW: Pierre (S1 E5/6)",
+      "url": "https://thekillingtimestv.wordpress.com/2026/11/02/review-pierre-s1-e5-6/",
+      "summary": "After a strong start, a growing sense emerged that Pierre was beginning to descend into a muddle. Thankfully, this penultimate episode sees the series steady itself and get back on track, at least to…",
+      "publishedAt": "2026-11-02T23:17:13.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -5798,7 +5798,7 @@
     }
   },
   "https://thequietus.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
@@ -5934,13 +5934,13 @@
   },
   "https://thisisnthappiness.com/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-02",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "There was no visit because there was no return, Tomasz Kaluzny",
-      "url": "https://thisisnthappiness.com/post/832112948349714432",
-      "summary": "There was no visit because there was no return, Tomasz Kaluzny",
-      "publishedAt": "2026-11-01T20:25:47.000Z"
+      "title": "Darklands, Steve Giovinco",
+      "url": "https://thisisnthappiness.com/post/832201547884675072",
+      "summary": "Darklands, Steve Giovinco",
+      "publishedAt": "2026-11-02T19:54:02.000Z"
     }
   },
   "https://thoughtfullycatholic.wordpress.com/": {
@@ -5992,7 +5992,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -6036,7 +6036,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -6329,7 +6329,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -6959,7 +6959,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -6991,7 +6991,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7082,7 +7082,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -7138,9 +7138,9 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/02/this-was-a-fun-segment.html",
-      "summary": "This was a fun segment on 60 Minutes last night with Wemby. We are so lucky to have him. 🏀",
-      "publishedAt": "2026-11-02T18:54:25.000Z"
+      "url": "https://www.manton.org/2026/11/02/reading-the-six-colors-transcript.html",
+      "summary": "Reading the Six Colors transcript of Apple’s earning call . Nothing really stands out in John Ternus’s comments, except maybe this line: “It’s the Siri we’ve always wanted.” Meanwhile, Apple still ma…",
+      "publishedAt": "2026-11-02T23:07:40.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -7191,7 +7191,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -7213,7 +7213,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -7261,7 +7261,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -7617,10 +7617,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "In Luigi&rsquo;s Mansion 3, mice* are small non-ghost enemies that can be quickly sucked up with the&hellip;",
-      "url": "https://www.suppermariobroth.com/post/832198213581881344",
-      "summary": "In Luigi’s Mansion 3, mice* are small non-ghost enemies that can be quickly sucked up with the Poltergust. However, a rare glitch may occur whereby a mouse will not actually be sucked in, and instead…",
-      "publishedAt": "2026-11-02T19:01:02.000Z"
+      "title": "Original Wrecking Crew illustrations from a series of official 1985 Japanese guides for various&hellip;",
+      "url": "https://www.suppermariobroth.com/post/832209523891732480",
+      "summary": "Original Wrecking Crew illustrations from a series of official 1985 Japanese guides for various Famicom games. Source: ozidual , drammynation Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-11-02T22:00:48.000Z"
     }
   },
   "https://www.swiftjectivec.com/": {
@@ -7635,7 +7635,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -7733,13 +7733,13 @@
   },
   "https://www.thehiking.club/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
+    "lastPublished": "2026-11-02",
     "feedUrl": "https://www.thehiking.club/blog?format=rss",
     "latestArticle": {
-      "title": "Trail running the Tour du Mont Blanc: 4, 5 and 6-day itinerary examples",
-      "url": "https://www.thehiking.club/blog/trail-running-tour-du-mont-blanc",
-      "summary": "Compare 4, 5 and 6-day Tour du Mont Blanc trail-running itineraries. Explore daily distance, ascent, accommodation and possible luggage transfers.",
-      "publishedAt": "2026-10-20T01:33:50.000Z"
+      "title": "A little piece of the Alps: your hiking memories, mapped in 3D",
+      "url": "https://www.thehiking.club/blog/handcrafted-3d-hiking-maps",
+      "summary": "Bring home a piece of the Alps with a handcrafted 3D map of your favourite hiking trail. Discover our partnership with Ligne de Crête and create your own.",
+      "publishedAt": "2026-11-02T22:49:16.000Z"
     }
   },
   "https://www.thehistoryblog.com/": {
@@ -7875,7 +7875,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-10-19",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -7965,7 +7965,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-03-31",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {
@@ -8018,10 +8018,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Brian Tyree Henry as Two-Face Seemingly Confirmed for ‘The Batman: Part Two’",
-      "url": "https://www.worldofreel.com/blog/2026/11/2/brian-tyree-henry-as-two-face-seemingly-confirmed-for-the-batman-part-two",
-      "summary": "Henry’s casting is bound to rile up some fanboys. It's worth remembering that Billy Dee Williams played Dent in Tim Burton's \"Batman,\" just never the Two-Face half of the character.",
-      "publishedAt": "2026-11-02T20:34:24.000Z"
+      "title": "Rebecca Miller’s ‘Moonsong’ to Star Elle Fanning, Julianne Moore, Josh Hartnett, Emma Thompson and More — Jarin Blaschke to DP, Scorsese Producing",
+      "url": "https://www.worldofreel.com/blog/2026/11/2/rebecca-millers-moonsong-to-star-elle-fanning-julianne-moore-josh-hartnett-sally-hawkins-emma-thompson-and-more-jarin-blaschke-to-dp-scorsese-producing",
+      "summary": "There's a lot of talent. Julianne Moore, Elle Fanning, Josh Hartnett, Emma Thompson, Sally Hawkins, Danny Huston, Robert Aramayo and Chloe Pirrie will all be part of the sprawling ensemble.",
+      "publishedAt": "2026-11-02T22:51:40.000Z"
     }
   },
   "https://www.zachleat.com/": {

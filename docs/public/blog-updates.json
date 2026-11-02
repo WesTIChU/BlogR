@@ -901,7 +901,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -2053,7 +2053,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -2271,7 +2271,7 @@
     "lastPublished": "2026-10-26",
     "feedUrl": "https://glasgowgallivanter.com/feed/",
     "latestArticle": {
-      "title": "John’s epic French cycle: part 3",
+      "title": "John’s epic French cycle: part 3",
       "url": "https://glasgowgallivanter.com/2026/10/26/cycling-france-3/",
       "summary": "Week 3: from Vallon Pont d'Arc to Nice.",
       "publishedAt": "2026-10-26T10:30:00.000Z"
@@ -5034,10 +5034,10 @@
     "lastPublished": "2026-11-02",
     "feedUrl": "https://skilletglow.com/feed/",
     "latestArticle": {
-      "title": "Italian Minestrone Soup (Hearty Vegetable & Bean Soup)",
-      "url": "https://skilletglow.com/italian-minestrone-soup-hearty-vegetable-bean-soup/",
-      "summary": "This Italian minestrone soup is a flexible one-pot dinner built from tender vegetables, cannellini beans, small pasta, tomatoes, and a savory broth. It is filling without being heavy, and it makes a …",
-      "publishedAt": "2026-11-02T00:44:20.000Z"
+      "title": "Creamy Tomato Soup (Easy Homemade Recipe)",
+      "url": "https://skilletglow.com/creamy-tomato-soup-easy-homemade-recipe/",
+      "summary": "This creamy tomato soup is made on the stovetop with canned tomatoes, onion, garlic, broth, and a little cream. It has a smooth texture and a balanced tomato flavor, and the hands-on work is simple: …",
+      "publishedAt": "2026-11-02T01:00:59.000Z"
     }
   },
   "https://skyhold.org/adhd/": {
@@ -6431,7 +6431,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -7135,7 +7135,7 @@
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {

@@ -395,8 +395,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-08-08",
-    "lastChecked": "2026-11-01T23:44:30.213Z",
-    "status": "success",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "Molly White interview: following the AI and crypto money in US politics",
@@ -971,15 +971,15 @@
     }
   },
   "https://grognardia.blogspot.com/": {
-    "lastPublished": "2026-10-30",
-    "lastChecked": "2026-10-30T23:44:31.970Z",
+    "lastPublished": "2026-11-03",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://grognardia.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Too Many",
-      "url": "https://grognardia.blogspot.com/2026/10/too-many.html",
-      "summary": "Is it possible to have too many dice ? That's a question I recently asked myself after attending Gamehole Con and CleriCon this month. When I was younger, my answer would certainly have been no , in …",
-      "publishedAt": "2026-10-30T23:19:27.251Z"
+      "title": "Envy",
+      "url": "https://grognardia.blogspot.com/2026/11/envy.html",
+      "summary": "At Gamehole Con this year, I was fortunate to have had the opportunity to hang out for extended periods with several notables who work for or with Goodman Games, starting with the Dark Master himself…",
+      "publishedAt": "2026-11-03T18:48:06.411Z"
     }
   },
   "https://handeaux.tumblr.com/": {
@@ -1744,14 +1744,14 @@
     }
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-10-30",
-    "lastChecked": "2026-10-30T16:44:29.056Z",
+    "lastPublished": "2026-11-03",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide/",
-      "summary": "Most anti-fraud architectures in enterprise payment workflows evaluate transactions in isolation. When an invoice arrives, an automated rules engine checks it against static thresholds. It checks whet",
-      "publishedAt": "2026-10-30T13:57:52.000Z"
+      "url": "https://www.freecodecamp.org/news/freelance-developer-design-studios/",
+      "summary": "Let's say a design studio gets a new client project. The branding is ready, the wireframes are approved, the Figma file is polished, and every screen looks pretty much perfect. Then the developer join",
+      "publishedAt": "2026-11-03T16:49:36.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -1779,8 +1779,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T16:44:33.579Z",
-    "status": "success",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "WightFibre’s Isle of Wight FTTP broadband network hits 40 percent take-up",
@@ -1926,13 +1926,13 @@
   },
   "https://simonwillison.net/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T16:44:33.579Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that f…",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the aut…",
       "publishedAt": "2026-11-03T16:29:48.000Z"
     }
   },
@@ -2876,14 +2876,14 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T17:44:34.204Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "The last thing Celtic fans want is another year of Martin O’Neill at the helm.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/celtic-fans-dont-want-another-year-of-oneill/",
-      "summary": "There are moments when I genuinely wonder whether the people running Celtic Football Club have any understanding whatsoever The post The last thing Celtic fans want is another year of Martin O’Neill …",
-      "publishedAt": "2026-11-03T17:00:20.000Z"
+      "title": "Keith Jackson’s Desmond-O’Neill article is one of the dumbest he’s ever written.",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/jacksons-desmond-oneill-article-dreadful/",
+      "summary": "Oh folks, it’s been a long time since we had to do this. A long time. A long The post Keith Jackson’s Desmond-O’Neill article is one of the dumbest he’s ever written. appeared first on The Celtic Blo…",
+      "publishedAt": "2026-11-03T19:00:46.000Z"
     }
   },
   "https://readceltic.com/": {
@@ -3059,14 +3059,14 @@
   },
   "https://humbledollar.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T18:44:34.400Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "Worth Sharing",
-      "url": "https://humbledollar.com/forum/worth-sharing/",
-      "summary": "When I share one of my HumbleDollar articles on Facebook, I hope it starts a conversation. or reaches someone who might find it helpful. It’s also a simple way to introduce friends and family to a co…",
-      "publishedAt": "2026-11-03T18:04:28.000Z"
+      "title": "Dickies simplistic view of personal finances",
+      "url": "https://humbledollar.com/forum/dickies-simplistic-view-of-personal-finances/",
+      "summary": "Can someone explain the value of tracking expenses in detail? Seems to me expenses are either routine and ongoing or they are voluntary or unexpected. If they are unexpected, they can’t be predicted …",
+      "publishedAt": "2026-11-03T19:13:31.000Z"
     }
   },
   "https://moneywithkatie.com/blog/": {
@@ -3754,14 +3754,14 @@
   },
   "https://www.suppermariobroth.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T03:44:32.880Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "Three unused/early loading screen illustrations extracted from the files of Donkey Kong Bananza.",
-      "url": "https://www.suppermariobroth.com/post/832221021530669056",
-      "summary": "Three unused/early loading screen illustrations extracted from the files of Donkey Kong Bananza. Source: Polley001 , seandwalsh Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-11-03T01:03:33.000Z"
+      "title": "Top: in Paper Mario: The Origami King, there is a story sequence during the Green Streamer segment&hellip;",
+      "url": "https://www.suppermariobroth.com/post/832288851074695168",
+      "summary": "Top: in Paper Mario: The Origami King, there is a story sequence during the Green Streamer segment whereby Mario, Olivia, Kamek and Bowser Jr. are running away from a Chain Chomp up a giant tree. Dur…",
+      "publishedAt": "2026-11-03T19:01:41.000Z"
     }
   },
   "https://www.pepysdiary.com/": {
@@ -3789,15 +3789,15 @@
     }
   },
   "https://www.thenewestrant.com/": {
-    "lastPublished": "2026-11-02",
-    "lastChecked": "2026-11-02T18:44:33.503Z",
+    "lastPublished": "2026-11-03",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Music Mondays: It Just Keeps Getting Hot In Her(r)e",
-      "url": "https://www.thenewestrant.com/2026/11/music-mondays-it-just-keeps-getting-hot.html",
-      "summary": "Nelly's song, \" Hot in Herre, \" is a song I know well. It was a hit single off his sophmore LP, \"Nellyville,\" which came out way back in May of 2002. I bought the CD at my local FYE in West Virginia …",
-      "publishedAt": "2026-11-02T17:51:24.904Z"
+      "title": "Check Out Comic-Book Podcast, \"Shot Box Dads,\" Run by Two of my Friends",
+      "url": "https://www.thenewestrant.com/2026/11/check-out-comic-book-podcast-shot-box.html",
+      "summary": "My friends Austin and Mark recently started doing a podcast focused on comics. Titled, \" Short Box Dads, \" you can find it on Amazon Music, Spotify, and so forth! I just recently finished listening t…",
+      "publishedAt": "2026-11-03T18:49:42.602Z"
     }
   },
   "https://greg.org/": {
@@ -3862,14 +3862,14 @@
   },
   "https://econbrowser.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T03:44:32.880Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "On the Eve of Escalation",
-      "url": "https://econbrowser.com/archives/2026/11/on-the-eve-of-escalation",
-      "summary": "New strikes on Iran tonight, from WSJ: The assault follows comments by Trump playing down the possibility of a return to war with Iran after Tuesday’s midterm elections. “We had a war with Iran. We w…",
-      "publishedAt": "2026-11-03T02:36:47.000Z"
+      "title": "Gasoline and Diesel Price Update, and Brent",
+      "url": "https://econbrowser.com/archives/2026/11/gasoline-and-diesel-price-update-and-brent",
+      "summary": "As of yesterday, from EIA via FRED:",
+      "publishedAt": "2026-11-03T18:24:09.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -4438,14 +4438,14 @@
   },
   "https://www.newsfromme.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T11:44:32.173Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.newsfromme.com/feed/",
     "latestArticle": {
-      "title": "Tonight!",
-      "url": "https://www.newsfromme.com/2026/11/03/tonight-12/",
-      "summary": "Like most of you, I'm eager to see what our democracy (assuming we still have one) looks like when all the votes are counted tonight…and they probably won't all be counted tonight. Here's a handy gui…",
-      "publishedAt": "2026-11-03T11:35:05.000Z"
+      "title": "Tuesday Morning",
+      "url": "https://www.newsfromme.com/2026/11/03/tuesday-morning-83/",
+      "summary": "I haven't quoted it lately but I used to often quote the late newsman Jack Germond who once said — approximately — \"The trouble with news reporting is that we aren't paid to say 'I don't know.' So we…",
+      "publishedAt": "2026-11-03T19:15:40.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -5225,15 +5225,15 @@
     }
   },
   "https://rolandtanglao.com/": {
-    "lastPublished": "2026-11-02",
-    "lastChecked": "2026-11-02T16:44:34.122Z",
+    "lastPublished": "2026-11-03",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://rolandtanglao.com/feed.xml",
     "latestArticle": {
-      "title": "Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean &amp; Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube",
-      "url": "http://rolandtanglao.com/2026/11/02/p0850-clara-benin-evidence-oo-cover-from-2015/",
-      "summary": "Discovered : Nov 2, 2026 15:50 (UTC) Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean & Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube <– March 27, 2015 so good! Highly recommen…",
-      "publishedAt": "2026-11-02T07:00:00.000Z"
+      "title": "sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes",
+      "url": "http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/",
+      "summary": "Discovered : Nov 3, 2026 15:07 (UTC) sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs mo…",
+      "publishedAt": "2026-11-03T07:00:00.000Z"
     }
   },
   "https://www.stuckinabook.com/": {
@@ -5439,14 +5439,14 @@
   },
   "https://googlemapsmania.blogspot.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T09:44:30.112Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania",
     "latestArticle": {
-      "title": "The Era of the Voxel Map Has Arrived",
-      "url": "http://googlemapsmania.blogspot.com/2026/11/the-era-of-voxel-map-has-arrived.html",
-      "summary": "It seems astonishing to me now that only a fortnight has passed since I climbed to the roof of Maps Mania Tower and proclaimed to the world that the Age of the Pixel Map had begun. And yet here I sta…",
-      "publishedAt": "2026-11-03T09:02:04.451Z"
+      "title": "How Poland Drifted to the West",
+      "url": "http://googlemapsmania.blogspot.com/2026/11/how-poland-drifted-to-west.html",
+      "summary": "Today's #30DayMapChallenge is Polygons . At the risk of starting World War III, I've created a map of Poland's Historical Borders . The map uses polygons to show how Poland's borders have changed at …",
+      "publishedAt": "2026-11-03T15:54:33.294Z"
     }
   },
   "https://joshreads.com/": {
@@ -5720,14 +5720,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T18:44:34.400Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "The biggest LEGO Ideas sets of all time – November 2026",
-      "url": "https://www.brickfanatics.com/biggest-lego-ideas-sets-of-all-time-november-2026",
-      "summary": "One of these sets is a real monster",
-      "publishedAt": "2026-11-03T18:02:15.000Z"
+      "title": "LEGO fan turns adorable kitten into a Millennium Falcon",
+      "url": "https://www.brickfanatics.com/lego-adorable-kitten-millennium-falcon",
+      "summary": "The Millennium Feline",
+      "publishedAt": "2026-11-03T19:41:59.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -5946,13 +5946,13 @@
   },
   "https://www.manton.org/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T16:44:33.579Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/03/read-some-marketing-advice-the.html",
-      "summary": "I read some marketing advice the other day that resonated with me. When creating apps is easy, the best use of time for developers is the human connections. In-person meetups. Podcasts. Support email.",
-      "publishedAt": "2026-11-03T16:16:41.000Z"
+      "url": "https://www.manton.org/2026/11/03/its-crazy-to-see-frontier.html",
+      "summary": "It’s crazy to see Frontier running again on the Mac . Just seeing these screenshots brings back memories! There wasn’t really anything like it, and there still isn’t.",
+      "publishedAt": "2026-11-03T18:49:03.000Z"
     }
   },
   "https://prettyspooky.life/": {
@@ -6407,14 +6407,14 @@
   },
   "https://greatawakeningreport.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T16:44:33.579Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Inside the Far Left | Ex Antifa Documentary",
-      "url": "https://greatawakeningreport.com/inside-the-far-left-ex-antifa-documentary/",
-      "summary": "This ex Antifa documentary is built around a single source, a man who says he spent years inside militant far left organizing in the United States and has now turned around to describe how it worked …",
-      "publishedAt": "2026-11-03T16:40:00.000Z"
+      "title": "False Flag | Inside Manufactured Terror Documentary",
+      "url": "https://greatawakeningreport.com/false-flag-inside-manufactured-terror-documentary/",
+      "summary": "This manufactured terror documentary, released under the title Manufacturing the Threat, examines one of the most uncomfortable episodes in modern Canadian law enforcement. An impoverished couple, st…",
+      "publishedAt": "2026-11-03T19:05:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -6570,14 +6570,14 @@
   },
   "https://marginalrevolution.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T17:44:34.204Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Tuesday assorted links",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-593.html?utm_source=rss&utm_medium=rss&utm_campaign=tuesday-assorted-links-593",
-      "summary": "1. Jason Furman on AI and the CEA. 2. Matt Kahn uses Refine and gets results. 3. Cyril Hilsum, RIP (flat screen TV, NYT). 4. How much of the return to education is in fact a return to genes? 5. Essay…",
-      "publishedAt": "2026-11-03T17:01:23.000Z"
+      "title": "Ireland fact of the day",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ireland-fact-of-the-day-8.html?utm_source=rss&utm_medium=rss&utm_campaign=ireland-fact-of-the-day-8",
+      "summary": "Almost half of Ireland’s corporation tax haul comes from just three companies: Apple, Eli Lilly and Microsoft. Here is much more from Jude Webber at the FT, on why Ireland does not always feel or ope…",
+      "publishedAt": "2026-11-03T19:26:51.000Z"
     }
   },
   "https://leancrew.com/all-this/": {
@@ -7131,14 +7131,14 @@
   },
   "https://www.askamanager.org/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T17:44:34.204Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "my employee fired someone whose mother had just died",
-      "url": "https://www.askamanager.org/2026/11/my-employee-fired-someone-whose-mother-had-just-died.html",
-      "summary": "A reader writes: I have a manager who works for me, Ezra. He has an employee, Fred, who has been having performance issues and has been verbally reprimanded as well as had his performance issues docu…",
-      "publishedAt": "2026-11-03T17:29:45.000Z"
+      "title": "the sullied gym equipment, the arsey comments, and other times emails were misdirected at work",
+      "url": "https://www.askamanager.org/2026/11/the-sullied-gym-equipment-the-arsey-comments-and-other-times-emails-were-misdirected-at-work.html",
+      "summary": "Last month we talked about times misdirected emails caused drama at work, and here are 12 of my favorite stories you shared. 1. The sullied gym equipment My colleague worked somewhere that had a gym,…",
+      "publishedAt": "2026-11-03T18:59:52.000Z"
     }
   },
   "https://blog.avas.space/": {
@@ -7509,14 +7509,14 @@
   },
   "https://hackaday.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T18:00:34.540Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "2026 Hackaday Supercon: Bruce Potter’s Keynote Explores the Hacker Mind",
-      "url": "https://hackaday.com/2026/11/03/2026-hackaday-supercon-bruce-potters-keynote-explores-the-hacker-mind/",
-      "summary": "What is hacking? Many, especially in the mainstream, view it through the lens of computer security. Others consider it synonymous with making or creating. Even for those of us immersed …read more",
-      "publishedAt": "2026-11-03T18:00:28.000Z"
+      "title": "Detecting an Eight Magnetic Pole State using Chiral Phonons",
+      "url": "https://hackaday.com/2026/11/03/detecting-an-eight-magnetic-pole-state-using-chiral-phonons/",
+      "summary": "The idea that magnetism doesn’t necessarily always have a dipolar configuration is not a new one, but it’s not an easy theory to find evidence for. Most recently a team …read more",
+      "publishedAt": "2026-11-03T19:30:02.000Z"
     }
   },
   "https://marcel.io/": {
@@ -7545,14 +7545,14 @@
   },
   "https://www.worldofreel.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T18:44:34.400Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Martin McDonagh Says Political Correctness Has “Gotten Worse” and Defends Racist Language in His Work",
-      "url": "https://www.worldofreel.com/blog/2026/11/3/martin-mcdonagh-says-political-correctness-has-gotten-worse-and-defends-racist-language-in-his-work",
-      "summary": "Martin McDonagh has never written to please, and three days before his latest film, \"Wild Horse Nine,\" hits theaters, he's pointing out a disturbing trend he's noticed lately while trying to create h…",
-      "publishedAt": "2026-11-03T18:17:25.000Z"
+      "title": "Peter Berg's ‘The Mosquito Bowl’ Is Too Patriotic for Critics — 39% on Rotten Tomatoes",
+      "url": "https://www.worldofreel.com/blog/2026/11/3/peter-bergs-the-mosquito-bowl-is-too-patriotic-for-critics-39-on-rotten-tomatoes",
+      "summary": "\"The Mosquito Bowl,\" which hits a small batch of theaters for Oscar-qualifying purposes, currently sits at 39% on Rotten Tomatoes and 42 on Metacritic. Many of its detractors dislike the film's patri…",
+      "publishedAt": "2026-11-03T19:16:29.000Z"
     }
   },
   "https://fossilhuntress.blogspot.com/": {
@@ -8110,26 +8110,26 @@
   },
   "https://www.cleverdude.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T18:44:34.400Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Your Car’s Check Engine Light Comes On but It Drives Fine — What Now?",
-      "url": "https://www.cleverdude.com/content/your-cars-check-engine-light-comes-on-but-it-drives-fine-what-now/",
-      "summary": "A car can run perfectly while quietly recording a problem under the hood. The radio works, the acceleration feels normal, and there isn’t a strange noise anywhere. Yet that little amber check engine …",
-      "publishedAt": "2026-11-03T18:03:37.000Z"
+      "title": "Your Phone Has an Emergency Feature You Should Set Up Before You Need It",
+      "url": "https://www.cleverdude.com/content/your-phone-has-an-emergency-feature-you-should-set-up-before-you-need-it/",
+      "summary": "Your phone knows how to call your favorite pizza place, find your parked car, and remind you to buy paper towels. It can also help save your life, but many people never configure the features that ma…",
+      "publishedAt": "2026-11-03T19:37:40.000Z"
     }
   },
   "https://www.savingadvice.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T18:44:34.400Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Your Bank Sends a Fraud Alert by Text — 5 Signs It Might Be Fake",
-      "url": "https://www.savingadvice.com/articles/2026/11/03/10764079_your-bank-sends-a-fraud-alert-by-text-5-signs-it-might-be-fake.html",
-      "summary": "Your phone buzzes with a message that appears to come from your bank: “Suspicious transaction detected for $987.42. Reply NO if you didn’t authorize this...",
-      "publishedAt": "2026-11-03T18:26:03.000Z"
+      "title": "6 Medicare Advantage Costs That Matter More Than the Monthly Premium",
+      "url": "https://www.savingadvice.com/articles/2026/11/03/10764076_6-medicare-advantage-costs-that-matter-more-than-the-monthly-premium.html",
+      "summary": "A Medicare Advantage plan with a $0 monthly premium sounds like a great deal, especially when you’re trying to stretch your retirement income. But what...",
+      "publishedAt": "2026-11-03T19:15:54.000Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -8374,14 +8374,14 @@
   },
   "https://mtlcityweblog.com/": {
     "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T14:44:33.657Z",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
     "status": "success",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "SPVM is adding cameras",
-      "url": "https://mtlcityweblog.com/2026/11/03/spvm-is-adding-cameras/",
-      "summary": "The SPVM is doubling its number of spy cameras and adding licence plate readers. Some are not comfortable with this growing surveillance.",
-      "publishedAt": "2026-11-03T14:05:34.000Z"
+      "title": "Guilty plea in cold-blooded feminicide",
+      "url": "https://mtlcityweblog.com/2026/11/03/guilty-plea-in-cold-blooded-feminicide/",
+      "summary": "A chilling account by La Presse’s Louis-Samuel Perron of a guilty plea in a cold‑blooded feminicide in January 2024. Mustapha Khalil Mechken did not want to become a father, so he killed his pregnant…",
+      "publishedAt": "2026-11-03T19:25:45.000Z"
     }
   },
   "https://artlung.com/blog/": {
@@ -8584,8 +8584,8 @@
   },
   "https://startprepping.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-03T16:44:33.579Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-03T19:44:53.679Z",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://www.thebugout.co.uk/blog": {

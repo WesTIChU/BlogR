@@ -213,6 +213,10 @@
           "title": "Puzzles & Brain Games",
           "match": "puzzle|sudoku|maze|cryptogram|word search|brain game"
         },
+        {
+          "title": "Emergency Preparedness & Survival",
+          "match": "prepper|prepping|preparedness|survival|emergency|disaster|resilien|self-reliance|bug.?out|bug.?in"
+        },
         { "title": "Everyday Life", "match": ".*" },
         {
           "title": "Sports & Recreation",

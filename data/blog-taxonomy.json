@@ -209,6 +209,10 @@
           "match": "diy|maker|making|craft|repair|renovation|restoration"
         },
         { "title": "Pets & Animals", "match": "pet|animal|dog|cat" },
+        {
+          "title": "Puzzles & Brain Games",
+          "match": "puzzle|sudoku|maze|cryptogram|word search|brain game"
+        },
         { "title": "Everyday Life", "match": ".*" },
         {
           "title": "Sports & Recreation",

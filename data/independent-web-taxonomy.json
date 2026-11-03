@@ -42,7 +42,12 @@
     "slug": "fansites",
     "title": "Fansites",
     "icon": "🎮",
-    "subcategories": ["Fan Archives", "Gaming Fansites", "Fan Guides"]
+    "subcategories": [
+      "Fan Archives",
+      "Gaming Fansites",
+      "Fan Guides",
+      "Gaming Guides"
+    ]
   },
   {
     "slug": "webrings",
@@ -54,7 +59,11 @@
     "slug": "guides-and-resources",
     "title": "Guides & Resources",
     "icon": "📖",
-    "subcategories": ["How-To & Tutorials"]
+    "subcategories": [
+      "How-To & Tutorials",
+      "Immigration & Relocation",
+      "Software Guides"
+    ]
   },
   {
     "slug": "social-and-community",

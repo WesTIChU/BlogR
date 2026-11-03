@@ -163,10 +163,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "openSUSE Leap 16.1 Officially Released with Immutable Mode, Based on SLES 16.1",
-      "url": "https://9to5linux.com/opensuse-leap-16-1-officially-released-with-immutable-mode-based-on-sles-16-1",
-      "summary": "openSUSE Leap 16.1 operating system is now available for download as the first maintenance update to the openSUSE Leap 16 series, based on SUSE Linux Enterprise Server 16.1. The post openSUSE Leap 16…",
-      "publishedAt": "2026-11-03T12:16:01.000Z"
+      "title": "LibreOffice 26.2.7 Is Out as the Last Update in the LibreOffice 26.2 Series",
+      "url": "https://9to5linux.com/libreoffice-26-2-7-is-out-as-the-last-update-in-the-libreoffice-26-2-series",
+      "summary": "LibreOffice 26.2.7 is now available for download as the seventh and last maintenance update to the LibreOffice 26.2 office suite series with 20 bug fixes. The post LibreOffice 26.2.7 Is Out as the La…",
+      "publishedAt": "2026-11-03T12:52:14.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -308,7 +308,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1436,10 +1436,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Brandon To: Britain must remember its history, not apologise for eternity",
-      "url": "https://conservativehome.com/2026/11/03/brandon-to-britain-must-remember-its-history-not-apologise-for-eternity/",
-      "summary": "The King’s tour is a chance to talk about slavery with seriousness and humility. It should not become another round of an apology that never ends, or shaming of our own British identity. Teach the hi…",
-      "publishedAt": "2026-11-03T11:00:32.000Z"
+      "title": "Robert Clark: Let’s be serious about the state of the Royal Navy",
+      "url": "https://conservativehome.com/2026/11/03/robert-clark-lets-be-serious-about-the-state-of-the-royal-navy/",
+      "summary": "To reduce the British Army to a single fully-funded division displays a lack of understanding of the British military. The logic is that it is better to resource a single war-fighting division – 3 UK…",
+      "publishedAt": "2026-11-03T13:00:01.000Z"
     }
   },
   "https://corporalfrisk.com/": {
@@ -1560,10 +1560,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "US spot ETH ETFs post record $1.61 billion October outflow",
-      "url": "https://cryptonews.mobile/brief/us-spot-eth-etfs-post-record-161-billion-october-outflow",
-      "summary": "US spot ETH ETFs lost $1.61 billion in October, their largest monthly outflow since launching in July 2024. The exits ended a three-month inflow run and came as ETH fell 16% during the month. Total n…",
-      "publishedAt": "2026-11-03T12:12:19.000Z"
+      "title": "Tom Lee says AI stock selloff has reached its bottom",
+      "url": "https://cryptonews.mobile/brief/tom-lee-says-ai-stock-selloff-has-reached-its-bottom",
+      "summary": "Fundstrat co-founder Tom Lee said the AI stock selloff has reached its bottom. In a CNBC Squawk Box interview, Lee cited a tight AI market, where supply constraints and political opposition are slowi…",
+      "publishedAt": "2026-11-03T13:09:58.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1960,7 +1960,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2143,13 +2143,13 @@
   },
   "https://fossilhuntress.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://fossilhuntress.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "OREODONTS: MOUNTAIN TEETH & ANCIENT OREGON",
-      "url": "https://fossilhuntress.blogspot.com/2026/11/oreodonts-mountain-teeth-ancient-oregon.html",
-      "summary": "Cast of Oreodont, John Day FormationWith a pig-like body, a sheep-ish silhouette and a distant connection to camels, an oreodont is a lovely reminder that ancient life did not always fit neatly into …",
-      "publishedAt": "2026-11-02T13:00:00.000Z"
+      "title": "TRILOBITE EYES: THE ORIGINAL STONE-COLD STARE",
+      "url": "https://fossilhuntress.blogspot.com/2026/11/trilobite-eyes-original-stone-cold-stare.html",
+      "summary": "The ancient oceans were full of watchful eyes. Some bulged. Some perched on stalks. And some belonged to animals that looked at the world through crystal lenses.Meet the trilobites.Armoured, joint-le…",
+      "publishedAt": "2026-11-03T13:00:00.000Z"
     }
   },
   "https://found-media-archive.neocities.org/": {
@@ -2208,7 +2208,7 @@
     }
   },
   "https://gallistead.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-11",
     "feedUrl": "https://gallistead.com/feed/",
     "latestArticle": {
@@ -2710,7 +2710,7 @@
     "status": "unavailable"
   },
   "https://islandinthenet.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-14",
     "feedUrl": "https://islandinthenet.com/feed/",
     "latestArticle": {
@@ -2729,9 +2729,9 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17514387/ionos-nextcloud-school-cloud",
-      "summary": "IONOS has been picked as a contractor, and the service would run inside data centers in Germany.",
-      "publishedAt": "2026-11-03T09:51:35.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17514438/puter-everything",
+      "summary": "This \"Everything\" project from Puter aims to rebuild every major SaaS product from scratch, free and open source.",
+      "publishedAt": "2026-11-03T12:31:49.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -3131,9 +3131,9 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://kimberlyhirsh.com/feed.xml",
     "latestArticle": {
-      "url": "https://kimberlyhirsh.com/2026/11/03/hey-if-youre-in-the.html",
-      "summary": "Hey! If you’re in the US and you haven’t voted yet, vote today!",
-      "publishedAt": "2026-11-03T10:45:25.000Z"
+      "url": "https://kimberlyhirsh.com/2026/11/03/read-uncchapel-hills-graduate-students.html",
+      "summary": "🔖 Read UNC-Chapel Hill’s graduate students feel ‘discarded’ and ’expendable’ following multiple changes . I want to write a coherent response to this article but all I can manage is, yeah, this is an…",
+      "publishedAt": "2026-11-03T12:49:35.000Z"
     }
   },
   "https://kinleyhazel.wordpress.com/": {
@@ -3223,13 +3223,13 @@
   },
   "https://laststandonzombieisland.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://laststandonzombieisland.com/feed/",
     "latestArticle": {
-      "title": "Warlords always get the coolest guns",
-      "url": "https://laststandonzombieisland.com/2026/11/02/warlords-always-get-the-coolest-guns/",
-      "summary": "War Noir recently uncovered a short clip from Haiti’s near-lawless streets, apparently showing Galil-, Kalashnikov-, and M14-equipped members of the Unite Bawon Laplen (UBP) preparing for war as thei…",
-      "publishedAt": "2026-11-02T13:00:50.000Z"
+      "title": "CVN-65 Begins Her Final Cruise",
+      "url": "https://laststandonzombieisland.com/2026/11/03/cvn-65-begins-her-final-cruise/",
+      "summary": "Operation Sea Orbit: On 31 July 1964, USS Enterprise (CVAN-65) (bottom), USS Long Beach (CGN-9) (center) and USS Bainbridge (DLGN-25) (top) formed “Task Force One,” the first nuclear-powered task for…",
+      "publishedAt": "2026-11-03T13:00:47.000Z"
     }
   },
   "https://laurasmiscmusings.blogspot.com/": {
@@ -3416,10 +3416,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://lowlightleaf.com/feed/",
     "latestArticle": {
-      "title": "Can a Peace Lily Live Outside? Where It Survives and How to Plant It",
-      "url": "https://lowlightleaf.com/can-a-peace-lily-live-outside/",
-      "summary": "Can a peace lily live outside? Yes, all year in the warmest parts of the US, and for the summer […] The post Can a Peace Lily Live Outside? Where It Survives and How to Plant It appeared first on Low…",
-      "publishedAt": "2026-11-03T04:47:24.000Z"
+      "title": "Monstera Deliciosa Care: Light, Water and Why the Leaves Won’t Split",
+      "url": "https://lowlightleaf.com/monstera-deliciosa-care/",
+      "summary": "Monstera deliciosa care is mostly about light. Give a Swiss cheese plant bright, indirect light, water it when the top […] The post Monstera Deliciosa Care: Light, Water and Why the Leaves Won’t Spli…",
+      "publishedAt": "2026-11-03T13:04:34.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3460,7 +3460,7 @@
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://makeupandbeautyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-01-19",
     "feedUrl": "https://makeupandbeautyblog.com/feed/",
     "latestArticle": {
@@ -3851,10 +3851,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "St-Michel fire was caused by a smoker",
-      "url": "https://mtlcityweblog.com/2026/11/02/st-michel-fire-was-caused-by-a-smoker/",
-      "summary": "The fire in St-Michel two weeks ago was caused by a smoker. Many people lost their homes, but luckily nobody got hurt. In news of a more recent fire, residents were allowed inside to collect what of …",
-      "publishedAt": "2026-11-03T01:01:53.000Z"
+      "title": "Seven cops fired in Dagher housecleaning",
+      "url": "https://mtlcityweblog.com/2026/11/03/seven-cops-fired-in-dagher-housecleaning/",
+      "summary": "Seven cops have been fired by Fady Dagher over discriminatory and racist behaviour. The police fraternity has not protested the dismissals, but has taken exception to Dagher’s statement that he was a…",
+      "publishedAt": "2026-11-03T13:15:14.000Z"
     }
   },
   "https://musicaltheatrereview.com/": {
@@ -4247,13 +4247,13 @@
   },
   "https://photography.mihobu.net/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://photography.mihobu.net/rss.xml",
     "latestArticle": {
-      "title": "Pikes Peak",
-      "url": "https://photography.mihobu.net/micro-20261031114623",
-      "summary": "You know how you’re supposed to do something every day that scares you? Well today I drove from Garden of the Gods in Colorado Springs to the summit of Pikes Peak, a distance of 28 miles and a climb …",
-      "publishedAt": "2026-10-31T11:46:00.000Z"
+      "title": "Happy Monsters",
+      "url": "https://photography.mihobu.net/micro-20261103132345",
+      "summary": "Seen on the exterior wall, facing the playground, of the local school where we vote.",
+      "publishedAt": "2026-11-03T13:23:00.000Z"
     }
   },
   "https://pilledtexts.com/": {
@@ -4594,13 +4594,13 @@
   },
   "https://restaurantsbrighton.co.uk/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://restaurantsbrighton.co.uk/feed/",
     "latestArticle": {
-      "title": "This week: Halloween parties | Bonfire Night views | Fresh autumn menus",
-      "url": "https://restaurantsbrighton.co.uk/brighton-food-news-october-29-2026/",
-      "summary": "Hello friends, If there’s something strange, in your neighbourhood, who ya gonna call? One of the city’s newest restaurants to book a table, perhaps. There’s safety in numbers. Halloween manifests th…",
-      "publishedAt": "2026-10-30T10:05:34.000Z"
+      "title": "MEO: Mediterranean Café by Day, Mexican Fondita by Night",
+      "url": "https://restaurantsbrighton.co.uk/meo-mediterranean-cafe-by-day-mexican-fondita-by-night/",
+      "summary": "Now that my children are grown up (at least chronologically) I love taking them out to eat to try to expand their culinary horizons – while keeping them off their screens long enough to find out what…",
+      "publishedAt": "2026-11-03T13:41:43.000Z"
     }
   },
   "https://retiredmartin.com/": {
@@ -5296,7 +5296,7 @@
   },
   "https://taoofmac.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://taoofmac.com/atom.xml",
     "latestArticle": {
       "title": "Tracker. The biggest update yet.",
@@ -5418,7 +5418,7 @@
   "https://theautisticadvocate.com/blog/": {
     "status": "success",
     "lastPublished": "2026-09-15",
-    "feedUrl": "https://theautisticadvocate.com/blog/feed/",
+    "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
       "title": "A Personal Announcement",
       "url": "https://theautisticadvocate.com/a-personal-announcement/",
@@ -5734,13 +5734,13 @@
   },
   "https://thenextrecession.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://thenextrecession.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Asian AI bubble bursts",
-      "url": "https://thenextrecession.wordpress.com/2026/10/29/asian-ai-bubble-bursts/",
-      "summary": "It seems that the Asian AI bubble has burst. It all started in South Korea with the KOSPI stock market index plunging over 8% on 15 October. That just added to a huge fall in the Korean index of 41% …",
-      "publishedAt": "2026-10-29T12:21:25.000Z"
+      "title": "William Nordhaus: growth and climate",
+      "url": "https://thenextrecession.wordpress.com/2026/11/03/william-nordhaus-growth-and-climate/",
+      "summary": "Prominent mainstream economist William Nordhaus died last Friday aged 85 years, after a debilitating illness. Nordhaus was a central figure at Yale University for more than 50 years, teaching generat…",
+      "publishedAt": "2026-11-03T13:25:56.000Z"
     }
   },
   "https://thenumb.at/": {
@@ -5956,7 +5956,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6430,7 +6430,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6590,21 +6590,21 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "KT IN, DONOVAN OUT",
-      "url": "https://www.celticquicknews.co.uk/kt-in-donovan-out/",
-      "summary": "KIERAN TIERNEY has been named in the Scotland international squad for the Nations League games against North Macedonia and Switzerland later this month. The left-back is the only Celt involved with C…",
-      "publishedAt": "2026-11-03T12:24:20.000Z"
+      "title": "‘I UNDERSTAND,’ O’NEILL OPENS UP ON FANS’ FRUSTRATIONS",
+      "url": "https://www.celticquicknews.co.uk/i-understand-oneill-opens-up-on-fans-frustrations/",
+      "summary": "MARTIN O’NEILL was part of a high-powered Celtic delegation who faced a two-and-a-half-hour Q&A session from around 120 fans in Greenock last night. The Hoops boss joined Brian Wilson, the club’s int…",
+      "publishedAt": "2026-11-03T13:42:37.000Z"
     }
   },
   "https://www.cleverdude.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Why Your Car Battery May Fail Without Much Warning",
-      "url": "https://www.cleverdude.com/content/why-your-car-battery-may-fail-without-much-warning/",
-      "summary": "A car battery can start your engine perfectly on Monday and leave you stranded on Wednesday. No dramatic warning, no obvious breakdown, just a disappointing click when the engine should roar to life.…",
-      "publishedAt": "2026-11-02T20:05:48.000Z"
+      "title": "It’s Not Just Your Phone: 4 Examples of Distracted Driving",
+      "url": "https://www.cleverdude.com/content/its-not-just-your-phone-4-examples-of-distracted-driving/",
+      "summary": "A driver doesn’t need a phone in hand to become a danger on the road. A breakfast sandwich, a stubborn GPS screen, or an argument in the back seat can pull attention away from driving just as quickly…",
+      "publishedAt": "2026-11-03T13:26:34.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -6727,13 +6727,13 @@
   },
   "https://www.disneytouristblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Disney World Makes Distinctly Unpatriotique Cut to ‘Impressions de France’ Hours Again",
-      "url": "https://www.disneytouristblog.com/disney-world-makes-distinctly-unpatriotique-cut-to-impressions-de-france-hours-again/",
-      "summary": "It is happening again. Walt Disney World has quietly made reductions to the showtimes of international treasure Impressions de France starting in 2027, eliminating the evening hours and leaving only …",
-      "publishedAt": "2026-11-02T22:13:43.000Z"
+      "title": "Disney Extends World Drive Construction That Opens Door for New Magic Kingdom Hotel to 2029",
+      "url": "https://www.disneytouristblog.com/new-magic-kingdom-hotel-park-entrance-disney-world-drive-floridian-way-construction-delay-2027/",
+      "summary": "A major Walt Disney World infrastructure project that literally paves the way for a potential new park entrance Magic Kingdom resort has been extended again, this time by another 3 years. Here’s the …",
+      "publishedAt": "2026-11-03T12:15:55.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -6816,7 +6816,7 @@
     "feedUrl": "https://www.fromjason.xyz/feed/feed.xml"
   },
   "https://www.fromthemurkydepths.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
@@ -6963,21 +6963,21 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Zaha Hadid’s architecture studio reopens with Pet Shop Boys stage set display",
-      "url": "https://www.ianvisits.co.uk/articles/zaha-hadids-architecture-studio-reopens-with-pet-shop-boys-stage-set-display-93681/",
-      "summary": "Zaha Hadid’s former architecture studio in Clerkenwell has reopened with an exhibition exploring her stage-set work for the Pet Shop Boys. Read more ›",
-      "publishedAt": "2026-11-03T12:00:10.000Z"
+      "title": "King’s Cross passengers warned of two-day closure for signalling upgrades",
+      "url": "https://www.ianvisits.co.uk/articles/kings-cross-passengers-warned-of-two-day-closure-for-signalling-upgrades-93784/",
+      "summary": "Work on the £1.4 billion East Coast Digital Programme will take place alongside track renewals, station improvements and overhead electrical maintenance on 28th and 29th November. Read more ›",
+      "publishedAt": "2026-11-03T13:00:13.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Rangers want £15M Bouanani but fee is a huge sticking point",
-      "url": "https://www.ibroxnoise.co.uk/2026/11/rangers-want-15m-bouanani/",
-      "summary": "Ibrox Noise understands that Rangers want and are seriously considering a permanent signing for £15M Badredine Bouanani. As we know, the Algerian has recently exploded into Rangers’ first team follow…",
-      "publishedAt": "2026-11-02T15:51:46.000Z"
+      "title": "James Penrice Scotland breakthrough is a prize for him and Rangers",
+      "url": "https://www.ibroxnoise.co.uk/2026/11/james-penrice-scotland-breakthrough/",
+      "summary": "James Penrice has achieved something truly special. The Rangers left back has earned his first senior Scotland call up at 27, completing a remarkable personal journey. Moreover, his success represent…",
+      "publishedAt": "2026-11-03T13:25:59.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -6995,10 +6995,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Rural UK broadband altnet Gigaclear quietly launch 3Gbps Full Fibre plan",
-      "url": "https://www.ispreview.co.uk/index.php/2026/11/rural-uk-broadband-altnet-gigaclear-quietly-launch-3gbps-full-fibre-plan.html",
-      "summary": "Abingdon-based alternative broadband ISP Gigaclear, which has built their own gigabit-capable Fibre-to-the-Premises ( FTTP ) network across various rural parts of England, has quietly introduced a ne…",
-      "publishedAt": "2026-11-03T10:52:38.000Z"
+      "title": "nPerf launches new fixed broadband and mobile speed testing tool",
+      "url": "https://www.ispreview.co.uk/index.php/2026/11/nperf-launches-new-fixed-broadband-and-mobile-speed-testing-tool.html",
+      "summary": "France-based network benchmarking firm nPerf has today unveiled its new speed testing service for broadband internet connections, which now claims to offer a “ complete diagnosis ” of each connection…",
+      "publishedAt": "2026-11-03T13:04:53.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -7138,9 +7138,9 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/02/watched-ted-lasso-se-being.html",
-      "summary": "Watched: Ted Lasso S4E10, Being Alive . Finally finishing the season. Good last episode. 📺",
-      "publishedAt": "2026-11-03T03:21:29.000Z"
+      "url": "https://www.manton.org/2026/11/03/it-seems-like-the-democrats.html",
+      "summary": "It seems like the Democrats will take the House, but beyond that, who knows. James Talarico is in a great position. I’m hopeful. Nationwide, I’m not sure Democrats have learned the right lessons abou…",
+      "publishedAt": "2026-11-03T13:00:00.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -7204,7 +7204,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7503,10 +7503,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "7 Common Medications Linked to Long-Term Cognitive Decline",
-      "url": "https://www.savingadvice.com/articles/2026/11/03/10158888_commmon-medications-linked-to-long-term-cognitive-decline.html",
-      "summary": "What if the medication you’ve taken for years to help you sleep, manage allergies, or control chronic pain is also affecting your memory? For older...",
-      "publishedAt": "2026-11-03T12:15:43.000Z"
+      "title": "Banks Are Raising Minimum Balance Requirements on Checking Accounts",
+      "url": "https://www.savingadvice.com/articles/2026/11/03/10713481_banks-are-raising-minimum-balance-requirements-on-checking-accounts.html",
+      "summary": "That checking account you’ve had for years might be costing you more than you realize. Some banks have increased the balances customers must maintain to...",
+      "publishedAt": "2026-11-03T12:56:08.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -7556,16 +7556,16 @@
   },
   "https://www.smashingmagazine.com/": {
     "status": "success",
-    "lastPublished": "2026-10-31",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.smashingmagazine.com/feed/",
     "latestArticle": {
-      "url": "https://smashingmagazine.com/2026/10/desktop-wallpaper-calendars-november-2026/",
-      "summary": "Let’s kick of November with a new collection of desktop wallpapers! Designed by creatives from across the globe, the wallpapers come in a variety of screen resolutions and can be downloaded for free.…",
-      "publishedAt": "2026-10-31T08:00:00.000Z"
+      "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+      "summary": "Replacing JavaScript with a modern CSS feature can simplify a piece of code while making the wider application harder to reason about. Gabriel Shoyombo explores what happens when logic is split betwe…",
+      "publishedAt": "2026-11-03T10:00:00.000Z"
     }
   },
   "https://www.snitchseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
@@ -7813,10 +7813,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Star Wars Zero Company Cast Discusses That Pivotal Order 66 Moment",
-      "url": "https://www.themovieblog.com/2026/11/star-wars-zero-company-cast-discusses-that-pivotal-order-66-moment/",
-      "summary": "The cast and creative director of Star Wars Zero Company discuss the game's unique and heartbreaking take on the iconic Order 66 sequence. The post Star Wars Zero Company Cast Discusses That Pivotal …",
-      "publishedAt": "2026-11-03T02:45:00.000Z"
+      "title": "7 Best AI Story Writers for Fantasy Fan Fiction That Remember Your Lore",
+      "url": "https://www.themovieblog.com/2026/11/7-best-ai-story-writers-for-fantasy-fan-fiction-that-remember-your-lore/",
+      "summary": "Your rogue mage lost his left hand last chapter, yet the AI still hands him a two-handed spellbook. That canon break yanks readers out of the scene. If you crave tight timelines, lasting scars, and r…",
+      "publishedAt": "2026-11-03T13:28:45.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -7890,10 +7890,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "GoldenEye 007 Is, Surprisingly, Among 14 Titles Being Removed from Xbox Game Pass",
-      "url": "https://www.timeextension.com/#article-208511",
-      "summary": "Goodbye, Mr. Bond. Microsoft has released a list of 14 \"classic\" games that are to be removed from its paid service, Xbox Game Pass, in the coming days. Notably in the mix is the much-loved N64 class…",
-      "publishedAt": "2026-11-03T12:00:00.000Z"
+      "title": "The Elusive PS3 Title Like a Dragon: Kenzan! Has Just Been Translated into English by Fans",
+      "url": "https://www.timeextension.com/#article-208458",
+      "summary": "From the same team behind last year's 'Ishin!' patch. After 18 years, you can now play the jidaigeki-themed Yakuza / Like A Dragon spin-off Like A Dragon: Kenzan! (otherwise known as Ry ū ga Gotoku K…",
+      "publishedAt": "2026-11-03T13:00:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

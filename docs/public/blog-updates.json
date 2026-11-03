@@ -160,13 +160,13 @@
   },
   "https://9to5linux.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "GIMP 3.2.8 Image Editor Restores Support for Offset as a Non-Destructive Filter",
-      "url": "https://9to5linux.com/gimp-3-2-8-image-editor-restores-support-for-offset-as-a-non-destructive-filter",
-      "summary": "GIMP 3.2.8 open-source image editor is now available for download with Offset as a non-destructive filter, DPI information when copying an image to clipboard, and other changes. The post GIMP 3.2.8 I…",
-      "publishedAt": "2026-11-02T23:03:38.000Z"
+      "title": "Fedora Linux 45 Is Now Available for Download with GNOME 51 and KDE Plasma 6.8",
+      "url": "https://9to5linux.com/fedora-linux-45-is-now-available-for-download-with-gnome-51-and-kde-plasma-6-8",
+      "summary": "Fedora Linux 45 distribution is now available for download with Linux kernel 7.2 and featuring the latest GNOME 51 and KDE Plasma 6.8 desktop environments. Here's what's new! The post Fedora Linux 45…",
+      "publishedAt": "2026-11-03T08:42:23.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -500,9 +500,9 @@
     }
   },
   "https://artlung.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-03",
-    "feedUrl": "https://artlung.com/feed/",
+    "feedUrl": "https://artlung.com/index.xml",
     "latestArticle": {
       "title": "I saw an engraved bit.ly URL today.",
       "url": "https://artlung.com/blog/2026/11/02/i-saw-an-engraved-bit-ly-url-today/",
@@ -943,7 +943,7 @@
     "feedUrl": "https://blogroll.org/assets/favicon/favicon.svg"
   },
   "https://blogs.ucl.ac.uk/constitution-unit/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://blogs.ucl.ac.uk/constitution-unit/feed/",
     "latestArticle": {
@@ -1299,9 +1299,9 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/manchester-city-set-to-rival-chelsea-for-club-brugge-striker-nicolo-tresoldi",
-      "summary": "Manchester City and Chelsea are reportedly set to battle it out for Club Brugge forward Nicolò Tresoldi, with the Belgian side having slapped a €50 million starting price on the 22-year-old, accordin…",
-      "publishedAt": "2026-11-03T06:30:23.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/im-really-enjoying-it---elliot-anderson-reflects-on-start-to-manchester-city-career-after-116-million-move",
+      "summary": "Elliot Anderson has spoken about settling in at Manchester City following his £116 million move from Nottingham Forest in the summer window.",
+      "publishedAt": "2026-11-03T08:30:33.000Z"
     }
   },
   "https://classicgamezone.com/blogs": {
@@ -1312,13 +1312,13 @@
   },
   "https://clothesinbooks.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://clothesinbooks.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Spies in Smart Dresses",
-      "url": "https://clothesinbooks.blogspot.com/2026/10/spies-in-smart-dresses.html",
-      "summary": "London Station by David McCloskey published 2026 I read a lot of spy thrillers, but don’t generally blog on them; there are a few Mick Herrons, and a few John le Carres, on the blog – but mostly I re…",
-      "publishedAt": "2026-10-30T09:23:55.028Z"
+      "title": "A Lost Bestseller: The Heir of Redclyffe",
+      "url": "https://clothesinbooks.blogspot.com/2026/11/a-lost-bestseller-heir-of-redclyffe.html",
+      "summary": "The Heir of Redclyffe by Charlotte M Yonge published 1853 Regular readers will know that I am reading a lot of (not everything by) Charlotte M Yonge , for an upcoming project - tags or searchbox will…",
+      "publishedAt": "2026-11-03T08:50:30.829Z"
     }
   },
   "https://coastalwalker.co.uk/": {
@@ -1560,10 +1560,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Securitize adds 13 tokenized US stocks on Solana, reaching 25",
-      "url": "https://cryptonews.mobile/brief/securitize-adds-13-tokenized-us-stocks-on-solana-reaching-25",
-      "summary": "Securitize added 13 tokenized U.S. stocks to its Solana-based platform on November 2, bringing its lineup to 25 equities. Each token is backed 1:1 by a share held in custody, with dividends passed th…",
-      "publishedAt": "2026-11-03T08:17:55.000Z"
+      "title": "NYSE taps Broadridge to run onchain voting for planned tokenized stocks",
+      "url": "https://cryptonews.mobile/brief/nyse-taps-broadridge-to-run-onchain-voting-for-planned-tokenized-stocks",
+      "summary": "Broadridge will provide onchain shareholder voting and digital transfer agency services for the New York Stock Exchange's planned tokenized securities platform. Broadridge's smart contracts would lin…",
+      "publishedAt": "2026-11-03T09:10:13.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2304,13 +2304,13 @@
   },
   "https://googlemapsmania.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania",
     "latestArticle": {
-      "title": "A Neon Matterhorn",
-      "url": "http://googlemapsmania.blogspot.com/2026/11/a-neon-matterhorn.html",
-      "summary": "For Day 2 of the #30DayMapChallenge , the theme is Lines . For my contribution, I've created MapterGLOW , an interactive 3D terrain map that turns elevation data into glowing neon contour lines. The …",
-      "publishedAt": "2026-11-02T14:28:54.061Z"
+      "title": "The Era of the Voxel Map Has Arrived",
+      "url": "http://googlemapsmania.blogspot.com/2026/11/the-era-of-voxel-map-has-arrived.html",
+      "summary": "It seems astonishing to me now that only a fortnight has passed since I climbed to the roof of Maps Mania Tower and proclaimed to the world that the Age of the Pixel Map had begun. And yet here I sta…",
+      "publishedAt": "2026-11-03T09:02:04.451Z"
     }
   },
   "https://gorillasdontblog.blogspot.com/": {
@@ -2425,10 +2425,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "NEMESIS Gives You Control Over Your Hyundai Head Unit",
-      "url": "https://hackaday.com/2026/11/02/nemesis-gives-you-control-over-your-hyundai-head-unit/",
-      "summary": "Whether it’s to make more money or because of licensing disagreements, car companies often restrict the abilities of the infotainment units in their vehicles. They can do so much more, …read more",
-      "publishedAt": "2026-11-03T06:00:35.000Z"
+      "title": "The Components for Life May Not Have Arrived By Comet",
+      "url": "https://hackaday.com/2026/11/03/the-components-for-life-may-not-have-arrived-by-comet/",
+      "summary": "When it comes to abiogenesis, i.e. the formation of the first biological cells on Earth, there are many theories on how this got kickstarted. One of the more popular theories …read more",
+      "publishedAt": "2026-11-03T09:00:56.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2595,10 +2595,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://humbledollar.com/feed/",
     "latestArticle": {
-      "title": "Do insiders know something when they buy their own company’s stock?",
-      "url": "https://humbledollar.com/forum/do-insiders-know-something-when-they-buy-their-own-companys-stock/",
-      "summary": "News that an executive bought shares in their own company often reads like a tip. I work at Equibles, and we measured what followed 47,458 insider open-market purchases of American stocks from Januar…",
-      "publishedAt": "2026-11-03T04:00:51.000Z"
+      "title": "The Leap of Faith",
+      "url": "https://humbledollar.com/forum/the-leap-of-faith/",
+      "summary": "My math showed retirement was safe, but it took 18 months of actual spending to finally believe it. Looking back on the two years before I retired, I’m slightly embarrassed by how fixated I became on…",
+      "publishedAt": "2026-11-03T09:09:51.000Z"
     }
   },
   "https://hushkit.net/": {
@@ -2800,13 +2800,13 @@
   },
   "https://jaysbrickblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
-      "title": "LEGO Technic 42254 Solar System Planets in Orbit officially unveiled",
-      "url": "https://jaysbrickblog.com/news/lego-technic-42254-solar-system-planets-in-orbit-officially-unveiled/",
-      "summary": "LEGO has officially unveiled the first Technic set of 2027, an educational model featuring our very own Solar System! 42254 Solar System Planets in Orbit will launch on 1 January 2027, and will featu…",
-      "publishedAt": "2026-11-01T00:00:00.000Z"
+      "title": "Light Blue Classic Space Astronaut elements now available on Pick a Brick online!",
+      "url": "https://jaysbrickblog.com/news/light-blue-classic-space-astronaut-elements-now-available-on-pick-a-brick-online/",
+      "summary": "Heads up! LEGO has loaded all the new November 2026 Pick a Brick elements, including the highly anticipated drop of Light Blue Classic Space Astronaut elements! Do note that this is only for the rest…",
+      "publishedAt": "2026-11-03T09:37:02.000Z"
     }
   },
   "https://jeffmackinnon.com/": {
@@ -3287,10 +3287,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Reform leader of Leicestershire County Council resigns",
-      "url": "https://liberalengland.blogspot.com/2026/11/reform-leader-of-leicestershire-county.html",
-      "summary": "Dan Harrison has resigned as leader of Leicestershire County Council's minority Reform UK administration, reports BBC News : It comes after Harrison had apologised after being recorded saying 76 coun…",
-      "publishedAt": "2026-11-02T22:53:28.996Z"
+      "title": "The Joy of Six 1601",
+      "url": "https://liberalengland.blogspot.com/2026/11/the-joy-of-six-1601.html",
+      "summary": "\"This low-cost strategy of largely relying on conditionality and sanctions to get unemployed claimants into work has clearly failed, as numbers have gone up since 2016, and the binary nature of our w…",
+      "publishedAt": "2026-11-03T09:38:58.664Z"
     }
   },
   "https://librearts.org/": {
@@ -3380,13 +3380,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Columbia Road's Late Night Christmas Shopping Wednesdays Return For 2026",
-      "url": "https://londonist.com/london/christmas-in-london/columbia-road-christmas-market",
-      "summary": "Xmas shopping with a little less stress.",
-      "publishedAt": "2026-11-02T12:51:21.000Z"
+      "title": "Stunning Light Trails And Illumination Festivals To See Near London This Winter: Christmas 2026",
+      "url": "https://londonist.com/london/beyond-london/winter-light-trails-lantern-illumination-festivals-near-london-south-east-england",
+      "summary": "Absolutely enchanting evenings out in south-east England.",
+      "publishedAt": "2026-11-03T09:31:00.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -3401,13 +3401,13 @@
   },
   "https://loureviews.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Play review: The Strange Case of Dr Jekyll and Mr Hyde at Boston Manor House",
-      "url": "https://loureviews.blog/2026/11/01/play-review-the-strange-case-of-dr-jekyll-and-mr-hyde-at-boston-manor-house/",
-      "summary": "Boston Manor House is the setting for a new adaptation of Robert Louise Stevenson's novella. The amiable Dr Jekyll reveals an unsettling secret to his two guests in an atmospheric production from Art…",
-      "publishedAt": "2026-11-01T20:35:16.000Z"
+      "title": "Play review: The Fifth Step on NT at Home",
+      "url": "https://loureviews.blog/2026/11/03/play-review-the-fifth-step-on-nt-at-home/",
+      "summary": "The Fifth Step is a two-hander play featuring Jack Lowden as Luka and Martin Freeman as his sponsor James, exploring recovery from addiction through dark humor and dialogue. Despite its engaging mome…",
+      "publishedAt": "2026-11-03T08:56:17.000Z"
     }
   },
   "https://lowlightleaf.com/": {
@@ -3570,13 +3570,13 @@
   },
   "https://mastermixmovies.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://mastermixmovies.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Nosy Old Woman",
-      "url": "https://mastermixmovies.wordpress.com/2026/11/02/nosy-old-woman/",
-      "summary": "Murder She Said introduced the world to a different sort of detective. Miss Jane Marple is a nosy old woman that everyone underestimates for being an elderly spinster. Agatha Christie is the “Queen o…",
-      "publishedAt": "2026-11-02T09:00:00.000Z"
+      "title": "The Gallop Hotel",
+      "url": "https://mastermixmovies.wordpress.com/2026/11/03/the-gallop-hotel/",
+      "summary": "Murder at the Gallop trades Herclue Poirot for Miss Marple. Although the 1953 Agatha Christie novel After the Funeral featured the Belgian detective solving the murder, Margaret Rutherford gained pop…",
+      "publishedAt": "2026-11-03T09:00:00.000Z"
     }
   },
   "https://matduggan.com/": {
@@ -4436,13 +4436,13 @@
   },
   "https://rachel-the-gardener.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://rachel-the-gardener.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Conifer Hedges: when they gotta go, they gotta go!",
-      "url": "https://rachel-the-gardener.blogspot.com/2026/10/conifer-hedges-when-they-gotta-go-they.html",
-      "summary": "I received a question the other day: is it possible to do a \"substantial trim\" on this hedge: Well, the obvious answer is \"Sorry, no,\" because, well, just look at it. I can't identify the species of …",
-      "publishedAt": "2026-10-30T17:16:00.000Z"
+      "title": "Calling all Self-Employed Gardeners!!",
+      "url": "https://rachel-the-gardener.blogspot.com/2026/11/calling-all-self-employed-gardeners.html",
+      "summary": "I'm running another of my my half-day courses on How To Grow and Develop your Self-Employed business (I still think that's a very clunky title, I didn't choose it, honest!) again shortly, so if you h…",
+      "publishedAt": "2026-11-03T08:45:43.213Z"
     }
   },
   "https://rachel.blog/": {
@@ -4913,13 +4913,13 @@
   },
   "https://shereadsnovels.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://shereadsnovels.com/feed/",
     "latestArticle": {
-      "title": "Nonfiction November: Week 1 – My Year in Nonfiction",
-      "url": "https://shereadsnovels.com/2026/11/02/nonfiction-november-week-1-my-year-in-nonfiction-4/",
-      "summary": "Nonfiction November starts today and Week 1 is hosted by Heather of Based on a True Story who has posted the following questions for us to answer: Week 1 November 2-8 – My Year in Nonfiction – Celebr…",
-      "publishedAt": "2026-11-02T10:21:08.000Z"
+      "title": "Nightingale Hall by Rachel Burton",
+      "url": "https://shereadsnovels.com/2026/11/03/nightingale-hall-by-rachel-burton/",
+      "summary": "I loved Rachel Burton’s The Strawberry House, which I read earlier this year, so I was looking forward to reading her new book, Nightingale Hall. Like the previous novel, this one features a house at…",
+      "publishedAt": "2026-11-03T09:23:45.000Z"
     }
   },
   "https://shinynewbooks.co.uk/": {
@@ -5274,13 +5274,13 @@
   },
   "https://talesofonecity.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://talesofonecity.wordpress.com/feed/",
     "latestArticle": {
-      "title": "National Year of Reading: How do you Go All In for reading?",
-      "url": "https://talesofonecity.wordpress.com/2026/10/14/national-year-of-reading-how-do-you-go-all-in-for-reading-8/",
-      "summary": "In this National Year of Reading we’re asking colleagues and library members to join us as we Go All In for Reading. Joanne, one of the wonderful readers at South Queensferry Library, has kindly take…",
-      "publishedAt": "2026-10-14T08:30:00.000Z"
+      "title": "A year with Austen: one fan’s reading journey",
+      "url": "https://talesofonecity.wordpress.com/2026/11/03/a-year-with-austen-one-fans-reading-journey/",
+      "summary": "Today, we welcome to the blog, Dominique, avid reader and regular visitor to Central Library who shares her love for the writing of Jane Austen – “Like many Jane Austen fans, I spent 2025 and the gre…",
+      "publishedAt": "2026-11-03T09:30:00.000Z"
     }
   },
   "https://tangiblelife.net/": {
@@ -5506,10 +5506,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Kris Boyd sounds like an idiot accusing Celtic players of hiding behind O’Neill.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/kris-boyd-celtic-players-hiding-behind-oneill/",
-      "summary": "Honestly, is there anything Kris Boyd cannot turn into an opportunity to talk absolute nonsense? I sometimes wonder The post Kris Boyd sounds like an idiot accusing Celtic players of hiding behind O’…",
-      "publishedAt": "2026-11-03T06:00:43.000Z"
+      "title": "Everyone at Celtic should know that this is the wrong time for selfishness.",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/shaun-maloney-wrong-time-for-selfishness/",
+      "summary": "There was a story being circulated last night, in part by the journalist Stephen McGowan, which relates to The post Everyone at Celtic should know that this is the wrong time for selfishness. appeare…",
+      "publishedAt": "2026-11-03T09:30:55.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5802,10 +5802,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Spool’s Out: Cassette Reviews for November by Daryl Worthington",
-      "url": "https://thequietus.com/quietus-reviews/cassettes/spools-out-cassette-reviews-for-november-by-daryl-worthington/",
-      "summary": "Daryl Worthington considers the extent to which Spool’s Out offers investment advice, and reviews a crop of tapes including a footwork legend from Japan going ultra-crisp, mesmerising live code impro…",
-      "publishedAt": "2026-11-03T08:00:00.000Z"
+      "title": "Daphne Oram at 100: Nine Artists on the Pioneer’s Enduring Influence",
+      "url": "https://thequietus.com/news/daphne-oram-at-100-bradford-influence-hannah-peel-annea-lockwood/",
+      "summary": "As celebrations of Daphne Oram's centenary culminate with an all-day celebration in Bradford, Claire Biddles speaks to a host of artists, from her contemporaries to previous Oram Award winners, to ge…",
+      "publishedAt": "2026-11-03T09:42:57.000Z"
     }
   },
   "https://therealadam.com/": {
@@ -5857,13 +5857,13 @@
   },
   "https://thestrollingbones.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-14",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://thestrollingbones.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "In The Groove",
-      "url": "https://thestrollingbones.blogspot.com/2026/10/in-groove.html",
-      "summary": "Yeah, yeah, I've said it before, but I'm \"In The Groove\" , this time with the tidal river. ITG to me means being in tune with what's going on, you know ( or have a good idea ) where and when the fish…",
-      "publishedAt": "2026-10-14T12:26:59.473Z"
+      "title": "In Between Days",
+      "url": "https://thestrollingbones.blogspot.com/2026/11/in-between-days.html",
+      "summary": "Not feeling it at the moment. The mullet are still there, but I'm done on that score for the moment. They'll be off in a few weeks for the winter. I had a species hunt at Harwich the other day and su…",
+      "publishedAt": "2026-11-03T09:32:59.285Z"
     }
   },
   "https://theswedishgames.wordpress.com/": {
@@ -6224,12 +6224,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173673/chelsea-2-0-manchester-united-player-ratings-wherefore-thou-art-romeo",
-      "summary": "1. ROMÉO LAVIA (8.4) I had figured that this was Lavia’s first ever Man of the Match for us, but it turns out I was wrong. He was voted to the top of the podium in our opening match of the 2024-25 se…",
-      "publishedAt": "2026-11-02T08:22:25.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173690/the-daily-hilario-hes-on-a-boat",
+      "summary": "My YouTube algorithm is dominated by car stuff, so naturally Mat Armstrong frequently features on it. His latest big project however isn’t concerning land, it’s about the sea! He bought a boat. And o…",
+      "publishedAt": "2026-11-03T08:30:05.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6586,13 +6586,13 @@
   },
   "https://www.celticquicknews.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "ALEX’S ANGLE: DOUBLE JEOPARDY",
-      "url": "https://www.celticquicknews.co.uk/alexs-angle-double-jeopardy/",
-      "summary": "IN THE 65th MINUTE at Falkirk yesterday, and with Celtic trailing 2-0 and desperately seeking a goal from somewhere, manager Martin O’Neill made a bold decision. He removed the team’s top goalscorer …",
-      "publishedAt": "2026-11-02T13:30:59.000Z"
+      "title": "LAY OFF THE BOOS: COLBY PLEA TO FANS",
+      "url": "https://www.celticquicknews.co.uk/lay-off-the-boos-colby-plea-to-fans/",
+      "summary": "COLBY DONOVAN has called for a united Celtic in an appeal to the fans to stick with the under-pressure champions. The frustrated Hoops followers vented their anger at the end of a dismal 2-0 loss at …",
+      "publishedAt": "2026-11-03T09:44:16.000Z"
     }
   },
   "https://www.cleverdude.com/": {
@@ -6816,13 +6816,13 @@
   },
   "https://www.fromthemurkydepths.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
-      "title": "Home Bargains in Crayford is set to open late January 2027",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/11/02/home-bargains-in-crayford-is-set-to-open-late-january-2027/",
-      "summary": "A new branch of Home Bargains in Crayford will be opening on 30th January 2027. Two units at Tower Retail Park which were formerly home to Poundland and Hobbycraft are being merged to create one larg…",
-      "publishedAt": "2026-11-02T18:54:14.000Z"
+      "title": "Greenwich Park to Lewisham cycle lane approved",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/11/03/greenwich-park-to-lewisham-cycle-lane-approved/",
+      "summary": "A proposed cycle lane running between Greenwich Park and Elverson Road station in Lewisham has been approved. Agreement on an indicative design for Cycleway 64 was made last week following consultati…",
+      "publishedAt": "2026-11-03T09:01:22.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -6994,10 +6994,10 @@
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Virgin Media O2’s UK broadband customers fall as cost cutting hits and FTTP upgrades stop",
-      "url": "https://www.ispreview.co.uk/index.php/2026/11/virgin-media-o2s-uk-broadband-customers-fall-as-cost-cutting-strikes-and-fttp-upgrades-stop.html",
-      "summary": "The latest Q3 2026 results from broadband and mobile operator Virgin Media and O2 (VMO2) have today been released, which reports a fall in consumer broadband customers of -22,100 to total 5,395,800 (…",
-      "publishedAt": "2026-11-03T07:45:38.000Z"
+      "title": "Vodafone UK and NCA help police smash criminal SIM farm networks",
+      "url": "https://www.ispreview.co.uk/index.php/2026/11/vodafone-uk-and-nca-help-police-smash-criminal-sim-farm-networks.html",
+      "summary": "Broadband and mobile operator VodafoneThree ( Vodafone and Three UK ) has revealed that they recently worked alongside the National Crime Agency (NCA) and City of London Police to help identify and d…",
+      "publishedAt": "2026-11-03T09:29:26.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -7886,13 +7886,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Modular Retro Console Polymega Is Getting Support for the Sega Master System, Mark III and Game Gear",
-      "url": "https://www.timeextension.com/#article-208199",
-      "summary": "Master the System. Playmaji, the developer behind physical-media-reading multi-console Polymega , has posted a cryptic message on the company's X account , filled with dramatic, purple text but not o…",
-      "publishedAt": "2026-11-02T21:20:00.000Z"
+      "title": "New Book Celebrating 45 Years of the ZX Spectrum Smashes All Kickstarter Goals, Receiving £112,000 in Pledges",
+      "url": "https://www.timeextension.com/#article-206058",
+      "summary": "The Rubber-Keyed Wonder. Publisher Golden Slumbers Ltd. has announced an upcoming Kickstarter campaign for a new book celebrating 45 years of the home computing icon: the Sinclair ZX Spectrum. The cr…",
+      "publishedAt": "2026-11-03T09:40:00.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -8004,12 +8004,12 @@
   },
   "https://www.weirduniverse.net/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.weirduniverse.net/blog/rss_2.0/",
     "latestArticle": {
-      "title": "Handcuffed to the steering wheel",
-      "summary": "In 1928, newspapers reported that Floyd Warner was going to spend a year handcuffed to the steering wheel of his car as he toured all the major cities in the US. So how did his year go? I have no ide…",
-      "publishedAt": "2026-11-02T09:05:00.000Z"
+      "title": "Sunlight as a Service",
+      "summary": "A startup company, Reflect Orbital , is planning to sell sunlight. It'll use a network of mirrored satellites to beam sunlight down to any point on Earth, for a fee. It calls this \"sunlight as a serv…",
+      "publishedAt": "2026-11-03T09:00:00.000Z"
     }
   },
   "https://www.worldofreel.com/": {

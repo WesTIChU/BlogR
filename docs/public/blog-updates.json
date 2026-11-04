@@ -830,6 +830,17 @@
   "https://blog.britishnewspaperarchive.co.uk/": {
     "status": "unavailable"
   },
+  "https://blog.computationalcomplexity.org/": {
+    "status": "success",
+    "lastPublished": "2026-11-04",
+    "feedUrl": "https://blog.computationalcomplexity.org/feeds/posts/default",
+    "latestArticle": {
+      "title": "Another Step Towards Optiland",
+      "url": "https://blog.computationalcomplexity.org/2026/11/another-step-towards-optiland.html",
+      "summary": "When the Clay Mathematics Institute announced the Millennium Prize Problems back in 2000, we joked that if you proved P = NP, you wouldn't only get the $1 million prize for solving P v NP, but you wo…",
+      "publishedAt": "2026-11-04T16:45:09.437Z"
+    }
+  },
   "https://blog.firestartoys.com/": {
     "status": "success",
     "lastPublished": "2026-10-27",
@@ -3200,6 +3211,16 @@
       "publishedAt": "2026-10-17T17:15:02.000Z"
     }
   },
+  "https://kmflett.blog/": {
+    "status": "success",
+    "lastPublished": "2026-11-04",
+    "feedUrl": "https://kmflett.blog/feed/atom/",
+    "latestArticle": {
+      "url": "https://kmflett.blog/2026/11/04/liz-truss-spent-november-3rd-at-a-book-event-for-a-far-right-polish-politician-at-mar-a-lago/",
+      "summary": "It could be seen as a portent but as Trump and MAGA crashed and burned in the US Mid-Term elections on 3rd November, Liz Truss was attending a gathering of the US hard to far right Conservative Polit…",
+      "publishedAt": "2026-11-04T16:20:17.000Z"
+    }
+  },
   "https://knifesteelnerds.com/": {
     "status": "success",
     "lastPublished": "2026-11-04",
@@ -3797,6 +3818,17 @@
       "url": "https://mkultra.monster/socialmedia/2026/11/03/vaak-and-stuff-and-things/",
       "summary": "So, I’ve been continually working on VAAK. I think … it’s been around two months now? I don’t know, it’s hard to tell time anymore. Just yesterday I was waking up for school with a running nose and w…",
       "publishedAt": "2026-11-03T15:49:00.000Z"
+    }
+  },
+  "https://mleddy.blogspot.com/": {
+    "status": "success",
+    "lastPublished": "2026-11-04",
+    "feedUrl": "https://mleddy.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "More than twelve hours",
+      "url": "https://mleddy.blogspot.com/2026/11/more-than-twelve-hours.html",
+      "summary": "It’s been more than twelve hours ore more since the current occupant’s last social-media post (10:52 EST last night). Too dispirited to “truth”? Poor guy. 11:57 a.m.: He’s now self-soothing by freest…",
+      "publishedAt": "2026-11-04T17:13:18.254Z"
     }
   },
   "https://mojobob.blogspot.com/": {
@@ -5950,6 +5982,17 @@
       "publishedAt": "2026-11-04T14:45:31.000Z"
     }
   },
+  "https://theseconddisc.com/": {
+    "status": "success",
+    "lastPublished": "2026-11-04",
+    "feedUrl": "https://theseconddisc.com/feed/",
+    "latestArticle": {
+      "title": "Maestro Memories: European Labels Offer Collections of Early John Williams",
+      "url": "https://theseconddisc.com/2026/11/04/john-williams-jasmine-records-in-session-checkmate-diamond-head-more/",
+      "summary": "As film score fans hope that the year closes with a strong showing of archival soundtrack reissues, a trio of European titles, cannily taking advantage of European copyright laws, have rounded up a h…",
+      "publishedAt": "2026-11-04T14:18:34.000Z"
+    }
+  },
   "https://thesicktimes.org/": {
     "status": "success",
     "lastPublished": "2026-11-04",
@@ -7600,6 +7643,16 @@
   },
   "https://www.rangersreview.co.uk/": {
     "status": "unavailable"
+  },
+  "https://www.rascal.news/": {
+    "status": "success",
+    "lastPublished": "2026-11-04",
+    "feedUrl": "https://www.rascal.news/rss/",
+    "latestArticle": {
+      "url": "https://www.rascal.news/eventmoot-puts-your-weekly-game-on-autopilot/",
+      "summary": "EventMoot gives your TTRPG group a home base that schedules every session for you, so the weekly game keeps happening without anyone asking \"are we on Thursday?\"",
+      "publishedAt": "2026-11-04T17:00:00.000Z"
+    }
   },
   "https://www.retrogarden.co.uk/": {
     "status": "unavailable",

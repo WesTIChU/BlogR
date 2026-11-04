@@ -1691,7 +1691,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-08",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -2014,7 +2014,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2801,12 +2801,12 @@
   },
   "https://itstartswithabirthstone.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "A Song(s) of the Day # 4,560 Gwenno Morgan",
-      "summary": "Gwenno Morgan' a leading figure in Wales neoclassical and music scene.' You didn't hear it here first . New album gwereiddiau goes gently into that dark night and takes you with it for a rather bliss…",
-      "publishedAt": "2026-11-03T16:54:24.000Z"
+      "title": "A Song(s) of the Day # 4,561 Jack Larkin",
+      "summary": "Jack Larkin's Purkinje Shift. Charming Pastoral Folk from a teriyaki chicken enthusiast and full time cat daddy. A record from the Fmily Tree of Fleet Foxes and Midlake. But this has a clockwork char…",
+      "publishedAt": "2026-11-04T18:49:43.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -4463,7 +4463,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -4843,7 +4843,7 @@
     "feedUrl": "https://roo.blogr.directory/index.xml"
   },
   "https://rotational.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-03",
     "feedUrl": "https://rotational.co.uk/index.xml",
     "latestArticle": {
@@ -5123,13 +5123,13 @@
   },
   "https://simonwillison.net/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the aut…",
-      "publishedAt": "2026-11-03T16:29:48.000Z"
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: d…",
+      "publishedAt": "2026-11-04T15:26:02.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -5312,7 +5312,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -5494,13 +5494,13 @@
   },
   "https://terrytao.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://terrytao.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Doctoral Advising Guidelines by the AHM",
-      "url": "https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/",
-      "summary": "[This is a guest post by the AHM communications group. — T.] We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote a set of recommendations on doctor…",
-      "publishedAt": "2026-11-03T18:32:46.000Z"
+      "title": "More of my interviews and talks",
+      "url": "https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/",
+      "summary": "I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (wh…",
+      "publishedAt": "2026-11-04T18:52:00.000Z"
     }
   },
   "https://testvalleyriverkeeper.blogspot.com/": {
@@ -6771,10 +6771,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "Who Is Animation For, And Who Will Pay For It? 5 Takeaways From Rome’s MIA Market 2026",
-      "url": "https://www.cartoonbrew.com/markets/rome-mia-market-2026-overview-268482.html",
-      "summary": "International co-productions, new financing models, and a shortage of European animation for teens shaped discussions at this year’s market.",
-      "publishedAt": "2026-11-04T15:46:35.000Z"
+      "title": "‘The Cat In The Hat’ Directors On Bringing Seuss’s Printed Pages To CG Life",
+      "url": "https://www.cartoonbrew.com/feature-film/the-cat-in-the-hat-erica-rivinoja-alessandro-carloni-268957.html",
+      "summary": "Erica Rivinoja and Alessandro Carloni discuss building three distinct worlds, designing a scary monster, and giving the Things a percussive language.",
+      "publishedAt": "2026-11-04T18:48:33.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -6789,9 +6789,9 @@
     }
   },
   "https://www.cleverdude.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-04",
-    "feedUrl": "https://www.cleverdude.com/feed/",
+    "feedUrl": "https://www.cleverdude.com/",
     "latestArticle": {
       "title": "Your Auto Insurance Renewal Is Higher — 6 Things to Check",
       "url": "https://www.cleverdude.com/content/your-auto-insurance-renewal-is-higher-6-things-to-check/",
@@ -7406,7 +7406,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/atom.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7714,7 +7714,7 @@
     "feedUrl": "https://www.sarasoueidan.com/icon.svg"
   },
   "https://www.savingadvice.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {

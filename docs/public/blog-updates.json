@@ -234,7 +234,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -348,7 +348,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -402,7 +402,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -457,7 +457,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -701,7 +701,7 @@
     "status": "unavailable"
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -730,10 +730,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://betweenthebars.org/blogs/feed/",
     "latestArticle": {
-      "title": "Email To My Daughter",
-      "url": "http://betweenthebars.org/posts/32241/email-to-my-daughter",
+      "title": "Untitled",
+      "url": "http://betweenthebars.org/posts/32240/",
       "summary": "Read more .",
-      "publishedAt": "2026-11-04T07:00:22.203Z"
+      "publishedAt": "2026-11-04T17:15:20.163Z"
     }
   },
   "https://bigthink.com/strange-maps/": {
@@ -842,7 +842,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1003,7 +1003,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1051,12 +1051,12 @@
   },
   "https://britishcoast.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-27",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://britishcoast.wordpress.com/feed/atom/",
     "latestArticle": {
-      "url": "https://britishcoast.wordpress.com/2026/10/27/546-aberdaron-circular-via-whistling-sands-porth-oer/",
-      "summary": "March 2018 Today was the first day of a 4 day trip to the Llŷn Peninsula. This meant I was starting the day at home. As I wanted to get a walk in before it got dark (this was in … Continue reading →",
-      "publishedAt": "2026-10-27T23:21:45.000Z"
+      "url": "https://britishcoast.wordpress.com/2026/11/04/547-aberdaron-to-abersoch/",
+      "summary": "March 2018 Today I have a long walk planned owing to the lack of public transport in this area. However I am hoping to take a more coastal shortcut than the official path and I can always cut off the…",
+      "publishedAt": "2026-11-04T22:38:44.000Z"
     }
   },
   "https://britishlandscapesphotography.co.uk/": {
@@ -1331,9 +1331,9 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/confirmed-line-ups-rb-leipzig-vs-manchester-city-uefa-champions-league",
-      "summary": "Manchester City take on Bundesliga giants RB Leipzig on matchday four of the league phase in this season's UEFA Champions League - a meeting with the club's former centre-back Martin Demichelis, now …",
-      "publishedAt": "2026-11-04T18:45:14.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/match-report-player-ratings-rb-leipzig-2-3-manchester-city-uefa-champions-league",
+      "summary": "They say football is a game of emotions, and it’s certain that Gianluigi Donnarumma would have felt both ecstatic and empty all inside three minutes in this helter-skelter clash with RB Leipzig in th…",
+      "publishedAt": "2026-11-04T22:05:16.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -1599,14 +1599,14 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "House Democrats discuss crypto market structure bill with larger SEC role",
-      "url": "https://cryptonews.mobile/brief/house-democrats-discuss-crypto-market-structure-bill-with-larger-sec-role",
-      "summary": "House Democrats are discussing a crypto market structure bill for the next Congress, Eleanor Terrett reported, citing three industry sources who spoke with Democratic staffers. The plan would expand …",
-      "publishedAt": "2026-11-04T20:56:08.000Z"
+      "title": "BitMart confirms new hack as founder says security team understaffed",
+      "url": "https://cryptonews.mobile/brief/bitmart-confirms-new-hack-as-founder-says-security-team-understaffed",
+      "summary": "BitMart confirmed a new hack on Monday. Bitquery identified about $391,000 in suspicious transfers from wallets mostly linked to BitMart across three blockchains. Founder Sheldon Xia said the securit…",
+      "publishedAt": "2026-11-04T22:44:06.000Z"
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -1680,7 +1680,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1847,7 +1847,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -1935,7 +1935,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -1993,10 +1993,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "Maine Senatorial Betting, 10:45PM CT",
-      "url": "https://econbrowser.com/archives/2026/11/maine-senatorial-betting-1039pm-ct",
-      "summary": "Odds for Jackson, when 56% vote in, 50.8% vs 49%.",
-      "publishedAt": "2026-11-04T04:42:19.000Z"
+      "title": "Some Costs Facing Households, since 2024: Consumer Items, Housing, Health Premiums",
+      "url": "https://econbrowser.com/archives/2026/11/some-costs-facing-households-since-2024-consumer-items-housing-health-premiums",
+      "summary": "Note that CPI growth accelerates post tariffs, but most profoundly, post-war. Health premiums under ACA have risen. Figure 1: CPI (blue), Cleveland Fed nowcast of 11/4 (blue), implied CPI from Michig…",
+      "publishedAt": "2026-11-04T20:56:12.000Z"
     }
   },
   "https://edleeman.co.uk/": {
@@ -2014,7 +2014,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2551,7 +2551,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -2562,7 +2562,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-12",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -2584,7 +2584,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -2689,7 +2689,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -2865,7 +2865,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -2876,7 +2876,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -2917,10 +2917,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://joelchrono.xyz/feed.xml",
     "latestArticle": {
-      "title": "The House on the Borderland",
-      "url": "https://joelchrono.xyz/blog/the-house-on-the-borderland/",
-      "summary": "This was my second book of the month of Octoer (even if I actually started it earlier than Left Hand of Darkness ) and the spookiest of the three. It’s all about cosmic horror, existential dread, fea…",
-      "publishedAt": "2026-11-04T16:30:00.000Z"
+      "title": "Dune Messiah",
+      "url": "https://joelchrono.xyz/blog/dune-messiah/",
+      "summary": "With Denis Villeneuve’s upcoming film that shall put an end to his Dune trilogy, I have been meaning to read Dune Messiah for quite a while. I was planning to read it with a friend but I was utterly …",
+      "publishedAt": "2026-11-04T21:30:00.000Z"
     }
   },
   "https://johnclare.blogspot.com/": {
@@ -3085,7 +3085,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -3101,7 +3101,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-21",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -3742,7 +3742,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3753,7 +3753,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -3943,7 +3943,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -4463,7 +4463,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -4610,7 +4610,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -4649,10 +4649,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "O’Neill takes consolation from LASK’s wins — how does that help Celtic?",
-      "url": "https://readceltic.com/2026/11/04/celtic-oneill-lask-consolation/",
-      "summary": "Martin O’Neill’s latest comments about LASK offer Celtic supporters a troubling kind of consolation. Speaking before the Beşiktaş The post O’Neill takes consolation from LASK’s wins — how does that h…",
-      "publishedAt": "2026-11-04T18:03:46.000Z"
+      "title": "Former Celtic Left-Back Part of Como’s Champions League Demolition — Alex Valle Enjoys Historic 9-1 Win",
+      "url": "https://readceltic.com/2026/11/04/former-celtic-left-back-part-of-comos-champions-league-demolition-alex-valle-enjoys-historic-9-1-win/",
+      "summary": "Remember Alex Valle? The Spanish left-back spent the first half of the 2024/25 season on loan at Celtic The post Former Celtic Left-Back Part of Como’s Champions League Demolition — Alex Valle Enjoys…",
+      "publishedAt": "2026-11-04T22:10:59.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -5298,7 +5298,7 @@
     "status": "unavailable"
   },
   "https://stamphacks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-26",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -5312,11 +5312,11 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -5626,12 +5626,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36332/manchester-united-3-2-roma-proof-of-life-in-2nd-half-comeback",
-      "summary": "Manchester United ain’t dead yet. The Reds got their first win in more than 50 days on Tuesday with a comeback befitting of both the club’s history and the team’s current clumsy form. They were under…",
-      "publishedAt": "2026-11-03T22:12:58.000Z"
+      "url": "https://thebusbybabe.sbnation.com/manchester-united-transfer-rumors-news/36338/jj-gabriel-verbally-agrees-to-real-madrid-move",
+      "summary": "Real Madrid have reached a verbal agreement with 16-year-old JJ Gabriel over a potential move to the Santiago Bernabeu. Gabriel is registered with Manchester United’s academy until the end of the sea…",
+      "publishedAt": "2026-11-04T22:25:21.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -6121,7 +6121,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6158,7 +6158,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -6202,7 +6202,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -6269,14 +6269,14 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
-      "title": "Daily UK Prepper News — 4 November 2026",
-      "url": "https://ukprepperhub.co.uk/daily-uk-prepper-news-4-november-2026/",
-      "summary": "Fridge hacks reach more UK food firms as 11 countries are hit, South West reservoirs rise but Devon stays in crisis, and bird flu near Biggar.",
-      "publishedAt": "2026-11-04T08:23:17.000Z"
+      "title": "Special Report – Fact Check: Polar Vortex 2026, Will It Really Snow in November?",
+      "url": "https://ukprepperhub.co.uk/polar-vortex-2026/",
+      "summary": "Polar vortex 2026: the Met Office says a record-early disruption is under way, but is snow really coming in November? We fact-check the headlines and tell you what to do now.",
+      "publishedAt": "2026-11-04T21:01:20.000Z"
     }
   },
   "https://una.im/": {
@@ -6354,13 +6354,13 @@
   },
   "https://vintagebuses.org/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://vintagebuses.org/index.xml",
     "latestArticle": {
-      "title": "The Bullet Nose Steam Locomotive",
-      "url": "https://vintagebuses.org/posts/snippets/bullet-nose-locomotive/",
-      "summary": "Postcard From The Past #1: GWR King Class No. 6014 King Henry VII was fitted with a experimental bullet nose casing in 1935, creating one of Britain’s most unusual steam engines.",
-      "publishedAt": "2026-11-03T15:09:25.000Z"
+      "title": "Royal Claud - the Monarch's Train",
+      "url": "https://vintagebuses.org/posts/depot/claud-monarch-train/",
+      "summary": "Postcard From The Past #2: LNER ‘Claud Hamilton’ 4-4-0 No. 8783 hauls the Royal Train to Wolferton near Sandringham in 1938. A history of dedicated royal service on the Great Eastern.",
+      "publishedAt": "2026-11-04T20:44:20.000Z"
     }
   },
   "https://vivarism.net/": {
@@ -6521,7 +6521,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -6622,7 +6622,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -7004,12 +7004,12 @@
   },
   "https://www.freecodecamp.org/news/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/fix-common-technical-seo-issues/",
-      "summary": "Let's say you've built a website. You've invested in the design, bought a domain, and so on. But a website isn't only what you see on the screen. A lot happens behind the scenes. You have to understan",
-      "publishedAt": "2026-11-03T19:00:29.000Z"
+      "url": "https://www.freecodecamp.org/news/introducing-socrates-and-the-new-freecodecamp-forum/",
+      "summary": "freeCodeCamp just turned 12 years old. And so did our beloved forum. And today I'm thrilled to say that the forum is now focused on discussions rather than Q&A. This is thanks to Socrates, a new tool",
+      "publishedAt": "2026-11-04T19:23:56.000Z"
     }
   },
   "https://www.fromjason.xyz/": {
@@ -7161,7 +7161,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -7284,7 +7284,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -7340,9 +7340,9 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/04/glad-this-split-between-waymo.html",
-      "summary": "Glad this split between Waymo and Uber is happening: Mawakana told Bloomberg that Waymo initially partnered with Uber because the ride-hail giant offered scale. But the experience for riders has been…",
-      "publishedAt": "2026-11-04T19:28:55.000Z"
+      "url": "https://www.manton.org/2026/11/04/the-win-last-night-was.html",
+      "summary": "The win last night was so stunning that I’m actually reconsidering some thoughts I had leading up to election night. I’ll get some ideas down in an essay eventually, but in the meantime I can’t stop …",
+      "publishedAt": "2026-11-04T22:38:57.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -7393,7 +7393,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-23",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -7415,7 +7415,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -7463,7 +7463,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -7718,10 +7718,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "7 Things You Should Never Share With Someone Claiming to Be Medicare",
-      "url": "https://www.savingadvice.com/articles/2026/11/04/10764154_7-things-you-should-never-share-with-someone-claiming-to-be-medicare.html",
-      "summary": "This post includes affiliate links. If you purchase anything through these affiliated links, the author/website may earn a commission. Quick Read Medicare scammers can sound...",
-      "publishedAt": "2026-11-04T21:17:29.000Z"
+      "title": "Older Americans Reported $1 Billion Lost to Investment Scams in One Year — Here’s Where the Fraud Starts",
+      "url": "https://www.savingadvice.com/articles/2026/11/04/10764157_older-americans-reported-1-billion-lost-to-investment-scams-in-one-year-heres-where-the-fraud-starts.html",
+      "summary": "A friendly message on Facebook, an unexpected investment recommendation, or a conversation with someone you’ve been chatting with online might seem harmless. But for thousands...",
+      "publishedAt": "2026-11-04T22:34:01.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -7850,7 +7850,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -8054,10 +8054,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "The New Flashback 35 V2 Update Tells a Half Truth",
-      "url": "https://www.thephoblographer.com/2026/11/04/the-new-flashback-35-v2-update-tells-a-half-truth/",
-      "summary": "I reviewed the Flashback 35V2 camera back in January of 2026 and awarded it an Editor's Choice. It really is an incredible camera in so many different ways that keeps us engaged with shooting and not…",
-      "publishedAt": "2026-11-04T18:00:00.000Z"
+      "title": "The Fujifilm X-E2s is a Decade Old. And the Sensor is the Secret to Happiness",
+      "url": "https://www.thephoblographer.com/2026/11/04/the-fujifilm-x-e2s-is-a-decade-old-and-the-sensor-is-the-secret-to-happiness/",
+      "summary": "Fujifilm has a plethora of cute, small interchangeable lens cameras. The X-E series is no different. If you are someone who is looking to buy a new camera, then there are some options that you will a…",
+      "publishedAt": "2026-11-04T22:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -8094,7 +8094,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-10-19",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -8198,7 +8198,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-03-31",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {

@@ -193,12 +193,12 @@
   },
   "https://accidentalwoodworker.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://accidentalwoodworker.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "ready for shellac..........",
-      "summary": "I wasn't sure if I would have gotten to this point today. I had an estate planning appointment in the PM and that was constantly in my thoughts while working in the AM. I'll be doing the shellac fini…",
-      "publishedAt": "2026-11-03T12:02:47.000Z"
+      "title": "shellac pt II.........",
+      "summary": "I have been playing woodworker for almost 60 years now. I like the build process and hate the final step which is applying a finish. I understand the importance of it with the prep and careful applic…",
+      "publishedAt": "2026-11-04T11:45:02.000Z"
     }
   },
   "https://adamapples.blogspot.com/": {
@@ -1588,10 +1588,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Crypto lawyer says US agencies will drive regulation after midterms",
-      "url": "https://cryptonews.mobile/brief/crypto-lawyer-says-us-agencies-will-drive-regulation-after-midterms",
-      "summary": "A 1inch lawyer said federal agencies will drive US crypto regulation after the midterms, not Congress. Maylea Ma said real movement will come from the SEC, CFTC and Treasury. She said agency engageme…",
-      "publishedAt": "2026-11-04T10:53:32.000Z"
+      "title": "Copilot AI outlines speculative 2027 scenarios for NEAR and Hyperliquid",
+      "url": "https://cryptonews.mobile/brief/copilot-ai-outlines-speculative-2027-scenarios-for-near-and-hyperliquid",
+      "summary": "Microsoft Copilot AI outlined hypothetical scenarios in which NEAR Protocol and Hyperliquid become core infrastructure for a decentralized AI agent network and for regulated on-chain prediction marke…",
+      "publishedAt": "2026-11-04T11:42:19.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1669,7 +1669,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -4431,7 +4431,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -4603,7 +4603,7 @@
     }
   },
   "https://rawr.fun/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-08-16",
     "feedUrl": "https://rawr.fun/atom.xml",
     "latestArticle": {
@@ -5280,7 +5280,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -7151,7 +7151,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -8124,9 +8124,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

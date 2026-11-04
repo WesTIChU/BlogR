@@ -1321,8 +1321,8 @@
   },
   "https://rawr.fun/": {
     "lastPublished": "2025-08-16",
-    "lastChecked": "2026-11-04T11:31:51.830Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
+    "status": "success",
     "feedUrl": "https://rawr.fun/atom.xml",
     "latestArticle": {
       "url": "https://rawr.fun/notes/follow-b3anz1e-bsky-social/",
@@ -1678,8 +1678,8 @@
   },
   "https://davideaversa.it/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-04T11:31:51.830Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
+    "status": "success",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
       "title": "The ChangeLog – October 2026",
@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-04T11:31:51.830Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
+    "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Liberty Global CEO says nexfibre and Virgin still committed to Netomnia UK broadband deal",
@@ -4479,9 +4479,9 @@
   },
   "https://www.urbex-travel.com/blog/": {
     "lastPublished": "2026-10-06",
-    "lastChecked": "2026-11-04T11:31:51.830Z",
-    "status": "unknown",
-    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
+    "status": "success",
+    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",
@@ -6027,14 +6027,14 @@
     }
   },
   "https://accidentalwoodworker.blogspot.com/": {
-    "lastPublished": "2026-11-03",
-    "lastChecked": "2026-11-03T12:44:31.229Z",
+    "lastPublished": "2026-11-04",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
     "status": "success",
     "feedUrl": "https://accidentalwoodworker.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "ready for shellac..........",
-      "summary": "I wasn't sure if I would have gotten to this point today. I had an estate planning appointment in the PM and that was constantly in my thoughts while working in the AM. I'll be doing the shellac fini…",
-      "publishedAt": "2026-11-03T12:02:47.000Z"
+      "title": "shellac pt II.........",
+      "summary": "I have been playing woodworker for almost 60 years now. I like the build process and hate the final step which is applying a finish. I understand the importance of it with the prep and careful applic…",
+      "publishedAt": "2026-11-04T11:45:02.000Z"
     }
   },
   "https://r41n834u.com/blog/bloglanding": {
@@ -8584,8 +8584,8 @@
   },
   "https://startprepping.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-04T09:44:33.580Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://www.thebugout.co.uk/blog": {
@@ -8596,8 +8596,8 @@
   },
   "https://pr3p.co.uk/pr3p-blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-04T09:44:33.580Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -9222,14 +9222,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-04T11:31:51.830Z",
+    "lastChecked": "2026-11-04T11:44:30.291Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Crypto lawyer says US agencies will drive regulation after midterms",
-      "url": "https://cryptonews.mobile/brief/crypto-lawyer-says-us-agencies-will-drive-regulation-after-midterms",
-      "summary": "A 1inch lawyer said federal agencies will drive US crypto regulation after the midterms, not Congress. Maylea Ma said real movement will come from the SEC, CFTC and Treasury. She said agency engageme…",
-      "publishedAt": "2026-11-04T10:53:32.000Z"
+      "title": "Copilot AI outlines speculative 2027 scenarios for NEAR and Hyperliquid",
+      "url": "https://cryptonews.mobile/brief/copilot-ai-outlines-speculative-2027-scenarios-for-near-and-hyperliquid",
+      "summary": "Microsoft Copilot AI outlined hypothetical scenarios in which NEAR Protocol and Hyperliquid become core infrastructure for a decentralized AI agent network and for regulated on-chain prediction marke…",
+      "publishedAt": "2026-11-04T11:42:19.000Z"
     }
   },
   "https://usefreetools.net/": {

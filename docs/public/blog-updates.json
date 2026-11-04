@@ -71,7 +71,7 @@
     "feedUrl": "http://www.galactichunter.com/gh/crss",
     "latestArticle": {
       "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/gh/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
+      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
       "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
       "publishedAt": "2026-09-28T13:18:14.000Z"
     }
@@ -246,13 +246,17 @@
   },
   "https://aeon.co/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://aeon.co/feed.rss",
     "latestArticle": {
-      "url": "https://aeon.co/essays/the-psychology-of-separating-church-and-state",
-      "summary": "The separation of church and state has an unspoken psychological basis: we choose what we believe, but not what we think - by Neil Van Leeuwen & Jacob Eisler Read on Aeon",
-      "publishedAt": "2026-11-03T11:00:00.000Z"
+      "url": "https://aeon.co/videos/in-tiny-biospheres-an-artist-reflects-the-fragility-of-our-own",
+      "summary": "Like living metaphors, these self-contained miniature worlds show us the wondrous and fragile beauty of our biosphere - by Aeon Video Watch on Aeon",
+      "publishedAt": "2026-11-04T11:01:00.000Z"
     }
+  },
+  "https://aestheticfonts.im/": {
+    "status": "unknown",
+    "feedUrl": "https://aestheticfonts.im/favicon.svg"
   },
   "https://alabamayesterdays.blogspot.com/": {
     "status": "success",
@@ -926,7 +930,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -942,7 +946,7 @@
     "feedUrl": "https://blog.tomayac.com/feed/feed.xml"
   },
   "https://blog.wealthybe.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-29",
     "feedUrl": "https://blog.wealthybe.com/en/index.xml",
     "latestArticle": {
@@ -1207,6 +1211,9 @@
       "publishedAt": "2026-11-04T10:23:44.000Z"
     }
   },
+  "https://channel87uhf.com/": {
+    "status": "unavailable"
+  },
   "https://chaoslife.findchaos.com/comic": {
     "status": "success",
     "lastPublished": "2026-06-11",
@@ -1317,6 +1324,9 @@
       "summary": "Former Manchester City winger Shaun Wright-Phillips has hailed Jeremy Doku as the finest wide player in the Premier League, pointing to his match-winning cameo against Liverpool in October as proof o…",
       "publishedAt": "2026-11-04T10:00:44.000Z"
     }
+  },
+  "https://clancatlab.com/": {
+    "status": "unavailable"
   },
   "https://classicgamezone.com/blogs": {
     "status": "unavailable"
@@ -1450,10 +1460,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Badenoch’s ‘Fund Defence’ rally made her look lost at sea",
-      "url": "https://conservativehome.com/2026/11/04/badenochs-fund-defence-rally-made-her-look-lost-at-sea/",
-      "summary": "Aside from grabbing a bit of media attention in the run up to Thursday, I really don’t see what the purpose of the rally was. It may well be the case that I just don’t understand the complexities of …",
-      "publishedAt": "2026-11-04T07:00:33.000Z"
+      "title": "Harvey Proctor: Palantir warns MPs about amplifying falshoods, so why is Tom Watson employed by them",
+      "url": "https://conservativehome.com/2026/11/04/harvey-proctor-palantir-warns-mps-about-amplifying-falshoods-so-why-is-tom-watson-employed-by-them/",
+      "summary": "Palantir is entitled to defend its good name. So were Lord Brittan, Lord Bramall and I. If the company wishes to lecture Parliament about public speech, it should first reflect on the record of the f…",
+      "publishedAt": "2026-11-04T11:00:50.000Z"
     }
   },
   "https://convertheictojpg.org/": {
@@ -1578,10 +1588,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "New Jersey drops Coinbase staking lawsuit and lifts cease-and-desist",
-      "url": "https://cryptonews.mobile/brief/new-jersey-drops-coinbase-staking-lawsuit-and-lifts-cease-and-desist",
-      "summary": "New Jersey regulators dropped their 2023 lawsuit against Coinbase over its staking program and lifted a cease-and-desist order, Coinbase legal VP Molly Abraham said. The state's Bureau of Securities …",
-      "publishedAt": "2026-11-04T10:41:20.000Z"
+      "title": "Crypto lawyer says US agencies will drive regulation after midterms",
+      "url": "https://cryptonews.mobile/brief/crypto-lawyer-says-us-agencies-will-drive-regulation-after-midterms",
+      "summary": "A 1inch lawyer said federal agencies will drive US crypto regulation after the midterms, not Congress. Maylea Ma said real movement will come from the SEC, CFTC and Treasury. She said agency engageme…",
+      "publishedAt": "2026-11-04T10:53:32.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1659,7 +1669,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -1798,6 +1808,9 @@
   "https://dev101.io/blog": {
     "status": "unknown",
     "feedUrl": "https://dev101.io/icon.svg"
+  },
+  "https://dgtaf.com/": {
+    "status": "unavailable"
   },
   "https://diamondgeezer.blogspot.com/": {
     "status": "success",
@@ -1989,7 +2002,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2336,10 +2349,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania",
     "latestArticle": {
-      "title": "U.S. Midterm Election Maps",
-      "url": "http://googlemapsmania.blogspot.com/2026/11/us-midterm-election-maps.html",
-      "summary": "If you want to know what happened in yesterday's midterm elections, you should probably start with The Economist's Swing from 2024 map. The map is paywalled, but the screenshot above tells the story …",
-      "publishedAt": "2026-11-04T08:49:16.537Z"
+      "title": "The Alleyways of Britain",
+      "url": "http://googlemapsmania.blogspot.com/2026/11/the-alleyways-of-britain.html",
+      "summary": "In October, YouGov published a small-multiple visualisation showing the popularity of regional names for alleyways in the UK. The maps in What else do Britons call an alleyway? are based on survey da…",
+      "publishedAt": "2026-11-04T10:00:17.024Z"
     }
   },
   "https://gorillasdontblog.blogspot.com/": {
@@ -2377,12 +2390,12 @@
   },
   "https://greek-metal-area.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://greek-metal-area.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Yoth Iria & Darkest Oath - Infernium",
-      "summary": "Genre : Black Metal Year : 2025 Yoth Iria: 1.Splendour Of The Sun 04:45 Darkest Oath: 2.Satanolatria 04:49 -DOWNLOAD-",
-      "publishedAt": "2026-11-03T11:59:00.000Z"
+      "title": "Mortuus & Serpent Noir - Nyctophilia/Dreaming Iblis",
+      "summary": "Genre : Black Metal Year : 2018 Mortuus: 1. Nyctophilia 05:49 Serpent Noir: 2. Dreaming Iblis 04:23 -DOWNLOAD-",
+      "publishedAt": "2026-11-04T11:09:00.000Z"
     }
   },
   "https://greenshadediary.blogspot.com/": {
@@ -2462,12 +2475,12 @@
   },
   "https://hackernoon.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/ai-agents-pick-the-wrong-tool-more-often-as-you-add-tools-and-research-shows-why?source=rss",
-      "summary": "More tools make AI agents pick the wrong one. What papers and vendor benchmarks show about tool selection, and how to keep each agent's list short.",
-      "publishedAt": "2026-11-03T22:49:35.000Z"
+      "url": "https://hackernoon.com/your-github-actions-cron-job-can-disappear-without-failing?source=rss",
+      "summary": "Learn how to make GitHub Actions scheduled workflows more reliable with automated QA, Slack reporting, duplicate prevention, and watchdog monitoring.",
+      "publishedAt": "2026-11-04T10:00:02.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -4111,13 +4124,13 @@
   },
   "https://nz6a.mihobu.net/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://nz6a.mihobu.net/rss.xml",
     "latestArticle": {
-      "title": "Social Experiment on Voting Preferences",
-      "url": "https://nz6a.mihobu.net/micro-20261026231019",
-      "summary": "I'd like to replicate an experiment I learned about on an episode of this morning...I'd like for people to vote for either A or B, but in the end I need %95 of everyone to vote for A, and only %5 of …",
-      "publishedAt": "2026-10-26T23:10:00.000Z"
+      "title": "Central Ohio Radio Enthusiasts Monthly Meeting",
+      "url": "https://nz6a.mihobu.net/micro-20261104112101",
+      "summary": "Last night I attended the monthly meeting of Central Ohio Radio Enthusiasts (CORE) and enjoyed meeting a few new people and listening to an excellent overview of logging alternatives given by @k8vsy …",
+      "publishedAt": "2026-11-04T11:21:00.000Z"
     }
   },
   "https://ocalicreek.blogspot.com/": {
@@ -4445,13 +4458,13 @@
   },
   "https://priorprobability.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "Adam Smith, Commissioner (part 12a)",
-      "url": "https://priorprobability.com/2026/11/03/adam-smith-commissioner-part-12/",
-      "summary": "Nota bene: Here are the previous 11 installments — parts 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11 — in my multi-part series on Adam Smith’s day-to-day duties as a commissioner of the Board of Customs … …",
-      "publishedAt": "2026-11-03T11:26:19.000Z"
+      "title": "Adam Smith, Commissioner (part 12b)",
+      "url": "https://priorprobability.com/2026/11/04/adam-smith-commissioner-part-12b/",
+      "summary": "Nota bene: Here are the previous installments — parts 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12a — in my multi-part series on Adam Smith’s day-to-day duties as a commissioner of the Board of Customs …",
+      "publishedAt": "2026-11-04T11:11:25.000Z"
     }
   },
   "https://projectswordtoys.blogspot.com/": {
@@ -4544,6 +4557,9 @@
       "publishedAt": "2026-10-30T11:45:09.000Z"
     }
   },
+  "https://radiofreearlington.com/": {
+    "status": "unavailable"
+  },
   "https://raindancevideoai.com/": {
     "status": "unavailable"
   },
@@ -4587,7 +4603,7 @@
     }
   },
   "https://rawr.fun/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-08-16",
     "feedUrl": "https://rawr.fun/atom.xml",
     "latestArticle": {
@@ -5301,13 +5317,13 @@
   },
   "https://stratechery.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://stratechery.com/feed/",
     "latestArticle": {
-      "title": "Apple Earnings, Memory Problems, The Hardware Company Regression",
-      "url": "https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
-      "summary": "Apple's earnings suggest that the company's hardware business is doing better than ever, even in the face of memory challenges. Does the software story help or hurt?",
-      "publishedAt": "2026-11-03T11:00:00.000Z"
+      "title": "AI on the Ballot",
+      "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+      "summary": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?",
+      "publishedAt": "2026-11-04T11:00:00.000Z"
     }
   },
   "https://sunshineandcelandines.wordpress.com/": {
@@ -5334,13 +5350,13 @@
   },
   "https://susan-stepney.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://susan-stepney.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "the fat of the land",
-      "url": "https://susan-stepney.blogspot.com/2026/10/the-fat-of-land.html",
-      "summary": "We managed a second microscopically small harvest of veg. Now that it has finally started to rain, things have started growing and ripening a bit more. Still not enough to make a dent in the grocery …",
-      "publishedAt": "2026-10-14T21:00:00.000Z"
+      "title": "you are firstflagPOISONED",
+      "url": "https://susan-stepney.blogspot.com/2026/10/you-are-firstflagpoisoned.html",
+      "summary": "The Guradian recently published an article on AI agents inventing new vocabulary , some surreally poetic, some reminiscient of James Joyce, some of \"tech bro jargon\". models from several of the world…",
+      "publishedAt": "2026-10-15T21:00:00.000Z"
     }
   },
   "https://svgomg.net/": {
@@ -5602,10 +5618,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "The SFA owes Scottish football an explanation on Penrice.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/sfa-owes-scottish-football-explanation-penrice/",
-      "summary": "In the aftermath of the weekend’s League Cup semi-final at Hampden between Aberdeen and the club from Ibrox, The post The SFA owes Scottish football an explanation on Penrice. appeared first on The C…",
-      "publishedAt": "2026-11-04T09:30:35.000Z"
+      "title": "Peter Martin McGuire’s clown-car show lets anti-fan media bitterness flow.",
+      "url": "https://thecelticblog.com/2026/11/blogs/celtic-fan-media-martin-clown-car/",
+      "summary": "If there is one thing about the mainstream media that has bothered me since I got into this The post Peter Martin McGuire’s clown-car show lets anti-fan media bitterness flow. appeared first on The C…",
+      "publishedAt": "2026-11-04T11:30:17.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -5705,13 +5721,13 @@
   },
   "https://theflatypus.com/": {
     "status": "success",
-    "lastPublished": "2026-01-18",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://theflatypus.com/feed/",
     "latestArticle": {
-      "title": "Guide: Accept Yourself",
-      "url": "https://theflatypus.com/guide-accept-yourself/",
-      "summary": "Hello there, welcome… Don’t get hyped up, I don’t mean this in the warm sense, more like the resigned nod you give someone who’s clearly staying. Anyway, this is about accepting yourself, which is a …",
-      "publishedAt": "2026-01-18T13:04:40.000Z"
+      "title": "Breaking: Americans Accidentally Exercise Democracy",
+      "url": "https://theflatypus.com/breaking-americans-accidentally-exercise-democracy/",
+      "summary": "GOP officials call for urgent investigation after millions of voters appear to have misunderstood the purpose of elections. WASHINGTON, D.C. — Republican officials are demanding an immediate nationwi…",
+      "publishedAt": "2026-11-04T10:58:59.000Z"
     }
   },
   "https://thegoaliesanxiety.wordpress.com/": {
@@ -5998,13 +6014,13 @@
   },
   "https://thettablog.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thettablog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "TTABlog Test: Is MIZUNARA WOODS Merely Descriptive of Engineered Hardwood Flooring?",
-      "url": "https://thettablog.blogspot.com/2026/11/ttablog-test-is-mizunara-woods-merely.html",
-      "summary": "The USPTO refused to register the proposed mark MIZUNARA WOODS for “Engineered hardwood flooring featuring wooden veneer of mizunara oak sold integrally therewith\" [MIZUNARA disclaimed], finding the …",
-      "publishedAt": "2026-11-03T10:04:23.794Z"
+      "title": "Chicago Brothers Best San Antonio Brothers in FADED CULTURE STUDIO Barbering Services Priority Battle",
+      "url": "https://thettablog.blogspot.com/2026/11/chicago-brothers-best-san-antonio.html",
+      "summary": "In an exhaustive and exhausting 76-page opinion, the Board awarded priority to applicant (Chicago) over opposer (San Antonio) in a battle over the mark FADED CULTURE STUDIO for barbering services. Op…",
+      "publishedAt": "2026-11-04T10:49:12.738Z"
     }
   },
   "https://theunconventionalgardener.com/blog/": {
@@ -6253,6 +6269,10 @@
       "summary": "Rick Nielsen On October 24th Juliens’s Auctions opened bids for over 200 guitars and assorted memorabilia owned by Rick Nielsen, the guitarist for the band Cheap Trick. Huntz Hall Nielsen, who has ta…",
       "publishedAt": "2026-10-26T00:29:46.426Z"
     }
+  },
+  "https://uogorod.ru/": {
+    "status": "unknown",
+    "feedUrl": "https://uogorod.ru/feed"
   },
   "https://up-to-11.de/": {
     "status": "success",
@@ -6561,13 +6581,13 @@
   },
   "https://www.architectural-review.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
-      "title": "AR November 2026: 130 years of The Architectural Review",
-      "url": "https://www.architectural-review.com/essays/letters-from-the-editor/ar-november-2026-130-years-of-the-architectural-review",
-      "summary": "The Architectural Review AR November 2026: 130 years of The Architectural Review In November 1896, the first films were being screened, wireless telegraphy had just been patented, and the first issue…",
-      "publishedAt": "2026-11-03T10:20:14.000Z"
+      "title": "Slop machine",
+      "url": "https://www.architectural-review.com/essays/keynote/slop-machine",
+      "summary": "The Architectural Review Slop machine The surge of slop generated by ‘artificial intelligence’ threatens to divorce architecture from reality The post Slop machine appeared first on The Architectural…",
+      "publishedAt": "2026-11-04T10:42:11.000Z"
     }
   },
   "https://www.askamanager.org/": {
@@ -6640,10 +6660,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Classic Space pieces sold out at Pick a Brick despite restrictions",
-      "url": "https://www.brickfanatics.com/lego-classic-space-pieces-sold-out-at-pick-a-brick",
-      "summary": "Several of the new LEGO Classic Space pieces are already out of stock at Pick a Brick, despite heavy restrictions on the quantity of parts in a single order. Elements from July’s releases arrived on …",
-      "publishedAt": "2026-11-04T09:12:34.000Z"
+      "title": "This £5 IKEA hack is the perfect LEGO Speed Champions display",
+      "url": "https://www.brickfanatics.com/5-ikea-hack-perfect-lego-speed-champions-display",
+      "summary": "Out go the pot lids, in come the cars",
+      "publishedAt": "2026-11-04T11:26:38.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -7131,7 +7151,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7226,10 +7246,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "“I never took anything from any man”: the enigmatic inscription on the tomb of the official Khuwy discovered in Saqqara",
-      "url": "https://www.labrujulaverde.com/en/2026/11/i-never-took-anything-from-any-man-the-enigmatic-inscription-on-the-tomb-of-the-official-khuwy-discovered-in-saqqara/",
-      "summary": "An Egyptian official who lived some 4,400 years ago wanted to be remembered as a man who never took anything from anyone. His words survive only in fragments, but those fragments may help show where …",
-      "publishedAt": "2026-11-04T09:38:48.000Z"
+      "title": "Archaeologists Find a Neolithic 10-Ton Human-Shaped Menhir Statue on the Edge of Paris",
+      "url": "https://www.labrujulaverde.com/en/2026/11/archaeologists-find-a-neolithic-10-ton-human-shaped-menhir-statue-on-the-edge-of-paris/",
+      "summary": "A stone statue as heavy as a school bus has turned up in a Paris suburb, lying in the pit where it once stood upright. It was found on a terrace of sediment left by the Marne River, on the southeaste…",
+      "publishedAt": "2026-11-04T10:52:37.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -7869,13 +7889,13 @@
   },
   "https://www.thefrugalgamer.net/blog/": {
     "status": "success",
-    "lastPublished": "2026-10-20",
-    "feedUrl": "https://www.thefrugalgamer.net/blog/feed/",
+    "lastPublished": "2026-10-09",
+    "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
-      "title": "Laptop Stickers",
-      "url": "https://www.thefrugalgamer.net/blog/2026/10/20/laptop-stickers/",
-      "summary": "I’ve been seeing a few folks around making posts about their laptop stickers, and thought it would be a fun little diversion to post about. I have far too many stickers in my craft supply…erm…collect…",
-      "publishedAt": "2026-10-20T20:49:11.000Z"
+      "title": "New Music",
+      "url": "https://thefrugalgamer.net/music.php",
+      "summary": "For the first time in years I've actually added some new song that I wrote to the music page. I was hoping to release some stuff as part of a video game project, but it's been stalled for ages now. A…",
+      "publishedAt": "2026-10-09T00:00:00.000Z"
     }
   },
   "https://www.thehiking.club/blog/": {
@@ -8037,10 +8057,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Crazy Taxi Meets GTA In 'Downtown Dash', A New Arcade-Style Racing Game For Your Atari Jaguar",
-      "url": "https://www.timeextension.com/#article-208515",
-      "summary": "Made the \"traditional way\". A new 3D racing game has just launched for the Atari Jaguar, combining the open-world chaos and classic camera angles of Grand Theft Auto with the frantic, timer-based may…",
-      "publishedAt": "2026-11-04T09:45:00.000Z"
+      "title": "After 29 Years, the Secrets of This Elder Scrolls Easter Egg Have Finally Been Revealed",
+      "url": "https://www.timeextension.com/#article-208553",
+      "summary": "\"Battlespire rules\". The mysteries of a 29-year old Easter Egg in An Elder Scrolls Legend: Battlespire have finally been solved, due to a new donation to the Strong Museum of Play in Rochester, New Y…",
+      "publishedAt": "2026-11-04T11:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {
@@ -8104,9 +8124,9 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/feed/",
+    "feedUrl": "https://www.urbex-travel.com/wp-includes/wlwmanifest.xml",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

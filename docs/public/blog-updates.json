@@ -156,7 +156,7 @@
     }
   },
   "https://70sscifiart.tumblr.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
@@ -1254,9 +1254,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-31",
-    "feedUrl": "https://chrislt.nz/feed/",
+    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
     "latestArticle": {
       "title": "City on a hill",
       "url": "https://chrislt.nz/city-on-a-hill/",
@@ -2081,7 +2081,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -2280,7 +2280,7 @@
     }
   },
   "https://gifcities.org/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://girlsangle.wordpress.com/": {
@@ -2358,10 +2358,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "SOTT Earth Changes | October 2025 Summary",
-      "url": "https://greatawakeningreport.com/sott-earth-changes-summary-october-2025/",
-      "summary": "The SOTT Earth Changes summary for October 2025 is a monthly compilation rather than a documentary film, and it is worth being clear about that before pressing play. There is no narrator building an …",
-      "publishedAt": "2026-11-04T02:40:00.000Z"
+      "title": "The Montauk Project: Camp Hero, Time Travel Claims & the Secret of Mind Control",
+      "url": "https://greatawakeningreport.com/montauk-project/",
+      "summary": "EXPLORING THE PHILADELPHIA EXPERIMENT, PROJECT PHOENIX, THE MONTAUK BOYS & ALLEGED TIMELINE MANIPULATION “The greatest mysteries are not always found in what history remembers, but in what may have b…",
+      "publishedAt": "2026-11-04T03:13:16.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -2454,10 +2454,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Etching Press Aims To Impress",
-      "url": "https://hackaday.com/2026/11/03/etching-press-aims-to-impress/",
-      "summary": "There’s an old joke about inviting a girl up to your dorm room to ‘look at your etchings’– but if you’re going to do that, you’d best have some etchings, …read more",
-      "publishedAt": "2026-11-04T00:00:31.000Z"
+      "title": "Cat Feeder Ensures Fed Cats",
+      "url": "https://hackaday.com/2026/11/03/cat-feeder-ensures-fed-cats/",
+      "summary": "Automatic cat feeders are a dime a dozen, largely because this is an easy problem to solve. Dry cat food is easy for machines to manipulate, and the electronics needed …read more",
+      "publishedAt": "2026-11-04T03:00:36.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2482,7 +2482,7 @@
     }
   },
   "https://handeaux.tumblr.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://handeaux.tumblr.com/rss",
     "latestArticle": {
@@ -3432,12 +3432,12 @@
   },
   "https://londonreconnections.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/better-paving-greener-tracks-pragues-new-tramway-standard-prague-daily/",
-      "summary": "Prague’s expanding tram network is also intended to enhance the cityscape. A new guide shows how tracks and stops can be better integrated into public spaces through high-quality materials, carefully…",
-      "publishedAt": "2026-11-03T03:39:42.000Z"
+      "url": "https://londonreconnections.com/rail-electrification-costs-confounders-pedestrian-observations/",
+      "summary": "A presentation by the Bavarian Ministry of Housing, Construction, and Transport (StMB) about expansion plans for the Nuremberg S-Bahn includes several branches to be electrified. Naturally, the prese…",
+      "publishedAt": "2026-11-04T02:50:36.000Z"
     }
   },
   "https://lootrundown.com/": {
@@ -3866,7 +3866,7 @@
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
@@ -4228,7 +4228,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -4419,7 +4419,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -5166,14 +5166,14 @@
     }
   },
   "https://smallmariofindings.tumblr.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-03",
+    "status": "success",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In the Luigi&rsquo;s Mansion games, E. Gadd&rsquo;s model has very small eyes, which are almost impossible to&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/832293014770696192",
-      "summary": "In the Luigi’s Mansion games, E. Gadd’s model has very small eyes, which are almost impossible to see due to the high opacity of the lenses of his glasses. By removing the lenses from the model entir…",
-      "publishedAt": "2026-11-03T20:07:51.000Z"
+      "title": "Officially licensed 2026 Donkey Kong hand towel from Japan.",
+      "url": "https://smallmariofindings.tumblr.com/post/832311942518538240",
+      "summary": "Officially licensed 2026 Donkey Kong hand towel from Japan. Source: jpnmart Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-11-04T01:08:42.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -5265,7 +5265,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -7121,7 +7121,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7334,7 +7334,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",

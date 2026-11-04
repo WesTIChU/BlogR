@@ -43,6 +43,7 @@ body:
         - News & Discussion
         - Internet Culture
         - Preparedness & Survival
+        - Education & Learning
         # END GENERATED COMMUNITY CATEGORIES
     validations:
       required: true

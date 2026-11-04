@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1599,10 +1599,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "BitMart confirms new hack as founder says security team understaffed",
-      "url": "https://cryptonews.mobile/brief/bitmart-confirms-new-hack-as-founder-says-security-team-understaffed",
-      "summary": "BitMart confirmed a new hack on Monday. Bitquery identified about $391,000 in suspicious transfers from wallets mostly linked to BitMart across three blockchains. Founder Sheldon Xia said the securit…",
-      "publishedAt": "2026-11-04T22:44:06.000Z"
+      "title": "Bitcoin developers weigh BIP-54 cleanup as next soft fork",
+      "url": "https://cryptonews.mobile/brief/bitcoin-developers-weigh-bip-54-cleanup-as-next-soft-fork",
+      "summary": "Bitcoin developers are considering the Great Consensus Cleanup, known as BIP-54, as the network's next soft fork. Proposed in 2019, it targets four flaws in Bitcoin's consensus rules, including the d…",
+      "publishedAt": "2026-11-04T22:50:08.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2014,7 +2014,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2490,9 +2490,9 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/318-blog-posts-to-learn-about-noonies?source=rss",
-      "summary": "Learn everything you need to know about Noonies via these 318 free HackerNoon blog posts.",
-      "publishedAt": "2026-11-04T15:01:31.000Z"
+      "url": "https://hackernoon.com/what-happens-when-the-model-reads-it-wrong-building-llm-compliance-review-that-survives-an-audit?source=rss",
+      "summary": "Lessons from cutting manual compliance review by 60% with OCR and LLMs at a bank, and how to design for the moment the model reads a document wrong.",
+      "publishedAt": "2026-11-04T22:40:21.000Z"
     }
   },
   "https://halloweenlove.com/": {
@@ -2690,13 +2690,13 @@
   },
   "https://iamafoodblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
-      "title": "Easy Green Bean Casserole From Scratch",
-      "url": "https://iamafoodblog.com/green-bean-casserole/",
-      "summary": "Green bean casserole is a classic but it's so much better when you make it from scratch.",
-      "publishedAt": "2026-11-03T07:05:56.000Z"
+      "title": "Caramelized Sweet Potatoes",
+      "url": "https://iamafoodblog.com/caramelized-sweet-potatoes/",
+      "summary": "I have a love affair with sweet potatoes.",
+      "publishedAt": "2026-11-04T23:14:42.000Z"
     }
   },
   "https://imaginary.nu/henshin/": {
@@ -2821,9 +2821,9 @@
     }
   },
   "https://jamesg.blog/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-04",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "flow, found",
       "url": "https://jamesg.blog/2026/11/04/flow-found",
@@ -3838,10 +3838,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Sopwith Salamander",
-      "url": "https://mojobob.blogspot.com/2026/11/sopwith-salamander.html",
-      "summary": "These are 1:144 scale Sopwith Salamanders, a British armoured ground-attack aircraft from the very end of WW1, based largely on the Snipe. They were ordered in quantity in order to support the offens…",
-      "publishedAt": "2026-11-04T05:12:59.130Z"
+      "title": "Bristol M1C \"Bullet\"",
+      "url": "https://mojobob.blogspot.com/2026/11/bristol-m1c-bullet.html",
+      "summary": "The Bristol M1C Monoplane, nicknamed the Bullet for its relatively high speed for the time, made its maiden flight in July 1916. It suffered from an institutional distrust among the British hierarchy…",
+      "publishedAt": "2026-11-04T23:41:46.646Z"
     }
   },
   "https://momentsingraphics.de/": {
@@ -4463,7 +4463,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -4754,7 +4754,7 @@
     }
   },
   "https://retrogametalk.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://revenuecycleuncovered.blogspot.com/": {
@@ -5031,13 +5031,13 @@
   },
   "https://shapeof.com/": {
     "status": "success",
-    "lastPublished": "2026-10-19",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://shapeof.com/rss.xml",
     "latestArticle": {
-      "title": "VMPal",
-      "url": "https://shapeof.com/archives/2026/10/vmpal.html",
-      "summary": "VMPal is described as “Virtual Machines built for Apple silicon and AI agents”. Straight from Apple, installed in minutes, with Metal on your Mac’s GPU. VMPal Tools add the clipboard and drag & drop.…",
-      "publishedAt": "2026-10-19T15:25:15.000Z"
+      "title": "Karri Saarinen: Someone Behind the Software",
+      "url": "https://shapeof.com/archives/2026/11/karri_saarinen_someone_behind_the_software.html",
+      "summary": "Karri Saarinen: Someone behind the software : I think good products carry something of the people who make them. Their experience, what they care about, and how they think things should work. You mig…",
+      "publishedAt": "2026-11-04T23:31:03.000Z"
     }
   },
   "https://shapersofthe80s.com/what-the/": {
@@ -5312,7 +5312,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -5636,13 +5636,13 @@
   },
   "https://thecaptivereader.com/": {
     "status": "success",
-    "lastPublished": "2026-10-28",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thecaptivereader.com/feed/",
     "latestArticle": {
-      "title": "Library Loot: October 28 to November 3",
-      "url": "https://thecaptivereader.com/2026/10/28/library-loot-october-28-to-november-3/",
+      "title": "Library Loot: November 4 to 10",
+      "url": "https://thecaptivereader.com/2026/11/04/library-loot-november-4-to-10-3/",
       "summary": "Library Loot is a weekly event co-hosted by Claire from The Captive Reader and Sharlene from Real Life Reading that encourages bloggers to share the books they’ve checked out from the library. If you…",
-      "publishedAt": "2026-10-28T07:01:00.000Z"
+      "publishedAt": "2026-11-04T23:31:05.000Z"
     }
   },
   "https://thecelticblog.com/": {
@@ -6100,13 +6100,13 @@
   },
   "https://thisisnthappiness.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "November is the Norway of the year, Anne Rothenstein",
-      "url": "https://thisisnthappiness.com/post/832293045093433344",
-      "summary": "November is the Norway of the year, Anne Rothenstein",
-      "publishedAt": "2026-11-03T20:08:20.000Z"
+      "title": "Folk horror, Marian Wawrzeniecki",
+      "url": "https://thisisnthappiness.com/post/832388203727257600",
+      "summary": "Folk horror, Marian Wawrzeniecki",
+      "publishedAt": "2026-11-04T21:20:51.000Z"
     }
   },
   "https://thoughtfullycatholic.wordpress.com/": {
@@ -6121,7 +6121,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6295,10 +6295,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://uniqfox.me/zine/rss.php?kind=main",
     "latestArticle": {
-      "title": "why the internet is boring",
-      "url": "https://uniqfox.me/journal/why-the-internet-is-boring",
-      "summary": "and another thing... {{video https://www.youtube.com/watch?v=9zFryNFmsVk&t=2s}}",
-      "publishedAt": "2026-11-04T20:46:23.000Z"
+      "title": "a dedication ♪♪",
+      "url": "https://uniqfox.me/journal/a-dedication",
+      "summary": "{{video https://www.youtube.com/watch?v=P-XhvFs6mHM}} a remembrance of my dad. this was his favorite song. it's been a solid yr since he left earth.",
+      "publishedAt": "2026-11-04T23:39:59.000Z"
     }
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -6593,7 +6593,7 @@
   },
   "https://www.anildash.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.anildash.com/feed.xml"
   },
   "https://www.annaeverywhere.com/": {
@@ -6622,7 +6622,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6841,10 +6841,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "http://feeds.feedburner.com/TheDailyCartoonist",
     "latestArticle": {
-      "title": "CSotD: The Morning After",
-      "url": "https://www.dailycartoonist.com/index.php/2026/11/04/csotd-the-morning-after-5/",
-      "summary": "This was my idea, too, and I had no intention of doing election-results cartooning today, in part because I was tired from a stint at the polling place and in part because I was tired of the whole th…",
-      "publishedAt": "2026-11-04T12:31:48.000Z"
+      "title": "Wayback Whensday – Merrill Blosser Before He Had Freckles",
+      "url": "https://www.dailycartoonist.com/index.php/2026/11/04/wayback-whensday-merrill-blosser-before-he-had-freckles/",
+      "summary": "James Rada, Jr. for The Fredricks News-Post writes of the origin of Merrill Blosser as a professional cartoonist (or here). “In the early decades of the 20th century, one of the most successful newsp…",
+      "publishedAt": "2026-11-04T22:16:10.000Z"
     }
   },
   "https://www.danflyingsolo.com/": {
@@ -6893,12 +6893,12 @@
   },
   "https://www.daydreammisfit.com/blog": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.daydreammisfit.com/blog-feed.xml",
     "latestArticle": {
-      "url": "https://www.daydreammisfit.com/post/sec-warns-investors-about-counterfeit-circloid",
-      "summary": "According to the caution issued Wednesday, fraudulent operators may be creating imitation Circloid - an accelerated fiscal retirement hyperscaler - and using its name, ticker symbol, branding, and pr…",
-      "publishedAt": "2026-11-03T21:58:12.000Z"
+      "url": "https://www.daydreammisfit.com/post/waking-the-witches",
+      "summary": "Although we knew from the beginning that this image series would have a feminist bent, we hadn't figured that the women in them would want to tell a different kind of story.",
+      "publishedAt": "2026-11-04T22:58:32.000Z"
     }
   },
   "https://www.derekseaman.com/": {
@@ -7340,9 +7340,9 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/04/the-win-last-night-was.html",
-      "summary": "The win last night was so stunning that I’m actually reconsidering some thoughts I had leading up to election night. I’ll get some ideas down in an essay eventually, but in the meantime I can’t stop …",
-      "publishedAt": "2026-11-04T22:38:57.000Z"
+      "url": "https://www.manton.org/2026/11/04/to-go-along-with-the.html",
+      "summary": "To go along with the new site for Epilogue, I’ve also rolled out a redesign of the Inkwell home page for new users. Same style, more screenshots. Just much better at conveying what the app is about.",
+      "publishedAt": "2026-11-04T23:30:00.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -7718,10 +7718,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Older Americans Reported $1 Billion Lost to Investment Scams in One Year — Here’s Where the Fraud Starts",
-      "url": "https://www.savingadvice.com/articles/2026/11/04/10764157_older-americans-reported-1-billion-lost-to-investment-scams-in-one-year-heres-where-the-fraud-starts.html",
-      "summary": "A friendly message on Facebook, an unexpected investment recommendation, or a conversation with someone you’ve been chatting with online might seem harmless. But for thousands...",
-      "publishedAt": "2026-11-04T22:34:01.000Z"
+      "title": "Your Adult Child Wants You to Pay for a Divorce — Should You Help?",
+      "url": "https://www.savingadvice.com/articles/2026/11/04/10764160_your-adult-child-wants-you-to-pay-for-a-divorce-should-you-help.html",
+      "summary": "Your adult daughter calls with unexpected news: Her marriage is ending, and she needs $15,000 to hire a divorce attorney. She’s frightened about what comes...",
+      "publishedAt": "2026-11-04T23:19:48.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -7832,10 +7832,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.suppermariobroth.com/rss",
     "latestArticle": {
-      "title": "In Super Mario Galaxy, Spring Mario has &ldquo;phantom arms&rdquo; that can only be seen through walls.",
-      "url": "https://www.suppermariobroth.com/post/832379418306560000",
-      "summary": "In Super Mario Galaxy, Spring Mario has “phantom arms” that can only be seen through walls. Top: Spring Mario normally has no arms. This is both visible during gameplay and can be seen by extracting …",
-      "publishedAt": "2026-11-04T19:01:12.000Z"
+      "title": "Data for Mario Kart World contains names for nine removed drivers. Most of them are straightforward&hellip;",
+      "url": "https://www.suppermariobroth.com/post/832390867774996480",
+      "summary": "Data for Mario Kart World contains names for nine removed drivers. Most of them are straightforward romanized Japanese names of objects or enemy species and can thus be assumed with relative confiden…",
+      "publishedAt": "2026-11-04T22:03:11.000Z"
     }
   },
   "https://www.swiftjectivec.com/": {
@@ -8117,13 +8117,13 @@
   },
   "https://www.tootlepedal.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://tootlepedal.wordpress.com/feed/",
     "latestArticle": {
-      "title": "I can see clearly now",
-      "url": "https://tootlepedal.wordpress.com/2026/11/03/i-can-see-clearly-now-3/",
-      "summary": "Today’s guest picture comes from my sister Mary. She enjoys a walk along her local canal on a sunny day. We had another in our series of dry and calm days here today. The weather, although it was not…",
-      "publishedAt": "2026-11-03T22:15:09.000Z"
+      "title": "A bramblin boy",
+      "url": "https://tootlepedal.wordpress.com/2026/11/04/a-bramblin-boy/",
+      "summary": "Today’s guest picture is another from my sister Mary. She went through this delightful gate and into the Secret (St John’s Lodge) Garden in Regents Park today. We had another dry autumn day here, wit…",
+      "publishedAt": "2026-11-04T23:08:02.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {

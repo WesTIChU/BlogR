@@ -171,13 +171,13 @@
   },
   "https://9to5linux.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "KDE Plasma 6.7.6 Desktop Environment Is Now Available with More Improvements",
-      "url": "https://9to5linux.com/kde-plasma-6-7-6-desktop-environment-is-now-available-with-more-improvements",
-      "summary": "KDE Plasma 6.7.6 is now available as the seventh maintenance release in the KDE Plasma 6.7 desktop environment series with various improvements and bug fixes. The post KDE Plasma 6.7.6 Desktop Enviro…",
-      "publishedAt": "2026-11-03T17:26:24.000Z"
+      "title": "NVIDIA 620 Linux Graphics Driver Released with Wayland Improvements",
+      "url": "https://9to5linux.com/nvidia-620-linux-graphics-driver-released-with-wayland-improvements",
+      "summary": "NVIDIA 620.70.06 graphics driver is now available for download with OpenGL visual indicator support for all Vulkan backends, as well as various bug fixes. The post NVIDIA 620 Linux Graphics Driver Re…",
+      "publishedAt": "2026-11-04T15:28:37.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -764,13 +764,13 @@
   },
   "https://bits.gobino.be/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 290/365 - Enjoying autumn",
-      "url": "https://bits.gobino.be/posts/2026-11-03-290365-enjoying",
-      "summary": "📷 290/365 - Enjoying autumn",
-      "publishedAt": "2026-11-03T14:01:41.000Z"
+      "title": "📷 291/365 - On the lookout.",
+      "url": "https://bits.gobino.be/posts/2026-11-04-291365-on",
+      "summary": "📷 291/365 - On the lookout.",
+      "publishedAt": "2026-11-04T15:20:32.000Z"
     }
   },
   "https://bitterandblue.sbnation.com/": {
@@ -1136,12 +1136,12 @@
   },
   "https://calamitymn.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://calamitymn.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Westward Ho! - Storms and Smooth-Hounds",
-      "summary": "There are some fishing trips where everything falls beautifully into place. The weather behaves itself, the sea resembles a large ornamental pond and the fish queue up politely to inspect your bait. …",
-      "publishedAt": "2026-11-01T14:09:06.000Z"
+      "title": "Warwickshire Avon - Scaffmasters and Scarification's",
+      "summary": "Having returned from Devon on the Saturday, I was already contemplating what mischief to get up to on the Sunday. There was a small river tempting me with the prospect of a gentle rove, a bit of wand…",
+      "publishedAt": "2026-11-04T15:00:51.000Z"
     }
   },
   "https://callmemanatee.neocities.org/": {
@@ -1460,10 +1460,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "Riccardo Cantadori: Can people defend a country they no longer see as their home?",
-      "url": "https://conservativehome.com/2026/11/04/riccardo-cantadori-can-people-defend-a-country-they-no-longer-see-as-their-home/",
-      "summary": "The government can increase defence spending, purchase new ships and strengthen its alliances, but a nation’s strength also depends on its citizens’ willingness to recognise something worth protectin…",
-      "publishedAt": "2026-11-04T13:00:53.000Z"
+      "title": "Nick White: Without increased workforce supply, Labour’s NHS plans are doomed",
+      "url": "https://conservativehome.com/2026/11/04/nick-white-without-increased-workforce-supply-labours-nhs-plans-are-doomed/",
+      "summary": "Dr Nick White is a healthcare leader with 25 years of experience in the NHS and independent sector. Labour arrived in office with a clear promise: restore the NHS standard so that no patient waits lo…",
+      "publishedAt": "2026-11-04T15:00:30.000Z"
     }
   },
   "https://convertheictojpg.org/": {
@@ -1588,21 +1588,21 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Bitcoin recovers after Democrats win control of Congress",
-      "url": "https://cryptonews.mobile/brief/bitcoin-recovers-after-democrats-win-control-of-congress",
-      "summary": "Democrats won the House and Senate in Tuesday's midterm elections. Prediction markets had priced a Democratic win for weeks. Bitcoin fell during Asian trading as results arrived, then recovered. One …",
-      "publishedAt": "2026-11-04T14:29:23.000Z"
+      "title": "Bitbase launches ORIGIN points season paying 1,000,000 weekly",
+      "url": "https://cryptonews.mobile/brief/bitbase-launches-origin-points-season-paying-1000000-weekly",
+      "summary": "Bitbase launched ORIGIN on November 4, 2026, the first season of its Bitbase Points program. The season runs 26 weeks until May 4, 2027, with 1,000,000 points distributed each week. Eligible users ar…",
+      "publishedAt": "2026-11-04T14:47:13.000Z"
     }
   },
   "https://css-tricks.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
-      "title": "Re-Implementing :nth-child() With Modern CSS",
-      "url": "https://css-tricks.com/re-implementing-nth-child-with-modern-css/",
-      "summary": "Combining :nth-child with style queries and sibling-index() to conditionally select child elements. Re-Implementing :nth-child() With Modern CSS originally handwritten and published with love on CSS-…",
-      "publishedAt": "2026-11-03T14:50:32.000Z"
+      "title": "Smashing AI Conference",
+      "url": "https://css-tricks.com/smashing-ai-conference/",
+      "summary": "The AI 2027 Conference is a live online day for designers and engineers on where AI stands today, what to expect in 2027, and where teams are getting it right. Smashing AI Conference originally handw…",
+      "publishedAt": "2026-11-04T15:02:51.000Z"
     }
   },
   "https://cult-tv-lounge.blogspot.com/": {
@@ -2002,7 +2002,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2185,13 +2185,13 @@
   },
   "https://fossilhuntress.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://fossilhuntress.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "TRILOBITE EYES: THE ORIGINAL STONE-COLD STARE",
-      "url": "https://fossilhuntress.blogspot.com/2026/11/trilobite-eyes-original-stone-cold-stare.html",
-      "summary": "The ancient oceans were full of watchful eyes. Some bulged. Some perched on stalks. And some belonged to animals that looked at the world through crystal lenses.Meet the trilobites.Armoured, joint-le…",
-      "publishedAt": "2026-11-03T13:00:00.000Z"
+      "title": "MEGALODON TEETH: WHAT ITS GIANT TEETH CAN TELL US",
+      "url": "https://fossilhuntress.blogspot.com/2026/11/megalodon-teeth-what-one-giant-tooth.html",
+      "summary": "Megalodon teethA megalodon tooth is a wonderful thing to hold in your hand. The broad crown, thick root and finely serrated edges give us a sense of the animal behind it, even when the rest of that a…",
+      "publishedAt": "2026-11-04T15:06:00.000Z"
     }
   },
   "https://found-media-archive.neocities.org/": {
@@ -2323,10 +2323,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "NEWS ROUNDUP FOR NOVEMBER FOURTH",
-      "url": "https://glitternight.com/2026/11/04/news-roundup-for-november-fourth/",
-      "summary": "Time for a midweek current events roundup from Independent Voter Site Balladeer’s Blog. NOTE: Well, another Midterm Election cycle went the usual and expected way. Long time readers of Balladeer’s Bl…",
-      "publishedAt": "2026-11-04T08:14:18.000Z"
+      "title": "B-MOVIE HOSTESS EVILUN (1963-1965)",
+      "url": "https://glitternight.com/2026/11/04/b-movie-hostess-evilun-1963-1965/",
+      "summary": "EVILUN, real name Ruth Sprayberry, played Bad Movie Hostess Evilun the Witch Saturday nights at 10:15 for Double Features on KSLA in Shreveport, Louisiana. She hosted the shows Terror on Saturday Nig…",
+      "publishedAt": "2026-11-04T15:37:05.000Z"
     }
   },
   "https://glyphsift.com/": {
@@ -2467,10 +2467,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "A Ridiculous Journey to Set the Clock in a 2014 Renault",
-      "url": "https://hackaday.com/2026/11/04/a-ridiculous-journey-to-set-the-clock-in-a-2014-renault/",
-      "summary": "As difficult as it may be to believe, it’s not possible to adjust the time on a 2014 Renault Latitude’s in-dash navigation system unless you have an original SD card …read more",
-      "publishedAt": "2026-11-04T12:00:48.000Z"
+      "title": "Yesterday Has Never Looked This Good: Feast Your Eyes On The 2026 Retrocomputing Challenge Winners!",
+      "url": "https://hackaday.com/2026/11/04/yesterday-has-never-looked-this-good-feast-your-eyes-on-the-2026-retrocomputing-challenge-winners/",
+      "summary": "If there’s one category among those we see here at Hackaday that has something for everyone, it’s retrocomputing. Spanning everything from relay-based machines that fill a wall through to modern …rea…",
+      "publishedAt": "2026-11-04T15:00:00.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -2902,13 +2902,13 @@
   },
   "https://joelchrono.xyz/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://joelchrono.xyz/feed.xml",
     "latestArticle": {
-      "title": "Live concert, vacation, Ghibli films  - W44",
-      "url": "https://joelchrono.xyz/blog/2026-w44/",
-      "summary": "I basically took a whole week off, thus my weeknotes are late as well. I was behind on my Monthly Summary and this had to wait for a little longer. Nothing too bad though. This week was jam-packed wi…",
-      "publishedAt": "2026-11-03T20:45:00.000Z"
+      "title": "The Left Hand of Darkness",
+      "url": "https://joelchrono.xyz/blog/the-left-hand-of-darkness/",
+      "summary": "This is the first novel I read from Ursula K. Le Guin, and it did not dissapoint. Published in 1969, it was one of the first works of fiction to meaningfully attempt to tackle society’s gender norms,…",
+      "publishedAt": "2026-11-04T14:00:00.000Z"
     }
   },
   "https://johnclare.blogspot.com/": {
@@ -3490,10 +3490,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "Security updates for Wednesday",
-      "url": "https://lwn.net/Articles/1105378/",
-      "summary": "Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, …",
-      "publishedAt": "2026-11-04T14:13:24.000Z"
+      "title": "[$] Portable Python scripts with dependencies",
+      "url": "https://lwn.net/Articles/1104646/",
+      "summary": "A basic Python script is portable: it can be copied between machines with little concern about compatibility. A script that depends on third-party packages requires quite a bit more care and consider…",
+      "publishedAt": "2026-11-04T14:45:02.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -3670,13 +3670,12 @@
   },
   "https://mccookerybook.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://mccookerybook.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Screening of 'Stories from the She-Punks' at The Museum of Youth Culture",
-      "url": "https://mccookerybook.blogspot.com/2026/11/screening-of-stories-from-she-punks-at.html",
-      "summary": "We were invited to show the documentary as part of the Up Yours! Collective's celebration of Poly Styrene's life on Sunday evening. At first I wondered if it might be better for Gina to do the presen…",
-      "publishedAt": "2026-11-03T20:01:15.091Z"
+      "title": "In the Café",
+      "url": "https://mccookerybook.blogspot.com/2026/11/in-cafe.html",
+      "publishedAt": "2026-11-04T15:01:26.155Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -3914,10 +3913,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Teenager arrested in cycling fatality",
-      "url": "https://mtlcityweblog.com/2026/11/03/teenager-arrested-in-cycling-fatality/",
-      "summary": "A 17-year-old has been arrested in the hit‑and‑run death of a cyclist last week.",
-      "publishedAt": "2026-11-04T01:22:09.000Z"
+      "title": "Media assess U.S. results",
+      "url": "https://mtlcityweblog.com/2026/11/04/media-assess-u-s-results/",
+      "summary": "Our media Wednesday are very taken up with the U.S. election: Does this change the situation for PSPP? Will Trump now go nuts internationally?/li> International responses, via Radio-Canada/li> Happy …",
+      "publishedAt": "2026-11-04T15:46:08.000Z"
     }
   },
   "https://musicaltheatrereview.com/": {
@@ -4021,13 +4020,13 @@
   },
   "https://nikhil.bearblog.dev/blog/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://nikhil.bearblog.dev/feed/",
     "latestArticle": {
-      "title": "Fear Of The Party",
-      "url": "https://nikhil.bearblog.dev/fear-of-the-party/",
-      "summary": "Everybody wants to socialise. Everybody wants to own the room they walk into. Everybody enjoys being the centre of attention. But most people are too absorbed in themselves, to the point of paralysis…",
-      "publishedAt": "2026-11-03T14:42:00.000Z"
+      "title": "Find Your Outlet",
+      "url": "https://nikhil.bearblog.dev/find-your-outlet/",
+      "summary": "Many people live with a persistent sadness. It is like carrying a deep-rooted grief you can neither name nor cure. Slowly, the motivation to do anything drains away. You no longer see a reason to get…",
+      "publishedAt": "2026-11-04T14:42:00.000Z"
     }
   },
   "https://nintil.com/": {
@@ -4092,13 +4091,13 @@
   },
   "https://nstperfume.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "Tom Ford Modern Tropic ~ new fragrance",
-      "url": "https://nstperfume.com/2026/11/03/tom-ford-modern-tropic-new-fragrance/",
-      "summary": "Tom Ford will launch Modern Tropic, a new fragrance in the Tom Ford Private Blend collection, early next year...",
-      "publishedAt": "2026-11-03T16:37:47.000Z"
+      "title": "Wednesday scent of the day 11/4",
+      "url": "https://nstperfume.com/2026/11/04/wednesday-scent-of-the-day-11-4-2/",
+      "summary": "It’s Hump Day, National Stress Awareness Day and National Candy Day. Birthdays: Walter Cronkite , Eugene Sledge , Loretta Swit . What fragrance are you wearing? I'm in Yves Saint Laurent Paris , a fr…",
+      "publishedAt": "2026-11-04T15:17:23.000Z"
     }
   },
   "https://nuchronic.uk/": {
@@ -4430,7 +4429,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -4793,13 +4792,13 @@
   },
   "https://rolandtanglao.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://rolandtanglao.com/feed.xml",
     "latestArticle": {
-      "title": "sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes",
-      "url": "http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/",
-      "summary": "Discovered : Nov 3, 2026 15:07 (UTC) sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs mo…",
-      "publishedAt": "2026-11-03T07:00:00.000Z"
+      "title": "Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-)",
+      "url": "http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/",
+      "summary": "Discovered : Nov 4, 2026 14:29 (UTC) Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) f…",
+      "publishedAt": "2026-11-04T07:00:00.000Z"
     }
   },
   "https://romantasyscrolls.com/": {
@@ -4810,7 +4809,7 @@
     "feedUrl": "https://roo.blogr.directory/index.xml"
   },
   "https://rotational.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-03",
     "feedUrl": "https://rotational.co.uk/index.xml",
     "latestArticle": {
@@ -5101,13 +5100,13 @@
   },
   "https://sinclairtrails.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://sinclairtrails.com/feed/",
     "latestArticle": {
-      "title": "Tiffin consignment update",
-      "url": "https://sinclairtrails.com/2026/11/02/tiffin-consignment-update/",
-      "summary": "As mentioned back in August, we are selling our Tiffin motorhome. See that post for the background.We originally consigned the coach with Poulsbo RV, as the local Tiffin dealer, but they seemed to ha…",
-      "publishedAt": "2026-11-02T15:00:26.000Z"
+      "title": "Lake Cushman and Hood Canal Floating Bridge scenic drive",
+      "url": "https://sinclairtrails.com/2026/11/04/lake-cushman-and-hood-canal-floating-bridge-scenic-drive/",
+      "summary": "We went for a scenic drive to Lake Cushman and across the Hood Canal Floating Bridge.Here’a an interactive map of our route, heading clockwise from Shelton:We stopped at Twin Totems Grocery & Deli in…",
+      "publishedAt": "2026-11-04T15:00:00.000Z"
     }
   },
   "https://site-of-curiosities.blogspot.com/": {
@@ -5279,7 +5278,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -5645,7 +5644,7 @@
     }
   },
   "https://thecretefleet.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-20",
     "feedUrl": "https://thecretefleet.com/blog/f.atom"
   },
@@ -5698,13 +5697,13 @@
   },
   "https://thefigureinquestion.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thefigureinquestion.com/feed/",
     "latestArticle": {
-      "title": "#4153: Batman",
-      "url": "https://thefigureinquestion.com/2026/11/03/4153-batman/",
-      "summary": "BATMAN SUPER POWERS (McFARLANE) “As a child, Bruce Wayne watched as his parents were brutally killed in Gotham City’s Crime Alley. Traumatized by their deaths, he devoted his life to becoming the wor…",
-      "publishedAt": "2026-11-03T15:00:57.000Z"
+      "title": "#4154: Professor X",
+      "url": "https://thefigureinquestion.com/2026/11/04/4154-professor-x/",
+      "summary": "PROFESSOR X X-MEN: THE MOVIE (TOY BIZ) “Charles Francis Xavier possesses the most powerful mind on earth. The mutant telepath also known as Professor X can read the thoughts of others, impose his own…",
+      "publishedAt": "2026-11-04T15:00:27.000Z"
     }
   },
   "https://thefilm.blog/": {
@@ -5924,10 +5923,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Andy Ingamells – Vanity Project",
-      "url": "https://thequietus.com/quietus-reviews/andy-ingamells-vanity-project/",
-      "summary": "Andy Ingamells Vanity Project The solo debut album by the British composer-performer is full of fun – and no shortage of questions “Search for fun, types of fun, source of fun, apply for fun, awarded…",
-      "publishedAt": "2026-11-04T09:16:53.000Z"
+      "title": "Liars Share New Track, ‘Beat Creep Some Eyes’",
+      "url": "https://thequietus.com/news/liars-share-new-track-beat-creep-some-eyes/",
+      "summary": "It's the second cut to be unveiled from forthcoming album A Ban On Plastic Bag Bans Photo by Clemens Habicht Liars have shared a new song, titled 'Beat Creep Some Eyes'. It's the second cut to be unv…",
+      "publishedAt": "2026-11-04T15:18:06.000Z"
     }
   },
   "https://therealadam.com/": {
@@ -5946,21 +5945,21 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://therepublikofmancunia.com/feed/",
     "latestArticle": {
-      "title": "Cunha: I’m living the dream",
-      "url": "https://therepublikofmancunia.com/cunha-im-living-the-dream/?utm_source=rss&utm_medium=rss&utm_campaign=cunha-im-living-the-dream",
-      "summary": "Matheus Cunha described Manchester United’s dramatic 3-2 Champions League victory over Roma as a dream come true after scoring twice in the closing stages to complete an extraordinary comeback at Old…",
-      "publishedAt": "2026-11-04T13:34:20.000Z"
+      "title": "Manchester United 3–2 Roma: Play Like You Mean It",
+      "url": "https://therepublikofmancunia.com/manchester-united-3-2-roma-play-like-you-mean-it/?utm_source=rss&utm_medium=rss&utm_campaign=manchester-united-3-2-roma-play-like-you-mean-it",
+      "summary": "There was an air of mutiny around Old Trafford last night, again. We’re not quite talking ’bout a revolution (like Tracy Chapman), maybe, but defo the beginnings of a decent-sized township rebellion …",
+      "publishedAt": "2026-11-04T14:45:31.000Z"
     }
   },
   "https://thesicktimes.org/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thesicktimes.org/feed/",
     "latestArticle": {
-      "title": "Why the art of Long COVID and ME can be hard to find",
-      "url": "https://thesicktimes.org/2026/11/03/why-the-art-of-long-covid-and-me-can-be-hard-to-find/?utm_source=rss&utm_medium=rss&utm_campaign=why-the-art-of-long-covid-and-me-can-be-hard-to-find",
-      "summary": "Long COVID, ME, unfinished work, and the hidden bodily costs behind what eventually reaches public view The post Why the art of Long COVID and ME can be hard to find first appeared on The Sick Times .",
-      "publishedAt": "2026-11-03T16:46:15.000Z"
+      "title": "Live blog: RECOVER-TLC third annual workshop shares updates on Long COVID clinical trials",
+      "url": "https://thesicktimes.org/2026/11/04/live-blog-recover-tlc-third-annual-workshop-shares-updates-on-long-covid-clinical-trials/?utm_source=rss&utm_medium=rss&utm_campaign=live-blog-recover-tlc-third-annual-workshop-shares-updates-on-long-covid-clinical-trials",
+      "summary": "Leading Long COVID scientists, government officials, and advocates are meeting today and tomorrow in Bethesda, Maryland for the third annual RECOVER-Treating Long COVID (TLC) workshop, hosted by the …",
+      "publishedAt": "2026-11-04T14:54:34.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -6078,7 +6077,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6252,10 +6251,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://uniqfox.me/zine/rss.php?kind=main",
     "latestArticle": {
-      "title": "moving day",
-      "url": "https://uniqfox.me/journal/moving-day",
-      "summary": "moving is a big deal where I'm from, it's a pain in the effin ass. and it seems like a real norm in the windy city. there's also this kinda code that your friends helped you out, and you them when it…",
-      "publishedAt": "2026-11-04T11:51:18.000Z"
+      "title": "Britain's got talent",
+      "url": "https://uniqfox.me/journal/britain-s-got-talent",
+      "summary": "I had to laugh at this though it's terrible news, these two retards decided to down a famous, beloved landmark: the sycamore gap tree at Hadrian's wall. their rationale behind the crime was becoming …",
+      "publishedAt": "2026-11-04T14:56:35.000Z"
     }
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -6659,10 +6658,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Ideas 21375 Godzilla is a monster set with a monster flaw",
-      "url": "https://www.brickfanatics.com/lego-ideas-21375-godzilla-monster-set-with-monster-flaw",
-      "summary": "A monster of a model in every sense, LEGO Ideas 21375 Godzilla delivers an inventive building experience, but is the set let down by its own ambitions?",
-      "publishedAt": "2026-11-04T14:30:00.000Z"
+      "title": "Every LEGO Marvel mini-modular combined – complete 2026 version",
+      "url": "https://www.brickfanatics.com/how-every-lego-marvel-mini-modular-looks-together",
+      "summary": "A neighbourhood worth protecting",
+      "publishedAt": "2026-11-04T15:03:39.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6728,10 +6727,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "TIFF Daily 3: Anime’s $28 Billion Market; New Awards; Fathom’s Animation Ambitions",
-      "url": "https://www.cartoonbrew.com/newsletter/tiff-daily-newsletter-3-268908.html",
-      "summary": "Japanese studios discuss overseas growth, industry leaders make the case for new anime honors, and Jason Brenek explores animation’s theatrical potential.",
-      "publishedAt": "2026-11-04T12:00:24.000Z"
+      "title": "2027 Oscars Short Film Contenders: ‘The Flesh Dress’ Director Joachim Hérissé",
+      "url": "https://www.cartoonbrew.com/awards/oscars-short-flesh-dress-joachim-herisse-268967.html",
+      "summary": "Fabric, flesh, and skin blur in a stop-motion horror short exploring the fear of aging, patterns of domination, and the anxieties of artistic creation.",
+      "publishedAt": "2026-11-04T15:29:10.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -6750,10 +6749,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "5 Smartphone Permissions Worth Reviewing Before the Holidays",
-      "url": "https://www.cleverdude.com/content/5-smartphone-permissions-worth-reviewing-before-the-holidays/",
-      "summary": "A holiday shopping app needs to know what you want to buy. It probably doesn’t need to know where you spend Thanksgiving dinner, who lives in your contacts, or what your camera sees when you’re not s…",
-      "publishedAt": "2026-11-04T14:21:10.000Z"
+      "title": "Your Neighbor’s Tree Is Hanging Over Your Garage — What Are Your Options?",
+      "url": "https://www.cleverdude.com/content/your-neighbors-tree-is-hanging-over-your-garage-what-are-your-options/",
+      "summary": "A few leaves on the driveway are one thing. A heavy oak branch hovering over your garage roof is another. Suddenly, every windy afternoon comes with a little extra suspense, and nobody wants to disco…",
+      "publishedAt": "2026-11-04T15:07:01.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -7086,13 +7085,13 @@
   },
   "https://www.horrorsociety.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "Beware Boiúna Arrives 12/15 on Blu-ray (+Digital)",
-      "url": "https://www.horrorsociety.com/2026/11/02/beware-boiuna-arrives-12-15-on-blu-ray-digital/",
-      "summary": "Nature fights back in the form of an ancient predator, as BEWARE BOIÚNA arrives on Digital beginning November 3 and on Blu-ray™ (+ Digital) and DVD December 15 from Lionsgate®. Directed by Mike P. Ne…",
-      "publishedAt": "2026-11-02T17:33:10.000Z"
+      "title": "The Otherkind (Review)",
+      "url": "https://www.horrorsociety.com/2026/11/04/the-otherkind-review/",
+      "summary": "Director – Mary C. Russell (Give Me an A, The One I Feed) Starring – Marc Anthony Samuel (A Man on the Inside, The Merry Gentlemen), Rebekah Kennedy (That Damn Cat, V/H/S/Halloween), and Lestonja Dia…",
+      "publishedAt": "2026-11-04T14:28:20.000Z"
     }
   },
   "https://www.ianbicking.org/": {
@@ -7130,13 +7129,13 @@
   },
   "https://www.ibroxnoise.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "Even Celtic legends are slaughtering O’Neill as Rangers stand by",
-      "url": "https://www.ibroxnoise.co.uk/2026/11/even-celtic-legends-are-slaughtering-oneill-as-rangers-stand-by/",
-      "summary": "Chris Sutton knows it. And now Rangers fans are starting to realise it, including Ibrox Noise. That is to say that Celtic are clearly in freefall. Out of the Premier Sports Cup and collapsing domesti…",
-      "publishedAt": "2026-11-03T15:46:17.000Z"
+      "title": "Thelwell ally Dan Purdy remains at Rangers despite supposed confirmed exit",
+      "url": "https://www.ibroxnoise.co.uk/2026/11/thelwell-ally-dan-purdy/",
+      "summary": "Ibrox Noise has learned that Dan Purdy does not appear to have quite left the Rangers building as yet. As we all know, Rangers secured the services of former Everton head of recruitment Purdy around …",
+      "publishedAt": "2026-11-04T15:12:22.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -7150,7 +7149,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7182,7 +7181,7 @@
     }
   },
   "https://www.janetgyford.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-07",
     "feedUrl": "https://www.janetgyford.com/feed/",
     "latestArticle": {
@@ -7332,10 +7331,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.mohit.dev/rss.xml",
     "latestArticle": {
-      "title": "Back to HIIT on a stair-stepper",
-      "url": "https://www.mohit.dev/posts/2026-11-04-back-to-hiit-on-a-stair-stepper/",
-      "summary": "Three rounds of 4 minutes push and 4 minutes rest on a stair-stepper after a 10 minute warmup, at a 145 BPM average.",
-      "publishedAt": "2026-11-04T13:52:00.000Z"
+      "title": "Approve: Project progress and avatar controls",
+      "url": "https://www.mohit.dev/projects/approve/#log-2026-11-04",
+      "summary": "Added workspace and project progress pages with completed work, milestone warnings, activity charts and finish forecasts when enough data is available. Required login and a valid workspace for progre…",
+      "publishedAt": "2026-11-04T15:40:32.000Z"
     }
   },
   "https://www.mrmoneymustache.com/": {
@@ -7363,7 +7362,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7391,10 +7390,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.newsfromme.com/feed/",
     "latestArticle": {
-      "title": "Tuesday Evening",
-      "url": "https://www.newsfromme.com/2026/11/03/tuesday-evening-34/",
-      "summary": "Now I'm not going to get my $5,000 check from Donald Trump. Damn. [...] Read More... from Tuesday Evening",
-      "publishedAt": "2026-11-04T06:40:25.000Z"
+      "title": "Just Wow!",
+      "url": "https://www.newsfromme.com/2026/11/04/just-wow/",
+      "summary": "I made that WOW! graphic up a few years ago and was waiting for an appropriate post to use it. Last night, things couldn't have gone much better for the Democratic Party and, I'd like to think, Ameri…",
+      "publishedAt": "2026-11-04T14:46:07.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -7431,14 +7430,14 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-10-13",
+    "status": "success",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
-      "title": "Sketchbook Switch: Here’s What I Chose",
-      "url": "https://www.notebookstories.com/2026/10/13/sketchbook-switch-heres-what-i-chose/",
-      "summary": "In my last post on the topic of picking a sketchbook, I was struggling to figure out what to use next, after starting and then abandoning a Bindewerk Linen journal. I eliminated quite a few candidate…",
-      "publishedAt": "2026-10-13T12:48:53.000Z"
+      "title": "Larger Notebooks from My Collection",
+      "url": "https://www.notebookstories.com/2026/11/04/larger-notebooks-from-my-collection/",
+      "summary": "If you’ve been reading this site for a while, you know I’m pretty committed to using a certain size of notebook… so much so that a notebook can be almost perfect, but if it’s a few millimeters away f…",
+      "publishedAt": "2026-11-04T13:52:38.000Z"
     }
   },
   "https://www.obsidianurbexphotography.com/blog/": {
@@ -7511,24 +7510,24 @@
   },
   "https://www.painscience.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.painscience.com/rss.xml",
     "latestArticle": {
-      "title": "Hypnosis for pain: you’re getting very sleepy and unimpressed [2m]",
-      "url": "https://www.painscience.com/psid2619992",
-      "summary": "I’ve been meaning to write something, anything, about hypnosis as a pain treatment for my whole career. (One small touch a few years ago: gut hypnotherapy .) I was waiting for the topic to come to me…",
-      "publishedAt": "2026-10-29T07:00:00.000Z"
+      "title": "Robot or not? Knee replacement with help from a robot arm [90s]",
+      "url": "https://www.painscience.com/psid9159623",
+      "summary": "Surgical robots are now often used in knee replacements, although they haven’t actually taken over yet. It sounds like medical sorcery that must be an upgrade, or why would they bother? But a good ne…",
+      "publishedAt": "2026-11-03T07:00:00.000Z"
     }
   },
   "https://www.painscience.com/blog.php": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.painscience.com/rss.xml",
     "latestArticle": {
-      "title": "Hypnosis for pain: you’re getting very sleepy and unimpressed [2m]",
-      "url": "https://www.painscience.com/psid2619992",
-      "summary": "I’ve been meaning to write something, anything, about hypnosis as a pain treatment for my whole career. (One small touch a few years ago: gut hypnotherapy .) I was waiting for the topic to come to me…",
-      "publishedAt": "2026-10-29T07:00:00.000Z"
+      "title": "Robot or not? Knee replacement with help from a robot arm [90s]",
+      "url": "https://www.painscience.com/psid9159623",
+      "summary": "Surgical robots are now often used in knee replacements, although they haven’t actually taken over yet. It sounds like medical sorcery that must be an upgrade, or why would they bother? But a good ne…",
+      "publishedAt": "2026-11-03T07:00:00.000Z"
     }
   },
   "https://www.paologabriel.com/": {
@@ -7731,7 +7730,7 @@
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-03",
     "feedUrl": "https://www.sparklytrainers.com/feed/",
     "latestArticle": {
@@ -7976,13 +7975,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-08-30",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Godzilla Minus Zero King Ghidorah Design Leaks Via Merchandise",
-      "url": "https://www.themovieblog.com/2026/11/godzilla-minus-zero-king-ghidorah-design-leaks-via-merchandise/",
-      "summary": "A new merchandise leak has revealed the design for King Ghidorah in the upcoming Godzilla Minus Zero, giving fans a look at the kaiju's new appearance. The post Godzilla Minus Zero King Ghidorah Desi…",
-      "publishedAt": "2026-11-03T17:45:00.000Z"
+      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
+      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
+      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
+      "publishedAt": "2026-08-30T19:13:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -8056,10 +8055,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'It's Been a While, but We Have a Mega95 Update' - Hyperkin's Portable Genesis Is Finally Close to Release",
-      "url": "https://www.timeextension.com/#article-208603",
-      "summary": "\"Mass production is starting\". Who knew that making a portable Sega Genesis / Mega Drive was so difficult? Hyperkin has struggled to get its Mega95 device ready for release for a while, and the last …",
-      "publishedAt": "2026-11-04T14:00:00.000Z"
+      "title": "'PlayStation: The First 30 Years' Is a Lush Visual History Releasing at a Volatile Time for the Console's Legacy",
+      "url": "https://www.timeextension.com/#article-208281",
+      "summary": "Retrospective available as a Physical Book. It's a helluva month for PlayStation to release a tome celebrating its 30-year legacy. And, like it or not, it has been an undeniable and indelible three d…",
+      "publishedAt": "2026-11-04T15:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {
@@ -8198,10 +8197,10 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Jeremy Allen White in Talks for Wolverine in Marvel's ‘X-Men' Reboot",
-      "url": "https://www.worldofreel.com/blog/2026/11/4/jeremy-allen-white-in-talks-for-wolverine-in-marvels-x-men-reboot",
-      "summary": "The next great Hollywood casting circus has already rolled into town, and it's not about who will play James Bond (still to be announced) but who will replace Hugh Jackman as Wolverine.",
-      "publishedAt": "2026-11-04T14:13:14.000Z"
+      "title": "‘La Bola Negra' Wins BFI London Film Festival Audience Award, But Are Critics Finally Snapping Out of It?",
+      "url": "https://www.worldofreel.com/blog/2026/11/4/la-bola-negra-wins-bfi-london-film-festival-audience-award-but-are-critics-finally-snapping-out-of-it",
+      "summary": "The film has just picked up the audience award at the London Film Festival, adding to a collection that already includes audience prizes at Toronto, San Sebastián, Busan, Sydney and Middleburg.",
+      "publishedAt": "2026-11-04T15:34:50.000Z"
     }
   },
   "https://www.zachleat.com/": {

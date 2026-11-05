@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -716,9 +716,9 @@
     "feedUrl": "https://bestbudgetheadphones.com/favicon.svg"
   },
   "https://betterprogramming.pub/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2023-11-10",
-    "feedUrl": "https://betterprogramming.pub/feed.xml?gi=a8001b7a0527",
+    "feedUrl": "https://betterprogramming.pub/feed",
     "latestArticle": {
       "url": "https://medium.com/better-programming/let-a-thousand-programming-publications-bloom-bf37baef8f27?source=rss----d0b105d10f0a---4",
       "summary": "I’m putting Better Programming on hiatus to make room for other programming publications. I get that this is a big pivot given that we switched to a new editor recently. But things are changing at Me…",
@@ -1600,10 +1600,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Apple joins 59 companies objecting to OKXICE tokenized stock plan",
-      "url": "https://cryptonews.mobile/brief/apple-joins-59-companies-objecting-to-okxice-tokenized-stock-plan",
-      "summary": "Apple has blocked tokenized trading of its shares on the OKXICE TSV platform using a thirty-day veto under the SEC innovation exception. By November 2026, 59 companies had objected to the OKXICE plan…",
-      "publishedAt": "2026-11-05T09:41:12.000Z"
+      "title": "Zcash rises 14% as traders return to altcoins before NU7 upgrade",
+      "url": "https://cryptonews.mobile/brief/zcash-rises-14-as-traders-return-to-altcoins-before-nu7-upgrade",
+      "summary": "Zcash (ZEC) rose 14% in 24 hours and traded above $1,300. The NU7 upgrade is set to go live at block 3,543,405 on November 5, cutting target block time from 75 seconds to 25 seconds without changing …",
+      "publishedAt": "2026-11-05T10:42:15.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2016,7 +2016,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2360,13 +2360,13 @@
   },
   "https://googlemapsmania.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "http://feeds.feedburner.com/GoogleMapsMania",
     "latestArticle": {
-      "title": "The Alleyways of Britain",
-      "url": "http://googlemapsmania.blogspot.com/2026/11/the-alleyways-of-britain.html",
-      "summary": "In October, YouGov published a small-multiple visualisation showing the popularity of regional names for alleyways in the UK. The maps in What else do Britons call an alleyway? are based on survey da…",
-      "publishedAt": "2026-11-04T10:00:17.024Z"
+      "title": "Can You See the Fire Beacon?",
+      "url": "http://googlemapsmania.blogspot.com/2026/11/can-you-see-fire-beacon.html",
+      "summary": "Before mobile phones, radio and even the telegraph, fire beacons were used as an early warning system designed to alert communities to the approach of hostile forces. The beacons were deliberately po…",
+      "publishedAt": "2026-11-05T09:48:21.980Z"
     }
   },
   "https://gorillasdontblog.blogspot.com/": {
@@ -2793,12 +2793,12 @@
   },
   "https://itsfoss.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17515402/google-school-search-ai",
-      "summary": "Meanwhile, schools in six German states can choose an open source cloud solution.",
-      "publishedAt": "2026-11-04T15:06:00.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17515808/systemd-rust-support",
+      "summary": "The rustification is ongoing, with Rust-written programs now allowed and existing C code not being ported.",
+      "publishedAt": "2026-11-05T10:12:32.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -3216,12 +3216,12 @@
   },
   "https://kmflett.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://kmflett.blog/feed/atom/",
     "latestArticle": {
-      "url": "https://kmflett.blog/2026/11/04/losers-theres-no-success-like-failure/",
-      "summary": "Farage was still defending Trump on his GB News programme on 3rd November 2026. Trump has conceded defeat in the US Mid-Terms Bob Dylan, Love Minus Zero No Limit",
-      "publishedAt": "2026-11-04T21:20:33.000Z"
+      "url": "https://kmflett.blog/2026/11/05/after-the-mid-terms-the-telegraph-breaks-with-trump/",
+      "summary": "After the Republicans resounding defeat in the US Mid-Terms, the tectonic plates are shifting on the UK right. Farage was still backing Trump on November 3rd but Allister Heath who edits the Sunday T…",
+      "publishedAt": "2026-11-05T10:32:58.000Z"
     }
   },
   "https://knifesteelnerds.com/": {
@@ -3362,13 +3362,13 @@
   },
   "https://liberalengland.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "In which my second crack at a Dickens joke comes on live radio",
-      "url": "https://liberalengland.blogspot.com/2026/11/in-which-my-second-crack-at-dickens.html",
-      "summary": "Back in the early Nineties, which was the era when I was doing a part-time MA in Victorian Studies at Leicester, I turned up at a pub in the city to play a county league chess game for Market Harboro…",
-      "publishedAt": "2026-11-04T20:29:20.870Z"
+      "title": "The Joy of Six 1602",
+      "url": "https://liberalengland.blogspot.com/2026/11/the-joy-of-six-1602.html",
+      "summary": "\"His administration has been openly attempting to fund its allies in Europe. According to the Guardian, the State Department has allocated $15m (£11.2m) to three conservative groups in the UK. These …",
+      "publishedAt": "2026-11-05T09:56:49.346Z"
     }
   },
   "https://librearts.org/": {
@@ -3489,13 +3489,13 @@
   },
   "https://loureviews.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Play review: The Other Side of Murder at Churchill Theatre, Bromley",
-      "url": "https://loureviews.blog/2026/11/04/play-review-the-other-side-of-murder-at-churchill-theatre-bromley/",
-      "summary": "The Other Side of Murder, a fast-paced farce by Torben Betts, follows Peter, portrayed by Rufus Hound, as his life unravels during a chaotic family gathering. With tensions from his estranged daughte…",
-      "publishedAt": "2026-11-04T14:08:34.000Z"
+      "title": "Play review: Speculations at Marylebone Theatre",
+      "url": "https://loureviews.blog/2026/11/05/play-review-speculations-at-marylebone-theatre/",
+      "summary": "In Speculations, by Torben Betts at the Marylebone Theatre, an investigative reporter gets too close to the truth of the high profile deaths of Marilyn Monroe and JFK. Expanding reports and rumours, …",
+      "publishedAt": "2026-11-05T09:30:03.000Z"
     }
   },
   "https://lowlightleaf.com/": {
@@ -3503,10 +3503,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://lowlightleaf.com/feed/",
     "latestArticle": {
-      "title": "Is Mint Toxic to Cats? Leaves, Peppermint Oil and Catnip",
-      "url": "https://lowlightleaf.com/is-mint-toxic-to-cats/",
-      "summary": "Yes. The ASPCA lists garden mint, every Mentha species, as toxic to cats, dogs and horses because of its essential […] The post Is Mint Toxic to Cats? Leaves, Peppermint Oil and Catnip appeared first…",
-      "publishedAt": "2026-11-05T02:45:00.000Z"
+      "title": "How to Acclimate Houseplants Outdoors Shade Without Leaf Burn",
+      "url": "https://lowlightleaf.com/acclimate-houseplants-outdoors-shade/",
+      "summary": "Want to acclimate houseplants outdoors shade without leaf burn? Wait until nights stay reliably above 50°F, start them in full […] The post How to Acclimate Houseplants Outdoors Shade Without Leaf Bu…",
+      "publishedAt": "2026-11-05T10:29:43.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3559,13 +3559,13 @@
   },
   "https://malcolmoliver.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://malcolmoliver.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Will Queen Anne Become ‘Sirona’?",
-      "url": "https://malcolmoliver.wordpress.com/2026/11/02/will-queen-anne-become-sirona/",
-      "summary": "Cunard’s Queen Anne may be renamed Sirona when she joins P&O Cruises in May 2029, but this has not been officially confirmed. The name Sirona is a rumoured possibility because Carnival UK previously …",
-      "publishedAt": "2026-11-02T18:00:05.000Z"
+      "title": "Festive Parties at Tilbury 2026",
+      "url": "https://malcolmoliver.wordpress.com/2026/11/05/festive-parties-at-tilbury-2026/",
+      "summary": "I definitely recommend Ambassador’s Xmas parties onboard Ambience, at Tilbury, .U.K. They normally sell like hot cakes and thus sell out. However, this year may be the exception. Malcolm Celebrate Ch…",
+      "publishedAt": "2026-11-05T10:00:10.000Z"
     }
   },
   "https://mancityblog.com/": {
@@ -3694,13 +3694,12 @@
   },
   "https://mccookerybook.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://mccookerybook.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Nest Gig: Glasgow Old Hairdresser's, Thursday 12th November",
-      "url": "https://mccookerybook.blogspot.com/2026/11/nest-gig-glasgow-old-hairdressers.html",
-      "summary": "No sooner have I caught my breath after last week's three documentary film panels, then next week's gigs, panel and interview are rearing their beautiful heads. I've approved the album masters too. T…",
-      "publishedAt": "2026-11-04T18:04:52.273Z"
+      "title": "Walking Scotsman",
+      "url": "https://mccookerybook.blogspot.com/2026/11/walking-scotsman.html",
+      "publishedAt": "2026-11-05T10:29:49.900Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -4465,7 +4464,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -4945,13 +4944,13 @@
   },
   "https://scholarlykitchen.sspnet.org/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://scholarlykitchen.sspnet.org/feed/",
     "latestArticle": {
-      "title": "From AI Adoption to AI Practice: Building Governed AI in Scholarly Publishing",
-      "url": "https://scholarlykitchen.sspnet.org/2026/11/04/from-ai-adoption-to-ai-practice-building-governed-ai-in-scholarly-publishing/",
-      "summary": "How can a publisher make AI useful across the organization while keeping control of confidential information, editorial decisions, and accountability? The post From AI Adoption to AI Practice: Buildi…",
-      "publishedAt": "2026-11-04T10:30:11.000Z"
+      "title": "Guest Post — What AI Can’t Learn About Peer Review… Because Nobody Can Explain It",
+      "url": "https://scholarlykitchen.sspnet.org/2026/11/05/guest-post-what-ai-cant-learn-about-peer-review-because-nobody-can-explain-it/",
+      "summary": "What might be lost if we automate a task without first fully understanding the expertise behind it? The post Guest Post — What AI Can’t Learn About Peer Review… Because Nobody Can Explain It appeared…",
+      "publishedAt": "2026-11-05T10:30:15.000Z"
     }
   },
   "https://scholars-stage.org/": {
@@ -5022,13 +5021,13 @@
   },
   "https://seths.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://seths.blog/feed/",
     "latestArticle": {
-      "title": "The power of sync",
-      "url": "https://seths.blog/2026/11/the-power-of-sync-2/",
-      "summary": "There’s an overlooked power tool right in front of us. Every individual and organization can use it well, but rarely does. I could write a book on this, but here’s the post instead: Synchronized work…",
-      "publishedAt": "2026-11-04T10:03:00.000Z"
+      "title": "George Washington’s error",
+      "url": "https://seths.blog/2026/11/george-washingtons-error/",
+      "summary": "In his farewell address, he said, “Our detached and distant situation invites and enables us to pursue a different course.” It’s easy to fall in love with the idea that we live in a detached and dist…",
+      "publishedAt": "2026-11-05T10:26:03.000Z"
     }
   },
   "https://shapeof.com/": {
@@ -5314,7 +5313,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -6123,7 +6122,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6272,13 +6271,13 @@
   },
   "https://ukprepperhub.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
-      "title": "Special Report – Fact Check: Polar Vortex 2026, Will It Really Snow in November?",
-      "url": "https://ukprepperhub.co.uk/polar-vortex-2026/",
-      "summary": "Polar vortex 2026: the Met Office says a record-early disruption is under way, but is snow really coming in November? We fact-check the headlines and tell you what to do now.",
-      "publishedAt": "2026-11-04T21:01:20.000Z"
+      "title": "Daily UK Prepper News — 5 November 2026",
+      "url": "https://ukprepperhub.co.uk/daily-uk-prepper-news-5-november-2026/",
+      "summary": "A Briton with Ebola is flown home, Bonfire Night fire safety, heath fires in Poole and a rate rise expected at noon: the next 48 hours for UK households.",
+      "publishedAt": "2026-11-05T10:08:20.000Z"
     }
   },
   "https://una.im/": {
@@ -6624,7 +6623,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6704,10 +6703,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Ideas Kimonos set gets a rumoured release date",
-      "url": "https://www.brickfanatics.com/lego-ideas-kimonos-set-gets-rumoured-release-date",
-      "summary": "And the product number is quite telling",
-      "publishedAt": "2026-11-05T09:06:51.000Z"
+      "title": "Every LEGO Ideas set in production – November 2026 update",
+      "url": "https://www.brickfanatics.com/every-lego-ideas-set-in-production-november-2026",
+      "summary": "15 sets are currently in the works",
+      "publishedAt": "2026-11-05T10:25:39.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -7199,10 +7198,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Mobile operators in the UK struggle in 5G European Awards 2026",
-      "url": "https://www.ispreview.co.uk/index.php/2026/11/mobile-operators-in-the-uk-struggle-in-5g-european-awards-2026.html",
-      "summary": "Network benchmarking firm Opensignal , which harnesses crowdsourced testing data from users of their app on millions of devices (Smartphones etc.), has published their annual 5G European Awards 2026 …",
-      "publishedAt": "2026-11-05T09:40:15.000Z"
+      "title": "Vodafone UK puts new 8Gbps speeds and Pro 4 home broadband plans live",
+      "url": "https://www.ispreview.co.uk/index.php/2026/11/vodafone-uk-puts-new-8gbps-speed-pro-4-home-broadband-plans-live.html",
+      "summary": "After being soft launched back in September 2026, telecoms provider Vodafone has today made their new range of fixed line “ Pro 4 Broadband ” packages available to customers and confirmed pricing. Th…",
+      "publishedAt": "2026-11-05T10:10:20.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -8053,13 +8052,13 @@
   },
   "https://www.thephoblographer.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "The Fujifilm X-E2s is a Decade Old. And the Sensor is the Secret to Happiness",
-      "url": "https://www.thephoblographer.com/2026/11/04/the-fujifilm-x-e2s-is-a-decade-old-and-the-sensor-is-the-secret-to-happiness/",
-      "summary": "Fujifilm has a plethora of cute, small interchangeable lens cameras. The X-E series is no different. If you are someone who is looking to buy a new camera, then there are some options that you will a…",
-      "publishedAt": "2026-11-04T22:00:00.000Z"
+      "title": "Our Nikon Z5II C Review Has Been Updated. It’s Kind of Mid",
+      "url": "https://www.thephoblographer.com/2026/11/05/our-nikon-z5ii-c-review-has-been-updated-its-kind-of-mid/",
+      "summary": "Nikon, instead of giving photographers the point and shoot camera that we've all wanted, instead gave us the Z5IIC. I originally tried it and liked it after some brief usage. But after longer usage, …",
+      "publishedAt": "2026-11-05T10:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -8086,13 +8085,13 @@
   },
   "https://www.thisishorror.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
-      "title": "5 Must Read Horror Articles 2 November 2026",
-      "url": "https://www.thisishorror.co.uk/5-must-read-horror-articles-2-november-2026/",
-      "summary": "Welcome to Must Read Horror, where we search the internet for the best horror articles of the week so you don’t have to. Without further ado: An author spends a night at America’s most haunted hotel …",
-      "publishedAt": "2026-11-02T07:55:11.000Z"
+      "title": "Look Out For … Depth Charge by Tyler Jones",
+      "url": "https://www.thisishorror.co.uk/look-out-for-depth-charge-by-tyler-jones/",
+      "summary": "“With his latest, Jones cuts deep with an artist grappling with the visions he sees in his own blood, unwittingly dragging a young woman and her son into his nightmare.” During his fifth grade year, …",
+      "publishedAt": "2026-11-05T10:00:30.000Z"
     }
   },
   "https://www.timboucher.ca/": {
@@ -8111,10 +8110,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'Conker? Ultimate? Dream? Zelda?' - Rare Co-Founder Tim Stamper Wants to Know What Fans Want Him to Reveal First",
-      "url": "https://www.timeextension.com/#article-208170",
-      "summary": "Update: Reclusive developer will reveal all on YouTube. Tim Stamper, legendary UK developer and co-founder of iconic studios Rare and Ultimate Play The Game , has surprised gaming fans by making an u…",
-      "publishedAt": "2026-11-05T09:30:00.000Z"
+      "title": "'Next Stop? Production Line!' - Retro Games Ltd Offers an Update on Its Recreation of the Atari 800XL",
+      "url": "https://www.timeextension.com/#article-208622",
+      "summary": "Shipping in April 2027. It's been just shy of a month since Plaion and Retro Games Ltd announced their plans to resurrect the Atari 800 XL, and it looks like everything is going according to schedule…",
+      "publishedAt": "2026-11-05T10:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {

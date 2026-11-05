@@ -1067,9 +1067,9 @@
   },
   "https://jamesg.blog/": {
     "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "success",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "unknown",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "flow, found",
       "url": "https://jamesg.blog/2026/11/04/flow-found",
@@ -1422,14 +1422,14 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In the European version of Paper Mario: Color Splash, a change was added to the code of the Rocky&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/832394249486073856",
-      "summary": "In the European version of Paper Mario: Color Splash, a change was added to the code of the Rocky Wrench enemies so that they are no longer affected by the Washing Machine card. However, this results…",
-      "publishedAt": "2026-11-04T22:56:56.000Z"
+      "title": "In 1984, software called Family BASIC was released for the Famicom in Japan, which allowed the&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/832383505595023360",
+      "summary": "In 1984, software called Family BASIC was released for the Famicom in Japan, which allowed the console to be programmed using the BASIC programming language via a keyboard connected to a controller p…",
+      "publishedAt": "2026-11-04T20:06:10.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -3004,8 +3004,8 @@
   },
   "https://retrogametalk.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "unknown",
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://www.timeextension.com/": {
@@ -3117,27 +3117,27 @@
     }
   },
   "https://9to5linux.com/": {
-    "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-04T19:44:32.078Z",
+    "lastPublished": "2026-11-05",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Cinnamon 6.8 Desktop Environment Released with Hibernation Support",
-      "url": "https://9to5linux.com/cinnamon-6-8-desktop-environment-released-with-hibernation-support",
-      "summary": "Cinnamon 6.8 desktop environment is now available with hibernation support, modern one-to-one trackpad gestures, and many other enhancements. The post Cinnamon 6.8 Desktop Environment Released with H…",
-      "publishedAt": "2026-11-04T19:26:26.000Z"
+      "title": "LXQt 2.5 Desktop Environment Released, Drops Its Last LXDE Dependency",
+      "url": "https://9to5linux.com/lxqt-2-5-desktop-environment-released-drops-its-last-lxde-dependency",
+      "summary": "LXQt 2.5 desktop environment is now available with new features and improvements for PCManFM-Qt, QTerminal, and LXQt Panel, as well as various other changes. The post LXQt 2.5 Desktop Environment Rel…",
+      "publishedAt": "2026-11-05T00:37:26.000Z"
     }
   },
   "https://lwn.net/": {
-    "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-04T16:44:30.998Z",
+    "lastPublished": "2026-11-05",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "[$] Plasma X11 session removal surprises some Fedora users",
-      "url": "https://lwn.net/Articles/1105130/",
-      "summary": "The KDE Project announced, in 2025, that Plasma 6.7 would be the last version of the desktop environment that would support X11 sessions. Those who keep up with KDE's announcements no doubt expected …",
-      "publishedAt": "2026-11-04T16:33:11.000Z"
+      "title": "[$] LWN.net Weekly Edition for November 5, 2026",
+      "url": "https://lwn.net/Articles/1103480/",
+      "summary": "Inside this week's LWN.net Weekly Edition: Front : Kernel cells; Debian LLM reviews; glibc system-call wrappers; Binder in Rust; Kernel CVE flood; Fedora KDE and X11 removal; 7.4 merge window part tw…",
+      "publishedAt": "2026-11-05T00:42:51.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3178,8 +3178,8 @@
   },
   "https://onegirlwholeworld.com/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "success",
     "feedUrl": "https://onegirlwholeworld.com/feed/",
     "latestArticle": {
       "title": "Renting A Car & Driving In Puglia: What To Know",
@@ -4322,15 +4322,15 @@
     }
   },
   "http://thefilmexperience.net/": {
-    "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-01T23:44:30.213Z",
+    "lastPublished": "2026-11-05",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
     "status": "success",
     "feedUrl": "http://thefilmexperience.net/blog/atom.xml",
     "latestArticle": {
-      "title": "Review: Not even Léa Seydoux and Catherine Deneuve can save “Gentle Monster”",
-      "url": "http://thefilmexperience.net/blog/2026/11/1/review-not-even-lea-seydoux-and-catherine-deneuve-can-save-g.html",
-      "summary": "by Cl&aacute;udio Alves Sometimes, the story behind a project’s making can be more interesting and engaging than the finished product. Such is the case of Gentle Monster, Marie Kreutzer’s latest and …",
-      "publishedAt": "2026-11-01T23:00:00.000Z"
+      "title": "\"Elsinore\" Leads the BIFA Nominations",
+      "url": "http://thefilmexperience.net/blog/2026/11/4/elsinore-leads-the-bifa-nominations.html",
+      "summary": "by Nathaniel R Andrew Scott stars in ELSINORE Hot on the heels of the Gotham nominations here in New York, London follows with the British Independent Film Awards (BIFA) nominations. Elsinore , hotly…",
+      "publishedAt": "2026-11-05T00:37:01.000Z"
     }
   },
   "https://moviemetropolis.net/": {
@@ -5286,8 +5286,8 @@
   },
   "https://moviesoftheeighties.substack.com/": {
     "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "success",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "unavailable",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
       "url": "https://moviesoftheeighties.substack.com/p/forgotten-movies-of-the-80s-evilspeak",
@@ -5618,8 +5618,8 @@
   },
   "https://paul.totterman.name/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "success",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
       "title": "Generic slog.LogValuer helper",
@@ -6371,8 +6371,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -7118,15 +7118,15 @@
     }
   },
   "https://nstperfume.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
+    "lastPublished": "2026-11-04",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
     "status": "success",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "The daily lemming",
-      "url": "https://nstperfume.com/2026/11/04/the-daily-lemming-1970/",
-      "summary": "Soap on a rope from Loewe: \"Discover the essence of nature with Tomato Leaves Solid Scented Soap. This bar soap is formulated with red algae, which is renowned for its rich antioxidants, vitamins and…",
-      "publishedAt": "2026-11-05T00:18:52.000Z"
+      "title": "Le Labo Cafe 32 ~ new fragrance",
+      "url": "https://nstperfume.com/2026/11/04/le-labo-cafe-32-new-fragrance/",
+      "summary": "Le Labo has launched Café 32, the new city-exclusive fragrance for Vienna...",
+      "publishedAt": "2026-11-04T16:30:28.000Z"
     }
   },
   "https://www.askamanager.org/": {
@@ -8373,15 +8373,15 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-05T00:31:30.089Z",
+    "lastPublished": "2026-11-05",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
     "status": "success",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Notre-Dame camp twice the size this winter",
-      "url": "https://mtlcityweblog.com/2026/11/04/notre-dame-camp-twice-the-size-this-winter/",
-      "summary": "The number of people planning to camp on Notre‑Dame East this winter is expected to double compared to last season.",
-      "publishedAt": "2026-11-04T23:46:45.000Z"
+      "title": "Bike paths to be removed for winter",
+      "url": "https://mtlcityweblog.com/2026/11/04/bike-paths-to-be-removed-for-winter/",
+      "summary": "CTV has a video report on the debate over removing half the contentious bike path on Terrebonne in NDG for winter; Radio‑Canada has an audio report on the plan to remove a bike path in Ahuntsic for t…",
+      "publishedAt": "2026-11-05T00:40:25.000Z"
     }
   },
   "https://artlung.com/blog/": {
@@ -8881,8 +8881,8 @@
   },
   "https://gifcities.org/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-05T00:31:30.089Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-05T00:44:32.075Z",
+    "status": "unknown",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "http://www.retroarchive.org/": {

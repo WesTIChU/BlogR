@@ -174,10 +174,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "MPV 0.42 Video Player Released with AMD Frame Rate Conversion Filter",
-      "url": "https://9to5linux.com/mpv-0-42-video-player-released-with-amd-frame-rate-conversion-filter",
-      "summary": "MPV 0.42 open-source media player is now available for download with Wayland session management, Wayland color management, improved HDR colorspace signalling on DRM, and more. The post MPV 0.42 Video…",
-      "publishedAt": "2026-11-05T01:46:23.000Z"
+      "title": "Shelly 3.2 Brings Multi-Package Downgrades, Flatpak and AppImage Improvements",
+      "url": "https://9to5linux.com/shelly-3-2-brings-multi-package-downgrades-flatpak-and-appimage-improvements",
+      "summary": "Shelly 3.2 graphical package manager for Arch Linux distributions is now available for download with multi-package downgrades, improved Flatpak and AppImage support, and a long list of bug fixes. The…",
+      "publishedAt": "2026-11-05T03:31:08.000Z"
     }
   },
   "https://aaronparecki.com/": {
@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1597,13 +1597,13 @@
   },
   "https://cryptonews.mobile/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Bitcoin developers weigh BIP-54 cleanup as next soft fork",
-      "url": "https://cryptonews.mobile/brief/bitcoin-developers-weigh-bip-54-cleanup-as-next-soft-fork",
-      "summary": "Bitcoin developers are considering the Great Consensus Cleanup, known as BIP-54, as the network's next soft fork. Proposed in 2019, it targets four flaws in Bitcoin's consensus rules, including the d…",
-      "publishedAt": "2026-11-04T22:50:08.000Z"
+      "title": "American Bitcoin reports $126 million quarterly profit on bitcoin holdings gain",
+      "url": "https://cryptonews.mobile/brief/american-bitcoin-reports-126-million-quarterly-profit-on-bitcoin-holdings-gain",
+      "summary": "American Bitcoin Corp. reported about $126 million in third-quarter net income, driven largely by a $197.3 million gain on its bitcoin holdings. Mining revenue was about $63.4 million, down from abou…",
+      "publishedAt": "2026-11-05T03:46:10.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1971,11 +1971,12 @@
   "https://echo-shie.blogspot.com/": {
     "status": "success",
     "lastPublished": "2026-10-14",
-    "feedUrl": "https://echo-shie.blogspot.com/rss.xml",
+    "feedUrl": "https://echo-shie.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "Hi! It’s been a while, let’s talk.",
+      "url": "https://echo-shie.blogspot.com/2026/10/hi-its-been-while-lets-talk.html",
       "summary": "Hello! I’ve not been well recently (vomiting, dizziness. E.c.t) which is one of the reasons I haven’t been posting. I do apologise for that and I am hoping to start using a new schedule and format wh…",
-      "publishedAt": "2026-10-14T17:23:29.000Z"
+      "publishedAt": "2026-10-14T17:23:29.524Z"
     }
   },
   "https://ecmreviews.com/": {
@@ -2015,7 +2016,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2480,10 +2481,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Beautiful Laser Harp Hides Some Neat Tricks",
-      "url": "https://hackaday.com/2026/11/04/beautiful-laser-harp-hides-some-neat-tricks/",
-      "summary": "Laser harps aren’t quite a right of passage, in that not everyone builds them, but it’s likely everyone at least contemplates building one at one time or another. We’re lucky …read more",
-      "publishedAt": "2026-11-05T00:00:47.000Z"
+      "title": "The First Business Computer Hits 75!",
+      "url": "https://hackaday.com/2026/11/04/the-first-business-computer-hits-75/",
+      "summary": "Many of us will have followed the early history of electronic computing, from the urgent necessities of war, to universities, and then on into the wider world. Most of the …read more",
+      "publishedAt": "2026-11-05T03:00:15.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3477,13 +3478,13 @@
   },
   "https://lootrundown.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://lootrundown.com/guides/rss.xml",
     "latestArticle": {
-      "title": "Fortnite Chapter 7 End Event",
-      "url": "https://lootrundown.com/fortnite/chapter-7-end-event",
-      "summary": "Epic has set the Fortnite Chapter 7 end event for Saturday, December 5, 2026. What we know about the start time, how to make sure you see it, and what ends with it.",
-      "publishedAt": "2026-11-03T00:00:00.000Z"
+      "title": "Fortnite Event Calendar",
+      "url": "https://lootrundown.com/fortnite/event-calendar",
+      "summary": "Every Fortnite date that matters this season in one place, including the Chapter 7 end event on December 5 and the Shop Token deadline on December 15, with time zones.",
+      "publishedAt": "2026-11-05T00:00:00.000Z"
     }
   },
   "https://loureviews.blog/": {
@@ -4464,7 +4465,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -5313,7 +5314,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -6079,13 +6080,13 @@
   },
   "https://thewonderfulworldofcinema.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-10-22",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://thewonderfulworldofcinema.wordpress.com/feed/",
     "latestArticle": {
-      "title": "12 Years of The Wonderful World of Cinema!",
-      "url": "https://thewonderfulworldofcinema.wordpress.com/2026/10/22/12-years-anniversary/",
-      "summary": "The Wonderful World of Cinema is celebrating its 12 anniversary of creation! A fun little post to mark the occasion.",
-      "publishedAt": "2026-10-22T12:24:37.000Z"
+      "title": "Announcing The Music Video Blogathon!",
+      "url": "https://thewonderfulworldofcinema.wordpress.com/2026/11/04/music-video-blogathon-announcement/",
+      "summary": "All about The Music Video Blogathon which I'll be hosting on this blog on December 11 to 13, 2026.",
+      "publishedAt": "2026-11-05T02:47:25.000Z"
     }
   },
   "https://thezvi.wordpress.com/": {
@@ -6122,7 +6123,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6149,13 +6150,13 @@
   },
   "https://tiramisu.bearblog.dev/blog/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://tiramisu.bearblog.dev/feed/",
     "latestArticle": {
-      "title": "trying to remember the good times",
-      "url": "https://tiramisu.bearblog.dev/the-good-times/",
-      "summary": "Painful memories are far stickier in my brain than pleasant ones. In an attempt to correct this imbalance, here is me trying to remember the good times. (i.) E made the long drive down to come visit …",
-      "publishedAt": "2026-11-04T03:54:00.000Z"
+      "title": "\"here is longing\" by sanna wani",
+      "url": "https://tiramisu.bearblog.dev/here-is-longing-by-sanna-wani/",
+      "summary": "here is my chest here is where I remember longing has not visited me in a long time longing who I let inside me longing who I let cut my hair with old scissors longing who feels my feet swell and kis…",
+      "publishedAt": "2026-11-05T02:52:10.007Z"
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
@@ -6779,7 +6780,7 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
@@ -7194,7 +7195,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -7407,7 +7408,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7822,10 +7823,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on #155: Narrators as Main Characters or Side Characters, and Gaining Ground vs The Book of Eve by Kay",
-      "url": "https://www.stuckinabook.com/155-narrators-as-main-characters-or-side-characters-and-gaining-ground-vs-the-book-of-eve/#comment-174268",
-      "summary": "Simon, have you done show on real people appearing in fiction novels? I've been talking about this topic with another blogger, and it seems that some people won't even read a novel in which a real pe…",
-      "publishedAt": "2026-11-05T01:40:07.000Z"
+      "title": "Comment on #155: Narrators as Main Characters or Side Characters, and Gaining Ground vs The Book of Eve by Susan D",
+      "url": "https://www.stuckinabook.com/155-narrators-as-main-characters-or-side-characters-and-gaining-ground-vs-the-book-of-eve/#comment-174270",
+      "summary": "In reply to Kay . I like that idea, Kay. I'm always interested in coming across real characters in historical fiction. It helps put the story into a time and place.",
+      "publishedAt": "2026-11-05T02:57:31.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -8030,13 +8031,13 @@
   },
   "https://www.themovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-08-30",
+    "lastPublished": "2026-11-03",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Avengers: Doomsday Cast Reportedly Features Over 180 Actors",
-      "url": "https://www.themovieblog.com/2026/08/avengers-doomsday-cast-reportedly-features-over-180-actors/",
-      "summary": "A massive ensemble is reportedly taking shape for the upcoming MCU epic, with new reports suggesting the cast list could reach over 180 actors. The post Avengers: Doomsday Cast Reportedly Features Ov…",
-      "publishedAt": "2026-08-30T19:13:00.000Z"
+      "title": "Godzilla Minus Zero King Ghidorah Design Leaks Via Merchandise",
+      "url": "https://www.themovieblog.com/2026/11/godzilla-minus-zero-king-ghidorah-design-leaks-via-merchandise/",
+      "summary": "A new merchandise leak has revealed the design for King Ghidorah in the upcoming Godzilla Minus Zero, giving fans a look at the kaiju's new appearance. The post Godzilla Minus Zero King Ghidorah Desi…",
+      "publishedAt": "2026-11-03T17:45:00.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -8252,10 +8253,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Brian De Palma's ‘Sweet Vengeance,' His First Film in 8 Years, Might Have a Cut Ready by February",
-      "url": "https://www.worldofreel.com/blog/2026/11/4/brian-de-palmas-sweet-vengeance-his-first-film-in-8-years-might-have-a-cut-ready-by-february",
-      "summary": "Pino Donaggio confirmed he'll score De Palma's next feature, \"Sweet Vengeance.\" It would be their ninth film together, a partnership that dates back 50 years to \"Carrie.\"",
-      "publishedAt": "2026-11-05T00:22:05.000Z"
+      "title": "‘Miami Vice ‘85’ New Set Photos of Michael B. Jordan and Austin Butler as Tubbs and Crockett",
+      "url": "https://www.worldofreel.com/blog/2026/11/4/miami-vice-85-new-set-photos-of-michael-b-jordan-and-austin-butler-as-tubbs-and-crockett",
+      "summary": "We have more on-set images of Austin Butler as Crockett and Michael B. Jordan as Tubbs in Joseph Kosinski's \"Miami Vice '85,\" which is currently filming in — where else — Miami.",
+      "publishedAt": "2026-11-05T02:55:07.000Z"
     }
   },
   "https://www.zachleat.com/": {

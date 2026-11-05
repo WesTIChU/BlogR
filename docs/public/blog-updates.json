@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -716,9 +716,9 @@
     "feedUrl": "https://bestbudgetheadphones.com/favicon.svg"
   },
   "https://betterprogramming.pub/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2023-11-10",
-    "feedUrl": "https://betterprogramming.pub/feed",
+    "feedUrl": "https://betterprogramming.pub/feed.xml?gi=0405fb8463ac",
     "latestArticle": {
       "url": "https://medium.com/better-programming/let-a-thousand-programming-publications-bloom-bf37baef8f27?source=rss----d0b105d10f0a---4",
       "summary": "I’m putting Better Programming on hiatus to make room for other programming publications. I get that this is a big pivot given that we switched to a new editor recently. But things are changing at Me…",
@@ -1151,7 +1151,7 @@
     "lastPublished": "2026-11-04",
     "feedUrl": "https://calamitymn.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Warwickshire Avon - Scaffmasters and Scarification's",
+      "title": "Warwickshire Avon - Scaffmasters and Scarifications",
       "summary": "Having returned from Devon on the Saturday, I was already contemplating what mischief to get up to on the Sunday. There was a small river tempting me with the prospect of a gentle rove, a bit of wand…",
       "publishedAt": "2026-11-04T15:00:51.000Z"
     }
@@ -1348,13 +1348,13 @@
   },
   "https://clothesinbooks.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://clothesinbooks.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "A Lost Bestseller: The Heir of Redclyffe",
-      "url": "https://clothesinbooks.blogspot.com/2026/11/a-lost-bestseller-heir-of-redclyffe.html",
-      "summary": "The Heir of Redclyffe by Charlotte M Yonge published 1853 Regular readers will know that I am reading a lot of (not everything by) Charlotte M Yonge , for an upcoming project - tags or searchbox will…",
-      "publishedAt": "2026-11-03T08:50:30.829Z"
+      "title": "Fireworks and Bonfires, and a new start",
+      "url": "https://clothesinbooks.blogspot.com/2026/11/fireworks-and-bonfires-and-new-start.html",
+      "summary": "Less Than Angels by Barbara Pym published 1955 [excerpt] As they got out of the bus and walked along the road, they heard a number of explosions, some in the distance, others startlingly near, and on…",
+      "publishedAt": "2026-11-05T08:30:00.000Z"
     }
   },
   "https://coastalwalker.co.uk/": {
@@ -1600,10 +1600,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Kiyosaki says he bought more Bitcoin, gold and silver on dip",
-      "url": "https://cryptonews.mobile/brief/kiyosaki-says-he-bought-more-bitcoin-gold-and-silver-on-dip",
-      "summary": "Robert Kiyosaki said on X on Nov. 4 that he bought more Bitcoin, gold and silver as other investors panicked. He cited growing global debt, especially in the US, as the real problem. US federal debt …",
-      "publishedAt": "2026-11-05T07:16:11.000Z"
+      "title": "Bitcoin falls for fifth week as midterms and Iran tensions weigh",
+      "url": "https://cryptonews.mobile/brief/bitcoin-falls-for-fifth-week-as-midterms-and-iran-tensions-weigh",
+      "summary": "Bitcoin has fallen from about $87,000 to around $76,500 over five consecutive weekly declines, market data reported on November 3 showed. Traders are reassessing risk ahead of the US midterm election…",
+      "publishedAt": "2026-11-05T08:10:12.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -1926,13 +1926,13 @@
   },
   "https://driftya.com/": {
     "status": "success",
-    "lastPublished": "2026-09-17",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://driftya.com/feeds/content/rss.xml?culture=en",
     "latestArticle": {
-      "title": "Memory Trail now works with ChatGPT, Claude and Grok",
-      "url": "https://driftya.com/content/memory-trail-now-works-with-chatgpt-claude-and-grok",
-      "summary": "Driftya Memory Trail can now be connected to ChatGPT, Claude and Grok, making your personal history useful as context across more AI assistants.",
-      "publishedAt": "2026-09-17T07:41:21.000Z"
+      "title": "Introducing PixelPhoto: A Little Moment in 1,024 Pixels",
+      "url": "https://driftya.com/content/introducing-pixelphoto-a-little-moment-in-1-024-pixels",
+      "summary": "Discover PixelPhoto, a new creative way to share moments on Driftya. Explore how everyday photographs become tiny pieces of pixel art, why simplicity matters, and how this new feature fits into Drift…",
+      "publishedAt": "2026-11-05T07:58:38.000Z"
     }
   },
   "https://drwho.virtadpt.net/": {
@@ -2016,7 +2016,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2371,13 +2371,13 @@
   },
   "https://gorillasdontblog.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Lagoon & Mountain",
-      "url": "https://gorillasdontblog.blogspot.com/2026/11/lagoon-mountain.html",
-      "summary": "I have a small batch of 120-format slides that leave something to be desired; usually the larger size means that you also get a sharper image, but these are a bit soft. And the color is weird! But al…",
-      "publishedAt": "2026-11-04T08:01:00.000Z"
+      "title": "Adventureland",
+      "url": "https://gorillasdontblog.blogspot.com/2026/11/adventureland.html",
+      "summary": "Here are two more scans from a small lot that I am confident in dating to 1955 (based on details seen in some of the other slides). I'm always happy to get a good look at the Tahitian Lanai, located …",
+      "publishedAt": "2026-11-05T08:01:00.000Z"
     }
   },
   "https://greatawakeningreport.com/": {
@@ -3457,13 +3457,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "\"We're Opening A Lesbian Pub In South London\"",
-      "url": "https://londonist.com/london/lgbtq/dorothys-lesbian-pub-camberwell",
-      "summary": "Dorothy's is landing in Camberwell.",
-      "publishedAt": "2026-11-04T09:33:00.000Z"
+      "title": "The Lost Island Of Shadwell",
+      "url": "https://londonist.com/london/history/the-lost-island-of-shadwell",
+      "summary": "Rediscovering a lost island... by colouring in maps.",
+      "publishedAt": "2026-11-05T08:00:03.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -5660,13 +5660,13 @@
   },
   "https://thecelticstar.com/": {
     "status": "success",
-    "lastPublished": "2026-11-05",
+    "lastPublished": "2026-11-04",
     "feedUrl": "https://thecelticstar.com/feed/",
     "latestArticle": {
-      "title": "O’Neill says results alone decide his future as pointless Celtic face Beşiktaş",
-      "url": "https://thecelticstar.com/oneill-says-results-alone-decide-his-future-as-pointless-celtic-face-besiktas/",
-      "summary": "Martin O'Neill says results, not meetings with supporters, will decide his future as Celtic manager. His side host Beşiktaş with no Europa League points and few matches left to rescue the league phas…",
-      "publishedAt": "2026-11-05T07:18:29.000Z"
+      "title": "O’Neill and Celtic board face 120 critical fans in Greenock as manager’s future is discussed",
+      "url": "https://thecelticstar.com/oneill-and-celtic-board-face-120-critical-fans-in-greenock-as-managers-future-is-discussed/",
+      "summary": "Martin O'Neill and the Celtic board took questions from critical supporters in Greenock, with the manager's future among the subjects raised. Communication was one of the themes put to them, yet no r…",
+      "publishedAt": "2026-11-04T07:18:29.000Z"
     }
   },
   "https://thechels.uk/": {
@@ -5711,13 +5711,13 @@
   },
   "https://theemptycity.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://theemptycity.com/feed/",
     "latestArticle": {
-      "title": "Being braced for the mid-terms",
-      "url": "https://theemptycity.com/blog/2026/11/being-braced-for-the-mid-terms/",
-      "summary": "3rd November 2026 Recording a constitutional and political moment * Today in the United States are the mid-term elections. Nobody can predict the results of these elections with any certainty, and th…",
-      "publishedAt": "2026-11-03T10:00:02.000Z"
+      "title": "The day after the mid-term results",
+      "url": "https://theemptycity.com/blog/2026/11/the-day-after-the-mid-term-results/",
+      "summary": "How the illiberals were defeated, until the next time * It is November 1932 and there has been a general election in Germany. Christopher Isherwood was to write: “On November 7th the election results…",
+      "publishedAt": "2026-11-05T08:36:00.000Z"
     }
   },
   "https://thefictionphial.wordpress.com/": {
@@ -5955,14 +5955,14 @@
     }
   },
   "https://thequietus.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "A Dream Within a Dream: Manifold of Partially Actualized Realities by Randall Dunn",
-      "url": "https://thequietus.com/quietus-reviews/album-of-the-week/randall-dunn-manifold-of-partially-actualized-realities-review/",
-      "summary": "The American composer, producer and audio engineer warps time and space on a slow-burning album that riffs on Philip K. Dick's \"orthogonal\" temporalities Photo credit Charmaine Lee Imagine your entir…",
-      "publishedAt": "2026-11-05T06:00:00.000Z"
+      "title": "Open Mind, Open Planet: Gigi Masin’s Favourite Albums",
+      "url": "https://thequietus.com/interviews/bakers-dozen/open-mind-open-planet-gigi-masins-favourite-albums/",
+      "summary": "As his cult classic 1986 album Wind receives an expanded reissue, Italian composer and ambient pioneer Gigi Masin takes Siobhan Kane through his life in 13 records The renewed interest in Gigi Masin’…",
+      "publishedAt": "2026-11-05T08:22:44.000Z"
     }
   },
   "https://therealadam.com/": {
@@ -6123,7 +6123,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6183,13 +6183,13 @@
   },
   "https://tonysreadinglist.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-02",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://tonysreadinglist.wordpress.com/feed/",
     "latestArticle": {
-      "title": "‘Narziß und Goldmund’ (‘Narcissus and Goldmund’) by Hermann Hesse (Review)",
-      "url": "https://tonysreadinglist.wordpress.com/2026/11/02/narzis-und-goldmund-narcissus-and-goldmund-by-hermann-hesse-review/",
-      "summary": "November has arrived, and round these parts that means only one thing – German Literature Month! As announced in a previous post, Caroline and I will be hosting the sixteenth(!) edition of this annua…",
-      "publishedAt": "2026-11-02T08:00:02.000Z"
+      "title": "‘Amras’ by Thomas Bernhard (Review)",
+      "url": "https://tonysreadinglist.wordpress.com/2026/11/05/amras-by-thomas-bernhard-review/",
+      "summary": "German Literature Month is always a great opportunity to catch up with old friends, and one writer I usually try to make time for in November is the King of GLM himself, Thomas Bernhard. Having poste…",
+      "publishedAt": "2026-11-05T08:00:53.000Z"
     }
   },
   "https://towerofzenopus.blogspot.com/": {
@@ -6422,9 +6422,9 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/injury-news/173723/emiliano-martinez-back-in-training-with-chelsea",
-      "summary": "Emiliano Martínez, looking like he just had a fight with his wisdom teeth and lost really badly at the dentist, was back in Chelsea training yesterday, less than three weeks after suffering a fractur…",
-      "publishedAt": "2026-11-05T05:45:30.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173730/the-daily-hilario-como-como",
+      "summary": "Cesc Fàbregas told his team, already leading 4-0 at half-time to take it easy. They would score five more. How much would have they scored if they kept actually trying?! (On a sidenote, I started wat…",
+      "publishedAt": "2026-11-05T08:00:00.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -6624,7 +6624,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -6701,13 +6701,13 @@
   },
   "https://www.brickfanatics.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Free LEGO Holiday Reindeer make and take coming to North America",
-      "url": "https://www.brickfanatics.com/free-lego-holiday-reindeer-make-and-take-coming-to-north-america",
-      "summary": "A Christmas cracker",
-      "publishedAt": "2026-11-04T18:45:08.000Z"
+      "title": "$80 LEGO Star Trek Enterprise set rumoured for 2027",
+      "url": "https://www.brickfanatics.com/80-lego-star-trek-enterprise-set-rumoured-for-2027",
+      "summary": "To boldly go to new price points",
+      "publishedAt": "2026-11-05T08:37:53.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -6781,13 +6781,13 @@
   },
   "https://www.celticquicknews.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "‘WE NEED TO GET OFF THE MARK,’ INSISTS O’NEILL",
-      "url": "https://www.celticquicknews.co.uk/we-need-to-get-off-the-mark-insists-oneill/",
-      "summary": "MARTIN O’NEILL remained defiant as he prepared his players for Celtic’s must-win Europa League encounter against Besiktas at Parkhead tomorrow evening. The Hoops go into the game against the Turkish …",
-      "publishedAt": "2026-11-04T17:49:35.000Z"
+      "title": "‘NOT GOOD ENOUGH,’ ADMITS SCALES",
+      "url": "https://www.celticquicknews.co.uk/not-good-enough-admits-scales/",
+      "summary": "LIAM SCALES admits the Celtic players “haven’t been meeting the standards” expected of them as the team fail to hit a satisfactory and consistent level. The Hoops take on Besiktas in their fourth mat…",
+      "publishedAt": "2026-11-05T08:31:22.000Z"
     }
   },
   "https://www.cleverdude.com/": {
@@ -7065,13 +7065,13 @@
   },
   "https://www.gordonmclean.co.uk/blog/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://www.gordonmclean.co.uk/feed/",
     "latestArticle": {
-      "title": "Well done America!",
-      "url": "https://www.gordonmclean.co.uk/2026/11/04/well-done-america/",
-      "summary": "The House and the Senate are back under Democratic control. It’s a great first step. It’s a huge sigh of relief. Most of the rest of the world applaud the thorough spanking the mid-terms have deliver…",
-      "publishedAt": "2026-11-04T10:29:03.000Z"
+      "title": "Everybody Wants To Rule the World by Lorde",
+      "url": "https://www.gordonmclean.co.uk/2026/11/05/everybody-wants-to-rule-the-world-by-lorde/",
+      "summary": "Post a cover that’s done in a different style than the original version. I do love a cover version and finding songs that re-interpret the original is always a joy. Johnny Cash covering Hurt by Nine …",
+      "publishedAt": "2026-11-05T07:43:08.000Z"
     }
   },
   "https://www.guyhadleigh.com/blog/categories": {
@@ -7167,10 +7167,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Too tired and too expensive – Londoners nights out are ending earlier",
-      "url": "https://www.ianvisits.co.uk/articles/too-tired-and-too-expensive-londoners-nights-out-are-ending-earlier-93822/",
-      "summary": "Rising costs and flagging energy are shaping London’s evenings, according to a report exploring how the capital’s nightlife has changed over the Night Tube’s first decade. Read more ›",
-      "publishedAt": "2026-11-05T06:00:45.000Z"
+      "title": "A British spacecraft is taking out the rubbish — and you could name it",
+      "url": "https://www.ianvisits.co.uk/articles/a-british-spacecraft-is-taking-out-the-rubbish-and-you-could-name-it-93828/",
+      "summary": "A competition is seeking a name for the UK’s Active Debris Removal Mission, with the winning suggestion to be etched onto the spacecraft. Read more ›",
+      "publishedAt": "2026-11-05T08:15:21.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -7201,7 +7201,7 @@
     "latestArticle": {
       "title": "BT Group see UK FTTP coverage top 24.1 million premises as broadband line losses slow",
       "url": "https://www.ispreview.co.uk/index.php/2026/11/bt-group-see-uk-fttp-coverage-top-24-1-million-as-broadband-line-losses-slow-to-366k.html",
-      "summary": "The BT Group has published their H1 FY27 results, which saw total revenues of £8,750m (down from £8,837m in H2 FY26) and a decline in Openreach ’s broadband lines of -366k (down from -414k). But the …",
+      "summary": "The BT Group has published their H1 FY27 results, which saw total revenues of £8,750m (down from £8,837m in H2 FY26) and a decline in Openreach’s broadband lines of -366k (down from -414k). But the n…",
       "publishedAt": "2026-11-05T07:20:47.000Z"
     }
   },
@@ -7287,13 +7287,13 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "A Previously Unknown Migration Reveals the Origin of English, German and the Viking Tongue, 4,000 years ago",
-      "url": "https://www.labrujulaverde.com/en/2026/11/a-previously-unknown-migration-reveals-the-origin-of-english-german-and-the-viking-tongue-4000-years-ago/",
-      "summary": "English, German, Dutch and Swedish all descend from a single mother tongue that nobody ever wrote down. Linguists call it Germanic. For more than a century, specialists have argued about when and fro…",
-      "publishedAt": "2026-11-04T17:39:07.000Z"
+      "title": "Thrihnukagigur, the only volcano in the world you can descend into by elevator: a 120-meter descent into its magma chamber",
+      "url": "https://www.labrujulaverde.com/en/2026/11/thrihnukagigur-the-only-volcano-in-the-world-you-can-descend-into-by-elevator-a-120-meter-descent-into-its-magma-chamber/",
+      "summary": "Every summer, small groups of visitors climb into an open metal cage hanging from a crane above a hole barely four meters (13 feet) wide, and the cage starts to drop. It falls for 120 meters (about 3…",
+      "publishedAt": "2026-11-05T08:38:32.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -7334,7 +7334,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -8180,7 +8180,7 @@
   "https://www.urbex-travel.com/blog/": {
     "status": "success",
     "lastPublished": "2026-10-06",
-    "feedUrl": "https://www.urbex-travel.com/blog/feed/",
+    "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {
       "title": "Was This Actually An Abandoned Villa? – Inside A 1990s Millionaire’s Dream",
       "url": "https://www.urbex-travel.com/villa-millionaire/",

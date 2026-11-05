@@ -67,13 +67,13 @@
   },
   "http://www.galactichunter.com/GH/": {
     "status": "success",
-    "lastPublished": "2014-02-17",
-    "feedUrl": "http://www.galactichunter.com/rss.xml",
+    "lastPublished": "2026-09-28",
+    "feedUrl": "http://www.galactichunter.com/gh/crss",
     "latestArticle": {
-      "title": "16bit.com Update Summary: February 17, 2014",
-      "url": "http://16bit.com/n1402.asp#0217",
-      "summary": "Toy Fair updates. Your Figure of the Day is Strong-Or.",
-      "publishedAt": "2014-02-17T12:00:00.000Z"
+      "title": "\"I don't think it's possible",
+      "url": "http://www.galactichunter.com/GH/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
+      "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
+      "publishedAt": "2026-09-28T13:18:14.000Z"
     }
   },
   "http://www.kidfenris.com/": {
@@ -323,7 +323,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1003,7 +1003,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1273,9 +1273,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-31",
-    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
+    "feedUrl": "https://chrislt.nz/feed/",
     "latestArticle": {
       "title": "City on a hill",
       "url": "https://chrislt.nz/city-on-a-hill/",
@@ -1472,10 +1472,10 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://conservativehome.com/feed/",
     "latestArticle": {
-      "title": "John Oxley: Apologies, and reparations have a history of not being the end of the story",
-      "url": "https://conservativehome.com/2026/11/05/john-oxley-apologies-and-reparations-have-a-history-of-not-being-the-end-of-the-story/",
-      "summary": "This is not purely about the past. Claims for reparations sit within a broader pattern of international intrigue and influence. We must not fool ourselves that magnanimous payments will win us friend…",
-      "publishedAt": "2026-11-05T06:30:22.000Z"
+      "title": "Why ‘Boring! Boring! Boring!’ might actually start to be the problem",
+      "url": "https://conservativehome.com/2026/11/05/why-boring-boring-boring-might-actually-start-to-be-the-problem/",
+      "summary": "The Tories can’t celebrate their glacial rise towards where they were polling in 2024, and Reform should be very worried – not burying their heads – about how far they have fallen in a year. But beco…",
+      "publishedAt": "2026-11-05T07:00:16.000Z"
     }
   },
   "https://convertheictojpg.org/": {
@@ -2016,7 +2016,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2286,7 +2286,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -2911,7 +2911,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -5319,13 +5319,13 @@
   },
   "https://stephenbodio.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
-      "title": "Welcome to the Zeptoverse",
-      "url": "https://stephenbodio.com/2026/11/welcome-to-the-zeptoverse/?utm_source=rss&utm_medium=rss&utm_campaign=welcome-to-the-zeptoverse",
-      "summary": "The Zeptoverse is an informal scientific term for the realm of nature explored at the scale of a zeptometre (10⁻²¹ metres, or a billionth of a trillionth of a metre), roughly 100 billion times smalle…",
-      "publishedAt": "2026-11-04T19:46:59.000Z"
+      "title": "Rendezvous with Rama: The Aliens Who Never Noticed Us",
+      "url": "https://stephenbodio.com/2026/11/rendezvous-with-rama-the-aliens-who-never-noticed-us/?utm_source=rss&utm_medium=rss&utm_campaign=rendezvous-with-rama-the-aliens-who-never-noticed-us",
+      "summary": "​ I am not a huge fan of AI imagery but it was put to good use here. A movie is supposed to be being made but it may not happen. In the meantime, this is a good substitute. I remembered the gist of t…",
+      "publishedAt": "2026-11-05T07:25:17.000Z"
     }
   },
   "https://stingysailor.com/": {
@@ -5955,7 +5955,7 @@
     }
   },
   "https://thequietus.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
@@ -6123,7 +6123,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -6241,7 +6241,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -6624,7 +6624,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -7199,7 +7199,7 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "BT Group see UK FTTP coverage top 24.1 million as broadband line losses slow to 366k",
+      "title": "BT Group see UK FTTP coverage top 24.1 million premises as broadband line losses slow",
       "url": "https://www.ispreview.co.uk/index.php/2026/11/bt-group-see-uk-fttp-coverage-top-24-1-million-as-broadband-line-losses-slow-to-366k.html",
       "summary": "The BT Group has published their H1 FY27 results, which saw total revenues of £8,750m (down from £8,837m in H2 FY26) and a decline in Openreach ’s broadband lines of -366k (down from -414k). But the …",
       "publishedAt": "2026-11-05T07:20:47.000Z"
@@ -7334,7 +7334,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -7659,7 +7659,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

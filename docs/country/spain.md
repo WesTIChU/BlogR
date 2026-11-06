@@ -1,13 +1,19 @@
 ---
 title: Spain Blogs
-description: 1 blog listed in Spain.
+description: 2 blogs listed in Spain.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇪🇸" name="Spain" :count="1" />
+<CountryDirectoryHeader flag="🇪🇸" name="Spain" :count="2" />
+
+## Books & Writing
+
+### Literature & Book Reviews
+
+* <span class="blog-entry"><BlogHealthLink name="Rereading Jane Eyre" url="https://lucciagray.com/" /> - Luccia Gray’s blog exploring Jane Eyre, Victorian literature, the Eyre Hall series and her other fiction.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://lucciagray.com/" data-blog-name="Rereading Jane Eyre"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/spain" aria-label="Based in Spain"><span class="blog-country-flag" aria-hidden="true">🇪🇸</span> Spain</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;6 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-7729644b7d6643569c86de6ede8e10fb" website-url="https://lucciagray.com/" website-name="Rereading Jane Eyre" /></span>
 
 ## Technology
 

@@ -1,13 +1,13 @@
 ---
 title: France Blogs
-description: 2 blogs listed in France.
+description: 3 blogs listed in France.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇫🇷" name="France" :count="2" />
+<CountryDirectoryHeader flag="🇫🇷" name="France" :count="3" />
 
 ## Books & Writing
 
@@ -20,3 +20,4 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Travel & Exploration
 
 * <span class="blog-entry"><BlogHealthLink name="Expert Vagabond" url="https://expertvagabond.com" /> - Adventure travel stories, photography and practical tips for exploring destinations and planning independent trips.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://expertvagabond.com" data-blog-name="Expert Vagabond"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/france" aria-label="Based in France"><span class="blog-country-flag" aria-hidden="true">🇫🇷</span> France</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;10 June 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-ae2001493e30ef3586824dbe70cd866a" website-url="https://expertvagabond.com" website-name="Expert Vagabond" /></span>
+* <span class="blog-entry"><BlogHealthLink name="View from the Back" url="https://viewfromtheback.com/" /> - A lifestyle and travel blog by a retiree in France, covering trips, photography, football, cycling, motorcycling, cookery and everyday life.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://viewfromtheback.com/" data-blog-name="View from the Back"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/france" aria-label="Based in France"><span class="blog-country-flag" aria-hidden="true">🇫🇷</span> France</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;6 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-699c193131ee6a72b7ac48f2ba32fa6f" website-url="https://viewfromtheback.com/" website-name="View from the Back" /></span>

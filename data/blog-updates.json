@@ -1285,8 +1285,8 @@
   },
   "https://playrface.co.uk/": {
     "lastPublished": "2026-09-12",
-    "lastChecked": "2026-10-12T15:58:46.034Z",
-    "status": "success",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
+    "status": "unavailable",
     "feedUrl": "https://playrface.co.uk/feed/",
     "latestArticle": {
       "title": "That time when a Bonner SC signed the Cuban national team",
@@ -1778,14 +1778,14 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "Mobile Operator Lebara UK kicks off Black Friday deals with 15GB for £2.80pm",
-      "url": "https://www.ispreview.co.uk/index.php/2026/11/mobile-operator-lebara-uk-kicks-off-black-friday-deals-with-15gb-for-2-80pm.html",
-      "summary": "Mobile operator Lebara , which harnesses a mobile virtual network operator (mvno) platform from Vodafone UK, has this week introduced some of its first Black Friday deals. The cheapest of which will …",
-      "publishedAt": "2026-11-06T12:27:58.000Z"
+      "title": "VodafoneThree begin UK rollout of new AI-ready 5G Massive MIMO mobile network",
+      "url": "https://www.ispreview.co.uk/index.php/2026/11/vodafonethree-begin-uk-rollout-of-new-ai-ready-5g-massive-mimo-mobile-network.html",
+      "summary": "Broadband and mobile operator VodafoneThree ( Vodafone and Three UK ) has announced that they’ve become the first provider in the world to start deploying Ericsson’s new AIR 3266 Massive MIMO Antenna…",
+      "publishedAt": "2026-11-06T14:34:11.000Z"
     }
   },
   "https://itsfoss.com/": {
@@ -2397,8 +2397,8 @@
   },
   "https://www.van-tramp.com/wp/": {
     "lastPublished": "2026-10-13",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
-    "status": "success",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
+    "status": "unavailable",
     "feedUrl": "https://www.van-tramp.com/wp/comments/feed/",
     "latestArticle": {
       "title": "Comment on Getting Closer to Rainer by Van-Tramp",
@@ -3004,8 +3004,8 @@
   },
   "https://retrogametalk.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-06T10:44:29.929Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
+    "status": "unavailable",
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://www.timeextension.com/": {
@@ -3129,15 +3129,15 @@
     }
   },
   "https://lwn.net/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T14:44:37.609Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "[$] User namespaces + file capabilities = trouble",
-      "url": "https://lwn.net/Articles/1103429/",
-      "summary": "User namespaces are a key part of the kernel's toolkit for assembling containers; processes within a user namespace can appear to have full root access to the system while gaining no extra privileges…",
-      "publishedAt": "2026-11-05T14:33:59.000Z"
+      "title": "Security updates for Friday",
+      "url": "https://lwn.net/Articles/1105881/",
+      "summary": "Security updates have been issued by AlmaLinux (cockpit-files, container-tools:rhel8, delve, gcc-toolset-12-binutils, gimp:2.8, glibc, go-toolset:rhel8, kernel, libfastjson, mariadb:10.3, mod_auth_op…",
+      "publishedAt": "2026-11-06T14:04:54.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3214,14 +3214,14 @@
   },
   "https://www.thehistoryblog.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.thehistoryblog.com/comments/feed",
     "latestArticle": {
-      "title": "Comment on Gold bear found in Kazakhstan kurgan by Cornelis Vanistendael",
-      "url": "https://www.thehistoryblog.com/archives/77294/comment-page-1#comment-4523612",
-      "summary": "Its Winnie the Pooh!",
-      "publishedAt": "2026-11-06T13:03:02.000Z"
+      "title": "Comment on Gold bear found in Kazakhstan kurgan by Albertus Minimus",
+      "url": "https://www.thehistoryblog.com/archives/77294/comment-page-1#comment-4523613",
+      "summary": "In reply to Cornelis Vanistendael . Was Winnie found on a blustery day, I wonder?",
+      "publishedAt": "2026-11-06T14:25:34.000Z"
     }
   },
   "https://anderegg.ca/": {
@@ -3291,8 +3291,8 @@
     }
   },
   "https://www.robinsloan.com/lab/": {
-    "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-02T02:44:30.725Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.robinsloan.com/lab.xml"
   },
@@ -4527,14 +4527,14 @@
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "The Balloon Museum fills 13 rooms with bouncy artworks",
-      "url": "https://www.ianvisits.co.uk/articles/the-balloon-museum-fills-13-rooms-with-bouncy-artworks-93859/",
-      "summary": "A museum that is not a museum has opened in East London – as it’s really a bouncy playground for families. Read more ›",
-      "publishedAt": "2026-11-06T12:00:58.000Z"
+      "title": "Christmas jumpers from London’s museums and galleries",
+      "url": "https://www.ianvisits.co.uk/articles/christmas-jumpers-from-londons-museums-and-galleries-93191/",
+      "summary": "‘Tis fast approaching the season of sitting in front of your computer on a video call wearing nothing but a Christmas Jumper. Read more ›",
+      "publishedAt": "2026-11-06T14:00:06.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
@@ -4951,15 +4951,15 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-04T20:44:34.363Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
-      "title": "FULL METAL SASQUATCH from Filmmaker John Migliore",
-      "url": "https://www.horrorsociety.com/2026/11/04/full-metal-sasquatch-from-filmmaker-john-migliore/",
-      "summary": "An unstoppable, cybernetic super-Sasquatch fights off a deadly alien army that is preparing to invade Earth! Full Metal Sasquatch is an anything-goes collision of Bigfoot adventure, science fiction, …",
-      "publishedAt": "2026-11-04T19:32:49.000Z"
+      "title": "Rapture in Blue (Short Review)",
+      "url": "https://www.horrorsociety.com/2026/11/06/rapture-in-blue-short-review/",
+      "summary": "Director – Kacie Marie (The Flying Cowboy Rides Again, Who’s Sorry Now) Starring – Adam Ahlbrandt (Hunters, Catch of the Day), Kacie Marie, and Emmett O’Connor (Who’s Sorry Now, The Flying Cowboy Rid…",
+      "publishedAt": "2026-11-06T14:19:22.000Z"
     }
   },
   "https://www.oldstyletales.com/blog": {
@@ -5238,8 +5238,8 @@
   },
   "https://www.stuckinabook.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
-    "status": "success",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
+    "status": "unavailable",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
       "title": "Comment on #155: Narrators as Main Characters or Side Characters, and Gaining Ground vs The Book of Eve by Andrea S.",
@@ -5387,13 +5387,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/hell-be-back---enzo-maresca-reiterates-confidence-in-phil-foden-despite-latest-thomas-tuchel-snub",
-      "summary": "Manchester City manager Enzo Maresca has expressed complete confidence in Phil Foden, adding that he has a personal responsibility to help the playmaker return to his absolute best following another …",
-      "publishedAt": "2026-11-06T12:00:35.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-offers-behind-the-scenes-insight-on-gianluigi-donnarumma-reaction-to-mistakes-and-criticism",
+      "summary": "Manchester City manager Enzo Maresca has revealed Gianluigi Donnarumma is “relaxed” despite making frequent errors in recent weeks, which have threatened the club's strong start to the 2026/27 season.",
+      "publishedAt": "2026-11-06T13:30:24.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -5874,15 +5874,15 @@
     }
   },
   "https://www.creepypasta.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T14:44:37.609Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.creepypasta.com/feed/",
     "latestArticle": {
-      "title": "Eyeless Jack: The Story Behind the Mask",
-      "url": "https://www.creepypasta.com/eyeless-jack-the-story-behind-the-mask/",
-      "summary": "Can you imagine waking up at night only to find you have a completely fresh wound on your body? What’s worse, soon you find that one of your organs is missing, and to make things worse, there’s a str…",
-      "publishedAt": "2026-11-05T14:30:40.000Z"
+      "title": "The Void Must Be Fed",
+      "url": "https://www.creepypasta.com/the-void-must-be-fed/",
+      "summary": "The Void has been here for as long as I can remember. Growing up, I thought every house had one. It seemed like the most normal thing in the world, sitting at the back of my parents’ basement when I …",
+      "publishedAt": "2026-11-06T14:30:00.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -5911,26 +5911,26 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Ghirardelli Crispy Cookies",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/06/spotted-ghirardelli-crispy-cookies/",
-      "summary": "I’m surprised these cookies aren’t square-shaped and have a filling. (Spotted by Robbie at Walmart.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-11-06T12:00:00.000Z"
+      "title": "New Seasonal Foodstuffs Spotted — November 6, 2026",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/06/new-seasonal-foodstuffs-spotted-november-6-2026/",
+      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T14:44:37.609Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.cakewrecks.com/home?format=rss",
     "latestArticle": {
-      "title": "Against The Grain",
-      "url": "https://www.cakewrecks.com/home/against-the-grain-2026",
-      "summary": "Y'know... ...maybe the bride shouldn't have ordered a whole wheat wedding cake. Thanks to Sasha M., for helping us remember the first year is always the harvest hardest. ************* Update From Jen…",
-      "publishedAt": "2026-11-05T14:00:00.000Z"
+      "title": "A 30-Year-Old Spoiler & Powdered Holes",
+      "url": "https://www.cakewrecks.com/home/a-30-year-old-spoiler-amp-powdered-holes-2026",
+      "summary": "If you think I'm touching this one with a ten-foot-pole... Not. Saying. a WORD. Let's try something a little less potentially controversial, k? Like some nice, pastel yellow, powdered holes. Wait. Wh…",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -5980,14 +5980,14 @@
   },
   "https://loureviews.blog/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T11:26:59.966Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Voila! Theatre Festival review: naked",
-      "url": "https://loureviews.blog/2026/11/06/voila-theatre-festival-review-naked/",
-      "summary": "Rabbit Hole Ensemble’s naked, performed by Maggie Zhang and James Walsh, explores therapy, identity, intimacy, and cultural difference within a relationship approaching marriage. Combining English, C…",
-      "publishedAt": "2026-11-06T11:10:36.000Z"
+      "title": "Dance Umbrella review: The Odor of Elephants After The Rain / Gurumbe – Afro-Andalusian Memories",
+      "url": "https://loureviews.blog/2026/11/06/dance-umbrella-review-the-odor-of-elephants-after-the-rain-gurumbe-afro-andalusian-memories/",
+      "summary": "The article reviews two works from Dance Umbrella’s Digital Pass. The Odor of Elephants After The Rain portrays Beirut’s trauma and resilience through fragmented, increasingly urgent choreography wov…",
+      "publishedAt": "2026-11-06T14:06:21.000Z"
     }
   },
   "https://www.dailycartoonist.com/": {
@@ -6745,13 +6745,13 @@
   },
   "https://greek-metal-area.blogspot.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://greek-metal-area.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Schizoparanoic Platoon - Schizoparanoic Platoon",
-      "summary": "Genre : Black/Death Metal Year : 2011 1.The Black Plague 02:18 2.Your God Is Dead 01:49 3.Virgin Mary Hellfucked (Perversion of the holy cunt) 02:19 4.Death March 02:04 5.War Inside Your Brain 02:31 …",
-      "publishedAt": "2026-11-06T13:30:00.000Z"
+      "title": "Schizoparanoic Platoon - No Trace Of Human Life",
+      "summary": "Genre : Black/Death Metal Year : 2014 1. Lust for War 01:09 2. Conflagration 01:47 3. Total Holocaust 01:20 4. Virgin Mary Hellfucked 00:51 5. No Trace of Human Life 02:34 -DOWNLOAD-",
+      "publishedAt": "2026-11-06T14:09:00.000Z"
     }
   },
   "https://opinionatedgamers.com/": {
@@ -7096,26 +7096,26 @@
   },
   "https://www.thephoblographer.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T10:44:29.929Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "7 Canon DSLRs Behind Award-Winning Photos",
-      "url": "https://www.thephoblographer.com/2026/11/06/7-canon-dslrs-behind-award-winning-photos/",
-      "summary": "Older DSLRs like the Canon 5Ds R, 7D Mk II, 6D, 1D X, 5D Mark III, 5D Mk IV, 90D are still in the hands of photographers and winning awards. That proves that you don't need the newest gear at all. Ca…",
-      "publishedAt": "2026-11-06T10:00:00.000Z"
+      "title": "How Capture One is Looking to Replace Lightroom and Photoshop",
+      "url": "https://www.thephoblographer.com/2026/11/06/how-capture-one-is-looking-to-replace-lightroom-and-photoshop/",
+      "summary": "Capture One has been doing a lot of changes in the backend to improve their product ever since their price increases. And after lots of updates that catered to photojournalists and landscape photogra…",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Ghirardelli Crispy Cookies",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/06/spotted-ghirardelli-crispy-cookies/",
-      "summary": "I’m surprised these cookies aren’t square-shaped and have a filling. (Spotted by Robbie at Walmart.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-11-06T12:00:00.000Z"
+      "title": "New Seasonal Foodstuffs Spotted — November 6, 2026",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/06/new-seasonal-foodstuffs-spotted-november-6-2026/",
+      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
     }
   },
   "https://nstperfume.com/": {
@@ -7323,14 +7323,14 @@
   },
   "https://bigthink.com/strange-maps/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T07:44:33.359Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://bigthink.com/feed/",
     "latestArticle": {
-      "title": "Ask Ethan: Can you explain the Higgs boson in depth?",
-      "url": "https://bigthink.com/starts-with-a-bang/explain-higgs-boson-in-depth/",
-      "summary": "One of the great quests in all of science is to discover, at a fundamental level, what the Universe is actually made of. If you took every amount of matter and energy that existed — or even could exi…",
-      "publishedAt": "2026-11-06T07:00:00.000Z"
+      "title": "Dads are spending 3x more time with their kids",
+      "url": "https://bigthink.com/series/conversations/darby-saxbe-dad-brain/",
+      "summary": "Becoming a father physically changes a man’s brain — and the more caregiving he does, the more it changes. USC psychologist Darby Saxbe, author of Dad Brain, explains what that means for dads, partne…",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
     }
   },
   "https://www.designswarm.com/blog/": {
@@ -7455,8 +7455,8 @@
   },
   "https://distantarcade.co.uk/": {
     "lastPublished": "2026-10-23",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
-    "status": "success",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
+    "status": "unavailable",
     "feedUrl": "https://distantarcade.co.uk/feed/",
     "latestArticle": {
       "title": "Sonic 3 Unlocked: a mod that lets you play Sonic 3 with “modern sensibilities”",
@@ -7616,15 +7616,15 @@
     }
   },
   "https://cruisingwithbillandmaryann.blogspot.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T14:44:37.609Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://cruisingwithbillandmaryann.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Report #63--Monday, November 2, 2026--Huahine, French Polynesia--11am-5pm---Anchored Using Ships Tenders---Broken Clouds--79 Degrees--81% Humidity--9.3mph-Winds-----Casual Dress",
-      "url": "https://cruisingwithbillandmaryann.blogspot.com/2026/11/report-63-monday-november-2-2026.html",
-      "summary": "Today our port of all is Huahine, part of the Leeward Islands of the Society Islands. Nicknamed the Garden of Eden, the island of Huahine is known for their excellent fields for cultivating watermelo…",
-      "publishedAt": "2026-11-05T14:25:30.980Z"
+      "title": "Report #64--Tuesday, November 3, 2026--Uturoa, Raiatea, French Polynesia--Docked Port Side To Pier--8am-4:30pm---Rain--77 Degrees--84% Humidity--19.6mph-Winds----Casual Dress",
+      "url": "https://cruisingwithbillandmaryann.blogspot.com/2026/11/report-64-tuesday-november-3-2026.html",
+      "summary": "Well, here we are on our way to Raiatea, one of the Leeward Islands of The Society Islands. Specifically, we will be docking portside around 7am in the town of Uturoa, the administrative center of th…",
+      "publishedAt": "2026-11-06T14:24:41.170Z"
     }
   },
   "https://kruisingwithkurt.wordpress.com/": {
@@ -7896,15 +7896,15 @@
     }
   },
   "https://dcairns.wordpress.com/": {
-    "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-04T18:44:33.824Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://dcairns.wordpress.com/feed/",
     "latestArticle": {
-      "title": "McAllister’s Syndrome",
-      "url": "https://dcairns.wordpress.com/2026/11/04/mcallisters-syndrome/",
-      "summary": "So, I was initially excited about my acquisition of Doon the Watter, “A British Transport Film Classic,” a cheap second-hand DVD featuring three shorts, one of which, THE LAND OF ROBERT BURNS (1956),…",
-      "publishedAt": "2026-11-04T17:56:33.000Z"
+      "title": "The Death of Humphrey Jennings",
+      "url": "https://dcairns.wordpress.com/2026/11/06/the-death-of-humphrey-jennings/",
+      "summary": "I’ve published the incorrect facts in the fact of H. Jennings’s death at least twice, two different versions. Both have him alighting on a Greek island for a film recce. In one he falls from a cliff …",
+      "publishedAt": "2026-11-06T13:49:14.000Z"
     }
   },
   "https://hugoclub.blogspot.com/": {
@@ -7931,15 +7931,15 @@
     }
   },
   "https://kevquirk.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T11:44:30.357Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://kevquirk.com/feed/",
     "latestArticle": {
-      "title": "BAITED",
-      "url": "https://kevquirk.com/baited",
-      "summary": "BAITED Author: RR Haywood Genre: Thriller Released: 07 September 2026 Rating: ★★★★☆ Find Ollie Perkins. There’s just one problem. Mike isn’t allowed to ask anyone about him. He can’t say his name. He…",
-      "publishedAt": "2026-11-05T09:32:00.000Z"
+      "title": "Fairphone 1: Still going strong after 13 years",
+      "url": "https://kevquirk.com/fairphone-1-still-going-strong-after-13-years",
+      "summary": "Fairphone 1: Still going strong after 13 years by Fairphone The Fairphone team talk through two examples of where the original Fairphone 1 from back in 2013 are \"still very much in use\" , but I think…",
+      "publishedAt": "2026-11-06T14:45:00.000Z"
     }
   },
   "https://una.im/": {
@@ -8111,26 +8111,26 @@
   },
   "https://www.cleverdude.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "5 Things You Should Never Leave In Your Car During A Cold Winter Night",
-      "url": "https://www.cleverdude.com/content/5-things-you-should-never-leave-in-your-car-during-a-cold-winter-night/",
-      "summary": "Your car can handle a freezing night. Your belongings might have a different opinion. A vehicle sitting outside for hours can expose everything inside to temperatures far below what many household pr…",
-      "publishedAt": "2026-11-06T13:30:33.000Z"
+      "title": "Your Car’s Heater Blows Cold Air — 6 Possible Reasons",
+      "url": "https://www.cleverdude.com/content/your-cars-heater-blows-cold-air-6-possible-reasons/",
+      "summary": "A car heater has one job, and winter isn’t exactly the season to negotiate with it. Yet plenty of drivers turn the temperature dial to maximum, crank up the fan, and get a face full of air that feels…",
+      "publishedAt": "2026-11-06T14:14:22.000Z"
     }
   },
   "https://www.savingadvice.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Someone Knows the Last Four Digits of Your Social Security Number — Should You Worry?",
-      "url": "https://www.savingadvice.com/articles/2026/11/06/10764329_someone-knows-the-last-four-digits-of-your-social-security-number-should-you-worry.html",
-      "summary": "Four numbers shouldn’t be enough to steal someone’s identity, right? That’s what many Americans assume about the last four digits of their Social Security number,...",
-      "publishedAt": "2026-11-06T13:24:49.000Z"
+      "title": "Why Some Travelers Over 60 Are Rethinking the Way They Pack Medications",
+      "url": "https://www.savingadvice.com/articles/2026/11/06/10764335_why-some-travelers-over-60-are-rethinking-the-way-they-pack-medications.html",
+      "summary": "A lost suitcase is inconvenient when it contains clothing and toiletries, but it can become a medical problem when it contains the prescriptions you need...",
+      "publishedAt": "2026-11-06T14:09:52.000Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -8375,14 +8375,14 @@
   },
   "https://mtlcityweblog.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Weekend notes as November creeps in",
-      "url": "https://mtlcityweblog.com/2026/11/06/weekend-notes-as-november-creeps-in/",
-      "summary": "Weekend notes from Le Devoir, L’actualité’s Voir listing, free and cheap events in the Journal. Weekend driving blockages.",
-      "publishedAt": "2026-11-06T13:38:39.000Z"
+      "title": "Displaced by fire, now facing theft",
+      "url": "https://mtlcityweblog.com/2026/11/06/displaced-by-fire-now-facing-theft/",
+      "summary": "Families displaced by the fire in the St‑Michel apartment building are now coping with thieves entering the building and taking their things.",
+      "publishedAt": "2026-11-06T13:50:53.000Z"
     }
   },
   "https://artlung.com/blog/": {
@@ -8689,14 +8689,14 @@
     }
   },
   "https://www.rascal.news/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T23:44:32.408Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://www.rascal.news/rss/",
     "latestArticle": {
-      "url": "https://www.rascal.news/pro-patria-mori-expansion-out-on-kickstarter/",
-      "summary": "A tabletop roleplaying game set on a u-boat in the last days of World War 1.",
-      "publishedAt": "2026-11-05T23:00:00.000Z"
+      "url": "https://www.rascal.news/boardgame-ttrpg-hybrid-live-on-kickstarter/",
+      "summary": "One Thousand Rats Devour a City; a TTRPG boardgame of murine vengeance",
+      "publishedAt": "2026-11-06T14:00:00.000Z"
     }
   },
   "https://comicsdc.blogspot.com/": {
@@ -8765,15 +8765,15 @@
     }
   },
   "https://peaceful-threads.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-06T06:34:13.171Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://peaceful-threads.com/feed/",
     "latestArticle": {
-      "title": "Useful Uselessness",
-      "url": "https://peaceful-threads.com/2026/11/05/useful-uselessness/",
-      "summary": "I’m always thinking about creating. My future starts when I wake up every morning… Every day I find something creative to do with my life.Miles Davis ECWPHere’s your Thursday story challenge. Can you…",
-      "publishedAt": "2026-11-05T13:55:16.000Z"
+      "title": "Wasting Time",
+      "url": "https://peaceful-threads.com/2026/11/06/wasting-time/",
+      "summary": "I tend to not worry and waste time on hypotheticals.Jane O’Meara Sanders I looked at the options of challenges and said nope. Ain’t going there today so I am just going to stumble through another ins…",
+      "publishedAt": "2026-11-06T14:42:53.000Z"
     }
   },
   "https://thesquigglelinecafe.wordpress.com/": {
@@ -8897,15 +8897,15 @@
     }
   },
   "https://herdailydoses.wordpress.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-06T06:34:13.171Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://herdailydoses.wordpress.com/feed/",
     "latestArticle": {
-      "title": "CM",
-      "url": "https://herdailydoses.wordpress.com/2026/11/05/cm/",
-      "summary": "What’s a completely useless fact you love sharing? The Chief Minister of an ex- state married.He was married to a woman,divorced her and married another woman. This useless fact was shared so much on…",
-      "publishedAt": "2026-11-05T12:03:27.000Z"
+      "title": "Parents",
+      "url": "https://herdailydoses.wordpress.com/2026/11/06/parents-2/",
+      "summary": "How do you define success in life? If a wave of happiness flashes across our parents faces when they see us,we are successful. Today I saw a friend crying, remembering his mother whose death annivers…",
+      "publishedAt": "2026-11-06T14:35:08.000Z"
     }
   },
   "https://john3265.wordpress.com/": {
@@ -9352,15 +9352,15 @@
     }
   },
   "https://writingwrongs.blog/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-06T08:23:26.420Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://writingwrongs.blog/feed/",
     "latestArticle": {
-      "title": "30 Days of Bookish Gratitude: Booking Through Thursday",
-      "url": "https://writingwrongs.blog/2026/11/05/30-days-of-bookish-gratitude-booking-through-thursday/",
-      "summary": "Today, I’m grateful for Booking Through Thursday, both the original meme hosted by Deb and everyone who has been playing along for nearly a year now. Whether you stop by every week, when the mood hit…",
-      "publishedAt": "2026-11-05T14:30:00.000Z"
+      "title": "30 Days of Bookish Gratitude: Emma M Lion",
+      "url": "https://writingwrongs.blog/2026/11/06/30-days-of-bookish-gratitude-emma-m-lion/",
+      "summary": "Building on yesterday’s post about books and book discovery, I am very grateful I stumbled upon The Unselected Journals of Emma M. Lion by Beth Brower. I’m not even sure how I stumbled across them, b…",
+      "publishedAt": "2026-11-06T14:30:00.000Z"
     }
   },
   "https://lucciagray.com/": {
@@ -9389,26 +9389,26 @@
   },
   "https://mymindmappings.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T11:26:59.966Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "Fandango’s Flashback Friday — November 6th",
-      "url": "https://mymindmappings.com/2026/11/06/fandangos-flashback-friday-november-6th/",
-      "summary": "This was originally posted on November 6, 2018. Page 62, Line 6 Teresa, aka, The Haunted Wordsmith, challenged us to “open a book — any book — to page 62 (physical or ebook) and copy line 6. Then use…",
-      "publishedAt": "2026-11-06T11:11:00.000Z"
+      "title": "Friday Fictioneers — Make It Flow Blue",
+      "url": "https://mymindmappings.com/2026/11/06/friday-fictioneers-make-it-flow-blue/",
+      "summary": "Gerald from facility services got the call at six Wednesday morning. “Make the water in the fountain blue.” By evening, forty gallons of food dye turned the fountain water a bright blue, lighting up …",
+      "publishedAt": "2026-11-06T14:31:00.000Z"
     }
   },
   "https://pvcann.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-06T08:34:31.032Z",
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://pvcann.com/feed/",
     "latestArticle": {
-      "title": "I always have a dream – haibun by Paul Vincent Cannon",
-      "url": "https://pvcann.com/2026/11/05/i-always-have-a-dream-haibun-by-paul-vincent-cannon/",
-      "summary": "Photo by Sincerely Media on Unsplash I always have a dream An ongoing outworking of Jung work is colour in dreams. Take blue for instance, it is said to be the colour of harmony, tranquility, peace a…",
-      "publishedAt": "2026-11-05T15:08:30.000Z"
+      "title": "The Rake Handle – a poem by Paul Vincent Cannon",
+      "url": "https://pvcann.com/2026/11/06/the-rake-handle-a-poem-by-paul-vincent-cannon/",
+      "summary": "At dVerse Grace hosting Open Link Night, the night we choose a poem to post. dVerse Poets – OLN Photo: verywellhealth.com The Rake HandleI love a bloom,stem buds risein colourand beauty for a seasont…",
+      "publishedAt": "2026-11-06T14:45:11.000Z"
     }
   },
   "https://lillianthehomepoet.com/": {
@@ -9425,14 +9425,14 @@
   },
   "https://talkingupscotlandtwo.com/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T10:44:29.929Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://talkingupscotlandtwo.com/feed/",
     "latestArticle": {
-      "title": "More nonsense from the Herald as they begin the process of demonising the latest SNP CEO on anti-abortion groups at the National Conference",
-      "url": "https://talkingupscotlandtwo.com/2026/11/06/more-nonsense-from-the-herald-as-they-begin-the-process-of-demonising-the-latest-snp-ceo-on-anti-abortion-groups-at-the-national-conference/",
-      "summary": "On the front page in the Herald today, a story going nowhere. They tried to make much of it, front page and bigger on October 12: and: This is nonsense, the Herald knows it’s nonsense and so will the…",
-      "publishedAt": "2026-11-06T10:21:19.000Z"
+      "title": "Grooming readers and viewers to believe in grooming gangs in Scotland",
+      "url": "https://talkingupscotlandtwo.com/2026/11/06/grooming-readers-and-viewers-to-believe-in-grooming-gangs-in-scotland/",
+      "summary": "They all use the term ‘grooming gangs’ so what’s wrong with that? Well, the inquiry inquiry terms of reference do not, ever, use either word: Child sexual abuse and exploitation: Jay Inquiry: The aim…",
+      "publishedAt": "2026-11-06T14:47:43.000Z"
     }
   },
   "https://cloakinginequity.com/": {
@@ -10158,14 +10158,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastChecked": "2026-11-06T14:44:30.295Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "XRP Ledger activates fix for burn permission token flaw",
-      "url": "https://cryptonews.mobile/brief/xrp-ledger-activates-fix-for-burn-permission-token-flaw",
-      "summary": "The XRP Ledger activated the fixCleanup3_4_0 amendment on November 4 at 14:52 UTC in ledger 108,112,129. The fix closes a flaw in the PaymentBurn permission, which lets a delegate destroy tokens for …",
-      "publishedAt": "2026-11-06T12:10:08.000Z"
+      "title": "StockFi plans U.S. stock tokenization on BSC starting with first offering",
+      "url": "https://cryptonews.mobile/brief/stockfi-plans-us-stock-tokenization-on-bsc-starting-with-first-offering",
+      "summary": "StockFi is developing a U.S. stock tokenization platform built on BSC. The platform plans to begin with its first stock offering, then develop asset onboarding, token issuance, trading environments a…",
+      "publishedAt": "2026-11-06T14:16:08.000Z"
     }
   },
   "https://usefreetools.net/": {

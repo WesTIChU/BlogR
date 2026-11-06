@@ -9481,5 +9481,52 @@
     "lastChecked": "2026-11-04T11:31:51.830Z",
     "status": "unknown",
     "feedUrl": "https://uogorod.ru/feed"
+  },
+  "https://comicsdc.blogspot.com/": {
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T06:12:39.337Z",
+    "status": "success",
+    "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Comics Research Bibliography citations update, 11/5/2026",
+      "url": "https://comicsdc.blogspot.com/2026/11/comics-research-bibliography-citations_026874504.html",
+      "summary": "Chiu-Tabet, Christopher. 2026. Criminal Teaser Trailer Drops. The Beat (November 5): https://www.comicsbeat.com/criminal-teaser-trailer/ Toxic Nick. 2026. Toxic Nick Talks w/ Mark Millar! Toxic Nick …",
+      "publishedAt": "2026-11-06T04:45:08.273Z"
+    }
+  },
+  "https://www.nationalelfservice.net/": {
+    "lastPublished": "2026-11-06",
+    "lastChecked": "2026-11-06T06:12:39.337Z",
+    "status": "success",
+    "feedUrl": "https://www.nationalelfservice.net/feed/",
+    "latestArticle": {
+      "title": "Mood instability in autism and ADHD: more contacts with services",
+      "url": "https://www.nationalelfservice.net/mental-health/adhd/mood-instability-in-autism-and-adhd-more-contacts-with-services/",
+      "summary": "This study of 21,906 children and young people in South London found that mood instability at diagnosis was linked to more contact with mental health services, especially in young people with ADHD wi…",
+      "publishedAt": "2026-11-06T05:00:54.000Z"
+    }
+  },
+  "https://www.ls31.com/": {
+    "lastPublished": "2026-11-05",
+    "lastChecked": "2026-11-06T06:12:39.337Z",
+    "status": "success",
+    "feedUrl": "https://www.ls31.com/rss.xml",
+    "latestArticle": {
+      "title": "How to Develop Emotional Maturity: A Practical Guide for Real Life",
+      "summary": "How to Develop Emotional Maturity: A Practical Guide for Real Life There's a moment that happens in a lot of relationships. One person says something small—a comment about money, a sigh about the dis…",
+      "publishedAt": "2026-11-05T08:21:29.000Z"
+    }
+  },
+  "https://opensource-analytics.com/": {
+    "lastPublished": "2026-08-07",
+    "lastChecked": "2026-11-06T06:12:39.337Z",
+    "status": "success",
+    "feedUrl": "https://opensource-analytics.com/feed/",
+    "latestArticle": {
+      "title": "Matomo Heatmaps: How They Work and What They Cost",
+      "url": "https://opensource-analytics.com/matomo-heatmaps/",
+      "summary": "Matomo’s core is GPL. Its heatmaps are not. Heatmap & Session Recording is a premium plugin published under the InnoCraft EULA, sold as a yearly... The post Matomo Heatmaps: How They Work and What Th…",
+      "publishedAt": "2026-08-07T07:25:15.000Z"
+    }
   }
 }

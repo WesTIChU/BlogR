@@ -1412,6 +1412,17 @@
       "publishedAt": "2026-10-30T15:00:00.000Z"
     }
   },
+  "https://comicsdc.blogspot.com/": {
+    "status": "success",
+    "lastPublished": "2026-11-06",
+    "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
+    "latestArticle": {
+      "title": "Comics Research Bibliography citations update, 11/5/2026",
+      "url": "https://comicsdc.blogspot.com/2026/11/comics-research-bibliography-citations_026874504.html",
+      "summary": "Chiu-Tabet, Christopher. 2026. Criminal Teaser Trailer Drops. The Beat (November 5): https://www.comicsbeat.com/criminal-teaser-trailer/ Toxic Nick. 2026. Toxic Nick Talks w/ Mark Millar! Toxic Nick …",
+      "publishedAt": "2026-11-06T04:45:08.273Z"
+    }
+  },
   "https://comicss.art/": {
     "status": "success",
     "lastPublished": "2026-11-02",
@@ -4222,6 +4233,17 @@
       "url": "https://openpi.uk/blog/raspberry-pi-vaultwarden/",
       "summary": "Run Vaultwarden on Raspberry Pi with Docker Compose. Host a lightweight Bitwarden password vault, configure HTTPS, and manage automated encrypted backups.",
       "publishedAt": "2026-09-11T00:00:00.000Z"
+    }
+  },
+  "https://opensource-analytics.com/": {
+    "status": "success",
+    "lastPublished": "2026-08-07",
+    "feedUrl": "https://opensource-analytics.com/feed/",
+    "latestArticle": {
+      "title": "Matomo Heatmaps: How They Work and What They Cost",
+      "url": "https://opensource-analytics.com/matomo-heatmaps/",
+      "summary": "Matomo’s core is GPL. Its heatmaps are not. Heatmap & Session Recording is a premium plugin published under the InnoCraft EULA, sold as a yearly... The post Matomo Heatmaps: How They Work and What Th…",
+      "publishedAt": "2026-08-07T07:25:15.000Z"
     }
   },
   "https://opinionatedgamers.com/": {
@@ -7332,6 +7354,16 @@
       "publishedAt": "2026-10-27T11:21:30.000Z"
     }
   },
+  "https://www.ls31.com/": {
+    "status": "success",
+    "lastPublished": "2026-11-05",
+    "feedUrl": "https://www.ls31.com/rss.xml",
+    "latestArticle": {
+      "title": "How to Develop Emotional Maturity: A Practical Guide for Real Life",
+      "summary": "How to Develop Emotional Maturity: A Practical Guide for Real Life There's a moment that happens in a lot of relationships. One person says something small—a comment about money, a sigh about the dis…",
+      "publishedAt": "2026-11-05T08:21:29.000Z"
+    }
+  },
   "https://www.madornomad.com/": {
     "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
@@ -7402,6 +7434,17 @@
       "url": "https://www.mrsmummypenny.co.uk/why-do-small-business-owners-still-waste-their-best-hours/",
       "summary": "Nobody starts a business so they can spend half the day sorting invoices and replying to emails, but that’s where most of the time ends up going. Starling Bank ran a study of over 1,000 UK micro-busi…",
       "publishedAt": "2026-11-05T09:38:36.000Z"
+    }
+  },
+  "https://www.nationalelfservice.net/": {
+    "status": "success",
+    "lastPublished": "2026-11-06",
+    "feedUrl": "https://www.nationalelfservice.net/feed/",
+    "latestArticle": {
+      "title": "Mood instability in autism and ADHD: more contacts with services",
+      "url": "https://www.nationalelfservice.net/mental-health/adhd/mood-instability-in-autism-and-adhd-more-contacts-with-services/",
+      "summary": "This study of 21,906 children and young people in South London found that mood instability at diagnosis was linked to more contact with mental health services, especially in young people with ADHD wi…",
+      "publishedAt": "2026-11-06T05:00:54.000Z"
     }
   },
   "https://www.neatorama.com/": {

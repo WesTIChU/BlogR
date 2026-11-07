@@ -1,19 +1,23 @@
 ---
 title: Sweden Blogs
-description: 3 blogs listed in Sweden.
+description: 4 blogs listed in Sweden.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇸🇪" name="Sweden" :count="3" />
+<CountryDirectoryHeader flag="🇸🇪" name="Sweden" :count="4" />
 
 ## Arts & Entertainment
 
 ### Gaming
 
 * <span class="blog-entry"><BlogHealthLink name="The Swedish Games" url="https://theswedishgames.wordpress.com/" /> - Articles exploring Swedish video game history, developers and gaming culture, looking at games and the people behind them.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://theswedishgames.wordpress.com/" data-blog-name="The Swedish Games"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://theswedishgames.wordpress.com/feed/" target="_blank" rel="noopener noreferrer" title="RSS feed for The Swedish Games" aria-label="RSS feed for The Swedish Games"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/sweden" aria-label="Based in Sweden"><span class="blog-country-flag" aria-hidden="true">🇸🇪</span> Sweden</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;9 October 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-4ec9373407582794b312573d56dd3b67" website-url="https://theswedishgames.wordpress.com/" website-name="The Swedish Games" /></span>
+
+### Photography & Street Art
+
+* <span class="blog-entry"><BlogHealthLink name="UlleHaddock" url="https://ullehaddock.com/" /> - Photography, poetry, travel and nature writing from Sweden’s north-west coast.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://ullehaddock.com/" data-blog-name="UlleHaddock"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://ullehaddock.com/feed/" target="_blank" rel="noopener noreferrer" title="RSS feed for UlleHaddock" aria-label="RSS feed for UlleHaddock"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/sweden" aria-label="Based in Sweden"><span class="blog-country-flag" aria-hidden="true">🇸🇪</span> Sweden</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;7 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-083f7469e75a183bafa15ceb6af441ef" website-url="https://ullehaddock.com/" website-name="UlleHaddock" /></span>
 
 ## Personal Writing
 

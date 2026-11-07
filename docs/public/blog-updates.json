@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -920,7 +920,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1679,9 +1679,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-31",
-    "feedUrl": "https://chrislt.nz/feed/",
+    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
     "latestArticle": {
       "title": "City on a hill",
       "url": "https://chrislt.nz/city-on-a-hill/",
@@ -2554,7 +2554,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2949,7 +2949,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3793,7 +3793,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4623,13 +4623,13 @@
   },
   "https://lwn.net/": {
     "status": "success",
-    "lastPublished": "2026-11-06",
+    "lastPublished": "2026-11-07",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "Videos from XDC 2026 are available",
-      "url": "https://lwn.net/Articles/1105913/",
-      "summary": "Videos from the 2026 X.Org Developers Conference (XDC) are now available on YouTube . XDC was held in Toronto, Ontario, Canada September 28-30.",
-      "publishedAt": "2026-11-06T20:25:22.000Z"
+      "title": "Amutable Foundations: A Technical Overview",
+      "url": "https://lwn.net/Articles/1105934/",
+      "summary": "Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together a detailed overview of what the Amutable Operating System (AOS) and associated infrastructure will look like. The image-based OS …",
+      "publishedAt": "2026-11-07T09:32:56.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -7376,13 +7376,13 @@
   },
   "https://takeiteasyblog.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-05",
+    "lastPublished": "2026-11-07",
     "feedUrl": "https://takeiteasyblog.uk/feed/",
     "latestArticle": {
-      "title": "Songs For Bonfire Night",
-      "url": "https://takeiteasyblog.uk/2026/11/05/songs-for-bonfire-night/",
-      "summary": "Last week saw Halloween which, although it is a much smaller deal here than in the US, I marked with a few tunes. Tonight it is our turn for the longstanding tradition of Guy Fawkes Night, or Bonfire…",
-      "publishedAt": "2026-11-05T10:54:42.000Z"
+      "title": "In Remembrance",
+      "url": "https://takeiteasyblog.uk/2026/11/07/in-remembrance/",
+      "summary": "Here in the UK tomorrow sees our annual Remembrance Sunday, the day on which we remember and thank those who made the ultimate sacrifice to protect our freedom. I have posted for this every year sinc…",
+      "publishedAt": "2026-11-07T09:46:04.000Z"
     }
   },
   "https://talesofonecity.wordpress.com/": {
@@ -7660,13 +7660,13 @@
   },
   "https://thecelticstar.com/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-05",
     "feedUrl": "https://thecelticstar.com/feed/",
     "latestArticle": {
-      "title": "O’Neill says Durán is on fire but backs Hogh to end goal drought before Kilmarnock",
-      "url": "https://thecelticstar.com/oneill-says-duran-is-on-fire-but-backs-hogh-to-end-goal-drought-before-kilmarnock/",
-      "summary": "Martin O'Neill says Camilo Durán is on fire after his Beşiktaş double, backs Kasper Hogh despite 15 games without a goal and has Carter-Vickers assessed. The post O’Neill says Durán is on fire but ba…",
-      "publishedAt": "2026-11-07T09:01:59.000Z"
+      "title": "O’Neill says results alone decide his future as pointless Celtic face Beşiktaş",
+      "url": "https://thecelticstar.com/oneill-says-results-alone-decide-his-future-as-pointless-celtic-face-besiktas/",
+      "summary": "Martin O'Neill says results, not meetings with supporters, will decide his future as Celtic manager. His side host Beşiktaş with no Europa League points and few matches left to rescue the league phas…",
+      "publishedAt": "2026-11-05T07:18:29.000Z"
     }
   },
   "https://thechels.uk/": {
@@ -8226,7 +8226,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -8411,13 +8411,13 @@
   },
   "https://trendsfaq.com/": {
     "status": "success",
-    "lastPublished": "2026-10-30",
+    "lastPublished": "2026-11-07",
     "feedUrl": "https://trendsfaq.com/rss.xml",
     "latestArticle": {
-      "title": "Games Shutting Down in January 2027: Dates, Offline, Refunds",
-      "url": "https://trendsfaq.com/games/games-shutting-down-january-2027/",
-      "summary": "Five games shut down in January 2027, from NBA 2K25 on Jan 1 to New World on Jan 31. Official dates, offline play and refund rules for each.",
-      "publishedAt": "2026-10-30T00:00:00.000Z"
+      "title": "Surface Pro 7+ End of Support Jan 15, 2027: What Stops",
+      "url": "https://trendsfaq.com/tech/surface-pro-7-plus-end-of-support-january-2027/",
+      "summary": "Surface Pro 7+ driver and firmware updates end January 15, 2027. Windows updates continue separately. See what stops, what continues, and related dates.",
+      "publishedAt": "2026-11-07T00:00:00.000Z"
     }
   },
   "https://tripsofamathtutor.wordpress.com/": {
@@ -8432,7 +8432,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -8507,13 +8507,13 @@
   },
   "https://uniqueguitar.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-26",
+    "lastPublished": "2026-11-07",
     "feedUrl": "https://uniqueguitar.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Rick Neilsen Collection Auction  - Julien's Auctions October 24th, 2026",
-      "url": "https://uniqueguitar.blogspot.com/2026/10/the-rick-neilsen-collection-auction.html",
-      "summary": "Rick Nielsen On October 24th Juliens’s Auctions opened bids for over 200 guitars and assorted memorabilia owned by Rick Nielsen, the guitarist for the band Cheap Trick. Huntz Hall Nielsen, who has ta…",
-      "publishedAt": "2026-10-26T00:29:46.426Z"
+      "title": "Subway Guitars; Rest in Peace Fat Dog",
+      "url": "https://uniqueguitar.blogspot.com/2026/11/subway-guitars-rest-in-peace-fat-dog.html",
+      "summary": "Free Speech Movement UC Berkeley In the mid-1960’s Berkeley California was transformed from a relatively peaceful community to a hotbed of political upheaval. The University of California campus beca…",
+      "publishedAt": "2026-11-07T09:43:10.087Z"
     }
   },
   "https://unsolicitedfeedback.blog/": {
@@ -8569,13 +8569,13 @@
   },
   "https://viewfromtheback.com/": {
     "status": "success",
-    "lastPublished": "2026-11-06",
+    "lastPublished": "2026-11-07",
     "feedUrl": "https://viewfromtheback.com/feed/",
     "latestArticle": {
-      "title": "Friday’s Tall Tales #171",
-      "url": "https://viewfromtheback.com/2026/11/06/fridays-tall-tales-171/",
-      "summary": "Whenever I photograph a door or gate I wonder about its provenance, who and what has happened across said door or gate, and what lies beyond. I thought I might pick one from my sextet of Thursday’s D…",
-      "publishedAt": "2026-11-06T16:56:00.000Z"
+      "title": "Sheree’s Shout-Outs: Lyssy",
+      "url": "https://viewfromtheback.com/2026/11/07/sherees-shout-outs-2/",
+      "summary": "I cannot take credit for these posts as the idea was firmly planted by Richard Bist but, once planted, it took root, and flourished. Consequently, once a month I’m throwing a light on one of my regul…",
+      "publishedAt": "2026-11-07T09:41:11.000Z"
     }
   },
   "https://vintagebuses.org/": {
@@ -8668,9 +8668,9 @@
     "lastPublished": "2026-11-07",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/173789/the-daily-hilario-open-wide-for-some-soccer",
-      "summary": "Matchweek 10 is upon us in the Premier League — Everton beat Frank Lampard’s Coventry City last night, 3-1, to get it started already — and it’s the last one for a couple weeks as the international b…",
-      "publishedAt": "2026-11-07T08:19:13.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/173795/how-should-chelsea-line-up-away-against-sunderland",
+      "summary": "Chelsea’s final game before the international break is an away trip to Wearside, to take on the bottom team in the Premier League, Sunderland. The Blues are coming off a promising win against Manches…",
+      "publishedAt": "2026-11-07T09:29:32.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -8947,7 +8947,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -9593,7 +9593,7 @@
     }
   },
   "https://www.jpaul.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://www.jpaul.me/feed/",
     "latestArticle": {
@@ -9642,7 +9642,7 @@
     }
   },
   "https://www.librarian.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-26",
     "feedUrl": "https://www.librarian.net/comments/feed/",
     "latestArticle": {
@@ -9678,7 +9678,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -9763,7 +9763,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/rss.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -10014,7 +10014,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

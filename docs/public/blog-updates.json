@@ -366,7 +366,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1123,7 +1123,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1900,7 +1900,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2257,7 +2257,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -5168,7 +5168,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6039,13 +6039,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-11-06",
+    "lastPublished": "2026-11-07",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In Mario + Rabbids Sparks of Hope, many of the original Rabbid characters are not in fact modeled&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/832575438447640576",
-      "summary": "In Mario + Rabbids Sparks of Hope, many of the original Rabbid characters are not in fact modeled from scratch, but are instead based on default Rabbid models that were morphed slightly to achieve th…",
-      "publishedAt": "2026-11-06T22:56:52.000Z"
+      "title": "2001 promotional pack of playing cards for the 20th anniversary of Mario, distributed by the&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/832583553712816128",
+      "summary": "2001 promotional pack of playing cards for the 20th anniversary of Mario, distributed by the Japanese Nintendo Dream magazine. The cards are completely ordinary except for the back (left) and the Jok…",
+      "publishedAt": "2026-11-07T01:05:51.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -6148,7 +6148,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -7638,7 +7638,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -8443,7 +8443,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",

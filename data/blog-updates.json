@@ -1779,8 +1779,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T13:44:31.969Z",
-    "status": "success",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Theft of Openreach’s UK broadband cables in Bedfordshire disrupts M1 traffic signs",
@@ -2481,15 +2481,15 @@
     }
   },
   "https://marcschuster.com/blog/": {
-    "lastPublished": "2026-10-25",
-    "lastChecked": "2026-10-25T14:44:28.946Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://marcschuster.com/feed/",
     "latestArticle": {
-      "title": "Plush Gordon: Stayin’ Alive?",
-      "url": "https://marcschuster.com/2026/10/25/plush-gordon-stayin-alive/",
-      "summary": "Quite a while back, I was releasing music under the name Plush Gordon. It was kind of a band, kind of a solo project, kind of a thing where whoever was playing with me was part of the band even thoug…",
-      "publishedAt": "2026-10-25T13:54:43.000Z"
+      "title": "For My Audio-Geek Friends: Optical Compressor or Optical Illusion?",
+      "url": "https://marcschuster.com/2026/11/07/for-my-audio-geek-friends-optical-compressor-or-optical-illusion/",
+      "summary": "Quick post for my audio-geek friends… The following clip keeps showing up in my YouTube feed, and it catches my eye every time–not for what it’s about, but for what it looks like as I’m scrolling by:…",
+      "publishedAt": "2026-11-07T15:32:07.000Z"
     }
   },
   "https://whereweretheynow.blogspot.com/": {
@@ -2647,15 +2647,15 @@
     }
   },
   "https://deepcuts.blog/posts/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T12:44:30.086Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://deepcuts.blog/feed/",
     "latestArticle": {
-      "title": "Lost Tale: “Three Lines of Old Martian” (1953) by Henry Hasse",
-      "url": "https://deepcuts.blog/2026/10/31/lost-tale-three-lines-of-old-martian-1953-by-henry-hasse/",
-      "summary": "Henry Hasse was a science fiction fan and writer; some of his early work includes Cthulhu Mythos fiction such as “The Guardian of the Book” (Weird Tales Mar 1937) and “Horror at Vecra” (The Acolyte, …",
-      "publishedAt": "2026-10-31T12:44:40.000Z"
+      "title": "The Early Fiction of Farnsworth Wright",
+      "url": "https://deepcuts.blog/2026/11/07/the-early-fiction-of-farnsworth-wright/",
+      "summary": "Farnsworth Wright (1888–1940) will forever be associated with Weird Tales and its sister magazine Oriental Stories (later The Magic Carpet Magazine). He helmed the Unique Magazine from 1924 until sho…",
+      "publishedAt": "2026-11-07T15:30:10.000Z"
     }
   },
   "https://stephenbodio.com/": {
@@ -2994,13 +2994,13 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T12:44:33.089Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173802/chelsea-fcw-vs-everton-fcw-womens-super-league-confirmed-lineups-how-to-watch",
-      "summary": "Chelsea Women are currently leading the Women’s Super League thanks to goal difference, with Manchester City now chasing after us. The least we could today against Everton, who do have a good defensi…",
-      "publishedAt": "2026-11-07T11:48:59.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/173770/chelsea-fcw-vs-everton-fcw-womens-super-league-preview-team-news-how-to-watch",
+      "summary": "Chelsea Women return to Stamford Bridge tomorrow to face an Everton side responsible for one of our rare league defeats last season. The Blues have been in excellent attacking form in recent weeks, b…",
+      "publishedAt": "2026-11-07T00:11:53.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3035,8 +3035,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3311,8 +3311,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3341,8 +3341,8 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
@@ -3370,15 +3370,15 @@
     }
   },
   "https://gregalder.com/yardposts/": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T16:44:31.357Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://gregalder.com/yardposts/feed/",
     "latestArticle": {
-      "title": "Teaching your kids to grow food",
-      "url": "https://gregalder.com/yardposts/teaching-your-kids-to-grow-food/",
-      "summary": "I’ve made a lot of mistakes in my attempts to teach my kids to grow food over the last dozen years, and it is through these mistakes that I’ve learned nine ways to do it better. They might not work f…",
-      "publishedAt": "2026-10-31T16:11:50.000Z"
+      "title": "Reading avocado leaves",
+      "url": "https://gregalder.com/yardposts/reading-avocado-leaves/",
+      "summary": "It was my first avocado tree’s first winter when a couple leaves started getting yellow veins. Oh no, what disease is this? I thought. I took a picture and sent it to a seasoned avocado grower. He wr…",
+      "publishedAt": "2026-11-07T15:07:17.000Z"
     }
   },
   "https://adamapples.blogspot.com/": {
@@ -4289,14 +4289,14 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "I Play Rocky: Anthony Ippolito on His Transformation into Sylvester Stallone",
-      "url": "https://www.themovieblog.com/2026/11/i-play-rocky-anthony-ippolito-transformation-sylvester-stallone/",
-      "summary": "Anthony Ippolito shares his experience portraying Sylvester Stallone in the new film I Play Rocky, detailing his own journey to land the iconic role. The post I Play Rocky: Anthony Ippolito on His Tr…",
-      "publishedAt": "2026-11-07T14:36:00.000Z"
+      "title": "Takashi Yamazaki Weighs in on Potential Third Godzilla Film",
+      "url": "https://www.themovieblog.com/2026/11/takashi-yamazaki-weighs-in-on-potential-third-godzilla-film/",
+      "summary": "Director Takashi Yamazaki reveals he is currently fifty-fifty on returning for a third Godzilla film as he looks toward his upcoming project, Grandgear. The post Takashi Yamazaki Weighs in on Potenti…",
+      "publishedAt": "2026-11-07T15:12:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4425,15 +4425,15 @@
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://susan-stepney.blogspot.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T18:24:35.189Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://susan-stepney.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "going, going, half gone",
-      "url": "https://susan-stepney.blogspot.com/2026/10/going-going-half-gone.html",
-      "summary": "A huge tree has been getting huger and huger. Nothing grows in the corner of our garden that it overshadows. 9:30 am (for scale, the \"hedge\" being dwarfed on the right is nearly 10 ft high...) But it…",
-      "publishedAt": "2026-10-19T21:00:00.000Z"
+      "title": "going, going, all gone",
+      "url": "https://susan-stepney.blogspot.com/2026/10/going-going-all-gone.html",
+      "summary": "The tree removal continued today. 9:40 - only one side remains 11:20 - getting shorter, not just thinner noon - nearly gone! 1:20 - only a bit of the trunk remains It's now feeling very strange: ther…",
+      "publishedAt": "2026-10-20T21:00:00.000Z"
     }
   },
   "https://www.newsfromme.com/": {
@@ -4540,8 +4540,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4570,14 +4570,14 @@
   },
   "https://pulpcovers.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T02:44:33.087Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "The Leopard’s Lair",
-      "url": "https://pulpcovers.com/the-leopards-lair/",
+      "title": "Detective Story, September 1937",
+      "url": "https://pulpcovers.com/detective-story-september-1937/",
       "summary": "via",
-      "publishedAt": "2026-11-07T02:22:21.000Z"
+      "publishedAt": "2026-11-07T15:22:50.000Z"
     }
   },
   "https://www.righto.com/": {
@@ -5161,8 +5161,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5387,13 +5387,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/algeria-manager-explains-rayan-ait-nouri-absence-from-afcon-qualifiers-amid-manchester-city-woes",
-      "summary": "Manchester City defender Rayan Ait-Nouri has been excluded from the latest Algeria squad by manager Brahim Hemdani for the November AFCON qualifier fixtures.",
-      "publishedAt": "2026-11-07T14:00:47.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/manchester-city-set-to-welcome-bahia-academy-trio-in-city-football-group-exchange-programme",
+      "summary": "Manchester City will be receiving three promising Brazilian young talents - Leonidas, Daniel David and Lyan - from Esporte Clube Bahia for a two-week training spell later this month.",
+      "publishedAt": "2026-11-07T15:00:38.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -5720,14 +5720,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Save 20% on a LEGO set that could be huge after Avengers: Doomsday",
-      "url": "https://www.brickfanatics.com/save-20-lego-that-could-be-huge-avengers-doomsday",
-      "summary": "Don't underestimate the little guy",
-      "publishedAt": "2026-11-07T14:03:28.000Z"
+      "title": "LEGO Star Trek's rumoured $80 set could fix the theme's biggest problem",
+      "url": "https://www.brickfanatics.com/lego-star-trek-rumoured-set-could-fix-themes-issue",
+      "summary": "Live long and spend a little less",
+      "publishedAt": "2026-11-07T14:39:24.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -6372,8 +6372,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6384,14 +6384,14 @@
   },
   "https://bits.gobino.be/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://bits.gobino.be/posts_feed",
     "latestArticle": {
-      "title": "📷 294/365 - Looking in...",
-      "url": "https://bits.gobino.be/posts/2026-11-07-294365-looking",
-      "summary": "📷 294/365 - Looking in. Shot with Halide, which unfortunately isn't very good in low light situations.",
-      "publishedAt": "2026-11-07T14:01:45.000Z"
+      "title": "📨 I love my unlimited email aliases and...",
+      "url": "https://bits.gobino.be/posts/2026-11-07-i-love-my",
+      "summary": "📨 I love my unlimited email aliases and catch-all feature, as a way to protect my real email adres. But other people are not really used to it. “ Wait, so your email is “myshop” at your custom domain…",
+      "publishedAt": "2026-11-07T15:00:05.000Z"
     }
   },
   "https://marblethoughts.bearblog.dev/": {
@@ -7047,8 +7047,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Photo essay: see what is left",
@@ -7118,15 +7118,15 @@
     }
   },
   "https://nstperfume.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T16:44:30.018Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "The almost-daily lemming",
-      "url": "https://nstperfume.com/2026/11/06/the-almost-daily-lemming-174/",
-      "summary": "From Cereria Molla, the Gingerbread Madeleine candle: \"Sweet Spiced Christmas! A fragrance that wraps you in fresh citrus and warm spices, blending with the sweetness of icing sugar, cinnamon, and me…",
-      "publishedAt": "2026-11-06T16:19:07.000Z"
+      "title": "Carner Barcelona Choco Late ~ new fragrance",
+      "url": "https://nstperfume.com/2026/11/07/carner-barcelona-choco-late-new-fragrance/",
+      "summary": "Spanish niche brand Carner Barcelona has launched Choco Late, a new limited edition gourmand fragrance for Holiday 2026...",
+      "publishedAt": "2026-11-07T15:15:52.000Z"
     }
   },
   "https://www.askamanager.org/": {
@@ -7441,15 +7441,15 @@
     }
   },
   "https://nikhil.bearblog.dev/blog/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T15:44:34.112Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://nikhil.bearblog.dev/feed/",
     "latestArticle": {
-      "title": "Your Mind Loves Routine",
-      "url": "https://nikhil.bearblog.dev/your-mind-loves-routine/",
-      "summary": "We all know that a plan followed for a decade can change our lives dramatically for the better. It works for health, wealth and mental wellbeing alike. But long-term plans are easy to make and hard t…",
-      "publishedAt": "2026-11-06T14:42:00.000Z"
+      "title": "Feel Everything, Show Nothing",
+      "url": "https://nikhil.bearblog.dev/feel-everything-show-nothing/",
+      "summary": "Being calm is a superpower. We all know it. We all want it. Yet few of us know how to get there. How do you rein in the emotions storming inside your head? How do you stop them from spilling out of y…",
+      "publishedAt": "2026-11-07T14:42:00.000Z"
     }
   },
   "https://distantarcade.co.uk/": {
@@ -7508,14 +7508,14 @@
   },
   "https://hackaday.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T12:44:33.089Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "The Hidden Microcontroller Inside a LoRa chip",
-      "url": "https://hackaday.com/2026/11/07/the-hidden-microcontroller-inside-a-lora-chip/",
-      "summary": "If you’ve ever done anything with LoRa, the chances are you’ve used a LoRa chip or module as a peripheral for a microcontroller, and left it at that. But that’s …read more",
-      "publishedAt": "2026-11-07T12:00:34.000Z"
+      "title": "Active Antenna Runs on a Single Lithium-Ion Cell",
+      "url": "https://hackaday.com/2026/11/07/active-antenna-runs-on-a-single-lithium-ion-cell/",
+      "summary": "[skuep]’s Mobile-Whip is a compact, active receive-only antenna that is optimized for operation from a single lithium-ion battery or USB power. This makes it very handy for use on portable …read more",
+      "publishedAt": "2026-11-07T15:00:06.000Z"
     }
   },
   "https://marcel.io/": {
@@ -7699,8 +7699,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7801,8 +7801,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T10:39:29.338Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -8025,15 +8025,15 @@
     }
   },
   "https://armorsound.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-28T05:05:22.342Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://armorsound.com/feed.xml",
     "latestArticle": {
-      "title": "Technics EAH-AZ200: What the FCC Filing Shows So Far",
-      "url": "https://armorsound.com/technics-eah-az200/",
-      "summary": "The Technics EAH-AZ200 earbuds were granted FCC approval in October 2026. What the filing shows, what it leaves out, and what the AZ100 offers now.",
-      "publishedAt": "2026-10-27T00:30:00.000Z"
+      "title": "Audio for Short-Form Video: A Practical Guide for Creators",
+      "url": "https://armorsound.com/audio-for-short-form-video/",
+      "summary": "Audio for short-form video: record clear speech, mix music, check licenses, correct captions, and test your final export on headphones and phones.",
+      "publishedAt": "2026-11-07T15:22:09.000Z"
     }
   },
   "https://bestbudgetheadphones.com/": {
@@ -8110,26 +8110,26 @@
   },
   "https://www.cleverdude.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Your Car Won’t Start but the Lights Still Work — What Could Be Wrong?",
-      "url": "https://www.cleverdude.com/content/your-car-wont-start-but-the-lights-still-work-what-could-be-wrong/",
-      "summary": "A car that refuses to start while happily powering its headlights, radio, and dashboard can make anyone question their understanding of electricity. If the battery were dead, wouldn’t everything stop…",
-      "publishedAt": "2026-11-07T14:12:47.000Z"
+      "title": "Your Phone Has a Hidden Battery Health Menu — Here’s What It Can Tell You",
+      "url": "https://www.cleverdude.com/content/your-phone-has-a-hidden-battery-health-menu-heres-what-it-can-tell-you/",
+      "summary": "Your phone might look totally healthy while its battery quietly loses the ability to hold a full charge. That frustrating afternoon shutdown could have less to do with your favorite apps and more to …",
+      "publishedAt": "2026-11-07T15:43:13.000Z"
     }
   },
   "https://www.savingadvice.com/": {
     "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Still Wrapping Your Suitcase in Plastic at the Airport? Here’s Why You May Want to Reconsider",
-      "url": "https://www.savingadvice.com/articles/2026/11/07/10766141_still-wrapping-your-suitcase-in-plastic-at-the-airport-heres-why-you-may-want-to-reconsider.html",
-      "summary": "Quick Read Airport luggage wrapping can protect against minor scuffs and loose straps, but it won’t prevent lost baggage, theft, or serious damage. TSA officers...",
-      "publishedAt": "2026-11-07T14:10:52.000Z"
+      "title": "5 Things Retirees Regret Selling Too Soon — and 3 They Wish They’d Sold Earlier",
+      "url": "https://www.savingadvice.com/articles/2026/11/07/10766147_5-things-retirees-regret-selling-too-soon-and-3-they-wish-theyd-sold-earlier.html",
+      "summary": "Quick Read Selling a family home, reliable vehicle, or investments too quickly can create unexpected expenses that outweigh the immediate financial benefit. Capital gains from...",
+      "publishedAt": "2026-11-07T15:30:44.000Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -8677,15 +8677,15 @@
     }
   },
   "https://mleddy.blogspot.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T13:44:29.916Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://mleddy.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Vanishing credits",
-      "url": "https://mleddy.blogspot.com/2026/11/vanishing-credits.html",
-      "summary": "There’s a clever touch in the opening credits for the British television series Professor T , beginning with the second season (2023). Professor of criminology Jasper Tempest lives with OCD — thus th…",
-      "publishedAt": "2026-11-06T13:07:49.524Z"
+      "title": "A postmaster on the job",
+      "url": "https://mleddy.blogspot.com/2026/11/a-postmaster-on-job.html",
+      "summary": "Or off the job: “He’d arrive late, leave early, play bridge, and work on his fiction — all while losing mail or simply throwing it away”: William Faulkner, postmaster . Related reading All OCA Faulkn…",
+      "publishedAt": "2026-11-07T15:08:48.253Z"
     }
   },
   "https://www.rascal.news/": {
@@ -8789,15 +8789,15 @@
     }
   },
   "https://bloomplantednorth.blog/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T12:44:33.594Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://bloomplantednorth.blog/feed/",
     "latestArticle": {
-      "title": "Long live autumn",
-      "url": "https://bloomplantednorth.blog/2026/11/06/long-live-autumn/",
-      "summary": "If your clothes spoke to people, what would they say about what you have on right now? Thank you, theextraamile! I’m wearing a matching nightgown and robe right now, as it’s 6:30 am and I’m sitting h…",
-      "publishedAt": "2026-11-06T12:04:11.000Z"
+      "title": "3 faves",
+      "url": "https://bloomplantednorth.blog/2026/11/07/3-faves/",
+      "summary": "What are your favorite shoes? Post a picture or describe them.",
+      "publishedAt": "2026-11-07T15:43:49.000Z"
     }
   },
   "https://foxreviewsrock.com/": {
@@ -10213,15 +10213,15 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-07T08:56:37.466Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
-      "title": "Sewing in Portland",
-      "url": "https://artquiltmaker.com/blog/2026/11/sewing-in-portland/",
-      "summary": "I didn’t only sew in Portland, but I did sew quite a bit. My sewing space looked similar to the way Friend Julie and I set it up last year. I really need two ends of the table on the same side. I lik…",
-      "publishedAt": "2026-11-06T15:10:48.000Z"
+      "title": "Finished: Portland Pillowcases",
+      "url": "https://artquiltmaker.com/blog/2026/11/finished-portland-pillowcases/",
+      "summary": "I found some Portland fabric at Rose City Quilts when I was in Portland last week. I decided to make pillowcases. I bought 4 yards of the Portland fabric and a yard and a half of the cuff fabric. If …",
+      "publishedAt": "2026-11-07T15:22:51.000Z"
     }
   },
   "https://whenwalking.com/": {
@@ -11510,9 +11510,9 @@
   },
   "https://ezgif.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "unknown",
-    "feedUrl": "https://ezgif.com/logo-white.svg"
+    "feedUrl": "https://ezgif.com/"
   },
   "https://squoosh.app/": {
     "lastPublished": null,
@@ -11711,14 +11711,14 @@
     }
   },
   "https://nuchronic.uk/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T20:44:28.826Z",
+    "lastPublished": "2026-11-07",
+    "lastChecked": "2026-11-07T15:44:32.189Z",
     "status": "success",
     "feedUrl": "https://nuchronic.uk/feed.xml",
     "latestArticle": {
-      "url": "https://nuchronic.uk/item/this-agent-goes-viral-e148d03d70/",
-      "summary": "Title: This Agent Goes Viral Author: Gertrud U. Rey Link: https://virology.ws/2026/11/05/this-agent-goes-viral/ Published: 2026-11-05 *** // Published 2026-11-05 on nuchronic.uk - The webring for the…",
-      "publishedAt": "2026-11-05T13:36:23.000Z"
+      "url": "https://nuchronic.uk/item/the-power-of-one-day-db84356828/",
+      "summary": "Title: The Power of One Day Author: M. H. Miller is Currently Writing Link: https://mhmiller.bearblog.dev/the-power-of-one-day/ Published: 2026-11-07 *** // Published 2026-11-07 on nuchronic.uk - The…",
+      "publishedAt": "2026-11-07T15:30:31.000Z"
     }
   },
   "https://www.painscience.com/": {

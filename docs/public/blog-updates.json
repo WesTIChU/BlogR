@@ -368,13 +368,13 @@
   },
   "https://alexdiaz-granados.com/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-08",
     "feedUrl": "https://alexdiaz-granados.com/feed/",
     "latestArticle": {
-      "title": "Six New Readers, One Work in Progress, and a Return to 1976",
-      "url": "https://alexdiaz-granados.com/2026/11/07/six-new-readers-one-work-in-progress-and-a-return-to-1976/",
-      "summary": "Six New Readers, One Work in Progress, and a Return to 1976 The free Kindle promotion for The Jim Garraty Chronicles: A Life Told in Four Movements is over, and six readers downloaded copies during t…",
-      "publishedAt": "2026-11-07T18:27:12.000Z"
+      "title": "On Writing and Storytelling: When Memory Supplies the Dialogue",
+      "url": "https://alexdiaz-granados.com/2026/11/08/on-writing-and-storytelling/",
+      "summary": "When Memory Supplies the Dialogue One of the strange things about writing a story set fifty years ago is discovering what memory decided to keep. Not necessarily the important things. Sometimes what …",
+      "publishedAt": "2026-11-08T19:28:57.000Z"
     }
   },
   "https://alexwilson.tech/": {
@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1690,9 +1690,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-31",
-    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
+    "feedUrl": "https://chrislt.nz/feed/",
     "latestArticle": {
       "title": "City on a hill",
       "url": "https://chrislt.nz/city-on-a-hill/",
@@ -2595,7 +2595,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3549,13 +3549,13 @@
   },
   "https://ifitwastoday.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-08",
     "feedUrl": "https://ifitwastoday.blog/feed/",
     "latestArticle": {
-      "title": "Last Day in Rome",
-      "url": "https://ifitwastoday.blog/2026/11/07/last-day-in-rome/",
-      "summary": "We are staying less than a minute’s walk from the Campo de’ Fiori in Rome. During the day, the square is a giant outdoor market, with stalls selling everything from food (vegetables, cheese, meats) t…",
-      "publishedAt": "2026-11-07T21:00:11.000Z"
+      "title": "Florence",
+      "url": "https://ifitwastoday.blog/2026/11/08/florence/",
+      "summary": "Another travel day. We checked out of our lovely apartment in Rome and made our way to Termini train station. Fortunately we had left ourselves lots of time because the Rome marathon was today and a …",
+      "publishedAt": "2026-11-08T19:37:24.000Z"
     }
   },
   "https://imaginary.nu/henshin/": {
@@ -4241,9 +4241,9 @@
     "lastPublished": "2026-11-08",
     "feedUrl": "https://kmflett.blog/feed/atom/",
     "latestArticle": {
-      "url": "https://kmflett.blog/2026/11/08/in-the-british-library-checking-eric-hobsbawm-on-may-68-meanwhile-a-petition-to-stop-the-library-privateers/",
-      "summary": "I’ve been a reader at the British Library since 1984 in the day of the old Round Reading Room and I still frequent the Euston Rd building on a regular basis. I was in the Library on 6th November look…",
-      "publishedAt": "2026-11-08T17:12:22.000Z"
+      "url": "https://kmflett.blog/2026/11/08/the-cenotaph-8th-november-2026-fascists-the-far-right/",
+      "summary": "For some years now a small rabble from the fascist National Front have been allowed to march to the Cenotaph on Remembrance Sunday, in the afternoon once the official ceremony is cleared. Also presen…",
+      "publishedAt": "2026-11-08T19:28:35.000Z"
     }
   },
   "https://knifesteelnerds.com/": {
@@ -5829,7 +5829,7 @@
     "latestArticle": {
       "title": "Sur la route / On the road (Madagascar)",
       "url": "https://parisexpat2012.wordpress.com/2026/11/06/sur-la-route-on-the-road-2/",
-      "summary": "Quand on regarde rapidement sur une carte, on a peine à croire que Madagascar est pratiquement aussi grand que la France métropolitaine. Et pourtant, l’île fait environ 580 000 km². C’est probablemen…",
+      "summary": "Quand on regarde rapidement sur une carte, on a peine à croire que Madagascar est pratiquement aussi grand que la … Continue reading →",
       "publishedAt": "2026-11-06T11:51:00.000Z"
     }
   },
@@ -8388,7 +8388,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -9291,10 +9291,10 @@
     "lastPublished": "2026-11-08",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "5 Phone Features That Can Help During a Roadside Emergency",
-      "url": "https://www.cleverdude.com/content/5-phone-features-that-can-help-during-a-roadside-emergency/",
-      "summary": "A dead battery, a blown tire, or a collision can turn an ordinary drive into an unexpectedly expensive afternoon. The phone sitting in the cup holder might be the most useful piece of equipment in th…",
-      "publishedAt": "2026-11-08T18:56:33.000Z"
+      "title": "The Garage Safety Mistake That Can Put Your Family at Risk",
+      "url": "https://www.cleverdude.com/content/the-garage-safety-mistake-that-can-put-your-family-at-risk/",
+      "summary": "An open garage door can create a dangerously false sense of security. Plenty of homeowners start their cars inside, let the engine run for a few minutes, and assume fresh air will take care of the ex…",
+      "publishedAt": "2026-11-08T19:44:32.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -9528,13 +9528,13 @@
   },
   "https://www.fromthemurkydepths.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-08",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
-      "title": "Woolwich town centre development shoots up",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/11/07/woolwich-town-centre-development-shoots-up/",
-      "summary": "A Woolwich town centre development on Beresford Street has seen a big jump in height as work progresses. The ‘Ropeyards’ site will bring 660 flats with one structure beside Beresford Street now well …",
-      "publishedAt": "2026-11-07T11:46:45.000Z"
+      "title": "Plumstead station area street changes slowly take shape",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/11/08/plumstead-station-area-street-changes-slowly-take-shape/",
+      "summary": "Changes outside Plumstead station to improve the area are slowly taking shape. It’s not exactly moving at the speed of light but kerbs are taking shape which will add extra space for pedestrians outs…",
+      "publishedAt": "2026-11-08T19:34:35.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -9766,7 +9766,7 @@
     }
   },
   "https://www.jpaul.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://www.jpaul.me/feed/",
     "latestArticle": {
@@ -9859,9 +9859,9 @@
     "lastPublished": "2026-11-08",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/08/mark-gurman-reporting-in-recent.html",
-      "summary": "Mark Gurman reporting : In recent weeks, Ternus held a closed-door meeting with Craig Federighi, who became Apple’s AI czar following last year’s dismissal of its former AI leader. Desiring more and …",
-      "publishedAt": "2026-11-08T18:16:54.000Z"
+      "url": "https://www.manton.org/2026/11/08/relevant-to-my-post-this.html",
+      "summary": "Relevant to my post this morning , there’s a new story today that Anthropic is acquiring 1.7 GW from an existing company setting up natural gas turbines: The AI startup bought commitments ​for 1.7 gi…",
+      "publishedAt": "2026-11-08T19:40:24.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -10248,10 +10248,10 @@
     "lastPublished": "2026-11-08",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Your Credit Card Company Calls About a Suspicious Purchase — What Not to Share",
-      "url": "https://www.savingadvice.com/articles/2026/11/08/10766237_your-credit-card-company-calls-about-a-suspicious-purchase-what-not-to-share.html",
-      "summary": "Your phone rings, and the caller says they’re from your credit card company’s fraud department. Someone has supposedly attempted a $2,400 purchase using your account,...",
-      "publishedAt": "2026-11-08T18:52:04.000Z"
+      "title": "What Federal Data Says About the Financial Cost of Family Caregiving",
+      "url": "https://www.savingadvice.com/articles/2026/11/08/10766240_what-federal-data-says-about-the-financial-cost-of-family-caregiving.html",
+      "summary": "Millions of Americans are providing unpaid care to aging parents, spouses, and other relatives while trying to maintain their own financial security. The work may...",
+      "publishedAt": "2026-11-08T19:42:36.000Z"
     }
   },
   "https://www.scottishstoater.com/": {

@@ -1,5 +1,21 @@
 # Blog health status publishing
 
+## WordPress Discover importer
+
+The existing importer supports the public WordPress Discover Latest feed:
+
+```sh
+pnpm discover:wordpress --source latest --max-posts 5000 --batch-size 100 --mode discover --resume
+pnpm discover:wordpress --source latest --mode review --input-report reports/wordpress-discover-latest.json
+pnpm discover:wordpress --source latest --mode import --approved reports/wordpress-latest-approval.json
+```
+
+Discovery checkpoints are written after every API batch to
+`reports/wordpress-latest-checkpoint.json`. `--incremental` scans from the
+most recent cursor, while the default historical scan follows `before` date
+boundaries. Reports and candidate tracking remain in the ignored `reports/`
+directory; discovery never changes catalogue data.
+
 Run `pnpm audit:blogs` on the scheduled checker host. The repository's
 `.github/workflows/blog-health.yml` runs the blog and community health audits
 every six hours (`0 */6 * * *`) and on manual dispatch. The checker keeps

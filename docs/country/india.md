@@ -1,13 +1,13 @@
 ---
 title: India Blogs
-description: 5 blogs listed in India.
+description: 6 blogs listed in India.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇮🇳" name="India" :count="5" />
+<CountryDirectoryHeader flag="🇮🇳" name="India" :count="6" />
 
 ## Health & Wellbeing
 
@@ -28,6 +28,12 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Personal Blogs & Everyday Life
 
 * <span class="blog-entry"><BlogHealthLink name="Goin' the extra...aaamile" url="https://theextraaamile.wordpress.com/" /> - A long-running personal blog from Goa combining stories, humour, life observations, relationships, travel and reflections.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://theextraaamile.wordpress.com/" data-blog-name="Goin' the extra...aaamile"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://theextraaamile.wordpress.com/feed/" target="_blank" rel="noopener noreferrer" title="RSS feed for Goin' the extra...aaamile" aria-label="RSS feed for Goin' the extra...aaamile"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/india" aria-label="Based in India"><span class="blog-country-flag" aria-hidden="true">🇮🇳</span> India</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;7 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-dd66589e2a67beb8e8617386419f3270" website-url="https://theextraaamile.wordpress.com/" website-name="Goin' the extra...aaamile" /></span>
+
+## Religion & Spirituality
+
+### Hinduism
+
+* <span class="blog-entry"><BlogHealthLink name="Divinepedia" url="https://divinepedia.wordpress.com/" /> - Personal writing about Indian culture, traditions, scriptures and practices for authentic living.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://divinepedia.wordpress.com/" data-blog-name="Divinepedia"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://divinepedia.wordpress.com/feed/" target="_blank" rel="noopener noreferrer" title="RSS feed for Divinepedia" aria-label="RSS feed for Divinepedia"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/india" aria-label="Based in India"><span class="blog-country-flag" aria-hidden="true">🇮🇳</span> India</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;8 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><BlogWebring webring-id="br-2f3f3eb7e2b712d39c8e05b36de16129" website-url="https://divinepedia.wordpress.com/" website-name="Divinepedia" /></span>
 
 ## Technology
 

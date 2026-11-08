@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1466,13 +1466,13 @@
   },
   "https://cabbieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-08",
     "feedUrl": "https://cabbieblog.com/feed/",
     "latestArticle": {
-      "title": "Previously Posted: A New River for London",
-      "url": "https://cabbieblog.com/2026/11/07/previously-posted-a-new-river-for-london/",
-      "summary": "For those new to CabbieBlog or readers who are slightly forgetful, on Saturdays I’m republishing posts, many going back over a decade. Some will still be very relevant while others have become dated …",
-      "publishedAt": "2026-11-07T13:50:00.000Z"
+      "title": "London Trivia: Lord Lucan vanishes",
+      "url": "https://cabbieblog.com/2026/11/08/london-trivia-lord-lucan-vanishes/",
+      "summary": "Weekly nuggets of triviality posted every Sunday each with a short essay relating to the day in question along with 10 other pieces of useless information, read weekly or dip in and out",
+      "publishedAt": "2026-11-08T13:50:51.000Z"
     }
   },
   "https://calamitymn.blogspot.com/": {
@@ -2596,7 +2596,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -5285,7 +5285,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-07",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -6179,7 +6179,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7368,7 +7368,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8683,7 +8683,7 @@
     "lastPublished": "2026-11-05",
     "feedUrl": "https://unsolicitedfeedback.blog/feed/",
     "latestArticle": {
-      "title": "Nonfiction November 2026 Week 1: My Year in Nonfiction",
+      "title": "Nonfiction November 2026 Week 1: My Year in Nonfiction",
       "url": "https://unsolicitedfeedback.blog/2026/11/05/nonfiction-november-2026-week-1-my-year-in-nonfiction/",
       "summary": "Welcome to Nonfiction November, an annual event where nonfiction book bloggers showcase reviews and reflections about the nonfiction books we’ve read over the past year. It’s my sixth year participat…",
       "publishedAt": "2026-11-05T14:00:00.000Z"
@@ -9120,7 +9120,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -9912,7 +9912,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-05",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {

@@ -264,6 +264,7 @@ onUnmounted(() => {
     </template>
     <Content />
   </Layout>
+  <BlogWebring />
   <button
     v-if="showBackToTop"
     class="blogr-back-to-top"

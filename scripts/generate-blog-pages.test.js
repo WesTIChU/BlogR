@@ -104,7 +104,7 @@ test('submission country updates only add the new entry and increment its count'
   assert.match(updated, /\* Existing entry/)
 })
 
-test('adds the Webring copy component to eligible listing metadata', () => {
+test('adds a lazy Webring trigger to eligible listing metadata', () => {
   const entry = {
     name: 'Example',
     url: 'https://example.com/',
@@ -113,18 +113,21 @@ test('adds the Webring copy component to eligible listing metadata', () => {
   }
   assert.match(
     renderBlogDetails(entry, true),
-    /<BlogWebring webring-id="br-.*website-url="https:\/\/example\.com\/" website-name="Example"/
+    /data-webring-trigger data-webring-id="br-.*data-webring-url="https:\/\/example\.com\/" data-webring-name="Example"/
   )
   assert.match(
     renderBlogDetails({ ...entry, community: true }, true),
-    /<BlogWebring/
+    /data-webring-trigger/
   )
   assert.match(
     renderWebsiteDetails(entry, true),
-    /<BlogWebring webring-id="br-.*website-url="https:\/\/example\.com\/" website-name="Example"/
+    /data-webring-trigger data-webring-id="br-.*data-webring-url="https:\/\/example\.com\/" data-webring-name="Example"/
   )
-  assert.doesNotMatch(renderBlogDetails(entry, false), /BlogWebring/)
-  assert.doesNotMatch(renderWebsiteDetails(entry, false), /BlogWebring/)
+  assert.doesNotMatch(renderBlogDetails(entry, false), /data-webring-trigger/)
+  assert.doesNotMatch(
+    renderWebsiteDetails(entry, false),
+    /data-webring-trigger/
+  )
 })
 
 test('preserves listing metadata around the Webring component', () => {
@@ -144,7 +147,7 @@ test('preserves listing metadata around the Webring component', () => {
   assert.match(rendered, /blog-country/)
   assert.match(rendered, /data-blog-update-slot/)
   assert.match(rendered, /blog-added-date/)
-  assert.match(rendered, /<BlogWebring webring-id="br-/)
+  assert.match(rendered, /data-webring-trigger data-webring-id="br-/)
   assert.ok(
     rendered.indexOf('data-blog-feed-slot') <
       rendered.indexOf('blog-health-dot')
@@ -160,7 +163,8 @@ test('preserves listing metadata around the Webring component', () => {
       rendered.indexOf('blog-added-date')
   )
   assert.ok(
-    rendered.indexOf('blog-added-date') < rendered.indexOf('<BlogWebring')
+    rendered.indexOf('blog-added-date') <
+      rendered.indexOf('data-webring-trigger')
   )
 
   const community = renderBlogDetails(
@@ -173,7 +177,7 @@ test('preserves listing metadata around the Webring component', () => {
   )
   assert.match(
     community,
-    /blog-health-dot|data-health-relative|blog-added-date|<BlogWebring/
+    /blog-health-dot|data-health-relative|blog-added-date|data-webring-trigger/
   )
 })
 

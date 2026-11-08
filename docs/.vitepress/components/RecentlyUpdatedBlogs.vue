@@ -16,7 +16,6 @@ import {
 } from './blog-update-client.js'
 import BlogHealthLink from './BlogHealthLink.vue'
 import BlogLastUpdated from './BlogLastUpdated.vue'
-import BlogWebring from './BlogWebring.vue'
 
 const currentTime = ref(new Date())
 let rolloverTimer
@@ -110,12 +109,34 @@ onUnmounted(() => {
               entry.article?.publishedAt ?? entry.publication.date
             "
           >
-            <BlogWebring
+            <span
               v-if="SHOW_WEBRING && entry.blog.webringId"
-              :webring-id="entry.blog.webringId"
-              :website-url="entry.blog.url"
-              :website-name="entry.blog.name"
-            />
+              class="blog-webring"
+            >
+              <button
+                class="blog-metadata-icon-button blog-webring-trigger"
+                type="button"
+                data-webring-trigger
+                :data-webring-id="entry.blog.webringId"
+                :data-webring-url="entry.blog.url"
+                :data-webring-name="entry.blog.name"
+                aria-label="Copy BlogR Webring widget code"
+                title="Copy BlogR Webring widget code"
+              >
+                <svg
+                  class="blog-metadata-visual blog-webring-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M14 5h5v5" />
+                  <path d="M19 5 11 13" />
+                  <path
+                    d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4"
+                  />
+                </svg>
+              </button>
+            </span>
           </BlogLastUpdated>
         </li>
       </ul>

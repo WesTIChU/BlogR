@@ -2,7 +2,6 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import {
   expectedWidgetLinks,
-  SHOW_WEBRING,
   WEBRING_BASIC_THEMES,
   WEBRING_WIDGET_IMAGE_URLS,
   WEBRING_WIDGET_PREVIEW_IMAGE_URLS,
@@ -10,18 +9,20 @@ import {
   widgetHtmlForDesign
 } from '../../../shared/webring.js'
 import {
+  getWebringStatusUrl,
+  getWebringTriggerData,
+  WEBRING_TRIGGER_SELECTOR
+} from './webring-controller.js'
+import {
   activeWebringPopup,
   closeWebringPopup,
   openWebringPopup,
-  registerWebringPopup,
-  toggleWebringPopup
+  registerWebringPopup
 } from './webring-popup-state.js'
 
-const props = defineProps({
-  webringId: { type: String, required: true },
-  websiteUrl: { type: String, default: '' },
-  websiteName: { type: String, default: '' }
-})
+const webringId = ref('')
+const websiteUrl = ref('')
+const websiteName = ref('')
 const verified = ref(false)
 const copied = ref(false)
 const recheckState = ref('idle')
@@ -30,29 +31,83 @@ const basicStyle = ref('classic')
 const basicThemeLabels = computed(() => webringBasicLabels(basicStyle.value))
 const code = computed(() =>
   widgetHtmlForDesign(
-    props.webringId,
+    webringId.value,
     selectedDesign.value === 'basic'
       ? `basic-${basicStyle.value}`
       : selectedDesign.value
   )
 )
-const widgetLinks = computed(() => expectedWidgetLinks(props.webringId))
+const widgetLinks = computed(() => expectedWidgetLinks(webringId.value))
 const registeredDomain = computed(() => {
   try {
-    return new URL(props.websiteUrl).hostname
+    return new URL(websiteUrl.value).hostname
   } catch {
     return null
   }
 })
-const popupToken = Symbol(props.webringId)
+const popupToken = Symbol('shared-blogr-webring-popup')
 const open = computed(() => activeWebringPopup.value === popupToken)
 const trigger = ref(null)
 const popover = ref(null)
 const positionStyle = ref({})
+const verifiedById = new Map()
 let unregisterPopup
 let copiedTimer
 
-const togglePopup = () => toggleWebringPopup(popupToken)
+const updateVerifiedIndicator = (isVerified) => {
+  const container = trigger.value?.parentElement
+  if (!container) return
+  const existing = container.querySelector('.blog-webring-globe')
+  if (isVerified && !existing) {
+    const globe = document.createElement('span')
+    globe.className = 'blog-metadata-icon blog-webring-globe'
+    globe.title = 'Verified BlogR Webring member'
+    globe.ariaLabel = 'Verified BlogR Webring member'
+    globe.textContent = '🌐'
+    container.prepend(globe)
+  }
+}
+
+const openTrigger = (element) => {
+  const data = getWebringTriggerData(element)
+  const nextId = data.id
+  if (!nextId) return
+  trigger.value = element
+  webringId.value = nextId
+  websiteUrl.value = data.url
+  websiteName.value = data.name
+  verified.value = verifiedById.get(nextId) === true
+  updateVerifiedIndicator(verified.value)
+  recheckState.value = 'idle'
+  openWebringPopup(popupToken)
+  if (!verifiedById.has(nextId)) {
+    void fetch(getWebringStatusUrl(nextId))
+      .then((response) => (response.ok ? response.json() : null))
+      .then((status) => {
+        const isVerified = status?.verified === true
+        verifiedById.set(nextId, isVerified)
+        if (open.value) {
+          verified.value = isVerified
+          updateVerifiedIndicator(isVerified)
+        }
+      })
+      .catch(() => verifiedById.set(nextId, false))
+  }
+}
+
+const handleDocumentClick = (event) => {
+  const target = event.target
+  if (!(target instanceof Element)) return
+  const element = target.closest(WEBRING_TRIGGER_SELECTOR)
+  if (element) {
+    event.preventDefault()
+    openTrigger(element)
+  }
+}
+
+const handleDocumentKeydown = (event) => {
+  if (event.key === 'Escape' && open.value) closeWebringPopup()
+}
 
 const updatePosition = async () => {
   if (!open.value || !trigger.value) return
@@ -141,7 +196,7 @@ const requestRecheck = async () => {
   recheckState.value = 'requesting'
   try {
     const response = await fetch(
-      `/api/webring/recheck?id=${encodeURIComponent(props.webringId)}`,
+      `/api/webring/recheck?id=${encodeURIComponent(webringId.value)}`,
       { method: 'POST' }
     )
     if (response.status === 202) {
@@ -154,27 +209,27 @@ const requestRecheck = async () => {
   }
 }
 
-onMounted(async () => {
+onMounted(() => {
   unregisterPopup = registerWebringPopup(popupToken)
-  window.addEventListener('resize', updatePosition)
-  window.addEventListener('scroll', updatePosition, true)
-  if (!SHOW_WEBRING) return
-  try {
-    const response = await fetch(
-      `/api/webring/status?id=${encodeURIComponent(props.webringId)}`
-    )
-    verified.value = response.ok && (await response.json()).verified === true
-  } catch {
-    verified.value = false
-  }
+  document.addEventListener('click', handleDocumentClick)
+  document.addEventListener('keydown', handleDocumentKeydown)
 })
 
 watch(open, (isOpen) => {
-  if (isOpen) void nextTick(updatePosition)
+  if (isOpen) {
+    window.addEventListener('resize', updatePosition)
+    window.addEventListener('scroll', updatePosition, true)
+    void nextTick(updatePosition)
+  } else {
+    window.removeEventListener('resize', updatePosition)
+    window.removeEventListener('scroll', updatePosition, true)
+  }
 })
 
 onBeforeUnmount(() => {
   unregisterPopup?.()
+  document.removeEventListener('click', handleDocumentClick)
+  document.removeEventListener('keydown', handleDocumentKeydown)
   window.removeEventListener('resize', updatePosition)
   window.removeEventListener('scroll', updatePosition, true)
   clearTimeout(copiedTimer)
@@ -182,254 +237,221 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <span v-if="SHOW_WEBRING" class="blog-webring">
+  <Teleport to="body">
+    <div
+      v-if="open"
+      class="blog-webring-overlay"
+      aria-hidden="true"
+      @click="closeWebringPopup"
+    ></div>
     <span
-      v-if="verified"
-      class="blog-metadata-icon blog-webring-globe"
-      title="Verified BlogR Webring member"
-      aria-label="Verified BlogR Webring member"
+      v-if="open"
+      ref="popover"
+      class="blog-webring-popover"
+      role="dialog"
+      :style="positionStyle"
+      @click.stop
     >
-      🌐
-    </span>
-    <button
-      ref="trigger"
-      class="blog-metadata-icon-button blog-webring-trigger"
-      type="button"
-      :aria-label="
-        copied ? 'Webring widget code copied' : 'Copy BlogR Webring widget code'
-      "
-      :title="
-        copied ? 'Copied Webring widget code' : 'Copy Webring widget code'
-      "
-      @click="togglePopup"
-    >
-      <svg
-        class="blog-metadata-visual blog-webring-icon"
-        viewBox="0 0 24 24"
-        aria-hidden="true"
-        focusable="false"
-      >
-        <path d="M14 5h5v5" />
-        <path d="M19 5 11 13" />
-        <path d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4" />
-      </svg>
-    </button>
-    <Teleport to="body">
-      <div
-        v-if="open"
-        class="blog-webring-overlay"
-        aria-hidden="true"
-        @click="closeWebringPopup"
-      ></div>
-      <span
-        v-if="open"
-        ref="popover"
-        class="blog-webring-popover"
-        role="dialog"
-        :style="positionStyle"
-        @click.stop
-      >
-        <strong>BlogR Webring</strong>
-        <small class="blog-webring-name-label">
-          Widget installation code for:
-        </small>
-        <strong v-if="websiteName" class="blog-webring-website-name">
-          {{ websiteName }}
-        </strong>
-        <small class="blog-webring-trial-warning">
-          <b>BlogR Webring Beta</b>
-          The Webring is still being tested and may change or be removed. You're
-          welcome to try it! If the Webring is discontinued, your Webring
-          membership will end.
-        </small>
-        <small class="blog-webring-domain-warning">
-          <b>Important: This code is unique to your website</b>
-          This code only works on the website registered with BlogR. Please
-          don't use it on another website.
-          <span v-if="registeredDomain" class="blog-webring-registered-domain">
-            <b>Registered website:</b>
-            {{ registeredDomain }}
-          </span>
-        </small>
-        <fieldset class="blog-webring-design-selector">
-          <legend>Choose your Webring widget</legend>
-          <label class="blog-webring-design-option">
-            <input v-model="selectedDesign" type="radio" value="image-blog" />
-            <img
-              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog"
-              alt="Blog Webring widget design"
-            />
-            <span>Image 1</span>
+      <strong>BlogR Webring</strong>
+      <small class="blog-webring-name-label">
+        Widget installation code for:
+      </small>
+      <strong v-if="websiteName" class="blog-webring-website-name">
+        {{ websiteName }}
+      </strong>
+      <small class="blog-webring-trial-warning">
+        <b>BlogR Webring Beta</b>
+        The Webring is still being tested and may change or be removed. You're
+        welcome to try it! If the Webring is discontinued, your Webring
+        membership will end.
+      </small>
+      <small class="blog-webring-domain-warning">
+        <b>Important: This code is unique to your website</b>
+        This code only works on the website registered with BlogR. Please don't
+        use it on another website.
+        <span v-if="registeredDomain" class="blog-webring-registered-domain">
+          <b>Registered website:</b>
+          {{ registeredDomain }}
+        </span>
+      </small>
+      <fieldset class="blog-webring-design-selector">
+        <legend>Choose your Webring widget</legend>
+        <label class="blog-webring-design-option">
+          <input v-model="selectedDesign" type="radio" value="image-blog" />
+          <img
+            :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog"
+            alt="Blog Webring widget design"
+          />
+          <span>Image 1</span>
+        </label>
+        <label class="blog-webring-design-option">
+          <input v-model="selectedDesign" type="radio" value="image-globe" />
+          <img
+            :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe"
+            alt="Globe Webring widget design"
+          />
+          <span>Image 2</span>
+        </label>
+        <label class="blog-webring-design-option">
+          <input
+            v-model="selectedDesign"
+            type="radio"
+            value="image-halloween"
+          />
+          <img
+            :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.halloween"
+            alt="Halloween Webring widget design"
+          />
+          <span>Image 3</span>
+        </label>
+        <label class="blog-webring-design-option">
+          <input
+            v-model="selectedDesign"
+            type="radio"
+            value="image-christmas"
+          />
+          <img
+            :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.christmas"
+            alt="Christmas Webring widget design"
+          />
+          <span>Image 4</span>
+        </label>
+        <div class="blog-webring-design-option blog-webring-basic-option">
+          <label>
+            <input v-model="selectedDesign" type="radio" value="basic" />
+            Basic Links
           </label>
-          <label class="blog-webring-design-option">
-            <input v-model="selectedDesign" type="radio" value="image-globe" />
-            <img
-              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe"
-              alt="Globe Webring widget design"
-            />
-            <span>Image 2</span>
-          </label>
-          <label class="blog-webring-design-option">
-            <input
-              v-model="selectedDesign"
-              type="radio"
-              value="image-halloween"
-            />
-            <img
-              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.halloween"
-              alt="Halloween Webring widget design"
-            />
-            <span>Image 3</span>
-          </label>
-          <label class="blog-webring-design-option">
-            <input
-              v-model="selectedDesign"
-              type="radio"
-              value="image-christmas"
-            />
-            <img
-              :src="WEBRING_WIDGET_PREVIEW_IMAGE_URLS.christmas"
-              alt="Christmas Webring widget design"
-            />
-            <span>Image 4</span>
-          </label>
-          <div class="blog-webring-design-option blog-webring-basic-option">
-            <label>
-              <input v-model="selectedDesign" type="radio" value="basic" />
-              Basic Links
-            </label>
-            <span class="blog-webring-basic-preview">
-              <a :href="widgetLinks.previous" aria-label="Previous">
-                {{ basicThemeLabels.previous }}
-              </a>
-              ·
-              <a :href="widgetLinks.random" aria-label="Random">
-                {{ basicThemeLabels.random }}
-              </a>
-              ·
-              <a :href="widgetLinks.next" aria-label="Next">
-                {{ basicThemeLabels.next }}
-              </a>
-            </span>
-            <label
-              v-if="selectedDesign === 'basic'"
-              class="blog-webring-basic-styles"
-            >
-              <span>Theme</span>
-              <select v-model="basicStyle" aria-label="Basic Links theme">
-                <option
-                  v-for="(_, theme) in WEBRING_BASIC_THEMES"
-                  :key="theme"
-                  :value="theme"
-                >
-                  {{
-                    theme === 'retro'
-                      ? 'Retro Web'
-                      : theme[0].toUpperCase() + theme.slice(1)
-                  }}
-                </option>
-              </select>
-            </label>
-          </div>
-        </fieldset>
-        <div class="blog-webring-live-preview">
-          <small>Preview</small>
-          <div
-            v-if="
-              selectedDesign === 'image-blog' ||
-              selectedDesign === 'image-globe' ||
-              selectedDesign === 'image-halloween' ||
-              selectedDesign === 'image-christmas'
-            "
-            class="blogr-webring-widget blog-webring-image-preview"
-          >
-            <img
-              :src="
-                selectedDesign === 'image-blog'
-                  ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog
-                  : selectedDesign === 'image-globe'
-                    ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe
-                    : selectedDesign === 'image-halloween'
-                      ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.halloween
-                      : WEBRING_WIDGET_PREVIEW_IMAGE_URLS.christmas
-              "
-              alt="BlogR Webring widget preview"
-            />
-            <nav aria-label="BlogR Webring preview" @click.prevent>
-              <a :href="widgetLinks.previous" aria-label="Previous">
-                {{ basicThemeLabels.previous }}
-              </a>
-              ·
-              <a :href="widgetLinks.random" aria-label="Random">
-                {{ basicThemeLabels.random }}
-              </a>
-              ·
-              <a :href="widgetLinks.next" aria-label="Next">
-                {{ basicThemeLabels.next }}
-              </a>
-            </nav>
-          </div>
-          <nav v-else aria-label="BlogR Webring preview" @click.prevent>
-            <a :href="widgetLinks.previous">
+          <span class="blog-webring-basic-preview">
+            <a :href="widgetLinks.previous" aria-label="Previous">
               {{ basicThemeLabels.previous }}
             </a>
             ·
-            <a :href="widgetLinks.random">
+            <a :href="widgetLinks.random" aria-label="Random">
               {{ basicThemeLabels.random }}
             </a>
             ·
-            <a :href="widgetLinks.next">
+            <a :href="widgetLinks.next" aria-label="Next">
+              {{ basicThemeLabels.next }}
+            </a>
+          </span>
+          <label
+            v-if="selectedDesign === 'basic'"
+            class="blog-webring-basic-styles"
+          >
+            <span>Theme</span>
+            <select v-model="basicStyle" aria-label="Basic Links theme">
+              <option
+                v-for="(_, theme) in WEBRING_BASIC_THEMES"
+                :key="theme"
+                :value="theme"
+              >
+                {{
+                  theme === 'retro'
+                    ? 'Retro Web'
+                    : theme[0].toUpperCase() + theme.slice(1)
+                }}
+              </option>
+            </select>
+          </label>
+        </div>
+      </fieldset>
+      <div class="blog-webring-live-preview">
+        <small>Preview</small>
+        <div
+          v-if="
+            selectedDesign === 'image-blog' ||
+            selectedDesign === 'image-globe' ||
+            selectedDesign === 'image-halloween' ||
+            selectedDesign === 'image-christmas'
+          "
+          class="blogr-webring-widget blog-webring-image-preview"
+        >
+          <img
+            :src="
+              selectedDesign === 'image-blog'
+                ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.blog
+                : selectedDesign === 'image-globe'
+                  ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.globe
+                  : selectedDesign === 'image-halloween'
+                    ? WEBRING_WIDGET_PREVIEW_IMAGE_URLS.halloween
+                    : WEBRING_WIDGET_PREVIEW_IMAGE_URLS.christmas
+            "
+            alt="BlogR Webring widget preview"
+          />
+          <nav aria-label="BlogR Webring preview" @click.prevent>
+            <a :href="widgetLinks.previous" aria-label="Previous">
+              {{ basicThemeLabels.previous }}
+            </a>
+            ·
+            <a :href="widgetLinks.random" aria-label="Random">
+              {{ basicThemeLabels.random }}
+            </a>
+            ·
+            <a :href="widgetLinks.next" aria-label="Next">
               {{ basicThemeLabels.next }}
             </a>
           </nav>
         </div>
-        <code v-text="code"></code>
-        <button type="button" @click="copyCode">
-          {{ copied ? 'Copied!' : 'Copy Code' }}
-        </button>
-        <small class="blog-webring-install-label">Where to add it</small>
-        <small class="blog-webring-install-description">
-          Add the code to your homepage, blog, links or Webring page.
-        </small>
-        <small class="blog-webring-verification-note">
-          Once you've added the code, BlogR will automatically check your
-          website. You can also request a check below.
-        </small>
-        <button
-          type="button"
-          class="blog-webring-recheck"
-          :disabled="recheckState === 'requesting' || recheckState === 'queued'"
-          @click="requestRecheck"
-        >
-          {{
-            recheckState === 'requesting'
-              ? 'Requesting…'
-              : recheckState === 'queued'
-                ? 'Check queued'
-                : 'Request verification check'
-          }}
-        </button>
-        <small
-          v-if="recheckState === 'limited'"
-          class="blog-webring-recheck-message"
-        >
-          Please wait before requesting another check.
-        </small>
-        <small
-          v-if="recheckState === 'unavailable'"
-          class="blog-webring-recheck-message"
-        >
-          Verification requests are temporarily unavailable.
-        </small>
-        <a class="blog-webring-more-link" href="/webring/">
-          Learn more about the BlogR Webring →
-        </a>
-      </span>
-    </Teleport>
-  </span>
+        <nav v-else aria-label="BlogR Webring preview" @click.prevent>
+          <a :href="widgetLinks.previous">
+            {{ basicThemeLabels.previous }}
+          </a>
+          ·
+          <a :href="widgetLinks.random">
+            {{ basicThemeLabels.random }}
+          </a>
+          ·
+          <a :href="widgetLinks.next">
+            {{ basicThemeLabels.next }}
+          </a>
+        </nav>
+      </div>
+      <code v-text="code"></code>
+      <button type="button" @click="copyCode">
+        {{ copied ? 'Copied!' : 'Copy Code' }}
+      </button>
+      <small class="blog-webring-install-label">Where to add it</small>
+      <small class="blog-webring-install-description">
+        Add the code to your homepage, blog, links or Webring page.
+      </small>
+      <small class="blog-webring-verification-note">
+        Once you've added the code, BlogR will automatically check your website.
+        You can also request a check below.
+      </small>
+      <button
+        type="button"
+        class="blog-webring-recheck"
+        :disabled="recheckState === 'requesting' || recheckState === 'queued'"
+        @click="requestRecheck"
+      >
+        {{
+          recheckState === 'requesting'
+            ? 'Requesting…'
+            : recheckState === 'queued'
+              ? 'Check queued'
+              : 'Request verification check'
+        }}
+      </button>
+      <small
+        v-if="recheckState === 'limited'"
+        class="blog-webring-recheck-message"
+      >
+        Please wait before requesting another check.
+      </small>
+      <small
+        v-if="recheckState === 'unavailable'"
+        class="blog-webring-recheck-message"
+      >
+        Verification requests are temporarily unavailable.
+      </small>
+      <a class="blog-webring-more-link" href="/webring/">
+        Learn more about the BlogR Webring →
+      </a>
+    </span>
+  </Teleport>
 </template>
 
-<style scoped>
+<style>
 .blog-webring {
   position: relative;
   display: inline-flex;

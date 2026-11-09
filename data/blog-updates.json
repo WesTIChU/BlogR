@@ -396,8 +396,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-08-08",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
-    "status": "success",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "Molly White interview: following the AI and crypto money in US politics",
@@ -1068,9 +1068,9 @@
   },
   "https://jamesg.blog/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T10:44:33.916Z",
-    "status": "success",
-    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
+    "status": "unknown",
+    "feedUrl": "https://jamesg.blog/feed",
     "latestArticle": {
       "title": "Weeknotes W4",
       "url": "https://jamesg.blog/2026/11/09/weeknotes-w4",
@@ -1422,15 +1422,15 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T03:44:32.318Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "2001 promotional pack of playing cards for the 20th anniversary of Mario, distributed by the&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/832583553712816128",
-      "summary": "2001 promotional pack of playing cards for the 20th anniversary of Mario, distributed by the Japanese Nintendo Dream magazine. The cards are completely ordinary except for the back (left) and the Jok…",
-      "publishedAt": "2026-11-07T01:05:51.000Z"
+      "title": "The Game Boy Advance version of Donkey Kong Country contains an unused test level in its files that&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/832817437152002048",
+      "summary": "The Game Boy Advance version of Donkey Kong Country contains an unused test level in its files that appears as a copy of the Jungle Hijinxs level with additional out-of-place objects, some of which a…",
+      "publishedAt": "2026-11-09T15:03:20.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1519,13 +1519,13 @@
   },
   "https://www.theminimalists.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T13:44:29.695Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.theminimalists.com/feed/",
     "latestArticle": {
       "title": "Podcast Ep. 562 | Fantasy Self",
       "url": "https://www.theminimalists.com/p562/",
-      "summary": "By The Minimalists Clutter is an audition for a life you don’t want. The post Podcast Ep. 562 | Fantasy Self appeared first on The Minimalists .",
+      "summary": "Clutter is an audition for a life you don’t want. The post Podcast Ep. 562 | Fantasy Self appeared first on The Minimalists .",
       "publishedAt": "2026-11-09T13:00:00.000Z"
     }
   },
@@ -1655,15 +1655,15 @@
     }
   },
   "https://css-tricks.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-08T23:07:27.959Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
-      "title": "RSS Club: CSS-Tricks Redesign Preview",
-      "url": "https://css-tricks.com/css-tricks-redesign-preview/",
-      "summary": "Hey you wonderful RSS subscribers! We just soft-pushed a site redesign and wanted to give ya'll the first heads-up. A full write-up is coming but here are the high-level details. RSS Club: CSS-Tricks…",
-      "publishedAt": "2026-11-06T18:52:59.000Z"
+      "title": "CSS-Tricks, Version 20",
+      "url": "https://css-tricks.com/css-tricks-version-20/",
+      "summary": "Things look a little different around here? I hope so because we just pushed a site redesign! Here's everything new with the 20th(!!) version of CSS-Tricks. CSS-Tricks, Version 20 originally handwrit…",
+      "publishedAt": "2026-11-09T15:49:48.000Z"
     }
   },
   "https://davidwalsh.name/": {
@@ -2683,13 +2683,13 @@
   },
   "https://gorillasdontblog.blogspot.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T08:44:33.777Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "Stuff From the Box! - SPECIAL EDITION",
       "url": "https://gorillasdontblog.blogspot.com/2026/11/stuff-from-box-special-edition.html",
-      "summary": "It's STUFF FROM THE BOX time! Perhaps you read about it in \"Colliers\" or \"Good Housekeeping\"? Or at least \"Reader's Digest\". It's highlights some kooky collections of vintage STUFF. Usually from a bo…",
+      "summary": "It's STUFF FROM THE BOX time! Perhaps you read about it in \"Colliers\" or \"Good Housekeeping\"? Or at least \"Reader's Digest\". It highlights some kooky collections of vintage STUFF. Usually from a box.…",
       "publishedAt": "2026-11-09T08:01:00.000Z"
     }
   },
@@ -2875,14 +2875,14 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Sixteen Games Without A Goal Is Unacceptable, But I’ve Seen Enough Of Kasper Høgh To Still Believe Celtic’s No9 Will Come Good",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/kasper-hogh-celtic-goal-drought-faith/",
-      "summary": "Sixteen games without a goal. Let’s not dress that up as anything other than what it is. For The post Sixteen Games Without A Goal Is Unacceptable, But I’ve Seen Enough Of Kasper Høgh To Still Believ…",
-      "publishedAt": "2026-11-09T14:00:11.000Z"
+      "title": "Charlie Methven Has Put Dermot Desmond’s Extraordinary Influence At Celtic Under The Spotlight And The Questions Are Only Getting Louder",
+      "url": "https://thecelticblog.com/2026/11/blogs/dermot-desmond-influence-celtic-agm/",
+      "summary": "For years, Celtic supporters have questioned the extraordinary influence Dermot Desmond appears to exercise over our football club. The post Charlie Methven Has Put Dermot Desmond’s Extraordinary Inf…",
+      "publishedAt": "2026-11-09T16:00:57.000Z"
     }
   },
   "https://readceltic.com/": {
@@ -3010,14 +3010,14 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "18 Nintendo Game & Watch Classics, inc. Mario Bros. and Donkey Kong, Come to ZX Spectrum via SM510 Emulator",
-      "url": "https://www.timeextension.com/#article-208816",
-      "summary": "Batteries Not Included/Needed. The halcyon days of LCD gaming meet the golden age of home computing with the Sharp SM510 emulator, which brings 18 handheld classics from Nintendo's Game & Watch range…",
-      "publishedAt": "2026-11-09T15:00:00.000Z"
+      "title": "Hellish PS2 Horror 'Hungry Ghosts' Could Be Getting a 'Definitive' AI-Free Fan Translation",
+      "url": "https://www.timeextension.com/#article-208588",
+      "summary": "But it will need to escape limbo first. A new AI-assisted fan translation for Deep Space and Sony Computer Entertainment's Japan-exclusive horror action-adventure game, Hungry Ghosts , has just been …",
+      "publishedAt": "2026-11-09T16:00:00.000Z"
     }
   },
   "https://www.arcadeattack.co.uk/": {
@@ -3381,15 +3381,15 @@
     }
   },
   "https://adamapples.blogspot.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T19:44:31.511Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://adamapples.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Quadropomia too",
-      "url": "https://adamapples.blogspot.com/2026/11/quadropomia-too.html",
-      "summary": "Recap: Last month I invited you to spot the ringer in this group of four apples from Indiana farmer David Doud. ¶ The quartet consists of three new apples from the Midwest Apple Improvement Associati…",
-      "publishedAt": "2026-11-07T19:27:57.636Z"
+      "title": "Triumph",
+      "url": "https://adamapples.blogspot.com/2026/11/triumph-apple-review-taste.html",
+      "summary": "Today I am sampling some medium-sized red apples, many oblate, with a blush that is deep and purplish in some places. ¶ Triumph's stem well is filled with russet that varies (from sample to sample) f…",
+      "publishedAt": "2026-11-09T15:48:34.024Z"
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
@@ -3859,15 +3859,15 @@
     }
   },
   "https://econbrowser.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T01:44:29.526Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "Equities Held by Households, 2000 and Now",
-      "url": "https://econbrowser.com/archives/2026/11/equities-held-by-households-2000-and-now",
-      "summary": "Estimates for 2026Q2, Q3, compared to 2000. Figure 1: PCE deflated equities and mutual funds held by households, in logs 1995Q3=0 (blue, left scale), equities and mutual funds held by households as a…",
-      "publishedAt": "2026-11-08T00:54:30.000Z"
+      "title": "Interest Sensitive and Insensitive Investment and the Two Speed Economy",
+      "url": "https://econbrowser.com/archives/2026/11/interest-sensitive-and-insensitive-investment-and-the-two-speed-economy",
+      "summary": "Aggregate nonresidential investment has surged despite elevated interest rates. The aggregate conceals the mixed. Figure 1: Ten year Treasurys, % (black,left scale), nonresidential fixed investment, …",
+      "publishedAt": "2026-11-09T15:31:42.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -3984,15 +3984,15 @@
     }
   },
   "https://moviepalace.blogspot.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T17:44:29.348Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://moviepalace.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "CROW HOLLOW (1952)",
-      "url": "https://moviepalace.blogspot.com/2026/11/crow-hollow-1952.html",
-      "summary": "Ann meets a doctor named Bob, they have a week-long whirlwind romance, and they get married. Mrs. Wilson, a dying patient who knew Bob's family, tells Ann to take good care of him, but to avoid going…",
-      "publishedAt": "2026-11-07T17:06:33.966Z"
+      "title": "THE RESURRECTION OF ZACHARY WHEELER (1971)",
+      "url": "https://moviepalace.blogspot.com/2026/11/the-resurrection-of-zachary-wheeler-1971.html",
+      "summary": "A couple making out while driving crash into a car driven by Senator Zachary Wheeler (Bradford Dillman, at right). TV reporter Harry Walsh (Leslie Nielsen) is on the scene and rides in the ambulance …",
+      "publishedAt": "2026-11-09T16:11:29.516Z"
     }
   },
   "https://www.finalgirl.rocks/": {
@@ -4400,14 +4400,14 @@
   },
   "https://sluggerotoole.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T13:44:29.695Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://sluggerotoole.com/feed/",
     "latestArticle": {
-      "title": "Gradual growth in Irish unity support: LucidTalk poll…",
-      "url": "https://sluggerotoole.com/2026/11/09/gradual-growth-in-irish-unity-support-lucidtalk-poll/",
-      "summary": "If a Border Poll were held now, the pro-union lead has slipped again, according to the latest LucidTalk poll in today’s Belfast Telegraph. The normal caveats apply about margin of error, which for th…",
-      "publishedAt": "2026-11-09T13:33:11.000Z"
+      "title": "Ireland rugby team to face Fiji",
+      "url": "https://sluggerotoole.com/2026/11/09/ireland-rugby-team-to-face-fiji/",
+      "summary": "Rugby is still a game where the team that needs or wants it most can often overcome a team with greater experience or talents. But it’s also hard to sustain such intensity week in week out. With four…",
+      "publishedAt": "2026-11-09T15:48:23.000Z"
     }
   },
   "https://www.undercovertourist.com/blog/tag-disney-world/": {
@@ -4784,14 +4784,14 @@
   },
   "https://londonist.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T12:44:31.129Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Things To Do In London This Weekend: 14-15 November 2026",
-      "url": "https://londonist.com/london/weekend/things-to-do-in-london-this-weekend-14-15-november-2026",
-      "summary": "Top events in London this Saturday and Sunday.",
-      "publishedAt": "2026-11-09T12:30:03.000Z"
+      "title": "A Spanish Galleon Is Mooring Up By The Tower Of London",
+      "url": "https://londonist.com/london/things-to-do/spanish-galleon-st-katharine-docks",
+      "summary": "El Galeon Andalucia is staying for Christmas.",
+      "publishedAt": "2026-11-09T16:21:33.000Z"
     }
   },
   "https://priorprobability.com/": {
@@ -5164,15 +5164,15 @@
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T21:44:41.978Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://flamingpablum.com/feed/",
     "latestArticle": {
-      "title": "3 Years Later: Where is Charly’s Sign?",
-      "url": "https://flamingpablum.com/2026/11/3-years-later-where-is-charlys-sign/",
-      "summary": "Okay, here’s a curious one… Three years ago this week was the naming ceremony of Charly Garcia Corner at Walker Street and Cortlandt Alley. The backstory to this is very long and you can read a reaso…",
-      "publishedAt": "2026-11-07T21:22:36.000Z"
+      "title": "Charly Garcia’s Missing Street Sign Explained … Sorta",
+      "url": "https://flamingpablum.com/2026/11/charly-garcias-missing-street-sign-explained-sorta/",
+      "summary": "In the wake of posting yesterday’s entry about the missing street sign at Charly Garcia Corner, I managed to find out a bit more information, although the specific whereabouts of the sign is still a …",
+      "publishedAt": "2026-11-09T16:12:12.000Z"
     }
   },
   "https://kylekukshtel.com/": {
@@ -5509,14 +5509,14 @@
   },
   "https://humanizingthevacuum.wordpress.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T00:44:33.373Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "I’ve got the devil’s haircut: The best songs about Satan and hell",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/11/08/ive-got-the-devils-haircut-the-best-songs-about-satan-and-hell/",
-      "summary": "I’ve read my Milton. I know the bit about Satan’s preference: “Better to reign in Hell than serve in Heaven.” These songs acknowledge the pride of resistance and the shame of sin. All are one playlis…",
-      "publishedAt": "2026-11-09T00:25:49.000Z"
+      "title": "The Singles Jukebox: November 2026",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/11/09/the-singles-jukebox-november-2026/",
+      "summary": "Goodness me: I’m excited! I have no reason to remember the last time I awarded a single a 9, which matters less than the three 8’s, including a Zach Bryan (!) duet with Lana Del Rey (!!) calculated t…",
+      "publishedAt": "2026-11-09T16:45:44.000Z"
     }
   },
   "https://neveenwood.com/": {
@@ -5569,14 +5569,14 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T12:04:13.115Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "Did Humans Almost Go Extinct With Only 2,000 Survivors? The Real Story Is Stranger Than We Thought",
-      "url": "https://www.labrujulaverde.com/en/2026/11/did-humans-almost-go-extinct-with-only-2000-survivors-the-real-story-is-stranger-than-we-thought/",
-      "summary": "In April 2008, a genetic study published in the American Journal of Human Genetics fundamentally changed how we tell the story of our origins. National Geographic summarized the findings in an articl…",
-      "publishedAt": "2026-11-09T11:55:46.000Z"
+      "title": "7,300 years ago, a supereruption buried southern Japan under two meters of ash, triggering the Jomon apocalypse",
+      "url": "https://www.labrujulaverde.com/en/2026/11/7300-years-ago-a-supereruption-buried-southern-japan-under-two-meters-of-ash-triggering-the-jomon-apocalypse/",
+      "summary": "About 7,300 years ago, roughly 30 km (19 miles) south of Japan’s Kyushu island, a submarine volcano erupted with a force that is hard to imagine today. This was the Kikai-Akahoya eruption—K-Ah for sh…",
+      "publishedAt": "2026-11-09T16:02:42.000Z"
     }
   },
   "https://historyofparliament.com/": {
@@ -5718,14 +5718,14 @@
   },
   "https://www.brickfanatics.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Last chance to enter LEGO Star Wars and Marvel crossover contest",
-      "url": "https://www.brickfanatics.com/last-enter-lego-star-wars-marvel-crossover-contest",
-      "summary": "One more opportunity to design a Star Wars and Marvel fusion model",
-      "publishedAt": "2026-11-09T13:57:46.000Z"
+      "title": "Score the first discount on the new LEGO SpongeBob SquarePants set",
+      "url": "https://www.brickfanatics.com/first-discount-new-lego-spongebob-squarepants-set",
+      "summary": "Who lives in a pineapple under the sea? Now for 11% off!",
+      "publishedAt": "2026-11-09T16:17:54.000Z"
     }
   },
   "https://blog.firestartoys.com/": {
@@ -5909,14 +5909,14 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "More New Favorite Day Treats Spotted — November 9, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/09/more-new-favorite-day-treats-spotted-november-9-2026/",
-      "summary": "Here are some new Favorite Day holiday products found on Target shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your phot…",
-      "publishedAt": "2026-11-09T14:00:00.000Z"
+      "title": "REVIEW: Baskin-Robbins Frosted Sugar Cookie Ice Cream",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/09/baskin-robbins-frosted-sugar-cookie-ice-cream-review/",
+      "summary": "Sometimes I have to pay attention to what I’m eating instead of blindly shoving ice cream into my mouth, because I originally thought this was Baskin-Robbins’ Frosted Animal Cookies ice cream and kep…",
+      "publishedAt": "2026-11-09T16:00:00.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
@@ -5932,25 +5932,25 @@
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T18:44:29.252Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "The 50 Coolest Albums of all Time Ranked !- Shortlist .com 49 - Kendrick Lamarr - To Pimp a Butterfly",
-      "summary": "This was probably around the time that I decided I couldn't keep up with everything going on in the music world because I couldn't follow the contours of the conversation.",
-      "publishedAt": "2026-11-08T18:41:40.000Z"
+      "title": "200 Albums for 2026 It Starts With a Birthstone # 48 Paris Paloma - The Fatal Flaw",
+      "summary": "I went to UEA in the Mid Eighties . Looking back I was in the right place at the right time. I started as a History Student using the common judgement of youth of my A Level Results but switched majo…",
+      "publishedAt": "2026-11-09T16:34:25.000Z"
     }
   },
   "https://www.manton.org/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T05:45:40.087Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/08/finished-reading-jade-city-by.html",
-      "summary": "Finished reading: Jade City by Fonda Lee. This was great. Fast and really engaging. 📚",
-      "publishedAt": "2026-11-09T05:13:30.000Z"
+      "url": "https://www.manton.org/2026/11/09/park-at-central-market.html",
+      "summary": "Park at Central Market. ☕️",
+      "publishedAt": "2026-11-09T16:26:26.000Z"
     }
   },
   "https://prettyspooky.life/": {
@@ -5990,14 +5990,14 @@
   },
   "https://www.dailycartoonist.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T13:44:29.695Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/TheDailyCartoonist",
     "latestArticle": {
-      "title": "CSotD: The Rising of the Mooned",
-      "url": "https://www.dailycartoonist.com/index.php/2026/11/09/csotd-the-rising-of-the-mooned/",
-      "summary": "No politics today, but how’s about some reactions to politics? There must be some very unhappy plutocrats wandering around wondering, as this pair does, what just happened. When I got in the car Wedn…",
-      "publishedAt": "2026-11-09T12:40:58.000Z"
+      "title": "When The N.Y. Times Did Comics",
+      "url": "https://www.dailycartoonist.com/index.php/2026/11/09/the-new-york-times-does-comics/",
+      "summary": "The long held misconception that The New York Times never ran comic strips is now widely known as an “alternative fact.” As Allan Holtz writes in his The Roosevelt Bears entry at The Stripper’s Guide…",
+      "publishedAt": "2026-11-09T15:43:46.000Z"
     }
   },
   "https://www.splitbrain.org/": {
@@ -6406,14 +6406,14 @@
   },
   "https://greatawakeningreport.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Galactic Superwave Theory | Paul LaViolette",
-      "url": "https://greatawakeningreport.com/paul-laviolette-galactic-superwave-theory-interview/",
-      "summary": "Most of us are taught to think of the Milky Way as a stable backdrop, a slow turning wheel of stars that has nothing to do with the weather outside your window. Paul LaViolette spent his career argui…",
-      "publishedAt": "2026-11-09T14:15:00.000Z"
+      "title": "WEEKLY REPORT | Awakening The Sleeping Giant | November 9th Edition",
+      "url": "https://greatawakeningreport.com/weekly-report-awakening-the-sleeping-giant-november-9th-edition/",
+      "summary": "THE NEXT PRESSURE POINT — AI MARKET REPRICING, ENERGY SECURITY & CREDIT TRANSMISSION The Convergence Phase: Financial Market Volatility, Federal Reserve Policy, AI Investment and Credit Conditions Te…",
+      "publishedAt": "2026-11-09T15:32:40.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -7046,8 +7046,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Gift a piece of the AR’s 130-year history",
@@ -7130,14 +7130,14 @@
   },
   "https://www.askamanager.org/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T05:45:40.087Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "my boss makes up fake reasons for decisions, job hunting when you share a name with a criminal, and more",
-      "url": "https://www.askamanager.org/2026/11/my-boss-makes-up-fake-reasons-for-decisions-job-hunting-when-you-share-a-name-with-a-criminal-and-more.html",
-      "summary": "It’s five answers to five questions. Here we go… 1. My boss makes up fake reasons for decisions My supervisor, “Brie,” has a habit of giving shifting, inauthentic justifications rather than just bein…",
-      "publishedAt": "2026-11-09T05:03:46.000Z"
+      "title": "can I use sick time for haircuts and massages?",
+      "url": "https://www.askamanager.org/2026/11/can-i-use-sick-time-for-haircuts-and-massages.html",
+      "summary": "A reader writes: Help me settle this not very serious argument I had with a friend recently. My workplace has an average or slightly above average PTO policy with separate vacation and sick leave. My…",
+      "publishedAt": "2026-11-09T15:59:20.000Z"
     }
   },
   "https://blog.avas.space/": {
@@ -7321,14 +7321,14 @@
   },
   "https://bigthink.com/strange-maps/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://bigthink.com/feed/",
     "latestArticle": {
-      "title": "Are you really who you think you are?",
-      "url": "https://bigthink.com/perception-box/are-you-really-who-you-think-you-are/",
-      "summary": "Who are you? You might think you know, but science offers a more complicated answer. In fact, Lisa Feldman Barrett, PhD, a University Distinguished Professor of Psychology at Northeastern University,…",
-      "publishedAt": "2026-11-09T14:00:00.000Z"
+      "title": "George Lucas spent 17 years building his latest world. This one you can walk through.",
+      "url": "https://bigthink.com/history-society/inside-the-lucas-museum-of-narrative-art/",
+      "summary": "What happens to us after we die is a fundamental question of human civilization, and anxieties about succession lurk beneath every human story: Will my work live on? Will my children pass on good val…",
+      "publishedAt": "2026-11-09T16:27:50.000Z"
     }
   },
   "https://www.designswarm.com/blog/": {
@@ -7482,15 +7482,15 @@
     "feedUrl": "https://rknight.me/subscribe/posts/atom.xml"
   },
   "https://www.cartoonbrew.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-09T08:44:33.777Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "Scratch DJ Kid Koala Learned To Speak In Frames For His Animated Feature Debut ‘Space Cadet’",
-      "url": "https://www.cartoonbrew.com/feature-film/space-cadet-kid-koala-eric-san-interview-269165.html",
-      "summary": "Debut director Eric San talks working with 16 animators, creating a handmade CG world, and using turntables to give his robot character a human touch.",
-      "publishedAt": "2026-11-07T19:49:29.000Z"
+      "title": "2027 Oscars Short Film Contenders: ‘Paradaïz’ Director Matea Radic",
+      "url": "https://www.cartoonbrew.com/awards/paradaiz-matea-radic-director-oscar-interview-269199.html",
+      "summary": "Childhood memories, family photos, and absurdist animation shape a personal return to Sarajevo, exploring displacement, identity, and the meaning of home.",
+      "publishedAt": "2026-11-09T16:34:01.000Z"
     }
   },
   "https://www.maproomblog.com/": {
@@ -7507,26 +7507,26 @@
   },
   "https://hackaday.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Radon Active",
-      "url": "https://hackaday.com/2026/11/09/radon-active/",
-      "summary": "When you think about nuclear radiation, you often think about power plants, but it turns out there’s radioactive stuff all over the place: smoke detectors, granite counters, bananas, and potatoes …re…",
-      "publishedAt": "2026-11-09T15:00:15.000Z"
+      "title": "Reverse Engineering a 1960s Diode-Transistor Logic IC",
+      "url": "https://hackaday.com/2026/11/09/reverse-engineering-a-1960s-diode-transistor-logic-ic/",
+      "summary": "Before transistor-transistor logic (TTL) took over, diode-transistor logic (DTL) was a common sight especially in pre-IC circuits where it was a major improvement over resistor-transistor logic (RTL)…",
+      "publishedAt": "2026-11-09T16:30:02.000Z"
     }
   },
   "https://marcel.io/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T16:44:31.231Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
-      "title": "🎨 October 21, 2026",
-      "url": "https://marcel.io/dailies/2026-10-21",
-      "summary": "It might surprise you, but it turns out that a bit of lemon juice and honey wasn't enough to stop the inevitable. I hate knowing that I'm getting sick and not being able to do anything about it. I do…",
-      "publishedAt": "2026-11-08T16:00:00.000Z"
+      "title": "🎨 October 22, 2026",
+      "url": "https://marcel.io/dailies/2026-10-22",
+      "summary": "It took a couple of rejections, but the new version of Zeitgeist I finished the other day was finally approved, and I managed to release it on the App Store just in time for the iPhone Duo's launch. …",
+      "publishedAt": "2026-11-09T16:00:00.000Z"
     }
   },
   "https://www.fromthemurkydepths.co.uk/": {
@@ -7542,15 +7542,15 @@
     }
   },
   "https://www.worldofreel.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T18:44:29.252Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Kleber Mendonça Filho’s Next Film ‘Foreign Correspondent,' Stars Wagner Moura",
-      "url": "https://www.worldofreel.com/blog/2026/11/8/kleber",
-      "summary": "\"Foreign Correspondent” marks the first time Kleber has publicly put a name to the project. And yes, ‘Secret Agent’ star Wagner Moura is coming back with him. We should have known this would be the c…",
-      "publishedAt": "2026-11-08T18:01:51.000Z"
+      "title": "Russell Brand Sentenced to 10 Years and Six Months in Prison",
+      "url": "https://www.worldofreel.com/blog/2026/11/9/russell-brand-sentenced-to-10-years-and-six-months-in-prison",
+      "summary": "Brand broke into a Hollywood career in the late 2000s. His breakout screen role was rock star Aldous Snow in “Forgetting Sarah Marshall,” a character he reprised as the lead of “Get Him to the Greek.”",
+      "publishedAt": "2026-11-09T16:17:22.000Z"
     }
   },
   "https://fossilhuntress.blogspot.com/": {
@@ -7740,9 +7740,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7764,8 +7764,8 @@
   },
   "https://stamphacks.com/": {
     "lastPublished": "2026-07-26",
-    "lastChecked": "2026-11-08T23:07:27.959Z",
-    "status": "success",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
+    "status": "unavailable",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
       "title": "Ukrposhta, You Don’t Make My Life Easy",
@@ -8109,26 +8109,26 @@
   },
   "https://www.cleverdude.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Your Phone’s Microphone Indicator Turns On Unexpectedly — What Should You Check?",
-      "url": "https://www.cleverdude.com/content/your-phones-microphone-indicator-turns-on-unexpectedly-what-should-you-check/",
-      "summary": "That little orange dot near the top of your phone screen can ruin a lovely, peaceful afternoon. You glance at your phone, notice the microphone indicator glowing, and suddenly wonder whether an app h…",
-      "publishedAt": "2026-11-09T15:04:38.000Z"
+      "title": "6 Used-Car Buying Mistakes That Can Turn a Bargain Into a Money Pit",
+      "url": "https://www.cleverdude.com/content/6-used-car-buying-mistakes-that-can-turn-a-bargain-into-a-money-pit/",
+      "summary": "A used car with a suspiciously attractive price can make even a sensible shopper forget how suspiciously attractive prices usually work. That shiny sedan might look like the answer to every transport…",
+      "publishedAt": "2026-11-09T16:36:48.000Z"
     }
   },
   "https://www.savingadvice.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Living Alone After 60? These 11 Emergency Supplies Could Make All the Difference",
-      "url": "https://www.savingadvice.com/articles/2026/11/09/10766338_living-alone-after-60-these-11-emergency-supplies-could-make-all-the-difference.html",
-      "summary": "A power outage at 2 a.m. is inconvenient when someone else is home to help. When you live alone, that same outage can become a...",
-      "publishedAt": "2026-11-09T15:11:15.000Z"
+      "title": "What Recent Research Says About Loneliness and Financial Well-Being After 65",
+      "url": "https://www.savingadvice.com/articles/2026/11/09/10766332_what-recent-research-says-about-loneliness-and-financial-well-being-after-65.html",
+      "summary": "Retirement can change more than your daily schedule. For some older adults, leaving the workforce also means losing regular social interactions, workplace friendships, and a...",
+      "publishedAt": "2026-11-09T16:33:17.000Z"
     }
   },
   "https://mchakriwrites.blogspot.com/": {
@@ -8300,15 +8300,15 @@
     }
   },
   "https://burgeonlab.com/": {
-    "lastPublished": "2026-11-02",
-    "lastChecked": "2026-11-02T17:44:31.048Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://burgeonlab.com/all/feed.xml",
     "latestArticle": {
-      "title": "November Writing Month: Haiku Project",
-      "url": "https://burgeonlab.com/notes/2026/1103-0030/",
-      "summary": "There are only 58 days before the end of 2026, and before we reach December there’s November which is National #WritingMonth! Created by the talented …",
-      "publishedAt": "2026-11-02T16:30:35.000Z"
+      "title": "Site Refresh Before 2026 Ends",
+      "url": "https://burgeonlab.com/notes/2026/1109-2327/",
+      "summary": "Last week, I finally started tackling an issue with how CSS is set up on my Hugo site. It’s been a long-standing issue that has bugged me ever since I …",
+      "publishedAt": "2026-11-09T15:27:29.000Z"
     }
   },
   "https://xannyx.me/": {
@@ -8426,15 +8426,15 @@
     }
   },
   "https://tagn.wordpress.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T16:44:31.231Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://tagn.wordpress.com/feed/",
     "latestArticle": {
-      "title": "TAGN Fantasy Critic League 2026 – Week Forty-Five and The Legend of Zelda: Ocarina of Time",
-      "url": "https://tagn.wordpress.com/2026/11/08/tagn-fantasy-critic-league-2026-week-forty-five-and-the-legend-of-zelda-ocarina-of-time/",
-      "summary": "The weeks, and the releases, continue to count down to the end of the year. This past week had two releases queued up as we get down to the final scores. One of the releases for the week was a big on…",
-      "publishedAt": "2026-11-08T16:15:58.000Z"
+      "title": "WoW Forever – First Weekend Notes",
+      "url": "https://tagn.wordpress.com/2026/11/09/wow-forever-first-weekend-notes/",
+      "summary": "As fully expected I spent most of my game time wandering the starting areas of Azeroth as WoW Forever entered its first weekend. There was, as with WoW Classic, very much a comfortable feeling being …",
+      "publishedAt": "2026-11-09T16:15:11.000Z"
     }
   },
   "https://thekillingtimestv.wordpress.com/": {
@@ -8487,14 +8487,14 @@
   },
   "https://www.mohit.dev/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T14:44:29.835Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.mohit.dev/rss.xml",
     "latestArticle": {
-      "title": "Asking for cross-account content sharing among Dots",
-      "url": "https://www.mohit.dev/posts/2026-11-09-asking-for-cross-account-content-sharing-among-dots/",
-      "summary": "Asking whether Dots can share work across accounts once 20x quota burns usage faster, so one account can pick up another.",
-      "publishedAt": "2026-11-09T12:53:00.000Z"
+      "title": "Daily Overview",
+      "url": "https://www.mohit.dev/daily-overview/",
+      "summary": "A quiet daily page for priorities, calls, movement, and a fresh Sudoku. Made to print.",
+      "publishedAt": "2026-11-09T16:19:03.000Z"
     }
   },
   "https://vintagebuses.org/": {
@@ -8653,15 +8653,15 @@
     }
   },
   "https://theseconddisc.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T14:44:28.092Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://theseconddisc.com/feed/",
     "latestArticle": {
-      "title": "The Weekend Stream: November 7, 2026",
-      "url": "https://theseconddisc.com/2026/11/07/the-weekend-stream-november-7-2026/",
-      "summary": "Welcome back to another edition of The Weekend Stream, The Second Disc’s review of notable catalogue titles making digital debuts, plus new works from legacy acts and even some personally curated fav…",
-      "publishedAt": "2026-11-07T13:50:30.000Z"
+      "title": "Reviews: James Taylor, Herbie Mann, James Gang, David Gates in Quadio",
+      "url": "https://theseconddisc.com/2026/11/09/reviews-james-taylor-herbie-mann-james-gang-david-gates-in-quadio/",
+      "summary": "The latest four titles in Rhino’s long-running Quadio series are now available at general retail. As usual, they comprise a quartet of eclectic titles from the 1970s. Two singer-songwriters – James T…",
+      "publishedAt": "2026-11-09T15:44:45.000Z"
     }
   },
   "https://kmflett.blog/": {
@@ -8775,15 +8775,15 @@
     }
   },
   "https://thesquigglelinecafe.wordpress.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T16:44:31.231Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://thesquigglelinecafe.wordpress.com/feed/",
     "latestArticle": {
-      "title": "You Have to Start",
-      "url": "https://thesquigglelinecafe.wordpress.com/2026/11/08/you-have-to-start/",
-      "summary": "Sundays are for Positive Vibes Where did we get the idea that we had to have everything right BEFORE we could start something? We have to have the branding down perfect before we post something, we n…",
-      "publishedAt": "2026-11-08T15:05:09.000Z"
+      "title": "Through Space & Time",
+      "url": "https://thesquigglelinecafe.wordpress.com/2026/11/09/through-space-time/",
+      "summary": "Has your idea of what makes a good friend changed as you’ve gotten older?Mondays are for Multimedia Make me laugh, be ready to listen if I actually need to talk about something serious, be loyal and …",
+      "publishedAt": "2026-11-09T16:42:04.000Z"
     }
   },
   "https://bloomplantednorth.blog/": {
@@ -9086,15 +9086,15 @@
     }
   },
   "https://travelsthroughmylens.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-06T06:58:14.973Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://travelsthroughmylens.com/feed/",
     "latestArticle": {
-      "title": "The Road to the Redwoods, CA",
-      "url": "https://travelsthroughmylens.com/2026/11/05/the-road-to-the-redwoods-ca/",
-      "summary": "After leaving Redding and Lassen Volcanic National Park, we drove along Highway 299 to the historic town of Eureka. This 149 mile (235 km) highway, passes through the northern Sierra Nevada, Cascade …",
-      "publishedAt": "2026-11-05T19:03:19.000Z"
+      "title": "Inspirational Quote",
+      "url": "https://travelsthroughmylens.com/2026/11/09/inspirational-quote-6/",
+      "summary": "Diversity is America’s super power. Joe Biden Last week’s election, a tsunami by the way for the Democrats, came with many firsts. New Mexico elected their first Native American governor, and Georgia…",
+      "publishedAt": "2026-11-09T16:43:34.000Z"
     }
   },
   "https://bushboy.blog/": {
@@ -9207,14 +9207,14 @@
   },
   "https://viewfromtheback.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T10:44:33.916Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://viewfromtheback.com/feed/",
     "latestArticle": {
-      "title": "The Numbers Game 60, Monday 9 November 2026",
-      "url": "https://viewfromtheback.com/2026/11/09/the-numbers-game-60-monday-9-november-2026/",
-      "summary": "Today’s lucky number yielded 215 photos from which I’ve selected 6 at random. The challenge is kindly hosted by Life Lessons – a blog by Judy Dykstra-Brown To play along, go to your WP Media file and…",
-      "publishedAt": "2026-11-09T10:19:00.000Z"
+      "title": "Musical Monday: Soundtracks #36",
+      "url": "https://viewfromtheback.com/2026/11/09/musical-monday-soundtracks-36/",
+      "summary": "I’ve reported on a whole variety of songs: ones by artists I’ve seen live, covers, duets and those deemed iconic. I’m now turning my attention to what might be called “Soundtracks” specialised musica…",
+      "publishedAt": "2026-11-09T16:19:00.000Z"
     }
   },
   "https://sandyroybessbugzy.com/": {
@@ -9278,14 +9278,14 @@
     }
   },
   "https://edoodless.wordpress.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T16:44:31.231Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://edoodless.wordpress.com/feed/",
     "latestArticle": {
-      "title": "All you need is… 🤭",
-      "url": "https://edoodless.wordpress.com/2026/11/08/all-you-need-is-%f0%9f%a4%ad/",
-      "publishedAt": "2026-11-08T16:40:16.000Z"
+      "title": "The thing about falling asleep 🤭",
+      "url": "https://edoodless.wordpress.com/2026/11/09/the-thing-about-falling-asleep-%f0%9f%a4%ad/",
+      "publishedAt": "2026-11-09T16:24:22.000Z"
     }
   },
   "https://selenalondonsbookblog.wordpress.com/": {
@@ -9338,14 +9338,14 @@
   },
   "https://booksofbrilliance.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "Neverwhere Ending Explained: Why Richard Returns to London Below",
-      "url": "https://booksofbrilliance.com/2026/11/09/neverwhere-ending-explained/?utm_source=rss&utm_medium=rss&utm_campaign=neverwhere-ending-explained",
-      "summary": "Richard gets his life back, then chooses to leave it. Here’s what his return to London Below reveals about where he belongs. The post Neverwhere Ending Explained: Why Richard Returns to London Below …",
-      "publishedAt": "2026-11-09T15:46:46.000Z"
+      "title": "Why Canadians Read “In Flanders Fields” on Remembrance Day",
+      "url": "https://booksofbrilliance.com/2026/11/09/in-flanders-fields-remembrance-day/?utm_source=rss&utm_medium=rss&utm_campaign=in-flanders-fields-remembrance-day",
+      "summary": "John McCrae wrote “In Flanders Fields” after a friend was killed near Ypres in 1915. Here’s how the poem became part of Canada’s November 11 observances. The post Why Canadians Read “In Flanders Fiel…",
+      "publishedAt": "2026-11-09T16:13:00.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9958,15 +9958,15 @@
     }
   },
   "https://www.destinationsjourney.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastPublished": "2026-11-08",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://www.destinationsjourney.com/feed/",
     "latestArticle": {
-      "title": "Kamakura Japan – Temples, Shrines & Great Buddha",
-      "url": "https://www.destinationsjourney.com/kamakura-japan-temples-shrines-great-buddha/",
-      "summary": "Discover Kamakura, Japan, a historic coastal city famous for its ancient temples, Shinto shrines and samurai heritage. Explore the Great Buddha, Hasedera Temple, Tsurugaoka Hachimangū Shrine and beau…",
-      "publishedAt": "2026-11-09T15:45:00.000Z"
+      "title": "Three Days in Kyoto Japan",
+      "url": "https://www.destinationsjourney.com/three-days-in-kyoto-japan/",
+      "summary": "Three Days in Kyoto Japan We had intended to spend three full days in Kyoto Japan. Two days exploring the city, with the third as a day-trip to Himeji. Unfortunately, not everything went to plan, as …",
+      "publishedAt": "2026-11-08T17:39:00.000Z"
     }
   },
   "https://bendbranches.com/": {
@@ -10055,14 +10055,13 @@
   },
   "https://thevikingmike.wordpress.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://thevikingmike.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Trade Or No Trade?",
-      "url": "https://thevikingmike.wordpress.com/2026/11/09/trade-or-no-trade/",
-      "summary": "With the nfl trade deadline coming tomorrow will the Minnesota Vikings make a trade?",
-      "publishedAt": "2026-11-09T15:34:02.000Z"
+      "url": "https://thevikingmike.wordpress.com/2026/11/09/6196/",
+      "summary": "Has your idea of what makes a good friend changed as you’ve gotten older? Yes of course I hope I have gotten wiser I don’t have my friends from when I was younger so I must have learned.",
+      "publishedAt": "2026-11-09T16:04:16.000Z"
     }
   },
   "https://leslieleibhardtgoodman.wordpress.com/": {
@@ -10234,15 +10233,15 @@
     }
   },
   "https://pdlyons.wordpress.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T21:44:29.274Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://pdlyons.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The day is nice, excerpt from Sal Manders by pd lyons (adult themes)",
-      "url": "https://pdlyons.wordpress.com/2026/11/08/the-day-is-nice-excerpt-from-sal-manders-by-pd-lyons-adult-themes-5/",
+      "title": "snowing from Sal A Manders , a biograpical fiction by pd lyons",
+      "url": "https://pdlyons.wordpress.com/2026/11/09/snowing-from-sal-a-manders-a-biograpical-fiction-by-pd-lyons-4/",
       "summary": "in 1974 I started work on a biographical/fiction. ( originally titled salamanders) incorporating bits of journal, drugs sex and drama from the point of view of a 18 – 20 something male living in an o…",
-      "publishedAt": "2026-11-08T21:04:26.000Z"
+      "publishedAt": "2026-11-09T15:53:23.000Z"
     }
   },
   "https://cowgirl53.wordpress.com/": {
@@ -10282,15 +10281,15 @@
     }
   },
   "https://thedrunkencyclist.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-07T08:56:37.466Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://thedrunkencyclist.com/feed/",
     "latestArticle": {
-      "title": "Ohmygod–Part 26 A Loop Day in Jouarre",
-      "url": "https://thedrunkencyclist.com/2026/11/06/ohmygod-part-26-a-loop-day-in-jouarre/",
-      "summary": "OK, I really mean it this time… For those long-term readers of this blog, you are no doubt familiar with Ohmygod, a client that I had for three weeks of bike trips in Europe. I started recounting thi…",
-      "publishedAt": "2026-11-06T14:00:00.000Z"
+      "title": "Weekly Cellar Round-Up",
+      "url": "https://thedrunkencyclist.com/2026/11/09/weekly-cellar-round-up-52/",
+      "summary": "Over the course of a week, I taste a bunch of wine, usually with friends, and almost always with my wife. Here are some of the wines we tasted over the past few weeks. These are wines that were not s…",
+      "publishedAt": "2026-11-09T15:49:55.000Z"
     }
   },
   "https://blainerestaurantreport.wordpress.com/": {
@@ -10594,15 +10593,15 @@
     }
   },
   "https://mouseearsandmessybuns.wordpress.com/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T17:44:29.348Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://mouseearsandmessybuns.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Disney World Moderate Resorts",
-      "url": "https://mouseearsandmessybuns.wordpress.com/2026/11/07/disney-world-moderate-resorts/",
-      "summary": "The Sweet Spot Between Budget and a Little Luxury What if your Disney World resort could give you a little more vacation and a little less theme park chaos, without jumping all the way into Deluxe Re…",
-      "publishedAt": "2026-11-07T16:54:00.000Z"
+      "title": "Disney World Deluxe Resorts",
+      "url": "https://mouseearsandmessybuns.wordpress.com/2026/11/09/disney-world-deluxe-resorts/",
+      "summary": "What You Don’t Know About Staying Near Magic Kingdom When you picture a dream Walt Disney World vacation, there’s a good chance one of those iconic Magic Kingdom-area resorts comes to mind. Maybe it’…",
+      "publishedAt": "2026-11-09T16:26:47.000Z"
     }
   },
   "https://aworkingmanforreal.wordpress.com/": {
@@ -11999,15 +11998,15 @@
     "feedUrl": "https://www.countmydays.to/index.xml"
   },
   "https://doxascope.com/home": {
-    "lastPublished": "2026-10-31",
-    "lastChecked": "2026-10-31T15:44:30.919Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://doxascope.com/feed.xml",
     "latestArticle": {
-      "title": "المستوى التالي من الاختراقات: عام من هجمات الذكاء الاصطناعي",
-      "url": "https://doxascope.com/lenses/ai-scope/articles/ai-agent-attacks",
-      "summary": "قبل عام كانت هناك واقعة واحدة معلنة، نفّذ فيها وكيل ذكاء اصطناعي جزءًا من هجوم. والآن، في أكتوبر 2026 وحده، إحدى عشرة واقعة موثّقة على الأقل، شملت بنوكًا ووزارة وجهات حكومية ومورّدين. هذه مجرد أمثلة،…",
-      "publishedAt": "2026-10-31T12:00:00.000Z"
+      "title": "كيف تكوّن عصر الذكاء الاصطناعي؟ ومن يملك مفاتيحه؟",
+      "url": "https://doxascope.com/lenses/ai-scope/articles/ai-era-history",
+      "summary": "من ثورة في طريقة معالجة اللغة عام 2017 إلى أنظمة تكتب وتبحث وتبرمج وتستخدم الأدوات في 2026: رحلة العلم والحوسبة والمال والعمل البشري التي صنعت هذه الصناعة، ومن يتحكم اليوم في تشغيلها وتطويرها.",
+      "publishedAt": "2026-11-09T12:00:00.000Z"
     }
   },
   "https://glyphsift.com/": {
@@ -12066,14 +12065,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T15:44:33.763Z",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "TRON network integrates with Backpack Wallet for multichain asset access",
-      "url": "https://cryptonews.mobile/brief/tron-network-integrates-with-backpack-wallet-for-multichain-asset-access",
-      "summary": "TRON DAO announced that the TRON network is now integrated with Backpack Wallet. Backpack users can send, receive, bridge and hold TRON-based assets, including USDT (TRC-20), while keeping full self-…",
-      "publishedAt": "2026-11-09T15:42:06.000Z"
+      "title": "Trump says he knows nothing about World Liberty Financial UAE ties",
+      "url": "https://cryptonews.mobile/brief/trump-says-he-knows-nothing-about-world-liberty-financial-uae-ties",
+      "summary": "President Donald Trump said he knows \"nothing\" about World Liberty Financial's foreign investment while confirming he co-owns the crypto firm. In a 60 Minutes interview, he was asked about UAE-linked…",
+      "publishedAt": "2026-11-09T16:38:08.000Z"
     }
   },
   "https://usefreetools.net/": {
@@ -12197,15 +12196,15 @@
     "feedUrl": "https://relicputt.com/favicon.svg"
   },
   "https://runwhere.app/": {
-    "lastPublished": "2026-10-09",
-    "lastChecked": "2026-11-03T14:44:33.657Z",
+    "lastPublished": "2026-11-03",
+    "lastChecked": "2026-11-09T16:44:30.115Z",
     "status": "success",
     "feedUrl": "https://runwhere.app/rss.xml",
     "latestArticle": {
-      "title": "🇺🇸 USCIS 官方页面发布 Form I-140G（金卡计划 Immigrant Petition for the Gold Card Program），个人自递交主申向商务部赠与 100 万美元（随行配偶及子女每人另赠 100 万美元），企业代为递交主申赠与 200 万美元（随行家属每人另赠 100 万美元），每人表格规费 15,000 美元。此为独立于常规移民类别的另一条通道",
-      "url": "https://runwhere.app/p/us-eb1a/#changes",
-      "summary": "美国 EB-1A 杰出人才移民（2026-10-09）：USCIS 官方页面发布 Form I-140G（金卡计划 Immigrant Petition for the Gold Card Program），个人自递交主申向商务部赠与 100 万美元（随行配偶及子女每人另赠 100 万美元），企业代为递交主申赠与 200 万美元（随行家属每人另赠 100 万美元），每人表格规费 15,000 美…",
-      "publishedAt": "2026-10-09T00:00:00.000Z"
+      "title": "🇨🇦 IRCC 新增「劳动力市场融合」打分项：高薪职业的工作聘书加 100 分（不再需要 LMIA），或按加拿大工作经验计分（高薪职业经验按工资水平另加 20/40/70 分），两者取较高者，最多 150 分",
+      "url": "https://runwhere.app/p/ca-express-entry/#changes",
+      "summary": "加拿大 快速通道与省提名技术移民（Express Entry / PNP）（2026-11-03）：IRCC 新增「劳动力市场融合」打分项：高薪职业的工作聘书加 100 分（不再需要 LMIA），或按加拿大工作经验计分（高薪职业经验按工资水平另加 20/40/70 分），两者取较高者，最多 150 分",
+      "publishedAt": "2026-11-03T00:00:00.000Z"
     }
   },
   "https://lootrundown.com/": {

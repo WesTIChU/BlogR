@@ -192,10 +192,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "New art blog newsletter: Third Eyes",
-      "url": "https://70sscifiart.tumblr.com/post/832828930688958464",
-      "summary": "ALT ALT ALT ALT New art blog newsletter: Third Eyes",
-      "publishedAt": "2026-11-09T18:06:01.000Z"
+      "title": "1977 cover art to Zenna Henderson&rsquo;s The Anything Box.",
+      "url": "https://70sscifiart.tumblr.com/post/832836244690092032",
+      "summary": "ALT 1977 cover art to Zenna Henderson’s The Anything Box . The art is credited to Hector Garrido in the book, but it’s possible this was mistakenly left over from the 1969 edition which also credits …",
+      "publishedAt": "2026-11-09T20:02:16.000Z"
     }
   },
   "https://8ballreject.neocities.org/": {
@@ -268,13 +268,13 @@
   },
   "https://adamj.eu/tech/": {
     "status": "success",
-    "lastPublished": "2026-11-08",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://adamj.eu/tech/atom.xml",
     "latestArticle": {
-      "title": "Django: introducing django-launch-editor for jump-to-file debugging",
-      "url": "https://adamj.eu/tech/2026/11/08/introducing-django-launch-editor/",
-      "summary": "I’ve made another package! django-launch-editor makes the file locations on Django’s debug error page into links that open your editor. Here’s how it looks, on a KeyError from the package’s example p…",
-      "publishedAt": "2026-11-08T00:00:00.000Z"
+      "title": "Zsh: measure command durations with the time command, TIMEFMT, and REPORTTIME",
+      "url": "https://adamj.eu/tech/2026/11/09/zsh-time/",
+      "summary": "time is a POSIX utility for timing commands. Most shells build it in, and Zsh’s version has a lot more to offer than the one in Bash. Put time before a command to time it. For example, to time a Pyth…",
+      "publishedAt": "2026-11-09T00:00:00.000Z"
     }
   },
   "https://adarshg0.wordpress.com/": {
@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -664,10 +664,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://artlung.com/feed/",
     "latestArticle": {
-      "title": "Elections, sister, aging",
-      "url": "https://artlung.com/blog/2026/11/08/elections-sister-aging/",
-      "summary": "Elections come and go. I would be hard-pressed to count precisely how many elections, midterm elections, primary elections, and special elections I’ve participated in. But if I can vote in an electio…",
-      "publishedAt": "2026-11-09T00:46:34.000Z"
+      "title": "Politics, Misc, Music!",
+      "url": "https://artlung.com/blog/2026/11/09/politics-misc-music/",
+      "summary": "Herewith, a variety of comments and links and shenanigans and folderol. Thanks for reading and clicking! Bluesky and Mastodon posts (a selection): My household received mail from a cremation services…",
+      "publishedAt": "2026-11-09T20:43:15.000Z"
     }
   },
   "https://artofmemory.com/blog/": {
@@ -2206,7 +2206,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2261,24 +2261,24 @@
   },
   "https://davidwdon.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-08",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://davidwdon.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Not sleeping in",
-      "url": "https://davidwdon.wordpress.com/2026/11/09/not-sleeping-in/",
-      "summary": "early morning stretch muscles express opinions bloody hell’s the cry",
-      "publishedAt": "2026-11-08T22:27:31.000Z"
+      "title": "Until tomorrow, bullet points",
+      "url": "https://davidwdon.wordpress.com/2026/11/10/until-tomorrow-bullet-points/",
+      "summary": "⚫ sentences fall short ⚫ let the coffee shots commence ⚫ aim at some meaning",
+      "publishedAt": "2026-11-09T20:35:07.000Z"
     }
   },
   "https://dc20011.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-10-23",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://dc20011.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Catharsis of the Spirit from Poshlost'",
-      "url": "https://dc20011.blogspot.com/2026/10/the-catharsis-of-spirit-from-poshlost.html",
-      "summary": "Recently, a friend gave me a copy of The Philosophy of Hegel as a Doctrine of the Concreteness of God and Humanity, Volume One: The Doctrine of God by I.A. Il'in, translated and edited by Philip T. G…",
-      "publishedAt": "2026-10-23T13:45:40.166Z"
+      "title": "University Press Week",
+      "url": "https://dc20011.blogspot.com/2026/11/university-press-week.html",
+      "summary": "An email from the University of Notre Dame Press reminds me that it is University Press Week . The best way to celebrate this would be to go out and purchase some books from university presses. I may…",
+      "publishedAt": "2026-11-09T19:57:44.280Z"
     }
   },
   "https://dcairns.wordpress.com/": {
@@ -2595,7 +2595,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3160,7 +3160,7 @@
     }
   },
   "https://greg.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2017-12-12",
     "feedUrl": "https://greg.org/atom.xml",
     "latestArticle": {
@@ -5382,10 +5382,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "Laughing Along With a Limerick — Blogger’s Block",
-      "url": "https://mymindmappings.com/2026/11/09/laughing-along-with-a-limerick-bloggers-block/",
-      "summary": "Esther Chilton has a prompt where she challenges us to craft a humorous limerick. This week Esther has given us the word “rage.” Are you ready? There once was a blogger named SageWhose temper would f…",
-      "publishedAt": "2026-11-09T18:35:14.000Z"
+      "title": "Share Your World — 11/09/2026",
+      "url": "https://mymindmappings.com/2026/11/09/share-your-world-11-09-2026/",
+      "summary": "Di, at Pensitivity101, is once again our host for Share Your World. Here is what Di wants to know: 1. With Maya having had her babies, have you ever had a pregnant pet? Yes, years ago we had a female…",
+      "publishedAt": "2026-11-09T20:30:00.000Z"
     }
   },
   "https://mysidewaysview.com/": {
@@ -5866,10 +5866,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://paulfloreswriter.wordpress.com/feed/",
     "latestArticle": {
-      "title": "From Church to Camp: How Fox News and the Internet Reshaped American Christianity",
-      "url": "https://paulfloreswriter.wordpress.com/2026/11/09/from-church-to-camp-how-fox-news-and-the-internet-reshaped-american-christianity/",
-      "summary": "The material you provided traces a clear theological genealogy: from R.J. Rushdoony’s “Christian Reconstructionism” in Southern California, to Pat Robertson’s political mobilization in Virginia, to D…",
-      "publishedAt": "2026-11-09T19:08:34.000Z"
+      "title": "The Records They Won’t Release: Inside the Tulare County Sheriff Office’s 257-Day Silence on Calixto Mendoza",
+      "url": "https://paulfloreswriter.wordpress.com/2026/11/09/the-records-they-wont-release-inside-the-tulare-county-sheriff-offices-257-day-silence-on-calixto-mendoza/",
+      "summary": "By Paul Flores On February 24, 2026, a Tulare County Sheriff’s deputy shot and killed 49-year-old Calixto Felix Mendoza on the banks of the Tule River. Mendoza was unhoused. He was holding a stick. A…",
+      "publishedAt": "2026-11-09T20:36:50.000Z"
     }
   },
   "https://paulgraham.com/articles.html": {
@@ -6323,13 +6323,13 @@
   },
   "https://rachel.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-01",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://rachel.blog/feed/",
     "latestArticle": {
-      "title": "Edward the pigeon",
-      "url": "https://rachel.blog/2026/11/01/edward-the-pigeon/",
-      "summary": "Last Friday afternoon I went into town to check on Matilda, the one-footed pigeon. I do worry about her but she seems to be managing ok. I’m sure I could find her a permanent home in an aviary if she…",
-      "publishedAt": "2026-11-01T15:39:12.000Z"
+      "title": "Back in Oz for an 80th birthday",
+      "url": "https://rachel.blog/2026/11/09/back-in-oz-for-an-80th-birthday/",
+      "summary": "I’m back in Australia for my father’s 80th birthday. It has been 15 years since I was last here which is a very long time. 15 years since I last saw my little brother and sister, friends and extended…",
+      "publishedAt": "2026-11-09T20:05:13.000Z"
     }
   },
   "https://rachelsvintageretro.co.uk/": {
@@ -7184,24 +7184,24 @@
   },
   "https://site-of-curiosities.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://site-of-curiosities.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Case of Charles Dexter Ward",
-      "url": "https://site-of-curiosities.blogspot.com/2026/11/the-case-of-charles-dexter-ward.html",
-      "summary": "Dark Horse has announced a new manga adaptation of H.P. Lovecraft's The Case of Charles Dexter Ward , set to arrive on March 30, 2027. AI Overview /p>",
-      "publishedAt": "2026-11-07T09:00:00.000Z"
+      "title": "Progress on the Small Brick Shack",
+      "url": "https://site-of-curiosities.blogspot.com/2026/11/progress-on-small-brick-shack.html",
+      "summary": "I have added the embossed brick paper to the subwalls and have framed one of the windows. Overall the completed windows will look better once they have been framed. This is my last piece of embossed …",
+      "publishedAt": "2026-11-09T20:29:36.853Z"
     }
   },
   "https://sive.rs/": {
     "status": "success",
-    "lastPublished": "2026-11-08",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://sive.rs/feed.xml",
     "latestArticle": {
-      "title": "Explorer? Being lost makes you fully present? The mystery of distance. Desire cherished instead of satisfied. Similar thoughts in this book",
+      "title": "Fascinating book “I Deliver Parcels in Beijing”. First you learn what it's like to do the no-skill jobs in China, but near the end it takes a twist as he quits to become an insightful writer. My notes",
       "url": "https://sive.rs/d",
-      "summary": "Explorer? Being lost makes you fully present? The mystery of distance. Desire cherished instead of satisfied. Similar thoughts in this book: https://sive.rs/book/GettingLost",
-      "publishedAt": "2026-11-08T20:32:32.000Z"
+      "summary": "Fascinating book “I Deliver Parcels in Beijing”. First you learn what it's like to do the no-skill jobs in China, but near the end it takes a twist as he quits to become an insightful writer. My note…",
+      "publishedAt": "2026-11-09T20:44:49.000Z"
     }
   },
   "https://skaterfish.net/": {
@@ -7256,10 +7256,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "The Game Boy Advance version of Donkey Kong Country contains an unused test level in its files that&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/832817437152002048",
-      "summary": "The Game Boy Advance version of Donkey Kong Country contains an unused test level in its files that appears as a copy of the Jungle Hijinxs level with additional out-of-place objects, some of which a…",
-      "publishedAt": "2026-11-09T15:03:20.000Z"
+      "title": "In Donkey Kong: Barrel Blast, Klump&rsquo;s head is always covered by a bucket, so that only his eyes are&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/832836351033573376",
+      "summary": "In Donkey Kong: Barrel Blast, Klump’s head is always covered by a bucket, so that only his eyes are visible. However, his head is actually fully modeled underneath the bucket. The lower three images …",
+      "publishedAt": "2026-11-09T20:03:57.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -7810,10 +7810,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Scales is right. The Celtic players know what’s at stake. Now they must deliver it.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/scales-celtic-comments-right-on/",
-      "summary": "Liam Scales gave a good interview the other day, and he is right. This Celtic squad does not The post Scales is right. The Celtic players know what’s at stake. Now they must deliver it. appeared firs…",
-      "publishedAt": "2026-11-09T18:00:11.000Z"
+      "title": "Celtic will learn over the international break? What did we do with the last one?",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/celtic-learning-lessons-international-break/",
+      "summary": "Obviously, it is good today to read Martin O’Neill talking about being in learning mode over the next The post Celtic will learn over the international break? What did we do with the last one? appear…",
+      "publishedAt": "2026-11-09T20:00:45.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -8394,7 +8394,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -9126,7 +9126,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -9206,10 +9206,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Lowest price for LEGO Harry Potter Diagon Alley in over a year",
-      "url": "https://www.brickfanatics.com/lowest-price-lego-harry-potter-diagon-alley-a-year",
-      "summary": "The iconic LEGO shopping street at a displayable scale, now 20% off",
-      "publishedAt": "2026-11-09T18:27:47.000Z"
+      "title": "Ranking every LEGO Black release – from Vestas to Godzilla",
+      "url": "https://www.brickfanatics.com/ranking-lego-black-release-from-vestas-to-godzilla",
+      "summary": "It all started with a wind turbine...",
+      "publishedAt": "2026-11-09T19:35:36.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -9275,10 +9275,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "James Gunn ‘Incredibly Relieved’ To Return To Filmmaking As He, Peter Safran Step Down As DC Studios Chiefs Amid Paramount Shakeup",
-      "url": "https://www.cartoonbrew.com/executives/james-gunn-peter-safran-step-down-dc-studios-269220.html",
-      "summary": "Marvel vet Jeremy Latcham will take over at the top of DC Studios as Paramount's post-merger restructuring continues.",
-      "publishedAt": "2026-11-09T18:52:23.000Z"
+      "title": "Disney Partners With Adobe On AI Tools That Turn Artists’ Sketches Into Finished Concept Art",
+      "url": "https://www.cartoonbrew.com/artificial-intelligence/disney-adobe-generative-ai-partnership-269226.html",
+      "summary": "As Disney unveils another major AI alliance, its growing investment in automation stands in stark contrast to ongoing layoffs and cost-cutting elsewhere.",
+      "publishedAt": "2026-11-09T19:46:53.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -9297,10 +9297,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Your Phone Has a Setting That Can Help Protect It if It’s Stolen",
-      "url": "https://www.cleverdude.com/content/your-phone-has-a-setting-that-can-help-protect-it-if-its-stolen/",
-      "summary": "A stolen phone can create a problem that goes well beyond replacing an expensive piece of glass and metal. If someone gets past its lock screen, they may also gain access to private messages, saved p…",
-      "publishedAt": "2026-11-09T19:44:51.000Z"
+      "title": "5 Home Repairs That Are Better Left to Professionals",
+      "url": "https://www.cleverdude.com/content/5-home-repairs-that-are-better-left-to-professionals/",
+      "summary": "A YouTube tutorial can make almost any home repair look manageable. Thirty minutes, a handful of tools, and suddenly someone has transformed a complicated electrical panel or repaired a roof without …",
+      "publishedAt": "2026-11-09T20:31:19.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -9857,7 +9857,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -9865,9 +9865,9 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/09/this-is-cool-corpusblog-page.html",
-      "summary": "This is cool: corpus.blog page for my blog . Found via @sonicrocketman . It pulls together links between blogs.",
-      "publishedAt": "2026-11-09T18:00:00.000Z"
+      "url": "https://www.manton.org/2026/11/09/load-balancers-are-driving-me.html",
+      "summary": "Load balancers are driving me crazy today. Sorry for the server downtime blips. 🙁",
+      "publishedAt": "2026-11-09T20:30:54.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -10254,10 +10254,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "What the Latest Retirement Savings Data Says About Americans Nearing 65",
-      "url": "https://www.savingadvice.com/articles/2026/11/09/10766320_what-the-latest-retirement-savings-data-says-about-americans-nearing-65.html",
-      "summary": "Americans approaching retirement are seeing an uncomfortable gap between how much they’ve saved and how much they may actually need. Some workers enter their early...",
-      "publishedAt": "2026-11-09T19:15:43.000Z"
+      "title": "Your Parent Dies With a Storage Unit — Who Gets the Contents and the Bill?",
+      "url": "https://www.savingadvice.com/articles/2026/11/09/10766314_your-parent-dies-with-a-storage-unit-who-gets-the-contents-and-the-bill.html",
+      "summary": "A storage facility calls to say your deceased parent’s monthly payment is overdue. You knew your parent had accumulated belongings over the years, but you...",
+      "publishedAt": "2026-11-09T20:30:44.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -10316,7 +10316,7 @@
     }
   },
   "https://www.snitchseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
@@ -10510,13 +10510,13 @@
   },
   "https://www.thehorrorsofhalloween.com/": {
     "status": "success",
-    "lastPublished": "2026-11-08",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://www.thehorrorsofhalloween.com/feeds/posts/default",
     "latestArticle": {
-      "title": "He is Risen! SAM: THE SOUL OF HALLOWEEN Watch All October 2026 Videos. Happy Halloween!",
-      "url": "https://www.thehorrorsofhalloween.com/2026/10/he-is-risen-sam-the-soul-of-halloween-watch-all-2026-october-videos-happy-halloween.html",
-      "summary": "YouTube Playlist of all Videos or watch each one below: Sep 30, 2026 30 years ago, a strange little trick-or-treater named Sam first stepped out of the shadows and into our hearts. And this October, …",
-      "publishedAt": "2026-10-31T20:47:42.746Z"
+      "title": "Watch SVENGOOLIE Host A NIGHTMARE ON ELM STREET (1984) & PART 2: FREDDY'S REVENGE (1985) on 2001 VHS Broadcast",
+      "url": "https://www.thehorrorsofhalloween.com/2026/11/watch-svengoolie-host-a-nightmare-on-elm-street-1984-and-part-2-freddys-revenge-1985-on-2001-vhs-broadcast.html",
+      "summary": "To celebrate the release of the original film in U.S. theaters on November 9, 1984, here is a 2001 Double Feature VHS recorded broadcast of Svengoolie hosting A Nightmare on Elm Street and A Nightmar…",
+      "publishedAt": "2026-11-09T19:52:43.698Z"
     }
   },
   "https://www.theimpulsivebuy.com/": {
@@ -10535,10 +10535,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Mountain Dew Holiday Pack",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/09/spotted-mountain-dew-holiday-pack/",
-      "summary": "I’m extremely disappointed this isn’t a Mountain Dew Advent Calendar with 24 current and discontinued flavors. (Spotted by Rob at Smith’s.) If you spotted something new, send your photos to theimpuls…",
-      "publishedAt": "2026-11-09T18:00:00.000Z"
+      "title": "SPOTTED: Keebler Limited Edition Snickerdoodle Fudge Stripes",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/09/spotted-keebler-limited-edition-snickerdoodle-fudge-stripes/",
+      "summary": "If Keebler elves have magic, why isn’t Ernie using magic to carry those cinnamon sticks? If I had magic, that’s what I’d be doing. (Spotted by Robbie at Walmart.) If you spotted something new, send y…",
+      "publishedAt": "2026-11-09T20:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
@@ -10663,7 +10663,7 @@
     }
   },
   "https://www.traingeek.ca/wp/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://www.traingeek.ca/wp/feed/",
     "latestArticle": {
@@ -10787,10 +10787,10 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "James Gunn Is “Incredibly Relieved\" to Be Fired After “Trying” Four Years, Forgets ‘Supergirl’ Ever Existed",
-      "url": "https://www.worldofreel.com/blog/2026/11/9/james-gunn-is-incredibly-relieved-to-be-fired-after-trying-four-years-forgets-supergirl-ever-existed",
-      "summary": "Hours after being shown the door at DC Studios, James Gunn has posted his farewell on Instagram. The gist? He never really liked the job anyway.",
-      "publishedAt": "2026-11-09T19:26:52.000Z"
+      "title": "Alex Proyas Directing Antonio Banderas in ‘Cortés’, an “AI-Enabled” Epic, and His First Film in 10 Years",
+      "url": "https://www.worldofreel.com/blog/2026/11/9/alex-proyas-directing-antonio-banderas-in-corts-an-ai-enabled-historical-epic-his-first-film-in-10-years",
+      "summary": "Alex Proyas, who directed “The Crow” and “Dark City,” and a full decade after “Gods of Egypt,” is currently shooting “Cortés” with Antonion Banderas in Paris.",
+      "publishedAt": "2026-11-09T20:10:44.000Z"
     }
   },
   "https://www.zachleat.com/": {

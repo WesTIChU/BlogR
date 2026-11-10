@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -907,13 +907,13 @@
   },
   "https://belasbrightideas.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://belasbrightideas.wordpress.com/feed/",
     "latestArticle": {
-      "title": "What We Carry Forward",
-      "url": "https://belasbrightideas.wordpress.com/2026/11/07/what-we-carry-forward/",
-      "summary": "A morning walk among hurricane-felled kiawe trees becomes a reflection on the expectations we inherit, the freedoms generations have fought to secure, and the thorns that remain long after old struct…",
-      "publishedAt": "2026-11-07T15:58:39.000Z"
+      "title": "No Vanity",
+      "url": "https://belasbrightideas.wordpress.com/2026/11/10/no-vanity-2/",
+      "summary": "Thoughts on cruising through a backyard garden in Hawaii.",
+      "publishedAt": "2026-11-10T16:18:13.000Z"
     }
   },
   "https://ben-heil.com/": {
@@ -1270,10 +1270,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "Why Suzanne Collins Starts Sunrise on the Reaping on Haymitch’s Birthday",
-      "url": "https://booksofbrilliance.com/2026/11/10/sunrise-on-the-reaping-haymitch-birthday/?utm_source=rss&utm_medium=rss&utm_campaign=sunrise-on-the-reaping-haymitch-birthday",
-      "summary": "Haymitch wants to spend his sixteenth birthday with Lenore Dove. The Capitol has other plans. Here’s what that clash reveals about Suzanne Collins’s opening chapter. The post Why Suzanne Collins Star…",
-      "publishedAt": "2026-11-10T15:39:31.000Z"
+      "title": "5 Hockey Books for Maple Leafs Fans Who Want to Know the Team’s History",
+      "url": "https://booksofbrilliance.com/2026/11/10/toronto-maple-leafs-history-books/?utm_source=rss&utm_medium=rss&utm_campaign=toronto-maple-leafs-history-books",
+      "summary": "Where should a Leafs fan start reading about the team? These five books cover the franchise’s first century, the 1967 Cup, a memorable 1978 playoff run and Mats Sundin’s captaincy. The post 5 Hockey …",
+      "publishedAt": "2026-11-10T16:22:29.000Z"
     }
   },
   "https://brainbaking.com/": {
@@ -2115,21 +2115,21 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Cardano price hovers below $0.18 as sell pressure builds",
-      "url": "https://cryptonews.mobile/brief/cardano-price-hovers-below-018-as-sell-pressure-builds",
-      "summary": "Cardano (ADA) traded around $0.176 to $0.179 on November 10. Both reports note the price remains below the $0.18 level. The market shows selling pressure, with large sell orders reported near $0.177‑…",
-      "publishedAt": "2026-11-10T15:39:41.000Z"
+      "title": "Trump Media reports 15,649 BTC held after quarterly Bitcoin purchases",
+      "url": "https://cryptonews.mobile/brief/trump-media-reports-15649-btc-held-after-quarterly-bitcoin-purchases",
+      "summary": "Trump Media & Technology Group disclosed its Bitcoin holdings in a quarterly filing. The company held 15,649 BTC as of September 30. One report says it added a net 1,510 BTC worth about $112 million …",
+      "publishedAt": "2026-11-10T16:40:09.000Z"
     }
   },
   "https://css-tricks.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
-      "title": "CSS-Tricks, Version 20",
-      "url": "https://css-tricks.com/css-tricks-version-20/",
-      "summary": "Things look a little different around here? I hope so because we just pushed a site redesign! Here's everything new with the 20th(!!) version of CSS-Tricks. CSS-Tricks, Version 20 originally handwrit…",
-      "publishedAt": "2026-11-09T15:49:48.000Z"
+      "title": "CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today?",
+      "url": "https://css-tricks.com/css-using-declarations-just-once/",
+      "summary": "Is the technique inspired by the DRY principle by identifying and reducing (if not eliminating) CSS declaration repetition still a relevant optimization strategy? CSS Optimization: Is Using Declarati…",
+      "publishedAt": "2026-11-10T16:42:18.000Z"
     }
   },
   "https://cult-tv-lounge.blogspot.com/": {
@@ -3121,10 +3121,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Prehistoric Time | 600 to 66 Million Years Ago",
-      "url": "https://greatawakeningreport.com/prehistoric-time-earth-600-to-66-million-years-ago-documentary/",
-      "summary": "Half a billion years is not a number the human mind handles well. We can say it, but we cannot feel it, and that gap is exactly what this prehistoric Earth documentary sets out to close. It runs the …",
-      "publishedAt": "2026-11-10T14:15:00.000Z"
+      "title": "Where Is Everything in the Universe Going? | Documentary",
+      "url": "https://greatawakeningreport.com/where-is-everything-in-the-universe-going-documentary/",
+      "summary": "You are sitting still right now, and you are also moving faster than you can meaningfully picture. That contradiction is where this documentary begins. It asks a question most people never think to p…",
+      "publishedAt": "2026-11-10T16:40:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -3239,10 +3239,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "DeviceTree For Hackers: Intro",
-      "url": "https://hackaday.com/2026/11/10/devicetree-for-hackers-intro/",
-      "summary": "Raspberry Pi has just leaked information on the Pi Zero 3W. They did it by publishing a DeviceTree file that describes the hardware of the Pi Zero. This is how …read more",
-      "publishedAt": "2026-11-10T15:00:00.000Z"
+      "title": "Simulating and Visualising the Central Limit Theorem",
+      "url": "https://hackaday.com/2026/11/10/simulating-and-visualising-the-central-limit-theorem/",
+      "summary": "Statistics is one of those fields which people tend to love or hate when they’re confronted with it during their school time. Although incredibly useful and even essential in many …read more",
+      "publishedAt": "2026-11-10T16:30:21.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3620,13 +3620,13 @@
   },
   "https://interconnected.org/home/": {
     "status": "success",
-    "lastPublished": "2026-11-07",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://interconnected.org/home/feed/",
     "latestArticle": {
-      "title": "Scraps, snip snaps, psyops, suns",
-      "url": "https://interconnected.org/home/2026/11/07/scraps",
-      "summary": "What if a barber took 1/10th the time but with the exact same quality? Gut feel is I would pay 50% more and visit twice as often. Robo-scissors at just below the speed of sound, you wouldn’t even sit…",
-      "publishedAt": "2026-11-07T12:13:00.000Z"
+      "title": "Inanimate launch event in London, next week",
+      "url": "https://interconnected.org/home/2026/11/10/works",
+      "summary": "The last time I posted about Inanimate, I mentioned that we’re building devices: WORKS: five limited-edition devices for your AI agent and you. (Five?? Yes five.) We call them Promptable Products. Yo…",
+      "publishedAt": "2026-11-10T16:12:00.000Z"
     }
   },
   "https://inthecheapseats.co.uk/": {
@@ -3696,9 +3696,9 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17521502/helix-modal-editor",
-      "summary": "Helix is an underrated gem when it comes to modal editors like Vim and Neovim.",
-      "publishedAt": "2026-11-10T13:33:19.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17521589/kora-ai-desktop-os-unveiled",
+      "summary": "KORA is due in 2027 and will come to Snapdragon-powered PCs thanks to Qualcomm collaborating with the devs.",
+      "publishedAt": "2026-11-10T15:01:49.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -4803,10 +4803,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
-      "title": "Soundtrack references acknowledged",
-      "url": "https://marcel.io/posts/soundtrack-references-acknowledged",
-      "summary": "Replying to The Legend of Zelda: Ocarina of Time Playing Ocarina of Time for the first time after loving Breath of the Wild and Tears of the Kingdom is such a joyful experience. Those are my all-time…",
-      "publishedAt": "2026-11-10T12:12:00.000Z"
+      "title": "🎨 October 23, 2026",
+      "url": "https://marcel.io/dailies/2026-10-23",
+      "summary": "I know it's not rational to be in a bad mood because you don't get to play around with an incredibly expensive new Apple gadget on release day . But it's one of the few true luxuries I allow myself. …",
+      "publishedAt": "2026-11-10T16:00:00.000Z"
     }
   },
   "https://marco.org/": {
@@ -5082,13 +5082,13 @@
   },
   "https://mitchteemley.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://mitchteemley.com/feed/",
     "latestArticle": {
-      "title": "Optimism Can Be Learned",
-      "url": "https://mitchteemley.com/optimism-can-be-learned-2/?utm_source=rss&utm_medium=rss&utm_campaign=optimism-can-be-learned-2",
-      "summary": "Optimism Can Be Learned Continue reading → The post Optimism Can Be Learned appeared first on Mitch Teemley .",
-      "publishedAt": "2026-11-09T15:25:53.000Z"
+      "title": "God, Summer Camp, and Talking in My Sleep",
+      "url": "https://mitchteemley.com/god-summer-camp-and-talking-in-my-sleep-2/?utm_source=rss&utm_medium=rss&utm_campaign=god-summer-camp-and-talking-in-my-sleep-2",
+      "summary": "God, Summer Camp, and Talking in My Sleep Continue reading → The post God, Summer Camp, and Talking in My Sleep appeared first on Mitch Teemley .",
+      "publishedAt": "2026-11-10T16:20:32.000Z"
     }
   },
   "https://mkultra.monster/": {
@@ -5292,10 +5292,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Hijabis must give up on work hopes",
-      "url": "https://mtlcityweblog.com/2026/11/10/hijabis-must-give-up-on-work-hopes/",
-      "summary": "La Presse tells how three women who’ve been studying special ed at CEGEP have to give up on their hopes to work in this area, even though it’s understaffed all over Quebec – because they wear hijab.",
-      "publishedAt": "2026-11-10T15:23:23.000Z"
+      "title": "The young are leaving Montreal",
+      "url": "https://mtlcityweblog.com/2026/11/10/the-young-are-leaving-montreal/",
+      "summary": "Metro AI has a piece analyzing statistics from the Institut du Québec that suggest that young adults have been leaving Montreal in growing numbers since the pandemic. It’s a chiefly economic critique…",
+      "publishedAt": "2026-11-10T16:37:41.000Z"
     }
   },
   "https://mumofboysadventures.wordpress.com/": {
@@ -5583,10 +5583,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "More people are wearing booze than drinking it",
-      "url": "https://nstperfume.com/2026/11/10/more-people-are-wearing-booze-than-drinking-it/",
-      "summary": "Fun fact: More people are wearing booze than drinking it. Or rather, they're preferring boozy perfumes to the bar. Global alcohol consumption is historically at the lowest it's been in 94 years (acco…",
-      "publishedAt": "2026-11-10T14:37:35.000Z"
+      "title": "Aveda Ritual Bloom ~ new perfume",
+      "url": "https://nstperfume.com/2026/11/10/aveda-ritual-bloom-new-perfume/",
+      "summary": "Aveda has launched Ritual Bloom, a new limited edition fragrance for Holiday 2026. The fragrance marks 30 years of the brand's partnership with the Yawanawá People of the Amazon Rainforest...",
+      "publishedAt": "2026-11-10T15:59:43.000Z"
     }
   },
   "https://nuchronic.uk/": {
@@ -6521,9 +6521,9 @@
     "lastPublished": "2026-11-09",
     "feedUrl": "https://restaurantsbrighton.co.uk/feed/",
     "latestArticle": {
-      "title": "Brighton New Year’s Eve 2026: Your Guide to the City’s Best Parties",
+      "title": "New Year’s Eve Brighton 2026",
       "url": "https://restaurantsbrighton.co.uk/new-years-eve-events-brighton/",
-      "summary": "New Year’s Eve Brighton 2026 New Year’s Eve Events in Brighton to Welcome 2027 Planning your Brighton New Year’s Eve 2026? Find the city’s best celebrations here! Our constantly updated guide feature…",
+      "summary": "New Year’s Eve Brighton 2026 New Year’s Eve in Brighton and Hove: Top 20 Things to Do to Welcome 2027 New Year’s Eve in Brighton falls on Thursday 31 December 2026, and the city is ready to throw its…",
       "publishedAt": "2026-11-09T14:08:36.000Z"
     }
   },
@@ -7027,10 +7027,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://seths.blog/feed/",
     "latestArticle": {
-      "title": "Bad employees/bad bosses",
-      "url": "https://seths.blog/2026/11/bad-employees-bad-bosses/",
-      "summary": "When an organization is struggling, it’s tempting for the boss to blame the team. I’m not sure the evidence supports this. After all, other similar organizations are thriving–drawing from precisely t…",
-      "publishedAt": "2026-11-10T10:03:00.000Z"
+      "title": "In search of a bargain",
+      "url": "https://seths.blog/2026/11/in-search-of-a-bargain/",
+      "summary": "The ebook of The Knot is on sale today for less than $5 in the US. Thanks for checking it out. Also, here’s a preview of the three-book holiday bundle. It’s limited to the first 170 folks.",
+      "publishedAt": "2026-11-10T16:03:00.000Z"
     }
   },
   "https://sevensisterslove.com/": {
@@ -7371,7 +7371,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -7557,10 +7557,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://talkingupscotlandtwo.com/feed/",
     "latestArticle": {
-      "title": "This BBC senior manager who did not know about Jimmy Savile got four times the pension pot for less service than BBC Scotland’s 44 year-service NHS Scotland victim today",
-      "url": "https://talkingupscotlandtwo.com/2026/11/10/this-bbc-senior-manager-who-did-not-know-about-jimmy-savile-got-four-times-the-pension-pot-for-less-service-than-bbc-scotlands-44-year-service-nhs-scotland-victim-today/",
-      "summary": "From BBC Scotland today, headlining, the above and: An NHS executive has received a near £400,000 redundancy pay-off after retiring from a health board, new figures show. Following a 44-year career i…",
-      "publishedAt": "2026-11-10T10:22:31.000Z"
+      "title": "Smartphones are making our kids smarter – Dare to be different Scotland",
+      "url": "https://talkingupscotlandtwo.com/2026/11/10/smartphones-are-making-our-kids-smarter-dare-to-be-different-scotland/",
+      "summary": "Deep in Impacts of digital media use on children and young people’s mental health and wellbeing: evidence review published today: The review has identified important methodological limitations, parti…",
+      "publishedAt": "2026-11-10T15:52:36.000Z"
     }
   },
   "https://tangiblelife.net/": {
@@ -7808,10 +7808,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Celtic fans aren’t interested in how much we can make for Baur.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/celtic-fans-not-interested-in-baur-profit/",
-      "summary": "Yeah, I’ve said on here before that there are sometimes articles in the mainstream media and elsewhere where The post Celtic fans aren’t interested in how much we can make for Baur. appeared first on…",
-      "publishedAt": "2026-11-10T14:00:55.000Z"
+      "title": "Penrice considered quitting football? Here’s some things he might have done.",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/penrice-considered-quitting-football-other-career-opportunities/",
+      "summary": "James Penrice has admitted that there was a point in his career when he thought football might be The post Penrice considered quitting football? Here’s some things he might have done. appeared first …",
+      "publishedAt": "2026-11-10T16:36:36.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -7903,10 +7903,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://theextraaamile.wordpress.com/feed/",
     "latestArticle": {
-      "title": "🪳",
-      "url": "https://theextraaamile.wordpress.com/2026/11/10/%f0%9f%aa%b3/",
-      "summary": "What life lesson did you learn too late? View all responses The Lesson: What people say and what they actually do rarely seem to match. They fuck you over at the first opportunity and then carry on a…",
-      "publishedAt": "2026-11-10T03:44:34.000Z"
+      "title": "…too sugary?  🍬🍬",
+      "url": "https://theextraaamile.wordpress.com/2026/11/10/too-sugary-%f0%9f%8d%ac%f0%9f%8d%ac/",
+      "summary": "No! No! I’m not talking about your sugar intake or diabetes levels. I’m talking about the ability to sugarcoat people and situations in life. It’s almost like looking at everything through rose-colou…",
+      "publishedAt": "2026-11-10T16:41:49.000Z"
     }
   },
   "https://thefaithfulsteward.blog/": {
@@ -8170,13 +8170,13 @@
   },
   "https://theprogmind.com/": {
     "status": "success",
-    "lastPublished": "2026-11-06",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://theprogmind.com/feed/",
     "latestArticle": {
-      "title": "Kalandra – The Other Side",
-      "url": "https://theprogmind.com/2026/11/06/kalandra-the-other-side/",
-      "summary": "Kalandra releases their best album yet.",
-      "publishedAt": "2026-11-06T15:11:56.000Z"
+      "title": "Orion – Universe XXV",
+      "url": "https://theprogmind.com/2026/11/10/orion-universe-xxv/",
+      "summary": "Orion releases his best album yet.",
+      "publishedAt": "2026-11-10T15:58:15.000Z"
     }
   },
   "https://thequietus.com/": {
@@ -8184,10 +8184,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Straight Hedge! Noel Gardner Reviews Punk & HC for November",
-      "url": "https://thequietus.com/quietus-reviews/punk/straight-hedge-punk-hardcore-new-music-review-november-2026/",
-      "summary": "From charge-the-enemy, knife-down-boot, shoelace-round-head hardcore to some gleaming and nasty Lima death rock, Noel Gardner's guide to the best in punk returns Funeral, photo by Satanist Madness We…",
-      "publishedAt": "2026-11-10T10:10:00.000Z"
+      "title": "International Feel: Highlights from Le Guess Who? 2026",
+      "url": "https://thequietus.com/quietus-reviews/live-reviews/international-feel-highlights-from-le-guess-who-2026/",
+      "summary": "Celebrating its 20th year, with a lineup focussed on bypassing arbitrary boundaries, Utrecht's flagship experimental festival forces even the most eclectic listener to go beyond, says Patrick Clarke …",
+      "publishedAt": "2026-11-10T16:10:41.000Z"
     }
   },
   "https://therealadam.com/": {
@@ -8338,12 +8338,12 @@
   },
   "https://thevikingmike.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://thevikingmike.wordpress.com/feed/",
     "latestArticle": {
-      "url": "https://thevikingmike.wordpress.com/2026/11/09/6196/",
-      "summary": "Has your idea of what makes a good friend changed as you’ve gotten older? Yes of course I hope I have gotten wiser I don’t have my friends from when I was younger so I must have learned.",
-      "publishedAt": "2026-11-09T16:04:16.000Z"
+      "url": "https://thevikingmike.wordpress.com/2026/11/10/6198/",
+      "summary": "What life lesson did you learn too late? To save as much as you can when you are young and don’t be afraid to of being want you want in life.",
+      "publishedAt": "2026-11-10T16:03:04.000Z"
     }
   },
   "https://thewonderfulworldofcinema.wordpress.com/": {
@@ -8683,13 +8683,13 @@
   },
   "https://unsolicitedfeedback.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-05",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://unsolicitedfeedback.blog/feed/",
     "latestArticle": {
-      "title": "Nonfiction November 2026 Week 1: My Year in Nonfiction",
-      "url": "https://unsolicitedfeedback.blog/2026/11/05/nonfiction-november-2026-week-1-my-year-in-nonfiction/",
-      "summary": "Welcome to Nonfiction November, an annual event where nonfiction book bloggers showcase reviews and reflections about the nonfiction books we’ve read over the past year. It’s my sixth year participat…",
-      "publishedAt": "2026-11-05T14:00:00.000Z"
+      "title": "Nonfiction November 2026 Week 2: Journeys",
+      "url": "https://unsolicitedfeedback.blog/2026/11/10/nonfiction-november-2026-week-2-journeys/",
+      "summary": "The topic for Week 2 of Nonfiction November is journeys. I believe every book is a journey. Every book should take you to a different place than where you started. It should leave you with new knowle…",
+      "publishedAt": "2026-11-10T16:12:13.000Z"
     }
   },
   "https://uogorod.ru/": {
@@ -9138,10 +9138,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "coworkers kept commenting on my hickey, employee turns every one-on-one into a venting session, and more",
-      "url": "https://www.askamanager.org/2026/11/coworkers-kept-commenting-on-my-hickey-employee-turns-every-one-on-one-into-a-venting-session-and-more.html",
-      "summary": "It’s five answers to five questions. Here we go… 1. My coworkers kept commenting on my hickey I work at a OB-GYN. My husband gave me a hickey. Some of my coworkers were making jokes and I covered it …",
-      "publishedAt": "2026-11-10T05:03:33.000Z"
+      "title": "I don’t think my coworker should be at work since they’re a chronic vomiter",
+      "url": "https://www.askamanager.org/2026/11/i-dont-think-my-coworker-should-be-at-work-since-theyre-a-chronic-vomiter.html",
+      "summary": "A reader writes: I work in a very laid-back office. We have hybrid/remote, and everyone uses the remote option whenever possible. There really is no reason for anyone to be in the office, but the com…",
+      "publishedAt": "2026-11-10T15:59:31.000Z"
     }
   },
   "https://www.authenticallyemily.uk/": {
@@ -9203,10 +9203,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Lowest price ever for LEGO Star Wars STAP right now",
-      "url": "https://www.brickfanatics.com/lowest-price-ever-lego-star-wars-stap-right-now",
-      "summary": "Our biggest issue was the price, but that's no longer a problem",
-      "publishedAt": "2026-11-10T15:17:58.000Z"
+      "title": "New Lumibricks cyberpunk club with rooftop pool out now",
+      "url": "https://www.brickfanatics.com/new-lumibricks-cyberpunk-club-rooftop-pool-out-now",
+      "summary": "Neon in every sense of the word",
+      "publishedAt": "2026-11-10T15:56:18.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -9294,10 +9294,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Veterans Day: 7 Automotive Discounts Worth Checking Before You Pay",
-      "url": "https://www.cleverdude.com/content/veterans-day-7-automotive-discounts-worth-checking-before-you-pay/",
-      "summary": "A $1,000 discount on a new vehicle can make a difference. So can saving 15% on an expensive repair that has been sitting on the to-do list for months. Veterans Day brings opportunities for both, alth…",
-      "publishedAt": "2026-11-10T15:13:00.000Z"
+      "title": "Your Car’s Battery Terminals Are Corroded — What Should You Know?",
+      "url": "https://www.cleverdude.com/content/your-cars-battery-terminals-are-corroded-what-should-you-know/",
+      "summary": "A car battery can look perfectly healthy and still struggle to start your engine because of a crusty little connection. That white, blue-green, or powdery buildup around the battery terminals might l…",
+      "publishedAt": "2026-11-10T16:43:21.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -9516,12 +9516,12 @@
   },
   "https://www.freecodecamp.org/news/": {
     "status": "success",
-    "lastPublished": "2026-11-06",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript/",
-      "summary": "PDF files are commonly used to share presentations, scripts, reports, lesson materials, comic pages, and other visual documents. But reviewing a long PDF page by page can take time, especially when so",
-      "publishedAt": "2026-11-06T19:41:34.000Z"
+      "url": "https://www.freecodecamp.org/news/how-file-transfer-services-work/",
+      "summary": "Sending a 5 GB video file might seem simple. You select the file, click Upload, wait for the progress bar to finish, and share a link with someone. But there are several things happening in the backgr",
+      "publishedAt": "2026-11-10T13:20:32.000Z"
     }
   },
   "https://www.fromjason.xyz/": {
@@ -9677,10 +9677,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Southbank’s winter lights festival returns later this month",
-      "url": "https://www.ianvisits.co.uk/articles/southbanks-winter-lights-festival-returns-later-this-month-93852/",
-      "summary": "The Southbank Centre has confirmed that its winter lights festival will return later this month. Read more ›",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
+      "title": "HS2 development around Euston could support 6,000 new homes",
+      "url": "https://www.ianvisits.co.uk/articles/hs2-development-around-euston-could-support-6000-new-homes-93550/",
+      "summary": "More than 6,000 new homes could be built around Euston as part of the HS2 development, with proposals spanning railway land, housing estates, and redevelopment sites from Bloomsbury to Camley Street.…",
+      "publishedAt": "2026-11-10T16:00:44.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -9705,7 +9705,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -9862,9 +9862,9 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/10/if-youre-not-getting-the.html",
-      "summary": "If you’re not getting the Micro Monday email newsletters, we send them out every two weeks to active users. You can find yesterday’s email on the web too .",
-      "publishedAt": "2026-11-10T15:28:52.000Z"
+      "url": "https://www.manton.org/2026/11/10/if-you-poke-around-on.html",
+      "summary": "If you poke around on news.micro.blog , you’ll see that we are updating our native apps very often. Just having a suite of native apps used to be a competitive advantage, but now anyone can create an…",
+      "publishedAt": "2026-11-10T16:33:22.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -10532,10 +10532,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "New Meal Ideas Spotted — November 10, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/10/new-meal-ideas-spotted-november-10-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-11-10T14:00:00.000Z"
+      "title": "REVIEW: Starbucks Tiramisu Velvet Cold Brew",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/10/starbucks-tiramisu-velvet-cold-brew-review/",
+      "summary": "It’s the most wonderful time of the year: holiday drink season at Starbucks! Of course, it has debuted some new flavors, including tiramisu. Tiramisu is a tough dessert to turn into a coffee. You’ve …",
+      "publishedAt": "2026-11-10T16:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
@@ -10576,10 +10576,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "James Gunn and Peter Safran (Mostly) Out of Power at DC/Skydance",
-      "url": "https://www.thenewestrant.com/2026/11/james-gunn-and-peter-safran-mostly-out.html",
-      "summary": "I got up this Monday, dragging a bit. The kiddos took forever to get to sleep; I kept getting woken up by various stuff, I needed some coffee. While the pot was brewing, I opened up the usual general…",
-      "publishedAt": "2026-11-10T01:00:06.637Z"
+      "title": "\"Now,\" #14 is a Stellar New Entry of the Anthology Series",
+      "url": "https://www.thenewestrant.com/2026/11/now-14-is-stellar-new-entry-of.html",
+      "summary": "It's been over two years since the last issue of, \"Now,\" hit the market for our greedy little eyes to enjoy. I say, \"Greedy,\" because this latest issue is thick, and after reading it, I still wanted …",
+      "publishedAt": "2026-11-10T16:05:53.808Z"
     }
   },
   "https://www.thephoblographer.com/": {
@@ -10642,10 +10642,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "A Bunch Of Handheld Medabots Games Are Coming To Steam This December, But Only In Japan",
-      "url": "https://www.timeextension.com/#article-208871",
-      "summary": "'Medabots Classics Plus' is getting a Steam release. Six years after its release on the Nintendo Switch in Japan, the Medabots compilation Medabots Classics Plus , is getting a new release on Steam t…",
-      "publishedAt": "2026-11-10T15:00:00.000Z"
+      "title": "New 'Limited Edition' Issue of Forgotten Worlds Is Dedicated to the TurboGrafx-16 / PC Engine",
+      "url": "https://www.timeextension.com/#article-208840",
+      "summary": "Limited run of 300 copies only. Vintage gaming periodical Forgotten Worlds has opened orders for its ninth issue, which specifically focuses on the history of the TurboGrafx-16, commonly known on the…",
+      "publishedAt": "2026-11-10T16:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {
@@ -10784,10 +10784,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "DC Studios Boss Jeremy Latcham Wants More Faith-Inspired, Family-Friendly Movies",
-      "url": "https://www.worldofreel.com/blog/2026/11/9/meet-jeremy-latcham-the-faith-friendly-marvel-vet-now-running-dc",
-      "summary": "Now that Jeremy Latchman has replaced James Gunn and Peter Safran as DC Studios CCO, the guy’s past will now be scrutinized ad nauseam by online hordes, and it’s already started.",
-      "publishedAt": "2026-11-10T00:56:56.000Z"
+      "title": "Report: DCU Is Rebooting, Ellison Claimed 'Superman' Underperformed, Gunn Was Writing 'Superman 3' When Fired",
+      "url": "https://www.worldofreel.com/blog/2026/11/10/david-ellison-said-superman-had-no-cultural-impact",
+      "summary": "Gunn and Safran thought they were safe and were already plotting a third \"Superman\" movie, which Gunn had begun writing, when Ellison came knocking.",
+      "publishedAt": "2026-11-10T16:44:14.000Z"
     }
   },
   "https://www.zachleat.com/": {

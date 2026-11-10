@@ -236,12 +236,12 @@
   },
   "https://accidentalwoodworker.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://accidentalwoodworker.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "experiment.......",
-      "summary": "pays to be a pack rack Noticed this pile of 1/2\" poplar while during the laundry. It will do for the upcoming experiment. the box I couldn't get a complete color/grain match for the sides. I eyeballe…",
-      "publishedAt": "2026-11-09T12:49:14.000Z"
+      "title": "experiment pt II............",
+      "summary": "hmm........ 2nd round of sawing square and it didn't go so well. All four of them were slightly off square. Not terribly OTL (out to lunch) but enough that there would be gaps between the tails and p…",
+      "publishedAt": "2026-11-10T12:46:58.000Z"
     }
   },
   "https://acorneredgurl.wordpress.com/": {
@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1139,13 +1139,13 @@
   },
   "https://blog.master.dev/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://blog.master.dev/feed/",
     "latestArticle": {
-      "title": "TanStack AI’s Sandbox API",
-      "url": "https://blog.master.dev/tanstack-ai-sandbox-api/",
-      "summary": "Part 3 of this intro to TanStack AI covers the Sandbox API: spinning up a remote sandbox on Vercel or Railway, running Claude Code inside it with GitHub access, and having it clone your repo, add a f…",
-      "publishedAt": "2026-11-09T12:56:45.000Z"
+      "title": "My Interop 2027 Picks",
+      "url": "https://blog.master.dev/my-interop-2027-picks/",
+      "summary": "What web platform features are we all wishing for perfect cross-browser interoperability next year?",
+      "publishedAt": "2026-11-10T12:55:58.000Z"
     }
   },
   "https://blog.mollywhite.net/": {
@@ -1622,7 +1622,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1866,9 +1866,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Impeaching Pete by Daniel Boris",
-      "url": "https://comicsdc.blogspot.com/2026/11/impeaching-pete-by-daniel-boris.html",
-      "publishedAt": "2026-11-10T03:24:53.336Z"
+      "title": "Comics Research Bibliography citations update, 11/9/2026",
+      "url": "https://comicsdc.blogspot.com/2026/11/comics-research-bibliography-citations_0732928078.html",
+      "summary": "Chiu-Tabet, Christopher. 2026. Chantelle Aimée Osman, Editor and Dick Tracy Writer, Dead at 45. The Beat (November 9): https://www.comicsbeat.com/chantelle-aimee-osman-dead/ Spratford, Sam. 2026. Sim…",
+      "publishedAt": "2026-11-10T13:01:13.917Z"
     }
   },
   "https://comicss.art/": {
@@ -2114,10 +2115,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Binance halts MEXC transfers after US money laundering designation",
-      "url": "https://cryptonews.mobile/brief/binance-halts-mexc-transfers-after-us-money-laundering-designation",
-      "summary": "Binance has stopped all transfers involving MEXC and its affiliates, effective immediately. The move follows FinCEN's designation of MEXC as a Primary Money Laundering Concern on November 6. Binance …",
-      "publishedAt": "2026-11-10T12:20:08.000Z"
+      "title": "Binance warns iPhone users over iOS flaw exposing wallet data",
+      "url": "https://cryptonews.mobile/brief/binance-warns-iphone-users-over-ios-flaw-exposing-wallet-data",
+      "summary": "Binance warned iPhone users about an iOS flaw called worse_query that could let malicious apps read files stored by other apps. The exchange named iOS 26.7.1, 27.0.1 and 27.2 as affected versions. Bi…",
+      "publishedAt": "2026-11-10T12:47:12.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2459,7 +2460,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2558,7 +2559,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -2593,7 +2594,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2867,10 +2868,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://fossilhuntress.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "WHY DID MEGALODON GO EXTINCT? AN OCEAN IN CHANGE",
-      "url": "https://fossilhuntress.blogspot.com/2026/11/why-did-megalodon-go-extinct-ocean-in.html",
-      "summary": "For millions of years, Otodus megalodon occupied a formidable place in marine food webs. Its broad, serrated teeth could slice through flesh and leave deep marks in whale bones. Yet even this mighty …",
-      "publishedAt": "2026-11-09T21:00:00.000Z"
+      "title": "SLOTHS: THE RELATIVES WHO WENT TO SEA",
+      "url": "https://fossilhuntress.blogspot.com/2026/11/sloths-relatives-who-went-to-sea.html",
+      "summary": "We tend to picture sloths hanging quietly in a tree, looking as though their next appointment is sometime on Thursday.Their fossil relatives had other plans. Some went into the ocean.Meet Thalassocnu…",
+      "publishedAt": "2026-11-10T13:00:00.000Z"
     }
   },
   "https://found-media-archive.neocities.org/": {
@@ -3288,13 +3289,13 @@
   },
   "https://handeaux.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://handeaux.tumblr.com/rss",
     "latestArticle": {
-      "title": "Depravity, Dissipation and Divorce: Scandals Assail Three Countesses Von Bl&uuml;cher",
-      "url": "https://handeaux.tumblr.com/post/832251044988878848",
-      "summary": "This is the story of three women, each of whom claimed the title of Countess von Blücher. You will need a scorecard to keep track of the three women, so just remember this simple mnemonic: Countess v…",
-      "publishedAt": "2026-11-03T09:00:46.000Z"
+      "title": "Brand New Elmwood Place Survived A Civil War Between Two Feuding Mayors",
+      "url": "https://handeaux.tumblr.com/post/832885247321456640",
+      "summary": "The essential sourcebook for local history, the WPA-penned “Guide to Cincinnati and Its Neighbors,” had few kind words for Elmwood Place as late as 1943: “Elmwood Place is notorious for its gambling …",
+      "publishedAt": "2026-11-10T09:01:08.000Z"
     }
   },
   "https://happyacres.blog/": {
@@ -3715,10 +3716,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://ivorplumberpoet.press/feed/",
     "latestArticle": {
-      "title": "Coffee House Writers Magazine features my new poem, “Steve the Snail Goes Visiting (a Haiku)”",
-      "url": "https://ivorplumberpoet.press/2026/11/10/coffee-house-writers-magazine-features-my-new-poem-steve-the-snail-goes-visiting-a-haiku/",
-      "summary": "Hello, dear readers and followers. I contribute to Coffee House Writers Magazine (USA) every second week, and I’m delighted to share that my latest poem, “Steve the Snail Goes Visiting (a Haiku),” ap…",
-      "publishedAt": "2026-11-10T05:26:55.000Z"
+      "title": "Sky Blue Dome (a Tanka)",
+      "url": "https://ivorplumberpoet.press/2026/11/11/sky-blue-dome-a-tanka/",
+      "summary": "Some days the sky feels larger than usual. On a sunny blue-sky day, a fantail and a butterfly briefly shared the same boundless canvas above, inspiring this tanka about wonder, flight, and Nature’s s…",
+      "publishedAt": "2026-11-10T13:01:00.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -5026,7 +5027,7 @@
     }
   },
   "https://mihobu.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://mihobu.net/rss.xml",
     "latestArticle": {
@@ -5610,7 +5611,7 @@
     }
   },
   "https://nz6a.mihobu.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://nz6a.mihobu.net/rss.xml",
     "latestArticle": {
@@ -5994,7 +5995,7 @@
     }
   },
   "https://photography.mihobu.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://photography.mihobu.net/rss.xml",
     "latestArticle": {
@@ -6181,7 +6182,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6233,10 +6234,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "I'm Exhausted!",
-      "url": "https://projectswordtoys.blogspot.com/2026/11/im-exhausted.html",
-      "summary": "I'm seeing things again. Look at the nozzle on this space toy Jet gun. Now look at the exhaust insert on the SWORD Booster Rocket. Similar? Waddaya think? We could do with a shot of that whole exhaus…",
-      "publishedAt": "2026-11-10T00:00:00.000Z"
+      "title": "Up and Under, In and Out",
+      "url": "https://projectswordtoys.blogspot.com/2026/11/up-and-under-in-and-out.html",
+      "summary": "Tried a new venue for us this morning, and indoor car boot sale on Featherstone junior rugby club. I got a decent haul of interesting bits going for a song. See anything you like? 2 house constructio…",
+      "publishedAt": "2026-11-10T12:52:22.491Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -7370,7 +7371,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8390,7 +8391,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -9123,13 +9124,13 @@
   },
   "https://www.architectural-review.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
-      "title": "Gift a piece of the AR’s 130-year history",
-      "url": "https://www.architectural-review.com/today/gift-a-piece-of-the-ars-130-year-history",
-      "summary": "The Architectural Review Gift a piece of the AR’s 130-year history A series of AR covers from the archive available to purchase as limited-edition prints with global delivery The post Gift a piece of…",
-      "publishedAt": "2026-11-09T11:41:59.000Z"
+      "title": "Catherine Slessor reads the AR’s birth chart",
+      "url": "https://www.architectural-review.com/essays/letters-to-a-young-architect/catherine-slessor-reads-the-ars-birth-chart",
+      "summary": "The Architectural Review Catherine Slessor reads the AR’s birth chart 20 October 2026 Dear reader, Emerging in fin-de-siècle London 130 years ago, the first issue of the AR was published in November …",
+      "publishedAt": "2026-11-10T12:02:17.000Z"
     }
   },
   "https://www.askamanager.org/": {
@@ -9413,7 +9414,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -9503,7 +9504,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -9639,7 +9640,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -9676,10 +9677,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Tickets Alert: Visit a replica 16th-century Spanish sailing ship",
-      "url": "https://www.ianvisits.co.uk/articles/tickets-alert-visit-a-replica-16th-century-spanish-sailing-ship-2-93947/",
-      "summary": "A replica of a 17th-century Spanish galleon will visit London and spend the winter as a visitor attraction in St Katharine Docks. Read more ›",
-      "publishedAt": "2026-11-10T10:00:57.000Z"
+      "title": "Less is more in SOAS Gallery’s Beyond Emptiness exhibition",
+      "url": "https://www.ianvisits.co.uk/articles/less-is-more-in-soas-gallerys-beyond-emptiness-exhibition-93951/",
+      "summary": "An exhibition at SOAS Gallery explores how an architect’s understanding of space can shape a painting — including the parts of the paper he leaves untouched. Read more ›",
+      "publishedAt": "2026-11-10T12:00:27.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -9853,7 +9854,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -9870,7 +9871,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -9938,7 +9939,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -10006,7 +10007,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -10165,7 +10166,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -10250,10 +10251,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Call 911: Go to The Emergency Room Immediately If You Have Any of These 12 Symptoms",
-      "url": "https://www.savingadvice.com/articles/2026/11/10/10169960_call-911-go-to-the-emergency-room-immediately-if-you-have-any-of-these-12-symptoms.html",
-      "summary": "A sudden pain in your chest, an unexplained headache, or a frightening episode of confusion can leave you wondering whether something serious is happening. Should...",
-      "publishedAt": "2026-11-10T12:05:03.000Z"
+      "title": "Think Twice Before Swiping Your Credit Card at These 7 Places",
+      "url": "https://www.savingadvice.com/articles/2026/11/10/10766416_think-twice-before-swiping-your-credit-card-at-these-7-places.html",
+      "summary": "The credit card terminal at your favorite gas station looks perfectly ordinary. You insert your card, fill your tank, and drive away without thinking twice...",
+      "publishedAt": "2026-11-10T12:45:48.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -10450,7 +10451,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -10461,7 +10462,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -10472,7 +10473,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -10615,7 +10616,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -10708,7 +10709,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

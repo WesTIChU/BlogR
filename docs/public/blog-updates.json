@@ -67,13 +67,13 @@
   },
   "http://www.galactichunter.com/GH/": {
     "status": "success",
-    "lastPublished": "2026-09-28",
-    "feedUrl": "http://www.galactichunter.com/gh/crss",
+    "lastPublished": "2026-11-09",
+    "feedUrl": "http://www.galactichunter.com/GH/rss.xml",
     "latestArticle": {
-      "title": "\"I don't think it's possible",
-      "url": "http://www.galactichunter.com/gh/story/qa-star-wars-pricing-information-and-permanent-army#comment-5884",
-      "summary": "In reply to Q&A: Star Wars Pricing, Information, and The Permanent Army : \"I don't think it's possible for any one single incident to ever hurt a fandom.\" - Adam Pawlus \"Hold my beer.\" - J.K. Rowling",
-      "publishedAt": "2026-09-28T13:18:14.000Z"
+      "title": "Q&A: No New Star Wars Questions, So Let's Work on A Big Old One",
+      "url": "http://www.galactichunter.com/gh/story/qa-no-new-star-wars-questions-so-lets-work-big-old-one",
+      "summary": "Last week, Mike decided to give me a project in Q&A. He wrote, \" I was sorting through early 2000s figures the other day and was wondering how many Fans Choice figures were there? \" Well, thanks for …",
+      "publishedAt": "2026-11-09T04:49:22.000Z"
     }
   },
   "http://www.kidfenris.com/": {
@@ -410,7 +410,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1181,7 +1181,7 @@
     }
   },
   "https://blog.prismatic.pink/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-10",
     "feedUrl": "https://blog.prismatic.pink/feed/",
     "latestArticle": {
@@ -1379,7 +1379,7 @@
     "latestArticle": {
       "title": "10th Anniversary Post: The Election and Our Common Life",
       "url": "https://brucefnesmith.blogspot.com/2026/11/10th-anniversary-post-election-and-our.html",
-      "summary": "Who's on your fridge? (11/6/2026) A recent New Yorker cartoon shows two toddlers discussing the election. One says to the other, \"This is the most important election of our lifetime.\" It's a play on …",
+      "summary": "Your humble blogger with KGAN reporters on election night 2016 (from Eric Wylie's Facebook page) (11/6/2026) A recent New Yorker cartoon shows two toddlers discussing the election. One says to the ot…",
       "publishedAt": "2026-11-06T17:25:19.651Z"
     }
   },
@@ -2114,10 +2114,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Grayscale pledges $1 million to Zcash ecosystem as ZEC falls",
-      "url": "https://cryptonews.mobile/brief/grayscale-pledges-1-million-to-zcash-ecosystem-as-zec-falls",
-      "summary": "Grayscale said it will direct $1 million to nonprofits and initiatives supporting the Zcash ecosystem. It has awarded $100,000 each to the Zcash Foundation, Pretty Good Policy for Zcash, Shielded Lab…",
-      "publishedAt": "2026-11-10T20:12:07.000Z"
+      "title": "Bitcoin falls toward $74,000 as Fed rate-hike odds reach 96%",
+      "url": "https://cryptonews.mobile/brief/bitcoin-falls-toward-74000-as-fed-rate-hike-odds-reach-96",
+      "summary": "Bitcoin fell toward $74,000 after Fed governor Christopher Waller said he would support a 25 basis point rate increase at the December FOMC meeting. BTC reached $74,080 on Bitstamp, down 1.3% on the …",
+      "publishedAt": "2026-11-10T21:13:08.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2593,7 +2593,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3120,10 +3120,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "The Vatican Financial Empire | Documentary",
-      "url": "https://greatawakeningreport.com/the-vatican-financial-empire-documentary/",
-      "summary": "The Vatican financial empire documentary takes on a subject that sits awkwardly at the intersection of two things most institutions prefer to keep separate. Faith and money. It traces how an institut…",
-      "publishedAt": "2026-11-10T19:05:00.000Z"
+      "title": "Vatican Assassins | Jesuit History Documentary",
+      "url": "https://greatawakeningreport.com/vatican-assassins-documentary/",
+      "summary": "The Vatican Assassins documentary is one of the longest and most contentious entries in this part of the library, running well past three hours and built around a single argument. The Society of Jesu…",
+      "publishedAt": "2026-11-10T21:35:00.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -3238,10 +3238,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "How CRISPR Could Mark Mutated Cancer Cells for Termination",
-      "url": "https://hackaday.com/2026/11/10/how-crispr-could-mark-mutated-cancer-cells-for-termination/",
-      "summary": "Over the past decades CRISPR, short for “clustered regularly interspaced short palindromic repeats”, has become somewhat of a household name, holding the promise of directly addressing genetic mutati…",
-      "publishedAt": "2026-11-10T18:00:26.000Z"
+      "title": "Gesture Controls With Only a Camera",
+      "url": "https://hackaday.com/2026/11/10/gesture-controls-with-only-a-camera/",
+      "summary": "Back in 2002, [Takahiro Yonemura] and others built a system that used a single webcam-like device to track a user’s hand and generate inputs for a computer. Given that this …read more",
+      "publishedAt": "2026-11-10T21:00:32.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3261,7 +3261,7 @@
     "latestArticle": {
       "title": "This Tuesday",
       "url": "https://hajarstext.wordpress.com/2026/11/10/this-tuesday-4/",
-      "summary": "A crisp bright day A work from home day Winter is slowly upon us On the radio, politicians discuss @douryeh",
+      "summary": "A crisp bright day A work from home day Winter comes slowly upon us On the radio, politicians discuss @douryeh",
       "publishedAt": "2026-11-10T17:37:11.000Z"
     }
   },
@@ -3464,13 +3464,13 @@
   },
   "https://horrormovieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-10-29",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://horrormovieblog.com/feed/",
     "latestArticle": {
-      "title": "Blood in the Snow Film Festival // Most Anticipated Watches",
-      "url": "https://horrormovieblog.com/blood-in-the-snow-film-festival-most-anticipated-watches/?utm_source=rss&utm_medium=rss&utm_campaign=blood-in-the-snow-film-festival-most-anticipated-watches",
-      "summary": "The year is almost over, but the film festivals are still going strong. Blood in the Snow Film Festival takes place November 16 – 21 in Toronto, Ontario. And Horror Movie Blog will be covering in per…",
-      "publishedAt": "2026-10-29T18:24:24.000Z"
+      "title": "FoundTV // November Streaming Guide",
+      "url": "https://horrormovieblog.com/foundtv-november-streaming-guide/?utm_source=rss&utm_medium=rss&utm_campaign=foundtv-november-streaming-guide",
+      "summary": "November is the month to be thankful, and one thing found footage fans to be truly thankful for, is FoundTV. FoundTV is a streaming service dedicated to the found footage genre and continues to deliv…",
+      "publishedAt": "2026-11-10T16:54:56.000Z"
     }
   },
   "https://horseygame.net/": {
@@ -3547,13 +3547,13 @@
   },
   "https://ifitwastoday.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://ifitwastoday.blog/feed/",
     "latestArticle": {
-      "title": "Wine Window",
-      "url": "https://ifitwastoday.blog/2026/11/09/wine-window/",
-      "summary": "When we went for dinner last night, there were a number of people outside the restaurant drinking wine. We didn’t think too much of it until we were inside eating our dinner. We discovered there is a…",
-      "publishedAt": "2026-11-09T18:22:29.000Z"
+      "title": "A Rainy Day in Florence",
+      "url": "https://ifitwastoday.blog/2026/11/10/a-rainy-day-in-florence/",
+      "summary": "It was not an auspicious start to the day. Jan’s cold was worse today, and the rain had started again. So I was on my own, with no particular plan for the day. I wandered, starting with the Duomo. Ye…",
+      "publishedAt": "2026-11-10T20:50:42.000Z"
     }
   },
   "https://imaginary.nu/henshin/": {
@@ -3705,9 +3705,9 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "The 50 Coolest Albums of all Time Ranked !- Shortlist .com 47 Dr Dre - The Chronic",
-      "summary": "An hypnotic hour.",
-      "publishedAt": "2026-11-10T19:07:13.000Z"
+      "title": "Coveted # 40 Ultravox -Ha Ha Ha!",
+      "summary": "Ultravox weren't always about sideburns that you could cut bread with and fin de siecle MTV videos that meant nothing to me frankly. Ultravox used to be really good! Check out Ha Ha Ha! their second …",
+      "publishedAt": "2026-11-10T21:10:12.000Z"
     }
   },
   "https://ivorplumberpoet.press/": {
@@ -3718,7 +3718,7 @@
       "title": "Sky Blue Dome (a Tanka)",
       "url": "https://ivorplumberpoet.press/2026/11/11/sky-blue-dome-a-tanka/",
       "summary": "Some days the sky feels larger than usual. On a sunny blue-sky day, a fantail and a butterfly briefly shared the same boundless canvas above, inspiring this tanka about wonder, flight, and Nature’s s…",
-      "publishedAt": "2026-11-10T13:01:00.000Z"
+      "publishedAt": "2026-11-10T21:06:08.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -4566,13 +4566,13 @@
   },
   "https://livoragracely.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "Genesis — The Book of Beginnings",
-      "url": "https://livoragracely.com/2026/11/10/genesis-the-book-of-beginnings/",
-      "summary": "Genesis begins with God creating the heavens and the earth. Its early stories include human beginnings, disobedience, the flood, and the scattering of peoples. The book follows Abraham and Sarah and …",
-      "publishedAt": "2026-11-09T23:53:39.000Z"
+      "title": "Negotiations Begin",
+      "url": "https://livoragracely.com/2026/11/11/negotiations-begin/",
+      "summary": "Grandma arrived with two compelling arguments. Two Strong Arguments Grandma arrived with an ice cream cone and a box of pink shoes. Molly remained on the sofa with her arms folded. She looked at the …",
+      "publishedAt": "2026-11-10T21:39:47.000Z"
     }
   },
   "https://lizduckchong.com/blog.html": {
@@ -4707,13 +4707,13 @@
   },
   "https://lucciagray.com/": {
     "status": "success",
-    "lastPublished": "2026-11-08",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://lucciagray.com/feed/",
     "latestArticle": {
-      "title": "Podcast Episode: Eyre Hall And Gothic Romance",
-      "url": "https://lucciagray.com/2026/11/08/podcast-episode-eyre-hall-and-gothic-romance/",
-      "summary": "In this podcast episode, Pip and Myra explore The Eyre Hall Series and the gothic-romance elements that connect it with Jane Eyre and Wide Sargasso Sea. You’ll hear about my creative process in writi…",
-      "publishedAt": "2026-11-08T19:47:27.000Z"
+      "title": "Echoes of Jane Eyre: Love, Secrets and Gothic Intrigue",
+      "url": "https://lucciagray.com/2026/11/10/echoes-of-jane-eyre-love-secrets-and-gothic-intrigue/",
+      "summary": "Link to Ghost Wife on the image Jane Eyre and Lyra Leyton: Two Governesses, Two Centuries Apart Around 1820, when Jane Eyre was nineteen, she posted an advertisement, offering her services as a gover…",
+      "publishedAt": "2026-11-10T21:33:36.000Z"
     }
   },
   "https://lwn.net/": {
@@ -5125,13 +5125,13 @@
   },
   "https://mojobob.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Lozenge Painting",
-      "url": "https://mojobob.blogspot.com/2026/11/lozenge-painting.html",
-      "summary": "Painting the German WW1 lozenge pattern in 1:144 scale isn't actually all that difficult. The exact geometric shape of the individual lozenges isn't all that important in this small scale, as they re…",
-      "publishedAt": "2026-11-08T20:53:27.800Z"
+      "title": "Nieuport 17",
+      "url": "https://mojobob.blogspot.com/2026/11/nieuport-17.html",
+      "summary": "This is a 1:144 scale print of the Nieuport 17 in French colours. It was one of the most widely used French scouts of 1917, employed by every member of the Entente alliance. It replaced the Nieuport …",
+      "publishedAt": "2026-11-10T21:18:40.853Z"
     }
   },
   "https://momentsingraphics.de/": {
@@ -5594,9 +5594,9 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://nuchronic.uk/feed.xml",
     "latestArticle": {
-      "url": "https://nuchronic.uk/item/cureme-update-on-the-hhv-6-study-advancing-understanding-of-viral-activity-and-i-04ad16024d/",
-      "summary": "Title: CureME Update on the HHV-6 Study: Advancing Understanding of Viral Activity and Immune Responses in ME/CFS and Long Covid Author: Kelly Reid Link: https://meassociation.org.uk/2026/11/cureme-u…",
-      "publishedAt": "2026-11-10T11:04:02.000Z"
+      "url": "https://nuchronic.uk/item/inhibiting-energy-production-and-more-in-the-me-cfs-brain-wasf3-just-got-a-lot-m-ad83faf948/",
+      "summary": "Title: Inhibiting Energy Production and More in the ME/CFS Brain? WASF3 Just Got a Lot More Interesting Author: Cort Johnson Link: https://www.healthrising.org/blog/2026/11/10/energy-production-wasf3…",
+      "publishedAt": "2026-11-10T19:10:39.000Z"
     }
   },
   "https://nyanpasu64.gitlab.io/": {
@@ -6182,7 +6182,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6543,10 +6543,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://retiredmartin.com/feed/",
     "latestArticle": {
-      "title": "FIREWORKS AND KEY KEG",
-      "url": "https://retiredmartin.com/2026/11/10/fireworks-and-key-keg/",
-      "summary": "November 2026. Cambridge. You might have thought I’d had enough “Crushing Death and Grief” of late, but here they are, like darkness my old friend, promoting a gig by THE hot indie sensation of 2026 …",
-      "publishedAt": "2026-11-10T17:02:36.000Z"
+      "title": "CRUSHING DEATH AND GRIEF PRESENTS  WENDY EISENBERG AT THE NEW CHESTERTON INSTITUTE",
+      "url": "https://retiredmartin.com/2026/11/10/crushing-death-and-grief-presents-wendy-eisenberg-at-the-new-chesterton-institute/",
+      "summary": "November 2026. Cambridge. “We’ve really missed your weird music rants, Retired Martin“. Aww, nice of you. Whenever Tidal recommends an album as good as this year’s eponymous “Wendy Eisenberg” I alway…",
+      "publishedAt": "2026-11-10T20:53:53.000Z"
     }
   },
   "https://retroarcadia.blog/": {
@@ -7163,10 +7163,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most eff…",
-      "publishedAt": "2026-11-10T07:28:21.000Z"
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/mil…",
+      "publishedAt": "2026-11-10T20:09:44.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -7193,13 +7193,13 @@
   },
   "https://sive.rs/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://sive.rs/feed.xml",
     "latestArticle": {
-      "title": "Fascinating book “I Deliver Parcels in Beijing”. First you learn what it's like to do the no-skill jobs in China, but near the end it takes a twist as he quits to become an insightful writer. My notes",
+      "title": "I’m on a slow background mission to reverse the othering in my worldview. De-othering",
       "url": "https://sive.rs/d",
-      "summary": "Fascinating book “I Deliver Parcels in Beijing”. First you learn what it's like to do the no-skill jobs in China, but near the end it takes a twist as he quits to become an insightful writer. My note…",
-      "publishedAt": "2026-11-09T20:44:49.000Z"
+      "summary": "I’m on a slow background mission to reverse the othering in my worldview. De-othering: https://sive.rs/deothering",
+      "publishedAt": "2026-11-10T20:56:09.000Z"
     }
   },
   "https://skaterfish.net/": {
@@ -7371,7 +7371,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8664,10 +8664,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://uniqfox.me/zine/rss.php?kind=main",
     "latestArticle": {
-      "title": "portfolio: loft3D",
-      "url": "https://uniqfox.me/blog/portfolio-loft3d",
-      "summary": "created this website theme based on my former loft I had in Chicago (when I lived there). its in an OS style so these are always fun when you need a homepage with a personal touch. plz enjoy with a w…",
-      "publishedAt": "2026-11-10T19:01:58.000Z"
+      "title": "poetry ver 1.5",
+      "url": "https://uniqfox.me/blog/poetry-ver-1-5",
+      "summary": "my latest template, with some additional bonuses for the curious + the brave souls out there. this one's free (for now) so if you dig it, drop me a line or post in the comments/gbook if you can. {{im…",
+      "publishedAt": "2026-11-10T20:56:49.000Z"
     }
   },
   "https://uniqueguitar.blogspot.com/": {
@@ -9123,7 +9123,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -9203,10 +9203,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Up-Scaled Santa hits lowest price ever on Amazon",
-      "url": "https://www.brickfanatics.com/lego-up-scaled-santa-lowest-price-ever-on-amazon",
-      "summary": "Ho, ho, hold that price!",
-      "publishedAt": "2026-11-10T20:09:26.000Z"
+      "title": "LEGO Ideas' incredible Monsters, Inc. door could become a set",
+      "url": "https://www.brickfanatics.com/lego-ideas-incredible-monsters-inc-door-set",
+      "summary": "A working LEGO Monsters, Inc. door? Yes, please",
+      "publishedAt": "2026-11-10T20:49:03.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -9426,13 +9426,13 @@
   },
   "https://www.destinationsjourney.com/": {
     "status": "success",
-    "lastPublished": "2026-11-10",
+    "lastPublished": "2026-11-09",
     "feedUrl": "https://www.destinationsjourney.com/feed/",
     "latestArticle": {
-      "title": "Hiroshima Peace Memorial Park",
-      "url": "https://www.destinationsjourney.com/hiroshima-peace-memorial-park/",
-      "summary": "Hiroshima Peace Memorial Park Hiroshima Peace Memorial Park is one of Japan’s most important historical sites. Located in central Hiroshima, the park commemorates the victims of the atomic bombing on…",
-      "publishedAt": "2026-11-10T19:53:00.000Z"
+      "title": "Kamakura Japan – Temples, Shrines & Great Buddha",
+      "url": "https://www.destinationsjourney.com/kamakura-japan-temples-shrines-great-buddha/",
+      "summary": "Discover Kamakura, Japan, a historic coastal city famous for its ancient temples, Shinto shrines and samurai heritage. Explore the Great Buddha, Hasedera Temple, Tsurugaoka Hachimangū Shrine and beau…",
+      "publishedAt": "2026-11-09T15:45:00.000Z"
     }
   },
   "https://www.digitalocean.com/community/tutorials": {
@@ -9705,7 +9705,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -9862,9 +9862,9 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/10/plotting-travel-for-crazy-plans.html",
-      "summary": "Plotting travel for 2027. Crazy plans that don’t make any sense. 🗺️",
-      "publishedAt": "2026-11-10T18:46:23.000Z"
+      "url": "https://www.manton.org/2026/11/10/its-probably-a-good-thing.html",
+      "summary": "It’s probably a good thing I dislike flying so much, because otherwise I’d go to Europe more often and be completely crushed by debt paying for travel.",
+      "publishedAt": "2026-11-10T21:35:27.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -9939,7 +9939,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -10040,13 +10040,13 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-10",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Firefox 160 release brings new floating ‘mini window’ mode",
-      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-160-released-mini-window",
-      "summary": "Firefox 160 released today with some new features. A new “Mini Window” option lets you move a tab or select a portion of a web page to an always-on-top window, so you can keep an eye on it while brow…",
-      "publishedAt": "2026-11-09T23:59:00.000Z"
+      "title": "High Tide (Linux Tidal Client) adds playlist editing, artist blocking",
+      "url": "https://www.omgubuntu.co.uk/2026/11/high-tide-linux-update",
+      "summary": "A new version of High Tide, an unofficial TIDAL music streaming app for Linux built with GTK4/libdwaita, is out. Hight Tide 1.6.0 plumbs in support more features found in the paid streaming service’s…",
+      "publishedAt": "2026-11-10T21:29:25.000Z"
     }
   },
   "https://www.oneletterwords.com/weblog/": {
@@ -10521,10 +10521,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/comments/feed/",
     "latestArticle": {
-      "title": "Comment on SPOTTED: Limited Edition Hostess Snickerdoodle Twinkies by KinesthesiaAmnesia",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/02/spotted-limited-edition-hostess-snickerdoodle-twinkies/#comment-446322",
-      "summary": "I got a box of these at Walmart. They are yummy! Really good with coffee. If I didn't already know that they were Snickerdoodle, I'd probably guess they were Churro flavor. Lots of fakey but mild cin…",
-      "publishedAt": "2026-11-10T18:20:16.000Z"
+      "title": "Comment on New Meal Ideas Spotted — November 10, 2026 by Kevin Tin",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/10/new-meal-ideas-spotted-november-10-2026/#comment-446324",
+      "summary": "I thought the chicken pot pie filling was dog food at first lol",
+      "publishedAt": "2026-11-10T21:47:02.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
@@ -10532,10 +10532,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Jolly Rancher Freeze Dried Cherry & Green Apple",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/10/spotted-jolly-rancher-freeze-dried-cherry-green-apple/",
-      "summary": "Here’s a prediction: Jolly Rancher Freeze Dried Grape Lumps of Coal in 2027. (Spotted by Robbie at H-E-B.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-11-10T20:00:00.000Z"
+      "title": "SPOTTED: M&M’s x Marvel Audition Packaging",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/10/spotted-mms-x-marvel-audition-packaging/",
+      "summary": "Milk Chocolate M&M’s x Marvel Deadpool Red M&M M&M’s minis x Marvel Yelena Brown M&M Peanut M&M’s x Marvel Wolverine Yellow M&M Peanut M&M’s x Marvel Yelena Brown M&M Peanut Butter M&M’s x Marvel Dea…",
+      "publishedAt": "2026-11-10T21:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
@@ -10784,10 +10784,10 @@
     "lastPublished": "2026-11-10",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Werner Herzog's Next Documentary ‘Walk of Life' Follows Man Who Walked Home for 28 Years — Targets 2027 Premiere",
-      "url": "https://www.worldofreel.com/blog/2026/11/10/werner-herzogs-next-documentary-walk-of-life-follows-man-who-walked-home-for-28-years-targets-2027-premiere",
-      "summary": "Karl Bushby's trek was wild, to say the least. He set off from Punta Arenas, Chile, in November 1998, expecting the walk to take about 12 years. It took 28.",
-      "publishedAt": "2026-11-10T19:30:04.000Z"
+      "title": "Ridley Scott's ‘Treasure Island' With Hugh Jackman Delays November Start as Director Recovers From “Medical Procedure”",
+      "url": "https://www.worldofreel.com/blog/2026/11/10/ridley-scotts-treasure-island-with-hugh-jackman-delays-november-start-as-director-recovers-from-medical-procedure",
+      "summary": "November 1 was supposed to be the day Ridley Scott's \"Treasure Island\" started production. Scott said so himself back in August, and Sony even built its calendar around that start date.",
+      "publishedAt": "2026-11-10T20:41:00.000Z"
     }
   },
   "https://www.zachleat.com/": {

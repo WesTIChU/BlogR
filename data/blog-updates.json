@@ -281,15 +281,15 @@
     }
   },
   "https://projectswordtoys.blogspot.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T10:44:33.916Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Brainrot!",
-      "url": "https://projectswordtoys.blogspot.com/2026/11/brainrot.html",
-      "summary": "The Missus picked up these odd figures in Summer. We had no idea what they were until Moonbase Junior told us. Brainrot! From Italy. All new to me. You?",
-      "publishedAt": "2026-11-09T10:15:01.113Z"
+      "title": "I'm Exhausted!",
+      "url": "https://projectswordtoys.blogspot.com/2026/11/im-exhausted.html",
+      "summary": "I'm seeing things again. Look at the nozzle on this space toy Jet gun. Now look at the exhaust insert on the SWORD Booster Rocket. Similar? Waddaya think? We could do with a shot of that whole exhaus…",
+      "publishedAt": "2026-11-10T00:00:00.000Z"
     }
   },
   "https://scarfolk.blogspot.com/": {
@@ -757,15 +757,15 @@
     }
   },
   "http://www.cherryandspoon.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T23:29:40.969Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "http://www.cherryandspoon.com/feeds/posts/default",
     "latestArticle": {
-      "title": "\"We Won't Pay! We Won't Pay!\" by Frank Theatre at Mixed Blood Theatre",
-      "url": "http://www.cherryandspoon.com/2026/11/we-wont-pay-we-wont-pay-by-frank.html",
-      "summary": "I saw the 1974 Italian play We Won't Pay! We Won't Pay! nine years ago , a production by Candid Theater Company , a company that made great programming choices but sadly doesn't seem to have returned…",
-      "publishedAt": "2026-11-06T22:51:34.729Z"
+      "title": "\"How the Grinch Stole Christmas!\" at Children's Theatre Company",
+      "url": "http://www.cherryandspoon.com/2026/11/how-grinch-stole-christmas-at-childrens.html",
+      "summary": "Minnesota has seen its first frost, Pumpkin Spice Lattes have given way to Ho Ho Mochas, and now it's time for the #TCTheater holiday season to begin* (even if it is 60 degrees outside). First up is …",
+      "publishedAt": "2026-11-09T23:45:26.271Z"
     }
   },
   "https://christiano.dev/": {
@@ -1877,15 +1877,15 @@
     }
   },
   "https://www.omgubuntu.co.uk/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T19:05:41.574Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Extension Manager 0.7 released with new (and fixed) features",
-      "url": "https://www.omgubuntu.co.uk/2026/11/gnome-extension-manager-0-7-released",
-      "summary": "A new version of Extension Manager, the desktop app that makes it easier to browse, install and manage GNOME Shell extension without a web browser, has been released. Extension Manager 0.7.0 includes…",
-      "publishedAt": "2026-11-08T18:45:20.000Z"
+      "title": "Firefox 160 is out with new ‘mini window’ mode feature",
+      "url": "https://www.omgubuntu.co.uk/2026/11/firefox-160-released-mini-window",
+      "summary": "Firefox 160 released today with some new features. A new “Mini Window” option lets you move a tab or select a portion of a web page to an always-on-top window, so you can keep an eye on it while brow…",
+      "publishedAt": "2026-11-09T23:59:00.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -1926,14 +1926,14 @@
   },
   "https://simonwillison.net/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T04:44:29.074Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "The Web Is More Than Enough, by Paul Ford",
-      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
-      "summary": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge …",
-      "publishedAt": "2026-11-09T04:32:33.000Z"
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm insta…",
+      "publishedAt": "2026-11-09T23:58:46.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -1996,8 +1996,8 @@
   },
   "https://thehomeassistantblog.com/": {
     "lastPublished": "2026-01-30",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
-    "status": "success",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
+    "status": "unavailable",
     "feedUrl": "https://thehomeassistantblog.com/feed/",
     "latestArticle": {
       "title": "Shelly BLU Remote Control ZB in Home Assistant",
@@ -2964,13 +2964,13 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T22:40:51.083Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36369/staff-takeaways-manchester-united-aston-villa",
-      "summary": "Vince – The most frustrating team in the Premier League Manchester United might be the most frustrating team in the Premier League. Last night’s 4-4 draw with Aston Villa perfectly summed up everythi…",
-      "publishedAt": "2026-11-09T22:02:44.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36387/michael-carrick-expected-out-pochettino-named-in-replacement-search",
+      "summary": "Manchester United manager Michael Carrick is expected to be sacked, per reports by The Athletic on Monday evening. David Ornstein, Adam Crafton, and Laurie Whitwell each contributed to a report stati…",
+      "publishedAt": "2026-11-09T23:40:37.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -3117,15 +3117,15 @@
     }
   },
   "https://9to5linux.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T21:44:31.204Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Mozilla Firefox 160 Is Now Available for Download, Here’s What’s New",
-      "url": "https://9to5linux.com/mozilla-firefox-160-is-now-available-for-download-heres-whats-new",
-      "summary": "Mozilla Firefox 160 open-source web browser is now available for download with Mini Window, support for MathML content in PDFs, and Picture-in-Picture playback speed settings. The post Mozilla Firefo…",
-      "publishedAt": "2026-11-09T21:28:24.000Z"
+      "title": "Mesa 26.3 Open-Source Graphics Stack Officially Released, Here’s What’s New",
+      "url": "https://9to5linux.com/mesa-26-3-open-source-graphics-stack-officially-released-heres-whats-new",
+      "summary": "Mesa 26.3 open-source graphics stack is now available for download with new features and improvements across all supported drivers. Here’s what’s new! The post Mesa 26.3 Open-Source Graphics Stack Of…",
+      "publishedAt": "2026-11-10T00:14:59.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3763,15 +3763,15 @@
     }
   },
   "https://www.pepysdiary.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T23:44:31.798Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/PepysDiary",
     "latestArticle": {
-      "title": "Sunday 8 November 1663",
-      "url": "https://www.pepysdiary.com/diary/1663/11/08/",
-      "summary": "(Lord's day). Up, and it being late, to church without my wife, and there I saw Pembleton come into the church and bring his wife with him, a good comely plain woman, and by and by my wife came after…",
-      "publishedAt": "2026-11-08T23:00:00.000Z"
+      "title": "Monday 9 November 1663",
+      "url": "https://www.pepysdiary.com/diary/1663/11/09/",
+      "summary": "Up and found myself very well, and so by coach to White Hall and there met all my fellow officers, and so to the Duke, where, when we came into his closett, he told us that Mr. Pepys was so altered w…",
+      "publishedAt": "2026-11-09T23:00:00.000Z"
     }
   },
   "https://blog.atmtxphoto.com/": {
@@ -3883,15 +3883,15 @@
     }
   },
   "https://vhistory.wordpress.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T00:44:33.373Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://vhistory.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Sarah Jane’s Alien Files – 01 Nov 2010",
-      "url": "https://vhistory.wordpress.com/2026/11/09/sarah-janes-alien-files-01-nov-2010/",
-      "summary": "We’re in to November, which only has three recordings saved for the whole month. That definitely feels like I’m missing a hard drive somewhere. Today’s recording is another episode of Sarah Jane’s Al…",
-      "publishedAt": "2026-11-09T00:00:00.000Z"
+      "title": "Wallace and Gromit’s World of Invention – 03 Nov 2010",
+      "url": "https://vhistory.wordpress.com/2026/11/10/wallace-and-gromits-world-of-invention-03-nov-2010/",
+      "summary": "Today’s recording starts with the end of The One Show. There’s a trailer for Jimmy’s Food Factory and Nigel Slater’s Simple Suppers and one for The Sarah Jane Adventures. Then it’s the first episode …",
+      "publishedAt": "2026-11-10T00:00:00.000Z"
     }
   },
   "https://glitternight.com/": {
@@ -4286,15 +4286,15 @@
     }
   },
   "https://www.themovieblog.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T23:44:31.426Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
-      "title": "Daniel and the Fiery Furnace Sets Digital and DVD Release Dates",
-      "url": "https://www.themovieblog.com/2026/11/daniel-and-the-fiery-furnace-digital-dvd-release-dates/",
-      "summary": "Following a successful theatrical run, the biblical drama Daniel and the Fiery Furnace is heading to home entertainment platforms this winter. The post Daniel and the Fiery Furnace Sets Digital and D…",
-      "publishedAt": "2026-11-09T23:25:00.000Z"
+      "title": "Slow Horses Season 6 Takes a Cinematic Turn with Darker Visuals",
+      "url": "https://www.themovieblog.com/2026/11/slow-horses-season-6-cinematic-approach/",
+      "summary": "The creative team behind Apple TV's hit spy series reveals how they are elevating the visual stakes for the upcoming sixth season. The post Slow Horses Season 6 Takes a Cinematic Turn with Darker Vis…",
+      "publishedAt": "2026-11-10T00:40:00.000Z"
     }
   },
   "https://them0vieblog.com/": {
@@ -4795,15 +4795,15 @@
     }
   },
   "https://priorprobability.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T13:44:29.695Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "*Coase’s fable* wins best paper award",
-      "url": "https://priorprobability.com/2026/11/09/coases-fable-wins-best-paper-award/",
-      "summary": "My paper “Coase’s fable” has just won the “best paper award” this past weekend at this year’s meeting of the Southeast Academy of Legal Studies in Business (SEALSB) in beautiful Atlanta, Georgia! (I …",
-      "publishedAt": "2026-11-09T13:06:11.000Z"
+      "title": "Adam Smith, Commissioner (part 16)",
+      "url": "https://priorprobability.com/2026/11/10/adam-smith-commissioner-part-16/",
+      "summary": "Back to our regularly scheduled programming (so to speak), the next document in my sample of signed Adam Smith letters is Order #141. This order is dated 21 December 1784 and is signed by David Reid …",
+      "publishedAt": "2026-11-10T00:10:00.000Z"
     }
   },
   "https://www.joeydevilla.com/": {
@@ -5342,15 +5342,15 @@
     }
   },
   "https://flixchatter.net/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T02:44:28.315Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://flixchatter.net/feed/",
     "latestArticle": {
-      "title": "FlixChatter Review: I Play Rocky (2026) – Ippolito brings Stallone’s tenacity to life in this biopic that captures the original Rocky’s magic",
-      "url": "https://flixchatter.net/2026/11/07/flixchatter-review-i-play-rocky-2026-ippolito-brings-stallones-tenacity-to-life-in-this-biopic-that-captures-the-original-rockys-magic/",
-      "summary": "Sylvester Stallone is practically synonymous with Rocky; it’s hard to believe he had to fight to be cast in his own story. I’d only seen the first Rocky and the first two Creed movies. I’m not much o…",
-      "publishedAt": "2026-11-08T01:46:35.000Z"
+      "title": "FlixChatter Review: A Talent for Murder (2026)—Mirren’s acerbic swagger and Ehrenreich’s Ripley-esque sly charm make for a sleek thriller",
+      "url": "https://flixchatter.net/2026/11/09/flixchatter-review-a-talent-for-murder-2026-mirrens-acerbic-swagger-and-ehrenreichs-ripley-esque-sly-charm-make-for-a-sleek-thriller/",
+      "summary": "A Talent for Murder was one of my most anticipated films at TCFF this year, and it wound up among my top three favorites. It stars the esteemed Dame Helen Mirren as American thriller writer Patricia …",
+      "publishedAt": "2026-11-09T23:55:45.000Z"
     }
   },
   "https://www.rangersreview.co.uk/": {
@@ -5509,14 +5509,14 @@
   },
   "https://humanizingthevacuum.wordpress.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T16:44:30.115Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The Singles Jukebox: November 2026",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/11/09/the-singles-jukebox-november-2026/",
-      "summary": "Goodness me: I’m excited! I have no reason to remember the last time I awarded a single a 9, which matters less than the three 8’s, including a Zach Bryan (!) duet with Lana Del Rey (!!) calculated t…",
-      "publishedAt": "2026-11-09T16:45:44.000Z"
+      "title": "Ranking #63 singles, U.S. edition: 1978-1983",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/11/09/ranking-63-singles-u-s-edition-1978-1983/",
+      "summary": "Sick of each other but not of finding novel ways of dramatizing the arcs of relationships whose doom is foreordained, ABBA recorded one of their best albums in 1981. The title track — an entry from “…",
+      "publishedAt": "2026-11-09T23:14:20.000Z"
     }
   },
   "https://neveenwood.com/": {
@@ -6227,15 +6227,15 @@
     }
   },
   "https://thisisnthappiness.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-09T00:44:33.373Z",
+    "lastPublished": "2026-11-09",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://thisisnthappiness.com/rss",
     "latestArticle": {
-      "title": "The lost patrol, Richard Cartwright",
-      "url": "https://thisisnthappiness.com/post/832753534579654656",
-      "summary": "The lost patrol, Richard Cartwright",
-      "publishedAt": "2026-11-08T22:07:37.000Z"
+      "title": "November Rain, Naoya Hatakeyama",
+      "url": "https://thisisnthappiness.com/post/832850068416741376",
+      "summary": "November Rain, Naoya Hatakeyama",
+      "publishedAt": "2026-11-09T23:41:59.000Z"
     }
   },
   "https://banbantonton.com/": {
@@ -6405,15 +6405,15 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T21:44:31.204Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "Remembering the Self | Complete Film",
-      "url": "https://greatawakeningreport.com/remembering-the-self-documentary/",
-      "summary": "The Remembering the Self documentary opens with an instruction rather than a hook. Put the distractions down. Give it your undivided attention or do not start it at all. That is an unusual demand for…",
-      "publishedAt": "2026-11-09T21:35:00.000Z"
+      "title": "Tucker Carlson’s 9/11 Docuseries | News Commentary",
+      "url": "https://greatawakeningreport.com/tucker-carlson-9-11-docuseries-commentary/",
+      "summary": "Worth saying clearly before you press play. This is not the Tucker Carlson 9/11 documentary itself. It is a commentary segment from The Young Turks, in which Ana Kasparian and Cenk Uygur react to the…",
+      "publishedAt": "2026-11-10T00:10:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -6580,15 +6580,15 @@
     }
   },
   "https://leancrew.com/all-this/": {
-    "lastPublished": "2026-10-30",
-    "lastChecked": "2026-10-30T01:44:30.623Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://leancrew.com/all-this/feed/",
     "latestArticle": {
-      "title": "XKCD and Fourier",
-      "url": "https://leancrew.com/all-this/2026/10/xkcd-and-fourier/",
-      "summary": "If you’ve done Fourier series approximations of functions, you had three reactions to today’s XKCD comic :",
-      "publishedAt": "2026-10-30T01:45:58.000Z"
+      "title": "Images, the clipboard, and AppleScript",
+      "url": "https://leancrew.com/all-this/2026/11/images-the-clipboard-and-applescript/",
+      "summary": "Last week, my SnapClip macro crapped out with an error message. In the process of fixing it, I learned something about AppleScript that probably won’t ever help me in the future.",
+      "publishedAt": "2026-11-10T00:18:11.000Z"
     }
   },
   "https://13thdimension.com/": {
@@ -7046,8 +7046,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T20:44:31.473Z",
-    "status": "success",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
+    "status": "unavailable",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Gift a piece of the AR’s 130-year history",
@@ -7506,15 +7506,15 @@
     }
   },
   "https://hackaday.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T21:44:31.204Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "From Phone, To SDR, No Extra Hardware",
-      "url": "https://hackaday.com/2026/11/09/from-phone-to-sdr-no-extra-hardware/",
-      "summary": "One of the more exciting recent developments has been the discovery that many radio chips used in common and cheap wireless network interfaces, microcontrollers, LoRa interfaces and others can be …re…",
-      "publishedAt": "2026-11-09T21:00:31.000Z"
+      "title": "Free Your Harley From The Dealer",
+      "url": "https://hackaday.com/2026/11/09/free-your-harley-from-the-dealer/",
+      "summary": "Vehicles have come with diagnostic ports for many years now, and there are a host of easily available tools to interrogate them. Despite that, there are still proprietary aspects that …read more",
+      "publishedAt": "2026-11-10T00:00:08.000Z"
     }
   },
   "https://marcel.io/": {
@@ -7740,9 +7740,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-09T22:40:51.083Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -8059,15 +8059,15 @@
     "feedUrl": "https://www.sdlindia.com/index.xml"
   },
   "https://lowlightleaf.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T12:44:31.129Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://lowlightleaf.com/feed/",
     "latestArticle": {
-      "title": "Coleus Care Indoors and How to Keep It Through Winter",
-      "url": "https://lowlightleaf.com/coleus-care/",
-      "summary": "Coleus is grown for its leaves, and it needs part shade outdoors, bright light indoors, soil that stays lightly moist, […] The post Coleus Care Indoors and How to Keep It Through Winter appeared firs…",
-      "publishedAt": "2026-11-09T12:46:01.000Z"
+      "title": "Air Plant Care Starts With Light, Not the Watering",
+      "url": "https://lowlightleaf.com/air-plant-care/",
+      "summary": "For air plant care, keep the plant beside a bright window with indirect light, wet it once or twice a […] The post Air Plant Care Starts With Light, Not the Watering appeared first on Low Light Leaf .",
+      "publishedAt": "2026-11-10T00:30:00.000Z"
     }
   },
   "https://exotic-japan-ese.com/": {
@@ -8095,15 +8095,15 @@
     }
   },
   "https://skilletglow.com/": {
-    "lastPublished": "2026-11-04",
-    "lastChecked": "2026-11-09T10:44:33.916Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://skilletglow.com/feed/",
     "latestArticle": {
-      "title": "Roasted Red Pepper Hummus with Lemon and Tahini",
-      "url": "https://skilletglow.com/roasted-red-pepper-hummus/",
-      "summary": "Roasted red peppers give hummus sweetness, color and extra moisture. This version uses jarred peppers and canned chickpeas to keep preparation straightforward, with careful draining so the dip does n…",
-      "publishedAt": "2026-11-04T20:00:00.000Z"
+      "title": "Cinnamon Streusel Coffee Cake with a Soft Sour-Cream Crumb",
+      "url": "https://skilletglow.com/cinnamon-streusel-coffee-cake-with-a-soft-sour-cream-crumb/",
+      "summary": "A tender sour-cream coffee cake with a cinnamon ribbon and crisp streusel topping, baked in an 8-inch square pan for easy brunch slices. The post Cinnamon Streusel Coffee Cake with a Soft Sour-Cream …",
+      "publishedAt": "2026-11-10T00:38:36.000Z"
     }
   },
   "https://www.cleverdude.com/": {
@@ -9242,15 +9242,15 @@
     }
   },
   "https://andysworldjourneys.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T00:44:29.102Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://andysworldjourneys.com/feed/",
     "latestArticle": {
-      "title": "Kampala, Uganda – Through My Lens",
-      "url": "https://andysworldjourneys.com/2026/11/08/kampala-uganda-through-my-lens/",
-      "summary": "The post features a selection of photos taken in Kampala, Uganda, highlighting notable sites such as the Independence Monument, Namirembe Cathedral, Bulange Building, Kabaka's Palace, Idi Amin's Bunk…",
-      "publishedAt": "2026-11-08T00:02:00.000Z"
+      "title": "Hardly Worth It, Not Four Stars – Hotel Atlanta in Vienna",
+      "url": "https://andysworldjourneys.com/2026/11/10/hardly-worth-it-not-four-stars-hotel-atlanta-in-vienna/",
+      "summary": "The review discusses a stay at Hotel Atlanta in Vienna, where finding a satisfactory room at a reasonable price was challenging. Though the hotel’s exterior and historic interior were appealing, the …",
+      "publishedAt": "2026-11-10T00:16:16.000Z"
     }
   },
   "https://johnwhowell.com/": {
@@ -9267,14 +9267,14 @@
   },
   "https://livoragracely.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T23:44:31.426Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "A Rest That Remains",
-      "url": "https://livoragracely.com/2026/11/10/a-rest-that-remains/",
-      "summary": "Hebrews 4:9–13 The promise of God’s rest leads His people to listen to His voice. Jesus poured water into a basin and began to wash His disciples’ feet. When He came to Peter, the disciple protested.…",
-      "publishedAt": "2026-11-09T23:36:40.000Z"
+      "title": "Genesis — The Book of Beginnings",
+      "url": "https://livoragracely.com/2026/11/10/genesis-the-book-of-beginnings/",
+      "summary": "Genesis begins with God creating the heavens and the earth. Its early stories include human beginnings, disobedience, the flood, and the scattering of peoples. The book follows Abraham and Sarah and …",
+      "publishedAt": "2026-11-09T23:53:39.000Z"
     }
   },
   "https://edoodless.wordpress.com/": {
@@ -9337,15 +9337,15 @@
     }
   },
   "https://booksofbrilliance.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T23:44:31.426Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "The Picture of Dorian Gray: What the Portrait Reveals About Responsibility",
-      "url": "https://booksofbrilliance.com/2026/11/09/picture-dorian-gray-portrait-responsibility/?utm_source=rss&utm_medium=rss&utm_campaign=picture-dorian-gray-portrait-responsibility",
-      "summary": "Dorian’s face stays young, but a small change in his portrait tells a different story. Start with Sibyl Vane to see what Wilde’s painting reveals. The post The Picture of Dorian Gray: What the Portra…",
-      "publishedAt": "2026-11-09T23:31:35.000Z"
+      "title": "M. John Harrison Wins the 2026 Booker Prize for The End of Everything",
+      "url": "https://booksofbrilliance.com/2026/11/09/2026-booker-prize-winner-m-john-harrison/?utm_source=rss&utm_medium=rss&utm_campaign=2026-booker-prize-winner-m-john-harrison",
+      "summary": "M. John Harrison wins the 2026 Booker Prize for The End of Everything. At 81, he is the oldest winner in the award’s history. The post M. John Harrison Wins the 2026 Booker Prize for The End of Every…",
+      "publishedAt": "2026-11-10T00:41:22.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9457,15 +9457,15 @@
     }
   },
   "https://robertjames1971.blog/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T02:57:05.186Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://robertjames1971.blog/feed/",
     "latestArticle": {
-      "title": "Two Days, Not Three",
-      "url": "https://robertjames1971.blog/2026/11/08/two-days-not-three/",
-      "summary": "Today is Sunday. I went into this weekend expecting to have a three day weekend. My beloved bride had a medical thing scheduled for tomorrow (Monday) and it was my job to get her there and back so I …",
-      "publishedAt": "2026-11-09T02:53:39.000Z"
+      "title": "Burning",
+      "url": "https://robertjames1971.blog/2026/11/09/burning-2/",
+      "summary": "Another night with nothing to write about. How lame am I? I guess I’ll bore you all to tears with guitar stuff… again. My finger tips are burning like a furnace. Ouch, bro. I put acoustic guitars dow…",
+      "publishedAt": "2026-11-10T00:39:44.000Z"
     }
   },
   "https://tankatuesday.com/": {
@@ -9540,14 +9540,14 @@
     }
   },
   "https://msamba.blog/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T17:44:31.267Z",
+    "lastPublished": "2026-11-10",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://msamba.blog/feed/",
     "latestArticle": {
-      "title": "Luca (@lucagalletti.bsky.social) | …800-year-old Linden tree in Kamenice nad Lipou, Czech Republic…",
-      "url": "https://msamba.blog/2026/11/09/luca-lucagalletti-bsky-social-800-year-old-linden-tree-in-kamenice-nad-lipou-czech-republic/",
-      "publishedAt": "2026-11-09T17:38:51.000Z"
+      "title": "Vibing with Moussa while he gives a musical demonstration. Kosh-Kash or Kashaka is a traditional West African percussive instrument",
+      "url": "https://msamba.blog/2026/11/10/vibing-with-moussa-while-he-gives-a-musical-demonstration-kosh-kash-or-kashaka-is-a-traditional-west-african-percussive-instrument/",
+      "publishedAt": "2026-11-10T00:28:59.000Z"
     }
   },
   "https://acorneredgurl.wordpress.com/": {
@@ -9815,14 +9815,14 @@
   },
   "https://musingsbydoddzilla.org/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T13:44:29.695Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://musingsbydoddzilla.org/feed/",
     "latestArticle": {
-      "title": "More than a color-revisited",
-      "url": "https://musingsbydoddzilla.org/2026/11/09/more-than-a-color-revisited/",
-      "summary": "Cerulean. It’s the hue of hope It’s the color of dreams It’s the pigment of possibility The shade of serenity In the perfect sunlit sky The calm of the Caribbean Sea Beyond mere color It is the essen…",
-      "publishedAt": "2026-11-09T13:37:08.000Z"
+      "title": "From casual necessity to exceptional luxury",
+      "url": "https://musingsbydoddzilla.org/2026/11/09/from-casual-necessity-to-exceptional-luxury/",
+      "summary": "Has your idea of what makes a good friend changed as you’ve gotten older? When I was young friends were something I always took for granted It seemed as if they seemed to just appear At a time when w…",
+      "publishedAt": "2026-11-09T23:58:47.000Z"
     }
   },
   "https://tonysbologna.com/": {
@@ -11050,14 +11050,14 @@
   },
   "https://rubberboa.wordpress.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T01:44:32.943Z",
+    "lastChecked": "2026-11-10T00:44:29.729Z",
     "status": "success",
     "feedUrl": "https://rubberboa.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Monette’s Photos I (Nov. 8)",
-      "url": "https://rubberboa.wordpress.com/2026/11/09/monettes-photos-i-nov-8/",
-      "summary": "Monette’s getting better at taking photos than I am, not that I am exceptional by any means. But she’s definitely learning. I take a few shots, then turn the camera over to her and she tops my shots.…",
-      "publishedAt": "2026-11-09T01:14:26.000Z"
+      "title": "Sacred Montani (Nov. 7)",
+      "url": "https://rubberboa.wordpress.com/2026/11/09/sacred-montani-nov-7/",
+      "summary": "I’m taking a good guess at a fingered dragonet—definitely a special find so jump on it. I used to think Montani was a dive site that should always remain sacred in the heart, like some things never c…",
+      "publishedAt": "2026-11-09T23:59:55.000Z"
     }
   },
   "https://leighkempphotoblog.co.uk/": {

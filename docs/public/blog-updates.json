@@ -435,7 +435,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1232,7 +1232,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -1811,9 +1811,9 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/pep-guardiola-targeted-for-international-manager-role-amid-ongoing-manchester-united-pursuit",
-      "summary": "Former Manchester City manager Pep Guardiola is reportedly being targeted by U.S. Soccer amid Manchester United's pursuit of their current Men's National Team head coach Mauricio Pochettino.",
-      "publishedAt": "2026-11-11T20:23:58.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/erling-haaland-beats-harry-kane-to-fifpro-mens-world-11-spot---lionel-messi-kylian-mbappe-and-lamine-yamal-involved",
+      "summary": "Manchester City striker Erling Haaland has been included in the FIFPRO Men’s World 11, which recognises the greatest players in the world over the past season.",
+      "publishedAt": "2026-11-11T22:30:33.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -2294,7 +2294,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -2687,7 +2687,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3379,9 +3379,9 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/11-11-2026-newsletter?source=rss",
-      "summary": "11/11/2026: Top 5 stories on the HackerNoon homepage!",
-      "publishedAt": "2026-11-11T16:02:16.000Z"
+      "url": "https://hackernoon.com/500-blog-posts-to-learn-about-tech?source=rss",
+      "summary": "Learn everything you need to know about Tech via these 500 free HackerNoon blog posts.",
+      "publishedAt": "2026-11-11T21:01:20.000Z"
     }
   },
   "https://hajarstext.wordpress.com/": {
@@ -5066,10 +5066,10 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "Experimentally validated digital twins",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/experimentally-validated-digital-twins.html?utm_source=rss&utm_medium=rss&utm_campaign=experimentally-validated-digital-twins",
-      "summary": "There is a new paper by Raj Chetty, Jamie Fogel, Lawrence F. Katz, Kadeem Noray, Sonya Porter, and James Reisinger: Modern program evaluation prioritizes evidence from randomized controlled trials (R…",
-      "publishedAt": "2026-11-11T19:12:56.000Z"
+      "title": "Richard Posner, RIP…",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/richard-posner-rip.html?utm_source=rss&utm_medium=rss&utm_campaign=richard-posner-rip",
+      "summary": "One of the greats. The post Richard Posner, RIP… appeared first on Marginal REVOLUTION .",
+      "publishedAt": "2026-11-11T22:57:43.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -6451,7 +6451,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7677,7 +7677,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8729,7 +8729,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {

@@ -296,6 +296,7 @@ test('classifies dedicated smart-home blogs separately from self-hosting blogs',
     'Kiril Peyanski',
     'Smart Home Junkie',
     'SmartHomeScene',
+    'Technology, Applied.',
     'The Home Assistant Blog'
   ])
   assert.deepEqual(entries('Self-Hosting & Homelabs'), [

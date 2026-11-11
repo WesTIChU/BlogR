@@ -428,14 +428,14 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://alis.me/feed/",
     "latestArticle": {
-      "title": "Finished watching: The Master and Margarita",
-      "url": "https://alis.me/x/finished-watching-the-master-and-margarita/",
-      "summary": "So this has not, yet, made its way through the various engines of international release — at least English-language release — but that doesn’t stop me from watching the German version with English su…",
-      "publishedAt": "2026-11-11T13:17:05.000Z"
+      "title": "Thursday @ 8:42 am",
+      "url": "https://alis.me/x/thursday-842-am-2/",
+      "summary": "Writers' guild is prepping for a little flash con on the weekend and needs to buy some 2x4s to set up an art space. Except Bunnings is appa",
+      "publishedAt": "2026-11-11T21:42:05.000Z"
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1232,7 +1232,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -2192,10 +2192,10 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Bitcoin trades near $73,700 as Grok AI offers divergent price forecasts",
-      "url": "https://cryptonews.mobile/brief/bitcoin-trades-near-73700-as-grok-ai-offers-divergent-price-forecasts",
-      "summary": "Bitcoin (BTC) is trading around $73,700 after recent volatility. The price sits in the mid‑$73,000s range, with support near $73,500 and resistance around $76,000. Elon Musk's Grok AI projects two ex…",
-      "publishedAt": "2026-11-11T21:38:22.000Z"
+      "title": "Scottish court jails three men over attempted $2.7M crypto theft",
+      "url": "https://cryptonews.mobile/brief/scottish-court-jails-three-men-over-attempted-27m-crypto-theft",
+      "summary": "Scotland's High Court of Justiciary sentenced Robert Barr, 29, to eight years for directing an attempted £2 million ($2.7 million) crypto theft from prison. Sean Favier, 26, received four years and I…",
+      "publishedAt": "2026-11-11T21:55:42.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2687,7 +2687,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -4736,10 +4736,10 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://linuxblog.io/feed/",
     "latestArticle": {
-      "title": "Best Linux Distro (2027)",
-      "url": "https://linuxblog.io/best-linux-distro/",
-      "summary": "Looking for the best Linux distro (distribution) to enhance your desktop or laptop experience? This article will guide you to what, I believe, are the best Linux distros for beginner, experienced, an…",
-      "publishedAt": "2026-11-11T15:24:01.000Z"
+      "title": "Linux Server Setup – Part 1: A Beginner’s Guide",
+      "url": "https://linuxblog.io/linux-server-setup/",
+      "summary": "Setting up a Linux server is one of the best ways to learn Linux and server management hands-on. Linux servers offer unmatched flexibility, performance, and control for hosting services, running appl…",
+      "publishedAt": "2026-11-11T22:16:07.000Z"
     }
   },
   "https://liorpachter.wordpress.com/": {
@@ -5909,13 +5909,13 @@
   },
   "https://ocalicreek.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-06",
+    "lastPublished": "2026-11-11",
     "feedUrl": "https://ocalicreek.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Rebuilding C 648 Part II",
-      "url": "https://ocalicreek.blogspot.com/2026/11/rebuilding-c-648-part-ii.html",
-      "summary": "Somehow I managed to finish rebuilding the caboose without getting too many photos snapped so here's the conclusion of this project. While all of the window glazing showed signs of age, glue and pain…",
-      "publishedAt": "2026-11-06T16:33:19.263Z"
+      "title": "Staging Cabinet",
+      "url": "https://ocalicreek.blogspot.com/2026/11/staging-cabinet.html",
+      "summary": "Not a storage cabinet, but a staging cabinet. The shelves have a lip on the front and strip on the back to prevent cars - in their boxes* - from sliding off. The front shelf trim also provides a fini…",
+      "publishedAt": "2026-11-11T22:06:42.445Z"
     }
   },
   "https://occupy25.com/": {
@@ -6451,7 +6451,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7454,10 +7454,10 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "aws-emulator",
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a …",
-      "publishedAt": "2026-11-11T21:18:30.000Z"
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (…",
+      "publishedAt": "2026-11-11T22:03:25.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -7677,7 +7677,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8016,13 +8016,13 @@
   },
   "https://thamara.co.uk/notebook": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-11",
     "feedUrl": "https://thamara.co.uk/notebook/rss.xml",
     "latestArticle": {
-      "title": "Knowember",
-      "url": "https://thamara.co.uk/notebook/2026/11/knowember/",
-      "summary": "Get to know your blogger",
-      "publishedAt": "2026-11-09T22:00:00.000Z"
+      "title": "How I read your blogs",
+      "url": "https://thamara.co.uk/notebook/2026/11/how-i-read-your-blogs/",
+      "summary": "An RSS appreciation",
+      "publishedAt": "2026-11-11T22:00:00.000Z"
     }
   },
   "https://the-modern-dad.com/": {
@@ -8729,7 +8729,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -9701,10 +9701,10 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "http://feeds.feedburner.com/TheDailyCartoonist",
     "latestArticle": {
-      "title": "Watterson Deposits Four Krazy Kat Sundays to Billy Ireland Cartoon Library",
-      "url": "https://www.dailycartoonist.com/index.php/2026/11/11/watterson-deposits-four-krazy-kat-sundays-to-billy-ireland-cartoon-library/",
-      "summary": "The Billy Ireland Cartoon Library has announced on their Instagram account that Calvin and Hobbes creator Bill Watterson has deposited four Krazy Kat Sundays to the library.From the announcement: A b…",
-      "publishedAt": "2026-11-11T18:22:51.000Z"
+      "title": "Jack Cassady – RIP",
+      "url": "https://www.dailycartoonist.com/index.php/2026/11/11/jack-cassady-rip/",
+      "summary": "Cartoonist Jack Cassady has passed away. John Richard (Jack) Cassady II April 26, 1940 – November 3, 2026 From the obituary: “A pre-Disney Floridian, Cassady served more than 22 years in the U.S. Arm…",
+      "publishedAt": "2026-11-11T21:27:31.000Z"
     }
   },
   "https://www.danflyingsolo.com/": {
@@ -11008,13 +11008,13 @@
   },
   "https://www.tootlepedal.com/": {
     "status": "success",
-    "lastPublished": "2026-11-10",
+    "lastPublished": "2026-11-11",
     "feedUrl": "https://tootlepedal.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A ripple in the routine",
-      "url": "https://tootlepedal.wordpress.com/2026/11/10/a-ripple-in-the-routine/",
-      "summary": "Today’s guest picture comes from my sister Caroline. She has a feast of nerines in her garden . The temperature dipped down to freezing just before we got up here, but it did warm up as the morning w…",
-      "publishedAt": "2026-11-10T22:31:41.000Z"
+      "title": "A step up",
+      "url": "https://tootlepedal.wordpress.com/2026/11/11/a-step-up-2/",
+      "summary": "Today’s guest picture comes from my sister Caroline. As well the nerines in her garden, her chrysanthemums are still going great guns. The temperature dropped to minus 2°C overnight here, and it left…",
+      "publishedAt": "2026-11-11T22:24:12.000Z"
     }
   },
   "https://www.traingeek.ca/wp/": {
@@ -11142,10 +11142,10 @@
     "lastPublished": "2026-11-11",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Jim Caviezel Was “Heartbroken” When Mel Gibson Recast Jesus in ‘The Resurrection of the Christ'",
-      "url": "https://www.worldofreel.com/blog/2026/11/11/jim-caviezel-was-heartbroken-when-mel-gibson-recast-jesus-in-the-resurrection-of-the-christ",
-      "summary": "For 20 years, the assumption was that whenever Mel Gibson got his \"Passion of the Christ\" sequel off the ground, Jim Caviezel would be front and center.",
-      "publishedAt": "2026-11-11T21:16:09.000Z"
+      "title": "Francis Lawrence Calls James Gunn “An Impediment” to ‘Constantine 2,’ Says He's “More Hopeful\" Now That They're Gone",
+      "url": "https://www.worldofreel.com/blog/2026/11/11/francis-lawrence-calls-gunn-and-safran-an-impediment-to-constantine-2-says-hes-more-hopeful-now-that-theyre-gone",
+      "summary": "James Gunn wrote on Instagram this week that he was \"incredibly relieved\" to be out at DC Studios. Turns out he's not the only one.",
+      "publishedAt": "2026-11-11T22:05:54.000Z"
     }
   },
   "https://www.zachleat.com/": {

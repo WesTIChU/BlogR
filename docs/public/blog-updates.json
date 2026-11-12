@@ -435,7 +435,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1320,10 +1320,10 @@
     "lastPublished": "2026-11-12",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "What Is Soma in Brave New World? How Huxley Turns Comfort Into Control",
-      "url": "https://booksofbrilliance.com/2026/11/12/what-is-soma-in-brave-new-world/?utm_source=rss&utm_medium=rss&utm_campaign=what-is-soma-in-brave-new-world",
-      "summary": "A daily dose of soma keeps the World State comfortable. Linda’s death and John’s protest reveal what that comfort costs. The post What Is Soma in Brave New World? How Huxley Turns Comfort Into Contro…",
-      "publishedAt": "2026-11-12T18:00:53.000Z"
+      "title": "What The Last Unicorn Learns About Love and Regret",
+      "url": "https://booksofbrilliance.com/2026/11/12/the-last-unicorn-themes/?utm_source=rss&utm_medium=rss&utm_campaign=the-last-unicorn-themes",
+      "summary": "Becoming Lady Amalthea gives Beagle’s unicorn a life she wants to keep. Her encounters with Molly Grue and Prince Lír explain why finding the other unicorns brings both joy and regret. The post What …",
+      "publishedAt": "2026-11-12T21:00:00.000Z"
     }
   },
   "https://brainbaking.com/": {
@@ -1675,7 +1675,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1743,9 +1743,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-11",
-    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
+    "feedUrl": "https://chrislt.nz/feed/",
     "latestArticle": {
       "title": "Thorn",
       "url": "https://chrislt.nz/thorn/",
@@ -1812,9 +1812,9 @@
     "lastPublished": "2026-11-12",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/barcelona-monitoring-manchester-city-defender-amid-ongoing-uncertainty-over-future",
-      "summary": "La Liga giants Barcelona have joined the growing list of clubs linked with a January move for Rayan Aït-Nouri as the Manchester City full-back continues to struggle for regular minutes under Enzo Mar…",
-      "publishedAt": "2026-11-12T18:30:29.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/new-leak-offers-first-look-at-manchester-city-s-special-edition-2027-year-of-the-goat-kit",
+      "summary": "Fresh images have revealed the design of Manchester City’s special-edition Year of the Goat shirt, giving a first clear look at the Lunar New Year release expected early in 2027.",
+      "publishedAt": "2026-11-12T20:30:25.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -2550,7 +2550,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2653,14 +2653,14 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-10",
+    "status": "success",
+    "lastPublished": "2026-11-12",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "“The Whites of Their Eyes”",
-      "url": "https://econbrowser.com/archives/2026/11/the-whites-of-their-eyes",
-      "summary": "CEA Chair Phelan on the need for a 50 bps increase in the Fed funds rate, given the hot CPI readings today, contra Waller and Logan (Bloomberg): Christopher Phelan, chairman of the White House Counci…",
-      "publishedAt": "2026-11-10T21:44:59.000Z"
+      "title": "Gasoline, Diesel, Jet Fuel and Brent",
+      "url": "https://econbrowser.com/archives/2026/11/gasoline-diesel-jet-fuel-and-brent",
+      "summary": "Prices on Monday: Figure 1: Regular gasoline (blue), diesel (red), jet fuel (green) all $/gal. on left log scale, and Brent $/bbl f.o.b. (bold black, right log scale). Source: EIA via FRED, EIA.",
+      "publishedAt": "2026-11-12T20:44:21.000Z"
     }
   },
   "https://edleeman.co.uk/": {
@@ -2688,7 +2688,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2802,7 +2802,7 @@
     }
   },
   "https://exotic-japan-ese.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
@@ -3369,10 +3369,10 @@
     "lastPublished": "2026-11-12",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Baochip-1x: A Mostly-Open, 22nm SoC for High Assurance Applications",
-      "url": "https://hackaday.com/2026/11/12/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/",
-      "summary": "For most people, just getting any old microcontroller or system on chip (SoC) from our favorite – or cheapest – vendor is more than good enough. But if you’re really …read more",
-      "publishedAt": "2026-11-12T19:30:16.000Z"
+      "title": "Upgrade Your CoCo The Modern Way",
+      "url": "https://hackaday.com/2026/11/12/upgrade-your-coco-the-modern-way/",
+      "summary": "The Radio Shack TRS-80 Colour Computer may never have achieved the sales volume of its competitors from Commodore or Apple, but it offered a surprisingly capable set of hardware. There …read more",
+      "publishedAt": "2026-11-12T21:00:38.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3886,8 +3886,8 @@
     "latestArticle": {
       "title": "Throwback Friday, A Snowman Falls",
       "url": "https://ivorplumberpoet.press/2026/11/13/throwback-friday-a-snowman-falls/",
-      "summary": "Please Note: The featured image above was created by me and Copilot and me. I wrote this satirical poem in November 2020. Given the political fallout following last week’s election results, it seemed…",
-      "publishedAt": "2026-11-12T13:01:00.000Z"
+      "summary": "Please Note: The featured image above was created by Copilot and me. I wrote this satirical poem in November 2020. Given the political fallout following last week’s election results, it seemed an app…",
+      "publishedAt": "2026-11-12T21:02:11.000Z"
     }
   },
   "https://jahir.dev/": {
@@ -4647,7 +4647,7 @@
     "lastPublished": "2026-11-12",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Acounting for the abandoned Winwick Hospital branch",
+      "title": "Accounting for the abandoned Winwick Hospital branch",
       "url": "https://liberalengland.blogspot.com/2026/11/acounting-for-abandoned-winwick.html",
       "summary": "Here's a large chunk of one of the Sighcology columns I write for the Journal of Critical Psychology, Counselling and Psychotherapy. Why did these hospitals have those gigantic water-towers and chimn…",
       "publishedAt": "2026-11-12T20:40:56.923Z"
@@ -5325,7 +5325,7 @@
     }
   },
   "https://mitchteemley.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://mitchteemley.com/feed/",
     "latestArticle": {
@@ -5529,9 +5529,10 @@
     "lastPublished": "2026-11-12",
     "feedUrl": "https://msamba.blog/feed/",
     "latestArticle": {
-      "title": "@fravery.bsky.social | Gaillardia ‘Copper Flare’ Elaine Montaro",
-      "url": "https://msamba.blog/2026/11/12/fravery-bsky-social-gaillardia-copper-flare-elaine-montaro/",
-      "publishedAt": "2026-11-12T14:46:59.000Z"
+      "title": "China Built A Fake London… What’s Inside?",
+      "url": "https://msamba.blog/2026/11/12/china-built-a-fake-london-whats-inside/",
+      "summary": "5 Nov 2026 Support my work for $0.99/month: / @nahanayt Follow Nahana: / nahanayt 🇨🇳 China Playlist: • China Series […]",
+      "publishedAt": "2026-11-12T21:03:37.000Z"
     }
   },
   "https://mtlcityweblog.com/": {
@@ -6452,7 +6453,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7678,7 +7679,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8511,7 +8512,7 @@
     }
   },
   "https://thequietus.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
@@ -8729,7 +8730,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -9773,7 +9774,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -9863,7 +9864,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -9999,7 +10000,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -10213,7 +10214,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -10230,14 +10231,14 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-11",
+    "status": "success",
+    "lastPublished": "2026-11-12",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
-      "title": "Online Maps Reveal Sensitive Information on U.S. Military Bases",
-      "url": "https://www.maproomblog.com/2026/11/online-maps-reveal-sensitive-information-on-u-s-military-bases/",
-      "summary": "Bellingcat: While reports have detailed how Iran used Russian intelligence, including satellite imagery, to identify US troops, ships and aircraft, Bellingcat found that publicly available mapping pl…",
-      "publishedAt": "2026-11-11T16:10:09.000Z"
+      "title": "Who Mapped Africa?",
+      "url": "https://www.maproomblog.com/2026/11/who-mapped-africa/",
+      "summary": "Thomas J. Bassett at The Conversation, debunking a myth about European maps of Africa: “Recent research by myself and others on colonial-era mapping of West Africa demonstrates that much of the geogr…",
+      "publishedAt": "2026-11-12T20:15:03.000Z"
     }
   },
   "https://www.math.columbia.edu/~woit/wordpress/": {
@@ -10366,7 +10367,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-04",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -10524,7 +10525,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -10788,7 +10789,7 @@
   },
   "https://www.thebrokebackpacker.com/": {
     "status": "unknown",
-    "feedUrl": "https://www.thebrokebackpacker.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.thebrokebackpacker.com%2F&format=xml"
+    "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thebugout.co.uk/blog": {
     "status": "unknown",
@@ -10809,7 +10810,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -10820,7 +10821,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -10831,7 +10832,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -10890,10 +10891,10 @@
     "lastPublished": "2026-11-12",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Oreo Zero Sugar Dark Chocolate Cookies",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/12/spotted-oreo-zero-sugar-dark-chocolate-cookies/",
-      "summary": "Bring on the sugar alcohols! (Spotted by Robbie at Walmart.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-11-12T20:00:00.000Z"
+      "title": "SPOTTED: Ghirardelli Milk Chocolate Cookie Butter Caramel Squares",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/12/spotted-ghirardelli-milk-chocolate-cookie-butter-caramel-squares/",
+      "summary": "Ghirardelli will Ghirarstuffi anything in its squares. (Spotted by Robbie at Target.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
+      "publishedAt": "2026-11-12T21:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
@@ -10974,7 +10975,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -11067,7 +11068,7 @@
     "status": "unavailable"
   },
   "https://www.urbex-travel.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-06",
     "feedUrl": "https://www.urbex-travel.com/feed/",
     "latestArticle": {

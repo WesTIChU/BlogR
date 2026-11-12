@@ -396,8 +396,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-11T23:44:30.644Z",
-    "status": "success",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "The Ethereum Foundation is officially a corporate suicide cult",
@@ -1421,15 +1421,15 @@
     "feedUrl": null
   },
   "https://smallmariofindings.tumblr.com/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Reader-submitted artwork from a 1998 issue of the British Nintendo Official Magazine, making a pun&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/833028418037792768",
-      "summary": "Reader-submitted artwork from a 1998 issue of the British Nintendo Official Magazine, making a pun on “Yoshi’s Story” with “Yoshi’s Storage” and depicting Yoshi treating Sonic the Hedgehog as a test …",
-      "publishedAt": "2026-11-11T22:56:47.000Z"
+      "title": "Two officially licensed 2000 Paper Mario bags in different sizes, from Japan.",
+      "url": "https://smallmariofindings.tumblr.com/post/833036394528178176",
+      "summary": "Two officially licensed 2000 Paper Mario bags in different sizes, from Japan. Source: pocketjapan Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-11-12T01:03:34.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1553,15 +1553,15 @@
     }
   },
   "https://tiramisu.bearblog.dev/blog/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T14:44:28.173Z",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://tiramisu.bearblog.dev/feed/",
     "latestArticle": {
-      "title": "weekly humiliation rituals",
-      "url": "https://tiramisu.bearblog.dev/weekly-humiliation-rituals/",
-      "summary": "After only going into the office two days this week, my body awoke this morning thinking it was Wednesday. What a pleasant surprise it was to find out that it was Saturday instead. I did the only thi…",
-      "publishedAt": "2026-11-08T01:03:00.000Z"
+      "title": "back in the day, we used to speak to each other",
+      "url": "https://tiramisu.bearblog.dev/we-used-to-speak/",
+      "summary": "On my commute home two men dragged tall bongos into my subway car. I have mixed feelings about buskers: most of them make me yearn for silence, but the rare exceptions can make my day. (I'm thinking …",
+      "publishedAt": "2026-11-12T01:29:00.000Z"
     }
   },
   "https://tonysreadinglist.wordpress.com/": {
@@ -1690,8 +1690,8 @@
   },
   "https://debugpoint.com/": {
     "lastPublished": "2026-10-07",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://www.debugpoint.com/feed/",
     "latestArticle": {
       "title": "LibreOffice 26.8: Best New Features",
@@ -1877,13 +1877,13 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Sprout uses a Raspberry Pi (and Linux) to make old iPods new again",
+      "title": "Sprout Pi lets old iPods run Linux apps and stream Spotify",
       "url": "https://www.omgubuntu.co.uk/2026/11/sprout-upgrades-ipod-modern-features",
-      "summary": "A new hardware project is using open-source hardware and software to breathe new life – and modern capabilities – into decades old iPods. Sprout, by London-based FOSS folk Certain Things, is a “moder…",
+      "summary": "Sprout is an open source replacement motherboard for iPods that keeps the original screen and click wheel, but adds Wi-Fi, Bluetooth and streaming apps. You're reading Sprout Pi lets old iPods run Li…",
       "publishedAt": "2026-11-11T23:10:00.000Z"
     }
   },
@@ -2922,8 +2922,8 @@
   },
   "https://thehighburylibrary.com/": {
     "lastPublished": "2016-11-27",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://thehighburylibrary.com/feed/",
     "latestArticle": {
       "title": "Interested in having your blog/website on The Highbury Library?",
@@ -3116,15 +3116,15 @@
     }
   },
   "https://9to5linux.com/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-11T02:44:33.721Z",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Linux’s exFAT Progs 1.4.4 Adds Optional I/O Statistics Collection for Profiling",
-      "url": "https://9to5linux.com/linuxs-exfat-progs-1-4-4-adds-optional-i-o-statistics-collection-for-profiling",
-      "summary": "Exfatprogs 1.4.4 exFAT utils for Linux has been released today with optional I/O statistics collection for profiling read, write, discard, zero-out, and sync operations. The post Linux’s exFAT Progs …",
-      "publishedAt": "2026-11-11T02:12:25.000Z"
+      "title": "Ardour 9.10 Open-Source DAW Is Out with Live Gain Envelope Waveform Updates",
+      "url": "https://9to5linux.com/ardour-9-10-open-source-daw-is-out-with-live-gain-envelope-waveform-updates",
+      "summary": "Ardour 9.10 open-source digital audio workstation (DAW) software is now available for download with optional support for audio waveforms that reflect the region’s gain envelope. The post Ardour 9.10 …",
+      "publishedAt": "2026-11-12T01:34:21.000Z"
     }
   },
   "https://lwn.net/": {
@@ -3786,15 +3786,15 @@
     }
   },
   "https://www.thenewestrant.com/": {
-    "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-10T16:44:32.158Z",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://www.thenewestrant.com/feeds/posts/default",
     "latestArticle": {
-      "title": "\"Now,\" #14 is a Stellar New Entry of the Anthology Series",
-      "url": "https://www.thenewestrant.com/2026/11/now-14-is-stellar-new-entry-of.html",
-      "summary": "It's been over two years since the last issue of, \"Now,\" hit the market for our greedy little eyes to enjoy. I say, \"Greedy,\" because this latest issue is thick, and after reading it, I still wanted …",
-      "publishedAt": "2026-11-10T16:05:53.808Z"
+      "title": "Happy Veterans Day 2026",
+      "url": "https://www.thenewestrant.com/2026/11/happy-veterans-day-2026.html",
+      "summary": "Today is November 11th, Veterans Day. I've often blogged about my variety of opinions regarding America politically, as well as the conflicts our nation gets wrapped up in. That said, regardless of w…",
+      "publishedAt": "2026-11-12T00:58:10.218Z"
     }
   },
   "https://greg.org/": {
@@ -3972,8 +3972,8 @@
   },
   "https://rachelsvintageretro.co.uk/": {
     "lastPublished": "2026-10-30",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
     "latestArticle": {
       "title": "Autumn Sale: Reduced Prices on Christmas Gifts and Homewares",
@@ -5530,15 +5530,15 @@
     }
   },
   "https://70sscifiart.tumblr.com/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-11T21:44:32.094Z",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "jamesusilljournal:Noriyoshi Ohrai",
-      "url": "https://70sscifiart.tumblr.com/post/833017498430586880",
-      "summary": "jamesusilljournal : Noriyoshi Ohrai",
-      "publishedAt": "2026-11-11T20:03:13.000Z"
+      "title": "Oh hey that&rsquo;s my email newsletter!",
+      "url": "https://70sscifiart.tumblr.com/post/833035837902045184",
+      "summary": "alltheneatwebsites : 70s Sci-Fi Art This is a site (rather obviously) dedicated to 70’s Scifi art- whether from comics or game covers!!!! ufffggg its so COOL!!!!!!!!!! Oh hey that’s my email newslett…",
+      "publishedAt": "2026-11-12T00:54:43.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5793,8 +5793,8 @@
   },
   "https://arduinoexpert.com/blog/": {
     "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://arduinoexpert.com/feed/",
     "latestArticle": {
       "title": "ESP32 and Arduino AI Projects: The Complete Guide to Building Intelligent Systems",
@@ -6250,8 +6250,8 @@
   },
   "https://londonreconnections.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
       "url": "https://londonreconnections.com/project-delivery-over-engineering-are-same-problem-pedestrian-observations/",
@@ -6403,15 +6403,15 @@
     }
   },
   "https://greatawakeningreport.com/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "The Constructs of the Mind | Documentary",
-      "url": "https://greatawakeningreport.com/the-constructs-of-the-mind-metaphysical-documentary/",
-      "summary": "Start with the uncomfortable premise. Nothing you have ever perceived reached you directly. Every sight, sound, texture and taste arrived as electrical activity in a sealed organ that has never once …",
-      "publishedAt": "2026-11-11T21:35:00.000Z"
+      "title": "Awakening Mind Part 3: Liberation | Documentary",
+      "url": "https://greatawakeningreport.com/awakening-mind-part-3-liberation-documentary/",
+      "summary": "The Awakening Mind Part 3 documentary carries the title Liberation, and the first thing it does is refuse the reading most viewers will bring to that word. Nothing here is offered as an achievement, …",
+      "publishedAt": "2026-11-12T00:10:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -6811,8 +6811,8 @@
   },
   "https://moxiemoshpit.com/blog/": {
     "lastPublished": "2026-10-19",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://moxiemoshpit.com/feed/",
     "latestArticle": {
       "title": "Your Mum's Favourite Nu Metal Band",
@@ -7044,8 +7044,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "success",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "unavailable",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Birthday card: Omar Degan",
@@ -7080,8 +7080,8 @@
   },
   "https://galacticjourney.org/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
       "title": "Comment on [November 10, 1971] In Entropy's Jaws (Infinity Two) by George Pritchard",
@@ -7091,15 +7091,15 @@
     }
   },
   "https://www.thephoblographer.com/": {
-    "lastPublished": "2026-11-02",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
+    "lastPublished": "2026-11-11",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "Camp Snap is Suing their Alleged Copycats",
-      "url": "https://www.thephoblographer.com/2026/11/02/camp-snap-is-suing-their-alleged-copycats/",
-      "summary": "Camp Snap, the company that has made screenless point and shoot cameras cool again, is going after some of the brands who've also been trying to cash in on this new market. Of course, brands like Ech…",
-      "publishedAt": "2026-11-02T14:18:44.000Z"
+      "title": "Every Discount Active for Phoblographer Members Right Now",
+      "url": "https://www.thephoblographer.com/2026/11/11/every-discount-active-for-phoblographer-members-right-now/",
+      "summary": "One of the most underused parts of a Phoblographer membership is the running list of partner discounts that come with it. A lot of members sign up for the ad-free reading experience and never realize…",
+      "publishedAt": "2026-11-11T18:00:00.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/": {
@@ -7482,14 +7482,14 @@
   },
   "https://www.cartoonbrew.com/": {
     "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "2027 Oscars Short Film Contenders: ‘18 Months’ Directors Paulo Garcia And Natália Gouvea",
-      "url": "https://www.cartoonbrew.com/awards/18-months-directors-paulo-garcia-natalia-gouvea-269280.html",
-      "summary": "Stop-motion puppets, projected shadows, and digital expressions bring a true story of two fathers and an unexpected path to parenthood to life.",
-      "publishedAt": "2026-11-12T00:32:17.000Z"
+      "title": "Acclaimed French Adult Animated Comedy ‘Jim Queen’ Is Getting A U.S. Theatrical Release After Magnolia Pickup",
+      "url": "https://www.cartoonbrew.com/distribution/jim-queen-us-theatrical-release-magnolia-pictures-269369.html",
+      "summary": "Magnolia Pictures has acquired the acclaimed French adult animated comedy, with an English-language dub featuring Jordan Firstman and Matteo Lane.",
+      "publishedAt": "2026-11-12T00:56:45.000Z"
     }
   },
   "https://www.maproomblog.com/": {
@@ -7672,15 +7672,15 @@
     }
   },
   "https://www.painscience.com/blog.php": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-07T00:44:28.119Z",
+    "lastPublished": "2026-11-11",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://www.painscience.com/rss.xml",
     "latestArticle": {
-      "title": "Dr. Novella on Christina Applegate’s misdiagnosis of MS [90s]",
-      "url": "https://www.painscience.com/psid5536239",
-      "summary": "If you’ve been living in a cave, you may not have yet heard that Christina Applegate’s multiple sclerosis diagnosis appears to have been wrong. Dr. Steven Novella on NeuroLogica : According to Appleg…",
-      "publishedAt": "2026-11-05T07:00:00.000Z"
+      "title": "Cherry picking double standard [1m]",
+      "url": "https://www.painscience.com/psid5785862",
+      "summary": "Ever catch yourself “cherry-picking” evidence to win an argument? 😜 I confess: I’ve done it. Yes, I occasionally choose evidence in a slightly cherry-picky way to support my cynical, anti-bullshit, y…",
+      "publishedAt": "2026-11-11T07:00:00.000Z"
     }
   },
   "https://despitepain.com/": {
@@ -7697,8 +7697,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7799,8 +7799,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -7976,15 +7976,15 @@
     }
   },
   "https://frompyrgos.blogspot.com/": {
-    "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-08T02:44:28.315Z",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://frompyrgos.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "MA-1 Flight Jackets, \"Fragrance Addiction,\" and How the Internet Is Saturated With BullSh*t",
-      "url": "https://frompyrgos.blogspot.com/2026/11/ma-1-flight-jackets-fragrance-addiction.html",
-      "summary": "My Heritage Fit Alpha Industries MA-1 JacketFragrance isn't my only love. I'm also passionate about MA-1 flight jackets. No, I don't own 250 of them, so my collection is nowhere near as ridiculous (I…",
-      "publishedAt": "2026-11-08T02:43:11.203Z"
+      "title": "Mercedes-Benz Eau de Toilette (Mercedes-Benz)",
+      "url": "https://frompyrgos.blogspot.com/2026/11/mercedes-benz-eau-de-toilette-mercedes.html",
+      "summary": "This is the somewhat forgotten original 2012 Mercedes-Benz fragrance, eclipsed a year later by the Intense flanker. Reviewers frequently confuse the two. M-B Intense is a smoother, fresher take on Fa…",
+      "publishedAt": "2026-11-12T01:01:27.152Z"
     }
   },
   "https://jamesrussellontheweb.blogspot.com/": {
@@ -8060,8 +8060,8 @@
   },
   "https://lowlightleaf.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://lowlightleaf.com/feed/",
     "latestArticle": {
       "title": "Song of India Plant Care for Rooms Without Much Sun",
@@ -8582,8 +8582,8 @@
   },
   "https://startprepping.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://www.thebugout.co.uk/blog": {
@@ -8594,14 +8594,14 @@
   },
   "https://pr3p.co.uk/pr3p-blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
     "lastPublished": "2026-10-31",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://preppersonly.co.uk/feed",
     "latestArticle": {
       "title": "UK Government Emergency Warning: What Every Household Should Prepare For",
@@ -8612,8 +8612,8 @@
   },
   "https://theprepperjournal.com/": {
     "lastPublished": "2026-08-09",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://theprepperjournal.com/feed/",
     "latestArticle": {
       "title": "Supply Chain Shortages: What Preppers Should Stock Up On Now",
@@ -8811,13 +8811,13 @@
   },
   "https://loia.blog/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-11T18:44:32.913Z",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://loia.blog/feed/",
     "latestArticle": {
       "title": "More Than Just a Video Game ⚾️",
       "url": "https://loia.blog/2026/11/11/more-than-just-a-video-game-%e2%9a%be%ef%b8%8f/",
-      "summary": "If you got to live inside a video game world, which one would you choose? I love sports, and I often have dreams at night where I’m on a baseball diamond, standing at the plate with a bat in my hand,…",
+      "summary": "If you got to live inside a video game world, which one would you choose? I love sports, and I sometimes have dreams at night where I’m on a baseball diamond, standing at the plate with a bat in my h…",
       "publishedAt": "2026-11-11T18:42:55.000Z"
     }
   },
@@ -9336,14 +9336,14 @@
   },
   "https://booksofbrilliance.com/": {
     "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "6 Goodreads Choice Fantasy Nominees to Try, Depending on What You Love About Fantasy",
-      "url": "https://booksofbrilliance.com/2026/11/11/2026-goodreads-choice-fantasy-nominees/?utm_source=rss&utm_medium=rss&utm_campaign=2026-goodreads-choice-fantasy-nominees",
-      "summary": "The Goodreads Fantasy ballot has a magical whodunit, a pirate sequel and a cozy cat rescue. Find the 2026 nominee that fits what you love to read. The post 6 Goodreads Choice Fantasy Nominees to Try,…",
-      "publishedAt": "2026-11-12T00:37:48.000Z"
+      "title": "The Book Thief Book Club Questions: Death, Words and Ordinary Acts of Courage",
+      "url": "https://booksofbrilliance.com/2026/11/11/the-book-thief-book-club-questions/?utm_source=rss&utm_medium=rss&utm_campaign=the-book-thief-book-club-questions",
+      "summary": "The novel that made me fall in love with reading still gives me plenty to talk about. These 18 questions explore Death’s narration, Liesel’s friendships and the risks people take for one another. The…",
+      "publishedAt": "2026-11-12T01:35:37.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9885,13 +9885,13 @@
   },
   "https://parisexpat2012.wordpress.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://parisexpat2012.wordpress.com/feed/",
     "latestArticle": {
       "title": "Baobabs",
       "url": "https://parisexpat2012.wordpress.com/2026/11/11/baobabs/",
-      "summary": "Le baobab est sans contredit l’arbre emblématique de Madagascar; en fait, la très grande majorité des souvenirs produits à Madagascar montrent soit une image de lémurien, soit une image de baobab, ou…",
+      "summary": "Le baobab est sans contredit l’arbre emblématique de Madagascar; en fait, la très grande majorité des souvenirs produits à Madagascar … Continue reading →",
       "publishedAt": "2026-11-11T11:45:16.000Z"
     }
   },
@@ -11372,8 +11372,8 @@
   },
   "https://justrojie.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://justrojie.com/feed/",
     "latestArticle": {
       "title": "you do you, boo",
@@ -11871,9 +11871,9 @@
     "feedUrl": null
   },
   "https://personalsit.es/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastPublished": "2026-11-12",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://personalsit.es/feed/all.xml"
   },
   "https://blogroll.org/": {
@@ -12210,15 +12210,15 @@
     }
   },
   "https://www.painscience.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-07T00:44:28.119Z",
+    "lastPublished": "2026-11-11",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
     "status": "success",
     "feedUrl": "https://www.painscience.com/rss.xml",
     "latestArticle": {
-      "title": "Dr. Novella on Christina Applegate’s misdiagnosis of MS [90s]",
-      "url": "https://www.painscience.com/psid5536239",
-      "summary": "If you’ve been living in a cave, you may not have yet heard that Christina Applegate’s multiple sclerosis diagnosis appears to have been wrong. Dr. Steven Novella on NeuroLogica : According to Appleg…",
-      "publishedAt": "2026-11-05T07:00:00.000Z"
+      "title": "Cherry picking double standard [1m]",
+      "url": "https://www.painscience.com/psid5785862",
+      "summary": "Ever catch yourself “cherry-picking” evidence to win an argument? 😜 I confess: I’ve done it. Yes, I occasionally choose evidence in a slightly cherry-picky way to support my cynical, anti-bullshit, y…",
+      "publishedAt": "2026-11-11T07:00:00.000Z"
     }
   },
   "https://starbucks-calorie-calculators.com/": {
@@ -12595,8 +12595,8 @@
   },
   "https://jobinterviewat.com/overtime-calculator/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-12T00:44:29.638Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-12T01:44:28.236Z",
+    "status": "success",
     "feedUrl": "https://jobinterviewat.com/feed/",
     "latestArticle": {
       "title": "Dead Internet Theory and Your Job Search: What AI Researchers Say About Proving You’re Human",

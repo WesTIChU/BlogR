@@ -435,7 +435,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1264,7 +1264,7 @@
     "feedUrl": "https://blogroll.org/assets/favicon/favicon.svg"
   },
   "https://blogs.ucl.ac.uk/constitution-unit/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://blogs.ucl.ac.uk/constitution-unit/feed/",
     "latestArticle": {
@@ -1440,10 +1440,10 @@
     "lastPublished": "2026-11-13",
     "feedUrl": "https://buencamino.blog/feed/",
     "latestArticle": {
-      "title": "Nepal, 4.Nov.2026, Wednesday",
-      "url": "https://buencamino.blog/2026/11/13/nepal-4-nov-2026-wednesday/",
-      "summary": "I thought today was going to be open all day, time to explore, do kora, prepack to get ready to leave. But, as per usual, in a wonderful way, things changed. Lama Rabten sent Fitri a message that he’…",
-      "publishedAt": "2026-11-13T23:33:33.000Z"
+      "title": "Nepal, 5-6.Nov.2026",
+      "url": "https://buencamino.blog/2026/11/13/nepal-5-6-nov-2026/",
+      "summary": "November 5, 2027 Last full day in Boudha and I’m still astonished that there wasn’t a single day when I was tired and ready to be home. It’s been an incredible trip. Today, Rosa, Maurice and I tried …",
+      "publishedAt": "2026-11-13T23:47:33.000Z"
     }
   },
   "https://burgeonlab.com/": {
@@ -2194,10 +2194,10 @@
     "lastPublished": "2026-11-13",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "TSMC confirms employee data leak as hackers seek 3 BTC",
-      "url": "https://cryptonews.mobile/brief/tsmc-confirms-employee-data-leak-as-hackers-seek-3-btc",
-      "summary": "TSMC confirmed that personal data of some current and former employees was disclosed without authorization. Hackers offered about 46,000 employee records for 3 BTC on underground forums and threatene…",
-      "publishedAt": "2026-11-13T22:56:57.000Z"
+      "title": "XRP falls 15% in a week and tests $0.99 support level",
+      "url": "https://cryptonews.mobile/brief/xrp-falls-15-in-a-week-and-tests-099-support-level",
+      "summary": "XRP fell about 15% in a week and briefly slipped below $1 before trading near $1.03 on November 13. Both reports point to $0.99 as the key support level. A decisive break could expose a further decli…",
+      "publishedAt": "2026-11-13T23:49:50.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2296,7 +2296,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -2690,7 +2690,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3110,7 +3110,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -4048,7 +4048,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -5153,13 +5153,13 @@
   },
   "https://mbbischoff.com/": {
     "status": "success",
-    "lastPublished": "2026-11-12",
+    "lastPublished": "2026-11-13",
     "feedUrl": "https://mbbischoff.com/feed/",
     "latestArticle": {
-      "title": "tasting",
-      "url": "https://chromato.graphics/tasting/",
-      "summary": "do you want to learn how to dine with me? what i want when you offer your red mouth a proper feast needs sense, set, & setting meals are not snacks they’re for savoring make time and places pray befo…",
-      "publishedAt": "2026-11-12T00:00:00.000Z"
+      "title": "but I have to remember, I love you, and I'll be good for you. it's the least I can do.",
+      "url": "https://mbbischoff.com/i_love_you/",
+      "summary": "but I have to remember, I love you, and I'll be good for you. it's the least I can do. — @pupOnSecurity, i_love_you.pdf this is about suicide, but i find it extrmeley comforting.",
+      "publishedAt": "2026-11-13T17:00:00.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -6455,7 +6455,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7681,7 +7681,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
@@ -8732,7 +8732,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -8941,7 +8941,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -10216,7 +10216,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -10301,7 +10301,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/atom.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -10551,7 +10551,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -10922,9 +10922,9 @@
     }
   },
   "https://www.themovieblog.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-13",
-    "feedUrl": "https://www.themovieblog.com/xmlrpc.php?rsd",
+    "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
       "title": "MARSHALS Set Visit: The Invisible Magic Behind the Scenes",
       "url": "https://www.themovieblog.com/2026/11/marshals-set-visit-the-invisible-magic-behind-the-scenes/",

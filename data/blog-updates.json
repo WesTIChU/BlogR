@@ -722,14 +722,14 @@
   },
   "https://cassidoo.co/blog/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T05:44:31.739Z",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://cassidoo.co/rss.xml",
     "latestArticle": {
-      "title": "Writing to me with AI",
-      "url": "https://cassidoo.co/post/writing-to-me-with-ai/",
-      "summary": "I'm getting a whole lot of generated messages lately, and I think we have to do better!",
-      "publishedAt": "2026-11-14T05:16:45.000Z"
+      "title": "Building Kakuro Zone",
+      "url": "https://cassidoo.co/post/kakuro-zone-game/",
+      "summary": "I built a printable, mobile-friendly kakuro number logic game!",
+      "publishedAt": "2026-11-14T00:00:00.000Z"
     }
   },
   "https://chaoslife.findchaos.com/comic": {
@@ -1743,14 +1743,14 @@
     }
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-14T19:27:51.304Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/speed-up-ci-in-the-age-of-ai-written-code/",
-      "summary": "Coding agents now write code faster than most CI pipelines can check it. In April 2026, GitHub COO Kyle Daigle said that his platform was handling 275 million commits a week, on pace for 14 billion in",
-      "publishedAt": "2026-11-13T12:46:22.000Z"
+      "url": "https://www.freecodecamp.org/news/build-and-train-a-glm-53-flash-model-from-scratch-with-python/",
+      "summary": "GLM-5.3-Flash combines linear and sparse attention, a mixture-of-experts design, and manifold constrained hyperconnections. A scaled-down version with 25 million parameters can be built in Python and",
+      "publishedAt": "2026-11-14T16:02:56.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3822,15 +3822,14 @@
     }
   },
   "https://mojobob.blogspot.com/": {
-    "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-12T21:44:34.820Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://mojobob.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "V1 Flying Bomb",
-      "url": "https://mojobob.blogspot.com/2026/11/v1-flying-bomb.html",
-      "summary": "Not a lot of use on the wargaming table, but that's no reason not to have one. This is a teensy 1:144 scale V1 flying bomb, from Decapod on Thingiverse if my memory serves. The Tempest is a model I m…",
-      "publishedAt": "2026-11-12T21:08:30.258Z"
+      "url": "https://mojobob.blogspot.com/2026/11/current-state-of-my-modelling-bench.html",
+      "summary": "The current state of my modelling bench. It's not as bad as it has been in the past, but the available working space is dwindling, so it's probably time for a tidy-up and reorganisation.",
+      "publishedAt": "2026-11-14T19:42:16.003Z"
     }
   },
   "https://www.web-goddess.org/": {
@@ -3917,15 +3916,15 @@
     }
   },
   "https://www.jpaul.me/": {
-    "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-12T14:44:31.566Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://www.jpaul.me/feed/",
     "latestArticle": {
-      "title": "Turning MetaMCP off without breaking anyone’s mcp clients",
-      "url": "https://www.jpaul.me/2026/11/turning-metamcp-off-without-breaking-anyones-mcp-clients/",
-      "summary": "The Zerto Docs MCP, along with the other MCP servers I’ve been running have grown in usage from a couple hits per week to over 5000 hits per week. They have been live since May of 2026, and during th…",
-      "publishedAt": "2026-11-12T14:01:00.000Z"
+      "title": "The Five Stages of VMware Grief (and Why It’s Time for Acceptance)",
+      "url": "https://www.jpaul.me/2026/11/the-five-stages-of-vmware-grief-and-why-its-time-for-acceptance/",
+      "summary": "Denial, anger, bargaining, depression, acceptance. After 16 years in the VMware ecosystem, here's why I think it's time to leave before vSphere 8 support ends. The post The Five Stages of VMware Grie…",
+      "publishedAt": "2026-11-14T19:33:59.000Z"
     }
   },
   "https://blog.omgmog.net/": {
@@ -3983,15 +3982,15 @@
     }
   },
   "https://moviepalace.blogspot.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T15:44:31.294Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://moviepalace.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "HENRY ALDRICH SWINGS IT (1943)",
-      "url": "https://moviepalace.blogspot.com/2026/11/henry-aldrich-swings-it-1943.html",
-      "summary": "High school student Henry Aldrich plays the triangle in Centerville High's orchestra—he wants to \"rock\" it but is not allowed—but his primary musical interest is being the leader of a small swing mus…",
-      "publishedAt": "2026-11-13T15:44:50.892Z"
+      "title": "MOBY DICK (1930)",
+      "url": "https://moviepalace.blogspot.com/2026/11/moby-dick-1930.html",
+      "summary": "This movie is about a sea captain wanting revenge against a giant white whale that bit off his leg. But in its specifics, this has little in common with the Herman Melville novel from which it takes …",
+      "publishedAt": "2026-11-14T19:37:27.813Z"
     }
   },
   "https://www.finalgirl.rocks/": {
@@ -4286,8 +4285,8 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T19:27:51.304Z",
-    "status": "success",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
+    "status": "unavailable",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
       "title": "Wyatt Maw’s Documentary ASHLAND Unveils Trailer Ahead of DOC NYC Premiere",
@@ -5518,15 +5517,15 @@
     }
   },
   "https://neveenwood.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T09:44:37.360Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "Beauty Stocking Fillers for Women 2026: 33 Small Gifts Under £30 I’d Actually Want (UK and US)",
-      "url": "https://neveenwood.com/beauty-stocking-fillers/",
-      "summary": "33 beauty stocking fillers for women from £1.32 to £30, from sheet masks and perfume minis to beauty crackers, split by price, plus eight US stocking stuffers and my codes.",
-      "publishedAt": "2026-11-13T05:11:42.000Z"
+      "title": "The Best NARS Products: My 11 Favorites, From Primer to Lipstick",
+      "url": "https://neveenwood.com/best-nars-products/",
+      "summary": "My 11 best NARS products in the order I put them on, from the Light Reflecting Primer to Explicit Lipstick in Adulterous, with the shade, undertone, texture and finish of each.",
+      "publishedAt": "2026-11-14T19:36:03.000Z"
     }
   },
   "https://70sscifiart.tumblr.com/": {
@@ -5739,15 +5738,14 @@
     }
   },
   "https://peyanski.com/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-11T09:44:47.089Z",
+    "lastPublished": "2021-06-16",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
-    "feedUrl": "https://peyanski.com/feed/",
+    "feedUrl": "https://peyanski.com/web-stories/feed/",
     "latestArticle": {
-      "title": "10 Home Assistant gadgets I’m checking for AliExpress 11.11, plus discount codes",
-      "url": "https://peyanski.com/home-assistant-gadgets-aliexpress-11-11-2026/",
-      "summary": "My 10 Home Assistant gadgets to compare for AliExpress 11.11, with discount codes, exact affiliate links and the version checks I'd make before buying.",
-      "publishedAt": "2026-11-11T08:30:00.000Z"
+      "title": "How To do Apple AirTags Automations?",
+      "url": "https://peyanski.com/web-stories/how-to-do-apple-airtags-automations/",
+      "publishedAt": "2021-06-16T17:30:00.000Z"
     }
   },
   "https://jonathanh.co.uk/": {
@@ -7541,14 +7539,14 @@
   },
   "https://www.worldofreel.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T17:44:31.828Z",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Kevin Spacey's Pandemic Conspiracy Thriller ‘The Awakening' Is Coming in November: “The Film They Don't Want You to See”",
-      "url": "https://www.worldofreel.com/blog/2026/11/13/kevin-spaceys-pandemic-conspiracy-thriller-the-awakening-is-coming-in-november-and-it-wants-you-to-know-its-the-film-they-dont-want-you-to-see",
-      "summary": "Who's \"they,\" exactly? The Illuminati? The Deep State? Hard to say. The film premiered at Italy's Matera Film Festival on November 10. No reviews have trickled in yet.",
-      "publishedAt": "2026-11-14T17:09:49.000Z"
+      "title": "Box Office: Johnny Depp's ‘Ebenezer' Leads ($21M+), Audiences Love It More Than Critics Do; ‘How to Rob a Bank' Bombs ($4M+), ‘Godzilla Minus Zero’ Drops 75%",
+      "url": "https://www.worldofreel.com/blog/2026/11/14/3j64xd7tqm48jumt5oezv1yuc9o7q5",
+      "summary": "The film opened in Europe on Wednesday, and the audience scores there have been very strong. Now American audiences agree: an \"A-\" on CinemaScore and a 90% audience score on Rotten Tomatoes.",
+      "publishedAt": "2026-11-14T19:44:58.000Z"
     }
   },
   "https://fossilhuntress.blogspot.com/": {
@@ -8581,8 +8579,8 @@
   },
   "https://startprepping.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-14T19:27:51.304Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://www.thebugout.co.uk/blog": {
@@ -8593,8 +8591,8 @@
   },
   "https://pr3p.co.uk/pr3p-blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-14T19:27:51.304Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -9337,14 +9335,14 @@
   },
   "https://booksofbrilliance.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T18:44:32.544Z",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "Why Octavia E. Butler Uses Time Travel in Kindred",
-      "url": "https://booksofbrilliance.com/2026/11/14/kindred-time-travel-themes/?utm_source=rss&utm_medium=rss&utm_campaign=kindred-time-travel-themes",
-      "summary": "Dana saves a drowning boy and finds herself at gunpoint. That first trip to antebellum Maryland shows how Octavia E. Butler uses time travel to put Dana’s family history and survival at stake. The po…",
-      "publishedAt": "2026-11-14T18:00:00.000Z"
+      "title": "7 Books Like Peculiar Stars for Readers Who Want Survival and Slow-Burn Romance",
+      "url": "https://booksofbrilliance.com/2026/11/14/books-like-peculiar-stars/?utm_source=rss&utm_medium=rss&utm_campaign=books-like-peculiar-stars",
+      "summary": "A castaway romance, an Antarctic chase, and a slow burn in the Rockies. These seven books like Peculiar Stars come with romance ratings so you can pick your next read. The post 7 Books Like Peculiar …",
+      "publishedAt": "2026-11-14T19:44:46.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9647,14 +9645,14 @@
   },
   "https://authorelliepotts.wordpress.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T02:44:30.402Z",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://authorelliepotts.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Friday the 13th and the Witch Who Could Not Stop Sweating",
-      "url": "https://authorelliepotts.wordpress.com/2026/11/13/friday-the-13th-and-the-witch-who-could-not-stop-sweating/",
-      "summary": "On Friday the 13th, the town of Blackthorn Creek prepared for disaster. People nailed horseshoes above their doors. They tossed salt over their shoulders. They avoided stepping on cracks and refused …",
-      "publishedAt": "2026-11-14T02:08:56.000Z"
+      "title": "How Do You Stay Resilient in Hard Times?",
+      "url": "https://authorelliepotts.wordpress.com/2026/11/14/how-do-you-stay-resilient-in-hard-times/",
+      "summary": "How do you stay resilient in hard times? As a Xennial, I’ve been through enough to know that life isn’t a flat, safe path. It isn’t a neatly paved road with clear signs and guardrails. It’s mountains…",
+      "publishedAt": "2026-11-14T19:31:12.000Z"
     }
   },
   "https://2e0mca.uk/": {
@@ -10293,11 +10291,11 @@
   },
   "https://blainerestaurantreport.wordpress.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T01:44:32.269Z",
+    "lastChecked": "2026-11-14T19:44:31.499Z",
     "status": "success",
     "feedUrl": "https://blainerestaurantreport.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Scoop There It Is, Harahan, LA Report #1111",
+      "title": "Scoop There It Is, Harahan, LA  Report #1111",
       "url": "https://blainerestaurantreport.wordpress.com/2026/11/13/scoop-there-it-is-harahan-la-report-1111/",
       "summary": "After a great steak dinner at The Body Shop Bar & Grill, I had a hankering for dessert. I came here to take care of that and make myself happy. They don’t have a website but here’s a link to their Fa…",
       "publishedAt": "2026-11-14T00:51:04.000Z"

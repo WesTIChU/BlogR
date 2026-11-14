@@ -1877,11 +1877,11 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-14T02:44:30.402Z",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Euro-Office is now available on desktop (as Nextcloud Office Desktop)",
+      "title": "Euro-Office, the ONLYOFFICE fork, now has a desktop app",
       "url": "https://www.omgubuntu.co.uk/2026/11/euro-office-desktop-apps-nextcloud",
       "summary": "Euro-Office, the Nextcloud-backed fork of ONLYOFFICE, is now available to download and install on desktops as Nextcloud Office Desktop. Announced in March 2026, Euro-Office is a European-based altern…",
       "publishedAt": "2026-11-13T20:14:18.000Z"
@@ -4286,8 +4286,8 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-14T01:44:32.269Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
+    "status": "success",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
       "title": "MARSHALS Set Visit: The Invisible Magic Behind the Scenes",
@@ -6368,8 +6368,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-14T02:44:30.402Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6532,14 +6532,14 @@
   },
   "https://thedeathchamber.blogspot.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T02:44:30.402Z",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://thedeathchamber.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Ruthless - Curse of the Beast [2026]",
-      "url": "https://thedeathchamber.blogspot.com/2026/11/ruthless-curse-of-beast-2026.html",
-      "summary": "Artist: Ruthless Album: Curse of the Beast Year: 2026 Genre: Heavy Metal / Power Metal Web: https://youtu.be/v36__TbJOMc / https://ff-ruthless.bandcamp.com Country: United States Quality: 320 Kbps Tr…",
-      "publishedAt": "2026-11-14T02:40:06.543Z"
+      "title": "Enfrenzied - Parasite Chamber [2026]",
+      "url": "https://thedeathchamber.blogspot.com/2026/11/enfrenzied-parasite-chamber-2026.html",
+      "summary": "Artist: Enfrenzied Album: Parasite Chamber Year: 2026 Genre: Technical Death Metal Web: https://youtu.be/smf_45oG7fQ / https://www.facebook.com/enfrenzied Country: United States Quality: 320 Kbps Tra…",
+      "publishedAt": "2026-11-14T03:25:38.102Z"
     }
   },
   "https://philsworkbench.blogspot.com/": {
@@ -7079,14 +7079,14 @@
   },
   "https://galacticjourney.org/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T02:44:30.402Z",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
-      "title": "Comment on [November 10, 1971] In Entropy's Jaws (Infinity Two) by GalacticJourney",
-      "url": "https://galacticjourney.org/november-10-1971-in-entropys-jaws-infinity-two/#comment-279165",
-      "summary": "In reply to George Pritchard . J.F.Bone has been AWOL a loooong time. I wonder what's brought him back (or kept him away...)",
-      "publishedAt": "2026-11-14T02:35:23.000Z"
+      "title": "Comment on [November 10, 1971] In Entropy's Jaws (Infinity Two) by George Pritchard",
+      "url": "https://galacticjourney.org/november-10-1971-in-entropys-jaws-infinity-two/#comment-279171",
+      "summary": "In reply to GalacticJourney . Interesting, I didn't realize how long he'd been away. I wonder if we'll ever find out what's kept him?",
+      "publishedAt": "2026-11-14T03:15:23.000Z"
     }
   },
   "https://www.thephoblographer.com/": {
@@ -7505,14 +7505,14 @@
   },
   "https://hackaday.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T00:44:31.617Z",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "X Window System on the ESP32",
-      "url": "https://hackaday.com/2026/11/13/x-window-system-on-the-esp32/",
-      "summary": "There are a lot of things you can do with an Xserver, but run it on a microcontroller? Well, if that microcontroller is an ESP32-S3, [Sergey Zorin]– and Claude– have …read more",
-      "publishedAt": "2026-11-14T00:00:18.000Z"
+      "title": "Borland C++ 2.0 Compiler Source Reconstructed",
+      "url": "https://hackaday.com/2026/11/13/borland-c-2-0-compiler-source-reconstructed/",
+      "summary": "As the successor to Turbo C++, Borland C++ was a staple of professional IDEs for C and C++ development, starting with the initial 2.0 release in 1991. Being a commercial …read more",
+      "publishedAt": "2026-11-14T03:00:44.000Z"
     }
   },
   "https://marcel.io/": {
@@ -7696,8 +7696,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-14T02:44:30.402Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -8460,15 +8460,15 @@
     }
   },
   "https://terrytao.wordpress.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T07:44:36.511Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://terrytao.wordpress.com/feed/",
     "latestArticle": {
-      "title": "247A, Notes 4: Weighted estimates and pseudodifferential operators",
-      "url": "https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/",
-      "summary": "— 1. Weighted inequalities — In the previous notes we have taken a linear or sublinear operator on a measure space and established mapping properties, such as These estimates reveal information about…",
-      "publishedAt": "2026-11-13T07:09:00.000Z"
+      "title": "Introducing MathHelm: A Place to discuss AI-generated papers",
+      "url": "https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/",
+      "summary": "[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the w…",
+      "publishedAt": "2026-11-14T03:19:00.000Z"
     }
   },
   "https://georgerrmartin.com/notablog/": {
@@ -8509,8 +8509,8 @@
   },
   "https://donttalkjusttravel.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-11-10T04:18:26.485Z",
-    "status": "success",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
+    "status": "unavailable",
     "feedUrl": "https://donttalkjusttravel.com/feed/",
     "latestArticle": {
       "title": "Caribbean Waterfall Swimming Guide: Places, Access & Safety",
@@ -8697,15 +8697,14 @@
     }
   },
   "https://comicsdc.blogspot.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T20:44:35.514Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Mark Zaid's new comic book exhibit at Spy Museum on WTOP",
-      "url": "https://comicsdc.blogspot.com/2026/11/mark-zaids-new-comic-book-exhibit-at.html",
-      "summary": "Comic books go undercover in a new exhibit at DC’s Spy Museum By Matt Kaufax WTOP's Matt About Town November 10, 2026 https://wtop.com/matt-about-town/2026/11/comic-books-go-undercover-in-a-new-exhib…",
-      "publishedAt": "2026-11-13T20:36:18.084Z"
+      "title": "Lost in Translation by Daniel Boris",
+      "url": "https://comicsdc.blogspot.com/2026/11/lost-in-translation-by-daniel-boris.html",
+      "publishedAt": "2026-11-14T03:01:05.912Z"
     }
   },
   "https://www.nationalelfservice.net/": {
@@ -8870,15 +8869,15 @@
     }
   },
   "https://mindfulchapters.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T02:44:29.748Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://mindfulchapters.com/feed/",
     "latestArticle": {
-      "title": "My Gut Said “Walk Away!” My Ego Said “Impress Him!” Enter the Mushrooms. 🍄",
-      "url": "https://mindfulchapters.com/2026/11/13/ignored-my-gut-and-paid-for-itcategory/",
-      "summary": "Ever ignored your gut just to impress someone? I did! A handsome stranger, a complicated-looking book and an overconfident college girl made the perfect recipe for disaster. What followed involved li…",
-      "publishedAt": "2026-11-13T02:41:01.000Z"
+      "title": "My Mind Needs a Bouncer: No Entry for Uninvited Worries. 😂",
+      "url": "https://mindfulchapters.com/2026/11/14/my-mind-needs-a-bouncer/",
+      "summary": "At 2:14 AM, my brain decided to host a party for anxiety, embarrassing memories and worst-case scenarios. That's when I realised my mind needed a bouncer! Resilience isn't about never having bad days…",
+      "publishedAt": "2026-11-14T02:49:02.000Z"
     }
   },
   "https://theloopylululog.blog/": {
@@ -9158,15 +9157,15 @@
     }
   },
   "https://rutheh.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T05:44:31.325Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://rutheh.com/feed/",
     "latestArticle": {
-      "title": "Engine Co No 11 in Troy Hill",
-      "url": "https://rutheh.com/2026/11/13/engine-co-no-11-in-troy-hill/",
-      "summary": "Architect Joseph Stillburg. Erected 1901",
-      "publishedAt": "2026-11-13T05:25:15.000Z"
+      "title": "Waiting for his Big Brother to Come on Stage",
+      "url": "https://rutheh.com/2026/11/13/waiting-for-his-big-brother-to-come-on-stage/",
+      "summary": "Guest blog photos by my granddaughters Anna and Maura. Roy was attending the second performance and was anticipating his brother Charlie’s (Theseus) return to the scene. Taking a bow. Photo by Maura",
+      "publishedAt": "2026-11-14T03:45:42.000Z"
     }
   },
   "https://folsommillstudio.com/": {
@@ -9339,14 +9338,14 @@
   },
   "https://booksofbrilliance.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T02:44:30.402Z",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "The Will of the Many Recap: What Vis Discovers Before The Strength of the Few",
-      "url": "https://booksofbrilliance.com/2026/11/13/the-will-of-the-many-recap/?utm_source=rss&utm_medium=rss&utm_campaign=the-will-of-the-many-recap",
-      "summary": "Before you start The Strength of the Few, revisit what Vis learns on Suus, what happens during the Iudicium, and why the epilogue sends him into three worlds. The post The Will of the Many Recap: Wha…",
-      "publishedAt": "2026-11-14T02:42:00.000Z"
+      "title": "Dungeon Crawler Carl Fans Have Another Reason to Pay Attention to Princess Donut Before Book 9",
+      "url": "https://booksofbrilliance.com/2026/11/13/princess-donut-dice-set-dungeon-crawler-carl/?utm_source=rss&utm_medium=rss&utm_campaign=princess-donut-dice-set-dungeon-crawler-carl",
+      "summary": "Princess Donut has a $25 dice set, a free browser game with Jeff Hays, and a bonus Q&A in which she gets to interview her own creator. Here’s where to find each one while Book 9 is in progress. The p…",
+      "publishedAt": "2026-11-14T03:07:57.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9386,15 +9385,15 @@
     }
   },
   "https://mymindmappings.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T14:44:38.112Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "Friday Fictioneers — Winter’s Unexpected Hello",
-      "url": "https://mymindmappings.com/2026/11/13/friday-fictioneers-winters-unexpected-hello/",
-      "summary": "Autumn tried to stay the course, but winter unexpectedly swept in that night, freezing everything in sight. Pipes beneath the houses cracked, their frozen veins unable to contain the pressure. Baseme…",
-      "publishedAt": "2026-11-13T14:35:00.000Z"
+      "title": "A Good Question",
+      "url": "https://mymindmappings.com/2026/11/13/a-good-question/",
+      "summary": "Source: Elisabeth McNair, The New Yorker magazine.",
+      "publishedAt": "2026-11-14T02:48:27.000Z"
     }
   },
   "https://pvcann.com/": {
@@ -9684,15 +9683,15 @@
     }
   },
   "https://anyelement.wordpress.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T03:44:32.894Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://anyelement.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Without a Pure Heart , The Mind is Prone to Corruption",
-      "url": "https://anyelement.wordpress.com/2026/11/13/without-a-pure-heart-the-mind-is-prone-to-corruption/",
-      "summary": "When we talk about corruption, it is a state where people abandon all their principles and morals just for a cheap way to get themselves what they can’t by their own effort. It is more like a psy-to-…",
-      "publishedAt": "2026-11-13T03:14:36.000Z"
+      "title": "Appreciate The Old Things That Sustained You Longer",
+      "url": "https://anyelement.wordpress.com/2026/11/14/appreciate-the-old-things-that-sustained-you-longer/",
+      "summary": "Most people believe that we should be out with the old and in with the new. That is a common aspect of us but people tend to forget about how the old was able to sustain them much longer before the n…",
+      "publishedAt": "2026-11-14T03:00:56.000Z"
     }
   },
   "https://occupy25.com/": {
@@ -10127,15 +10126,15 @@
     }
   },
   "https://nzbirding26.wordpress.com/": {
-    "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-12T17:44:30.854Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://nzbirding26.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Day 13 – Waikanae & Ferry Crossing",
-      "url": "https://nzbirding26.wordpress.com/2026/11/13/day-13-waikanae-ferry-crossing/",
-      "summary": "So we started the day with breakfast at the botanic garden and then a walk around some of it. The blurb says: “After some morning birding, we will catch a mid-afternoon ferry (well actually 12.45pm),…",
-      "publishedAt": "2026-11-12T16:55:44.000Z"
+      "title": "Day 14 – Marlborough Sound",
+      "url": "https://nzbirding26.wordpress.com/2026/11/14/day-14-marlborough-sound/",
+      "summary": "Visiting Blumine Island in Marlborough Sound.",
+      "publishedAt": "2026-11-14T02:51:54.000Z"
     }
   },
   "https://3rsofretirement.com/": {
@@ -10967,14 +10966,14 @@
   },
   "https://paulfloreswriter.wordpress.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T02:44:30.402Z",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://paulfloreswriter.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The Arrest of Aleisha Campos: The Official Charges, the Timing, and the Questions That Remain (Nov 13, 2026)",
-      "url": "https://paulfloreswriter.wordpress.com/2026/11/13/the-arrest-of-aleisha-campos-the-official-charges-the-timing-and-the-questions-that-remain-nov-13-2026/",
-      "summary": "Prepared: November 13, 2026Subject: Analysis of the Sun-Gazette Report on the Arrest of Aleisha Campos — The Official Charges, the Timing, and the Implications for the Boudreaux CaseSource: The Sun-G…",
-      "publishedAt": "2026-11-14T01:58:57.000Z"
+      "title": "Report on the Arrest of Aleisha Campos and the Campos Family Connection to the Boudreaux Case",
+      "url": "https://paulfloreswriter.wordpress.com/2026/11/13/report-on-the-arrest-of-aleisha-campos-and-the-campos-family-connection-to-the-boudreaux-case/",
+      "summary": "Prepared: November 13, 2026Subject: Comprehensive Report on the Arrest of Aleisha Campos, Her Husband Lt. Joe Campos (Ret.), and the Implications for the Boudreaux InvestigationClassification: Public…",
+      "publishedAt": "2026-11-14T03:14:56.000Z"
     }
   },
   "https://gwbcreations.org/": {
@@ -11230,15 +11229,15 @@
     }
   },
   "https://everydayshorts.wordpress.com/": {
-    "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-12T17:44:30.854Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://everydayshorts.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Not running?",
-      "url": "https://everydayshorts.wordpress.com/2026/11/12/not-running/",
-      "summary": "12/11/2026 Left home with an intent to run. Drive by the side of Sevagram trail, got off the car and started walking. The setting sun was touching the road surface as I looked to the left. The warm g…",
-      "publishedAt": "2026-11-12T16:50:28.000Z"
+      "title": "Rabi 2026",
+      "url": "https://everydayshorts.wordpress.com/2026/11/14/rabi-2026/",
+      "summary": "13/11/2026 Rabi 2026 cropping includes chickpea and wheat. IMD says monsoon rains are nearly 20% less than the average. Reservoir level is at 60%. That gives us the possibility of farm soil improveme…",
+      "publishedAt": "2026-11-14T03:01:14.000Z"
     }
   },
   "https://gokenyagofuture.org/": {
@@ -11398,14 +11397,14 @@
     }
   },
   "https://cnusin37.wordpress.com/": {
-    "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-10T08:44:34.253Z",
+    "lastPublished": "2026-11-14",
+    "lastChecked": "2026-11-14T03:44:27.350Z",
     "status": "success",
     "feedUrl": "https://cnusin37.wordpress.com/feed/",
     "latestArticle": {
-      "url": "https://cnusin37.wordpress.com/2026/11/10/1046/",
-      "summary": "What life lesson did you learn too late? Respecting myself",
-      "publishedAt": "2026-11-10T08:08:08.000Z"
+      "url": "https://cnusin37.wordpress.com/2026/11/14/1047/",
+      "summary": "What’s a time you ignored your gut — and paid for it? The day I got into a wreck. I woke up, got dressed, and everything was going wrong, and as soon as I got into my car, my gut said no, but I had c…",
+      "publishedAt": "2026-11-14T03:16:45.000Z"
     }
   },
   "https://an-observer.blog/": {

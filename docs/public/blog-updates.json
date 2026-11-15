@@ -324,7 +324,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -435,7 +435,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -460,7 +460,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -525,7 +525,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -613,7 +613,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -707,7 +707,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -971,7 +971,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1134,7 +1134,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1339,7 +1339,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -2200,7 +2200,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2284,7 +2284,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2361,13 +2361,13 @@
   },
   "https://dcairns.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-14",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://dcairns.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Oregon Transplant",
-      "url": "https://dcairns.wordpress.com/2026/11/14/oregon-transplant/",
-      "summary": "I’d seen Jacques Tourneur’s CANYON PASSAGE (1946), I think, but all I could remember is that it begins uncharacteristically for a western with a torrential downpour in Portland, muddy streets with pl…",
-      "publishedAt": "2026-11-14T16:26:12.000Z"
+      "title": "The Sunday Intertitle: Motion Pitcher",
+      "url": "https://dcairns.wordpress.com/2026/11/15/the-sunday-intertitle-motion-pitcher/",
+      "summary": "For a special reason I’ve been researching the films of 1917, which is both the year Buster Keaton wandered into movies in THE BUTCHER BOY and the year Harold Lloyd debuted his “glass” character. Now…",
+      "publishedAt": "2026-11-15T11:36:26.000Z"
     }
   },
   "https://debugpoint.com/": {
@@ -2495,14 +2495,14 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-11",
+    "status": "success",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
-      "title": "Ceratosaurus (Nick) (Prehistoric Animal Models by PNSO)",
-      "url": "https://dinotoyblog.com/ceratosaurus-nick-prehistoric-animal-models-by-pnso/",
-      "summary": "Although PNSO’s offerings have been few and far between in 2026 there’s something to be said for quality over quantity, unless you don’t like theropods. The articulated T. rex offered something new a…",
-      "publishedAt": "2026-11-11T12:29:26.000Z"
+      "title": "Pull Back Dinosaur Cars (Let’s Go by Shenzhen Dingming Technology Co. Ltd.)",
+      "url": "https://dinotoyblog.com/pull-back-dinosaur-cars-lets-go-by-shenzhen-dingming-technology-co-ltd/",
+      "summary": "I like to think of myself as something of a pioneer on the Dinosaur Toy Blog whenever possible, by introducing prehistoric products the likes of which have never been covered previously. It was I who…",
+      "publishedAt": "2026-11-15T11:39:37.000Z"
     }
   },
   "https://discontinuednotes.com/": {
@@ -2594,7 +2594,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -2688,7 +2688,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3108,7 +3108,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3181,7 +3181,7 @@
     "feedUrl": "https://glyphsift.com/favicon.svg"
   },
   "https://gnomadhome.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2023-12-19",
     "feedUrl": "https://gnomadhome.com/feed/",
     "latestArticle": {
@@ -3473,7 +3473,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3542,7 +3542,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3575,7 +3575,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -3691,7 +3691,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -3958,7 +3958,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -3980,7 +3980,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4046,7 +4046,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4277,8 +4277,8 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-02",
+    "status": "success",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
   "https://karagila.org/blog": {
@@ -4293,7 +4293,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -4772,7 +4772,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -4983,7 +4983,7 @@
     }
   },
   "https://maisonkojira.com/insights/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://makeupandbeautyblog.com/": {
@@ -5212,7 +5212,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5223,7 +5223,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5483,7 +5483,7 @@
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
@@ -5536,7 +5536,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -6099,7 +6099,7 @@
     "latestArticle": {
       "title": "Village de pêcheurs / Fishing Village",
       "url": "https://parisexpat2012.wordpress.com/2026/11/13/village-de-pecheurs-fishing-village/",
-      "summary": "La côte juste au nord d’Ifaty est une longue plage qui fait face au canal de Mozambique qui sépare, sur … Continue reading →",
+      "summary": "La côte juste au nord d’Ifaty est une longue plage qui fait face au canal de Mozambique qui sépare, sur une largeur de 400 kilomètres, l’île de Madagascar du continent africain. Bien que l’eau soit i…",
       "publishedAt": "2026-11-13T11:45:01.000Z"
     }
   },
@@ -6115,7 +6115,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -6130,10 +6130,10 @@
     "lastPublished": "2026-11-15",
     "feedUrl": "https://paulfloreswriter.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Valley Red Wave: A Small Fresno-Area PAC With One Local Ballot Measure and a Network of Republican Committees",
-      "url": "https://paulfloreswriter.wordpress.com/2026/11/15/valley-red-wave-a-small-fresno-area-pac-with-one-local-ballot-measure-and-a-network-of-republican-committees/",
-      "summary": "Bottom line up front: Valley Red Wave (Filer ID 1483326) is a small, Fresno-area Republican-aligned political action committee. In the 2025–2026 cycle it raised about $23,395 and spent about $13,260,…",
-      "publishedAt": "2026-11-15T10:43:00.000Z"
+      "title": "Form 700 Compliance Audit for City of Porterville and PID GSA",
+      "url": "https://paulfloreswriter.wordpress.com/2026/11/15/form-700-compliance-audit-for-city-of-porterville-and-pid-gsa/",
+      "summary": "Date: November 15, 2026Subject: Audit of Statements of Economic Interests (Form 700) for City of Porterville officials and the Porterville Irrigation District Groundwater Sustainability Agency (PID G…",
+      "publishedAt": "2026-11-15T11:35:20.000Z"
     }
   },
   "https://paulgraham.com/articles.html": {
@@ -6429,13 +6429,13 @@
   },
   "https://poojamallick000.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-14",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://poojamallick000.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Stay Resilient in Hard Times?",
-      "url": "https://poojamallick000.wordpress.com/2026/11/14/stay-resilient-in-hard-times/",
-      "summary": "How do you stay resilient in hard times? View all responses For me, in my hard times, I break. I cry. I am a human. If someone expects me to be a robot in front of every problem, they need to learn t…",
-      "publishedAt": "2026-11-14T09:32:00.000Z"
+      "title": "Self-Love v/s Self-Blame",
+      "url": "https://poojamallick000.wordpress.com/2026/11/15/self-love-v-s-self-blame/",
+      "summary": "Self-love and self-blame cannot live in the same house. Slowly, warmth returns… of course you weren’t handed a full to-do list, you were handed a life. There’s an odd kind of peace in admitting you’r…",
+      "publishedAt": "2026-11-15T11:42:00.000Z"
     }
   },
   "https://porzuczek.pl/": {
@@ -6452,7 +6452,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6643,7 +6643,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -6821,13 +6821,13 @@
   },
   "https://retiredmartin.com/": {
     "status": "success",
-    "lastPublished": "2026-11-14",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://retiredmartin.com/feed/",
     "latestArticle": {
-      "title": "SEE THE BAYEUX TAPESTRY FOR FREE IN HASTINGS MUSEUM",
-      "url": "https://retiredmartin.com/2026/11/14/see-the-bayeux-tapestry-for-free-in-hastings-museum/",
-      "summary": "November 2026. Hastings. One last day in Rye before heading back to Cambridge, and despite the lure of Lewes and Ashford, Mrs RM picked a return to Hastings for lunch. Rather like Ramsgate, you can h…",
-      "publishedAt": "2026-11-14T20:43:43.000Z"
+      "title": "TOP 100 PUBS – THE DOLPHIN, HASTINGS",
+      "url": "https://retiredmartin.com/2026/11/15/top-100-pubs-the-dolphin-hastings/",
+      "summary": "November 2026. Hastings. East Sussex. A bit dull, using our last day in East Sussex for a while in Hastings, but I doubt I’ll get bored of the Old Town anytime soon, and I still haven’t been to the C…",
+      "publishedAt": "2026-11-15T11:11:50.000Z"
     }
   },
   "https://retroarcadia.blog/": {
@@ -7643,13 +7643,13 @@
   },
   "https://ssraii.art.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-13",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://ssraii.art.blog/feed/",
     "latestArticle": {
       "title": "…",
-      "url": "https://ssraii.art.blog/2026/11/13/832/",
-      "summary": "What’s a time you ignored your gut — and paid for it? Life my life everytime 🙆‍♀️",
-      "publishedAt": "2026-11-13T05:28:05.000Z"
+      "url": "https://ssraii.art.blog/2026/11/15/833/",
+      "summary": "What’s something you miss from the old days? Myself",
+      "publishedAt": "2026-11-15T11:30:56.000Z"
     }
   },
   "https://sswt.art.blog/": {
@@ -7664,7 +7664,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -7678,11 +7678,11 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -8383,10 +8383,10 @@
     "lastPublished": "2026-11-15",
     "feedUrl": "https://thekillingtimestv.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The 10 Best Crime Dramas This Week (Monday 16th – Sunday 22nd November)",
-      "url": "https://thekillingtimestv.wordpress.com/2026/11/15/the-10-best-crime-dramas-this-week-monday-16th-sunday-22nd-november-3/",
-      "summary": "There’s still a lot bubbling away in crime drama land. Although we say farewell to series two of The City Is Hours, we say hello to series two of Mademoiselle Holmes and an intriguing Japanese/Korean…",
-      "publishedAt": "2026-11-15T07:09:00.000Z"
+      "title": "REVIEW: Honey (S1 E1&2/6)",
+      "url": "https://thekillingtimestv.wordpress.com/2026/11/15/review-honey-s1-e12-6/",
+      "summary": "There’s something deliciously familiar about Honey, not least because it brings us back to the world of Carolyn Martens, the wonderfully inscrutable intelligence operative played by Fiona Shaw in Kil…",
+      "publishedAt": "2026-11-15T11:38:53.000Z"
     }
   },
   "https://theloopylululog.blog/": {
@@ -8554,7 +8554,7 @@
     }
   },
   "https://theseconddisc.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://theseconddisc.com/feed/",
     "latestArticle": {
@@ -8728,7 +8728,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://tidewater3d.co.uk/": {
@@ -8768,7 +8768,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -8834,7 +8834,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -8937,7 +8937,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -8967,7 +8967,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -9376,7 +9376,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -9466,7 +9466,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -9542,7 +9542,7 @@
   },
   "https://www.bfoliver.com/": {
     "status": "success",
-    "lastPublished": "2026-11-14",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://www.bfoliver.com/feed.xml"
   },
   "https://www.breakfastandtravelupdates.com/": {
@@ -9561,10 +9561,10 @@
     "lastPublished": "2026-11-15",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Save up to 50% off numerous LEGO sets for the perfect present",
-      "url": "https://www.brickfanatics.com/50-off-numerous-lego-sets-for-the-perfect-present",
-      "summary": "From Star Wars to Botanicals to Fortnite",
-      "publishedAt": "2026-11-15T10:53:31.000Z"
+      "title": "Black Friday deal: 60% off retired LEGO Marvel Eternals set",
+      "url": "https://www.brickfanatics.com/black-friday-deal-60-off-retired-lego-eternals-set",
+      "summary": "Even just for the minifigures, it's worth it at that price",
+      "publishedAt": "2026-11-15T11:16:20.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -10031,14 +10031,14 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-13",
+    "status": "success",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Tickets Alert: Doctor Who returns to the big screen",
-      "url": "https://www.ianvisits.co.uk/articles/tickets-alert-doctor-who-returns-to-the-big-screen-93971/",
-      "summary": "Later this month, a one-night-only, movie-length screening of the extended Doctor Who: The Satan Pit will run on big screens to mark 20 years of the Tenth Doctor and Rose Tyler. Read more ›",
-      "publishedAt": "2026-11-13T16:00:46.000Z"
+      "title": "Falling concrete shuts Thameslink train services through central London",
+      "url": "https://www.ianvisits.co.uk/articles/falling-concrete-shuts-thameslink-train-services-through-central-london-94124/",
+      "summary": "Services between St Pancras and Blackfriars are cancelled after debris fell from the roof of the Snow Hill Tunnel and damaged overhead power wires. Read more ›",
+      "publishedAt": "2026-11-15T10:50:32.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -10154,7 +10154,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -10212,7 +10212,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -10273,7 +10273,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -10306,9 +10306,9 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-01",
-    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
+    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -10354,7 +10354,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -10547,7 +10547,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -10740,7 +10740,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -10786,7 +10786,7 @@
     }
   },
   "https://www.thebrokebackpacker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thebugout.co.uk/blog": {
@@ -10983,7 +10983,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -11087,7 +11087,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {

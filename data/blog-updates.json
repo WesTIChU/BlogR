@@ -489,15 +489,15 @@
     }
   },
   "https://alis.me/": {
-    "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T09:44:28.807Z",
+    "lastPublished": "2026-11-15",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://alis.me/feed/",
     "latestArticle": {
-      "title": "Saturday @ 8:35 pm",
-      "url": "https://alis.me/x/saturday-835-pm/",
-      "summary": "AO4 (Archive of Our Own Outage) is making me think I should totally learn fanbinding...",
-      "publishedAt": "2026-11-14T09:35:12.000Z"
+      "title": "Kill it.",
+      "url": "https://alis.me/x/kill-it/",
+      "summary": "Your free speech was taken away from you, and the people who did it are the same ones who spent years pretending to care about “free expression”. They contrived examples of lack of free speech on col…",
+      "publishedAt": "2026-11-15T03:36:03.000Z"
     }
   },
   "https://alisonwilder.com/blog/": {
@@ -543,8 +543,8 @@
   },
   "https://andrewdoran.uk/blog/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
       "title": "Comment on Tools for discovering the IndieWeb by Simon",
@@ -585,8 +585,8 @@
   },
   "https://drwho.virtadpt.net/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
       "title": "Pictures from when I went on retreat in 2025.",
@@ -1090,8 +1090,8 @@
   },
   "https://jeffmackinnon.com/": {
     "lastPublished": "2026-10-01",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
       "title": "Diesel Prices and Inflation",
@@ -1125,8 +1125,8 @@
   },
   "https://kaigulliksen.com/": {
     "lastPublished": "2026-11-02",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
   "https://librearts.org/": {
@@ -1643,8 +1643,8 @@
   },
   "https://brendandawes.com/blog": {
     "lastPublished": "2026-09-26",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
       "title": "That Was The Week That Was — 27th September 2026",
@@ -1655,8 +1655,8 @@
   },
   "https://css-tricks.com/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
       "title": "10 Big Ol’ 2027 Black Friday Deals",
@@ -1678,8 +1678,8 @@
   },
   "https://davideaversa.it/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
       "title": "The ChangeLog – October 2026",
@@ -1778,8 +1778,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T23:21:15.074Z",
-    "status": "success",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Openreach prep new Zyxel ONT for 10Gbps capable UK FTTP broadband lines",
@@ -2133,8 +2133,8 @@
   },
   "https://gnomadhome.com/": {
     "lastPublished": "2023-12-19",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://gnomadhome.com/feed/",
     "latestArticle": {
       "title": "107+ Awesome Van Life Gifts Any Campervan Owner Will Love",
@@ -2211,9 +2211,9 @@
   },
   "https://www.neverendingfootsteps.com/": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
-    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
+    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -2223,8 +2223,8 @@
   },
   "https://www.nomadicmatt.com/travel-blog/": {
     "lastPublished": "2026-07-28",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
       "title": "Holafly Plans: The Best eSIM Plan for Long Term Travelers",
@@ -2319,8 +2319,8 @@
   },
   "https://www.thebrokebackpacker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unknown",
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://thebrutallyhonesttraveler.com/": {
@@ -2373,8 +2373,8 @@
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
     "lastPublished": "2026-08-05",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
       "title": "No Stupid Question: About Those Expedition Bike Upgrades…",
@@ -2658,8 +2658,8 @@
   },
   "https://stephenbodio.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
       "title": "Cattle Ancestry, Sheep, too.",
@@ -3009,8 +3009,8 @@
   },
   "https://www.timeextension.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T16:44:29.158Z",
-    "status": "success",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
       "title": "Hands On: AYANEO KONKR Pocket Advance Ice Pink Special Edition - the Fuscia Is in Your Hands",
@@ -3033,8 +3033,8 @@
   },
   "https://www.retrogarden.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://classicgamezone.com/blogs": {
@@ -3045,8 +3045,8 @@
   },
   "https://www.mrsmummypenny.co.uk/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
       "title": "Top A Level Tutors Review (2026): Is It Worth the Money?",
@@ -3201,8 +3201,8 @@
   },
   "https://dinotoyblog.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
       "title": "Ceratosaurus (Nick) (Prehistoric Animal Models by PNSO)",
@@ -3309,8 +3309,8 @@
   },
   "https://gardenrant.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenbetty.com/": {
@@ -3339,14 +3339,14 @@
   },
   "https://joegardener.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://iamafoodblog.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
       "title": "Puff Pastry Chicken Pot Pie",
@@ -3393,8 +3393,8 @@
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
     "lastPublished": "2025-07-31",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
       "title": "Competing in the Royal Welsh Show",
@@ -3727,8 +3727,8 @@
   },
   "https://tracydurnell.com/mind-garden/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
       "title": "Weeknotes: Nov. 9-13, 2026",
@@ -3835,13 +3835,13 @@
   },
   "https://www.web-goddess.org/": {
     "lastPublished": "2026-11-15",
-    "lastChecked": "2026-11-15T01:44:28.961Z",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
       "title": "🚴‍♀️ Ride: “Purple Rain”",
       "url": "https://www.web-goddess.org/archive/95777",
-      "summary": "Group ride to see the jacarandas. The rain became quite literal but we persevered. Also my 7th #coffeeneuring ride! Time: 129min / Distance: 25.61km",
+      "summary": "Group ride to see the jacarandas. The rain became quite literal but we persevered. Also my 7th #coffeeneuring ride! Time: 129min / Distance: 25.61km My neighbour Marlene and I headed over to Erskinev…",
       "publishedAt": "2026-11-15T00:47:07.000Z"
     }
   },
@@ -4007,15 +4007,15 @@
     }
   },
   "https://laurasmiscmusings.blogspot.com/": {
-    "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-09T07:44:40.316Z",
+    "lastPublished": "2026-11-15",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://laurasmiscmusings.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Tonight's Movie: The Hucksters (1947) - A Warner Archive Blu-ray Review",
-      "url": "https://laurasmiscmusings.blogspot.com/2026/10/tonights-movie-hucksters-1947-warner.html",
-      "summary": "THE HUCKSTERS (1947), an MGM advertising drama with a terrific cast, was just released on Blu-ray by the Warner Archive Collection. I first reviewed THE HUCKSTERS nearly 20 years ago, in 2007 , after…",
-      "publishedAt": "2026-11-09T06:40:00.000Z"
+      "title": "Around the Blogosphere This Week",
+      "url": "https://laurasmiscmusings.blogspot.com/2026/11/around-blogosphere-this-week_0825383722.html",
+      "summary": "Miscellaneous bits of news and fun stuff from around the Internet... ...The Warner Archive Collection has announced their December releases. Among the titles coming to Blu-ray in December: THE INFORM…",
+      "publishedAt": "2026-11-15T03:35:00.000Z"
     }
   },
   "https://stingysailor.com/": {
@@ -4091,8 +4091,8 @@
   },
   "https://www.tabletenniscoaching.com/blog": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
       "title": "November 9, 2026",
@@ -4174,8 +4174,8 @@
   },
   "https://amadeuspaulussen.com/blog": {
     "lastPublished": "2026-11-01",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
       "url": "https://amadeuspaulussen.com/blog/2026/some-thoughts-on-ai",
@@ -4286,8 +4286,8 @@
   },
   "https://www.themovieblog.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "success",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
       "title": "La Bola Negra Review: A Beautifully Moving and Ambitious Queer Epic",
@@ -4387,8 +4387,8 @@
   },
   "https://heatherburns.tech/blog/": {
     "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
       "title": "Oh sit down, oh sit down, oh sit down, sit down next to me",
@@ -4524,8 +4524,8 @@
   },
   "https://www.ianvisits.co.uk/articles/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
       "title": "Tickets Alert: Doctor Who returns to the big screen",
@@ -4536,8 +4536,8 @@
   },
   "https://trueadventureseeker.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://hometownstohollywood.com/": {
@@ -4734,8 +4734,8 @@
   },
   "https://www.timboucher.ca/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
       "title": "Comment on Moving from Vulnerable Users to Vulnerable States as an AI Research Frame by Tim B.",
@@ -4770,8 +4770,8 @@
   },
   "https://rarehistoricalphotos.com/": {
     "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
       "title": "Rare Photos Capture the Spirit of Woodstock in August 1969",
@@ -5031,8 +5031,8 @@
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {
       "title": "Comment on Diamond Princess Postcard #7 – Aomori, Japan by Solent Richard",
@@ -5103,8 +5103,8 @@
   },
   "https://bennevis.co.uk/blog/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
       "title": "Eight Cornishmen, an 82kg Log & the Film About Their Ben Nevis Climb",
@@ -5157,8 +5157,8 @@
   },
   "https://www.madornomad.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://flamingpablum.com/": {
@@ -5283,8 +5283,8 @@
   },
   "https://moviesoftheeighties.substack.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "success",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
       "url": "https://moviesoftheeighties.substack.com/p/hellhole-a-fetid-cesspool-made-to",
@@ -5531,14 +5531,13 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "lastPublished": "2026-11-15",
-    "lastChecked": "2026-11-15T01:44:28.961Z",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
-      "title": "Bob Layzell",
-      "url": "https://70sscifiart.tumblr.com/post/833308627171524608",
-      "summary": "Bob Layzell",
-      "publishedAt": "2026-11-15T01:10:35.000Z"
+      "url": "https://70sscifiart.tumblr.com/post/833317411634774016",
+      "summary": "lookcaitlin :",
+      "publishedAt": "2026-11-15T03:30:12.000Z"
     }
   },
   "https://mccookerybook.blogspot.com/": {
@@ -5567,8 +5566,8 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
       "title": "The “Africa Stone”: The Fossilized Urine Used to Make Perfume—and by Scientists to Understand the Climate of 50,000 Years Ago",
@@ -5614,8 +5613,8 @@
   },
   "https://paul.totterman.name/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
       "title": "Generic slog.LogValuer helper",
@@ -5704,8 +5703,8 @@
   },
   "https://jaysbrickblog.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
       "title": "Review: LEGO Marvel 76348 Epic Battle: Avengers Doomsday",
@@ -5728,8 +5727,8 @@
   },
   "https://blog.firestartoys.com/": {
     "lastPublished": "2026-10-27",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
       "title": "🎃 What Kind of Halloween Minifigure Are You?",
@@ -5780,8 +5779,8 @@
   },
   "https://hometechhacker.com/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
       "title": "How to Design a Smart Home Cinema That Works as One System",
@@ -6290,8 +6289,8 @@
   },
   "https://apiratelifefor.me/": {
     "lastPublished": "2026-09-05",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
       "title": "Reclamation at 43",
@@ -6367,8 +6366,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T02:44:30.418Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -6450,8 +6449,8 @@
   },
   "https://addtowantlist.com/": {
     "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
       "title": "New EP: Chicken Whitfield || Slow Down Barrence Whitfield and MFC Chicken are throwing a high-octane party",
@@ -6833,8 +6832,8 @@
   },
   "https://hexedhearth.net/": {
     "lastPublished": "2026-11-08",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
       "title": "The show From: a rant",
@@ -6953,8 +6952,8 @@
   },
   "https://mervi.art/blog": {
     "lastPublished": "2026-09-07",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
       "title": "Do not despair",
@@ -7192,8 +7191,8 @@
   },
   "https://karlwilcox.com/": {
     "lastPublished": "2026-11-09",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
       "title": "Secret Path",
@@ -7642,8 +7641,8 @@
   },
   "https://maisonkojira.com/insights/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unknown",
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://revenuecycleuncovered.blogspot.com/": {
@@ -7695,8 +7694,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T02:44:30.418Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7761,8 +7760,8 @@
   },
   "https://stamphacks.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
       "title": "Fun With Fonts",
@@ -7797,8 +7796,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T02:44:30.418Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -8370,8 +8369,8 @@
   },
   "https://mtlcityweblog.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
       "title": "Dieppe Park repairs coming – eventually",
@@ -8568,8 +8567,8 @@
   },
   "https://ukprepperhub.co.uk/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
       "title": "Daily UK Prepper News — 14 November 2026",
@@ -8651,8 +8650,8 @@
   },
   "https://theseconddisc.com/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://theseconddisc.com/feed/",
     "latestArticle": {
       "title": "The Weekend Stream: November 14, 2026",
@@ -8868,15 +8867,15 @@
     }
   },
   "https://mindfulchapters.com/": {
-    "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T03:44:27.350Z",
+    "lastPublished": "2026-11-15",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://mindfulchapters.com/feed/",
     "latestArticle": {
-      "title": "My Mind Needs a Bouncer: No Entry for Uninvited Worries. 😂",
-      "url": "https://mindfulchapters.com/2026/11/14/my-mind-needs-a-bouncer/",
-      "summary": "At 2:14 AM, my brain decided to host a party for anxiety, embarrassing memories and worst-case scenarios. That's when I realised my mind needed a bouncer! Resilience isn't about never having bad days…",
-      "publishedAt": "2026-11-14T02:49:02.000Z"
+      "title": "When Phones Were Dumb, My Brain Was a Supercomputer!",
+      "url": "https://mindfulchapters.com/2026/11/15/when-phones-were-dumb-my-brain-was-a-supercomputer/",
+      "summary": "I once remembered thirty phone numbers and navigated a city without Google Maps. Today, without my smartphone, I might need a search party to find myself.",
+      "publishedAt": "2026-11-15T03:30:46.000Z"
     }
   },
   "https://theloopylululog.blog/": {
@@ -9335,14 +9334,14 @@
   },
   "https://booksofbrilliance.com/": {
     "lastPublished": "2026-11-15",
-    "lastChecked": "2026-11-15T02:44:30.418Z",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "7 Heist Novels to Read If You’re Watching Apple TV’s 12 12 12",
-      "url": "https://booksofbrilliance.com/2026/11/14/heist-novels-like-apple-tv-12-12-12/?utm_source=rss&utm_medium=rss&utm_campaign=heist-novels-like-apple-tv-12-12-12",
-      "summary": "Seven heist novels for fans of Apple TV’s 12 12 12, from a nonlinear safecracker’s story to a Victorian gold robbery and a getaway driver’s last job. The post 7 Heist Novels to Read If You’re Watchin…",
-      "publishedAt": "2026-11-15T02:36:25.000Z"
+      "title": "Why the Governess Is the Scariest Person in Victorian Psycho",
+      "url": "https://booksofbrilliance.com/2026/11/14/victorian-psycho-governess-winifred-notty/?utm_source=rss&utm_medium=rss&utm_campaign=victorian-psycho-governess-winifred-notty",
+      "summary": "At Ensor House, the woman hired to look after the children has plans of her own. Virginia Feito makes Winifred Notty frightening by making her so good at reading the household. The post Why the Gover…",
+      "publishedAt": "2026-11-15T03:42:13.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9740,15 +9739,15 @@
     }
   },
   "https://griefgraceandafewruffledfeathers.wordpress.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T18:15:22.083Z",
+    "lastPublished": "2026-11-15",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://griefgraceandafewruffledfeathers.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Reality Outside Yahoo Chatrooms",
-      "url": "https://griefgraceandafewruffledfeathers.wordpress.com/2026/11/06/reality-outside-yahoo-chatrooms/",
-      "summary": "A story based on real life experiences, slightly twisted for privacy It is dark. I feel a chill come across me as my eyes rip open, gasping for air, my skin crawling and my hairs on end. My eyes dart…",
-      "publishedAt": "2026-11-06T01:23:36.000Z"
+      "title": "The Diorama of Decisions",
+      "url": "https://griefgraceandafewruffledfeathers.wordpress.com/2026/11/15/the-diorama-of-decisions/",
+      "summary": "There comes a time as you start to get older that really makes you question a lot of what you’ve been through. At least, for me, that’s the case. I feel like being in therapy, processing my life, goi…",
+      "publishedAt": "2026-11-15T03:37:02.000Z"
     }
   },
   "https://steverebus.com/": {
@@ -10207,8 +10206,8 @@
   },
   "https://artquiltmaker.com/blog/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
       "title": "Westside Quilters Show",
@@ -11358,15 +11357,15 @@
     }
   },
   "https://loveaftermidnight.com/": {
-    "lastPublished": "2026-11-13",
-    "lastChecked": "2026-11-13T17:44:36.109Z",
+    "lastPublished": "2026-11-15",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://loveaftermidnight.com/feed/",
     "latestArticle": {
-      "title": "Writing",
-      "url": "https://loveaftermidnight.com/2026/11/13/writing-2/",
-      "summary": "So I am writing episode 3 for Just A Little Switch and maybe episode 4 for Reborn: I Choose My Happiness this weekend in between doing laundry and cleaning… and being lazy lol it been a while since I…",
-      "publishedAt": "2026-11-13T16:54:27.000Z"
+      "title": "Heeyyy",
+      "url": "https://loveaftermidnight.com/2026/11/14/heeyyy/",
+      "summary": "I started writing at work but didnt finish. Gonna finish up tonight or maybe tomorrow and then post. I talked to my sister today lile usual and it really made my day. I needed a laugh, also I haven’t…",
+      "publishedAt": "2026-11-15T03:27:31.000Z"
     }
   },
   "https://justrojie.com/": {
@@ -11560,8 +11559,8 @@
   },
   "https://livenowherenow.com/en": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
       "title": "【学習ツール自作のすすめ】アプリ制作素人おじさんが英語学習アプリを自作してみたお話",
@@ -12021,14 +12020,14 @@
   },
   "https://10015.io/": {
     "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T06:44:32.192Z",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
     "status": "success",
     "feedUrl": "https://10015.io/tool-feed",
     "latestArticle": {
-      "title": "Apple Music Wrapped",
-      "url": "https://10015.io/tools/apple-music-wrapped",
-      "summary": "See your Apple Music Wrapped for 2026, any past year or all time: real minutes, top artists and songs, your loudest month and listening hour, as story cards. Free and private.",
-      "publishedAt": "2026-11-14T05:56:58.000Z"
+      "title": "Birth Chart Calculator",
+      "url": "https://10015.io/tools/birth-chart-calculator",
+      "summary": "Free birth chart calculator: your natal chart wheel with Sun, Moon and rising sign, planets in houses, aspects and a reading. Placidus, Whole Sign and more, tropical or Vedic sidereal.",
+      "publishedAt": "2026-11-14T18:54:46.000Z"
     }
   },
   "https://dev101.io/": {
@@ -12075,8 +12074,8 @@
   },
   "https://mervi.art/": {
     "lastPublished": "2026-09-07",
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "success",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
       "title": "Do not despair",
@@ -12258,8 +12257,8 @@
   },
   "https://uniqfox.me/": {
     "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-10T21:44:36.090Z",
-    "status": "success",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unavailable",
     "feedUrl": "https://uniqfox.me/zine/rss.php?kind=main",
     "latestArticle": {
       "title": "poetry ver 1.5",
@@ -12702,8 +12701,8 @@
   },
   "https://www.appplain.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-15T03:02:21.977Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-15T03:44:31.084Z",
+    "status": "unknown",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://love.you/": {

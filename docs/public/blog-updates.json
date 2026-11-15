@@ -304,13 +304,13 @@
   },
   "https://adarshg0.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-13",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://adarshg0.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Be focused",
-      "url": "https://adarshg0.wordpress.com/2026/11/13/be-focused/",
-      "summary": "How do you stay resilient in hard times? ​Staying resilient in hard times is an art built through experience, and tough times are what shape you into that person. When you aren’t afraid of failure, h…",
-      "publishedAt": "2026-11-13T18:38:17.000Z"
+      "title": "Cloudy Sunshine",
+      "url": "https://adarshg0.wordpress.com/2026/11/15/cloudy-sunshine/",
+      "summary": "The sunshine is not as it was before, as clouds are conquering the sunrays. Warmth is still there, yet coldness has risen above a certain level—much like love, which remains present even though emoti…",
+      "publishedAt": "2026-11-15T02:58:22.000Z"
     }
   },
   "https://addenda.ghost.io/": {
@@ -324,7 +324,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -460,7 +460,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -525,7 +525,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -613,7 +613,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -707,7 +707,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -971,7 +971,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1134,7 +1134,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1339,7 +1339,7 @@
     }
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -2200,7 +2200,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2284,7 +2284,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2495,7 +2495,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -2594,7 +2594,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -3108,7 +3108,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3181,7 +3181,7 @@
     "feedUrl": "https://glyphsift.com/favicon.svg"
   },
   "https://gnomadhome.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2023-12-19",
     "feedUrl": "https://gnomadhome.com/feed/",
     "latestArticle": {
@@ -3369,10 +3369,10 @@
     "lastPublished": "2026-11-15",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "DIVINER: Occult Synth Firmware for the Cardputer",
-      "url": "https://hackaday.com/2026/11/14/diviner-occult-synth-firmware-for-the-cardputer/",
-      "summary": "We see some strange software around these parts, but this is probably the strangest. DIVINER is a firmware for the M5 Cardputer, which is an interesting device in its own …read more",
-      "publishedAt": "2026-11-15T00:00:11.000Z"
+      "title": "RPN Loved Honk If (or, Write Your Own PostScript Interpreter)",
+      "url": "https://hackaday.com/2026/11/14/rpn-loved-honk-if-or-write-your-own-postscript-interpreter/",
+      "summary": "Maybe you like old laser printers. Maybe you were a fan of [Don Lancaster]. Maybe you like Forth, HP calculators, and everything RPN. Whichever it is, why not write your …read more",
+      "publishedAt": "2026-11-15T03:00:49.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3473,7 +3473,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3542,7 +3542,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3575,7 +3575,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -3691,7 +3691,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -3958,7 +3958,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -3980,7 +3980,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4046,7 +4046,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4277,7 +4277,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-02",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -4293,7 +4293,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -4772,7 +4772,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -4983,7 +4983,7 @@
     }
   },
   "https://maisonkojira.com/insights/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://makeupandbeautyblog.com/": {
@@ -5009,7 +5009,7 @@
     }
   },
   "https://mancityblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-12",
     "feedUrl": "https://mancityblog.com/feed/",
     "latestArticle": {
@@ -5212,7 +5212,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5223,7 +5223,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5483,7 +5483,7 @@
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
@@ -5536,7 +5536,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -6115,7 +6115,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -6526,10 +6526,10 @@
     "lastPublished": "2026-11-15",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "The Trail of Deceit",
-      "url": "https://pulpcovers.com/the-trail-of-deceit/",
-      "summary": "This entire issue can be downloaded here",
-      "publishedAt": "2026-11-15T00:02:57.000Z"
+      "title": "The Puzzle Planet",
+      "url": "https://pulpcovers.com/the-puzzle-planet/",
+      "summary": "Was Death Just a Practical Joke Here? This entire book can be downloaded here via",
+      "publishedAt": "2026-11-15T02:56:49.000Z"
     }
   },
   "https://pumpkinrot.blogspot.com/": {
@@ -6643,7 +6643,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -7664,7 +7664,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -7682,7 +7682,7 @@
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://stephenbodio.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -8554,7 +8554,7 @@
     }
   },
   "https://theseconddisc.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://theseconddisc.com/feed/",
     "latestArticle": {
@@ -8768,7 +8768,7 @@
     }
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -8834,7 +8834,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -8937,7 +8937,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -8967,7 +8967,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -9376,7 +9376,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -9466,7 +9466,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -10031,7 +10031,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -10154,7 +10154,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -10212,17 +10212,17 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
     "status": "success",
-    "lastPublished": "2026-11-14",
+    "lastPublished": "2026-11-15",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/14/epilogue-for-ios-and-android.html",
-      "summary": "Epilogue for iOS and Android has been updated with a new Libby interface. It’s easier to connect to Libby and have Micro.blog sync your library loans and holds to bookshelves.",
-      "publishedAt": "2026-11-14T22:06:02.000Z"
+      "url": "https://www.manton.org/2026/11/14/there-sure-are-a-lot.html",
+      "summary": "There sure are a lot of interceptions in this UT / LSU game. So many mistakes, feels like it shouldn’t be a close 4-point game right now. 🏈",
+      "publishedAt": "2026-11-15T02:59:18.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -10273,7 +10273,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -10306,9 +10306,9 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-01",
-    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
+    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -10354,7 +10354,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -10547,7 +10547,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -10740,7 +10740,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -10786,7 +10786,7 @@
     }
   },
   "https://www.thebrokebackpacker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.thebrokebackpacker.com/"
   },
   "https://www.thebugout.co.uk/blog": {
@@ -10918,7 +10918,7 @@
     }
   },
   "https://www.themovieblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.themovieblog.com/feed/",
     "latestArticle": {
@@ -10984,7 +10984,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -11088,7 +11088,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-13",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {

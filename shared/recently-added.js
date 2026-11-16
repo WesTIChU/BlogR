@@ -95,10 +95,10 @@ function additionTimestamp(blog, now = new Date()) {
   return dateOnly ? dateOnly.getTime() : Number.NEGATIVE_INFINITY
 }
 
-export function compareRecentlyAddedBlogs(a, b) {
+export function compareRecentlyAddedBlogs(a, b, now = new Date()) {
   // Array#sort is stable. Preserve the input order when timestamps are equal,
   // since batches of approvals can legitimately share the same addedAt value.
-  return additionTimestamp(b) - additionTimestamp(a)
+  return additionTimestamp(b, now) - additionTimestamp(a, now)
 }
 
 export function getRecentlyAddedBlogs(blogs, now = new Date()) {
@@ -107,7 +107,7 @@ export function getRecentlyAddedBlogs(blogs, now = new Date()) {
       const age = ageInLondonDays(blog.addedDate, now)
       return age !== null && age >= 0 && age <= RECENTLY_ADDED_MAX_AGE_DAYS
     })
-    .sort((a, b) => additionTimestamp(b, now) - additionTimestamp(a, now))
+    .sort((a, b) => compareRecentlyAddedBlogs(a, b, now))
 }
 
 function groupKeyForAge(age) {
@@ -137,9 +137,7 @@ export function getRecentlyAddedGroups(blogs, now = new Date()) {
     })
 
   for (const group of grouped.values()) {
-    group.blogs.sort(
-      (a, b) => additionTimestamp(b, now) - additionTimestamp(a, now)
-    )
+    group.blogs.sort((a, b) => compareRecentlyAddedBlogs(a, b, now))
   }
 
   return RECENTLY_ADDED_GROUPS.map(({ key }) => grouped.get(key)).filter(

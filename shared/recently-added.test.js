@@ -84,6 +84,34 @@ test('sorts same-day additions by precise addedAt time and remains deterministic
   assert.deepEqual(second, first)
 })
 
+test('keeps catalogue order when same-day timestamps are not precise', () => {
+  const entries = [
+    {
+      name: 'First catalogue entry',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T12:00:00.000Z'
+    },
+    {
+      name: 'Later catalogue entry',
+      addedDate: '2026-03-31',
+      addedAt: '2026-03-31T12:00:00.000Z'
+    },
+    {
+      name: 'Date-only catalogue entry',
+      addedDate: '2026-03-31'
+    }
+  ]
+
+  assert.deepEqual(
+    getRecentlyAddedGroups(entries, now)[0].blogs.map(({ name }) => name),
+    [
+      'First catalogue entry',
+      'Later catalogue entry',
+      'Date-only catalogue entry'
+    ]
+  )
+})
+
 test('does not let future timestamps outrank current additions', () => {
   const blogs = [
     {

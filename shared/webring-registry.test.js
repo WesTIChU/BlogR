@@ -323,3 +323,31 @@ test('synchronises active, retired, and restored memberships separately', async 
   assert.equal(batches[0].length, 2)
   assert.match(batches[1][0].sql, /membership_status = 'retired'/)
 })
+
+test('retires large numbers of removed memberships without exceeding SQL variable limits', async () => {
+  const batches = []
+  const db = {
+    query: async (sql) =>
+      sql.includes('SELECT')
+        ? Array.from({ length: 1001 }, (_, index) => ({
+            webring_id: id(`removed-${index}`),
+            canonical_url: `https://removed-${index}.example/`
+          }))
+        : [],
+    async batch(statements) {
+      batches.push(statements)
+    }
+  }
+
+  await synchroniseWebringMembers(db, [[]], '2026-01-01T00:00:00Z')
+
+  assert.deepEqual(
+    batches.map((batch) => batch.length),
+    [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1]
+  )
+  assert.match(batches[0][0].sql, /WHERE webring_id = \?/)
+  assert.deepEqual(batches[0][0].params, [
+    '2026-01-01T00:00:00Z',
+    id('removed-0')
+  ])
+})

@@ -197,27 +197,25 @@ export const synchroniseWebringMembers = async (
             .slice(index, index + 100)
             .map((item) => db.query(item.sql, item.params))
         ))
-  const ids = [...current.byId.keys()]
-  if (rows.some((row) => !current.byId.has(row.webring_id))) {
-    const placeholders = ids.map(() => '?').join(', ')
-    const params = [now, ...ids]
+  const retired = rows
+    .filter((row) => !current.byId.has(row.webring_id))
+    .map((row) =>
+      statement(
+        db,
+        `UPDATE webring_members
+         SET membership_status = 'retired', updated_at = ?
+         WHERE webring_id = ? AND membership_status != 'retired'`,
+        [now, row.webring_id]
+      )
+    )
+  for (let index = 0; index < retired.length; index += 100)
     await (db.batch
-      ? db.batch([
-          statement(
-            db,
-            `UPDATE webring_members
-             SET membership_status = 'retired', updated_at = ?
-             WHERE webring_id NOT IN (${placeholders})`,
-            params
-          )
-        ])
-      : db.query(
-          `UPDATE webring_members
-           SET membership_status = 'retired', updated_at = ?
-           WHERE webring_id NOT IN (${placeholders})`,
-          params
+      ? db.batch(retired.slice(index, index + 100))
+      : Promise.all(
+          retired
+            .slice(index, index + 100)
+            .map((item) => db.query(item.sql, item.params))
         ))
-  }
   return { synchronised: current.byId.size }
 }
 

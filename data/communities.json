@@ -769,5 +769,38 @@
     "addedAt": "2026-11-04T11:00:00.000Z",
     "clicks": 19,
     "webringId": "br-fe3562c0a222716c2b6f63c552534eb9"
+  },
+  {
+    "id": "mansionnet",
+    "name": "MansionNET",
+    "url": "https://inthemansion.com/",
+    "description": "A self-hosted online community focused on privacy and friendly conversation, with an IRC network, forum, Git instance, radio station and private search.",
+    "section": "independent-communities",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-11-16",
+    "category": "technology",
+    "addedAt": "2026-11-16T14:00:23.000Z",
+    "clicks": 0,
+    "webringId": "br-3cd3249835cb532d0d95a8c60f50a992"
+  },
+  {
+    "id": "badminton-soldiers",
+    "name": "Badminton Soldiers",
+    "url": "https://badmintonsoldiers.club/th/",
+    "description": "A West London badminton community helping players find weekly sessions in Wembley and Ealing, compare venues and learn how to join.",
+    "section": "independent-communities",
+    "topics": [],
+    "recentlyAdded": true,
+    "favourite": false,
+    "noLongerUpdated": false,
+    "addedDate": "2026-11-16",
+    "category": "lifestyle-and-interests",
+    "addedAt": "2026-11-16T14:00:24.000Z",
+    "clicks": 0,
+    "country": "GB",
+    "webringId": "br-ba9a3d20e964c41d30d54d4319221d68"
   }
 ]

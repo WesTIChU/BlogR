@@ -55,13 +55,13 @@
   },
   "http://www.cherryandspoon.com/": {
     "status": "success",
-    "lastPublished": "2026-11-15",
+    "lastPublished": "2026-11-16",
     "feedUrl": "http://www.cherryandspoon.com/feeds/posts/default",
     "latestArticle": {
-      "title": "\"Urinetown\" at Zeitgeist Theater",
-      "url": "http://www.cherryandspoon.com/2026/11/urinetown-at-zeitgeist-theater.html",
-      "summary": "When a scrappy little theater in your favorite Minnesota city does one of your favorite musicals over your birthday weekend, it's a perfect excuse for a Minnesota theater vacay! The theater is Zeitge…",
-      "publishedAt": "2026-11-15T22:52:50.602Z"
+      "title": "\"A Christmas Carol\" at the Guthrie Theater",
+      "url": "http://www.cherryandspoon.com/2026/11/a-christmas-carol-at-guthrie-theater.html",
+      "summary": "The Guthrie has been doing A Christmas Carol for over 50 years now, and as a 22-year season subscriber, I saw it for the 20th time yesterday. Yes, I missed two years (it's not actually a part of the …",
+      "publishedAt": "2026-11-16T23:48:15.523Z"
     }
   },
   "http://www.galactichunter.com/GH/": {
@@ -211,7 +211,7 @@
     }
   },
   "https://70sscifiart.tumblr.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
@@ -322,7 +322,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -444,7 +444,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -469,7 +469,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -534,7 +534,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -557,13 +557,13 @@
   },
   "https://andysworldjourneys.com/": {
     "status": "success",
-    "lastPublished": "2026-11-15",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://andysworldjourneys.com/feed/",
     "latestArticle": {
-      "title": "Searching for the ‘Source of the Nile’ in Jinja, Uganda",
-      "url": "https://andysworldjourneys.com/2026/11/15/searching-for-the-source-of-the-nile-in-jinja-uganda/",
-      "summary": "Howdy folks. Today a short recall for you of a day trip I took from Kampala in Uganda to a nearby town called Jinja. Hope today’s blog finds you well. Yes, I have been recalling last year’s incredibl…",
-      "publishedAt": "2026-11-15T00:00:00.000Z"
+      "title": "Staying OPPOSITE Johannesburg Airport! | Protea Hotel by Marriott OR Tambo Transit Review",
+      "url": "https://andysworldjourneys.com/2026/11/17/staying-opposite-johannesburg-airport-protea-hotel-by-marriott-or-tambo-transit-review/",
+      "summary": "The review focuses on the Protea Hotel by Marriott at OR Tambo International Airport in Johannesburg. The author shares their positive experience, highlighting reasonable prices, comfortable rooms, g…",
+      "publishedAt": "2026-11-17T00:15:00.000Z"
     }
   },
   "https://andywightman.scot/": {
@@ -622,7 +622,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -695,13 +695,13 @@
   },
   "https://artlung.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://artlung.com/feed/",
     "latestArticle": {
-      "title": "Scripps and mismatched fins and big waves",
-      "url": "https://artlung.com/blog/2026/11/15/mismatched-big-scripps/",
-      "summary": "Sign my Guestbook | Contact Me",
-      "publishedAt": "2026-11-16T03:20:52.000Z"
+      "title": "Disappointing email of the day",
+      "url": "https://artlung.com/blog/2026/11/16/disappointing-email-of-the-day/",
+      "summary": "Your ArtLung page mentions both creative coding and collecting toy robots. I thought a robot combining physical craftsmanship and AI conversation might be of personal interest. So close, and not wron…",
+      "publishedAt": "2026-11-17T00:24:49.000Z"
     }
   },
   "https://artofmemory.com/blog/": {
@@ -716,7 +716,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -895,13 +895,13 @@
   },
   "https://banbantonton.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://banbantonton.com/feed/",
     "latestArticle": {
-      "title": "Yuka Mizuhara / Moon Dust / Rush Hour",
-      "url": "https://banbantonton.com/2026/11/16/yuka-mizuhara-moon-dust-rush-hour/",
-      "summary": "This release was a bit of a revelation. Having caught a look at the artwork, and knowing the west’s fascination with unearthing groovy Japanese obscurities, I figured that this was an old tune, dug u…",
-      "publishedAt": "2026-11-16T00:01:00.000Z"
+      "title": "A Man Called Adam / Barefoot In The Head",
+      "url": "https://banbantonton.com/2026/11/17/a-man-called-adam-barefoot-in-the-head/",
+      "summary": "There’s no denying that this was an anthem. It wasn’t a banger, but more a group introspective moment. Music perfect for the sigh that followed the peak of an Ecstasy rush. That moment when you might…",
+      "publishedAt": "2026-11-17T00:01:00.000Z"
     }
   },
   "https://bartwronski.com/": {
@@ -980,7 +980,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1158,7 +1158,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1342,13 +1342,13 @@
   },
   "https://booksofbrilliance.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "Why Does Jacob Marley Wear Chains in A Christmas Carol?",
-      "url": "https://booksofbrilliance.com/2026/11/16/why-jacob-marley-wears-chains/?utm_source=rss&utm_medium=rss&utm_campaign=why-jacob-marley-wears-chains",
-      "summary": "Marley’s ghost drags cashboxes, ledgers and padlocks into Scrooge’s room. Here’s why Dickens puts the tools of their trade on his chain and what Scrooge learns from it. The post Why Does Jacob Marley…",
-      "publishedAt": "2026-11-16T18:00:00.000Z"
+      "title": "Soulsmith Recap: How Eithan Changes Lindon’s Path Before Blackflame",
+      "url": "https://booksofbrilliance.com/2026/11/16/soulsmith-recap/?utm_source=rss&utm_medium=rss&utm_campaign=soulsmith-recap",
+      "summary": "FieldCopyWordPress titleSoulsmith Recap: How Eithan Changes Lindon’s Path Before BlackflameSEO titleSoulsmith Recap: What to Remember Before BlackflameMeta descriptionRefresh your memory before Black…",
+      "publishedAt": "2026-11-17T00:13:00.000Z"
     }
   },
   "https://brainbaking.com/": {
@@ -1366,7 +1366,7 @@
     "status": "unavailable"
   },
   "https://brendandawes.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1645,7 +1645,7 @@
     }
   },
   "https://casdinteret.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://casdinteret.com/feed/",
     "latestArticle": {
@@ -2251,17 +2251,17 @@
   },
   "https://cryptonews.mobile/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "German Bundestag passes bill allowing crypto freezes without a criminal case",
-      "url": "https://cryptonews.mobile/brief/german-bundestag-passes-bill-allowing-crypto-freezes-without-a-criminal-case",
-      "summary": "The German Bundestag passed a customs reform bill that would let authorities freeze cryptocurrency and other assets worth more than €100,000 without first opening a criminal case. Customs could hold …",
-      "publishedAt": "2026-11-16T23:00:27.000Z"
+      "title": "Hong Kong plans year-end bill to license crypto dealers and custodians",
+      "url": "https://cryptonews.mobile/brief/hong-kong-plans-year-end-bill-to-license-crypto-dealers-and-custodians",
+      "summary": "Hong Kong plans to introduce a bill by the end of 2026 to extend its crypto licensing regime to dealers, advisers, asset managers and custodians. The bill would amend the Anti-Money Laundering and Co…",
+      "publishedAt": "2026-11-17T00:13:43.000Z"
     }
   },
   "https://css-tricks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2316,13 +2316,13 @@
   },
   "https://danielbowen.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://danielbowen.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Level crossing removals: 2026 update by Andrew",
-      "url": "https://danielbowen.com/2026/11/17/level-crossing-removals-2026-update/#comment-423909",
-      "summary": "I note you don't comment on the geographic spread of removals. It's notable that the Sandringham line has not had one level crossing removed. And it's notorious that Glenferrie Rd, Kooyong, wasn't re…",
-      "publishedAt": "2026-11-16T22:47:45.000Z"
+      "title": "Comment on PT election pledges by indigohex3",
+      "url": "https://danielbowen.com/2026/11/14/pt-election-pledges/#comment-423913",
+      "summary": "@kca, Brimbank (which is my local government area) is Metro, although some areas are serviced by V/Line (Ardeer, Deer Park, plus further out to Melton). For the Sunbury line, it is 10 minute frequenc…",
+      "publishedAt": "2026-11-17T00:23:02.000Z"
     }
   },
   "https://danq.me/": {
@@ -2366,7 +2366,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2577,7 +2577,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -2676,7 +2676,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-22",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -2688,13 +2688,13 @@
   },
   "https://dysonlogos.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-12",
+    "lastPublished": "2026-11-16",
     "feedUrl": "https://dysonlogos.blog/feed/",
     "latestArticle": {
-      "title": "The Depths of Nalgorath – Map 3",
-      "url": "https://dysonlogos.blog/2026/11/12/the-depths-of-nalgorath-map-3/",
+      "title": "The Depths of Nalgorath – Map 4",
+      "url": "https://dysonlogos.blog/2026/11/16/the-depths-of-nalgorath-map-4/",
       "summary": "Beneath Coruvon are some sewers (necessary to keep the swamp from overwhelming the city), and among those sewers is this … Continue reading →",
-      "publishedAt": "2026-11-12T16:35:55.000Z"
+      "publishedAt": "2026-11-16T23:48:20.000Z"
     }
   },
   "https://eastofelveden.com/": {
@@ -2770,7 +2770,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3227,7 +3227,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3248,7 +3248,7 @@
     }
   },
   "https://gifcities.org/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://girlsangle.wordpress.com/": {
@@ -3485,13 +3485,13 @@
   },
   "https://hackaday.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Binocular Chair Lets You Stargaze in Comfort",
-      "url": "https://hackaday.com/2026/11/16/binocular-chair-lets-you-stargaze-in-comfort/",
-      "summary": "Telescopes are great, but sometimes binoculars are the right tool for stargazing. Holding them in front of your face for a long night of observation can get onerous though, so …read more",
-      "publishedAt": "2026-11-16T21:00:55.000Z"
+      "title": "Can’t Get the Right Cassette Mechanism? Have a Go at Making Your Own!",
+      "url": "https://hackaday.com/2026/11/16/cant-get-the-right-cassette-mechanism-have-a-go-at-making-your-own/",
+      "summary": "In the world of cassette tape enthusiasts, it’s an oft-repeated factoid that there is only one tape deck mechanism still being manufactured. The truth may be a tiny bit murky …read more",
+      "publishedAt": "2026-11-17T00:00:27.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3613,7 +3613,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3682,7 +3682,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3715,7 +3715,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -3788,13 +3788,13 @@
   },
   "https://humanizingthevacuum.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Ranking #60 singles, U.S. edition: 1997-2006",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/11/16/ranking-60-singles-u-s-edition-1997-2006/",
-      "summary": "Living in Miami in the 1990s meant in part being aware of Ricky Martin. I saw the video for his World Cup anthem in summer 1998, about nine months before “The Cup of Life” wowed easily wowed industry…",
-      "publishedAt": "2026-11-16T01:55:19.000Z"
+      "title": "Ranking #62 singles, U.S. edition: 1967-1969",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/11/16/ranking-62-singles-u-s-edition-1967-1969-2/",
+      "summary": "Betraying more than a little of its debt to “Let It Be,” the George Harrison-produced “That’s The Way God Planned It” proves Billy Preston was beloved by his British pals. Ginger Baker sits on the dr…",
+      "publishedAt": "2026-11-17T00:22:30.000Z"
     }
   },
   "https://humbledollar.com/": {
@@ -3831,7 +3831,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -4120,7 +4120,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -4142,7 +4142,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4209,17 +4209,17 @@
   },
   "https://jobinterviewat.com/overtime-calculator/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://jobinterviewat.com/feed/",
     "latestArticle": {
-      "title": "AI Contract Generator for Real Estate: 6 Tools for Small Brokerages",
-      "url": "https://jobinterviewat.com/ai-contract-generator-for-real-estate/",
-      "summary": "A tenant wants a pet addendum, the landlord wants a 14-month term, and the guarantor lives in another state. At a small brokerage, each of those details means reopening the... The post AI Contract Ge…",
-      "publishedAt": "2026-11-16T13:21:59.000Z"
+      "title": "Home Depot Employee Discount: What Associates Get Instead",
+      "url": "https://jobinterviewat.com/home-depot-employee-discount/",
+      "summary": "There’s no Home Depot employee discount on store merchandise, at least not one the company lists. Its careers benefits page names a 15% discount on company stock, partner discounts on... The post Hom…",
+      "publishedAt": "2026-11-17T00:30:00.000Z"
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4461,7 +4461,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -4477,7 +4477,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -4994,7 +4994,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -5445,7 +5445,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5456,7 +5456,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5752,7 +5752,7 @@
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
@@ -5805,7 +5805,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -6434,7 +6434,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -6446,13 +6446,13 @@
   },
   "https://paulfloreswriter.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://paulfloreswriter.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The Monte Reyes Standard: What Porterville’s Most Boundary-Blurring Public Servant Would Say About the Chamber War",
-      "url": "https://paulfloreswriter.wordpress.com/2026/11/15/the-monte-reyes-standard-what-portervilles-most-boundary-blurring-public-servant-would-say-about-the-chamber-war/",
-      "summary": "A thought experiment in civic grace—and a measuring stick for the 2026 controversy Monte Reyes did the thing everyone is now fighting about. In 2017, while serving as a sitting Porterville City Counc…",
-      "publishedAt": "2026-11-16T05:33:33.000Z"
+      "title": "What Porterville Missed: The 2026 Legislative Session, Measured From Outside the Room",
+      "url": "https://paulfloreswriter.wordpress.com/2026/11/16/what-porterville-missed-the-2026-legislative-session-measured-from-outside-the-room/",
+      "summary": "Core Finding: Porterville withdrew from CalCities in October 2025. The 2026 legislative session—the first full session conducted entirely after Porterville’s departure—produced a documented list of o…",
+      "publishedAt": "2026-11-17T00:37:26.000Z"
     }
   },
   "https://paulgraham.com/articles.html": {
@@ -6606,13 +6606,13 @@
   },
   "https://picturethis203532735.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-15",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://picturethis203532735.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The Full Irish – Mind Your Head",
-      "url": "https://picturethis203532735.wordpress.com/2026/11/15/the-full-irish-mind-your-head/",
-      "summary": "All photos taken on September 22, 2026. So, you know where this post is going right? More on this later. Anyhoo, after our walk down the hill and our silent boat ride through the blackness of this va…",
-      "publishedAt": "2026-11-15T23:44:00.000Z"
+      "title": "The Full Irish – Splashdown",
+      "url": "https://picturethis203532735.wordpress.com/2026/11/16/the-full-irish-splashdown/",
+      "summary": "All photos taken on September 22, 2026. From Marble Arch Caves in Northern Ireland, it was a short trip back into the Republic of Ireland, as we crossed the border into County Leitrim near Glenfarne.…",
+      "publishedAt": "2026-11-17T00:27:00.000Z"
     }
   },
   "https://pilledtexts.com/": {
@@ -6737,13 +6737,13 @@
   },
   "https://pohortai.com.ua/": {
     "status": "success",
-    "lastPublished": "2026-11-15",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://pohortai.com.ua/feed/",
     "latestArticle": {
-      "title": "Торт «Молочна дівчинка»: коржі на згущеному молоці й крем із крем-сиром",
-      "url": "https://pohortai.com.ua/statti/tort-molochna-divchynka-korzhi-na-zhushtenomu-molotsi-y-krem-iz-krem-syrom/",
-      "summary": "Рецепт торта «Молочна дівчинка» від блогерки Лесі Городиської: склад коржів, крему й конфітюру та кроки приготування.",
-      "publishedAt": "2026-11-15T18:50:08.000Z"
+      "title": "Лист до Миколая для дошкільнят може бути малюнком мішка з іграшками",
+      "url": "https://pohortai.com.ua/statti/lyst-do-mykolaya-dlya-doshkilynyat-mozhe-buty-malyunkom-mishka-z-ihrashkamy/",
+      "summary": "Шаблони листів до Святого Миколая для дошкільнят і школярів: мішок для малюнка та конверт з наліпкою «Секретно».",
+      "publishedAt": "2026-11-17T00:20:16.000Z"
     }
   },
   "https://pointersandhooksyt.wordpress.com/": {
@@ -6797,7 +6797,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6846,13 +6846,13 @@
   },
   "https://projectswordtoys.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Something Fishy This Way Comes",
-      "url": "https://projectswordtoys.blogspot.com/2026/11/something-fishy-this-way-comes.html",
-      "summary": "It’s hard for me to comprehend that next year will mark the 50th anniversary of Star Wars. Back in 1977, the original film was expected to crash and burn, but today the franchise is collossal with ni…",
-      "publishedAt": "2026-11-16T20:30:51.515Z"
+      "title": "Aurora Monster Notes - Aurora Monsters Year by Year 🧌",
+      "url": "https://projectswordtoys.blogspot.com/2026/11/aurora-monster-notes-aurora-monsters.html",
+      "summary": "Aurora Monster Notes – The Monster Kits 1962-75 Aurora introduced their first classic movie Monster kit in 1962, and the last new kit in 1975. Some of the Monsters would last until the very end of Au…",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -6999,7 +6999,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -7141,13 +7141,13 @@
   },
   "https://repairmeyourself.com/appliance-age-calculator/": {
     "status": "success",
-    "lastPublished": "2026-11-15",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://repairmeyourself.com/feed/",
     "latestArticle": {
-      "title": "How to Reset GE Dishwasher Controls: Pad First, Then Breaker",
-      "url": "https://repairmeyourself.com/how-to-reset-ge-dishwasher/",
-      "summary": "Here’s how to reset GE dishwasher controls: press the Start/Reset pad and wait two minutes. If the panel still acts up, turn the breaker… The post How to Reset GE Dishwasher Controls: Pad First, Then…",
-      "publishedAt": "2026-11-15T00:00:00.000Z"
+      "title": "Furnace Warning Signs: Safe Checks for Ontario Homes",
+      "url": "https://repairmeyourself.com/furnace-warning-signs/",
+      "summary": "Furnace warning signs are changes in run time, heat, sound, smell, or energy use that show up before a system fails. A furnace that… The post Furnace Warning Signs: Safe Checks for Ontario Homes appe…",
+      "publishedAt": "2026-11-17T00:14:12.000Z"
     }
   },
   "https://replicate.com/blog": {
@@ -7753,13 +7753,13 @@
   },
   "https://sevensisterslove.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://sevensisterslove.com/feed/",
     "latestArticle": {
-      "title": "When I look at it again",
-      "url": "https://sevensisterslove.com/2026/11/16/when-i-look-at-it-again/",
-      "summary": "Saturday around sunset, Mama wanted to go to church to clean up, but I stopped her. I promised her that I’d be early cleaning there Sunday morning. Even on weekends, I wake up at 4, and since Mama wa…",
-      "publishedAt": "2026-11-16T00:12:44.000Z"
+      "title": "Always remotely",
+      "url": "https://sevensisterslove.com/2026/11/17/always-remotely/",
+      "summary": "Would you rather work from an office or remotely? Ever since I knew my strengths and weaknesses, I wanted to work remotely. For years, I helped my sister’s small business, so I stayed in our village.…",
+      "publishedAt": "2026-11-17T00:18:53.000Z"
     }
   },
   "https://shapeof.com/": {
@@ -7900,13 +7900,13 @@
   },
   "https://simonwillison.net/": {
     "status": "success",
-    "lastPublished": "2026-11-15",
+    "lastPublished": "2026-11-16",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "datasette-maplibre 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
-      "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operate…",
-      "publishedAt": "2026-11-15T23:58:36.000Z"
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix th…",
+      "publishedAt": "2026-11-16T23:57:26.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -8116,7 +8116,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -8130,7 +8130,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8145,7 +8145,7 @@
     }
   },
   "https://stephenbodio.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -9225,7 +9225,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9271,7 +9271,7 @@
     "status": "unavailable"
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -9337,7 +9337,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -9450,7 +9450,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -9480,7 +9480,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -9583,13 +9583,13 @@
   },
   "https://vhistory.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://vhistory.wordpress.com/feed/",
     "latestArticle": {
-      "title": "What’s New Scooby-Doo? – 15 Dec 2010",
-      "url": "https://vhistory.wordpress.com/2026/11/16/whats-new-scooby-doo-15-dec-2010/",
-      "summary": "Today’s recording starts with the end of Horrible Histories. Then it’s What’s New Scooby-Doo? – The Fast and the Wormious. A sandworm is disrupting the Enduro-Slam 5000. Naturally the Scooby Gang are…",
-      "publishedAt": "2026-11-16T00:00:00.000Z"
+      "title": "The Beauty of Diagrams – 16 Dec 2010",
+      "url": "https://vhistory.wordpress.com/2026/11/17/the-beauty-of-diagrams-16-dec-2010/",
+      "summary": "The first recording today starts with the end of Come Clog Dancing. There’s a trail for Soul Noel. A trail for The Other Boleyn Girl. And a trail for Dirk Gently. Then it’s another episode of The Bea…",
+      "publishedAt": "2026-11-17T00:00:00.000Z"
     }
   },
   "https://victormulder.com/": {
@@ -9939,7 +9939,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -10029,7 +10029,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -10365,10 +10365,10 @@
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "New Disney World Christmas Movie Streams on Disney+ Day After Hallmark Channel Debut",
-      "url": "https://www.disneytouristblog.com/new-disney-world-christmas-movie-streams-on-disney-day-after-hallmark-channel-debut/",
-      "summary": "“Holiday Ever After: A Disney World Wish Come True,” the first-ever Christmas movie shot at Walt Disney World will come to Disney+ and Hulu the day after it airs on Hallmark Channel. Here’s the lates…",
-      "publishedAt": "2026-11-16T21:21:22.000Z"
+      "title": "Jollywood Nights is Now More Fun Than Mickey’s Very Merry Christmas Party, But Not Better",
+      "url": "https://www.disneytouristblog.com/jollywood-nights-beats-mickeys-very-merry-christmas-party-review/",
+      "summary": "On paper, Jollywood Nights is not as good as Mickey’s Very Merry Christmas Party. It is Walt Disney World’s holiday counterprogramming to the marquee Magic Kingdom event, which is the nostalgic fan-f…",
+      "publishedAt": "2026-11-16T23:12:25.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -10451,9 +10451,9 @@
     "feedUrl": "https://www.fromjason.xyz/feed/feed.xml"
   },
   "https://www.fromthemurkydepths.co.uk/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-16",
-    "feedUrl": "https://www.fromthemurkydepths.co.uk/xmlrpc.php?rsd",
+    "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
       "title": "Another Bexley borough micropub to open near Albany Park station",
       "url": "https://www.fromthemurkydepths.co.uk/2026/11/16/another-bexley-borough-micropub-to-open-near-albany-park-station/",
@@ -10594,7 +10594,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -10627,13 +10627,13 @@
   },
   "https://www.ispreview.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "VodafoneThree UK and Google expand RCS messaging to non-Android devices",
-      "url": "https://www.ispreview.co.uk/index.php/2026/11/vodafonethree-uk-and-google-expand-rcs-messaging-to-non-android-devices.html",
-      "summary": "Mobile operator VodafoneThree (Vodafone and Three UK) last week signed a new wholesale agreement with Google to expand Rich Communication Services (RCS) to non-Android devices (e.g. iOS / iPhones) on…",
-      "publishedAt": "2026-11-16T16:54:56.000Z"
+      "title": "Broadband ISP Plusnet confirm email service to close permanently in Jan 2027",
+      "url": "https://www.ispreview.co.uk/index.php/2026/11/broadband-isp-plusnet-confirm-email-service-to-close-permanently-in-jan-2027.html",
+      "summary": "Internet service provider Plusnet ( BT ) has confirmed to ISPreview that, after migrating most of their customers away to a third-party email service over the past couple of years, they are now start…",
+      "publishedAt": "2026-11-17T00:01:22.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -10717,7 +10717,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -10775,7 +10775,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -10836,7 +10836,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -10860,7 +10860,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -10869,9 +10869,9 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-01",
-    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
+    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -10917,7 +10917,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -10964,7 +10964,7 @@
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Discord’s Linux app improved a lot this year",
+      "title": "Discord’s Linux app sure did improve a lot this year",
       "url": "https://www.omgubuntu.co.uk/2026/11/discord-linux-app-wayland-updates",
       "summary": "Discord recently shared a potted roundup of improvements made to its Linux app this year, including smarter updating, better screen sharing on Wayland and working push-to-talk. Their Discord <3 Linux…",
       "publishedAt": "2026-11-16T23:44:18.000Z"
@@ -11111,7 +11111,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -11261,13 +11261,13 @@
   },
   "https://www.spookylittlehalloween.com/blog": {
     "status": "success",
-    "lastPublished": "2026-11-03",
+    "lastPublished": "2026-11-16",
     "feedUrl": "https://www.spookylittlehalloween.com/blog?format=rss",
     "latestArticle": {
-      "title": "10 Ways to Keep Your Halloween Spirit Alive All Year",
-      "url": "https://www.spookylittlehalloween.com/blog/keep-halloween-spirit-alive",
-      "summary": "Halloween doesn’t have to end on October 31st! From subtle home decor and wardrobe touches to haunted adventures and horror movie nights, here are 10 fun ways to keep the spooky spirit alive all year…",
-      "publishedAt": "2026-11-03T15:40:00.000Z"
+      "title": "How to Celebrate Krampusnacht",
+      "url": "https://www.spookylittlehalloween.com/blog/how-to-celebrate-krampusnacht",
+      "summary": "Krampusnacht (December 5) falls on Saturday this year. Here’s who Krampus is, the Alpine traditions worth borrowing, and how to celebrate at home, at a party, or at a Krampus run near you",
+      "publishedAt": "2026-11-16T23:28:09.000Z"
     }
   },
   "https://www.stuckinabook.com/": {
@@ -11304,7 +11304,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -11482,7 +11482,7 @@
     }
   },
   "https://www.themovieblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2022-11-17",
     "feedUrl": "https://www.themovieblog.com/comments/feed/",
     "latestArticle": {
@@ -11558,7 +11558,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -11662,7 +11662,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {
@@ -11674,13 +11674,13 @@
   },
   "https://www.web-goddess.org/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "Longitude",
-      "url": "https://www.web-goddess.org/archive/95798",
-      "summary": "Earlier this year I was telling Rodd’s Dad how I’d been enjoying the Aubrey-Maturin books, and that I’d been watching YouTube videos to learn more about the Age of Sail. He immediately recommended an…",
-      "publishedAt": "2026-11-16T01:02:08.000Z"
+      "title": "AI-lashes",
+      "url": "https://www.web-goddess.org/archive/95802",
+      "summary": "I saw this social media aggregator app Mima linked in Dense Discovery and was tempted to try it out… and then I saw the stupid ⚞AI-generated emphasis lines⚟ on the website. I called them “cat whisker…",
+      "publishedAt": "2026-11-17T00:31:12.000Z"
     }
   },
   "https://www.web3isgoinggreat.com/": {
@@ -11712,13 +11712,13 @@
   },
   "https://www.worldofreel.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-17",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Greig Fraser to DP Denis Villeneuve's James Bond Movie",
-      "url": "https://www.worldofreel.com/blog/2026/11/16/greig-fraser-to-dp-denis-villeneuves-james-bond-movie",
-      "summary": "Today was a big day for Bond. Amazon/MGM officially announced that Robert Pattinson is the new 007. And I've now learned another big piece of the puzzle behind the camera.",
-      "publishedAt": "2026-11-16T23:00:25.000Z"
+      "title": "Nicolas Cage & Chris Pine To Star In B.J. Novak's 'American Epic' Series; HBO & Amazon Circling",
+      "url": "https://www.worldofreel.com/blog/2026/11/16/nicolas-cage-chris-pine-to-star-in-bj-novaks-american-epic-series-hbo-amazon-circling",
+      "summary": "A24 is shopping \"American Epic,\" a series package starring Nicolas Cage and Chris Pine, and several buyers are interested, including HBO and Amazon. Novak wrote it, and don't be surprised if he also …",
+      "publishedAt": "2026-11-17T00:34:02.000Z"
     }
   },
   "https://www.zachleat.com/": {

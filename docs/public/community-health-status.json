@@ -1,16 +1,16 @@
 [
   {
     "url": "https://www.ispreview.co.uk/talk/",
-    "status": "warning",
-    "checkedAt": "2026-11-16T21:56:20.116Z",
-    "httpStatus": 403,
+    "status": "online",
+    "checkedAt": "2026-11-17T07:41:55.057Z",
+    "httpStatus": 200,
     "finalUrl": "https://www.ispreview.co.uk/talk/",
     "consecutiveFailures": 0
   },
   {
     "url": "https://forums.overclockers.co.uk/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.122Z",
+    "checkedAt": "2026-11-17T07:41:55.063Z",
     "httpStatus": 200,
     "finalUrl": "https://forums.overclockers.co.uk/",
     "consecutiveFailures": 0
@@ -18,7 +18,7 @@
   {
     "url": "https://www.avforums.com/forums/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:20.122Z",
+    "checkedAt": "2026-11-17T07:41:55.063Z",
     "httpStatus": 403,
     "finalUrl": "https://www.avforums.com/forums/",
     "consecutiveFailures": 0
@@ -26,7 +26,7 @@
   {
     "url": "https://forums.moneysavingexpert.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.188Z",
+    "checkedAt": "2026-11-17T07:41:55.161Z",
     "httpStatus": 200,
     "finalUrl": "https://forums.moneysavingexpert.com/",
     "consecutiveFailures": 0
@@ -34,7 +34,7 @@
   {
     "url": "https://arstechnica.com/civis/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.299Z",
+    "checkedAt": "2026-11-17T07:41:55.363Z",
     "httpStatus": 200,
     "finalUrl": "https://arstechnica.com/civis/",
     "consecutiveFailures": 0
@@ -42,7 +42,7 @@
   {
     "url": "https://lobste.rs/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.431Z",
+    "checkedAt": "2026-11-17T07:41:55.421Z",
     "httpStatus": 200,
     "finalUrl": "https://lobste.rs/",
     "consecutiveFailures": 0
@@ -50,7 +50,7 @@
   {
     "url": "https://news.ycombinator.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.484Z",
+    "checkedAt": "2026-11-17T07:41:55.567Z",
     "httpStatus": 200,
     "finalUrl": "https://news.ycombinator.com/",
     "consecutiveFailures": 0
@@ -58,7 +58,7 @@
   {
     "url": "https://forum.level1techs.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.486Z",
+    "checkedAt": "2026-11-17T07:41:55.642Z",
     "httpStatus": 200,
     "finalUrl": "https://forum.level1techs.com/",
     "consecutiveFailures": 0
@@ -66,7 +66,7 @@
   {
     "url": "https://www.rllmukforum.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.753Z",
+    "checkedAt": "2026-11-17T07:41:55.756Z",
     "httpStatus": 200,
     "finalUrl": "https://www.rllmukforum.com/",
     "consecutiveFailures": 0
@@ -74,7 +74,7 @@
   {
     "url": "https://resetera.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.799Z",
+    "checkedAt": "2026-11-17T07:41:55.812Z",
     "httpStatus": 200,
     "finalUrl": "https://www.resetera.com/",
     "consecutiveFailures": 0
@@ -82,7 +82,7 @@
   {
     "url": "https://forums.somethingawful.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.816Z",
+    "checkedAt": "2026-11-17T07:41:55.861Z",
     "httpStatus": 200,
     "finalUrl": "https://forums.somethingawful.com/",
     "consecutiveFailures": 0
@@ -90,7 +90,7 @@
   {
     "url": "https://boards.straightdope.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:20.859Z",
+    "checkedAt": "2026-11-17T07:41:55.920Z",
     "httpStatus": 200,
     "finalUrl": "https://boards.straightdope.com/",
     "consecutiveFailures": 0
@@ -98,7 +98,7 @@
   {
     "url": "https://forum.mrmoneymustache.com/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:21.053Z",
+    "checkedAt": "2026-11-17T07:41:56.101Z",
     "httpStatus": 403,
     "finalUrl": "https://forum.mrmoneymustache.com/",
     "consecutiveFailures": 0
@@ -106,7 +106,7 @@
   {
     "url": "https://www.city-data.com/forum/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:21.134Z",
+    "checkedAt": "2026-11-17T07:41:56.178Z",
     "httpStatus": 200,
     "finalUrl": "https://www.city-data.com/forum/",
     "consecutiveFailures": 0
@@ -114,7 +114,7 @@
   {
     "url": "https://forum.indieweb.org/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:21.205Z",
+    "checkedAt": "2026-11-17T07:41:56.269Z",
     "httpStatus": 200,
     "finalUrl": "https://indieweb.org/",
     "consecutiveFailures": 0
@@ -122,7 +122,7 @@
   {
     "url": "https://discuss.privacyguides.net/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:21.211Z",
+    "checkedAt": "2026-11-17T07:41:56.416Z",
     "httpStatus": 200,
     "finalUrl": "https://discuss.privacyguides.net/",
     "consecutiveFailures": 0
@@ -130,7 +130,7 @@
   {
     "url": "https://community.nodebb.org/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:21.626Z",
+    "checkedAt": "2026-11-17T07:41:56.704Z",
     "httpStatus": 403,
     "finalUrl": "https://community.nodebb.org/",
     "consecutiveFailures": 0
@@ -138,7 +138,7 @@
   {
     "url": "https://www.ravelry.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:21.699Z",
+    "checkedAt": "2026-11-17T07:41:56.755Z",
     "httpStatus": 200,
     "finalUrl": "https://www.ravelry.com/account/login",
     "consecutiveFailures": 0
@@ -146,7 +146,7 @@
   {
     "url": "https://www.ultimate-guitar.com/forum/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:21.920Z",
+    "checkedAt": "2026-11-17T07:41:56.819Z",
     "httpStatus": 200,
     "finalUrl": "https://www.ultimate-guitar.com/forum/",
     "consecutiveFailures": 0
@@ -154,7 +154,7 @@
   {
     "url": "https://gearspace.com/board/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:22.091Z",
+    "checkedAt": "2026-11-17T07:41:56.893Z",
     "httpStatus": 403,
     "finalUrl": "https://gearspace.com/board/",
     "consecutiveFailures": 0
@@ -162,7 +162,7 @@
   {
     "url": "https://www.gaiaonline.com/forum/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:22.157Z",
+    "checkedAt": "2026-11-17T07:41:57.012Z",
     "httpStatus": 202,
     "finalUrl": "https://www.gaiaonline.com/forum/",
     "consecutiveFailures": 0
@@ -170,7 +170,7 @@
   {
     "url": "https://www.neogaf.com/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:22.310Z",
+    "checkedAt": "2026-11-17T07:41:57.308Z",
     "httpStatus": 403,
     "finalUrl": "https://www.neogaf.com/",
     "consecutiveFailures": 0
@@ -178,7 +178,7 @@
   {
     "url": "https://forum.freecodecamp.org/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:22.381Z",
+    "checkedAt": "2026-11-17T07:41:57.314Z",
     "httpStatus": 200,
     "finalUrl": "https://forum.freecodecamp.org/",
     "consecutiveFailures": 0
@@ -186,7 +186,7 @@
   {
     "url": "https://discuss.python.org/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:22.424Z",
+    "checkedAt": "2026-11-17T07:41:57.396Z",
     "httpStatus": 200,
     "finalUrl": "https://discuss.python.org/",
     "consecutiveFailures": 0
@@ -194,7 +194,7 @@
   {
     "url": "https://forum.arduino.cc/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:22.536Z",
+    "checkedAt": "2026-11-17T07:41:57.452Z",
     "httpStatus": 200,
     "finalUrl": "https://forum.arduino.cc/",
     "consecutiveFailures": 0
@@ -202,7 +202,7 @@
   {
     "url": "https://permies.com/forums",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:22.719Z",
+    "checkedAt": "2026-11-17T07:41:57.634Z",
     "httpStatus": 200,
     "finalUrl": "https://permies.com/forums",
     "consecutiveFailures": 0
@@ -210,7 +210,7 @@
   {
     "url": "https://www.birdforum.net/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:22.847Z",
+    "checkedAt": "2026-11-17T07:41:57.761Z",
     "httpStatus": 403,
     "finalUrl": "https://www.birdforum.net/",
     "consecutiveFailures": 0
@@ -218,7 +218,7 @@
   {
     "url": "https://kerrydalestreet.co.uk/celtic-football-club-discussion-forum-f5/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:22.950Z",
+    "checkedAt": "2026-11-17T07:41:57.841Z",
     "httpStatus": 403,
     "finalUrl": "https://kerrydalestreet.co.uk/celtic-football-club-discussion-forum-f5/",
     "consecutiveFailures": 0
@@ -226,7 +226,7 @@
   {
     "url": "https://www.talkceltic.net/forums/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:22.952Z",
+    "checkedAt": "2026-11-17T07:41:57.885Z",
     "httpStatus": 200,
     "finalUrl": "https://www.talkceltic.net/forums/",
     "consecutiveFailures": 0
@@ -234,7 +234,7 @@
   {
     "url": "https://celticnoise.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:23.144Z",
+    "checkedAt": "2026-11-17T07:41:57.906Z",
     "httpStatus": 200,
     "finalUrl": "https://celticnoise.com/",
     "consecutiveFailures": 0
@@ -242,7 +242,7 @@
   {
     "url": "https://forum.67hailhail.com/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:23.217Z",
+    "checkedAt": "2026-11-17T07:41:57.978Z",
     "httpStatus": 403,
     "finalUrl": "https://www.67hailhail.com/talkingpoints/",
     "consecutiveFailures": 0
@@ -250,7 +250,7 @@
   {
     "url": "https://celticfcbars.com/community/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:23.513Z",
+    "checkedAt": "2026-11-17T07:41:58.199Z",
     "httpStatus": 200,
     "finalUrl": "https://celticfcbars.com/community/",
     "consecutiveFailures": 0
@@ -258,7 +258,7 @@
   {
     "url": "https://www.followfollow.com/forum/forums/the-bear-pit/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:23.690Z",
+    "checkedAt": "2026-11-17T07:41:58.585Z",
     "httpStatus": 200,
     "finalUrl": "https://www.followfollow.com/forum/forums/the-bear-pit/",
     "consecutiveFailures": 0
@@ -266,7 +266,7 @@
   {
     "url": "https://rangersmedia.uk/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:24.129Z",
+    "checkedAt": "2026-11-17T07:41:58.932Z",
     "httpStatus": 403,
     "finalUrl": "https://rangersmedia.uk/",
     "consecutiveFailures": 0
@@ -274,7 +274,7 @@
   {
     "url": "https://theblueseaofibrox.boards.net/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:24.261Z",
+    "checkedAt": "2026-11-17T07:41:59.021Z",
     "httpStatus": null,
     "finalUrl": "https://theblueseaofibrox.boards.net/",
     "consecutiveFailures": 0
@@ -282,7 +282,7 @@
   {
     "url": "https://arsenal-mania.com/forum/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:24.725Z",
+    "checkedAt": "2026-11-17T07:41:59.633Z",
     "httpStatus": 200,
     "finalUrl": "https://arsenal-mania.com/forum/",
     "consecutiveFailures": 0
@@ -290,7 +290,7 @@
   {
     "url": "https://www.theshedend.com/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:24.795Z",
+    "checkedAt": "2026-11-17T07:41:59.976Z",
     "httpStatus": 403,
     "finalUrl": "https://www.theshedend.com/",
     "consecutiveFailures": 0
@@ -298,7 +298,7 @@
   {
     "url": "https://mymerrychristmas.com/forum/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:24.940Z",
+    "checkedAt": "2026-11-17T07:42:00.082Z",
     "httpStatus": 200,
     "finalUrl": "https://mymerrychristmas.com/forum/",
     "consecutiveFailures": 0
@@ -306,15 +306,15 @@
   {
     "url": "https://www.disboards.com/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:25.151Z",
-    "httpStatus": null,
-    "finalUrl": "https://www.disboards.com/.stile/challenge?rung=nojs&band=watch&return=%2F&sig=257379415565217ae19c9250eb8dcf33be2c700b348a9f9f726cc8260ddc0e3f&aud=www.disboards.com&aid=6ccc6a1ef6b1649246d6c49cde7c838f",
+    "checkedAt": "2026-11-17T07:42:00.318Z",
+    "httpStatus": 200,
+    "finalUrl": "https://www.disboards.com/.stile/challenge?rung=nojs&band=watch&return=%2F&sig=dbd71038026cc291e65e97ec314e6ee4f4ab154fbaa83ad242a9d2ddec5e9edb&aud=www.disboards.com&aid=5dfdc9706dcfaf56fafd7c08d62cdf03",
     "consecutiveFailures": 0
   },
   {
     "url": "https://forums.wdwmagic.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:25.610Z",
+    "checkedAt": "2026-11-17T07:42:00.608Z",
     "httpStatus": 202,
     "finalUrl": "https://forums.wdwmagic.com/",
     "consecutiveFailures": 0
@@ -322,7 +322,7 @@
   {
     "url": "https://www.snitchseeker.com/forum.php",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:25.822Z",
+    "checkedAt": "2026-11-17T07:42:00.768Z",
     "httpStatus": 200,
     "finalUrl": "https://www.snitchseeker.com/forum.php",
     "consecutiveFailures": 0
@@ -330,7 +330,7 @@
   {
     "url": "https://www.28dayslater.co.uk/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:26.448Z",
+    "checkedAt": "2026-11-17T07:42:00.838Z",
     "httpStatus": 200,
     "finalUrl": "https://www.28dayslater.co.uk/",
     "consecutiveFailures": 0
@@ -338,7 +338,7 @@
   {
     "url": "https://www.derelictplaces.co.uk/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:27.117Z",
+    "checkedAt": "2026-11-17T07:42:01.401Z",
     "httpStatus": 403,
     "finalUrl": "https://www.derelictplaces.co.uk/",
     "consecutiveFailures": 0
@@ -346,7 +346,7 @@
   {
     "url": "https://collectorfreaks.com/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:27.601Z",
+    "checkedAt": "2026-11-17T07:42:01.461Z",
     "httpStatus": 403,
     "finalUrl": "https://collectorfreaks.com/",
     "consecutiveFailures": 0
@@ -354,7 +354,7 @@
   {
     "url": "https://avftt.co.uk/index.php?forums/avftt-forum.2/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:27.902Z",
+    "checkedAt": "2026-11-17T07:42:01.486Z",
     "httpStatus": 200,
     "finalUrl": "https://avftt.co.uk/index.php?forums/avftt-forum.2/",
     "consecutiveFailures": 0
@@ -362,7 +362,7 @@
   {
     "url": "https://mriya.ink/",
     "status": "warning",
-    "checkedAt": "2026-11-16T21:56:28.250Z",
+    "checkedAt": "2026-11-17T07:42:01.557Z",
     "httpStatus": 403,
     "finalUrl": "https://mriya.ink/",
     "consecutiveFailures": 0
@@ -370,23 +370,23 @@
   {
     "url": "https://www.uk-preppers.co.uk/forum/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:28.929Z",
+    "checkedAt": "2026-11-17T07:42:01.929Z",
     "httpStatus": 200,
     "finalUrl": "https://www.uk-preppers.co.uk/forum/",
     "consecutiveFailures": 0
   },
   {
     "url": "https://valuemd.com/forums/",
-    "status": "online",
-    "checkedAt": "2026-11-16T21:56:29.726Z",
-    "httpStatus": 200,
+    "status": "warning",
+    "checkedAt": "2026-11-17T07:42:02.655Z",
+    "httpStatus": 500,
     "finalUrl": "https://valuemd.com/forums/",
     "consecutiveFailures": 0
   },
   {
     "url": "https://inthemansion.com/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:30.318Z",
+    "checkedAt": "2026-11-17T07:42:02.913Z",
     "httpStatus": 200,
     "finalUrl": "https://inthemansion.com/",
     "consecutiveFailures": 0
@@ -394,7 +394,7 @@
   {
     "url": "https://badmintonsoldiers.club/th/",
     "status": "online",
-    "checkedAt": "2026-11-16T21:56:30.829Z",
+    "checkedAt": "2026-11-17T07:42:03.521Z",
     "httpStatus": 200,
     "finalUrl": "https://badmintonsoldiers.club/th/",
     "consecutiveFailures": 0

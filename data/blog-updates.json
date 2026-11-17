@@ -396,8 +396,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-17T02:44:29.415Z",
-    "status": "success",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "The Ethereum Foundation is officially a corporate suicide cult",
@@ -984,8 +984,8 @@
   },
   "https://handeaux.tumblr.com/": {
     "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-13T18:44:29.666Z",
-    "status": "success",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unavailable",
     "feedUrl": "https://handeaux.tumblr.com/rss",
     "latestArticle": {
       "title": "Brand New Elmwood Place Survived A Civil War Between Two Feuding Mayors",
@@ -1422,8 +1422,8 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T03:44:30.368Z",
-    "status": "success",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unavailable",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
       "title": "Officially licensed 2025 Mario Kart World clipboard and pen with a design inspired by the &ldquo;Yoshi&rsquo;s&rdquo;&hellip;",
@@ -1743,14 +1743,14 @@
     }
   },
   "https://www.freecodecamp.org/news/": {
-    "lastPublished": "2026-11-14",
-    "lastChecked": "2026-11-14T19:44:31.499Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/build-and-train-a-glm-53-flash-model-from-scratch-with-python/",
-      "summary": "GLM-5.3-Flash combines linear and sparse attention, a mixture-of-experts design, and manifold constrained hyperconnections. A scaled-down version with 25 million parameters can be built in Python and",
-      "publishedAt": "2026-11-14T16:02:56.000Z"
+      "url": "https://www.freecodecamp.org/news/build-nlp-pipeline-python-therapy-notes/",
+      "summary": "Therapy progress notes are written records of what happened during a therapy session. They may include what a client said, what the therapist observed, the topics discussed, and plans for the next ses",
+      "publishedAt": "2026-11-17T00:34:12.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3773,15 +3773,15 @@
     }
   },
   "https://blog.atmtxphoto.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T04:44:29.542Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://blog.atmtxphoto.com/feed/",
     "latestArticle": {
-      "title": "Quiet High Line",
-      "url": "https://blog.atmtxphoto.com/2026/11/15/quiet-high-line/",
-      "summary": "Quiet High Line – New York, New York I’ve covered the High Line before on this blog, an elevated 1½-mile linear park. Beyond being a lovely oasis in the middle of Manhattan, it’s an architectural wal…",
-      "publishedAt": "2026-11-16T04:37:04.000Z"
+      "title": "Hasselblad vs. Leica: Which is the Luxury Camera Company?",
+      "url": "https://blog.atmtxphoto.com/2026/11/16/hasselblad-vs-leica-which-is-the-luxury-camera-company/",
+      "summary": "Hasselblad at B&H Photo – New York, New York I made it to B&H Photo, taking the express pedestrian route known as the High Line. As I mentioned yesterday, it almost seems like the High Line was built…",
+      "publishedAt": "2026-11-17T03:45:07.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -4768,15 +4768,15 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "lastPublished": "2026-11-15",
-    "lastChecked": "2026-11-17T01:44:31.767Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
-      "title": "Las Vegas in the 1990s Through Fascinating Vintage Photos",
-      "url": "https://rarehistoricalphotos.com/las-vegas-in-the-1990s-through-fascinating-vintage-photos/",
-      "summary": "Las Vegas in the 1990s was a city undergoing a major transformation. The Strip was growing, old landmarks were making way for enormous new resorts, and casino owners were competing to build bigger an…",
-      "publishedAt": "2026-11-15T23:19:59.000Z"
+      "title": "Vintage Photos Capture San Francisco as It Looked in the 1940s",
+      "url": "https://rarehistoricalphotos.com/san-francisco-1940s/",
+      "summary": "San Francisco in the 1940s was a city of striking contrasts, where historic neighborhoods, busy waterfronts, steep streets, and familiar cable cars stood against the backdrop of a world at war. The d…",
+      "publishedAt": "2026-11-17T04:36:23.000Z"
     }
   },
   "https://londonist.com/": {
@@ -5281,8 +5281,8 @@
   },
   "https://moviesoftheeighties.substack.com/": {
     "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-17T01:44:31.767Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "success",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
       "url": "https://moviesoftheeighties.substack.com/p/the-first-ten-minutes-will-shock",
@@ -5529,8 +5529,8 @@
   },
   "https://70sscifiart.tumblr.com/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T03:44:30.368Z",
-    "status": "success",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unavailable",
     "feedUrl": "https://70sscifiart.tumblr.com/rss",
     "latestArticle": {
       "title": "Spaceships crashing into each other 💥 Art by Bob Layzell (1977), Colin Hay (1979), Chris Foss&hellip;",
@@ -5612,8 +5612,8 @@
   },
   "https://paul.totterman.name/": {
     "lastPublished": "2026-10-12",
-    "lastChecked": "2026-11-17T01:44:31.767Z",
-    "status": "success",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unknown",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
       "title": "Generic slog.LogValuer helper",
@@ -6862,9 +6862,9 @@
   },
   "https://blog.prismatic.pink/": {
     "lastPublished": "2026-07-10",
-    "lastChecked": "2026-11-15T05:44:31.145Z",
-    "status": "unavailable",
-    "feedUrl": "https://blog.prismatic.pink/atom.xml",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unknown",
+    "feedUrl": "https://blog.prismatic.pink/index.xml",
     "latestArticle": {
       "title": "Two weeks in Brasilia, the capital of Brazil",
       "url": "https://blog.prismatic.pink/2026/07/10/two-weeks-in-brasilia-the-capital-of-brazil/",
@@ -7101,14 +7101,14 @@
   },
   "https://www.theimpulsivebuy.com/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T02:44:29.415Z",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/comments/feed/",
     "latestArticle": {
-      "title": "Comment on REVIEW: Popeyes Cajun Onion Rings by BigBelly",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/13/popeyes-cajun-onion-rings-review/#comment-446384",
-      "summary": "I enjoyed them, I'll dump them into the bag for the ride home next time, that cup does them no favors",
-      "publishedAt": "2026-11-17T02:13:01.000Z"
+      "title": "Comment on New Trader Joe’s Products Spotted — November 16, 2026 by Lindsay",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/16/new-trader-joes-products-spotted-november-16-2026/#comment-446385",
+      "summary": "In reply to BigBelly . I'm imagining they'd be sublime in the air fryer...",
+      "publishedAt": "2026-11-17T04:25:20.000Z"
     }
   },
   "https://nstperfume.com/": {
@@ -7304,15 +7304,15 @@
     }
   },
   "https://blogs.ucl.ac.uk/constitution-unit/": {
-    "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-16T03:04:03.916Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://blogs.ucl.ac.uk/constitution-unit/feed/",
     "latestArticle": {
-      "title": "The hidden consequences of political harassment towards MPs for their staff",
-      "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/11/11/the-hidden-consequences-of-political-harassment-towards-mps-for-their-staff/",
-      "summary": "Research on political harassment has grown considerably in recent years, revealing its consequences for politicians and democratic life. Yet harassment can also affect people beyond those directly ta…",
-      "publishedAt": "2026-11-11T04:00:43.000Z"
+      "title": "Burnham’s first months: a new political model?",
+      "url": "https://blogs.ucl.ac.uk/constitution-unit/2026/11/17/burnhams-first-months-a-new-political-model/",
+      "summary": "The past four months have seen new commitments on English devolution, the announcement of a national commission on electoral reform and a missive on different ways of working in government. In the le…",
+      "publishedAt": "2026-11-17T04:00:03.000Z"
     }
   },
   "https://bigthink.com/strange-maps/": {
@@ -7735,9 +7735,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-17T02:44:29.415Z",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -8038,9 +8038,9 @@
   },
   "https://chrislt.nz/": {
     "lastPublished": "2026-11-11",
-    "lastChecked": "2026-11-16T20:44:28.220Z",
-    "status": "success",
-    "feedUrl": "https://chrislt.nz/feed/",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unknown",
+    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
     "latestArticle": {
       "title": "Thorn",
       "url": "https://chrislt.nz/thorn/",
@@ -8380,14 +8380,14 @@
   },
   "https://artlung.com/blog/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T00:44:38.525Z",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://artlung.com/feed/",
     "latestArticle": {
-      "title": "Disappointing email of the day",
-      "url": "https://artlung.com/blog/2026/11/16/disappointing-email-of-the-day/",
-      "summary": "Your ArtLung page mentions both creative coding and collecting toy robots. I thought a robot combining physical craftsmanship and AI conversation might be of personal interest. So close, and not wron…",
-      "publishedAt": "2026-11-17T00:24:49.000Z"
+      "title": "Big sized waves across the Northern Pacific. It’s an honor to play in it.",
+      "url": "https://artlung.com/blog/2026/11/16/north-pacific-big-honor/",
+      "summary": "Sign my Guestbook | Contact Me",
+      "publishedAt": "2026-11-17T04:14:05.000Z"
     }
   },
   "https://thefictionphial.wordpress.com/": {
@@ -8693,15 +8693,15 @@
     }
   },
   "https://comicsdc.blogspot.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T13:44:41.401Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Comics Research Bibliography citations update, 11/14-15/2026",
-      "url": "https://comicsdc.blogspot.com/2026/11/comics-research-bibliography-citations_0546964689.html",
-      "summary": "Kowsar, Nik. 2026. Freedom after Speech; And being a coward with a limit [Iran]. Nik’s Substack (November 14): https://nkowsar.substack.com/p/freedom-after-speech Barnes, Mike. 2026. Skip Hinnant, Ac…",
-      "publishedAt": "2026-11-16T13:01:23.502Z"
+      "title": "STEPHANIE WILLIAMS in Conversation | September 22nd, 2026",
+      "url": "https://comicsdc.blogspot.com/2026/11/stephanie-williams-in-conversation.html",
+      "summary": "STEPHANIE WILLIAMS in Conversation | September 22nd, 2026 Sherin Nicole Fantom Comics Nov 15, 2026 https://www.youtube.com/watch?v=eYbclDYobho Stephanie Williams (Nubia, Street Sharks) in conversatio…",
+      "publishedAt": "2026-11-17T04:29:15.173Z"
     }
   },
   "https://www.nationalelfservice.net/": {
@@ -9058,15 +9058,15 @@
     }
   },
   "https://programmingknowledgeblog.wordpress.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T13:44:41.401Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://programmingknowledgeblog.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A Wardrobe Movie Taught Me More Than My Textbooks",
-      "url": "https://programmingknowledgeblog.wordpress.com/2026/11/16/favorite-movie-narnia-lion-witch-wardrobe/",
-      "summary": "My favorite movie of all time: The Chronicles of Narnia: The Lion, the Witch and the Wardrobe Ask someone for their favorite movie and they usually give you a title. Ask them again and they start tal…",
-      "publishedAt": "2026-11-16T13:00:02.000Z"
+      "title": "I’ve Never Worked in an Office, But My Day Starts Like I Do",
+      "url": "https://programmingknowledgeblog.wordpress.com/2026/11/17/remote-work-feels-like-an-office/",
+      "summary": "Would you rather work from an office or remotely? At 6 a.m., while most of my village is still quiet, my alarm goes off. I wake up, wash my face, and before I’ve even finished waking up, my mind is a…",
+      "publishedAt": "2026-11-17T04:45:06.000Z"
     }
   },
   "https://millennialsdiarydotcom.wordpress.com/": {
@@ -9154,15 +9154,15 @@
     }
   },
   "https://rutheh.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T03:44:32.539Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://rutheh.com/feed/",
     "latestArticle": {
-      "title": "Gift from a Thoughtful Friend",
-      "url": "https://rutheh.com/2026/11/15/gift-from-a-thoughtful-friend/",
-      "summary": "Found this book in my mail basket from a friend on the next block. She was kindly delivering a pair of 4s – I was borrowing a pair of straight knitting needles to learn how to do a Tubular Cast On. H…",
-      "publishedAt": "2026-11-16T03:28:03.000Z"
+      "title": "Happy 18th Birthday!",
+      "url": "https://rutheh.com/2026/11/16/happy-18th-birthday/",
+      "summary": "From the archives. When You Were Six",
+      "publishedAt": "2026-11-17T04:31:04.000Z"
     }
   },
   "https://folsommillstudio.com/": {
@@ -9811,14 +9811,13 @@
   },
   "https://musingsbydoddzilla.org/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T03:44:30.368Z",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://musingsbydoddzilla.org/feed/",
     "latestArticle": {
-      "title": "Happy place-return",
-      "url": "https://musingsbydoddzilla.org/2026/11/16/happy-place-return/",
-      "summary": "What is your happy place? My happy place is in your arms Or embracing the great outdoors My comfort zone lies deep within savoring the communion of souls We seek a space to find ourselves A place of …",
-      "publishedAt": "2026-11-17T03:35:06.000Z"
+      "url": "https://musingsbydoddzilla.org/2026/11/16/21420/",
+      "summary": "My battery’s been remaining perpetually low I don’t have the time to take it slow Every moment seems to be occupied There’s always more to do, my brain is fried So I’m sorry if my inspiration has bee…",
+      "publishedAt": "2026-11-17T03:55:35.000Z"
     }
   },
   "https://tonysbologna.com/": {
@@ -10865,15 +10864,15 @@
     }
   },
   "https://peacefulwarrior9.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T03:44:32.539Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://peacefulwarrior9.com/feed/",
     "latestArticle": {
-      "title": "The Hana Chronicles:  Month 10, Day 25",
-      "url": "https://peacefulwarrior9.com/2026/11/15/the-hana-chronicles-month-10-day-25/",
-      "summary": "November 15, 2026- Hana pushed herself so hard today that she practically fell asleep at the dinner table. She managed to eat everything offered, but there was a lot of eye-rubbing and yawning. She c…",
-      "publishedAt": "2026-11-16T03:34:43.000Z"
+      "title": "The Hana Chronicles:  Month 10, Day 26",
+      "url": "https://peacefulwarrior9.com/2026/11/16/the-hana-chronicles-month-10-day-26/",
+      "summary": "November 16, 2026- Aram bought flowers and a box of chocolates for Yunhee, to cap the Eighth Anniversary of their civil wedding. Hana was fascinated by the flowers. She didn’t care about the box of c…",
+      "publishedAt": "2026-11-17T04:20:35.000Z"
     }
   },
   "https://carriekahn.blog/": {
@@ -10901,15 +10900,15 @@
     }
   },
   "https://mindmapandmusings.wordpress.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T07:44:32.576Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://mindmapandmusings.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Hacking Happy: Back to the Baseline",
-      "url": "https://mindmapandmusings.wordpress.com/2026/11/15/hacking-happy-back-to-the-baseline/",
-      "summary": "Beyond school being a drudgery of homework, tests and exams, there was the Hindi Prachar Shabha. They had text books, and exams in a script that hung on a clothesline and we were a captive flock even…",
-      "publishedAt": "2026-11-16T07:10:29.000Z"
+      "title": "When Work Isn’t Work",
+      "url": "https://mindmapandmusings.wordpress.com/2026/11/16/when-work-isnt-work/",
+      "summary": "Tom Sawyer, is the immortal salesman, even as a boy punished by Aunt Polly. With a trail of trouble and truancy behind, Tom slouches as he considers the task laid out for him – all the white paint in…",
+      "publishedAt": "2026-11-17T04:25:34.000Z"
     }
   },
   "https://wahliang.wordpress.com/": {
@@ -10973,15 +10972,15 @@
     }
   },
   "https://gwbcreations.org/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T03:44:32.539Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://gwbcreations.org/feed/",
     "latestArticle": {
-      "title": "Thinking",
-      "url": "https://gwbcreations.org/2026/11/15/thinking/",
-      "summary": "Thinking about the doctor that I am about to see Hoping he doesn’t lay some grim Unhopeful news on me Thinking in the nocturne Of a grim mortality Fearing there’s no afterlife And I will cease to be …",
-      "publishedAt": "2026-11-16T03:34:57.000Z"
+      "title": "lode-side attraction",
+      "url": "https://gwbcreations.org/2026/11/16/lode-side-attraction/",
+      "summary": "lode-side attraction a substance with high coercivity will positivize negativity and be force-field dragnets of permanent magnets by virtue of stiffness proclivity. .. This little-bitty limerickal di…",
+      "publishedAt": "2026-11-17T04:36:08.000Z"
     }
   },
   "https://koshekmat.wordpress.com/": {
@@ -11677,15 +11676,15 @@
     }
   },
   "https://diaryofamoments.wordpress.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T07:44:32.576Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://diaryofamoments.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Manto",
-      "url": "https://diaryofamoments.wordpress.com/2026/11/16/manto/",
-      "summary": "Favorite movie of all time? Manto (Urdu: منٹو ) is a 2015 Pakistani biographical drama film based on the life of Pakistani short-story writer Saadat Hassan Manto.",
-      "publishedAt": "2026-11-16T07:44:57.000Z"
+      "title": "Work from an OFFICE",
+      "url": "https://diaryofamoments.wordpress.com/2026/11/17/work-from-an-office/",
+      "summary": "Would you rather work from an office or remotely? Honestly, if I had to choose, I’d prefer working from an office. Remote work has its own benefits, but I want to step outside, explore the world, mee…",
+      "publishedAt": "2026-11-17T04:38:24.000Z"
     }
   },
   "https://glophilspeaks.wordpress.com/": {
@@ -11928,15 +11927,15 @@
     }
   },
   "https://www.themovieboards.net/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T13:44:41.401Z",
+    "lastPublished": "2026-11-17",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "Hobo with a shotgun",
-      "url": "https://www.themovieboards.net/2026/11/16/hobo-with-a-shotgun-2/",
-      "summary": "What’s a book or movie that genuinely scared you? What’s a book or movie that genuinely scared you? Horror movies. I know that I’ve mentioned before why I’m a whimp when it comes to horror movies. Ok…",
-      "publishedAt": "2026-11-16T13:29:59.000Z"
+      "title": "Allison Transmission recently secured major defense and commercial propulsion contracts",
+      "url": "https://www.themovieboards.net/2026/11/17/allison-transmission-recently-secured-major-defense-and-commercial-propulsion-contracts/",
+      "summary": "Allison Transmission Holdings, Inc. (“Allison”), a global leader in high-performance mobility and work solutions, has been awarded a $67 million contract to continue its support of the U.S. Army’s Ab…",
+      "publishedAt": "2026-11-17T03:55:17.000Z"
     }
   },
   "https://esotericmeanderingshoutingintothevoid.blog/": {
@@ -12515,8 +12514,8 @@
   },
   "https://gifcities.org/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-17T01:44:31.767Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
+    "status": "unavailable",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "http://www.retroarchive.org/": {
@@ -12920,14 +12919,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T02:44:29.415Z",
+    "lastChecked": "2026-11-17T04:44:33.177Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Solana ETFs extend outflow streak as SOL tests long-term trendline",
-      "url": "https://cryptonews.mobile/brief/solana-etfs-extend-outflow-streak-as-sol-tests-long-term-trendline",
-      "summary": "U.S. spot Solana ETFs recorded net outflows over multiple sessions through mid-November. Farside Investors data show $57 million in net outflows over seven sessions through November 13. SoSoValue dat…",
-      "publishedAt": "2026-11-17T02:15:50.000Z"
+      "title": "Bitcoin slides near $60,000 as traders watch price pressure",
+      "url": "https://cryptonews.mobile/brief/bitcoin-slides-near-60000-as-traders-watch-price-pressure",
+      "summary": "Bitcoin fell to about $62,100, just above the $60,000 support level. The slide marked its lowest price since mid‑July and continued a six‑week losing streak. Roughly $2 billion in crypto derivatives …",
+      "publishedAt": "2026-11-17T04:08:25.000Z"
     }
   },
   "https://usefreetools.net/": {

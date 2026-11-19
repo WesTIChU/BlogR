@@ -1258,7 +1258,7 @@
     }
   },
   "https://blog.rakkor.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-05-18",
     "feedUrl": "https://blog.rakkor.uk/feed/",
     "latestArticle": {
@@ -1783,9 +1783,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-11",
-    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
+    "feedUrl": "https://chrislt.nz/feed/",
     "latestArticle": {
       "title": "Thorn",
       "url": "https://chrislt.nz/thorn/",
@@ -1853,9 +1853,9 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/premier-league-clubs-side-with-richard-masters-and-directors-over-man-city-sponsors-legal-threat---one-club-supports-city",
-      "summary": "Manchester City found themselves supported by just one other Premier League club at a meeting between the English top-flight's member sides on Thursday, it has been revealed.",
-      "publishedAt": "2026-11-19T15:03:13.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/predicted-starting-xi-manchester-city-vs-fulham-premier-league",
+      "summary": "Enzo Maresca and Manchester City look to quill a fresh page as the Blues emerge from the final international break of 2026 to face Fulham at the Etihad Stadium.",
+      "publishedAt": "2026-11-19T17:00:04.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -2256,10 +2256,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "US launches crime center with TRM Labs to disrupt scam networks",
-      "url": "https://cryptonews.mobile/brief/us-launches-crime-center-with-trm-labs-to-disrupt-scam-networks",
-      "summary": "The Homeland Security Task Force launched the Threat Disruption Center on Wednesday to stop money flowing from scam victims to foreign criminal groups. TRM Labs provides the center's primary investig…",
-      "publishedAt": "2026-11-19T16:42:23.000Z"
+      "title": "S&P keeps lowest stability score for Tether USDT as Tether disputes it",
+      "url": "https://cryptonews.mobile/brief/sp-keeps-lowest-stability-score-for-tether-usdt-as-tether-disputes-it",
+      "summary": "S&P Global Ratings kept its lowest stability score of 5 for Tether's USDT on November 18, unchanged from November 2025. S&P said higher-risk assets represented about 28% of USDT in circulation as of …",
+      "publishedAt": "2026-11-19T17:04:33.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2288,10 +2288,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://cupofjo.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Gift Guide #5: Your Boyfriend (or Husband) Who Makes Pasta e Fagioli and Waves at Every Baby He Sees. by Hilary",
-      "url": "https://cupofjo.com/2026/11/18/best-gifts-men-husbands-boyfriends-2026/#comment-3586120",
-      "summary": "Men are so hard! I appreciate that Cup of Jo expands beyond the usual men's categories of \"mixologist,\" \"golfer,\" \"bbq-er\" as my husband is none of those things. A few hits from Christmas past: - Sou…",
-      "publishedAt": "2026-11-19T16:35:08.000Z"
+      "title": "Comment on Gift Guide #5: Your Boyfriend (or Husband) Who Makes Pasta e Fagioli and Waves at Every Baby He Sees. by Kell",
+      "url": "https://cupofjo.com/2026/11/18/best-gifts-men-husbands-boyfriends-2026/#comment-3586128",
+      "summary": "In reply to Mel . Saffron! It’s so good and it’s expensive (for what you get). I wish someone would get me some!",
+      "publishedAt": "2026-11-19T17:34:28.000Z"
     }
   },
   "https://dafy.site/en/": {
@@ -2299,10 +2299,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://dafy.site/feed/",
     "latestArticle": {
-      "title": "Как установить сборку модов на Minecraft Java",
-      "url": "https://dafy.site/minecraft-modpack-installation-guide/",
-      "summary": "Чтобы установить сборку модов на Minecraft Java в Windows, найди ее в каталоге лаунчера или импортируй скачанный файл. Для архива CurseForge .zip подойдет CurseForge, для файла .mrpack используй Modr…",
-      "publishedAt": "2026-11-19T16:03:24.000Z"
+      "title": "10 сборок и карт для Майнкрафта на 100 дней челенджа",
+      "url": "https://dafy.site/minecraft-100-days-modpacks/",
+      "summary": "Среди сборок и модов для Майнкрафта на 100 дней есть пять модпаков для Java и пять готовых миров для Bedrock. У двух карт для Bedrock дни встроены в правила: в Skyblock каждый день появляется остров,…",
+      "publishedAt": "2026-11-19T17:38:01.000Z"
     }
   },
   "https://dandmtravels.blog/": {
@@ -2625,13 +2625,13 @@
   },
   "https://docpop.org/": {
     "status": "success",
-    "lastPublished": "2026-11-10",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://docpop.org/feed/",
     "latestArticle": {
-      "title": "Western Acoustics Listening Room In San Francisco",
-      "url": "https://docpop.org/2026/11/western-acoustics-listening-room-in-san-francisco/",
-      "summary": "A new pop-up has appeared on Valencia St. near 14th in San Francisco. Western Acoustics, a local speaker manufacturer, has created an audio listening room inside the former Aurora Cafe space. The spa…",
-      "publishedAt": "2026-11-10T20:21:27.000Z"
+      "title": "#SidewalkFriends: Rain Sword",
+      "url": "https://docpop.org/2026/11/sidewalkfriends-rain-sword/",
+      "summary": "I like to keep an eye out for cool shapes during my walks and use them as inspiration for my #SidewalkFriends drawings. It’s like my version of hunting for Pokémon. This sword wielding samurai was in…",
+      "publishedAt": "2026-11-19T17:41:40.000Z"
     }
   },
   "https://dom.blog/": {
@@ -3113,10 +3113,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://foxreviewsrock.com/feed/",
     "latestArticle": {
-      "title": "Bloodstock Announces 17 New Acts For 2027 And Launches Day Ticket Payment Plan",
-      "url": "https://foxreviewsrock.com/2026/11/19/bloodstock-add-another-17-bands-to-the-2027-line-up/",
-      "summary": "Bloodstock has announced 17 additional bands, completing the main and second-stage line-ups. Pintglass, Brat and Pest Control join the Ronnie James Dio stage, while 14 diverse acts have been added to…",
-      "publishedAt": "2026-11-19T12:00:00.000Z"
+      "title": "Alexisonfire – “Push The River” Review: Post-hardcore Royalty Trade Chaos For Tranquillity",
+      "url": "https://foxreviewsrock.com/2026/11/19/alexisonfire-push-the-river-single-review/",
+      "summary": "Alexisonfire’s Push The River signals a more atmospheric, groove-led direction ahead of their 2027 album Bleed It. Pulsating electronics, steady rhythms and Dallas Green’s soaring vocals replace much…",
+      "publishedAt": "2026-11-19T17:00:00.000Z"
     }
   },
   "https://francescrossley.com/posts/": {
@@ -3190,10 +3190,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://galacticjourney.org/comments/feed/",
     "latestArticle": {
-      "title": "Comment on [November 17, 1971]  The Trudeau Papers (November Galactoscope #2) by GalacticJourney",
-      "url": "https://galacticjourney.org/november-17-1971-the-trudeau-papers-november-galactoscope-2/#comment-279364",
-      "summary": "In reply to 89 Chemistry . Thanks very much. 89, would you like to turn in a guest review?",
-      "publishedAt": "2026-11-19T15:14:56.000Z"
+      "title": "Comment on [November 17, 1971]  The Trudeau Papers (November Galactoscope #2) by 89 Chemistry",
+      "url": "https://galacticjourney.org/november-17-1971-the-trudeau-papers-november-galactoscope-2/#comment-279367",
+      "summary": "In reply to GalacticJourney . I'm too overwhelmed with emerging life pressures to do so. I read the novel two weeks ago but it seems like two years ago to me. I'm sorry.",
+      "publishedAt": "2026-11-19T17:15:20.000Z"
     }
   },
   "https://gallistead.com/": {
@@ -3499,9 +3499,9 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/can-llms-actually-do-quantitative-research-heres-what-quant-arena-found?source=rss",
-      "summary": "Quant-Arena tested nine LLMs across 38 configurations. Why did better research scores rarely translate into stronger trading returns?",
-      "publishedAt": "2026-11-19T10:29:33.000Z"
+      "url": "https://hackernoon.com/data-extraction-for-ai-agents-10-mcp-prompts-for-pdfs-scans-and-forms?source=rss",
+      "summary": "10 copy-paste MCP prompts for AI agents: extract invoices, tables and scans with a data extraction API, with a page and bounding box for every value.",
+      "publishedAt": "2026-11-19T16:06:18.000Z"
     }
   },
   "https://hajarstext.wordpress.com/": {
@@ -3626,13 +3626,13 @@
   },
   "https://heatherwhoyt.com/": {
     "status": "success",
-    "lastPublished": "2026-11-04",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://heatherwhoyt.com/feed/",
     "latestArticle": {
-      "title": "The end of the internet search",
-      "url": "https://heatherwhoyt.com/2026/11/04/the-end-of-the-internet-search/",
-      "summary": "Recently, I’ve searched things on the internet like usual. Questions I have about cooking or electronics or philosophy or whatever. What to do when I burn my chili? AI results almost entirely, most f…",
-      "publishedAt": "2026-11-04T17:15:38.000Z"
+      "title": "The world is not the internet",
+      "url": "https://heatherwhoyt.com/2026/11/19/the-world-is-not-the-internet/",
+      "summary": "Recently, in the ethics class I teach, we talked about attention. Simone Weil said: “The authentic and pure values—truth, beauty and goodness—in the activity of a human being are the result of one an…",
+      "publishedAt": "2026-11-19T17:06:30.000Z"
     }
   },
   "https://hechunyun.com/": {
@@ -3684,13 +3684,13 @@
   },
   "https://hexedhearth.net/": {
     "status": "success",
-    "lastPublished": "2026-11-08",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
-      "title": "The show From: a rant",
-      "url": "https://hexedhearth.net/2026/11/08/the-show-from-a-rant/",
-      "summary": "I have now watched 2 whole seasons (+ a few episodes into season 3) of From. It’s apparently supposed to be this amazing and incredibly […]",
-      "publishedAt": "2026-11-08T20:06:13.000Z"
+      "title": "First snow 2026 – it’s a blizzard!",
+      "url": "https://hexedhearth.net/2026/11/19/first-snow-2026-its-a-blizzard/",
+      "summary": "We’ve had an unusually warm autumn this year. (I realise I say that more and more often as the climate changes, maybe it’s not that […]",
+      "publishedAt": "2026-11-19T17:12:28.000Z"
     }
   },
   "https://hiddenhenley.com/": {
@@ -3792,10 +3792,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://humanizingthevacuum.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Ranking #92 singles, U.S. edition: 1986-1994",
-      "url": "https://humanizingthevacuum.wordpress.com/2026/11/18/ranking-92-singles-u-s-edition-1986-1994/",
-      "summary": "A lot of endearing stuff here from acts whose shadows they watch lengthen. Bonnie Raitt addressing middle-age. Paul Simon fights middle age. New Order’s airy house-indebted thumper suitable for aging…",
-      "publishedAt": "2026-11-19T00:24:30.000Z"
+      "title": "‘All of a Sudden’ is a poignant film about friendship",
+      "url": "https://humanizingthevacuum.wordpress.com/2026/11/19/all-of-a-sudden-is-a-poignant-film-about-friendship/",
+      "summary": "All of a Sudden starts as one movie and subtly – not suddenly! – turns into another. Ryûsuke Hamaguchi (Oscar winner Drive My Car, Evil Does Not Exists) has co-written a film about a for-profit care-…",
+      "publishedAt": "2026-11-19T17:13:08.000Z"
     }
   },
   "https://humbledollar.com/": {
@@ -3844,13 +3844,13 @@
   },
   "https://iamstillborednotes.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://iamstillborednotes.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Neither.",
-      "url": "https://iamstillborednotes.wordpress.com/2026/11/17/neither-2/",
-      "summary": "Would you rather work from an office or remotely? Why would I want to work?",
-      "publishedAt": "2026-11-17T19:14:58.000Z"
+      "title": "0 : 05 Seconds.",
+      "url": "https://iamstillborednotes.wordpress.com/2026/11/19/0-05-seconds/",
+      "summary": "…",
+      "publishedAt": "2026-11-19T17:21:21.000Z"
     }
   },
   "https://ifitwastoday.blog/": {
@@ -4038,9 +4038,9 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Song(s) of the Day # 4,574 Radie Peat",
-      "summary": "Unexpectantly great albums invariably come late in the year on here and it looks like this may be the one for 2026. I think what I'm really seeking from music as It Starts With a Birthstone approache…",
-      "publishedAt": "2026-11-19T12:05:01.000Z"
+      "title": "The 50 Coolest Albums of all Time Ranked !- Shortlist .com # 38 LCD Soundsytem - Sound of Silver",
+      "summary": "I reviewed this six years ago. I can't say I feel incredibly different about it.lt doesn't quite seem as State of the Art as it would have done when it came out. Listening to it now it feels rather r…",
+      "publishedAt": "2026-11-19T17:10:39.000Z"
     }
   },
   "https://ivorplumberpoet.press/": {
@@ -4870,10 +4870,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Joy of Six 1609",
-      "url": "https://liberalengland.blogspot.com/2026/11/the-joy-of-six-1609.html",
-      "summary": "\"In many ways, it wasn’t just about Jason, it was about people being unsettled with the brilliance of diversity and then looking for fault. Many of us have been subject to that. So there is a broader…",
-      "publishedAt": "2026-11-19T10:01:59.498Z"
+      "title": "John Pardoe, Michael Foot and Francis Pym debate on the night Jim Callaghan's government fell",
+      "url": "https://liberalengland.blogspot.com/2026/11/john-pardoe-michael-foot-and-francis.html",
+      "summary": "This is the last 20 minutes or so of a Tonight programme broadcast on BBC2 on the evening of 28 March 1979. While it was on air, Jim Callaghan's Labour government lost a vote of no confidence by 311 …",
+      "publishedAt": "2026-11-19T17:36:41.447Z"
     }
   },
   "https://librearts.org/": {
@@ -5177,10 +5177,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "PostgreSQL 19 released",
-      "url": "https://lwn.net/Articles/1108561/",
-      "summary": "The PostgreSQL Global Development Group has announced the release of PostgreSQL 19. Notable features in this release include the introduction of the REPACK (CONCURRENTLY) command to optimize tables w…",
-      "publishedAt": "2026-11-19T16:39:16.000Z"
+      "title": "[$] Added indirection allows for larger BPF programs",
+      "url": "https://lwn.net/Articles/1106537/",
+      "summary": "The BPF verifier has historically worked by tracing every possible path of execution through a program, checking, at each instruction, that various safety properties hold. This works, but it can resu…",
+      "publishedAt": "2026-11-19T17:32:42.000Z"
     }
   },
   "https://lynnandtonic.com/": {
@@ -5291,10 +5291,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://marginalrevolution.com/feed",
     "latestArticle": {
-      "title": "The Anthropic IPO",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-anthropic-ipo.html?utm_source=rss&utm_medium=rss&utm_campaign=the-anthropic-ipo",
-      "summary": "In general I am bullish on the commercial prospects of AI companies, including Anthropic (do note I am on the Advisory Board, though with zero governance role and zero access to internal information)…",
-      "publishedAt": "2026-11-19T06:40:05.000Z"
+      "title": "Thursday assorted links",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-579.html?utm_source=rss&utm_medium=rss&utm_campaign=thursday-assorted-links-579",
+      "summary": "1. How to turn AI-written maths into a video. 2. Honeypot markets in everything? 3. Traveling a lot without going on planes (WSJ). 4. American audiovisual exports have plunged in terms of global shar…",
+      "publishedAt": "2026-11-19T17:16:30.000Z"
     }
   },
   "https://marinehowto.com/": {
@@ -5585,10 +5585,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://mleddy.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Grammy-adjacent-adjacent",
-      "url": "https://mleddy.blogspot.com/2026/11/grammy-adjacent-adjacent.html",
-      "summary": "I write this morning as someone adjacent to someone who is Grammy-adjacent: The Bridgetower Project (“restoring the legacy of Afro-European violin virtuoso George Bridgetower”) has been nominated for…",
-      "publishedAt": "2026-11-19T14:53:35.947Z"
+      "title": "Three little words",
+      "url": "https://mleddy.blogspot.com/2026/11/three-little-words.html",
+      "summary": "The current occupant, speaking of a murderous dictator : “He’s my friend.” Perhaps the most despicable words ever spoken by American president. [When the truth finally emerges about what Vladimir Put…",
+      "publishedAt": "2026-11-19T17:01:40.294Z"
     }
   },
   "https://mohawkvalleygirl.com/": {
@@ -5659,13 +5659,13 @@
   },
   "https://moneypulsar.com/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://moneypulsar.com/feed/",
     "latestArticle": {
-      "title": "7 Best Debt Consolidation Options to Pay Off Debt Fast",
-      "url": "https://moneypulsar.com/debt-consolidation-options/",
-      "summary": "Compare the top debt consolidation options, including personal loans, balance transfers, and HELOCs. See the math, the risks, and which option is best for you.",
-      "publishedAt": "2026-11-17T04:00:00.000Z"
+      "title": "How Long Will My Money Last? Free Retirement Calculator",
+      "url": "https://moneypulsar.com/how-long-will-my-money-last-calculator/",
+      "summary": "Home › Retirement Planning › How Long Will My Money Last Calculator Retirement savings are meant to support you for years, but will they last as long as you need? Enter your savings at retirement, mo…",
+      "publishedAt": "2026-11-19T04:00:00.000Z"
     }
   },
   "https://moneywithkatie.com/blog/": {
@@ -6021,13 +6021,13 @@
   },
   "https://neveenwood.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "STYLEVANA Christmas Box 2026: What’s in All Three SVending Machine Boxes",
-      "url": "https://neveenwood.com/stylevana-christmas-box/",
-      "summary": "The STYLEVANA Christmas box 2026 comes in three SVending Machine versions for dry, oily and combination skin. Here's what's in each box, the price, the launch date and the 25% off order offer.",
-      "publishedAt": "2026-11-18T08:00:00.000Z"
+      "title": "The Ordinary Multi-Peptide Serum for Hair Density Review: 3.5 Bottles In, With Androgenetic Alopecia",
+      "url": "https://neveenwood.com/the-ordinary-multi-peptide-serum-review/",
+      "summary": "My The Ordinary Multi-Peptide Serum for Hair Density review after four months and 3.5 bottles: what's in it, what the research shows, how I use it with a wig and what changed.",
+      "publishedAt": "2026-11-19T17:07:41.000Z"
     }
   },
   "https://new-lune.com/": {
@@ -6740,10 +6740,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://pohortai.com.ua/feed/",
     "latestArticle": {
-      "title": "Дайкон, огірки й морква постояли 15 хвилин, поки пустили сік",
-      "url": "https://pohortai.com.ua/statti/daykon-ohirky-y-morkva-postoyaly-15-hvylyn-poky-pustyly-sik/",
-      "summary": "Два рецепти з редьки: салат із дайкону в азійському стилі та салат із чорної редьки, моркви й яєць, зі складом і калорійністю.",
-      "publishedAt": "2026-11-19T15:35:05.000Z"
+      "title": "Фіналістів «Книги року BBC 2026» журі відібрало з 41 видання лонгліста",
+      "url": "https://pohortai.com.ua/statti/finalistiv-knyhy-roku-bbc-2026-zhuri-vidibralo-z-41-vydannya-lonhlista/",
+      "summary": "Премія «Книга року BBC 2026» оголосила короткі списки в трьох номінаціях, переможців назвуть на церемонії 10 грудня.",
+      "publishedAt": "2026-11-19T17:15:03.000Z"
     }
   },
   "https://pointersandhooksyt.wordpress.com/": {
@@ -6868,13 +6868,13 @@
   },
   "https://pulpcovers.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "Death In The Flood",
-      "url": "https://pulpcovers.com/death-in-the-flood/",
-      "summary": "via",
-      "publishedAt": "2026-11-18T21:21:36.000Z"
+      "title": "The Electrical Man",
+      "url": "https://pulpcovers.com/the-electrical-man/",
+      "summary": "Fifth and final issue via",
+      "publishedAt": "2026-11-19T16:46:23.000Z"
     }
   },
   "https://pumpkinrot.blogspot.com/": {
@@ -7371,9 +7371,9 @@
     "lastPublished": "2026-11-18",
     "feedUrl": "https://rolandtanglao.com/feed.xml",
     "latestArticle": {
-      "title": "Avoid the mess at Broadway and Victoria when bicycling east bound on Grandview. After passing Commercial drive, turn left from Grandview onto East 8th Avenue (if you go straight you will end up in the 'messy' Broadway/Victoria intersection).",
-      "url": "http://rolandtanglao.com/2026/11/18/p0750-avoid-mess-broadway-victoria-bicycling-east/",
-      "summary": "Draft created : Nov 18, 2026 14:50 (UTC). For those on Strava: Afternoon Ride ¦ Ride ¦ Strava See the following screenshot from Strava on flickr:",
+      "title": "Quixotic :-) quest to fix our 30 year old broken Delta shower handle with a diamond 'broach': Delta RP17451 Clear Knob Handle Kit for Tub and Shower, Faucet Handles",
+      "url": "http://rolandtanglao.com/2026/11/18/p0943-quest-to-replace-30-year-old-delta-shower-handle/",
+      "summary": "Discovered : Nov 18, 2026 16:43 (UTC) Quixotic :-) Quest to fix our broken shower handle: Delta RP17451 Clear Knob Handle Kit for Tub and Shower, Faucet Handles - Amazon Canada <– Perfect replacement…",
       "publishedAt": "2026-11-18T08:00:00.000Z"
     }
   },
@@ -7516,10 +7516,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://salsagadgets.com/feed/",
     "latestArticle": {
-      "title": "GTA 6 Is Finally Out Worldwide After 13 Years of Waiting",
-      "url": "https://salsagadgets.com/2026/11/19/gta-6-is-finally-out-worldwide-after-13-years-of-waiting/",
-      "summary": "Salsa Gadgets After more than a decade of anticipation, Rockstar Games has officially released Grand Theft Auto VI (GTA 6), bringing one of the most anticipated video game launches in history to real…",
-      "publishedAt": "2026-11-19T15:11:27.000Z"
+      "title": "iPhone 20 Pro Could Bring Back Titanium Frame With a Curved Design",
+      "url": "https://salsagadgets.com/2026/11/19/iphone-20-pro-could-bring-back-titanium-frame-with-a-curved-design/",
+      "summary": "Salsa Gadgets Apple moved away from titanium and returned to aluminum for the frames of the iPhone 17 Pro and 17 Pro Max, keeping the same material for this year’s iPhone 18 Pro and 18 Pro Max. Howev…",
+      "publishedAt": "2026-11-19T16:54:47.000Z"
     }
   },
   "https://sandyroybessbugzy.com/": {
@@ -8348,10 +8348,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://talkingupscotlandtwo.com/feed/",
     "latestArticle": {
-      "title": "These three North American ferries are still in service though between 30 and 45 years older than the age deemed old by corporate media in Scotland",
-      "url": "https://talkingupscotlandtwo.com/2026/11/19/these-three-north-american-ferries-are-still-in-service-though-between-30-and-45-years-older-than-the-age-deemed-old-by-corporate-media-in-scotland/",
-      "summary": "From the Alaska Beacon in July 2026, the above and: A Louisiana shipbuilder is proposing to build a replacement for one of the workhorse vessels in the Alaska state ferry fleet. Thoma-Sea Marine Cons…",
-      "publishedAt": "2026-11-19T12:39:35.000Z"
+      "title": "The slaughterhouse of journalism – hysterically politicising a staff dispute in an Aberdeen hospital with only 0.07% higher mortality – hogwash!",
+      "url": "https://talkingupscotlandtwo.com/2026/11/19/the-slaughterhouse-of-journalism-hysterically-politicising-a-staff-dispute-in-an-aberdeen-hospital-with-only-0-07-higher-mortality-hogwash/",
+      "summary": "Fast and perceptive as you like, MSM Monitor has responded to the above stories with: There is more to the NHS Grampian story than the BBC is reporting. This 2019 tribunal includes two of the doctors…",
+      "publishedAt": "2026-11-19T17:00:41.000Z"
     }
   },
   "https://tamedex.com/": {
@@ -8671,10 +8671,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://thediaryofdad.com/feed/",
     "latestArticle": {
-      "title": "Indoor Activities for 8 Year Olds at Home",
-      "url": "https://thediaryofdad.com/indoor-activities-for-8-year-olds-at-home",
-      "summary": "Keeping an eight-year-old entertained indoors is a different challenge from entertaining a toddler. A few years ago, I could bring out some paper plates, paint and glue, and we’d happily spend an aft…",
-      "publishedAt": "2026-11-19T13:36:48.000Z"
+      "title": "Free Printable Christmas Colouring Pages for Kids (12 Sheets)",
+      "url": "https://thediaryofdad.com/christmas-colouring-pages",
+      "summary": "Download 12 free printable Christmas colouring pages for kids, featuring Santa, reindeer, snowmen, Christmas trees and more. Easy A4 festive colouring sheets.",
+      "publishedAt": "2026-11-19T17:10:52.000Z"
     }
   },
   "https://thedirtbagdao.com/": {
@@ -8748,13 +8748,13 @@
   },
   "https://thefigureinquestion.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://thefigureinquestion.com/feed/",
     "latestArticle": {
-      "title": "#4162: Cyclops",
-      "url": "https://thefigureinquestion.com/2026/11/18/4162-cyclops/",
-      "summary": "CYCLOPS X2: X-MEN UNITED (TOY BIZ) December’s Avengers Doomsday may look to be a bit of a big dumb mess of a movie, but I’ll admit to being drawn in by the return of some older Marvel actors, and hea…",
-      "publishedAt": "2026-11-18T17:00:24.000Z"
+      "title": "#4163: Mandalorian Warrior",
+      "url": "https://thefigureinquestion.com/2026/11/19/4163-mandalorian-warrior/",
+      "summary": "MANDALORIAN WARRIOR STAR WARS: THE CLONE WARS (HASBRO) “Dissatisfied by Mandalore’s official policy of pacifism, many Mandalorian warriors have joined a secret organization known as the Death Watch. …",
+      "publishedAt": "2026-11-19T17:00:20.000Z"
     }
   },
   "https://thefilm.blog/": {
@@ -9303,13 +9303,13 @@
   },
   "https://tonysbologna.com/": {
     "status": "success",
-    "lastPublished": "2026-11-12",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://tonysbologna.com/feed/",
     "latestArticle": {
-      "title": "Places Where Americans Lose Their Mind",
-      "url": "https://tonysbologna.com/2026/11/12/places-where-americans-lose-their-mind/?utm_source=rss&utm_medium=rss&utm_campaign=places-where-americans-lose-their-mind",
-      "summary": "Patience is thin. The post Places Where Americans Lose Their Mind first appeared on tonysbologna : Honest. Satirical. Observations .",
-      "publishedAt": "2026-11-12T14:13:40.000Z"
+      "title": "The Great Thanksgiving Drumstick Battle",
+      "url": "https://tonysbologna.com/2026/11/19/the-great-thanksgiving-drumstick-battle/?utm_source=rss&utm_medium=rss&utm_campaign=the-great-thanksgiving-drumstick-battle",
+      "summary": "Who will sit on the Thanksgiving Throne? The post The Great Thanksgiving Drumstick Battle first appeared on tonysbologna : Honest. Satirical. Observations .",
+      "publishedAt": "2026-11-19T17:07:34.000Z"
     }
   },
   "https://tonysreadinglist.wordpress.com/": {
@@ -9567,7 +9567,7 @@
   },
   "https://usefreetools.net/": {
     "status": "unknown",
-    "feedUrl": "https://usefreetools.net/assets/brand/favicon-v2.svg?v=0.91.4"
+    "feedUrl": "https://usefreetools.net/assets/brand/favicon-v2.svg?v=0.91.5"
   },
   "https://vhbelvadi.com/": {
     "status": "success",
@@ -10057,10 +10057,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "what are the worst or weirdest comments about work you’ve gotten from family members?",
-      "url": "https://www.askamanager.org/2026/11/what-are-the-worst-or-weirdest-comments-about-work-youve-gotten-from-family-members.html",
-      "summary": "We’re moving into the time of year for family gatherings, which means it’s the time of year for really weird career advice from family members — the uncle who’s confident the most important thing you…",
-      "publishedAt": "2026-11-19T15:59:49.000Z"
+      "title": "updates: the quarantine special project, the wide salary ranges, and more",
+      "url": "https://www.askamanager.org/2026/11/updates-the-quarantine-special-project-the-wide-salary-ranges-and-more.html",
+      "summary": "Here are four updates from past letter-writers. 1. I’m supposed to share a special project I’m working on during quarantine — and I don’t have one (#5 at the link) I’m so grateful you answered so qui…",
+      "publishedAt": "2026-11-19T17:29:47.000Z"
     }
   },
   "https://www.authenticallyemily.uk/": {
@@ -10122,10 +10122,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO's 2026 employee-exclusive set is unlike previous gifts",
-      "url": "https://www.brickfanatics.com/lego-2026-employee-exclusive-set-unlike-previous",
-      "summary": "Spoiler alert for LEGO employees!",
-      "publishedAt": "2026-11-19T15:27:53.000Z"
+      "title": "LEGO BrickLink is ‘temporarily unavailable’ once again",
+      "url": "https://www.brickfanatics.com/lego-bricklink-is-temporarily-unavailable-once-again",
+      "summary": "Access denied... for now",
+      "publishedAt": "2026-11-19T17:37:46.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -10191,10 +10191,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "Jorge Gutiérrez, Emily Brundige, and Agora Studio Join Heeboo’s Founding Slate",
-      "url": "https://www.cartoonbrew.com/animators/heeboo-jorge-gutierrez-emily-brundige-agora-269603.html",
-      "summary": "From a 1950s vampire family to a kid who can rewrite reality, the creator-owned projects will get their own fan communities starting in January 2027.",
-      "publishedAt": "2026-11-19T15:24:45.000Z"
+      "title": "2027 Oscars Short Film Contenders: ‘Danse Macabre’ Director Hisko Hulsing",
+      "url": "https://www.cartoonbrew.com/awards/danse-macabre-hisko-hulsing-269621.html",
+      "summary": "Oil paintings, animated skeletons, and Shostakovich’s music shape an apocalyptic vision of war inspired by fears of resurgent fascism.",
+      "publishedAt": "2026-11-19T17:18:52.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -10363,10 +10363,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "New $100 Off Disney World Resort Coupon Coming for Black Friday",
-      "url": "https://www.disneytouristblog.com/100-off-disney-world-resort-coupon-for-black-friday/",
-      "summary": "A new Black Friday sale on Walt Disney World resort hotels starts very soon. This exclusive limited-time coupon offers $100 off bookings, and appears that it’ll be stackable with existing general pub…",
-      "publishedAt": "2026-11-19T16:35:51.000Z"
+      "title": "Disney World Closing Pirates of the Caribbean for Nearly Year-Long 2027 Refurbishment and ‘New Magic’",
+      "url": "https://www.disneytouristblog.com/disney-world-closing-pirates-of-the-caribbean-for-nearly-year-long-2027-refurbishment-and-new-magic/",
+      "summary": "Walt Disney World has announced that Pirates of the Caribbean at Magic Kingdom will close in early 2027 for a lengthy refurbishment and enhancements, with the closure lasting most of the year. Here’s…",
+      "publishedAt": "2026-11-19T17:05:36.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -10596,10 +10596,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "New lighting scheme proposed for St Paul’s Cathedral",
-      "url": "https://www.ianvisits.co.uk/articles/new-lighting-scheme-proposed-for-st-pauls-cathedral-94081/",
-      "summary": "St Paul’s Cathedral could adopt a softer lighting scheme at night, replacing the existing bland spotlights with something that highlights the architecture rather than washing out the details. Read mo…",
-      "publishedAt": "2026-11-19T16:00:33.000Z"
+      "title": "The London Buzz – 19th Nov 2026",
+      "url": "https://www.ianvisits.co.uk/articles/the-london-buzz-19th-nov-2026-94260/",
+      "summary": "Today’s London news round-up: Read more ›",
+      "publishedAt": "2026-11-19T17:00:20.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -10628,10 +10628,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
-      "title": "TalkTalk’s administrators detail UK broadband provider’s £2bn of debts",
-      "url": "https://www.ispreview.co.uk/index.php/2026/11/talktalks-administrators-detail-uk-broadband-providers-2bn-of-debts.html",
-      "summary": "The administrators for broadband ISP TalkTalk (inc. PXC), Alvarez & Marsal, have today revealed details of the company’s £2bn in debts (i.e. who was owed what) – before it was controversially sold to…",
-      "publishedAt": "2026-11-19T16:39:21.000Z"
+      "title": "Netgem upgrades UK 4K PLEIO Freely TV streaming box with PLEIO Cinema",
+      "url": "https://www.ispreview.co.uk/index.php/2026/11/netgem-upgrades-uk-4k-pleio-freely-tv-streaming-box-with-pleio-cinema.html",
+      "summary": "Digital entertainment platform Netgem has this afternoon announced that UK owners of their new broadband-based live TV and Freely supporting streaming box, PLEIO , can now access PLEIO Cinema. This i…",
+      "publishedAt": "2026-11-19T17:05:32.000Z"
     }
   },
   "https://www.itsdougholland.com/": {
@@ -10719,10 +10719,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "67 Years Ago, a Roman Underground City of More Than Two Kilometres of Completely Empty Tunnels Was Discovered Beneath Lyon—and We Still Do Not Know What It Was For",
-      "url": "https://www.labrujulaverde.com/en/2026/11/67-years-ago-a-roman-underground-city-of-more-than-two-kilometres-of-completely-empty-tunnels-was-discovered-beneath-lyonand-we-still-do-not-know-what-it-was-for/",
-      "summary": "In 1959, the discovery of a deep well on the eastern slope of the Croix-Rousse hill in Lyon brought to light one of the strangest underground monuments of the Roman world. More than 22 metres below t…",
-      "publishedAt": "2026-11-19T13:38:08.000Z"
+      "title": "Archaeologists believe the strange 158-meter tunnel cut into the rock at the Arsameia sanctuary was a sacred trap through which pilgrims descended to nowhere",
+      "url": "https://www.labrujulaverde.com/en/2026/11/archaeologists-believe-the-strange-158-meter-tunnel-cut-into-the-rock-at-the-arsameia-sanctuary-was-a-sacred-trap-through-which-pilgrims-descended-to-nowhere/",
+      "summary": "Around 40 BC, two pilgrims are imagined to have set out from Doliche, on the southern border of the kingdom of Commagene, for the tomb-sanctuary, or Hierothesion, of King Mithridates I Callinicus. Th…",
+      "publishedAt": "2026-11-19T17:11:21.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -10781,9 +10781,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/18/working-on-syncing-our-books.html",
-      "summary": "Working on syncing our books via AT Protocol, now that there’s a new convention for how to structure book metadata. Might not be noticeable right away, other than a new preference, but it’ll become m…",
-      "publishedAt": "2026-11-19T05:22:08.000Z"
+      "title": "The fall of Jensen Huang",
+      "url": "https://www.manton.org/2026/11/19/the-fall-of-jensen-huang.html",
+      "summary": "The news lately around Nvidia is fascinating. My feelings have drifted back and forth. Initially I could not believe that Jensen Huang would resign. Last night I also watched a couple DealBook interv…",
+      "publishedAt": "2026-11-19T16:46:11.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -11103,9 +11104,9 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.rascal.news/rss/",
     "latestArticle": {
-      "url": "https://www.rascal.news/ken-st-andre-creator-of-tunnels-trolls-has-passed-away/",
-      "summary": "The designer of the second tabletop RPG left behind a decades-spanning legacy.",
-      "publishedAt": "2026-11-19T15:00:00.000Z"
+      "url": "https://www.rascal.news/tallgrass-a-game-about-sustaining-hope-in-a-strange-and-uncertain-world/",
+      "summary": "New GMless one-shot from Storymarsh Games available now",
+      "publishedAt": "2026-11-19T17:00:00.000Z"
     }
   },
   "https://www.retrogarden.co.uk/": {
@@ -11572,10 +11573,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Bored of GTA VI Already? LOST MEDIA Volvy's Adventure DX Is Where the Action's REALLY at",
-      "url": "https://www.timeextension.com/#article-209324",
-      "summary": "Why play what the entire world is playing? I get it. I get it. You stayed up 'til midnight, paid your £100, you've stolen an ice cream van, you've nihilistically shot 100 NPCs in the face, you've wor…",
-      "publishedAt": "2026-11-19T16:00:00.000Z"
+      "title": "Chill Electronics Repair Sim 'ReStory' Is Getting Some Premium Commodore-Themed DLC Next Year",
+      "url": "https://www.timeextension.com/#article-209289",
+      "summary": "Time to crack open the old breadbox! Not content to draw the line at Atari consoles and accessories, TinyBuild and Mandragora have announced they have signed a deal with Commodore International to br…",
+      "publishedAt": "2026-11-19T17:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {

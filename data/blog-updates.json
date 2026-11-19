@@ -1876,8 +1876,8 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
-    "status": "success",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "status": "unavailable",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
       "title": "Proton’s Lumo AI chatbot is now available on Linux desktops",
@@ -2961,14 +2961,14 @@
     }
   },
   "https://thebusbybabe.sbnation.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
+    "lastPublished": "2026-11-18",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36446/countdown-midseason-managerial-appointments-from-worst-to-best",
-      "summary": "Manchester United have endured their worst start to a season in four decades, dating back to November 1986, when Sir Alex Ferguson replaced Ron Atkinson in the Old Trafford dugout. It would prove to …",
-      "publishedAt": "2026-11-16T00:28:58.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36452/lame-duck-ineos",
+      "summary": "There’s plenty to complain about for United fans, but it’s telling that few have really complained about the Glazer family accelerating Mauricio Pochettino’s appointment. Most United fans have much t…",
+      "publishedAt": "2026-11-17T06:30:00.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -2991,13 +2991,13 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/174121/chelsea-fcw-vs-paris-saint-germain-feminine-uefa-womens-champions-league-confirmed-lineups-how-to-watch",
-      "summary": "A still unbeaten Chelsea Women head to Plough Lane in Wimbledon tonight looking to extend the streak and why not add three more points to the UEFA Women’s Champions League table in their encounter wi…",
-      "publishedAt": "2026-11-18T19:19:37.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/chelsea-fc-women/174110/chelsea-fcw-vs-paris-saint-germain-feminine-womens-champions-league-preview-team-news-how-to-watch",
+      "summary": "Chelsea Women return to Plough Lane tonight to welcome Paris Saint-Germain, a familiar European opponent and Sandy Baltimore’s former club. The Blues have yet to concede a goal in the Champions Leagu…",
+      "publishedAt": "2026-11-18T10:09:34.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -3127,15 +3127,15 @@
     }
   },
   "https://lwn.net/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T16:44:39.197Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://lwn.net/headlines/rss",
     "latestArticle": {
-      "title": "NGINX2Root: Remote Code Execution vulnerabilities in nginx",
-      "url": "https://lwn.net/Articles/1108362/",
-      "summary": "Xint is reporting that it has discovered a collection of five critical vulnerabilities in the NGINX web server. The worst flaw, it says, would allow an unauthenticated attacker to execute commands on…",
-      "publishedAt": "2026-11-18T16:13:34.000Z"
+      "title": "[$] LWN.net Weekly Edition for November 19, 2026",
+      "url": "https://lwn.net/Articles/1107147/",
+      "summary": "Inside this week's LWN.net Weekly Edition: Front : C++26 standard; Buildroot; Faster futexes; Zellij; Julia language. Briefs : Glasswing; NGINX RCE; XRAID; Manjaro nonprofit; 30 years of curl; MATE; …",
+      "publishedAt": "2026-11-19T01:05:03.000Z"
     }
   },
   "https://www.disneytouristblog.com/": {
@@ -3265,15 +3265,15 @@
     "feedUrl": "https://blog.tomayac.com/feed/feed.xml"
   },
   "https://chriscoyier.net/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-06T23:44:31.352Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://chriscoyier.net/feed/",
     "latestArticle": {
-      "title": "Got Them Little Side Projects Moved to CodePen Hosting",
-      "url": "https://chriscoyier.net/2026/11/06/got-them-little-side-projects-moved-to-codepen-hosting/",
-      "summary": "I had my little Smashburgers in Bend website on Astro on Cloudflare Pages. While I 💜 both of those things, CodePen hosting is more than capable, and that’s obviously extremely fun and satisfying for …",
-      "publishedAt": "2026-11-06T23:42:31.000Z"
+      "title": "Ground Stoppage: $1,825.15",
+      "url": "https://chriscoyier.net/2026/11/18/ground-stoppage-1825-15/",
+      "summary": "I’m one of those lucky few that was trying to get on an airplane on Friday evening, November 13th. Just for my own memories and whatnot, I thought I’d write up my journey. I was visiting friends in W…",
+      "publishedAt": "2026-11-19T01:43:04.000Z"
     }
   },
   "https://www.zephoria.org/thoughts/": {
@@ -3833,15 +3833,15 @@
     }
   },
   "https://www.web-goddess.org/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T23:44:30.387Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "A Succulent Chinese Meal",
-      "url": "https://www.web-goddess.org/archive/95821",
-      "summary": "I really like seeing the process of how a song like this is created!",
-      "publishedAt": "2026-11-18T23:34:58.000Z"
+      "title": "State Library of NSW Fellows Forum",
+      "url": "https://www.web-goddess.org/archive/95825",
+      "summary": "Last night I went over to the State Library for the Foundation AGM, where they recapped the highlights of this fantastic 200th anniversary year. Many of the Library’s biggest donors were in the room,…",
+      "publishedAt": "2026-11-19T01:09:12.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -4446,8 +4446,8 @@
   },
   "https://www.traingeek.ca/wp/": {
     "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T12:44:32.034Z",
-    "status": "success",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "status": "unavailable",
     "feedUrl": "https://www.traingeek.ca/wp/feed/",
     "latestArticle": {
       "title": "CP 8032 in Saint John",
@@ -5679,8 +5679,8 @@
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
     "lastPublished": "2026-06-20",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "status": "success",
     "feedUrl": "https://www.thelifeofaglasgowgirl.co.uk/feed/",
     "latestArticle": {
       "title": "8 of The Best Colouring Books for Millennials You Need",
@@ -5939,14 +5939,14 @@
     }
   },
   "https://www.manton.org/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T21:44:31.714Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/18/from-the-artificial-trailer-the.html",
-      "summary": "From the Artificial trailer , the movie looks really well cast. I’m going to see this, but the Sam Altman characterization is so over the top, I think it will be purely for entertainment value.",
-      "publishedAt": "2026-11-18T21:45:00.000Z"
+      "url": "https://www.manton.org/2026/11/18/working-more-with-swiftui-partially.html",
+      "summary": "Working more with SwiftUI, partially against my will. 🤪 It seems to introduce quirkiness that would never happen in AppKit. Almost like the default behavior is a little off, so you have to massage it…",
+      "publishedAt": "2026-11-19T01:04:07.000Z"
     }
   },
   "https://prettyspooky.life/": {
@@ -6449,8 +6449,8 @@
   },
   "https://addtowantlist.com/": {
     "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "status": "success",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
       "title": "New EP: Jupiter Eye || Demo III Chicago's latest excuse to turn everything up",
@@ -7526,15 +7526,15 @@
     }
   },
   "https://www.fromthemurkydepths.co.uk/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
-    "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
+    "feedUrl": "https://www.fromthemurkydepths.co.uk/comments/feed/",
     "latestArticle": {
-      "title": "New plans for 400 student-room development at Deptford Creekside art studio site",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/11/18/new-plans-for-400-student-room-development-at-deptford-creekside-art-studio-site/",
-      "summary": "Revised plans are being drawn up for around 400 student rooms at 3-9 Creekside in Deptford. It’s three years ago plans were submitted for 231 student rooms at 5-9 Creekside. That was approved but it’…",
-      "publishedAt": "2026-11-18T22:29:41.000Z"
+      "title": "Comment on Bromley to see rail improvements from next month by T",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/11/18/bromley-to-see-rail-improvements-from-next-month/#comment-112711",
+      "summary": "I wish Steve White would stop calling restored services an \"improvement\" on his twitter where he seems to be mainly active on! Those restored services mentioned should not of been cut in the first pl…",
+      "publishedAt": "2026-11-19T00:48:15.000Z"
     }
   },
   "https://www.worldofreel.com/": {
@@ -7694,8 +7694,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-19T00:44:30.970Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7796,8 +7796,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-19T00:44:30.970Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -8200,15 +8200,15 @@
     }
   },
   "https://mporcius.blogspot.com/": {
-    "lastPublished": "2026-11-15",
-    "lastChecked": "2026-11-15T17:44:29.471Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://mporcius.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "The Time-Raider by Edmond Hamilton",
-      "url": "https://mporcius.blogspot.com/2026/11/the-time-raider-by-edmond-hamilton.html",
-      "summary": "Up, up they came, a sea of ragged figures, a storm of flashing weapons. A catlike Egyptian and a giant Chinaman were first of that mob, with behind them the massed weight of the hordes in the pit, pu…",
-      "publishedAt": "2026-11-15T16:51:41.473Z"
+      "title": "Flame Winds by Norvell W. Page",
+      "url": "https://mporcius.blogspot.com/2026/11/flame-winds-by-norvell-w-page.html",
+      "summary": "\"...I have need of more jewels, Tsien Hui, and they tell me in Turgohl that thou hast the name of a wizard. Now, as a true son of Christos, it is my sworn duty to slit wizard throats. Since my sword …",
+      "publishedAt": "2026-11-19T01:20:24.528Z"
     }
   },
   "https://monevator.com/": {
@@ -8748,15 +8748,15 @@
     "feedUrl": null
   },
   "https://sevensisterslove.com/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T01:44:28.998Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://sevensisterslove.com/feed/",
     "latestArticle": {
-      "title": "Still thinking of them",
-      "url": "https://sevensisterslove.com/2026/11/18/still-thinking-of-them/",
-      "summary": "What’s something you’ve done purely for your own happiness? A few months ago, I bought a very cheap sling bag for me and Mama. It’s so funny! I pull something stick on the zipper, thinking it looks p…",
-      "publishedAt": "2026-11-18T01:29:02.000Z"
+      "title": "The cymbals update",
+      "url": "https://sevensisterslove.com/2026/11/19/the-cymbals-update/",
+      "summary": "My plan is to skip blogging today coz I felt a bit dizzy due to sleep deprivation last night, but I received a chat containing the rest of the cymbals, so I posted this update. You can view the edite…",
+      "publishedAt": "2026-11-19T01:02:36.000Z"
     }
   },
   "https://peaceful-threads.com/": {
@@ -9262,15 +9262,15 @@
     }
   },
   "https://livoragracely.com/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T21:34:12.425Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "A Seat for Bunny",
-      "url": "https://livoragracely.com/2026/11/19/a-seat-for-bunny/",
-      "summary": "Tea was served to a very patient guest. The Best Seat Bunny had been given the best chair, the first cup, and a biscuit to look after. Rosie placed a little vase of flowers in the middle of the table…",
-      "publishedAt": "2026-11-18T21:18:58.000Z"
+      "title": "The Son Who Obeyed",
+      "url": "https://livoragracely.com/2026/11/19/the-son-who-obeyed/",
+      "summary": "Hebrews 5:8–10 Through suffering, the Son obeyed and became the source of eternal salvation. The flood had not yet come when Noah began to build.¹ God had warned him about what was to come and told h…",
+      "publishedAt": "2026-11-19T00:49:27.000Z"
     }
   },
   "https://edoodless.wordpress.com/": {
@@ -9810,15 +9810,15 @@
     }
   },
   "https://musingsbydoddzilla.org/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T14:44:36.187Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://musingsbydoddzilla.org/feed/",
     "latestArticle": {
-      "title": "The gift of Grace-renewed",
-      "url": "https://musingsbydoddzilla.org/2026/11/18/the-gift-of-grace-renewed/",
-      "summary": "The essence of grace A gift undeserved A blessing bestowed beyond measure So acutely aware, here in this space How great is the weight of this treasure Crushed beneath burdens of our own making You o…",
-      "publishedAt": "2026-11-18T14:14:00.000Z"
+      "title": "Changes-continue",
+      "url": "https://musingsbydoddzilla.org/2026/11/18/changes-continue/",
+      "summary": "The universe is nothing more Than a great collection of miracles Clumps of stardust creating worlds Clumps of cells becoming beautiful beings Clumps of ideas creating change Clumps of people changing…",
+      "publishedAt": "2026-11-19T01:03:45.000Z"
     }
   },
   "https://tonysbologna.com/": {
@@ -9883,13 +9883,13 @@
   },
   "https://parisexpat2012.wordpress.com/": {
     "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://parisexpat2012.wordpress.com/feed/",
     "latestArticle": {
       "title": "De Toliara à Isalo",
       "url": "https://parisexpat2012.wordpress.com/2026/11/18/de-toliara-a-isalo/",
-      "summary": "De Toliara, au sud-ouest de Madagascar, nous avons remonté lentement pendant plusieurs jours vers le nord-est de l’île en passant par plusieurs parcs nationaux. Avant d’entreprendre ce périple sur le…",
+      "summary": "De Toliara, au sud-ouest de Madagascar, nous avons remonté lentement pendant plusieurs jours vers le nord-est de l’île en passant … Continue reading →",
       "publishedAt": "2026-11-18T11:53:27.000Z"
     }
   },
@@ -11044,15 +11044,15 @@
     }
   },
   "https://rubberboa.wordpress.com/": {
-    "lastPublished": "2026-11-16",
-    "lastChecked": "2026-11-16T23:44:27.744Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://rubberboa.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Sabang Wreck on the Return (Nov. 14)",
-      "url": "https://rubberboa.wordpress.com/2026/11/16/sabang-wreck-on-the-return-nov-14/",
-      "summary": "I just happened on this rather massive school of yellow striped goatfish, but could hardly get into the middle of the school without sending them in five different directions. I can’t resist Sabang W…",
-      "publishedAt": "2026-11-16T23:04:21.000Z"
+      "title": "Beating the Current—Monkey Beach (Nov. 16)",
+      "url": "https://rubberboa.wordpress.com/2026/11/19/beating-the-current-monkey-beach-nov-16/",
+      "summary": "This is what a golden rabbitfish looks like when you can get close enough to it to shed light on it. They really are a beautiful fish. I used to have a book that revealed the names of so many nudibra…",
+      "publishedAt": "2026-11-19T01:46:08.000Z"
     }
   },
   "https://leighkempphotoblog.co.uk/": {
@@ -11487,15 +11487,15 @@
     }
   },
   "https://ladyalicewonderland.wordpress.com/": {
-    "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T20:44:31.329Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://ladyalicewonderland.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Home",
-      "url": "https://ladyalicewonderland.wordpress.com/2026/11/17/home/",
-      "summary": "Would you rather work from an office or remotely? View all responses Not because of people, although that’s part of it. I just don’t want to waste gas sitting in traffic just to see people at a place…",
-      "publishedAt": "2026-11-17T20:33:39.000Z"
+      "title": "What Can I Say?",
+      "url": "https://ladyalicewonderland.wordpress.com/2026/11/18/what-can-i-say/",
+      "summary": "What’s something you’ve done purely for your own happiness? View all responses The thing about me is that I love to create. The top things I also like to do are pay off my bills so they don’t hang ov…",
+      "publishedAt": "2026-11-19T01:24:54.000Z"
     }
   },
   "https://bonniegjennings.wordpress.com/": {
@@ -11856,15 +11856,15 @@
     }
   },
   "https://yallcomesitaspell.com/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T10:44:32.552Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://yallcomesitaspell.com/feed/",
     "latestArticle": {
-      "title": "Choosing Myself, With Abandon",
-      "url": "https://yallcomesitaspell.com/2026/11/18/choosing-myself-with-abandon/",
-      "summary": "What’s something you’ve done purely for your own happiness? Good morning, y’all! The coffee is on, the porch is open, and there’s always a chair waiting for you here at the Grove. This morning got of…",
-      "publishedAt": "2026-11-18T10:38:23.000Z"
+      "title": "The Great Depression: When the Cracks Become a Collapse",
+      "url": "https://yallcomesitaspell.com/2026/11/18/the-great-depression-when-the-cracks-become-a-collapse/",
+      "summary": "We’ve spent this month looking backward, examining the history we were taught and discovering what was left out. But sometimes, “you don’t know what you don’t know” isn’t about uncovering something t…",
+      "publishedAt": "2026-11-19T01:30:00.000Z"
     }
   },
   "https://joyfulstephanie.com/": {
@@ -11928,15 +11928,15 @@
     }
   },
   "https://www.themovieboards.net/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T05:44:28.704Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "Act for Kids on Game Time Awareness",
-      "url": "https://www.themovieboards.net/2026/11/18/act-for-kids-on-game-time-awareness/",
-      "summary": "A national child protection organisation is promoting the importance of Game Time Awareness as anticipation for the Grand Theft Auto (GTA) 6 video game reaches fever pitch. Act for Kids is reminding …",
-      "publishedAt": "2026-11-18T05:23:39.000Z"
+      "title": "Hershey’s is bringing back the bar’s original five-cent price in celebration of HERSHEY, the upcoming movie",
+      "url": "https://www.themovieboards.net/2026/11/19/hersheys-is-bringing-back-the-bars-original-five-cent-price-in-celebration-of-hershey-the-upcoming-movie/",
+      "summary": "For generations, Hershey’s Milk Chocolate Bars have been part of the moments and memories people share. On Wednesday, Nov. 25, 2026, Hershey’s is bringing back the bar’s original five-cent price in c…",
+      "publishedAt": "2026-11-19T01:00:04.000Z"
     }
   },
   "https://esotericmeanderingshoutingintothevoid.blog/": {
@@ -12324,15 +12324,15 @@
     }
   },
   "https://knightarmordefense.com/": {
-    "lastPublished": "2026-11-12",
-    "lastChecked": "2026-11-16T13:28:05.081Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://knightarmordefense.com/feed/",
     "latestArticle": {
-      "title": "What Does NETD Mean on a Thermal Scope?",
-      "url": "https://knightarmordefense.com/Blog/what-does-netd-mean-on-a-thermal-scope/",
-      "summary": "What does NETD mean on a thermal scope? Learn how mK sensitivity affects image clarity, why lower NETD helps, and which specs matter for hunting. The post What Does NETD Mean on a Thermal Scope? firs…",
-      "publishedAt": "2026-11-12T19:27:51.000Z"
+      "title": "Thermal Scope Battery Life in Cold Weather: The Complete Winter Hunting Guide",
+      "url": "https://knightarmordefense.com/Blog/thermal-scope-battery-cold-weather-guide/",
+      "summary": "Learn how cold weather affects thermal scope battery life, which battery systems perform best, and how to keep your optic powered during winter hunts. The post Thermal Scope Battery Life in Cold Weat…",
+      "publishedAt": "2026-11-19T00:58:34.000Z"
     }
   },
   "https://smallwebring.com/": {
@@ -13167,14 +13167,14 @@
   },
   "https://jobinterviewat.com/overtime-calculator/": {
     "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T00:44:30.970Z",
+    "lastChecked": "2026-11-19T01:44:31.992Z",
     "status": "success",
     "feedUrl": "https://jobinterviewat.com/feed/",
     "latestArticle": {
-      "title": "Target Hiring Age: How Old You Need to Be, by Role",
-      "url": "https://jobinterviewat.com/target-hiring-age/",
-      "summary": "The Target hiring age is 16 for store jobs, according to employees, but Target’s own careers pages don’t print a minimum age. Three things decide your case: the law, your... The post Target Hiring Ag…",
-      "publishedAt": "2026-11-19T00:30:00.000Z"
+      "title": "Starbucks Hiring Age: 16 Is Typical, but Not Official",
+      "url": "https://jobinterviewat.com/starbucks-hiring-age/",
+      "summary": "The Starbucks hiring age is 16 for baristas in most US states, according to employees and third-party sites. Starbucks itself doesn’t print a minimum age. The Barista and Shift Supervisor... The post…",
+      "publishedAt": "2026-11-19T01:00:00.000Z"
     }
   },
   "https://thinkpad2050.github.io/telegram-sponsorship-cpm-calculator/": {

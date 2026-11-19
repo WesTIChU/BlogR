@@ -133,7 +133,7 @@
     }
   },
   "https://1morefilmblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://1morefilmblog.com/feed/",
     "latestArticle": {
@@ -170,13 +170,13 @@
   },
   "https://3rsofretirement.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://3rsofretirement.com/feed/",
     "latestArticle": {
-      "title": "Catching the Winter Light",
-      "url": "https://3rsofretirement.com/2026/11/17/catching-the-winter-light/",
-      "summary": "I often spend the winter holidays near Fairbanks, Alaska with one of my sisters and her family. With short, cold days catching the light is important any time, day or night. Join The Cosmic Photo Cha…",
-      "publishedAt": "2026-11-18T02:53:02.000Z"
+      "title": "Wednesday Lights",
+      "url": "https://3rsofretirement.com/2026/11/18/wednesday-lights/",
+      "summary": "For Wordless Wednesday",
+      "publishedAt": "2026-11-19T03:08:14.000Z"
     }
   },
   "https://4gravitons.com/": {
@@ -323,7 +323,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -445,7 +445,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -470,7 +470,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -535,7 +535,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -623,7 +623,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -717,7 +717,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -848,7 +848,7 @@
     }
   },
   "https://babakfakhamzadeh.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
@@ -981,7 +981,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1159,7 +1159,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1367,7 +1367,7 @@
     "status": "unavailable"
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1646,7 +1646,7 @@
     }
   },
   "https://casdinteret.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-06",
     "feedUrl": "https://casdinteret.com/feed/",
     "latestArticle": {
@@ -1715,7 +1715,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1783,9 +1783,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-11",
-    "feedUrl": "https://chrislt.nz/feed/",
+    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
     "latestArticle": {
       "title": "Thorn",
       "url": "https://chrislt.nz/thorn/",
@@ -1977,7 +1977,7 @@
     }
   },
   "https://colly.com/journal": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-30",
     "feedUrl": "https://colly.com/journal/feed/",
     "latestArticle": {
@@ -1989,13 +1989,12 @@
   },
   "https://comicsdc.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Comics Research Bibliography citations update, 11/17/2026",
-      "url": "https://comicsdc.blogspot.com/2026/11/comics-research-bibliography-citations_01825089373.html",
-      "summary": "MacDonald, Heidi. 2026. Bill Jemas Is Back With a Bird Card Game….And a Risky Bet on Public Domain [Superman Fleischer animation]. The Beat (November 17): https://www.comicsbeat.com/bill-jemas-is-bac…",
-      "publishedAt": "2026-11-18T13:00:32.986Z"
+      "title": "Good Food, Good Company &  Dirty Threats by Daniel Boris",
+      "url": "https://comicsdc.blogspot.com/2026/11/good-food-good-company-by-daniel-boris.html",
+      "publishedAt": "2026-11-19T02:53:05.659Z"
     }
   },
   "https://comicss.art/": {
@@ -2263,7 +2262,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2318,13 +2317,13 @@
   },
   "https://danielbowen.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://danielbowen.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Level crossing removals: 2026 update by A",
-      "url": "https://danielbowen.com/2026/11/17/level-crossing-removals-2026-update/#comment-423971",
-      "summary": "@Daniel Correct, I've divided Anderson Street, Yarraville and Hudsons Road, Spotswood across the three effective Newport branches. Similarly with Macaulay Road, Kensington and Ramsden Street, Clifton…",
-      "publishedAt": "2026-11-18T10:33:17.000Z"
+      "title": "Comment on Some thoughts on the Sydney Metro by Julian",
+      "url": "https://danielbowen.com/2026/09/08/sydney-metro-thoughts/#comment-424003",
+      "summary": "1. Giving different names to the metro tunnel platforms at Melbourne Central and Flinders Street is really really stupid. Why did they do it? 2. Sydney's metro trains have longitudinal seats. That's …",
+      "publishedAt": "2026-11-19T03:23:22.000Z"
     }
   },
   "https://danq.me/": {
@@ -2369,7 +2368,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2380,7 +2379,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -2580,7 +2579,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -2635,7 +2634,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2679,7 +2678,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -2773,7 +2772,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3197,7 +3196,7 @@
     }
   },
   "https://gallistead.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-11",
     "feedUrl": "https://gallistead.com/feed/",
     "latestArticle": {
@@ -3227,7 +3226,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3367,13 +3366,13 @@
   },
   "https://greatawakeningreport.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://greatawakeningreport.com/feed/",
     "latestArticle": {
-      "title": "WEEKLY REPORT | Awakening The Sleeping Giant | November 16th Edition",
-      "url": "https://greatawakeningreport.com/weekly-report-awakening-the-sleeping-giant-november-16th-edition/",
-      "summary": "NEXT FRAGILE PRESSURE POINTS — AI CAPITAL DISCIPLINE, INFRASTRUCTURE FRAGILITY & ECONOMIC TRANSMISSION The Convergence Phase: AI Market Volatility, Energy Security, Federal Reserve Policy, Digital In…",
-      "publishedAt": "2026-11-16T14:14:34.000Z"
+      "title": "EDITOR’S CORNER | THE RETURN OF MY TRUE SELF",
+      "url": "https://greatawakeningreport.com/editors-corner-the-return-of-my-true-self/",
+      "summary": "Mark Dorian, Publisher and Founder Healing • Higher Consciousness • Reawakening • Inner Calm • Remembering Who I Am “Perhaps the greatest transformation is not becoming someone new, but remembering w…",
+      "publishedAt": "2026-11-19T03:13:09.000Z"
     }
   },
   "https://greatwarfiction.wordpress.com/": {
@@ -3488,10 +3487,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Tracking Down a Mystery Beep By Giving a Coding Agent a Few Ears",
-      "url": "https://hackaday.com/2026/11/18/tracking-down-a-mystery-beep-by-giving-a-coding-agent-a-few-ears/",
-      "summary": "[Simon Willison] recently used a coding agent in an unusual way. A software system temporarily used the microphones on devices scattered around the room to triangulate the source of a …read more",
-      "publishedAt": "2026-11-19T00:00:53.000Z"
+      "title": "How Hough Transforms Enable Computers to See",
+      "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see/",
+      "summary": "Although identifying what we can see with our eyes feels like the most natural thing in the world, the responsible cognitive processes running on our brain’s wetware are quite a …read more",
+      "publishedAt": "2026-11-19T03:00:48.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3614,7 +3613,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3683,7 +3682,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3716,7 +3715,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -3832,7 +3831,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -4066,9 +4065,9 @@
     }
   },
   "https://jamesg.blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-18",
-    "feedUrl": "https://jamesg.blog/feed",
+    "feedUrl": "https://granary.io/url?input=html&output=atom&url=https://jamesg.blog/longform-feed/",
     "latestArticle": {
       "title": "Near-winter morning",
       "url": "https://jamesg.blog/2026/11/18/near-winter-morning",
@@ -4121,7 +4120,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -4143,7 +4142,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4220,7 +4219,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4462,7 +4461,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -4478,7 +4477,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -4628,13 +4627,13 @@
   },
   "https://kittandditakeonlife.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://kittandditakeonlife.wordpress.com/feed/",
     "latestArticle": {
-      "title": "November 17, 2026 … dandelions…",
-      "url": "https://kittandditakeonlife.wordpress.com/2026/11/17/november-17-2926-dandelions/",
-      "summary": "I started my first dandelion. I only did a few to get an idea of how it will look. I am going to add green to the stems too. This is only going to be half a dandelion though. I am hoping to make thre…",
-      "publishedAt": "2026-11-18T03:13:06.000Z"
+      "title": "My mornings …",
+      "url": "https://kittandditakeonlife.wordpress.com/2026/11/18/my-mornings/",
+      "summary": "What’s something you’ve done purely for your own happiness? My morning happiness is a bagel and cream cheese. Sometimes, like today, I even add a little everything seasoning to the top. It is somethi…",
+      "publishedAt": "2026-11-19T03:40:06.000Z"
     }
   },
   "https://kmflett.blog/": {
@@ -4648,7 +4647,7 @@
     }
   },
   "https://knifesteelnerds.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://knifesteelnerds.com/feed/",
     "latestArticle": {
@@ -4995,7 +4994,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -5010,10 +5009,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "The Son Who Obeyed",
-      "url": "https://livoragracely.com/2026/11/19/the-son-who-obeyed/",
-      "summary": "Hebrews 5:8–10 Through suffering, the Son obeyed and became the source of eternal salvation. The flood had not yet come when Noah began to build.¹ God had warned him about what was to come and told h…",
-      "publishedAt": "2026-11-19T00:49:27.000Z"
+      "title": "A Family for a New Beginning",
+      "url": "https://livoragracely.com/2026/11/19/a-family-for-a-new-beginning/",
+      "summary": "Genesis 9:1, 7 God blessed Noah and his sons, telling them to be fruitful, multiply, and fill the earth. A Place at the Table A child reaches for a bowl, and Noah holds it steady until the little han…",
+      "publishedAt": "2026-11-19T02:57:50.000Z"
     }
   },
   "https://lizduckchong.com/blog.html": {
@@ -5130,13 +5129,13 @@
   },
   "https://loveaftermidnight.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://loveaftermidnight.com/feed/",
     "latestArticle": {
-      "title": "Remotely",
-      "url": "https://loveaftermidnight.com/2026/11/17/remotely/",
-      "summary": "Would you rather work from an office or remotely? Oh I would jump on full-time remote work all the way. No more traffic no office politics, no drama and I wouldnt be stuck at home i could work anywhe…",
-      "publishedAt": "2026-11-18T05:47:04.000Z"
+      "title": "My Happiness",
+      "url": "https://loveaftermidnight.com/2026/11/18/my-happiness-2/",
+      "summary": "What’s something you’ve done purely for your own happiness? I would have to say my writing is something I do for my own happiness. Also when I watch my anime or read my books. I want to keep publishi…",
+      "publishedAt": "2026-11-19T03:30:40.000Z"
     }
   },
   "https://lovetravellingblog.com/": {
@@ -5445,7 +5444,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5456,7 +5455,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5516,13 +5515,13 @@
   },
   "https://mindfulchapters.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://mindfulchapters.com/feed/",
     "latestArticle": {
-      "title": "I Became Mayor of My Balcony, Reviewed My Kettle, and Held a Funeral for Pizza!",
-      "url": "https://mindfulchapters.com/2026/11/18/mayor-of-my-balcony-and-other-silly-adventures/",
-      "summary": "I declared my balcony an independent nation, appointed myself Mayor, reviewed my household appliances and held a funeral for a leftover pizza slice. With a suspicious pigeon named Gerald and my bossy…",
-      "publishedAt": "2026-11-18T03:36:54.000Z"
+      "title": "My Weirdest Obsession: A Jar Full of Things I Never Said!",
+      "url": "https://mindfulchapters.com/2026/11/19/my-jar-full-of-unspoken-compliments/",
+      "summary": "For two years, I carried a tiny jar filled with compliments I was too shy to give strangers. It became my strangest obsession, until I discovered that happiness is much better shared than stored!",
+      "publishedAt": "2026-11-19T03:00:38.000Z"
     }
   },
   "https://mindfulmomentsbypriya.wordpress.com/": {
@@ -5805,7 +5804,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -5830,7 +5829,7 @@
     "status": "unavailable"
   },
   "https://musicaltheatrereview.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://musicaltheatrereview.com/feed/",
     "latestArticle": {
@@ -5845,10 +5844,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://musingsbydoddzilla.org/feed/",
     "latestArticle": {
-      "title": "Changes-continue",
-      "url": "https://musingsbydoddzilla.org/2026/11/18/changes-continue/",
-      "summary": "The universe is nothing more Than a great collection of miracles Clumps of stardust creating worlds Clumps of cells becoming beautiful beings Clumps of ideas creating change Clumps of people changing…",
-      "publishedAt": "2026-11-19T01:03:45.000Z"
+      "title": "Happiness",
+      "url": "https://musingsbydoddzilla.org/2026/11/18/21429/",
+      "summary": "What’s something you’ve done purely for your own happiness? I stopped to savor a sunset I danced to my favorite song I followed a butterfly upon its path until it flew away I wrote a post perhaps no …",
+      "publishedAt": "2026-11-19T03:02:51.000Z"
     }
   },
   "https://mybpool.wordpress.com/": {
@@ -5874,7 +5873,7 @@
     }
   },
   "https://mychilligarden.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://mychilligarden.com/feed/",
     "latestArticle": {
@@ -6533,7 +6532,7 @@
   },
   "https://personalsit.es/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://personalsit.es/feed/all.xml"
   },
   "https://petersnextchapter.blog/": {
@@ -6797,7 +6796,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6999,7 +6998,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-17",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -7675,7 +7674,7 @@
     }
   },
   "https://seat31b.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-16",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
@@ -7902,14 +7901,14 @@
     "lastPublished": "2026-11-18",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "Quoting Daniel Stenberg",
-      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-      "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during the…",
-      "publishedAt": "2026-11-18T15:58:27.000Z"
+      "title": "datasette-arrows 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+      "summary": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines …",
+      "publishedAt": "2026-11-18T17:09:59.000Z"
     }
   },
   "https://sinclairtrails.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://sinclairtrails.com/feed/",
     "latestArticle": {
@@ -8114,7 +8113,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -8128,7 +8127,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8143,7 +8142,7 @@
     }
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -8531,7 +8530,7 @@
     }
   },
   "https://theautisticadvocate.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-15",
     "feedUrl": "https://theautisticadvocate.com/feed/",
     "latestArticle": {
@@ -8553,7 +8552,7 @@
     }
   },
   "https://theblockchainsocialist.com/category/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-11",
     "feedUrl": "https://theblockchainsocialist.com/category/blog/feed/",
     "latestArticle": {
@@ -9222,7 +9221,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9268,7 +9267,7 @@
     "status": "unavailable"
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -9334,7 +9333,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -9448,7 +9447,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -9478,7 +9477,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -9625,13 +9624,13 @@
   },
   "https://viewscape5.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://viewscape5.wordpress.com/feed/",
     "latestArticle": {
-      "title": "My friend.",
-      "url": "https://viewscape5.wordpress.com/2026/11/18/my-friend/",
-      "summary": "What’s something you miss from the old days? We used to spend a lot of time curating our lives and picking the right routines, chasing down goals and figuring out who we are becoming. Amid all the no…",
-      "publishedAt": "2026-11-18T21:29:17.000Z"
+      "title": "Wanting to marry her.",
+      "url": "https://viewscape5.wordpress.com/2026/11/19/wanting-to-marry-her/",
+      "summary": "What’s the weirdest (harmless) obsession you’ve ever had? People talk a lot about the lightning-bolt moments in love, the grand gestures, the fireworks, the cinematic rainstorms And while those momen…",
+      "publishedAt": "2026-11-19T03:37:36.000Z"
     }
   },
   "https://vintagebuses.org/": {
@@ -9676,7 +9675,7 @@
     }
   },
   "https://waitbutwhy.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-11-25",
     "feedUrl": "https://waitbutwhy.com/feed",
     "latestArticle": {
@@ -9936,7 +9935,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -10026,7 +10025,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -10279,12 +10278,12 @@
   },
   "https://www.daniellesbeautyblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://www.daniellesbeautyblog.com/feeds/posts/default",
     "latestArticle": {
       "title": "Best Black Friday Beauty Deals 2026 (+ Discount Codes & Reviews!)",
       "url": "https://www.daniellesbeautyblog.com/2026/11/best-black-friday-beauty-deals-2026.html",
-      "summary": "Last updated November 17, 2026 I wanted to put together an ongoing list of the best Black Friday beauty deals and discount codes for 2026, so here it is! I'll be updating this page throughout Novembe…",
+      "summary": "Last updated November 18, 2026 I wanted to put together an ongoing list of the best Black Friday beauty deals and discount codes for 2026, so here it is! I'll be updating this page throughout Novembe…",
       "publishedAt": "2026-11-17T01:05:12.577Z"
     }
   },
@@ -10332,7 +10331,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-09",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -10343,7 +10342,7 @@
     }
   },
   "https://www.destinationsjourney.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.destinationsjourney.com/feed/",
     "latestArticle": {
@@ -10422,14 +10421,14 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-13",
+    "status": "success",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
-      "title": "Hold A Hand Very Hard",
-      "url": "https://www.fluxblog.org/2026/11/hold-a-hand-very-hard/",
-      "summary": "Alba Akvama “Pass Me By” There are depressing songs and songs about depression, but “Pass Me By” is more like a song depicting depression. It’s a brief song, but its central sad sax loop feels like i…",
-      "publishedAt": "2026-11-13T03:21:17.000Z"
+      "title": "Don’t Be Afraid Of It All",
+      "url": "https://www.fluxblog.org/2026/11/dont-be-afraid-of-it-all/",
+      "summary": "Orca “Tillamook” It seems wrong to say “Tillamook” opens with a fake-out – there’s plenty of songs that swerve in a way that’s meant to deliberately mess with your perception or expectations, and tha…",
+      "publishedAt": "2026-11-19T03:40:15.000Z"
     }
   },
   "https://www.freecodecamp.org/news/": {
@@ -10449,13 +10448,13 @@
   },
   "https://www.fromthemurkydepths.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/feed/",
     "latestArticle": {
-      "title": "New plans for 400 student room development at Deptford Creekside art studio site",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/11/18/new-plans-for-400-student-room-development-at-deptford-creekside-art-studio-site/",
-      "summary": "Revised plans are being drawn up for around 400 student rooms at 3-9 Creekside in Deptford. It’s three years ago plans were submitted for 231 student rooms at 5-9 Creekside. That was approved but it’…",
-      "publishedAt": "2026-11-18T22:29:41.000Z"
+      "title": "Campaign to save axed London to Kent coaches via Lewisham and Eltham",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/11/19/campaign-to-save-axed-london-to-kent-coaches-via-lewisham-and-eltham/",
+      "summary": "A campaign has begun to oppose plans by National Express to axe all coaches running between central London and Kent. The routes operate via Elephant & Castle, Lewisham and Eltham to various towns in …",
+      "publishedAt": "2026-11-19T03:15:34.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -10591,7 +10590,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -10714,7 +10713,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -10772,7 +10771,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -10789,7 +10788,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -10833,7 +10832,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -10866,9 +10865,9 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-01",
-    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
+    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -10914,7 +10913,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -10925,7 +10924,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -11084,7 +11083,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -11108,7 +11107,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -11268,7 +11267,7 @@
     }
   },
   "https://www.stuckinabook.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
@@ -11301,7 +11300,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -11355,7 +11354,7 @@
     "feedUrl": "https://www.youtube.com/@TheBugOutShop/podcasts"
   },
   "https://www.thechaoticscot.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-24",
     "feedUrl": "https://www.thechaoticscot.com/feed/",
     "latestArticle": {
@@ -11369,7 +11368,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -11380,7 +11379,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11391,7 +11390,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11413,7 +11412,7 @@
     }
   },
   "https://www.thehistoryblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.thehistoryblog.com/feed",
     "latestArticle": {
@@ -11435,7 +11434,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/comments/feed/",
     "latestArticle": {
@@ -11446,7 +11445,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
@@ -11490,7 +11489,7 @@
     }
   },
   "https://www.themovieboards.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
@@ -11545,7 +11544,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -11556,7 +11555,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -11649,7 +11648,7 @@
     }
   },
   "https://www.van-tramp.com/wp/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://www.van-tramp.com/wp/comments/feed/",
     "latestArticle": {
@@ -11660,7 +11659,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-17",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {
@@ -11675,10 +11674,10 @@
     "lastPublished": "2026-11-19",
     "feedUrl": "https://www.web-goddess.org/feed",
     "latestArticle": {
-      "title": "State Library of NSW Fellows Forum",
-      "url": "https://www.web-goddess.org/archive/95825",
-      "summary": "Last night I went over to the State Library for the Foundation AGM, where they recapped the highlights of this fantastic 200th anniversary year. Many of the Library’s biggest donors were in the room,…",
-      "publishedAt": "2026-11-19T01:09:12.000Z"
+      "title": "Shiny",
+      "url": "https://www.web-goddess.org/archive/95828",
+      "summary": "Mr. Snook assures me we needed yet another way of making coffee. The Alessi is very pretty, at least!",
+      "publishedAt": "2026-11-19T03:03:23.000Z"
     }
   },
   "https://www.web3isgoinggreat.com/": {
@@ -11710,13 +11709,13 @@
   },
   "https://www.worldofreel.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-19",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Andrew Dominik’s ‘The Assassination of Jesse James' Director's Cut Headed to Criterion for 20th Anniversary?",
-      "url": "https://www.worldofreel.com/blog/2026/11/18/the-assassination-of-jesse-james-directors-cut-reportedly-headed-to-criterion-for-20th-anniversary",
-      "summary": "\"Michael Clayton\" is coming to Criterion. You know what other 2007 Warner Bros. title might be coming? \"The Assassination of Jesse James by the Coward Robert Ford.\"",
-      "publishedAt": "2026-11-18T23:58:14.000Z"
+      "title": "Zach Lipovsky & Adam Stein Can't Stop Booking Gigs: Chris Pratt's ‘The Traveler' Makes It Six Projects Since ‘Final Destination Bloodlines'",
+      "url": "https://www.worldofreel.com/blog/2026/11/18/zach-lipovsky-and-adam-stein-cant-stop-booking-gigs-chris-pratts-the-traveler-makes-it-six-projects-since-final-destination-bloodlines",
+      "summary": "The latest project they've signed on to direct is an adaptation of Joseph Eckert's novel \"The Traveler,\" with Chris Pratt in the lead role. Lipovsky and Stein will direct from a screenplay by Justin …",
+      "publishedAt": "2026-11-19T03:34:36.000Z"
     }
   },
   "https://www.zachleat.com/": {

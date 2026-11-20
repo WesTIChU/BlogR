@@ -1,13 +1,13 @@
 ---
 title: Canada Blogs
-description: 24 blogs listed in Canada.
+description: 25 blogs listed in Canada.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="24" />
+<CountryDirectoryHeader flag="🇨🇦" name="Canada" :count="25" />
 
 ## Arts & Entertainment
 
@@ -22,6 +22,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Gaming
 
 * <span class="blog-entry"><BlogHealthLink name="Grognardia" url="https://grognardia.blogspot.com/" /> - A long-running tabletop roleplaying blog exploring classic Dungeons & Dragons, RPG history, campaign experiences and the literature that inspired early roleplaying games.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://grognardia.blogspot.com/" data-blog-name="Grognardia"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://grognardia.blogspot.com/feeds/posts/default" target="_blank" rel="noopener noreferrer" title="RSS feed for Grognardia" aria-label="RSS feed for Grognardia"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/canada" aria-label="Based in Canada"><span class="blog-country-flag" aria-hidden="true">🇨🇦</span> Canada</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;5 June 2026</span><span class="blog-health-sr-only">Unknown or stale</span><span class="blog-webring"><button class="blog-metadata-icon-button blog-webring-trigger" type="button" data-webring-trigger data-webring-id="br-536b5822c204496330535b967271be41" data-webring-url="https://grognardia.blogspot.com/" data-webring-name="Grognardia" aria-label="Copy BlogR Webring widget code" title="Copy BlogR Webring widget code"><svg class="blog-metadata-visual blog-webring-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 5h5v5"></path><path d="M19 5 11 13"></path><path d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4"></path></svg></button></span></span>
+
+### Photography & Street Art
+
+* <span class="blog-entry"><BlogHealthLink name="Pictures and Stories of Life" url="https://lynettedartycross.com/" /> - Landscape photography and personal observations from Lynette d’Arty-Cross, featuring seasonal colours, birds, flowers and life in Canada’s Okanagan Valley.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://lynettedartycross.com/" data-blog-name="Pictures and Stories of Life"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/canada" aria-label="Based in Canada"><span class="blog-country-flag" aria-hidden="true">🇨🇦</span> Canada</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;20 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><span class="blog-webring"><button class="blog-metadata-icon-button blog-webring-trigger" type="button" data-webring-trigger data-webring-id="br-55ab82ead2786c3e4ac34364096d26cb" data-webring-url="https://lynettedartycross.com/" data-webring-name="Pictures and Stories of Life" aria-label="Copy BlogR Webring widget code" title="Copy BlogR Webring widget code"><svg class="blog-metadata-visual blog-webring-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 5h5v5"></path><path d="M19 5 11 13"></path><path d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4"></path></svg></button></span></span>
 
 ## Books & Writing
 

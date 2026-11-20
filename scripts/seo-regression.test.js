@@ -237,7 +237,7 @@ test('renders the Recently Added page and keeps fixture ordering deterministic',
   )
 })
 
-test('Recently Added and Recently Updated use the blogs catalogue only', async () => {
+test('Recently Added includes websites while Recently Updated uses blogs only', async () => {
   const recentlyAddedComponent = await readFile(
     'docs/.vitepress/components/RecentlyAddedBlogs.vue',
     'utf8'
@@ -253,29 +253,17 @@ test('Recently Added and Recently Updated use the blogs catalogue only', async (
   assert.match(recentlyAddedComponent, /data\/blogs\.json/)
   assert.match(recentlyUpdatedComponent, /data\/blogs\.json/)
   assert.match(recentlyAddedStats, /data\/blogs\.json/)
-  assert.doesNotMatch(
-    recentlyAddedComponent,
-    /data\/websites\.json|data\/communities\.json/
-  )
+  assert.match(recentlyAddedComponent, /data\/websites\.json/)
   assert.doesNotMatch(
     recentlyUpdatedComponent,
     /data\/websites\.json|data\/communities\.json/
   )
-  assert.doesNotMatch(
-    recentlyAddedStats,
-    /data\/websites\.json|data\/communities\.json/
-  )
+  assert.match(recentlyAddedStats, /data\/websites\.json/)
 
   const recentlyAdded = await readFile(
     join(DIST, 'recently-added.html'),
     'utf8'
   )
   assert.match(recentlyAdded, /https:\/\/www\.thefrugalgamer\.net\/blog\//)
-  assert.doesNotMatch(
-    recentlyAdded,
-    /href="https:\/\/www\.thefrugalgamer\.net\/"/
-  )
-  assert.doesNotMatch(recentlyAdded, /https:\/\/skyhold\.org\/adhd\//)
-  assert.doesNotMatch(recentlyAdded, /https:\/\/pixelcuties\.club\//)
-  assert.doesNotMatch(recentlyAdded, /https:\/\/webring\.xxiivv\.com\//)
+  assert.match(recentlyAdded, /https:\/\/pettradecalc\.com\//)
 })

@@ -2,6 +2,7 @@
 import { contentUpdatedCallbacks } from 'vitepress/dist/client/app/utils'
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import blogs from '../../../data/blogs.json'
+import websites from '../../../data/websites.json'
 import {
   getLondonDateKey,
   getRecentlyAddedGroups
@@ -13,7 +14,9 @@ import BlogLastUpdated from './BlogLastUpdated.vue'
 const currentTime = ref(new Date())
 let rolloverTimer
 
-const groups = computed(() => getRecentlyAddedGroups(blogs, currentTime.value))
+const groups = computed(() =>
+  getRecentlyAddedGroups([...blogs, ...websites], currentTime.value)
+)
 
 // VitePress's native outline scans the page when the Markdown content mounts.
 // These headings are rendered by this nested Vue component afterwards, so ask

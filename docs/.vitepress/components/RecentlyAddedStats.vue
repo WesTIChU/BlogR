@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue'
 import blogs from '../../../data/blogs.json'
+import websites from '../../../data/websites.json'
 import {
   getAllBlogStats,
   getRecentlyAddedStats
@@ -12,7 +13,7 @@ import { RECENTLY_ADDED_STATS_CONFIG } from './recently-added-stats.config.js'
 const props = defineProps({
   config: { type: Object, default: () => RECENTLY_ADDED_STATS_CONFIG },
   mode: { type: String, default: 'recently-added' },
-  entries: { type: Array, default: () => blogs }
+  entries: { type: Array, default: () => [...blogs, ...websites] }
 })
 
 const currentTime = ref(new Date())

@@ -12,6 +12,7 @@ import {
   comparableBlogUrl,
   normalizeBlogSubmissionUrl
 } from '../../../../shared/new-blog-entries.js'
+import { loadTurnstile } from './turnstile-loader.js'
 
 declare global {
   interface Window {
@@ -228,7 +229,7 @@ const countryOptions = computed(() => {
   }))
 })
 
-const loadTurnstile = () => {
+const renderTurnstile = () => {
   if (!siteKey || !turnstileElement.value || !window.turnstile) return
   turnstileId.value = window.turnstile.render(turnstileElement.value, {
     sitekey: siteKey,
@@ -246,17 +247,9 @@ const loadTurnstile = () => {
 
 onMounted(() => {
   if (!siteKey) return
-  if (window.turnstile) {
-    loadTurnstile()
-    return
-  }
-  const script = document.createElement('script')
-  script.src =
-    'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
-  script.async = true
-  script.defer = true
-  script.addEventListener('load', loadTurnstile)
-  document.head.appendChild(script)
+  loadTurnstile(window, document)
+    .then(renderTurnstile)
+    .catch(() => undefined)
 })
 
 onBeforeUnmount(() => {

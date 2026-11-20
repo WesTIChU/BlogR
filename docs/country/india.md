@@ -1,13 +1,13 @@
 ---
 title: India Blogs
-description: 6 blogs listed in India.
+description: 7 blogs listed in India.
 ---
 
 <script setup>
 import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHeader.vue'
 </script>
 
-<CountryDirectoryHeader flag="🇮🇳" name="India" :count="6" />
+<CountryDirectoryHeader flag="🇮🇳" name="India" :count="7" />
 
 ## Health & Wellbeing
 
@@ -24,6 +24,10 @@ import CountryDirectoryHeader from '../.vitepress/components/CountryDirectoryHea
 ### Essays & Reflections
 
 * <span class="blog-entry"><BlogHealthLink name="Retiredकलम" url="https://retiredkalam.com/" /> - Personal writing from a retired Kolkata banker, including Hindi reflections, poetry, memories, health and everyday observations.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://retiredkalam.com/" data-blog-name="Retiredकलम"><span class="blog-metadata-icon-group"><span data-blog-feed-slot><a class="blog-feed-link" href="https://retiredkalam.com/feed/" target="_blank" rel="noopener noreferrer" title="RSS feed for Retiredकलम" aria-label="RSS feed for Retiredकलम"><svg class="blog-metadata-visual blog-feed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path><path d="M4 4a16 16 0 0 1 16 16"></path><path d="M4 10a10 10 0 0 1 10 10"></path></svg></a></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/india" aria-label="Based in India"><span class="blog-country-flag" aria-hidden="true">🇮🇳</span> India</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;7 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><span class="blog-webring"><button class="blog-metadata-icon-button blog-webring-trigger" type="button" data-webring-trigger data-webring-id="br-d42e9e2ad8ff533797150560bf215058" data-webring-url="https://retiredkalam.com/" data-webring-name="Retiredकलम" aria-label="Copy BlogR Webring widget code" title="Copy BlogR Webring widget code"><svg class="blog-metadata-visual blog-webring-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 5h5v5"></path><path d="M19 5 11 13"></path><path d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4"></path></svg></button></span></span>
+
+### Independent Voices
+
+* <span class="blog-entry"><BlogHealthLink name="Inked by Heart" url="https://mrinalini5.wordpress.com/" /> - Personal writing about everyday life, travel, beaches, education, work and reflections from an Indian perspective.</span><span class="blog-last-updated" data-blog-details data-blog-url="https://mrinalini5.wordpress.com/" data-blog-name="Inked by Heart"><span class="blog-metadata-icon-group"><span data-blog-feed-slot></span><span class="blog-metadata-icon blog-health-dot-container"><span class="blog-health-dot" style="background-color:#94A3B8;" title="Health status: Unknown or stale. Last checked: not available." aria-label="Health status: Unknown or stale. Last checked: not available." role="img"></span></span></span><span class="blog-metadata-separator" aria-hidden="true">·</span><a class="blog-country" href="/country/india" aria-label="Based in India"><span class="blog-country-flag" aria-hidden="true">🇮🇳</span> India</a><span class="blog-metadata-separator" data-blog-update-separator aria-hidden="true" hidden>·</span><span data-blog-update-slot></span><span class="blog-metadata-separator" data-blog-added-separator aria-hidden="true" hidden>·</span><span class="blog-added-date">Added&nbsp;20 November 2026</span><span class="blog-health-sr-only">Unknown or stale</span><span class="blog-webring"><button class="blog-metadata-icon-button blog-webring-trigger" type="button" data-webring-trigger data-webring-id="br-7acf03c1254c3ea375cd14b337490c91" data-webring-url="https://mrinalini5.wordpress.com/" data-webring-name="Inked by Heart" aria-label="Copy BlogR Webring widget code" title="Copy BlogR Webring widget code"><svg class="blog-metadata-visual blog-webring-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 5h5v5"></path><path d="M19 5 11 13"></path><path d="M19 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h4"></path></svg></button></span></span>
 
 ### Personal Blogs & Everyday Life
 

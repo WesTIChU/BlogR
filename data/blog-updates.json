@@ -395,8 +395,8 @@
   },
   "https://davidgerard.co.uk/blockchain/": {
     "lastPublished": "2026-11-10",
-    "lastChecked": "2026-11-20T00:44:37.064Z",
-    "status": "success",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
+    "status": "unavailable",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
       "title": "The Ethereum Foundation is officially a corporate suicide cult",
@@ -1229,15 +1229,15 @@
     }
   },
   "https://www.oneletterwords.com/weblog/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T20:44:28.768Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://feeds.feedburner.com/oneletterwords/abecedarian",
     "latestArticle": {
       "title": "Restoring the Lost Sense",
-      "url": "https://www.oneletterwords.com/weblog/?id=117024",
-      "summary": "From Photoplay , 1935.",
-      "publishedAt": "2026-11-19T00:00:00.000Z"
+      "url": "https://www.oneletterwords.com/weblog/?id=117881",
+      "summary": "From Little Folks , 1923.",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
     }
   },
   "https://paperpools.blogspot.com/": {
@@ -1743,13 +1743,13 @@
   },
   "https://www.freecodecamp.org/news/": {
     "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T19:44:30.211Z",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://www.freecodecamp.org/news/rss/",
     "latestArticle": {
-      "url": "https://www.freecodecamp.org/news/how-to-scrape-websites-in-python-with-olostep/",
-      "summary": "Web scraping in Python usually starts with requests and Beautiful Soup. While this works well for static pages, it gets harder when a site loads content with JavaScript, blocks repeated requests, or c",
-      "publishedAt": "2026-11-19T17:54:42.000Z"
+      "url": "https://www.freecodecamp.org/news/how-to-generate-synthetic-healthcare-data-using-synthea-a-hands-on-tutorial/",
+      "summary": "Healthcare generates huge amounts of data every day, from patient visits and lab results to diagnoses, medications, and medical imaging. For developers and data engineers building healthcare applicati",
+      "publishedAt": "2026-11-19T22:00:42.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -1876,13 +1876,13 @@
   },
   "https://www.omgubuntu.co.uk/": {
     "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-20T00:44:37.064Z",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
       "title": "How to see if your bargain SD card or USB drive is fake on Ubuntu",
       "url": "https://www.omgubuntu.co.uk/2026/11/check-fake-usb-drive-sd-card-ubuntu",
-      "summary": "F3 (Fight Flash Fraud) is an open-source tool to check if a USB drive or SD card has the capacity it claims on the label. If you’ve used h2testw on Windows, this does the same thing on Linux. Memory …",
+      "summary": "Check if a bargain SD card or USB drive has fake capacity on Ubuntu using F3 (Fight Flash Fraud), an open-source Linux alternative to h2testw. You're reading How to see if your bargain SD card or USB…",
       "publishedAt": "2026-11-19T23:54:03.000Z"
     }
   },
@@ -2066,8 +2066,8 @@
   },
   "https://www.annaeverywhere.com/": {
     "lastPublished": "2026-10-13",
-    "lastChecked": "2026-11-03T16:44:33.579Z",
-    "status": "success",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
+    "status": "unavailable",
     "feedUrl": "https://annaeverywhere.com/feed/",
     "latestArticle": {
       "title": "How to Visit Zion with Kids Without the Crowds and Plan Your Trip",
@@ -2848,15 +2848,15 @@
     }
   },
   "https://nintil.com/": {
-    "lastPublished": "2026-10-27",
-    "lastChecked": "2026-10-28T14:44:31.009Z",
+    "lastPublished": "2026-11-19",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://nintil.com/rss.xml",
     "latestArticle": {
-      "title": "Changes in my experience after 2 years of meditation practice",
-      "url": "https://nintil.com/meditation-changes/",
-      "summary": "I started to meditate around 2 years ago. Since then, and particularly within this past year, there are a number of changes in my day to day experience that seemed worth documenting for future refere…",
-      "publishedAt": "2026-10-27T00:00:00.000Z"
+      "title": "The Ideal Parent Figure Protocol",
+      "url": "https://nintil.com/the-ideal-parent-figure-protocol/",
+      "summary": "I wrote a guide to the ideal Parent Figure Protocol, a therapeutic modality for repairing attachment disorders. You can find it here . It also contains some pointers to meditations to boost agency, s…",
+      "publishedAt": "2026-11-19T00:00:00.000Z"
     }
   },
   "https://www.math.columbia.edu/~woit/wordpress/": {
@@ -3953,8 +3953,8 @@
     }
   },
   "https://nyanpasu64.gitlab.io/": {
-    "lastPublished": "2026-11-07",
-    "lastChecked": "2026-11-07T02:44:33.087Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://nyanpasu64.gitlab.io/atom.xml",
     "latestArticle": {
@@ -5702,15 +5702,15 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T21:44:32.263Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
-      "title": "Bricklink is down AGAIN due to another suspected cybersecurity issue",
-      "url": "https://jaysbrickblog.com/news/bricklink-is-down-again-due-to-another-suspected-cybersecurity-issue/",
-      "summary": "Unfortunately, Bricklink has been taken down again as a precautionary measure. Barely a week after the secondary marketplace was restored after a hacking incident, service has now once again been dis…",
-      "publishedAt": "2026-11-19T21:31:59.000Z"
+      "title": "Every LEGO set retiring by the end of 2026 (November Update)",
+      "url": "https://jaysbrickblog.com/news/every-lego-set-retiring-by-the-end-of-2026-november-update/",
+      "summary": "LEGO’s Insider Weekend 2026 will offer shoppers 2x points, a whole slew of promos and GWPs and is one of the last major shopping events of 2026, and one of the best times to pick up some Christmas pr…",
+      "publishedAt": "2026-11-20T00:55:36.000Z"
     }
   },
   "https://www.brickfanatics.com/": {
@@ -6249,13 +6249,13 @@
   },
   "https://londonreconnections.com/": {
     "lastPublished": "2026-11-20",
-    "lastChecked": "2026-11-20T00:44:37.064Z",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://londonreconnections.com/rss/",
     "latestArticle": {
-      "url": "https://londonreconnections.com/friday-reads-november-2026/",
-      "summary": "Almost no Elizabeth line running on last Nov weekend | IanVisits How poems got onto the Underground: Video | The Conversation Chris Green OBE - Acclaimed Rail Manager: Podcast | Mark Ovenden CATCHcas…",
-      "publishedAt": "2026-11-20T00:08:17.000Z"
+      "url": "https://londonreconnections.com/platform-edge-screens-engineering-design-for-elizabeth-lines-tunnel-stations-structural-engineer/",
+      "summary": "Synopsis",
+      "publishedAt": "2026-11-20T01:24:17.000Z"
     }
   },
   "https://www.zachleat.com/": {
@@ -7367,14 +7367,14 @@
   },
   "https://thequietus.com/": {
     "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T16:44:30.944Z",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Kraftwerk Berlin Issues Apology After Hosting Military AI Event",
-      "url": "https://thequietus.com/news/kraftwerk-berlin-issues-apology-after-hosting-military-ai-event/",
-      "summary": "The Berlin venue's head of sales, Tjabo Reuter, has described it as \"a serious error of judgement\" Kraftwerk Berlin, the venue that hosts Berlin Atonal and houses clubs such as Tresor and OHM within …",
-      "publishedAt": "2026-11-19T12:38:00.000Z"
+      "title": "Belle And Sebastian Unveil ‘If You’re Feeling Sinister’ Reissue",
+      "url": "https://thequietus.com/news/belle-and-sebastian-unveil-if-youre-feeling-sinister-reissue/",
+      "summary": "The updated release comes with a full bonus album of rarities Belle And Sebastian's 1996 album If You're Feeling Sinister is getting a 30th anniversary reissue. The updated release comes with a 13-tr…",
+      "publishedAt": "2026-11-19T14:19:00.000Z"
     }
   },
   "https://www.fluxblog.org/": {
@@ -7576,8 +7576,8 @@
   },
   "https://www.librarian.net/": {
     "lastPublished": "2026-10-22",
-    "lastChecked": "2026-11-19T13:44:28.891Z",
-    "status": "success",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
+    "status": "unavailable",
     "feedUrl": "https://www.librarian.net/feed/",
     "latestArticle": {
       "title": "Why half the internet was broken yesterday, the two issues",
@@ -8368,15 +8368,15 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-20T00:44:37.064Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Have you seen these men?",
-      "url": "https://mtlcityweblog.com/2026/11/19/have-you-seen-these-men/",
-      "summary": "Two Quebec fugitives have graduated to Canada’s 25 Most Wanted list. There are now four Quebec suspects on that list.",
-      "publishedAt": "2026-11-19T22:21:03.000Z"
+      "title": "Ste-Catherine to be coneless for Xmas season",
+      "url": "https://mtlcityweblog.com/2026/11/19/ste-catherine-to-be-coneless-for-xmas-season/",
+      "summary": "Ste-Catherine is suddenly coneless and will remain so until past New Year.",
+      "publishedAt": "2026-11-20T01:18:29.000Z"
     }
   },
   "https://artlung.com/blog/": {
@@ -8695,15 +8695,15 @@
     }
   },
   "https://comicsdc.blogspot.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T23:44:31.864Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://comicsdc.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Dec 6: PHILLIP KENNEDY JOHNSON at Fantom Comics",
-      "url": "https://comicsdc.blogspot.com/2026/11/dec-6-phillip-kennedy-johnson-at-fantom.html",
-      "summary": "A SPECIAL AUTHOR SIGNING ANNOUNCEMENT! Especially for those of you who are reading Midnight Spider-Man and Infernal Hulk right now…Fantom Comics is excited to host eisner nominated writer PHILLIP KEN…",
-      "publishedAt": "2026-11-19T23:24:03.968Z"
+      "title": "Live video with Dana Jeri Maier and Tim Kreider now: Art Therapy with Dana Jeri Maier & Tim Kreider",
+      "url": "https://comicsdc.blogspot.com/2026/11/live-video-with-dana-jeri-maier-and-tim.html",
+      "summary": "Dana Jeri Maier is live with Tim Kreider on Substack now: \"Art Therapy with Dana Jeri Maier & Tim Kreider \" ͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏ ­͏…",
+      "publishedAt": "2026-11-20T01:36:29.156Z"
     }
   },
   "https://www.nationalelfservice.net/": {
@@ -8748,15 +8748,15 @@
     "feedUrl": null
   },
   "https://sevensisterslove.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T01:44:31.992Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://sevensisterslove.com/feed/",
     "latestArticle": {
-      "title": "The cymbals update",
-      "url": "https://sevensisterslove.com/2026/11/19/the-cymbals-update/",
-      "summary": "My plan is to skip blogging today coz I felt a bit dizzy due to sleep deprivation last night, but I received a chat containing the rest of the cymbals, so I posted this update. You can view the edite…",
-      "publishedAt": "2026-11-19T01:02:36.000Z"
+      "title": "A quote to begin the day",
+      "url": "https://sevensisterslove.com/2026/11/20/a-quote-to-begin-the-day/",
+      "summary": "When my youngest sister and I were still studying in college, we sometimes visited our cousin’s house. She is a book lover, too, and she spotted a book sitting quietly in the corner, and she asked my…",
+      "publishedAt": "2026-11-20T01:05:03.000Z"
     }
   },
   "https://peaceful-threads.com/": {
@@ -9168,14 +9168,14 @@
     }
   },
   "https://folsommillstudio.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T14:44:34.311Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://folsommillstudio.com/feed/",
     "latestArticle": {
-      "title": "Boy Oh Boy is Brady Loved",
-      "url": "https://folsommillstudio.com/2026/11/19/boy-oh-boy-is-brady-loved/",
-      "publishedAt": "2026-11-19T14:10:30.000Z"
+      "title": "A Watercolor I Did",
+      "url": "https://folsommillstudio.com/2026/11/19/a-watercolor-i-did/",
+      "publishedAt": "2026-11-20T01:16:22.000Z"
     }
   },
   "https://lifeinaword.com/": {
@@ -9263,15 +9263,15 @@
     }
   },
   "https://livoragracely.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T22:44:36.715Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "A Brighter Idea",
-      "url": "https://livoragracely.com/2026/11/20/a-brighter-idea/",
-      "summary": "The lamp worked. The shadow had other plans. The First Test The lantern had been glowing for seven minutes when the cat discovered the creature on the wall. It had pointed ears, a long tail and a bod…",
-      "publishedAt": "2026-11-19T21:52:08.000Z"
+      "title": "Learning to Discern",
+      "url": "https://livoragracely.com/2026/11/20/learning-to-discern/",
+      "summary": "Hebrews 5:11–14 Maturity grows as we listen, practise, and learn to distinguish good from evil. A father and his child came to a narrow path scattered with stones. The child hurried ahead, then stopp…",
+      "publishedAt": "2026-11-20T00:48:55.000Z"
     }
   },
   "https://edoodless.wordpress.com/": {
@@ -9584,15 +9584,15 @@
     }
   },
   "https://ivorplumberpoet.press/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T21:44:32.263Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://ivorplumberpoet.press/feed/",
     "latestArticle": {
-      "title": "Throwback Friday, A Writer’s Wondrous World Watchfully Waits Where Wisdom Willingly Wanders Within Wizardry Walls",
-      "url": "https://ivorplumberpoet.press/2026/11/20/throwback-friday-a-writers-wondrous-world-watchfully-waits-where-wisdom-willingly-wanders-within-wizardry-walls/",
-      "summary": "Today I’m revisiting this post from four years ago. I really liked its overall presentation and pizzazz then, and I still do now.I’ve also added a few photos of street art from around Geelong, as the…",
-      "publishedAt": "2026-11-19T21:21:13.000Z"
+      "title": "Creative Geelong Market Day, This Saturday, November 21st",
+      "url": "https://ivorplumberpoet.press/2026/11/20/creative-geelong-market-day-this-saturday-november-21st/",
+      "summary": "It’s Market Day this Saturday from 10 a.m. to 3 p.m.* Our popular monthly markets are all undercover at Centrepoint Arcade on the third Saturday of every month.* They feature art, unique goods from l…",
+      "publishedAt": "2026-11-20T01:02:00.000Z"
     }
   },
   "https://syl65.wordpress.com/": {
@@ -10028,15 +10028,15 @@
     }
   },
   "https://authorstephanieparkermckean.com/": {
-    "lastPublished": "2026-11-06",
-    "lastChecked": "2026-11-07T08:56:37.466Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://authorstephanieparkermckean.com/feed/",
     "latestArticle": {
-      "title": "Bringing Sparky Home",
-      "url": "https://authorstephanieparkermckean.com/2026/11/06/bringing-sparky-home/",
-      "summary": "This is probably the first blog I’ve ever written about an inanimate object, but bringing Sparky home was somewhat of an ordeal. First, I live in Florida now. Florida is hot. Florida is a mere 160 mi…",
-      "publishedAt": "2026-11-06T20:13:26.000Z"
+      "title": "Whose Report To Believe",
+      "url": "https://authorstephanieparkermckean.com/2026/11/20/whose-report-to-believe/",
+      "summary": "For six weeks I walked Savannah several times a day in my new neighborhood in Zephyrhills, Florida. There are so many ancient live oak trees dressed in graceful strands of Spanish moss tossing acorns…",
+      "publishedAt": "2026-11-20T01:36:16.000Z"
     }
   },
   "https://sustainabilitea.wordpress.com/": {
@@ -11857,15 +11857,15 @@
     }
   },
   "https://yallcomesitaspell.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T12:06:06.648Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://yallcomesitaspell.com/feed/",
     "latestArticle": {
-      "title": "Becky with the Good Leaves (And Other Perfectly Normal Relationships)",
-      "url": "https://yallcomesitaspell.com/2026/11/19/becky-with-the-good-leaves-and-other-perfectly-normal-relationships/",
-      "summary": "What’s the weirdest (harmless) obsession you’ve ever had? Good morning, y’all! Come on up, grab something warm to sip on, and find yourself a comfortable spot on the porch. The coffee’s hot, the air …",
-      "publishedAt": "2026-11-19T12:02:52.000Z"
+      "title": "Sundown Towns: Ungated Gated Communities",
+      "url": "https://yallcomesitaspell.com/2026/11/19/sundown-towns-ungated-gated-communities/",
+      "summary": "I was already an adult, college behind me, when I first heard the term sundown town. I was working on a criminal justice research project, something involving racial profiling, if memory serves. Some…",
+      "publishedAt": "2026-11-20T01:30:00.000Z"
     }
   },
   "https://joyfulstephanie.com/": {
@@ -11929,15 +11929,15 @@
     }
   },
   "https://www.themovieboards.net/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T13:44:28.891Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "The National Bobblehead Hall of Fame and Museum and Dos Equis Collaboration",
-      "url": "https://www.themovieboards.net/2026/11/19/the-national-bobblehead-hall-of-fame-and-museum-and-dos-equis-collaboration/",
-      "summary": "The National Bobblehead Hall of Fame and Museum and Dos Equis® unveiled an officially licensed, limited-edition bobblehead of The Most Interesting Man in the World®, the character behind the iconic a…",
-      "publishedAt": "2026-11-19T13:08:18.000Z"
+      "title": "Baby Shark Live! The Hidden Treasure Touring Australia in 2027",
+      "url": "https://www.themovieboards.net/2026/11/20/baby-shark-live-the-hidden-treasure-touring-australia-in-2027/",
+      "summary": "Get ready to sing, dance and dive into an ocean of family fun! The global phenomenon BABY SHARK LIVE! THE HIDDEN TREASURE is officially coming Down Under, announcing its first-ever Australian tour fo…",
+      "publishedAt": "2026-11-20T01:12:41.000Z"
     }
   },
   "https://esotericmeanderingshoutingintothevoid.blog/": {
@@ -11965,15 +11965,15 @@
     }
   },
   "https://iamstillborednotes.wordpress.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T21:44:32.263Z",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-20T01:44:29.838Z",
     "status": "success",
     "feedUrl": "https://iamstillborednotes.wordpress.com/feed/",
     "latestArticle": {
-      "title": "This Blog.",
-      "url": "https://iamstillborednotes.wordpress.com/2026/11/19/this-blog-2/",
-      "summary": "What’s the weirdest (harmless) obsession you’ve ever had? Perfecting imperfection seems to be what it is…",
-      "publishedAt": "2026-11-19T21:14:52.000Z"
+      "title": "Stop Asking Me Questions.",
+      "url": "https://iamstillborednotes.wordpress.com/2026/11/20/stop-asking-me-questions/",
+      "summary": "…",
+      "publishedAt": "2026-11-20T00:00:00.000Z"
     }
   },
   "https://celfypridd.co.uk/": {

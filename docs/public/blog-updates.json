@@ -233,10 +233,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Calibre 9.19 Adds Grammar Checking and Suggestions to the Book Editor",
-      "url": "https://9to5linux.com/calibre-9-19-adds-grammar-checking-and-suggestions-to-the-book-editor",
-      "summary": "Calibre 9.19 open-source e-book manager is now available for download with grammar checking and suggestions for rewriting sentences and other changes. The post Calibre 9.19 Adds Grammar Checking and …",
-      "publishedAt": "2026-11-21T10:35:17.000Z"
+      "title": "Debian 13.8 “Trixie” Released with 122 Bug Fixes and 150 Security Updates",
+      "url": "https://9to5linux.com/debian-13-8-trixie-released-with-122-bug-fixes-and-150-security-updates",
+      "summary": "Debian 13.8 is now available for download as the eighth maintenance update to the Debian 13 “Trixie” operating system series with 122 bug fixes and 150 security updates. The post Debian 13.8 “Trixie”…",
+      "publishedAt": "2026-11-21T10:51:08.000Z"
     }
   },
   "https://aa258777108.wordpress.com/": {
@@ -452,7 +452,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -1326,13 +1326,13 @@
   },
   "https://bloomplantednorth.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://bloomplantednorth.blog/feed/",
     "latestArticle": {
-      "title": "Treasures",
-      "url": "https://bloomplantednorth.blog/2026/11/20/treasures/",
-      "summary": "If you were given a box containing everything you’d ever lost, what would you look for first? This got me thinking about items I no longer have but wish I did. Some were not necessarily “lost”, maybe…",
-      "publishedAt": "2026-11-20T11:59:57.000Z"
+      "title": "It’s not Europe",
+      "url": "https://bloomplantednorth.blog/2026/11/21/its-not-europe/",
+      "summary": "If you could go anywhere in the world right now, would you go somewhere or to someone? If I could go somewhere right now, it would be to Europe with my faves, my four kids and grandbaby, Baby RR. Fra…",
+      "publishedAt": "2026-11-21T11:46:13.000Z"
     }
   },
   "https://bluemoon-mcfc.co.uk/": {
@@ -1526,10 +1526,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://bushboy.blog/feed/",
     "latestArticle": {
-      "title": "Sunset view (the guardian tree trio)",
-      "url": "https://bushboy.blog/2026/11/21/sunset-view-the-guardian-tree-trio/",
-      "summary": "Debbies Six Word Saturday",
-      "publishedAt": "2026-11-21T08:17:00.000Z"
+      "title": "Three years later",
+      "url": "https://bushboy.blog/2026/11/21/three-years-later/",
+      "summary": "Weekly Prompts Weekend Challenge: Flashback Mumma in 2023 as a joey Mumma and Little Jo 2026 From Little Things Big Things Grow – an Australian classic",
+      "publishedAt": "2026-11-21T11:45:20.000Z"
     }
   },
   "https://byjayandsteph.wordpress.com/": {
@@ -1878,9 +1878,9 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-sends-attack-and-defence-message-to-manchester-city-supporters-ahead-of-must-win-fulham-clash",
-      "summary": "Manchester City manager Enzo Maresca has reminded his players that consistency at both ends of the pitch is the most important part of achieving as much success as possible.",
-      "publishedAt": "2026-11-21T10:00:28.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/confirmed-line-ups-manchester-city-vs-fulham-premier-league-1",
+      "summary": "Enzo Maresca and Manchester City return to Premier League action as they welcome Fulham to the Etihad Stadium in the early Saturday lunchtime kick-off slot.",
+      "publishedAt": "2026-11-21T11:15:15.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -2404,7 +2404,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -2808,7 +2808,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3264,7 +3264,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3555,12 +3555,12 @@
   },
   "https://hackernoon.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://hackernoon.com/feed",
     "latestArticle": {
-      "url": "https://hackernoon.com/the-anchor-effect-why-destination-footfall-doesnt-equal-retail-demand?source=rss",
-      "summary": "Battersea Power Station hit 50M visits, yet vacancy ranges from 6% to 38% by zone. Why destination footfall is not shopfront demand, and how to measure it.",
-      "publishedAt": "2026-11-20T22:26:25.000Z"
+      "url": "https://hackernoon.com/benchmarking-aws-amplify-lambda-web-functions-and-ecs-for-nextjs?source=rss",
+      "summary": "A hands-on benchmark comparing AWS Amplify, Lambda, Web Functions, and ECS for Next.js, covering latency, cold starts, scaling, and monthly costs.",
+      "publishedAt": "2026-11-21T11:00:03.000Z"
     }
   },
   "https://hajarstext.wordpress.com/": {
@@ -4000,13 +4000,13 @@
   },
   "https://intellection7.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://intellection7.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Selling Advertising Specialties",
-      "url": "https://intellection7.wordpress.com/2026/11/20/selling-advertising-specialties/",
-      "summary": "Describe a failure that, looking back, was actually one of the best things that ever happened to you. Advertising specialties are things such as calendars, hats, and pens with a company’s logo and me…",
-      "publishedAt": "2026-11-20T11:12:25.000Z"
+      "title": "Future Selfs Advice",
+      "url": "https://intellection7.wordpress.com/2026/11/21/future-selfs-advice/",
+      "summary": "If your future self could send you one piece of advice right now, what do you think it would say? I think this prompt is particularly interesting because it causes me to have to think about what my f…",
+      "publishedAt": "2026-11-21T11:18:02.000Z"
     }
   },
   "https://interconnected.org/home/": {
@@ -4279,7 +4279,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4475,10 +4475,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://justabitfurther.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Future Advice – Now",
-      "url": "https://justabitfurther.wordpress.com/2026/11/21/future-advice-now/",
-      "summary": "If your future self could send you one piece of advice right now, what do you think it would say? View all responses Good prompt for an early Saturday morning. This will be short and sweet as we’re h…",
-      "publishedAt": "2026-11-21T10:30:00.000Z"
+      "title": "Yellow Door Expressions – Abstract Winter Landscape #1",
+      "url": "https://justabitfurther.wordpress.com/2026/11/21/yellow-door-expressions-abstract-winter-landscape-1/",
+      "summary": "There has been a flurry of creative activity around the “old homestead” this week in preparation for a Christmas Market today, in a few hours, as a matter of fact, and another one next weekend. Yeste…",
+      "publishedAt": "2026-11-21T11:30:00.000Z"
     }
   },
   "https://justalittlefurther.com/": {
@@ -5313,13 +5313,13 @@
   },
   "https://malcolmoliver.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://malcolmoliver.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Norwegian Bella: The Final Prima Class Ship",
-      "url": "https://malcolmoliver.wordpress.com/2026/11/20/norwegian-bella-the-final-prima-class-ship/",
-      "summary": "At approximately 1,129 feet long and 170,000 gross tons, Norwegian Bella will accommodate 3,921 guests at double occupancy and will join Norwegian Aura as the largest ships in the NCL fleet. Her inau…",
-      "publishedAt": "2026-11-20T18:03:06.000Z"
+      "title": "Carnival Destiny 230k Mega-ship + A Smaller New Class",
+      "url": "https://malcolmoliver.wordpress.com/2026/11/21/introducing-carnival-destiny-230k-ship/",
+      "summary": ". The Carnival Cruise have just cut the steel in Italy, for there first ‘Ace Class’ ship of three, to be named ‘Carnival Destiny’. At 230,000 gross tonnes, these will be Carnival’s biggest cruise shi…",
+      "publishedAt": "2026-11-21T11:15:21.000Z"
     }
   },
   "https://mancityblog.com/": {
@@ -5901,9 +5901,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://msamba.blog/feed/",
     "latestArticle": {
-      "title": "The wonderful world of bilingual tautology #language #linguistics #Scotland #learnsomethingnew",
-      "url": "https://msamba.blog/2026/11/21/the-wonderful-world-of-bilingual-tautology-language-linguistics-scotland-learnsomethingnew/",
-      "publishedAt": "2026-11-21T00:20:05.000Z"
+      "title": "Dramatic Waves Crash on Iceland’s Coast in Photos by Vilhelm Gunnarsson | Colossal",
+      "url": "https://msamba.blog/2026/11/21/dramatic-waves-crash-on-icelands-coast-in-photos-by-vilhelm-gunnarsson-colossal/",
+      "summary": "November 20, 2026 NaturePhotography Kate Mothes All images © Vilhelm Gunnarsson Along the rugged volcanic coast of Iceland’s Reykjanes Peninsula, Vilhelm Gunnarsson captures striking storm surf amid …",
+      "publishedAt": "2026-11-21T11:30:13.000Z"
     }
   },
   "https://mtlcityweblog.com/": {
@@ -6013,10 +6014,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "FOWC With Fandango — Tolerate",
-      "url": "https://mymindmappings.com/2026/11/21/fowc-with-fandango-tolerate/",
-      "summary": "Welcome to Fandango’s One-Word Challenge (aka, FOWC). I will be posting each day’s word just after midnight Pacific Time (U.S.). Today’s word is “tolerate.” Write a post using that word. It can be pr…",
-      "publishedAt": "2026-11-21T08:01:00.000Z"
+      "title": "Great Minds Think — It Finally Came Home",
+      "url": "https://mymindmappings.com/2026/11/21/great-minds-think-it-finally-came-home/",
+      "summary": "The prompt is called “Great Minds Think” and it’s the brainchild of fellow bloggers Sarah and Rohini. The two of them alternate weeks. For this week’s challenge, we are asked to write about an object…",
+      "publishedAt": "2026-11-21T11:00:00.000Z"
     }
   },
   "https://mysidewaysview.com/": {
@@ -6148,10 +6149,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://neveenwood.com/feed/",
     "latestArticle": {
-      "title": "Is YesStyle Legit? What Six Years of My Own Orders Say",
-      "url": "https://neveenwood.com/is-yesstyle-legit/",
-      "summary": "Is YesStyle legit? I've ordered since November 2020. Real delivery times from my own UK orders, whether I've ever paid customs, the one small hiccup, and my code NEVEEN15.",
-      "publishedAt": "2026-11-21T04:41:48.000Z"
+      "title": "LOOKFANTASTIC Beauty Box: Is It Worth It? What’s in the November 2026 Box",
+      "url": "https://neveenwood.com/lookfantastic-beauty-box-2/",
+      "summary": "What's in the LOOKFANTASTIC Beauty Box for November 2026, what it costs (£15, or £10 for your first box), and how I'd decide whether it's worth it for you.",
+      "publishedAt": "2026-11-21T11:44:46.000Z"
     }
   },
   "https://new-lune.com/": {
@@ -6943,7 +6944,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -6975,7 +6976,7 @@
     "latestArticle": {
       "title": "Some readings for Thanksgiving break",
       "url": "https://priorprobability.com/2026/11/21/some-readings-for-thanksgiving-break/",
-      "summary": "My home institution is closing down for the entire week next week, so I will be using this time to catch up on some of my readings: David Finn, How to Visit a Museum (Harry N. Abrams, 1985), availabl…",
+      "summary": "My home institution is closing down for the entire week this Thanksgiving and I am scheduled to teach only one class the following week, so I will be spending most of the next fortnight reading the f…",
       "publishedAt": "2026-11-21T00:21:00.000Z"
     }
   },
@@ -7092,9 +7093,9 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-30",
-    "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
+    "feedUrl": "https://rachelsvintageretro.co.uk/wp-admin/install.php",
     "latestArticle": {
       "title": "Autumn Sale: Further Reductions! Ends Cyber Monday",
       "url": "https://rachelsvintageretro.co.uk/autumn-sale-reduced-prices-on-christmas-gifts-and-homewares/",
@@ -7184,10 +7185,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Martin O’Neill Has Admitted What Celtic Supporters Already Know Pre St Mirren",
-      "url": "https://readceltic.com/2026/11/21/martin-oneill-has-admitted-what-celtic-supporters-already-know-pre-st-mirren/",
-      "summary": "Martin O’Neill has made it clear that Celtic are looking to strengthen the squad in January, and I The post Martin O’Neill Has Admitted What Celtic Supporters Already Know Pre St Mirren appeared firs…",
-      "publishedAt": "2026-11-21T09:37:15.000Z"
+      "title": "‘This is cruelty’ – Martin O’Neill’s Celtic media conferences are becoming an ordeal to watch",
+      "url": "https://readceltic.com/2026/11/21/this-is-cruelty-martin-oneills-celtic-media-conferences-are-becoming-an-ordeal-to-watch/",
+      "summary": "Yesterday, I watched Martin O’Neill’s pre-match media conference with something bordering on incredulity. We’ve continuously spoken about the The post ‘This is cruelty’ – Martin O’Neill’s Celtic medi…",
+      "publishedAt": "2026-11-21T11:32:59.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -7334,13 +7335,13 @@
   },
   "https://retiredmartin.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://retiredmartin.com/feed/",
     "latestArticle": {
-      "title": "“Which beer goes fastest, then ?” and other tricky questions in Beeston",
-      "url": "https://retiredmartin.com/2026/11/20/which-beer-goes-fastest-then-and-other-tricky-questions-in-beeston/",
-      "summary": "November 2026. Beeston. Nottinghamshire. The frost came to Sheffield on Tuesday morning, but I dutifully drove Mrs RM to the station for her train to Stansted Airport and her Moroccan adventure (with…",
-      "publishedAt": "2026-11-20T09:36:46.000Z"
+      "title": "TOURIST BEESTON",
+      "url": "https://retiredmartin.com/2026/11/21/tourist-beeston/",
+      "summary": "November 2026. Beeston. Nottinghamshire. I missed the big CAMRA Day Out in Stockport yesterday, the one celebrating the arrival of Old Tom rather than Beaujolais Nouveau. In truth, I might have been …",
+      "publishedAt": "2026-11-21T11:43:31.000Z"
     }
   },
   "https://retroarcadia.blog/": {
@@ -7355,7 +7356,7 @@
     }
   },
   "https://retrogametalk.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://revenuecycleuncovered.blogspot.com/": {
@@ -8094,13 +8095,13 @@
   },
   "https://skilletglow.com/": {
     "status": "success",
-    "lastPublished": "2026-11-19",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://skilletglow.com/feed/",
     "latestArticle": {
-      "title": "Chicken Shawarma Rice Bowls with Lemon Yogurt",
-      "url": "https://skilletglow.com/chicken-shawarma-rice-bowls-with-lemon-yogurt/",
-      "summary": "This shawarma-inspired bowl combines spiced chicken thighs, fluffy rice, cool vegetables and lemon yogurt. It uses a home skillet rather than a rotating spit. Keeping the components separate until se…",
-      "publishedAt": "2026-11-19T00:05:19.000Z"
+      "title": "Air Fryer Lemon Herb Turkey Burgers",
+      "url": "https://skilletglow.com/air-fryer-lemon-herb-turkey-burgers/",
+      "summary": "Evenly shaped turkey patties air fry to a safe center temperature and stay juicy when rested briefly. The post Air Fryer Lemon Herb Turkey Burgers appeared first on SkilletGlow .",
+      "publishedAt": "2026-11-21T10:58:47.000Z"
     }
   },
   "https://sky.pispace.eu/": {
@@ -8277,7 +8278,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -9420,7 +9421,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9636,17 +9637,17 @@
   },
   "https://trivialitiesandintricacies.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://trivialitiesandintricacies.com/feed/",
     "latestArticle": {
-      "title": "Cherished",
-      "url": "https://trivialitiesandintricacies.com/2026/11/20/cherished/",
-      "summary": "A failed marriage opened the doors to a 20 year long stay in America. All of the experiences during that time, good and bad, shaped me into the person I am today. Those years in… More",
-      "publishedAt": "2026-11-20T08:41:29.000Z"
+      "title": "Nothing New",
+      "url": "https://trivialitiesandintricacies.com/2026/11/21/nothing-new/",
+      "summary": "In case you missed my response from September 15th 2026, please refer to my write-up titled Prioritize Yourself. Though the question is worded differently, my answer would be the same. Enjoy your day…",
+      "publishedAt": "2026-11-21T11:02:31.000Z"
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -9812,13 +9813,13 @@
   },
   "https://viewpointsunplugged.com/": {
     "status": "success",
-    "lastPublished": "2026-11-16",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://viewpointsunplugged.com/feed/",
     "latestArticle": {
-      "title": "Love CHAOS for THIS reason",
-      "url": "https://viewpointsunplugged.com/love-chaos-for-this-reason/",
-      "summary": "Love CHAOS for THIS reason Pile On Motivation Love CHAOS for THIS reason The post Love CHAOS for THIS reason appeared first on Pile On Motivation .",
-      "publishedAt": "2026-11-16T08:08:30.000Z"
+      "title": "PRESENT focused TIME MACHINE",
+      "url": "https://viewpointsunplugged.com/present-focused-time-machine/",
+      "summary": "PRESENT focused TIME MACHINE Pile On Motivation PRESENT focused TIME MACHINE The post PRESENT focused TIME MACHINE appeared first on Pile On Motivation .",
+      "publishedAt": "2026-11-21T10:50:53.000Z"
     }
   },
   "https://viewscape5.wordpress.com/": {
@@ -9919,12 +9920,12 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/174177/how-should-chelsea-line-up-against-leeds-united",
-      "summary": "Chelsea returned from the first international break of the season with a rousing 5-1 victory and now we have a chance to do something quite similar, and against one of our biggest historic rivals. An…",
-      "publishedAt": "2026-11-20T20:47:02.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/174205/chelsea-fans-preferred-lineup-against-leeds-united-back-four-and-mike-penders",
+      "summary": "Prior to the international break, Chelsea had begun to use a back-four setup instead of the back-three that we had seen for much of the early season. Whether Xabi Alonso sticks to the new shape or th…",
+      "publishedAt": "2026-11-21T09:15:02.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -10323,10 +10324,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Medieval Horse Knight Castle gets its biggest discount to date",
-      "url": "https://www.brickfanatics.com/lego-medieval-horse-knight-castle-gets-its-biggest-discount-to-date",
-      "summary": "Now’s the perfect time to pick up 31168 Medieval Horse Knight Castle, with nearly 40% off the price of the LEGO Creator 3-in-1 set at Amazon UK. Amazon UK’s Black Friday sale is currently in full eff…",
-      "publishedAt": "2026-11-21T10:28:07.000Z"
+      "title": "LEGO Insiders Weekend adds 10% incentive for new members",
+      "url": "https://www.brickfanatics.com/lego-insiders-weekend-adds-10-percent-incentive-for-new-members",
+      "summary": "Sign up and save",
+      "publishedAt": "2026-11-21T11:15:23.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -10403,10 +10404,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "BOSS SPELLS IT FOR KASPER",
-      "url": "https://www.celticquicknews.co.uk/boss-spells-it-for-kasper/",
-      "summary": "MARTIN O’NEILL is refusing to heap pressure on misfiring marksman Kasper Hogh who has gone SIXTEEN games without a goal since his first-half hat-trick in Celtic’s 5-1 win at Kilmarnock on August 9 It…",
-      "publishedAt": "2026-11-21T10:18:57.000Z"
+      "title": "‘CARNAGE’: QUESTION TIME FOR O’NEILL",
+      "url": "https://www.celticquicknews.co.uk/carnage-question-time-for-oneill/",
+      "summary": "MARTIN O’NEILL has been bombarded with criticism over some of Celtic’s concerning performances this season. The veteran team chief has seen the Hoops stumble to seven defeats in 21 games across all c…",
+      "publishedAt": "2026-11-21T11:03:21.000Z"
     }
   },
   "https://www.cleverdude.com/": {
@@ -10658,10 +10659,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Greenwich set for borough-wide 20mph streets by Kathy",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/11/20/greenwich-set-for-borough-wide-20mph-streets/#comment-112740",
-      "summary": "In reply to Kay M . Indeed - good idea on paper but in practice ? Cllrs will claim it is down to the police to catch speeding cars while the police will quote lack of resources to do this. Greenwich …",
-      "publishedAt": "2026-11-21T10:27:35.000Z"
+      "title": "Comment on Greenwich set for borough-wide 20mph streets by Michael",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/11/20/greenwich-set-for-borough-wide-20mph-streets/#comment-112741",
+      "summary": "In reply to Kathy . The council will probably use speed cameras to enforce the 20mph. On my commute into central London there are two yellow-box speed cameras enforcing the 20mph on a bit of the Old …",
+      "publishedAt": "2026-11-21T11:23:02.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -10978,7 +10979,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11314,7 +11315,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -12044,13 +12045,13 @@
   },
   "https://yugenologyblog.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://yugenologyblog.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The tale of Blueoxen",
-      "url": "https://yugenologyblog.wordpress.com/2026/11/20/the-tale-of-blueoxen/",
-      "summary": "Towns exists for many a reason From built around a new family farm Or because a car simply broke down Some people start them on purpose Others show up if by chance And then there is Old Blueoxen A to…",
-      "publishedAt": "2026-11-20T13:07:33.000Z"
+      "title": "Burning Bright",
+      "url": "https://yugenologyblog.wordpress.com/2026/11/21/burning-bright/",
+      "summary": "Flickering On the edge Or rather I am the edge Of darkness and light Of shadow and sight Of fight or flight I am the power that can light your way Or your room Or your life I can bring soft fragrance…",
+      "publishedAt": "2026-11-21T11:02:37.000Z"
     }
   },
   "https://zacharyzollman.com/": {

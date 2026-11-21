@@ -452,7 +452,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -2809,7 +2809,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3264,7 +3264,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3296,7 +3296,7 @@
     }
   },
   "https://gifcities.org/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://girlsangle.wordpress.com/": {
@@ -4280,7 +4280,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4296,13 +4296,13 @@
   },
   "https://john3265.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://john3265.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Rescission",
-      "url": "https://john3265.wordpress.com/2026/11/17/rescission/",
-      "summary": "Rescission. All that Latin. I was reliving my glory days when I read those texts though not as zealously or easily as I claimed . My one regret is I didn’t search out Pliny the Younger’s account of h…",
-      "publishedAt": "2026-11-17T22:00:41.000Z"
+      "title": "Mall Rat",
+      "url": "https://john3265.wordpress.com/2026/11/21/mall-rat/",
+      "summary": "Mall Rat Okay, I admit it, I’m a mall rat. Better than hanging out at a pub or that bordello down the street. You hear rumours. Bump into Johhny Westwood in his nineties. We fist pump to show how ‘up…",
+      "publishedAt": "2026-11-21T00:52:09.000Z"
     }
   },
   "https://johnclare.blogspot.com/": {
@@ -5844,7 +5844,7 @@
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
@@ -5912,10 +5912,10 @@
     "lastPublished": "2026-11-21",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Noakes on one year of SMF",
-      "url": "https://mtlcityweblog.com/2026/11/20/noakes-on-one-year-of-smf/",
-      "summary": "Taylor C. Noakes evaluates one year of Soraya.",
-      "publishedAt": "2026-11-21T00:01:31.000Z"
+      "title": "Upcoming rulings of interest",
+      "url": "https://mtlcityweblog.com/2026/11/20/upcoming-rulings-of-interest/",
+      "summary": "On Monday, a Quebec judge will rule on the thorny issue of whether MNAs have to swear an oath of allegiance before they can serve. Next Friday, Canada’s Supreme Court will rule on Quebec’s Bill 21 an…",
+      "publishedAt": "2026-11-21T00:54:32.000Z"
     }
   },
   "https://mumofboysadventures.wordpress.com/": {
@@ -6575,7 +6575,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -6944,7 +6944,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -8277,7 +8277,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -9420,7 +9420,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9646,7 +9646,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -10240,7 +10240,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -10978,7 +10978,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11314,7 +11314,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

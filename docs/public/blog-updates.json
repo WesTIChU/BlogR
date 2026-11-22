@@ -452,7 +452,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -888,7 +888,7 @@
     }
   },
   "https://babakfakhamzadeh.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
@@ -1611,13 +1611,13 @@
   },
   "https://cabbieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://cabbieblog.com/feed/",
     "latestArticle": {
-      "title": "Previously Posted: Do you come here often?",
-      "url": "https://cabbieblog.com/2026/11/21/previously-posted-do-you-come-here-often/",
-      "summary": "For those new to CabbieBlog or readers who are slightly forgetful, on Saturdays I’m republishing posts, many going back over a decade. Some will still be very relevant while others have become dated …",
-      "publishedAt": "2026-11-21T13:50:00.000Z"
+      "title": "London Trivia: Iron Lady’s farewell",
+      "url": "https://cabbieblog.com/2026/11/22/london-trivia-iron-ladys-farewell-2/",
+      "summary": "Weekly nuggets of triviality posted every Sunday each with a short essay relating to the day in question along with 10 other pieces of useless information, read weekly or dip in and out",
+      "publishedAt": "2026-11-22T13:50:30.000Z"
     }
   },
   "https://calamitymn.blogspot.com/": {
@@ -1784,7 +1784,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1852,9 +1852,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-11-20",
-    "feedUrl": "https://chrislt.nz/feed/",
+    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
     "latestArticle": {
       "title": "“Colour was a revolution to me”",
       "url": "https://chrislt.nz/colour-was-a-revolution-to-me/",
@@ -2205,13 +2205,13 @@
   },
   "https://creditguruhq.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://creditguruhq.com/feed.xml",
     "latestArticle": {
-      "title": "Apple Card review (2026.11 update: $100 or double Daily Cash)",
-      "url": "https://creditguruhq.com/blog/apple-card-double-daily-cash",
-      "summary": "Compare $100 after $100 in purchases with a year of double Apple Card rewards. At the ordinary Apple Pay rate, $5,000 in spending earns $100 extra.",
-      "publishedAt": "2026-11-21T12:00:00.000Z"
+      "title": "Should you save up cash back or redeem it now?",
+      "url": "https://creditguruhq.com/blog/redeem-cash-back-or-save-rewards",
+      "summary": "For cash back with no better redemption planned, redeeming regularly can put the money to work. Compare the dollar value, payment rules and cost of waiting.",
+      "publishedAt": "2026-11-22T12:00:00.000Z"
     }
   },
   "https://cri.cl/": {
@@ -2329,10 +2329,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Kraken will honor trades after Bitcoin briefly fell to about $17,000",
-      "url": "https://cryptonews.mobile/brief/kraken-will-honor-trades-after-bitcoin-briefly-fell-to-about-17000",
-      "summary": "Kraken said it will honor trades executed during a sharp selloff in its Canadian-dollar markets. The exchange said heavy selling pressure began around 20:00 UTC on Friday and pushed prices below othe…",
-      "publishedAt": "2026-11-22T09:45:06.000Z"
+      "title": "USDD cites multichain stablecoin tools as onchain FX use grows",
+      "url": "https://cryptonews.mobile/brief/usdd-cites-multichain-stablecoin-tools-as-onchain-fx-use-grows",
+      "summary": "USDD says it is expanding across TRON, Ethereum and BNB Chain. It combines automated sUSDD yield through its Smart Allocator with GasFree transfers on TRON, where eligible users pay about 0.5 USDD pe…",
+      "publishedAt": "2026-11-22T14:45:02.000Z"
     }
   },
   "https://css-tricks.com/": {
@@ -2719,7 +2719,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2826,7 +2826,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -2862,7 +2862,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3317,7 +3317,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenstaterockhound.wordpress.com/": {
@@ -3412,7 +3412,7 @@
     "feedUrl": "https://glyphsift.com/favicon.svg"
   },
   "https://gnomadhome.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2023-12-19",
     "feedUrl": "https://gnomadhome.com/feed/",
     "latestArticle": {
@@ -3602,13 +3602,13 @@
   },
   "https://gwbcreations.org/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://gwbcreations.org/feed/",
     "latestArticle": {
-      "title": "to catch a depth of cold",
-      "url": "https://gwbcreations.org/2026/11/21/to-catch-a-depth-of-cold/",
-      "summary": "snow swirls and an ungentle breeze slaps the face of the out-of-towner with a harsh incorporeal palm. life was different in the southwest, where pipes freezing in January almost never happened. this …",
-      "publishedAt": "2026-11-21T15:23:31.000Z"
+      "title": "dove dove over dover, over",
+      "url": "https://gwbcreations.org/2026/11/22/dove-dove-over-dover-over/",
+      "summary": "dave? dove. i derive derivatives indicating syndication of a synod’s nodules. roger dover approach, over. .. roger, dove. dover approach anon. but dave dove, dove. this is doug, snug in the pilot’s s…",
+      "publishedAt": "2026-11-22T14:22:55.000Z"
     }
   },
   "https://hackaday.com/": {
@@ -3732,13 +3732,13 @@
   },
   "https://hazelbrightwaterpuzzles.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://hazelbrightwaterpuzzles.wordpress.com/feed/",
     "latestArticle": {
-      "title": "How to Solve Futoshiki: Rules and Easy Steps (With a Practice Grid)",
-      "url": "https://hazelbrightwaterpuzzles.wordpress.com/2026/11/21/how-to-solve-futoshiki/",
-      "summary": "How to solve futoshiki: the rules in plain words, a step-by-step beginner walk-through, quick tips, and a free 5 x 5 practice grid with the answer.",
-      "publishedAt": "2026-11-21T14:05:41.000Z"
+      "title": "Word Fill-In Puzzles: What They Are and How to Solve Them",
+      "url": "https://hazelbrightwaterpuzzles.wordpress.com/2026/11/22/word-fill-in-puzzles/",
+      "summary": "Word fill in puzzles explained: what they are, how they differ from crosswords, four simple solving moves, and a free printable practice puzzle with the answer.",
+      "publishedAt": "2026-11-22T13:58:29.000Z"
     }
   },
   "https://heatherburns.tech/blog/": {
@@ -4166,9 +4166,9 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "200 Albums for 2026 It Starts With a Birthstone # 35 The Guest List",
-      "summary": "Rising in the face of The New Fascism ! Into the New Week . Never mind about the front page. Look to music. British Indie Rock & Roll seems back in fashion in late 2026. And not before time. Hot on t…",
-      "publishedAt": "2026-11-22T10:01:11.000Z"
+      "title": "The 100 Greatest Albums of All Time NME November 1985 # 92 The Abbyssinians - Forward Onto Zion",
+      "summary": "Check out AI. What does The Good Book say? Repatriation and freedom' ' critique of lingering oppression; spiritual oppression. Loping tracks of mysticism, struggle and journey. Not an album that I've…",
+      "publishedAt": "2026-11-22T14:39:38.000Z"
     }
   },
   "https://ivorplumberpoet.press/": {
@@ -4359,7 +4359,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4785,9 +4785,9 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://kmflett.blog/feed/atom/",
     "latestArticle": {
-      "url": "https://kmflett.blog/2026/11/22/the-ambridge-socialist-vicar-alan-franks-rebel-with-a-cause/",
-      "summary": "The Ambridge Socialist 22nd November Mags & the gravy The Bull is losing food customers to the Feathers which has a carvery. Joy has discussed it with new chef Mags and discovered that the appeal of …",
-      "publishedAt": "2026-11-22T12:28:18.000Z"
+      "url": "https://kmflett.blog/2026/11/22/a-statue-of-king-athelstan894-939-on-trafalgar-squares-fourth-plinth-times-letter-a-statue-of-one-more-long-dead-white-man/",
+      "summary": "David Aaronovitch has written an interesting Substack on the campaign to install a statue of King Athelstan(894-939) on the fourth plinth at Trafalgar Square. The motor for the campaign are the Rest …",
+      "publishedAt": "2026-11-22T14:27:33.000Z"
     }
   },
   "https://knifesteelnerds.com/": {
@@ -5043,13 +5043,13 @@
   },
   "https://lifeandbrains.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://lifeandbrains.com/feed/",
     "latestArticle": {
-      "title": "Day 568, When Radio Had A Chance, Television Raped Reality.",
-      "url": "https://lifeandbrains.com/2026/11/20/day-568-when-radio-had-a-chance-television-raped-reality/",
-      "summary": "I do think the world has given up reality for visual amalgamations of the things we want, or a system before us tells us what we want. It was something I have been thinking of as I am trying to under…",
-      "publishedAt": "2026-11-20T17:35:28.000Z"
+      "title": "Day 569, If Surviving Under A Failed System, Then Is There Require Law.",
+      "url": "https://lifeandbrains.com/2026/11/22/day-569-if-surviving-under-a-failed-system-then-is-there-require-law/",
+      "summary": "Good day humans! I do hope you are all doing well and that you have not been tasked too much on this Sunday. The day is wonderful if not a bit on the chilly side. That is fine as I gotten a lot of fi…",
+      "publishedAt": "2026-11-22T14:00:54.000Z"
     }
   },
   "https://lifeinaword.com/": {
@@ -5382,7 +5382,7 @@
     }
   },
   "https://maisonkojira.com/insights/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://makeupandbeautyblog.com/": {
@@ -5453,13 +5453,13 @@
   },
   "https://marcschuster.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://marcschuster.com/feed/",
     "latestArticle": {
-      "title": "I Had a Little Time, So…",
-      "url": "https://marcschuster.com/2026/11/21/i-had-a-little-time-so/",
-      "summary": "I’m sure some version of this joke has already been done, but when I saw the photo from the trilateral summit, I couldn’t help thinking that it looked like the worst Weezer tribute band ever, so…",
-      "publishedAt": "2026-11-21T16:30:58.000Z"
+      "title": "Sometimes the Choice is Obvious",
+      "url": "https://marcschuster.com/2026/11/22/sometimes-the-choice-is-obvious/",
+      "summary": "Made this a couple of days ago because I thought it was funny.",
+      "publishedAt": "2026-11-22T14:37:52.000Z"
     }
   },
   "https://marginalrevolution.com/": {
@@ -5780,13 +5780,13 @@
   },
   "https://mohawkvalleygirl.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://mohawkvalleygirl.com/feed/",
     "latestArticle": {
-      "title": "Not Even a Lame Excuse",
-      "url": "https://mohawkvalleygirl.com/2026/11/21/not-even-a-lame-excuse/",
-      "summary": "After managing to make a blog post Wednesday when I didn’t feel well, I completely missed Thursday. And when I started to make this post, I spilled coffee on my pants. I don’t think it shows in the b…",
-      "publishedAt": "2026-11-20T18:42:38.000Z"
+      "title": "Not an Elegant Blog Post, Either",
+      "url": "https://mohawkvalleygirl.com/2026/11/22/not-an-elegant-blog-post-either/",
+      "summary": "Am I becoming an Every-Other-Day Blogger? Say it ain’t so!!! At least I am making my Wrist to Forehead Sunday post in the morning, so time will not get away from me. I only could have made a Saturday…",
+      "publishedAt": "2026-11-22T14:40:56.000Z"
     }
   },
   "https://mohulbhowmick.blog/": {
@@ -5929,23 +5929,23 @@
   },
   "https://moviepalace.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://moviepalace.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "SWING HIGH, SWING LOW (1937)",
-      "url": "https://moviepalace.blogspot.com/2026/11/swing-high-swing-low-1937_0203449155.html",
-      "summary": "On an ocean liner going through the Panama Canal, Maggie King, a singer and dancer who is working as a hairdresser on the ship, is headed for California to marry Harvey Howell, a rich man she doesn't…",
-      "publishedAt": "2026-11-21T16:21:12.096Z"
+      "title": "JOURNEY TO THE BEGINNING OF TIME (1955)",
+      "url": "https://moviepalace.blogspot.com/2026/11/journey-to-beginning-of-time-1955.html",
+      "summary": "Czech filmmaker and animator Karel Zeman made some extraordinary films, most of which have been left behind by American pop culture, partly because when most of them were originally released in the S…",
+      "publishedAt": "2026-11-22T14:44:58.932Z"
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-21",
+    "status": "success",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
-      "url": "https://moviesoftheeighties.substack.com/p/james-cagney-takes-a-final-bow-in",
-      "summary": "An unexpected friendship, a doctor’s orders, and one final appearance from a Hollywood legend who never thought of himself as a superstar.",
-      "publishedAt": "2026-11-21T13:40:56.000Z"
+      "url": "https://moviesoftheeighties.substack.com/p/movies-of-the-80s-the-moviegoers",
+      "summary": "Sunday Morning Quiz | 20 Questions",
+      "publishedAt": "2026-11-22T14:26:01.000Z"
     }
   },
   "https://moxiemoshpit.com/blog/": {
@@ -6004,13 +6004,13 @@
   },
   "https://mtlcityweblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "Two fired SPVM police are arrested",
-      "url": "https://mtlcityweblog.com/2026/11/21/two-fired-spvm-police-are-arrested/",
-      "summary": "Two of the seven SPVM police from Station 39 fired early this month have been arrested. They face charges of assault and breach of trust, and one of them also faces a count of criminal harassment.",
-      "publishedAt": "2026-11-21T20:24:43.000Z"
+      "title": "Will OCPM consult on church buildings?",
+      "url": "https://mtlcityweblog.com/2026/11/22/will-ocpm-consult-on-church-buildings/",
+      "summary": "The verb in the headline is not certain, but the OCPM may be preparing to consult the public on what to do about the disused churches degrading around town. The catch is that each case is different. …",
+      "publishedAt": "2026-11-22T14:19:18.000Z"
     }
   },
   "https://mumofboysadventures.wordpress.com/": {
@@ -6109,10 +6109,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "Song Lyric Sunday — One Word Title",
-      "url": "https://mymindmappings.com/2026/11/22/song-lyric-sunday-one-word-title/",
-      "summary": "For this week’s Song Lyric Sunday challenge, the theme is to find a song that has a one-word title, as suggested by Di of pensitivity101. Today we are flashing back 65 years to the hit song “Runaway,…",
-      "publishedAt": "2026-11-22T11:00:00.000Z"
+      "title": "MFFFC — A Mixed Bag",
+      "url": "https://mymindmappings.com/2026/11/22/mfffc-a-mixed-bag/",
+      "summary": "One day, as I was setting the dinner table, I asked my mother why all our glasses that we use are different. “Ask your father,” she said. “He’s at work. He’s always at work. That’s why I am asking yo…",
+      "publishedAt": "2026-11-22T14:38:00.000Z"
     }
   },
   "https://mysidewaysview.com/": {
@@ -6681,7 +6681,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -7060,7 +7060,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7130,13 +7130,13 @@
   },
   "https://pulpcovers.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
-      "title": "Last Cruise of the Fuschia Tuan",
-      "url": "https://pulpcovers.com/last-cruise-of-the-fuschia-tuan/",
+      "title": "Scarlett Ivory",
+      "url": "https://pulpcovers.com/scarlett-ivory/",
       "summary": "via",
-      "publishedAt": "2026-11-21T20:28:43.000Z"
+      "publishedAt": "2026-11-22T13:59:14.000Z"
     }
   },
   "https://pumpkinrot.blogspot.com/": {
@@ -7300,10 +7300,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "£20 million worth missing at Celtic Park yesterday – bad signings or bad management?",
-      "url": "https://readceltic.com/2026/11/22/20-million-worth-missing-at-celtic-park-yesterday-bad-signings-or-bad-management/",
-      "summary": "Aiden McGeady and Ryan Stevenson felt that Kasper Høgh was probably raging after being left on the bench The post £20 million worth missing at Celtic Park yesterday – bad signings or bad management? …",
-      "publishedAt": "2026-11-22T13:02:30.000Z"
+      "title": "Celtic in Europe: Keevins’ astonishing double standard exposed",
+      "url": "https://readceltic.com/2026/11/22/celtic-europe-keevins-double-standard/",
+      "summary": "Hugh Keevins has delivered two sharply different messages about Scottish clubs and European football. When Rangers were already The post Celtic in Europe: Keevins’ astonishing double standard exposed…",
+      "publishedAt": "2026-11-22T14:20:07.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -7959,7 +7959,7 @@
     }
   },
   "https://seat31b.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-16",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
@@ -8231,13 +8231,13 @@
   },
   "https://skilletglow.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://skilletglow.com/feed/",
     "latestArticle": {
-      "title": "Air Fryer Rosemary Potato Wedges",
-      "url": "https://skilletglow.com/air-fryer-rosemary-potato-wedges/",
-      "summary": "Potato wedges brown best when dried and spaced, with garlic held back until the end. The post Air Fryer Rosemary Potato Wedges appeared first on SkilletGlow .",
-      "publishedAt": "2026-11-21T15:31:49.000Z"
+      "title": "Apple Olive Oil Muffins with Cinnamon",
+      "url": "https://skilletglow.com/apple-olive-oil-muffins-with-cinnamon/",
+      "summary": "Small apple cubes keep these olive oil muffins moist without leaving large wet pockets. Cinnamon is used lightly so the apple remains the main flavor. A mild olive oil gives a softer background than …",
+      "publishedAt": "2026-11-22T14:09:57.000Z"
     }
   },
   "https://sky.pispace.eu/": {
@@ -8414,18 +8414,18 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://steffordiii.wordpress.com/feed/",
     "latestArticle": {
-      "title": "BP.",
-      "url": "https://steffordiii.wordpress.com/2026/11/20/bp/",
-      "summary": "Two readings taken at the same time. One, or both, must be wrong. The Omron always reads higher than the readings at the doctor’s surgery and the wrist watch always reads lower. The last reading of m…",
-      "publishedAt": "2026-11-20T13:52:18.000Z"
+      "title": "Pain",
+      "url": "https://steffordiii.wordpress.com/2026/11/23/pain-2/",
+      "summary": "Osteopanadol and THCeven taken together, Don’t do it for mesometimes.So I must resort,to manage the painto taking pregabalin pills once again.But what happens to meshould I take all three?Shall I wak…",
+      "publishedAt": "2026-11-22T14:14:16.000Z"
     }
   },
   "https://stephenbodio.com/": {
@@ -8990,13 +8990,13 @@
   },
   "https://thediaryofdad.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://thediaryofdad.com/feed/",
     "latestArticle": {
-      "title": "Easy Paper Plate Christmas Wreath Craft for Kids",
-      "url": "https://thediaryofdad.com/paper-plate-christmas-wreath/",
-      "summary": "Make an easy paper plate Christmas wreath with kids using paint, gems, pom-pom snowballs and a wooden bell. A fun festive craft we made together at home.",
-      "publishedAt": "2026-11-20T20:15:52.000Z"
+      "title": "Free Under the Sea Colouring Pages for Kids (12 Printables)",
+      "url": "https://thediaryofdad.com/under-the-sea-colouring-pages/",
+      "summary": "There is something about the ocean that seems to capture kids’ imaginations. One minute it’s dolphins and sea turtles, the next it’s treasure chests and submarines exploring the seabed. So I’ve put t…",
+      "publishedAt": "2026-11-22T14:03:09.000Z"
     }
   },
   "https://thedirtbagdao.com/": {
@@ -9382,7 +9382,7 @@
     }
   },
   "https://theseconddisc.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://theseconddisc.com/comments/feed/",
     "latestArticle": {
@@ -9578,7 +9578,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9826,7 +9826,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -10004,13 +10004,13 @@
   },
   "https://viewscape5.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://viewscape5.wordpress.com/feed/",
     "latestArticle": {
-      "title": "We did it.",
-      "url": "https://viewscape5.wordpress.com/2026/11/21/we-did-it/",
-      "summary": "If your future self could send you one piece of advice right now, what do you think it would say? Most people only see the finish line. They see the announcement, the finished project, the acceptance…",
-      "publishedAt": "2026-11-21T18:42:39.000Z"
+      "title": "KZN, south beach",
+      "url": "https://viewscape5.wordpress.com/2026/11/22/kzn-south-beach/",
+      "summary": "What’s the best beach you’ve ever been to? Sitting right at the southern anchor of Durban’s iconic Golden Mile, South Beach is where KwaZulu-Natal’s laid-back coastal energy comes alive. Unlike the r…",
+      "publishedAt": "2026-11-22T14:13:16.000Z"
     }
   },
   "https://vinodanandparikh.wordpress.com/": {
@@ -10206,13 +10206,13 @@
   },
   "https://wildonline.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://wildonline.blog/feed/",
     "latestArticle": {
-      "title": "THE HIDE – SLOW",
-      "url": "https://wildonline.blog/2026/11/21/the-hide-slow/",
-      "summary": "The weather is cold , slightly misty and there is damp just hanging in the air . And i think it has had an effect on the wildlife , one […]",
-      "publishedAt": "2026-11-21T09:50:55.000Z"
+      "title": "WILDLIFE – SMALL TORTOISESHELL BUTTERFLY",
+      "url": "https://wildonline.blog/2026/11/22/wildlife-small-tortoiseshell-butterfly-2/",
+      "summary": "The Small Tortoiseshell – Aglais urticae The Small Tortoiseshell is […]",
+      "publishedAt": "2026-11-22T14:19:34.000Z"
     }
   },
   "https://winther.sysctl.dk/": {
@@ -10292,13 +10292,13 @@
   },
   "https://writingwrongs.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://writingwrongs.blog/feed/",
     "latestArticle": {
-      "title": "30 Days of Bookish Gratitude: DepositPhotos",
-      "url": "https://writingwrongs.blog/2026/11/21/30-days-of-bookish-gratitude-depositphotos/",
-      "summary": "Stock imagery can be difficult to source. There are some lovely sites out there that are well out of my reach, and probably out of most indies’ reach as well. (Yeah, looking at you, Arcangel Images; …",
-      "publishedAt": "2026-11-21T14:30:00.000Z"
+      "title": "30 Days of Bookish Gratitude: Real-life Book Club",
+      "url": "https://writingwrongs.blog/2026/11/22/30-days-of-bookish-gratitude-real-life-book-club/",
+      "summary": "I’ve mentioned my book club in passing, but I wanted to highlight it today. Back in January, one of my resolutions was to attend my in-person book club (at one of my favorite libraries) each month (b…",
+      "publishedAt": "2026-11-22T14:30:00.000Z"
     }
   },
   "https://wrongquestions.blogspot.com/": {
@@ -10515,10 +10515,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Lowest price ever on LEGO Ideas E.T. buildable figure",
-      "url": "https://www.brickfanatics.com/lowest-price-ever-lego-ideas-e-t-buildable-figure",
-      "summary": "The prices just keep dropping",
-      "publishedAt": "2026-11-22T12:03:51.000Z"
+      "title": "LEGO deals of the week: up to 40% off One Piece, Art, and more",
+      "url": "https://www.brickfanatics.com/lego-deals-of-the-week-40-off-one-piece-art-more",
+      "summary": "Your wallet won't be safe after reading this...",
+      "publishedAt": "2026-11-22T14:25:04.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -10570,13 +10570,13 @@
   },
   "https://www.cakewrecks.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.cakewrecks.com/home?format=rss",
     "latestArticle": {
-      "title": "I May Be The Only One Seeing A Dong Here, And I'm OK With That",
-      "url": "https://www.cakewrecks.com/home/i-may-be-the-only-one-seeing-a-dong-here-and-im-ok-with-that-2026",
-      "summary": "You know that old joke about the horse that goes into a bar, and the bartender asks, \"Hey buddy, why the dong face?\" I mean, I've heard of a stiff upper lip before, but this is ridiculous. I guess he…",
-      "publishedAt": "2026-11-20T05:42:54.000Z"
+      "title": "Sunday Sweets Falls For Fall",
+      "url": "https://www.cakewrecks.com/home/sunday-sweets-falls-for-fall-2026",
+      "summary": "While I fully embrace early Christmas decorations, let's be real: it's still Fall, and I really, really, really love orange. [By Cherry Blossom Cakes in England] [whispering] It's so beautifuuuul. No…",
+      "publishedAt": "2026-11-22T14:00:00.000Z"
     }
   },
   "https://www.cartoonbrew.com/": {
@@ -10606,10 +10606,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Your Old Online Accounts Aren’t Dead — Hackers May Still Be Using Them",
-      "url": "https://www.cleverdude.com/content/your-old-online-accounts-arent-dead-hackers-may-still-be-using-them/",
-      "summary": "That shopping account you created for a one-time discount in 2016 might have outlived the store’s customer service department. Unfortunately, it may also have outlived your memory of its password. Ol…",
-      "publishedAt": "2026-11-22T13:31:50.000Z"
+      "title": "Still Pumping Gas After the First Click? Here’s What You Could Be Doing to Your Car",
+      "url": "https://www.cleverdude.com/content/still-pumping-gas-after-the-first-click-heres-what-you-could-be-doing-to-your-car/",
+      "summary": "That extra 75 cents of gasoline might feel like a small victory, especially when the pump stops just shy of a nicely rounded dollar amount. But squeezing in more fuel after the nozzle clicks can crea…",
+      "publishedAt": "2026-11-22T14:16:39.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -10644,13 +10644,13 @@
   },
   "https://www.creepypasta.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.creepypasta.com/feed/",
     "latestArticle": {
-      "title": "A Purchase from a Peculiar Pawn Shop: I’ve Got My Eye on You",
-      "url": "https://www.creepypasta.com/a-purchase-from-a-peculiar-pawn-shop-ive-got-my-eye-on-you/",
-      "summary": "The Chesterfield style, buttoned and studded black leather desk chair was not exactly what Antonio Vilas (better known as Tortilla to his friends), was looking for that day. But it had his attention …",
-      "publishedAt": "2026-11-21T14:30:00.000Z"
+      "title": "Avernus",
+      "url": "https://www.creepypasta.com/avernus/",
+      "summary": "“I feel like my brain is trying to tell me something that I haven’t been able to figure out yet.” My doctor frowns at her papers, her lips turning into a thin line as a wrinkle forms between her groo…",
+      "publishedAt": "2026-11-22T14:30:00.000Z"
     }
   },
   "https://www.dailycartoonist.com/": {
@@ -10658,10 +10658,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "http://feeds.feedburner.com/TheDailyCartoonist",
     "latestArticle": {
-      "title": "Library of Congress Proposes Extensive Comics Exhibition",
-      "url": "https://www.dailycartoonist.com/index.php/2026/11/21/library-of-congress-proposes-extensive-comics-exhibition/",
-      "summary": "A Comics Exhibit Proposal from the Library of Congress “On behalf of the Library/CEI [Center for Exhibits and Interpretation], EO [Exhibits Office] seeks an experienced museum exhibit design firm for…",
-      "publishedAt": "2026-11-22T01:25:37.000Z"
+      "title": "AI Discusses Baltimore Sun’s AI Cartoons",
+      "url": "https://www.dailycartoonist.com/index.php/2026/11/22/ai-discusses-baltimore-suns-ai-cartoons/",
+      "summary": "The future where irony reigns is here. Tomorrow’s Publisher, via Noah Wire, has posted an AI written article about The Baltimore Sun’s use of AI generated editorial cartoons and the broader implicati…",
+      "publishedAt": "2026-11-22T12:41:50.000Z"
     }
   },
   "https://www.danflyingsolo.com/": {
@@ -10730,7 +10730,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -10757,13 +10757,13 @@
   },
   "https://www.disneytouristblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Disney World Extends Best Christmas Ride Overlay Into 2027",
-      "url": "https://www.disneytouristblog.com/disney-world-extends-best-christmas-ride-overlay-into-2027/",
-      "summary": "Even after Walt Disney World added a trio of ride overlays for Christmas 2026, the best of the bunch is still Living with the Land: Glimmering Greenhouses. It’s the one seasonal offering that seems t…",
-      "publishedAt": "2026-11-21T19:31:56.000Z"
+      "title": "Disney’s Best Black Friday Deal: 40% Off Hotels & 3-Day Tickets for Price of 2 at Hong Kong Disneyland",
+      "url": "https://www.disneytouristblog.com/disneys-best-black-friday-deal-40-off-hotels-3-day-tickets-for-price-of-2-at-hong-kong-disneyland/",
+      "summary": "It’s rare for Disney to run Black Friday sales for its parks & resorts, let alone offer deep discounts. Hong Kong Disneyland’s annual sale on 2027 stays is exactly that, with steep savings of 40% off…",
+      "publishedAt": "2026-11-22T14:09:05.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -10820,7 +10820,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -10956,7 +10956,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -11004,10 +11004,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.ibroxnoise.co.uk/feed/",
     "latestArticle": {
-      "title": "12 in 10 – Rangers Ryan Naderi is one of the most in-form players in the UK",
-      "url": "https://www.ibroxnoise.co.uk/2026/11/rangers-rise-of-ryan-naderi/",
-      "summary": "The rise and rise of Ryan Naderi in goals and assists as Rangers’ number nine (albeit shirt 20) has been a truly unexpected and remarkable turn of events. As we all know, this summer’s big signing wa…",
-      "publishedAt": "2026-11-22T12:04:45.000Z"
+      "title": "Danny Armstrong Rangers transfer claim takes major blow after winger’s denial",
+      "url": "https://www.ibroxnoise.co.uk/2026/11/danny-armstrong-rangers-transfer/",
+      "summary": "Rangers have once again found themselves at the centre of transfer speculation, this time involving former Kilmarnock winger Danny Armstrong. Ibrox Noise previously reported interest in the winger du…",
+      "publishedAt": "2026-11-22T14:34:20.000Z"
     }
   },
   "https://www.ihavedoubt.com/": {
@@ -11034,7 +11034,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -11168,7 +11168,7 @@
     "latestArticle": {
       "title": "The complete guide to where to get married in Scotland",
       "url": "https://www.lovefromscotland.co.uk/twedding-venues-scotland/",
-      "summary": "You can marry almost anywhere in Scotland, on a beach, on a ship, in a castle after the tourists have gone home. The trouble is choosing. Here’s my map of the best wedding venues in Scotland, region …",
+      "summary": "You can marry almost anywhere in Scotland, on a beach, on a ship, in a castle after the tourists have gone home. The trouble is choosing where. Here’s my guide to the best wedding venues in Scotland,…",
       "publishedAt": "2026-11-21T23:04:19.000Z"
     }
   },
@@ -11183,7 +11183,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11200,7 +11200,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -11223,13 +11223,13 @@
   },
   "https://www.mohit.dev/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.mohit.dev/rss.xml",
     "latestArticle": {
-      "title": "Times of AI: New reporting, translations and Riemann follow-up",
-      "url": "https://www.mohit.dev/projects/times-of-ai/#log-2026-11-21",
-      "summary": "Added eight articles across the morning and evening digests and updated earlier reporting on Thinking Machines and Nvidia. Updated the Riemann Hypothesis story with new checks on two equivalent divis…",
-      "publishedAt": "2026-11-21T15:30:21.000Z"
+      "title": "Should start AI commentary and how I use it",
+      "url": "https://www.mohit.dev/posts/2026-11-22-should-start-ai-commentary-and-how-i-use-it/",
+      "summary": "A note to start AI commentary on how the tools are used, calling it a gold mine.",
+      "publishedAt": "2026-11-22T05:57:00.000Z"
     }
   },
   "https://www.mrmoneymustache.com/": {
@@ -11336,7 +11336,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -11498,7 +11498,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -11513,16 +11513,16 @@
   },
   "https://www.rascal.news/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.rascal.news/rss/",
     "latestArticle": {
-      "url": "https://www.rascal.news/primevil-is-live-and-already-funded/",
-      "summary": "A 200-page campaign and setting book for the Daggerheart TTRPG",
-      "publishedAt": "2026-11-21T14:00:00.000Z"
+      "url": "https://www.rascal.news/taels-of-the-heisty-vixens-received-a-major-overhaul-with-an-upcoming-kickstarter-in-2027/",
+      "summary": "Play as Vixens with supernatural powers and go on heists in a city occupied by colonisers.",
+      "publishedAt": "2026-11-22T14:00:00.000Z"
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -11589,10 +11589,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "Over 65? These 8 Grocery Store Foods Deserve a Second Look Before You Buy Them",
-      "url": "https://www.savingadvice.com/articles/2026/11/22/10769994_over-65-these-8-grocery-store-foods-deserve-a-second-look-before-you-buy-them.html",
-      "summary": "Quick Read Some everyday grocery staples deserve a second look after 65. Deli meats, canned soups, frozen dinners, and packaged snacks can contain more sodium or saturated fat than shoppers realize. …",
-      "publishedAt": "2026-11-22T12:12:45.000Z"
+      "title": "7 Things to Check Before Buying a Used Mobility Scooter",
+      "url": "https://www.savingadvice.com/articles/2026/11/22/10770033_7-things-to-check-before-buying-a-used-mobility-scooter.html",
+      "summary": "Quick Read Check the batteries and charger before negotiating the price. Aging batteries can require expensive replacement, while incompatible chargers can create serious safety risks. Inspect the ti…",
+      "publishedAt": "2026-11-22T14:21:20.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -11789,7 +11789,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -11800,7 +11800,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11811,7 +11811,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11855,7 +11855,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
@@ -11866,7 +11866,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
@@ -11965,7 +11965,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -11991,10 +11991,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Retro Recap: C64, OutRun & Retro Song Bird - All The Classic Gaming News From The Past Week (November 22nd 2026)",
-      "url": "https://www.timeextension.com/#article-209413",
-      "summary": "A packed week of vintage gaming news and features. Welcome to Retro Recap , a regular feature we run each and every weekend which rounds up all of the best retro gaming news and content from the past…",
-      "publishedAt": "2026-11-22T12:00:00.000Z"
+      "title": "1984's Tron-Tastic Bike-Blaster Seicross Receives Arcade Archives 2 Update",
+      "url": "https://www.timeextension.com/#article-209286",
+      "summary": "AKA Sector Zone. Some retro-futuristic action hit the Arcade Archives 2 range this week, courtesy of classic gaming enthusiasts Hamster, with the return of Nichibutsu's 1984 coin-op bike-battler, Sei…",
+      "publishedAt": "2026-11-22T14:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {

@@ -452,7 +452,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -866,7 +866,7 @@
     }
   },
   "https://babakfakhamzadeh.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
@@ -1740,7 +1740,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -2671,7 +2671,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2774,7 +2774,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -2810,7 +2810,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3265,7 +3265,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gaze.systems/": {
@@ -3297,7 +3297,7 @@
     }
   },
   "https://gifcities.org/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://girlsangle.wordpress.com/": {
@@ -3349,7 +3349,7 @@
     "feedUrl": "https://glyphsift.com/favicon.svg"
   },
   "https://gnomadhome.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2023-12-19",
     "feedUrl": "https://gnomadhome.com/feed/",
     "latestArticle": {
@@ -3955,13 +3955,13 @@
   },
   "https://indieblog.page/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://indieblog.page/dailyfeed",
     "latestArticle": {
-      "title": "🎲 Ruby Jacquemin: Arizona Public Health Statistician",
-      "url": "https://www.sharonlohr.com/blog/2026/10/19/ruby-jacquemin-arizona-public-health-statistician?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
-      "summary": "Prescott native Ruby Loy Jacquemin computed Arizona’s vital statistics during the 1920s. What was her background, and what did she do? This random indieblog.page link was picked on Saturday, November…",
-      "publishedAt": "2026-11-21T00:37:00.000Z"
+      "title": "🎲 Named constants and supporting objects in C",
+      "url": "https://gustedt.wordpress.com/2026/11/06/named-constants-and-supporting-objects-in-c/?utm_source=indieblog.page&utm_medium=rss&utm_campaign=indieblog.page",
+      "summary": "In traditional C, the concept of what is a constant is already not very intuitive, but it is even less clear why some constants then also have an underlying immutable object. Let’s take a simple exam…",
+      "publishedAt": "2026-11-22T01:37:00.000Z"
     }
   },
   "https://indiehellzone.com/": {
@@ -4281,7 +4281,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4865,13 +4865,13 @@
   },
   "https://leancrew.com/all-this/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://leancrew.com/all-this/feed/",
     "latestArticle": {
-      "title": "Making flippy floppy",
-      "url": "https://leancrew.com/all-this/2026/11/making-flippy-floppy/",
-      "summary": "In the wake of last Friday’s ground stoppage , the New York Times pointed me to this article (that should be a gift link) from just a week earlier about outdated computer technology still in use in a…",
-      "publishedAt": "2026-11-17T22:27:07.000Z"
+      "title": "Nothing Brite about it",
+      "url": "https://leancrew.com/all-this/2026/11/nothing-brite-about-it/",
+      "summary": "Siri’s great failing over the past decade and a half has been its contextual ignorance . It treated every request you made as if it were the first chalk markings on a great blank slate, a slate that …",
+      "publishedAt": "2026-11-22T00:53:14.000Z"
     }
   },
   "https://leehanchung.github.io/blogs/": {
@@ -5089,13 +5089,13 @@
   },
   "https://livoragracely.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "Unexpected Landing",
-      "url": "https://livoragracely.com/2026/11/22/unexpected-landing/",
-      "summary": "The wind chose a different place to stop. The New Tail Jamie’s kite had finally stopped turning in circles. Unfortunately, it had stopped on the fence. Its yellow paper rested against the upper rail,…",
-      "publishedAt": "2026-11-21T21:59:43.000Z"
+      "title": "Building on the Foundation",
+      "url": "https://livoragracely.com/2026/11/22/building-on-the-foundation/",
+      "summary": "Hebrews 6:1–3 The foundation remains as God leads His people toward maturity. A man dug deep until he reached rock. There he laid the foundation for his house.¹ Another man built without a foundation…",
+      "publishedAt": "2026-11-22T00:53:03.000Z"
     }
   },
   "https://lizduckchong.com/blog.html": {
@@ -5299,7 +5299,7 @@
     }
   },
   "https://maisonkojira.com/insights/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://maisonkojira.com/"
   },
   "https://makeupandbeautyblog.com/": {
@@ -5949,10 +5949,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://musingsbydoddzilla.org/feed/",
     "latestArticle": {
-      "title": "Flickering dreams-continue",
-      "url": "https://musingsbydoddzilla.org/2026/11/21/flickering-dreams-continue/",
-      "summary": "I watch the candle float away, Carrying with them my dreams Drifting gently down the stream I watch their tiny flickering flames Until they are out of sight Under the bridge and far away Vanishing in…",
-      "publishedAt": "2026-11-22T00:26:47.000Z"
+      "title": "I have a dream-continued",
+      "url": "https://musingsbydoddzilla.org/2026/11/21/i-have-a-dream-continued/",
+      "summary": "An image A vision A picture in my mind A dream of just how the world Could and might one day be Where every tear is wiped away Where truth and compassion reign Where all our present suffering Will be…",
+      "publishedAt": "2026-11-22T00:52:48.000Z"
     }
   },
   "https://mybpool.wordpress.com/": {
@@ -6880,13 +6880,13 @@
   },
   "https://pohortai.com.ua/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://pohortai.com.ua/feed/",
     "latestArticle": {
-      "title": "Наступний Львівський BookForum заплановано на вересень 2027 року",
-      "url": "https://pohortai.com.ua/statti/nastupnyy-lyvivsykyy-bookforum-zaplanovano-na-vereseny-2027-roku/",
-      "summary": "34-й Львівський міжнародний BookForum відбудеться 9–12 вересня 2027 року, повідомили організатори у фейсбуці фестивалю.",
-      "publishedAt": "2026-11-21T23:45:13.000Z"
+      "title": "Бріоші з песто: 300 г борошна, 120 г соусу й 12 вузликів з одного тіста",
+      "url": "https://pohortai.com.ua/statti/brioshi-z-pesto-300-h-boroshna-120-h-sousu-y-12-vuzlykiv-z-odnoho-tista/",
+      "summary": "Рецепт бріошей з песто на 12 штук: склад тіста, формування вузликів, випікання за 170 °C та зберігання в холодильнику чи морозильнику.",
+      "publishedAt": "2026-11-22T01:25:12.000Z"
     }
   },
   "https://pointersandhooksyt.wordpress.com/": {
@@ -6944,7 +6944,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7324,13 +7324,13 @@
   },
   "https://retiredkalam.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://retiredkalam.com/feed/",
     "latestArticle": {
-      "title": "Jai वीर Hanuman #amazing#devotional #song #trending",
-      "url": "https://retiredkalam.com/2026/11/21/jai-hanuman-amazingdevotional-song-trending/",
-      "summary": "https://youtube.com/shorts/J6duJSJg7fw?si=yyJ5W3-O3CfKoF2I",
-      "publishedAt": "2026-11-21T12:44:48.000Z"
+      "title": "# Worst Advice I Ever Received: Lessons for Personal Growth…",
+      "url": "https://retiredkalam.com/2026/11/22/worst-advice-i-ever-received-lessons-for-personal-growth/",
+      "summary": "What’s the worst piece of advice you’ve ever received? View all responses Hello, dear friends, I hope this blog finds you in a cheerful mood. Today’s writing prompt asks an interesting question: “Wha…",
+      "publishedAt": "2026-11-22T01:15:54.000Z"
     }
   },
   "https://retiredmartin.com/": {
@@ -7823,7 +7823,7 @@
     }
   },
   "https://seat31b.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-16",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
@@ -8278,7 +8278,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8632,13 +8632,13 @@
   },
   "https://terrytao.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://terrytao.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Postdoc positions at the Columbia Data Science Institute",
-      "url": "https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/",
-      "summary": "[This is a guest post by Ivan Corwin – T.] Dear colleagues, I am writing to encourage applications to the Columbia Data Science Institute’s postdoc program, for those interested in being involved in …",
-      "publishedAt": "2026-11-20T22:05:50.000Z"
+      "title": "Even more posts, opinion pieces, interviews, and position statements",
+      "url": "https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/",
+      "summary": "AHM Statement on the Announced Proof of the Riemann Hypothesis Positionen des Präsidiums der Deutschen Mathematiker-Vereinigung (DMV) zur Bedeutung Künstlicher Intelligenz für die Mathematik (Positio…",
+      "publishedAt": "2026-11-22T01:19:10.000Z"
     }
   },
   "https://testvalleyriverkeeper.blogspot.com/": {
@@ -9235,7 +9235,7 @@
     }
   },
   "https://theseconddisc.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://theseconddisc.com/comments/feed/",
     "latestArticle": {
@@ -9374,13 +9374,13 @@
   },
   "https://thezeegalaxy.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://thezeegalaxy.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Streets🇹🇷",
-      "url": "https://thezeegalaxy.wordpress.com/2026/11/21/streets%f0%9f%87%b9%f0%9f%87%b7/",
-      "summary": "Colourful streets,Bazaar on repeat,Lamps, tea, and food,That is the whole mood. Alone? I’m good.With my bestie? Even better.With my nice colleagues?Best trip ever. Türkiye, I’m not here to stay,Just …",
-      "publishedAt": "2026-11-21T15:28:52.000Z"
+      "title": "🌚",
+      "url": "https://thezeegalaxy.wordpress.com/2026/11/22/%f0%9f%8c%9a-4/",
+      "summary": "What’s the best beach you’ve ever been to? I haven’t been to one! But I have solid plans if I ever visited one😂😂😂🌚🌚🌚🌚.",
+      "publishedAt": "2026-11-22T01:27:17.000Z"
     }
   },
   "https://thezvi.wordpress.com/": {
@@ -9420,7 +9420,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9646,7 +9646,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -10415,10 +10415,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "Could You Still Live Comfortably Without a Smartphone in 2026?",
-      "url": "https://www.cleverdude.com/content/could-you-still-live-comfortably-without-a-smartphone-in-2026/",
-      "summary": "Remember when you could leave the house without a phone and nobody thought twice about it? You could buy concert tickets at the box office, pay for parking with a handful of quarters, and find your w…",
-      "publishedAt": "2026-11-22T00:44:25.000Z"
+      "title": "Tesla Will Sell You a $30,000 Cybercab — But You Can’t Actually Drive It Yourself",
+      "url": "https://www.cleverdude.com/content/tesla-will-sell-you-a-30000-cybercab-but-you-cant-actually-drive-it-yourself/",
+      "summary": "For about $30,000, you can buy a brand-new Tesla. There’s just one rather unusual catch: You can’t drive it. No steering wheel. No accelerator. No brake pedal. Tesla’s Cybercab is designed to handle …",
+      "publishedAt": "2026-11-22T01:21:30.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -10539,7 +10539,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -10629,7 +10629,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -10656,13 +10656,13 @@
   },
   "https://www.fromthemurkydepths.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.fromthemurkydepths.co.uk/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Campaign to save axed London to Kent coaches via Lewisham and Eltham by Nina",
-      "url": "https://www.fromthemurkydepths.co.uk/2026/11/19/campaign-to-save-axed-london-to-kent-coaches-via-lewisham-and-eltham/#comment-112744",
-      "summary": "In reply to Kay M . Definitely need this route. If people have to take the train it will be more expensive and unsafe! Travelling by coach to Kent as a lone traveller can be daunting and National Exp…",
-      "publishedAt": "2026-11-21T19:55:33.000Z"
+      "title": "Comment on Follow the Murky Depths on a new email mailing list by Anonymous",
+      "url": "https://www.fromthemurkydepths.co.uk/2026/11/18/follow-the-murky-depths-on-a-new-email-mailing-list/#comment-112745",
+      "summary": "I have joined your mailing list on Substack. Hope that you do continue on with posting more articles on your website.",
+      "publishedAt": "2026-11-22T01:24:48.000Z"
     }
   },
   "https://www.gentlemanstationer.com/": {
@@ -10765,7 +10765,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -10979,7 +10979,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -10996,7 +10996,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -11132,7 +11132,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -11291,7 +11291,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -11315,7 +11315,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -11379,10 +11379,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "A Stranger Sends You a Photo of Your House and Demands Money — The Scam Behind the Threat",
-      "url": "https://www.savingadvice.com/articles/2026/11/21/10770286_a-stranger-sends-you-a-photo-of-your-house-and-demands-money-the-scam-behind-the-threat.html",
-      "summary": "Quick Read A photo of your home doesn't prove someone has been there. Scammers have used images from public mapping services to make threatening emails appear personal. The threat often involves supp…",
-      "publishedAt": "2026-11-22T00:38:06.000Z"
+      "title": "The Household Products That Used to Last 30 Years — What Changed?",
+      "url": "https://www.savingadvice.com/articles/2026/11/21/10770289_the-household-products-that-used-to-last-30-years-what-changed.html",
+      "summary": "Quick Read Modern appliances offer more features, but repairs can be costly. Electronic controls, sensors, and specialized components can make refrigerators, washing machines, and ovens more expensiv…",
+      "publishedAt": "2026-11-22T01:11:19.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -11579,7 +11579,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -11590,7 +11590,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11601,7 +11601,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11645,7 +11645,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
@@ -11656,7 +11656,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
@@ -11755,7 +11755,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -12001,13 +12001,13 @@
   },
   "https://yallcomesitaspell.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://yallcomesitaspell.com/feed/",
     "latestArticle": {
-      "title": "Routine Maintenance Is Not Modern Torture",
-      "url": "https://yallcomesitaspell.com/2026/11/21/routine-maintenance-is-not-modern-torture/",
-      "summary": "If your future self could send you one piece of advice right now, what do you think it would say? Good morning, y’all! The coffee is hot, the weekend is here, and apparently my future self has a few …",
-      "publishedAt": "2026-11-21T13:16:47.000Z"
+      "title": "The Monuments We Inherited",
+      "url": "https://yallcomesitaspell.com/2026/11/21/the-monuments-we-inherited/",
+      "summary": "Welcome, y’all. Come on up, grab something to sip on, and find yourself a comfortable spot on the porch. We’ve been having quite a conversation about Southern history, the stories we inherited, and w…",
+      "publishedAt": "2026-11-22T01:30:00.000Z"
     }
   },
   "https://yordi.me/": {

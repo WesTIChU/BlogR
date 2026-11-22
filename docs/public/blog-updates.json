@@ -793,7 +793,7 @@
     "status": "unavailable"
   },
   "https://askatechteacher.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://askatechteacher.com/feed/",
     "latestArticle": {
@@ -4552,13 +4552,13 @@
   },
   "https://justabitfurther.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://justabitfurther.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Yellow Door Expressions – Abstract Winter Landscape #1",
-      "url": "https://justabitfurther.wordpress.com/2026/11/21/yellow-door-expressions-abstract-winter-landscape-1/",
-      "summary": "There has been a flurry of creative activity around the “old homestead” this week in preparation for a Christmas Market today, in a few hours, as a matter of fact, and another one next weekend. Yeste…",
-      "publishedAt": "2026-11-21T11:30:00.000Z"
+      "title": "Best Beach?",
+      "url": "https://justabitfurther.wordpress.com/2026/11/22/best-beach/",
+      "summary": "I’m not a huge beach enthusiast, where you go and sit on your butt for hours on end. Nor a swimmer, for that matter. Now, having said that, I’m more of a walker for hours at a time back and forth alo…",
+      "publishedAt": "2026-11-22T10:30:00.000Z"
     }
   },
   "https://justalittlefurther.com/": {
@@ -5280,13 +5280,13 @@
   },
   "https://loureviews.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://loureviews.blog/feed/",
     "latestArticle": {
-      "title": "Event review: Overture at House of Burlesque, QT Covent Garden",
-      "url": "https://loureviews.blog/2026/11/21/event-review-overture-at-house-of-burlesque-qt-covent-garden/",
-      "summary": "House of Burlesque’s Overture is a lively, theatrical celebration of women, history, and body positivity at Covent Garden’s QT hotel. Featuring eight performers, comedy, poetry, dance, music, audienc…",
-      "publishedAt": "2026-11-21T14:15:08.000Z"
+      "title": "Voila Theatre Festival review: Principessa at Barons Court",
+      "url": "https://loureviews.blog/2026/11/22/voila-theatre-festival-review-principessa-at-barons-court/",
+      "summary": "Lauren Easton’s Principessa, inspired by Roman Holiday, follows idealistic American Ann as she seeks romance in Rome with Marco. Performed solo in a simple staging, the show warmly embraces classic s…",
+      "publishedAt": "2026-11-22T10:18:51.000Z"
     }
   },
   "https://love.you/": {
@@ -5994,12 +5994,13 @@
   },
   "https://msamba.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://msamba.blog/feed/",
     "latestArticle": {
-      "title": "English with German grammar sounds INSANE. #german #deutsch #deutschland #germany #learngerman",
-      "url": "https://msamba.blog/2026/11/21/english-with-german-grammar-sounds-insane-german-deutsch-deutschland-germany-learngerman/",
-      "publishedAt": "2026-11-21T13:18:56.000Z"
+      "title": "BBC World Service – Witness History, Picasso and the surrealist summer",
+      "url": "https://msamba.blog/2026/11/22/bbc-world-service-witness-history-picasso-and-the-surrealist-summer/",
+      "summary": "In the summer of 1937, some of the 20th Century’s most famous artists, writers and photographers were holidaying in the south of France. They included artist Pablo Picasso, photographer Lee Miller, p…",
+      "publishedAt": "2026-11-22T10:40:06.000Z"
     }
   },
   "https://mtlcityweblog.com/": {
@@ -6043,10 +6044,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://musingsbydoddzilla.org/feed/",
     "latestArticle": {
-      "title": "I have a dream-continued",
-      "url": "https://musingsbydoddzilla.org/2026/11/21/i-have-a-dream-continued/",
-      "summary": "An image A vision A picture in my mind A dream of just how the world Could and might one day be Where every tear is wiped away Where truth and compassion reign Where all our present suffering Will be…",
-      "publishedAt": "2026-11-22T00:52:48.000Z"
+      "title": "Climb every mountain-2025",
+      "url": "https://musingsbydoddzilla.org/2026/11/22/climb-every-mountain-2025-2/",
+      "summary": "The ocean is impressive The heartbeat of the earth Mysterious worlds contained her depths It’s awesome to behold the majesty of tbt storm Struck by its inexorable strength But my heart is with the mo…",
+      "publishedAt": "2026-11-22T10:21:56.000Z"
     }
   },
   "https://mybpool.wordpress.com/": {
@@ -6222,10 +6223,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://netzhi.com/feed/",
     "latestArticle": {
-      "title": "网址太长，问号和井号后面的内容能删吗？",
-      "url": "https://netzhi.com/url-query-fragment-delete-sharing/",
-      "summary": "网址问号后的查询串不一定只是追踪信息，井号后的片段也不一定只负责跳到章节。先分清路径、查询和片段，再看文档、语言、路由或签名等用途。缩短前保留原链接，优先使用网站分享入口，不能把页面能打开当成内容没变。",
-      "publishedAt": "2026-11-22T09:24:00.000Z"
+      "title": "AI 合并表格后行数变多？先查 pandas 关联键",
+      "url": "https://netzhi.com/ai-pandas-merge-duplicate-keys-check/",
+      "summary": "AI 用 pandas 合并表格后行数变多，先查匹配列和右表重复键。用虚构文件清单核对只按编号与按编号、语言匹配的差别，再加多对一检查、空键检查和未匹配清单。行数恢复正常仍需逐条对照标题，不能靠删重凑数。",
+      "publishedAt": "2026-11-22T08:42:00.000Z"
     }
   },
   "https://neuraljazz.blog/": {
@@ -7026,13 +7027,13 @@
   },
   "https://poojamallick000.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://poojamallick000.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A Galaxy of Me",
-      "url": "https://poojamallick000.wordpress.com/2026/11/21/a-galaxy-of-me/",
-      "summary": "Trust is a word we both say, but we’ve never stopped to think what we mean by it. You trust a galaxy of me I’ve never charted. I trust a galaxy of you that only orbits inside my reach. I don’t know t…",
-      "publishedAt": "2026-11-21T08:17:40.000Z"
+      "title": "We Chase the Sun",
+      "url": "https://poojamallick000.wordpress.com/2026/11/22/we-chase-the-sun/",
+      "summary": "It’s a holiday today, so I took my morning walk a little slower than usual. No rush. Nowhere to be. Just the street, the sky, and me. Of course, the weather had decided to be grey. A soft drizzle was…",
+      "publishedAt": "2026-11-22T10:21:06.000Z"
     }
   },
   "https://porzuczek.pl/": {
@@ -7797,13 +7798,13 @@
   },
   "https://sandyroybessbugzy.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://sandyroybessbugzy.com/feed/",
     "latestArticle": {
-      "title": "Ploughed",
-      "url": "https://sandyroybessbugzy.com/2026/11/21/ploughed/",
-      "summary": "It’s a ploughed field! For what? Have I found out? No! But please be patient I know this field. It was the one our Dad reported on. His walks were routine and part of his summer visit with us. He kne…",
-      "publishedAt": "2026-11-21T17:47:10.000Z"
+      "title": "The rowan tree and the apple tree.",
+      "url": "https://sandyroybessbugzy.com/2026/11/22/the-rowan-tree-and-the-apple-tree/",
+      "summary": "The frost has come and the rowan berries are sweeter now. This summer the tree was covered in berries and with all the heat I thought the birds would have eaten them. I found out then that they prefe…",
+      "publishedAt": "2026-11-22T10:20:04.000Z"
     }
   },
   "https://sanlive.com/": {
@@ -8634,13 +8635,13 @@
   },
   "https://takeiteasyblog.uk/": {
     "status": "success",
-    "lastPublished": "2026-11-19",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://takeiteasyblog.uk/feed/",
     "latestArticle": {
-      "title": "November Songs, And A Poem",
-      "url": "https://takeiteasyblog.uk/2026/11/19/november-songs-and-a-poem/",
-      "summary": "At least I’m not guilty of that, apart from one aberration in this week’s Song Lyric Sunday post! On a number of previous occasions I have posted selections of poetry that highlight my view that Nove…",
-      "publishedAt": "2026-11-19T12:01:13.000Z"
+      "title": "SLS: Like Staring Up At Infinity",
+      "url": "https://takeiteasyblog.uk/2026/11/22/sls-like-staring-up-at-infinity/",
+      "summary": "As he tells us in his post, (with a long title!) Jim’s invitation to this week’s Song Lyric Sunday is to play a song that has a one-word title, which was suggested by Di of the pensitivity101 blog. A…",
+      "publishedAt": "2026-11-22T10:39:45.000Z"
     }
   },
   "https://talesofonecity.wordpress.com/": {
@@ -10512,13 +10513,13 @@
   },
   "https://www.brickfanatics.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-22",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "Pheonix Wright wouldn't object to this LEGO Ideas project",
-      "url": "https://www.brickfanatics.com/pheonix-wright-wouldn-t-object-lego-ideas-project",
-      "summary": "Objection!",
-      "publishedAt": "2026-11-21T19:46:13.000Z"
+      "title": "It's the final day for the LEGO Insiders Weekend 2026 deals",
+      "url": "https://www.brickfanatics.com/final-day-for-the-lego-insiders-weekend-2026-deals",
+      "summary": "It's the final countdown (musical riff)",
+      "publishedAt": "2026-11-22T10:35:47.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -10591,7 +10592,7 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
@@ -11914,10 +11915,10 @@
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "Busch Gardens Tampa Bay debuingt North America’s first launched water coaster in 2027",
-      "url": "https://www.themovieboards.net/2026/11/22/busch-gardens-tampa-bay-debuingt-north-americas-first-launched-water-coaster-in-2027/",
-      "summary": "At the recent IAAPA Expo in Orlando, Busch Gardens Tampa Bay unveiled its ALL-NEW family-friendly water attraction coming in 2027: Simbi Rush, North America’s first and the world’s fastest launched w…",
-      "publishedAt": "2026-11-22T10:15:16.000Z"
+      "title": "Burger King® Unwraps a Limited-Time Peanuts Holiday Menu",
+      "url": "https://www.themovieboards.net/2026/11/22/burger-king-unwraps-a-limited-time-peanuts-holiday-menu/",
+      "summary": "Burger King® is inviting fans of all ages to gather around the table this season and experience holiday joy with Peanuts®. The brand is teaming up with the beloved franchise that has delighted genera…",
+      "publishedAt": "2026-11-22T10:32:10.000Z"
     }
   },
   "https://www.thenewestrant.com/": {

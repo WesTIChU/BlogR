@@ -1940,19 +1940,6 @@
     "webringId": "br-43a04182e0107b6a883527dfa3d36c67"
   },
   {
-    "id": "ronny-schmidt-bucher-und-leseproben",
-    "name": "Ronny Schmidt – Bücher und Leseproben",
-    "url": "https://www.ronny-schmidt.de/",
-    "description": "A German-language author site with freely readable excerpts and information about books on survival, self-responsibility, society, satire and crisis preparedness.",
-    "category": "Personal Websites",
-    "subcategory": "Personal Homepages",
-    "country": "DE",
-    "addedDate": "2026-11-20",
-    "clicks": 0,
-    "addedAt": "2026-11-20T09:07:35.000Z",
-    "webringId": "br-1f94b145c5988fd9dbf2973c8a41a72a"
-  },
-  {
     "id": "duo-party-notes",
     "name": "Duo Party Notes",
     "url": "https://pokemonduolingo.com/",
@@ -2024,5 +2011,67 @@
     "addedAt": "2026-11-20T09:15:59.000Z",
     "country": "TR",
     "webringId": "br-7c2b7f8392a543f1a9ee7d4e6b6a8c10"
+  },
+  {
+    "id": "rob-run-wiki",
+    "name": "ROB RUN Wiki",
+    "url": "https://www.robrun-game.com/",
+    "description": "An independent ROB RUN fan wiki with source-linked guides covering getting started, platforms, servers, troubleshooting, money, property, equipment and game systems in Looty Bay.",
+    "category": "Fansites",
+    "subcategory": "Gaming Guides",
+    "addedDate": "2026-11-22",
+    "clicks": 0,
+    "addedAt": "2026-11-22T08:19:47.283Z",
+    "webringId": "br-1a9e76c4d2f548b8a13ce6f7d9042b5c"
+  },
+  {
+    "id": "here-river",
+    "name": "HERE RIVER",
+    "url": "https://k-hangang.com/world/?lang=en",
+    "description": "A South Korean browser-based 3D riverside experience where visitors choose a character, enter without an account and explore 16 country-inspired river settings at their own pace.",
+    "category": "Creative Projects",
+    "subcategory": "Interactive Games & Experiments",
+    "country": "KR",
+    "addedDate": "2026-11-22",
+    "clicks": 0,
+    "addedAt": "2026-11-22T08:24:24.684Z",
+    "webringId": "br-6f4c2a9e81d347b5a0c6d2e7f9b8134a"
+  },
+  {
+    "id": "drama-potato",
+    "name": "Drama Potato",
+    "url": "https://dramapotato.app/",
+    "description": "An independent guide to vertical short dramas with spoiler-free summaries, episode limits, paywall and coin-cost analysis, AI-content labels and official viewing links.",
+    "category": "Guides & Resources",
+    "subcategory": "Software Guides",
+    "addedDate": "2026-11-22",
+    "clicks": 0,
+    "addedAt": "2026-11-22T08:36:24.920Z",
+    "webringId": "br-8a3c1e7f5b9d4260c2a8e4f6d1b7c903"
+  },
+  {
+    "id": "clearpdf",
+    "name": "ClearPDF",
+    "url": "https://www.openclawhirehuman.com/tools/merge-pdf",
+    "description": "A browser-based PDF merging tool that combines documents locally with no account, payment or upload required for the merge operation.",
+    "category": "Independent Tools",
+    "subcategory": "Useful Tools",
+    "addedDate": "2026-11-22",
+    "clicks": 0,
+    "addedAt": "2026-11-22T08:36:24.920Z",
+    "webringId": "br-4e9b2c7d1a6f4385b0e2d9c7a3f8164b"
+  },
+  {
+    "id": "insana-bakinca",
+    "name": "İnsana Bakınca",
+    "url": "https://www.insanabakinca.com/",
+    "description": "A Turkish educational and psychology resource with original articles, student and university guides, self-assessment tools and interactive logic games.",
+    "category": "Guides & Resources",
+    "subcategory": "How-To & Tutorials",
+    "country": "TR",
+    "addedDate": "2026-11-22",
+    "clicks": 0,
+    "addedAt": "2026-11-22T08:36:24.920Z",
+    "webringId": "br-9d4b7e2a6c1f5038b5e0a7d2c9f4168b"
   }
 ]

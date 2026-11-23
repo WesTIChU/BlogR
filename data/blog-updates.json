@@ -529,9 +529,9 @@
   },
   "https://andrewchen.com/": {
     "lastPublished": "2024-02-26",
-    "lastChecked": "2026-10-12T14:39:04.156Z",
-    "status": "success",
-    "feedUrl": "https://andrewchen.com/feed/",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "unknown",
+    "feedUrl": "https://andrewchen.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fandrewchen.com%2F&format=xml",
     "latestArticle": {
       "title": "How to break into Silicon Valley",
       "url": "https://andrewchen.com/how-to-break-into-silicon-valley/",
@@ -2703,15 +2703,15 @@
     }
   },
   "https://danq.me/": {
-    "lastPublished": "2026-11-21",
-    "lastChecked": "2026-11-21T09:44:29.156Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://danq.me/feed/",
     "latestArticle": {
-      "title": "[Article] Queerly Seychellized",
-      "url": "https://danq.me/2026/11/21/queerly-seychellized/",
-      "summary": "I saw a toot which observed that many 'bar flags' look better 'Seychelles-style', with a radial burst of their bar colours emanating from the lower-left corner... so I came up with some CSS to make i…",
-      "publishedAt": "2026-11-21T09:01:23.000Z"
+      "title": "[Note] Astroturf Frost",
+      "url": "https://danq.me/2026/11/23/astroturf-frost-2/",
+      "summary": "When I looked back at the astroturf I only saw one set of frost footprints. And Jesus said \"Oh... you didn't expect Me to come, did you? It's fucking freezing out there!\"",
+      "publishedAt": "2026-11-23T08:44:59.000Z"
     }
   },
   "https://leehanchung.github.io/blogs/": {
@@ -4510,15 +4510,15 @@
     }
   },
   "https://diamondgeezer.blogspot.com/": {
-    "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-22T07:44:27.069Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/blogspot/HcFb",
     "latestArticle": {
-      "title": "The smallest park in Sutton",
-      "url": "http://diamondgeezer.blogspot.com/2026/11/the-smallest-park-in-sutton.html",
-      "summary": "Two years ago I visited the five smallest parks in Barking & Dagenham. Today I've switched boroughs and all I'm after is the smallest. But even that proved complicated enough. What's the smallest par…",
-      "publishedAt": "2026-11-22T07:00:00.000Z"
+      "title": "Guess today's post",
+      "url": "http://diamondgeezer.blogspot.com/2026/11/guess-todays-post.html",
+      "summary": "Today's post is written and ready to go. I'll publish it if you can guess what it's about.",
+      "publishedAt": "2026-11-23T07:00:00.000Z"
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
@@ -5381,13 +5381,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T07:44:30.650Z",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/match-coverage/predicted-xi-manchester-city-vs-napoli-uefa-champions-league",
-      "summary": "Manchester City host Napoli in the Champions League for the second season in a row as Kevin De Bruyne again returns to the Etihad Stadium in another shade of blue.",
-      "publishedAt": "2026-11-23T06:30:26.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/that-s-the-life-of-a-goalkeeper---joe-hart-evaluates-gianluigi-donnarummas-struggles-in-net-for-club-and-country",
+      "summary": "Manchester City legend Joe Hart has shared his thoughts on Gianluigi Donnarumma and his struggles on the pitch in the past few months.",
+      "publishedAt": "2026-11-23T08:00:33.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -6365,8 +6365,8 @@
   },
   "https://thoughts.uncountable.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-23T07:44:30.650Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://callmemanatee.neocities.org/": {
@@ -7042,8 +7042,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-11-20",
-    "lastChecked": "2026-11-23T07:44:30.650Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Birthday card: Suad Amiry",
@@ -7694,8 +7694,8 @@
   },
   "https://alishawhittam.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-23T07:44:30.650Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://thesicktimes.org/": {
@@ -7736,9 +7736,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-23T07:44:30.650Z",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -7796,8 +7796,8 @@
   },
   "https://ejesim.com/blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-23T07:44:30.650Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://meeow.org/": {
@@ -8579,8 +8579,8 @@
   },
   "https://startprepping.co.uk/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-23T07:44:30.650Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://www.thebugout.co.uk/blog": {
@@ -8591,8 +8591,8 @@
   },
   "https://pr3p.co.uk/pr3p-blog/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-23T07:44:30.650Z",
-    "status": "unknown",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -8795,15 +8795,15 @@
     }
   },
   "https://foxreviewsrock.com/": {
-    "lastPublished": "2026-11-21",
-    "lastChecked": "2026-11-21T17:44:31.770Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://foxreviewsrock.com/feed/",
     "latestArticle": {
-      "title": "The Weekly Dingir Zu Relic : Full Flower Moon Band – Party Hard",
-      "url": "https://foxreviewsrock.com/2026/11/21/the-weekly-dingir-zu-relic-artist-name-song-name-2/",
-      "summary": "Dingir Zu Prophet Show celebrates adventurous rock music, combining playful religious themes with a passion for great tunes. Its latest episode features eleven artists, while the highlighted “Relic” …",
-      "publishedAt": "2026-11-21T17:00:00.000Z"
+      "title": "What’s One Thing That Makes You Proud Of Your Country?",
+      "url": "https://foxreviewsrock.com/2026/11/23/whats-one-thing-that-makes-you-proud-of-your-country/",
+      "summary": "The post celebrates music and the lasting influence of iconic British bands on modern artists. It highlights The Beatles, The Rolling Stones, Led Zeppelin, Pink Floyd and Queen, while inviting reader…",
+      "publishedAt": "2026-11-23T08:40:26.000Z"
     }
   },
   "https://loia.blog/": {
@@ -11277,14 +11277,14 @@
   },
   "https://renellsrealtalk.wordpress.com/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T06:44:31.274Z",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://renellsrealtalk.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Why",
-      "url": "https://renellsrealtalk.wordpress.com/2026/11/22/why-4/",
-      "summary": "youtube.com/shorts/cPOyFWdTe64",
-      "publishedAt": "2026-11-23T05:59:07.000Z"
+      "title": "I’M DISGUSTED",
+      "url": "https://renellsrealtalk.wordpress.com/2026/11/23/im-disgusted/",
+      "summary": "Every time I look around, there’s something that you gotta pay for no matter how hard you work taxes and cost-of-living just keeps going up and up while your money keeps going the same a little up or…",
+      "publishedAt": "2026-11-23T08:43:31.000Z"
     }
   },
   "https://thefaithfulsteward.blog/": {
@@ -11622,15 +11622,15 @@
     }
   },
   "https://hubbymeadventures.wordpress.com/": {
-    "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-22T08:44:27.422Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://hubbymeadventures.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Morfa Dyffryn",
-      "url": "https://hubbymeadventures.wordpress.com/2026/11/22/morfa-dyffryn/",
-      "summary": "What’s the best beach you’ve ever been to? Morfa Dyffryn (Gwynedd, Wales) The only officially designated naturist beach in a UK National Park (Snowdonia). Beautiful long sandy beach backed by dunes a…",
-      "publishedAt": "2026-11-22T08:28:46.000Z"
+      "title": "Uk",
+      "url": "https://hubbymeadventures.wordpress.com/2026/11/23/uk/",
+      "summary": "What’s one thing that makes you proud of your country? I see so much to admire about the UK and especially where we are in Merseyside one thing that really stands out is that deep, warm sense of comm…",
+      "publishedAt": "2026-11-23T08:13:15.000Z"
     }
   },
   "https://salsagadgets.com/": {
@@ -11659,14 +11659,14 @@
   },
   "https://reallifestories8.wordpress.com/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T08:09:52.535Z",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://reallifestories8.wordpress.com/feed/",
     "latestArticle": {
-      "title": "My Ego Disappeared…",
-      "url": "https://reallifestories8.wordpress.com/2026/11/23/my-ego-disappeared/",
-      "summary": "Not Every Traveller Walking on Foot Is a Beggar. Today, while travelling along my route from Kopargaon, Maharashtra, I saw an elderly couple walking along the roadside. As is my usual habit, I approa…",
-      "publishedAt": "2026-11-23T07:58:06.000Z"
+      "title": "The Priceless Treasure in an Old Trunk",
+      "url": "https://reallifestories8.wordpress.com/2026/11/23/the-priceless-treasure-in-an-old-trunk/",
+      "summary": "An elderly father, who lived alone in his village, passed away. His two sons, who had settled in different cities, returned to the village for their father’s last rites. All the funeral rituals were …",
+      "publishedAt": "2026-11-23T08:43:34.000Z"
     }
   },
   "https://sudrabfox.com/": {
@@ -11694,27 +11694,27 @@
     }
   },
   "https://glophilspeaks.wordpress.com/": {
-    "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-22T08:44:27.422Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://glophilspeaks.wordpress.com/feed/",
     "latestArticle": {
-      "title": "5 Recipe Books That Make Thoughtful Gifts for Home Cooks",
-      "url": "https://glophilspeaks.wordpress.com/2026/11/22/5-recipe-books-that-make-thoughtful-gifts-for-home-cooks/",
-      "summary": "Finding a thoughtful gift for someone who enjoys spending time in the kitchen can be easier than you think. A good cookbook is more than just a collection of recipes; it can inspire new meals, introd…",
-      "publishedAt": "2026-11-22T08:09:23.000Z"
+      "title": "Kenya!",
+      "url": "https://glophilspeaks.wordpress.com/2026/11/23/kenya/",
+      "summary": "What’s one thing that makes you proud of your country? One thing that makes me incredibly proud of Kenya is our natural beauty and diversity. We are blessed with such an extraordinary range of landsc…",
+      "publishedAt": "2026-11-23T08:28:37.000Z"
     }
   },
   "https://coconutislepublishing1982.wordpress.com/": {
-    "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-22T10:14:23.746Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://coconutislepublishing1982.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Calm As The Ocean",
-      "url": "https://coconutislepublishing1982.wordpress.com/2026/11/22/calm-as-the-ocean/",
-      "summary": "What’s the best beach you’ve ever been to? I would say Newport Beach in California. For memory reasoning. I went on a trip with my ex-wife and first son who was 1 years old and a few months at the ti…",
-      "publishedAt": "2026-11-22T10:16:05.000Z"
+      "title": "Freedom of speech",
+      "url": "https://coconutislepublishing1982.wordpress.com/2026/11/23/freedom-of-speech/",
+      "summary": "What’s one thing that makes you proud of your country? The first amendment the freedom of speech. Is what I’m proud of because we can speak our opinions and facts without being shot dead or arrested.…",
+      "publishedAt": "2026-11-23T08:27:00.000Z"
     }
   },
   "https://wordsandimagesbycynthia.com/": {
@@ -11778,13 +11778,13 @@
   },
   "https://wondyfox.blogspot.com/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T07:44:30.650Z",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://wondyfox.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Scientists Discover 450-Million-Year-Old Fossil With Preserved Soft Tissue",
-      "summary": "More than 450 million years ago, long before dinosaurs appeared on Earth, a strange marine animal lived in ancient oceans. It looked somewhat like an underwater flower, with branching arms extending …",
-      "publishedAt": "2026-11-23T07:33:28.000Z"
+      "title": "The 60,000-Ton Mystery Hidden Beneath the Sea of Galilee",
+      "summary": "Beneath the waters of the Sea of Galilee in Israel lies an enormous stone structure that has puzzled researchers for years. It is roughly 70 metres across, rises several metres above the lakebed, and…",
+      "publishedAt": "2026-11-23T08:36:16.000Z"
     }
   },
   "https://scribbles.biz/": {
@@ -11956,15 +11956,15 @@
     }
   },
   "https://shotinthehead.business.blog/": {
-    "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-22T07:44:27.069Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://shotinthehead.business.blog/feed/",
     "latestArticle": {
-      "title": "Best beach",
-      "url": "https://shotinthehead.business.blog/2026/11/22/best-beach/",
-      "summary": "What’s the best beach you’ve ever been to?",
-      "publishedAt": "2026-11-22T07:20:27.000Z"
+      "title": "This makes me proud to be an American. USA",
+      "url": "https://shotinthehead.business.blog/2026/11/23/this-makes-me-proud-to-be-an-american-usa/",
+      "summary": "What’s one thing that makes you proud of your country?",
+      "publishedAt": "2026-11-23T08:32:32.000Z"
     }
   },
   "https://iamstillborednotes.wordpress.com/": {
@@ -12147,15 +12147,15 @@
     }
   },
   "https://superfactful.com/": {
-    "lastPublished": "2026-11-20",
-    "lastChecked": "2026-11-20T09:44:29.335Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://superfactful.com/feed/",
     "latestArticle": {
-      "title": "Developed Countries Are Failing to Balance Their Budgets",
-      "url": "https://superfactful.com/2026/11/20/developed-countries-are-failing-to-balance-their-budgets/",
-      "summary": "Superfact 149: Developed countries such as the United States, Japan, and most European countries are failing to balance their budgets, and their national debts are staggering. Esther’s writing prompt…",
-      "publishedAt": "2026-11-20T09:36:43.000Z"
+      "title": "Ocean Acidification Global Warmings Evil Twin",
+      "url": "https://superfactful.com/2026/11/23/ocean-acidification-global-warmings-evil-twin/",
+      "summary": "Superfact 150: Carbon emissions from burning fossil fuels drive rapid Global Warming, but it also causes Ocean Acidification, Global Warming’s evil twin. Oceans absorb about 30% of human-emitted carb…",
+      "publishedAt": "2026-11-23T08:29:18.000Z"
     }
   },
   "https://new-lune.com/": {
@@ -12526,14 +12526,14 @@
   },
   "https://netzhi.com/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T03:44:28.669Z",
+    "lastChecked": "2026-11-23T08:44:29.773Z",
     "status": "success",
     "feedUrl": "https://netzhi.com/feed/",
     "latestArticle": {
-      "title": "樟宜机场能自助通关，还要扫描护照吗？",
-      "url": "https://netzhi.com/changi-automated-clearance-passport-arrival-departure/",
-      "summary": "外国游客在樟宜机场可以使用自助通道，但入境仍要出示护照，离境才可使用免扫护照的生物特征通关。首次到访不必提前登记自助资格，护照仍须随身携带；带未满 6 岁孩子的家庭，应按指引使用特别辅助通道。",
-      "publishedAt": "2026-11-23T03:37:00.000Z"
+      "title": "AI 写的 Python 算金额差一分钱？先查小数与舍入",
+      "url": "https://netzhi.com/ai-python-decimal-money-rounding/",
+      "summary": "AI 写的 Python 金额计算差一分钱，先检查输入是否变成 float，再核对舍入方式与计算顺序。用 Decimal 从原始字符串读取小数，区分遇五取偶和遇五远离零，并用小样本比较逐项舍入与汇总后舍入，避免只改显示位数。",
+      "publishedAt": "2026-11-23T08:24:00.000Z"
     }
   },
   "https://gardenstaterockhound.wordpress.com/": {

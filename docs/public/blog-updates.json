@@ -326,14 +326,14 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
-      "title": "New album: Tom Henry || What’s Left Bum-Bum-Bum, La-La-La!",
-      "url": "https://addtowantlist.com/index.php/2026/11/23/album-review-tom-henry-whats-left/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-tom-henry-whats-left",
-      "summary": "Following last year’s Songs to Sing and Dance To, Chicago singer-songwriter/multi-instrumentalist Tom Henry returns with What’s Left. His second long player takes stock of what remains when the big d…",
-      "publishedAt": "2026-11-23T06:34:15.000Z"
+      "title": "New album: Whitney’s Playland || Bottled Lightning Seven more reasons to fall for Whitney's Playland",
+      "url": "https://addtowantlist.com/index.php/2026/11/23/album-review-whitneys-playland-bottled-lightning/?utm_source=rss&utm_medium=rss&utm_campaign=album-review-whitneys-playland-bottled-lightning",
+      "summary": "Straight from Oakland to make this release week even more worthwhile, here’s the new mini-LP from Whitney’s Playland. We fell for this band on their 2023 debut, only to discover they’d become an even…",
+      "publishedAt": "2026-11-23T06:57:00.000Z"
     }
   },
   "https://adventuresofanamericanexpat.wordpress.com/": {
@@ -477,7 +477,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -553,7 +553,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://andrewdoran.uk/blog/comments/feed/",
     "latestArticle": {
@@ -663,7 +663,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -757,7 +757,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -888,7 +888,7 @@
     }
   },
   "https://babakfakhamzadeh.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
@@ -1021,7 +1021,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1203,7 +1203,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1422,7 +1422,7 @@
     "status": "unavailable"
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-26",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1622,12 +1622,12 @@
   },
   "https://calamitymn.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://calamitymn.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "River Arrow (& Alne) - Muppets and Mucilaginous",
-      "summary": "Now there comes a time in everyone's life when the world becomes so utterly bonkers that the only sensible response is to find a river, get afloat and pretend civilisation is happening to somebody el…",
-      "publishedAt": "2026-11-21T12:49:32.000Z"
+      "title": "Warwickshire Avon - Depopulation and Deoxyribonucleotides",
+      "summary": "Now, with Sam feeling a little under the weather, I was left with a decision. Should I be a considerate fishing companion and stay at home, or should I take advantage of the situation and go looking …",
+      "publishedAt": "2026-11-23T07:59:38.000Z"
     }
   },
   "https://callmemanatee.neocities.org/": {
@@ -1712,7 +1712,7 @@
     }
   },
   "https://casdinteret.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://casdinteret.com/feed/",
     "latestArticle": {
@@ -1784,7 +1784,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-06-11",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -2329,14 +2329,14 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Cyber and Fusionist bridge exploits lead exchanges to freeze tokens",
-      "url": "https://cryptonews.mobile/brief/cyber-and-fusionist-bridge-exploits-lead-exchanges-to-freeze-tokens",
-      "summary": "Two bridge exploits hit crypto projects. Cyber reported unexpected minting of 5.213 million CYBER on Solana, followed by a transfer from its Ethereum lockbox. SlowMist estimated a $5.7 million loss f…",
-      "publishedAt": "2026-11-23T06:55:47.000Z"
+      "title": "21shares expects bitcoin to set new all-time high in 2027 with later cycle peak",
+      "url": "https://cryptonews.mobile/brief/21shares-expects-bitcoin-to-set-new-all-time-high-in-2027-with-later-cycle-peak",
+      "summary": "21shares expects bitcoin to set a new all-time high in 2027, with the cycle peak later, citing the 2028 halving. It projects about $129,000, $133,000 and $146,000 by mid-2027 from the June low near $…",
+      "publishedAt": "2026-11-23T07:54:25.000Z"
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2441,7 +2441,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2663,7 +2663,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -2718,7 +2718,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2766,7 +2766,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -2825,7 +2825,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -3444,13 +3444,13 @@
   },
   "https://gorillasdontblog.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Jungle Cruise, October 1967",
-      "url": "https://gorillasdontblog.blogspot.com/2026/11/jungle-cruise-october-1967.html",
-      "summary": "SNOOZLES™! Soon to be a major motion picture, directed by Steven Spielberg. I don't know if Steve's movie will be about Jungle Cruise Snoozles specifically, because he always surprises you. But today…",
-      "publishedAt": "2026-11-22T08:01:00.000Z"
+      "title": "Leftuggies™",
+      "url": "https://gorillasdontblog.blogspot.com/2026/11/leftuggies.html",
+      "summary": "Leftuggies are tasty! And so convenient. This first one is from March, 1961; two ladies rest their weary feet in Tomorrowland; there’s the Speed Ramp up to the Monorail platform in the background, it…",
+      "publishedAt": "2026-11-23T08:01:00.000Z"
     }
   },
   "https://gourabtravel.wordpress.com/": {
@@ -3632,13 +3632,13 @@
   },
   "https://hajarstext.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://hajarstext.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Adulthood",
-      "url": "https://hajarstext.wordpress.com/2026/11/22/adulthood-3/",
-      "summary": "To some people Adulthood comes early To other people, Late, after a sheltered life only @douryeh",
-      "publishedAt": "2026-11-22T21:45:33.000Z"
+      "title": "The Advantage of Winter",
+      "url": "https://hajarstext.wordpress.com/2026/11/23/the-advantage-of-winter/",
+      "summary": "Enjoying a late Sunrise We sometimes miss it in Summer It’s great merriment to the eyes When waking up from slumber @douryeh",
+      "publishedAt": "2026-11-23T08:06:21.000Z"
     }
   },
   "https://haleelove.blog/": {
@@ -3740,7 +3740,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3809,7 +3809,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3842,7 +3842,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -3958,14 +3958,14 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-22",
+    "status": "success",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
-      "title": "Crispy Honey Gochujang Potatoes",
-      "url": "https://iamafoodblog.com/crispy-honey-gochujang-potatoes/",
-      "summary": "I love potatoes so much. So when Mike told me that our local farmers market was featuring specialty local potatoes, I was all in. There were so many different varieties, I had a hard time choosing. W…",
-      "publishedAt": "2026-11-22T07:05:20.000Z"
+      "title": "Milk Bread Dinner Rolls",
+      "url": "https://iamafoodblog.com/milk-bread-dinner-rolls/",
+      "summary": "The Fluffiest, Squishiest, Easiest Milk Bread Dinner Rolls - No Tangzhong",
+      "publishedAt": "2026-11-23T07:00:24.000Z"
     }
   },
   "https://iamstillborednotes.wordpress.com/": {
@@ -4247,7 +4247,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -4280,7 +4280,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4578,13 +4578,13 @@
   },
   "https://justrojie.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://justrojie.com/feed/",
     "latestArticle": {
-      "title": "why didn’t you…",
-      "url": "https://justrojie.com/why-didnt-you/",
-      "summary": "LINK: why didn’t you… Currently listening to: NO RETURN – I.N (Stray Kids: SKZ-PLayer) For those who don’t know, I.N is my bias wrecker. You can’t go back anymorNo exit 나갈 수 없어 (you can’t get out)Why…",
-      "publishedAt": "2026-11-22T09:02:00.000Z"
+      "title": "ot7",
+      "url": "https://justrojie.com/ot7/",
+      "summary": "LINK: ot7 Currently listening to: I Alone – Live Oh, now, we took it back too farOnly love can save us nowAll these riddles that you burnAll come running back to youAll these rhythms that you hide Wh…",
+      "publishedAt": "2026-11-23T08:08:00.000Z"
     }
   },
   "https://k-hangang.com/world/?lang=en": {
@@ -4593,17 +4593,17 @@
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://kaggsysbookishramblings.wordpress.com/feed/",
     "latestArticle": {
-      "title": "“I ponder these words…” #ReadingScotland26",
-      "url": "https://kaggsysbookishramblings.wordpress.com/2026/11/20/i-ponder-these-words-readingscotland26/",
-      "summary": "A late addition to my plans for November was a reading event I stumbled across relatively recently – Reading Scotland Month (you can find out more about that here). I wasn’t aware of this event befor…",
-      "publishedAt": "2026-11-20T08:00:38.000Z"
+      "title": "“All must fall away.” #pattismith #breadofangels #nonficnov26",
+      "url": "https://kaggsysbookishramblings.wordpress.com/2026/11/23/all-must-fall-away-pattismith-breadofangels-nonficnov26/",
+      "summary": "Patti Smith has made a good number of appearances on the Ramblings, and she’s an artist whose work I’ve loved since my teens, when I discovered her seminal album “Horses”. Although she was known at t…",
+      "publishedAt": "2026-11-23T08:00:26.000Z"
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -4619,7 +4619,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -5157,7 +5157,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -5629,7 +5629,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5640,7 +5640,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -6001,7 +6001,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -6104,13 +6104,13 @@
   },
   "https://mymindmappings.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "The Numbers Game #138",
-      "url": "https://mymindmappings.com/2026/11/22/the-numbers-game-138/",
-      "summary": "It’s been two months since I last played Judy Dykstra-Brown’s The Numbers Game. This week’s number is 755 To play along, we need to go to our WordPress media/photo file and type that number into the …",
-      "publishedAt": "2026-11-22T23:37:35.000Z"
+      "title": "FOWC With Fandango — River",
+      "url": "https://mymindmappings.com/2026/11/23/fowc-with-fandango-river/",
+      "summary": "Welcome to Fandango’s One-Word Challenge (aka, FOWC). I will be posting each day’s word just after midnight Pacific Time (U.S.). Today’s word is “river.” Write a post using that word. It can be prose…",
+      "publishedAt": "2026-11-23T08:01:00.000Z"
     }
   },
   "https://mysidewaysview.com/": {
@@ -6505,7 +6505,7 @@
     "status": "unavailable"
   },
   "https://omaralshal.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://omaralshal.com/feed/",
     "latestArticle": {
@@ -6706,12 +6706,12 @@
   },
   "https://paxton-road.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://paxton-road.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Tired but happy…",
-      "summary": "I’m afraid only a brief post today, I’m exhausted from travelling and talking yesterday and whilst it was an incredibly fulfilling and restorative experience, my brain hasn’t quite caught up… Mini me…",
-      "publishedAt": "2026-11-22T09:07:33.000Z"
+      "title": "Commission: A lined Victory…",
+      "summary": "Not every commission is hours of work, sometimes it can be as simple as a name plate, renumbering or lining. The variety is what makes this job so rewarding, and I was particularly excited to see a V…",
+      "publishedAt": "2026-11-23T07:54:06.000Z"
     }
   },
   "https://pdlyons.wordpress.com/": {
@@ -7259,7 +7259,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -7320,10 +7320,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://reallifestories8.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A mother’s love is life’s greatest blessing. Cherish her while you can. ❤️🌹",
-      "url": "https://reallifestories8.wordpress.com/2026/11/23/a-mothers-love-is-lifes-greatest-blessing-cherish-her-while-you-can-%e2%9d%a4%ef%b8%8f%f0%9f%8c%b9/",
-      "summary": "A mother’s love is one of life’s rarest blessings—patient, forgiving, and often expressed through sacrifices we notice only when we grow older. Never let anger, harsh words, neglect, or silence make …",
-      "publishedAt": "2026-11-23T05:38:32.000Z"
+      "title": "My Ego Disappeared…",
+      "url": "https://reallifestories8.wordpress.com/2026/11/23/my-ego-disappeared/",
+      "summary": "Not Every Traveller Walking on Foot Is a Beggar. Today, while travelling along my route from Kopargaon, Maharashtra, I saw an elderly couple walking along the roadside. As is my usual habit, I approa…",
+      "publishedAt": "2026-11-23T07:58:06.000Z"
     }
   },
   "https://recipes.mihobu.net/": {
@@ -7469,7 +7469,7 @@
     }
   },
   "https://retrogametalk.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://retrogametalk.com/data/assets/logo/RGT_Icon_Black.svg"
   },
   "https://revenuecycleuncovered.blogspot.com/": {
@@ -7958,7 +7958,7 @@
     }
   },
   "https://seat31b.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-16",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
@@ -8399,7 +8399,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -8428,14 +8428,14 @@
     }
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-22",
+    "status": "success",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
-      "title": "It’s like GTA, but you’re a robotic pigeon in Toronto",
-      "url": "https://stephenbodio.com/2026/11/its-like-gta-but-youre-a-robotic-pigeon-in-toronto/?utm_source=rss&utm_medium=rss&utm_campaign=its-like-gta-but-youre-a-robotic-pigeon-in-toronto",
-      "summary": "Inspired by Grand Theft Auto, Covert Ornithological Operations lets gamers fly around an accurate Toronto cityscape as robotic pigeons as they complete missions and learn about new neighbourhoods. Mo…",
-      "publishedAt": "2026-11-22T07:11:09.000Z"
+      "title": "Hissing Grouse",
+      "url": "https://stephenbodio.com/2026/11/hissing-grouse/?utm_source=rss&utm_medium=rss&utm_campaign=hissing-grouse",
+      "summary": "I thought I knew something about grouse but this hissing head-shake display I don’t remember seeing. More grouse and feeder videos. Per AI The hissing head-shake display of a male ruffed grouse (Bona…",
+      "publishedAt": "2026-11-23T07:25:19.000Z"
     }
   },
   "https://steverebus.com/": {
@@ -9332,10 +9332,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://thequietus.com/feed/",
     "latestArticle": {
-      "title": "Robyn Rocket and People You May of Heard Of – Open Doors to Other People’s Worlds",
-      "url": "https://thequietus.com/quietus-reviews/robyn-rocket-and-people-you-may-of-heard-of-open-doors-to-other-peoples-worlds-review/",
-      "summary": "Robyn Rocket and People You May of Heard Of Open Doors to Other People’s Worlds Featuring guests Seb Rochford, Rozi Plain, Daniel Wakeford and Momoko Gill (among others), Open Doors to Other People’s…",
-      "publishedAt": "2026-11-23T06:00:00.000Z"
+      "title": "Guest Playlist: Marina Herlop",
+      "url": "https://thequietus.com/subscriber-area/playlists/guest-playlist-marina-herlop/",
+      "summary": "Having delivered one of the most ambitious records of 2026 with last month's Dja Dja, the Catalan composer presents a 20-track playlist of the influences that fed into it, available exclusively for t…",
+      "publishedAt": "2026-11-23T08:00:00.000Z"
     }
   },
   "https://theramblingwillow.wordpress.com/": {
@@ -9635,7 +9635,7 @@
     "status": "unavailable"
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -9680,13 +9680,13 @@
   },
   "https://tonysreadinglist.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-19",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://tonysreadinglist.wordpress.com/feed/",
     "latestArticle": {
-      "title": "‘Voraussetzungen einer Erzählung: Kassandra’ (‘Prerequisites of a Novel: Cassandra’) by Christa Wolf (Review)",
-      "url": "https://tonysreadinglist.wordpress.com/2026/11/19/voraussetzungen-einer-erzahlung-kassandra-prerequisites-of-a-novel-cassandra-by-christa-wolf-review/",
-      "summary": "After my last German Literature Month review took us to Frankfurt for some rather personal revelations, today’s post takes us back for another set of lectures, albeit of a rather different kind. This…",
-      "publishedAt": "2026-11-19T08:00:32.000Z"
+      "title": "‘Briefe an einen jungen Dichter’ (‘Letters to a Young Poet’) by Rainer Maria Rilke (Review)",
+      "url": "https://tonysreadinglist.wordpress.com/2026/11/23/briefe-an-einen-jungen-dichter-letters-to-a-young-poet-by-rainer-maria-rilke-review/",
+      "summary": "It’s the closing week of this year’s German Literature Month, and our final theme sees us honouring the second of this year’s writers, namely Rainer Maria Rilke. 2026 marks the centenary of his passi…",
+      "publishedAt": "2026-11-23T08:00:01.000Z"
     }
   },
   "https://topherong.net/": {
@@ -9712,7 +9712,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -9856,7 +9856,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -10114,9 +10114,9 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/174261/alonso-fragile-chelsea-not-at-the-level-required",
-      "summary": "Another aggravating weekend in the Land of the Blues, with another historic home defeat suffered against one of our historic rivals. First, it were Spurs winning at the Bridge for just the second tim…",
-      "publishedAt": "2026-11-23T07:11:12.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/174257/the-daily-hilario-november-23rd",
+      "summary": "Unbeaten Oof Oof x2",
+      "publishedAt": "2026-11-23T08:00:00.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -10286,7 +10286,7 @@
     "latestArticle": {
       "title": "Leo Frank and the Mandela Effect",
       "url": "https://writerswithoutmoney.com/2026/11/22/leo-frank-and-the-mandela-effect/",
-      "summary": "On April 26, 1913, the lifeless body of a 13-year-old girl named Mary Phagen was found in the basement of the National Pencil Company in Atlanta, Georgia. Two black men were initially accused of the …",
+      "summary": "On April 26, 1913, the lifeless body of a 13-year-old girl named Mary Phagan was found in the basement of the National Pencil Company in Atlanta, Georgia. Two black men were initially accused of the …",
       "publishedAt": "2026-11-23T02:37:02.000Z"
     }
   },
@@ -10327,7 +10327,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -10417,7 +10417,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -10613,7 +10613,7 @@
     }
   },
   "https://www.cleverhiker.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.cleverhiker.com/feed/",
     "latestArticle": {
@@ -10730,7 +10730,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -10820,7 +10820,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -10956,7 +10956,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -10989,14 +10989,14 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-20",
+    "status": "success",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "Brighton Main Line closed later this month and 9-days in February",
-      "url": "https://www.ianvisits.co.uk/articles/brighton-main-line-closed-later-this-month-and-9-days-in-february-94289/",
-      "summary": "Passengers on the Brighton Main Line south of London are getting early warning of a 9-day closure affecting services next February, with a one-day closure later this month on Sunday 29th November. Re…",
-      "publishedAt": "2026-11-20T17:15:47.000Z"
+      "title": "London’s Alleys: Shrewsbury Mews, Notting Hill, W2",
+      "url": "https://www.ianvisits.co.uk/articles/londons-alleys-shrewsbury-mews-notting-hill-w2-92247/",
+      "summary": "This is a rather odd mews passage that sadly you can’t walk down because both ends have been fenced off, but you can peer through the gates if you want. Read more ›",
+      "publishedAt": "2026-11-23T07:00:47.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -11125,7 +11125,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -11183,7 +11183,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11200,7 +11200,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -11244,7 +11244,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -11277,9 +11277,9 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-01",
-    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
+    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -11325,7 +11325,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -11336,7 +11336,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -11497,7 +11497,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -11720,7 +11720,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-16",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -11788,7 +11788,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -11799,7 +11799,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11810,7 +11810,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11854,7 +11854,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
@@ -11865,7 +11865,7 @@
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
@@ -11964,18 +11964,18 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-21",
+    "status": "success",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
-      "title": "TIH 686: David Moody on the 20th Anniversary of Hater",
-      "url": "https://www.thisishorror.co.uk/tih-686-david-moody-on-the-20th-anniversary-of-hater/",
-      "summary": "In this podcast, David Moody talks about the 20th anniversary of Hater and much more. About David Moody David Moody first self-published Hater in 2006, and without an agent, succeeded in selling the …",
-      "publishedAt": "2026-11-21T15:00:23.000Z"
+      "title": "5 Must Read Horror Articles 23 November 2026",
+      "url": "https://www.thisishorror.co.uk/5-must-read-horror-articles-23-november-2026/",
+      "summary": "Welcome to Must Read Horror, where we search the internet for the best horror articles of the week so you don’t have to. Without further ado: Crime Reads pick out nine forthcoming horror, thriller an…",
+      "publishedAt": "2026-11-23T07:55:38.000Z"
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -12079,7 +12079,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/comments/feed/",
     "latestArticle": {

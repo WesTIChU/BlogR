@@ -12,7 +12,7 @@
   },
   "http://blueskyscotland.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://blueskyscotland.blogspot.com/feeds/posts/default",
     "latestArticle": {
       "title": "High Street, Necropolis, Royal Infirmary. University of Strathclyde. Townhead. A Glasgow Tour. Part One.",
@@ -452,7 +452,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -542,9 +542,9 @@
     }
   },
   "https://andrewchen.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2024-02-26",
-    "feedUrl": "https://andrewchen.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fandrewchen.com%2F&format=xml",
+    "feedUrl": "https://andrewchen.com/feed/",
     "latestArticle": {
       "title": "How to break into Silicon Valley",
       "url": "https://andrewchen.com/how-to-break-into-silicon-valley/",
@@ -2406,9 +2406,9 @@
     "feedUrl": "https://danq.me/feed/",
     "latestArticle": {
       "title": "[Note] Astroturf Frost",
-      "url": "https://danq.me/2026/11/23/astroturf-frost-2/",
+      "url": "https://danq.me/2026/11/23/astroturf-frost/",
       "summary": "When I looked back at the astroturf I only saw one set of frost footprints. And Jesus said \"Oh... you didn't expect Me to come, did you? It's fucking freezing out there!\"",
-      "publishedAt": "2026-11-23T08:44:59.000Z"
+      "publishedAt": "2026-11-23T08:43:56.000Z"
     }
   },
   "https://dansinker.com/blog/": {
@@ -2861,7 +2861,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -2893,10 +2893,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://ephemeralnewyork.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The Tribeca provisions company that supplied Gilded Age New York with roast canned turkey",
-      "url": "https://ephemeralnewyork.wordpress.com/2026/11/23/the-tribeca-provisions-company-that-supplied-gilded-age-new-york-with-roast-canned-turkey/",
-      "summary": "Before social media, before digitized subway ads, and before advertising as we know it began, businesses printed colorful trade cards and package labels that featured their product, company name, and…",
-      "publishedAt": "2026-11-23T07:40:23.000Z"
+      "title": "What is this fake brick row house facade at a Greenwich Village triangle trying to hide?",
+      "url": "https://ephemeralnewyork.wordpress.com/2026/11/23/what-is-this-fake-brick-row-house-facade-at-a-greenwich-village-triangle-trying-to-hide/",
+      "summary": "In years past, when the MTA needed to create street-level substations and other infrastructure to improve subway service, they ensured that whatever they were building would fit in aesthetically with…",
+      "publishedAt": "2026-11-23T09:38:30.000Z"
     }
   },
   "https://equinoxio21.wordpress.com/": {
@@ -3385,13 +3385,13 @@
   },
   "https://glitternight.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://glitternight.com/feed/",
     "latestArticle": {
-      "title": "FLASHBACK: SHARYL ATTKISSON EXPOSES THE BIASES AND LIES OF SELF-PROCLAIMED “FACT CHECKERS”",
-      "url": "https://glitternight.com/2026/11/22/flashback-sharyl-attkisson-exposes-the-biases-and-lies-of-self-proclaimed-fact-checkers/",
-      "summary": "FROM AUGUST EIGHTH OF 2020: “WHO CHECKS THE “FACT CHECKERS?” It’s no secret that the Democrats have transformed every aspect of life into an ugly political situation. “The personal is the political” …",
-      "publishedAt": "2026-11-22T21:28:45.000Z"
+      "title": "NOVEMBER TWENTY-THIRD NEWS ROUNDUP",
+      "url": "https://glitternight.com/2026/11/23/november-twenty-third-news-roundup/",
+      "summary": "Here’s a current events roundup from Independent Voter Site Balladeer’s Blog. STICKY REMINDER: In a midterm election under Barack Obama, the Democrats were massively blown out and lost SIXTY-THREE se…",
+      "publishedAt": "2026-11-23T09:13:02.000Z"
     }
   },
   "https://glophilspeaks.wordpress.com/": {
@@ -3614,10 +3614,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "When Drawers Get Their Own Status Lights",
-      "url": "https://hackaday.com/2026/11/22/when-drawers-get-their-own-status-lights/",
-      "summary": "Ever just want a bit more light in a drawer? It’s a common enough problem with a lot of potential solutions. This beautifully done project from [Marcus Lab] handles it …read more",
-      "publishedAt": "2026-11-23T06:00:20.000Z"
+      "title": "Repairing a Cheap Rotary Evaporator for the Home Lab",
+      "url": "https://hackaday.com/2026/11/23/repairing-a-cheap-rotary-evaporator-for-the-home-lab/",
+      "summary": "After running through the chemical reactions required to get whatever substance you were targeting, it’ll often still be mixed in with a lot of solvent. Getting rid of this solvent …read more",
+      "publishedAt": "2026-11-23T09:00:28.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3701,9 +3701,9 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://harmonicdissent.com/index.xml",
     "latestArticle": {
-      "title": "The Price and the Gate",
-      "url": "https://harmonicdissent.com/posts/the-price-and-the-gate/",
-      "publishedAt": "2026-11-23T07:25:17.000Z"
+      "title": "Nothing Accumulates",
+      "url": "https://harmonicdissent.com/posts/nothing-accumulates/",
+      "publishedAt": "2026-11-23T08:55:28.000Z"
     }
   },
   "https://hashset.dev/": {
@@ -4259,13 +4259,13 @@
   },
   "https://jeaniekelley5.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://jeaniekelley5.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Blogging Sunday: Your Spiritual Journey: Share the story of how you came to faith:",
-      "url": "https://jeaniekelley5.wordpress.com/2026/11/22/blogging-sunday-your-spiritual-journey-share-the-story-of-how-you-came-to-faith/",
-      "summary": "Good Morning and Happy Sunday. I pray that your Sunday is going well and that you are going to church this morning. I pray you are blessed. Today’s blog is going to be about how I came to know Jesus …",
-      "publishedAt": "2026-11-22T13:40:16.000Z"
+      "title": "Proud of America Top 5",
+      "url": "https://jeaniekelley5.wordpress.com/2026/11/23/proud-of-america-top-5/",
+      "summary": "What’s one thing that makes you proud of your country? We can still worship God in this land. The men and women who laid down their life for this land. Freedom of speech Being able to vote in electio…",
+      "publishedAt": "2026-11-23T09:18:38.000Z"
     }
   },
   "https://jeanovilla.wordpress.com/": {
@@ -4350,10 +4350,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://jobinterviewat.com/feed/",
     "latestArticle": {
-      "title": "Angular Interview Questions and Answers (2026)",
-      "url": "https://jobinterviewat.com/angular-interview-questions/",
-      "summary": "Angular interview questions in 2026 assume Angular 17 or newer: standalone components, signals, and the @if/@for control flow are standard answers, while NgModule-era explanations date a candidate. I…",
-      "publishedAt": "2026-11-23T03:00:00.000Z"
+      "title": "Should Job Seekers Use AI to Prepare for Interviews? Benefits and Risks",
+      "url": "https://jobinterviewat.com/use-ai-to-prepare-for-interviews/",
+      "summary": "Yes, you can use AI to prepare for interviews, as long as it helps you get ready and never speaks for you. Use it to research the company, predict questions,... The post Should Job Seekers Use AI to …",
+      "publishedAt": "2026-11-23T09:25:34.000Z"
     }
   },
   "https://joegardener.com/blog/": {
@@ -5212,13 +5212,13 @@
   },
   "https://londonist.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://londonist.com/feed/",
     "latestArticle": {
-      "title": "Billy Waters - The Black Street Performer Who Captivated Regency London",
-      "url": "https://londonist.com/london/history/billy-waters-regency-london",
-      "summary": "And why he's finally dancing again.",
-      "publishedAt": "2026-11-22T08:25:00.000Z"
+      "title": "Brave The Chilly Waters Of Parliament Hill Lido For Charity This December",
+      "url": "https://londonist.com/london/things-to-do/crisis-icebreaker-lido-swim-december-2026",
+      "summary": "The Crisis Icebreaker is back.",
+      "publishedAt": "2026-11-23T09:35:00.000Z"
     }
   },
   "https://londonreconnections.com/": {
@@ -5505,13 +5505,13 @@
   },
   "https://mastermixmovies.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://mastermixmovies.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Look Out",
-      "url": "https://mastermixmovies.wordpress.com/2026/11/22/look-out/",
-      "summary": "Supergirl (2026) is a major misstep for the DC Universe. Although I doubted James Gunn, Superman (2025) proved to be a successful reboot of the beloved Man of Steel. Though I wasn’t entirely on board…",
-      "publishedAt": "2026-11-22T09:00:00.000Z"
+      "title": "Look Fear in the Face",
+      "url": "https://mastermixmovies.wordpress.com/2026/11/23/look-fear-in-the-face/",
+      "summary": "Clayface is a better standalone horror movie than it is a DCU film. Although James Gunn decided to call the first part of his DC Universe Chapter One: Gods and Monsters, it was never his intention to…",
+      "publishedAt": "2026-11-23T09:00:00.000Z"
     }
   },
   "https://matduggan.com/": {
@@ -6220,10 +6220,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://netzhi.com/feed/",
     "latestArticle": {
-      "title": "AI 写的 Python 算金额差一分钱？先查小数与舍入",
-      "url": "https://netzhi.com/ai-python-decimal-money-rounding/",
-      "summary": "AI 写的 Python 金额计算差一分钱，先检查输入是否变成 float，再核对舍入方式与计算顺序。用 Decimal 从原始字符串读取小数，区分遇五取偶和遇五远离零，并用小样本比较逐项舍入与汇总后舍入，避免只改显示位数。",
-      "publishedAt": "2026-11-23T08:24:00.000Z"
+      "title": "PowerPoint 找不到“压缩媒体”？先看平台和对象",
+      "url": "https://netzhi.com/powerpoint-compress-media-platform-picture/",
+      "summary": "PowerPoint 的“压缩媒体”适用于 Windows 桌面版，Mac 和网页版没有同名功能；图片另用“压缩图片”。按平台和对象找入口，处理前保留原稿，留意嵌入字幕、备用音轨和图片细节的损失，再保存副本核对大小与放映效果。",
+      "publishedAt": "2026-11-23T09:12:00.000Z"
     }
   },
   "https://neuraljazz.blog/": {
@@ -6782,13 +6782,13 @@
   },
   "https://petersnextchapter.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://petersnextchapter.blog/feed/",
     "latestArticle": {
-      "title": "In search of",
-      "url": "https://petersnextchapter.blog/2026/11/22/in-search-of/",
-      "summary": "Mireia sent me a video of where the fourth red statue was in Toulouse. I had found three of them but could not find the fourth. It was in a very oblivious place that I walk by often so I was not sure…",
-      "publishedAt": "2026-11-22T10:09:30.000Z"
+      "title": "Last big grocery shopping trip to St. Aubin’s",
+      "url": "https://petersnextchapter.blog/2026/11/23/last-big-grocery-shopping-trip-to-st-aubins/",
+      "summary": "Since I leave in a little over a week to return to Alexandria for the winter, I did my last big grocery shopping. I will only be cooking a few more meals so needy to get enough food for the meals but…",
+      "publishedAt": "2026-11-23T09:15:33.000Z"
     }
   },
   "https://petportraitart.org/": {
@@ -6997,10 +6997,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://pohortai.com.ua/feed/",
     "latestArticle": {
-      "title": "Гончар із Північної Кароліни тримає сад, щоб пам’ятати про тіло, сон і воду",
-      "url": "https://pohortai.com.ua/statti/honchar-iz-pivnichnoyi-karoliny-trymaye-sad-shtob-pamyataty-pro-tilo-son-i-vodu/",
-      "summary": "Гончар Alex Matisse розповідає, як сад серед лісу біля Ашвілла допомагає йому не забувати про тіло, сон і воду.",
-      "publishedAt": "2026-11-23T05:40:03.000Z"
+      "title": "Курячі стегна на деку з яблучним оцтом: 1,4 кг (3 фунти) м’яса й сухарики з хліба",
+      "url": "https://pohortai.com.ua/statti/kuryachi-stehna-na-deku-z-yabluchnym-otstom-14-kh-3-funty-myasa-y-suharyky-z-hliba/",
+      "summary": "Рецепт курячих стегон з яблучним оцтом, шалотками й сухариками з хліба на одному деку: 4 порції та 1 година 10 хвилин.",
+      "publishedAt": "2026-11-23T09:05:25.000Z"
     }
   },
   "https://pointersandhooksyt.wordpress.com/": {
@@ -7058,7 +7058,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7206,9 +7206,9 @@
     }
   },
   "https://rachelsvintageretro.co.uk/": {
-    "status": "success",
+    "status": "unknown",
     "lastPublished": "2026-10-30",
-    "feedUrl": "https://rachelsvintageretro.co.uk/feed/",
+    "feedUrl": "https://rachelsvintageretro.co.uk/wp-admin/install.php",
     "latestArticle": {
       "title": "Autumn Sale: Further Reductions! Ends Cyber Monday",
       "url": "https://rachelsvintageretro.co.uk/autumn-sale-reduced-prices-on-christmas-gifts-and-homewares/",
@@ -7320,10 +7320,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://reallifestories8.wordpress.com/feed/",
     "latestArticle": {
-      "title": "The Priceless Treasure in an Old Trunk",
-      "url": "https://reallifestories8.wordpress.com/2026/11/23/the-priceless-treasure-in-an-old-trunk/",
-      "summary": "An elderly father, who lived alone in his village, passed away. His two sons, who had settled in different cities, returned to the village for their father’s last rites. All the funeral rituals were …",
-      "publishedAt": "2026-11-23T08:43:34.000Z"
+      "title": "As you grow older, you begin to see your parents differently. You realise your father wasn’t perfect; he was just a man carrying responsibilities, fighting battles, hiding pain, and trying to give his family a better life with the knowledge and strength he had. He made mistakes, just like you do. Perhaps he never knew how to express love, but that doesn’t mean he never felt it. Maturity is understanding that our parents were also learning life for the first time. Forgive where you can, appreciate what you have, and never forget the sacrifices behind your existence. ❤️",
+      "url": "https://reallifestories8.wordpress.com/2026/11/23/as-you-grow-older-you-begin-to-see-your-parents-differently-you-realise-your-father-wasnt-perfect-he-was-just-a-man-carrying-responsibilities-fighting-battles-hiding-pain-and-trying-to-give-hi/",
+      "summary": "#Father #Fatherhood #LifeLessons #FamilyValues EmotionalMaturity Forgiveness RespectYourParents",
+      "publishedAt": "2026-11-23T09:01:03.000Z"
     }
   },
   "https://recipes.mihobu.net/": {
@@ -7393,10 +7393,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://renellsrealtalk.wordpress.com/feed/",
     "latestArticle": {
-      "title": "I’M DISGUSTED",
-      "url": "https://renellsrealtalk.wordpress.com/2026/11/23/im-disgusted/",
-      "summary": "Every time I look around, there’s something that you gotta pay for no matter how hard you work taxes and cost-of-living just keeps going up and up while your money keeps going the same a little up or…",
-      "publishedAt": "2026-11-23T08:43:31.000Z"
+      "title": "The worst piece of advice received ￼",
+      "url": "https://renellsrealtalk.wordpress.com/2026/11/23/the-worst-piece-of-advice-received/",
+      "summary": "What’s the worst piece of advice you’ve ever received? The worst piece of advice I’ve ever received. I really can’t say because I’m still alive so I can’t really say the worst piece of advice even at…",
+      "publishedAt": "2026-11-23T08:47:09.000Z"
     }
   },
   "https://repairmeyourself.com/appliance-age-calculator/": {
@@ -7448,13 +7448,13 @@
   },
   "https://retiredmartin.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://retiredmartin.com/feed/",
     "latestArticle": {
-      "title": "KILLING TIME IN NOTTINGHAM",
-      "url": "https://retiredmartin.com/2026/11/22/killing-time-in-nottingham/",
-      "summary": "November 2026. Nottingham. Back from Beeston, my last Notts GBG27 pub is one of those irritating 16:30 openers. I always assumed city centre pubs would be open from noon at worst, but those days are …",
-      "publishedAt": "2026-11-22T18:48:39.000Z"
+      "title": "AN EARLIER BATH IN SNEINTON",
+      "url": "https://retiredmartin.com/2026/11/23/an-earlier-bath-in-sneinton/",
+      "summary": "November 2026. Nottingham. The last new pub visited in a county, always a joy, and Nottingham’s Bath Inn takes us into multicultural Sneinton, birthplace of William Booth, home to a windmill on a hil…",
+      "publishedAt": "2026-11-23T09:14:20.000Z"
     }
   },
   "https://retroarcadia.blog/": {
@@ -7680,13 +7680,13 @@
   },
   "https://roughghosts.com/": {
     "status": "success",
-    "lastPublished": "2026-11-12",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://roughghosts.com/feed/",
     "latestArticle": {
-      "title": "We’re all woven in: Wickerwork by Christian Lehnert",
-      "url": "https://roughghosts.com/2026/11/12/were-all-woven-in-wickerwork-by-christian-lehnert/",
-      "summary": "Not that anything / comes to passWhen we give You a name /For the shape You takeEludes our grasp.Far clearer / from something to nothing /So many things / ever the same /Poppy blossoms / the falling …",
-      "publishedAt": "2026-11-12T07:04:00.000Z"
+      "title": "Yes, yes, life is nothing but an attempt to go back: Tamangur by Leta Semadeni",
+      "url": "https://roughghosts.com/2026/11/23/yes-yes-life-is-nothing-but-an-attempt-to-go-back-tamangur-by-leta-semadeni/",
+      "summary": "Grandmother’s heart is a vast forest with thick underbrush, towering trees and squat ones, along with many shrubs. You can go for a walk in it or go astray.It has clearings, too, that open up like a …",
+      "publishedAt": "2026-11-23T08:55:05.000Z"
     }
   },
   "https://roytang.net/": {
@@ -7834,13 +7834,13 @@
   },
   "https://saunaboy.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-19",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://saunaboy.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Ukraine ‘Band 59’ performs in Tartu",
-      "url": "https://saunaboy.wordpress.com/2026/11/19/ukraine-band-59-performs-in-tartu/",
-      "summary": "What an amazing evening! I attended a performance/seminar hosted by the expat Ukrainian organization in Eesti. They brought in a group of Ukrainian soldiers/artists who have been touring Norway, Swed…",
-      "publishedAt": "2026-11-19T08:51:08.000Z"
+      "title": "Bear goes for walk in Tartu city!",
+      "url": "https://saunaboy.wordpress.com/2026/11/23/bear-goes-for-walk-in-tartu-city/",
+      "summary": "I don’t know whether to feel amused or terrified! A brown bear was sighted in downtown Tartu, near Emajõgi and the Ropka district. I’ve been there on a walkabout! This is a no BS story. There is vide…",
+      "publishedAt": "2026-11-23T09:46:27.000Z"
     }
   },
   "https://savvygardening.com/": {
@@ -8413,7 +8413,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8644,13 +8644,13 @@
   },
   "https://talesofonecity.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-18",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://talesofonecity.wordpress.com/feed/",
     "latestArticle": {
-      "title": "National Year of Reading: How do you Go All In for reading?",
-      "url": "https://talesofonecity.wordpress.com/2026/11/18/national-year-of-reading-how-do-you-go-all-in-for-reading-9/",
-      "summary": "We have been asking library members and staff about their reading habits to celebrate the National Year of Reading 2026. Dominique is an avid reader and regular at Central Lending Library. She recent…",
-      "publishedAt": "2026-11-18T09:30:00.000Z"
+      "title": "Edinburgh’s mobile library service expands digital access with free Wi-Fi",
+      "url": "https://talesofonecity.wordpress.com/2026/11/23/edinburghs-mobile-library-service-expands-digital-access-with-free-wi-fi/",
+      "summary": "Edinburgh residents can now benefit from new digital connectivity on board the mobile library service, bringing free Wi-Fi and improved access to online services closer to communities that can face b…",
+      "publishedAt": "2026-11-23T09:30:00.000Z"
     }
   },
   "https://talkingupscotlandtwo.com/": {
@@ -8945,10 +8945,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Celtic has Scotland’s three best players, but there’s a catch.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/scotlands-three-best-players-celtic-catch/",
-      "summary": "There is a question I have been asking myself, and I suspect it is one that Martin O’Neill The post Celtic has Scotland’s three best players, but there’s a catch. appeared first on The Celtic Blog .",
-      "publishedAt": "2026-11-23T06:30:58.000Z"
+      "title": "McGeady has diagnosed Celtic’s whole problem and he’s offered a simple solution.",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/mcgeadys-yang-point-strive-for-better-celtic/",
+      "summary": "The other day on Twitter, I was waxing lyrical about Aiden McGeady as a commentator and as a The post McGeady has diagnosed Celtic’s whole problem and he’s offered a simple solution. appeared first o…",
+      "publishedAt": "2026-11-23T09:00:00.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -9489,13 +9489,13 @@
   },
   "https://theunconventionalgardener.com/blog/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://theunconventionalgardener.com/feed/",
     "latestArticle": {
-      "title": "The audiobook has sound effects",
-      "url": "https://theunconventionalgardener.com/blog/the-audiobook-has-sound-effects/",
-      "summary": "Some options for an SFF novel for which the audiobook has sound effects.",
-      "publishedAt": "2026-11-22T16:27:27.000Z"
+      "title": "The author has three names",
+      "url": "https://theunconventionalgardener.com/blog/the-author-has-three-names/",
+      "summary": "There are ooooooooodles of books by authors with three names, so this challenge is an easy one.",
+      "publishedAt": "2026-11-23T09:04:00.000Z"
     }
   },
   "https://theusedlife.com/": {
@@ -9578,7 +9578,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -10206,13 +10206,13 @@
   },
   "https://wildonline.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://wildonline.blog/feed/",
     "latestArticle": {
-      "title": "WILDLIFE – SMALL TORTOISESHELL BUTTERFLY",
-      "url": "https://wildonline.blog/2026/11/22/wildlife-small-tortoiseshell-butterfly-2/",
-      "summary": "The Small Tortoiseshell – Aglais urticae The Small Tortoiseshell is […]",
-      "publishedAt": "2026-11-22T14:19:34.000Z"
+      "title": "LIONS AND TIGERS AND BEARS",
+      "url": "https://wildonline.blog/2026/11/23/lions-and-tigers-and-bears/",
+      "summary": "Gordon Buchanan hits the road again starting in early 2027 with his Lions , Tigers and Bears tour , back by popular demand. I have been to watch the tour […]",
+      "publishedAt": "2026-11-23T09:27:00.000Z"
     }
   },
   "https://winther.sysctl.dk/": {
@@ -10512,13 +10512,13 @@
   },
   "https://www.brickfanatics.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "The movie that inspired LEGO's gigantic Godzilla set",
-      "url": "https://www.brickfanatics.com/movie-that-inspired-lego-s-gigantic-godzilla-set",
-      "summary": "Roar-some stuff",
-      "publishedAt": "2026-11-22T19:52:15.000Z"
+      "title": "LEGO Black Friday 2026 details confirmed: new releases, free gifts and more",
+      "url": "https://www.brickfanatics.com/lego-black-friday-2026-details-confirmed",
+      "summary": "Hot on the heels of LEGO Insiders Weekend, the LEGO Group has revealed what to expect for the upcoming Black Friday and Cyber Monday weekend. Black Friday lands November 27 this year, and the LEGO Gr…",
+      "publishedAt": "2026-11-23T09:28:09.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -10591,14 +10591,14 @@
     }
   },
   "https://www.celticquicknews.co.uk/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-22",
+    "status": "success",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.celticquicknews.co.uk/feed/",
     "latestArticle": {
-      "title": "WATCH AGAIN: DURACELL DURAN",
-      "url": "https://www.celticquicknews.co.uk/watch-again-duracell-duran/",
-      "summary": "CAMILO DURAN wouldn’t be denied as he took his Celtic goal haul to 14 with a superb effort in Celtic’s 4-1 Premiership triumph over St Mirren at Parkhead yesterday. The Colombian frontman had TWO eff…",
-      "publishedAt": "2026-11-22T10:57:40.000Z"
+      "title": "‘WE BELIEVE,’ YANG BACKS HISTORY BHOYS",
+      "url": "https://www.celticquicknews.co.uk/we-believe-yang-backs-history-bhoys/",
+      "summary": "YANG HYUN-JUN is tipping Celtic to become Europa League History Bhoys. The Hoops lost their first three games in the competition and no team have ever qualified for the knock-out stages following suc…",
+      "publishedAt": "2026-11-23T09:28:06.000Z"
     }
   },
   "https://www.cleverdude.com/": {
@@ -10902,13 +10902,13 @@
   },
   "https://www.guyhadleigh.com/blog/categories": {
     "status": "success",
-    "lastPublished": "2026-10-06",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.guyhadleigh.com/blog/feed/",
     "latestArticle": {
-      "title": "The Occult: When the Unexplained Crossed Into the World of Crime",
-      "url": "https://www.guyhadleigh.com/blog/the-occult",
-      "summary": "The Occult: When the Unexplained Crossed Into the World of Crime What if a missing person could be found by someone who had never seen them? What if a murder investigation could be helped by a man wh…",
-      "publishedAt": "2026-10-06T07:59:11.000Z"
+      "title": "Sons of Evil: The Jersey Family Murders That Took Seven Years to Solve",
+      "url": "http://www.guyhadleigh.com/blog/sons-of-evil",
+      "summary": "Sons of Evil: The Jersey Family Murders That Took Seven Years to Solve Two wealthy parents vanished after a family dinner. Their sons claimed to know nothing. But behind the respectable façade of a p…",
+      "publishedAt": "2026-11-23T09:22:41.000Z"
     }
   },
   "https://www.halfwayanywhere.com/": {
@@ -10993,10 +10993,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
-      "title": "London’s Alleys: Shrewsbury Mews, Notting Hill, W2",
-      "url": "https://www.ianvisits.co.uk/articles/londons-alleys-shrewsbury-mews-notting-hill-w2-92247/",
-      "summary": "This is a rather odd mews passage that sadly you can’t walk down because both ends have been fenced off, but you can peer through the gates if you want. Read more ›",
-      "publishedAt": "2026-11-23T07:00:47.000Z"
+      "title": "Natural History Museum puts its dinosaurs on a clearer map",
+      "url": "https://www.ianvisits.co.uk/articles/natural-history-museum-puts-its-dinosaurs-on-a-clearer-map-94225/",
+      "summary": "Finding the dinosaurs at the Natural History Museum should be a little easier, following the biggest overhaul of its signs and maps in two decades. Read more ›",
+      "publishedAt": "2026-11-23T09:00:14.000Z"
     }
   },
   "https://www.ibroxnoise.co.uk/": {
@@ -11034,7 +11034,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -11126,13 +11126,13 @@
   },
   "https://www.labrujulaverde.com/en/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
-      "title": "The Fourth Pyramid of Giza: Did It Really Exist? What Archaeologists Actually Found in 2008",
-      "url": "https://www.labrujulaverde.com/en/2026/11/the-fourth-pyramid-of-giza-did-it-really-exist-what-archaeologists-actually-found-in-2008/",
-      "summary": "To understand the muddle, we have to go back, paradoxically, to the nineteenth century. The pyramid of the pharaoh Djedefre, successor of Khufu and third ruler of the Fourth Dynasty, stands today—lit…",
-      "publishedAt": "2026-11-22T11:48:48.000Z"
+      "title": "Ten silos and 14 levels of round mud houses found at an 8,000-year-old Neolithic settlement of the Caucasus’s first farmers",
+      "url": "https://www.labrujulaverde.com/en/2026/11/ten-silos-and-14-levels-of-round-mud-houses-found-at-an-8000-year-old-neolithic-settlement-of-the-caucasuss-first-farmers/",
+      "summary": "The mound of Göytepe rises 11 m (36 ft) above the plain, and almost all of that volume is the remains of houses. Its inhabitants lived here in the sixth millennium BCE, when the first farmers were se…",
+      "publishedAt": "2026-11-23T08:51:55.000Z"
     }
   },
   "https://www.legalnomads.com/blog/": {
@@ -11268,7 +11268,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -11650,7 +11650,7 @@
     }
   },
   "https://www.snitchseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.snitchseeker.com/forum.php"
   },
   "https://www.sparklytrainers.com/": {
@@ -11833,13 +11833,13 @@
   },
   "https://www.thehistoryblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.thehistoryblog.com/feed",
     "latestArticle": {
-      "title": "How Tiffany studios artists made a lampshade",
-      "url": "https://www.thehistoryblog.com/archives/77420",
-      "summary": "A new exhibition at the Metropolitan Museum of Art dedicated to the visionary stained-glass decorative arts of Louis Comfort Tiffany features the rarely-seen drawings behind the Gilded Age windows, l…",
-      "publishedAt": "2026-11-22T05:01:00.000Z"
+      "title": "Neolithic green stone axe from the Alps found at ancient hot spring in Tuscany",
+      "url": "https://www.thehistoryblog.com/archives/77426",
+      "summary": "Archaeologists have found a Neolithic green stone axe from the Alps at an ancient hot spring in Tuscany. The highly polished hand axe is intact, its edge still sharp. There is no wear and tear; the a…",
+      "publishedAt": "2026-11-23T08:50:16.000Z"
     }
   },
   "https://www.thehorrorsofhalloween.com/": {
@@ -11913,10 +11913,10 @@
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "The Flight Before Christmas Landing on Streaming",
-      "url": "https://www.themovieboards.net/2026/11/23/the-flight-before-christmas-landing-on-streaming/",
-      "summary": "Holiday travel comes with plenty of baggage, and sometimes an unexpected connection. OBE Studios’ holiday romantic comedy “The Flight Before Christmas,” starring Karen Obilom, Barry Brewer Jr., Chand…",
-      "publishedAt": "2026-11-23T07:11:52.000Z"
+      "title": "Kill Will",
+      "url": "https://www.themovieboards.net/2026/11/23/kill-will/",
+      "summary": "Director Dave Fairman Starring Mathew Swift and Ashley Killips Rated MA Score 3/6 When former assassin Will’s (Swift) location in witness protection is compromised, and two hitmen descend on his smal…",
+      "publishedAt": "2026-11-23T09:26:05.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -11987,13 +11987,13 @@
   },
   "https://www.timeextension.com/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "'I Am Prepared to Use All Necessary Legal Avenues' - Soviet FPS 'You Are Empty: Absolute Edition' Delisted from Steam After DMCA Complaint",
-      "url": "https://www.timeextension.com/#article-208928",
-      "summary": "Developer ZOOM dismissed the claim as \"a complete and total fabrication\". ZOOM's revival of the 2006 Ukrainian first-person PC shooter You Are Empty has been delisted from Steam after a DMCA complain…",
-      "publishedAt": "2026-11-22T15:00:00.000Z"
+      "title": "The Lilvo DS Micro Is a New Dual-Screen Emulation Handheld 'The Size of a Card'",
+      "url": "https://www.timeextension.com/#article-209401",
+      "summary": "Imagine if Bateman had whipped this out. Console makers, whether industry leaders or bedroom underdogs, have also been fascinated with smaller-scale products. It makes sense: typically more stylish, …",
+      "publishedAt": "2026-11-23T09:30:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {
@@ -12119,12 +12119,12 @@
   },
   "https://www.weirduniverse.net/": {
     "status": "success",
-    "lastPublished": "2026-11-22",
+    "lastPublished": "2026-11-23",
     "feedUrl": "https://www.weirduniverse.net/blog/rss_2.0/",
     "latestArticle": {
-      "title": "Hatching Attempt",
-      "summary": "1974: A \"crazy woman\" was arrested after she removed her trousers and attempt to hatch pheasant eggs in a store. She also tried to engage the birds in conversation. Related Post: Artist Lays Egg Eure…",
-      "publishedAt": "2026-11-22T09:08:00.000Z"
+      "title": "Guppy Life Insurance",
+      "summary": "1974: Stan Mazanek paid $1 to purchase a life-insurance policy worth $5000 on his guppy named 'Fred Finn Mazanek'. He didn't lie on the application, but he did omit the fact that Fred Finn was a fish…",
+      "publishedAt": "2026-11-23T09:06:00.000Z"
     }
   },
   "https://www.worldofreel.com/": {

@@ -881,8 +881,8 @@
   },
   "https://www.itsdougholland.com/": {
     "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-24T04:57:34.928Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
+    "status": "success",
     "feedUrl": "https://www.itsdougholland.com/feed/",
     "latestArticle": {
       "title": "Links & news: 11/21/2026",
@@ -1776,8 +1776,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T04:57:34.928Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
+    "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "New SIM-only UK mobile operator Kindly Mobile launches with charitable focus",
@@ -1922,15 +1922,15 @@
     }
   },
   "https://simonwillison.net/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-24T00:44:32.015Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
-      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they descr…",
-      "publishedAt": "2026-11-23T23:40:49.000Z"
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will cr…",
+      "publishedAt": "2026-11-24T04:24:29.000Z"
     }
   },
   "https://www.smarthomejunkie.net/": {
@@ -2961,13 +2961,13 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-24T04:57:34.928Z",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/latest-news/36509/match-preview-sporting-lisbon-vs-manchester-united",
-      "summary": "Fresh from another humbling Premier League setback, Manchester United will attempt to return to winning ways when they travel to the Estadio Jose Alvalade to face Sporting Lisbon in the Champions Lea…",
-      "publishedAt": "2026-11-23T19:15:45.000Z"
+      "url": "https://thebusbybabe.sbnation.com/general/36504/in-his-defense",
+      "summary": "There are certain rules in this game. One of them is you shouldn’t make judgements after a managers first game in charge. Another is you don’t really learn much from a managers first game in charge w…",
+      "publishedAt": "2026-11-23T20:21:53.000Z"
     }
   },
   "https://www.manunitedblogs.com/": {
@@ -3725,15 +3725,15 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T08:09:52.535Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
-      "title": "The magical certainty of “information”",
-      "url": "https://tracydurnell.com/2026/11/22/the-magical-certainty-of-information/",
-      "summary": "Towards a Philosophy of Photography (pdf) by Vilém Flusser — 1983 “The function of technical images is to liberate their receivers by magic from the necessity of thinking conceptually… Texts were inv…",
-      "publishedAt": "2026-11-23T01:18:53.000Z"
+      "title": "15 ways readers can support the indie web",
+      "url": "https://tracydurnell.com/2026/11/23/15-ways-readers-support-indie-web/",
+      "summary": "I believe readers are an integral part of the indie web: reading, commenting on, sharing, and supporting independently published websites is what makes the indie web work as a system. Publishing onli…",
+      "publishedAt": "2026-11-24T05:27:38.000Z"
     }
   },
   "https://babakfakhamzadeh.com/": {
@@ -3857,15 +3857,15 @@
     }
   },
   "https://econbrowser.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-24T00:44:32.015Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "EconoFact: “The Persistence of Global Imbalances”",
-      "url": "https://econbrowser.com/archives/2026/11/econofact-the-persistence-of-global-imbalances",
-      "summary": "Today, I do a rundown on global imbalances 2026 on Econofact. From the memo: The Issue: Global imbalances, which refers to the pattern of surpluses and deficits across countries, have been widening s…",
-      "publishedAt": "2026-11-23T23:05:44.000Z"
+      "title": "Long Horizon UIP in Emerging Markets",
+      "url": "https://econbrowser.com/archives/2026/11/long-horizon-uip-in-emerging-markets",
+      "summary": "Paper just out, by Rebucci, Toraman, Valente, and Capirone: Uncovered interest parity (UIP) tends to hold at long horizons for advanced-economy currencies. Whether it holds in emerging markets remain…",
+      "publishedAt": "2026-11-24T05:12:13.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -4744,15 +4744,15 @@
     }
   },
   "https://travelbetweenthepages.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T05:44:28.804Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://travelbetweenthepages.com/feed/",
     "latestArticle": {
-      "title": "sometimes illumination comes to our rescue",
-      "url": "https://travelbetweenthepages.com/2026/11/23/sometimes-illumination-comes-to-our-rescue/",
-      "summary": "“But sometimes illumination comes to our rescue at the very moment when all seems lost; we have knocked at every door and they open on nothing until, at last, we stumble unconsciously against the onl…",
-      "publishedAt": "2026-11-23T05:01:00.000Z"
+      "title": "“Moon, I was just now thinking”",
+      "url": "https://travelbetweenthepages.com/2026/11/24/moon-i-was-just-now-thinking/",
+      "summary": "Moon” by Stephen Dixon One last one. To the moon. Goes outside, first leaves his wife in bed. She was reading while he was reading, fell asleep with her glasses on and holding the book to her chest. …",
+      "publishedAt": "2026-11-24T05:01:26.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -4793,13 +4793,13 @@
   },
   "https://priorprobability.com/": {
     "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T01:44:28.165Z",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
       "title": "Errol Morris JFK Documentary",
       "url": "https://priorprobability.com/2026/11/24/errol-morris-jfk-documentary/",
-      "summary": "Was there a second gunman on the grassy knoll? The 14-minute documentary “November 22, 1963“, directed by the award-winning film director Errol Morris and released in 2013 on the 50th anniversary of …",
+      "summary": "Was there a second gunman behind the grassy knoll? This 14-minute mini-documentary “November 22, 1963” was directed by the award-winning filmmaker Errol Morris and released in 2013 on the 50th annive…",
       "publishedAt": "2026-11-24T01:00:20.000Z"
     }
   },
@@ -5234,9 +5234,9 @@
   },
   "https://www.stuckinabook.com/": {
     "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-22T12:44:31.516Z",
-    "status": "success",
-    "feedUrl": "https://www.stuckinabook.com/comments/feed/",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
+    "status": "unknown",
+    "feedUrl": "https://www.stuckinabook.com/xmlrpc.php?rsd",
     "latestArticle": {
       "title": "Comment on Prodigal Summer by Barbara Kingsolver by Anne",
       "url": "https://www.stuckinabook.com/prodigal-summer-by-barbara-kingsolver/#comment-174495",
@@ -5939,14 +5939,14 @@
     }
   },
   "https://www.manton.org/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T22:44:29.594Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
-      "url": "https://www.manton.org/2026/11/23/from-time-to-time-ive.html",
-      "summary": "From time to time I’ve seen a few blog posts about the Ladybird browser engine, but I never got a clear message about what the developers hoped to accomplish by creating a new renderer from scratch. …",
-      "publishedAt": "2026-11-23T21:46:17.000Z"
+      "url": "https://www.manton.org/2026/11/23/stayed-up-late-watching-the.html",
+      "summary": "Stayed up late watching the Spurs while I run a long database migration. Trying to be extra careful with this one. Triple-checked backups and scripts. I designed the original Micro.blog database to b…",
+      "publishedAt": "2026-11-24T05:31:51.000Z"
     }
   },
   "https://prettyspooky.life/": {
@@ -6541,14 +6541,14 @@
     }
   },
   "https://philsworkbench.blogspot.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T05:44:28.804Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://philsworkbench.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "HOENGM haul",
-      "summary": "The Heart of England show might have been small, but I still managed to spend a few quid. Tony's Trains had a pile of mint, boxed Lima MK1 coaches in, on sale for a tenner each, and since my first co…",
-      "publishedAt": "2026-11-23T05:30:00.000Z"
+      "title": "Gauge 1 platelayers hut",
+      "summary": "At the G1MRA AGM, I picked up a NER Lamp room kit for no better reason then it appealed to me. I have no immediate use for a little building, but this is a hobby, so that doesn't matter. Handily, thi…",
+      "publishedAt": "2026-11-24T05:30:00.000Z"
     }
   },
   "https://shapeof.com/": {
@@ -6588,27 +6588,27 @@
     }
   },
   "https://13thdimension.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T05:44:28.804Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://13thdimension.com/feed/",
     "latestArticle": {
-      "title": "TRAVELS WITH BART: The Road to THE SIMPSONS’ THANKSGIVING OF HORROR",
-      "url": "https://13thdimension.com/travels-with-bart-the-road-to-the-simpsons-thanksgiving-of-horror/",
-      "summary": "MORRISON MONDAYS! By BILL MORRISON There are times when illustration jobs with tight deadlines require artists to juggle travel plans with getting the job done. I’ve spent plenty of late nights drawi…",
-      "publishedAt": "2026-11-23T05:04:39.000Z"
+      "title": "This Inventive Variant Cover Puts the “S” in SUPERMAN",
+      "url": "https://13thdimension.com/this-inventive-variant-cover-puts-the-s-in-superman/",
+      "summary": "Coming in February 2027… I’ve seen every permutation of Superman’s chest shield, but here’s one that never occurred to me. Check out artist Ibrahim Moustafa’s innovative variant cover for February’s …",
+      "publishedAt": "2026-11-24T05:06:43.000Z"
     }
   },
   "https://mysteryfile.com/blog/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T03:44:28.669Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://mysteryfile.com/blog/?feed=rss2",
     "latestArticle": {
-      "title": "The Return of Sherlock Holmes, Part II of III by Matthew R. Bradley",
-      "url": "https://mysteryfile.com/blog/?p=93094",
-      "summary": "The Return of Sherlock Holmes, Part II of III by Matthew R. Bradley Continuing our coverage of Granada Television’s The Return of Sherlock Holmes (1986-1988), starring Jeremy Brett, we turn to the sh…",
-      "publishedAt": "2026-11-23T01:05:29.000Z"
+      "title": "SF Stories I’m Reading:  JERRY OLTION “An Eye for an Eye.”",
+      "url": "https://mysteryfile.com/blog/?p=93095",
+      "summary": "JERRY OLTION “An Eye for an Eye.” Novelette. Published in Analog SF, November-December 2009. Never collected or reprinted. This is the first story by Jerry Oltion I’ve ever read. While looking for so…",
+      "publishedAt": "2026-11-24T05:35:52.000Z"
     }
   },
   "https://adamj.eu/tech/": {
@@ -7126,15 +7126,15 @@
     }
   },
   "https://www.askamanager.org/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T19:44:39.651Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "the suggestive cake, the example spoonful, and other food stories from work",
-      "url": "https://www.askamanager.org/2026/11/the-suggestive-cake-the-example-spoonful-and-other-food-stories-from-work.html",
-      "summary": "All this week to get us in the holiday spirit, I’m going to be featuring holiday work stories from readers … and then updates season will start next week! To kick us off, here are 15 of my favorite s…",
-      "publishedAt": "2026-11-23T18:59:53.000Z"
+      "title": "coworker wants to report my boss for screaming, do I have to invite my coworker to my family Thanksgiving, and more",
+      "url": "https://www.askamanager.org/2026/11/coworker-wants-to-report-my-boss-for-screaming-do-i-have-to-invite-my-coworker-to-my-family-thanksgiving-and-more.html",
+      "summary": "It’s five answers to five questions. Here we go… 1. A coworker asked me whether he should report my boss for screaming My boss, Robert, has a reputation for speaking loudly (to the verge of screaming…",
+      "publishedAt": "2026-11-24T05:03:50.000Z"
     }
   },
   "https://blog.avas.space/": {
@@ -7587,15 +7587,15 @@
     }
   },
   "https://cruise.blog/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-23T23:47:55.868Z",
+    "lastPublished": "2026-11-23",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://cruise.blog/rss.xml",
     "latestArticle": {
-      "title": "148 people sick in second cruise ship GI outbreak this year",
-      "url": "https://cruise.blog/2026/11/148-people-sick-cruise-ship-gi-outbreak-princess-cruises",
-      "summary": "148 people sick in second cruise ship GI outbreak this year Elizabeth Wed, 11/18/2026 - 09:48",
-      "publishedAt": "2026-11-18T14:48:00.000Z"
+      "title": "10 Cabin locations on cruise ships you should avoid",
+      "url": "https://cruise.blog/2021/03/top-6-cabins-you-shouldnt-book-cruise-ship",
+      "summary": "10 Cabin locations on cruise ships you should avoid Matt Mon, 11/23/2026 - 12:22",
+      "publishedAt": "2026-11-23T17:22:00.000Z"
     }
   },
   "https://cruisebuoys.wordpress.com/": {
@@ -7737,9 +7737,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-24T04:44:31.745Z",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -8706,15 +8706,15 @@
     }
   },
   "https://www.nationalelfservice.net/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T05:44:28.804Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://www.nationalelfservice.net/feed/",
     "latestArticle": {
-      "title": "School screening plus parent-led CBT helps children with anxiety",
-      "url": "https://www.nationalelfservice.net/populations-and-settings/schools/school-screening-plus-parent-led-cbt-helps-children-with-anxiety/",
-      "summary": "This blog looks at a trial in 84 primary schools in England. Parents completed a two-question anxiety screen and were offered online parent-led CBT if their child screened positive. The post School s…",
-      "publishedAt": "2026-11-23T05:00:23.000Z"
+      "title": "How trauma and PTSD affect refugees’ lives after migration",
+      "url": "https://www.nationalelfservice.net/populations-and-settings/refugee/how-trauma-and-ptsd-affect-refugees-lives-after-migration/",
+      "summary": "Trauma can follow people long after they reach safety. This blog looks at a new review of how trauma and PTSD shape trust, relationships and work for refugees and asylum seekers. The post How trauma …",
+      "publishedAt": "2026-11-24T05:00:35.000Z"
     }
   },
   "https://www.ls31.com/": {
@@ -9023,15 +9023,15 @@
     }
   },
   "https://byshelby.blog/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T04:44:31.209Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://byshelby.blog/feed/",
     "latestArticle": {
-      "title": "From Dunes to Skylines: The Quiet Strength of the UAE",
-      "url": "https://byshelby.blog/2026/11/23/from-dunes-to-skylines-the-quiet-strength-of-the-uae/",
-      "summary": "The UAE’s National Day highlights its unique balance of heritage, innovation, security, global mobility, and economic resilience, creating pride in a thriving, future-focused nation.",
-      "publishedAt": "2026-11-23T04:04:12.000Z"
+      "title": "The Silent Standard: Why the Best Work Happens When Nobody Is Watching",
+      "url": "https://byshelby.blog/2026/11/24/the-silent-standard-why-the-best-work-happens-when-nobody-is-watching/",
+      "summary": "True strength is built privately through disciplined execution, protected time, financial restraint, emotional calm, and consistent action—not public validation, noise, or applause.",
+      "publishedAt": "2026-11-24T05:29:58.000Z"
     }
   },
   "https://neardeathexperiences.art.blog/": {
@@ -9335,14 +9335,14 @@
   },
   "https://booksofbrilliance.com/": {
     "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T04:44:31.745Z",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "Sarah J. Maas Net Worth: How ACOTAR Became a Publishing Phenomenon",
-      "url": "https://booksofbrilliance.com/2026/11/23/sarah-j-maas-net-worth/?utm_source=rss&utm_medium=rss&utm_campaign=sarah-j-maas-net-worth",
-      "summary": "ACOTAR’s sixth book sold 2.1 million copies in a week and lifted sales of Sarah J. Maas’s earlier books. Here’s what the public figures reveal about her publishing business. The post Sarah J. Maas Ne…",
-      "publishedAt": "2026-11-24T04:45:00.000Z"
+      "title": "The Kingdom of Copper Recap: How Daevabad Falls Before The Empire of Gold",
+      "url": "https://booksofbrilliance.com/2026/11/24/the-kingdom-of-copper-recap/?utm_source=rss&utm_medium=rss&utm_campaign=the-kingdom-of-copper-recap",
+      "summary": "Picking up The Empire of Gold? Catch up on Nahri’s hospital, Manizheh’s attack, and the choice that leaves Daevabad without magic. The post The Kingdom of Copper Recap: How Daevabad Falls Before The …",
+      "publishedAt": "2026-11-24T05:00:00.000Z"
     }
   },
   "https://writingwrongs.blog/": {
@@ -9466,15 +9466,15 @@
     }
   },
   "https://tankatuesday.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T05:44:28.804Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://tankatuesday.com/feed/",
     "latestArticle": {
-      "title": "Monday Coffee",
-      "url": "https://tankatuesday.com/2026/11/23/monday-coffee/",
-      "summary": "Hello everyone! Happy Monday! Have you had your coffee yet? Grab a cup and let’s catch up! I’ve felt inspired by Merril Smith’s Monday Musings and Smitha Vishwanath’s Monday Gratitude posts. My life …",
-      "publishedAt": "2026-11-23T05:03:00.000Z"
+      "title": "#TankaTuesday Poetry Challenge No. 92, Lost in Translation, 11/24/26",
+      "url": "https://tankatuesday.com/2026/11/24/tankatuesday-poetry-challenge-no-92-lost-in-translation-11-24-26/",
+      "summary": "Hey, everyone! Melissa here from Mom With a Blog. I hope you’re all safe, happy, and healthy, wherever you are in the world. Something I started experimenting with a while ago is translating my Engli…",
+      "publishedAt": "2026-11-24T05:03:00.000Z"
     }
   },
   "https://belasbrightideas.wordpress.com/": {
@@ -9584,15 +9584,15 @@
     }
   },
   "https://ivorplumberpoet.press/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T21:44:29.266Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://ivorplumberpoet.press/feed/",
     "latestArticle": {
       "title": "Coffee House Writers Magazine features my new poem, “Punctured Water-wings”",
       "url": "https://ivorplumberpoet.press/2026/11/24/coffee-house-writers-magazine-features-my-new-poem-punctured-water-wings/",
       "summary": "Hello, dear readers and followers. I contribute to Coffee House Writers Magazine (USA) every second week, and I’m delighted to share that my latest poem, “Punctured Water-wings,” appears in the new i…",
-      "publishedAt": "2026-11-23T21:10:05.000Z"
+      "publishedAt": "2026-11-24T05:12:45.000Z"
     }
   },
   "https://syl65.wordpress.com/": {
@@ -9848,15 +9848,15 @@
     }
   },
   "https://theextraaamile.wordpress.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T16:44:29.076Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://theextraaamile.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Have You Met Aubrey? #Blogger ✍🏻",
-      "url": "https://theextraaamile.wordpress.com/2026/11/23/blogger-discovery-appreciation-post/",
-      "summary": "I used to do this thing in the past where I’d introduce a particular blogger to my blogging community. Not because I was running some sort of popularity contest, but simply because I felt that the pe…",
-      "publishedAt": "2026-11-23T16:36:14.000Z"
+      "title": "Thank you for your advice. You may now leave.",
+      "url": "https://theextraaamile.wordpress.com/2026/11/24/thank-you-for-your-advice-you-may-now-leave/",
+      "summary": "What’s the worst piece of advice you’ve ever received? View all responses There’s two things one can do with advice. Accept it and follow it religiously because apparently the other person knows bett…",
+      "publishedAt": "2026-11-24T05:31:06.000Z"
     }
   },
   "https://theredphoneboxtravels.com/": {
@@ -9944,15 +9944,15 @@
     }
   },
   "https://itchingforhitching.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T04:44:31.209Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://itchingforhitching.com/feed/",
     "latestArticle": {
-      "title": "On the Road Again – Back in Bellingen",
-      "url": "https://itchingforhitching.com/2026/11/23/on-the-road-again-back-in-bellingen/",
-      "summary": "Day 85 Monday 31/8/2026 Murwillumbah to Bellingen, sunny 21 What a perfect morning to pack up, we have bright warm sunshine. Once more it’s sad to be leaving the Tweed Valley. The river sparkles in t…",
-      "publishedAt": "2026-11-23T04:18:36.000Z"
+      "title": "On the Road Again – That’s a Tank of Fuel!",
+      "url": "https://itchingforhitching.com/2026/11/24/on-the-road-again-thats-a-tank-of-fuel/",
+      "summary": "Day 86 Tuesday 1/9/2026 Bellingen to South West Rocks, sea breeze 22 It’s a glorious morning and the warm sun is drying the dew. We wave farewell to the caretaker and her little dog then pick up the …",
+      "publishedAt": "2026-11-24T05:36:28.000Z"
     }
   },
   "https://www.destinationsjourney.com/": {
@@ -11658,15 +11658,15 @@
     }
   },
   "https://reallifestories8.wordpress.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T16:44:29.076Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://reallifestories8.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A Father’s Old Shirt — A Heart-Touching Story of Love, Sacrifice, and Regret ❤️",
-      "url": "https://reallifestories8.wordpress.com/2026/11/23/a-fathers-old-shirt-a-heart-touching-story-of-love-sacrifice-and-regret-%e2%9d%a4%ef%b8%8f/",
-      "summary": "“Son, is there any event at your office tomorrow? If there is, please let me know. I’ll wear my new shirt and come along with you. It’s been so long since we went somewhere together.” “Dad, seriously…",
-      "publishedAt": "2026-11-23T15:57:36.000Z"
+      "title": "I had put ₹11,000 in a gift envelope for a friend’s wedding.",
+      "url": "https://reallifestories8.wordpress.com/2026/11/24/i-had-put-%e2%82%b911000-in-a-gift-envelope-for-a-friends-wedding/",
+      "summary": "About a week after the wedding, I suddenly received a message from the groom. He wrote, “Brother, there was ₹1,000 extra in your envelope. It contained ₹12,000.” I was surprised to read that. I clear…",
+      "publishedAt": "2026-11-24T05:31:04.000Z"
     }
   },
   "https://sudrabfox.com/": {
@@ -12417,15 +12417,15 @@
     }
   },
   "https://knightofwriters.wordpress.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-24T04:44:31.745Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://knightofwriters.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Advice defined by how it lands",
-      "url": "https://knightofwriters.wordpress.com/2026/11/23/advices-are-always-welcome-its-defined-by-how-it-lands/",
-      "summary": "Home What’s the worst piece of advice you’ve ever received?",
-      "publishedAt": "2026-11-23T18:36:44.000Z"
+      "title": "Don Dan Series – Episode: Wild Cat in Action",
+      "url": "https://knightofwriters.wordpress.com/2026/11/24/don-dan-series-episode-wild-cat-in-action/",
+      "summary": "Home ( Action – Crime Thriller – Fiction) The third warning letter still sat fresh in Detective Lewis’s inbox, demanding immediate, measurable improvements in his output. To upper management at Nexus…",
+      "publishedAt": "2026-11-24T05:16:02.000Z"
     }
   },
   "https://listenlinda.co.uk/": {
@@ -13528,15 +13528,15 @@
     "feedUrl": "https://gametio.com/favicon.svg"
   },
   "https://romansinscotland.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T18:44:32.727Z",
+    "lastPublished": "2026-11-24",
+    "lastChecked": "2026-11-24T05:44:29.730Z",
     "status": "success",
     "feedUrl": "https://romansinscotland.com/feed/",
     "latestArticle": {
-      "title": "Roman lead pollution in Arctic ice and Scottish peat",
-      "url": "https://romansinscotland.com/2026/11/23/roman-lead-pollution-in-arctic-ice-and-scottish-peat/",
-      "summary": "Arctic ice and peat near Hadrian’s Wall preserve traces of Roman metalworking. Two diagrams show when lead pollution rose and how far it may have travelled.",
-      "publishedAt": "2026-11-23T18:22:50.000Z"
+      "title": "The Antonine Plague in the Roman Empire, Britain and Scotland",
+      "url": "https://romansinscotland.com/2026/11/24/the-antonine-plague-in-the-roman-empire-britain-and-scotland/",
+      "summary": "Galen saw the epidemic strike a Roman army. Egyptian rents and London’s empty building plots tell other parts of the story. What can we trace on the Scottish frontier?",
+      "publishedAt": "2026-11-24T05:12:47.000Z"
     }
   },
   "https://247619.xyz/": {

@@ -32,13 +32,13 @@
   },
   "http://thefilmexperience.net/": {
     "status": "success",
-    "lastPublished": "2026-11-23",
+    "lastPublished": "2026-11-25",
     "feedUrl": "http://thefilmexperience.net/blog/atom.xml",
     "latestArticle": {
-      "title": "Golden Horse 2026: Shu Qi wins again... but not for acting!",
-      "url": "http://thefilmexperience.net/blog/2026/11/23/golden-horse-2026-shu-qi-wins-again-but-not-for-acting.html",
-      "summary": "by Nathaniel R Oscar winners Ang Lee and Bong Joon Ho present Shu Qi with \"Best New Director\" at the Golden Horse Awards Another year, another Golden Horse ceremony in November. The 63rd annual event…",
-      "publishedAt": "2026-11-23T18:24:37.000Z"
+      "title": "\"Movies for Grown-ups\" Nominations: \"Wild Horse Nine\", \"The Invite\", and More...",
+      "url": "http://thefilmexperience.net/blog/2026/11/25/movies-for-grown-ups-nominations-wild-horse-nine-the-invite.html",
+      "summary": "by Nathaniel R WILD HORSE NINE leads the nominations with five (in a tie with The Odyssey) Awards season just keeps building momentum for certain pictures. The AARP announced their nominees for \" AAR…",
+      "publishedAt": "2026-11-25T16:02:38.000Z"
     }
   },
   "http://www.16bit.com/": {
@@ -451,7 +451,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -720,7 +720,7 @@
     }
   },
   "https://arsludi.lamemage.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-12",
     "feedUrl": "https://arsludi.lamemage.com/index.php/feed/",
     "latestArticle": {
@@ -736,7 +736,7 @@
   "https://artlung.com/blog/": {
     "status": "success",
     "lastPublished": "2026-11-25",
-    "feedUrl": "https://artlung.com/feed/",
+    "feedUrl": "https://artlung.com/blog/feed/",
     "latestArticle": {
       "title": "Closed the joint down (at very low tide)",
       "url": "https://artlung.com/blog/2026/11/24/closed-joint-low-tide/",
@@ -887,7 +887,7 @@
     }
   },
   "https://babakfakhamzadeh.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://babakfakhamzadeh.com/feed/",
     "latestArticle": {
@@ -1400,10 +1400,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://booksofbrilliance.com/feed/",
     "latestArticle": {
-      "title": "Books for Thanksgiving Weekend When You Only Have an Hour to Read",
-      "url": "https://booksofbrilliance.com/2026/11/25/thanksgiving-weekend-one-hour-reads/?utm_source=rss&utm_medium=rss&utm_campaign=thanksgiving-weekend-one-hour-reads",
-      "summary": "Only have an hour over Thanksgiving weekend? Start with six short reads, including a free twist ending, a Wampanoag Thanksgiving story and a wordless graphic novel. The post Books for Thanksgiving We…",
-      "publishedAt": "2026-11-25T15:00:00.000Z"
+      "title": "Mistborn vs. The Stormlight Archive: Where Should You Start With Brandon Sanderson?",
+      "url": "https://booksofbrilliance.com/2026/11/25/mistborn-vs-the-stormlight-archive/?utm_source=rss&utm_medium=rss&utm_campaign=mistborn-vs-the-stormlight-archive",
+      "summary": "Start with Mistborn for a fantasy heist with a clear mission, or choose The Way of Kings for a sprawling epic. Here’s how the two entry points compare. The post Mistborn vs. The Stormlight Archive: W…",
+      "publishedAt": "2026-11-25T16:00:00.000Z"
     }
   },
   "https://brainbaking.com/": {
@@ -1455,13 +1455,13 @@
   },
   "https://bricknerd.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://bricknerd.com/home?format=rss",
     "latestArticle": {
-      "title": "Hacking Studio: Creating a Star Trek Transporter Effect",
-      "url": "https://bricknerd.com/home/hacking-studio-creating-a-star-trek-transporter-effect-11-23-26",
-      "summary": "All Wayne Tyler wanted was a better lightsaber render. Four years later, he’s beaming up LEGO Kirk and Spock in BrickLink Studio. Join us as we explore the custom colors and animation techniques behi…",
-      "publishedAt": "2026-11-24T14:00:00.000Z"
+      "title": "SEGA Saga: Comparing the LEGO Genesis and Mega Drive to the Real Thing",
+      "url": "https://bricknerd.com/home/sega-saga-comparing-the-lego-genesis-and-mega-drive-to-the-real-thing-11-25-26",
+      "summary": "We’re heading back to the ’90s with the LEGO SEGA Genesis and Mega Drive. Join us as we build the console, compare it with the original, and explore the gaming history and childhood memories behind i…",
+      "publishedAt": "2026-11-25T16:45:00.000Z"
     }
   },
   "https://brisray.com/web/indiedirs.htm": {
@@ -1783,7 +1783,7 @@
     "status": "unavailable"
   },
   "https://chaoslife.findchaos.com/comic": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-25",
     "feedUrl": "https://chaoslife.findchaos.com/feed",
     "latestArticle": {
@@ -1851,9 +1851,9 @@
     }
   },
   "https://chrislt.nz/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-20",
-    "feedUrl": "https://chrislt.nz/myhost-verify?r=%2findex%2exml%3f",
+    "feedUrl": "https://chrislt.nz/feed/",
     "latestArticle": {
       "title": "“Colour was a revolution to me”",
       "url": "https://chrislt.nz/colour-was-a-revolution-to-me/",
@@ -2360,10 +2360,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://cupofjo.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Gift Guide #8: Your Adoring Girlfriend (or Wife) Who Makes You Hold Her Hand in Elevators. by Alison Piepmeyer",
-      "url": "https://cupofjo.com/2026/11/24/best-gifts-for-wife-girlfriend-women-romantic/#comment-3587081",
-      "summary": "In reply to Missy . Hi! Thanks so much for the note. I went in and made this correction to the post - I think their Black Friday sale might have changed overnight! xx",
-      "publishedAt": "2026-11-25T15:28:24.000Z"
+      "title": "Comment on What Are You Thankful For? by Juliette",
+      "url": "https://cupofjo.com/2026/11/25/what-im-thankful-for/#comment-3587091",
+      "summary": "In reply to Anon . ... with so many t haha ! Probably because a nice hot cup of T is needed !",
+      "publishedAt": "2026-11-25T16:34:37.000Z"
     }
   },
   "https://dafy.site/en/": {
@@ -2379,13 +2379,13 @@
   },
   "https://dandmtravels.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-17",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://dandmtravels.blog/feed/",
     "latestArticle": {
-      "title": "Froze",
-      "url": "https://dandmtravels.blog/2026/11/17/froze/",
-      "summary": "November 17, 2026 After the two frost alerts on Friday and Saturday I went out and checked the covered plants in my raised beds. While I did lose several leaves that had strayed from under the cloths…",
-      "publishedAt": "2026-11-17T19:41:15.000Z"
+      "title": "Dehydrator",
+      "url": "https://dandmtravels.blog/2026/11/25/dehydrator/",
+      "summary": "November 25, 2026 Like most in the US the last week has been hectic as we shut down the garden and geared up for the holidays. I moved the wax beans (Phaseolus vulgaris) and the lone flowering straig…",
+      "publishedAt": "2026-11-25T16:16:25.000Z"
     }
   },
   "https://danielbowen.com/": {
@@ -2452,7 +2452,7 @@
     }
   },
   "https://davidgerard.co.uk/blockchain/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-10",
     "feedUrl": "https://davidgerard.co.uk/blockchain/feed/",
     "latestArticle": {
@@ -2718,7 +2718,7 @@
     }
   },
   "https://dom.blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-08",
     "feedUrl": "https://dom.blog/feed/",
     "latestArticle": {
@@ -2825,7 +2825,7 @@
     }
   },
   "https://econbrowser.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
@@ -2861,7 +2861,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3316,7 +3316,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenstaterockhound.wordpress.com/": {
@@ -3359,7 +3359,7 @@
     }
   },
   "https://gifcities.org/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gifcities.org/index.xml"
   },
   "https://girlsangle.wordpress.com/": {
@@ -3615,10 +3615,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "First Smartphone? Think Blue",
-      "url": "https://hackaday.com/2026/11/25/first-smartphone-think-blue/",
-      "summary": "If you ask most people when the smartphone arrived, they will usually say 2007 with the first iPhone. Others might argue for a BlackBerry or a Nokia Communicator. But the …read more",
-      "publishedAt": "2026-11-25T15:00:24.000Z"
+      "title": "Voyager 1 Stops Sending Data, Reaches One Light-Day from Earth",
+      "url": "https://hackaday.com/2026/11/25/voyager-1-stops-sending-data-reaches-one-light-day-from-earth/",
+      "summary": "Recently NASA confirmed that the Voyager 1 spacecraft is now one light-day from Earth, taking more than 49 years to reach this point since its launch in 1977. Marring this …read more",
+      "publishedAt": "2026-11-25T16:30:55.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -3702,9 +3702,9 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://harmonicdissent.com/index.xml",
     "latestArticle": {
-      "title": "Protected by a Thermonuclear Detonator",
-      "url": "https://harmonicdissent.com/posts/protected-by-a-thermonuclear-detonator/",
-      "publishedAt": "2026-11-25T15:07:02.000Z"
+      "title": "What to Do With Lead Bombs",
+      "url": "https://harmonicdissent.com/posts/what-to-do-with-lead-bombs/",
+      "publishedAt": "2026-11-25T16:12:29.000Z"
     }
   },
   "https://hashset.dev/": {
@@ -4154,9 +4154,9 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://feed.itsfoss.com/",
     "latestArticle": {
-      "url": "https://feed.itsfoss.com/link/24361/17540275/pop-os-26-04-release",
-      "summary": "Pop!_OS 26.04 LTS is based on Ubuntu 26.04 with Linux 7.2 and COSMIC 1.11. You get a redesigned store, automatic updates and a frosted glass look.",
-      "publishedAt": "2026-11-25T13:18:52.000Z"
+      "url": "https://feed.itsfoss.com/link/24361/17540775/local-ai-weekly-11",
+      "summary": "Local AI adoption keeps on growing.",
+      "publishedAt": "2026-11-25T15:16:03.000Z"
     }
   },
   "https://itstartswithabirthstone.blogspot.com/": {
@@ -4164,9 +4164,9 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://itstartswithabirthstone.blogspot.com/rss.xml",
     "latestArticle": {
-      "title": "Melody Maker - Unknown Pleasures - 20 Great Lost Albums Rediscovered - # 10 Magazine - Secondhand Daylight",
-      "summary": "Magazine are still probably one of the more underrated bands of the late Seventies and early Eighties. Taking their name from an everyday object as was the vogue at the time, (see Television or Wire)…",
-      "publishedAt": "2026-11-25T15:07:37.000Z"
+      "title": "The 50 Coolest Albums of all Time Ranked !- Shortlist .com # 32 Big Star # 1 Record",
+      "summary": "A record with the most sublime vocal harmonies of any album I've ever heard.",
+      "publishedAt": "2026-11-25T16:46:13.000Z"
     }
   },
   "https://ivorplumberpoet.press/": {
@@ -4357,7 +4357,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -4460,13 +4460,13 @@
   },
   "https://joost.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://joost.blog/feed.xml",
     "latestArticle": {
-      "title": "A 503 page while your server reboots",
-      "url": "https://joost.blog/reboot-503/",
-      "summary": "Nobody has time to install every update by hand anymore, so servers update and reboot themselves. This script has Cloudflare or Bunny.net keep cached pages online and answer the rest with a proper 50…",
-      "publishedAt": "2026-11-20T00:00:00.000Z"
+      "title": "A contact form for your Astro site, without an email provider",
+      "url": "https://joost.blog/astro-contact-form/",
+      "summary": "A contact form on a static site needs something that sends the email. Cloudflare now does that for free when the email goes to your own verified address. This is how I set it up for this site, with t…",
+      "publishedAt": "2026-11-25T00:00:00.000Z"
     }
   },
   "https://jorgesanz.net/": {
@@ -4800,7 +4800,7 @@
     }
   },
   "https://knightarmordefense.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://knightarmordefense.com/feed/",
     "latestArticle": {
@@ -5428,13 +5428,13 @@
   },
   "https://marcel.io/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://marcel.io/posts.xml",
     "latestArticle": {
-      "title": "🎨 November 4, 2026",
-      "url": "https://marcel.io/dailies/2026-11-04",
-      "summary": "I found out that my ID is going to expire next month while trying to rent a car for the end of January. I didn't even know IDs could expire. Large parts of the process of applying for a new one are a…",
-      "publishedAt": "2026-11-24T16:00:00.000Z"
+      "title": "🎨 November 5, 2026",
+      "url": "https://marcel.io/dailies/2026-11-05",
+      "summary": "This isn't the first time I've watched the delivery van on the tracking website drive around my neighborhood, even down my street, only to receive a notification that they weren't able to deliver my …",
+      "publishedAt": "2026-11-25T16:00:00.000Z"
     }
   },
   "https://marco.org/": {
@@ -5936,7 +5936,7 @@
     }
   },
   "https://moviesoftheeighties.substack.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://moviesoftheeighties.substack.com/feed",
     "latestArticle": {
@@ -6137,13 +6137,13 @@
   },
   "https://mytordstifeswords.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://mytordstifeswords.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Give up you’re not good enough",
-      "url": "https://mytordstifeswords.wordpress.com/2026/11/24/give-up-youre-not-good-enough/",
-      "summary": "What’s the worst piece of advice you’ve ever received? When I first started having an interest in putting my words down in writing, hmmm just like they say.. the fastest way to kill an idea is to sha…",
-      "publishedAt": "2026-11-24T08:16:18.000Z"
+      "title": "Being Myself and writing down my thoughts and prayer.",
+      "url": "https://mytordstifeswords.wordpress.com/2026/11/25/being-myself-and-writing-down-my-thoughts-and-prayer/",
+      "summary": "What do you do to grow your blog? I started out on WordPress through a friend who believed that my writing shouldn’t be for me alone but for the world to see. So each day when I come online and post …",
+      "publishedAt": "2026-11-25T15:50:56.000Z"
     }
   },
   "https://nachosandkidneybeans.com/": {
@@ -6376,10 +6376,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://nstperfume.com/feed/",
     "latestArticle": {
-      "title": "So thoroughly saturated",
-      "url": "https://nstperfume.com/2026/11/25/so-thoroughly-saturated/",
-      "summary": "In the summer of 1977, Tea Rose, a potent fragrance made from essential oils unrelated to the actual flower known as the tea rose, arrived with all the subtlety of a Grand Theft Auto launch. Donald B…",
-      "publishedAt": "2026-11-25T14:06:57.000Z"
+      "title": "The daily lemming",
+      "url": "https://nstperfume.com/2026/11/25/the-daily-lemming-1976/",
+      "summary": "From Aedes de Venustas, Bois d'Kyoto Traditional Royal Incense: \"The distinctive character of hinoki wood unfolds with a clean, aromatic freshness, softened by the warmth of smooth, polished timber. …",
+      "publishedAt": "2026-11-25T15:19:28.000Z"
     }
   },
   "https://nuchronic.uk/": {
@@ -6679,7 +6679,7 @@
     }
   },
   "https://paul.totterman.name/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-10-12",
     "feedUrl": "https://paul.totterman.name/index.xml",
     "latestArticle": {
@@ -7059,7 +7059,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7300,10 +7300,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Celtic Head Into A Pivotal Weekend – Losing At Tynecastle Is Not An Option…",
-      "url": "https://readceltic.com/2026/11/25/celtic-pivotal-weekend-losing-at-tynecastle-not-an-option/",
-      "summary": "Well, Keith Jackson is firmly in Camp McInnes now. Last night, the Ibrox side closed the gap on The post Celtic Head Into A Pivotal Weekend – Losing At Tynecastle Is Not An Option… appeared first on …",
-      "publishedAt": "2026-11-25T14:54:44.000Z"
+      "title": "Should Alex Oxlade-Chamberlain be starting more games for Celtic?",
+      "url": "https://readceltic.com/2026/11/25/should-alex-oxlade-chamberlain-be-starting-more-games-for-celtic/",
+      "summary": "I think it is becoming increasingly difficult to justify Alex Oxlade-Chamberlain not being a regular starter for Celtic. The post Should Alex Oxlade-Chamberlain be starting more games for Celtic? app…",
+      "publishedAt": "2026-11-25T16:00:00.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -7322,10 +7322,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://reallifestories8.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Listen, Sumi, Are You Asleep?",
-      "url": "https://reallifestories8.wordpress.com/2026/11/25/listen-sumi-are-you-asleep/",
-      "summary": "“Listen, Sumi, are you asleep?” Amit’s voice caught my attention. “No, I was just about to fall asleep. What happened? Do you need something?” I asked him. “No, I don’t need anything. I just wanted t…",
-      "publishedAt": "2026-11-25T14:32:10.000Z"
+      "title": "A Father’s Heartbreaking Words Left the Entire Family in Tears After His Wife’s Death… 💔",
+      "url": "https://reallifestories8.wordpress.com/2026/11/25/a-fathers-heartbreaking-words-left-the-entire-family-in-tears-after-his-wifes-death-%f0%9f%92%94/",
+      "summary": "The son asked his father, “Dad, now that Mom is gone, how will you manage living alone?” The elderly father’s answer brought tears to everyone’s eyes… “Papa, where have you kept your medicines?” “The…",
+      "publishedAt": "2026-11-25T16:14:31.000Z"
     }
   },
   "https://recipes.mihobu.net/": {
@@ -7959,7 +7959,7 @@
     }
   },
   "https://seat31b.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-16",
     "feedUrl": "https://www.seat31b.com/feed/",
     "latestArticle": {
@@ -8282,10 +8282,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed 2026 Donkey Kong felt stickers from Japan.",
-      "url": "https://smallmariofindings.tumblr.com/post/834214103315775488",
-      "summary": "Officially licensed 2026 Donkey Kong felt stickers from Japan. Source: j.pshop Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-11-25T01:02:44.000Z"
+      "title": "Provisional logo for the 1993 Super Mario Bros. movie, featured on the personal site of graphic&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/834270731570429952",
+      "summary": "Provisional logo for the 1993 Super Mario Bros. movie, featured on the personal site of graphic artist John Taylor Dismukes. He was evidently one of the artists considered for the graphic design of t…",
+      "publishedAt": "2026-11-25T16:02:49.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -8414,7 +8414,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8756,7 +8756,7 @@
     }
   },
   "https://tenfootpole.org/ironspike/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://tenfootpole.org/ironspike/?feed=rss2",
     "latestArticle": {
@@ -8922,12 +8922,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/general/36524/the-job-ahead-couldnt-any-be-clearer",
-      "summary": "Ruben Amorim had a poor record as Manchester United manager but he produced two of the best displays at Anfield that most of us have witnessed in our lifetimes. That’s not the norm as we all know, bu…",
-      "publishedAt": "2026-11-24T23:22:44.000Z"
+      "url": "https://thebusbybabe.sbnation.com/latest-news/36512/sporting-lisbon-v-manchester-united-live-stream-time-how-to-watch",
+      "summary": "Manchester United return to UEFA Champions League action on Wednesday night, as we travel to Lisbon to take on Portuguese giants Sporting. The Reds came from two goals down to defeat Roma last time o…",
+      "publishedAt": "2026-11-25T16:30:30.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -9319,13 +9319,13 @@
   },
   "https://theprogmind.com/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://theprogmind.com/feed/",
     "latestArticle": {
-      "title": "Steven Wilson – Requiem for a Village",
-      "url": "https://theprogmind.com/2026/11/20/steven-wilson-requiem-for-a-village/",
-      "summary": "Steven Wilson releases an annoying album.",
-      "publishedAt": "2026-11-20T16:37:08.000Z"
+      "title": "Ignea – Monumental",
+      "url": "https://theprogmind.com/2026/11/25/ignea-monumental/",
+      "summary": "Ignea releases a bold record.",
+      "publishedAt": "2026-11-25T16:36:36.000Z"
     }
   },
   "https://thequietus.com/": {
@@ -9410,13 +9410,13 @@
   },
   "https://thesquigglelinecafe.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://thesquigglelinecafe.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Late for the Sky",
-      "url": "https://thesquigglelinecafe.wordpress.com/2026/11/24/late-for-the-sky/",
-      "summary": "Tuesdays are for Tunes We are diving into an album from an artist I do not know much about at all. I am sure if I did some research, I would find one or two songs from Jackson Browne that would jog m…",
-      "publishedAt": "2026-11-24T16:46:34.000Z"
+      "title": "Cheers to Drinksgiving",
+      "url": "https://thesquigglelinecafe.wordpress.com/2026/11/25/cheers-to-drinksgiving/",
+      "summary": "Wednesdays are for Whatever Happy Thanksgiving Eve to those in the United States that celebrate turkey day tomorrow. And a Happy Wednesday to those around the world for whom tomorrow is an ordinary d…",
+      "publishedAt": "2026-11-25T16:27:35.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -9516,9 +9516,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://thevikingmike.wordpress.com/feed/",
     "latestArticle": {
-      "url": "https://thevikingmike.wordpress.com/2026/11/25/6218/",
-      "summary": "What do you do to grow your blog? I have been blogging this blog for awhile now and it’s taken a longtime to grow.At first I thought it would be a big hit but I was wrong however I’m grateful for the…",
-      "publishedAt": "2026-11-25T15:48:38.000Z"
+      "title": "Bounce Back",
+      "url": "https://thevikingmike.wordpress.com/2026/11/25/bounce-back-2/",
+      "summary": "Will the Minnesota Vikings bounce back this Sunday when they play the Atlanta Falconsahome? I’m sure hoping they will Atlanta is a very strange team. They’re up and down one week they look good the n…",
+      "publishedAt": "2026-11-25T15:52:13.000Z"
     }
   },
   "https://thewonderfulworldofcinema.wordpress.com/": {
@@ -9537,10 +9538,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://thezeegalaxy.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Stop Running away | Choose your people, not the trend",
-      "url": "https://thezeegalaxy.wordpress.com/2026/11/25/stop-running-away-choose-your-people-not-the-trend/",
-      "summary": "‎You people, please do not let worldly desires break your bond with your loved ones. ‎I see people jumping on the bandwagon, getting into relationships, and then with a few tough tests, walking out o…",
-      "publishedAt": "2026-11-25T14:26:47.000Z"
+      "title": "One in Roman Urdu",
+      "url": "https://thezeegalaxy.wordpress.com/2026/11/25/one-in-roman-urdu/",
+      "summary": "‎Gila karun to ab kya karun,‎ke har imtihan mein ek naya imtihan hai.‎‎Chalun jo khud ke liye ek qadam,‎to hazaaron zimmedariyan meri raah takain.‎‎Ab haal kuch yun hone ko hai,‎dil roye apne hi khwa…",
+      "publishedAt": "2026-11-25T16:28:56.000Z"
     }
   },
   "https://thezvi.wordpress.com/": {
@@ -9580,7 +9581,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://throw-aseed.wiki/": {
@@ -9828,7 +9829,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -9983,13 +9984,13 @@
   },
   "https://viewfromtheback.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://viewfromtheback.com/feed/",
     "latestArticle": {
-      "title": "Postcard from Yet Another Spanish Adventure",
-      "url": "https://viewfromtheback.com/2026/11/24/postcard-from-yet-another-spanish-adventure/",
-      "summary": "In October we headed to the Costa Brava to commemorate having known one another for 50 years – a milestone surely worth celebrating! The year before I had succeeded in securing a booking at renowned …",
-      "publishedAt": "2026-11-24T16:48:13.000Z"
+      "title": "Trip to Lloret de Mar",
+      "url": "https://viewfromtheback.com/2026/11/25/trip-to-lloret-de-mar-i/",
+      "summary": "Lloret de Mar is a town in the province of Girona, in Catalunya, located about 70 km (44 miles) north-east from Barcelona on the Costa Brava.. We’ve not visited since our maiden trip to the MotoGP in…",
+      "publishedAt": "2026-11-25T16:10:58.000Z"
     }
   },
   "https://viewpointsunplugged.com/": {
@@ -10448,10 +10449,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.askamanager.org/feed",
     "latestArticle": {
-      "title": "how to fire someone in an office with no privacy, no cost-of-living raise if you recently got a merit raise, and more",
-      "url": "https://www.askamanager.org/2026/11/how-to-fire-someone-in-an-office-with-no-privacy-no-cost-of-living-raise-if-you-recently-got-a-merit-raise-and-more.html",
-      "summary": "It’s four answers to four questions. Here we go… 1. How do we fire someone in an office with no privacy? I’m curious for your opinion on the kindest way to deliver the news that someone is losing the…",
-      "publishedAt": "2026-11-25T05:03:18.000Z"
+      "title": "the food thieves, the drunk in the trunk, and other tales of holidays at work",
+      "url": "https://www.askamanager.org/2026/11/the-food-thieves-the-drunk-in-the-trunk-and-other-tales-of-holidays-at-work.html",
+      "summary": "Over the years, readers have submitted a tremendous number of amusing stories about holidays at work, and since we’re heading into the holidays we must revisit them. Here are some of my favorites. 1.…",
+      "publishedAt": "2026-11-25T15:59:54.000Z"
     }
   },
   "https://www.authenticallyemily.uk/": {
@@ -10582,13 +10583,13 @@
   },
   "https://www.cartoonbrew.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://www.cartoonbrew.com/feed",
     "latestArticle": {
-      "title": "Record Oscar Field; ‘Hexed’ Inspiration; Bluth’s Childhood Nightmares",
-      "url": "https://www.cartoonbrew.com/newsletter/record-oscar-field-hexed-inspiration-bluths-childhood-nightmares-269738.html",
-      "summary": "A record 38 films are eligible for this year’s animated feature Oscar, and we’ve got the full list, from the major studio contenders to international films worth catching up with, … Continued",
-      "publishedAt": "2026-11-24T18:19:31.000Z"
+      "title": "2027 Oscars Short Film Contenders: ‘Melk’ Director Filip Anthonissen",
+      "url": "https://www.cartoonbrew.com/awards/melk-director-filip-anthonissen-269737.html",
+      "summary": "A grotesque family tragedy draws on Flemish painting, motion capture, and rural childhood memories to explore the destructive pressure to fit in.",
+      "publishedAt": "2026-11-25T16:03:38.000Z"
     }
   },
   "https://www.celticquicknews.co.uk/": {
@@ -10607,10 +10608,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "What Your Car Knows About You Long After You Turn Off the Engine",
-      "url": "https://www.cleverdude.com/content/what-your-car-knows-about-you-long-after-you-turn-off-the-engine/",
-      "summary": "Selling a car can involve more than just handing over the keys and wiping down the dashboard. Your vehicle might still remember where you went, which phone you connected, and how you drove. Some of t…",
-      "publishedAt": "2026-11-25T15:02:40.000Z"
+      "title": "That Hazy Film Inside Your Windshield Isn’t Just Dirt — Here’s How to Get Rid of It",
+      "url": "https://www.cleverdude.com/content/that-hazy-film-inside-your-windshield-isnt-just-dirt-heres-how-to-get-rid-of-it/",
+      "summary": "Your windshield looks perfectly clean until you drive directly toward the setting sun. Suddenly, a cloudy layer appears across the glass, making it harder to see the road ahead. You activate the wind…",
+      "publishedAt": "2026-11-25T16:34:44.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -10731,7 +10732,7 @@
     }
   },
   "https://www.designswarm.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-24",
     "feedUrl": "https://www.designswarm.com/blog/feed/",
     "latestArticle": {
@@ -10761,10 +10762,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Disney at the 100th Macy’s Thanksgiving Day Parade in 2026: Balloon & Float Lineup Builds 90-Year History",
-      "url": "https://www.disneytouristblog.com/disney-at-the-100th-macys-thanksgiving-day-parade-in-2026-balloon-float-lineup-builds-90-year-history/",
-      "summary": "Disney fans know and love traditions, and few things are as time-tested as the Macy’s Thanksgiving Day Parade. Even for those of us who started celebrating Christmas weeks ago, watching the balloons,…",
-      "publishedAt": "2026-11-25T14:54:16.000Z"
+      "title": "New Doctor Doom Throne Popcorn Bucket Highlights Food Coming to Disney Parks for Avengers Doomsday",
+      "url": "https://www.disneytouristblog.com/new-doctor-doom-throne-popcorn-bucket-highlights-food-coming-to-disney-parks-for-avengers-doomsday/",
+      "summary": "Avengers: Doomsday is Disney’s biggest movie event since 2019, when Endgame broke box office records. It’s been a mixed bag (to put it charitably) for the Marvel Cinematic Universe since then, but it…",
+      "publishedAt": "2026-11-25T16:30:11.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -10821,7 +10822,7 @@
     }
   },
   "https://www.fluxblog.org/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-21",
     "feedUrl": "https://www.fluxblog.org/feed/",
     "latestArticle": {
@@ -10957,7 +10958,7 @@
     }
   },
   "https://www.horrorsociety.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-24",
     "feedUrl": "https://www.horrorsociety.com/feed/",
     "latestArticle": {
@@ -11035,7 +11036,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -11184,7 +11185,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11201,7 +11202,7 @@
     "status": "unavailable"
   },
   "https://www.maproomblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.maproomblog.com/feed/",
     "latestArticle": {
@@ -11337,7 +11338,7 @@
     }
   },
   "https://www.notebookstories.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-24",
     "feedUrl": "https://www.notebookstories.com/feed/",
     "latestArticle": {
@@ -11498,7 +11499,7 @@
     "status": "unavailable"
   },
   "https://www.qwantz.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://qwantz.com/rssfeed.php",
     "latestArticle": {
@@ -11522,7 +11523,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {
@@ -11589,10 +11590,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "The Social Security Mistake That Can Happen When You Change Your Mailing Address",
-      "url": "https://www.savingadvice.com/articles/2026/11/25/10770487_the-social-security-mistake-that-can-happen-when-you-change-your-mailing-address.html",
-      "summary": "Quick Read A USPS forwarding request does not automatically update Social Security records. Beneficiaries must report their new mailing address directly to the agency. Direct deposit doesn't eliminat…",
-      "publishedAt": "2026-11-25T15:06:55.000Z"
+      "title": "Is It Too Late to Start Investing at 55? What the Numbers Actually Show",
+      "url": "https://www.savingadvice.com/articles/2026/11/25/10773421_is-it-too-late-to-start-investing-at-55-what-the-numbers-actually-show.html",
+      "summary": "Quick Read Investing $500 monthly beginning at age 55 could potentially produce nearly $82,000 by age 65 or more than $145,000 by age 70, assuming a hypothetical 6% annual return. Workers over 50 can…",
+      "publishedAt": "2026-11-25T16:45:44.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -11789,7 +11790,7 @@
     "status": "unavailable"
   },
   "https://www.thedarkmagazine.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.thedarkmagazine.com/feed/",
     "latestArticle": {
@@ -11800,7 +11801,7 @@
     }
   },
   "https://www.thefrugalgamer.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11811,7 +11812,7 @@
     }
   },
   "https://www.thefrugalgamer.net/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-09",
     "feedUrl": "https://www.thefrugalgamer.net/rss.xml",
     "latestArticle": {
@@ -11855,36 +11856,36 @@
     }
   },
   "https://www.theimpulsivebuy.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "New Groceries Spotted — November 25, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/new-groceries-spotted-november-25-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-11-25T14:00:00.000Z"
+      "title": "REVIEW: Limited Edition Liquid Death Frosted Squeezed to Death Orange Pop-Tarts",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/liquid-death-frosted-squeezed-to-death-orange-pop-tarts-review/",
+      "summary": "If someone had told me at the beginning of the year I could bet on Polymarket that there would be a Liquid Death and Pop-Tarts collaboration in 2026, I wouldn’t have taken that bet. The juxtaposition…",
+      "publishedAt": "2026-11-25T16:00:00.000Z"
     }
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "New Groceries Spotted — November 25, 2026",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/new-groceries-spotted-november-25-2026/",
-      "summary": "Here are some interesting new products found on store shelves by your fellow readers. If you’ve tried any of them, share your thoughts in the comments. Spotted something new? Send your photos to thei…",
-      "publishedAt": "2026-11-25T14:00:00.000Z"
+      "title": "REVIEW: Limited Edition Liquid Death Frosted Squeezed to Death Orange Pop-Tarts",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/liquid-death-frosted-squeezed-to-death-orange-pop-tarts-review/",
+      "summary": "If someone had told me at the beginning of the year I could bet on Polymarket that there would be a Liquid Death and Pop-Tarts collaboration in 2026, I wouldn’t have taken that bet. The juxtaposition…",
+      "publishedAt": "2026-11-25T16:00:00.000Z"
     }
   },
   "https://www.thelifeofaglasgowgirl.co.uk/": {
     "status": "success",
-    "lastPublished": "2026-06-20",
-    "feedUrl": "https://www.thelifeofaglasgowgirl.co.uk/feed/",
+    "lastPublished": "2026-08-20",
+    "feedUrl": "https://www.thelifeofaglasgowgirl.co.uk/comments/feed/",
     "latestArticle": {
-      "title": "8 of The Best Colouring Books for Millennials You Need",
-      "url": "https://www.thelifeofaglasgowgirl.co.uk/best-colouring-books-for-millennials/?utm_source=rss&utm_medium=rss&utm_campaign=best-colouring-books-for-millennials",
-      "summary": "8 of The Best Colouring Books for Millennials You Need Are you a Millennial? Do you enjoy colouring? If so, this post is FOR YOU! Colouring has become one of my favourite, and easiest ways to relax, …",
-      "publishedAt": "2026-06-20T20:02:11.000Z"
+      "title": "Comment on The Best Baby Monitor I’ve Ever Bought | HelloBaby Monitor by isabella.r",
+      "url": "https://www.thelifeofaglasgowgirl.co.uk/the-best-baby-monitor-ive-ever-bought-hellobaby-monitor/#comment-21515",
+      "summary": "been looking into this baby cam lately and this breakdown is pretty solid",
+      "publishedAt": "2026-08-20T10:37:21.000Z"
     }
   },
   "https://www.theminimalists.com/": {
@@ -11914,10 +11915,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "Scales will premiere on December 13 on Stan.",
-      "url": "https://www.themovieboards.net/2026/11/26/scales-will-premiere-on-december-13-on-stan/",
-      "summary": "The family feature film Scales will premiere on December 13 on Stan. Set against the sun-soaked backdrop of coastal Queensland, Scales is an uplifting, modern aquatic fable exploring self-acceptance,…",
-      "publishedAt": "2026-11-25T14:18:03.000Z"
+      "title": "#AI #Microdramas",
+      "url": "https://www.themovieboards.net/2026/11/26/ai-microdramas/",
+      "summary": "#AI #MicroDramas https://youtube.com/shorts/rP5X62nZ74k?feature=share #AI #MicroDramas The post #AI #Microdramas appeared first on The Movie Boards .",
+      "publishedAt": "2026-11-25T15:50:56.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -11965,7 +11966,7 @@
     }
   },
   "https://www.thisishorror.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.thisishorror.co.uk/feed/",
     "latestArticle": {
@@ -11991,10 +11992,10 @@
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Four Years After Acquiring The 'Metal Max' Rights, Cygames Has Quietly Filed A Trademark For The Series In The EU",
-      "url": "https://www.timeextension.com/#article-209599",
-      "summary": "Could the series potentially be making a return? Four years after acquiring the rights to the Metal Max series from Kadokawa Games , the Japanese developer Cygames has raised hopes of the classic RPG…",
-      "publishedAt": "2026-11-25T15:15:00.000Z"
+      "title": "Viral 'Grids' Trend Sees Players List Their Favourite Video Games from 1991-2026, We Want to Hear Yours!",
+      "url": "https://www.timeextension.com/#article-209600",
+      "summary": "Warning: You May Crumble to Dust. If you have time to kill and fancy a dose of mind-breaking worry over your favourite game from 1998, boy, do I have an hour-drainer for you. In that non-formulaic fa…",
+      "publishedAt": "2026-11-25T16:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {
@@ -12130,13 +12131,13 @@
   },
   "https://www.worldofreel.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-25",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "James Gray: “Cannes Sucks”; Swears He’s “Not Going Back” to the Festival Where He’s Won Zero Prizes in 26 Years",
-      "url": "https://www.worldofreel.com/blog/2026/11/24/james-gray-cannes-sucks-swears-hes-never-going-back-to-the-festival-where-hes-won-zero-prizes-in-26-years",
-      "summary": "Gray has taken six films to Cannes competition: \"The Yards,\" \"We Own the Night,\" \"Two Lovers,\" \"The Immigrant,\" \"Armageddon Time\" and this year's \"Paper Tiger.\" He has won zero prizes.",
-      "publishedAt": "2026-11-24T23:43:15.000Z"
+      "title": "Box Office: ‘Sunrise on the Reaping’ Eyes $70M+, ‘Fockers In-Law’ $45M, ‘Hexed’ Stumbles",
+      "url": "https://www.worldofreel.com/blog/2026/11/25/box-office-sunrise-on-the-reaping-eyes-70m-fockers-in-law-45m-hexed-stumbles",
+      "summary": "‘Sunrise’ had a franchise-record $16M Tuesday — that’s a 26% jump from Monday. Its total now sits at $148M, about $18.1 million short of the entire $166M domestic run of ‘The Ballad of Songbirds & Sn…",
+      "publishedAt": "2026-11-25T16:23:47.000Z"
     }
   },
   "https://www.zachleat.com/": {

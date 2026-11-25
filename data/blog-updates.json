@@ -554,14 +554,14 @@
   },
   "https://evidenceanecdotal.blogspot.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T06:44:28.709Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://evidenceanecdotal.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "'A Persistent Goad to Their Disquieted Consciences'",
-      "url": "https://evidenceanecdotal.blogspot.com/2026/11/a-persistent-goad-to-their-disquieted.html",
-      "summary": "A high-school English teacher loaned me an anthology of short stories she had used while a student at Kent State University. Most of the contents were new to me. The only story that shocked me was Fl…",
-      "publishedAt": "2026-11-25T06:00:00.000Z"
+      "title": "'A Salubrious, Almost Medicinal, Effect on Me.'",
+      "url": "https://evidenceanecdotal.blogspot.com/2026/11/a-salubrious-almost-medicinal-effect-on.html",
+      "summary": "“. . . I return with unexpected regularity to the essays of Max Beerbohm. I find he has a salubrious, almost medicinal, effect on me. I’ve heard many people say the same about Wodehouse. The tone of …",
+      "publishedAt": "2026-11-25T20:55:33.617Z"
     }
   },
   "https://www.anildash.com/": {
@@ -816,14 +816,14 @@
   },
   "https://cupofjo.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:44:28.952Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://cupofjo.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Have a Wonderful Week. by PNW GRATEFUL",
-      "url": "https://cupofjo.com/2026/11/25/have-a-happy-thanksgiving-2/#comment-3587149",
-      "summary": "Stuffing hands down favorite always. And my mom's old fashioned basic recipe she made all my life. Celery and onion sauteed in 2 sticks butter. Eggs. And I add some chicken broth. She didn't. Stuff t…",
-      "publishedAt": "2026-11-25T20:15:52.000Z"
+      "title": "Comment on Have a Wonderful Week. by Jenny",
+      "url": "https://cupofjo.com/2026/11/25/have-a-happy-thanksgiving-2/#comment-3587157",
+      "summary": "I mean, aren’t we all here for the Link bouquet that Jo blesses us with every week?!",
+      "publishedAt": "2026-11-25T21:29:31.000Z"
     }
   },
   "https://dansinker.com/blog/": {
@@ -1421,14 +1421,14 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T17:44:31.286Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed 1997 Mario, Donkey Kong, Bowser and Yoshi plushes featured in the Nintendo Power&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/834274537286795264",
-      "summary": "Officially licensed 1997 Mario, Donkey Kong, Bowser and Yoshi plushes featured in the Nintendo Power Supplies 1997 catalog. Please note the slightly misaligned nose on Mario that was attached too low…",
-      "publishedAt": "2026-11-25T17:03:18.000Z"
+      "title": "Top: the rabbit model found in Super Mario 64 DS.",
+      "url": "https://smallmariofindings.tumblr.com/post/834285816436113408",
+      "summary": "Top: the rabbit model found in Super Mario 64 DS. Bottom: an unused model of the same rabbit, found in the files of Mario & Sonic at the Olympic Winter Games for the Wii. It uses the exact same textu…",
+      "publishedAt": "2026-11-25T20:02:35.000Z"
     }
   },
   "https://www.sparklytrainers.com/": {
@@ -1777,8 +1777,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:44:28.952Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
+    "status": "success",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Ofcom reveal steps Virgin Media has taken to address UK contract cancellation woes",
@@ -1799,15 +1799,15 @@
     }
   },
   "https://www.jvt.me/posts/": {
-    "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T16:20:57.356Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://www.jvt.me/posts/feed.xml",
     "latestArticle": {
-      "title": "Determining the size of the `.git` for a GitHub repo, without cloning it",
-      "url": "https://www.jvt.me/posts/2026/11/24/github-repo-size/?utm_medium=rss&utm_source=rss",
-      "summary": "Every so often, I'll be doing work that needs to know how big a Git repo is. Right now, I'm doing some work in Renovate around how we support large repos and/or monorepos, and have hit the same quest…",
-      "publishedAt": "2026-11-24T15:50:30.000Z"
+      "title": "Working around `No artifacts named \"github-pages\" were found for this workflow run.` in GitHub Actions",
+      "url": "https://www.jvt.me/posts/2026/11/25/github-pages-artifacts-bug/?utm_medium=rss&utm_source=rss",
+      "summary": "🤖 This post includes some LLM-derived content 🤖 For over a month, there's been a report of a bug in how GitHub Actions deploys to GitHub Pages , where - even if you literally just uploaded it , GitHu…",
+      "publishedAt": "2026-11-25T20:49:01.000Z"
     }
   },
   "https://joost.blog/": {
@@ -2143,15 +2143,15 @@
     }
   },
   "https://www.halfwayanywhere.com/": {
-    "lastPublished": "2026-11-22",
-    "lastChecked": "2026-11-23T04:44:31.209Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://www.halfwayanywhere.com/feed/",
     "latestArticle": {
-      "title": "Black Friday Backpacking Sales Guide 2026",
-      "url": "https://www.halfwayanywhere.com/gear/black-friday-backpacking-sales-guide-2026/",
-      "summary": "The best Black Friday and Cyber Monday backpacking sales this year. All the best outdoor gear on sale at the steepest discounts of the year!",
-      "publishedAt": "2026-11-22T06:31:22.000Z"
+      "title": "Car Camping Gift Guide: The Best Gifts for Car Campers (2026)",
+      "url": "https://www.halfwayanywhere.com/gear/car-camping-gift-guide/",
+      "summary": "The best car camping gifts for 2026, sorted by budget. Campsite comforts, road-trip essentials, and tools that earn a spot in the car, from stocking stuffers under $25 to splurges.",
+      "publishedAt": "2026-11-25T21:11:45.000Z"
     }
   },
   "https://www.handluggageonly.co.uk/": {
@@ -2294,8 +2294,8 @@
   },
   "https://sinclairtrails.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:44:28.952Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
+    "status": "success",
     "feedUrl": "https://sinclairtrails.com/feed/",
     "latestArticle": {
       "title": "Downtown Disney",
@@ -2873,14 +2873,14 @@
   },
   "https://thecelticblog.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T19:44:31.187Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "Celtic fans recognise the concerns West Ham fans have over Engels.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/celtic-fans-recognise-west-ham-engels-concerns/",
-      "summary": "There is something rather familiar about the questions West Ham supporters are beginning to ask about Arne Engels. The post Celtic fans recognise the concerns West Ham fans have over Engels. appeared…",
-      "publishedAt": "2026-11-25T19:30:21.000Z"
+      "title": "Incredibly, Celtic Have Become A Club In Permanent Interim From Top To Bottom",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/celtic-interim-culture-board-short-termism/",
+      "summary": "There was a word I used during my conversation with Eric Knott on The Bhoycie Bus last night The post Incredibly, Celtic Have Become A Club In Permanent Interim From Top To Bottom appeared first on T…",
+      "publishedAt": "2026-11-25T21:00:14.000Z"
     }
   },
   "https://readceltic.com/": {
@@ -3859,14 +3859,14 @@
   },
   "https://econbrowser.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T16:44:32.587Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://econbrowser.com/feed",
     "latestArticle": {
-      "title": "Manufacturing Triumph Not So Triumphant",
-      "url": "https://econbrowser.com/archives/2026/11/manufacturing-triumph-not-so-triumphant",
-      "summary": "Following up on the note on CEA’s manufacturing report, the Fed has released the annual revision for manufacturing production. Instead of a 4% rise since January 2025, it’s only 2.6% (log terms). Fig…",
-      "publishedAt": "2026-11-25T05:32:37.000Z"
+      "title": "Business Cycle Indicators for October",
+      "url": "https://econbrowser.com/archives/2026/11/business-cycle-indicators-for-october",
+      "summary": "Personal income, consumption, annual benchmarked industrial and manufacturing production, and 2nd release GDP (along with GDO). Key indicators followed by the NBER’s Business Cycle Dating Committee: …",
+      "publishedAt": "2026-11-25T20:54:29.000Z"
     }
   },
   "https://thestopbutton.com/": {
@@ -4321,13 +4321,13 @@
   },
   "http://thefilmexperience.net/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T16:44:32.587Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "http://thefilmexperience.net/blog/atom.xml",
     "latestArticle": {
       "title": "\"Movies for Grown-ups\" Nominations: \"Wild Horse Nine\", \"The Invite\", and More...",
       "url": "http://thefilmexperience.net/blog/2026/11/25/movies-for-grown-ups-nominations-wild-horse-nine-the-invite.html",
-      "summary": "by Nathaniel R WILD HORSE NINE leads the nominations with five (in a tie with The Odyssey) Awards season just keeps building momentum for certain pictures. The AARP announced their nominees for \" AAR…",
+      "summary": "by Nathaniel R WILD HORSE NINE leads the nominations with five (in a tie with The Odyssey) Awards season just keeps building momentum for certain pictures. AARP announced their nominees for \" AARP Mo…",
       "publishedAt": "2026-11-25T16:02:38.000Z"
     }
   },
@@ -4794,13 +4794,13 @@
   },
   "https://priorprobability.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T05:44:28.817Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
       "title": "Wikipedia Wednesday: Zapruder film",
       "url": "https://priorprobability.com/2026/11/25/wikipedia-wednesday-zapruder-film/",
-      "summary": "Via Wikipedia (footnote omitted; links in the original): “The Zapruder film is a silent 8mm color motion picture sequence shot by Abraham Zapruder with a Bell & Howell home-movie camera, as U.S. pres…",
+      "summary": "As a follow-up to my previous two posts marking the 63rd anniversary of the JFK assassination (11/22/63), below is the intro for “Zapruder film” in Wikipedia: “The Zapruder film is a silent 8mm color…",
       "publishedAt": "2026-11-25T05:05:21.000Z"
     }
   },
@@ -4841,15 +4841,15 @@
     }
   },
   "https://www.globalnerdy.com/": {
-    "lastPublished": "2026-11-21",
-    "lastChecked": "2026-11-21T16:44:31.642Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://www.globalnerdy.com/feed/",
     "latestArticle": {
-      "title": "How a goofy idea got me an interview in a Bloomberg News story (or: “Do things, tell people.”)",
-      "url": "https://www.globalnerdy.com/2026/11/21/how-a-goofy-idea-got-me-an-interview-in-a-bloomberg-news-story-or-do-things-tell-people/",
-      "summary": "Strangely enough, I’m one of the people quoted in this Bloomberg News article about leather jackets and Jensen Huang, the disgraced former NVIDIA CEO/Lothario/employee abuser published early on the m…",
-      "publishedAt": "2026-11-21T16:13:49.000Z"
+      "title": "Huang-Man and the Masters of the GPU-niverse",
+      "url": "https://www.globalnerdy.com/2026/11/25/huang-man-and-the-masters-of-the-gpu-niverse/",
+      "summary": "If you watch only one YouTube video today, make it this one. The post Huang-Man and the Masters of the GPU-niverse appeared first on Global Nerdy .",
+      "publishedAt": "2026-11-25T20:59:50.000Z"
     }
   },
   "https://www.spookylittlehalloween.com/blog": {
@@ -5383,13 +5383,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T19:44:31.187Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/mcwfc/could-manchester-city-women-have-lost-the-womens-super-league-title-already",
-      "summary": "After last week’s 1-0 defeat to Chelsea, which saw Manchester City Women fall three points below them in the Women’s Super League, the latest gameweek was a chance for the reigning champions to bounc…",
-      "publishedAt": "2026-11-25T18:30:31.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/arsenal-premier-league-clash-manchester-city-deemed-high-risk-as-metropolitan-police-double-numbers",
+      "summary": "Sunday’s trip to Arsenal has been designated a high-risk fixture, with the Metropolitan Police set to double their presence to 150 officers for the first meeting between the clubs since Manchester Ci…",
+      "publishedAt": "2026-11-25T20:30:28.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -5906,14 +5906,14 @@
   },
   "https://www.theimpulsivebuy.com/wordpress/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:09:06.385Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/wordpress/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Chips Ahoy Caramel Minis Drizzled",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/spotted-chips-ahoy-caramel-minis-drizzled/",
-      "summary": "Covered the Fudge version earlier this month. (Spotted by Robbie at H-E-B.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-11-25T20:00:00.000Z"
+      "title": "SPOTTED: Brownie Crunch M&M’s Pop’d",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/spotted-brownie-crunch-mms-popd/",
+      "summary": "Sorry Pringles. This looks like something that once I pop, I can’t stop. (Spotted by Robbie at Walmart.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
+      "publishedAt": "2026-11-25T21:00:00.000Z"
     }
   },
   "https://www.cakewrecks.com/": {
@@ -7044,8 +7044,8 @@
   },
   "https://www.architectural-review.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:09:06.385Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
+    "status": "success",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
       "title": "Birthday card: Søren Pihlmann",
@@ -7104,14 +7104,14 @@
   },
   "https://www.theimpulsivebuy.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:09:06.385Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://www.theimpulsivebuy.com/feed/",
     "latestArticle": {
-      "title": "SPOTTED: Chips Ahoy Caramel Minis Drizzled",
-      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/spotted-chips-ahoy-caramel-minis-drizzled/",
-      "summary": "Covered the Fudge version earlier this month. (Spotted by Robbie at H-E-B.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
-      "publishedAt": "2026-11-25T20:00:00.000Z"
+      "title": "SPOTTED: Brownie Crunch M&M’s Pop’d",
+      "url": "https://www.theimpulsivebuy.com/wordpress/2026/11/25/spotted-brownie-crunch-mms-popd/",
+      "summary": "Sorry Pringles. This looks like something that once I pop, I can’t stop. (Spotted by Robbie at Walmart.) If you spotted something new, send your photos to theimpulsivebuy@gmail.com.",
+      "publishedAt": "2026-11-25T21:00:00.000Z"
     }
   },
   "https://nstperfume.com/": {
@@ -7403,15 +7403,15 @@
     }
   },
   "https://thewonderfulworldofcinema.wordpress.com/": {
-    "lastPublished": "2026-11-05",
-    "lastChecked": "2026-11-05T03:44:34.769Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://thewonderfulworldofcinema.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Announcing The Music Video Blogathon!",
-      "url": "https://thewonderfulworldofcinema.wordpress.com/2026/11/04/music-video-blogathon-announcement/",
-      "summary": "All about The Music Video Blogathon which I'll be hosting on this blog on December 11 to 13, 2026.",
-      "publishedAt": "2026-11-05T02:47:25.000Z"
+      "title": "Top of the World: 15 Powerful Film Noir Shots",
+      "url": "https://thewonderfulworldofcinema.wordpress.com/2026/11/25/powerful-films-noir-shots/",
+      "summary": "Introducing some of my favouirte shots in films noir for Noirvember 2026!",
+      "publishedAt": "2026-11-25T21:29:23.000Z"
     }
   },
   "https://weegiemidget.wordpress.com/": {
@@ -7506,14 +7506,14 @@
   },
   "https://hackaday.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T19:44:31.187Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "The Curious Case of the Second Spacebar",
-      "url": "https://hackaday.com/2026/11/25/the-curious-case-of-the-second-spacebar/",
-      "summary": "[Adrian] shared a very unusual Commodore 64 he came across with some unique modifications made to it. Not only did it have an unexplained DIP socket on the back, it …read more",
-      "publishedAt": "2026-11-25T19:30:21.000Z"
+      "title": "Daisy Chaining Stepper Motors",
+      "url": "https://hackaday.com/2026/11/25/daisy-chaining-stepper-motors/",
+      "summary": "Let’s say you want to control a whole bunch of stepper motors. You can use a multi-channel controller board, or whip something up with a microcontroller or two. Or, you …read more",
+      "publishedAt": "2026-11-25T21:00:31.000Z"
     }
   },
   "https://marcel.io/": {
@@ -7738,9 +7738,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-25T20:44:28.952Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed.xml",
+    "feedUrl": "https://www.neatorama.com/feed/",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -8371,13 +8371,13 @@
   },
   "https://mtlcityweblog.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T17:44:31.286Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
       "title": "“We’ll all eat more Kraft Dinner” – SMF",
       "url": "https://mtlcityweblog.com/2026/11/25/well-all-eat-more-kraft-dinner-smf/",
-      "summary": "SMF gave a gift to our editorial cartoonists, not to mention meme creators, with her recent quote that On va manger un peu plus de Kraft Dinner. I don’t see any photo of her, tucking into a bowl.",
+      "summary": "SMF gave a gift to our editorial cartoonists, not to mention meme creators, with her recent quote that On va manger un peu plus de Kraft Dinner. I don’t see any photo of her, tucking into a bowl. Add…",
       "publishedAt": "2026-11-25T16:53:07.000Z"
     }
   },
@@ -9360,15 +9360,15 @@
     }
   },
   "https://lucciagray.com/": {
-    "lastPublished": "2026-11-17",
-    "lastChecked": "2026-11-17T22:44:29.262Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://lucciagray.com/feed/",
     "latestArticle": {
-      "title": "The Recurring Theme in The Eyre Hall Series",
-      "url": "https://lucciagray.com/2026/11/17/the-recurring-theme-in-the-eyre-hall-series/",
-      "summary": "A few years ago, I used to be a member of the Insecure Writer’s Support Group, a community of authors who share their replies to a monthly question about their creative life. I haven’t participated i…",
-      "publishedAt": "2026-11-17T22:03:34.000Z"
+      "title": "#WordlessWednesday #OneLinerWednesday #Haiku",
+      "url": "https://lucciagray.com/2026/11/25/wordlesswednesday-onelinerwednesday-haiku/",
+      "summary": "I was lucky enough to take a photo of these beautiful buttercups on my doorstep, today, 25th of November, on my way out for an afternoon walk, with my son and his little dog, Tiny, what more could I …",
+      "publishedAt": "2026-11-25T21:36:55.000Z"
     }
   },
   "https://poojamallick000.wordpress.com/": {
@@ -9385,14 +9385,14 @@
   },
   "https://mymindmappings.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T14:44:30.106Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "One-Liner Wednesday — My Loyal Friend",
-      "url": "https://mymindmappings.com/2026/11/25/one-liner-wednesday-my-loyal-friend/",
-      "summary": "“The more I learn about people, the more I like my dog.” Mark Twain, American writer, humorist, essayist, entrepreneur, publisher, and lecturer Written for Linda G. Hill’s One-Liner Wednesday prompt.",
-      "publishedAt": "2026-11-25T14:27:00.000Z"
+      "title": "Esther’s Weekly Writing Prompt — The Weather Outside is Frightful",
+      "url": "https://mymindmappings.com/2026/11/25/esthers-weekly-writing-prompt-the-weather-outside-is-frightful/",
+      "summary": "Esther Chilton’s writing prompt for this week is the outside. It’s been a much wetter November than usual in the East Bay of San Francisco where I live. In fact, if the forecasted rain through the en…",
+      "publishedAt": "2026-11-25T21:30:16.000Z"
     }
   },
   "https://pvcann.com/": {
@@ -9588,14 +9588,14 @@
   },
   "https://ivorplumberpoet.press/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T13:44:31.769Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://ivorplumberpoet.press/feed/",
     "latestArticle": {
       "title": "Balcony Man",
       "url": "https://ivorplumberpoet.press/2026/11/26/balcony-man/",
       "summary": "Today, I found myself reflecting on the simple pleasures of a spectacular sunset and a magnificent moonrise. What began as a passing thought soon became a poem about finding contentment in a moment, …",
-      "publishedAt": "2026-11-25T13:01:00.000Z"
+      "publishedAt": "2026-11-25T21:35:29.000Z"
     }
   },
   "https://syl65.wordpress.com/": {
@@ -9635,15 +9635,15 @@
     }
   },
   "https://overhillanddale.wordpress.com/": {
-    "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T21:44:28.425Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://overhillanddale.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Sick, Portland, Maine 11/14/26",
-      "url": "https://overhillanddale.wordpress.com/2026/11/24/sick-portland-maine-11-14-26/",
-      "summary": ". . Mäds is sick. never been so before. he does not like it. tells us so. we stay home. read lots of books. play with the train set. wipe his runny nose . . . .",
-      "publishedAt": "2026-11-24T21:13:20.000Z"
+      "title": "Canada Geese, Portland, Maine 11/16/26",
+      "url": "https://overhillanddale.wordpress.com/2026/11/25/canada-geese-portland-maine-11-16-26/",
+      "summary": ". . a gaggle of passing geese calling out to one another trick me momentarily mistaking them for my boy’s cries, asleep upstairs three hours past his usual wake up call, nursing a cold & a cough, sle…",
+      "publishedAt": "2026-11-25T21:13:42.000Z"
     }
   },
   "https://authorelliepotts.wordpress.com/": {
@@ -9803,15 +9803,15 @@
     }
   },
   "https://davidwdon.wordpress.com/": {
-    "lastPublished": "2026-11-21",
-    "lastChecked": "2026-11-21T20:44:31.688Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://davidwdon.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Before sunset",
-      "url": "https://davidwdon.wordpress.com/2026/11/22/before-night-falls/",
-      "summary": "sky blues and leafy greens a simple view through windows won’t be moving yet …",
-      "publishedAt": "2026-11-21T20:00:52.000Z"
+      "title": "~ ~ ~",
+      "url": "https://davidwdon.wordpress.com/2026/11/26/5964/",
+      "summary": "wild blustering wind fractures a blue mirrored sky the pond enjoys break _ _ _",
+      "publishedAt": "2026-11-25T20:50:00.000Z"
     }
   },
   "https://musingsbydoddzilla.org/": {
@@ -9888,13 +9888,13 @@
   },
   "https://parisexpat2012.wordpress.com/": {
     "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-25T20:44:28.952Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://parisexpat2012.wordpress.com/feed/",
     "latestArticle": {
       "title": "Parc national de l’Isalo",
       "url": "https://parisexpat2012.wordpress.com/2026/11/23/parc-national-de-lisalo/",
-      "summary": "Le parc national de l’Isalo s’étend sur une superficie d’environ 800 km² dans la partie sud-ouest de Madagascar. Facile d’accès … Continue reading →",
+      "summary": "Le parc national de l’Isalo s’étend sur une superficie d’environ 800 km² dans la partie sud-ouest de Madagascar. Facile d’accès à partir de la route nationale 7, c’est le parc national le plus visité…",
       "publishedAt": "2026-11-23T11:42:54.000Z"
     }
   },
@@ -10991,15 +10991,15 @@
     }
   },
   "https://koshekmat.wordpress.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T05:44:28.804Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://koshekmat.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Louise Penny Fans",
-      "url": "https://koshekmat.wordpress.com/2026/11/23/louise-penny-fans/",
-      "summary": "All pictures in this post were taken by me on a visit to Knowlton, Quebec, Louise Penny’s Canadian place of residence, on June 22, 2026. I have been a fan of Louise Penny’s books for many years. I’m …",
-      "publishedAt": "2026-11-23T05:27:46.000Z"
+      "title": "Trois-Rivières, Quebec",
+      "url": "https://koshekmat.wordpress.com/2026/11/25/trois-rivieres-quebec/",
+      "summary": "All pictures were taken by me or my husband, unless otherwise indicated. Because I utilize Wikipedia so heavily in researching and writing about my travels, I donate every year to the Wikimedia Found…",
+      "publishedAt": "2026-11-25T21:45:18.000Z"
     }
   },
   "https://zuludelta45.net/": {
@@ -12410,13 +12410,14 @@
   },
   "https://theantileslie.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T17:44:31.286Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://theantileslie.com/feed/",
     "latestArticle": {
-      "title": "oh no",
-      "url": "https://theantileslie.com/2026/11/25/oh-no/",
-      "publishedAt": "2026-11-25T17:25:56.000Z"
+      "title": "It is Finnished",
+      "url": "https://theantileslie.com/2026/11/25/it-is-finnished/",
+      "summary": "How is the air up there? Oops. My bad. Should I leave a note? Win-win is easy when you’re not making up a story.",
+      "publishedAt": "2026-11-25T21:44:57.000Z"
     }
   },
   "https://knightofwriters.wordpress.com/": {
@@ -13162,15 +13163,15 @@
     "feedUrl": "https://beaddraft.com/favicon.svg"
   },
   "https://cheltenham-od.uk/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T11:44:29.082Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://cheltenham-od.uk/feeds/main.xml",
     "latestArticle": {
-      "title": "Cheltenham Business Rates: How Many Shops and Offices Stand Empty, on a New Map and List",
-      "url": "https://cheltenham-od.uk/news/cheltenham-business-rates-added",
-      "summary": "One in eight of Cheltenham’s business properties stood empty in October 2026. Our new Cheltenham business rates page shows the borough council’s latest lists of occupied and empty business properties…",
-      "publishedAt": "2026-11-18T08:30:00.000Z"
+      "title": "Bristol Lions’ 2027 T20 Blast Fixtures: Gloucestershire’s New Name and Every Match Date",
+      "url": "https://cheltenham-od.uk/news/bristol-lions-2027-fixtures-added",
+      "summary": "Gloucestershire will play the 2027 T20 Blast as Bristol Lions, and the fixtures are now out. Our Gloucestershire cricket page lists all 20 of the men’s and women’s Blast matches. The men’s season ope…",
+      "publishedAt": "2026-11-25T07:00:00.000Z"
     }
   },
   "https://nuchronic.uk/": {
@@ -13323,14 +13324,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T20:44:28.952Z",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "Braiins warns of hashrate hijacking attacks on bitcoin miners",
-      "url": "https://cryptonews.mobile/brief/braiins-warns-of-hashrate-hijacking-attacks-on-bitcoin-miners",
-      "summary": "Braiins said attackers redirected up to 1.9 exahash per second of bitcoin mining power by exploiting weaknesses in the Stratum V1 mining protocol. The attacker impersonated a mining pool by manipulat…",
-      "publishedAt": "2026-11-25T20:40:56.000Z"
+      "title": "Kalshi traders see 24% chance XRP falls below $0.80",
+      "url": "https://cryptonews.mobile/brief/kalshi-traders-see-24-chance-xrp-falls-below-080",
+      "summary": "Kalshi's November XRP market highlights $0.80 as a potential monthly low, with the below-$0.80 contract implying about a 24% probability. XRP traded below $1, at $0.92 in one report and $0.894 in the…",
+      "publishedAt": "2026-11-25T21:20:15.000Z"
     }
   },
   "https://usefreetools.net/": {
@@ -13897,14 +13898,14 @@
     "feedUrl": null
   },
   "https://www.insanabakinca.com/": {
-    "lastPublished": "2026-11-23",
-    "lastChecked": "2026-11-23T21:44:29.266Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-25T21:44:28.897Z",
     "status": "success",
     "feedUrl": "https://www.insanabakinca.com/rss.xml",
     "latestArticle": {
-      "title": "İlişkilerde Sessiz Kalmak: Mola Vermek ile Cezalandırıcı Suskunluk Arasındaki Fark",
-      "summary": "Bir tartışmadan sonra eşiniz veya partneriniz konuşmayı kesiyor. Biraz sakinleşmek istediğini düşünerek üzerine gitmiyorsunuz. Ancak saatler geçiyor, sorularınız yanıtsız kalıyor. Ertesi gün de aynı …",
-      "publishedAt": "2026-11-23T21:46:04.000Z"
+      "title": "İnsanları Sürekli Memnun Etme İhtiyacı: Nedenleri ve Kişisel Sınır Koyma Yolları",
+      "summary": "“Aslında istemiyorum ama şimdi hayır dersem ayıp olur.” Bir arkadaşınız sizden yardım istediğinde böyle düşünebilirsiniz. İş yerinde zaten yoğun olduğunuz hâlde yeni bir görevi üstlenebilirsiniz. Ail…",
+      "publishedAt": "2026-11-25T21:18:25.000Z"
     }
   }
 }

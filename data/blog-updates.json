@@ -454,8 +454,8 @@
   },
   "https://therealadam.com/": {
     "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-26T02:44:26.508Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
+    "status": "success",
     "feedUrl": "https://therealadam.com/feed.xml",
     "latestArticle": {
       "title": "You can just do research",
@@ -1577,8 +1577,8 @@
   },
   "https://waitbutwhy.com/": {
     "lastPublished": "2025-11-25",
-    "lastChecked": "2026-11-23T20:44:30.215Z",
-    "status": "success",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
+    "status": "unavailable",
     "feedUrl": "https://waitbutwhy.com/feed",
     "latestArticle": {
       "title": "The sights and sounds of Bhutan",
@@ -1875,15 +1875,15 @@
     }
   },
   "https://www.omgubuntu.co.uk/": {
-    "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T19:44:31.187Z",
+    "lastPublished": "2026-11-26",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://www.omgubuntu.co.uk/feed",
     "latestArticle": {
-      "title": "Claude’s desktop app can now make and install apps (not on Linux yet)",
-      "url": "https://www.omgubuntu.co.uk/2026/11/claude-artifact-apps-not-on-linux-yet",
-      "summary": "Claude now lets users install artifacts, the small interactive tools the LLM can create during chats, as standalone(ish) desktop apps. The new ‘artifact apps’ (sic) run in their own window and get th…",
-      "publishedAt": "2026-11-25T18:35:40.000Z"
+      "title": "xnulinux runs macOS desktop on linux no virtualisation",
+      "url": "https://www.omgubuntu.co.uk/2026/11/xnulinux-runs-mac-desktop-on-linux-natively",
+      "summary": "A new open-source project loads Apple’s XNU kernel as a module inside the Linux kernel, allowing the macOS desktop to run natively – no virtual machine required. The XNULinux project is open source, …",
+      "publishedAt": "2026-11-26T03:03:52.000Z"
     }
   },
   "https://overreacted.io/": {
@@ -3116,14 +3116,14 @@
   },
   "https://9to5linux.com/": {
     "lastPublished": "2026-11-26",
-    "lastChecked": "2026-11-26T02:44:26.508Z",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://9to5linux.com/feed",
     "latestArticle": {
-      "title": "Lutris 0.5.23 Game Manager Adds GOG Cloud Saves, GameJolt and DLsite Support",
-      "url": "https://9to5linux.com/lutris-0-5-23-game-manager-adds-gog-cloud-saves-gamejolt-and-dlsite-support",
-      "summary": "Lutris 0.5.23 is now available for download with new GOG features, two new game sources, a switch to GE-Proton through umu for installers, and many improvements and bug fixes. The post Lutris 0.5.23 …",
-      "publishedAt": "2026-11-26T02:14:27.000Z"
+      "title": "Linux Mint 27 Beta Is Now Available for Download with Cinnamon 6.8",
+      "url": "https://9to5linux.com/linux-mint-27-beta-is-now-available-for-download-with-cinnamon-6-8",
+      "summary": "Linux Mint 27 beta is now available for download with the Cinnamon 6.8, Xfce 4.20, and MATE 1.26 desktop environments, and an Ubuntu 26.04 LTS base with Linux kernel 7.0. The post Linux Mint 27 Beta …",
+      "publishedAt": "2026-11-26T03:02:27.000Z"
     }
   },
   "https://lwn.net/": {
@@ -5412,8 +5412,8 @@
   },
   "https://kimberlyhirsh.com/": {
     "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-26T02:44:26.508Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
+    "status": "success",
     "feedUrl": "https://kimberlyhirsh.com/feed.xml",
     "latestArticle": {
       "url": "https://kimberlyhirsh.com/2026/11/24/read-the-hero-of-time.html",
@@ -5941,8 +5941,8 @@
   },
   "https://www.manton.org/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-26T02:44:26.508Z",
-    "status": "unavailable",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
+    "status": "success",
     "feedUrl": "https://www.manton.org/feed.xml",
     "latestArticle": {
       "url": "https://www.manton.org/2026/11/25/federico-viticci-explored-how-claudes.html",
@@ -7505,14 +7505,14 @@
   },
   "https://hackaday.com/": {
     "lastPublished": "2026-11-26",
-    "lastChecked": "2026-11-26T00:44:31.669Z",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Camera Upgrades for 3D Printers",
-      "url": "https://hackaday.com/2026/11/25/camera-upgrades-for-3d-printers/",
-      "summary": "3D printing has come a long way over the years, from being a fussy, barely usable mess to essentially being plug-and-play for a large variety of plastics. And the industry …read more",
-      "publishedAt": "2026-11-26T00:00:27.000Z"
+      "title": "Self-Sensing Artificial Muscles From Liquid Crystal Elastomer With Graphene",
+      "url": "https://hackaday.com/2026/11/25/self-sensing-artificial-muscles-from-liquid-crystal-elastomer-with-graphene/",
+      "summary": "Although we tend to be more aware of the large muscles in our bodies that enable our legs and arms to move, the real stars at the many small muscles …read more",
+      "publishedAt": "2026-11-26T03:00:35.000Z"
     }
   },
   "https://marcel.io/": {
@@ -9155,14 +9155,15 @@
     }
   },
   "https://rutheh.com/": {
-    "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T04:44:29.948Z",
+    "lastPublished": "2026-11-26",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://rutheh.com/feed/",
     "latestArticle": {
-      "title": "Wordless Wednesday from my Sister in NYC",
-      "url": "https://rutheh.com/2026/11/24/wordless-wednesday-from-my-sister-in-nyc/",
-      "publishedAt": "2026-11-25T03:47:44.000Z"
+      "title": "Macy’s Thanksgiving Parade 1993",
+      "url": "https://rutheh.com/2026/11/25/macys-thanksgiving-parade-1993/",
+      "summary": "Throwback Thursday. Waiting for the balloons. Mark, Laura, Matthew and Steve. I took the photo. Film. Mary back at apartment cooking dinner for us!",
+      "publishedAt": "2026-11-26T03:02:33.000Z"
     }
   },
   "https://folsommillstudio.com/": {
@@ -9454,15 +9455,15 @@
     }
   },
   "https://robertjames1971.blog/": {
-    "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T03:44:28.930Z",
+    "lastPublished": "2026-11-26",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://robertjames1971.blog/feed/",
     "latestArticle": {
-      "title": "Tuesday",
-      "url": "https://robertjames1971.blog/2026/11/24/tuesday-4/",
-      "summary": "I keep forgetting to post stuff and then I sneak something on my phone that is full of typos and autocorrect crap. Oh well. Tomorrow is a work day and then we get the glorious four day Thanksgiving w…",
-      "publishedAt": "2026-11-25T02:57:14.000Z"
+      "title": "Too Early",
+      "url": "https://robertjames1971.blog/2026/11/25/too-early-3/",
+      "summary": "I am not the guy who likes to decorate for xmas early. If my family would let me I would wait until just a few days before 12/25 before putting up the tree. I don’t have that luxury though. My wife a…",
+      "publishedAt": "2026-11-26T02:48:10.000Z"
     }
   },
   "https://tankatuesday.com/": {
@@ -9788,15 +9789,14 @@
     }
   },
   "https://sedge808.com/": {
-    "lastPublished": "2026-11-19",
-    "lastChecked": "2026-11-19T04:44:33.736Z",
+    "lastPublished": "2026-11-26",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://sedge808.com/feed/",
     "latestArticle": {
-      "title": "words of wisdom from Gavatron",
-      "url": "https://sedge808.com/2026/11/19/words-of-wisdom-from-gavatron/",
-      "summary": "Don’t eat coffee ice-cream before bed. Never say never. Limiting your ability to experience new things can stop you from growing. (there are some things I won’t ever do though i.e. skydiving) Feeling…",
-      "publishedAt": "2026-11-19T04:42:41.000Z"
+      "title": "Jesus wept",
+      "url": "https://sedge808.com/2026/11/26/jesus-wept/",
+      "publishedAt": "2026-11-26T02:50:24.000Z"
     }
   },
   "https://davidwdon.wordpress.com/": {
@@ -12442,15 +12442,14 @@
     }
   },
   "https://animosbones.com/": {
-    "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T08:44:31.326Z",
+    "lastPublished": "2026-11-26",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://animosbones.com/feed/",
     "latestArticle": {
-      "title": "Smile With A Bite",
-      "url": "https://animosbones.com/2026/11/24/smile-with-a-bite/",
-      "summary": "The worst advice I ever got was to gently smile and, under all circumstances—and I mean always —speak softly. Do you know who gives out this kind of advice? It comes from people who would happily lig…",
-      "publishedAt": "2026-11-24T08:00:31.000Z"
+      "title": "Soon.",
+      "url": "https://animosbones.com/2026/11/25/soon/",
+      "publishedAt": "2026-11-26T02:47:53.000Z"
     }
   },
   "https://steviet3.wordpress.com/": {
@@ -12526,15 +12525,15 @@
     "feedUrl": "https://cookroam.com/favicon.svg"
   },
   "https://netzhi.com/": {
-    "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T12:44:31.423Z",
+    "lastPublished": "2026-11-26",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://netzhi.com/feed/",
     "latestArticle": {
-      "title": "Chrome 新标签页变样，改启动页为什么没用？",
-      "url": "https://netzhi.com/chrome-new-tab-startup-extension-settings/",
-      "summary": "Chrome 新标签页变样或找不到“自定义 Chrome”，先分清启动页、主页按钮和新标签页。查扩展控制提示，再逐项停用并新开标签比较。取消固定、移除扩展和恢复主题含义不同，功能前提及组织管理限制也要分别核对。",
-      "publishedAt": "2026-11-25T10:11:00.000Z"
+      "title": "路由器把 iPhone 当成新设备？先查私有地址",
+      "url": "https://netzhi.com/iphone-private-wifi-address-router-new-device/",
+      "summary": "路由器反复提示 iPhone 是新设备，先核对手机当前 Wi-Fi 详情里的地址与在线设备的 MAC。家里要稳定识别，可在 iOS 18 或更高版本为这个网络选“固定”，保留私有地址；旧记录、还原设置和真正的陌生设备仍要分别核查。",
+      "publishedAt": "2026-11-26T02:56:00.000Z"
     }
   },
   "https://gardenstaterockhound.wordpress.com/": {
@@ -13464,15 +13463,15 @@
     }
   },
   "https://lootrundown.com/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T10:44:32.552Z",
+    "lastPublished": "2026-11-25",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://lootrundown.com/guides/rss.xml",
     "latestArticle": {
-      "title": "Pokémon GO Duolingo Promo Code Not Working? Causes & Fixes",
-      "url": "https://lootrundown.com/pokemon-go/duolingo-promo-code-not-working",
-      "summary": "Fix a missing Pokémon GO Duolingo code, Day 1 progress or iOS redemption problems. Check the seven-day rule, opt-in cutoff and Web Store login steps.",
-      "publishedAt": "2026-11-18T00:00:00.000Z"
+      "title": "Persona 5 Royal in Fortnite",
+      "url": "https://lootrundown.com/fortnite/persona-5-royal",
+      "summary": "The Persona 5 Royal Bundle costs 3,800 V-Bucks against a listed 9,600. See Joker, Panther, the separate 2,400 V-Bucks Mona Car and when both offers leave.",
+      "publishedAt": "2026-11-25T00:00:00.000Z"
     }
   },
   "https://artcraftguide.org/": {
@@ -13567,14 +13566,14 @@
   },
   "https://jobinterviewat.com/overtime-calculator/": {
     "lastPublished": "2026-11-26",
-    "lastChecked": "2026-11-26T02:44:26.508Z",
+    "lastChecked": "2026-11-26T03:03:45.975Z",
     "status": "success",
     "feedUrl": "https://jobinterviewat.com/feed/",
     "latestArticle": {
-      "title": "Best Global Payroll Providers for UK Businesses in 2027",
-      "url": "https://jobinterviewat.com/global-payroll-providers-for-uk-businesses/",
-      "summary": "Finding the right hire abroad is only half the job. Once a candidate in Lisbon or Toronto signs your offer, your finance and HR teams still have to pay them... The post Best Global Payroll Providers …",
-      "publishedAt": "2026-11-26T02:25:45.000Z"
+      "title": "Conduent Interview Questions: The Assessment, Virtual Interview and Sample Answers",
+      "url": "https://jobinterviewat.com/conduent-interview-questions/",
+      "summary": "Most Conduent interview questions for customer service jobs are simple, but the steps around them are not. For many call center roles, a computer-based customer service assessment and typing test... …",
+      "publishedAt": "2026-11-26T02:57:38.000Z"
     }
   },
   "https://thinkpad2050.github.io/telegram-sponsorship-cpm-calculator/": {

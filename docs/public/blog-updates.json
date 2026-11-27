@@ -154,7 +154,7 @@
   },
   "https://247619.xyz/": {
     "status": "unknown",
-    "feedUrl": "https://247619.xyz/assets/favicon.svg?v=1.4.0"
+    "feedUrl": "https://247619.xyz/assets/favicon.svg?v=1.4.2"
   },
   "https://2e0mca.uk/": {
     "status": "success",
@@ -340,7 +340,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -470,7 +470,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -495,7 +495,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -571,7 +571,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://andrewdoran.uk/blog/feed/",
     "latestArticle": {
@@ -669,17 +669,17 @@
   },
   "https://anyelement.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://anyelement.wordpress.com/feed/",
     "latestArticle": {
-      "title": "God Never Said Anything Like That",
-      "url": "https://anyelement.wordpress.com/2026/11/26/god-never-said-anything-like-that/",
-      "summary": "God has said that men should always love each other. It once said to appreciate what is given to you, to be grateful of the world and to spread compassion and kindness to everyone in the world. Then,…",
-      "publishedAt": "2026-11-26T04:09:00.000Z"
+      "title": "If It’s Perfect Than Something Is Wrong Anyway",
+      "url": "https://anyelement.wordpress.com/2026/11/27/if-its-perfect-than-something-is-wrong-anyway/",
+      "summary": "Perfect is literally something that is impossible. On some rare occasions, a perfect score arrives, a perfect self arrives or something incredible ends up happening. But have you ever questioned whet…",
+      "publishedAt": "2026-11-27T02:25:07.000Z"
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -773,7 +773,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -1051,7 +1051,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1233,7 +1233,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1452,7 +1452,7 @@
     "status": "unavailable"
   },
   "https://brendandawes.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "http://brendandawes.com/blog/feed",
     "latestArticle": {
@@ -1753,7 +1753,7 @@
     }
   },
   "https://casdinteret.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://casdinteret.com/feed/",
     "latestArticle": {
@@ -2377,7 +2377,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2487,7 +2487,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2709,7 +2709,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -2823,7 +2823,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -2918,7 +2918,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3438,13 +3438,13 @@
   },
   "https://gildedbearediting.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://gildedbearediting.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Writing Exercise: 7/11",
-      "url": "https://gildedbearediting.wordpress.com/2026/11/26/writing-exercise-7-11/",
-      "summary": "Write a scene between a couple at a 7/11. What are they buying? What’s their thought process as they go in and search around for what they need or want? Show their thoughts through their actions. No …",
-      "publishedAt": "2026-11-26T21:54:57.000Z"
+      "title": "Is The Passage worth watching if you read the book?",
+      "url": "https://gildedbearediting.wordpress.com/2026/11/26/is-the-passage-worth-watching-if-you-read-the-book/",
+      "summary": "The Passage by Justin Cronin had been a book that I loved when I was in college. I still have the hardcover that I had then. Its cover is a bit beaten, and certainly worn out. I remember I’d smooshed…",
+      "publishedAt": "2026-11-27T02:06:22.000Z"
     }
   },
   "https://girlsangle.wordpress.com/": {
@@ -3840,7 +3840,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3913,7 +3913,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3946,7 +3946,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -4062,14 +4062,14 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-25",
+    "status": "success",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
-      "title": "Easy Parmesan Garlic Knots",
-      "url": "https://iamafoodblog.com/garlic-parmesan-knots-recipe/",
-      "summary": "A parmesan garlic knots recipe that's a keeper. Whether you make the dough from scratch or use store bought, these knots are addictive!",
-      "publishedAt": "2026-11-25T07:05:10.000Z"
+      "title": "Thanksgiving Leftover Turkey Pho Recipe",
+      "url": "https://iamafoodblog.com/turkey-pho-recipe/",
+      "summary": "The best thing to make after your Thanksgiving dinner: a comforting, soothing Turkey pho",
+      "publishedAt": "2026-11-27T00:37:53.000Z"
     }
   },
   "https://iamstillborednotes.wordpress.com/": {
@@ -4362,14 +4362,14 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-25",
+    "status": "success",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
-      "title": "LEGO Certified Stores Australia Black Friday 2026 offers and exclusive promos",
-      "url": "https://jaysbrickblog.com/news/lego-certified-stores-australia-black-friday-2026-offers-and-exclusive-promos/",
-      "summary": "The LEGO offers and promotions are HEATING up this week, and the Australian LEGO Certified Store have officially announced their Black Friday and Cyber Monday offers and promos that you can look out …",
-      "publishedAt": "2026-11-25T09:24:36.000Z"
+      "title": "Review: LEGO 21375 Godzilla",
+      "url": "https://jaysbrickblog.com/reviews/review-lego-21375-godzilla/",
+      "summary": "The biggest LEGO Ideas set of all time is finally here with 21375 Godzilla stomping its way into your LEGO collection as the 2026 Black Friday launch, and boy does it make for an imposing build. Stan…",
+      "publishedAt": "2026-11-27T00:37:27.000Z"
     }
   },
   "https://jeaniekelley5.wordpress.com/": {
@@ -4395,7 +4395,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4618,13 +4618,13 @@
   },
   "https://joshuamorris.info/": {
     "status": "success",
-    "lastPublished": "2026-11-20",
+    "lastPublished": "2026-11-26",
     "feedUrl": "https://joshuamorris.info/atom.xml",
     "latestArticle": {
-      "title": "Worth Wandering: Floor796",
-      "url": "https://joshuamorris.info/notes/2026/11/20/worth-wandering-floor796/",
-      "summary": "A suitcase is easy to overlook when it shares a room with an annual Mafia meeting, stacks of gold and enough familiar characters to keep you distracted. In Floor796, that suitcase contains the beginn…",
-      "publishedAt": "2026-11-20T15:30:00.000Z"
+      "title": "Let the Web Speak Markdown",
+      "url": "https://joshuamorris.info/notes/2026/11/26/let-the-web-speak-markdown/",
+      "summary": "You can now read my website in Markdown. Try the article that started this conversation, then follow a link and keep reading in the format you chose.",
+      "publishedAt": "2026-11-26T18:30:00.000Z"
     }
   },
   "https://joshwcomeau.com/": {
@@ -4714,7 +4714,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -4733,7 +4733,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -5284,7 +5284,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -5296,13 +5296,13 @@
   },
   "https://livoragracely.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://livoragracely.com/feed/",
     "latestArticle": {
-      "title": "A Taste of Winter",
-      "url": "https://livoragracely.com/2026/11/27/a-taste-of-winter/",
-      "summary": "The morning began with a spoonful of summer. A Jar in December Grandma Mabel tilted the jar, but the last spoonful of jam stayed in the corner. She turned the spoon, reached beneath it and drew out a…",
-      "publishedAt": "2026-11-26T23:36:09.000Z"
+      "title": "The Road After",
+      "url": "https://livoragracely.com/2026/11/27/the-road-after/",
+      "summary": "Hebrews 6:11–12 God’s people are called to hold on to hope, following examples of faith and patience. Elijah told Elisha to stay where he was. The Lord had sent Elijah on to Bethel.¹ But Elisha answe…",
+      "publishedAt": "2026-11-27T01:54:24.000Z"
     }
   },
   "https://lizduckchong.com/blog.html": {
@@ -5768,7 +5768,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5779,7 +5779,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -6140,23 +6140,23 @@
   },
   "https://msamba.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://msamba.blog/feed/",
     "latestArticle": {
-      "title": "@fravery.bsky.social | “When you arise in the morning, think of what a precious privilege it is to be alive – to breathe, to think, to enjoy, to love.” ― Marcus Aurelius",
-      "url": "https://msamba.blog/2026/11/26/fravery-bsky-social-when-you-arise-in-the-morning-think-of-what-a-precious-privilege-it-is-to-be-alive-to-breathe-to-think-to-enjoy-to-love-%e2%80%95-marcus-aurelius/",
-      "publishedAt": "2026-11-26T15:57:53.000Z"
+      "title": "this Scottish accent when discussing LA traffic is something special",
+      "url": "https://msamba.blog/2026/11/27/this-scottish-accent-when-discussing-la-traffic-is-something-special/",
+      "publishedAt": "2026-11-27T01:59:52.000Z"
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-26",
+    "status": "success",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
-      "title": "KD protest held at city hall",
-      "url": "https://mtlcityweblog.com/2026/11/26/kd-protest-held-at-city-hall/",
-      "summary": "A tax protest featuring Kraft Dinner was held at city hall Thursday. Other tax protests are planned between now and the formal adoption of the budget in mid‑December.",
-      "publishedAt": "2026-11-26T21:20:45.000Z"
+      "title": "City wants to tax empty buildings",
+      "url": "https://mtlcityweblog.com/2026/11/26/city-wants-to-tax-empty-buildings/",
+      "summary": "SMF’s administration is finally talking about a new tax on residential buildings left empty – not the first time such an idea has been floated. Now let’s talk about the mechanisms necessary to inspec…",
+      "publishedAt": "2026-11-27T00:44:44.000Z"
     }
   },
   "https://mumofboysadventures.wordpress.com/": {
@@ -6719,7 +6719,7 @@
     "status": "unavailable"
   },
   "https://omaralshal.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://omaralshal.com/feed/",
     "latestArticle": {
@@ -7273,7 +7273,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7486,14 +7486,14 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "unavailable",
-    "lastPublished": "2026-11-26",
+    "status": "success",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
-      "title": "Striking Color Photos Show Everyday Life in the Segregated South During the 1950s",
-      "url": "https://rarehistoricalphotos.com/striking-color-photos-show-everyday-life-in-the-segregated-south-during-the-1950s/",
-      "summary": "The American South of the 1950s was shaped by a system of racial segregation that governed nearly every aspect of daily life. Under Jim Crow laws, Black Americans faced discrimination in schools, pub…",
-      "publishedAt": "2026-11-26T04:53:31.000Z"
+      "title": "The Strange Tradition of the Socialist Fraternal Kiss in Historical Photos",
+      "url": "https://rarehistoricalphotos.com/socialist-fraternal-kiss-photos/",
+      "summary": "The Socialist Fraternal Kiss became one of the most recognizable gestures of the communist world during the Cold War. Photographs of Soviet leaders, military heroes, and foreign dignitaries embracing…",
+      "publishedAt": "2026-11-27T01:14:47.000Z"
     }
   },
   "https://raspberrypi.electromaker.io/blogs": {
@@ -7635,10 +7635,10 @@
     "lastPublished": "2026-11-27",
     "feedUrl": "https://repairmeyourself.com/feed/",
     "latestArticle": {
-      "title": "Whirlpool Duet Washer F20 Code: Water Not Filling Fix",
-      "url": "https://repairmeyourself.com/whirlpool-duet-washer-f20-code/",
-      "summary": "The Whirlpool Duet washer F20 code means the machine never got enough water. Whirlpool’s own checklist starts at the taps behind the unit, and… The post Whirlpool Duet Washer F20 Code: Water Not Fill…",
-      "publishedAt": "2026-11-27T00:00:00.000Z"
+      "title": "Frigidaire Refrigerator Not Cooling: What to Check",
+      "url": "https://repairmeyourself.com/frigidaire-refrigerator-not-cooling/",
+      "summary": "Frigidaire sets the refrigerator at 37°F and the freezer at 0°F, then asks for 24 hours before you judge the cabinet. A Frigidaire refrigerator… The post Frigidaire Refrigerator Not Cooling: What to …",
+      "publishedAt": "2026-11-27T02:30:00.000Z"
     }
   },
   "https://replicate.com/blog": {
@@ -7837,13 +7837,13 @@
   },
   "https://robertjames1971.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://robertjames1971.blog/feed/",
     "latestArticle": {
-      "title": "Too Early",
-      "url": "https://robertjames1971.blog/2026/11/25/too-early-3/",
-      "summary": "I am not the guy who likes to decorate for xmas early. If my family would let me I would wait until just a few days before 12/25 before putting up the tree. I don’t have that luxury though. My wife a…",
-      "publishedAt": "2026-11-26T02:48:10.000Z"
+      "title": "Happy Thanksgiving",
+      "url": "https://robertjames1971.blog/2026/11/26/happy-thanksgiving-18/",
+      "summary": "Today is Thanksgiving. It’s 9:00pm now so its almost over. Did you have a good day? Its Thanksgiving for the rest of the United States but in my house it was just Thursday. Our Thanksgiving is Saturd…",
+      "publishedAt": "2026-11-27T02:07:52.000Z"
     }
   },
   "https://robmcminn.uk/": {
@@ -8590,13 +8590,13 @@
   },
   "https://smallmariofindings.tumblr.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "In Paper Mario: The Thousand-Year Door, the Elevator Key in Riverside Station doesn&rsquo;t actually do&hellip;",
-      "url": "https://smallmariofindings.tumblr.com/post/834376368605298688",
-      "summary": "In Paper Mario: The Thousand-Year Door, the Elevator Key in Riverside Station doesn’t actually do anything. The game doesn’t let Mario open the door with it if he has it in his inventory unless he ac…",
-      "publishedAt": "2026-11-26T20:01:52.000Z"
+      "title": "Officially licensed 1991 plush of a Galoomba from Super Mario World (known as &ldquo;Goomba&rdquo; at the time&hellip;",
+      "url": "https://smallmariofindings.tumblr.com/post/834395255795253248",
+      "summary": "Officially licensed 1991 plush of a Galoomba from Super Mario World (known as “Goomba” at the time of the game’s release, retroactively renamed to Galoomba in 2013), from Japan. Source: favfindsjapan…",
+      "publishedAt": "2026-11-27T01:02:05.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -8711,7 +8711,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -8725,7 +8725,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8740,7 +8740,7 @@
     }
   },
   "https://stephenbodio.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -9859,13 +9859,13 @@
   },
   "https://thezeegalaxy.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://thezeegalaxy.wordpress.com/feed/",
     "latestArticle": {
-      "title": "My Grumpy handsome",
-      "url": "https://thezeegalaxy.wordpress.com/2026/11/26/my-grumpy-handsome/",
-      "summary": "‎‎I want to take this moment to talk about how weird human nature is, and how beautiful animal nature is.‎‎And how animals win over humans in so many things.‎‎A few days back we had no water supply f…",
-      "publishedAt": "2026-11-26T14:06:42.000Z"
+      "title": "This, and this!",
+      "url": "https://thezeegalaxy.wordpress.com/2026/11/27/this-and-this/",
+      "summary": "What’s a small, everyday moment that makes you really happy? Everything about my cat!",
+      "publishedAt": "2026-11-27T01:45:50.000Z"
     }
   },
   "https://thezvi.wordpress.com/": {
@@ -9977,7 +9977,7 @@
     "status": "unavailable"
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -10058,7 +10058,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -10128,13 +10128,13 @@
   },
   "https://trendgridnews.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://trendgridnews.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Google’s New AI Agent Limits Explained: Gmail, Drive and Calendar Access in 2027",
-      "url": "https://trendgridnews.wordpress.com/2026/11/26/google-workspace-ai-agent-mcp-limits-pricing-2027/",
-      "summary": "Google's new Workspace access tiers introduce a 5,000-request free MCP limit and future billing rules. Learn the dates, examples and developer implications.",
-      "publishedAt": "2026-11-26T13:37:54.000Z"
+      "title": "Google Wallet in AI Search Explained: What Personal Intelligence Can Read and How to Stay in Control",
+      "url": "https://trendgridnews.wordpress.com/2026/11/27/google-wallet-ai-search-personal-intelligence-privacy/",
+      "summary": "Google is rolling out Wallet connections in AI Mode, with Drive and Gemini next. Learn how the feature works, its limits and privacy controls.",
+      "publishedAt": "2026-11-27T02:25:55.000Z"
     }
   },
   "https://trendsfaq.com/": {
@@ -10205,7 +10205,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -10466,9 +10466,9 @@
     "lastPublished": "2026-11-26",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/174332/the-daily-hilario-november-26th",
-      "summary": "Good game Saves In-form",
-      "publishedAt": "2026-11-26T08:20:52.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/premier-league/174351/moises-caicedo-wesley-fofana-available-for-selection-for-chelsea-against-nottingham-forest",
+      "summary": "Xabi Alonso had some good news in today’s pre-match press conference, confirming that Moisés Caicedo is expected to be fit and available for selection for tomorrow night’s away game against Nottingha…",
+      "publishedAt": "2026-11-26T18:42:03.000Z"
     }
   },
   "https://weareglobaltravellers.com/blog/": {
@@ -10690,7 +10690,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -10780,7 +10780,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -11352,7 +11352,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -11488,7 +11488,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -11607,7 +11607,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -11640,9 +11640,9 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-01",
-    "feedUrl": "https://www.neverendingfootsteps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.neverendingfootsteps.com%2F&format=xml",
+    "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
       "title": "My Complete Guide to India’s Kalka-Shimla Toy Train",
       "url": "https://www.neverendingfootsteps.com/kalka-shimla-toy-train-india/",
@@ -11688,7 +11688,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -12056,13 +12056,13 @@
   },
   "https://www.stuckinabook.com/": {
     "status": "success",
-    "lastPublished": "2026-11-24",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://www.stuckinabook.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on Foreigners by Leo Walmsley by truckgeardaily",
-      "url": "https://www.stuckinabook.com/foreigners-by-leo-walmsley/#comment-174519",
-      "summary": "Really appreciated the systematic breakdown presented in \"foreigners by leo walmsley\". Thank you for sharing such a constructive piece—definitely a valuable reference for anyone following this field.",
-      "publishedAt": "2026-11-24T21:57:08.000Z"
+      "title": "Comment on Foreigners by Leo Walmsley by Nathaniel Wonderful",
+      "url": "https://www.stuckinabook.com/foreigners-by-leo-walmsley/#comment-174537",
+      "summary": "Your review reminded me of John in Aldous Huxley’s Brave New World and the creature in Mary Shelley’s Frankenstein. It also made me think of Willa Cather’s My Ántonia, which I’m currently reading. Th…",
+      "publishedAt": "2026-11-27T01:56:13.000Z"
     }
   },
   "https://www.suppermariobroth.com/": {
@@ -12088,7 +12088,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -12278,13 +12278,13 @@
   },
   "https://www.themovieboards.net/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://www.themovieboards.net/feed/",
     "latestArticle": {
-      "title": "Studio Payne refreshes Quincy Hotels’ brand identity",
-      "url": "https://www.themovieboards.net/2026/11/26/studio-payne-refreshes-quincy-hotels-brand-identity/",
-      "summary": "Studio Payne has teamed up with Far East Hospitality to give Quincy Hotels a bold brand refresh, signalling a major new chapter as the brand prepares for future growth. The refreshed identity builds …",
-      "publishedAt": "2026-11-26T11:18:14.000Z"
+      "title": "Nepal flood relief mission to be screened in Melbourne documentary pre-screening on 5 December",
+      "url": "https://www.themovieboards.net/2026/11/27/nepal-flood-relief-mission-to-be-screened-in-melbourne-documentary-pre-screening-on-5-december/",
+      "summary": "Nepali-Australian doctor and medical missionary Dr. Sambridhi Adhikari returned to Melbourne on 9 November after a two-week humanitarian medical deployment to Nepal, where, alongside local teams, the…",
+      "publishedAt": "2026-11-27T02:09:22.000Z"
     }
   },
   "https://www.thenewestrant.com/": {
@@ -12343,7 +12343,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -12447,7 +12447,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/feed/",
     "latestArticle": {

@@ -1782,8 +1782,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-26",
-    "lastChecked": "2026-11-26T22:33:57.257Z",
-    "status": "success",
+    "lastChecked": "2026-11-27T04:44:29.039Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "EE UK boosts 5G mobile broadband network speeds in London via AI",
@@ -7742,9 +7742,9 @@
   },
   "https://www.neatorama.com/": {
     "lastPublished": "2026-10-25",
-    "lastChecked": "2026-11-27T04:31:18.332Z",
+    "lastChecked": "2026-11-27T04:44:29.039Z",
     "status": "unknown",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -8837,15 +8837,15 @@
     }
   },
   "https://sswt.art.blog/": {
-    "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T01:44:29.456Z",
+    "lastPublished": "2026-11-27",
+    "lastChecked": "2026-11-27T04:44:29.039Z",
     "status": "success",
     "feedUrl": "https://sswt.art.blog/feed/",
     "latestArticle": {
-      "title": "Constant nourishment",
-      "url": "https://sswt.art.blog/2026/11/25/constant-nourishment/",
-      "summary": "What do you do to grow your blog? Through this blog, I endeavour to create an uninterrupted flow of emotions, with their roots firmly grounded in reality. Like a sincere student, I continue to learn,…",
-      "publishedAt": "2026-11-25T01:33:58.000Z"
+      "title": "Warmth of Her Presence",
+      "url": "https://sswt.art.blog/2026/11/27/warmth-of-her-presence/",
+      "summary": "What’s a small, everyday moment that makes you really happy? Like a warm cup of tea on a winter morning,like a phone call from Mom when you return home later than expected.like a favourite love song …",
+      "publishedAt": "2026-11-27T04:40:35.000Z"
     }
   },
   "https://reflectionsbyiba.wordpress.com/": {
@@ -12739,9 +12739,9 @@
   },
   "https://renjianjiegou.com/": {
     "lastPublished": null,
-    "lastChecked": "2026-11-26T10:12:56.440Z",
+    "lastChecked": "2026-11-27T04:44:29.039Z",
     "status": "unknown",
-    "feedUrl": "https://renjianjiegou.com/favicon.svg"
+    "feedUrl": "https://renjianjiegou.com/feed.xml"
   },
   "https://mistmarie.com/": {
     "lastPublished": "2026-11-26",

@@ -7636,7 +7636,7 @@
   },
   "https://renjianjiegou.com/": {
     "status": "unknown",
-    "feedUrl": "https://renjianjiegou.com/favicon.svg"
+    "feedUrl": "https://renjianjiegou.com/feed.xml"
   },
   "https://repairmeyourself.com/appliance-age-calculator/": {
     "status": "success",
@@ -8709,13 +8709,13 @@
   },
   "https://sswt.art.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-25",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://sswt.art.blog/feed/",
     "latestArticle": {
-      "title": "Constant nourishment",
-      "url": "https://sswt.art.blog/2026/11/25/constant-nourishment/",
-      "summary": "What do you do to grow your blog? Through this blog, I endeavour to create an uninterrupted flow of emotions, with their roots firmly grounded in reality. Like a sincere student, I continue to learn,…",
-      "publishedAt": "2026-11-25T01:33:58.000Z"
+      "title": "Warmth of Her Presence",
+      "url": "https://sswt.art.blog/2026/11/27/warmth-of-her-presence/",
+      "summary": "What’s a small, everyday moment that makes you really happy? Like a warm cup of tea on a winter morning,like a phone call from Mom when you return home later than expected.like a favourite love song …",
+      "publishedAt": "2026-11-27T04:40:35.000Z"
     }
   },
   "https://stamphacks.com/": {
@@ -11405,7 +11405,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -11639,7 +11639,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",

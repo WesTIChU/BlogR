@@ -3397,7 +3397,7 @@
     }
   },
   "https://gardenrant.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://gardenrant.com/index.xml"
   },
   "https://gardenstaterockhound.wordpress.com/": {
@@ -4189,13 +4189,13 @@
   },
   "https://intellection7.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://intellection7.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A Small Moment",
-      "url": "https://intellection7.wordpress.com/2026/11/27/a-small-moment/",
-      "summary": "What’s a small, everyday moment that makes you really happy? I hate to say this because you are likely looking for a profound answer but honestly it’s breakfast. I enjoy savoring raisin Bran and coff…",
-      "publishedAt": "2026-11-27T14:58:03.000Z"
+      "title": "Tom Sawyer",
+      "url": "https://intellection7.wordpress.com/2026/11/28/tom-sawyer/",
+      "summary": "If you could turn any movie into a TV series, which one would it be? Tom Sawyer was a book made into a movie and I must admit I enjoyed the book more than the movie with Jodie Foster (Jody Douglas on…",
+      "publishedAt": "2026-11-28T14:42:38.000Z"
     }
   },
   "https://interconnected.org/home/": {
@@ -4479,7 +4479,7 @@
     }
   },
   "https://joegardener.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://joegardener.com/index.xml"
   },
   "https://joelchrono.xyz/": {
@@ -6428,13 +6428,13 @@
   },
   "https://neuraljazz.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://neuraljazz.blog/feed/",
     "latestArticle": {
-      "title": "Everyday Moments of Happiness",
-      "url": "https://neuraljazz.blog/2026/11/27/everyday-moments-of-happiness/",
-      "summary": "My first coffee of the day, sitting outside in the silence — whenever my body allows it. No demands, no obligations, no need to accomplish anything. Just me, breathing in the day, with my coffee and …",
-      "publishedAt": "2026-11-27T14:57:37.000Z"
+      "title": "The Kobayashi Maru — A Method, Not a Cheat",
+      "url": "https://neuraljazz.blog/2026/11/28/the-kobayashi-maru-a-method-not-a-cheat/",
+      "summary": "When the available choices lead nowhere, question the framework that produced them. If you’ve read a few of my articles, you’ve probably noticed that I have an irritating habit of questioning the que…",
+      "publishedAt": "2026-11-28T14:45:32.000Z"
     }
   },
   "https://nevardmedia.blogspot.com/": {
@@ -7309,12 +7309,13 @@
   },
   "https://priorprobability.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://priorprobability.com/feed/",
     "latestArticle": {
-      "title": "Friday film: Stranger’s Pawn",
-      "url": "https://priorprobability.com/2026/11/27/friday-film-short-strangers-pawn/",
-      "publishedAt": "2026-11-27T07:11:00.000Z"
+      "title": "Assorted AI links: fall 2026",
+      "url": "https://priorprobability.com/2026/11/28/assorted-ai-links-fall-2026/",
+      "summary": "Call for papers from Oxford Studies in the Philosophy of AI & Computing: https://ospaic.org (deadline is 14 Feb.) Arpit Gupta tweet (@arpitrage) on AI advances: https://x.com/arpitrage/status/2110473…",
+      "publishedAt": "2026-11-28T14:43:59.000Z"
     }
   },
   "https://programmingknowledgeblog.wordpress.com/": {
@@ -7351,7 +7352,7 @@
     }
   },
   "https://pulpcovers.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-28",
     "feedUrl": "https://pulpcovers.com/feed/",
     "latestArticle": {
@@ -9174,10 +9175,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://theantileslie.com/feed/",
     "latestArticle": {
-      "title": "Tryst",
-      "url": "https://theantileslie.com/2026/11/28/tryst/",
-      "summary": "two signs from the universe:",
-      "publishedAt": "2026-11-28T14:11:01.000Z"
+      "title": "it should feel like Love, but it doesn’t",
+      "url": "https://theantileslie.com/2026/11/28/it-should-feel-like-love-but-it-doesnt/",
+      "summary": "It’s as I suspected. It’s not a real person, thinking that Aada went to the length to create a blog to talk to me should feel amazing and like everything I’ve ever wanted. But it doesn’t because the …",
+      "publishedAt": "2026-11-28T14:45:50.000Z"
     }
   },
   "https://theautismcafe.com/": {
@@ -10184,7 +10185,7 @@
     }
   },
   "https://trueadventureseeker.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://trueadventureseeker.com/index.xml"
   },
   "https://ttdlabyrinth.wordpress.com/": {
@@ -10808,7 +10809,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -11599,13 +11600,13 @@
   },
   "https://www.mohit.dev/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://www.mohit.dev/rss.xml",
     "latestArticle": {
-      "title": "BalanceSheet: Document search and clearer account settings",
-      "url": "https://www.mohit.dev/projects/balancesheet/#log-2026-11-27",
-      "summary": "Added workspace document search by filename or record title, with support for image thumbnails and file icons when a preview is unavailable. Moved account settings into the dashboard, added display-n…",
-      "publishedAt": "2026-11-27T15:33:46.000Z"
+      "title": "Today will be zone II on the Air Bike after a recovery HRV of 77",
+      "url": "https://www.mohit.dev/posts/2026-11-28-today-will-be-zone-ii-on-the-air-bike-after-a-recovery-hrv-of-77/",
+      "summary": "After a heavy legs session and a recovery HRV of 77, the plan is a zone II Air Bike ride, aiming for 2 hours.",
+      "publishedAt": "2026-11-28T05:09:00.000Z"
     }
   },
   "https://www.mrmoneymustache.com/": {
@@ -11902,7 +11903,7 @@
     }
   },
   "https://www.retrogarden.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.retrogarden.co.uk/index.xml"
   },
   "https://www.rhyswynne.co.uk/": {

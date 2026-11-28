@@ -469,7 +469,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -846,13 +846,13 @@
   },
   "https://authorelliepotts.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://authorelliepotts.wordpress.com/feed/",
     "latestArticle": {
-      "title": "My First Sip",
-      "url": "https://authorelliepotts.wordpress.com/2026/11/27/my-furst-sip/",
-      "summary": "What’s a small, everyday moment that makes you really happy? My first sip of tea in the morning. Before the day begins demanding things from me, before the emails, errands, responsibilities, and endl…",
-      "publishedAt": "2026-11-27T18:18:54.000Z"
+      "title": "Indie-cember Is Coming! Calling All Indie Authors",
+      "url": "https://authorelliepotts.wordpress.com/2026/11/28/indie-cember-is-coming-calling-all-indie-authors/",
+      "summary": "I first shared this on Instagram. Starting December 1st, my blog will be celebrating Indie-cember, a month dedicated to shining a spotlight on the incredible creativity, passion, and hard work of ind…",
+      "publishedAt": "2026-11-28T18:18:25.000Z"
     }
   },
   "https://authorstephanieparkermckean.com/": {
@@ -932,13 +932,13 @@
   },
   "https://baileysbeerblog.blogspot.com/": {
     "status": "success",
-    "lastPublished": "2026-11-09",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://baileysbeerblog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Pipped at the post - or the lows of beer ticking",
-      "url": "https://baileysbeerblog.blogspot.com/2026/11/pipped-at-post-or-lows-of-beer-ticking.html",
-      "summary": "Just a quick post to record my annoyance recently, at missing out of beers that have almost acquire cult status. The most recent example being a Harvey’s seasonal beer brewed to celebrate Bonfire Nig…",
-      "publishedAt": "2026-11-09T21:40:18.941Z"
+      "title": "Return from the cruise",
+      "url": "https://baileysbeerblog.blogspot.com/2026/11/return-from-cruise.html",
+      "summary": "To say that our return from holiday yesterday, was a shock to the system was something of an understatement, with the wet and windy weather that greeted us, as we stepped off the ship at Southampton,…",
+      "publishedAt": "2026-11-28T18:23:22.065Z"
     }
   },
   "https://balloonstodrones.com/articles/": {
@@ -1970,9 +1970,9 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/manchester-city-interested-in-ligue-1-goalkeeper-as-gianluigi-donnarumma-concerns-grow",
-      "summary": "Officials at Manchester City are reportedly less than convinced over the performances of Gianluigi Donnarumma and are now looking back towards Ligue 1 for a potential new goalkeeping recruit.",
-      "publishedAt": "2026-11-28T16:00:04.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/report-erling-haaland-growing-frustrated-at-manchester-city-as-exit-speculation-intensifies",
+      "summary": "Erling Haaland has grown frustrated at Manchester City amid his side’s recent dry spell and poor results in recent games, with rumours swirling of a potential departure from the Etihad Stadium, accor…",
+      "publishedAt": "2026-11-28T18:00:04.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -2925,7 +2925,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3150,13 +3150,13 @@
   },
   "https://filthycasualforlife.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://filthycasualforlife.com/feed/",
     "latestArticle": {
-      "title": "Daily Prompt: Where I DON’T Belong",
-      "url": "https://filthycasualforlife.com/2026/11/27/daily-prompt-where-i-dont-belong/",
-      "summary": "@justrojie asks us to, “Ask AI to “create a realistic picture of me in a place where I absolutely DO NOT belong. You pick the location. Make it funny.” I’m cheating. This was supposed to be yesterday…",
-      "publishedAt": "2026-11-27T18:00:00.000Z"
+      "title": "Daily Prompt: Weirdest Thing I Ever Witnessed",
+      "url": "https://filthycasualforlife.com/2026/11/28/daily-prompt-weirdest-thing-i-ever-witnessed/",
+      "summary": "@justrojie asks, “What’s the weirdest thing you’ve witnessed?” This is more of what is the weirdest thing that has ever happened to me, but I guess you could say it was the weirdest thing I ever witn…",
+      "publishedAt": "2026-11-28T18:00:00.000Z"
     }
   },
   "https://fish-forsecretanimals.wiki/": {
@@ -3721,10 +3721,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://hackaday.com/feed/",
     "latestArticle": {
-      "title": "Happy Hacksgiving!*",
-      "url": "https://hackaday.com/2026/11/28/happy-hacksgiving/",
-      "summary": "It’s that time of year again where we count our blessings, and it’s absolutely the case that the global Hackaday community is one of them for me. How amazing is …read more",
-      "publishedAt": "2026-11-28T15:00:52.000Z"
+      "title": "Solid-State Thruster has High Hopes and No Moving Parts",
+      "url": "https://hackaday.com/2026/11/28/solid-state-thruster-has-high-hopes-and-no-moving-parts/",
+      "summary": "Ionic thrusters use high voltage to move air, creating thrust without any moving parts. [Plasma Channel] has been on a mission to make an ionic thruster effective enough to enable …read more",
+      "publishedAt": "2026-11-28T18:00:32.000Z"
     }
   },
   "https://hackernoon.com/": {
@@ -5156,10 +5156,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://liberalengland.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Mental health patients are declining treatment because intimate conversations are being widely shared",
-      "url": "https://liberalengland.blogspot.com/2026/11/mental-health-patients-are-declining.html",
-      "summary": "The Guardian has a story today about the London Care Record, which is a computer-based system that can be a accessed by ore than 100,000 NHS staff across the capital. It says the sharing of notes of …",
-      "publishedAt": "2026-11-28T11:29:45.586Z"
+      "title": "Climbing through the back streets to St Woolos Cathedral, Newport",
+      "url": "https://liberalengland.blogspot.com/2026/11/climbing-through-back-streets-to-st.html",
+      "summary": "As I wrote at the time, I really liked Newport Cathedral . The most striking route to it from the city centre is Stow Hill, but I was justifiably confused by the road system around the railway statio…",
+      "publishedAt": "2026-11-28T17:47:59.384Z"
     }
   },
   "https://librearts.org/": {
@@ -5401,13 +5401,13 @@
   },
   "https://loripohlmanwriter.com/": {
     "status": "success",
-    "lastPublished": "2026-11-14",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://loripohlmanwriter.com/feed/",
     "latestArticle": {
-      "title": "“The chief enemy of creativity is good sense.” Pablo Picasso",
-      "url": "https://loripohlmanwriter.com/2026/11/14/the-chief-enemy-of-creativity-is-good-sense-pablo-picasso/",
-      "summary": "My friend Stephanie has a new book out And I just sent the final draft of my WWII homefront historical fiction manuscript to my publisher. It’s a beautiful day! Thankful for this wonderful lifelong p…",
-      "publishedAt": "2026-11-14T18:33:48.000Z"
+      "title": "A Fine Suddenness",
+      "url": "https://loripohlmanwriter.com/2026/11/28/a-fine-suddenness/",
+      "summary": "Dear Ones, I’m thrilled to share that my lifelong wish has come true—my book, A Fine Suddenness, is officially released by Holand Press! I’d be honored if you’d celebrate with me by checking it out, …",
+      "publishedAt": "2026-11-28T18:31:00.000Z"
     }
   },
   "https://loureviews.blog/": {
@@ -6670,13 +6670,13 @@
   },
   "https://occupy25.com/": {
     "status": "success",
-    "lastPublished": "2026-11-26",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://occupy25.com/feed/",
     "latestArticle": {
-      "title": "Booze, Women, and Movies: Grassley’s View of Poverty",
-      "url": "https://occupy25.com/2026/11/26/booze-women-and-movies/",
-      "summary": "This Thanksgiving, we revisit Senator Chuck Grassley's controversial 2017 remarks about wealth, saving, booze, women, and movies—and examine the difference between refusing to save and simply not ear…",
-      "publishedAt": "2026-11-26T18:35:00.000Z"
+      "title": "What We Thought Bluesky Could Be",
+      "url": "https://occupy25.com/2026/11/28/what-we-thought-bluesky-could-be/",
+      "summary": "During Occupy, a post on Twitter could start an argument worth coming back to the next day. I went to Bluesky looking for that kind of conversation. Nearly two years later, here’s what I found and wh…",
+      "publishedAt": "2026-11-28T18:35:00.000Z"
     }
   },
   "https://ofcoffeethoughts.com/": {
@@ -7333,10 +7333,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://projectswordtoys.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Nehru a Dull Moment",
-      "url": "https://projectswordtoys.blogspot.com/2026/11/nehru-dull-moment.html",
-      "summary": "Im just reliving being 9 watching the debut episode of Scooby-Doo in the UK, September 1970, What a Night for a Knight. I adored Scooby-Doo, especially that first season, when I was, like many, a mon…",
-      "publishedAt": "2026-11-28T11:09:34.429Z"
+      "title": "The Annual Moonbase Festive Quiz",
+      "url": "https://projectswordtoys.blogspot.com/2026/11/the-annual-moonbase-festive-quiz.html",
+      "summary": "Well folks, it's the first weekend of Advent and the North Pole has cancelled all staff leave! It must be time for the annual Moonbase festive quiz! Subjects are toys, carols and customs, films. All …",
+      "publishedAt": "2026-11-28T17:54:18.072Z"
     }
   },
   "https://publicclockthis.blogspot.com/": {
@@ -8067,10 +8067,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://salsagadgets.com/feed/",
     "latestArticle": {
-      "title": "Samsung Galaxy S27 Ultra Could Bring Major Improvements to Night Photography and Video",
-      "url": "https://salsagadgets.com/2026/11/28/samsung-galaxy-s27-ultra-could-bring-major-improvements-to-night-photography-and-video/",
-      "summary": "Salsa Gadgets Samsung’s upcoming Galaxy S27 Ultra is reportedly set to deliver significant camera improvements, particularly in low-light photography and video recording. A new leak suggests the phon…",
-      "publishedAt": "2026-11-28T16:18:20.000Z"
+      "title": "OnePlus Pad Go 2r Launch Date Leaks Ahead of Official Announcement",
+      "url": "https://salsagadgets.com/2026/11/28/oneplus-pad-go-2r-launch-date-leaks-ahead-of-official-announcement/",
+      "summary": "Salsa Gadgets OnePlus is reportedly preparing to expand its tablet lineup with a new model called the OnePlus Pad Go 2r. The development comes nearly a year after the company introduced the OnePlus P…",
+      "publishedAt": "2026-11-28T18:19:10.000Z"
     }
   },
   "https://sandradanby.com/": {
@@ -8508,13 +8508,13 @@
   },
   "https://simonwillison.net/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://simonwillison.net/atom/everything/",
     "latestArticle": {
-      "title": "datasette-charts 0.4a0",
-      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
-      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude …",
-      "publishedAt": "2026-11-27T23:57:17.000Z"
+      "title": "Code-driven AI illustrations are more useful than images from dedicated image models",
+      "url": "https://simonwillison.net/2026/Nov/28/code-driven-ai-illustrations/",
+      "summary": "An interesting trend in frontier LLMs released in the second half of 2026 is that they tend to be much better at visual reasoning and creative \"design\" than their predecessors. If you ask these text-…",
+      "publishedAt": "2026-11-28T17:45:40.000Z"
     }
   },
   "https://sinclairtrails.com/": {
@@ -8606,10 +8606,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://smallmariofindings.tumblr.com/rss",
     "latestArticle": {
-      "title": "Officially licensed &ldquo;subtly Mario-styled&rdquo; tote bag from Japan.",
-      "url": "https://smallmariofindings.tumblr.com/post/834485961148743680",
-      "summary": "Officially licensed “subtly Mario-styled” tote bag from Japan. Source: j.pshop Main Blog | Patreon | Twitter | Bluesky | Small Findings",
-      "publishedAt": "2026-11-28T01:03:48.000Z"
+      "title": "Design from a rare officially licensed 1989 Mario long-sleeved shirt.",
+      "url": "https://smallmariofindings.tumblr.com/post/834546412857556992",
+      "summary": "Design from a rare officially licensed 1989 Mario long-sleeved shirt. Source: sebsnj Main Blog | Patreon | Twitter | Bluesky | Small Findings",
+      "publishedAt": "2026-11-28T17:04:39.000Z"
     }
   },
   "https://smallobservations.net/": {
@@ -9004,12 +9004,12 @@
   },
   "https://tangiblelife.net/": {
     "status": "success",
-    "lastPublished": "2026-11-28",
+    "lastPublished": "2026-11-21",
     "feedUrl": "https://tangiblelife.net/feed.rss",
     "latestArticle": {
-      "url": "https://tangiblelife.net/favicon-16",
-      "summary": "favicon-16",
-      "publishedAt": "2026-11-28T13:25:52.000Z"
+      "url": "https://tangiblelife.net/the-expectation-of-effort",
+      "summary": "I get where Manu is coming from… And, look, this is probably on me, because I still naively believe in human connections and some semblance of decency and kindness. Over the time I’ve known him, this…",
+      "publishedAt": "2026-11-21T16:50:00.000Z"
     }
   },
   "https://tankatuesday.com/": {
@@ -9259,12 +9259,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/latest-news/36544/match-preview-manchester-united-vs-brentford",
-      "summary": "Mauricio Pochettino’s first match at Old Trafford as Manchester United head coach takes place on Saturday afternoon when Brentford visit the Theatre of Dreams for an intriguing Premier League contest…",
-      "publishedAt": "2026-11-27T16:36:45.000Z"
+      "url": "https://thebusbybabe.sbnation.com/latest-news/36548/manchester-united-bs-brentford-live-stream-time-how-to-watch",
+      "summary": "It has been a challenging start for Pochettino on his return to English football. A four-goal beating at Liverpool was followed by a chaotic midweek draw in Lisbon that saw his Man Utd side concede t…",
+      "publishedAt": "2026-11-28T14:24:12.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -9283,10 +9283,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://thecelticblog.com/feed/",
     "latestArticle": {
-      "title": "The Record’s toothless old attack dog is barking in Celtic’s direction again.",
-      "url": "https://thecelticblog.com/2026/11/articles-and-features/records-toothless-attack-dog-snarls-celtic/",
-      "summary": "On Monday night, on the1 podcast, one of the guys asked me about the latest rantings from the The post The Record’s toothless old attack dog is barking in Celtic’s direction again. appeared first on …",
-      "publishedAt": "2026-11-28T15:36:03.000Z"
+      "title": "The SFA is in crouch mode tonight as Celtic sent another warning about Honest Mistakes.",
+      "url": "https://thecelticblog.com/2026/11/articles-and-features/sfa-sent-celtic-warning-about-honest-mistakes/",
+      "summary": "# The SFA’s statement during the Ibrox game told Celtic fans all we needed to know. I’m not The post The SFA is in crouch mode tonight as Celtic sent another warning about Honest Mistakes. appeared f…",
+      "publishedAt": "2026-11-28T18:30:05.000Z"
     }
   },
   "https://thecelticstar.com/": {
@@ -9538,10 +9538,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://thekillingtimestv.wordpress.com/feed/",
     "latestArticle": {
-      "title": "SERIES REVIEW: YAGA",
-      "url": "https://thekillingtimestv.wordpress.com/2026/11/28/series-review-yaga/",
-      "summary": "Last year it was gangland dramas; this year it seems horror is the crime sub-genre du jour. Enter YAGA, an eight-part Canadian drama, adapted from a stage play, which mixes murder mystery, supernatur…",
-      "publishedAt": "2026-11-28T11:53:38.000Z"
+      "title": "SERIES REVIEW: Murder In Galicia",
+      "url": "https://thekillingtimestv.wordpress.com/2026/11/28/series-review-murder-in-galicia/",
+      "summary": "Netflix’s Murder In Galicia is a three-part Spanish true-crime drama based on the real-life murder of Isabel Fuentes in 2015. Set in a quiet Galician village, the story begins when Irene is brutally …",
+      "publishedAt": "2026-11-28T18:39:47.000Z"
     }
   },
   "https://theloopylululog.blog/": {
@@ -9839,13 +9839,13 @@
   },
   "https://theusedlife.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://theusedlife.com/feed/",
     "latestArticle": {
-      "title": "Postcards from Christmas Past",
-      "url": "https://theusedlife.com/2026/11/27/postcards-from-christmas-past/",
-      "summary": "I mentioned in a recent post that I was thinking of creating a series of holiday postcards this year. Initially, I thought this would be a fairly simple and straightforward endeavor, especially since…",
-      "publishedAt": "2026-11-27T10:30:00.000Z"
+      "title": "The Sound and the Fury: A Review",
+      "url": "https://theusedlife.com/2026/11/28/the-sound-and-the-fury-a-review/",
+      "summary": "William Faulkner’s The Sound and the Fury chronicles the demise of the once established Compson family. In a word, I would describe this novel as “devastating,” yet not entirely without consolation o…",
+      "publishedAt": "2026-11-28T18:35:07.000Z"
     }
   },
   "https://thevikingmike.wordpress.com/": {
@@ -9917,7 +9917,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://threwmikeseyez.com/": {
@@ -10615,13 +10615,13 @@
   },
   "https://womenenvironmentcom.travel.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://womenenvironmentcom.travel.blog/feed/",
     "latestArticle": {
-      "title": "Traveling Through Perimenopause and Menopause: Practical Comfort Tips",
-      "url": "https://womenenvironmentcom.travel.blog/2026/11/27/traveling-through-perimenopause-and-menopause-practical-comfort-tips/",
-      "summary": "This is general information, not medical advice. Symptoms vary widely between women, so speak to your doctor about your own situation. Why Travel Can Feel Different Perimenopause and menopause can br…",
-      "publishedAt": "2026-11-27T18:17:28.000Z"
+      "title": "Women Weavers of Assam’s Eri and Muga Silk",
+      "url": "https://womenenvironmentcom.travel.blog/2026/11/28/women-weavers-of-assams-eri-and-muga-silk/",
+      "summary": "Three Silks, One Tradition Assam is known for three indigenous silks: golden muga, white pat and warm eri. Muga is produced only in Assam and carries a Geographical Indication tag, registered in 2007…",
+      "publishedAt": "2026-11-28T18:18:48.000Z"
     }
   },
   "https://wondyfox.blogspot.com/": {
@@ -10779,7 +10779,7 @@
     "feedUrl": "https://www.anildash.com/feed.xml"
   },
   "https://www.annaeverywhere.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-10-13",
     "feedUrl": "https://annaeverywhere.com/feed/",
     "latestArticle": {
@@ -10808,7 +10808,7 @@
     }
   },
   "https://www.architectural-review.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://www.architectural-review.com/feed",
     "latestArticle": {
@@ -10891,10 +10891,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Star Wars Mos Eisley Cantina now $38.99 at Amazon — over half price",
-      "url": "https://www.brickfanatics.com/lowest-us-price-lego-star-wars-mos-eisley-cantina",
-      "summary": "The US finally catches up with the best SMART Play saving",
-      "publishedAt": "2026-11-28T15:53:44.000Z"
+      "title": "Five design differences between LEGO Harry Potter HBO series and movie sets",
+      "url": "https://www.brickfanatics.com/differences-lego-harry-potter-series-movie-sets",
+      "summary": "Including some interview excerpts",
+      "publishedAt": "2026-11-28T18:13:49.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
@@ -11410,7 +11410,7 @@
     }
   },
   "https://www.ispreview.co.uk/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
@@ -11491,13 +11491,13 @@
   },
   "https://www.jvt.me/posts/": {
     "status": "success",
-    "lastPublished": "2026-11-25",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://www.jvt.me/posts/feed.xml",
     "latestArticle": {
-      "title": "Working around `No artifacts named \"github-pages\" were found for this workflow run.` in GitHub Actions",
-      "url": "https://www.jvt.me/posts/2026/11/25/github-pages-artifacts-bug/?utm_medium=rss&utm_source=rss",
-      "summary": "🤖 This post includes some LLM-derived content 🤖 For over a month, there's been a report of a bug in how GitHub Actions deploys to GitHub Pages , where - even if you literally just uploaded it , GitHu…",
-      "publishedAt": "2026-11-25T20:49:01.000Z"
+      "title": "Giving access to our DMs should require a two-party consent",
+      "url": "https://www.jvt.me/posts/2026/11/28/ai-dms/?utm_medium=rss&utm_source=rss",
+      "summary": "I'm someone who wants to connect with my colleagues, and have honest, frank, conversations that have the privacy they deserve - to the best of the ability to have a \"private\" discussion on on corpora…",
+      "publishedAt": "2026-11-28T18:15:37.000Z"
     }
   },
   "https://www.labrujulaverde.com/en/": {
@@ -11559,7 +11559,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11644,7 +11644,7 @@
   "https://www.neatorama.com/": {
     "status": "unknown",
     "lastPublished": "2026-10-25",
-    "feedUrl": "https://www.neatorama.com/feed/",
+    "feedUrl": "https://www.neatorama.com/feed.xml",
     "latestArticle": {
       "title": "The Other Pictures of Dorothea Lange's Migrant Mother",
       "url": "https://www.neatorama.com/2026/10/25/The-Other-Pictures-of-Dorothea-Langes-Migrant-Mother/",
@@ -11672,10 +11672,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.newsfromme.com/feed/",
     "latestArticle": {
-      "title": "Dummymandering Explained",
-      "url": "https://www.newsfromme.com/2026/11/27/dummymandering-explained/",
-      "summary": "If you'd like to understand a little more about the Blue Tsunami in the recent election, here's a good explainer on what went on in North Carolina… [...] Read More... from Dummymandering Explained",
-      "publishedAt": "2026-11-28T04:57:39.000Z"
+      "title": "Earthquake!",
+      "url": "https://www.newsfromme.com/2026/11/28/earthquake/",
+      "summary": "Shook a lot…nothing broken here as far as I can tell. The news folks here in Los Angeles can't decide right now if it was a 4.7, 5.0 or 5.2. [...] Read More... from Earthquake!",
+      "publishedAt": "2026-11-28T17:56:43.000Z"
     }
   },
   "https://www.nightmare-magazine.com/": {
@@ -11969,10 +11969,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "The Disappearing American Garage Sale — Are Online Marketplaces Really Better?",
-      "url": "https://www.savingadvice.com/articles/2026/11/28/10774542_the-disappearing-american-garage-sale-are-online-marketplaces-really-better.html",
-      "summary": "Quick Read OfferUp's 2026 resale research found that 71% of surveyed shoppers had been influenced by economic concerns when buying or selling secondhand. Online marketplaces can attract more buyers, …",
-      "publishedAt": "2026-11-28T17:24:55.000Z"
+      "title": "How Much Money Would You Need to Never Worry About an Unexpected Bill Again?",
+      "url": "https://www.savingadvice.com/articles/2026/11/28/10774544_how-much-money-would-you-need-to-never-worry-about-an-unexpected-bill-again.html",
+      "summary": "Quick Read Federal Reserve research published in May 2026 found that 59% of American adults experienced at least one major unexpected expense during the previous year. Only 38% of adults reported hav…",
+      "publishedAt": "2026-11-28T18:39:18.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -12316,10 +12316,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "The Creative Nude Photography of 4 Women Photographers",
-      "url": "https://www.thephoblographer.com/2026/11/28/the-creative-nude-photography-of-4-women-photographers/",
-      "summary": "It's a fact, women just do nude photography so much differently than men. And you can see it in the art work through and through. At times there's mystery while at other times its unexplainable. Over…",
-      "publishedAt": "2026-11-28T14:00:00.000Z"
+      "title": "Remember: Come Meet Other Photographers at the 5 Boro Foto Hang",
+      "url": "https://www.thephoblographer.com/2026/11/28/meet-other-photographers-at-the-5-boro-foto-hang-copy-2/",
+      "summary": "Based on the incredibly heartwarming turn-out that we had at the 5 Boro Foto Festival back in October, we're listening to the sounds of the garden we've started to grow. And we're announcing our firs…",
+      "publishedAt": "2026-11-28T18:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -12513,10 +12513,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.worldofreel.com/blog?format=rss",
     "latestArticle": {
-      "title": "Bob Iger Hated George Lucas' ‘Star Wars’ Sequel Scripts: “We Are Not Making These Movies\"",
-      "url": "https://www.worldofreel.com/blog/2026/11/27/bob-iger-hated-george-lucas-star-wars-sequel-scripts-we-are-not-making-these-movies",
-      "summary": "Now we know why those three movies never happened. Iger never had any intention of making them, and he made sure the contract said so.",
-      "publishedAt": "2026-11-28T02:31:02.000Z"
+      "title": "Adam Driver Joins Jenna Ortega in Leos Carax's ‘Lily May B,' Which the Director Says Will Be “In the Style of ‘Holy Motors'”",
+      "url": "https://www.worldofreel.com/blog/2026/11/28/adam-driver-joins-jenna-ortega-in-leos-caraxs-lily-may-b-which-the-director-says-will-be-in-the-style-of-holy-motors",
+      "summary": "We already know Jenna Ortega will star in Leos Carax's seventh feature, “Lily May B.” Now Carax has revealed that Adam Driver is also joining the project, which shoots this spring.",
+      "publishedAt": "2026-11-28T18:32:02.000Z"
     }
   },
   "https://www.zachleat.com/": {

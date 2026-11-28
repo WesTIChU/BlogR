@@ -339,7 +339,7 @@
     }
   },
   "https://addtowantlist.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://addtowantlist.com/index.php/feed/",
     "latestArticle": {
@@ -469,7 +469,7 @@
     }
   },
   "https://alishawhittam.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://alishawhittam.com/index.xml"
   },
   "https://alisonwilder.com/blog/": {
@@ -494,7 +494,7 @@
     }
   },
   "https://amadeuspaulussen.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://amadeuspaulussen.com//blog.rss",
     "latestArticle": {
@@ -570,7 +570,7 @@
     }
   },
   "https://andrewdoran.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://andrewdoran.uk/blog/feed/",
     "latestArticle": {
@@ -678,7 +678,7 @@
     }
   },
   "https://apiratelifefor.me/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-05",
     "feedUrl": "https://apiratelifefor.me/feed/",
     "latestArticle": {
@@ -750,9 +750,9 @@
     "status": "unavailable"
   },
   "https://artlung.com/blog/": {
-    "status": "unknown",
+    "status": "success",
     "lastPublished": "2026-11-27",
-    "feedUrl": "https://artlung.com/index.xml",
+    "feedUrl": "https://artlung.com/feed/",
     "latestArticle": {
       "title": "Pre-Turkey Scripps. Thankful for family and love and care and survival. One day at a time.",
       "url": "https://artlung.com/blog/2026/11/26/pre-turkey-scripps/",
@@ -772,7 +772,7 @@
     }
   },
   "https://artquiltmaker.com/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://artquiltmaker.com/blog/feed/",
     "latestArticle": {
@@ -1050,7 +1050,7 @@
     }
   },
   "https://bennevis.co.uk/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://bennevis.co.uk/feed/",
     "latestArticle": {
@@ -1232,7 +1232,7 @@
     }
   },
   "https://blog.firestartoys.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-27",
     "feedUrl": "https://blog.firestartoys.com/feed/",
     "latestArticle": {
@@ -1659,13 +1659,13 @@
   },
   "https://cabbieblog.com/": {
     "status": "success",
-    "lastPublished": "2026-11-23",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://cabbieblog.com/feed/",
     "latestArticle": {
-      "title": "London in Quotations: Virginia Woolf",
-      "url": "https://cabbieblog.com/2026/11/23/london-in-quotations-virginia-woolf-7/",
-      "summary": "A bad day in London is still better than a good day anywhere else - Anon",
-      "publishedAt": "2026-11-23T13:50:00.000Z"
+      "title": "Previously Posted: Beavering away",
+      "url": "https://cabbieblog.com/2026/11/28/previously-posted-beavering-away/",
+      "summary": "For those new to CabbieBlog or readers who are slightly forgetful, on Saturdays I’m republishing posts, many going back over a decade. Some will still be very relevant while others have become dated …",
+      "publishedAt": "2026-11-28T13:50:00.000Z"
     }
   },
   "https://calamitymn.blogspot.com/": {
@@ -1760,7 +1760,7 @@
     }
   },
   "https://casdinteret.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://casdinteret.com/feed/",
     "latestArticle": {
@@ -1970,9 +1970,9 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-drops-manchester-city-midfield-selection-hint-for-monumental-arsenal-clash",
-      "summary": "Enzo Maresca has issued a selection hint on who will start for Manchester City in their crucial Premier League clash with leaders Arsenal at the Emirates Stadium on Sunday.",
-      "publishedAt": "2026-11-28T12:00:34.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/transfers/not-a-closed-chapter---carlos-forbs-hints-at-manchester-city-return-in-alluding-interview",
+      "summary": "Carlos Forbs has said that “Manchester City isn’t a closed chapter” in an interview with Dutch media after the Blues recently sent scouts to watch their former player.",
+      "publishedAt": "2026-11-28T14:00:06.000Z"
     }
   },
   "https://clancatlab.com/": {
@@ -2384,7 +2384,7 @@
     }
   },
   "https://css-tricks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://css-tricks.com/feed/",
     "latestArticle": {
@@ -2494,7 +2494,7 @@
     "status": "unavailable"
   },
   "https://davideaversa.it/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://davideaversa.it/index.xml",
     "latestArticle": {
@@ -2716,7 +2716,7 @@
     }
   },
   "https://dinotoyblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://dinotoyblog.com/feed/",
     "latestArticle": {
@@ -2830,7 +2830,7 @@
     }
   },
   "https://drwho.virtadpt.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-18",
     "feedUrl": "https://drwho.virtadpt.net/atom/feed.atom",
     "latestArticle": {
@@ -2925,7 +2925,7 @@
     "status": "unavailable"
   },
   "https://ejesim.com/blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://ejesim.com/index.xml"
   },
   "https://eklausmeier.goip.de/": {
@@ -3223,13 +3223,12 @@
   },
   "https://folsommillstudio.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://folsommillstudio.com/feed/",
     "latestArticle": {
-      "title": "Spent the Day With Brady",
-      "url": "https://folsommillstudio.com/2026/11/27/spent-the-day-with-brady/",
-      "summary": "Doing some of his favorite things since I am once again coming out of retirement, starting Monday. After a yummy …",
-      "publishedAt": "2026-11-27T23:42:31.000Z"
+      "title": "Back in 2019 a RE-BLOG",
+      "url": "https://folsommillstudio.com/2026/11/28/back-in-2019-a-re-blog/",
+      "publishedAt": "2026-11-28T13:57:59.000Z"
     }
   },
   "https://fortresurgam.wordpress.com/": {
@@ -3848,7 +3847,7 @@
     }
   },
   "https://heatherburns.tech/blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-15",
     "feedUrl": "https://heatherburns.tech/feed/",
     "latestArticle": {
@@ -3896,13 +3895,13 @@
   },
   "https://herdailydoses.wordpress.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://herdailydoses.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Breathe in,breathe out",
-      "url": "https://herdailydoses.wordpress.com/2026/11/27/breathe-inbreathe-out/",
-      "summary": "What’s a small, everyday moment that makes you really happy? Every breath I take makes me happy and grateful. हर ज़रा चमकता हे अनवर ए इलाही से हर सांस यह कहती हे हम हे तो खुदा भी हे (Akbar Allahabadi)",
-      "publishedAt": "2026-11-27T13:38:43.000Z"
+      "title": "Avians",
+      "url": "https://herdailydoses.wordpress.com/2026/11/28/avians/",
+      "summary": "If you could turn any movie into a TV series, which one would it be? I would not like to turn a movie into a TV series,but I will definitely like to make a movie on birds.In winter we have beautiful …",
+      "publishedAt": "2026-11-28T14:07:51.000Z"
     }
   },
   "https://hereriver.com/hangang/?lang=en": {
@@ -3921,7 +3920,7 @@
     }
   },
   "https://hexedhearth.net/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-19",
     "feedUrl": "https://hexedhearth.net/feed/",
     "latestArticle": {
@@ -3954,7 +3953,7 @@
     }
   },
   "https://hometechhacker.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-11",
     "feedUrl": "https://hometechhacker.com/feed/",
     "latestArticle": {
@@ -4070,7 +4069,7 @@
     }
   },
   "https://iamafoodblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://iamafoodblog.com/feed/",
     "latestArticle": {
@@ -4370,7 +4369,7 @@
     }
   },
   "https://jaysbrickblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://jaysbrickblog.com/feed/",
     "latestArticle": {
@@ -4403,7 +4402,7 @@
     }
   },
   "https://jeffmackinnon.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-10-01",
     "feedUrl": "https://jeffmackinnon.com/feeds/all.atom.xml",
     "latestArticle": {
@@ -4704,10 +4703,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://justrojie.com/feed/",
     "latestArticle": {
-      "title": "anomalous",
-      "url": "https://justrojie.com/anomalous/",
-      "summary": "LINK: anomalous Currently listening to: Mask Off – Future Two cups (Cup), toast up with the gang (Gang, gang)From food stamps to a whole ‘nother domain, yaOut the bottom (Ye), I’m the livin’ proof (S…",
-      "publishedAt": "2026-11-28T08:19:00.000Z"
+      "title": "thanksgiving 2026",
+      "url": "https://justrojie.com/thanksgiving-2026/",
+      "summary": "LINK: thanksgiving 2026 Currently watching: Runner on Hulu I like Alan Ritchson in Reacher and I think his acting is great, but the writing was horrible. Maybe, I’m being a bit harsh but it was disap…",
+      "publishedAt": "2026-11-28T13:50:00.000Z"
     }
   },
   "https://kaggsysbookishramblings.wordpress.com/": {
@@ -4722,7 +4721,7 @@
     }
   },
   "https://kaigulliksen.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://kaigulliksen.com/feed.xml"
   },
@@ -4741,7 +4740,7 @@
     }
   },
   "https://karlwilcox.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://karlwilcox.com/feed.xml",
     "latestArticle": {
@@ -5293,7 +5292,7 @@
     "feedUrl": "https://livelaugh.blog/rss.xml"
   },
   "https://livenowherenow.com/en": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://livenowherenow.com/?feed=rss2",
     "latestArticle": {
@@ -5396,7 +5395,7 @@
     "latestArticle": {
       "title": "Fortnite Golden Week: Start Time, Rewards and Treasure Hours",
       "url": "https://lootrundown.com/fortnite/golden-week",
-      "summary": "Golden Week runs November 28 to December 5. See Epic's start times, the 1-in-21 treasure odds, November 28 Treasure Hours boosts and Community Day rewards.",
+      "summary": "Golden Week runs November 28 to December 5. See Epic's start times, the 1-in-21 treasure odds, the November 28 Treasure Hours times and boosts, and Community Day rewards.",
       "publishedAt": "2026-11-27T00:00:00.000Z"
     }
   },
@@ -5777,7 +5776,7 @@
     }
   },
   "https://mervi.art/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed",
     "latestArticle": {
@@ -5788,7 +5787,7 @@
     }
   },
   "https://mervi.art/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-09-07",
     "feedUrl": "https://mervi.art/feed.xml",
     "latestArticle": {
@@ -6158,7 +6157,7 @@
     }
   },
   "https://mtlcityweblog.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://mtlcityweblog.com/feed/",
     "latestArticle": {
@@ -6275,10 +6274,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "SoCS / WDP — Pure Alchemy",
-      "url": "https://mymindmappings.com/2026/11/28/socs-wdp-pure-alchemy/",
-      "summary": "For this week’s Stream of Consciousness Saturday prompt, Linda G. Hill has given us the word “stir” and invited us to use it any way we would like. I am combining my response to Linda’s prompt with a…",
-      "publishedAt": "2026-11-28T11:15:00.000Z"
+      "title": "Weekend Writing Prompt — Yesterday’s News",
+      "url": "https://mymindmappings.com/2026/11/28/weekend-writing-prompt-yesterdays-news/",
+      "summary": "This post was written for Sammi Cox’s Weekend Writing Prompt, where the challenge is to write a poem or a piece of prose in exactly 19 words using the word “wonder.” Yesterday’s WordPress stats:My bl…",
+      "publishedAt": "2026-11-28T14:27:00.000Z"
     }
   },
   "https://mysidewaysview.com/": {
@@ -6728,7 +6727,7 @@
     "status": "unavailable"
   },
   "https://omaralshal.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-22",
     "feedUrl": "https://omaralshal.com/feed/",
     "latestArticle": {
@@ -7283,7 +7282,7 @@
     }
   },
   "https://pr3p.co.uk/pr3p-blog/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://pr3p.co.uk/index.xml"
   },
   "https://preppersonly.co.uk/survival-blog": {
@@ -7495,7 +7494,7 @@
     }
   },
   "https://rarehistoricalphotos.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://rarehistoricalphotos.com/feed/",
     "latestArticle": {
@@ -7534,10 +7533,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://readceltic.com/feed/",
     "latestArticle": {
-      "title": "Which Celtic players could leave in January?",
-      "url": "https://readceltic.com/2026/11/28/which-celtic-players-could-leave-in-january/",
-      "summary": "With January approaching, I think there are a few players at Celtic whose futures could become interesting. While The post Which Celtic players could leave in January? appeared first on Read Celtic .",
-      "publishedAt": "2026-11-28T11:00:00.000Z"
+      "title": "Daily Record drags Celtic into West Ham’s £22m mess",
+      "url": "https://readceltic.com/2026/11/28/daily-record-celtic-bias-arne-engels-west-ham/",
+      "summary": "If you want an example of Daily Record Celtic bias, Friday’s headline will do. Arne Engels has had The post Daily Record drags Celtic into West Ham’s £22m mess appeared first on Read Celtic .",
+      "publishedAt": "2026-11-28T14:07:53.000Z"
     }
   },
   "https://realfishworld.com/": {
@@ -7564,13 +7563,13 @@
   },
   "https://recipes.mihobu.net/": {
     "status": "success",
-    "lastPublished": "2026-11-28",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://recipes.mihobu.net/rss.xml",
     "latestArticle": {
-      "title": "Perfect Orange Cake",
-      "url": "https://recipes.mihobu.net/perfect-orange-cake",
-      "summary": "Note: This recipe is still in testing. Orange Cream Filling In a small saucepan, melt over medium-low heat: 2 Tbsp butter Whisk in: 4 Tbsp corn starch zest of 1 orange 1 cup orange juice 1 cup granul…",
-      "publishedAt": "2026-11-28T13:04:00.000Z"
+      "title": "Thanksgiving Turkey 2026",
+      "url": "https://recipes.mihobu.net/thanksgiving-turkey-2026",
+      "summary": "In his Milk Street blog post , Christopher Kimball writes: Turkey legs need to be cooked to at least 195°F, not 175°F, to make the dark meat edible. We’re talking tendons, connective tissue, cartilag…",
+      "publishedAt": "2026-11-27T17:13:00.000Z"
     }
   },
   "https://reclaimingparadise.wordpress.com/": {
@@ -8068,10 +8067,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://salsagadgets.com/feed/",
     "latestArticle": {
-      "title": "iPhone 18 and iPhone 18e Production Delayed Again, New Leak Claims",
-      "url": "https://salsagadgets.com/2026/11/28/iphone-18-and-iphone-18e-production-delayed-again-new-leak-claims/",
-      "summary": "Salsa Gadget Apple’s upcoming iPhone 18 and iPhone 18e models are reportedly facing another production delay, potentially affecting their expected launch schedule. Neither device has reportedly enter…",
-      "publishedAt": "2026-11-28T13:09:06.000Z"
+      "title": "Samsung Developing Vision Mode and Auto Portrait Features for Its Camera App",
+      "url": "https://salsagadgets.com/2026/11/28/samsung-developing-vision-mode-and-auto-portrait-features-for-its-camera-app/",
+      "summary": "Salsa Gadgets Samsung is reportedly working on two new features for its Camera app, called Vision mode and Auto portrait. References to both features have been discovered in the recently released One…",
+      "publishedAt": "2026-11-28T14:13:03.000Z"
     }
   },
   "https://sandradanby.com/": {
@@ -8242,13 +8241,13 @@
   },
   "https://scottatirrell.com/": {
     "status": "success",
-    "lastPublished": "2026-11-21",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://scottatirrell.com/feed/",
     "latestArticle": {
-      "title": "Concerning the Tempest South of Battenridge",
-      "url": "https://scottatirrell.com/2026/11/21/concerning-the-tempest-south-of-battenridge/",
-      "summary": "From the Governor of Battenridge to Grand Marshal Astros, concerning a tempest upon the southern road. To the esteemed Grand Marshal, I know well that the rooting out of dissenters, troublemakers, an…",
-      "publishedAt": "2026-11-21T13:50:30.000Z"
+      "title": "Finding Erikini",
+      "url": "https://scottatirrell.com/2026/11/28/finding-erikini/",
+      "summary": "I’ve just gotten Sylvanus: Swords and Sons out into the world, and now I’m feeling some urgency to let Erikini have her turn in the sun. She was a major character in Koen: Quills from the Raven’s Nes…",
+      "publishedAt": "2026-11-28T13:50:00.000Z"
     }
   },
   "https://scribbles.biz/": {
@@ -8725,7 +8724,7 @@
     }
   },
   "https://stamphacks.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://stamphacks.com/wp/?feed=rss2",
     "latestArticle": {
@@ -8739,7 +8738,7 @@
     "status": "unavailable"
   },
   "https://startprepping.co.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://startprepping.co.uk/index.xml"
   },
   "https://steffordiii.wordpress.com/": {
@@ -8754,7 +8753,7 @@
     }
   },
   "https://stephenbodio.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-28",
     "feedUrl": "https://stephenbodio.com/feed/",
     "latestArticle": {
@@ -8950,10 +8949,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://syl65.wordpress.com/feed/",
     "latestArticle": {
-      "title": "“Hello There”",
-      "url": "https://syl65.wordpress.com/2026/11/28/hello-there/",
-      "summary": "💙 When did hellos get so expensive? Face to face Eye to eye Nothing said Wow, has life become that serious Non acknowledgement Blank stares The dreaded zombie walk on by I still believe hellos are fr…",
-      "publishedAt": "2026-11-28T13:44:05.000Z"
+      "title": "Music Saturday 🎧 The Cars “Hello Again”",
+      "url": "https://syl65.wordpress.com/2026/11/28/music-saturday-%f0%9f%8e%a7-the-cars-hello-again/",
+      "summary": "The Cars were an American rock band formed in Boston in 1976. Emerging from the new wave scene in the late 1970s, they consisted of Ric Ocasek (rhythm guitar), Benjamin Orr (bass guitar), Elliot East…",
+      "publishedAt": "2026-11-28T14:05:36.000Z"
     }
   },
   "https://tagn.wordpress.com/": {
@@ -9175,10 +9174,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://theantileslie.com/feed/",
     "latestArticle": {
-      "title": "Dear Mei-Ann Chen",
-      "url": "https://theantileslie.com/2026/11/28/dear-mei-ann-chen/",
-      "summary": "Dear Mei-Ann, Through the years I’ve followed your career, and I am flat impressed by everything you’ve done for those kids. Thank God you were there, because I was one of those kids once too. You we…",
-      "publishedAt": "2026-11-28T13:20:47.000Z"
+      "title": "Tryst",
+      "url": "https://theantileslie.com/2026/11/28/tryst/",
+      "summary": "two signs from the universe:",
+      "publishedAt": "2026-11-28T14:11:01.000Z"
     }
   },
   "https://theautismcafe.com/": {
@@ -9260,12 +9259,12 @@
   },
   "https://thebusbybabe.sbnation.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://thebusbybabe.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://thebusbybabe.sbnation.com/latest-news/36544/match-preview-manchester-united-vs-brentford",
-      "summary": "Mauricio Pochettino’s first match at Old Trafford as Manchester United head coach takes place on Saturday afternoon when Brentford visit the Theatre of Dreams for an intriguing Premier League contest…",
-      "publishedAt": "2026-11-27T16:36:45.000Z"
+      "url": "https://thebusbybabe.sbnation.com/latest-news/36548/manchester-united-bs-brentford-live-stream-time-how-to-watch",
+      "summary": "It has been a challenging start for Pochettino on his return to English football. A four-goal beating at Liverpool was followed by a chaotic midweek draw in Lisbon that saw his Man Utd side concede t…",
+      "publishedAt": "2026-11-28T14:24:12.000Z"
     }
   },
   "https://thecaptivereader.com/": {
@@ -9918,7 +9917,7 @@
     }
   },
   "https://thoughts.uncountable.uk/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://thoughts.uncountable.uk/index.xml"
   },
   "https://threwmikeseyez.com/": {
@@ -9990,7 +9989,7 @@
     "status": "unavailable"
   },
   "https://tomsbiketrip.com/toms-bike-trip-continues-uk-edition/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-08-05",
     "feedUrl": "https://tomsbiketrip.com/feed/",
     "latestArticle": {
@@ -10071,7 +10070,7 @@
     }
   },
   "https://tracydurnell.com/mind-garden/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-28",
     "feedUrl": "https://tracydurnell.com/feed/",
     "latestArticle": {
@@ -10219,7 +10218,7 @@
     "feedUrl": "https://tyzbit.blog/rss.xml"
   },
   "https://ukprepperhub.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-28",
     "feedUrl": "https://ukprepperhub.co.uk/feed/",
     "latestArticle": {
@@ -10325,10 +10324,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://vhistory.wordpress.com/comments/feed/",
     "latestArticle": {
-      "title": "Comment on K9 – Whistle and I’ll Come to You – QI Christmas Special – The Goodies and the Beanstalk – A Child’s Christmases in Wales – 24 Dec 2010 by K9 – An American Tail – Just William – Strictly Ballroom – Peter Pan – Royal Institution Christmas Lectures 2010 – QI XL Christmas Special – Jason Manford: Live – The Goodies – Andy Parsons: Britain&#8",
-      "url": "https://vhistory.wordpress.com/2026/11/23/k9-whistle-and-ill-come-to-you-qi-christmas-special-the-goodies-and-the-beanstalk-a-childs-christmases-in-wales-24-dec-2010/comment-page-1/#comment-22067",
-      "summary": "[…] it’s QI XL Christmas Special – Hocus-Pocus which we saw earlier in its 30 minute […]",
-      "publishedAt": "2026-11-28T00:00:24.000Z"
+      "title": "Comment on Film 93 – tape 1447 by Eran Riklis",
+      "url": "https://vhistory.wordpress.com/2016/06/08/film-93-tape-1447/comment-page-1/#comment-22068",
+      "summary": "Dear Jim, My name is Eran Riklis, and I am the director of the Israeli feature film CUP FINAL (1991). I have been trying for some time to locate Barry Norman’s television review of my film. I was del…",
+      "publishedAt": "2026-11-28T14:23:30.000Z"
     }
   },
   "https://victormulder.com/": {
@@ -10524,13 +10523,13 @@
   },
   "https://wellafter50.page/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://sturdyyears.com/feed/",
     "latestArticle": {
-      "title": "Can You Hang On? What a Simple Dead Hang Says About Your Strength",
-      "url": "https://sturdyyears.com/dead-hang-benefits/",
-      "summary": "You grab hold of a bar and just hang there, and that's all it is. How long you can hang on says a whole lot about how strong you are.",
-      "publishedAt": "2026-11-27T14:00:00.000Z"
+      "title": "The Best Dogs for Seniors Living Alone: Calm, Easy and Good Company",
+      "url": "https://sturdyyears.com/best-dogs-for-seniors/",
+      "summary": "The best dog is the one whose get-up-and-go matches yours. Calm, easy breeds like the Cavalier King Charles Spaniel, Shih Tzu and French Bulldog fit a quieter home, and if you still like a good long …",
+      "publishedAt": "2026-11-28T14:00:00.000Z"
     }
   },
   "https://wheelsbot.dev/": {
@@ -10669,13 +10668,13 @@
   },
   "https://writingwrongs.blog/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://writingwrongs.blog/feed/",
     "latestArticle": {
-      "title": "30 Days of Bookish Gratitude: BookFunnel",
-      "url": "https://writingwrongs.blog/2026/11/27/30-days-of-bookish-gratitude-bookfunnel/",
-      "summary": "I’m highlighting BookFunnel in its own post because it deserves one. Back in the olden days, if you wanted to send a reader a short story for signing up for your newsletter, it was not easy. You coul…",
-      "publishedAt": "2026-11-27T14:30:00.000Z"
+      "title": "30 Days of Bookish Gratitude: Weekends and Rest",
+      "url": "https://writingwrongs.blog/2026/11/28/30-days-of-bookish-gratitude-weekends-and-rest/",
+      "summary": "I made a deal with myself when I started this full-time writing thing: I would take weekends off. I would rest. That being said, I’ve been known to open Photoshop on the weekends or decide—hey!—let’s…",
+      "publishedAt": "2026-11-28T14:30:00.000Z"
     }
   },
   "https://wrongquestions.blogspot.com/": {
@@ -10704,7 +10703,7 @@
     }
   },
   "https://www.adamynyrardd.cymru/en/blog-en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2025-07-31",
     "feedUrl": "https://www.adamynyrardd.cymru/en/feed/",
     "latestArticle": {
@@ -10794,7 +10793,7 @@
     "status": "unavailable"
   },
   "https://www.appplain.com/": {
-    "status": "unknown",
+    "status": "unavailable",
     "feedUrl": "https://www.appplain.com/xmlrpc.php?rsd"
   },
   "https://www.arcadeattack.co.uk/": {
@@ -10892,21 +10891,21 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.brickfanatics.com/feed",
     "latestArticle": {
-      "title": "LEGO Ideas meets Boy Meets World with latest 10K fan-designed submission",
-      "url": "https://www.brickfanatics.com/lego-ideas-meets-boy-meets-world-with-latest-10k-fan-designed-submission",
-      "summary": "Coming-of-age creation",
-      "publishedAt": "2026-11-28T11:55:19.000Z"
+      "title": "LEGO Architecture New York drops to lowest price ever: 33% off at £87.74 on Amazon",
+      "url": "https://www.brickfanatics.com/lego-architecture-new-york-drops-to-lowest-price",
+      "summary": "Start spreading the news, you're leaving today",
+      "publishedAt": "2026-11-28T13:36:14.000Z"
     }
   },
   "https://www.brothers-brick.com/": {
     "status": "success",
-    "lastPublished": "2026-11-25",
+    "lastPublished": "2026-11-27",
     "feedUrl": "https://feeds.feedburner.com/TheBrothersBrick",
     "latestArticle": {
-      "title": "Space or Castle: Why not both?",
-      "url": "https://www.brothers-brick.com/2026/11/25/space-or-castle-why-not-both/",
-      "summary": "Choosing between Space and Castle may be an impossible choice for some, but to others it’s merely a challenge to be subverted. Castle-building legend Ben Hauger (ZCerberus) brings the realm of fantas…",
-      "publishedAt": "2026-11-25T14:00:23.000Z"
+      "title": "We’ll risk this wasp’s sting for a look at its beautiful flower",
+      "url": "https://www.brothers-brick.com/2026/11/27/well-risk-this-wasps-sting-for-a-look-at-its-beautiful-flower/",
+      "summary": "A wise man once wrote: to make a great LEGO build, you don’t necessarily need many parts; you just need many of one part. I’m pretty sure I read that on this website, actually, wisdom notwithstanding…",
+      "publishedAt": "2026-11-27T16:00:12.000Z"
     }
   },
   "https://www.browserutils.dev/": {
@@ -10983,10 +10982,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.cleverdude.com/feed/",
     "latestArticle": {
-      "title": "We Compared the Cost of Owning a Pickup Truck With Renting One When Needed",
-      "url": "https://www.cleverdude.com/content/we-compared-the-cost-of-owning-a-pickup-truck-with-renting-one-when-needed/",
-      "summary": "A pickup truck can spend 350 days a year doing absolutely nothing that a regular car or SUV couldn’t handle. Then comes moving day, a furniture purchase, a load of mulch, or a refrigerator that refus…",
-      "publishedAt": "2026-11-28T13:41:24.000Z"
+      "title": "Why Some Homeowners Are Removing Features They Once Paid Thousands to Install",
+      "url": "https://www.cleverdude.com/content/why-some-homeowners-are-removing-features-they-once-paid-thousands-to-install/",
+      "summary": "A swimming pool can turn a backyard into a vacation destination. A giant soaking tub can make an ordinary bathroom feel like a luxury hotel. An elaborate outdoor kitchen can transform summer cookouts…",
+      "publishedAt": "2026-11-28T14:26:55.000Z"
     }
   },
   "https://www.cleverhiker.com/blog": {
@@ -11021,13 +11020,13 @@
   },
   "https://www.creepypasta.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://www.creepypasta.com/feed/",
     "latestArticle": {
-      "title": "Proxima",
-      "url": "https://www.creepypasta.com/proxima/",
-      "summary": "My Name is David Perry, I am an Ex-pilot of the 3rd Battalion, 160th SOAR. I am one of two survivors of the Outreach space program which started on October 24th 2056. Never Heard of it? I don’t blame…",
-      "publishedAt": "2026-11-27T14:30:00.000Z"
+      "title": "Floss",
+      "url": "https://www.creepypasta.com/floss/",
+      "summary": "I keep lying to my Dentist. I’ve been doing it for years. There’s no way he believes a word of it, while he’s staring down at me, barely more than a shadowy outline next to the bright light that expo…",
+      "publishedAt": "2026-11-28T14:30:00.000Z"
     }
   },
   "https://www.dailycartoonist.com/": {
@@ -11096,7 +11095,7 @@
     }
   },
   "https://www.derekseaman.com/": {
-    "status": "unavailable",
+    "status": "success",
     "lastPublished": "2026-11-20",
     "feedUrl": "https://www.derekseaman.com/comments/feed",
     "latestArticle": {
@@ -11137,10 +11136,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.disneytouristblog.com/feed/",
     "latestArticle": {
-      "title": "Disney at the 100th Macy’s Thanksgiving Day Parade in 2026: Full Float & Balloon Lineup, History & More",
-      "url": "https://www.disneytouristblog.com/disney-at-the-100th-macys-thanksgiving-day-parade-in-2026-balloon-float-lineup-builds-90-year-history/",
-      "summary": "Disney fans know and love traditions, and few things are as time-tested as the Macy’s Thanksgiving Day Parade. Even for those of us who started celebrating Christmas weeks ago, watching the balloons,…",
-      "publishedAt": "2026-11-28T13:30:16.000Z"
+      "title": "Buy One, Get One Free Flights in 2027 via Southwest Companion Pass for a Limited Time!",
+      "url": "https://www.disneytouristblog.com/buy-one-get-one-free-flights-in-2027-via-southwest-companion-pass-for-a-limited-time/",
+      "summary": "A popular airfare deal is back for now through November 29, 2026! You can score buy one, get one free flights via the Southwest Companion Pass for a limited time in early 2027 after booking a single …",
+      "publishedAt": "2026-11-28T14:22:44.000Z"
     }
   },
   "https://www.dutchgenealogy.nl/blog/": {
@@ -11366,7 +11365,7 @@
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-27",
     "feedUrl": "https://www.ianvisits.co.uk/articles/feed/",
     "latestArticle": {
@@ -11502,7 +11501,7 @@
     }
   },
   "https://www.labrujulaverde.com/en/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.labrujulaverde.com/en/feed/",
     "latestArticle": {
@@ -11560,7 +11559,7 @@
     }
   },
   "https://www.madornomad.com/": {
-    "status": "unavailable",
+    "status": "unknown",
     "feedUrl": "https://www.madornomad.com/index.xml"
   },
   "https://www.manton.org/": {
@@ -11621,7 +11620,7 @@
     }
   },
   "https://www.mrsmummypenny.co.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-26",
     "feedUrl": "https://www.mrsmummypenny.co.uk/feed/",
     "latestArticle": {
@@ -11654,7 +11653,7 @@
     }
   },
   "https://www.neverendingfootsteps.com/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-01",
     "feedUrl": "https://www.neverendingfootsteps.com/feed/",
     "latestArticle": {
@@ -11702,7 +11701,7 @@
     }
   },
   "https://www.nomadicmatt.com/travel-blog/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-07-28",
     "feedUrl": "https://www.nomadicmatt.com/feed/",
     "latestArticle": {
@@ -11970,10 +11969,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.savingadvice.com/feed/",
     "latestArticle": {
-      "title": "The Medicare Coverage Gap That Can Turn a Short Hospital Stay Into a Financial Problem",
-      "url": "https://www.savingadvice.com/articles/2026/11/28/10774421_the-medicare-coverage-gap-that-can-turn-a-short-hospital-stay-into-a-financial-problem.html",
-      "summary": "Quick Read Spending three nights in a hospital doesn't necessarily satisfy Medicare's three-day inpatient requirement. Emergency room and observation hours don't count toward the qualifying stay. Obs…",
-      "publishedAt": "2026-11-28T13:35:10.000Z"
+      "title": "Why Some Retirees Are Going Back to Work for Health Insurance, Not a Paycheck",
+      "url": "https://www.savingadvice.com/articles/2026/11/28/10774425_why-some-retirees-are-going-back-to-work-for-health-insurance-not-a-paycheck.html",
+      "summary": "Quick Read Some retirees return to work because employer health insurance can cost less than individual coverage. People retiring before age 65 may face several years without Medicare. Medicare gener…",
+      "publishedAt": "2026-11-28T14:20:20.000Z"
     }
   },
   "https://www.scottishstoater.com/": {
@@ -12102,7 +12101,7 @@
     }
   },
   "https://www.tabletenniscoaching.com/blog": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-23",
     "feedUrl": "https://www.tabletenniscoaching.com/rss.xml",
     "latestArticle": {
@@ -12314,13 +12313,13 @@
   },
   "https://www.thephoblographer.com/": {
     "status": "success",
-    "lastPublished": "2026-11-27",
+    "lastPublished": "2026-11-28",
     "feedUrl": "https://www.thephoblographer.com/feed/",
     "latestArticle": {
-      "title": "Members Now Get $10 off Street Photography Magazine Subscription",
-      "url": "https://www.thephoblographer.com/2026/11/27/members-now-get-10-off-street-photogrpahy-magazine-subscription/",
-      "summary": "If you're a Phoblographer member, then you should know that you now have a brand new benefit: $10 off a yearly subscription to Street Photography Magazine. To get your benefit, be sure that you've pu…",
-      "publishedAt": "2026-11-27T22:00:00.000Z"
+      "title": "The Creative Nude Photography of 4 Women Photographers",
+      "url": "https://www.thephoblographer.com/2026/11/28/the-creative-nude-photography-of-4-women-photographers/",
+      "summary": "It's a fact, women just do nude photography so much differently than men. And you can see it in the art work through and through. At times there's mystery while at other times its unexplainable. Over…",
+      "publishedAt": "2026-11-28T14:00:00.000Z"
     }
   },
   "https://www.theplanetd.com/": {
@@ -12357,7 +12356,7 @@
     }
   },
   "https://www.timboucher.ca/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-14",
     "feedUrl": "https://www.timboucher.ca/comments/feed/",
     "latestArticle": {
@@ -12372,10 +12371,10 @@
     "lastPublished": "2026-11-28",
     "feedUrl": "https://www.timeextension.com/feeds/latest",
     "latestArticle": {
-      "title": "Easter Egg Discovered in Williams' Arcade Classic Bubbles Over 40 Years After Release",
-      "url": "https://www.timeextension.com/#article-209546",
-      "summary": "This. Is. Bubbles! A secret that has gone undetected for over four decades was recently discovered in Williams' 1983 arcade hit Bubbles . Coder Dan Gibson uncovered the hidden screen while experiment…",
-      "publishedAt": "2026-11-28T12:00:00.000Z"
+      "title": "PS1 Anime Puzzler Mezase!! Senkyu-Oh Drops Its Battle Balls into the Console Archives",
+      "url": "https://www.timeextension.com/#article-209607",
+      "summary": "Quit bustin' my bawls... This week's Console Archives entry is a game looking to engage the little grey cells, with the arrival of Seibu Kaihatsu's PS1 puzzler Mezase!! Senkyu-Oh , also known by its …",
+      "publishedAt": "2026-11-28T14:00:00.000Z"
     }
   },
   "https://www.tootlepedal.com/": {
@@ -12461,7 +12460,7 @@
     }
   },
   "https://www.wansbroughs-cruise-blog.me.uk/": {
-    "status": "success",
+    "status": "unavailable",
     "lastPublished": "2026-11-25",
     "feedUrl": "https://www.wansbroughs-cruise-blog.me.uk/feed/",
     "latestArticle": {

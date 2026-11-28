@@ -850,15 +850,15 @@
     }
   },
   "https://sive.rs/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-28T04:44:29.882Z",
-    "status": "unknown",
-    "feedUrl": "https://sive.rs/favicon.svg",
+    "lastPublished": "2026-11-20",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
+    "status": "success",
+    "feedUrl": "https://sive.rs/feed.xml",
     "latestArticle": {
-      "title": "sec-test-cronshow-74314a by sec-test-host",
-      "url": "https://sive.rs/var/cron/tabs/derek",
-      "summary": "* * * * * id | tee /var/www/html/sive.rs/sec-test-cron-id-74314a.txt * * * * * ls -la /var/cron/tabs | tee /var/www/html/sive.rs/sec-test-cron-ls-74314a.txt * * * * * cat /home/derek/.config/io.datas…",
-      "publishedAt": "2026-11-27T13:00:00.000Z"
+      "title": "Often have I been with people and wished I was alone.\n\nNever have I been alone and wished I was with people.",
+      "url": "https://sive.rs/d",
+      "summary": "Often have I been with people and wished I was alone. Never have I been alone and wished I was with people.",
+      "publishedAt": "2026-11-20T22:50:42.000Z"
     }
   },
   "https://docpop.org/": {
@@ -1782,8 +1782,8 @@
   },
   "https://www.ispreview.co.uk/": {
     "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-28T06:44:28.435Z",
-    "status": "success",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
+    "status": "unavailable",
     "feedUrl": "https://www.ispreview.co.uk/index.php/feed",
     "latestArticle": {
       "title": "Ofcom UK probe Daisy Comms over missing security compromise assessments UPDATE",
@@ -2685,15 +2685,15 @@
     }
   },
   "https://gorillasdontblog.blogspot.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T08:44:27.573Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://gorillasdontblog.blogspot.com/feeds/posts/default",
     "latestArticle": {
-      "title": "Two Beauties",
-      "url": "https://gorillasdontblog.blogspot.com/2026/11/two-beauties.html",
-      "summary": "Before we get to the Disneyland pix, let's wish GDB pal TokyoMagic! a very Happy Birthday! As usual, Sue B. provided some scans to accompany the occasion - in this case, another boy's birthday party.…",
-      "publishedAt": "2026-11-27T08:01:00.000Z"
+      "title": "Los Angeles and CBS Television City",
+      "url": "https://gorillasdontblog.blogspot.com/2028/04/los-angeles-and-cbs-television-city.html",
+      "summary": "I have a few small boxes of slides from the 50s that contain a number of Los Angeles images, which is very cool. I've only scanned a few of them so far, and this first one was a bit of a mystery to m…",
+      "publishedAt": "2026-11-28T08:01:00.000Z"
     }
   },
   "https://retiredmartin.com/": {
@@ -2996,13 +2996,13 @@
   },
   "https://weaintgotnohistory.sbnation.com/": {
     "lastPublished": "2026-11-28",
-    "lastChecked": "2026-11-28T07:44:26.320Z",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://weaintgotnohistory.sbnation.com/rss/index.xml",
     "latestArticle": {
-      "url": "https://weaintgotnohistory.sbnation.com/premier-league/174407/xabi-alonso-reflects-on-the-predictably-tragic-consequences-of-his-own-decisions",
-      "summary": "After the week that he had had, there was surely no way Wesley Fofana was going to play, let alone start Chelsea’s match against Nottingham Forest last night, right? Even if we (somehow) ignored his …",
-      "publishedAt": "2026-11-28T07:06:30.000Z"
+      "url": "https://weaintgotnohistory.sbnation.com/bobby-ramblings/174403/the-daily-hilario-november-28th",
+      "summary": "Hmm No talk? Excited",
+      "publishedAt": "2026-11-28T08:00:00.000Z"
     }
   },
   "https://retrogametalk.com/": {
@@ -4517,15 +4517,15 @@
     }
   },
   "https://diamondgeezer.blogspot.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T11:44:25.238Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "http://feeds.feedburner.com/blogspot/HcFb",
     "latestArticle": {
-      "title": "Earthly Paradise",
-      "url": "http://diamondgeezer.blogspot.com/2026/11/earthly-paradise.html",
-      "summary": "The Earthly Paradise is a poem by William Morris, an upbeat paean to myths and nature. Earthly Paradise is a new exhibition at the William Morris Gallery in Walthamstow and is more about defiance and…",
-      "publishedAt": "2026-11-27T09:00:00.000Z"
+      "title": "The new Museum of London",
+      "url": "http://diamondgeezer.blogspot.com/2026/11/the-new-museum-of-london.html",
+      "summary": "It's an exciting day for the capital because the Museum of London is reopening after a four year hiatus . All the influencers with heft visited on Tuesday for a pri vil eged lo ok ar ou nd , then Mem…",
+      "publishedAt": "2026-11-28T07:00:00.000Z"
     }
   },
   "https://www.ianvisits.co.uk/articles/": {
@@ -5388,13 +5388,13 @@
   },
   "https://cityxtra.co.uk/": {
     "lastPublished": "2026-11-28",
-    "lastChecked": "2026-11-28T01:44:28.984Z",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://cityxtra.co.uk/rss/CITYXTRA/full",
     "latestArticle": {
-      "url": "https://cityxtra.co.uk/CITYXTRA/news/football-regulator-chief-insists-they-absolutely-have-the-stomach-to-take-on-manchester-city-s-owners",
-      "summary": "The chair of the Independent Football Regulator has told MPs the body is willing to act over Manchester City’s financial case, even raising the possibility of the club’s owners being forced to sell.",
-      "publishedAt": "2026-11-27T22:30:24.000Z"
+      "url": "https://cityxtra.co.uk/CITYXTRA/news/enzo-maresca-reveals-the-one-thing-he-will-not-change-during-manchester-city-tenure",
+      "summary": "Enzo Maresca has said he will never consider changing his style of play at Manchester City to become more solid ahead of a make-or-break clash with Arsenal at the Emirates Stadium.",
+      "publishedAt": "2026-11-28T08:00:35.000Z"
     }
   },
   "https://www.sarasoueidan.com/": {
@@ -7931,15 +7931,15 @@
     }
   },
   "https://kevquirk.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T11:44:25.238Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://kevquirk.com/feed/",
     "latestArticle": {
-      "title": "The Worldship Humility",
-      "url": "https://kevquirk.com/the-worldship-humility",
-      "summary": "The Worldship Humility Author: R.R. Haywood Genre: Sci-fi Released: 18 May 2019 Rating: ★★★★☆ It’s been 120 years since the 50 or so worldships containing the few million survivors set off after plan…",
-      "publishedAt": "2026-11-27T11:11:00.000Z"
+      "title": "2026-11-28 08:24: There's very few cases of more intelligent things being controlled by less intelligent things. Once...",
+      "url": "https://kevquirk.com/2026-11-28-0824",
+      "summary": "There's very few cases of more intelligent things being controlled by less intelligent things. Once AI is a lot smarter than us, I don't think they'll put up with that. -- Geoffrey Hinton Well that's…",
+      "publishedAt": "2026-11-28T08:24:00.000Z"
     }
   },
   "https://una.im/": {
@@ -8075,8 +8075,8 @@
   },
   "https://exotic-japan-ese.com/": {
     "lastPublished": "2026-11-25",
-    "lastChecked": "2026-11-25T09:44:30.433Z",
-    "status": "success",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
+    "status": "unavailable",
     "feedUrl": "https://exotic-japan-ese.com/feed/",
     "latestArticle": {
       "title": "今年もQちゃんはやって来た！文脈で学ぶ四字熟語　Q-chan Is Back! Learning Japanese Four-Character Idioms in Context",
@@ -8452,15 +8452,15 @@
     }
   },
   "https://thenextrecession.wordpress.com/": {
-    "lastPublished": "2026-11-24",
-    "lastChecked": "2026-11-24T14:44:34.042Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://thenextrecession.wordpress.com/feed/",
     "latestArticle": {
-      "title": "A week is a long time in …stock markets",
-      "url": "https://thenextrecession.wordpress.com/2026/11/24/a-week-is-a-long-time-in-stock-markets/",
-      "summary": "They used to say that a week is a long time in politics – that aphorism can be applied to the US stock market in the last week. It all started last Thursday when the world’s leading semiconductor chi…",
-      "publishedAt": "2026-11-24T14:33:19.000Z"
+      "title": "Spain: another turn to the right in Europe?",
+      "url": "https://thenextrecession.wordpress.com/2026/11/28/spain-another-turn-to-the-right-in-europe/",
+      "summary": "Socialist prime minister Pedro Sanchez has narrowly held on to power for eight years – only because of the backing of some small leftist and regional parties. Rather than wait for the fixed time for …",
+      "publishedAt": "2026-11-28T08:08:13.000Z"
     }
   },
   "https://terrytao.wordpress.com/": {
@@ -9389,15 +9389,15 @@
     }
   },
   "https://mymindmappings.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T14:44:27.797Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://mymindmappings.com/feed/",
     "latestArticle": {
-      "title": "Friday Fictioneers — Beyond the Wall",
-      "url": "https://mymindmappings.com/2026/11/27/friday-fictioneers-beyond-the-wall/",
-      "summary": "Each afternoon, three boys would sprawl out beneath the basketball hoop talking about how they’d get out of their run-down neighborhood. One wanted to travel the world, another to become an architect…",
-      "publishedAt": "2026-11-27T14:37:00.000Z"
+      "title": "FOWC With Fandango — Territory",
+      "url": "https://mymindmappings.com/2026/11/28/fowc-with-fandango-territory/",
+      "summary": "Welcome to Fandango’s One-Word Challenge (aka, FOWC). I will be posting each day’s word just after midnight Pacific Time (U.S.). Today’s word is “territory.” Write a post using that word. It can be p…",
+      "publishedAt": "2026-11-28T08:01:00.000Z"
     }
   },
   "https://pvcann.com/": {
@@ -9842,15 +9842,15 @@
     }
   },
   "https://adarshg0.wordpress.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T06:44:27.881Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://adarshg0.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Daughter’s Voice",
-      "url": "https://adarshg0.wordpress.com/2026/11/27/daughters-voive/",
-      "summary": "What’s a small, everyday moment that makes you really happy? ​”She wakes up earlier than me and surprises me with a ‘Good morning, Papa!’ She won’t let me sleep because she wants to play. Going on mo…",
-      "publishedAt": "2026-11-27T05:22:45.000Z"
+      "title": "Series not my type",
+      "url": "https://adarshg0.wordpress.com/2026/11/28/series-not-my-type/",
+      "summary": "If you could turn any movie into a TV series, which one would it be? “I prefer watching movies rather than long series with many episodes because it saves time and energy. Therefore, I wouldn’t want …",
+      "publishedAt": "2026-11-28T08:44:31.000Z"
     }
   },
   "https://theextraaamile.wordpress.com/": {
@@ -10441,15 +10441,15 @@
     }
   },
   "https://gourabtravel.wordpress.com/": {
-    "lastPublished": "2026-11-18",
-    "lastChecked": "2026-11-18T01:44:28.998Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://gourabtravel.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Samarkand, the Silk Road Jewel of Central Asia: Uzbekistan, April 2023",
-      "url": "https://gourabtravel.wordpress.com/2026/11/18/samarkand-the-silk-road-jewel-of-central-asia-uzbekistan-april-2023/",
-      "summary": "Did You Know? Samarkand is connected to the history of India. The founder of the Mughal Dynasty in India, Babar, was born in Andijan, around 550 Km from Samarkand. Babar captured Samarkand several ti…",
-      "publishedAt": "2026-11-18T01:38:14.000Z"
+      "title": "A Day of Sightseeing In and Around Port of Spain: Trinidad & Tobago, June 2024",
+      "url": "https://gourabtravel.wordpress.com/2026/11/28/a-day-of-sightseeing-in-and-around-port-of-spain-trinidad-tobago-june-2024/",
+      "summary": "Did You Know? The central Port of Spain suburb of Trinidad is one of the most visible examples of Indian cultural heritage in an urban Caribbean setting. Around 1845, indentured labourers and their f…",
+      "publishedAt": "2026-11-28T08:17:28.000Z"
     }
   },
   "https://spartantwinkietravel.wordpress.com/": {
@@ -11221,15 +11221,15 @@
     }
   },
   "https://robmcminn.uk/": {
-    "lastPublished": "2026-11-26",
-    "lastChecked": "2026-11-26T08:44:33.187Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://robmcminn.uk/feed/",
     "latestArticle": {
-      "title": "Doomsday Book by Connie Willis—SO GOOD",
-      "url": "https://robmcminn.uk/2026/11/26/doomsday-book-by-connie-willis-so-good/",
-      "summary": "I am ashamed to admit that I bought this (long) SF novel in February 2021 (twenty-twenty-one) and only just got around to reading it. What is wrong with me that I would wait so long? Consider the cov…",
-      "publishedAt": "2026-11-26T08:04:48.000Z"
+      "title": "Get off my lawn",
+      "url": "https://robmcminn.uk/2026/11/28/get-off-my-lawn/",
+      "summary": "I took another post private this morning. When I do this, it’s either because something is annoying me or because I’m afraid people would be misled. Previously, it was an out of date and inexpert com…",
+      "publishedAt": "2026-11-28T08:17:12.000Z"
     }
   },
   "https://everydayshorts.wordpress.com/": {
@@ -11377,15 +11377,15 @@
     }
   },
   "https://justrojie.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T14:17:16.210Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://justrojie.com/feed/",
     "latestArticle": {
-      "title": "tx-ok 2026 part 3",
-      "url": "https://justrojie.com/tx-ok-2026-part-3/",
-      "summary": "LINK: tx-ok 2026 part 3 Preface: tx-ok 2026 part 2tx-ok 2026 part 1 After I woke up, we immediately went to Starbucks to get an Americano. I’m whatever about Starbucks but since I have nearly $75 in …",
-      "publishedAt": "2026-11-27T14:11:00.000Z"
+      "title": "anomalous",
+      "url": "https://justrojie.com/anomalous/",
+      "summary": "LINK: anomalous Currently listening to: Mask Off – Future Two cups (Cup), toast up with the gang (Gang, gang)From food stamps to a whole ‘nother domain, yaOut the bottom (Ye), I’m the livin’ proof (S…",
+      "publishedAt": "2026-11-28T08:19:00.000Z"
     }
   },
   "https://viewpointsunplugged.com/": {
@@ -11460,15 +11460,15 @@
     }
   },
   "https://morriganaensland.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T05:44:26.703Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://morriganaensland.com/feed/",
     "latestArticle": {
-      "title": "Lessons in Failure",
-      "url": "https://morriganaensland.com/2026/11/27/lessons-in-failure/",
-      "summary": "What’s the most important lesson a failure has ever taught you about yourself? View all responses You find out who your friends really are based on how they respond or behave when you are at your low…",
-      "publishedAt": "2026-11-27T05:44:16.000Z"
+      "title": "Unknown Book",
+      "url": "https://morriganaensland.com/2026/11/28/unknown-book/",
+      "summary": "Tell us about a book you love that almost no one knows abo. View all responses The Animals of Farthing Wood. It’s a book series I read after watching the kids’ TV show and it is seriously good. And t…",
+      "publishedAt": "2026-11-28T08:29:56.000Z"
     }
   },
   "https://rudyaaditya.com/": {
@@ -11627,15 +11627,15 @@
     }
   },
   "https://hubbymeadventures.wordpress.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T08:44:27.573Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://hubbymeadventures.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Happy moment",
-      "url": "https://hubbymeadventures.wordpress.com/2026/11/27/happy-moment/",
-      "summary": "What’s a small, everyday moment that makes you really happy? It’s the quiet little things like that split second when someone laughs and their eyes crinkle, or when sunlight slants through a window j…",
-      "publishedAt": "2026-11-27T05:06:02.000Z"
+      "title": "Tv",
+      "url": "https://hubbymeadventures.wordpress.com/2026/11/28/tv/",
+      "summary": "If you could turn any movie into a TV series, which one would it be? I’d pick The Devil Wears Prada it has so much more story to tell! We could dive deeper into the fashion world, see more of Andy’s …",
+      "publishedAt": "2026-11-28T07:50:05.000Z"
     }
   },
   "https://salsagadgets.com/": {
@@ -11710,15 +11710,15 @@
     }
   },
   "https://coconutislepublishing1982.wordpress.com/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T09:44:28.921Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://coconutislepublishing1982.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Leaving For Home",
-      "url": "https://coconutislepublishing1982.wordpress.com/2026/11/27/leaving-for-home/",
-      "summary": "What’s a small, everyday moment that makes you really happy? Going home from working all night. I especially love when its my weekend and I don’t have to deal with people at work. W.E. Hunt",
-      "publishedAt": "2026-11-27T09:46:21.000Z"
+      "title": "A Block Type Show",
+      "url": "https://coconutislepublishing1982.wordpress.com/2026/11/28/a-block-type-show/",
+      "summary": "If you could turn any movie into a TV series, which one would it be? I would say Minecraft movie into a tv show. It would work since the game has already has limitless stuff to do on it. Of course it…",
+      "publishedAt": "2026-11-28T08:30:25.000Z"
     }
   },
   "https://wordsandimagesbycynthia.com/": {
@@ -11960,15 +11960,15 @@
     }
   },
   "https://shotinthehead.business.blog/": {
-    "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T08:44:27.573Z",
+    "lastPublished": "2026-11-28",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://shotinthehead.business.blog/feed/",
     "latestArticle": {
-      "title": "This one:",
-      "url": "https://shotinthehead.business.blog/2026/11/27/this-one-2/",
-      "summary": "What’s a small, everyday moment that makes you really happy? There are many moments of the day that make me happy, such as drumming on Darcy. Then, singing a lyric I wrote. Writing lyrics in my noteb…",
-      "publishedAt": "2026-11-27T08:11:29.000Z"
+      "title": "This movie!",
+      "url": "https://shotinthehead.business.blog/2026/11/28/this-movie-2/",
+      "summary": "If you could turn any movie into a TV series, which one would it be?",
+      "publishedAt": "2026-11-28T07:46:53.000Z"
     }
   },
   "https://iamstillborednotes.wordpress.com/": {
@@ -12470,14 +12470,14 @@
   },
   "https://thezeegalaxy.wordpress.com/": {
     "lastPublished": "2026-11-28",
-    "lastChecked": "2026-11-28T02:44:27.204Z",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://thezeegalaxy.wordpress.com/feed/",
     "latestArticle": {
-      "title": "Boring",
-      "url": "https://thezeegalaxy.wordpress.com/2026/11/28/boring/",
-      "summary": "If you could turn any movie into a TV series, which one would it be? Idk, I don’t have an answer for this one. What a boring prompt.",
-      "publishedAt": "2026-11-28T01:57:51.000Z"
+      "title": "Ahem🙂‍↕️🙂‍↕️",
+      "url": "https://thezeegalaxy.wordpress.com/2026/11/28/ahem%f0%9f%99%82%e2%86%95%ef%b8%8f%f0%9f%99%82%e2%86%95%ef%b8%8f/",
+      "summary": "I have realised that my website is getting more about “me, and only me”. And guess what, I am loving it. Because from 0 to infinity and beyond, the efforts are mine. The weirdness is mine so why the …",
+      "publishedAt": "2026-11-28T08:12:29.000Z"
     }
   },
   "https://geofwrites.com/": {
@@ -12882,12 +12882,12 @@
   },
   "https://rogerwhiteside.com/": {
     "lastPublished": "2026-11-27",
-    "lastChecked": "2026-11-27T12:44:27.715Z",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://rogerwhiteside.com/feed/",
     "latestArticle": {
-      "url": "https://rogerwhiteside.com/2026/11/28/22697/",
-      "publishedAt": "2026-11-27T12:10:22.000Z"
+      "url": "https://rogerwhiteside.com/2026/11/28/22624/",
+      "publishedAt": "2026-11-27T12:04:33.000Z"
     }
   },
   "https://mysteriesbyrose.wordpress.com/": {
@@ -13641,14 +13641,14 @@
   },
   "https://cryptonews.mobile/": {
     "lastPublished": "2026-11-28",
-    "lastChecked": "2026-11-28T06:44:28.435Z",
+    "lastChecked": "2026-11-28T08:44:28.465Z",
     "status": "success",
     "feedUrl": "https://cryptonews.mobile/feed.xml",
     "latestArticle": {
-      "title": "OKX CEO denies $2 billion hack rumor after brief login glitches",
-      "url": "https://cryptonews.mobile/brief/okx-ceo-denies-2-billion-hack-rumor-after-brief-login-glitches",
-      "summary": "OKX CEO Star Xu dismissed a viral claim that hackers stole more than $2 billion from the exchange, calling it fake news. The rumor spread on social media after some users had brief login glitches. On…",
-      "publishedAt": "2026-11-28T06:07:07.000Z"
+      "title": "Bitcoin holds near $60K amid death cross and whale accumulation",
+      "url": "https://cryptonews.mobile/brief/bitcoin-holds-near-60k-amid-death-cross-and-whale-accumulation",
+      "summary": "Bitcoin traded near $60,000 after volatile price swings Friday, down from Wednesday's highs. A death cross formed on Bitcoin's chart as its 50-day average crossed below its 200-day average. Whale add…",
+      "publishedAt": "2026-11-28T08:32:38.000Z"
     }
   },
   "https://usefreetools.net/": {
